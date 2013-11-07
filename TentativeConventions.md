@@ -352,7 +352,7 @@ Branch tornado-kschur-branching set up to track remote branch u/aschilling/torna
 
 === Import patch from a local file ===
 
-Make sure that your file has the header data by an ``hg export``. If your patch is on your local computer at `/pathname/patchname.patch` then
+Make sure that your file has the header data by an `hg export`. If your patch is on your local computer at `/pathname/patchname.patch` then
 {{{
 $ sage --dev import-patch --local-file /pathname/patchname.patch
 }}}
