@@ -34,10 +34,16 @@ u/<myname>/<mystuff>
 === Trac with collaboration ===
 
 If you collaborate on a branch with others or have already a ticket number, then please put your branch on the
-public space and mark it as combinat
+public space and mark
+{{{
+public/ticket/<mystuff>
+}}}
+
+If the ticket is combinat related mark it (so it [[#searching|can be searched as such]]) as
 {{{
 public/combinat/<mystuff>
 }}}
+
 
 First, it should be noted that the name of a branch on your computer does not have to match the name of the (corresponding) branch on Trac. Git has the ability to keep track of a mapping between local branch names and remote branch names for convenience. However, some people prefer to keep the same name for local and remote branches, to avoid confusion. Now, the question is: what should you name your remote branches on Trac?
 
@@ -251,7 +257,7 @@ same names that you use on trac.
 <mystuff>
 }}}
 
-=== Naming and searching ===
+=== Naming and searching === #searching
 
 The branch name should be descriptive. If you have a ticket number (say 10305) that should be the first part of the name.
 The rest should describe what is in the branch, so people can easily search it
