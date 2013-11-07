@@ -59,19 +59,56 @@ There is also the following corollary:
 
 = First-time setup =
 
-How to get sage-git.
+There is some scattered documentation on how to install and configure the git version of Sage. For convenience, we compile all of the correct (as of November 7, 2013) steps here.
 
-Setup RSA keys (no linebreaks?)
+Sources:
+ * QuickStartSageGit
+ * [[http://sagemath.github.io/git-developer-guide/]]
 
-Talk about a sample `~/.gitconfig`.
-Talk about a sample `$SAGE_ROOT/.git/config`.
+== Step 1: make sure git is installed on your computer ==
+
+This step is different for different people, but is described in [[http://sagemath.github.io/git-developer-guide/git_setup.html|the git setup section of the new developer guide]]. Note that to use git with sage, you must always be somewhere in the sage tree (in `$SAGE_ROOT`, which may be something like `/opt/sage-git` on your computer) when running any `git ...` commands.
+
+== Step 2: tell Trac about your ssh key ==
+
+Follow the excellent directions at [[http://sagemath.github.io/git-developer-guide/trac.html#authentication|the authentication section of the new developer guide]] (everything starting at the heading "Authentication" and ending before the heading "Reporting bug"). This is necessary if you want to actually push your code changes to the Trac server using git.
+
+TODO:: something about avoiding linebreaks on the Trac page?
+
+== Step 3: clone the git repository from Trac ==
+
+Get a copy of the whole sage tree from the Trac server using git. In the following example, we are working in the `/tmp` directory, and we choose to put the sage tree in the `/tmp/sage-git` directory.
+{{{
+mguaypaq@chmmr:/tmp$ git clone git@trac.sagemath.org:sage.git sage-git
+Cloning into 'sage-git'...
+remote: Counting objects: 205444, done.
+remote: Compressing objects: 100% (36317/36317), done.
+remote: Total 205444 (delta 137341), reused 205055 (delta 137070)
+Receiving objects: 100% (205444/205444), 57.55 MiB | 11.18 MiB/s, done.
+Resolving deltas: 100% (137341/137341), done.
+mguaypaq@chmmr:/tmp$ cd sage-git
+mguaypaq@chmmr:/tmp/sage-git$ ls
+build  COPYING.txt  Makefile  README.txt  sage  src  VERSION.txt
+}}}
+
+Note for experts:: Actually, it is faster for the first time to clone the sage git repository using the `git://` protocol instead of the `ssh` protocol from `github.com` rather than `trac.sagemath.org`. This also has the upside that you can do it without setting up Trac authentication (Step 2). '''However''', the downside is that you will have to change your remote url later in your configuration.
+
+== Step 4: make sure your git configuration is correct ==
+
+TODO:: Talk about a sample `~/.gitconfig` and a sample `$SAGE_ROOT/.git/config`.
 
 {{{
 git remote set-url origin git@trac.sagemath.org:sage.git
 git config --global push.default upstream
 }}}
 
-Talk about make? Certainly mention that git should be run inside $SAGE_ROOT.
+== Step 5: install ccache to speed up future compilations ==
+
+TODO:: an example
+
+== Step 6: build sage and/or the sage documentation ==
+
+TODO:: Talk about make
 
 = Basic git commands =
 
