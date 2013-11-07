@@ -31,10 +31,19 @@ git remote set-url origin git@trac.sagemath.org:sage.git
 
 = Basic git commands =
 
-If you have a local branch on your personal computer that you would like to push to trac:
+If you have a local branch on your personal computer that you would like to push to trac, there are three options:
 {{{
+$ git push --set-upstream origin <mybranch>:u/<mytracname>/<mybranch>
 $ git push --set-upstream origin <mybranch>:public/combinat/<mybranch>
+$ git push --set-upstream origin <mybranch>:public/ticket/<ticketnumber>-<mybranch>
 }}}
+You would use the first one for code you personally work on. The second option is for collaborative code with other combinat people.
+If you already have a ticket number, use
+{{{
+$ git push --set-upstream origin <mybranch>:public/combinat/<ticketnumber>-<mybranch>
+}}}
+The third option is for tickets unrelated to combinat.
+
 The first time you pull a branch on trac onto your local computer (in the example you are pulling a branch called 10305-partition
 and are calling it <mybranch>; usually it might be good to use the same name):
 {{{
