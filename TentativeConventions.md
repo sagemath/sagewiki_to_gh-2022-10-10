@@ -1,5 +1,3 @@
-Here are some tentative workflow and naming conventions developed at 
-
 <<TableOfContents(1)>>
 
 TODO:
