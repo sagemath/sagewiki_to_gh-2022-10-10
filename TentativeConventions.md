@@ -110,8 +110,6 @@ git remote set-url origin git@trac.sagemath.org:sage.git
 git config --global push.default upstream
 }}}
 
-
----- /!\ '''Edit conflict - other version:''' ----
 == Step 5: install ccache to speed up future compilations ==
 
 TODO:: an example
@@ -120,19 +118,11 @@ TODO:: an example
 
 TODO:: Talk about make
 
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
+{{{
 git config --global push.default upstream
 }}}
 
 Talk about make? Certainly mention that git should be run inside $SAGE_ROOT.
-
----- /!\ '''End of edit conflict''' ----
 
 = Basic git commands =
 
