@@ -67,7 +67,7 @@ Coffee break at 11am
 
  * Minor Bug Fixes - Ben Hutz
 
- * MacCaulay Resultant - Patrick Ingram, Soli, Hao
+ * MacCaulay Resultant - Patrick Ingram, Soli Vishkautsan, Hao Chen 
 
  * Krum-Doyle Small Points Algorithm - David Krum, John Doyle
 
@@ -81,11 +81,11 @@ Coffee break at 11am
  
  * Eigen values - Vincent Delecroix , Ben Hutz
 
- * Is a morphism PCF - Holly Krieger, Adam Towsley 
+ * Is a morphism PCF - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz
 
  * Lattes map from an Elliptic Curve - 
 
- * Composition of Morphisms - Vincent Delecroix, Donald Richardson
+ * Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
 
 === Location ===
