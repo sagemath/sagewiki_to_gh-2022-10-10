@@ -38,9 +38,9 @@ $ git checkout master
 $ git pull --ff-only
 }}}
 
-=== Latest status of everything on Trac ===
+=== Latest status of everything on trac ===
 
-Getting the latest information about all the branches published on Trac
+Getting the latest information about all the branches published on trac
 {{{
 $ git remote update origin
 }}}
