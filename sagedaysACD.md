@@ -65,15 +65,25 @@ Coffee break at 11am
 
 === Projects ===
 
-The specific problems addressed at this workshop will be decided upon the interests of the participants. The following general topics are proposed:
+ * Minor Bug Fixes - Ben Hutz
 
- * Review any outstanding patches
+ * MacCaulay Resultant - 
 
- * Create tutorials
+ * Krum-Doyle Small Points Algorithm 
 
- * Implement existing algorithms
+ * Bruan-Molnar Algorithm into a patch - Adam Towsley, Brian Stout
 
- * Determine next steps
+ * Global height for integer fix and canonical heights for points in number fields - Paul Fili
+
+ * FMV Algorithm into a patch - Bianca Thompson 
+
+ * Review 14219 - 
+
+ * Is a morphism PCF - Holly Kruger
+
+ * Lattes map from an Elliptic Curve - 
+
+ * Composition of Morphisms - 
 
 
 === Location ===
