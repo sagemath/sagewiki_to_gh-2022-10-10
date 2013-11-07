@@ -50,9 +50,28 @@ public/combinat/10305-partition-tableaux
 Consistently using these naming conventions among all (sage-combinat) developers will make it easier to search for stuff.
 For example, trying to find all branches related to combinatorics can be found as follows
 {{{
-$ git ls-remote origin *combinat*
+$ git ls-remote origin '*combinat*'
 5feebdbfa73f64dafe28a5e4fe0144ab36083ab0	refs/heads/public/combinat/15361-branching-rules
 7f974aeb3446206c029ac047c31938d55d86e651	refs/heads/u/aschilling/combinat/kschur
+}}}
+If you want to see what a specific author did on trac within the last day, you do
+{{{
+$ git remote update origin
+$ git log --all --author="Bump" --since=1.day
+commit 5feebdbfa73f64dafe28a5e4fe0144ab36083ab0
+Author: Daniel Bump <bump@match.stanford.edu>
+Date:   Wed Nov 6 09:51:08 2013 -0800
+
+    get_branching_rule for F4=>B3 and G2=>A1 should return vectors of the correct length
+}}}
+Checking how the ticket branches of author mguaypaq differ from main sage (or origin/master) try
+{{{
+$ git log --remotes='origin/u/mguaypaq/ticket/*' ^origin/master --oneline
+1c7458a #15300: Implement Weyl and Clifford algebras.
+fb33147 Merge branch 'master' into ticket/10305
+405178b Remove extra chunk from farahat_higman.py and fix related formatting issues.
+25ff1fd Split off SymmetricGroupAlgebraCenter to its own file.
+9b72574 Add rings for the center of the symmetric group algebras.
 }}}
 
 = Example workflow =
