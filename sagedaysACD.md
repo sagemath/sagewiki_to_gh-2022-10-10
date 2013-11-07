@@ -85,7 +85,7 @@ Coffee break at 11am
 
  * Lattes map from an Elliptic Curve - 
 
- * Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
+ * Composition of Morphisms ([[http://trac.sagemath.org/ticket/15378|#15378]]) - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
 
 === Location ===
