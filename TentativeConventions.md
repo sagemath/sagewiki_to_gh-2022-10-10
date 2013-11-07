@@ -24,6 +24,21 @@ Since this is confusing, let's say it again: Trac refers to the url `trac.sagema
 
 == What should I name my branch on Trac? ==
 
+=== Trac with single author ===
+
+If you are working on a branch yourself, then it is best to put your patches on trac in your personal space
+{{{
+u/<myname>/<mystuff>
+}}}
+
+=== Trac with collaboration ===
+
+If you collaborate on a branch with others or have already a ticket number, then please put your branch on the
+public space and mark it as combinat
+{{{
+public/combinat/<mystuff>
+}}}
+
 First, it should be noted that the name of a branch on your computer does not have to match the name of the (corresponding) branch on Trac. Git has the ability to keep track of a mapping between local branch names and remote branch names for convenience. However, some people prefer to keep the same name for local and remote branches, to avoid confusion. Now, the question is: what should you name your remote branches on Trac?
 
 This is mainly important because different people have different permission for reading and writing branches on Trac:
@@ -234,21 +249,6 @@ On your local machine you can call your branches however you like. However, it m
 same names that you use on trac.
 {{{
 <mystuff>
-}}}
-
-=== Trac with single author ===
-
-If you are working on a branch yourself, then it is best to put your patches on trac in your personal space
-{{{
-u/<myname>/<mystuff>
-}}}
-
-=== Trac with collaboration ===
-
-If you collaborate on a branch with others or have already a ticket number, then please put your branch on the
-public space and mark it as combinat
-{{{
-public/combinat/<mystuff>
 }}}
 
 === Naming and searching ===
