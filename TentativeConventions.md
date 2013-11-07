@@ -105,6 +105,11 @@ To delete a remote branch:
 {{{
 $ git push origin :u/aschilling/<something>
 }}}
+The syntax here may look confusing, so here is a little explanation: it is actually a special case of the syntax
+{{{
+$ git push origin <localbranch>:<remotebranch>
+}}}
+which updates `<remotebranch>` on the remote server to be the same as `<localbranch>`. To delete a branch, we make `<remotebranch>` be completely blank.
 
 If you accidentally edited master and want to undo your change
 {{{
