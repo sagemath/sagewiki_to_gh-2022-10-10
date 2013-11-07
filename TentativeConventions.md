@@ -30,7 +30,7 @@ git remote set-url origin git@trac.sagemath.org:sage.git
 
 = Basic git commands =
 
-== Latest version of Sage itself ==
+=== Latest version of Sage itself ===
 
 Getting the latest version of Sage
 {{{
@@ -38,14 +38,14 @@ $ git checkout master
 $ git pull --ff-only
 }}}
 
-== Latest status of everything on Trac ==
+=== Latest status of everything on Trac ===
 
 Getting the latest information about all the branches published on Trac
 {{{
 $ git remote update origin
 }}}
 
-== Pushing and pulling branches to and from trac ==
+=== Pushing and pulling branches to and from trac ===
 
 If you have a local branch on your personal computer that you would like to push to trac, there are three options:
 {{{
@@ -93,7 +93,7 @@ $ git commit -a -m '<some message>'
 $ git push
 }}}
 
-== Deleting branches ==
+=== Deleting branches ===
 
 If you want to delete a local branch:
 {{{
@@ -117,7 +117,7 @@ $ git push origin <localbranch>:<remotebranch>
 }}}
 which updates `<remotebranch>` on the remote server to be the same as `<localbranch>`. To delete a branch, we make `<remotebranch>` be completely blank.
 
-== Resetting unwanted changes ==
+=== Resetting unwanted changes ===
 
 If you accidentally edited master and want to undo your change
 {{{
