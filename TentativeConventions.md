@@ -10,7 +10,31 @@ Here are some tentative workflow and naming conventions developed at [[days54|Sa
 
 Currently, the dev scripts are in a state of flux, and it's easy for a user to get their sage tree into a state where the dev scripts are not working properly, or not working at all. The situation will eventually stabilize, and at that point the scripts will be reliable in addition to being useful. Until then, it's important to know how to work with git directly.
 
-== Some necessary (but not sufficient) conditions for branch naming conventions ==
+== What is a git branch? ==
+
+In the git model (see [[http://eagain.net/articles/git-for-computer-scientists/|Git for computer scientists]] for a nice description), there is a history graph (that is, a directed acyclic graph), which contains every change to the sage code together with descriptions of these changes. A node in this graph is called a "commit", and in general the history graph only ever grows (gets more nodes/commits). A "branch" is just a movable label to a particular point in the history graph. We think of a branch as pointing to a particular commit, together with all of its ancestors in the history graph.
+
+== What should I name my branch on Trac? ==
+
+First, it should be noted that the name of a branch on your computer does not have to match the name of the (corresponding) branch on Trac. Git has the ability to keep track of a mapping between local branch names and remote branch names for convenience. However, some people prefer to keep the same name for local and remote branches, to avoid confusion. Now, the question is: what should you name your remote branches on Trac?
+
+This is mainly important because different people have different permission for reading and writing branches on Trac:
+ * Everyone can see/read everyone else's branches on Trac.
+ * Everyone can create/move/write any branch named `public/<whatever>`, where `<whatever>` is (almost) any string. We may refer to these branches as being in the Trac "public" space.
+ * The user `mguaypaq` can create/move/write any branch named `u/mguaypaq/<whatever>`. No one else can do this. We may refer to these branches as being in a Trac "user" space.
+ * However, any user can take any branch named `u/mguaypaq/<whatever>` and create a copy of it in the "public" space or in their own "user" space.
+
+Given this, the discussions at Sage Days 54 settled on some suggestions:
+ * In your user space, feel free to call your branches `u/<username>/<whatever>`, where `<username>` is your user name, and `<whatever>` is practically any string, including characters like `/-_`.
+ * If your branch is related to combinat, feel free to call it `public/combinat/<ticket>-<whatever>` or `public/combinat/<whatever>`, where `<ticket>` is the associated Trac ticket, if applicable, and `<whatever>` may be a description and may contain keywords like `partitions` or `tableaux`.
+ * If your branch corresponds to a non-combinat ticket, a good default name would be `public/ticket/<ticket>-<whatever>`, like `public/ticket/10305-farahat-higman`.
+
+These conventions make it easy to:
+ * Browse through the list of all branches on Trac (or all combinat branches) and get an idea of what is there.
+ * Search through the list of all branches on Trac (or all combinat branches) using grep or other automated tools.
+ * Find the corresponding Trac tickets easily.
+
+== If a branch is on Trac, who does it belong to? ==
 
 Suppose Alice creates a branch `aardvarks` starting from `origin/master`. Then Bob sees this and creates a further branch `bowling` starting from the branch `aardvarks`. Later, Alice decides (whether rightly or wrongly) to rebase the branch `aardvarks` on a more recent version of `origin/master`, without consulting Bob. This creates a conflict between the new history of `aardvarks` and the current history of `bowling`. Who is now responsible for fixing the conflict? (See RebaseVsMerge for more details about this situation.)
 
