@@ -14,6 +14,12 @@ Currently, the dev scripts are in a state of flux, and it's easy for a user to g
 
 In the git model (see [[http://eagain.net/articles/git-for-computer-scientists/|Git for computer scientists]] for a nice description), there is a history graph (that is, a directed acyclic graph), which contains every change to the sage code together with descriptions of these changes. A node in this graph is called a "commit", and in general the history graph only ever grows (gets more nodes/commits). A "branch" is just a movable label to a particular point in the history graph. We think of a branch as pointing to a particular commit, together with all of its ancestors in the history graph.
 
+
+== What is Trac? ==
+
+Trac is the server that acts as the git repository (it is also refers to the ticket manager).  The identifier `origin` always refers to Trac.
+
+
 == What should I name my branch on Trac? ==
 
 First, it should be noted that the name of a branch on your computer does not have to match the name of the (corresponding) branch on Trac. Git has the ability to keep track of a mapping between local branch names and remote branch names for convenience. However, some people prefer to keep the same name for local and remote branches, to avoid confusion. Now, the question is: what should you name your remote branches on Trac?
@@ -102,6 +108,8 @@ git remote set-url origin git@trac.sagemath.org:sage.git
 git config --global push.default upstream
 }}}
 
+
+---- /!\ '''Edit conflict - other version:''' ----
 == Step 5: install ccache to speed up future compilations ==
 
 TODO:: an example
@@ -109,6 +117,20 @@ TODO:: an example
 == Step 6: build sage and/or the sage documentation ==
 
 TODO:: Talk about make
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
+
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+git config --global push.default upstream
+}}}
+
+Talk about make? Certainly mention that git should be run inside $SAGE_ROOT.
+
+---- /!\ '''End of edit conflict''' ----
 
 = Basic git commands =
 
