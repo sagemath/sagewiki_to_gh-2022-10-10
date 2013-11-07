@@ -31,6 +31,16 @@ git remote set-url origin git@trac.sagemath.org:sage.git
 
 = Basic git commands =
 
+== Latest version of Sage ==
+
+Getting the latest version of Sage
+{{{
+$ git checkout master
+$ git pull --ff-only
+}}}
+
+== Pushing and pulling branches to and from trac ==
+
 If you have a local branch on your personal computer that you would like to push to trac, there are three options:
 {{{
 $ git push --set-upstream origin <mybranch>:u/<mytracname>/<mybranch>
@@ -77,13 +87,9 @@ $ git commit -a -m '<some message>'
 $ git push
 }}}
 
-Getting the latest version of Sage
-{{{
-$ git checkout master
-$ git pull --ff-only
-}}}
+== Deleting branches ==
 
-If you want to delete a branch:
+If you want to delete a local branch:
 {{{
 $ git checkout <somethingelse>
 $ git branch -d <mybranch>
