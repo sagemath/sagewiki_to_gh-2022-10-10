@@ -137,7 +137,7 @@ $ git commit -a -m '<some message>'
 $ git push
 }}}
 
-the `git fetch` command downloads a list of latest commits for the branch you are on, it does not change the state of your local branch.  The command `get merge FETCH_HEAD` updates your branch to the latest version of the branch on Trac.
+the `git fetch` command downloads a list of latest commits for the branch you are on, it does not change the state of your local branch.  The command `git merge FETCH_HEAD` updates your branch to the latest version of the branch on Trac.
 
 === Deleting branches ===
 
