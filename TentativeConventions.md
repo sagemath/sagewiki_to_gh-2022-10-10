@@ -44,7 +44,7 @@ $ git push --set-upstream origin <mybranch>:public/combinat/<ticketnumber>-<mybr
 }}}
 The third option is for tickets unrelated to combinat.
 
-The first time you pull a branch on trac onto your local computer (in the example you are pulling a branch called 10305-partition
+The first time you pull a branch from trac onto your local computer (in the example you are pulling a branch called 10305-partition
 and are calling it <mybranch>; usually it might be good to use the same name):
 {{{
 $ git remote update origin
