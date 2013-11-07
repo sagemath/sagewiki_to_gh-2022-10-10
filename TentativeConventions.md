@@ -32,6 +32,23 @@ and are calling it <mybranch>; usually it might be good to use the same name):
 $ git remote update origin
 $ git checkout -b <mybranch> origin/public/ticket/10305-partition
 }}}
+After the initial pull or push, this is the workflow to push your local changes to trac:
+{{{
+$ git checkout <mybranch>
+$ git pull
+$git push
+}}}
+If you want to delete a branch:
+{{{
+$ git checkout <somethingelse>
+$ git branch -d mybranch
+}}}
+This might complain if you are trying to delete a branch that has not been merged yet. If nonetheless you would like
+to delete it, try a hard delete:
+{{{
+$ git branch -D mybranch
+}}}
+Even in a hard delete this can be undone in the next 30 days (before the commits get garbage collected).
 
 = Branch naming conventions =
 
