@@ -1,3 +1,5 @@
+This page describes a hypothetical situation that could arise with the sage git workflow, as discussed on TentativeConventions and at [[days54|Sage Days 54]].
+
 = Why can rebasing cause problems? =
 
 Consider the following scenario, and the accompanying ascii art diagrams:
