@@ -9,7 +9,18 @@ TODO:
 
 = Abstract =
 
+Here are some tentative workflow and naming conventions developed at [[days54|Sage Days 54]], together with some FAQs about using git.
+
 = Rationale =
+
+ * Currently, the dev scripts are in a state of flux, and it's easy for a user to get their sage tree into a state where they are not working properly, or not working at all. They will eventually stabilize, and at that point they will be reliable in addition to being useful. Until then, it's important to know how to work with git directly.
+ * As noted by [[http://www.mail-archive.com/dri-devel@lists.sourceforge.net/msg39091.html|Linus on the meaning of "clean history"]], it's important to make a distinction between which parts of the development history are private to a single user, and which parts are considered public.
+   * If a branch in the git tree is "private" to a single user, then they are free to experiment, merge many unrelated changes together, rebase things around, or simply abandon code. The compromise is that other users should '''not''' use such a "private" branch as the basis for developing their own code. If another user does this anyway, then the onus is on them to fix whatever merging problems (or rejections from the release manager) happen down the line. Of course, one way to fix this is to simply communicate (say by email) with the "owner" of the branch and work out an agreement.
+   * Conversely, if a branch in the git tree is considered "public", then other people are justified in using it as the basis for developing their own code (provided that they accept the dependency this creates). At this point, the "public" branch should only ever be modified in a fast-forward way. Note that this still allows "undoing changes" in a way that preserves the public history, for example by using `git revert`.
+   * If a user has a local branch on their own machine, of course that is "private".
+   * Even though branches on Trac are world-visible, it would be useful to be able to use Trac as a kind of Dropbox for "private" sage branches. It seems that the natural place for this would be the "user" set of branches (which are named like `u/[username]/[whatever]`, e.g., `u/mguaypaq/farahat-higman`).
+   * Once a branch is listed on a Trac ticket, it should definitely be considered "public".
+   * It's ok for the "branch" field on a Trac ticket to change once or twice, but any workflow that requires changing this field very frequently is probably doing something wrong. The "branch" field should say what the "official" version of the work on the ticket is, and the easiest way to let people work on this is to have it be in the "public" set of branches (which are named like `public/[whatever]`, e.g., `public/ticket/10305-farahat-higman` or `public/combinat/15361-branching-rules`).
 
 = First-time setup =
 
