@@ -2,17 +2,17 @@
 
 Consider the following scenario, and the accompanying ascii art diagrams:
 
- 1. Sage development happens, and the `origin/master` branch gets to a certain commit `M`.
+ * Sage development happens, and the `origin/master` branch gets to a certain commit `M`.
 {{{
 ---K---L---M  <-(origin/master)
 }}}
- 1. Developer Alice comes along and decides to work on a new feature, say `aardvarks`, starting from the current official `origin/master` branch.
+ * Developer Alice comes along and decides to work on a new feature, say `aardvarks`, starting from the current official `origin/master` branch.
 {{{
 ---K---L---M  <-(origin/master)
             \
              --A---B---C  <-(aardvarks)
 }}}
- 1. Developer Bob sees that the `aardvarks` feature looks nice, and starts work on a new feature, say `bowling`, which depends on `aardvarks`.
+ * Developer Bob sees that the `aardvarks` feature looks nice, and starts work on a new feature, say `bowling`, which depends on `aardvarks`.
 {{{
 ---K---L---M  <-(origin/master)
             \
@@ -20,7 +20,7 @@ Consider the following scenario, and the accompanying ascii art diagrams:
                         \
                          --X---Y---Z  <-(bowling)
 }}}
- 1. Sage development continues, and some other features are merged meanwhile into `origin/master`.
+ * Sage development continues, and some other features are merged meanwhile into `origin/master`.
 {{{
 ---K---L---M---P---Q---R---S---T  <-(origin/master)
             \
@@ -28,7 +28,7 @@ Consider the following scenario, and the accompanying ascii art diagrams:
                         \
                          --X---Y---Z  <-(bowling)
 }}}
- 1. Alice doesn't know about Bob's `bowling` feature, and thinks (correctly or not) that it would be better if the `aardvarks` feature was based on the latest official `origin/master`, that is commit `T`, instead of commit `M`. Instead of merging commit `T` into the `aardvarks` branch, Alice does a rebase. This creates a new history `A2--B2--C2` based at `T` instead of the original `A---B---C` based at `M`.
+ * Alice doesn't know about Bob's `bowling` feature, and thinks (correctly or not) that it would be better if the `aardvarks` feature was based on the latest official `origin/master`, that is commit `T`, instead of commit `M`. Instead of merging commit `T` into the `aardvarks` branch, Alice does a rebase. This creates a new history `A2--B2--C2` based at `T` instead of the original `A---B---C` based at `M`.
 {{{
 ---K---L---M---P---Q---R---S---T  <-(origin/master)
             \                   \
@@ -38,7 +38,7 @@ Consider the following scenario, and the accompanying ascii art diagrams:
                         \
                          --X---Y---Z  <-(bowling)
 }}}
- 1. The `aardvarks` feature is ready and has a positive review, so it is merged into the official `origin/master`.
+ * The `aardvarks` feature is ready and has a positive review, so it is merged into the official `origin/master`.
 {{{
 ---K---L---M---P---Q---R---S---T----------------U  <-(origin/master)
             \                   \              /
@@ -48,7 +48,7 @@ Consider the following scenario, and the accompanying ascii art diagrams:
                         \
                          --X---Y---Z  <-(bowling)
 }}}
- 1. The `bowling` feature is ready and has a positive review, so it is merged into the official `origin/master`. However, at this point the commits `A---B---C` create a merge conflict with the seemingly identical commits `A2--B2--C2`. They are only seemingly identical, because they don't appear at the same location in the git tree (they have different parents). However, of course they touch the same code files, and in the same regions too.
+ * The `bowling` feature is ready and has a positive review, so it is merged into the official `origin/master`. However, at this point the commits `A---B---C` create a merge conflict with the seemingly identical commits `A2--B2--C2`. They are only seemingly identical, because they don't appear at the same location in the git tree (they have different parents). However, of course they touch the same code files, and in the same regions too.
 {{{
 ---K---L---M---P---Q---R---S---T----------------U---*  <-(origin/master)
             \                   \              /   /
@@ -70,7 +70,7 @@ So, the central question is, when does the `aardvarks` branch change from belong
 
 Here is what would happen in the scenario above if Alice merged instead of rebasing:
 
- 1. The story is the same until Sage development gets to the commit `T`.
+ * The story is the same until Sage development gets to the commit `T`.
 {{{
 ---K---L---M---P---Q---R---S---T  <-(origin/master)
             \
@@ -78,7 +78,7 @@ Here is what would happen in the scenario above if Alice merged instead of rebas
                         \
                          --X---Y---Z  <-(bowling)
 }}}
- 1. Alice doesn't know about Bob's `bowling` feature, but still wants `aardvarks` to incorporate the latest official `origin/master`, that is commit `T`, instead of commit `M`. Alice merges `T` into the `aardvarks` branch.
+ * Alice doesn't know about Bob's `bowling` feature, but still wants `aardvarks` to incorporate the latest official `origin/master`, that is commit `T`, instead of commit `M`. Alice merges `T` into the `aardvarks` branch.
 {{{
 ---K---L---M---P---Q---R---S---T  <-(origin/master)
             \                   \
@@ -86,7 +86,7 @@ Here is what would happen in the scenario above if Alice merged instead of rebas
                         \
                          --X---Y---Z  <-(bowling)
 }}}
- 1. The `aardvarks` feature is ready and has a positive review, so it is merged into the official `origin/master`. Any merge conflicts were resolved in the commit `D`, so this is a clean merge.
+ * The `aardvarks` feature is ready and has a positive review, so it is merged into the official `origin/master`. Any merge conflicts were resolved in the commit `D`, so this is a clean merge.
 {{{
 ---K---L---M---P---Q---R---S---T---U  <-(origin/master)
             \                   \ /
@@ -94,7 +94,7 @@ Here is what would happen in the scenario above if Alice merged instead of rebas
                         \
                          --X---Y---Z  <-(bowling)
 }}}
- 1. The `bowling` feature is ready and has a positive review, so it is merged into the official `origin/master`. At this point, the commits `A---B---C` are in the common history of `U` and `Z`, so there is no conflict there. If `X---Y---Z` and `D` do not introduce a further conflict, the merge into `V` is a clean merge.
+ * The `bowling` feature is ready and has a positive review, so it is merged into the official `origin/master`. At this point, the commits `A---B---C` are in the common history of `U` and `Z`, so there is no conflict there. If `X---Y---Z` and `D` do not introduce a further conflict, the merge into `V` is a clean merge.
 {{{
 ---K---L---M---P---Q---R---S---T---U---V  <-(origin/master)
             \                   \ /   /
