@@ -191,3 +191,5 @@ kschur-as.patch # git:u/aschilling/combinat/kschur
 }}}
 
 = References =
+
+ * [[http://www.mail-archive.com/dri-devel@lists.sourceforge.net/msg39091.html|Linus on the meaning of "clean history"]]
