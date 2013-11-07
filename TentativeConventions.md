@@ -31,12 +31,19 @@ git remote set-url origin git@trac.sagemath.org:sage.git
 
 = Basic git commands =
 
-== Latest version of Sage ==
+== Latest version of Sage itself ==
 
 Getting the latest version of Sage
 {{{
 $ git checkout master
 $ git pull --ff-only
+}}}
+
+== Latest status of everything on Trac ==
+
+Getting the latest information about all the branches published on Trac
+{{{
+$ git remote update origin
 }}}
 
 == Pushing and pulling branches to and from trac ==
@@ -110,6 +117,8 @@ The syntax here may look confusing, so here is a little explanation: it is actua
 $ git push origin <localbranch>:<remotebranch>
 }}}
 which updates `<remotebranch>` on the remote server to be the same as `<localbranch>`. To delete a branch, we make `<remotebranch>` be completely blank.
+
+== Resetting unwanted changes ==
 
 If you accidentally edited master and want to undo your change
 {{{
