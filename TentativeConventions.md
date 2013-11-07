@@ -238,7 +238,7 @@ The syntax here may look confusing, so here is a little explanation: it is actua
 {{{
 $ git push origin <localbranch>:<remotebranch>
 }}}
-which updates `<remotebranch>` on the remote server to be the same as `<localbranch>`. To delete a branch, we make `<remotebranch>` be completely blank.
+which updates `<remotebranch>` on the remote server to be the same as `<localbranch>`. To delete a branch, we make `<localbranch>` be completely blank and push it onto `<remotebranch>`.
 
 === Resetting unwanted changes ===
 
