@@ -65,7 +65,7 @@ Coffee break at 11am
 
 === Projects ===
 
- * Minor Bug Fixes - Ben Hutz
+ * Minor Bug Fixes - Ben Hutz - #15377 - improve documentation of normalize_coordinates()
 
  * MacCaulay Resultant - Patrick Ingram, Soli Vishkautsan, Hao Chen 
 
