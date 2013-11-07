@@ -99,10 +99,7 @@ Here are some useful links:
 
 ==== Useful commands ====
 
- * `git pull --ff-only origin master`
- * `git reset --hard origin/master`
  * `sage -f -git` fixes `sage --dev` sometimes
- * `sage -git remote set-url origin git@trac.sagemath.org:sage.git`
 
 === Location ===
 
