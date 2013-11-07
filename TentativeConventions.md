@@ -242,6 +242,19 @@ Branch tornado-kschur-branching set up to track remote branch u/aschilling/torna
 
 = Moving a ticket from patches to git =
 
+=== Import patch from a local file ===
+
+if your patch is on your local computer at `/pathname/patchname.patch`
+{{{
+$ sage --dev import-patch --local-file /pathname/patchname.patch
+}}}
+
+if your patch is on trac or on the internet at a url
+{{{
+$ sage --dev import-patch --url http://trac.sagemath.org/raw-attachment/ticket/12345/trac_12345-patchname.patch
+}}}
+
+
 = Moving a patch from the combinat queue to git =
 
 All patches in the queue will soon be merged from the sage-combinat queue to git branches on trac.
