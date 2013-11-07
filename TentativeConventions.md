@@ -17,7 +17,9 @@ In the git model (see [[http://eagain.net/articles/git-for-computer-scientists/|
 
 == What is Trac? ==
 
-Trac is the server that acts as the git repository (it is also refers to the ticket manager).  The identifier `origin` always refers to Trac.
+Trac is the server that acts as the git repository (it is also refers to the ticket manager).  In this document the identifier `origin` always refers to Trac.
+
+Since this is confusing, let's say it again: Trac refers to the url `trac.sagemath.org`, which runs two services, namely a git repository (this is our main concern in this document), and a ticket tracker (which is only a secondary concern in this document).
 
 
 == What should I name my branch on Trac? ==
