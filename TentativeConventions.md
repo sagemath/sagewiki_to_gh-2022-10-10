@@ -1,4 +1,4 @@
-<<TableOfContents(1)>>
+<<TableOfContents(2)>>
 
 = Abstract =
 
@@ -62,7 +62,7 @@ There is also the following corollary:
 There is some scattered documentation on how to install and configure the git version of Sage. For convenience, we compile all of the correct (as of November 7, 2013) steps here.
 
 Sources:
- * QuickStartSageGit
+ * [[http://trac.sagemath.org/wiki/QuickStartSageGit]]
  * [[http://sagemath.github.io/git-developer-guide/]]
 
 == Step 1: make sure git is installed on your computer ==
