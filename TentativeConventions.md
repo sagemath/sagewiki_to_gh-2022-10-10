@@ -129,12 +129,6 @@ If you do not care about the changes you can do a hard reset
 $ git reset --hard origin/master
 }}}
 
-Accidentally work on master, want to save it:
-git branch -m master mybranch
-git branch master origin/master
-
-git checkout -b combinat/kschur master
-
 = Branch naming conventions =
 
  * On your local machine you can call your branches however you like. However, it might be useful to use the
