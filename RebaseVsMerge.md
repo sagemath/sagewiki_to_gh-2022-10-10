@@ -1,6 +1,74 @@
-== What happens with merging instead of rebasing? ==
+= Why can rebasing cause problems? =
 
-As an aside, here is what would happen in the scenario above if Alice merged instead of rebasing:
+Consider the following scenario, and the accompanying ascii art diagrams:
+
+ 1. Sage development happens, and the `origin/master` branch gets to a certain commit `M`.
+{{{
+---K---L---M  <-(origin/master)
+}}}
+ 1. Developer Alice comes along and decides to work on a new feature, say `aardvarks`, starting from the current official `origin/master` branch.
+{{{
+---K---L---M  <-(origin/master)
+            \
+             --A---B---C  <-(aardvarks)
+}}}
+ 1. Developer Bob sees that the `aardvarks` feature looks nice, and starts work on a new feature, say `bowling`, which depends on `aardvarks`.
+{{{
+---K---L---M  <-(origin/master)
+            \
+             --A---B---C  <-(aardvarks)
+                        \
+                         --X---Y---Z  <-(bowling)
+}}}
+ 1. Sage development continues, and some other features are merged meanwhile into `origin/master`.
+{{{
+---K---L---M---P---Q---R---S---T  <-(origin/master)
+            \
+             --A---B---C  <-(aardvarks)
+                        \
+                         --X---Y---Z  <-(bowling)
+}}}
+ 1. Alice doesn't know about Bob's `bowling` feature, and thinks (correctly or not) that it would be better if the `aardvarks` feature was based on the latest official `origin/master`, that is commit `T`, instead of commit `M`. Instead of merging commit `T` into the `aardvarks` branch, Alice does a rebase. This creates a new history `A2--B2--C2` based at `T` instead of the original `A---B---C` based at `M`.
+{{{
+---K---L---M---P---Q---R---S---T  <-(origin/master)
+            \                   \
+             \                   --A2--B2--C2  <-(aardvarks)
+              \
+               A---B---C
+                        \
+                         --X---Y---Z  <-(bowling)
+}}}
+ 1. The `aardvarks` feature is ready and has a positive review, so it is merged into the official `origin/master`.
+{{{
+---K---L---M---P---Q---R---S---T----------------U  <-(origin/master)
+            \                   \              /
+             \                   --A2--B2--C2--  <-(aardvarks)
+              \
+               A---B---C
+                        \
+                         --X---Y---Z  <-(bowling)
+}}}
+ 1. The `bowling` feature is ready and has a positive review, so it is merged into the official `origin/master`. However, at this point the commits `A---B---C` create a merge conflict with the seemingly identical commits `A2--B2--C2`. They are only seemingly identical, because they don't appear at the same location in the git tree (they have different parents). However, of course they touch the same code files, and in the same regions too.
+{{{
+---K---L---M---P---Q---R---S---T----------------U---*  <-(origin/master)
+            \                   \              /   /
+             \                   --A2--B2--C2--   /    <-(aardvarks)
+              \                                  /
+               A---B---C                        /
+                        \                      /
+                         --X---Y---Z-----------  <-(bowling)
+}}}
+
+Now, there is a problem, because the `bowling` code does not merge cleanly into the official `origin/master` branch. Regardless of who is right or wrong, this needs to be fixed before the positively reviewed `bowling` branch can be merged into `origin/master`. The question here is: whose responsibility is it to fix the problem?
+
+ * If the commits `A---B---C` in the `aardvarks` branch were marked as belonging to Alice only, then Bob could foresee the possibility that Alice messes with these commits (in the example, by rebasing them), so Bob should be responsible for fixing the mess created by basing his work on someone else's unstable work-in-progress.
+ * If the commits `A---B---C` were marked as belonging to the whole community, then Alice could foresee that other may use the code (even if she doesn't see it on Trac yet), so Alice should be responsible for fixing the mess created by changing what the community saw as stable (even if it was pre-review) history of code on the server.
+
+So, the central question is, when does the `aardvarks` branch change from belonging to Alice only, to belonging to the whole community?
+
+= What happens with merging instead of rebasing? =
+
+Here is what would happen in the scenario above if Alice merged instead of rebasing:
 
  1. The story is the same until Sage development gets to the commit `T`.
 {{{
