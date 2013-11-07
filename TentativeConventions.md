@@ -62,9 +62,18 @@ If there are big changes, you can use these commands:
 {{{
 $ git checkout <mybranch>
 $ git pull --ff-only
-* git complains *
+*git complains*
 $ git fetch
-$ git merge
+$ git merge FETCH_HEAD
+...
+*resolve any merge conflicts*
+...
+$ git status
+...
+*some output???*
+...
+$ git commit -a -m '<some message>'
+$ git push
 }}}
 
 Getting the latest version of Sage
