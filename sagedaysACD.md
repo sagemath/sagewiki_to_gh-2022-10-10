@@ -67,23 +67,25 @@ Coffee break at 11am
 
  * Minor Bug Fixes - Ben Hutz
 
- * MacCaulay Resultant - 
+ * MacCaulay Resultant - Patrick Ingram, Soli, Hao
 
- * Krum-Doyle Small Points Algorithm 
+ * Krum-Doyle Small Points Algorithm - David Krum, John Doyle
 
- * Bruan-Molnar Algorithm into a patch - Adam Towsley, Brian Stout
+ * Bruan-Molnar Algorithm into a patch - Adam Towsley, Brian Stout, Holly Krieger
 
  * Global height for integer fix and canonical heights for points in number fields - Paul Fili
 
- * FMV Algorithm into a patch - Bianca Thompson 
+ * FMV Algorithm into a patch - Bianca Thompson, Ben Hutz, Joao Faria
 
- * Review 14219 - 
+ * Review 14219 - Adam Towsley, Vincent Delecroix
+ 
+ * Eigen values - Vincent Delecroix , Ben Hutz
 
- * Is a morphism PCF - Holly Kruger
+ * Is a morphism PCF - Holly Krieger, Adam Towsley 
 
  * Lattes map from an Elliptic Curve - 
 
- * Composition of Morphisms - 
+ * Composition of Morphisms - Vincent Delecroix, Donald Richardson
 
 
 === Location ===
