@@ -188,6 +188,16 @@ fb33147 Merge branch 'master' into ticket/10305
 9b72574 Add rings for the center of the symmetric group algebras.
 }}}
 
+=== Tornado branches ===
+
+Sometimes you might want to share certain features that are not yet in main-sage with a collaborator
+who is not a developer. Suppose these features are in two different branches A and B on trac.
+Then you can create a tornado branch by merging the two. Note, that you want to make sure that
+other developers will not base other code on those, so please label them as tornado branches!
+{{{
+$ git
+}}}
+
 = Example workflow =
 
 = Moving a ticket from patches to git =
