@@ -35,20 +35,50 @@ $ git checkout -b <mybranch> origin/public/ticket/10305-partition
 After the initial pull or push, this is the workflow to push your local changes to trac:
 {{{
 $ git checkout <mybranch>
-$ git pull
-$git push
+$ git pull --ff-only
+$ git push
 }}}
+The option --ff-only for the pull command makes sure that if there are big merge conflicts with the
+new changes on trac, you can handle them manually without messing up your entire branch and your local changes.
+
+Getting the latest version of Sage
+{{{
+$ git checkout master
+$ git pull --ff-only
+}}}
+
 If you want to delete a branch:
 {{{
 $ git checkout <somethingelse>
-$ git branch -d mybranch
+$ git branch -d <mybranch>
 }}}
 This might complain if you are trying to delete a branch that has not been merged yet. If nonetheless you would like
 to delete it, try a hard delete:
 {{{
-$ git branch -D mybranch
+$ git branch -D <mybranch>
 }}}
 Even in a hard delete this can be undone in the next 30 days (before the commits get garbage collected).
+
+To delete a remote branch:
+{{{
+$ git push origin :u/aschilling/<something>
+}}}
+
+If you accidentally edited master and want to undo your change
+{{{
+$ git branch -m master <mybranch>
+$ git branch master origin/master
+}}}
+If you do not care about the changes you can do a hard reset
+{{{
+$ git reset --hard origin/master
+}}}
+
+Accidentally work on master, want to save it:
+git branch -m master mybranch
+git branch master origin/master
+
+git checkout -b combinat/kschur master
 
 = Branch naming conventions =
 
