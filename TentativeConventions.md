@@ -134,18 +134,18 @@ $ git reset --hard origin/master
  * On your local machine you can call your branches however you like. However, it might be useful to use the
  same names that you use on trac.
 {{{
-mystuff
+<mystuff>
 }}}
 
  * If you are working on a branch yourself, then it is best to put your patches on trac in your personal space
 {{{
-u/aschilling/mystuff
+u/<myname>/<mystuff>
 }}}
 
  * If you collaborate on a branch with others or have already a ticket number, then please put your branch on the
  public space and mark it as combinat
 {{{
-public/combinat/mystuff
+public/combinat/<mystuff>
 }}}
 
  * The branch name should be descriptive. If you have a ticket number (say 10305) that should be the first part of the name.
@@ -197,7 +197,7 @@ Here is a sample workflow on how to transform your patch to git:
  * First make sure that your patch has the correct meta data by exporting it.
  * Make a new branch on your local machine:
 {{{
-$ git checkout -b <combinat/kschur> master
+$ git checkout -b combinat/kschur master
 $ git branch
 * combinat/kschur
   master
