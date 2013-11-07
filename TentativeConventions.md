@@ -202,8 +202,13 @@ patch does not have the appropriate meta information.
 
 Here is a sample workflow on how to transform your patch to git:
 
- * First make sure that your patch has the correct meta data by exporting it.
- * Make a new branch on your local machine:
+=== Export hg patch ===
+
+First make sure that your patch has the correct meta data by exporting it.
+
+=== Create new local branch ===
+
+Make a new branch on your local machine:
 {{{
 $ git checkout -b combinat/kschur master
 $ git branch
@@ -211,11 +216,17 @@ $ git branch
   master
   ticket/15300
 }}}
- * Next import the patch from the queue
+
+=== Import patch from queue ===
+
+Next import the patch from the queue
 {{{
 $ sage --dev import-patch --local-file </Applications/sage-5.13.beta2/devel/sage-combinat/.hg/patches/kschur-as.patch>
 }}}
- * Now we create a branch on trac
+
+=== Create branch on trac ===
+
+Now we create a branch on trac
 {{{
 $ git push --set-upstream origin <combinat/kschur>:<u/aschilling/combinat/kschur>
 Counting objects: 47, done.
@@ -227,7 +238,10 @@ To git@trac.sagemath.org:sage.git
  * [new branch]      combinat/kschur -> u/aschilling/combinat/kschur
 Branch combinat/kschur set up to track remote branch u/aschilling/combinat/kschur from origin.
 }}}
- * Mark the patch in the sage-combinat series file as moved to git by changing
+
+=== Mark patch in series file ===
+
+Mark the patch in the sage-combinat series file as moved to git by changing
 {{{
 kschur-as.patch
 }}}
