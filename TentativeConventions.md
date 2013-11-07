@@ -220,14 +220,14 @@ $ git branch
 
 Next import the patch from the queue
 {{{
-$ sage --dev import-patch --local-file </Applications/sage-5.13.beta2/devel/sage-combinat/.hg/patches/kschur-as.patch>
+$ sage --dev import-patch --local-file /Applications/sage-5.13.beta2/devel/sage-combinat/.hg/patches/kschur-as.patch
 }}}
 
 === Create branch on trac ===
 
 Now we create a branch on trac
 {{{
-$ git push --set-upstream origin <combinat/kschur>:<u/aschilling/combinat/kschur>
+$ git push --set-upstream origin combinat/kschur:u/aschilling/combinat/kschur
 Counting objects: 47, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (7/7), done.
