@@ -1,32 +1,156 @@
 <<TableOfContents(1)>>
 
-TODO:
-
- 1. make sure dummy names are clear
-
 = Abstract =
 
 Here are some tentative workflow and naming conventions developed at [[days54|Sage Days 54]], together with some FAQs about using git.
 
 = Rationale =
 
- * Currently, the dev scripts are in a state of flux, and it's easy for a user to get their sage tree into a state where they are not working properly, or not working at all. They will eventually stabilize, and at that point they will be reliable in addition to being useful. Until then, it's important to know how to work with git directly.
- * As noted by [[http://www.mail-archive.com/dri-devel@lists.sourceforge.net/msg39091.html|Linus on the meaning of "clean history"]], it's important to make a distinction between which parts of the development history are private to a single user, and which parts are considered public.
-   * If a branch in the git tree is "private" to a single user, then they are free to experiment, merge many unrelated changes together, rebase things around, or simply abandon code. The compromise is that other users should '''not''' use such a "private" branch as the basis for developing their own code. If another user does this anyway, then the onus is on them to fix whatever merging problems (or rejections from the release manager) happen down the line. Of course, one way to fix this is to simply communicate (say by email) with the "owner" of the branch and work out an agreement.
-   * Conversely, if a branch in the git tree is considered "public", then other people are justified in using it as the basis for developing their own code (provided that they accept the dependency this creates). At this point, the "public" branch should only ever be modified in a fast-forward way. Note that this still allows "undoing changes" in a way that preserves the public history, for example by using `git revert`.
-   * If a user has a local branch on their own machine, of course that is "private".
-   * Even though branches on Trac are world-visible, it would be useful to be able to use Trac as a repository for "private" sage branches. It seems that the natural place for this would be the "user" set of branches (which are named like `u/[username]/[whatever]`, e.g., `u/mguaypaq/farahat-higman`).
-   * Once a branch is listed on a Trac ticket, it should definitely be considered "public".
-   * It's ok for the "branch" field on a Trac ticket to change once or twice, but any workflow that requires changing this field very frequently is probably doing something wrong. The "branch" field should say what the "official" version of the work on the ticket is, and the easiest way to let people work on this is to have it be in the "public" set of branches (which are named like `public/[whatever]`, e.g., `public/ticket/10305-farahat-higman` or `public/combinat/15361-branching-rules`).
+== Why does this page give instructions using git directly instead of the dev scripts? ==
+
+Currently, the dev scripts are in a state of flux, and it's easy for a user to get their sage tree into a state where the dev scripts are not working properly, or not working at all. The situation will eventually stabilize, and at that point the scripts will be reliable in addition to being useful. Until then, it's important to know how to work with git directly.
+
+== Why can rebasing cause problems? ==
+
+Consider the following scenario, and the accompanying ascii art diagrams:
+
+ 1. Sage development happens, and the `origin/master` branch gets to a certain commit `M`.
+{{{
+---K---L---M  <-(origin/master)
+}}}
+ 1. Developer Alice comes along and decides to work on a new feature, say `aardvarks`, starting from the current official `origin/master` branch.
+{{{
+---K---L---M  <-(origin/master)
+            \
+             --A---B---C  <-(aardvarks)
+}}}
+ 1. Developer Bob sees that the `aardvarks` feature looks nice, and starts work on a new feature, say `bowling`, which depends on `aardvarks`.
+{{{
+---K---L---M  <-(origin/master)
+            \
+             --A---B---C  <-(aardvarks)
+                        \
+                         --X---Y---Z  <-(bowling)
+}}}
+ 1. Sage development continues, and some other features are merged meanwhile into `origin/master`.
+{{{
+---K---L---M---P---Q---R---S---T  <-(origin/master)
+            \
+             --A---B---C  <-(aardvarks)
+                        \
+                         --X---Y---Z  <-(bowling)
+}}}
+ 1. Alice doesn't know about Bob's `bowling` feature, and thinks (correctly or not) that it would be better if the `aardvarks` feature was based on the latest official `origin/master`, that is commit `T`, instead of commit `M`. Instead of merging commit `T` into the `aardvarks` branch, Alice does a rebase. This creates a new history `A2--B2--C2` based at `T` instead of the original `A---B---C` based at `M`.
+{{{
+---K---L---M---P---Q---R---S---T  <-(origin/master)
+            \                   \
+             \                   --A2--B2--C2  <-(aardvarks)
+              \
+               A---B---C
+                        \
+                         --X---Y---Z  <-(bowling)
+}}}
+ 1. The `aardvarks` feature is ready and has a positive review, so it is merged into the official `origin/master`.
+{{{
+---K---L---M---P---Q---R---S---T----------------U  <-(origin/master)
+            \                   \              /
+             \                   --A2--B2--C2--  <-(aardvarks)
+              \
+               A---B---C
+                        \
+                         --X---Y---Z  <-(bowling)
+}}}
+ 1. The `bowling` feature is ready and has a positive review, so it is merged into the official `origin/master`. However, at this point the commits `A---B---C` create a merge conflict with the seemingly identical commits `A2--B2--C2`. They are only seemingly identical, because they don't appear at the same location in the git tree (they have different parents). However, of course they touch the same code files, and in the same regions too.
+{{{
+---K---L---M---P---Q---R---S---T----------------U---*  <-(origin/master)
+            \                   \              /   /
+             \                   --A2--B2--C2--   /    <-(aardvarks)
+              \                                  /
+               A---B---C                        /
+                        \                      /
+                         --X---Y---Z-----------  <-(bowling)
+}}}
+
+Now, there is a problem, because the `bowling` code does not merge cleanly into the official `origin/master` branch. Regardless of who is right or wrong, this needs to be fixed before the positively reviewed `bowling` branch can be merged into `origin/master`. The question here is: whose responsibility is it to fix the problem?
+
+ * If the commits `A---B---C` in the `aardvarks` branch were marked as belonging to Alice only, then Bob could foresee the possibility that Alice messes with these commits (in the example, by rebasing them), so Bob should be responsible for fixing the mess created by basing his work on someone else's unstable work-in-progress.
+ * If the commits `A---B---C` were marked as belonging to the whole community, then Alice could foresee that other may use the code (even if she doesn't see it on Trac yet), so Alice should be responsible for fixing the mess created by changing what the community saw as stable (even if it was pre-review) history of code on the server.
+
+So, the central question is, when does the `aardvarks` branch change from belonging to Alice only, to belonging to the whole community?
+
+== Some necessary (but not sufficient) conditions ==
+
+Based on discussions at Sage Days 54, the following statements should not be controversial:
+
+ * If `aardvarks` is a local branch on Alice's computer, then it belongs only to Alice, and she is free to rebase it. Bob could never even see it to use as a base for his work.
+ * If `aardvarks` lives on Trac in Alice's user space (branches starting with `u/alice/`) and it is marked as a "work-in-progress" (abbreviated "wip", for example, `u/alice/wip/aardvarks` or `u/alice/aardvarks-wip`), then it belongs only to Alice, and she is free to rebase it. In this case, Bob could technically see the branch and use it as a base for his work, but then Bob has full responsibility for the consequences. Two reasons for this:
+   * The user space branches on Trac may be a convenient way for Alice to synchronize her personal messy development work between her own laptop and her own desktop computer.
+   * The user space branches on Trac may be a convenient way for Alice to share her personal messy development work with her colleague Carl.
+ * If `aardvarks` is listed as the official branch on a Trac ticket (in the "branch" field), then it belongs to the community, and Alice should not rebase it. This is true even if the branch is in Alice's user space (for example, `u/alice/aardvarks`). Two reasons for this:
+   * At this point, Bob may well find the branch by browsing Trac and see that it fixes a bug that is crucial to his feature. If he could not reuse Alice's code as a base, he would have to duplicate Alice's work and likely create merge conflicts for Alice.
+   * Bob may also decide to review the patch, and give it a positive review after adding a reviewer patch.
+ * If `aardvarks` lives on Trac in the public space (branches starting with `public/`, like `public/combinat/aardvarks`), then it belongs to the community, and Alice should not rebase it. This is true even if there is no associated Trac ticket.
+
+This leaves the following question unanswered, because there is currently no consensus. It may be best to avoid such ambiguities for now when naming branches on Trac:
+
+ * If `aardvarks` lives on Trac in Alice's user space, is not marked "wip", and has never been in the "branch" field of a Trac ticket (so: `u/alice/aardvarks`), does it belong to Alice only, or to the community?
+
+There is also the following corollary:
+
+ * If `aardvarks` is marked as work-in-progress (say `u/alice/wip/aardvarks`), then it should not also be in the "branch" field of a Trac ticket. Before setting it in the "branch" field of a ticket, the branch should be renamed.
+
+== What happens with merging instead of rebasing? ==
+
+As an aside, here is what would happen in the scenario above if Alice merged instead of rebasing:
+
+ 1. The story is the same until Sage development gets to the commit `T`.
+{{{
+---K---L---M---P---Q---R---S---T  <-(origin/master)
+            \
+             --A---B---C  <-(aardvarks)
+                        \
+                         --X---Y---Z  <-(bowling)
+}}}
+ 1. Alice doesn't know about Bob's `bowling` feature, but still wants `aardvarks` to incorporate the latest official `origin/master`, that is commit `T`, instead of commit `M`. Alice merges `T` into the `aardvarks` branch.
+{{{
+---K---L---M---P---Q---R---S---T  <-(origin/master)
+            \                   \
+             --A---B---C---------D  <-(aardvarks)
+                        \
+                         --X---Y---Z  <-(bowling)
+}}}
+ 1. The `aardvarks` feature is ready and has a positive review, so it is merged into the official `origin/master`. Any merge conflicts were resolved in the commit `D`, so this is a clean merge.
+{{{
+---K---L---M---P---Q---R---S---T---U  <-(origin/master)
+            \                   \ /
+             --A---B---C---------D  <-(aardvarks)
+                        \
+                         --X---Y---Z  <-(bowling)
+}}}
+ 1. The `bowling` feature is ready and has a positive review, so it is merged into the official `origin/master`. At this point, the commits `A---B---C` are in the common history of `U` and `Z`, so there is no conflict there. If `X---Y---Z` and `D` do not introduce a further conflict, the merge into `V` is a clean merge.
+{{{
+---K---L---M---P---Q---R---S---T---U---V  <-(origin/master)
+            \                   \ /   /
+             --A---B---C---------D   /    <-(aardvarks)
+                        \           /
+                         --X---Y---Z  <-(bowling)
+}}}
 
 = First-time setup =
+
+How to get sage-git.
+
+Setup RSA keys (no linebreaks?)
 
 Talk about a sample `~/.gitconfig`.
 Talk about a sample `$SAGE_ROOT/.git/config`.
 
 {{{
 git remote set-url origin git@trac.sagemath.org:sage.git
+git config --global push.default upstream
 }}}
+
+Talk about make? Certainly mention that git should be run inside $SAGE_ROOT.
 
 = Basic git commands =
 
