@@ -98,12 +98,12 @@ $ git push --set-upstream origin <mybranch>:u/<mytracname>/<mybranch>
 $ git push --set-upstream origin <mybranch>:public/combinat/<mybranch>
 $ git push --set-upstream origin <mybranch>:public/ticket/<ticketnumber>-<mybranch>
 }}}
+The third option is for tickets unrelated to combinat.
 You would use the first one for code you personally work on. The second option is for collaborative code with other combinat people.
 If you already have a ticket number, use
 {{{
 $ git push --set-upstream origin <mybranch>:public/combinat/<ticketnumber>-<mybranch>
 }}}
-The third option is for tickets unrelated to combinat.
 
 The first time you pull a branch from trac onto your local computer:
 {{{
