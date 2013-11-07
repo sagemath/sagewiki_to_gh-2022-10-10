@@ -3,7 +3,6 @@
 TODO:
 
  1. make sure dummy names are clear
- 1. put links to the __new__ dev guide, etc.
 
 = Abstract =
 
@@ -238,3 +237,4 @@ kschur-as.patch # git:u/aschilling/combinat/kschur
 = References =
 
  * [[http://www.mail-archive.com/dri-devel@lists.sourceforge.net/msg39091.html|Linus on the meaning of "clean history"]]
+ * [[http://sagemath.github.io/git-developer-guide|The new sage developer guide]]
