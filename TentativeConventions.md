@@ -10,7 +10,7 @@ Here are some tentative workflow and naming conventions developed at [[days54|Sa
 
 Currently, the dev scripts are in a state of flux, and it's easy for a user to get their sage tree into a state where the dev scripts are not working properly, or not working at all. The situation will eventually stabilize, and at that point the scripts will be reliable in addition to being useful. Until then, it's important to know how to work with git directly.
 
-== Some necessary (but not sufficient) conditions ==
+== Some necessary (but not sufficient) conditions for branch naming conventions ==
 
 Suppose Alice creates a branch `aardvarks` starting from `origin/master`. Then Bob sees this and creates a further branch `bowling` starting from the branch `aardvarks`. Later, Alice decides (whether rightly or wrongly) to rebase the branch `aardvarks` on a more recent version of `origin/master`, without consulting Bob. This creates a conflict between the new history of `aardvarks` and the current history of `bowling`. Who is now responsible for fixing the conflict? (See RebaseVsMerge for more details about this situation.)
 
