@@ -20,6 +20,7 @@ Trac is the server that acts as the git repository (it is also refers to the tic
 
 Since this is confusing, let's say it again: Trac refers to the url `trac.sagemath.org`, which runs two services, namely a git repository (this is our main concern in this document), and a ticket tracker (which is only a secondary concern in this document).
 
+<<Anchor(nameontrac)>>
 === What should I name my branch on Trac? ===
 
 ==== Trac with single author ====
@@ -250,6 +251,10 @@ $ git reset --hard origin/master
 }}}
 
 = Branch naming conventions =
+
+=== On Trac ===
+
+See the section about [[#nameontrac|naming conventions on trac]].
 
 === Local machine ===
 
