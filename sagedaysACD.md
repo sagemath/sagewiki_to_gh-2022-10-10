@@ -79,7 +79,7 @@ Coffee break at 11am
 
  * Review 14219 - Adam Towsley, Vincent Delecroix
  
- * Eigen values - Vincent Delecroix , Ben Hutz
+ * Eigen values (see [[http://trac.sagemath.org/ticket/14990|#14990]] for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
 
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz
 
