@@ -33,8 +33,9 @@ This is mainly important because different people have different permission for 
 
 Given this, the discussions at Sage Days 54 settled on some suggestions:
  * In your user space, feel free to call your branches `u/<username>/<whatever>`, where `<username>` is your user name, and `<whatever>` is practically any string, including characters like `/-_`.
- * If your branch is related to combinat, feel free to call it `public/combinat/<ticket>-<whatever>` or `public/combinat/<whatever>`, where `<ticket>` is the associated Trac ticket, if applicable, and `<whatever>` may be a description and may contain keywords like `partitions` or `tableaux`.
- * If your branch corresponds to a non-combinat ticket, a good default name would be `public/ticket/<ticket>-<whatever>`, like `public/ticket/10305-farahat-higman`.
+ * If your branch is related to combinat, feel free to call it `u/<username>/combinat/<topic>`. If you have an associated Trac ticket number, you can append it to the name: `u/<username>/combinat/<topic>-<number>`, but please keep the `<topic>` part of the name next to the `/combinat/` part of the name.
+ * If you are working on a combinat branch with some collaborators, a good central place to push and pull from (in addition to your personal `u/<username>/combinat/<topic>`) would be the public branch name `public/combinat/<topic>`.
+ * If your branch corresponds to a non-combinat ticket, a good default name may be `public/ticket/<ticket>-<whatever>`, like `public/ticket/10305-farahat-higman`.
 
 These conventions make it easy to:
  * Browse through the list of all branches on Trac (or all combinat branches) and get an idea of what is there.
@@ -43,10 +44,11 @@ These conventions make it easy to:
 
 In summary:
 {{{
-u/<username>/wip/<mystuff>              # for a single-author, unstable personal branch
-public/combinat/<ticket>-<description>  # for a combinat-related branch with an associated Trac ticket
-public/combinat/<description>           # for a combinat-related branch with no associated Trac ticket
-public/ticket/<ticket>-<description>    # for a generic public branch with an associated Trac Ticket
+u/<username>/wip/<mystuff>                # for a single-author, unstable personal branch
+u/<username>/combinat/<description>       # for personal progress on a combinat branch
+public/combinat/<description>             # for public progress on a combinat branch
+public/combinat/<description>-<ticket>    # for a combinat-related branch with an associated Trac ticket
+public/ticket/<ticket>-<description>      # for a generic public branch with an associated Trac Ticket
 }}}
 
 === If a branch is on Trac, who does it belong to? ===
