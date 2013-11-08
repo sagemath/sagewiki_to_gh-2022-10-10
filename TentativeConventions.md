@@ -140,6 +140,7 @@ Getting the latest version of Sage
 {{{
 $ git checkout master
 $ git pull --ff-only
+$ make start
 }}}
 
 === Latest status of everything on trac ===
