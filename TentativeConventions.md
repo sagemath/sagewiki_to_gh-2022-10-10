@@ -287,6 +287,23 @@ If you do not care about the changes you can do a hard reset
 $ git reset --hard origin/master
 }}}
 
+=== Checking your last few commits ===
+
+If you want to see what your last few commits were, type:
+{{{
+$ git reflog
+5c7e56d HEAD@{0}: commit: fixed some documentation in kr_tableaux.py
+d4cc8e0 HEAD@{1}: pull: Merge made by the 'recursive' strategy.
+3813946 HEAD@{2}: commit: removed some whitespace in kr_tableaux.py
+307fef1 HEAD@{3}: commit: Removed some whitespaces, beautified code
+6aae6bf HEAD@{4}: merge origin/public/combinat/rigged_configurations/13872-bijections: Fast-forward
+f2491f1 HEAD@{5}: checkout: moving from master to public/combinat/rigged_configurations/13872-bijections
+f2491f1 HEAD@{6}: checkout: moving from tornado-kschur-branching to master
+510520a HEAD@{7}: checkout: moving from extended_affine_weyl_groups_sd40 to tornado-kschur-branching
+f2491f1 HEAD@{8}: checkout: moving from master to extended_affine_weyl_groups_sd40
+f2491f1 HEAD@{9}: checkout: moving from tornado-kschur-branching to master
+}}}
+
 = Branch naming conventions =
 
 === On Trac ===
