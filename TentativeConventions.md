@@ -82,10 +82,13 @@ Sources:
  * [[http://trac.sagemath.org/wiki/QuickStartSageGit]]
  * [[http://sagemath.github.io/git-developer-guide/]]
  * [[http://sagemath.org/doc/installation/source.html]]
+ * [[http://git-scm.com/book]]
 
 === Step 1: make sure git is installed on your computer ===
 
 This step is different for different people, but is described in [[http://sagemath.github.io/git-developer-guide/git_setup.html|the git setup section of the new developer guide]]. Note that to use git with sage, you must always be somewhere in the sage tree (in `$SAGE_ROOT`, which may be something like `/opt/sage-git` on your computer) when running any `git ...` commands.
+
+ Note:: If you want to set up tab completion for git (which is very useful), check out the nice instructions at [[http://git-scm.com/book/ch2-7.html|the tips and tricks section of the Pro Git book]].
 
 === Step 2: tell Trac about your ssh key ===
 
@@ -186,7 +189,7 @@ Finished installing ccache-3.1.9.spkg
 
 Now we must compile sage for the first time. This will likely take a long time, but subsequent times (such as when reviewing tickets or developing the sage library or upgrading to the latest version of sage) should be much faster.
 
- Note:: whenever you run the `git` or `make` commands, make sure you are in the sage directory.
+ Note:: Whenever you run the `git` or `make` commands, make sure you are in the sage directory.
 
 Still, there are two things you can do to significantly speed up building sage:
  * If you already have Atlas libraries built somewhere, you can tell sage to re-use them instead of re-building them. This is controlled by the `SAGE_ATLAS_LIB` environment variable.
