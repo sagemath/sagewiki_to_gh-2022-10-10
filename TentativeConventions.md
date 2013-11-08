@@ -60,7 +60,7 @@ Given this, we propose the following conventions:
  * Having a blank "branch" field on a Trac ticket is perfectly fine.
  * If the "branch" field is blank, then anyone can set it to a branch either in their "user" space (like `u/mguaypaq/weyl-clifford`) or in the "public" space (like `public/combinat/partitions` or `public/ticket/10305-farahat-higman`). Using the "public" space should be encouraged, but usin the "user" space may be convenient in certain cases.
  * If the "branch" field is '''not''' blank but '''is''' in a "user" space, then anyone can move/rename the branch to the "public" space.
- * Once the "branch" field is in the "public" space, it should not be changed anymore.
+ * Once the "branch" field is in the "public" space, it should '''not change anymore'''.
 
 === If a branch is on Trac, who does it belong to? ===
 
