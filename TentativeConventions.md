@@ -49,19 +49,6 @@ public/combinat/<description>           # for a combinat-related branch with no 
 public/ticket/<ticket>-<description>    # for a generic public branch with an associated Trac Ticket
 }}}
 
-
-=== How should the "branch" field on a Trac ticket evolve? ===
-
-This is the only part of the branch naming conventions that has to do with the ticket tracker service of Trac. On every Trac ticket, there is a "branch" field which is blank by default, but which can contain the name of the current "official" branch (on the git repository service of Trac) which records the current state of the code.
-
-The branch itself can move around on the history graph just fine, and the "branch" field on the Trac ticket does not need to change. (In fact, the corresponding "commit" field on the Trac ticket will automatically be updated.) However, the ''name'' of the branch which appears on the Trac ticket should not change very often at all.
-
-Given this, we propose the following conventions:
- * Having a blank "branch" field on a Trac ticket is perfectly fine.
- * If the "branch" field is blank, then anyone can set it to a branch either in their "user" space (like `u/mguaypaq/weyl-clifford`) or in the "public" space (like `public/combinat/partitions` or `public/ticket/10305-farahat-higman`). Using the "public" space should be encouraged, but usin the "user" space may be convenient in certain cases.
- * If the "branch" field is '''not''' blank but '''is''' in a "user" space, then anyone can move/rename the branch to the "public" space.
- * Once the "branch" field is in the "public" space, it should '''not change anymore'''.
-
 === If a branch is on Trac, who does it belong to? ===
 
 Suppose Alice creates a branch `aardvarks` starting from `origin/master`. Then Bob sees this and creates a further branch `bowling` starting from the branch `aardvarks`. Later, Alice decides (whether rightly or wrongly) to rebase the branch `aardvarks` on a more recent version of `origin/master`, without consulting Bob. This creates a conflict between the new history of `aardvarks` and the current history of `bowling`. Who is now responsible for fixing the conflict? (See RebaseVsMerge for more details about this situation.)
