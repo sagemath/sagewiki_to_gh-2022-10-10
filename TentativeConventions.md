@@ -391,8 +391,6 @@ Branch tornado-kschur-branching set up to track remote branch u/aschilling/torna
 
 = Moving a ticket from patches to git =
 
-=== Import patch from a local file ===
-
 Make sure that your file has the header data by an `hg export`. Then decide where you want to put your patch.
 If it is an independent patch, you want to create a new branch
 {{{
@@ -402,12 +400,17 @@ If you want to import the hg patch on top of another branch, go into this branch
 {{{
 $ git checkout <mybranch>
 }}}
-
 Next import your hg patch.
+
+=== Import patch from a local file ===
+
 If your patch is on your local computer at `/pathname/patchname.patch` then
 {{{
 $ sage --dev import-patch --local-file /pathname/patchname.patch
 }}}
+
+=== Import patch from url ===
+
 If your patch is on trac or on the internet at a url
 {{{
 $ sage --dev import-patch --url http://trac.sagemath.org/raw-attachment/ticket/12345/trac_12345-patchname.patch
