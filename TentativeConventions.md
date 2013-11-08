@@ -393,15 +393,26 @@ Branch tornado-kschur-branching set up to track remote branch u/aschilling/torna
 
 === Import patch from a local file ===
 
-Make sure that your file has the header data by an `hg export`. If your patch is on your local computer at `/pathname/patchname.patch` then
+Make sure that your file has the header data by an `hg export`. Then decide where you want to put your patch.
+If it is an independent patch, you want to create a new branch
+{{{
+$ git checkout -b <mybranch> master
+}}}
+If you want to import the hg patch on top of another branch, go into this branch first
+{{{
+$ git checkout <mybranch>
+}}}
+
+Next import your hg patch.
+If your patch is on your local computer at `/pathname/patchname.patch` then
 {{{
 $ sage --dev import-patch --local-file /pathname/patchname.patch
 }}}
-
 If your patch is on trac or on the internet at a url
 {{{
 $ sage --dev import-patch --url http://trac.sagemath.org/raw-attachment/ticket/12345/trac_12345-patchname.patch
 }}}
+
 If you find that the author field is set to ``unknown user`` then it could be that the patch needs to be exported first.
 
 = Moving a patch from the combinat queue to git =
