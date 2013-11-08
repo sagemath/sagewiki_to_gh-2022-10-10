@@ -188,7 +188,7 @@ Now we must compile sage for the first time. This will likely take a long time, 
 Still, there are two things you can do to significantly speed up building sage:
  * If you already have Atlas libraries built somewhere, you can tell sage to re-use them instead of re-building them. This is controlled by the `SAGE_ATLAS_LIB` environment variable.
  * If you have a computer with many cores and you want to use them to build sage in parallel, you can tell it to do so.
-Both of these options (and many more) are documented in [[http://sagemath.org/doc/installation/source.html#environment-variables|the "environment variables" section of the sage installation guide]].
+Both of these options (and many more) are documented in [[http://sagemath.org/doc/installation/source.html#environment-variables|the "environment variables" section of the sage installation guide]], but below are some of the salient points.
 
 You can also tell sage to skip building the documentation by giving an option to the `make` command, as follows:
 {{{
