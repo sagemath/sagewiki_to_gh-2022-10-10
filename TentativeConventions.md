@@ -470,7 +470,7 @@ $ git commit -m"changed everything as well"
 }}}
 Then she pulls using
 {{{
-$ git pull--ff-only
+$ git pull --ff-only
 }}}
 If there was no problem she can push her changes
 {{{
