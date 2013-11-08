@@ -215,7 +215,14 @@ Combining all of this, probably the fastest way to build sage is something like:
 
 = Basic git commands =
 
-=== Latest version of Sage itself ===
+=== First get the latest status of everything on trac ===
+
+Getting the latest information about all the branches published on trac
+{{{
+$ git remote update origin
+}}}
+
+=== Then get the latest version of Sage itself ===
 
 Getting the latest version of Sage
 {{{
@@ -224,27 +231,17 @@ $ git pull --ff-only
 $ make start
 }}}
 
-=== Latest status of everything on trac ===
-
-Getting the latest information about all the branches published on trac
-{{{
-$ git remote update origin
-}}}
-
 === Pushing and pulling branches to and from trac ===
 
-If you have a local branch on your personal computer that you would like to push to trac, there are three options:
+If you have a local branch on your personal computer that you would like to push to trac, there are four options:
 {{{
 $ git push --set-upstream origin <mybranch>:u/<mytracname>/<mybranch>
 $ git push --set-upstream origin <mybranch>:public/combinat/<mybranch>
+$ git push --set-upstream origin <mybranch>:public/combinat/<ticketnumber>-<mybranch>
 $ git push --set-upstream origin <mybranch>:public/ticket/<ticketnumber>-<mybranch>
 }}}
-The third option is for tickets unrelated to combinat.
-You would use the first one for code you personally work on. The second option is for collaborative code with other combinat people.
-If you already have a ticket number, use
-{{{
-$ git push --set-upstream origin <mybranch>:public/combinat/<ticketnumber>-<mybranch>
-}}}
+Use the first option for code you personally work on. The second option is for collaborative code with other combinat people.
+Use the third option if you already have a ticket number for combinat-related code. The fourth option is for tickets unrelated to combinat.
 
 The first time you pull a branch from trac onto your local computer:
 {{{
@@ -255,6 +252,7 @@ After the initial pull or push, this is the workflow to push your local changes 
 {{{
 $ git checkout <mybranch>
 $ git pull --ff-only
+$ git commit -a -m '<your commit message>'
 $ git push
 }}}
 The option --ff-only for the pull command makes sure that if there are big merge conflicts with the
