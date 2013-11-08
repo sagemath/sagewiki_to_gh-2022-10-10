@@ -6,25 +6,23 @@ Here are some tentative workflow and naming conventions developed at [[days54|Sa
 
 = Rationale =
 
-== Why does this page give instructions using git directly instead of the dev scripts? ==
+=== Why does this page give instructions using git directly instead of the dev scripts? ===
 
 Currently, the dev scripts are in a state of flux, and it's easy for a user to get their sage tree into a state where the dev scripts are not working properly, or not working at all. The situation will eventually stabilize, and at that point the scripts will be reliable in addition to being useful. Until then, it's important to know how to work with git directly.
 
-== What is a git branch? ==
+=== What is a git branch? ===
 
 In the git model (see [[http://eagain.net/articles/git-for-computer-scientists/|Git for computer scientists]] for a nice description), there is a history graph (that is, a directed acyclic graph), which contains every change to the sage code together with descriptions of these changes. A node in this graph is called a "commit", and in general the history graph only ever grows (gets more nodes/commits). A "branch" is just a movable label to a particular point in the history graph. We think of a branch as pointing to a particular commit, together with all of its ancestors in the history graph.
 
-
-== What is Trac? ==
+=== What is Trac? ===
 
 Trac is the server that acts as the git repository (it is also refers to the ticket manager).  In this document the identifier `origin` always refers to Trac.
 
 Since this is confusing, let's say it again: Trac refers to the url `trac.sagemath.org`, which runs two services, namely a git repository (this is our main concern in this document), and a ticket tracker (which is only a secondary concern in this document).
 
+=== What should I name my branch on Trac? ===
 
-== What should I name my branch on Trac? ==
-
-=== Trac with single author ===
+==== Trac with single author ====
 
 If you are working on a branch yourself, then it is best to put your patches on trac in your personal space
 {{{
@@ -35,7 +33,7 @@ or
 u/<myname>/ticket/<tracnumber>-<mystuff>
 }}}
 
-=== Trac with collaboration ===
+==== Trac with collaboration ====
 
 If you collaborate on a branch with others or have already a ticket number, then please put your branch on the
 public space and mark
@@ -67,7 +65,7 @@ These conventions make it easy to:
  * Search through the list of all branches on Trac (or all combinat branches) using grep or other automated tools.
  * Find the corresponding Trac tickets easily.
 
-== If a branch is on Trac, who does it belong to? ==
+=== If a branch is on Trac, who does it belong to? ===
 
 Suppose Alice creates a branch `aardvarks` starting from `origin/master`. Then Bob sees this and creates a further branch `bowling` starting from the branch `aardvarks`. Later, Alice decides (whether rightly or wrongly) to rebase the branch `aardvarks` on a more recent version of `origin/master`, without consulting Bob. This creates a conflict between the new history of `aardvarks` and the current history of `bowling`. Who is now responsible for fixing the conflict? (See RebaseVsMerge for more details about this situation.)
 
