@@ -215,16 +215,14 @@ Combining all of this, probably the fastest way to build sage is something like:
 
 = Basic git commands =
 
-=== First get the latest status of everything on trac ===
+=== Getting the latest version of Sage ===
 
-Getting the latest information about all the branches published on trac
+First get the latest information about all the branches published on trac
 {{{
 $ git remote update origin
 }}}
 
-=== Then get the latest version of Sage itself ===
-
-Getting the latest version of Sage
+Then get the latest version of Sage itself
 {{{
 $ git checkout master
 $ git pull --ff-only
