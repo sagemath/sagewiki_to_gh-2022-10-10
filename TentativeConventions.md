@@ -228,6 +228,8 @@ $ git checkout master
 $ git pull --ff-only
 $ make start
 }}}
+The option --ff-only for the pull command makes sure that if there are big merge conflicts with the
+new changes on trac, you can handle them manually without messing up your entire branch and your local changes.
 
 === Pushing and pulling branches to and from trac ===
 
@@ -253,8 +255,9 @@ $ git pull --ff-only
 $ git commit -a -m '<your commit message>'
 $ git push
 }}}
-The option --ff-only for the pull command makes sure that if there are big merge conflicts with the
-new changes on trac, you can handle them manually without messing up your entire branch and your local changes.
+
+
+*This part needs further explanation*
 If there are big changes, you can use these commands:
 {{{
 $ git checkout <mybranch>
