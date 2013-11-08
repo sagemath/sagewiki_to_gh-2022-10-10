@@ -520,8 +520,3 @@ to
 {{{
 kschur-as.patch # git:u/aschilling/combinat/kschur
 }}}
-
-= References =
-
- * [[http://www.mail-archive.com/dri-devel@lists.sourceforge.net/msg39091.html|Linus on the meaning of "clean history"]]
- * [[http://sagemath.github.io/git-developer-guide|The new sage developer guide]]
