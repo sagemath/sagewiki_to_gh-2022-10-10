@@ -79,6 +79,7 @@ There is some scattered documentation on how to install and configure the git ve
 Sources:
  * [[http://trac.sagemath.org/wiki/QuickStartSageGit]]
  * [[http://sagemath.github.io/git-developer-guide/]]
+ * [[http://sagemath.org/doc/installation/source.html]]
 
 === Step 1: make sure git is installed on your computer ===
 
@@ -180,13 +181,29 @@ Finished installing ccache-3.1.9.spkg
 
 === Step 6: build sage and/or the sage documentation ===
 
-TODO:: Talk about make
+Now we must compile sage for the first time. This will likely take a long time, but subsequent times (such as when reviewing tickets or developing the sage library or upgrading to the latest version of sage) should be much faster.
 
+ Note:: whenever you run the `git` or `make` commands, make sure you are in the sage directory.
+
+Still, there are two things you can do to significantly speed up building sage:
+ * If you already have Atlas libraries built somewhere, you can tell sage to re-use them instead of re-building them. This is controlled by the `SAGE_ATLAS_LIB` environment variable.
+ * If you have a computer with many cores and you want to use them to build sage in parallel, you can tell it to do so.
+Both of these options (and many more) are documented in [[http://sagemath.org/doc/installation/source.html#environment-variables|the "environment variables" section of the sage installation guide]].
+
+You can also tell sage to skip building the documentation by giving an option to the `make` command, as follows:
 {{{
-git config --global push.default upstream
+mguaypaq@chmmr:/tmp/sage-git$ make start    # build sage without documentation and make sure it runs
+mguaypaq@chmmr:/tmp/sage-git$ make build    # build sage without documentation
+mguaypaq@chmmr:/tmp/sage-git$ make doc      # build the sage documentation
+mguaypaq@chmmr:/tmp/sage-git$ make          # build sage and the documentation
 }}}
 
-Talk about make? Certainly mention that git should be run inside $SAGE_ROOT.
+Combining all of this, probably the fastest way to build sage is something like:
+{{{
+mguaypaq@chmmr:/tmp/sage-git$ export SAGE_ATLAS_LIB=/opt/atlas-sage    # this is where my pre-compiled Atlas libraries live
+mguaypaq@chmmr:/tmp/sage-git$ export MAKE='make -j6'                   # use many cores (6 in this case)
+mguaypaq@chmmr:/tmp/sage-git$ make start                               # build only sage
+}}}
 
 = Basic git commands =
 
