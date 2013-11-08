@@ -109,7 +109,11 @@ build  COPYING.txt  Makefile  README.txt  sage  src  VERSION.txt
 === Step 4: make sure your git configuration is correct ===
 
 Git stores some information about default command options and remote repositories in a few places on your computer. For sage, there are two relevant places:
- * Your global configuration options, in `$HOME/.gitconfig`, which apply to all your git projects (not just sage). Mine looks like this. The `[user]` section is the most important, and contains my real name and my real email address. The other sections are really optional. (The `[core]` section has an option that sets my favourite text editor. The `[alias]` section defines some shortcut commands (like `git br` instead of `git branch` or `git lg` for a very pretty history graph). The `[merge]` section has an option that makes for more informative merge commit messages. The `[push]` section contains an option that makes git only update the current branch when pushing to the Trac git server.)
+ * Your global configuration options, in `$HOME/.gitconfig`, which apply to all your git projects (not just sage). Mine looks like this. The `[user]` section is the most important, and contains my real name and my real email address. The other sections are really optional, but you can simply copy and paste them:
+   * The `[core]` section has an option that sets my favourite text editor.
+   * The `[alias]` section defines some shortcut commands (like `git lg` for a very pretty history graph).
+   * The `[merge]` section has an option that makes for more informative merge commit messages.
+   * The `[push]` section contains an option that makes git only update the current branch when pushing to the Trac git server.
 {{{
 mguaypaq@chmmr:/tmp/sage-git$ cat $HOME/.gitconfig
 [user]
@@ -129,7 +133,7 @@ mguaypaq@chmmr:/tmp/sage-git$ cat $HOME/.gitconfig
 [push]
   default = upstream
 }}}
- * Your sage-specific configurations options, in `$SAGE_ROOT/.git/config`. Mine looks like this. The parts that are most likely to cause problems are 
+ * Your sage-specific configurations options, in `$SAGE_ROOT/.git/config`. Mine looks like this. The parts that should be copied very exactly are:
    * the `url` option of the `[remote "origin"]` section, which tells git how it should synchronize the information on your local machine with the information on the Trac git server,
    * the `[branch "master"]` section, which tells git how your local `master` branch corresponds to the `master` branch on the Trac git server.
 {{{
