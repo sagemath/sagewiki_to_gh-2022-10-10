@@ -45,7 +45,7 @@ The workshop will consist of tutorials and talks in the mornings and working gro
 Coffee break at 11am and 3pm
 
 ||9:00am-10:00am||Talk: Vincent Delecroix - how to use C in Sage/Python||
-|| ||approximation of Lyapunov exponents of the Kontsevich-Zorich cocycle||
+|| ||how make long computation becomes short, interface C-library, ... ||
 ||10:00am-12:30pm||Project work time||
 ||12:30pm||Status Updates||
 ||12:30pm-2:00pm||Lunch||
