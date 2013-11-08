@@ -343,9 +343,6 @@ See the section about [[#nameontrac|naming conventions on trac]].
 
 On your local machine you can call your branches however you like. However, it might be useful to use the
 same names that you use on trac.
-{{{
-<mystuff>
-}}}
 
 <<Anchor(searching)>>
 === Naming and searching ===
