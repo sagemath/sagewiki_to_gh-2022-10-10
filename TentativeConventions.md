@@ -95,30 +95,31 @@ Follow the excellent directions at [[http://sagemath.github.io/git-developer-gui
 
 === Step 3: clone the git repository from Trac ===
 
-Get a copy of the whole sage tree from the Trac server using git. In the following example, we are working in the `/usr` directory, and we choose to put the sage tree in the `/usr/sage-git` directory.
+Get a copy of the whole sage tree from the Trac server using git. In the following example, we are working in my home directory (denoted by `~`), and we choose to put the sage tree in the `~/sage-git` sub-directory.
 {{{
-/usr$ git clone git@trac.sagemath.org:sage.git sage-git
+~$ git clone git@trac.sagemath.org:sage.git sage-git
 Cloning into 'sage-git'...
 remote: Counting objects: 205444, done.
 remote: Compressing objects: 100% (36317/36317), done.
 remote: Total 205444 (delta 137341), reused 205055 (delta 137070)
 Receiving objects: 100% (205444/205444), 57.55 MiB | 11.18 MiB/s, done.
 Resolving deltas: 100% (137341/137341), done.
-/usr$ cd sage-git
-/usr/sage-git$ ls
+~$ cd sage-git
+~/sage-git$ ls
 build  COPYING.txt  Makefile  README.txt  sage  src  VERSION.txt
 }}}
+
+ Important note:: If you have any aliases or symbolic links set up for running the `sage` command on your machine, now would be a very good time to update them. Otherwise, be careful to always run `./sage` instead of just plain `sage`!
 
 === Step 4: make sure your git configuration is correct ===
 
 Git stores some information about default command options and remote repositories in a few places on your computer. For sage, there are two relevant places:
- * Your global configuration options, in `$HOME/.gitconfig`, which apply to all your git projects (not just sage). Mine looks like this. The `[user]` section is the most important, and contains my real name and my real email address. The other sections are really optional, but you can simply copy and paste them:
+ * Your global configuration options, in `$HOME/.gitconfig`, which apply to all your git projects (not just sage). Mine looks like this. The `[user]` section is the most important, and contains my real name and my real email address. The `[push]` section also contains an important setting, which makes `git push` behave in the most expected way by default (update the current branch when pushing to the Trac git server). The other sections are really optional, but you can simply copy and paste them:
    * The `[core]` section has an option that sets my favorite text editor.
    * The `[alias]` section defines some shortcut commands (like `git lg` for a very pretty history graph).
    * The `[merge]` section has an option that makes for more informative merge commit messages.
-   * The `[push]` section contains an option that makes git only update the current branch when pushing to the Trac git server.
 {{{
-/usr/sage-git$ cat $HOME/.gitconfig
+~/sage-git$ cat $HOME/.gitconfig
 [user]
   name = Mathieu Guay-Paquet
   email = mathieu.guaypaquet@gmail.com
@@ -140,7 +141,7 @@ Git stores some information about default command options and remote repositorie
    * the `url` option of the `[remote "origin"]` section, which tells git how it should synchronize the information on your local machine with the information on the Trac git server,
    * the `[branch "master"]` section, which tells git how your local `master` branch corresponds to the `master` branch on the Trac git server.
 {{{
-/usr/sage-git$ cat .git/config
+~/sage-git$ cat .git/config
 [core]
   repositoryformatversion = 0
   filemode = true
@@ -158,11 +159,11 @@ Git stores some information about default command options and remote repositorie
 
 The optional sage package `ccache` makes recompilations of C files much faster, so it is recommended to install it. Thankfully, this is very easy: simply go to the directory containing sage on your computer and say
 {{{
-/usr/sage-git$ ./sage -i ccache
+~/sage-git$ ./sage -i ccache
 }}}
 The result should look something like:
 {{{
-/usr/sage-git/src/bin/sage-spkg: line 310: cd: /usr/sage-git/upstream: No such file or directory
+~/sage-git/src/bin/sage-spkg: line 310: cd: ~/sage-git/upstream: No such file or directory
 Attempting to download package ccache
 >>> Checking online list of optional packages.
 2013-11-07 17:11:12 URL:http://www.sagemath.org/spkg/optional/list [1139/1139] -> "-" [1]
@@ -176,8 +177,8 @@ user 0m5.328s
 sys 0m1.392s
 Successfully installed ccache-3.1.9
 Deleting temporary build directory
-/usr/sage-git/local/var/tmp/sage/build/ccache-3.1.9
-touch: cannot touch `/usr/sage-git/local/lib/sage-force-relocate.txt': No such file or directory
+~/sage-git/local/var/tmp/sage/build/ccache-3.1.9
+touch: cannot touch `~/sage-git/local/lib/sage-force-relocate.txt': No such file or directory
 Finished installing ccache-3.1.9.spkg
 }}}
 
@@ -194,25 +195,30 @@ Both of these options (and many more) are documented in [[http://sagemath.org/do
 
 You can also tell sage to skip building the documentation by giving an option to the `make` command, as follows:
 {{{
-/usr/sage-git$ make start    # build sage without documentation and make sure it runs
-/usr/sage-git$ make build    # build sage without documentation
-/usr/sage-git$ make doc      # build the sage documentation
-/usr/sage-git$ make          # build sage and the documentation
+~/sage-git$ make start    # build sage without documentation and make sure it runs
+~/sage-git$ make build    # build sage without documentation
+~/sage-git$ make doc      # build the sage documentation
+~/sage-git$ make          # build sage and the documentation
 }}}
 
 I have a pre-compiled version of Atlas in my `/opt/atlas-sage` directory, containing the following files:
 {{{
-/usr/sage-git$ ls /opt/atlas-sage
+~/sage-git$ ls /opt/atlas-sage
 libatlas.a   libcblas.so   libf77blas.so  libptcblas.a
 libatlas.so  libclapack.a  liblapack.a    libptf77blas.a
 libcblas.a   libf77blas.a  liblapack.so   libtstatlas.a
 }}}
 
+Note that by default, sage will only download the packages it needs when it tries to install each one. If you want to download everything at once (maybe because you intend to compile sage without an internet connection), you can simply say:
+{{{
+~/sage-git$ make download    # download all the latest standard spkg files
+}}}
+
 Combining all of this, probably the fastest way to build sage is something like:
 {{{
-/usr/sage-git$ export SAGE_ATLAS_LIB=/opt/atlas-sage    # this is where my pre-compiled Atlas libraries live
-/usr/sage-git$ export MAKE='make -j6'                   # use many cores (6 in this case)
-/usr/sage-git$ make start                               # build only sage
+~/sage-git$ export SAGE_ATLAS_LIB=/opt/atlas-sage    # this is where my pre-compiled Atlas libraries live
+~/sage-git$ export MAKE='make -j6'                   # use many cores (6 in this case)
+~/sage-git$ make start                               # build only sage
 }}}
 
 == Basic git commands ==
