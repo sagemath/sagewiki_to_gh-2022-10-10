@@ -115,6 +115,7 @@ build  COPYING.txt  Makefile  README.txt  sage  src  VERSION.txt
 
  Important note:: If you have any aliases or symbolic links set up for running the `sage` command on your machine, now would be a very good time to update them. Otherwise, be careful to always run `./sage` instead of just plain `sage`!
 
+<<Anchor(gitconfig)>>
 === Step 4: make sure your git configuration is correct ===
 
 Git stores some information about default command options and remote repositories in a few places on your computer. For sage, there are two relevant places:
@@ -225,11 +226,11 @@ Combining all of this, probably the fastest way to build sage is something like:
 ~/sage-git$ make start                               # build only sage
 }}}
 
-== Quick reference guide ==
+== Quick reference guide: I want to... ==
 
 Here are some common things you might want to do, together with the relevant git commands.
 
-=== I want to get the latest official development version of Sage ===
+=== Get the latest official development version of Sage ===
 
 From your Sage directory, run:
 {{{
@@ -241,31 +242,64 @@ From your Sage directory, run:
 
 The option `--ff-only` for the `git pull` command makes sure that if there are big merge conflicts with the new changes on trac, you can handle them manually without messing up your entire branch and your local changes. The `make start` command is analogous to the usual `sage -b` command, but is more comprehensive.
 
-=== I want to start working on a new feature ===
+=== Start working on a new feature ===
 
-=== I want to save my work ===
+=== Save my work ===
 
-=== I want to continue working on a feature ===
+=== Continue working on a feature ===
 
 === I made a mistake! I want to undo something I just did ===
 
-=== I want to make my code available on the Trac git server ===
+=== Make my code available on the Trac git server ===
 
-=== I want to get someone else's code from the Trac git server ===
+If you have a local branch `<localname>` on your own computer that you would like to push to Trac under the name `<remotename>`, use the command:
+{{{
+~/sage-git$ git push --set-upstream origin <localname>:<remotename>
+}}}
+For some advice on what `<remotename>` should be, see the [[#nameontrac|section on branch naming conventions]].
 
-=== I want to move/delete/rename a local branch ===
+Note that with the `--set-upstream` option, the previous command sets up a mapping on your computer between the names `<localname>` and `origin/<remotename>`. This only needs to be done once, and then the following shortcuts should work:
+{{{
+~/sage-git$ git checkout <localname>    # make sure you are on the <localname> branch
+~/sage-git$ git pull --ff-only          # get any changes from the Trac git server
+~/sage-git$ git push                    # push your changes from the Trac git server
+}}}
+(But see the [[#gitconfig|section on git configuration]] if `git push` doesn't work.)
 
-=== I want to move/delete/rename a branch on the Trac git server ===
+=== Get someone else's code from the Trac git server ===
 
-=== I want to collaborate with others on a combinat feature ===
+If there is a branch `<remotename>` on Trac and you would like to have a corresponding branch called `<localname>` on your own computer, use the commands:
+{{{
+~/sage-git$ git fetch origin                                   # get the latest repository information from Trac
+~/sage-git$ git checkout origin/<remotename> -b <localname>    # create the <localname> branch
+}}}
+For some clues on what `<remotename>` may mean, see the [[#nameontrac|section on branch naming conventions]].
 
-=== I want to search through what other people are doing ===
+The previous command sets up a mapping on your computer between the names `<localname>` and `origin/<remotename>`. This only needs to be done once, and then the following shortcuts should work:
+{{{
+~/sage-git$ git checkout <localname>    # make sure you are on the <localname> branch
+~/sage-git$ git pull --ff-only          # get any changes from the Trac git server
+~/sage-git$ git push                    # push your changes from the Trac git server
+}}}
+(But see the [[#gitconfig|section on git configuration]] if `git push` doesn't work.)
 
-=== I want to test out many features together (tornado branch) ===
+=== Move/delete/rename a local branch ===
 
-=== I want to convert a mercurial patch to a git branch ===
+=== Move/delete/rename a branch on the Trac git server ===
 
-=== I want to move a patch from the combinat queue to git ===
+=== Change the mapping between my local branches and branches on the Trac git server ===
+
+=== Collaborate with others on a combinat feature ===
+
+=== See what other people are doing ===
+
+=== Review a ticket ===
+
+=== Test out many features together (tornado branch) ===
+
+=== Convert a mercurial patch to a git branch ===
+
+=== Move a patch from the combinat queue to git ===
 
 == Basic git commands ==
 
