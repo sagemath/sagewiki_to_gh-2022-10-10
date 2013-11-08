@@ -23,7 +23,6 @@ Since this is confusing, let's say it again: Trac refers to the url `trac.sagema
 <<Anchor(nameontrac)>>
 === What should I name my branch on Trac? ===
 
-==== Trac with single author ====
 First, it should be noted that the name of a branch on your computer does not have to match the name of the (corresponding) branch on Trac. Git has the ability to keep track of a mapping between local branch names and remote branch names for convenience. However, some people prefer to keep the same name for local and remote branches, to avoid confusion. Now, the question is: what should you name your remote branches on Trac?
 
 This is mainly important because different people have different permission for reading and writing branches on Trac:
@@ -89,7 +88,7 @@ This step is different for different people, but is described in [[http://sagema
 
 Follow the excellent directions at [[http://sagemath.github.io/git-developer-guide/trac.html#authentication|the authentication section of the new developer guide]] (everything starting at the heading "Authentication" and ending before the heading "Reporting bug"). This is necessary if you want to actually push your code changes to the Trac server using git.
 
-TODO:: something about avoiding linebreaks on the Trac page?
+ Note:: When you copy your public key information to Trac (in your user preferences page), make sure you don't copy and paste extra line breaks in your key! Trac allows you to have more than one public key, as long as you put each key on a separate line. Conversely, this means that you cannot spread a single key across multiple lines. To check that you don't have extra line breaks, you can try resizing the textbox on your user preferences page.
 
 == Step 3: clone the git repository from Trac ==
 
@@ -107,20 +106,75 @@ mguaypaq@chmmr:/tmp/sage-git$ ls
 build  COPYING.txt  Makefile  README.txt  sage  src  VERSION.txt
 }}}
 
-Note for experts:: Actually, it is faster for the first time to clone the sage git repository using the `git://` protocol instead of the `ssh` protocol from `github.com` rather than `trac.sagemath.org`. This also has the upside that you can do it without setting up Trac authentication (Step 2). '''However''', the downside is that you will have to change your remote url later in your configuration.
+ Note for experts:: Actually, it is faster for the first time to clone the sage git repository using the `git://` protocol instead of the `ssh` protocol from `github.com` rather than `trac.sagemath.org`. This also has the upside that you can do it without setting up Trac authentication (Step 2). '''However''', the downside is that you will have to change your remote url later in your configuration.
 
 == Step 4: make sure your git configuration is correct ==
 
-TODO:: Talk about a sample `~/.gitconfig` and a sample `$SAGE_ROOT/.git/config`.
-
+Git stores some information about default command options and remote repositories in a few places on your computer. For sage, there are two relevant places:
+ * Your global configuration options, in `$HOME/.gitconfig`, which apply to all your git projects (not just sage). Mine looks like this. The `[user]` section is the most important, and contains my real name and my real email address. The other sections are really optional. (The `[core]` section has an option that sets my favourite text editor. The `[alias]` section defines some shortcut commands (like `git br` instead of `git branch` or `git lg` for a very pretty history graph). The `[merge]` section has an option that makes for more informative merge commit messages. The `[push]` section contains an option that makes git only update the current branch when pushing to the Trac git server.)
 {{{
-git remote set-url origin git@trac.sagemath.org:sage.git
-git config --global push.default upstream
+mguaypaq@chmmr:/tmp/sage-git$ cat $HOME/.gitconfig
+[user]
+  name = Mathieu Guay-Paquet
+  email = mathieu.guaypaquet@gmail.com
+[core]
+  editor = gedit -w -s
+[alias]
+  ci = commit -a
+  co = checkout
+  st = status
+  br = branch
+  wdiff = diff --color-words
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)[%an]%Creset' --abbrev-commit --date=relative
+[merge]
+  log = true
+[push]
+  default = upstream
+}}}
+ * Your sage-specific configurations options, in `$SAGE_ROOT/.git/config`. Mine looks like this. The parts that are most likely to cause problems are 
+   * the `url` option of the `[remote "origin"]` section, which tells git how it should synchronize the information on your local machine with the information on the Trac git server,
+   * the `[branch "master"]` section, which tells git how your local `master` branch corresponds to the `master` branch on the Trac git server.
+{{{
+mguaypaq@chmmr:/tmp/sage-git$ cat .git/config
+[core]
+  repositoryformatversion = 0
+  filemode = true
+  bare = false
+  logallrefupdates = true
+[remote "origin"]
+  fetch = +refs/heads/*:refs/remotes/origin/*
+  url = git@trac.sagemath.org:sage.git
+[branch "master"]
+  remote = origin
+  merge = refs/heads/master
 }}}
 
 == Step 5: install ccache to speed up future compilations ==
 
-TODO:: an example
+The optional sage package `ccache` makes recompilations of C files much faster, so it is recommended to install it. Thankfully, this is very easy: simply go to the directory containing sage on your computer and say
+{{{
+mguaypaq@chmmr:/tmp/sage-git$ ./sage -i ccache
+}}}
+The result should look something like:
+{{{
+/tmp/sage-git/src/bin/sage-spkg: line 310: cd: /tmp/sage-git/upstream: No such file or directory
+Attempting to download package ccache
+>>> Checking online list of optional packages.
+2013-11-07 17:11:12 URL:http://www.sagemath.org/spkg/optional/list [1139/1139] -> "-" [1]
+>>> Found ccache-3.1.9
+>>> Trying to download http://www.sagemath.org/spkg/optional/ccache-3.1.9.spkg
+
+*** lots of output ***
+
+real 0m8.544s
+user 0m5.328s
+sys 0m1.392s
+Successfully installed ccache-3.1.9
+Deleting temporary build directory
+/tmp/sage-git/local/var/tmp/sage/build/ccache-3.1.9
+touch: cannot touch `/tmp/sage-git/local/lib/sage-force-relocate.txt': No such file or directory
+Finished installing ccache-3.1.9.spkg
+}}}
 
 == Step 6: build sage and/or the sage documentation ==
 
