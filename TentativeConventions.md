@@ -225,6 +225,48 @@ Combining all of this, probably the fastest way to build sage is something like:
 ~/sage-git$ make start                               # build only sage
 }}}
 
+== Quick reference guide ==
+
+Here are some common things you might want to do, together with the relevant git commands.
+
+=== I want to get the latest official development version of Sage ===
+
+From your Sage directory, run:
+{{{
+~/sage-git$ git fetch origin       # get the latest repository information from Trac
+~/sage-git$ git checkout master    # go to the local master branch
+~/sage-git$ git pull --ff-only     # move the local master branch forward to match the information from Trac
+~/sage-git$ make start             # rebuild the parts of Sage that changed
+}}}
+
+The option `--ff-only` for the `git pull` command makes sure that if there are big merge conflicts with the new changes on trac, you can handle them manually without messing up your entire branch and your local changes. The `make start` command is analogous to the usual `sage -b` command, but is more comprehensive.
+
+=== I want to start working on a new feature ===
+
+=== I want to save my work ===
+
+=== I want to continue working on a feature ===
+
+=== I made a mistake! I want to undo something I just did ===
+
+=== I want to make my code available on the Trac git server ===
+
+=== I want to get someone else's code from the Trac git server ===
+
+=== I want to move/delete/rename a local branch ===
+
+=== I want to move/delete/rename a branch on the Trac git server ===
+
+=== I want to collaborate with others on a combinat feature ===
+
+=== I want to search through what other people are doing ===
+
+=== I want to test out many features together (tornado branch) ===
+
+=== I want to convert a mercurial patch to a git branch ===
+
+=== I want to move a patch from the combinat queue to git ===
+
 == Basic git commands ==
 
 === Getting the latest version of Sage ===
