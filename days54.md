@@ -97,10 +97,6 @@ Here are some useful links:
 
  * [[http://eagain.net/articles/git-for-computer-scientists/|Git for Computer Scientists]]
 
-==== Useful commands ====
-
- * `sage -f -git` fixes `sage --dev` sometimes
-
 === Location ===
 
 [[http://www.ucdavis.edu|University of California Davis]]
