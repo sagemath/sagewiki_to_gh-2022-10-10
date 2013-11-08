@@ -432,6 +432,17 @@ Branch tornado-kschur-branching set up to track remote branch u/aschilling/torna
 
 = Example workflow =
 
+=== Basic collaboration example ===
+
+Suppose developers A and B collaborate on branch `branch_AB`. Developer A wants to work on the project and does
+{{{
+$ git pull
+}}}
+then edits files in the sage file system. 
+
+git branch --no-merged = master
+
+
 = Moving a ticket from patches to git =
 
 Make sure that your file has the header data by an `hg export`. Then decide where you want to put your patch.
