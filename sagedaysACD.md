@@ -77,7 +77,7 @@ Coffee break at 11am
 
  * FMV Algorithm into a patch - Bianca Thompson, Ben Hutz, Joao Faria
 
- * Review 14219 - Adam Towsley, Vincent Delecroix
+ * Review [[http://trac.sagemath.org/ticket/14219|#14219]] - Adam Towsley, Vincent Delecroix
  
  * Eigen values (see [[http://trac.sagemath.org/ticket/14990|#14990]] for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
 
