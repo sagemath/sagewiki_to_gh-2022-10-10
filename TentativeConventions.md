@@ -41,14 +41,15 @@ These conventions make it easy to:
  * Browse through the list of all branches on Trac (or all combinat branches) and get an idea of what is there.
  * [[http://wiki.sagemath.org/TentativeConventions#searching|Search]] through the list of all branches on Trac (or all combinat branches) using grep or other automated tools.
  * Find the corresponding Trac tickets easily.
+ * Use tab-completion for branch names. For combinat features, both `public/combinat/<topic>` and `public/combinat/<topic>-<number>` start the same way, and then the number is a convenient pointer to the Trac ticket, if any. For non-combinat features with a Trac ticket, the user is more likely to know the `<number>` part of `public/ticket/<number>-<topic>` than the particular choice of `<topic>`.
 
 In summary:
 {{{
-u/<username>/wip/<mystuff>                # for a single-author, unstable personal branch
-u/<username>/combinat/<description>       # for personal progress on a combinat branch
-public/combinat/<description>             # for public progress on a combinat branch
-public/combinat/<description>-<ticket>    # for a combinat-related branch with an associated Trac ticket
-public/ticket/<ticket>-<description>      # for a generic public branch with an associated Trac Ticket
+u/<username>/wip/<mystuff>          # for a single-author, unstable personal branch
+u/<username>/combinat/<topic>       # for personal progress on a combinat branch
+public/combinat/<topic>             # for public progress on a combinat branch
+public/combinat/<topic>-<number>    # for a combinat-related branch with an associated Trac ticket
+public/ticket/<number>-<topic>      # for a generic public branch with an associated Trac Ticket
 }}}
 
 === If a branch is on Trac, who does it belong to? ===
