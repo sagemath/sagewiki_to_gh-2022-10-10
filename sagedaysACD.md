@@ -31,7 +31,7 @@ The workshop will consist of tutorials and talks in the mornings and working gro
 === Friday, November 8 (building Quad 406) ===
 
 ||9:00am-10:00am||Tutorial III: Ben Hutz: Python introduction [[attachment:Python_intro.pdf | slides]]||
-||10:00am-11:00am||Tutorial IV: Ben Hutz:  Contributing to Sage||
+||10:00am-11:00am||Tutorial IV: Ben Hutz:  Contributing to Sage [[[[attachment:Contributing_to_sage.pdf | slides]]||
 ||11:00am-11:30am||Break||
 ||11:30am-12:30pm||Talk: David Krumm||
 ||12:30pm-2:00pm||Lunch||
