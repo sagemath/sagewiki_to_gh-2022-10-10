@@ -30,20 +30,24 @@ If you are working on a branch yourself, then it is best to put your patches on 
 {{{
 u/<myname>/<mystuff>
 }}}
+or
+{{{
+u/<myname>/ticket/<tracnumber>-<mystuff>
+}}}
 
 === Trac with collaboration ===
 
 If you collaborate on a branch with others or have already a ticket number, then please put your branch on the
 public space and mark
 {{{
-public/ticket/<mystuff>
+public/ticket/<tracnumber>-<mystuff>
 }}}
 
 If the ticket is combinat related mark it (so it [[#searching|can be searched as such]]) as
 {{{
 public/combinat/<mystuff>
+public/combinat/<tracnumber>-<mystuff>
 }}}
-
 
 First, it should be noted that the name of a branch on your computer does not have to match the name of the (corresponding) branch on Trac. Git has the ability to keep track of a mapping between local branch names and remote branch names for convenience. However, some people prefer to keep the same name for local and remote branches, to avoid confusion. Now, the question is: what should you name your remote branches on Trac?
 
