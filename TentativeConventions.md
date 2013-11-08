@@ -450,6 +450,7 @@ Branch tornado-kschur-branching set up to track remote branch u/aschilling/torna
 
 Suppose developers A and B collaborate on branch `branch_AB`. Developer A wants to work on the project and does
 {{{
+$ git checkout branch_AB
 $ git pull
 }}}
 then edits files in the sage file system. Once finished A makes a commit
@@ -470,6 +471,10 @@ $ git commit -m"changed everything as well"
 Then she pulls using
 {{{
 $ git pull--ff-only
+}}}
+If there was no problem she can push her changes
+{{{
+$ git push
 }}}
 
 = Moving a ticket from patches to git =
