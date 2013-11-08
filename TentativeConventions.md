@@ -1,10 +1,10 @@
 <<TableOfContents(3)>>
 
-= Abstract =
+== Abstract ==
 
 Here are some tentative workflow and naming conventions developed at [[days54|Sage Days 54]], together with some FAQs about using git.
 
-= Rationale =
+== Rationale ==
 
 === Why does this page give instructions using git directly instead of the dev scripts? ===
 
@@ -72,7 +72,7 @@ There is also the following corollary:
 
  * If `aardvarks` is marked as work-in-progress (say `u/alice/wip/aardvarks`), then it should not also be in the "branch" field of a Trac ticket. Before setting it in the "branch" field of a ticket, the branch should be renamed.
 
-= First-time setup =
+== First-time setup ==
 
 There is some scattered documentation on how to install and configure the git version of Sage. For convenience, we compile all of the correct (as of November 7, 2013) steps here.
 
@@ -213,7 +213,7 @@ Combining all of this, probably the fastest way to build sage is something like:
 /usr/sage-git$ make start                               # build only sage
 }}}
 
-= Basic git commands =
+== Basic git commands ==
 
 === Getting the latest version of Sage ===
 
@@ -335,7 +335,7 @@ f2491f1 HEAD@{8}: checkout: moving from master to extended_affine_weyl_groups_sd
 f2491f1 HEAD@{9}: checkout: moving from tornado-kschur-branching to master
 }}}
 
-= Branch naming conventions =
+== Branch naming conventions ==
 
 === On Trac ===
 
@@ -446,7 +446,7 @@ To git@trac.sagemath.org:sage.git
 Branch tornado-kschur-branching set up to track remote branch u/aschilling/tornado-kschur-branching from origin.
 }}}
 
-= Example workflow =
+== Example workflow ==
 
 === Basic collaboration example ===
 
@@ -479,7 +479,7 @@ If there was no problem she can push her changes
 $ git push
 }}}
 
-= Moving a ticket from patches to git =
+== Moving a ticket from patches to git ==
 
 Make sure that your file has the header data by an `hg export`. Then decide where you want to put your patch.
 If it is an independent patch, you want to create a new branch
@@ -508,7 +508,7 @@ $ sage --dev import-patch --url http://trac.sagemath.org/raw-attachment/ticket/1
 
 If you find that the author field is set to ``unknown user`` then it could be that the patch needs to be exported first.
 
-= Moving a patch from the combinat queue to git =
+== Moving a patch from the combinat queue to git ==
 
 All patches in the queue will soon be merged from the sage-combinat queue to git branches on trac.
 Authors who want to do this themselves are encouraged to do so. The script will by default
