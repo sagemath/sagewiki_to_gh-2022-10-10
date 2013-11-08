@@ -106,8 +106,6 @@ mguaypaq@chmmr:/tmp/sage-git$ ls
 build  COPYING.txt  Makefile  README.txt  sage  src  VERSION.txt
 }}}
 
- Note for experts:: Actually, it is faster for the first time to clone the sage git repository using the `git://` protocol instead of the `ssh` protocol from `github.com` rather than `trac.sagemath.org`. This also has the upside that you can do it without setting up Trac authentication (Step 2). '''However''', the downside is that you will have to change your remote url later in your configuration.
-
 === Step 4: make sure your git configuration is correct ===
 
 Git stores some information about default command options and remote repositories in a few places on your computer. For sage, there are two relevant places:
