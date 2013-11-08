@@ -68,15 +68,15 @@ Coffee break at 11am
 
  * MacCaulay Resultant - Patrick Ingram, Soli Vishkautsan, Hao Chen, Done for universal polynomials--11/8
 
- * Krum-Doyle Small Points Algorithm - David Krum, John Doyle
+ * Krumm-Doyle Small Points Algorithm - David Krumm, John Doyle
 
- * Bruan-Molnar Algorithm into a patch - Adam Towsley, Brian Stout, Holly Krieger
+ * Bruin-Molnar Algorithm into a patch - Adam Towsley, Brian Stout, Holly Krieger
 
  * Global height for integer fix ([[http://trac.sagemath.org/ticket/15373|#15373]] and [[http://trac.sagemath.org/ticket/15376|#15376]], needs review) and canonical heights for points in number fields - Paul Fili
 
  * FMV Algorithm into a patch - Bianca Thompson, Ben Hutz, Joao Faria
 
- * Review [[http://trac.sagemath.org/ticket/14219|#14219]] - Adam Towsley, Vincent Delecroix
+ * Review [[http://trac.sagemath.org/ticket/14219|#14219]] - Adam Towsley, Vincent Delecroix, Ben Hutz
  
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
 
