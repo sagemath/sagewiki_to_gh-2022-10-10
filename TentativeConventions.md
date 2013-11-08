@@ -24,30 +24,6 @@ Since this is confusing, let's say it again: Trac refers to the url `trac.sagema
 === What should I name my branch on Trac? ===
 
 ==== Trac with single author ====
-
-If you are working on a branch yourself, then it is best to put your patches on trac in your personal space
-{{{
-u/<myname>/<mystuff>
-}}}
-or
-{{{
-u/<myname>/ticket/<tracnumber>-<mystuff>
-}}}
-
-==== Trac with collaboration ====
-
-If you collaborate on a branch with others or have already a ticket number, then please put your branch on the
-public space and mark
-{{{
-public/ticket/<tracnumber>-<mystuff>
-}}}
-
-If the ticket is combinat related mark it (so it [[#searching|can be searched as such]]) as
-{{{
-public/combinat/<mystuff>
-public/combinat/<tracnumber>-<mystuff>
-}}}
-
 First, it should be noted that the name of a branch on your computer does not have to match the name of the (corresponding) branch on Trac. Git has the ability to keep track of a mapping between local branch names and remote branch names for convenience. However, some people prefer to keep the same name for local and remote branches, to avoid confusion. Now, the question is: what should you name your remote branches on Trac?
 
 This is mainly important because different people have different permission for reading and writing branches on Trac:
@@ -63,8 +39,16 @@ Given this, the discussions at Sage Days 54 settled on some suggestions:
 
 These conventions make it easy to:
  * Browse through the list of all branches on Trac (or all combinat branches) and get an idea of what is there.
- * Search through the list of all branches on Trac (or all combinat branches) using grep or other automated tools.
+ * [[http://wiki.sagemath.org/TentativeConventions#searching|Search]] through the list of all branches on Trac (or all combinat branches) using grep or other automated tools.
  * Find the corresponding Trac tickets easily.
+
+In summary:
+{{{
+u/<username>/wip/<mystuff>              # for a single-author, unstable personal branch
+public/combinat/<ticket>-<description>  # for a combinat-related branch with an associated Trac ticket
+public/combinat/<description>           # for a combinat-related branch with no associated Trac ticket
+public/ticket/<ticket>-<description>    # for a generic public branch with an associated Trac Ticket
+}}}
 
 === If a branch is on Trac, who does it belong to? ===
 
