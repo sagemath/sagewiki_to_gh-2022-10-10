@@ -1,4 +1,4 @@
-<<TableOfContents(2)>>
+<<TableOfContents(3)>>
 
 = Abstract =
 
@@ -80,17 +80,17 @@ Sources:
  * [[http://trac.sagemath.org/wiki/QuickStartSageGit]]
  * [[http://sagemath.github.io/git-developer-guide/]]
 
-== Step 1: make sure git is installed on your computer ==
+=== Step 1: make sure git is installed on your computer ===
 
 This step is different for different people, but is described in [[http://sagemath.github.io/git-developer-guide/git_setup.html|the git setup section of the new developer guide]]. Note that to use git with sage, you must always be somewhere in the sage tree (in `$SAGE_ROOT`, which may be something like `/opt/sage-git` on your computer) when running any `git ...` commands.
 
-== Step 2: tell Trac about your ssh key ==
+=== Step 2: tell Trac about your ssh key ===
 
 Follow the excellent directions at [[http://sagemath.github.io/git-developer-guide/trac.html#authentication|the authentication section of the new developer guide]] (everything starting at the heading "Authentication" and ending before the heading "Reporting bug"). This is necessary if you want to actually push your code changes to the Trac server using git.
 
  Note:: When you copy your public key information to Trac (in your user preferences page), make sure you don't copy and paste extra line breaks in your key! Trac allows you to have more than one public key, as long as you put each key on a separate line. Conversely, this means that you cannot spread a single key across multiple lines. To check that you don't have extra line breaks, you can try resizing the textbox on your user preferences page.
 
-== Step 3: clone the git repository from Trac ==
+=== Step 3: clone the git repository from Trac ===
 
 Get a copy of the whole sage tree from the Trac server using git. In the following example, we are working in the `/tmp` directory, and we choose to put the sage tree in the `/tmp/sage-git` directory.
 {{{
@@ -108,7 +108,7 @@ build  COPYING.txt  Makefile  README.txt  sage  src  VERSION.txt
 
  Note for experts:: Actually, it is faster for the first time to clone the sage git repository using the `git://` protocol instead of the `ssh` protocol from `github.com` rather than `trac.sagemath.org`. This also has the upside that you can do it without setting up Trac authentication (Step 2). '''However''', the downside is that you will have to change your remote url later in your configuration.
 
-== Step 4: make sure your git configuration is correct ==
+=== Step 4: make sure your git configuration is correct ===
 
 Git stores some information about default command options and remote repositories in a few places on your computer. For sage, there are two relevant places:
  * Your global configuration options, in `$HOME/.gitconfig`, which apply to all your git projects (not just sage). Mine looks like this. The `[user]` section is the most important, and contains my real name and my real email address. The other sections are really optional. (The `[core]` section has an option that sets my favourite text editor. The `[alias]` section defines some shortcut commands (like `git br` instead of `git branch` or `git lg` for a very pretty history graph). The `[merge]` section has an option that makes for more informative merge commit messages. The `[push]` section contains an option that makes git only update the current branch when pushing to the Trac git server.)
@@ -149,7 +149,7 @@ mguaypaq@chmmr:/tmp/sage-git$ cat .git/config
   merge = refs/heads/master
 }}}
 
-== Step 5: install ccache to speed up future compilations ==
+=== Step 5: install ccache to speed up future compilations ===
 
 The optional sage package `ccache` makes recompilations of C files much faster, so it is recommended to install it. Thankfully, this is very easy: simply go to the directory containing sage on your computer and say
 {{{
@@ -176,7 +176,7 @@ touch: cannot touch `/tmp/sage-git/local/lib/sage-force-relocate.txt': No such f
 Finished installing ccache-3.1.9.spkg
 }}}
 
-== Step 6: build sage and/or the sage documentation ==
+=== Step 6: build sage and/or the sage documentation ===
 
 TODO:: Talk about make
 
