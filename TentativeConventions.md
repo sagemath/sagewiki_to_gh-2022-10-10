@@ -198,6 +198,14 @@ mguaypaq@chmmr:/tmp/sage-git$ make doc      # build the sage documentation
 mguaypaq@chmmr:/tmp/sage-git$ make          # build sage and the documentation
 }}}
 
+I have a pre-compiled version of Atlas in my `/opt/atlas-sage` directory, containing the following files:
+{{{
+mguaypaq@chmmr:/tmp/sage-git$ ls /opt/atlas-sage
+libatlas.a   libcblas.so   libf77blas.so  libptcblas.a
+libatlas.so  libclapack.a  liblapack.a    libptf77blas.a
+libcblas.a   libf77blas.a  liblapack.so   libtstatlas.a
+}}}
+
 Combining all of this, probably the fastest way to build sage is something like:
 {{{
 mguaypaq@chmmr:/tmp/sage-git$ export SAGE_ATLAS_LIB=/opt/atlas-sage    # this is where my pre-compiled Atlas libraries live
