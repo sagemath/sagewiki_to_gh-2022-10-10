@@ -380,6 +380,20 @@ fb33147 Merge branch 'master' into ticket/10305
 9b72574 Add rings for the center of the symmetric group algebras.
 }}}
 
+To see all unmerged branches
+{{{
+$ git branch --no-merged=master 
+  public/combinat/15361-branching-rules
+* public/combinat/rigged_configurations/13872-bijections
+  ticket/15300
+  u/aschilling/combinat/kschur
+}}}
+To see all merged branches
+{{{
+$ git branch --merged=master 
+  master
+}}}
+
 === Tornado branches ===
 
 Sometimes you might want to share certain features that are not yet in main-sage with a collaborator
@@ -438,10 +452,25 @@ Suppose developers A and B collaborate on branch `branch_AB`. Developer A wants 
 {{{
 $ git pull
 }}}
-then edits files in the sage file system. 
+then edits files in the sage file system. Once finished A makes a commit
+{{{
+$ git commit -a -m"changed everything"
+}}}
+and pushes to Trac
+{{{
+$ git push
+}}}
 
-git branch --no-merged = master
-
+B has been working at the same time and wants to base her work on A's, but is not sure whether there will
+be conflicts. She only wants to commit changes in file.py for now. So she does
+{{{
+$ git add file.py
+$ git commit -m"changed everything as well"
+}}}
+Then she pulls using
+{{{
+$ git pull--ff-only
+}}}
 
 = Moving a ticket from patches to git =
 
