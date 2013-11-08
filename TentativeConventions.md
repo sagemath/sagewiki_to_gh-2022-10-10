@@ -248,17 +248,20 @@ The first time you pull a branch from trac onto your local computer:
 $ git remote update origin
 $ git checkout -b 10305-partition origin/public/ticket/10305-partition
 }}}
+The -b option builds the remote branch locally.
+
 After the initial pull or push, this is the workflow to push your local changes to trac:
 {{{
 $ git checkout <mybranch>
 $ git pull --ff-only
-$ git commit -a -m '<your commit message>'
+$ git status
+$ git add '<your file>'
+$ git commit -m '<your commit message>'
 $ git push
 }}}
+The 'git status' command will tell you which files have changed. Then use the 'git add' command to add the files whose changes you want to push to trac.  
 
-
-*This part needs further explanation*
-If there are big changes, you can use these commands:
+If the pull command produces an error, you can use these commands:
 {{{
 $ git checkout <mybranch>
 $ git pull --ff-only
