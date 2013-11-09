@@ -88,13 +88,15 @@ Coffee break at 11am
 
  * Bug fix: log of NaN in RealField and ComplexField results in infinite loop. We have posted a fix here: [[http://trac.sagemath.org/ticket/15388|#15388]] (needs review) - Paul Fili, Adam Towsley
 
- * Implement .an_element() for ProjectiveSpace (it currently makes the TestSuite fails)
+ * Enabled canonical height for maps of P1 over number fields. Here is an early draft worksheet: 
 
 === Whishlist ===
 
  * (Holly) check if for a given parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational of P1 existence of attracting cycles
 
  * is_conjugate() for morphisms
+
+ * Implement .an_element() for ProjectiveSpace (it currently makes the TestSuite fails) 
 
  * PLEASE ADD MORE...
 
