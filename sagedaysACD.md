@@ -72,7 +72,7 @@ Coffee break at 11am
 
  * Bruin-Molnar Algorithm into a patch - Adam Towsley, Brian Stout, Holly Krieger
 
- * Global height for integer fix ([[http://trac.sagemath.org/ticket/15373|#15373]] and [[http://trac.sagemath.org/ticket/15376|#15376]], needs review) and canonical heights for points in number fields - Paul Fili
+ * Global height for integer fix ([[http://trac.sagemath.org/ticket/15373|#15373]] and [[http://trac.sagemath.org/ticket/15376|#15376]], positively reviewed) and canonical heights for points in number fields - Paul Fili
 
  * FMV Algorithm into a patch - Bianca Thompson, Ben Hutz, Joao Faria
 
