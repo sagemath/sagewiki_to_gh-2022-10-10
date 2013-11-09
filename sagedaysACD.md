@@ -64,7 +64,7 @@ Coffee break at 11am
 
 === Projects ===
 
- * Minor Bug Fix - Ben Hutz - ([[http://trac.sagemath.org/ticket/15377|#15377]], needs review) - improve documentation of normalize_coordinates()
+ * Minor Bug Fix - Ben Hutz - ([[http://trac.sagemath.org/ticket/15377|#15377]], positive review) - improve documentation of normalize_coordinates()
 
  * MacCaulay Resultant - Patrick Ingram, Soli Vishkautsan, Hao Chen, Done for universal polynomials--11/8
 
