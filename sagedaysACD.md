@@ -88,6 +88,7 @@ Coffee break at 11am
 
  * Bug fix: log of NaN in RealField and ComplexField results in infinite loop. We have posted a fix here: [[http://trac.sagemath.org/ticket/15388|#15388]] (needs review) - Paul Fili, Adam Towsley
 
+ * Implement .an_element() for ProjectiveSpace (it currently makes the TestSuite fails)
 
 === Location ===
 
