@@ -230,21 +230,54 @@ Combining all of this, probably the fastest way to build sage is something like:
 
 Here are some common things you might want to do, together with the relevant git commands.
 
+ Note:: If you want to know the details of a given git command, use:
+{{{
+$ git help <command>
+}}}
+where `<command>` is something like `push`, `pull`, `commit`, etc.
+
+<<Anchor(upgrade)>>
 === Get the latest official development version of Sage ===
 
-From your Sage directory, run:
+First, check if you have any unsaved changes by running the command:
 {{{
-~/sage-git$ git fetch origin       # get the latest repository information from Trac
-~/sage-git$ git checkout master    # go to the local master branch
-~/sage-git$ git pull --ff-only     # move the local master branch forward to match the information from Trac
-~/sage-git$ make start             # rebuild the parts of Sage that changed
+~/sage-git$ git status
+}}}
+If you do have unsaved changes, they will be lost! [[#save|Save them first]], then run the following commands:
+{{{
+~/sage-git$ git fetch origin           # get the latest repository information from Trac
+~/sage-git$ git reset --hard master    # make all your files correspond to the local master branch
+~/sage-git$ git clean -d -f            # get rid of any untracked files or directories
+~/sage-git$ git pull --ff-only         # move the local master branch forward to match the information from Trac
+~/sage-git$ make start                 # rebuild the parts of Sage that changed
 }}}
 
 The option `--ff-only` for the `git pull` command makes sure that if there are big merge conflicts with the new changes on trac, you can handle them manually without messing up your entire branch and your local changes. The `make start` command is analogous to the usual `sage -b` command, but is more comprehensive.
 
 === Start working on a new feature ===
 
+To start work on a new feature, you should first [[#upgrade|get latest official development version of Sage]], and use that as the base of your work. Then create a new local branch (named `<localname>` here, but please pick a better name) to hold your code changes:
+{{{
+~/sage-git$ git checkout master -b <localname>    # create a new branch <localname> based at the current master branch
+}}}
+Then, you can go ahead and start making your code changes. Be sure to [[#save|save your work]] when you are done!
+
+<<Anchor(save)>>
 === Save my work ===
+
+See [[http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository|this tutorial on making commits]] or [[http://git-scm.com/book/en/Git-Tools-Stashing|this tutorial on stashing changes]] for lots of details on how to save your code changes, but here are the basic commands you need. If your code is in a coherent state, use some combination of the commands:
+{{{
+~/sage-git$ git status                                      # see what files you have changed
+~/sage-git$ git add <filename>                              # if you have created a new file
+~/sage-git$ git commit -a -m 'this is my commit message'    # save changes to any modified files
+}}}
+If your code is in a very dirty state, you can instead use a combination of the commands:
+{{{
+~/sage-git$ git stash save 'this is a note to self'    # create a temporary stash of code changes
+~/sage-git$ git stash list                             # show a list of existing stashes
+~/sage-git$ git stash pop                              # apply the most recent stash to the sage tree
+~/sage-git$ git stash drop                             # discard the most recent stash
+}}}
 
 === Continue working on a feature ===
 
