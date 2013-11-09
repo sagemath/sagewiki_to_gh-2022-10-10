@@ -316,6 +316,32 @@ If the pull command produces an error, you can use these commands to resolve the
 
 === I made a mistake! I want to undo something I just did ===
 
+If you accidentally edited master and want to undo your change, you can:
+{{{
+~/sage-git$ git branch -m master <mybranch>    # save your current state to a new branch <mybranch>
+~/sage-git$ git branch master origin/master    # make a new master branch from the original one
+}}}
+
+If you deleted a local branch and you want to get it back, your deletion command should have told you the commit hash (something like `fb33147`) of the deleted branch. To get it back, say:
+{{{
+~/sage-git$ git branch <oldname> <hash>
+}}}
+
+If you want to see what your last few commits were, type:
+{{{
+~/sage-git$ git reflog
+5c7e56d HEAD@{0}: commit: fixed some documentation in kr_tableaux.py
+d4cc8e0 HEAD@{1}: pull: Merge made by the 'recursive' strategy.
+3813946 HEAD@{2}: commit: removed some whitespace in kr_tableaux.py
+307fef1 HEAD@{3}: commit: Removed some whitespaces, beautified code
+6aae6bf HEAD@{4}: merge origin/public/combinat/rigged_configurations/13872-bijections: Fast-forward
+f2491f1 HEAD@{5}: checkout: moving from master to public/combinat/rigged_configurations/13872-bijections
+f2491f1 HEAD@{6}: checkout: moving from tornado-kschur-branching to master
+510520a HEAD@{7}: checkout: moving from extended_affine_weyl_groups_sd40 to tornado-kschur-branching
+f2491f1 HEAD@{8}: checkout: moving from master to extended_affine_weyl_groups_sd40
+f2491f1 HEAD@{9}: checkout: moving from tornado-kschur-branching to master
+}}}
+
 <<Anchor(push)>>
 === Make my code available on the Trac git server ===
 
@@ -352,7 +378,42 @@ The previous command sets up a mapping on your computer between the names `<loca
 
 === Move/delete/rename a local branch ===
 
+If you want to delete a local branch `<localname>`:
+{{{
+~/sage-git$ git checkout master          # move to a different branch
+~/sage-git$ git branch -d <localname>    # delete the branch
+}}}
+This might complain if you are trying to delete a branch that has not been merged yet. If nonetheless you would like
+to delete it, try a hard delete:
+{{{
+~/sage-git$ git branch -D <localname>
+}}}
+Even in a hard delete this can be undone in the next 30 days (before the commits get garbage collected).
+
+If you want to rename a local branch `<oldname>` to `<newname>`:
+{{{
+~/sage-git$ git branch -m <oldname> <newname>
+}}}
+
 === Move/delete/rename a branch on the Trac git server ===
+
+To delete a remote branch `<something>`:
+{{{
+~/sage-git$ git push origin :<something>
+}}}
+The syntax here may look confusing, so here is a little explanation: it is actually a special case of the syntax
+{{{
+~/sage-git$ git push origin <localbranch>:<remotebranch>
+}}}
+which updates `<remotebranch>` on the remote server to be the same as `<localbranch>`. To delete a branch, we make `<localbranch>` be completely blank and push it onto `<remotebranch>`.
+
+To rename a remote branch, you have to delete the old name, and create the new name. Use these commands:
+{{{
+~/sage-git$ git fetch origin                             # get the latest info from Trac
+~/sage-git$ git checkout origin/<oldname>                # move to the branch to be renamed
+~/sage-git$ git push origin HEAD:<newname> :<oldname>    # create <newname> and delete <oldname> on Trac
+}}}
+Note that this will change which branch you are currently on.
 
 === Change the mapping between my local branches and branches on the Trac git server ===
 
@@ -378,7 +439,52 @@ In that case, use the following command instead:
 
 === Collaborate with others on a combinat feature ===
 
+<<Anchor(searching)>>
 === See what other people are doing ===
+
+If people use [[#nameontrac|consistent naming conventions]] for their branch names on the Trac git server, then it will be easy to search through them. For example, the following commands search through the branch names on Trac for certain patterns:
+{{{
+~/sage-git$ git fetch origin                           # get the latest info from Trac
+~/sage-git$ git branch -r | grep '/combinat/'          # search for combinat branches
+~/sage-git$ git branch -r | grep '/combinat/kschur'    # search for branches on kschur functions
+~/sage-git$ git branch -r | grep '/aschilling/'        # search for Anne Schilling's branches
+}}}
+
+If you want to see what a specific author did on trac within the last day, you can say:
+{{{
+~/sage-git$ git fetch origin
+~/sage-git$ git log --all --author="Bump" --since=1.day
+commit 5feebdbfa73f64dafe28a5e4fe0144ab36083ab0
+Author: Daniel Bump <bump@match.stanford.edu>
+Date:   Wed Nov 6 09:51:08 2013 -0800
+
+    get_branching_rule for F4=>B3 and G2=>A1 should return vectors of the correct length
+}}}
+
+To see how the ticket branches of author mguaypaq differ from main sage (or `origin/master`) try:
+{{{
+~/sage-git$ git log --remotes='origin/u/mguaypaq/*' ^origin/master --oneline
+1c7458a #15300: Implement Weyl and Clifford algebras.
+fb33147 Merge branch 'master' into ticket/10305
+405178b Remove extra chunk from farahat_higman.py and fix related formatting issues.
+25ff1fd Split off SymmetricGroupAlgebraCenter to its own file.
+9b72574 Add rings for the center of the symmetric group algebras.
+}}}
+
+To see all unmerged branches, say:
+{{{
+~/sage-git$ git branch --no-merged=master
+  public/combinat/15361-branching-rules
+* public/combinat/rigged_configurations/13872-bijections
+  ticket/15300
+  u/aschilling/combinat/kschur
+}}}
+
+To see all merged branches, say:
+{{{
+$ git branch --merged=master
+  master
+}}}
 
 === Review a ticket ===
 
