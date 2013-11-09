@@ -113,7 +113,7 @@ Florida Institute of Technology, Melbourne, FL.
  *Joao de Faria - Florida Institute of Technology
  *Vincent Delecroix - Univ. Paris VII, France
  *John Doyle - University of Georgia
- *Paul Fili - Oklahoma State
+ *Paul Fili - Oklahoma State University
  *Benjamin Hutz - Florida Institute of Technology
  *Patrik Ingram - Colorado State University
  *Holly Krieger - Massachusetts Institute of Technology
