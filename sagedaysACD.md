@@ -86,6 +86,8 @@ Coffee break at 11am
 
  * Composition of Morphisms ([[http://trac.sagemath.org/ticket/15378|#15378]]) - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
+ * Bug fix: log of NaN in RealField and ComplexField results in infinite loop. We have a bug fix: ([[http://trac.sagemath.org/ticket/15388|#15388]]) (needs review) - Paul Fili, Adam Towsley
+
 
 === Location ===
 
