@@ -567,7 +567,7 @@ If you are satisfied with the imported patch, you can [[#push|push your changes 
 
 === Move a patch from the combinat queue to git ===
 
-All patches in the queue will soon be merged from the sage-combinat queue to git branches on trac. Authors who want to do this themselves are encouraged to do so. The script will by default put the branches to `public/combinat/`''branchname'' and might lose author information if the patch does not have the appropriate meta information. To avoid this, use the following workflow.
+All patches in the queue will soon be merged from the sage-combinat queue to git branches on trac. Authors who want to do this themselves are encouraged to do so. The script will by default put the branches to `public/combinat/<branchname>` and might lose author information if the patch does not have the appropriate meta information. To avoid this, use the following workflow.
 
 First make sure that your patch has the correct meta data by exporting it. This step uses the familiar Mercurial workflow, so we will not describe it here.
 
