@@ -68,7 +68,7 @@ Coffee break at 11am
 
  * MacCaulay Resultant - Patrick Ingram, Soli Vishkautsan, Hao Chen, Done for universal polynomials--11/8
 
- * Krumm-Doyle Small Points Algorithm - David Krumm, John Doyle
+ * Krumm-Doyle Small Points Algorithm - Review [[http://trac.sagemath.org/ticket/15389]] - David Krumm, John Doyle
 
  * Bruin-Molnar Algorithm into a patch - Adam Towsley, Brian Stout, Holly Krieger
 
