@@ -94,7 +94,6 @@ Florida Institute of Technology, Melbourne, FL.
 
 === Participants ===
 
- *Ali Bendallah - Florida Institute of Technology
  *Hao Chen - University of Washington
  *Joao de Faria - Florida Institute of Technology
  *Vincent Delecroix - Univ. Paris VII, France
@@ -102,7 +101,6 @@ Florida Institute of Technology, Melbourne, FL.
  *Paul Fili - Oklahoma State
  *Benjamin Hutz - Florida Institute of Technology
  *Patrik Ingram - Colorado State University
- *Amin Khanlar - Florida Institute of Technology
  *Holly Krieger - Massachusetts Institute of Technology
  *David Krumm - University of Georgia
  *Donald Richardson - Florida Institute of Technology
