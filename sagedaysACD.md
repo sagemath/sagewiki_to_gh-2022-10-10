@@ -90,6 +90,12 @@ Coffee break at 11am
 
  * Implement .an_element() for ProjectiveSpace (it currently makes the TestSuite fails)
 
+=== Whishlist ===
+
+ * (Holly) check if for a given parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational of P1 existence of attracting cycles
+
+ * PLEASE ADD...
+
 === Location ===
 
 Florida Institute of Technology, Melbourne, FL.
