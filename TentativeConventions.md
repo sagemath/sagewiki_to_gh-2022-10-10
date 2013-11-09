@@ -289,6 +289,26 @@ The previous command sets up a mapping on your computer between the names `<loca
 
 === Change the mapping between my local branches and branches on the Trac git server ===
 
+If you have a local branch named `<localname>` on your own computer which is currently set up to map to the branch `<oldremotename>` on the Trac git server, and you would rather that it map to the branch `<newremotename>`, use the following command:
+{{{
+~/sage-git$ git branch <localname> --set-upstream-to origin/<newremotename>
+}}}
+
+ Note:: You may have an older version of git, in which case you will get an error message like
+{{{
+error: unknown option `set-upstream-to'
+usage: git branch [options] [-r | -a] [--merged | --no-merged]
+   or: git branch [options] [-l] [-f] <branchname> [<start-point>]
+
+*** more output ***
+}}}
+In that case, use the following command instead:
+{{{
+~/sage-git$ git branch <localname> --set-upstream origin/<newremotename>
+}}}
+
+ Note:: You can also see (and edit) the information about the mapping between local branch names and remote branch names in the file `$SAGE_ROOT/.git/config`.
+
 === Collaborate with others on a combinat feature ===
 
 === See what other people are doing ===
