@@ -711,7 +711,7 @@ fb33147 Merge branch 'master' into ticket/10305
 9b72574 Add rings for the center of the symmetric group algebras.
 }}}
 
-To see all unmerged branches
+To see all unmerged branches on your local computer
 {{{
 $ git branch --no-merged=master 
   public/combinat/15361-branching-rules
@@ -719,7 +719,7 @@ $ git branch --no-merged=master
   ticket/15300
   u/aschilling/combinat/kschur
 }}}
-To see all merged branches
+To see all merged branches on your local computer
 {{{
 $ git branch --merged=master 
   master
