@@ -11,11 +11,11 @@ The focus of the workshop will be Sage Math Cloud development, as well as variou
 
 == Participants ==
 
-* Clarita Begay
-* Volker Braun
-* Alina Bucur
-* Hao Chen
-* Sarah Chisholm
+ * Clarita Begay
+ * Volker Braun
+ * Alina Bucur
+ * Hao Chen
+ * Sarah Chisholm
 * Keith Clawson
 * Victoria de Quehen
 * Nathan Kaplan
