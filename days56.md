@@ -16,19 +16,19 @@ The focus of the workshop will be Sage Math Cloud development, as well as variou
  * Alina Bucur
  * Hao Chen
  * Sarah Chisholm
-* Keith Clawson
-* Victoria de Quehen
-* Nathan Kaplan
-* Kiran Kedlaya
-* Ling Long
-* Andrew Ohana
-* David Roe 
-* Harald Schilly
-* Christopher Swenson 
-* Holly Swisher
-* Vivek Venkatachalam
-* Kartik Venkatram
-* Jamie Weigandt
+ * Keith Clawson
+ * Victoria de Quehen
+ * Nathan Kaplan
+ * Kiran Kedlaya
+ * Ling Long
+ * Andrew Ohana
+ * David Roe 
+ * Harald Schilly
+ * Christopher Swenson 
+ * Holly Swisher
+ * Vivek Venkatachalam
+ * Kartik Venkatram
+ * Jamie Weigandt
 
 == Organizers ==
 
