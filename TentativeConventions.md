@@ -262,6 +262,11 @@ To start work on a new feature, you should first [[#upgrade|get latest official 
 }}}
 Then, you can go ahead and start making your code changes. Be sure to [[#save|save your work]] when you are done!
 
+Also, before running Sage with your modifications, be sure to rebuild the parts that changed with the command:
+{{{
+~/sage-git$ make start
+}}}
+
 <<Anchor(save)>>
 === Save my work ===
 
@@ -281,6 +286,7 @@ If your code is in a very dirty state, you can instead use a combination of the 
 }}}
 See also [[#push|the section on making your code changes available on the Trac git server]].
 
+<<Anchor(checkout)>>
 === Continue working on a feature ===
 
 First, check if you have any unsaved changes by running the command:
@@ -312,6 +318,11 @@ If the pull command produces an error, you can use these commands to resolve the
 
 ~/sage-git$ git commit -a -m '<some message>'    # save the result of merging
 ~/sage-git$ git push                             # tell Trac about the result
+}}}
+
+In any case, before running Sage with your modifications, rebuild the parts that changed with the command:
+{{{
+~/sage-git$ make start
 }}}
 
 === I made a mistake! I want to undo something I just did ===
@@ -359,6 +370,7 @@ Note that with the `--set-upstream` option, the previous command sets up a mappi
 }}}
 (But see the [[#gitconfig|section on git configuration]] if `git push` doesn't work.)
 
+<<Anchor(pull)>>
 === Get someone else's code from the Trac git server ===
 
 If there is a branch `<remotename>` on Trac and you would like to have a corresponding branch called `<localname>` on your own computer, use the commands:
@@ -375,6 +387,11 @@ The previous command sets up a mapping on your computer between the names `<loca
 ~/sage-git$ git push                    # push your changes from the Trac git server
 }}}
 (But see the [[#gitconfig|section on git configuration]] if `git push` doesn't work.)
+
+In any case, before running Sage, rebuild the parts that changed with the command:
+{{{
+~/sage-git$ make start
+}}}
 
 === Move/delete/rename a local branch ===
 
@@ -415,6 +432,7 @@ To rename a remote branch, you have to delete the old name, and create the new n
 }}}
 Note that this will change which branch you are currently on.
 
+<<Anchor(setupstream)>>
 === Change the mapping between my local branches and branches on the Trac git server ===
 
 If you have a local branch named `<localname>` on your own computer which is currently set up to map to the branch `<oldremotename>` on the Trac git server, and you would rather that it map to the branch `<newremotename>`, use the following command:
@@ -438,6 +456,8 @@ In that case, use the following command instead:
  Note:: You can also see (and edit) the information about the mapping between local branch names and remote branch names in the file `$SAGE_ROOT/.git/config`.
 
 === Collaborate with others on a combinat feature ===
+
+Simply use the workflow described in the rest of this document, and [[#nameontrac|pay attention to your naming conventions]]. For a quick example, see the [[#collaboration|basic collaboration example]] below.
 
 <<Anchor(searching)>>
 === See what other people are doing ===
@@ -482,345 +502,78 @@ To see all unmerged branches, say:
 
 To see all merged branches, say:
 {{{
-$ git branch --merged=master
+~/sage-git$ git branch --merged=master
   master
 }}}
 
 === Review a ticket ===
 
+First, consult the "branch" field on the Trac ticket tracker to see the name of the git branch which contains the code changes to be reviewed. Then, [[#pull|get the code from Trac]], and review it as usual. You should be able to easily [[#checkout|switch between the `master` branch and the ticket branch]]. If you have any changes to suggest in a review patch, you can make the changes and [[#push|push them to the Trac git server]]. You may have to check on the Trac ticket that the "branch" field is still up to date, but the "commit" field will be updated automatically. Make any comments or status changes as needed on the Trac ticket, and you're done!
+
 === Test out many features together (tornado branch) ===
 
-Sometimes you might want to share certain features that are not yet in main-sage with a collaborator
-who is not a developer. Suppose these features are in two different branches on trac.
-Then you can create a tornado branch by merging the two. Note, that you want to make sure that
-other developers will not base other code on those, so please label them as tornado branches!
+If you want to test out many features together (perhaps to see what merge conflicts will have to be dealt with, or to share the resulting version of Sage with a colleague), you can create a "tornado" branch which includes all of them. Note that you want to make sure that other developers will not base other code intended for the Sage library on those, so please label them clearly as tornado branches!
 
-Go to one of the two branches you would like to merge
+First make sure you have [[#save|no unsaved modifications]], then create a new branch (called `<tornado>` here) based at one of the branches or `master`:
 {{{
-$ git checkout kschur
-$ git branch
-  combinat/kschur
-  master
-* public/combinat/15361-branching-rules
-  ticket/15300
-}}}
-From there create your new tornado branch
-{{{
-$ git checkout -b tornado-kschur-branching
-$ git branch
-  combinat/kschur
-  master
-  public/combinat/15361-branching-rules
-  ticket/15300
-* tornado-kschur-branching
-}}}
-Now merge in the other branch
-{{{
-$ git merge combinat/kschur
-$ git log
-commit 510520a52e44bace997784370cacbfdd75ae4473
-Merge: 5feebdb 7f974ae
-Author: Anne Schilling <anne@lolita-4.local>
-Date:   Wed Nov 6 21:59:20 2013 -0800
-
-    Merge branch 'combinat/kschur' into tornado-kschur-branching
-}}}
-Finally push to trac
-{{{
-$ git push --set-upstream origin tornado-kschur-branching:u/aschilling/tornado-kschur-branching
-Counting objects: 44, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (5/5), done.
-Writing objects: 100% (5/5), 523 bytes | 0 bytes/s, done.
-Total 5 (delta 4), reused 0 (delta 0)
-To git@trac.sagemath.org:sage.git
- * [new branch]      tornado-kschur-branching -> u/aschilling/tornado-kschur-branching
-Branch tornado-kschur-branching set up to track remote branch u/aschilling/tornado-kschur-branching from origin.
+~/sage-git$ git checkout master -b <tornado>
 }}}
 
+Next, for each branch `<branch1>`, `<branch2>`, etc. that you want to combine, merge them into your tornado branch:
+{{{
+~/sage-git$ git merge <branch1>
+
+*** solve any merge conflicts ***
+
+~/sage-git$ git merge <branch2>
+
+*** solve any merge conflicts ***
+
+*** etc. ***
+}}}
+
+Finally, you can [[#push|push your tornado branch to Trac]], but make sure it is clearly labelled!
+
+<<Anchor(patch)>>
 === Convert a mercurial patch to a git branch ===
+
+Make sure that your file has the header data by doing an `hg export`. Then decide where you want to put your patch: if it is an independent patch, you want to create a new branch:
+{{{
+~/sage-git$ git checkout master -b <mybranch>
+}}}
+If you want to import the hg patch on top of another branch, go into this branch first:
+{{{
+~/sage-git$ git checkout <mybranch>
+}}}
+
+If your patch is on your local computer at `/pathname/patchname.patch` then use the Sage development script:
+{{{
+~/sage-git$ ./sage --dev import-patch --local-file /pathname/patchname.patch
+}}}
+
+If your patch is on the Trac ticket tracker or on the internet at a url, then use a command like:
+{{{
+~/sage-git$ ./sage --dev import-patch --url http://trac.sagemath.org/raw-attachment/ticket/12345/trac_12345-patchname.patch
+}}}
+If you find that the author field is set to ``unknown user`` then it could be that the patch needs to be exported and modified first.
+
+To see the commit which corresponds to the patch you just imported, do:
+{{{
+~/sage-git$ git log -1         # view the commit message and information of the most recent commit
+~/sage-git$ git diff HEAD^1    # view the actual code modifications
+}}}
+
+If you are satisfied with the imported patch, you can [[#push|push your changes to the Trac git server]].
 
 === Move a patch from the combinat queue to git ===
 
-== Basic git commands ==
+All patches in the queue will soon be merged from the sage-combinat queue to git branches on trac. Authors who want to do this themselves are encouraged to do so. The script will by default put the branches to `public/combinat/`''branchname'' and might lose author information if the patch does not have the appropriate meta information. To avoid this, use the following workflow.
 
-=== Getting the latest version of Sage ===
+First make sure that your patch has the correct meta data by exporting it. This step uses the familiar Mercurial workflow, so we will not describe it here.
 
-First get the latest information about all the branches published on trac
-{{{
-$ git remote update origin
-}}}
+Then, follow [[#patch|the instructions above for importing a mercurial patch into a git branch]].
 
-Then get the latest version of Sage itself
-{{{
-$ git checkout master
-$ git pull --ff-only
-$ make start
-}}}
-The option --ff-only for the pull command makes sure that if there are big merge conflicts with the
-new changes on trac, you can handle them manually without messing up your entire branch and your local changes.
-
-=== Pushing and pulling branches to and from trac ===
-
-If you have a local branch on your personal computer that you would like to push to trac, there are four options:
-{{{
-$ git push --set-upstream origin <mybranch>:u/<mytracname>/<mybranch>
-$ git push --set-upstream origin <mybranch>:public/combinat/<mybranch>
-$ git push --set-upstream origin <mybranch>:public/combinat/<ticketnumber>-<mybranch>
-$ git push --set-upstream origin <mybranch>:public/ticket/<ticketnumber>-<mybranch>
-}}}
-Use the first option for code you personally work on. The second option is for collaborative code with other combinat people.
-Use the third option if you already have a ticket number for combinat-related code. The fourth option is for tickets unrelated to combinat.
-
-The first time you pull a branch from trac onto your local computer:
-{{{
-$ git remote update origin
-$ git checkout -b 10305-partition origin/public/ticket/10305-partition
-}}}
-The -b option builds the remote branch locally.
-
-After the initial pull or push, this is the workflow to push your local changes to trac:
-{{{
-$ git checkout <mybranch>
-$ git pull --ff-only
-$ git status
-$ git add '<your file>'
-$ git commit -m '<your commit message>'
-$ git push
-}}}
-The 'git status' command will tell you which files have changed. Then use the 'git add' command to add the files whose changes you want to push to trac.  
-
-If the pull command produces an error, you can use these commands:
-{{{
-$ git checkout <mybranch>
-$ git pull --ff-only
-*git complains*
-$ git fetch
-$ git merge FETCH_HEAD
-...
-*resolve any merge conflicts*
-*or give up and say: "git merge --abort"*
-...
-$ git status
-...
-*some output???*
-...
-$ git commit -a -m '<some message>'
-$ git push
-}}}
-
-The `git fetch` command downloads a list of latest commits for the branch you are on, it does not change the state of your local branch.  The command `git merge FETCH_HEAD` updates your branch to the latest version of the branch on Trac.
-
-=== Deleting branches ===
-
-If you want to delete a local branch:
-{{{
-$ git checkout <somethingelse>
-$ git branch -d <mybranch>
-}}}
-This might complain if you are trying to delete a branch that has not been merged yet. If nonetheless you would like
-to delete it, try a hard delete:
-{{{
-$ git branch -D <mybranch>
-}}}
-Even in a hard delete this can be undone in the next 30 days (before the commits get garbage collected).
-
-To delete a remote branch:
-{{{
-$ git push origin :u/aschilling/<something>
-}}}
-The syntax here may look confusing, so here is a little explanation: it is actually a special case of the syntax
-{{{
-$ git push origin <localbranch>:<remotebranch>
-}}}
-which updates `<remotebranch>` on the remote server to be the same as `<localbranch>`. To delete a branch, we make `<localbranch>` be completely blank and push it onto `<remotebranch>`.
-
-=== Resetting unwanted changes ===
-
-If you accidentally edited master and want to undo your change
-{{{
-$ git branch -m master <mybranch>
-$ git branch master origin/master
-}}}
-If you do not care about the changes you can do a hard reset
-{{{
-$ git reset --hard origin/master
-}}}
-
-=== Checking your last few commits ===
-
-If you want to see what your last few commits were, type:
-{{{
-$ git reflog
-5c7e56d HEAD@{0}: commit: fixed some documentation in kr_tableaux.py
-d4cc8e0 HEAD@{1}: pull: Merge made by the 'recursive' strategy.
-3813946 HEAD@{2}: commit: removed some whitespace in kr_tableaux.py
-307fef1 HEAD@{3}: commit: Removed some whitespaces, beautified code
-6aae6bf HEAD@{4}: merge origin/public/combinat/rigged_configurations/13872-bijections: Fast-forward
-f2491f1 HEAD@{5}: checkout: moving from master to public/combinat/rigged_configurations/13872-bijections
-f2491f1 HEAD@{6}: checkout: moving from tornado-kschur-branching to master
-510520a HEAD@{7}: checkout: moving from extended_affine_weyl_groups_sd40 to tornado-kschur-branching
-f2491f1 HEAD@{8}: checkout: moving from master to extended_affine_weyl_groups_sd40
-f2491f1 HEAD@{9}: checkout: moving from tornado-kschur-branching to master
-}}}
-
-== Branch naming conventions ==
-
-=== On Trac ===
-
-See the section about [[#nameontrac|naming conventions on trac]].
-
-=== Local machine ===
-
-On your local machine you can call your branches however you like. However, it might be useful to use the
-same names that you use on trac.
-
-<<Anchor(searching)>>
-=== Naming and searching ===
-
-The branch name should be descriptive. If you have a ticket number (say 10305) that should be the first part of the name.
-The rest should describe what is in the branch, so people can easily search it
-{{{
-public/combinat/10305-partition-tableaux
-}}}
-
-Consistently using these naming conventions among all (sage-combinat) developers will make it easier to search for stuff.
-For example, trying to find all branches related to combinatorics can be found as follows
-{{{
-$ git ls-remote origin '*combinat*'
-5feebdbfa73f64dafe28a5e4fe0144ab36083ab0	refs/heads/public/combinat/15361-branching-rules
-7f974aeb3446206c029ac047c31938d55d86e651	refs/heads/u/aschilling/combinat/kschur
-}}}
-If you want to see what a specific author did on trac within the last day, you do
-{{{
-$ git remote update origin
-$ git log --all --author="Bump" --since=1.day
-commit 5feebdbfa73f64dafe28a5e4fe0144ab36083ab0
-Author: Daniel Bump <bump@match.stanford.edu>
-Date:   Wed Nov 6 09:51:08 2013 -0800
-
-    get_branching_rule for F4=>B3 and G2=>A1 should return vectors of the correct length
-}}}
-Checking how the ticket branches of author mguaypaq differ from main sage (or origin/master) try
-{{{
-$ git log --remotes='origin/u/mguaypaq/ticket/*' ^origin/master --oneline
-1c7458a #15300: Implement Weyl and Clifford algebras.
-fb33147 Merge branch 'master' into ticket/10305
-405178b Remove extra chunk from farahat_higman.py and fix related formatting issues.
-25ff1fd Split off SymmetricGroupAlgebraCenter to its own file.
-9b72574 Add rings for the center of the symmetric group algebras.
-}}}
-
-To see all unmerged branches on your local computer
-{{{
-$ git branch --no-merged=master 
-  public/combinat/15361-branching-rules
-* public/combinat/rigged_configurations/13872-bijections
-  ticket/15300
-  u/aschilling/combinat/kschur
-}}}
-To see all merged branches on your local computer
-{{{
-$ git branch --merged=master 
-  master
-}}}
-
-== Example workflow ==
-
-=== Basic collaboration example ===
-
-Suppose developers A and B collaborate on branch `branch_AB`. Developer A wants to work on the project and does
-{{{
-$ git checkout branch_AB
-$ git pull
-}}}
-then edits files in the sage file system. Once finished A makes a commit
-{{{
-$ git commit -a -m"changed everything"
-}}}
-and pushes to Trac
-{{{
-$ git push
-}}}
-
-B has been working at the same time and wants to base her work on A's, but is not sure whether there will
-be conflicts. She only wants to commit changes in file.py for now. So she does
-{{{
-$ git add file.py
-$ git commit -m"changed everything as well"
-}}}
-Then she pulls using
-{{{
-$ git pull --ff-only
-}}}
-If there was no problem she can push her changes
-{{{
-$ git push
-}}}
-
-== Moving a ticket from patches to git ==
-
-Make sure that your file has the header data by an `hg export`. Then decide where you want to put your patch.
-If it is an independent patch, you want to create a new branch
-{{{
-$ git checkout -b <mybranch> master
-}}}
-If you want to import the hg patch on top of another branch, go into this branch first
-{{{
-$ git checkout <mybranch>
-}}}
-Next import your hg patch.
-
-=== Import patch from a local file ===
-
-If your patch is on your local computer at `/pathname/patchname.patch` then
-{{{
-$ sage --dev import-patch --local-file /pathname/patchname.patch
-}}}
-
-=== Import patch from url ===
-
-If your patch is on trac or on the internet at a url
-{{{
-$ sage --dev import-patch --url http://trac.sagemath.org/raw-attachment/ticket/12345/trac_12345-patchname.patch
-}}}
-
-If you find that the author field is set to ``unknown user`` then it could be that the patch needs to be exported first.
-
-== Moving a patch from the combinat queue to git ==
-
-All patches in the queue will soon be merged from the sage-combinat queue to git branches on trac.
-Authors who want to do this themselves are encouraged to do so. The script will by default
-put the branches to `public/combinat/`''branchname'' and might loose author information if the
-patch does not have the appropriate meta information.
-
-Here is a sample workflow on how to transform your patch to git:
-
-=== Export hg patch ===
-
-First make sure that your patch has the correct meta data by exporting it.
-
-=== Create new local branch ===
-
-Make a new branch on your local machine:
-{{{
-$ git checkout -b combinat/kschur master
-$ git branch
-* combinat/kschur
-  master
-  ticket/15300
-}}}
-
-=== Import patch from queue ===
-
-Next import the patch from the queue
-{{{
-$ sage --dev import-patch --local-file /Applications/sage-5.13.beta2/devel/sage-combinat/.hg/patches/kschur-as.patch
-}}}
-
-=== Create branch on trac ===
-
-Now we create a branch on trac
+When the imported patch looks good, push is to the Trac git server, and make sure you label it as a `/combinat/` branch. For example:
 {{{
 $ git push --set-upstream origin combinat/kschur:u/aschilling/combinat/kschur
 Counting objects: 47, done.
@@ -833,13 +586,47 @@ To git@trac.sagemath.org:sage.git
 Branch combinat/kschur set up to track remote branch u/aschilling/combinat/kschur from origin.
 }}}
 
-=== Mark patch in series file ===
-
-Mark the patch in the sage-combinat series file as moved to git by changing
+Finally, '''mark your patch in the series file''' as moved to git by changing, for example,
 {{{
 kschur-as.patch
 }}}
 to 
 {{{
 kschur-as.patch # git:u/aschilling/combinat/kschur
+}}}
+
+<<Anchor(collaboration)>>
+== Basic collaboration example ==
+
+Suppose developers Alice and Bob collaborate on branch `branch_AB`. We assume here that both Alice and Bob have [[#setupstream|set up a correspondence between their local branches and the branch on Trac]]. Alice wants to work on the project and does:
+{{{
+~/sage-git$ git checkout branch_AB    # go to the common branch
+~/sage-git$ git pull --ff-only        # get any changes from Trac
+
+*** make changes to Sage ***
+
+~/sage-git$ git commit -a -m "changed everything"    # save any local changes
+~/sage-git$ git push                                 # tell Trac about the changes
+}}}
+
+Bob has been working at the same time and wants to base his work on Alice's, but he is not sure whether there will be conflicts. He only wants to commit changes in `file.py` for now. So he does
+{{{
+~/sage-git$ git add file.py
+~/sage-git$ git commit -m "changed everything as well"
+}}}
+When he goes to push his changes to Trac, he will get a notification:
+{{{
+~/sage-git$ git push
+
+*** git complains ***
+
+~/sage-git$ git pull --ff-only    # this will complain again, but save the changes from Trac to FETCH_HEAD anyway
+
+*** git complains again ***
+
+~/sage-git$ git merge FETCH_HEAD
+
+*** resolve any merge conflicts
+
+~/sage-git$ git push
 }}}
