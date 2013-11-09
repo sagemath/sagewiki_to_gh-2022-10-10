@@ -117,7 +117,7 @@ Florida Institute of Technology, Melbourne, FL.
  *Benjamin Hutz - Florida Institute of Technology
  *Patrik Ingram - Colorado State University
  *Holly Krieger - Massachusetts Institute of Technology
- *David Krumm - University of Georgia
+ *David Krumm - Claremont McKenna College
  *Donald Richardson - Florida Institute of Technology
  *Brian Stout - US Naval Academy
  *Bianca Thompson - University of Hawaii
