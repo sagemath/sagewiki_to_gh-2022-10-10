@@ -573,7 +573,7 @@ First make sure that your patch has the correct meta data by exporting it. This 
 
 Then, follow [[#patch|the instructions above for importing a mercurial patch into a git branch]].
 
-When the imported patch looks good, push is to the Trac git server, and make sure you label it as a `/combinat/` branch. For example:
+When the imported patch looks good, push it to the Trac git server, and make sure you label it as a `/combinat/` branch. For example:
 {{{
 $ git push --set-upstream origin combinat/kschur:u/aschilling/combinat/kschur
 Counting objects: 47, done.
