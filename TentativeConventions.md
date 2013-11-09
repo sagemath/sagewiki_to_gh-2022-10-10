@@ -267,6 +267,7 @@ Then, you can go ahead and start making your code changes. Be sure to [[#save|sa
 
 See [[http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository|this tutorial on making commits]] or [[http://git-scm.com/book/en/Git-Tools-Stashing|this tutorial on stashing changes]] for lots of details on how to save your code changes, but here are the basic commands you need. If your code is in a coherent state, use some combination of the commands:
 {{{
+~/sage-git$ git branch                                      # see if you are on the right branch
 ~/sage-git$ git status                                      # see what files you have changed
 ~/sage-git$ git add <filename>                              # if you have created a new file
 ~/sage-git$ git commit -a -m 'this is my commit message'    # save changes to any modified files
@@ -278,11 +279,44 @@ If your code is in a very dirty state, you can instead use a combination of the 
 ~/sage-git$ git stash pop                              # apply the most recent stash to the sage tree
 ~/sage-git$ git stash drop                             # discard the most recent stash
 }}}
+See also [[#push|the section on making your code changes available on the Trac git server]].
 
 === Continue working on a feature ===
 
+First, check if you have any unsaved changes by running the command:
+{{{
+~/sage-git$ git status
+}}}
+If you don't have any unsaved changes and you would like to work on the branch `<localname>`, which already exists on your own computer, then do:
+{{{
+~/sage-git$ git checkout <localname>    # move to the correct branch
+~/sage-git$ git pull --ff-only          # get any recent changes from the Trac git server
+}}}
+Only do the second command if you have set up a corresponding branch on the Trac git server.
+If the pull command produces an error, you can use these commands to resolve the conflict between your version of the code, and the version available on Trac:
+{{{
+~/sage-git$ git checkout <mybranch>    # you already ran
+~/sage-git$ git pull --ff-only         # these two commands
+
+*** git complains ***
+
+~/sage-git$ git fetch               # save the changes from Trac to FETCH_HEAD
+~/sage-git$ git merge FETCH_HEAD    # combine the changes from Trac with your code
+
+*** resolve any merge conflicts ***
+*** or give up and say: "git merge --abort" ***
+
+~/sage-git$ git status
+
+*** some output ***
+
+~/sage-git$ git commit -a -m '<some message>'    # save the result of merging
+~/sage-git$ git push                             # tell Trac about the result
+}}}
+
 === I made a mistake! I want to undo something I just did ===
 
+<<Anchor(push)>>
 === Make my code available on the Trac git server ===
 
 If you have a local branch `<localname>` on your own computer that you would like to push to Trac under the name `<remotename>`, use the command:
