@@ -78,7 +78,7 @@ Coffee break at 11am
 
  * Review [[http://trac.sagemath.org/ticket/14219|#14219]] - Adam Towsley, Vincent Delecroix, Ben Hutz
  
- * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
+ * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
 
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz
 
