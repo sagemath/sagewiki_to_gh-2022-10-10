@@ -490,6 +490,54 @@ $ git branch --merged=master
 
 === Test out many features together (tornado branch) ===
 
+Sometimes you might want to share certain features that are not yet in main-sage with a collaborator
+who is not a developer. Suppose these features are in two different branches on trac.
+Then you can create a tornado branch by merging the two. Note, that you want to make sure that
+other developers will not base other code on those, so please label them as tornado branches!
+
+Go to one of the two branches you would like to merge
+{{{
+$ git checkout kschur
+$ git branch
+  combinat/kschur
+  master
+* public/combinat/15361-branching-rules
+  ticket/15300
+}}}
+From there create your new tornado branch
+{{{
+$ git checkout -b tornado-kschur-branching
+$ git branch
+  combinat/kschur
+  master
+  public/combinat/15361-branching-rules
+  ticket/15300
+* tornado-kschur-branching
+}}}
+Now merge in the other branch
+{{{
+$ git merge combinat/kschur
+$ git log
+commit 510520a52e44bace997784370cacbfdd75ae4473
+Merge: 5feebdb 7f974ae
+Author: Anne Schilling <anne@lolita-4.local>
+Date:   Wed Nov 6 21:59:20 2013 -0800
+
+    Merge branch 'combinat/kschur' into tornado-kschur-branching
+}}}
+Finally push to trac
+{{{
+$ git push --set-upstream origin tornado-kschur-branching:u/aschilling/tornado-kschur-branching
+Counting objects: 44, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 523 bytes | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+To git@trac.sagemath.org:sage.git
+ * [new branch]      tornado-kschur-branching -> u/aschilling/tornado-kschur-branching
+Branch tornado-kschur-branching set up to track remote branch u/aschilling/tornado-kschur-branching from origin.
+}}}
+
 === Convert a mercurial patch to a git branch ===
 
 === Move a patch from the combinat queue to git ===
@@ -675,56 +723,6 @@ To see all merged branches
 {{{
 $ git branch --merged=master 
   master
-}}}
-
-=== Tornado branches ===
-
-Sometimes you might want to share certain features that are not yet in main-sage with a collaborator
-who is not a developer. Suppose these features are in two different branches on trac.
-Then you can create a tornado branch by merging the two. Note, that you want to make sure that
-other developers will not base other code on those, so please label them as tornado branches!
-
-Go to one of the two branches you would like to merge
-{{{
-$ git checkout kschur
-$ git branch
-  combinat/kschur
-  master
-* public/combinat/15361-branching-rules
-  ticket/15300
-}}}
-From there create your new tornado branch
-{{{
-$ git checkout -b tornado-kschur-branching
-$ git branch
-  combinat/kschur
-  master
-  public/combinat/15361-branching-rules
-  ticket/15300
-* tornado-kschur-branching
-}}}
-Now merge in the other branch
-{{{
-$ git merge combinat/kschur
-$ git log
-commit 510520a52e44bace997784370cacbfdd75ae4473
-Merge: 5feebdb 7f974ae
-Author: Anne Schilling <anne@lolita-4.local>
-Date:   Wed Nov 6 21:59:20 2013 -0800
-
-    Merge branch 'combinat/kschur' into tornado-kschur-branching
-}}}
-Finally push to trac
-{{{
-$ git push --set-upstream origin tornado-kschur-branching:u/aschilling/tornado-kschur-branching
-Counting objects: 44, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (5/5), done.
-Writing objects: 100% (5/5), 523 bytes | 0 bytes/s, done.
-Total 5 (delta 4), reused 0 (delta 0)
-To git@trac.sagemath.org:sage.git
- * [new branch]      tornado-kschur-branching -> u/aschilling/tornado-kschur-branching
-Branch tornado-kschur-branching set up to track remote branch u/aschilling/tornado-kschur-branching from origin.
 }}}
 
 == Example workflow ==
