@@ -66,7 +66,7 @@ Coffee break at 11am
 
  * improve documentation of normalize_coordinates() ([[http://trac.sagemath.org/ticket/15377|#15377]], positive review) - Ben Hutz  
 
- * MacCaulay Resultant ([[http://trac.sagemath.org/ticket/15382|#15382]]) - Patrick Ingram, Soli Vishkautsan, Hao Chen
+ * MacCaulay Resultant ([[http://trac.sagemath.org/ticket/15382|#15382]]) - Soli Vishkautsan, Hao Chen
 
  * Krumm-Doyle Small Points Algorithm - needds review [[http://trac.sagemath.org/ticket/15389|#15389]] - David Krumm, John Doyle
 
