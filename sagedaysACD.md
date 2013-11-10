@@ -108,6 +108,12 @@ Coffee break at 11am
 
  * dynamics on Wehler K3 surfaces (Joao de Faria)
 
+ * error_bound keyword for canonical height in dimension > 1
+
+ * update AffineSpace to include the appropriate functionality from ProjectiveSpace
+
+ * enumeration of points of small height over number fields for Affine and Projective spaces
+
  * PLEASE ADD MORE...
 
 === Location ===
