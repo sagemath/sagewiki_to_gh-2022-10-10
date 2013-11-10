@@ -64,11 +64,11 @@ Coffee break at 11am
 
 === Projects ===
 
- * Minor Bug Fix - Ben Hutz - ([[http://trac.sagemath.org/ticket/15377|#15377]], positive review) - improve documentation of normalize_coordinates()
+ * improve documentation of normalize_coordinates() ([[http://trac.sagemath.org/ticket/15377|#15377]], positive review) - Ben Hutz  
 
- * MacCaulay Resultant - Patrick Ingram, Soli Vishkautsan, Hao Chen, ([[http://trac.sagemath.org/ticket/15382|#15382]]) 
+ * MacCaulay Resultant ([[http://trac.sagemath.org/ticket/15382|#15382]]) - Patrick Ingram, Soli Vishkautsan, Hao Chen
 
- * Krumm-Doyle Small Points Algorithm - Review [[http://trac.sagemath.org/ticket/15389|#15389]] - David Krumm, John Doyle
+ * Krumm-Doyle Small Points Algorithm - needds review [[http://trac.sagemath.org/ticket/15389|#15389]] - David Krumm, John Doyle
 
  * Bruin-Molnar Algorithm into a patch ([[http://trac.sagemath.org/ticket/15392|#15392]]) - Brian Stout, Ben Hutz
 
@@ -88,7 +88,7 @@ Coffee break at 11am
 
  * Bug fix: log of NaN in RealField and ComplexField results in infinite loop. We have posted a fix here: [[http://trac.sagemath.org/ticket/15388|#15388]] (needs review) - Paul Fili, Adam Towsley
 
- * Enabled canonical height for maps of P1 over number fields. Here is an early draft worksheet: [[attachment:Canonical height for number fields.sws| sws]] Adam Towsley, Paul Fili
+ * Enabled canonical height for maps of P1 over number fields. Here is an early draft worksheet: [[attachment:Canonical height for number fields.sws| sws]] - Adam Towsley, Paul Fili
 
 === Wishlist ===
 
