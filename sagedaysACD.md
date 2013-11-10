@@ -70,11 +70,11 @@ Coffee break at 11am
 
  * Krumm-Doyle Small Points Algorithm - Review [[http://trac.sagemath.org/ticket/15389|#15389]] - David Krumm, John Doyle
 
- * Bruin-Molnar Algorithm into a patch - Adam Towsley, Brian Stout, Holly Krieger
+ * Bruin-Molnar Algorithm into a patch ([[http://trac.sagemath.org/ticket/15392|#15392]]) - Adam Towsley, Brian Stout, Holly Krieger
 
  * Global height for integer fix ([[http://trac.sagemath.org/ticket/15373|#15373]] and [[http://trac.sagemath.org/ticket/15376|#15376]], positively reviewed) and canonical heights for points in number fields - Paul Fili
 
- * FMV Algorithm into a patch - Bianca Thompson, Ben Hutz, Joao Faria
+ * FMV Algorithm into a patch ([[http://trac.sagemath.org/ticket/15393|#15393]]) - Bianca Thompson, Ben Hutz, Joao Faria
 
  * Review [[http://trac.sagemath.org/ticket/14219|#14219]] - Adam Towsley, Vincent Delecroix, Ben Hutz
  
