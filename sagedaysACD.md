@@ -94,11 +94,19 @@ Coffee break at 11am
 
  * Check if for a given parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational of P1 existence of attracting cycles
 
- * is_conjugate() for morphisms
+ * is_conjugate() for morphisms (medium)
 
- * Implement .an_element() for ProjectiveSpace (it currently makes the TestSuite fails) 
+ * Implement .an_element() for ProjectiveSpace (it currently makes the TestSuite fails) (easy)
 
  * Ponies (Patrick)
+
+ * cyclegraph() and orbit_structure() to work with Zmod and other finite spaces not just finite fields (medium)
+
+ * primes_of_bad_reduction() and is_morphism() made to work for endomorphisms of subschemes (easy)
+
+ * products of projective space (underway)
+
+ * dynamics on Wehler K3 surfaces (underway)
 
  * PLEASE ADD MORE...
 
