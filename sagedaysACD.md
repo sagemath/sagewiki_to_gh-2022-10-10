@@ -86,7 +86,7 @@ Coffee break at 11am
 
  * Composition of Morphisms ([[http://trac.sagemath.org/ticket/15378|#15378]]) - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
- * Bug fix: log of NaN in RealField and ComplexField results in infinite loop. We have posted a fix here: [[http://trac.sagemath.org/ticket/15388|#15388]] (needs review) - Paul Fili, Adam Towsley
+ * Bug fix: log of NaN in RealField and ComplexField results in infinite loop. We have posted a fix here: [[http://trac.sagemath.org/ticket/15388|#15388]] (positive review) - Paul Fili, Adam Towsley
 
  * Enabled canonical height for maps of `\PP^N` over number fields. Here is an early draft worksheet: [[attachment:Canonical height for number fields.sws| sws]], for `N>1` it requires the macaulay_resultant patch from above. - Adam Towsley, Paul Fili
 
