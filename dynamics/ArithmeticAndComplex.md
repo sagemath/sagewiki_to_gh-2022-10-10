@@ -30,6 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * --([[http://trac.sagemath.org/sage_trac/ticket/14217 | Trac #14217]])-- Merged sage-5.10.beta3: Basic iteration functionality for projective and affine spaces - new directory structure in schemes
 
- * --([[http://trac.sagemath.org/sage_trac/ticket/14218 | Trac #14218)-- Merged sage-5.13.beta2: Height and canonical heights for points and morphisms
+ * --([[http://trac.sagemath.org/sage_trac/ticket/14218 | Trac #14218]])-- Merged sage-5.13.beta2: Height and canonical heights for points and morphisms
 
  * [[http://trac.sagemath.org/sage_trac/ticket/14219 | Trac #14219 - Needs-Review]]: QQ-rational preperiodic algorithms
