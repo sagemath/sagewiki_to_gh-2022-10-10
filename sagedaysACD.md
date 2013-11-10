@@ -104,9 +104,9 @@ Coffee break at 11am
 
  * primes_of_bad_reduction() and is_morphism() made to work for endomorphisms of subschemes (easy)
 
- * products of projective space (underway)
+ * products of projective space (Ben Hutz)
 
- * dynamics on Wehler K3 surfaces (underway)
+ * dynamics on Wehler K3 surfaces (Joao de Faria)
 
  * PLEASE ADD MORE...
 
