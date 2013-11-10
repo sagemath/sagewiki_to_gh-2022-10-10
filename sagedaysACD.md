@@ -66,7 +66,7 @@ Coffee break at 11am
 
  * Minor Bug Fix - Ben Hutz - ([[http://trac.sagemath.org/ticket/15377|#15377]], positive review) - improve documentation of normalize_coordinates()
 
- * MacCaulay Resultant - Patrick Ingram, Soli Vishkautsan, Hao Chen, Done for universal polynomials--11/8
+ * MacCaulay Resultant - Patrick Ingram, Soli Vishkautsan, Hao Chen, ([[http://trac.sagemath.org/ticket/15382|#15382]])Done for universal polynomials--11/8
 
  * Krumm-Doyle Small Points Algorithm - Review [[http://trac.sagemath.org/ticket/15389|#15389]] - David Krumm, John Doyle
 
