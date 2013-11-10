@@ -4,7 +4,7 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
 == News ==
 
- * [[http://wiki.sagemath.org/sagedaysACD | Sage Days]] There will be a Sage Days November 7-10, 2013 at Florida Institute of Technology.
+ * [[http://wiki.sagemath.org/sagedaysACD | Sage Days]] Currently holding Sage Days 55 (November 7-10, 2013) at Florida Institute of Technology.
 
 == Past News ==
 
@@ -24,14 +24,12 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
 == Road Map ==
 
-The arithmetic and complex dynamics functionality in Sage is currently in its infancy. A significant amount of functionality was developped at the ICERM semester in Spring 2012 and now we have started the process of moving this into Sage through a series of patches (trac tickets). Most of that functionality is current in experimental form.
+The arithmetic and complex dynamics functionality in Sage is currently in its infancy. A significant amount of functionality was developped at the ICERM semester in Spring 2012 and now we have started the process of moving this into Sage through a series of patches (trac tickets). Most of that functionality is current in experimental for that been greatly expanded upon at [[http://wiki.sagemath.org/sagedaysACD | Sage Days 55]]. Much remains to be done. Below you will find a road map of what has been implemented, what is in the process of being implemented, and ideas for future functionality.
 
  *  --([[http://trac.sagemath.org/sage_trac/ticket/13130 |Trac #13130]])-- Merged sage-5.8.beta3: Basic architecture changes : support for projective spaces over rings
 
  * --([[http://trac.sagemath.org/sage_trac/ticket/14217 | Trac #14217]])-- Merged sage-5.10.beta3: Basic iteration functionality for projective and affine spaces - new directory structure in schemes
 
- * [[http://trac.sagemath.org/sage_trac/ticket/14218 | Trac #14218 - Needs-Review]]: Height and canonical heights for points and morphisms
+ * --([[http://trac.sagemath.org/sage_trac/ticket/14218 | Trac #14218)-- Merged sage-5.13.beta2: Height and canonical heights for points and morphisms
 
  * [[http://trac.sagemath.org/sage_trac/ticket/14219 | Trac #14219 - Needs-Review]]: QQ-rational preperiodic algorithms
-
- * [[http://www.fit.edu/~bhutz/#sage-dynamics| Experimental patches]] can be downloaded here.
