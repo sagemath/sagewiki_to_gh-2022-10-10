@@ -68,7 +68,7 @@ Coffee break at 11am
 
  * MacCaulay Resultant ([[http://trac.sagemath.org/ticket/15382|#15382]]) - Soli Vishkautsan, Hao Chen
 
- * Krumm-Doyle Small Points Algorithm - needds review [[http://trac.sagemath.org/ticket/15389|#15389]] - David Krumm, John Doyle
+ * Krumm-Doyle Small Points Algorithm - needs review [[http://trac.sagemath.org/ticket/15389|#15389]] - David Krumm, John Doyle
 
  * Bruin-Molnar Algorithm into a patch ([[http://trac.sagemath.org/ticket/15392|#15392]]) - Brian Stout, Ben Hutz
 
