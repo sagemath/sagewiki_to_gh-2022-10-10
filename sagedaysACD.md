@@ -70,7 +70,7 @@ Coffee break at 11am
 
  * Krumm-Doyle Small Points Algorithm - Review [[http://trac.sagemath.org/ticket/15389|#15389]] - David Krumm, John Doyle
 
- * Bruin-Molnar Algorithm into a patch ([[http://trac.sagemath.org/ticket/15392|#15392]]) - Adam Towsley, Brian Stout, Holly Krieger
+ * Bruin-Molnar Algorithm into a patch ([[http://trac.sagemath.org/ticket/15392|#15392]]) - Brian Stout, Ben Hutz
 
  * Global height for integer fix ([[http://trac.sagemath.org/ticket/15373|#15373]] and [[http://trac.sagemath.org/ticket/15376|#15376]], positively reviewed) and canonical heights for points in number fields - Paul Fili
 
@@ -88,7 +88,7 @@ Coffee break at 11am
 
  * Bug fix: log of NaN in RealField and ComplexField results in infinite loop. We have posted a fix here: [[http://trac.sagemath.org/ticket/15388|#15388]] (needs review) - Paul Fili, Adam Towsley
 
- * Enabled canonical height for maps of P1 over number fields. Here is an early draft worksheet: [[attachment:Canonical height for number fields.sws| sws]]
+ * Enabled canonical height for maps of P1 over number fields. Here is an early draft worksheet: [[attachment:Canonical height for number fields.sws| sws]] Adam Towsley, Paul Fili
 
 === Wishlist ===
 
