@@ -114,6 +114,8 @@ Coffee break at 11am
 
  * enumeration of points of small height over number fields for affine and projective spaces
 
+ * fix all the white space issues in the projective and affine folders (easy)
+
  * PLEASE ADD MORE...
 
 === Location ===
