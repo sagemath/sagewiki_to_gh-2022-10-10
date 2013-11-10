@@ -82,7 +82,7 @@ Coffee break at 11am
 
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz
 
- * Lattes map from an Elliptic Curve - Patrick Ingram
+ * Lattes map from an Elliptic Curve ([[http://trac.sagemath.org/ticket/15394|#15394]])- Patrick Ingram
 
  * Composition of Morphisms ([[http://trac.sagemath.org/ticket/15378|#15378]]) - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
