@@ -90,7 +90,7 @@ Coffee break at 11am
 
  * Enabled canonical height for maps of P1 over number fields. Here is an early draft worksheet: [[attachment:Canonical height for number fields.sws| sws]] - Adam Towsley, Paul Fili
 
- * Implement .an_element() for ProjectiveSpace (it currently makes the TestSuite fails): [[trac.sagemath.org/ticket/15396 | Ticket #15396]] (needs review) - Ben Hutz
+ * Implement .an_element() for ProjectiveSpace (it currently makes the TestSuite fai): [[trac.sagemath.org/ticket/15396 | Ticket #15396]] (needs review) - Ben Hutz
 
 
 === Wishlist ===
