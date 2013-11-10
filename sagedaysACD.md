@@ -116,6 +116,8 @@ Coffee break at 11am
 
  * fix all the white space issues in the projective and affine folders (easy)
 
+ * specific functionality for regular polynomial endomorphisms of P^N (Patrick might start implementing this someday)
+
  * PLEASE ADD MORE...
 
 === Location ===
