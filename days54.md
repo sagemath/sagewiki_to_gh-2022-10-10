@@ -101,6 +101,10 @@ Here are some useful links:
 
 [[http://www.ucdavis.edu|University of California Davis]]
 
+=== Photos ===
+
+[[https://plus.google.com/104950635599549990272/posts/Sgf3xsg8L6h?gpinv=AMIXal_mef6a0pNueTuO6Qd_GZqEIF67ninIldXnBwJHuIPBP9Qkxm9gmmrraw-k9HUDlCNIEO7iuH6cADqvTekSFxeBRlozoW-kbZ5i-Yq-DNudRxjLOxQ&cfem=1|Photos]]
+
 === Participants (first tentative) ===
 
  * Dan Bump (Stanford)
