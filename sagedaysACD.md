@@ -97,9 +97,7 @@ Coffee break at 11am
 
  * Check if for a given parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational of P1 existence of attracting cycles
 
- * is_conjugate() for morphisms (medium)
-
- * Ponies (Patrick)
+ * is_conjugate() for morphisms and iterator over morphisms of fixed degree up to conjugacy (medium)
 
  * cyclegraph() and orbit_structure() to work with Zmod and other finite spaces not just finite fields (medium)
 
@@ -118,6 +116,8 @@ Coffee break at 11am
  * fix all the white space issues in the projective and affine folders (easy)
 
  * specific functionality for regular polynomial endomorphisms of P^N (Patrick might start implementing this someday)
+
+ * Ponies (Patrick)
 
  * PLEASE ADD MORE...
 
