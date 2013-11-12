@@ -95,7 +95,7 @@ Coffee break at 11am
 
 === Wishlist ===
 
- * Check if for a given parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational of P1 existence of attracting cycles
+ * Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles
 
  * is_conjugate() for morphisms and iterator over morphisms of fixed degree up to conjugacy (medium)
 
