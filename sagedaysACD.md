@@ -64,7 +64,7 @@ Coffee break at 11am
 
 === Projects ===
 
- * improve documentation of normalize_coordinates() ([[http://trac.sagemath.org/ticket/15377|#15377]], positive review) - Ben Hutz  
+ * improve documentation of normalize_coordinates() ([[http://trac.sagemath.org/ticket/15377|#15377]], closed: sage-5.13.beta3) - Ben Hutz  
 
  * MacCaulay Resultant ([[http://trac.sagemath.org/ticket/15382|#15382]]) - Soli Vishkautsan, Hao Chen
 
