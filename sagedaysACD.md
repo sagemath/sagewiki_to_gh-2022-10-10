@@ -72,11 +72,11 @@ Coffee break at 11am
 
  * Bruin-Molnar Algorithm into a patch [[http://trac.sagemath.org/ticket/15392|#15392]] (needs review) - Brian Stout, Ben Hutz
 
- * Global height for integer fix ([[http://trac.sagemath.org/ticket/15373|#15373]] and [[http://trac.sagemath.org/ticket/15376|#15376]], positively reviewed) and canonical heights for points in number fields - Paul Fili
+ * Global height for integer fix (--([[http://trac.sagemath.org/ticket/15373|#15373]])-- closed: sage-5.13.beta3 and [[http://trac.sagemath.org/ticket/15376|#15376]], positively reviewed ) and canonical heights for points in number fields - Paul Fili
 
  * FMV Algorithm into a patch ([[http://trac.sagemath.org/ticket/15393|#15393]]) - Bianca Thompson, Ben Hutz, Joao Faria
 
- * Review [[http://trac.sagemath.org/ticket/14219|#14219]] - Adam Towsley, Vincent Delecroix, Ben Hutz
+ * Review [[http://trac.sagemath.org/ticket/14219|#14219]] (positively reviewed)- Adam Towsley, Vincent Delecroix, Ben Hutz
  
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
 
@@ -86,7 +86,7 @@ Coffee break at 11am
 
  * Composition of Morphisms ([[http://trac.sagemath.org/ticket/15378|#15378]]) - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
- * Bug fix: log of NaN in RealField and ComplexField results in infinite loop. We have posted a fix here: [[http://trac.sagemath.org/ticket/15388|#15388]] (positive review) - Paul Fili, Adam Towsley
+ * Bug fix: log of NaN in RealField and ComplexField results in infinite loop. We have posted a fix here: --([[http://trac.sagemath.org/ticket/15388|#15388]])-- (closed: sage-5.13.beta3) - Paul Fili, Adam Towsley
 
  * Enabled canonical height for maps of `\PP^N` over number fields. Here is an early draft worksheet: [[attachment:Canonical height for number fields.sws| sws]], for `N>1` it requires the macaulay_resultant patch from above. - Adam Towsley, Paul Fili
 
