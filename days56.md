@@ -2,7 +2,7 @@
 
 Sage Days 56 will take place in Oahu, Hawaii, from January 2 to 7, 2014.  
 
-The focus of the workshop will be Sage Math Cloud development, as well as various problems in computational number theory (average rank of elliptic curves in families, finding record ABC triples, to name a few).
+The focus of the workshop will be Sagemath Cloud development, as well as various problems in computational number theory (average rank of elliptic curves in families, finding record ABC triples, to name a few).
 
 == Schedule ==
 
