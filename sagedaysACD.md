@@ -93,34 +93,6 @@ Coffee break at 11am
  * Implement .an_element() for ProjectiveSpace (it currently makes the TestSuite fai): [[trac.sagemath.org/ticket/15396 | Ticket #15396]] (needs review) - Ben Hutz
 
 
-=== Wishlist ===
-
- * Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles
-
- * is_conjugate() for morphisms and iterator over morphisms of fixed degree up to conjugacy (medium)
-
- * cyclegraph() and orbit_structure() to work with Zmod and other finite spaces not just finite fields (medium)
-
- * primes_of_bad_reduction() and is_morphism() made to work for endomorphisms of subschemes (easy)
-
- * products of projective space (Ben Hutz)
-
- * dynamics on Wehler K3 surfaces (Joao de Faria)
-
- * error_bound computation for canonical height in dimension > 1
-
- * update affine space to include the appropriate functionality from projective space
-
- * enumeration of points of small height over number fields for affine and projective spaces
-
- * fix all the white space issues in the projective and affine folders (easy)
-
- * specific functionality for regular polynomial endomorphisms of P^N (Patrick might start implementing this someday)
-
- * Ponies (Patrick)
-
- * PLEASE ADD MORE...
-
 === Location ===
 
 Florida Institute of Technology, Melbourne, FL.
