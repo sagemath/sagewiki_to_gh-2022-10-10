@@ -64,11 +64,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * --([[http://trac.sagemath.org/sage_trac/ticket/14218 | Trac #14218]])-- closed sage-5.13.beta2: Height and canonical heights for points and morphisms - Ben Hutz 
 
- * improve documentation of normalize_coordinates() (--([[http://trac.sagemath.org/ticket/15377|#15377]])--, closed: sage-5.13.beta3) - Ben Hutz 
+ * --([[http://trac.sagemath.org/ticket/15377|#15377]])-- closed sage-5.13.beta3: improve documentation of normalize_coordinates - Ben Hutz 
 
- * Global height for integer fix (--([[http://trac.sagemath.org/ticket/15373|#15373]])-- closed: sage-5.13.beta3 - Paul Fili
-
- * Bug fix: log of NaN in RealField and ComplexField results in infinite loop.([[http://trac.sagemath.org/ticket/15388|#15388]]) (closed: sage-5.13.beta3) - Paul Fili, Adam Towsley
+ * --([[http://trac.sagemath.org/ticket/15373|#15373]])-- closed sage-5.13.beta3: Global height for integer fix - Paul Fili
 
 === Wishlist ===
 
