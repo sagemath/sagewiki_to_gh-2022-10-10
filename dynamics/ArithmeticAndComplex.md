@@ -92,6 +92,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * Chebyshev creator (if it doesn't already exist)
 
+ * moduli space invariants - symmetric functions in multipliers of periodic points, others...
+
  * Ponies (Patrick)
 
  * PLEASE ADD MORE...
