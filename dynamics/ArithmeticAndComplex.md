@@ -30,39 +30,37 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * MacCaulay Resultant ([[http://trac.sagemath.org/ticket/15382|#15382]]) - Soli Vishkautsan, Hao Chen
+ * --([[http://trac.sagemath.org/ticket/15382|#15382]])-- neeeds_work: MacCaulay Resultant - Soli Vishkautsan, Hao Chen
 
- * Krumm-Doyle Small Points Algorithm - needs review [[http://trac.sagemath.org/ticket/15389|#15389]] - David Krumm, John Doyle
+ * --([[http://trac.sagemath.org/ticket/15389|#15389]])-- needs-review: Krumm-Doyle Small Points Algorithm - David Krumm, John Doyle
 
- * Bruin-Molnar Algorithm into a patch [[http://trac.sagemath.org/ticket/15392|#15392]] (needs review) - Brian Stout, Ben Hutz
+ * --([[http://trac.sagemath.org/ticket/15392|#15392]])-- needs-review: Bruin-Molnar Algorithm for minimal models  - Brian Stout, Ben Hutz
 
- & [[http://trac.sagemath.org/ticket/15376|#15376]], positively reviewed ) and canonical heights for points in number fields - Paul Fili
+ * --([[http://trac.sagemath.org/ticket/15376|#15376]])-- positively reviewed: canonical heights for points with integer fix - Paul Fili
 
- * FMV Algorithm into a patch ([[http://trac.sagemath.org/ticket/15393|#15393]]) - Bianca Thompson, Ben Hutz, Joao Faria
+ * --([[http://trac.sagemath.org/ticket/15393|#15393]])-- in-progress: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
- * Review [[http://trac.sagemath.org/ticket/14219|#14219]] (positively reviewed)- Adam Towsley, Vincent Delecroix, Ben Hutz
+ * --([[http://trac.sagemath.org/ticket/14219|#14219]])-- positive-review:- Adam Towsley, Vincent Delecroix, Ben Hutz
  
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
 
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
- * Lattes map from an Elliptic Curve ([[http://trac.sagemath.org/ticket/15394|#15394]])- Patrick Ingram
+ * --([[http://trac.sagemath.org/ticket/15394|#15394]])-- Lattes map from an Elliptic Curve - Patrick Ingram
 
- * Composition of Morphisms ([[http://trac.sagemath.org/ticket/15378|#15378]]) - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
+ * --([[http://trac.sagemath.org/ticket/15378|#15378]])-- Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
  * Enabled canonical height for maps of `\PP^N` over number fields. Here is an early draft worksheet: [[attachment:Canonical height for number fields.sws| sws]], for `N>1` it requires the macaulay_resultant patch from above. - Adam Towsley, Paul Fili
 
- * Implement .an_element() for ProjectiveSpace (it currently makes the TestSuite fai): [[trac.sagemath.org/ticket/15396 | Ticket #15396]] (needs review) - Ben Hutz
-
- * [[http://trac.sagemath.org/sage_trac/ticket/14219 | Trac #14219 - Needs-Review]]: QQ-rational preperiodic algorithms
+ * --([[http://trac.sagemath.org/ticket/15396|#15396]])-- needs-review: Implement .an_element() for ProjectiveSpace - Ben Hutz
 
 == Complete ==
 
- * --([[http://trac.sagemath.org/sage_trac/ticket/13130 |Trac #13130]])-- closed sage-5.8.beta3: Basic architecture changes : support for projective spaces over rings - Ben Hutz 
+ * --([[http://trac.sagemath.org/ticket/13130|#13130]])-- closed sage-5.8.beta3: Basic architecture changes : support for projective spaces over rings - Ben Hutz 
 
- * --([[http://trac.sagemath.org/sage_trac/ticket/14217 | Trac #14217]])-- closed sage-5.10.beta3: Basic iteration functionality for projective and affine spaces - new directory structure in schemes - Ben Hutz 
+ * --([[http://trac.sagemath.org/ticket/14217|#14217]])-- closed sage-5.10.beta3: Basic iteration functionality for projective and affine spaces - new directory structure in schemes - Ben Hutz 
 
- * --([[http://trac.sagemath.org/sage_trac/ticket/14218 | Trac #14218]])-- closed sage-5.13.beta2: Height and canonical heights for points and morphisms - Ben Hutz 
+ * --([[http://trac.sagemath.org/ticket/14218|#14218]])-- closed sage-5.13.beta2: Height and canonical heights for points and morphisms - Ben Hutz 
 
  * --([[http://trac.sagemath.org/ticket/15377|#15377]])-- closed sage-5.13.beta3: improve documentation of normalize_coordinates - Ben Hutz 
 
@@ -91,6 +89,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * fix all the white space issues in the projective and affine folders (easy)
 
  * specific functionality for regular polynomial endomorphisms of P^N (Patrick might start implementing this someday)
+
+ * Chebyshev creator (if it doesn't already exist)
 
  * Ponies (Patrick)
 
