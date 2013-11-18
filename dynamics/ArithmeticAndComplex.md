@@ -30,7 +30,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * --([[http://trac.sagemath.org/ticket/15382|#15382]])-- neeeds_work: MacCaulay Resultant - Soli Vishkautsan, Hao Chen
+ * --([[http://trac.sagemath.org/ticket/15382|#15382]])-- needs_work: MacCaulay Resultant - Soli Vishkautsan, Hao Chen
 
  * --([[http://trac.sagemath.org/ticket/15389|#15389]])-- needs-review: Krumm-Doyle Small Points Algorithm - David Krumm, John Doyle
 
