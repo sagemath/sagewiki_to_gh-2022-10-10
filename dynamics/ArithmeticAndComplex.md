@@ -94,7 +94,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * moduli space invariants - symmetric functions in multipliers of periodic points, others...
 
- * use RDF for floating point computations (in heights and possibly rational preperiodic point functions)
+ * use real interval field for floating point computations (in heights and possibly rational preperiodic point functions)
+
+ * issue with dynatomic polynomials (see (5) from ([[http://trac.sagemath.org/ticket/14219|#14219]])
 
  * Ponies (Patrick)
 
