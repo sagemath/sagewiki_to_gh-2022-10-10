@@ -36,12 +36,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/15392|#15392]]) needs-review: Bruin-Molnar Algorithm for minimal models  - Brian Stout, Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/15376|#15376]]) positively reviewed: canonical heights for points with integer fix - Paul Fili
-
  * ([[http://trac.sagemath.org/ticket/15393|#15393]]) in-progress: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
- * ([[http://trac.sagemath.org/ticket/14219|#14219]]) positive-review:- Adam Towsley, Vincent Delecroix, Ben Hutz
- 
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
 
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
@@ -62,7 +58,11 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * --([[http://trac.sagemath.org/ticket/14218|#14218]])-- closed sage-5.13.beta2: Height and canonical heights for points and morphisms - Ben Hutz 
 
+ * --([[http://trac.sagemath.org/ticket/14219|#14219]])-- closed sage-5.13.beta4:- Rational preperiodic points - Ben Hutz
+ 
  * --([[http://trac.sagemath.org/ticket/15377|#15377]])-- closed sage-5.13.beta3: improve documentation of normalize_coordinates - Ben Hutz 
+
+ * --([[http://trac.sagemath.org/ticket/15376|#15376]])-- closed sage-5.13.beta4: canonical heights for points with integer fix - Paul Fili
 
  * --([[http://trac.sagemath.org/ticket/15373|#15373]])-- closed sage-5.13.beta3: Global height for integer fix - Paul Fili
 
