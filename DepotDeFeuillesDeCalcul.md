@@ -33,7 +33,8 @@ Lors d'une rencontre du GroupeUtilisateursParis a ete evoque le fait de mettre e
     * probleme d'injection de code
     * mais permet de se faire une idee de ce que fait la feuille
 
-== Logiciels exitants a regarder ==
+== Logiciels exitants/propositions a regarder ==
 
   * http://www.geogebratube.org/?lang=fr
   * django + svn. Users can be managed through Appache via LDAP (see in particular [[http://pythonhosted.org/django-auth-ldap/|django-ldap]])
+  * separer la partie "depot" et la partie "index" (qui peut pointer vers des pages/fichiers situees n'importe ou).
