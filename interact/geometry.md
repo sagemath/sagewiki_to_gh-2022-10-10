@@ -89,12 +89,12 @@ u, v, t = var('u v t')
 def _(x = input_box(3*sin(u)*cos(v), 'x'),
       y = input_box(sin(u)*sin(v), 'y'),
       z = input_box(2*cos(u), 'z'),
-      _int_u = input_grid(1, 2, default = [[0,pi]], label = 'u -interval'), 
-      _int_v = input_grid(1, 2, default = [[-pi,pi]], label = 'v -interval')):
+      x_int_u = input_grid(1, 2, default = [[0,pi]], label = 'u -interval'), 
+      x_int_v = input_grid(1, 2, default = [[-pi,pi]], label = 'v -interval')):
     
     global F, Fu, Fv, func, S_plot, int_u, int_v
-    int_u = _int_u[0]
-    int_v = _int_v[0] 
+    int_u = x_int_u[0]
+    int_v = x_int_v[0] 
     
     F = vector([x, y, z])
 
