@@ -82,27 +82,54 @@ def _( gamma1=input_box(default=sin(t)), gamma2=input_box(default=1.3*cos(t)),
 
 
 == Geodesics on a parametric surface ==
-by Antonio Valdés and Pablo Angulo. A first interact allows the user to introduce a parametric surface, and draws it. Then a second interact draws a geodesic within the surface. The separation is so that after the first interact, the geodesic equations are "compiled", and then the second interact is faster.
+by Antonio Valdés and Pablo Angulo. This example was originally composed of two interacts: 
+ - the first allowing the user to introduce a parametric surface, and draw it.
+ - the second drawing a geodesic within the surface. 
+The separation was so that after the first interact, the geodesic equations were "compiled", thus making the second interact faster.
+
+This still looks as a good idea to me, so please read the original code at https://malabares.cancamusa.net/home/pub/14/
+But the following is fixed so that there is only one interact, and sagecell works. There might be another way yto 
+
 {{{#!sagecell
-u, v, t = var('u v t')
+from scipy.integrate import odeint
+
+u, v, t, du, dv = var('u v t du dv')
+
+def fading_line3d(points, rgbcolor1, rgbcolor2, *args, **kwds):
+    L = len(points)
+    vcolor1 = vector(RDF, rgbcolor1)
+    vcolor2 = vector(RDF, rgbcolor2)
+    return sum(line3d(points[j:j+2], 
+                      rgbcolor = tuple( ((L-j)/L)*vcolor1 + (j/L)*vcolor2 ), 
+                      *args, **kwds) 
+               for j in srange(L-1))
+
+steps = 100
+
 @interact
 def _(x = input_box(3*sin(u)*cos(v), 'x'),
       y = input_box(sin(u)*sin(v), 'y'),
       z = input_box(2*cos(u), 'z'),
-      x_int_u = input_grid(1, 2, default = [[0,pi]], label = 'u -interval'), 
-      x_int_v = input_grid(1, 2, default = [[-pi,pi]], label = 'v -interval')):
-    
-    global F, Fu, Fv, func, S_plot, int_u, int_v
-    int_u = x_int_u[0]
-    int_v = x_int_v[0] 
+      int_u = input_grid(1, 2, default = [[0,pi]], label = 'u -interval'), 
+      int_v = input_grid(1, 2, default = [[-pi,pi]], label = 'v -interval'),
+      init_point = input_grid(1, 2, default = [[-pi/4,pi/8]], label = 'coordinates of \ninitial point'),
+      init_vector = input_grid(1, 2, default = [[1,0]], label = 'coordinates of \ninitial vector'),
+      int_s = slider(0, 10, 1/10, 
+                           default = pi/2, 
+                           label = 'geodesic interval'),
+      sliding_color = checkbox(True,'change color along the geodesic')):
+
+    int_u = int_u[0]
+    int_v = int_v[0]
+    u_0, v_0 = init_point[0]
+    V_u, V_v = init_vector[0]
     
     F = vector([x, y, z])
 
     S_plot = parametric_plot3d( F, 
                                 (u, int_u[0], int_u[1]), 
                                 (v, int_v[0], int_v[1]))
-    S_plot.show(aspect_ratio = [1, 1, 1])
-    
+   
     dFu = F.diff(u)
     dFv = F.diff(v)
     
@@ -140,62 +167,30 @@ def _(x = input_box(3*sin(u)*cos(v), 'x'),
     def func(y,t):
         v = list(y)
         return [ddu_ff(*v), ddv_ff(*v), v[0], v[1]]
-
-}}}
-
-Second interact: now we draw the geodesics
-
-{{{#!sagecell
-
-from scipy.integrate import odeint
-
-def fading_line3d(points, rgbcolor1, rgbcolor2, *args, **kwds):
-    L = len(points)
-    vcolor1 = vector(RDF, rgbcolor1)
-    vcolor2 = vector(RDF, rgbcolor2)
-    return sum(line3d(points[j:j+2], 
-                      rgbcolor = tuple( ((L-j)/L)*vcolor1 + (j/L)*vcolor2 ), 
-                      *args, **kwds) 
-               for j in srange(L-1))
-
-steps = 100
-
-@interact
-def _(u_0 = slider(int_u[0], int_u[1], (int_u[1] - int_u[0])/100, 
-                   default = (int_u[0] + int_u[1])/2, label = 'u_0'),
-      v_0 = slider(int_v[0], int_v[1], (int_v[1] - int_v[0])/100, 
-                   default = (int_v[0] + int_v[1])/2, label = 'v_0'),
-      V_u = slider(-10, 10, 1/10, default = 1, label = 'V_u'),
-      V_v = slider(-10, 10, 1/10, default = 0, label = 'V_v'), 
-      int_s = slider(0, 10, 1/10, 
-                           default = (int_u[1] - int_u[0])/2, 
-                           label = 'geodesic interval'),
-      sliding_color = checkbox(True,'change color along the geodesic')):
         
-        du, dv, u, v = var('du dv u v')
-        Point = [u_0, v_0]
-        velocity = [V_u, V_v]
-        Point = map(float, Point)
-        velocity = map(float, velocity)
-        
-        geo2D_aux = odeint(func,
-                           y0 = [velocity[0], velocity[1], Point[0], Point[1]],
-                           t = srange(0, int_s, 0.01))
+    Point = [u_0, v_0]
+    velocity = [V_u, V_v]
+    Point = map(float, Point)
+    velocity = map(float, velocity)
     
-        geo3D = [F(u=l,v=r) for [j, k, l, r] in geo2D_aux]
-        
-        if sliding_color:
-            g_plot = fading_line3d(geo3D, rgbcolor1 = (1, 0, 0), rgbcolor2 = (0, 1, 0), thickness=4)
-        else:
-            g_plot = line3d(geo3D, rgbcolor=(0, 1, 0), thickness=4)
-        
-        P = F(u=Point[0], v=Point[1])
-        P_plot = point3d((P[0], P[1], P[2]), rgbcolor = (0, 0, 0), pointsize = 30)
-        V = velocity[0] * Fu(u = Point[0], v = Point[1]) + \
-            velocity[1] * Fv(u= Point[0], v = Point[1])
-        V_plot = arrow3d(P, P + V, color = 'black')
-        
-        show(g_plot + S_plot + V_plot + P_plot,aspect_ratio = [1, 1, 1])
+    geo2D_aux = odeint(func,
+                       y0 = [velocity[0], velocity[1], Point[0], Point[1]],
+                       t = srange(0, int_s, 0.01))
+    
+    geo3D = [F(u=l,v=r) for [j, k, l, r] in geo2D_aux]
+    
+    if sliding_color:
+        g_plot = fading_line3d(geo3D, rgbcolor1 = (1, 0, 0), rgbcolor2 = (0, 1, 0), thickness=4)
+    else:
+        g_plot = line3d(geo3D, rgbcolor=(0, 1, 0), thickness=4)
+    
+    P = F(u=Point[0], v=Point[1])
+    P_plot = point3d((P[0], P[1], P[2]), rgbcolor = (0, 0, 0), pointsize = 30)
+    V = velocity[0] * Fu(u = Point[0], v = Point[1]) + \
+        velocity[1] * Fv(u= Point[0], v = Point[1])
+    V_plot = arrow3d(P, P + V, color = 'black')
+    
+    show(g_plot + S_plot + V_plot + P_plot,aspect_ratio = [1, 1, 1])
 }}}
 {{attachment:geodesics1.png}}
 {{attachment:geodesics2.png}}
