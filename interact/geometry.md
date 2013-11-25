@@ -141,7 +141,12 @@ def _(x = input_box(3*sin(u)*cos(v), 'x'),
         v = list(y)
         return [ddu_ff(*v), ddv_ff(*v), v[0], v[1]]
 
-# second interact
+}}}
+
+Second interact: now we draw the geodesics
+
+{{{#!sagecell
+
 from scipy.integrate import odeint
 
 def fading_line3d(points, rgbcolor1, rgbcolor2, *args, **kwds):
