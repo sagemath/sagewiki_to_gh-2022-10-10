@@ -6,7 +6,7 @@ The focus of the workshop will be [[https://cloud.sagemath.org|Sagemath Cloud]] 
 
 == Sagemath Cloud Project ==
 
-[[https://cloud.sagemath.com/projects/ce2d267d-00df-42de-ab44-64509a5f3e74/files/]](Sagemath Cloud project)
+[[https://cloud.sagemath.com/projects/ce2d267d-00df-42de-ab44-64509a5f3e74/files/|Sagemath Cloud project]]
 
 == Schedule ==
 
