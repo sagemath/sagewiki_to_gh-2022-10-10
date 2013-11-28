@@ -72,7 +72,7 @@ Coffee break at 11am
 
  * Bruin-Molnar Algorithm into a patch [[http://trac.sagemath.org/ticket/15392|#15392]] (needs review) - Brian Stout, Ben Hutz
 
- * Global height for integer fix (--([[http://trac.sagemath.org/ticket/15373|#15373]])-- closed: sage-5.13.beta3 and [[http://trac.sagemath.org/ticket/15376|#15376]], positively reviewed ) and canonical heights for points in number fields - Paul Fili
+ * Global height for integer fix (--([[http://trac.sagemath.org/ticket/15373|#15373]])-- closed: sage-5.13.beta3 and canonical heights for points in number fields --([[http://trac.sagemath.org/ticket/15376|#15376]])-- closed : sage-5.13.beta4 - Paul Fili
 
  * FMV Algorithm into a patch ([[http://trac.sagemath.org/ticket/15393|#15393]]) - Bianca Thompson, Ben Hutz, Joao Faria
 
