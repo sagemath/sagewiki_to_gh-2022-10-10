@@ -142,7 +142,7 @@ Git stores some information about default command options and remote repositorie
 [push]
   default = upstream
 }}}
- * Your sage-specific configurations options, in `$SAGE_ROOT/.git/config`. Mine looks like this. The parts that should be copied very exactly are:
+ * Your sage-specific configurations options, in `$SAGE_ROOT/.git/config`. Mine looks like this. The parts that should be copied very accurately are:
    * the `url` option of the `[remote "origin"]` section, which tells git how it should synchronize the information on your local machine with the information on the Trac git server,
    * the `[branch "master"]` section, which tells git how your local `master` branch corresponds to the `master` branch on the Trac git server.
 {{{
