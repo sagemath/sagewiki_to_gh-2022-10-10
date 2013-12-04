@@ -261,4 +261,4 @@ iptables -t nat -L
 
 == Other Instructions ==
 
-You can find another set of instructions at JustEnoughSageServer
+You can find another set of instructions at [[DanDrake/JustEnoughSageServer|JustEnoughSageServer]].
