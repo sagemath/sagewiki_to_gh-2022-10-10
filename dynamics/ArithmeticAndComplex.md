@@ -100,7 +100,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * issue with dynatomic polynomials (see (5) from ([[http://trac.sagemath.org/ticket/14219|#14219]])
 
- * reduced form of endomorphisms -  i.e., compute an `SL(2,Z)` transformation that makes the coefficients small. The simplest approach would be to "reduce" the binary form describing the fixed points or (if that's too degenerate) the points of period n for some small n. See [Stoll, Michael; Cremona, John E., On the reduction theory of binary forms. J. Reine Angew. Math. 565 (2003), 79–99.], which is fairly easy to implement and which would be useful to have in sage anyway. 
+ * reduced form of endomorphisms -  i.e., compute an `SL(2,Z)` transformation that makes the coefficients small. The simplest approach would be to "reduce" the binary form describing the fixed points or (if that's too degenerate) the points of period n for some small n. See [Stoll, Michael; Cremona, John E., On the reduction theory of binary forms. J. Reine Angew. Math. 565 (2003), 79–99.], which is fairly easy to implement and which would be useful to have in sage anyway.
+
+ * some kind of coersion model: if you have a map defined over QQ should you be able to take the image of a point over CC (i.e. somewhere you have a well defined embedding) without having to `change_ring()`. Something like this works for polynomials. This may or may not be a good idea, but if it can be done in a consistent manner it would improve usability in certain situations.
 
  * Ponies (Patrick)
 
