@@ -508,7 +508,7 @@ To see all merged branches, say:
 
 === Review a ticket ===
 
-First, consult the "branch" field on the Trac ticket tracker to see the name of the git branch which contains the code changes to be reviewed. Then, [[#pull|get the code from Trac]], and review it as usual. You should be able to easily [[#checkout|switch between the `master` branch and the ticket branch]]. If you have any changes to suggest in a review patch, you can make the changes and [[#push|push them to the Trac git server]]. You may have to check on the Trac ticket that the "branch" field is still up to date, but the "commit" field will be updated automatically. Make any comments or status changes as needed on the Trac ticket, and you're done!
+First, consult the "branch" field on the Trac ticket tracker to see the name of the git branch which contains the code changes to be reviewed. Then, [[#pull|get the code from Trac]], and review it as usual. You should be able to easily [[#checkout|switch between the `master` branch and the ticket branch]]. If you have any changes to suggest in a review patch, you can make the changes and [[#push|push them to the Trac git server]] then into a new branch, e.g., by using {{{sage -dev push --ticket 12345}}}. This should set the branch field on trac properly to your new branch, though you may anyway check on the Trac ticket that the "branch" field is still up to date. The "commit" field will be updated automatically. Make any comments or status changes as needed on the Trac ticket, and you're done!
 
 === Test out many features together (tornado branch) ===
 
