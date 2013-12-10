@@ -70,7 +70,7 @@ Coffee break at 11am
 
  * Krumm-Doyle Small Points Algorithm - needs review [[http://trac.sagemath.org/ticket/15389|#15389]] - David Krumm, John Doyle
 
- * Bruin-Molnar Algorithm into a patch [[http://trac.sagemath.org/ticket/15392|#15392]] (needs review) - Brian Stout, Ben Hutz
+ * Bruin-Molnar Algorithm into a patch --([[http://trac.sagemath.org/ticket/15392|#15392]])-- closed: sage-5.13.rc0- Brian Stout, Ben Hutz
 
  * Global height for integer fix (--([[http://trac.sagemath.org/ticket/15373|#15373]])-- closed: sage-5.13.beta3 and Projective Point global_height remove special case for ZZ --([[http://trac.sagemath.org/ticket/15376|#15376]])-- closed : sage-5.13.beta4 - Paul Fili
 
