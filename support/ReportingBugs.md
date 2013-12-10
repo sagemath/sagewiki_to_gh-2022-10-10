@@ -7,7 +7,7 @@ The Sage developers very much want to know about every single bug in Sage, no ma
 == Reporting Bugs Via The Notebook ==
 
 Just click the [[http://sagemath.org/report-issue|Report a Problem]] link on the upper right of any worksheet.  Note that the form that appears asks several questions, but many are optional, and you can make your bug report completely anonymous if you want by using that form. 
-Here is the [[http://spreadsheets.google.com/viewform?key=pCwvGVwSMxTzT6E2xNdo5fA||old spreadsheet]].
+Here is the [[http://spreadsheets.google.com/viewform?key=pCwvGVwSMxTzT6E2xNdo5fA|old spreadsheet]].
 
 == Reporting Bugs Via email ==
 
