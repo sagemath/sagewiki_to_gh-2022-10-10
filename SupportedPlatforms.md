@@ -39,7 +39,7 @@ There are several requirements for Sage to work successfully on these fully supp
 
 === Linux ===
  * Debian 7.1 x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/plantain|plantain]]
- * Fedora 16 on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/eno-1|eno]], [[http://build.sagemath.org/sage/buildslaves/flavius-1|flavius]]
+ * Fedora 16 on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/eno-1|eno]], [[http://build.sagemath.org/sage/buildslaves/flavius-1|flavius]], [[http://build.sagemath.org/sage/buildslaves/lena-1|lena]], [[http://build.sagemath.org/sage/buildslaves/sextus-1|sextus]]
  * Fedora 16 on i686 (32-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/cicero-1|cicero]]
  * SUSE 10 SP1 on Itanium (64-bit)  Tested on [[http://build.sagemath.org/sage/buildslaves/iras-1|iras]]
  * Ubuntu 8.04.4 LTS  on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
