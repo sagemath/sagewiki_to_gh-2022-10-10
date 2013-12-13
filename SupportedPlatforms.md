@@ -68,7 +68,7 @@ If anyone is able to test on these systems, we would particularly appreciate rep
  * openSUSE 12.1 on x86 (Both 32-bit and 64-bit).
  * Red Hat Enterprise Linux Server 5.3 or later.
  * SUSE Linux Enterprise Server 10 or later on Intel Itanium processors 
- * Ubuntu 8 or later.  For Ubuntu 12.04, make sure the ''dpkg-dev'' package is installed.
+ * Ubuntu 8.04 or later.  For Ubuntu 12.04 or later, make sure the ''dpkg-dev'' package is installed.
 
 Other Linux distributions, such as Slackware are never tested, so may or may not work. 
 
