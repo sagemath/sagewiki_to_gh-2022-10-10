@@ -64,7 +64,7 @@ If anyone is able to test on these systems, we would particularly appreciate rep
  * CentOS  on x86 (Both 32-bit and 64-bit).
  * Debian 5.0 or 6.0 on x86 (Both 32-bit and 64-bit).
  * Fedora 11 or later (Both 32-bit and 64-bit). 
- * Gentoo. The Sage on Gentoo project (http://github.com/cschwan/sage-on-gentoo) is aimed at properly integrating Sage to the Gentoo system, so is quite different to how Sage builds on all other platforms. This is designed for end users, not developers. However, a recent Sage should build from source on Gentoo.
+ * Gentoo. The Sage on Gentoo project (http://github.com/cschwan/sage-on-gentoo) is aimed at properly integrating Sage to the Gentoo system, so is quite different to how Sage builds on all other platforms. This is designed for end users, not developers. However, Sage should simply build from source on Gentoo.
  * openSUSE 12.1 on x86 (Both 32-bit and 64-bit).
  * Red Hat Enterprise Linux Server 5.3 or later.
  * SUSE Linux Enterprise Server 10 or later on Intel Itanium processors 
