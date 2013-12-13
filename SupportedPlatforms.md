@@ -19,7 +19,7 @@ Below are listed the supported platforms, along with the level of support given.
 
 Specific hardware and software for these levels of support are given below.
 
-= Sage 5.12 =
+= Sage 5.13 =
 
 == Fully supported ==
 Sage is fully supported on the following platforms. This means '''every''' single '''release''' of Sage is '''always tested''' on all these platforms. The testing is performed in an automated way using Buildbot. (You can see what systems we use at http://build.sagemath.org/sage/buildslaves) Failure to build on one of these platforms will stop a release of Sage being made. Any failures to either build or pass tests are considered serious bugs. 
@@ -38,10 +38,9 @@ There are several requirements for Sage to work successfully on these fully supp
  * All instructions must be followed.
 
 === Linux ===
- * Fedora 16 on x86 (64-bit). Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/eno-1|eno]], [[http://build.sagemath.org/sage/buildslaves/flavius-1|flavius]], [[http://build.sagemath.org/sage/buildslaves/taurus-1|taurus]]
+ * Fedora 16 on x86 (64-bit). Tested on one or more of  [[http://build.sagemath.org/sage/buildslaves/eno-1|eno]], [[http://build.sagemath.org/sage/buildslaves/flavius-1|flavius]]
  * Fedora 16 on i686 (32-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/cicero-1|cicero]]
  * SUSE 10 SP1 on Itanium (64-bit)  Tested on [[http://build.sagemath.org/sage/buildslaves/iras-1|iras]]
- * Redhat 5.6 (Tikanga) on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/rosemary-1|rosemary]]
  * Ubuntu 8.04.4 LTS  on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/sage-1|sage]]
  * Ubuntu 10.04.3 LTS on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/redhawk-1|redhawk]]
  * Ubuntu 12.04 on x86 (64-bit). Make sure that the ''dpkg-dev'' package is installed. Tested on [[http://build.sagemath.org/sage/buildslaves/snapperkob|snapperkob]]
@@ -50,7 +49,6 @@ There are several requirements for Sage to work successfully on these fully supp
 === Mac OS X ===
  * OS X 10.4 (Tiger) on PPC. The pexpect interfaces tend to be less reliable than other platforms, so you might see some unreproducible doctest failures. Also, the "Mac App" doesn't work on OS X 10.4, but building from source or non-App binaries should work. Tested on [[http://build.sagemath.org/sage/buildslaves/moufang-1|moufang]]
  * OS X 10.6 (Snow Leopard) 64-bit, with XCode 3. Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
- * OS X 10.8 (Mountain Lion) 64-bit, with XCode 4.  Tested on [[http://build.sagemath.org/sage/buildslaves/dehaye|dehaye]]
 
 === Solaris SPARC 32-bit ===
  * Solaris 10 on SPARC processors in 32-bit mode. You need to use the '''Solaris linker''' in /usr/ccs/bin/ld (this is normally the default), the GNU linker is not supported. Tested on [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]]
@@ -75,7 +73,7 @@ Other Linux distributions, such as Slackware are never tested, so may or may not
 
 === Mac OS X ===
  * OS X 10.4 (Tiger), 10.5 (Leopard), both PPC and Intel chips.  Note that 10.4 PPC is fully supported.
- * OS X 10.7 (Lion), provided you use a sufficiently recent version of XCode.
+ * OS X 10.7 (Lion), 10.8 (Mountain Lion), 10.9 (Mavericks), provided you use a sufficiently recent version of XCode.
 
 === Solaris ===
  * Solaris 10 03/2005 or any later Solaris 10 release on x86 processors in 32-bit mode.
