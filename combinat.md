@@ -12,15 +12,17 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 == NEWS ==
 
+ * sage developer days in Cernay: [[http://framadate.org/studs.php?sondage=zil1twp4pz5tmq5l|poll]]
+
  * [[http://trac.sagemath.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
  * [[https://combinat.sagemath.org:8080|Experimental Sage notebook with the Sage-Combinat patches applied]]
 
- * November 4-8, 2013[[http://wiki.sagemath.org/days54|Sage(-Combinat) Days 54]], University of California at Davis, USA
-
  * A new [[http://combinat.sagemath.org/misc/raw-file/tip/articles/2013-01-17-Poster/main.pdf|poster]] for Sage-Combinat!
 
 == Past news ==
+
+ * November 4-8, 2013[[http://wiki.sagemath.org/days54|Sage(-Combinat) Days 54]], University of California at Davis, USA
 
  * June 17-21, 2013 [[combinat/FPSAC13|Sage-Combinat days]], in Orsay as satellite event to [[http://www.liafa.jussieu.fr/fpsac13/|FPSAC'13]]
 
