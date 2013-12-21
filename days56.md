@@ -21,7 +21,6 @@ The focus of the workshop will be [[https://cloud.sagemath.org|Sagemath Cloud]] 
  * Hao Chen
  * Sarah Chisholm
  * Keith Clawson
- * Victoria de Quehen
  * Nathan Kaplan
  * Kiran Kedlaya
  * Ling Long
