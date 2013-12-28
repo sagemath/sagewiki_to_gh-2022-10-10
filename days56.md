@@ -15,7 +15,6 @@ The focus of the workshop will be [[https://cloud.sagemath.org|Sagemath Cloud]] 
 
 == Participants ==
 
- * Clarita Begay
  * Volker Braun
  * Alina Bucur
  * Hao Chen
