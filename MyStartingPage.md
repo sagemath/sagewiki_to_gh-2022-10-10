@@ -28,11 +28,8 @@ This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software S
 == Past and future workshops ==
  * Upcoming Workshops
  <<Include(Workshops, , from="^##start-include$", to="^----$")>>
- * [[Workshops | All workshops]], including past and future Sage Days, Bug Days, Doc Days, Review Days, and Education Days.
- * Recent Non-SageDays Workshops/Events that involved/impacted Sage
-   * [[http:/combinat/SageCombinatWorkshopOrsay|Sage-Combinat Workshop in Orsay]], January 26-30, 2009
-   * [[http://modular.math.washington.edu/msri06/|MSRI Workshop on Modular Forms]], Berkeley, CA, July 31 -- Aug 11, 2006
-   * [[http://sage.math.washington.edu/msri07|MSRI Workshop on Interactive Parallel Computation]], Berkeley, CA, Jan 29 -- Feb 2, 2007
+ * [[Workshops | All workshops]], including past and future Sage Days, Bug Days, Doc Days, Review Days, Education Days, and some other Sage-related events.
+
 
 == Hosting a workshop ==
  * [[HowToHostASageDays|How To Host A Sage Days]] --- Advice to future hosts
