@@ -42,7 +42,7 @@ To register, fill in the following form, and send it by e-mail to
 `Adrien Boussicault <http://www.labri.fr/perso/boussica/index_en.html>`_::
 
     Name:
-    will participate to the "Fourth Sage-Combinat Days in Cernay".
+    will participate in the "Fourth Sage-Combinat Days in Cernay".
     Date of arrival:
     Date of departure:
 
