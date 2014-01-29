@@ -30,7 +30,9 @@ Travel for PhD students and PostDocs can also be funded.
 Other participants, please arrange funding for your travel.
 
 The Tower can accommodate 8-10 people, and if needed there is another
-adjacent guest house. Participants can stay from the afternoon of
+adjacent guest house.
+
+Participants can stay from the afternoon of
 Saturday, April 5, 2014 to the morning of Saturday, April 12, 2014.
 
 Meals are cooked in turns by the participants for everyone, so bring
