@@ -1,9 +1,11 @@
 {{{#!rst
-Sage-Combinat days in Orsay
-===========================
+Sage-Combinat days in Cernay, February 2012
+===========================================
 
-The third Sage-Combinat days in Cernay will hold at Cernay-la-Ville,
-France, February 6-10 2012, near Orsay, in the south-west of Paris.
+See also next edition: `Cernay 2014 <http://wiki.sagemath.org/days57>`_.
+
+The third Sage-Combinat days in Cernay will be held at Cernay-la-Ville,
+France, February 6-10, 2012, near Orsay, in the south-west of Paris.
 
 Following the \*-Combinat tradition I reserved the `guest house the
 tower <http://www.cernayvacances.com/CEngels.html>`_ at
@@ -152,7 +154,7 @@ Coming from downtown Paris to Cernay
 
 * `Map and and aerial photo <http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17>`_
 
-We will do some car shuttles from Saint Rémi. Please contact us in
+We will do some car shuttles from Saint-Rémy. Please contact us in
 advance to synchronize.
 
 }}}
