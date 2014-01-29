@@ -19,8 +19,8 @@ Participants, please edit!
 Tentative list of participants
 ==============================
 
-Participants, please add your name!
-
+* Adrien Boussicault
+* Samuel Lelièvre
 
 Practical information
 =====================
@@ -38,7 +38,7 @@ along your favorite recipes and dishes!  Also bring along hiking/climbing
 shoes and music instruments/scores for the breaks. There will of course
 be an open wifi and wired internet connection.
 
-To register, fill in the following form, and send it by e-mail to
+To register, please fill in the following form and email it to
 `Adrien Boussicault <http://www.labri.fr/perso/boussica/index_en.html>`_::
 
     Name:
