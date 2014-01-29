@@ -1,8 +1,8 @@
 {{{#!rst
-Sage-Combinat days in Cernay
-============================
+Sage-Combinat Days in Cernay (aka Sage Days 57, aka Cernay 2014)
+================================================================
 
-The fourth "Sage-Combinat days in Cernay" will be held at Cernay-la-Ville,
+The fourth "Sage-Combinat Days in Cernay" will be held at Cernay-la-Ville,
 (40km south-west of Paris, near Orsay), April 6-12, 2014.
 
 Following the \*-Combinat tradition we reserved the guest house `The
