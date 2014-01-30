@@ -1,9 +1,9 @@
 {{{#!rst
-Sage-Combinat Days in Cernay (aka Sage Days 57, aka Cernay 2014)
-================================================================
+Sage-Combinat Days in Cernay, April 6-12, 2014 (Sage Days 57) (Cernay 2014)
+===========================================================================
 
-The fourth "Sage-Combinat Days in Cernay" will be held at Cernay-la-Ville,
-(40km south-west of Paris, near Orsay), April 6-12, 2014.
+The fourth "Sage-Combinat Days in Cernay" will be held at Cernay-la-Ville
+(40km South-West of Paris, near Orsay), April 6-12, 2014.
 
 Following the \*-Combinat tradition we reserved the guest house `The
 Tower <http://www.cernayvacances.com/CEngels.html>`_ at
@@ -35,8 +35,12 @@ Other participants, please arrange funding for your travel.
 The Tower can accommodate 8-10 people, and if needed there is another
 adjacent guest house.
 
-Participants can stay from the afternoon of
-Saturday, April 5, 2014 to the morning of Saturday, April 12, 2014.
+The core of the activity will be Monday, April 7, 2014 to Friday, April 11, 2014.
+
+Arrival on Sunday, April 6, is encouraged, and in fact early arrival is even
+possible on the afternoon of Saturday, April 5, 2014.
+
+Participants can stay until the morning of Saturday, April 12, 2014.
 
 Meals are cooked in turns by the participants for everyone, so bring
 along your favorite recipes and dishes!  Also bring along hiking/climbing
@@ -59,7 +63,9 @@ Coming from downtown Paris to Cernay
 
    There are two bus stops at Cernay. The closest to the guest house is Grand'Place.
 
-   BEWARE: there are no buses to Cernay between 7:25am and 12:54am!
+   You can check travel itineraries on `ViaNavigo <http://www.vianavigo.com/>`_.
+
+   BEWARE: there are big gaps in the day with no buses to Cernay!
 
 * `Map and and aerial photo <http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17>`_
 
