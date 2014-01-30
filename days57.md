@@ -15,12 +15,15 @@ Tentative list of themes
 
 Participants, please edit!
 
+Coxeter groups
+--------------
 
 Tentative list of participants
 ==============================
 
 * Adrien Boussicault
 * Samuel Lelièvre
+* Nicolas M. Thiéry
 
 Practical information
 =====================
