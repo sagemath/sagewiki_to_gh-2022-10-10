@@ -10,6 +10,14 @@ Tower <http://www.cernayvacances.com/CEngels.html>`_ at
 Cernay-la-Ville.  It is very nice and cosy, 35 min train + 15
 min bus from downtown Paris. 
 
+Tentative list of participants
+==============================
+
+* Adrien Boussicault
+* Vincent Delecroix
+* Samuel Lelièvre
+* Nicolas M. Thiéry
+
 Tentative list of themes
 ========================
 
@@ -39,12 +47,6 @@ todo:
 - inclusion of Charle's code into Sage
 - implementation of a datastructure for translation surfaces ?
 
-Tentative list of participants
-==============================
-
-* Adrien Boussicault
-* Samuel Lelièvre
-* Nicolas M. Thiéry
 
 Practical information
 =====================
