@@ -1,17 +1,19 @@
 {{{#!rst
+
+===========================================================================
 Sage-Combinat Days in Cernay, April 6-12, 2014 (Sage Days 57) (Cernay 2014)
 ===========================================================================
 
 The fourth "Sage-Combinat Days in Cernay" will be held at Cernay-la-Ville
 (40km South-West of Paris, near Orsay), April 6-12, 2014.
 
-Following the \*-Combinat tradition we reserved the guest house `The
-Tower <http://www.cernayvacances.com/CEngels.html>`_ at
-Cernay-la-Ville.  It is very nice and cosy, 35 min train + 15
-min bus from downtown Paris. 
+Following the \*-Combinat tradition we booked the guest house `The Tower
+<http://www.cernayvacances.com/CEngels.html>`_ in Cernay-la-Ville.
+It is a very nice and cosy "gîte", 50 minutes from Paris by public transport.
 
+------------------------------
 Tentative list of participants
-==============================
+------------------------------
 
 * Adrien Boussicault
 * Vincent Delecroix
@@ -19,10 +21,11 @@ Tentative list of participants
 * Thierry Monteil
 * Nicolas M. Thiéry
 
+------------------------
 Tentative list of themes
-========================
+------------------------
 
-Participants, please edit!
+(Participants, please edit!)
 
 Coxeter groups
 --------------
@@ -30,27 +33,33 @@ Coxeter groups
 Languages
 ---------
 
-interested: Vincent
+- interested
 
-todo list
+  - Vincent
 
-- implement the category of languages (from previous work of me and Stepan, `#12224 <http://trac.sagemath.org/ticket/12224>`_, `#12225 <http://trac.sagemath.org/ticket/12225>`_, `#12227 <http://trac.sagemath.org/ticket/12227>`_)
-- finish the inclusion of subshift of finite type and work on sofic shifts (`#12996 <http://trac.sagemath.org/ticket/12225>`_)
+- todo
 
-Translations surfaces
+  - implement the category of languages (from previous work of me and Stepan, `#12224 <http://trac.sagemath.org/ticket/12224>`_, `#12225 <http://trac.sagemath.org/ticket/12225>`_, `#12227 <http://trac.sagemath.org/ticket/12227>`_)
+  - finish the inclusion of subshift of finite type and work on sofic shifts (`#12996 <http://trac.sagemath.org/ticket/12225>`_)
+
+Translation surfaces
+--------------------
+
+- interested
+
+  - Vincent
+  - Samuel
+
+- todo
+
+  - better datastructure for permutations
+  - include Charles's code into Sage
+  - implementat a datastructure for translation surfaces ?
+
+
 ---------------------
-
-interested: Vincent
-
-todo:
-
-- better datastructure for permutations
-- inclusion of Charle's code into Sage
-- implementation of a datastructure for translation surfaces ?
-
-
 Practical information
-=====================
+---------------------
 
 Accommodation will be covered by our funding sources.
 Travel for PhD students and PostDocs can also be funded.
@@ -79,13 +88,13 @@ To register, please fill in the following form and email it to
     Date of arrival:
     Date of departure:
 
-Coming from downtown Paris to Cernay
-====================================
+From Paris to Cernay
+--------------------
 
 * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
-* From Châtelet-les-Halles: 45 minutes RER B to Saint-Rémy-les-Chevreuse + 15 minutes bus to Cernay-la-Ville
+* From Denfert-Rochereau: 40 minutes RER B to Saint-Rémy-les-Chevreuse + 15 minutes bus to Cernay-la-Ville
 
-   There are two bus stops at Cernay. The closest to the guest house is Grand'Place.
+   There are two bus stops in Cernay. The closest to the guest house is Grand'Place.
 
    You can check travel itineraries on `ViaNavigo <http://www.vianavigo.com/>`_.
 
@@ -96,4 +105,9 @@ Coming from downtown Paris to Cernay
 We will do some car shuttles from Saint-Rémy-les-Chevreuse. Please contact us in
 advance to arrange that.
 
+-----------------
+Other Sage events
+-----------------
+
+Upcoming Sage workshops are listed on the `Workshops page <http://wiki.sagemath.org/Workshops>`_ of the `Sage wiki <http://wiki.sagemath.org/>`_.
 }}}
