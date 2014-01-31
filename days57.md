@@ -16,6 +16,7 @@ Tentative list of participants
 * Adrien Boussicault
 * Vincent Delecroix
 * Samuel Lelièvre
+* Thierry Monteil
 * Nicolas M. Thiéry
 
 Tentative list of themes
