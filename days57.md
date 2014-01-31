@@ -18,6 +18,27 @@ Participants, please edit!
 Coxeter groups
 --------------
 
+Languages
+---------
+
+interested: Vincent
+
+todo list
+
+- implement the category of languages (from previous work of me and Stepan, `#12224 <http://trac.sagemath.org/ticket/12224>`_, `#12225 <http://trac.sagemath.org/ticket/12225>`_, `#12227 <http://trac.sagemath.org/ticket/12227>`_)
+- finish the inclusion of subshift of finite type and work on sofic shifts (`#12996 <http://trac.sagemath.org/ticket/12225>`_)
+
+Translations surfaces
+---------------------
+
+interested: Vincent
+
+todo:
+
+- better datastructure for permutations
+- inclusion of Charle's code into Sage
+- implementation of a datastructure for translation surfaces ?
+
 Tentative list of participants
 ==============================
 
