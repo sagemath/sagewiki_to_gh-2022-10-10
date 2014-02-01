@@ -17,6 +17,7 @@ Tentative list of participants
 
 * Adrien Boussicault
 * Vincent Delecroix
+* Eric Gourgoulhon
 * Samuel Lelièvre
 * Thierry Monteil
 * Nicolas M. Thiéry
@@ -56,6 +57,16 @@ Translation surfaces
   - include Charles's code into Sage
   - implementat a datastructure for translation surfaces ?
 
+Tensors on free modules
+-----------------------
+
+- interested
+
+  - Eric
+
+- todo
+
+  - implement tensor products of generic free modules of finite rank and the associated tensor algebra (by ''generic'' it is meant ''without any privileged basis'')
 
 ---------------------
 Practical information
