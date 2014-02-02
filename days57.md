@@ -57,6 +57,7 @@ It is a very nice and cosy "gîte", 50 minutes from Paris by public transport.
  * see, DepotDeFeuillesDeCalcul could be nice to first brainstorm all together, even for people not interested in coding
  * interested
    * Thierry
+   * Eric
 
 
 == Practical information ==
