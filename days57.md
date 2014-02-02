@@ -41,7 +41,7 @@ Languages
 - todo
 
   - implement the category of languages (from previous work of me and Stepan, `#12224 <http://trac.sagemath.org/ticket/12224>`_, `#12225 <http://trac.sagemath.org/ticket/12225>`_, `#12227 <http://trac.sagemath.org/ticket/12227>`_)
-  - finish the inclusion of subshift of finite type and work on sofic shifts (`#12996 <http://trac.sagemath.org/ticket/12225>`_)
+  - finish the inclusion of subshift of finite type and work on sofic shifts (`#12996 <http://trac.sagemath.org/ticket/12996>`_)
 
 Translation surfaces
 --------------------
@@ -50,6 +50,7 @@ Translation surfaces
 
   - Vincent
   - Samuel
+  - Thierry
 
 - todo
 
@@ -67,6 +68,17 @@ Tensors on free modules
 - todo
 
   - implement tensor products of generic free modules of finite rank and the associated tensor algebra (by ''generic'' it is meant ''without any privileged basis'')
+
+
+Work on DepotDeFeuillesDeCalcul
+-------------------------------
+
+- interested
+
+  - Thierry
+
+- first brainstorm all together
+
 
 ---------------------
 Practical information
