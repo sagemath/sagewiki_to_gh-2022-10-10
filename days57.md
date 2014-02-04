@@ -47,7 +47,7 @@ It is a very nice and cosy "gîte", 50 minutes from Paris by public transport.
 === Tensors on free modules ===
 
  * interested
-   *  Eric
+   * Eric
 
  * todo
    * implement tensor products of generic free modules of finite rank and the associated tensor algebra (by ''generic'' it is meant ''without any privileged basis'')
@@ -58,6 +58,7 @@ It is a very nice and cosy "gîte", 50 minutes from Paris by public transport.
  * interested
    * Thierry
    * Eric
+   * Vincent
 
 
 == Practical information ==
