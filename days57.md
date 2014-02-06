@@ -28,7 +28,7 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
  * ThierryMonteil (Lirmm, Montpellier, France)
  * Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
 
-To see our projects, see Days57Projects
+If you have wishes or coding projects, please edit the [[days57-topics|list of topics]].
 
 === Categories ===
 
