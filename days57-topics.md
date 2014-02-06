@@ -32,5 +32,11 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
    * datastructure for translation surfaces
 
 == Categories ==
+
  * interested
    * Nicolas
+
+== Polyhedra over number fields ==
+
+  * interested
+    * Volker
