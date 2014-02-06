@@ -14,6 +14,7 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
  * interested
    * Vincent
+   * Thierry
 
  * todo
    * implement the category of languages (from previous work of me and Stepan, [[http://trac.sagemath.org/ticket/12224|#12224]], [[http://trac.sagemath.org/ticket/12225|#12225]], [[http://trac.sagemath.org/ticket/12227|#12227]])
