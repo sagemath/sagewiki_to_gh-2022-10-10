@@ -2,7 +2,7 @@
 
 This page gather the list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
-=== Coxeter groups ===
+== Coxeter groups ==
 
  * interested
    * Jean-Philippe Labbé
@@ -10,7 +10,7 @@ This page gather the list of topics for [[days57|Sage days 57]]. Participants, p
    * Vivien Ripoll
    * ...
 
-=== Languages ===
+== Languages ==
 
  * interested
    * Vincent
@@ -19,7 +19,7 @@ This page gather the list of topics for [[days57|Sage days 57]]. Participants, p
    * implement the category of languages (from previous work of me and Stepan, [[http://trac.sagemath.org/ticket/12224|#12224]], [[http://trac.sagemath.org/ticket/12225|#12225]], [[http://trac.sagemath.org/ticket/12227|#12227]])
    * finish the inclusion of subshifts of finite type and work on sofic shifts ([[http://trac.sagemath.org/ticket/12996|#12996]])
 
-=== Translation surfaces ===
+== Translation surfaces ==
 
  * interested
    * Vincent
