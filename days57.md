@@ -2,8 +2,7 @@
 
 <<TableOfContents()>>
 
-
-== Cernay 2014, Sage Days 57  ==
+== Sage Days 57, Cernay 2014 ==
 
 The fourth "Sage-Combinat Days in Cernay" will be held at Cernay-la-Ville
 (40km South-West of Paris, near Orsay), April 6-12, 2014.
@@ -17,7 +16,6 @@ workshops and MuPAD-combinat workshops before that.
 This workshop is also "Sage Days 57".
 More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
 
-
 == Tentative list of participants ==
 
  * Tomer Bauer (Bar-Ilan University, Ramat Gan, Israel), 6--12 April
@@ -29,8 +27,6 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
  * Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
 
 If you have wishes or coding projects, please edit the [[days57-topics|list of topics]].
-
-=== Categories ===
 
 == Practical information ==
 
