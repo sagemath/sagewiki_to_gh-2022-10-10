@@ -3,11 +3,12 @@
 ## page was renamed from MyStartingPage
 
 = About this wiki =
+
 This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software System]] project. It helps in organizing development, projects and meetings.
 
-'''To access the wiki, use your trac account.'''  See http://trac.sagemath.org/sage_trac/ for how to get a trac account. (Spammers: Please don't waste your time trying to get an account, since you have to write an email to a human and convince them you are actually a Sage developer.)
+'''Editing the wiki.''' Page editing uses the MoinMoin syntax. To edit the wiki, log in using your [[http://trac.sagemath.org/sage_trac/|sage-trac]] account. Getting an account involves convincing a human by email that you not a spammer.
 
-'''License and Copyright''' : By making an explicit contribution to the [[http://www.sagemath.org/|Sage]] wiki (or the [[http://www.sagemath.org/documentation.html|Sage documentation]]), one certifies that one's contribution is licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]].
+'''License and Copyright.''' Contributions to the [[http://www.sagemath.org/|Sage]] wiki and to the [[http://www.sagemath.org/documentation.html|Sage documentation]] are licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]]. By contributing, you agree to place your contribution under that license.
 
 
 <<TableOfContents>>
