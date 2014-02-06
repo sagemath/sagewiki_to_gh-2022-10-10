@@ -28,9 +28,7 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
 
 If you have wishes or coding projects, please edit the [[days57-topics|list of topics]].
 
-== Practical information ==
-
-=== Venue ===
+== Venue ==
 
 The workshop takes place in a guest house, which has comfortable working spaces,
 a cooking and dining area, and a few bedrooms. This favors an intense workshop,
@@ -49,7 +47,7 @@ The surrounding area offers nice hiking possibilities, bring hiking/climbing sho
 
 Your music instruments and scores, card or board games, etc, are also welcome for the breaks.
 
-=== Dates ===
+== Dates ==
 
 The core of the activity will be Monday, April 7, 2014 to Friday, April 11, 2014.
 
@@ -59,13 +57,15 @@ Participants are welcome to stay until Saturday, April 12.
 
 If you wish to stay longer before or after these dates, let us know.
 
-=== Funding ===
+== Sponsors, funding ==
 
-Accommodation and meals are covered by our funding sources.
+The workshop is funded by ANR GeoDyM and ANR Psyco.
 
-We also aim to fund travel for PhD students and postdocs.
+Accommodation and meals for all participants are covered by our funding sources.
 
-=== Registration ===
+We also aim to fund travel for some participants, especially PhD students and postdocs.
+
+== Registration ==
 
 To register, please fill in the following form and email it to
 [[http://www.labri.fr/perso/boussica/index_en.html|Adrien Boussicault]]::
@@ -90,7 +90,7 @@ If you request travel funding, please also add a link to a short CV
 or include an outline of your CV.
 
 
-=== From Paris to Cernay ===
+== From Paris to Cernay ==
 
  * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
  * From Denfert-Rochereau: 40 minutes RER B to Saint-Rémy-les-Chevreuse + 15 minutes bus to Cernay-la-Ville
@@ -100,6 +100,6 @@ Of the two bus stops in Cernay, Grand'Place is closest to the guest house.
 Beware that there are big gaps in the day with no buses to Cernay.
 
 Check travel itineraries on [[http://www.vianavigo.com/|ViaNavigo]] (includes trains, RER, buses).
-The [[http://ratp.fr|ratp]] will only give you information on the RER to Saint-Rémy-les-Chevreuse.
+Or [[http://ratp.fr|ratp]] but only for travel up to Saint-Rémy-les-Chevreuse.
 
 We will run some car shuttles from Saint-Rémy-les-Chevreuse (to be arranged by email nearer the time).
