@@ -8,10 +8,9 @@
 The fourth "Sage-Combinat Days in Cernay" will be held at Cernay-la-Ville
 (40km South-West of Paris, near Orsay), April 6-12, 2014.
 
-We booked the guest house 
+We booked the guest house
 [[http://www.cernayvacances.com/CEngels.html|The Tower]], a very nice and
 cosy "gîte", just short of an hour from Paris by public transport.
-
 This follows the *-Combinat tradition of previous Sage-combinat
 workshops and MuPAD-combinat workshops before that.
 
@@ -34,6 +33,11 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
 Participants, please edit!
 
 === Coxeter groups ===
+ * interested
+   * Jean-Philippe Labbé
+   * Nicolas M. Thiéry
+   * Vivien Ripoll
+   * ...
 
 === Languages ===
 
@@ -59,7 +63,8 @@ Participants, please edit!
 === Tensors on free modules ===
 
  * interested
-   * Eric
+   * Éric
+   * Vincent
 
  * todo
    * implement tensor products of generic free modules of finite rank and the associated tensor algebra (by ''generic'' it is meant ''without any privileged basis'')
@@ -73,6 +78,7 @@ Participants, please edit!
    * Vincent
    * Samuel
 
+=== Categories ===
 
 == Practical information ==
 
@@ -130,7 +136,7 @@ To register, please fill in the following form and email it to
     Travel funding request: (indicate approximate amount)
 }}}
 
-Please add a few words about your project for the workshop.
+Please add a few words about your project(s) for the workshop.
 
 If you request travel funding, please also add a link to a short CV
 or include an outline of your CV.
@@ -143,9 +149,9 @@ or include an outline of your CV.
  * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and and aerial photo]]
 
 Of the two bus stops in Cernay, Grand'Place is closest to the guest house.
-There are big gaps in the day with no buses to Cernay.
+Beware that there are big gaps in the day with no buses to Cernay.
 
 Check travel itineraries on [[http://www.vianavigo.com/|ViaNavigo]] (includes trains, RER, buses).
-The [http://ratp.fr|ratp]] will only give you information on the RER to Saint-Rémy-les-Chevreuse.
+The [[http://ratp.fr|ratp]] will only give you information on the RER to Saint-Rémy-les-Chevreuse.
 
 We will run some car shuttles from Saint-Rémy-les-Chevreuse (to be arranged by email nearer the time).
