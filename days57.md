@@ -14,7 +14,8 @@ cosy "gîte", just short of an hour from Paris by public transport.
 This follows a tradition of *-combinat workshops: 
 [[combinat/SageCombinatDaysCernay2012|2012]],
 [[combinat/SageCombinatChevieWorkshopOrsay2010|2010]],
-[[combinat/SageCombinatWorkshopOrsay|2009]], 2006...
+[[combinat/SageCombinatWorkshopOrsay|2009]], 
+[[http://mupad-combinat.sourceforge.net/Wiki/SecondDevelopersMeeting|2007]]...
 See the links for activity reports and some photos.
 
 This workshop is also "Sage Days 57".
