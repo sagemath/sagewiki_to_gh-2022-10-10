@@ -31,6 +31,8 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
  * Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
  * Volker Braun (Oxford, UK)
 
+== Topics ==
+
 If you have wishes or coding projects, please edit the [[days57-topics|list of topics]].
 
 == Venue ==
