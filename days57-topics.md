@@ -40,3 +40,11 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
   * interested
     * Volker
+
+== Tensor on free modules ==
+
+  * interested
+    * Eric
+
+  * todo
+    * implement tensor products of generic free modules and the associated tensor algebra (by ''generic'' it is meant ''without a privileged basis'')
