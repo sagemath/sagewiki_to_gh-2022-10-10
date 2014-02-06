@@ -2,7 +2,7 @@
 
 Sage-Combinat is a software project whose mission is: '''to improve the open source mathematical system [[http://www.sagemath.org/|Sage]] as an extensible toolbox for computer exploration in (algebraic) combinatorics, and foster code sharing between researchers in this area'''.
 
-In practice, Sage-combinat is a collection of experimental patches (i.e. extensions) on top of [[http://www.sagemath.org/|Sage]], developed by a community of researchers. The intent is that most of those patches get eventually integrated into Sage as soon as they are mature enough, with a typical short life-cycle of a few weeks. In other words: just install Sage, and you will benefit from all the Sage-combinat development, except for the latest bleeding edge features.
+In practice, Sage-combinat is a collection of extensions on top of [[http://www.sagemath.org/|Sage]], developed by a community of researchers. The intent is that most of those extensions get eventually integrated into Sage as soon as they are mature enough, with a typical short life-cycle of a few weeks. In other words: just install Sage, and you will benefit from all the Sage-combinat development, except for the latest bleeding edge features.
 
 ----
 
@@ -12,7 +12,7 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 == NEWS ==
 
- * sage developer days in Cernay: [[http://framadate.org/studs.php?sondage=zil1twp4pz5tmq5l|poll]]
+ * April 7-11, 2014 [[http://wiki.sagemath.org/days57|Sage(-Combinat) Days 57]], Cernay
 
  * [[http://trac.sagemath.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
@@ -22,9 +22,9 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 == Past news ==
 
- * November 4-8, 2013[[http://wiki.sagemath.org/days54|Sage(-Combinat) Days 54]], University of California at Davis, USA
+ * November 4-8, 2013 [[http://wiki.sagemath.org/days54|Sage(-Combinat) Days 54]], University of California at Davis, USA
 
- * June 17-21, 2013 [[combinat/FPSAC13|Sage-Combinat days]], in Orsay as satellite event to [[http://www.liafa.jussieu.fr/fpsac13/|FPSAC'13]]
+ * June 17-21, 2013 [[combinat/FPSAC13|Sage(-Combinat) days 49]], in Orsay as satellite event to [[http://www.liafa.jussieu.fr/fpsac13/|FPSAC'13]]
 
  * January 28 - May 3, 2013: [[http://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]], with a strong Sage and Sage-Combinat component, ICERM, Brown, USA
 
@@ -128,7 +128,18 @@ In practice, Sage-combinat is a collection of experimental patches (i.e. extensi
 
 === Code ===
 
- * The collection of patches is managed using a [[http://combinat.sagemath.org/patches/|patch server]]  (mercurial queues). Use it to try out the latest experimental features, or contribute your own patches!
+The Sage-Combinat extensions used to be managed as a collection of
+patches on our [[http://combinat.sagemath.org/patches/|patch server]],
+using a so-called mercurial queue. Since Sage 6.0, the
+[[http://trac.sagemath.org/wiki/QuickStartSageGit|development workflow]]
+has been reworked in depth, and we are in the progress of migrating
+the extensions as git branches.
+
+Quite some stuff below is thus outdated, and will be progressively
+replaced by information on the new workflow.
+
+ * [[http://trac.sagemath.org/query?status=closed&component=combinatorics&or&status=closed&cc=~sage-combinat&col=id&col=summary&col=component&col=status&col=type&col=priority&col=milestone&order=priority||Closed tickets related to combinatorics]]
+ * [[http://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=positive_review&component=combinatorics&or&status=needs_info&status=needs_review&status=needs_work&status=positive_review&cc=~sage-combinat&col=id&col=summary&col=component&col=status&col=type&col=priority&col=milestone&order=priority|In-progress tickets related to combinatorics]]
 
  * Browse the [[http://combinat.sagemath.org/code/file/tip/sage/|Sage sources with the Sage-combinat patches applied]]
 
