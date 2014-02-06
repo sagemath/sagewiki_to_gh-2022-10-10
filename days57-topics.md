@@ -41,7 +41,7 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
   * interested
     * Volker
 
-== Tensor on free modules ==
+== Tensors on free modules ==
 
   * interested
     * Eric
