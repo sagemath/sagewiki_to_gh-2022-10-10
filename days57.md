@@ -10,8 +10,12 @@ The fourth "Sage-Combinat Days in Cernay" will be held at Cernay-la-Ville
 We booked the guest house
 [[http://www.cernayvacances.com/CEngels.html|The Tower]], a very nice and
 cosy "gîte", just short of an hour from Paris by public transport.
-This follows the *-Combinat tradition of previous Sage-combinat
-workshops and MuPAD-combinat workshops before that.
+
+This follows a tradition of *-combinat workshops: 
+[[combinat/SageCombinatDaysCernay2012|2012]],
+[[combinat/SageCombinatChevieWorkshopOrsay2010|2010]],
+[[combinat/SageCombinatWorkshopOrsay|2009]], 2006...
+See the links for activity reports and some photos.
 
 This workshop is also "Sage Days 57".
 More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
