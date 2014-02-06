@@ -138,7 +138,7 @@ the extensions as git branches.
 Quite some stuff below is thus outdated, and will be progressively
 replaced by information on the new workflow.
 
- * [[http://trac.sagemath.org/query?status=closed&component=combinatorics&or&status=closed&cc=~sage-combinat&col=id&col=summary&col=component&col=status&col=type&col=priority&col=milestone&order=priority||Closed tickets related to combinatorics]]
+ * [[http://trac.sagemath.org/query?status=closed&component=combinatorics&or&status=closed&cc=~sage-combinat&col=id&col=summary&col=component&col=status&col=type&col=priority&col=milestone&order=priority|Closed tickets related to combinatorics]]
  * [[http://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=positive_review&component=combinatorics&or&status=needs_info&status=needs_review&status=needs_work&status=positive_review&cc=~sage-combinat&col=id&col=summary&col=component&col=status&col=type&col=priority&col=milestone&order=priority|In-progress tickets related to combinatorics]]
 
  * Browse the [[http://combinat.sagemath.org/code/file/tip/sage/|Sage sources with the Sage-combinat patches applied]]
