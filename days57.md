@@ -29,6 +29,7 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
  * Samuel Lelièvre (LMO, U Paris-Sud, Orsay, France), 5--12 April
  * ThierryMonteil (Lirmm, Montpellier, France)
  * Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
+ * Volker Braun (Oxford, UK)
 
 If you have wishes or coding projects, please edit the [[days57-topics|list of topics]].
 
