@@ -30,6 +30,7 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
  * ThierryMonteil (Lirmm, Montpellier, France)
  * Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
  * Volker Braun (Oxford, UK)
+ * Sébastien Labbé (LIAFA, Paris, France)
 
 == Topics ==
 
