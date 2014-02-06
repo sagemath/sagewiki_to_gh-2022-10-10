@@ -1,8 +1,6 @@
 = Sage-Combinat Days in Cernay, 6-12 April 2014 =
 
-
 <<TableOfContents()>>
-
 
 
 == Cernay 2014, Sage Days 57  ==
@@ -23,11 +21,11 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
 
 == Tentative list of participants ==
 
- * Tomer Bauer (Bar-Ilan University, Ramat Gan, Israel)
+ * Tomer Bauer (Bar-Ilan University, Ramat Gan, Israel), 6--12 April
  * Adrien Boussicault (Labri, Bordeaux, France)
  * Vincent Delecroix (Labri, Bordeaux, France)
  * Eric Gourgoulhon (Luth, Observatoire de Paris, France)
- * Samuel Lelièvre (LMO, U Paris-Sud, Orsay, France)
+ * Samuel Lelièvre (LMO, U Paris-Sud, Orsay, France), 5--12 April
  * ThierryMonteil (Lirmm, Montpellier, France)
  * Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
 
@@ -82,7 +80,7 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
 
 The workshop takes place in a guest house, which has comfortable working spaces,
 a cooking and dining area, and a few bedrooms. This favors an intense workshop,
-with everything taking place in the same place.
+with everything taking place in the same location.
 
 We will set up a wired internet connection and an open wifi.
 
@@ -90,7 +88,8 @@ The Tower can accommodate 8-10 people and an adjacent guest house offers more
 room if needed.
 
 Meals are cooked in turns by the participants for everyone, so bring along your
-favorite recipes and dishes!
+favorite recipes and dishes! All diets, including vegetarian, will be taken into
+account.
 
 The surrounding area offers nice hiking possibilities, bring hiking/climbing shoes.
 
@@ -118,14 +117,24 @@ To register, please fill in the following form and email it to
 [[http://www.labri.fr/perso/boussica/index_en.html|Adrien Boussicault]]::
 
 {{{
+    Fourth Sage-Combinat Days in Cernay
+
     Name:
-    will participate in the "Fourth Sage-Combinat Days in Cernay".
+    Position:
+    Institution:
+    Your webpage:
+
     Date of arrival:
     Date of departure:
+
+    Travel funding request: (indicate approximate amount)
 }}}
 
-Optionally, add a few words about your project in Cernay.
-If you request funding, please indicate an approximate amount.
+Please add a few words about your project for the workshop.
+
+If you request travel funding, please also add a link to a short CV
+or include an outline of your CV.
+
 
 === From Paris to Cernay ===
 
@@ -133,10 +142,10 @@ If you request funding, please indicate an approximate amount.
  * From Denfert-Rochereau: 40 minutes RER B to Saint-Rémy-les-Chevreuse + 15 minutes bus to Cernay-la-Ville
  * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and and aerial photo]]
 
-There are two bus stops in Cernay. The closest to the guest house is Grand'Place.
+Of the two bus stops in Cernay, Grand'Place is closest to the guest house.
+There are big gaps in the day with no buses to Cernay.
 
-Check travel itineraries on [[http://www.vianavigo.com/|ViaNavigo]].
-Beware of big gaps in the day with no buses to Cernay!
+Check travel itineraries on [[http://www.vianavigo.com/|ViaNavigo]] (includes trains, RER, buses).
+The [http://ratp.fr|ratp]] will only give you information on the RER to Saint-Rémy-les-Chevreuse.
 
-We will run some car shuttles from Saint-Rémy-les-Chevreuse. Pick-up times will
-be arranged by email near the workshop time, according to arrival times of all.
+We will run some car shuttles from Saint-Rémy-les-Chevreuse (to be arranged by email nearer the time).
