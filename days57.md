@@ -31,7 +31,7 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
 
 == Tentative list of themes ==
 
-(Participants, please edit!)
+Participants, please edit!
 
 === Coxeter groups ===
 
@@ -42,7 +42,7 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
 
  * todo
    * implement the category of languages (from previous work of me and Stepan, [[http://trac.sagemath.org/ticket/12224|#12224]], [[http://trac.sagemath.org/ticket/12225|#12225]], [[http://trac.sagemath.org/ticket/12227|#12227]])
-   * finish the inclusion of subshift of finite type and work on sofic shifts ([[http://trac.sagemath.org/ticket/12996|#12996]])
+   * finish the inclusion of subshifts of finite type and work on sofic shifts ([[http://trac.sagemath.org/ticket/12996|#12996]])
 
 === Translation surfaces ===
 
@@ -54,7 +54,7 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
  * todo
    * better datastructure for permutations
    * include Charles's code into Sage
-   * implementat a datastructure for translation surfaces ?
+   * datastructure for translation surfaces
 
 === Tensors on free modules ===
 
@@ -93,7 +93,7 @@ account.
 
 The surrounding area offers nice hiking possibilities, bring hiking/climbing shoes.
 
-Also bring music instruments/scores for the breaks.
+Your music instruments and scores, card or board games, etc, are also welcome for the breaks.
 
 === Dates ===
 
