@@ -1,6 +1,6 @@
 = Tentative list of themes =
 
-This page gather the list of topics for [[days57|Sage days 57]]. Participants, please edit!
+A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
 == Coxeter groups ==
 
@@ -30,3 +30,7 @@ This page gather the list of topics for [[days57|Sage days 57]]. Participants, p
    * better datastructure for permutations
    * include Charles's code into Sage
    * datastructure for translation surfaces
+
+== Categories ==
+ * interested
+   * Nicolas
