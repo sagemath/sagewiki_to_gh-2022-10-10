@@ -35,6 +35,8 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
  * interested
    * Nicolas
+   * Eric
+
 
 == Polyhedra over number fields ==
 
