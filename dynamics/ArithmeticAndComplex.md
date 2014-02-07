@@ -46,8 +46,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * Enabled canonical height for maps of `\PP^N` over number fields. Here is an early draft worksheet: [[attachment:Canonical height for number fields.sws| sws]], for `N>1` it requires the macaulay_resultant patch from above. - Adam Towsley, Paul Fili
 
- * ([[http://trac.sagemath.org/ticket/15396|#15396]]) needs-review: Implement .an_element() for ProjectiveSpace - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/15448|#15448]]) new: cartesian products of projective space - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/15490|#15490]]) new: documentation fix for projective dynatomic polynomials - Weixin Wu
@@ -69,6 +67,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * --([[http://trac.sagemath.org/ticket/15373|#15373]])-- closed sage-5.13.beta3: Global height for integer fix - Paul Fili
 
  * --([[http://trac.sagemath.org/ticket/15392|#15392]])-- closed sage.5.13.rc0: Bruin-Molnar Algorithm for minimal models  - Brian Stout, Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/15396|#15396]])-- closed sage.6.1: Implement .an_element() for ProjectiveSpace - Ben Hutz
 
 === Wishlist ===
 
