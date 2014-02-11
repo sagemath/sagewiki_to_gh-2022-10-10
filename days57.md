@@ -105,8 +105,10 @@ or include an outline of your CV.
  * From Denfert-Rochereau: 40 minutes RER B to Saint-Rémy-les-Chevreuse + 15 minutes bus to Cernay-la-Ville
  * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and and aerial photo]]
 
-Of the two bus stops in Cernay, Grand'Place is closest to the guest house.
-Beware that there are big gaps in the day with no buses to Cernay.
+ * `Time tables Saint-Remy <-> Cernay <-> Rambouillet <attachment:timetable-39-03.pdf>`_
+ 
+   Of the two bus stops in Cernay, Grand'Place is closest to the guest house.
+   Beware that there are big gaps in the day with no buses to Cernay.
 
 Check travel itineraries on [[http://www.vianavigo.com/|ViaNavigo]] (includes trains, RER, buses).
 Or [[http://ratp.fr|ratp]] but only for travel up to Saint-Rémy-les-Chevreuse.
