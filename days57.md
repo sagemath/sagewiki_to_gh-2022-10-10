@@ -25,13 +25,13 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
 
  * Tomer Bauer (Bar-Ilan University, Ramat Gan, Israel), 6--12 April
  * Adrien Boussicault (Labri, Bordeaux, France)
- * Vincent Delecroix (Labri, Bordeaux, France)
- * Eric Gourgoulhon (Luth, Observatoire de Paris, France)
- * Samuel Lelièvre (LMO, U Paris-Sud, Orsay, France), 5--12 April
- * ThierryMonteil (Lirmm, Montpellier, France)
- * Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
  * Volker Braun (Oxford, UK)
+ * Vincent Delecroix (Labri, Bordeaux, France) 5--12 April
+ * Eric Gourgoulhon (Luth, Observatoire de Paris, France)
  * Sébastien Labbé (LIAFA, Paris, France)
+ * Samuel Lelièvre (LMO, U Paris-Sud, Orsay, France), 5--12 April
+ * Thierry Monteil (Lirmm, Montpellier, France)
+ * Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
 
 == Topics ==
 
