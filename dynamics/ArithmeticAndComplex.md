@@ -56,25 +56,28 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/15782|#15782]]) needs-review: Increase Performance of Multiplier in Projective Morphism - Dillon Rose
 
+ * ([[http://trac.sagemath.org/ticket/15815|#15815]]) needs-review: rational preimages for projective morphisms returns incorrect points - Ben Hutz
+
+
 == Complete ==
 
- * --([[http://trac.sagemath.org/ticket/13130|#13130]])-- closed sage-5.8.beta3: Basic architecture changes : support for projective spaces over rings - Ben Hutz 
-
- * --([[http://trac.sagemath.org/ticket/14217|#14217]])-- closed sage-5.10.beta3: Basic iteration functionality for projective and affine spaces - new directory structure in schemes - Ben Hutz 
-
- * --([[http://trac.sagemath.org/ticket/14218|#14218]])-- closed sage-5.13.beta2: Height and canonical heights for points and morphisms - Ben Hutz 
-
- * --([[http://trac.sagemath.org/ticket/14219|#14219]])-- closed sage-5.13.beta4:- Rational preperiodic points - Ben Hutz
- 
- * --([[http://trac.sagemath.org/ticket/15377|#15377]])-- closed sage-5.13.beta3: improve documentation of normalize_coordinates - Ben Hutz 
-
- * --([[http://trac.sagemath.org/ticket/15376|#15376]])-- closed sage-5.13.beta4: canonical heights for points with integer fix - Paul Fili
-
- * --([[http://trac.sagemath.org/ticket/15373|#15373]])-- closed sage-5.13.beta3: Global height for integer fix - Paul Fili
+ * --([[http://trac.sagemath.org/ticket/15396|#15396]])-- closed sage.6.1: Implement .an_element() for ProjectiveSpace - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/15392|#15392]])-- closed sage.5.13.rc0: Bruin-Molnar Algorithm for minimal models  - Brian Stout, Ben Hutz
 
- * --([[http://trac.sagemath.org/ticket/15396|#15396]])-- closed sage.6.1: Implement .an_element() for ProjectiveSpace - Ben Hutz
+ * --([[http://trac.sagemath.org/ticket/15376|#15376]])-- closed sage-5.13.beta4: canonical heights for points with integer fix - Paul Fili
+
+ * --([[http://trac.sagemath.org/ticket/14219|#14219]])-- closed sage-5.13.beta4:- Rational preperiodic points - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/15373|#15373]])-- closed sage-5.13.beta3: Global height for integer fix - Paul Fili
+
+ * --([[http://trac.sagemath.org/ticket/15377|#15377]])-- closed sage-5.13.beta3: improve documentation of normalize_coordinates - Ben Hutz 
+
+ * --([[http://trac.sagemath.org/ticket/14218|#14218]])-- closed sage-5.13.beta2: Height and canonical heights for points and morphisms - Ben Hutz 
+
+ * --([[http://trac.sagemath.org/ticket/14217|#14217]])-- closed sage-5.10.beta3: Basic iteration functionality for projective and affine spaces - new directory structure in schemes - Ben Hutz 
+
+ * --([[http://trac.sagemath.org/ticket/13130|#13130]])-- closed sage-5.8.beta3: Basic architecture changes : support for projective spaces over rings - Ben Hutz 
 
 === Wishlist ===
 
