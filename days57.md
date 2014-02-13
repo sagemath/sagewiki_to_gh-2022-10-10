@@ -32,6 +32,7 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
  * Samuel Lelièvre (LMO, U Paris-Sud, Orsay, France), 5--12 April
  * Thierry Monteil (Lirmm, Montpellier, France)
  * Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
+ * Florent Hivert (LRI, U Paris-Sud Orsay, France)
 
 == Topics ==
 
