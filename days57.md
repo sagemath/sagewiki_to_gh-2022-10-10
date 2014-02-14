@@ -26,13 +26,16 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
  * Tomer Bauer (Bar-Ilan University, Ramat Gan, Israel), 6--12 April
  * Adrien Boussicault (Labri, Bordeaux, France)
  * Volker Braun (Oxford, UK)
+ * Nicolas Borie (U Paris-Est Marne-la-Vallée, France)
  * Vincent Delecroix (Labri, Bordeaux, France) 5--12 April
  * Eric Gourgoulhon (Luth, Observatoire de Paris, France)
+ * Florent Hivert (LRI, U Paris-Sud Orsay, France)
+ * Jean-Philippe Labbé (Freie Universität Berlin, Germany)
  * Sébastien Labbé (LIAFA, Paris, France)
  * Samuel Lelièvre (LMO, U Paris-Sud, Orsay, France), 5--12 April
  * Thierry Monteil (Lirmm, Montpellier, France)
+ * Vivien Ripoll (U Vienna, Austria)
  * Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
- * Florent Hivert (LRI, U Paris-Sud Orsay, France)
 
 == Topics ==
 
@@ -69,7 +72,8 @@ If you wish to stay longer before or after these dates, let us know.
 
 == Sponsors, funding ==
 
-The workshop is funded by ANR GeoDyM and ANR Psyco.
+The workshop is funded by ANR projects DynA3S, GeoDyM, PSyCo, with material help
+from the Mathematics and the Computer Science Departments at Université Paris-Sud, Orsay.
 
 Accommodation and meals for all participants are covered by our funding sources.
 
