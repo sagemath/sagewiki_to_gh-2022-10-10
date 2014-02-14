@@ -23,14 +23,16 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
 
 == Tentative list of participants ==
 
- * Tomer Bauer (Bar-Ilan University, Ramat Gan, Israel), 6--12 April
+ * Tomer Bauer (Bar-Ilan U, Ramat Gan, Israel), 6--12 April
  * Adrien Boussicault (Labri, Bordeaux, France)
- * Volker Braun (Oxford, UK)
+ * Volker Braun (Oxford U, UK)
  * Nicolas Borie (U Paris-Est Marne-la-Vallée, France)
+ * Luca De Feo (U Versailles Saint-Quentin, France)
  * Vincent Delecroix (Labri, Bordeaux, France) 5--12 April
+ * Charles Fougeron (U Paris 7, Paris, FRance)
  * Eric Gourgoulhon (Luth, Observatoire de Paris, France)
  * Florent Hivert (LRI, U Paris-Sud Orsay, France)
- * Jean-Philippe Labbé (Freie Universität Berlin, Germany)
+ * Jean-Philippe Labbé (Freie U Berlin, Germany)
  * Sébastien Labbé (LIAFA, Paris, France)
  * Samuel Lelièvre (LMO, U Paris-Sud, Orsay, France), 5--12 April
  * Thierry Monteil (Lirmm, Montpellier, France)
