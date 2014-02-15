@@ -17,7 +17,7 @@ A=sqrt(j1*(j1+1))
 The volume is fund using the expression
 V^2 =M = 2/9(real antisymmetrix matrix)
 
-                
+{{{#!sagecell                
 
 }}}
 
