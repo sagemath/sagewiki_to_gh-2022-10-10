@@ -25,6 +25,113 @@ Reference: L. Freidel, K. Krasnov, and E. R. Livine, "Holomorphic Factorization 
 
 {{{#!sagecell                
 
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Feb 10 20:05:11 2014
+
+@author: David Horgan
+"""
+
+from scipy.optimize import fsolve
+import math
+
+
+
+#scene.range = 10
+
+#cylinder(pos=(0,0,0), radius=1.0,axis=(0,0,1), color=color.white)
+
+#scene2 = display(title='Examples of Tetrahedrons',
+    # x=0, y=0, width=600, height=600,
+    # center=(0,0,0), background=(1,1,1))
+
+#scene2.visible = True
+#scene2.range = 10
+
+
+
+
+#unit circle plot
+C = circle((0,0), 1)
+
+
+
+
+
+#input points from unit circle
+
+p1=0.6
+p2=0.7
+
+
+#face1
+a1=(((1 - p2**2)/(2*(1 + p1)))**(1/4), (1/2)*(p2 + 1)*((2*(1 + p1))/(1 - p2**2))**(1/4), 0)
+a2=(((1 - p2**2)/(2*(1 + p1)))**(1/4),  (1/2)*(p2 - 1)*((2*(1 + p1))/(1 - p2**2))**(1/4), 0 )
+a3=(((1/2)*( (1 + p1)**3)* (1 - p2**2))**(1/4),p2*((2*(1 + p1))/(1 - p2**2))**(1/4), sqrt(1 - p1**2)*((1 - p2**2)/(2*(1 + p1)))**(1/4) )
+a=[a1,a2,a3]
+
+
+#face2
+
+b1=(0, 0, 0)
+b2=(((1 - p2**2)/(2*(1 + p1)))**(1/4), (1/2)*(p2 - 1)*((2*(1 + p1))/(1 - p2**2))**(1/4), 0)
+b3=(((1/2)*((1 + p1)**3)*(1 - p2**2))**(1/4),p2*((2*(1 + p1))/(1 - p2**2))**(1/4), sqrt(1-p1**2)*((1-p2**2)/(2*(1+p1)))**(1/4)  )
+b=[b1,b2,b3]
+
+#face3
+c1=(0, 0, 0)
+c2=( ((1 - p2**2)/(2*(1 + p1)))**(1/4), (1/2)*(p2 + 1)*((2*(1 + p1))/(1 - p2**2))**(1/4), 0)
+c3=(((1/2)*((1 + p1)**3)*(1 - p2**2))**(1/4), p2*((2*(1 + p1))/(1 - p2**2))**(1/4),  sqrt(1 - p1**2)*((1 - p2**2)/(2*(1 + p1)))**(1/4) )
+c=[c1,c2,c3]
+
+
+#face4
+d1=(0, 0, 0)
+d2=(((1 - p2**2)/(2*(1 + p1)))**(1/4), (1/2)*(p2 + 1)*((2*(1 + p1))/(1 - p2**2))**(1/4), 0)
+d3 =(((1 - p2**2)/(2*(1 + p1)))**(1/4), (1/2)*(p2 - 1)*((2*(1 + p1))/(1 - p2**2))**(1/4), 0)
+d=[d1,d2,d3]
+
+#printresults
+print 'a1=', a1
+print 'a2=', a2
+print 'a3=', a3
+
+print 'b1=', b1
+print 'b2=', b2
+print 'b3=', b3
+
+print 'c1=', c1
+print 'c2=', c2
+print 'c3=', c3
+
+print 'd1=', d1
+print 'd2=', d2
+print 'd3=', d3
+
+
+
+G = Graphics()
+
+#tetrahedron faces - coloured
+P1=polygon([a1,a2, a3], color='red')
+P2=polygon([b1,b2, b3],color='yellow')
+P3=polygon([c1,c2, c3],color='blue')
+P4=polygon([d1,d2, d3],color='green')
+
+#polygon faces
+#P1=polygon([a1,a2, a3])
+#P2=polygon([b1,b2, b3])
+#P3=polygon([c1,c2, c3])
+#P4=polygon([d1,d2, d3])
+
+#polygon([a1,a2, a3])
+#polygon([b1,b2, b3])
+#polygon([c1,c2, c3])
+#polygon([d1,d2, d3])
+
+g=G+P1+P2+P3+P4
+show(g)
+show(C)
 }}}
 
 
