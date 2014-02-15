@@ -9,13 +9,19 @@ goto [[interact|interact main page]]
 by David Horgan. 
 
 
-In this interact I calculate the angle,   area and volume for a quantum tetrahedron
-The angle is found using the expression: 
-theta = arccos((j3*(j3+1)-(j1*(j1+j1)-j2*(j2+1))/(2*sqrt(j1*(j1+j1)*j2*(j2+1))))
-The area is found using the expression:
-A=sqrt(j1*(j1+1))
-The volume is fund using the expression
-V^2 =M = 2/9(real antisymmetrix matrix)
+Moduli Space of Shapes of a Tetrahedron with Faces of Equal Area
+
+The space of shapes of a tetrahedron with fixed face areas is naturally a symplectic manifold of real dimension two. This symplectic manifold turns out to be a Kahler manifold and can be 
+
+parametrized by a single complex coordinate Z given by the cross ratio of four complex numbers obtained by stereographically projecting the unit face normals onto the complex plane. 
+
+This Demonstration illustrates how this works in the simplest case of a tetrahedron T whose four face areas are equal. For convenience, the cross-ratio coordinate Z is shifted and rescaled 
+
+to z=(2Z-1)/Sqrt[3] so that the regular tetrahedron corresponds to z=i, in which case the upper half-plane is mapped conformally into the unit disc w=(i-z)/(i+z). The equi-area tetrahedron 
+
+T is then drawn as a function of the unit disc coordinate w. 
+
+Reference: L. Freidel, K. Krasnov, and E. R. Livine, "Holomorphic Factorization for a Quantum Tetrahedron".
 
 {{{#!sagecell                
 
