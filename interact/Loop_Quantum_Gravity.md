@@ -130,8 +130,8 @@ P4=polygon([d1,d2, d3],color='green')
 #polygon([d1,d2, d3])
 
 g=G+P1+P2+P3+P4
-show(g)
-show(C)
+show(g, title='tet(w)')
+show(C, title='w plane')
 }}}
 
 
