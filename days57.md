@@ -34,6 +34,7 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
  * Florent Hivert (LRI, U Paris-Sud Orsay, France)
  * Jean-Philippe Labbé (Freie U Berlin, Germany)
  * Sébastien Labbé (LIAFA, Paris, France)
+ * Patxi Laborde Zubiera (Labri, Bordeaux, France) 5 - 12 April
  * Samuel Lelièvre (LMO, U Paris-Sud, Orsay, France), 5--12 April
  * Thierry Monteil (Lirmm, Montpellier, France)
  * Vivien Ripoll (U Vienna, Austria)
