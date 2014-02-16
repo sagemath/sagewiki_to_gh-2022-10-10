@@ -23,13 +23,15 @@ In practice, Sage-combinat is a collection of extensions on top of [[http://www.
 == Past news ==
 
  * November 4-8, 2013 [[http://wiki.sagemath.org/days54|Sage(-Combinat) Days 54]], University of California at Davis, USA
+   Organized by Dan Bump, Anne Schilling and Travis Scrimshaw
 
  * June 17-21, 2013 [[combinat/FPSAC13|Sage(-Combinat) days 49]], in Orsay as satellite event to [[http://www.liafa.jussieu.fr/fpsac13/|FPSAC'13]]
+   Organized by Alejandro Morales, Anne Schilling, Nicolas M. Thiery
 
  * January 28 - May 3, 2013: [[http://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]], with a strong Sage and Sage-Combinat component, ICERM, Brown, USA
 
  * February 11-15, 2013 [[http://icerm.brown.edu/sp-s13/|Sage Days: Multiple Dirichlet Series, Combinatorics, and Representation Theory]], ICERM, Brown, USA
-   Organized by Franco Saliola, Anne Schilling, Nicolas M. Thiery.
+   Organized by Franco Saliola, Anne Schilling, Nicolas M. Thiery
 
  * January 21-25, 2013 [[http://www.aimath.org/ARCC/workshops/onlinedata.html|Online Databases:from L-functions to combinatorics]], Edinburgh
    Organized by Paul-Olivier DeHaye, Nicolas M. Thiery.
