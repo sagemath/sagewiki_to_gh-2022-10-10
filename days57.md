@@ -8,8 +8,9 @@ The fourth "Sage-Combinat Days in Cernay" will be held at Cernay-la-Ville
 (40km South-West of Paris, near Orsay), April 6-12, 2014.
 
 We booked the guest house
-[[http://www.cernayvacances.com/CEngels.html|The Tower]], a very nice and
-cosy "gîte", just short of an hour from Paris by public transport.
+[[http://www.cernayvacances.com/en/stay/de-toren/|The Tower]] (and
+[[http://www.cernayvacances.com/en/stay/le-grenier-royal/|Le grenier royal]]),
+a very nice and cosy "gîte", just short of an hour from Paris by public transport.
 
 This follows a tradition of *-combinat workshops: 
 [[combinat/SageCombinatDaysCernay2012|2012]],
@@ -52,8 +53,8 @@ with everything taking place in the same location.
 
 We will set up a wired internet connection and an open wifi.
 
-The Tower can accommodate 8-10 people and an adjacent guest house offers more
-room if needed.
+The Tower can accommodate 8-10 people and the adjacent guest house
+we rented offers room for 6 more people.
 
 Meals are cooked in turns by the participants for everyone, so bring along your
 favorite recipes and dishes! All diets, including vegetarian, will be taken into
@@ -80,12 +81,13 @@ from the Mathematics and the Computer Science Departments at Université Paris-S
 
 Accommodation and meals for all participants are covered by our funding sources.
 
-We also aim to fund travel for some participants, especially PhD students and postdocs.
+We can also cover travel expenses for most participants, especially PhD students and postdocs.
 
 == Registration ==
 
-To register, please fill in the following form and email it to
-[[http://www.labri.fr/perso/boussica/index_en.html|Adrien Boussicault]]::
+To register, send an email with subject "Cernay 2014" to `aaa@bbb.ccc.ddd`,
+where `(aaa,bbb,ccc,ddd) = (sage-cernay,math,u-psud,fr)`, filling in all
+the fields you can from the following form.
 
 {{{
     Fourth Sage-Combinat Days in Cernay
@@ -102,9 +104,6 @@ To register, please fill in the following form and email it to
 }}}
 
 Please add a few words about your project(s) for the workshop.
-
-If you request travel funding, please also add a link to a short CV
-or include an outline of your CV.
 
 
 == From Paris to Cernay ==
