@@ -18,7 +18,7 @@ In practice, Sage-combinat is a collection of extensions on top of [[http://www.
 
  * [[https://combinat.sagemath.org:8080|Experimental Sage notebook with the Sage-Combinat patches applied]]
 
- * A new [[http://combinat.sagemath.org/misc/raw-file/tip/articles/2013-01-17-Poster/main.pdf|poster]] for Sage-Combinat!
+ * A new [[http://combinat.sagemath.org/misc/raw-file/tip/articles/2013-01-17-Poster/main2014.pdf|poster]] for Sage-Combinat!
 
 == Past news ==
 
