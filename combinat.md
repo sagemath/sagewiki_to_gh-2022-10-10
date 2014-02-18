@@ -20,6 +20,8 @@ In practice, Sage-combinat is a collection of extensions on top of [[http://www.
 
  * A new [[http://combinat.sagemath.org/misc/raw-file/tip/articles/2013-01-17-Poster/main2014.pdf|poster]] for Sage-Combinat!
 
+ * [[http://wiki.sagemath.org/TentativeConventions|Help for new Git workflow]]
+
 == Past news ==
 
  * November 4-8, 2013 [[http://wiki.sagemath.org/days54|Sage(-Combinat) Days 54]], University of California at Davis, USA
