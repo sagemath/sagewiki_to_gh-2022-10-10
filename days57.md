@@ -26,7 +26,7 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
 
  * Tomer Bauer (Bar-Ilan U, Ramat Gan, Israel), 6--12 April
  * Adrien Boussicault (LaBRI, Bordeaux, France)
- * Volker Braun (Oxford U, UK)
+ * Volker Braun (Oxford U, UK)  6--12 April
  * Nicolas Borie (U Paris-Est Marne-la-Vallée, France)
  * Luca De Feo (U Versailles Saint-Quentin, France)
  * Vincent Delecroix (Labri, Bordeaux, France) 5--12 April
