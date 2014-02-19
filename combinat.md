@@ -1,4 +1,4 @@
-= Sage-Combinat =
+= Sage-Combinat: enhancing Sage as a toolbox for computer exploration in algebraic combinatorics =
 
 Sage-Combinat is a software project whose mission is: '''to improve the open source mathematical system [[http://www.sagemath.org/|Sage]] as an extensible toolbox for computer exploration in (algebraic) combinatorics, and foster code sharing between researchers in this area'''.
 
