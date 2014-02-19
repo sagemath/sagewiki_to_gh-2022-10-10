@@ -2,6 +2,12 @@
 
 A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
+== Introduction to git ==
+
+ * by Volker Braun
+ * interested
+   * Samuel
+
 == Coxeter groups ==
 
  * interested
