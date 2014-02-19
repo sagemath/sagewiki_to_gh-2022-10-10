@@ -22,7 +22,7 @@ See the links for activity reports and some photos.
 This workshop is also "Sage Days 57".
 More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
 
-== Tentative list of participants ==
+== Participants ==
 
  * Tomer Bauer (Bar-Ilan U, Ramat Gan, Israel), 6--12 April
  * Adrien Boussicault (LaBRI, Bordeaux, France)
@@ -41,7 +41,11 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
  * Vivien Ripoll (U Vienna, Austria)
  * Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
 
-== Topics ==
+== Programme and topics ==
+
+On Monday there will be an introduction to git for those interested.
+
+Other than that, the programme consists in everyone's coding projects.
 
 If you have wishes or coding projects, please edit the [[days57-topics|list of topics]].
 
