@@ -7,6 +7,7 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
  * by Volker Braun
  * interested
    * Samuel
+   * Eric
 
 == Coxeter groups ==
 
