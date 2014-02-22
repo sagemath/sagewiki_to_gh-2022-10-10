@@ -24,7 +24,7 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
    * Thierry
 
  * todo
-   * implement the category of languages (from previous work of me and Stepan, [[http://trac.sagemath.org/ticket/12224|#12224]], [[http://trac.sagemath.org/ticket/12225|#12225]], [[http://trac.sagemath.org/ticket/12227|#12227]])
+   * implement the category of languages (from previous work of Vincent and Stepan, [[http://trac.sagemath.org/ticket/12224|#12224]], [[http://trac.sagemath.org/ticket/12225|#12225]], [[http://trac.sagemath.org/ticket/12227|#12227]])
    * finish the inclusion of subshifts of finite type and work on sofic shifts ([[http://trac.sagemath.org/ticket/12996|#12996]])
 
 == Translation surfaces ==
@@ -36,7 +36,7 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
  * todo
    * better datastructure for permutations
-   * include Charles's code into Sage
+   * include Charles Fougeron's code into Sage (computation of Lyapunov exponents, decomposition of the Hodge bundle)
    * datastructure for translation surfaces
 
 == Categories ==
@@ -50,6 +50,7 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
   * interested
     * Volker
+    * Vincent
 
 == Tensors on free modules ==
 
