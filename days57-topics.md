@@ -8,6 +8,8 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
  * interested
    * Samuel
    * Eric
+   * Thierry
+
 
 == Coxeter groups ==
 
@@ -59,3 +61,10 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
   * todo
     * implement tensor products of generic free modules and the associated tensor algebra (by ''generic'' it is meant ''without any privileged basis'')
+
+== Refactor continued fractions ==
+
+  * interested
+    * Thierry
+
+  * todo: see http://trac.sagemath.org/ticket/14567
