@@ -66,5 +66,18 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
   * interested
     * Thierry
+    * Vincent
 
   * todo: see http://trac.sagemath.org/ticket/14567
+
+== Dynamical systems simulation (statistics of orbits) ==
+
+  * interested
+    * Thierry
+    * Sébastien
+    * Vincent
+
+== on-line db for Sage worksheets and other ressources ==
+
+  * Thierry
+  * Vincent
