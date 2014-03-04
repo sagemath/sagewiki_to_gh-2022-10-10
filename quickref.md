@@ -18,7 +18,7 @@
 
 == French ==
 
- * '''Math. de base''' (Traduction francaise de '''Basic Math''') - [[attachment:sage-quickref_fr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=sage-quickref_fr.pdf|download]] (and the source [[attachment:sage-quickref_fr.tex]])
+ * '''Maths de base''' (Traduction francaise de '''Basic Math''') - [[attachment:sage-quickref_fr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=sage-quickref_fr.pdf|download]] (et son source [[attachment:sage-quickref_fr.tex]])
 
 == Spanish ==
 
