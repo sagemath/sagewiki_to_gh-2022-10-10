@@ -36,6 +36,9 @@
  * '''Sage: guida rapida''' (traduzione italiana di Sage Quick Reference, January 2011) - [[attachment:quickref_it.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref_it.pdf|download]] (e il sorgente [[attachment:quickref_it.tex]])
 
 
+== Russian ==
+ * '''Краткое Руководство по Sage'''  Anna Clawson (2013) - [[attachment:quickref-ru.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-ru.pdf|download]] (kaynak: [[attachment:quickref-ru.zip]])
+
 == Türkçe ==
 
 
