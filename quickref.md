@@ -22,7 +22,7 @@
 
 == Spanish ==
 
- * '''Una visita rápida a Sage''' by Juan Luis Varona (January 2010) - [[attachment:VisitaSAGE.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=VisitaSAGE.pdf|download]] (i el código fuente [[attachment:VisitaSAGE.tex]])
+ * '''Una visita rápida a Sage''' by Juan Luis Varona (January 2010) - [[attachment:VisitaSAGE.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=VisitaSAGE.pdf|download]] (y el código fuente [[attachment:VisitaSAGE.tex]])
 
 == Catalan ==
 
