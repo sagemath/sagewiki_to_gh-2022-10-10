@@ -37,7 +37,7 @@
 
 
 == Russian ==
- * '''Краткое Руководство по Sage'''  Anna Clawson (2013) - [[attachment:quickref-ru.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-ru.pdf|download]] (и исходный код: [[attachment:quickref-ru.zip]])
+ * '''Краткое Руководство по Sage'''  Anna Clawson (2013) - [[attachment:quickref-ru.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-ru.pdf|download]] (и исходный код [[attachment:quickref-ru.zip]])
 
 == Türkçe ==
 
