@@ -40,6 +40,7 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
  * Thierry Monteil (Lirmm, Montpellier, France)
  * Vivien Ripoll (U Vienna, Austria)
  * Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
+ * Jean-Pierre Flori (ANSSI, Paris, France)
 
 == Programme and topics ==
 
