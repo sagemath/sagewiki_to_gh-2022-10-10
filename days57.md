@@ -24,24 +24,24 @@ More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
 
 == Participants ==
 
- 1 Tomer Bauer (Bar-Ilan U, Ramat Gan, Israel), 6--12 April
- 2 Adrien Boussicault (LaBRI, Bordeaux, France)
- 3 Volker Braun (Oxford U, UK)  6--12 April
- 4 Nicolas Borie (U Paris-Est Marne-la-Vallée, France)
- 5 Luca De Feo (U Versailles Saint-Quentin, France)
- 6 Vincent Delecroix (Labri, Bordeaux, France) 5--12 April
- 7 Matthieu Dien (UPMC, U Paris 6, Paris, France) 6--12 April
- 8 Charles Fougeron (IMJ, U Paris 7, Paris, France)
- 9 Eric Gourgoulhon (Luth, Observatoire de Paris, France)
- 10 Florent Hivert (LRI, U Paris-Sud Orsay, France)
- 11 Jean-Philippe Labbé (Freie U Berlin, Germany)
- 12 Sébastien Labbé (LIAFA, Paris, France)
- 13 Patxi Laborde Zubieta (LaBRI, Bordeaux, France) 5 - 12 April
- 14 Samuel Lelièvre (LMO, U Paris-Sud, Orsay, France), 5--12 April
- 15 Thierry Monteil (Lirmm, Montpellier, France)
- 16 Vivien Ripoll (U Vienna, Austria)
- 17 Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
- 18 Jean-Pierre Flori (ANSSI, Paris, France)
+ 1. Tomer Bauer (Bar-Ilan U, Ramat Gan, Israel), 6--12 April
+ 2. Adrien Boussicault (LaBRI, Bordeaux, France)
+ 3. Volker Braun (Oxford U, UK)  6--12 April
+ 4. Nicolas Borie (U Paris-Est Marne-la-Vallée, France)
+ 5. Luca De Feo (U Versailles Saint-Quentin, France)
+ 6. Vincent Delecroix (Labri, Bordeaux, France) 5--12 April
+ 7. Matthieu Dien (UPMC, U Paris 6, Paris, France) 6--12 April
+ 8. Charles Fougeron (IMJ, U Paris 7, Paris, France)
+ 9. Eric Gourgoulhon (Luth, Observatoire de Paris, France)
+ 10. Florent Hivert (LRI, U Paris-Sud Orsay, France)
+ 11. Jean-Philippe Labbé (Freie U Berlin, Germany)
+ 12. Sébastien Labbé (LIAFA, Paris, France)
+ 13. Patxi Laborde Zubieta (LaBRI, Bordeaux, France) 5 - 12 April
+ 14. Samuel Lelièvre (LMO, U Paris-Sud, Orsay, France), 5--12 April
+ 15. Thierry Monteil (Lirmm, Montpellier, France)
+ 16. Vivien Ripoll (U Vienna, Austria)
+ 17. Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
+ 18. Jean-Pierre Flori (ANSSI, Paris, France)
 
 == Programme and topics ==
 
