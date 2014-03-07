@@ -21,6 +21,8 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
 == Languages ==
 
+By language we simply mean a set of finite words (rational language, D0L-system, ...). The scope ranges from combinatorics and algebra to discrete dynamical systems. Sage capabilities is currently restricted to combinatorics on single word and do not focus on structure of certain subset. We aim to implement an abstract and easy to reuse infrastructure for languages.
+
  * interested
    * Vincent
    * Thierry
@@ -30,6 +32,8 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
    * finish the inclusion of subshifts of finite type and work on sofic shifts ([[http://trac.sagemath.org/ticket/12996|#12996]])
 
 == Translation surfaces ==
+
+A translation surface is a geometric and dynamical objects that can be defined from gluing polygons by translation. It is interesting from geometric and dynamical point of vue. Many computations are possible !
 
  * interested
    * Vincent
