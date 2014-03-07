@@ -81,3 +81,7 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
   * Thierry
   * Vincent
+
+== Lazy Multivariate Power Series ==
+
+  * Matthieu Dien
