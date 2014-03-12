@@ -10,6 +10,9 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
    * Eric
    * Thierry
 
+== Review all tickets waiting on trac ==
+
+There are around [[http://trac.sagemath.org/report/75|250 tickets waiting on trac for a reviewer]] ... solution: a ticket a day! (18 dev, 5 days we should get 90 tickets)
 
 == Coxeter groups ==
 
