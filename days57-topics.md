@@ -92,3 +92,16 @@ A translation surface is a geometric and dynamical objects that can be defined f
 == Lazy Multivariate Power Series ==
 
   * Matthieu Dien
+  * Vincent
+
+== Real numbers ==
+
+There are many ways to represent real numbers:
+
+ * rational numbers
+ * algebraic numbers
+ * expansions in a given basis
+ * continued fractions (and generalizations)
+ * symbolic expressions (involving transcendental functions like cos, exp, pi, ...)
+ * ...
+But Sage currently has no bridge between them...
