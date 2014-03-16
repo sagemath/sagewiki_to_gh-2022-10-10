@@ -1,6 +1,6 @@
 == Symbolics in Sage ==
 
-These pages are aimed at developers of symbolics functionality in Sage. If you're interested in helping out with any of the items below please contact the [[http://groups.google.com/group/sage-devel|sage-devel googlegroup]] or the people already working on your item of interest.
+These pages are aimed at developers of symbolics functionality in Sage. If you're interested in helping out with any of the items below please contact the [[http://groups.google.com/group/sage-devel|sage-devel googlegroup]] or the people already working on your item of interest. See also the [[http://trac.sagemath.org/wiki/symbolics|trac wiki page on symbolics]].
 
 
 === TODO ===
