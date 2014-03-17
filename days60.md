@@ -4,7 +4,7 @@
 
 == Venue ==
 
-The workshop takes place at [[http://www.imsc.res.in|The Institute of Mathematical Sciences]] in chennai, India.
+The workshop takes place at [[http://www.imsc.res.in|The Institute of Mathematical Sciences]] in Chennai, India.
 
 Most of the participants will be lodged in the on-campus guest house of the Institute.
 Funding is available for the travel (within India) and local expenses of participants.
