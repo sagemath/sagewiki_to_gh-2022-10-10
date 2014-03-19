@@ -37,14 +37,16 @@ This a part of our effort to increase an awareness of Sage and its utility to ma
 
 == Applications ==
 
+You may apply for the entire workshop or any part of it. However, those attending the entire workshop will be given preference for travel support and accommodation.
+
 Please apply to sagedays60@gmail.com with the following information:
 
  * Name:
  * Position:
  * Institution:
- * Date of Arrival:
- * Date of Departure:
- * Travel support needed from:
+ * Intended date of Arrival:
+ * Intended date of Departure:
+ * Whether travel support needed: Yes/No
 
 Students should indicate their areas of interest and request their advisor/teacher to send a letter supporting their application to the above e-mail address.
 
