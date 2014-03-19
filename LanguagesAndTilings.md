@@ -171,3 +171,7 @@ for other tickets:
  * n-dim substitutive subshift
  * cellular automata
  * ... ''add your whishes''
+
+= Days =
+
+ * [[sagedays-Marseille-2015]]
