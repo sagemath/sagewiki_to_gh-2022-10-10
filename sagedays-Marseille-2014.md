@@ -4,7 +4,7 @@ We aim to organize between September and December 2014 a week-long sage days rel
 
 == potential thematics ==
 
- * word combinatorics (algorithms on words, automata, ...)
+ * word combinatorics (algorithms on words, languages, automata, ...)
  * group theory (free groups, surface groups, braid groups)
  * symbolic dynamics (substitutive, sofic, ...)
 
@@ -21,4 +21,4 @@ We aim to organize between September and December 2014 a week-long sage days rel
 
 == Invitation ==
 
- * Mickael Rao
+ * Michaël Rao
