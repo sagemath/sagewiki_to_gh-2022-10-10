@@ -36,6 +36,6 @@ We would like to have both lectures/tutorials for local Sage newcommers and deve
 
 Probably [[http://frumam.cnrs-mrs.fr/|Frumam]]
 
-=== Dates === 
+=== Dates ===
 
 To be decided.
