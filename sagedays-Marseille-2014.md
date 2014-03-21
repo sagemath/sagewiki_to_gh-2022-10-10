@@ -25,13 +25,17 @@ We aim to organize between September and December 2014 a week-long sage days rel
 
 
 
+
 == Organisation ==
 
 === Schedule ===
+
 We would like to have both lectures/tutorials for local Sage newcommers and development time.
 
 === Location ===
+
 Probably [[http://frumam.cnrs-mrs.fr/|Frumam]]
 
 === Dates === 
+
 To be decided.
