@@ -1,6 +1,6 @@
 = Groupes d'utilisateurs Bordeaux =
 
-Nous commençons un groupe de travail / tutoriel sur Sage à partir de mi-Avril.
+Nous commençons une série de tutoriels à l'université de Bordeaux à partir d'Avril 2014.
 
 == Prochaines séances ==
 
@@ -13,3 +13,4 @@ Nous commençons un groupe de travail / tutoriel sur Sage à partir de mi-Avril.
  * Séries formelles et objets combinatoires
  * Programmation en C/Python via Cython
  * Cryptographie et Pari/GP
+ * ...
