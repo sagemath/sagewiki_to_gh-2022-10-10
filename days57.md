@@ -62,13 +62,17 @@ We will set up a wired internet connection and an open wifi.
 The Tower can accommodate 8-10 people and the adjacent guest house
 we rented offers room for 6 more people.
 
+The surrounding area offers nice hiking possibilities, bring hiking/climbing shoes.
+
+Your music instruments and scores, card or board games, etc, are also welcome for the breaks.
+
+== Meal organisation ==
+
 Meals are cooked in turns by the participants for everyone, so bring along your
 favorite recipes and dishes! All diets, including vegetarian, will be taken into
 account.
 
-The surrounding area offers nice hiking possibilities, bring hiking/climbing shoes.
-
-Your music instruments and scores, card or board games, etc, are also welcome for the breaks.
+Please fill in the meal and date you would like to cook [[days57-meal_organisation|meal organisation]].
 
 == Dates ==
 
