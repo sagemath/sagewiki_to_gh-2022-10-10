@@ -74,6 +74,7 @@ A translation surface is a geometric and dynamical objects that can be defined f
   * interested
     * Thierry
     * Vincent
+    * Luca
 
   * todo: see http://trac.sagemath.org/ticket/14567
 
@@ -88,6 +89,7 @@ A translation surface is a geometric and dynamical objects that can be defined f
 
   * Thierry
   * Vincent
+  * Luca
 
 == Lazy Multivariate Power Series ==
 
@@ -105,3 +107,10 @@ There are many ways to represent real numbers:
  * symbolic expressions (involving transcendental functions like cos, exp, pi, ...)
  * ...
 But Sage currently has no bridge between them...
+
+== Refactor Elliptic curves and morphisms ==
+
+See http://trac.sagemath.org/ticket/12880
+
+  * Interested:
+    * Luca
