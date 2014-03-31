@@ -1,10 +1,16 @@
 = Meal organisation =
 
-Please put a list of meal that you love to cook. We will see later which day who do what...
+Please put a list of meal that you love to cook, as well as the quantities of the ingredients you will need (for 18 person), so that we can buy the food before the days. We will see later which day who cooks what.
+
 
  * Vincent: lasagnes (can be for 18, vegan or not, need one or two assistant(s)), chocolate cake
  * Luca: everything pasta. Or anything italian, or even paella. You name it.
  * cooker and recepie... please edit !
+
+
+For information, there is a local market on tuesday and friday morning.
+
+----
 
 == monday 7 ==
 
