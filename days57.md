@@ -131,10 +131,11 @@ Please fill in the meal and date you would like to cook [[days57-meal_organisati
 
 === Material to bring ===
 
- * multiprises, rallonges
- * cagle reseau
- * switches, routeurs
- * 
+ * multiprises x10, rallonges (demander LRI)
+ * cables reseau: 2 longs, plusieurs courts (demander LRI)
+ * switches, wireless router (demander LRI)
+ * pêle pomme (NT)
+ * tableau blanc (demander à Pascal au labo de math)
 
 
 == Sponsors, funding ==
