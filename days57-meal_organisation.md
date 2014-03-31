@@ -2,7 +2,7 @@
 
 Please put a list of meal that you love to cook, as well as the quantities of the ingredients you will need (for 18 person), so that we can buy the food before the days. We will see later which day who cooks what.
 
- * Vincent: lasagnes (can be for 18, vegan or not, need one or two assistant(s)), chocolate cake
+ * Vincent: lasagnes (can be for 18, vegan or not, needs Luca as chef), chocolate cake
  * Luca: everything pasta. Or anything italian, or even paella. You name it.
  * Samuel: crèpes, needs Nicolas as assistant :-)
  * Nicolas: vegetable soup, onion soup, tartiflette, mussels, apple crumble, ...
