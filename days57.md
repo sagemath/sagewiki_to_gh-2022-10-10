@@ -138,10 +138,9 @@ Please fill in the meal and date you would like to cook [[days57-meal_organisati
  * tableau blanc (demander à Pascal au labo de math)
 
 
-== Sponsors, funding ==
+=== Funding ===
 
-The workshop is funded by ANR projects DynA3S, GeoDyM, PSyCo, with material help
-from the Mathematics and the Computer Science Departments at Université Paris-Sud, Orsay.
+The workshop is funded by ANR projects DynA3S, GeoDyM, PSyCo, with material help from the Mathematics and the Computer Science Departments at Université Paris-Sud, Orsay.
 
 Accommodation and meals for all participants are covered by our funding sources.
 
