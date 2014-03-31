@@ -66,15 +66,7 @@ The surrounding area offers nice hiking possibilities, bring hiking/climbing sho
 
 Your music instruments and scores, card or board games, etc, are also welcome for the breaks.
 
-== Meal organisation ==
-
-Meals are cooked in turns by the participants for everyone, so bring along your
-favorite recipes and dishes! All diets, including vegetarian, will be taken into
-account.
-
-Please fill in the meal and date you would like to cook [[days57-meal_organisation|meal organisation]].
-
-== Dates ==
+=== Dates ===
 
 The core of the activity will be Monday, April 7, 2014 to Friday, April 11, 2014.
 
@@ -84,16 +76,7 @@ Participants are welcome to stay until Saturday, April 12.
 
 If you wish to stay longer before or after these dates, let us know.
 
-== Sponsors, funding ==
-
-The workshop is funded by ANR projects DynA3S, GeoDyM, PSyCo, with material help
-from the Mathematics and the Computer Science Departments at Université Paris-Sud, Orsay.
-
-Accommodation and meals for all participants are covered by our funding sources.
-
-We can also cover travel expenses for most participants, especially PhD students and postdocs.
-
-== Registration ==
+=== Registration ===
 
 To register, send an email with subject "Cernay 2014" to `aaa@bbb.ccc.ddd`,
 where `(aaa,bbb,ccc,ddd) = (sage-cernay,math,u-psud,fr)`, filling in all
@@ -116,7 +99,7 @@ the fields you can from the following form.
 Please add a few words about your project(s) for the workshop.
 
 
-== From Paris to Cernay ==
+=== From Paris to Cernay ===
 
  * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
  * From Denfert-Rochereau: 40 minutes RER B to Saint-Rémy-les-Chevreuse + 15 minutes bus to Cernay-la-Ville
@@ -132,3 +115,33 @@ Please add a few words about your project(s) for the workshop.
    Or [[http://ratp.fr|ratp]] but only for travel up to Saint-Rémy-les-Chevreuse.
 
  * We will run some car shuttles from Saint-Rémy-les-Chevreuse (to be arranged by email nearer the time).
+
+
+
+== Hardware organization ==
+
+=== Meal organisation ===
+
+Meals are cooked in turns by the participants for everyone, so bring along your
+favorite recipes and dishes! All diets, including vegetarian, will be taken into
+account.
+
+Please fill in the meal and date you would like to cook [[days57-meal_organisation|meal organisation]].
+
+
+=== Material to bring ===
+
+ * multiprises, rallonges
+ * cagle reseau
+ * switches, routeurs
+ * 
+
+
+== Sponsors, funding ==
+
+The workshop is funded by ANR projects DynA3S, GeoDyM, PSyCo, with material help
+from the Mathematics and the Computer Science Departments at Université Paris-Sud, Orsay.
+
+Accommodation and meals for all participants are covered by our funding sources.
+
+We can also cover travel expenses for most participants, especially PhD students and postdocs.
