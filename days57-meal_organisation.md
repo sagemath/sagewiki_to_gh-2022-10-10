@@ -7,6 +7,8 @@ Please put a list of meal that you love to cook, as well as the quantities of th
  * Samuel: crèpes, needs Nicolas as assistant :-)
  * Nicolas: vegetable soup, onion soup, tartiflette, mussels, apple crumble, ...
  * Thierry: hoummous (starter) : pois chiches, huile olive, citrons, ail 
+ * Thierry: chocolate mouss (desert)
+ * Thierry: tiramisu (desert)
  * cooker and recepie... please edit !
 
 == monday 7 ==
