@@ -3,6 +3,7 @@
 Please put a list of meal that you love to cook. We will see later which day who do what...
 
  * Vincent: lasagnes (can be for 18, vegan or not, need one or two assistant(s)), chocolate cake
+ * Luca: everything pasta. Or anything italian, or even paella. You name it.
  * cooker and recepie... please edit !
 
 == monday 7 ==
