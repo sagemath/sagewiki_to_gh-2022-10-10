@@ -26,7 +26,7 @@ Please put a list of meal that you love to cook. We will see later which day who
   * lunch
     * tour: MEAL / COOKER
     * grenier royal: MEAL / COOKER
-  * dinner: pizzas !!
+  * [[http://www.pizzapartif.fr/tournee.jpg|dinner: pizzas !!]]
 
 == thursday 10 ==
   * lunch
