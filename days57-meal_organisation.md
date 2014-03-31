@@ -2,7 +2,7 @@
 
 Please put a list of meal that you love to cook. We will see later which day who do what...
 
- * Vincent: choux farcis (can be for 18, need one or two assistant(s)), chocolate cake x 2
+ * Vincent: choux farcis (can be for 18, need one or two assistant(s)), chocolate cake
 
 == monday 7 ==
 
