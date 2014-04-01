@@ -8,7 +8,7 @@ Starters
 
  * hoummous (Thierry): pois chiches, huile olive, citrons, ail 
  * soupes légumes (Nicolas, Vincent): légumes
- * salades et crudités (salades, carottes rapées, betterave, ...)
+ * salades et crudités: salades, carottes rapées, betterave, ...
  * ...
 
 Main dishes
