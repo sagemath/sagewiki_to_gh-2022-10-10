@@ -9,6 +9,7 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
    * Samuel
    * Eric
    * Thierry
+   * Sébastien
 
 == Review all tickets waiting on trac ==
 
@@ -29,6 +30,7 @@ By language we simply mean a set of finite words (rational language, D0L-system,
  * interested
    * Vincent
    * Thierry
+   * Sébastien
 
  * todo
    * implement the category of languages (from previous work of Vincent and Stepan, [[http://trac.sagemath.org/ticket/12224|#12224]], [[http://trac.sagemath.org/ticket/12225|#12225]], [[http://trac.sagemath.org/ticket/12227|#12227]])
