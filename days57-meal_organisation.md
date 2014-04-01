@@ -26,7 +26,7 @@ Deserts and snacks
  * mousse au chocolat (Thierry)
  * tiramisu (Thierry)
  * cookie au chocolat (Vincent)
- * cake à la banane (Vincent)
+ * cake à la banane (Vincent): (for 1 cake) 3 bananas, 100g butter, 200g sugar, 200g floor, 1 vanilla sugar, lemon, 3 eggs, baking powder
  * crumble pommes (Nicolas)
  * ...
 
