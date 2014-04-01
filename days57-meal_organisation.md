@@ -17,7 +17,8 @@ Main dishes
  * more pasta (Luca):
  * crêpes (Samuel, Nicolas): farine (ble+sarrazin), lait, garniture
  * soupe à l'oignon (Nicolas): des oignons, du pain (croutons), du fromage, ...
- * barbecue (Thierry) (if there is one)
+ * barbecue (Thierry) (if there is one)coriandre
+ * Pâté chinois (Frères Labbé): 2kg de viande hachée, 25 patates moyennes, 6 oignons rouges moyens, 6 boîtes de maïs en crème, 1L lait, 1 boîte de pâte de tomates, coriandre, ail, poivre, sel, vinaigre blanc (250ml).
  * ...
 
 Deserts and snacks
@@ -33,7 +34,7 @@ Deserts and snacks
 
   * lunch: meal / cookers
 
-  * dinner: meal / cookers
+  * dinner: Pâté chinois pour 18 personnes / Frères Labbé
 
 == tuesday 8 ==
 
