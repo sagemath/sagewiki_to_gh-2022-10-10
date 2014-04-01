@@ -1,10 +1,11 @@
 = Groupes d'utilisateurs Bordeaux =
 
-Nous commençons une série de tutoriels à l'université de Bordeaux à partir d'Avril 2014.
+Nous commençons une série de tutoriels à l'université de Bordeaux à partir d'Avril 2014. Séances à décider en fonctions des participants.
 
-== Prochaines séances ==
+== Calendrier des prochaines séances ==
 
- * Introduction à Sage (date à fixer, semaine du 14 avril)
+ * Introduction à Sage (date à fixer, semaine du 14 avril, le creneau du GT combalgo du LaBRI est libre pour le moment)
+ * semaine du 21 avril: vacances
 
 == Séances à prévoir ==
 
