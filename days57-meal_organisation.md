@@ -18,7 +18,7 @@ Main dishes
  * crêpes (Samuel, Nicolas): farine (ble+sarrazin), lait, garniture
  * soupe à l'oignon (Nicolas): des oignons, du pain (croutons), du fromage, ...
  * barbecue (Thierry) (if there is one)coriandre
- * Pâté chinois (Frères Labbé): 2kg de viande hachée (pas du steak haché), 25 patates moyennes, 6 oignons rouges moyens, 6 boîtes de maïs en crème, 1l lait, 1 boîte de pâte de tomates (200ml), coriandre, ail, poivre, sel, vinaigre blanc (250ml).
+ * Pâté chinois (Frères Labbé): 2kg de viande hachée (pas du steak haché), 25 patates moyennes, 6 oignons rouges moyens, 6 conserves de maïs en crème (~300g la conserve), 1l lait, 1 boîte de pâte de tomates (200ml), coriandre, ail, poivre, sel, vinaigre blanc (250ml).
  * ...
 
 Deserts and snacks
