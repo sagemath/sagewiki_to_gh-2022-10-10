@@ -2,7 +2,7 @@
 
 Please put a list of meal that you love to cook, as well as the quantities of the ingredients you will need (for 18 person), so that we can buy the food before the days. We will see later which day who cooks what.
 
-Recipies and cookers... please edit (in french, english or spanish) !
+Recipies and cookers... please edit (in french, english, spanish or italian) !
 
 Starters
 
