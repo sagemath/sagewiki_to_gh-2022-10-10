@@ -31,48 +31,33 @@ Deserts and snacks
 
 == monday 7 ==
 
-  * lunch
-    * tour: MEAL / COOK
-    * grenier royal: MEAL / COOK
-  * dinner
-    * tour: MEAL / COOK
-    * grenier royal: MEAL / COOK
+  * lunch: meal / cookers
+
+  * dinner: meal / cookers
 
 == tuesday 8 ==
-  * lunch
-    * tour: MEAL / COOK
-    * grenier royal: MEAL / COOK
-  * dinner
-    * tour: MEAL / COOK
-    * grenier royal: MEAL / COOK
+
+  * lunch: meal / cookers
+
+  * dinner: meal / cookers
 
 == wednesday 9 ==
-  * lunch
-    * tour: MEAL / COOK
-    * grenier royal: MEAL / COOK
 
-  * [[http://www.pizzapartif.fr/tournee.jpg|dinner: pizzas !!]]
+  * lunch: meal / cookers
+
+  * dinner: [[http://www.pizzapartif.fr/tournee.jpg|dinner: pizzas !!]]
 
 == thursday 10 ==
-  * lunch
-    * tour: MEAL / COOK
-    * grenier royal: MEAL / COOK
-  * dinner
-    * tour: MEAL / COOK
-    * grenier royal: MEAL / COOK
+
+  * lunch: meal / cookers
+  * dinner: meal / cookers
 
 == friday 11 ==
-  * lunch
-    * tour: MEAL / COOK
-    * grenier royal: MEAL / COOK
-  * dinner
-    * tour: MEAL / COOK
-    * grenier royal: MEAL / COOK
+
+  * lunch: meal / cookers
+  * dinner: meal / cookers
 
 == saturday 12 ==
-  * lunch
-    * tour: MEAL / COOK
-    * grenier royal: MEAL / COOK
-  * dinner
-    * tour: MEAL / COOK
-    * grenier royal: MEAL / COOK
+
+  * lunch: meal / cookers
+  * dinner: meal / cookers
