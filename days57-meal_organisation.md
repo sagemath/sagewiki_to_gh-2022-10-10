@@ -17,6 +17,7 @@ Main dishes
  * more pasta (Luca):
  * crêpes (Samuel, Nicolas): farine (ble+sarrazin), lait, garniture
  * soupe à l'oignon (Nicolas): des oignons, du pain (croutons), du fromage, ...
+ * barbecue (Thierry) (if there is one)
  * ...
 
 Deserts and snacks
