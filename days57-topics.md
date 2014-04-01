@@ -10,6 +10,7 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
    * Eric
    * Thierry
    * Sébastien
+   * Jean-Philippe
 
 == Review all tickets waiting on trac ==
 
@@ -62,6 +63,7 @@ A translation surface is a geometric and dynamical objects that can be defined f
   * interested
     * Volker
     * Vincent
+    * Jean-Philippe
 
 == Tensors on free modules ==
 
@@ -86,6 +88,7 @@ A translation surface is a geometric and dynamical objects that can be defined f
     * Thierry
     * Sébastien
     * Vincent
+    * Jean-Philippe
 
 == on-line db for Sage worksheets and other ressources ==
 
