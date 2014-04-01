@@ -2,14 +2,31 @@
 
 Please put a list of meal that you love to cook, as well as the quantities of the ingredients you will need (for 18 person), so that we can buy the food before the days. We will see later which day who cooks what.
 
- * Vincent: lasagnes (can be for 18, vegan or not, needs Luca as chef), chocolate cake
- * Luca: everything pasta. Or anything italian, or even paella. You name it.
- * Samuel: crèpes, needs Nicolas as assistant :-)
- * Nicolas: vegetable soup, onion soup, tartiflette, mussels, apple crumble, ...
- * Thierry: hoummous (starter) : pois chiches, huile olive, citrons, ail 
- * Thierry: chocolate mouss (desert)
- * Thierry: tiramisu (desert)
- * cooker and recepie... please edit !
+Recipies and cookers... please edit (in french, english or spanish) !
+
+Starters
+
+ * hoummous (Thierry): pois chiches, huile olive, citrons, ail 
+ * soupes légumes (Nicolas, Vincent): légumes
+ * salades et crudités (salades, carottes rapées, betterave, ...)
+ * ...
+
+Main dishes
+
+ * lasagnes (Luca, Vincent): pates a Lasagne, lait, farine, vegetarien (epinard, fromages, ...), carnivore (viande boeuf/proc)
+ * more pasta (Luca):
+ * crêpes (Samuel, Nicolas): farine (ble+sarrazin), lait, garniture
+ * soupe à l'oignon (Nicolas): des oignons, du pain (croutons), du fromage, ...
+ * ...
+
+Deserts and snacks
+
+ * mousse au chocolat (Thierry)
+ * tiramisu (Thierry)
+ * cookie au chocolat (Vincent)
+ * cake à la banane (Vincent)
+ * crumble pommes (Nicolas)
+ * ...
 
 == monday 7 ==
 
