@@ -114,9 +114,7 @@ Please add a few words about your project(s) for the workshop.
  * Check travel itineraries on [[http://www.vianavigo.com/|ViaNavigo]] (includes trains, RER, buses).
    Or [[http://ratp.fr|ratp]] but only for travel up to Saint-Rémy-les-Chevreuse.
 
- * We will run some car shuttles from Saint-Rémy-les-Chevreuse (to be arranged by email nearer the time).
-
-
+ * We will run some car shuttles from Saint-Rémy-les-Chevreuse : [[days57-car_shuttles|car shuttles organisation]]
 
 == Hardware organization ==
 
