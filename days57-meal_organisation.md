@@ -9,7 +9,7 @@ please edit (in French, English, Spanish or Italian)!
 
 === Starters ===
 
- * hoummous (Thierry): pois chiches, huile d'olive, citrons, ail 
+ * hoummous (Thierry): pois chiches (2 bocaux ou grosses conserves), huile d'olive, citrons (2), ail (pas mal)
  * soupes légumes (Nicolas, Vincent): légumes
  * salades et crudités: salade verte, carottes rapées, betteraves, ...
  * ...
@@ -27,7 +27,7 @@ please edit (in French, English, Spanish or Italian)!
 === Deserts and snacks ===
 
  * mousse au chocolat (Thierry)
- * tiramisu (Thierry)
+ * tiramisu (Thierry) : 5 * (250g de mascarpone, 2 oeufs, 24 boudoirs secs de base, 50g de sucre bicolore, sucre vanille) + cafe + cacao en poudre
  * cookie au chocolat (Vincent)
  * cake à la banane (Vincent): (for 1 cake) 3 bananas, 100g butter, 200g sugar, 200g flour, 1 vanilla sugar, lemon, 3 eggs, baking powder
  * crumble aux pommes (Nicolas)
