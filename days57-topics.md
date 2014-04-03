@@ -80,7 +80,7 @@ A translation surface is a geometric and dynamical objects that can be defined f
     * Vincent
     * Luca
 
-  * todo: see http://trac.sagemath.org/ticket/14567
+  * todo: see [[http://trac.sagemath.org/ticket/14567|#14567]
 
 == Dynamical systems simulation (statistics of orbits) ==
 
@@ -115,7 +115,8 @@ But Sage currently has no bridge between them...
 
 == Refactor Elliptic curves and morphisms ==
 
-See http://trac.sagemath.org/ticket/12880
+See [[http://trac.sagemath.org/ticket/12880|#12880|]] (and also problem with scheme morphisms [[http://trac.sagemath.org/ticket/15378|#15378]])
 
   * Interested:
     * Luca
+    * Vincent
