@@ -5,7 +5,6 @@ Nous commençons une série de tutoriels à l'université de Bordeaux à partir 
 == Calendrier des prochaines séances ==
 
  * vendredi 18 avril: introduction à Sage
- * semaine du 21 avril: vacances
 
 == Séances à prévoir ==
 
