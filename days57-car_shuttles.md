@@ -5,4 +5,4 @@
  * Volker Braun / Sunday around 5pm (Eurostar scheduled at 4pm at Gare du Nord)
  * Vivien Ripoll / Sunday around 11am (Plane scheduled at 9:15am, ... but where ?)
  * Thierry Monteil / sunday evening, can synchronize with other people
- * ...
+ * Florent Hivert / sunday evening, idem.
