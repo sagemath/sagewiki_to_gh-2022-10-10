@@ -14,7 +14,7 @@ please edit (in French, English, Spanish or Italian)!
  * salades et crudités: salade verte, carottes rapées, betteraves, ...
  * gatto di patate (Luca): 2kg patate, 5 uova, 100g burro, 1 bicchiere latte, 100g parmigiano, pangrattato (chapelure), prezzemolo, prosciutto o spalla o mortadella o salame, scamorza o provola o emmental.
  * tzatziki (Éric): 5 concombres, 8 yaourts à la grecque, 6 gousses d'ail, huile d'olive
-
+ * ...
 
 === Main dishes ===
 
@@ -35,6 +35,7 @@ please edit (in French, English, Spanish or Italian)!
  * cake à la banane (Vincent): (for 1 cake) 3 bananas, 100g butter, 200g sugar, 200g flour, 1 vanilla sugar, lemon, 3 eggs, baking powder
  * crumble aux pommes (Nicolas)
  * crostata (Luca): Per la pasta: 500g farina, 250g burro, 250g zucchero, 4 uova, vaniglia o buccia di agrumi. Per il ripieno: marmellata (commerciale o fatta a mano) o nutella, o crema e frutta fresca.
+ * ...
 
 == Meal schedule ==
 
