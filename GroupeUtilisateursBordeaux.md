@@ -4,7 +4,7 @@ Nous commençons une série de tutoriels à l'université de Bordeaux à partir 
 
 == Calendrier des prochaines séances ==
 
- * Introduction à Sage (date à fixer, semaine du 14 avril, le creneau du GT combalgo du LaBRI est libre pour le moment)
+ * vendredi 18 avril: introduction à Sage
  * semaine du 21 avril: vacances
 
 == Séances à prévoir ==
