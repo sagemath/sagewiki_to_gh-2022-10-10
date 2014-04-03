@@ -11,8 +11,9 @@ Nous commençons une série de tutoriels à l'université de Bordeaux à partir 
  * Les différents types de nombres (et introduction à la trinité catégories/parents/éléments)
  * Programmation linéaire et graphes
     * [[http://www.steinertriples.fr/ncohen/tut/LP/]]
-    * [[http://sagemath.org/doc/thematic_tutorials/linear_programming.html]]
+    * [[http://sagemath.org/doc/thematic_tutorials/linear_programming.html|thematic tutorial on LP]]
  * Séries formelles et objets combinatoires
+    * [[http://sagemath.org/doc/reference/combinat/sage/combinat/tutorial.html|thematic tutorial on combinatorics]]
  * Programmation en C/Python via Cython
  * Cryptographie et Pari/GP
  * ...
