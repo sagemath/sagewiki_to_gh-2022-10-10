@@ -23,6 +23,7 @@ please edit (in French, English, Spanish or Italian)!
  * soupe à l'oignon (Nicolas): des oignons, du pain (croûtons), du fromage, ...
  * barbecue (if there is one) (Thierry): coriandre
  * Pâté chinois (Frères Labbé): 2kg de viande hachée (pas du steak haché), 25 patates moyennes, 6 oignons rouges moyens, 6 conserves de maïs en crème (~300g la conserve), 1L lait, 1 boîte de pâte de tomates (200mL), coriandre, ail, poivre, sel, vinaigre blanc (250mL).
+ * poulet au citron (Éric): blancs de poulet (12 filets), 20 échalotes, 1,5 l de crème fraîche, 125 g de beurre demi-sel, 40 cl de vin blanc, 3 citrons, 4 cuillères à soupe de farine, 
  * ...
 
 === Deserts and snacks ===
