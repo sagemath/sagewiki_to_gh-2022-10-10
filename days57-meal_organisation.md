@@ -13,6 +13,7 @@ please edit (in French, English, Spanish or Italian)!
  * soupes légumes (Nicolas, Vincent): légumes
  * salades et crudités: salade verte, carottes rapées, betteraves, ...
  * gatto di patate (Luca): 2kg patate, 5 uova, 100g burro, 1 bicchiere latte, 100g parmigiano, pangrattato (chapelure), prezzemolo, prosciutto o spalla o mortadella o salame, scamorza o provola o emmental.
+ * tzatziki (Éric): 5 concombres, 8 yaourts à la grecque, 6 gousses d'ail, huile d'olive
 
 
 === Main dishes ===
