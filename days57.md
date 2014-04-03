@@ -105,10 +105,11 @@ Please add a few words about your project(s) for the workshop.
  * From Denfert-Rochereau: 40 minutes RER B to Saint-Rémy-les-Chevreuse + 15 minutes bus to Cernay-la-Ville
  * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and aerial photo]]
 
- * [[attachment:timetable-39-03.pdf|Time tables bus 39-03]]: Saint-Remy <-> Cernay <-> Rambouillet: 
-
+ * Bus option
+    * from St Remy (RER station), bus 39-03 or 39-103
+    * from Rambouillet (SNCF station) line 39-03 and 39-203
+   More information on schedules [[http://www.savac.fr/transports/lignes-regulieres/votre-ligne-reguliere|here]].
    Of the two bus stops in Cernay, Grand'Place is closest to the guest house.
-
    Beware that there are big gaps in the day with no buses to Cernay.
 
  * Check travel itineraries on [[http://www.vianavigo.com/|ViaNavigo]] (includes trains, RER, buses).
