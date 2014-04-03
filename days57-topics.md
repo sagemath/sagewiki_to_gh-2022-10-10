@@ -80,7 +80,7 @@ A translation surface is a geometric and dynamical objects that can be defined f
     * Vincent
     * Luca
 
-  * todo: see [[http://trac.sagemath.org/ticket/14567|#14567]
+  * todo: see [[http://trac.sagemath.org/ticket/14567|#14567]]
 
 == Dynamical systems simulation (statistics of orbits) ==
 
