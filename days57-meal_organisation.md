@@ -26,7 +26,7 @@ please edit (in French, English, Spanish or Italian)!
  * barbecue (if there is one) (Thierry): coriandre
  * Pâté chinois (Frères Labbé): 2kg de viande hachée (pas du steak haché), 25 patates moyennes, 6 oignons rouges moyens, 6 conserves de maïs en crème (~300g la conserve), 1L lait, 1 boîte de pâte de tomates (200mL), coriandre, ail, poivre, sel, vinaigre blanc (250mL).
  * poulet au citron (Éric): blancs de poulet (12 filets), 20 échalotes, 1,5 l de crème fraîche, 125 g de beurre demi-sel, 40 cl de vin blanc, 3 citrons, 4 cuillères à soupe de farine, 
- * Rôtie de porc (Frère Labbé): (on achète la pièce de viande), 2 têtes d'ail, 5 patates douces, 50ml sauce soja, 100 ml huile d'olive, thym, 100ml de crème fraîche, 200ml de bouillon de volaille. poivre, sel. 
+ * Rôtie de porc (Frères Labbé): (on achète la pièce de viande), 2 têtes d'ail, 5 patates douces, 50ml sauce soja, 100 ml huile d'olive, thym, 100ml de crème fraîche, 200ml de bouillon de volaille. poivre, sel. 
  * ...
 
 === Deserts and snacks ===
