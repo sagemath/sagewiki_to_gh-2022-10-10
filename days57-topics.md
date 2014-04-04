@@ -11,10 +11,21 @@ A list of topics for [[days57|Sage days 57]]. Participants, please edit!
    * Thierry
    * Sébastien
    * Jean-Philippe
+   * Nicolas
 
-== Review all tickets waiting on trac ==
+== Import the old Sage-Combinat patches as git branch ==
+
+ * Nicolas
+
+== Review all tickets waiting on trac :-) ==
 
 There are around [[http://trac.sagemath.org/report/75|250 tickets waiting on trac for a reviewer]] ... solution: a ticket a day! (18 dev, 5 days we should get 90 tickets)
+
+== Documentation ==
+
+ * Brainstorm about the refactoring of the index of the combinatorics section of the reference manual #13605
+ * Finish migrating the collection of Sage-Combinat thematic tutorials as git branches 
+ * Proofread and merge more thematic tutorials
 
 == Coxeter groups ==
 
@@ -53,10 +64,11 @@ A translation surface is a geometric and dynamical objects that can be defined f
 
 == Categories ==
 
+Finish #10963, brainstorm the follow ups.
+
  * interested
    * Nicolas
    * Eric
-
 
 == Polyhedra over number fields ==
 
