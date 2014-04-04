@@ -2,10 +2,12 @@
 
 '''Organizer: William Stein (wstein@gmail.com)'''
 
+Goal: Develop SageMathCloud, the SageCell server, IPython, and any other web-related technology connected with Sage.
+
 == Confirmed Participants ==
 
- * Keith Clawson
- * Miguel Marco-Buzunariz
+ * Keith Clawson (Seattle)
+ * Miguel Marco-Buzunariz (Germany)
  * William Stein
 
 == Tentative Participants ==
