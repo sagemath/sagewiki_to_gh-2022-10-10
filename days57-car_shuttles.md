@@ -6,4 +6,4 @@
  * Vivien Ripoll / Sunday evening from 5pm
  * Thierry Monteil / sunday evening, can synchronize with other people
  * Florent Hivert / sunday evening, idem.
- * Adrien + Patxi / sunday 18h44, Rambouillet
+ * Adrien + Patxi / saturday 18h44, Rambouillet
