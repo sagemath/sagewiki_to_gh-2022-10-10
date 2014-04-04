@@ -4,5 +4,10 @@
 
 == Confirmed Participants ==
 
- * William Stein
  * Keith Clawson
+ * Miguel Marco-Buzunariz
+ * William Stein
+
+== Tentative Participants ==
+
+ * Mike Hansen
