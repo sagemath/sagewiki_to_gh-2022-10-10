@@ -2,10 +2,12 @@
 
 '''Organizer: William Stein (wstein@gmail.com)'''
 
+Primary Goal: Fix bugs in anything related to Sage.  
+
 == Confirmed Participants ==
 
- * Keith Clawson
- * Miguel Marco-Buzunariz
+ * Keith Clawson (Seattle)
+ * Miguel Marco-Buzunariz (Germany)
  * William Stein
 
 == Tentative Participants ==
