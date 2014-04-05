@@ -8,9 +8,6 @@ Goal: Develop SageMathCloud, the SageCell server, IPython, and any other web-rel
 
  * Keith Clawson (Seattle)
  * Miguel Marco-Buzunariz (Germany)
- * Andrey Novoseltsev 
- * William Stein
-
-== Tentative Participants ==
-
- * Mike Hansen
+ * Andrey Novoseltsev (Canada)
+ * William Stein (Seattle)
+ * Mike Hansen (Seattle)
