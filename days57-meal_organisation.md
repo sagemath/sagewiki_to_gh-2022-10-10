@@ -15,7 +15,7 @@ please edit (in French, English, Spanish or Italian)!
  * gatto di patate (Luca): 2kg patate, 5 uova, 100g burro, 1 bicchiere latte, 100g parmigiano, pangrattato (chapelure), prezzemolo, prosciutto o spalla o mortadella o salame, scamorza o provola o emmental.
  * tzatziki (Éric): 5 concombres, 8 yaourts à la grecque, 6 gousses d'ail, huile d'olive
  * Salade d'endives, pommes,  sauce noix et fromage bleu (florent): endives (1/personne), bleu d'auverges 100gr, 1 pomme pour deux, je fournis les noix de mon jardin.
- * Mashed potatoes: Potatoes, fried onions, butter, milk or cream, salt, pepper. Maybe one or two sweet potatoes can be mashed as well.
+ * Mashed potatoes (needs a potato masher!): Potatoes, fried onions, butter, milk or cream, salt, pepper. Maybe one or two sweet potatoes can be mashed as well.
  * ...
 
 === Main dishes ===
