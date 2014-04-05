@@ -2,7 +2,7 @@
 
  * Luca / arrival on Tue 8, in the morning (9ish?)
  * Matthieu Dien / arrival on Sunday 6, whenever it suits you the most
- * Volker Braun / Sunday around 5pm (Eurostar scheduled at 4pm at Gare du Nord)
+ * Volker Braun / Sunday around 5pm (Eurostar scheduled at 4pm at Gare du Nord => 5:30pm at Saint-Rémy-les-Chevreuse RER)
  * Vivien Ripoll / Sunday evening from 5pm
  * Thierry Monteil / sunday evening, can synchronize with other people
  * Florent Hivert / sunday evening, idem.
