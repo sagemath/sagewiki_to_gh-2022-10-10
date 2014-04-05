@@ -7,3 +7,4 @@
  * Thierry Monteil / sunday evening, can synchronize with other people
  * Florent Hivert / sunday evening, idem.
  * Adrien + Patxi / saturday 18h44, Rambouillet
+ * Tomer / Sunday around 1pm (RER at Gare du Nord).
