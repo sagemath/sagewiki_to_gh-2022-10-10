@@ -8,3 +8,4 @@
  * Florent Hivert / sunday evening, idem.
  * Adrien + Patxi / saturday 18h44, Rambouillet
  * Tomer / Sunday around 1pm (RER at Gare du Nord).
+ * Eric Gourgoulhon: I'll arrive by car on Monday morning and can stop at Saint-Rémy-les-Chevreuse RER station around 9 am to pick 2 or 3 persons in my Twingo.
