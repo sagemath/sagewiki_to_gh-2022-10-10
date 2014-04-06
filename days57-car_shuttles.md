@@ -9,7 +9,7 @@
  * Florent Hivert / sunday evening, idem.
 
  * Eric Gourgoulhon: I'll arrive by car on Monday morning and can stop at Saint-Rémy-les-Chevreuse RER station around 9 am to pick 2 or 3 persons in my Twingo.
- * Charles Fougeron: I'll arrive on Monday morning, it would be nice if you could pick me at Saint-Rémy Eric.
+ * Charles Fougeron: I'll arrive on Monday morning, it would be nice if you could pick me at Saint-Rémy Eric <== ''OK ! Somebody else ?''
 
  * Luca / arrival on Tue 8, in the morning (9ish?)
  * JP / Sunday evening (between 5 and 6 at St-Rémy)
