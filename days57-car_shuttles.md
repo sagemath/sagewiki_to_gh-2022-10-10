@@ -1,7 +1,7 @@
 = Car shuttles organisation for days 57 =
 
 
- * Tomer / Sunday around 1pm (RER at Gare du Nord).
+ * Tomer / Sunday around 1pm (RER at Gare du Nord), trying to take a later train.
  * Matthieu Dien / arrival on Sunday 6, whenever it suits you the most
  * Volker Braun / Sunday around 5pm (Eurostar scheduled at 4pm at Gare du Nord => 5:30pm at Saint-Rémy-les-Chevreuse RER)
  * Vivien Ripoll / Sunday evening from 5pm
