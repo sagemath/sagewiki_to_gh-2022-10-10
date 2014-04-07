@@ -14,7 +14,7 @@ There are around [[http://trac.sagemath.org/report/75|250 tickets waiting on tra
 
 == Documentation ==
 
- * Brainstorm about the refactoring of the index of the combinatorics section of the reference manual [[http://trac.sagemath.org/ticket/13605|#13605]]
+ * Brainstorm about the refactoring of the index of the combinatorics section of the reference manual [[hhttp://trac.sagemath.org/ticket/16058|#16058]]
    Sam, Florent, Nicolas, Sébastien, Charles
  * Splitting the reference/combinat document in subdocuments
    Florent, 
