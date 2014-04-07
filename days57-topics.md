@@ -2,6 +2,7 @@
 
 A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
+Use days57 as keyword for any ticket worked on during the Sage days.
 
 == Import the old Sage-Combinat patches as git branch ==
 
@@ -34,6 +35,8 @@ TODO: create ticket
    * Nicolas M. Thiéry
    * Vivien Ripoll
    * Tomer
+
+Monday afternoon
 
 == Automata and rational languages ==
 
@@ -115,7 +118,18 @@ Finish [[http://trac.sagemath.org/ticket/10963|#10963]], brainstorm the follow u
     * Vincent
     * Jean-Philippe
 
-== on-line db for Sage worksheets and other ressources ==
+== Wish: symbolic q-analogs ==
+
+  * Tomer
+
+Check in Maxima if those q-analogs are there, or could be described
+there so that Maxima could do symbolic summation with them?
+
+Anything to be reused from the Ore-Algebra package?
+
+http://arxiv.org/abs/1306.4263
+
+== On-line db for Sage worksheets and other ressources ==
 
   * Thierry
   * Vincent
@@ -140,10 +154,42 @@ TODO: create ticket
 
 == Species, Ore algebras, Boltzman  ==
 
-Get a picture of the
+Get a picture of the current status.
+
+http://arxiv.org/abs/1306.4263
+
+== Tree-like tableaux, permutation tableaux, and bijections, Polyomino
+parallelograms ==
+
+  * Matthieu
+  * Patxi
+  * Adrien
+  * Jean-Baptiste
+  * Florent
+
+== Parallel Map-Reduce and Search Forests ==
+
+  * Florent
+  * Nicolas B.
+  * Vincent
+  * Jean-Baptiste
+
+== Interface cleanup for SearchForest and Friends ==
+
+  * Sébastien
+  * Florent
+  * Nicolas B.
 
 == Real numbers ==
 
+General discussion about real numbers and recurrent issues with them:
+
+ * Thierry
+ * Vincent
+ * Volker
+ * Sam
+ * Matthieu
+   
 There are many ways to represent real numbers:
 
  * rational numbers
@@ -156,11 +202,13 @@ But Sage currently has no bridge between them...
 
 == Refactor Elliptic curves and morphisms ==
 
-See [[http://trac.sagemath.org/ticket/12880|#12880|]] (and also problem with scheme morphisms [[http://trac.sagemath.org/ticket/15378|#15378]], maybe also that !SchemeMorphism currently does not inherit from !Morphisn, see the description of #14711)
+See [[http://trac.sagemath.org/ticket/12880|#12880|]] (and also problem with scheme morphisms [[http://trac.sagemath.org/ticket/15378|#15378]], maybe also that !SchemeMorphism currently does not inherit from !Morphism, see the description of #14711)
 
   * Interested:
     * Luca
     * Vincent
+    * Jean-Pierre
+    * Nicolas
 
 == Introduction to categories ==
 
