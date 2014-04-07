@@ -23,7 +23,7 @@ There are around [[http://trac.sagemath.org/report/75|250 tickets waiting on tra
 
 == Documentation ==
 
- * Brainstorm about the refactoring of the index of the combinatorics section of the reference manual #13605
+ * Brainstorm about the refactoring of the index of the combinatorics section of the reference manual [[http://trac.sagemath.org/ticket/13605|#13605]]
  * Finish migrating the collection of Sage-Combinat thematic tutorials as git branches 
  * Proofread and merge more thematic tutorials
 
