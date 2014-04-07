@@ -2,16 +2,6 @@
 
 A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
-== Introduction to git ==
-
- * by Volker Braun
- * interested
-   * Samuel
-   * Eric
-   * Thierry
-   * Sébastien
-   * Jean-Philippe
-   * Nicolas
 
 == Import the old Sage-Combinat patches as git branch ==
 
@@ -24,16 +14,35 @@ There are around [[http://trac.sagemath.org/report/75|250 tickets waiting on tra
 == Documentation ==
 
  * Brainstorm about the refactoring of the index of the combinatorics section of the reference manual [[http://trac.sagemath.org/ticket/13605|#13605]]
- * Finish migrating the collection of Sage-Combinat thematic tutorials as git branches 
+   Sam, Florent, Nicolas, Sébastien, Charles
+ * Splitting the reference/combinat document in subdocuments
+   Florent, 
+ * Finish migrating the collection of Sage-Combinat thematic tutorials as git branches
+   Nicolas, Vincent, Tomer
  * Proofread and merge more thematic tutorials
+   Sam, Vincent, Nicolas, Thierry
 
 == Coxeter groups ==
+
+Jean-Philippe and Vivien implemented a framework for working with infinite coxeter groups, in particular to explore the geometric representation, limit roots, ...
+The goal is to start merging this with the existing root system stuff in Sage.
+
+TODO: create ticket
 
  * interested
    * Jean-Philippe Labbé
    * Nicolas M. Thiéry
    * Vivien Ripoll
-   * ...
+   * Tomer
+
+== Automata and rational languages ==
+
+ * Design discussion
+   Thierry, Vincent, Nicolas, Sébastien, Florent, Jean-Baptiste, Adrien, Matthieu
+
+ * Improving the situation :-)
+
+   Thierry, Vincent, Sébastien, Matthieu
 
 == Languages ==
 
@@ -48,6 +57,8 @@ By language we simply mean a set of finite words (rational language, D0L-system,
    * implement the category of languages (from previous work of Vincent and Stepan, [[http://trac.sagemath.org/ticket/12224|#12224]], [[http://trac.sagemath.org/ticket/12225|#12225]], [[http://trac.sagemath.org/ticket/12227|#12227]])
    * finish the inclusion of subshifts of finite type and work on sofic shifts ([[http://trac.sagemath.org/ticket/12996|#12996]])
 
+Might be too big a task for this week. But we could discuss the strategy.
+
 == Translation surfaces ==
 
 A translation surface is a geometric and dynamical objects that can be defined from gluing polygons by translation. It is interesting from geometric and dynamical point of vue. Many computations are possible !
@@ -56,6 +67,7 @@ A translation surface is a geometric and dynamical objects that can be defined f
    * Vincent
    * Samuel
    * Thierry
+   * Charles
 
  * todo
    * better datastructure for permutations
@@ -64,12 +76,12 @@ A translation surface is a geometric and dynamical objects that can be defined f
 
 == Categories ==
 
-Finish [[http://trac.sagemath.org/ticket/10963|#10963]]
-, brainstorm the follow ups.
+Finish [[http://trac.sagemath.org/ticket/10963|#10963]], brainstorm the follow ups.
 
  * interested
    * Nicolas
-   * Eric
+   * Volker
+   * Florent
 
 == Polyhedra over number fields ==
 
@@ -109,10 +121,26 @@ Finish [[http://trac.sagemath.org/ticket/10963|#10963]]
   * Vincent
   * Luca
 
+Monday Afternoon
+
+== Checkout Mike's and ... patches about lazy power series ==
+
+  [[http://trac.sagemath.org/ticket/15673|#15673]]
+  [[http://trac.sagemath.org/ticket/10519|#10519]]
+
+  * Florent, Matthieu, Nicolas, Vincent, 
+
 == Lazy Multivariate Power Series ==
+
+TODO: create ticket
 
   * Matthieu Dien
   * Vincent
+  * Nicolas
+
+== Species, Ore algebras, Boltzman  ==
+
+Get a picture of the
 
 == Real numbers ==
 
@@ -133,3 +161,21 @@ See [[http://trac.sagemath.org/ticket/12880|#12880|]] (and also problem with sch
   * Interested:
     * Luca
     * Vincent
+
+== Introduction to categories ==
+
+ * Nicolas, ...
+
+== Introduction to git ==
+
+ * by Volker Braun
+ * interested
+   * Samuel
+   * Eric
+   * Thierry
+   * Sébastien
+   * Jean-Philippe
+   * Nicolas
+   * Everybody!
+
+Done Monday Morning! Thanks Volker!
