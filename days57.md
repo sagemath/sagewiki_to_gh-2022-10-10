@@ -22,6 +22,8 @@ See the links for activity reports and some photos.
 This workshop is also "Sage Days 57".
 More Sage workshops are listed on the [[Workshops]] page of the Sage wiki.
 
+The workshop is funded by ANR projects DynA3S, GeoDyM, PSyCo, with material help from the Mathematics and the Computer Science Departments at Université Paris-Sud, Orsay.
+
 == Participants ==
 
  1. Tomer Bauer (Bar-Ilan U, Ramat Gan, Israel), 6--12 April
@@ -51,7 +53,29 @@ The rest of the programme is decided together during the workshop.
 
 If you have wishes or coding projects, please edit the [[days57-topics|list of topics]].
 
-== Venue ==
+
+== Meal organisation ==
+
+Meals are cooked in turns by the participants for everyone, so bring along your
+favorite recipes and dishes! All diets, including vegetarian, will be taken into
+account.
+
+Please fill in the meal and date you would like to cook [[days57-meal_organisation|meal organisation]].
+
+== Older informations ==
+
+=== Dates ===
+
+The core of the activity will be Monday, April 7, 2014 to Friday, April 11, 2014.
+
+Arrival on Sunday, April 6, is encouraged; early arrival is possible on Saturday, April 5, 2014.
+
+Participants are welcome to stay until Saturday, April 12.
+
+If you wish to stay longer before or after these dates, let us know.
+
+
+=== Venue ===
 
 The workshop takes place in a guest house, which has comfortable working spaces,
 a cooking and dining area, and a few bedrooms. This favors an intense workshop,
@@ -66,15 +90,32 @@ The surrounding area offers nice hiking possibilities, bring hiking/climbing sho
 
 Your music instruments and scores, card or board games, etc, are also welcome for the breaks.
 
-=== Dates ===
 
-The core of the activity will be Monday, April 7, 2014 to Friday, April 11, 2014.
+=== Funding ===
 
-Arrival on Sunday, April 6, is encouraged; early arrival is possible on Saturday, April 5, 2014.
+The workshop is funded by ANR projects DynA3S, GeoDyM, PSyCo, with material help from the Mathematics and the Computer Science Departments at Université Paris-Sud, Orsay.
 
-Participants are welcome to stay until Saturday, April 12.
+Accommodation and meals for all participants are covered by our funding sources.
 
-If you wish to stay longer before or after these dates, let us know.
+We can also cover travel expenses for most participants, especially PhD students and postdocs.
+
+=== From Paris to Cernay ===
+
+ * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
+ * From Denfert-Rochereau: 40 minutes RER B to Saint-Rémy-les-Chevreuse + 15 minutes bus to Cernay-la-Ville
+ * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and aerial photo]]
+
+ * Bus option
+    * from St Remy (RER station), bus 39-03 or 39-103
+    * from Rambouillet (SNCF station) line 39-03 and 39-203
+   More information on schedules [[http://www.savac.fr/transports/lignes-regulieres/votre-ligne-reguliere|here]].
+   Of the two bus stops in Cernay, Grand'Place is closest to the guest house.
+   Beware that there are big gaps in the day with no buses to Cernay.
+
+ * Check travel itineraries on [[http://www.vianavigo.com/|ViaNavigo]] (includes trains, RER, buses).
+   Or [[http://ratp.fr|ratp]] but only for travel up to Saint-Rémy-les-Chevreuse.
+
+ * We will run some car shuttles from Saint-Rémy-les-Chevreuse : [[days57-car_shuttles|car shuttles organisation]]
 
 === Registration ===
 
@@ -97,50 +138,3 @@ the fields you can from the following form.
 }}}
 
 Please add a few words about your project(s) for the workshop.
-
-
-=== From Paris to Cernay ===
-
- * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
- * From Denfert-Rochereau: 40 minutes RER B to Saint-Rémy-les-Chevreuse + 15 minutes bus to Cernay-la-Ville
- * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and aerial photo]]
-
- * Bus option
-    * from St Remy (RER station), bus 39-03 or 39-103
-    * from Rambouillet (SNCF station) line 39-03 and 39-203
-   More information on schedules [[http://www.savac.fr/transports/lignes-regulieres/votre-ligne-reguliere|here]].
-   Of the two bus stops in Cernay, Grand'Place is closest to the guest house.
-   Beware that there are big gaps in the day with no buses to Cernay.
-
- * Check travel itineraries on [[http://www.vianavigo.com/|ViaNavigo]] (includes trains, RER, buses).
-   Or [[http://ratp.fr|ratp]] but only for travel up to Saint-Rémy-les-Chevreuse.
-
- * We will run some car shuttles from Saint-Rémy-les-Chevreuse : [[days57-car_shuttles|car shuttles organisation]]
-
-== Hardware organization ==
-
-=== Meal organisation ===
-
-Meals are cooked in turns by the participants for everyone, so bring along your
-favorite recipes and dishes! All diets, including vegetarian, will be taken into
-account.
-
-Please fill in the meal and date you would like to cook [[days57-meal_organisation|meal organisation]].
-
-
-=== Material to bring ===
-
- * multiprises x10, rallonges (demander LRI)
- * cables reseau: 2 longs, plusieurs courts (demander LRI)
- * switches, wireless router (demander LRI)
- * pêle pomme (NT)
- * tableau blanc (demander à Pascal au labo de math)
-
-
-=== Funding ===
-
-The workshop is funded by ANR projects DynA3S, GeoDyM, PSyCo, with material help from the Mathematics and the Computer Science Departments at Université Paris-Sud, Orsay.
-
-Accommodation and meals for all participants are covered by our funding sources.
-
-We can also cover travel expenses for most participants, especially PhD students and postdocs.
