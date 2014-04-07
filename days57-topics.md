@@ -2,7 +2,7 @@
 
 A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
-Use days57 as keyword for any ticket worked on during the Sage days.
+Use '''days57''' as keyword for any ticket worked on during the Sage days.
 
 == Import the old Sage-Combinat patches as git branch ==
 
