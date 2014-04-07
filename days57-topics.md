@@ -127,7 +127,7 @@ But Sage currently has no bridge between them...
 
 == Refactor Elliptic curves and morphisms ==
 
-See [[http://trac.sagemath.org/ticket/12880|#12880|]] (and also problem with scheme morphisms [[http://trac.sagemath.org/ticket/15378|#15378]])
+See [[http://trac.sagemath.org/ticket/12880|#12880|]] (and also problem with scheme morphisms [[http://trac.sagemath.org/ticket/15378|#15378]], maybe also that !SchemeMorphism currently does not inherit from !Morphisn, see the description of #14711)
 
   * Interested:
     * Luca
