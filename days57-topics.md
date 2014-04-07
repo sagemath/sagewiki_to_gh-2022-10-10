@@ -64,7 +64,8 @@ A translation surface is a geometric and dynamical objects that can be defined f
 
 == Categories ==
 
-Finish #10963, brainstorm the follow ups.
+Finish [[http://trac.sagemath.org/ticket/10963|#10963]]
+, brainstorm the follow ups.
 
  * interested
    * Nicolas
