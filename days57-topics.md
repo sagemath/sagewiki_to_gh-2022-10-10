@@ -209,6 +209,7 @@ See [[http://trac.sagemath.org/ticket/12880|#12880|]] (and also problem with sch
     * Vincent
     * Jean-Pierre
     * Nicolas
+    * Volker
 
 == Introduction to categories ==
 
