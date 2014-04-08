@@ -58,7 +58,7 @@ please edit (in French, English, Spanish or Italian)!
 
   * lunch: meal / cookers
 
-  * dinner: meal / cookers
+  * dinner: lasagna / Matthieu and ...
 
 === Wednesday 9 ===
 
