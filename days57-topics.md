@@ -156,7 +156,8 @@ TODO: create ticket
 
 Get a picture of the current status.
 
-http://arxiv.org/abs/1306.4263
+  * ore_algebra spkg, see [[http://trac.sagemath.org/ticket/16008|#16008]]
+  * http://arxiv.org/abs/1306.4263
 
 == Tree-like tableaux, permutation tableaux, and bijections, Polyomino
 parallelograms ==
