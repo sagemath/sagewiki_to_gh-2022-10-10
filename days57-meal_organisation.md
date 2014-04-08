@@ -46,7 +46,7 @@ please edit (in French, English, Spanish or Italian)!
 
 === Sunday 6 ===
 
-  * dinner: gratin de pâtes / cook: / cleanup: Nicolas, 
+  * dinner: gratin de pâtes / cook: Vincent, / cleanup: Nicolas, 
 
 === Monday 7 ===
 
