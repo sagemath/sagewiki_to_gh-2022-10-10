@@ -46,36 +46,36 @@ please edit (in French, English, Spanish or Italian)!
 
 === Sunday 6 ===
 
-  * dinner: meal / cookers
+  * dinner: gratin de pâtes / cook: / cleanup: Nicolas, 
 
 === Monday 7 ===
 
-  * lunch: meal / cookers
+  * lunch: Lentils / cook: Nicolas T., Sam
 
   * dinner: Pâté chinois pour 18 personnes / Frères Labbé
 
 === Tuesday 8 ===
 
-  * lunch: meal / cookers
+  * lunch: Taboulé / cook: Florent, Sam
 
-  * dinner: lasagna / Matthieu and ...
+  * dinner: lasagna / Matthieu and Thierry
 
 === Wednesday 9 ===
 
-  * lunch: meal / cookers
+  * lunch: meal / cook
 
   * dinner: [[http://www.pizzapartif.fr/tournee.jpg|dinner: pizzas !!]]
 
 === Thursday 10 ===
 
-  * lunch: meal / cookers
-  * dinner: meal / cookers
+  * lunch: meal: barbecue / cook
+  * dinner: meal / cook
 
 === Friday 11 ===
 
-  * lunch: meal / cookers
-  * dinner: meal / cookers
+  * lunch: meal / cook
+  * dinner: meal / cook
 
 === Saturday 12 ===
 
-  * lunch: meal / cookers
+  * lunch: meal / cook
