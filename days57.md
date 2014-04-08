@@ -43,7 +43,7 @@ The workshop is funded by ANR projects DynA3S, GeoDyM, PSyCo, with material help
  15. Thierry Monteil (Lirmm, Montpellier, France)
  16. Vivien Ripoll (U Vienna, Austria)
  17. Nicolas M. Thiéry (LRI, U Paris-Sud, Orsay, France)
- 18. Jean-Pierre Flori (ANSSI, Paris, France), 7 (and (9 or 11 (or 10))) April
+ 18. Jean-Pierre Flori (ANSSI, Paris, France), 7 and (probably 9) April
 
 == Programme and topics ==
 
