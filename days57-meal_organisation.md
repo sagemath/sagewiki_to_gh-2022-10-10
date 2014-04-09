@@ -69,7 +69,7 @@ please edit (in French, English, Spanish or Italian)!
 === Thursday 10 ===
 
   * lunch: meal: barbecue / cook
-  * dinner: meal / cook
+  * dinner: meal: crepes / cook
 
 === Friday 11 ===
 
