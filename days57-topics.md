@@ -135,7 +135,8 @@ http://arxiv.org/abs/1306.4263
   * Vincent
   * Luca
 
-Monday Afternoon
+See [[trac.sagemath.org/ticket/16114|ticket 16114]]
+
 
 == Checkout Mike's and ... patches about lazy power series ==
 
