@@ -211,6 +211,30 @@ See [[http://trac.sagemath.org/ticket/12880|#12880|]] (and also problem with sch
     * Nicolas
     * Volker
 
+== Cygwin(64) support ==
+ * Easy to review tickets:
+  * #15366
+  * #15316
+  * #15678
+  * #15679
+  * #16089
+  * #16099
+  * #16098
+ * Not so easy tickets:
+  * #15649
+  * #15339
+  * #10285
+  * #14207
+  * #14390
+  * #14648
+  * #15677
+  * #15015
+  * #13354
+  * #14697 and #10572
+  * #15338
+  * #15323
+  * and others...
+
 == Introduction to categories ==
 
  * Nicolas, ...
