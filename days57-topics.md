@@ -213,6 +213,7 @@ See [[http://trac.sagemath.org/ticket/12880|#12880|]] (and also problem with sch
 
 == Cygwin(64) support ==
  * Easy to review tickets:
+  * #9493
   * #16112
   * #15366
   * #15316
