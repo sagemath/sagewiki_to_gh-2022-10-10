@@ -23,8 +23,11 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 == Logistics ==
 
  * At the [[http://www.washington.edu|University of Washington]] Seattle campus (on the west coast of the US, not Washington, DC).
+ * The airport code for Seattle-Tacoma International Airport is SEA.
  * June 16, 17 and 18 will be full days.  So plan to travel on June 15 and June 19.
- * (2014/04/09) Lodging information coming soon.
+ * A block of rooms at Hotel Deca will be available soon at $179/night + tax.
+ * We plan to have some rooms at [[http://www.uwmedicine.org/patient-resources/lodging/collegiana|The Collegianna]], but they cannot confirm those until we are closer to the event.
+ * (2014/04/10) More lodging information will be coming soon.
 
 == Participants ==
 
