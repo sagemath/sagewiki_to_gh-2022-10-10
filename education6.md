@@ -14,11 +14,26 @@ Funded by the National Science Foundation Division of Undergraduate Education.
  * [[education4|Sage Education Days 4 (June 13-15, 2012)]]
  * [[education5|Sage Education Days 5 (June 19-21, 2013)]]
 
+== Organizers ==
+
+ * Rob Beezer [[http://buzzard.ups.edu]]
+ * Tom Judson [[http://faculty.sfasu.edu/judsontw/]]
+ * William Stein [[http://wstein.org/]]
 
 == Logistics ==
 
  * At the [[http://www.washington.edu|University of Washington]] Seattle campus (on the west coast of the US, not Washington, DC).
- * June 16, 17 and 18 are expected to be full days.  So plan to travel on June 15 and June 19.
+ * June 16, 17 and 18 will be full days.  So plan to travel on June 15 and June 19.
+ * (2014/04/09) Lodging information coming soon.
+
+== Participants ==
+
+To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page located [[http://trac.sagemath.org/sage_trac|here]].  As a last resort, email Rob Beezer  at beezer@ups.edu and he'll add your name (please include a relevant web link, if available).
+
+ 1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
+ 1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
+ 1. Susan Lynds (University of Colorado)
+ 1. [[http://wstein.org/|William Stein]] (University of Washington)
 
 {{{#!wiki comment
 
@@ -87,48 +102,6 @@ This schedule is tentative and may change.  We are leaving plenty of time in the
 ||  5:00 PM || Thirty-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageDaysPostWorkshopSurvey2013|Fri WrapUp Survey]] ||
 || || || ||  ||
 
-
-== Organizers ==
-
- * Rob Beezer [[http://buzzard.ups.edu]]
- * William Stein [[http://wstein.org/]]
- * Jason Grout [[http://artsci.drake.edu/grout/]]
- * Tom Judson [[http://faculty.sfasu.edu/judsontw/]]
- * Kiran Kedlaya [[http://math.ucsd.edu/~kedlaya/]]
-
-== Participants ==
-
-To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page located [[http://trac.sagemath.org/sage_trac|here]].  As a last resort, email Rob Beezer  at beezer@ups.edu and he'll add your name (please include a relevant web link, if available).
-
- 1. [[http://www.cwu.edu/~andonie/|Razvan Andonie]] (Central Washington University)
- 1. [[http://www.math.missouri.edu/personnel/other/aubreyj.html|Jason Aubrey]] (Univ. of Missouri until July, then University of Arizona)
- 1. [[http://www.math.harvard.edu/~jen/|Jennifer Balakrishnan]] (Harvard University)
- 1. [[http://people.whitman.edu/~balofba|Barry Balof]] (Whitman College)
- 1. [[http://www.gregorybard.com/|Gregory Bard]] (University of Wisconsin---Stout, Menomonie, Wi)
- 1. [[http://www2.sfasu.edu/math/people/faculty/beavers.html|Brian Beavers]] (Stephen F. Austin State University)
- 1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
- 1. [[http://www.math.gordon.edu/~kcrisman/|Karl-Dieter Crisman]] (Gordon College, Wenham, MA)
- 1. [[http://math.uci.edu/~davis|Chris Davis]] (University of California, Irvine)
- 1. [[http://faculty.mercer.edu/denny_jk|Jeff Denny]] (Mercer University, Macon, GA)
- 1. [[http://math.csuci.edu/people/all.html|Laurel Drane]] (California State University Channel Islands, Camarillo, CA)
- 1. [[http://www.math.osu.edu/~fowler.291/|Jim Fowler]] (Ohio State University)
- 1. [[http://users.humboldt.edu/flashman/|Martin Flashman]] (Humboldt State University)
- 1. [[http://www.math.rochester.edu/people/faculty/gage|Mike Gage]] (University of Rochester, Rochester, NY)
- 1. [[http://artsci.drake.edu/grout/doku.php/home|Jason Grout]] (Drake University, Des Moines, IA)
- 1. [[http://skink.whitman.edu/~guichard/|David Guichard]] (Whitman College)
- 1. [[http://math.csuci.edu/people/Glenn.Henshaw/|Glenn R Henshaw]] (California State University Channel Islands, Camarillo, CA)
- 1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
- 1. [[http://www.csudh.edu/math/gjennings|George Jennings]] (California State University, Dominguez Hills)
- 1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
- 1. [[http://math.ucsd.edu/~kedlaya/|Kiran Kedlaya]] (University of California, San Diego)
- 1. Susan Lynds (University of Colorado)
- 1. [[http://www.math.ualberta.ca/~novoseltsev/|Andrey Novoseltsev]] (University of Alberta)
- 1. [[http://www.reed.edu/~davidp|David Perkinson]] (Reed College, Portland, OR)
- 1. Steve Singleton (Coe College, Cedar Rapids, IA)
- 1. [[http://wstein.org/|William Stein]] (University of Washington)
- 1. Sepideh Stewart (University of Oklahoma)
- 1. [[http://math.mc.edu/travis/|John Travis]] (Mississippi College, Clinton, MS)
- 1. [[http://scholar.harvard.edu/aravisamuel/people/vivek-venkatachalam|Vivek Venkatachalam]] (Harvard University)
 
 
 
