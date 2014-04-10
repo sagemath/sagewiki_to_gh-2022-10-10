@@ -36,6 +36,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
  1. [[http://tetrahedra.net/|Bruce Cohen]] (Lowell High School, San Francisco)
  1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
+ 1. [[http://kskedlaya.org|Kiran Kedlaya]] (University of California, San Diego)
  1. Susan Lynds (University of Colorado)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
 
