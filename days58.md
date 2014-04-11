@@ -11,3 +11,4 @@ Goal: Develop SageMathCloud, the SageCell server, IPython, and any other web-rel
  * Andrey Novoseltsev (Canada)
  * William Stein (Seattle)
  * Mike Hansen (Seattle)
+ * Julian Rüth 
