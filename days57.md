@@ -53,14 +53,59 @@ The rest of the programme is decided together during the workshop.
 
 If you have wishes or coding projects, please edit the [[days57-topics|list of topics]].
 
+== Status report ==
 
-== Meal organisation ==
+ * Jean Philippe
+   * ticket #15703
+   * A nice 3D self-rotating picture representing limit set of a generic orbit under the action of a Coxeter group on the projective space.
+   * upgraded his ubuntu and can now use Linux back again.
 
-Meals are cooked in turns by the participants for everyone, so bring along your
-favorite recipes and dishes! All diets, including vegetarian, will be taken into
-account.
+ * Vivien
+   * #16120 : add float to run
+   * Found some bugs in the cyclotomic field and discovered that a ticket is waiting for 4 years.
 
-Please fill in the meal and date you would like to cook [[days57-meal_organisation|meal organisation]].
+ * Charles
+   * Ticket #16102
+   * translation surfaces : merging his code with Vincent existing code.
+
+ * Tomer
+   * #15595
+   * #16092
+   * #16090
+   * Subgroup zeta functions, found some bugs in symbolic 
+
+ * Volker
+   * Backend for polyhedra (especially double description algorithm) on AA
+
+ * Luca Thierry Vincent
+   * An index for Sage pedagogical ressources.
+
+ * Thierry
+   * rewiewed 
+
+ * Mathieu
+   * #15673
+   * #16107
+   * Lazy power series.
+
+ * Patxi
+   * tableaux, pbs with mutability
+
+ * Nicolas B
+  * review of the set factory
+  * parallelization at low-level using multithreading
+
+ * Florent
+  * Parallelism in sage  (with Nicolas B.)
+
+ * Nicolas T
+  * lot of discussions
+  * fixed long standing performance issue with categories which was one of the blocker for #10963
+  * work on #16058: reorganisation of the index of sage.combinat in the reference manual
+
+ * Adrien
+  * Implemented parallelogram polyomino.
+ 
 
 == Older informations ==
 
@@ -73,7 +118,6 @@ Arrival on Sunday, April 6, is encouraged; early arrival is possible on Saturday
 Participants are welcome to stay until Saturday, April 12.
 
 If you wish to stay longer before or after these dates, let us know.
-
 
 === Venue ===
 
@@ -89,6 +133,12 @@ we rented offers room for 6 more people.
 The surrounding area offers nice hiking possibilities, bring hiking/climbing shoes.
 
 Your music instruments and scores, card or board games, etc, are also welcome for the breaks.
+
+== Meal organisation ==
+
+Meals are cooked in turns by the participants for everyone, so bring along your
+favorite recipes and dishes! All diets, including vegetarian, will be taken into
+account.
 
 
 === Funding ===
