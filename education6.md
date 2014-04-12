@@ -40,6 +40,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://kskedlaya.org|Kiran Kedlaya]] (University of California, San Diego)
  1. Susan Lynds (University of Colorado)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
+ 1. [[http://math.mc.edu/travis|John Travis]] (Mississippi College)
 
 {{{#!wiki comment
 
