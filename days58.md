@@ -12,3 +12,5 @@ Goal: Develop SageMathCloud, the SageCell server, IPython, and any other web-rel
  * William Stein (Seattle)
  * Mike Hansen (Seattle)
  * Julian Rüth 
+ * Chris Kees (Coastal and Hydraulics Laboratory, US Army Engineer Research and Development Center)
+ * Kevin Winters (Coastal and Hydraulics Laboratory, US Army Engineer Research and Development Center)
