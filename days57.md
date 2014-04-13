@@ -55,6 +55,11 @@ If you have wishes or coding projects, please edit the [[days57-topics|list of t
 
 == Status report ==
 
+ * Sébastien
+   * ticket [[http://trac.sagemath.org/ticket/6637|#6637]]: cleaning TransitiveIdeal and TransitiveIdealGraded
+   * Creation of !RecursivelyEnumeratedSet
+   * Read my [[http://www.liafa.univ-paris-diderot.fr/~labbe/blogue/2014/04/my-status-report-at-sage-days-57-recursivelyenumeratedset/|status report here]]
+
  * Jean Philippe
    * ticket #15703
    * A nice 3D self-rotating picture representing limit set of a generic orbit under the action of a Coxeter group on the projective space.
