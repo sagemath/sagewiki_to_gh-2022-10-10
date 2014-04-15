@@ -11,7 +11,7 @@ Cours, tutoriels, coding sprint sur Sage (et Pari/GP, GAP, Cython, ...) à Borde
 
     * 10h45-11h45: challenges du [[https://projecteuler.net/|projet Euler]]
 
-Remplir le [[sondage|http://framadate.org/r2u8x5x57n224gm4]] pour décider du jour des prochaines séances.
+Remplir le [[http://framadate.org/r2u8x5x57n224gm4|sondage]] pour décider du jour des prochaines séances.
 
 === Séances à prévoir ===
 
