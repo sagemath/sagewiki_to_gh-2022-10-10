@@ -12,5 +12,5 @@ Primary Goal: Fix bugs in anything related to Sage.
  * Andrey Novoseltsev (Canada)
  * William Stein (Seattle)
  * Mike Hansen (Seattle)
- * Martin Albrecht (99% chance)
+ * Martin Albrecht (London)
  * Julian Rüth 
