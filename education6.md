@@ -27,6 +27,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
  * June 16, 17 and 18 will be full days.  So plan to travel on June 15 and June 19.
  * A block of rooms at Hotel Deca will be available soon at $179/night + tax.
  * We plan to have some rooms at [[http://www.uwmedicine.org/patient-resources/lodging/collegiana|The Collegianna]], but they cannot confirm those until we are closer to the event.
+ * If you are attending the IBL Conference in Denver, TJ Hitchman suggests Alaska Airlines 860, which departs at 8:25 PM, Wednesday, June 18.
  * (2014/04/10) More lodging information will be coming soon.
 
 == Participants ==
