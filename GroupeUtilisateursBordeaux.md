@@ -7,7 +7,7 @@ Cours, tutoriels, coding sprint sur Sage (et Pari/GP, GAP, Cython, ...) à Borde
  * vendredi 18 avril: introduction à Sage
     * 9h30-10h30: installation, découverte de la console et du notebook, tab-complétion, accès à la documentation, introduction a Python/Sage... on ne se servira que de la documentation fournie avec Sage et plus précisément des tutoriaux thématiques suivants:
       * [[http://sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html|utilisation du notebook et aide]]
-      * [[http://sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html#tutorial-programming-python|Programmer en Python et Sage]]
+      * [[http://sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html#tutorial-programming-python|programmer en Python et Sage]]
       * [[http://sagemath.org/doc/thematic_tutorials/tutorial-comprehensions.html|listes, itérateurs et compréhension]]
 
     * 10h45-11h45: challenges du [[https://projecteuler.net/|projet Euler]]
