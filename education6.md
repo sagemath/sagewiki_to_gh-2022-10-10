@@ -25,10 +25,19 @@ Funded by the National Science Foundation Division of Undergraduate Education.
  * At the [[http://www.washington.edu|University of Washington]] Seattle campus (on the west coast of the US, not Washington, DC).
  * The airport code for Seattle-Tacoma International Airport is SEA.
  * June 16, 17 and 18 will be full days.  So plan to travel on June 15 and June 19.
- * A block of rooms at Hotel Deca will be available soon at $179/night + tax.
- * We plan to have some rooms at [[http://www.uwmedicine.org/patient-resources/lodging/collegiana|The Collegianna]], but they cannot confirm those until we are closer to the event.
  * If you are attending the IBL Conference in Denver, TJ Hitchman suggests Alaska Airlines 860, which departs at 8:25 PM, Wednesday, June 18.
- * (2014/04/10) More lodging information will be coming soon.
+
+
+== Lodging ==
+ * We have a block of rooms reserved at [[http://www.hoteldeca.com/|Hotel Deca]] right at the NW corner of campus and in the heart of the business dostrict close to the University.  Information for making a reservation is:
+   * Reservations are to be made by each individual calling the hotel directly at 1.800.899.0251 between the hours of 8a.m. – 7p.m. Monday through Friday and 10 a.m. – 4p.m. on Saturday and Sunday, or by faxing reservations to 1.206.545.2103, or emailing requests to reservations@hoteldeca.com.  To guarantee rate and room type, please ensure the name of the group, arrival date, and any other information needed is given at the time of reservation.   
+   * Your Group Names is: SAGE Days
+   * Your first date of arrival is: 06/16/2014 (this should be 6/15/2014)
+   * Your last date of departure is: 06/19/2014
+   * Your group rate of \$179.00  is valid for 3 days pre / post contracted dates. (Reimbursment maximum is \$152 on federal grant money.)
+   * Your guests have until 05/16/2014 to make reservations for this group.
+ * We plan to have some rooms at [[http://www.uwmedicine.org/patient-resources/lodging/collegiana|The Collegianna]], but they cannot confirm those until we are closer to the event.
+ * (2014/04/16) More lodging information will be coming soon.
 
 == Participants ==
 
@@ -40,6 +49,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
  1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
  1. [[http://kskedlaya.org|Kiran Kedlaya]] (University of California, San Diego)
+ 1. [[http://www.faculty.sfasu.edu/longjh/|Jane Long]] (Stephen F Austin State University, Texas)
  1. Susan Lynds (University of Colorado)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://math.mc.edu/travis|John Travis]] (Mississippi College)
