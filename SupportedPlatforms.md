@@ -83,7 +83,7 @@ Other Linux distributions, such as Slackware are never tested, so may or may not
  * Solaris 10 on x86 processors in 32-bit mode.
  * Solaris 11 Express on x86 (32-bit has been tested).
 
-=== Microsoft Windows ===
+=== Microsoft Windows (VM) ===
  * [[https://www.virtualbox.org/|VirtualBox]] images can be downloaded from http://www.sagemath.org/download-windows.html These should be reliable, though we do not test these prior to releasing Sage.
 
 == Almost works ==
@@ -96,7 +96,7 @@ This lists systems on which Sage builds, but there are a few doctest errors.  Ho
 === FreeBSD ===
  * Sage now works on FreeBSD 8.3 and 9, with only a few doctest errors.  One needs to use the system atlas, and a few other scripts, as well as many patches.   See [[http://www.freebsd.org/cgi/cvsweb.cgi/ports/math/sage/|here for a FreeBSD port]] of Sage, which should include most of this information.  Older information about the status of the FreeBSD port is archived at [[freebsd|Sage port to FreeBSD]].
 
-=== Microsoft Windows ===
+=== Microsoft Windows (Cygwin) ===
  * Microsoft Windows using Cygwin; see [[http://trac.sagemath.org/sage_trac/ticket/13841|the metaticket for this]].  Sage compiles from source and has only a few doctest failures with only some rebasing issues and one or two unusual prerequisites (currently the mpfr-4 and a few lapack Cygwin packages).  Some slightly old information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows|sage-windows]] mailing list.
 
 === OpenSolaris x86 32-bit ===
@@ -118,7 +118,7 @@ If anyone has the time to help on these ports, it would be greatly appreciated.
  * Some work has been done on HP-UX on the Itanium processor.
 More information on the HP-UX port can be found on the [[HP-UX]] page. 
 
-=== Microsoft Windows ===
+=== Microsoft Windows (native) ===
  * Microsoft Windows using Microsoft's compiler. This would be a full native port. There are some efforts at this, but none for quite some time.
 
 === OpenSolaris 64-bit ===
