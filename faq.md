@@ -10,6 +10,11 @@
 Sage is a comprehensive open-source mathematics software suite that has the mission statement "Creating a viable free open source alternative to Magma, Maple, Mathematica, and Matlab."  See http://www.sagemath.org/ for more details.
 
 
+=== Does it run on my computer? ===
+
+Probably, we are trying to support a wide range of computers. See the [[SupportedPlatforms|supported platforms list]] for details.
+
+
 == Getting Sage ==
 
 
