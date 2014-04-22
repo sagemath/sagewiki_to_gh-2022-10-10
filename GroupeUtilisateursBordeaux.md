@@ -6,6 +6,7 @@ Cours, tutoriels, coding sprint sur Sage (et Pari/GP, GAP, Cython, ...) à Borde
 
 Si vous souhaitez venir régulièrement aux séances qui suivent, merci de remplir le [[http://framadate.org/r2u8x5x57n224gm4|sondage]] afin de choisir le jour de la semaine le plus approprié.
 
+=== prochaines séances ===
 
  * séance 2 (date à fixer la semaine du 28 avril), programmation et graphes (à confirmer)
 
