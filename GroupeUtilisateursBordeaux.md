@@ -13,7 +13,7 @@ Si vous souhaitez venir régulièrement aux séances qui suivent, merci de rempl
  * séance 3 (date à fixer la semaine du 5 mai), combinatoire (à confirmer)
 
 
-=== séance passées ===
+=== séances passées ===
 
  * séance 1 (vendredi 18 avril) introduction à Sage
     * 9h30-10h30: installation, découverte de la console et du notebook, tab-complétion, accès à la documentation, introduction a Python/Sage... on ne se servira que de la documentation fournie avec Sage et plus précisément des tutoriaux thématiques suivants:
@@ -23,7 +23,7 @@ Si vous souhaitez venir régulièrement aux séances qui suivent, merci de rempl
 
     * 10h45-11h45: challenges du [[https://projecteuler.net/|projet Euler]]
 
-=== Sujets des futures séances ===
+=== Sujets à aborder pour la suite ===
 
  * Programmation linéaire et graphes
     * les dictionnaires Python, networkx et les graphes dans Sage
