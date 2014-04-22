@@ -4,7 +4,17 @@ Cours, tutoriels, coding sprint sur Sage (et Pari/GP, GAP, Cython, ...) à Borde
 
 == Cours 2014 ==
 
- * vendredi 18 avril: introduction à Sage
+Si vous souhaitez venir régulièrement aux séances qui suivent, merci de remplir le [[http://framadate.org/r2u8x5x57n224gm4|sondage]] afin de choisir le jour de la semaine le plus approprié.
+
+
+ * séance 2 (date à fixer la semaine du 28 avril), programmation et graphes (à confirmer)
+
+ * séance 3 (date à fixer la semaine du 5 mai), combinatoire (à confirmer)
+
+
+=== séance passées ===
+
+ * séance 1 (vendredi 18 avril) introduction à Sage
     * 9h30-10h30: installation, découverte de la console et du notebook, tab-complétion, accès à la documentation, introduction a Python/Sage... on ne se servira que de la documentation fournie avec Sage et plus précisément des tutoriaux thématiques suivants:
       * [[http://sagemath.org/doc/thematic_tutorials/tutorial-notebook-and-help-long.html|Tutorial: Using the Sage notebook, navigating the help system, first exercises]]
       * [[http://sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html|Tutorial: Programming in Python and Sage]]
@@ -12,9 +22,7 @@ Cours, tutoriels, coding sprint sur Sage (et Pari/GP, GAP, Cython, ...) à Borde
 
     * 10h45-11h45: challenges du [[https://projecteuler.net/|projet Euler]]
 
-Si vous souhaitez venir régulièrement aux séances qui suivent, merci de remplir le [[http://framadate.org/r2u8x5x57n224gm4|sondage]] afin de choisir le jour de la semaine le plus approprié.
-
-=== Séances à prévoir ===
+=== Sujets des futures séances ===
 
  * Programmation linéaire et graphes
     * les dictionnaires Python, networkx et les graphes dans Sage
