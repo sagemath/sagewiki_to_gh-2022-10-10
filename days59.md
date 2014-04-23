@@ -8,11 +8,10 @@ Primary Goal: Fix bugs in anything related to Sage.  However, all kinds of Sage 
 
  * Keith Clawson (Seattle)
  * Miguel Marco-Buzunariz (Germany)
- * Marcos Rodríguez Rodríguez (Spain)
+ * Marcos Rodríguez Rodríguez (Spain, June 21-28)
  * Andrey Novoseltsev (Canada)
  * William Stein (Seattle)
  * Mike Hansen (Seattle)
  * Martin Albrecht (London)
  * Julian Rüth 
  * David Mascharka (Drake)
- * Marcos Rodríguez Rodríguez (Spain, June 21-28)
