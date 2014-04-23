@@ -15,3 +15,4 @@ Primary Goal: Fix bugs in anything related to Sage.
  * Martin Albrecht (London)
  * Julian Rüth 
  * David Mascharka (Drake)
+ * Marcos Rodríguez Rodríguez (Spain, June 21-28)
