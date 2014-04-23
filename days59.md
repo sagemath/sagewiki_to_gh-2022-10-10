@@ -2,7 +2,7 @@
 
 '''Organizer: William Stein (wstein@gmail.com)'''
 
-Primary Goal: Fix bugs in anything related to Sage.  
+Primary Goal: Fix bugs in anything related to Sage.  However, all kinds of Sage development will be on the table. 
 
 == Confirmed Participants ==
 
