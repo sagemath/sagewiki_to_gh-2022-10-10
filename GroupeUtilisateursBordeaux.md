@@ -8,9 +8,9 @@ Si vous souhaitez venir régulièrement aux séances qui suivent, merci de rempl
 
 === prochaines séances ===
 
- * séance 2 (date à fixer la semaine du 28 avril), programmation et graphes (à confirmer)
+ * séance 2: 6 mai programmation et graphes (à confirmer)
 
- * séance 3 (date à fixer la semaine du 5 mai), combinatoire (à confirmer)
+ * séance 3: 20 mai combinatoire (à confirmer)
 
 
 === séances passées ===
