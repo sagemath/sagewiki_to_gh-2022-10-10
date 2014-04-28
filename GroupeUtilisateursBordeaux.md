@@ -10,7 +10,10 @@ Si vous souhaitez venir régulièrement aux séances qui suivent, merci de rempl
 
  * séance 2: 6 mai, combinatoire
     * utiliser des fichiers python/sage externes (depuis le notebook ou la console)
-    * un peu plus de Python: les fonctions, les listes, les tuples et les itérateurs
+    * un peu plus de Python
+        * types de base: listes, tuples et itérateurs
+        * les fonctions
+        * un peu d'objet (au sens de programmation orienté objet)
     * les objets combinatoires de Sage (partitions, permutations, arbres, etc)
     * l'interface à [[http://oeis.org|oeis]]
     * un peu de séries formelles
@@ -19,6 +22,10 @@ Si vous souhaitez venir régulièrement aux séances qui suivent, merci de rempl
     * [[http://sagemath.org/doc/reference/combinat/sage/combinat/tutorial.html|thematic tutorial on combinatorics]]
 
  * séance 3: 20 mai, programmation linéaire et graphes
+    * les dictionnaires Python, networkx et les graphes dans Sage
+    * la LP
+       * [[http://www.steinertriples.fr/ncohen/tut/LP/]]
+       * [[http://sagemath.org/doc/thematic_tutorials/linear_programming.html|thematic tutorial on LP]]
 
 
 === séances passées ===
@@ -32,12 +39,6 @@ Si vous souhaitez venir régulièrement aux séances qui suivent, merci de rempl
     * 10h45-11h45: challenges du [[https://projecteuler.net/|projet Euler]]
 
 === Sujets à aborder pour la suite ===
-
- * Programmation linéaire et graphes
-    * les dictionnaires Python, networkx et les graphes dans Sage
-    * la LP
-       * [[http://www.steinertriples.fr/ncohen/tut/LP/]]
-       * [[http://sagemath.org/doc/thematic_tutorials/linear_programming.html|thematic tutorial on LP]]
 
  * Les différents types de nombres (et catégories/parents/éléments, coercion, etc)
  * Programmation en C/Python via Cython
