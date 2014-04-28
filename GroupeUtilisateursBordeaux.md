@@ -8,20 +8,17 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
 
 === prochaines séances ===
 
- * 2eme séance: 6 mai, combinatoire
+ * 2eme séance: 6 mai, utilisation plus avancé et programmation
     * utiliser des fichiers python/sage externes (depuis le notebook ou la console)
-    * un peu plus de Python
-        * types de base: listes, tuples et itérateurs
+    * un peu plus sur Python
+        * types de base: listes, tuples, dictionnaires et itérateurs
         * les fonctions
         * un peu d'objet (au sens de programmation orienté objet)
-    * les objets combinatoires de Sage (partitions, permutations, arbres, etc)
-    * l'interface à [[http://oeis.org|oeis]]
-    * un peu de séries formelles
-   On se basera en partie sur les tutoriels suivants
-    * [[http://sagemath.org/doc/thematic_tutorials/tutorial-comprehensions.html|thematic tutorial comprehensions]]
-    * [[http://sagemath.org/doc/reference/combinat/sage/combinat/tutorial.html|thematic tutorial on combinatorics]]
+    * un peu plus sur Sage
+        * les entiers/rationnels et calcul en flottant
+        * les éléments et les parents
 
- * 3eme séance: 20 mai, programmation linéaire et graphes
+ * 3eme séance: 20 mai, graphes et programmation linéaire
     * les dictionnaires Python, networkx et les graphes dans Sage
     * la LP
        * [[http://www.steinertriples.fr/ncohen/tut/LP/]]
@@ -38,6 +35,14 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
     * 10h45-11h45: challenges du [[https://projecteuler.net/|projet Euler]]
 
 === Sujets à aborder pour la suite ===
+
+ * combinatoire
+    * les objets combinatoires de Sage (partitions, permutations, arbres, etc)
+    * l'interface à [[http://oeis.org|oeis]]
+    * un peu de séries formelles
+   On se basera en partie sur les tutoriels suivants
+    * [[http://sagemath.org/doc/thematic_tutorials/tutorial-comprehensions.html|thematic tutorial comprehensions]]
+    * [[http://sagemath.org/doc/reference/combinat/sage/combinat/tutorial.html|thematic tutorial on combinatorics]]
 
  * Les différents types de nombres (et catégories/parents/éléments, coercion, etc)
  * Programmation en C/Python via Cython
