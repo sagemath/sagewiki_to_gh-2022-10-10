@@ -4,6 +4,8 @@ Cours, tutoriels, coding sprint sur Sage (et Pari/GP, GAP, Cython, ...) à Borde
 
 == Cours 2014 ==
 
+Les séances ont lieu de 14h à 16h le mardi après-midi en salle 076 au LaBRI (bâtiment A30).
+
 Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet particulier vous intéresse, vous pouvez venir seulement à ce moment là.
 
 === prochaines séances ===
