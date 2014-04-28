@@ -8,9 +8,17 @@ Si vous souhaitez venir régulièrement aux séances qui suivent, merci de rempl
 
 === prochaines séances ===
 
- * séance 2: 6 mai programmation et graphes (à confirmer)
+ * séance 2: 6 mai, combinatoire
+    * utiliser des fichiers python/sage externes (depuis le notebook ou la console)
+    * un peu plus de Python: les fonctions, les listes, les tuples et les itérateurs
+    * les objets combinatoires de Sage (partitions, permutations, arbres, etc)
+    * l'interface à [[http://oeis.org|oeis]]
+    * un peu de séries formelles
+   On se basera en partie sur les tutoriels suivants
+    * [[http://sagemath.org/doc/thematic_tutorials/tutorial-comprehensions.html|thematic tutorial comprehensions]]
+    * [[http://sagemath.org/doc/reference/combinat/sage/combinat/tutorial.html|thematic tutorial on combinatorics]]
 
- * séance 3: 20 mai combinatoire (à confirmer)
+ * séance 3: 20 mai, programmation linéaire et graphes
 
 
 === séances passées ===
@@ -32,9 +40,6 @@ Si vous souhaitez venir régulièrement aux séances qui suivent, merci de rempl
        * [[http://sagemath.org/doc/thematic_tutorials/linear_programming.html|thematic tutorial on LP]]
 
  * Les différents types de nombres (et catégories/parents/éléments, coercion, etc)
- * Séries formelles et objets combinatoires
-    * [[http://sagemath.org/doc/thematic_tutorials/tutorial-comprehensions.html|thematic tutorial comprehensions]]
-    * [[http://sagemath.org/doc/reference/combinat/sage/combinat/tutorial.html|thematic tutorial on combinatorics]]
  * Programmation en C/Python via Cython
  * Cryptographie et Pari/GP (voir avec Bill Allombert)
  * ...
