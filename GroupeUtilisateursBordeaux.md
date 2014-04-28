@@ -4,8 +4,6 @@ Cours, tutoriels, coding sprint sur Sage (et Pari/GP, GAP, Cython, ...) à Borde
 
 == Cours 2014 ==
 
-Si vous souhaitez venir régulièrement aux séances qui suivent, merci de remplir le [[http://framadate.org/r2u8x5x57n224gm4|sondage]] afin de choisir le jour de la semaine le plus approprié.
-
 === prochaines séances ===
 
  * séance 2: 6 mai, combinatoire
@@ -26,7 +24,6 @@ Si vous souhaitez venir régulièrement aux séances qui suivent, merci de rempl
     * la LP
        * [[http://www.steinertriples.fr/ncohen/tut/LP/]]
        * [[http://sagemath.org/doc/thematic_tutorials/linear_programming.html|thematic tutorial on LP]]
-
 
 === séances passées ===
 
