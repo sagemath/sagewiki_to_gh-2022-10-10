@@ -4,9 +4,11 @@ Cours, tutoriels, coding sprint sur Sage (et Pari/GP, GAP, Cython, ...) à Borde
 
 == Cours 2014 ==
 
+Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet particulier vous intéresse, vous pouvez venir seulement à ce moment là.
+
 === prochaines séances ===
 
- * séance 2: 6 mai, combinatoire
+ * 2eme séance: 6 mai, combinatoire
     * utiliser des fichiers python/sage externes (depuis le notebook ou la console)
     * un peu plus de Python
         * types de base: listes, tuples et itérateurs
@@ -19,7 +21,7 @@ Cours, tutoriels, coding sprint sur Sage (et Pari/GP, GAP, Cython, ...) à Borde
     * [[http://sagemath.org/doc/thematic_tutorials/tutorial-comprehensions.html|thematic tutorial comprehensions]]
     * [[http://sagemath.org/doc/reference/combinat/sage/combinat/tutorial.html|thematic tutorial on combinatorics]]
 
- * séance 3: 20 mai, programmation linéaire et graphes
+ * 3eme séance: 20 mai, programmation linéaire et graphes
     * les dictionnaires Python, networkx et les graphes dans Sage
     * la LP
        * [[http://www.steinertriples.fr/ncohen/tut/LP/]]
