@@ -17,3 +17,4 @@ Goal: Develop SageMathCloud, the SageCell server, IPython, and any other web-rel
  * Randall J LeVeque, and students (Seattle)
  * David Mascharka (Drake)
  * Nicolas M. Thiéry (France)
+ * Rob Browning (Austin, Texas) -- bup developer
