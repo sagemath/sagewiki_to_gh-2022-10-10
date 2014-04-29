@@ -1,1 +1,62 @@
-Describe days62 here.
+= Sage Days 62: Women in Sage (5) =
+
+[[http://sagemath.org/|Sage]] is a mathematics software package, developed by and for the mathematics community.  It aims to become a viable alternative to commercial software packages on the basis of an open-source model.
+
+This will be a 4-day workshop which will include a combination of mathematical talks, tutorials, demonstrations of Sage functionality as well as time spent on Sage development. We will focus on various aspects of computational number theory with the goal of increasing the number of women developers.
+
+== Projects ==
+  
+
+== Photos ==
+
+
+== Dates/Location ==
+
+ * July 28-August 2 (tentative), 2014 near Portland, Oregon.
+
+== Speakers ==
+
+
+== Schedule ==
+
+Monday
+
+
+Tuesday 
+
+
+Wednesday
+
+
+Thursday
+
+
+Friday
+
+Saturday
+
+== Getting Started ==
+ * [[http://wiki.sagemath.org/DownloadAndInstallationGuide|Installing Sage]]
+ * [[http://trac.sagemath.org/sage_trac/|Getting a Trac Account]]
+ * [[http://wiki.sagemath.org/development_basics|Development Basics]]
+ * [[http://wiki.sagemath.org/problem_sets|Tutorials and Problem Sets]]
+ * [[attachment:Patch How To]]
+ * [[attachment:Reviewing Patches How To.rtf]]
+ * [[attachment:Trac Ticket How To.rtf]]
+== Participants ==
+ 
+ * Alina Bucur
+ * Sarah Chisholm
+ * Hester Graves
+ * Anna Haensch
+ * Sorina Ionica
+ * Adriana Salerno
+ * Holly Swisher
+ * Bianca Thompson
+ * Stephanie Treneer
+ * Christelle Vincent
+
+== Other Info ==
+
+ * Organizers: Jennifer Balakrishnan (Harvard), Aly Deines (UW), Lola Thompson (Dartmouth) 
+ * Funding: Microsoft Research  (via Kristin Lauter) and The Beatrice Yormark Fund for Women in Mathematics
