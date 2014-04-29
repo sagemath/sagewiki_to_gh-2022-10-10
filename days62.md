@@ -5,9 +5,6 @@
 This will be a 4-day workshop which will include a combination of mathematical talks, tutorials, demonstrations of Sage functionality as well as time spent on Sage development. We will focus on various aspects of computational number theory with the goal of increasing the number of women developers.
 
 == Projects ==
-  
-
-== Photos ==
 
 
 == Dates/Location ==
