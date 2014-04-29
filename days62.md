@@ -12,7 +12,7 @@ This will be a 4-day workshop which will include a combination of mathematical t
 
 == Dates/Location ==
 
- * July 28-August 2 (tentative), 2014 near Portland, Oregon.
+ * July 28-August 2, 2014 (tentative) near Portland, Oregon.
 
 == Speakers ==
 
@@ -44,19 +44,9 @@ Saturday
  * [[attachment:Reviewing Patches How To.rtf]]
  * [[attachment:Trac Ticket How To.rtf]]
 == Participants ==
- 
- * Alina Bucur
- * Sarah Chisholm
- * Hester Graves
- * Anna Haensch
- * Sorina Ionica
- * Adriana Salerno
- * Holly Swisher
- * Bianca Thompson
- * Stephanie Treneer
- * Christelle Vincent
+
 
 == Other Info ==
 
- * Organizers: Jennifer Balakrishnan (Harvard), Aly Deines (UW), Lola Thompson (Dartmouth) 
+ * Organizers: Anna Haensch (MPIM/Duquesne), Lola Thompson (Oberlin) 
  * Funding: Microsoft Research  (via Kristin Lauter) and The Beatrice Yormark Fund for Women in Mathematics
