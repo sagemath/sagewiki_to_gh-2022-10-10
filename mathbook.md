@@ -1,5 +1,13 @@
 = MathBook: An XML Application =
 
+~+'''This page is frozen, as of September 2013 '''+~
+
+Please go to the [[http://mathbook.pugetsound.edu|MathBook XML]] site for current progress.
+
+This page reports progress initiated with a [[http://www.shuttleworthfoundation.org/grantees/2013/rob-beezer/|Shuttleworth Flash Grant]], and sustained with support from [[http://utmost.aimath.org|National Science Foundation under Grant No. DUE-1022574]].
+
+= Frozen Content (September 2013) =
+
 A specification for XML tags and stylesheets to create mathematical content that yields usable output.
 
 [[http://www.beezers.org/blog/bb/2013/06/shuttleworth-flash-grant/|{{attachment:Shuttleworth-Funded-Logo.jpg|Shuttleworth Funded|width=250px}}]]
