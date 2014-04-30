@@ -52,4 +52,4 @@ Students should indicate their areas of interest and request their advisor/teach
 
 Faculty should attach their CV to the application.
 
-Last Date for Applications: '''30 April 2014'''
+'''Deadline extended:''' We have funding for a few more participants, and so the application deadline is being extended to '''31 May 2014'''.
