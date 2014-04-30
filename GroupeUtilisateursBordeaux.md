@@ -19,6 +19,7 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
     * un peu plus sur Sage
         * les entiers/rationnels et calcul en flottant
         * les éléments et les parents
+    * challenges du [[https://projecteuler.net/|projet Euler]]
 
  * 3eme séance: 20 mai, graphes et programmation linéaire
     * les dictionnaires Python, networkx et les graphes dans Sage
