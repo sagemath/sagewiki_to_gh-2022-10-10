@@ -10,7 +10,7 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
 
 === prochaines séances ===
 
- * 2eme séance: 6 mai, utilisation plus avancé et programmation
+ * 2eme séance: 6 mai, utilisation avancée et programmation
     * utiliser des fichiers python/sage externes (depuis le notebook ou la console)
     * un peu plus sur Python
         * types de base: listes, tuples, dictionnaires et itérateurs
