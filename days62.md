@@ -9,7 +9,7 @@ This will be a 4-day workshop which will include a combination of mathematical t
 
 == Dates/Location ==
 
- * July 28-August 2, 2014 (tentative) near Portland, Oregon.
+ * July 28-August 1, 2014 near Portland, Oregon.
 
 == Speakers ==
 
