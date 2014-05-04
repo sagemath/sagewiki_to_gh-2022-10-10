@@ -9,7 +9,7 @@ This will be a 4-day workshop which will include a combination of mathematical t
 
 == Dates/Location ==
 
- * July 28-August 1, 2014 near Portland, Oregon.
+ * July 28-August 1, 2014 near Portland, Oregon at [[http://https://www.vacasarentals.com/unit.php?UnitID=11/|The Lodge at Welches]]
 
 == Speakers ==
 
