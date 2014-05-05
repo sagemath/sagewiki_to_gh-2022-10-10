@@ -1,8 +1,8 @@
 = Sage Days 62: Women in Sage (5) =
 
-[[http://sagemath.org/|Sage]] is a mathematics software package, developed by and for the mathematics community.  It aims to become a viable alternative to commercial software packages on the basis of an open-source model.
+[[http://sagemath.org/|Sage]] is a mathematics software package, developed by and for the mathematical community.  It aims to become a viable alternative to commercial software packages on the basis of an open-source model.
 
-This will be a 4-day workshop which will include a combination of mathematical talks, tutorials, demonstrations of Sage functionality as well as time spent on Sage development. We will focus on various aspects of computational number theory with the goal of increasing the number of women developers.
+This 4-day workshop will include talks, tutorials, and time spent in small project groups developing Sage code. We will focus on various aspects of computational number theory with the dual goals of enhancing the Sage library, and increasing the number of women in the community of Sage developers.
 
 Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ_s5gWOyNqvMlWYR0-p69rOKuSkJ7o6irnsa8Ug/viewform?usp=send_form|Apply Here.]]  
 
