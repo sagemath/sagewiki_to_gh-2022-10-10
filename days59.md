@@ -14,5 +14,4 @@ Primary Goal: Fix bugs in anything related to Sage.  However, all kinds of Sage 
  * Mike Hansen (Seattle)
  * Martin Albrecht (London)
  * Julian Rüth 
- * David Mascharka (Drake)
  * R. Andrew Ohana (Seattle)
