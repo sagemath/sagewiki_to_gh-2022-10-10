@@ -18,21 +18,19 @@ Online applications due May 23rd. [[https://docs.google.com/forms/d/113wkQ_s5gWO
 
 == Schedule ==
 
-Monday
+Monday: Check-in late afternoon
 
 
-Tuesday 
+Tuesday: TBD 
 
 
-Wednesday
+Wednesday: TBD
 
 
-Thursday
+Thursday: TBD
 
 
-Friday
-
-Saturday
+Friday: Check-out late morning
 
 == Getting Started ==
  * [[http://wiki.sagemath.org/DownloadAndInstallationGuide|Installing Sage]]
