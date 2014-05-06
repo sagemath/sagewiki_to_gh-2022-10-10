@@ -16,6 +16,7 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
         * types de base: listes, tuples, dictionnaires et itérateurs
         * les fonctions
         * un peu d'objet (au sens de programmation orienté objet)
+        * voir les tutoriaux thematiques: [[http://sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html|Tutorial: Programming in Python and Sage]] et [[http://sagemath.org/doc/thematic_tutorials/tutorial-comprehensions.html|Tutorial: Comprehensions, Iterators, and Iterables]]
     * un peu plus sur Sage
         * les entiers/rationnels et calcul en flottant
         * les éléments et les parents
