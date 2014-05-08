@@ -48,18 +48,24 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/15448|#15448]]) new: cartesian products of projective space - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/15490|#15490]]) positive-review: documentation fix for projective dynatomic polynomials - Weixin Wu
-
- * ([[http://trac.sagemath.org/ticket/15780|#15780]]) needs-work: Increase Performance in Projective Morphism - Dillon Rose
+ * ([[http://trac.sagemath.org/ticket/15780|#15780]]) needs-review: Increase Performance in Projective Morphism - Dillon Rose
 
  * ([[http://trac.sagemath.org/ticket/15781|#15781]]) needs-review: Increase Performance of possible_periods in Projective Morphism - Dillon Rose
 
  * ([[http://trac.sagemath.org/ticket/15782|#15782]]) needs-review: Increase Performance of Multiplier in Projective Morphism - Dillon Rose
 
- * ([[http://trac.sagemath.org/ticket/15815|#15815]]) needs-review: rational preimages for projective morphisms returns incorrect points - Ben Hutz
-
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/160510|#16051]])-- closed sage.6.3: use p_iter_fork in projective_morphism - Dillon Rose
+
+ * --([[http://trac.sagemath.org/ticket/160510|#16051]])-- closed sage.6.3: fast_callable can return ipow with exponents in the base ring - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/15920|#15920]])-- closed sage.6.2: Parallelize Possible Periods functions for Projective Morphisms - Dillon Rose
+
+ * --([[http://trac.sagemath.org/ticket/15815|#15815]])-- closed sage.6.2: rational preimages for projective morphisms returns incorrect points - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/15490|#15490]])-- closed sage.6.2: documentation fix for projective dynatomic polynomials - Weixin Wu
 
  * --([[http://trac.sagemath.org/ticket/15396|#15396]])-- closed sage.6.1: Implement .an_element() for ProjectiveSpace - Ben Hutz
 
