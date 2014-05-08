@@ -57,9 +57,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
- * --([[http://trac.sagemath.org/ticket/160510|#16051]])-- closed sage.6.3: use p_iter_fork in projective_morphism - Dillon Rose
+ * --([[http://trac.sagemath.org/ticket/16168|#16168]])-- closed sage.6.3: use p_iter_fork in projective_morphism - Dillon Rose
 
- * --([[http://trac.sagemath.org/ticket/160510|#16051]])-- closed sage.6.3: fast_callable can return ipow with exponents in the base ring - Ben Hutz
+ * --([[http://trac.sagemath.org/ticket/16051|#16051]])-- closed sage.6.3: fast_callable can return ipow with exponents in the base ring - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/15920|#15920]])-- closed sage.6.2: Parallelize Possible Periods functions for Projective Morphisms - Dillon Rose
 
