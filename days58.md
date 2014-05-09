@@ -15,7 +15,8 @@ Goal: Develop SageMathCloud, the SageCell server, IPython, and any other web-rel
  * Chris Kees (Coastal and Hydraulics Laboratory, US Army Engineer Research and Development Center)
  * Kevin Winters (Coastal and Hydraulics Laboratory, US Army Engineer Research and Development Center)
  * Randall J LeVeque, and students (Seattle)
- * Nicolas M. Thiéry (France)
  * Rob Browning (Austin, Texas) -- bup developer
  * R. Andrew Ohana (Seattle)
  * Max Lieblich
+
+ * Nicolas M. Thiéry (France) -- probably not coming
