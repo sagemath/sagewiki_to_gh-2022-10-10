@@ -48,14 +48,13 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/15448|#15448]]) new: cartesian products of projective space - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/15780|#15780]]) needs-review: Increase Performance in Projective Morphism - Dillon Rose
-
- * ([[http://trac.sagemath.org/ticket/15781|#15781]]) needs-review: Increase Performance of possible_periods in Projective Morphism - Dillon Rose
-
- * ([[http://trac.sagemath.org/ticket/15782|#15782]]) needs-review: Increase Performance of Multiplier in Projective Morphism - Dillon Rose
-
+ * ([[http://trac.sagemath.org/ticket/15782|#15782]]) needs-review: Increase Performance of Multiplier in Projective Morphism - Dillon Rose and Ben Hutz
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/15781|#15781]])-- closed sage.6.3: Increase Performance of possible_periods in Projective Morphism - Dillon Rose and Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/15780|#15780]]--) closed sage.6.3: Increase Performance in Projective Morphism - Dillon Rose
 
  * --([[http://trac.sagemath.org/ticket/16168|#16168]])-- closed sage.6.3: use p_iter_fork in projective_morphism - Dillon Rose
 
