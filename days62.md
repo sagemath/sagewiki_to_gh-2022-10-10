@@ -36,6 +36,7 @@ Friday: Check-out late morning
  * [[http://wiki.sagemath.org/DownloadAndInstallationGuide|Installing Sage]] You will want to do the full build with the source code, not the binaries. 
  * [[http://trac.sagemath.org/sage_trac/|Getting a Trac Account]] This process can take a few days, start this as soon as possible. 
  * [[http://wiki.sagemath.org/problem_sets|Tutorials and Problem Sets]]
+ * [[http://wiki.sagemath.org/editor|Installing an Editing Software]]
 == Participants ==
 
 
