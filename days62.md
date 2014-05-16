@@ -37,9 +37,6 @@ Friday: Check-out late morning
  * [[http://trac.sagemath.org/sage_trac/|Getting a Trac Account]]
  * [[http://wiki.sagemath.org/development_basics|Development Basics]]
  * [[http://wiki.sagemath.org/problem_sets|Tutorials and Problem Sets]]
- * [[attachment:Getting A Sagetrac Account]]
- * [[attachment:Reviewing Patches How To.rtf]]
- * [[attachment:Trac Ticket How To.rtf]]
 == Participants ==
 
 
