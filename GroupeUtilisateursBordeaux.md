@@ -10,18 +10,6 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
 
 === prochaines séances ===
 
- * 2eme séance: 6 mai, utilisation avancée et programmation
-    * utiliser des fichiers python/sage externes (depuis le notebook ou la console)
-    * un peu plus sur Python
-        * types de base: listes, tuples, dictionnaires et itérateurs
-        * les fonctions
-        * un peu d'objet (au sens de programmation orienté objet)
-        * voir les tutoriaux thematiques: [[http://sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html|Tutorial: Programming in Python and Sage]] et [[http://sagemath.org/doc/thematic_tutorials/tutorial-comprehensions.html|Tutorial: Comprehensions, Iterators, and Iterables]]
-    * un peu plus sur Sage
-        * les entiers/rationnels et calcul en flottant
-        * les éléments et les parents
-    * challenges du [[https://projecteuler.net/|projet Euler]]
-
  * 3eme séance: 20 mai, graphes et programmation linéaire
     * les dictionnaires Python, networkx et les graphes dans Sage
     * la LP
@@ -37,6 +25,18 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
       * [[http://sagemath.org/doc/thematic_tutorials/tutorial-comprehensions.html|Tutorial: Comprehensions, Iterators, and Iterables]]
 
     * 10h45-11h45: challenges du [[https://projecteuler.net/|projet Euler]]
+
+ * 2eme séance: 6 mai, utilisation avancée et programmation
+    * utiliser des fichiers python/sage externes (depuis le notebook ou la console)
+    * un peu plus sur Python
+        * types de base: listes, tuples, dictionnaires et itérateurs
+        * les fonctions
+        * un peu d'objet (au sens de programmation orienté objet)
+        * voir les tutoriaux thematiques: [[http://sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html|Tutorial: Programming in Python and Sage]] et [[http://sagemath.org/doc/thematic_tutorials/tutorial-comprehensions.html|Tutorial: Comprehensions, Iterators, and Iterables]]
+    * un peu plus sur Sage
+        * les entiers/rationnels et calcul en flottant
+        * les éléments et les parents
+    * challenges du [[https://projecteuler.net/|projet Euler]]
 
 === Sujets à aborder pour la suite ===
 
