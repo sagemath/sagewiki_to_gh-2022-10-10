@@ -20,5 +20,6 @@ Location: UW on June 16,17,18 and maybe [[http://www.homeaway.com/vacation-renta
  * Rob Browning (Austin, Texas) -- bup developer
  * R. Andrew Ohana (Seattle)
  * Max Lieblich
+ * Marcos Rodriguez (Spain)
 
  * Nicolas M. Thiéry (France) -- probably not coming
