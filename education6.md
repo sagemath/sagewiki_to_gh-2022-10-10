@@ -57,6 +57,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://math.mc.edu/travis|John Travis]] (Mississippi College)
  1. Michael Wise (Mississippi College)
  1. Travis Scrimshaw (University of California Davis)
+ 1. [[http://riemann.unizar.es/~mmarco/|Miguel Marco]] (Leibniz Universität Hannover)
 
 {{{#!wiki comment
 
