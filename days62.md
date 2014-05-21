@@ -45,5 +45,5 @@ Friday: Check-out late morning
 
 == Other Info ==
 
- * Organizers: Anna Haensch (MPIM/Duquesne), Lola Thompson (Oberlin) 
+ * Organizers: [[http://www.mathcs.duq.edu/~haensch/|Anna Haensch]] (MPIM/Duquesne), [[http://www.lolathompson.com/Lola_Thompson/Home.html|Lola Thompson]] (Oberlin) 
  * Funding: Microsoft Research  (via Kristin Lauter) and The Beatrice Yormark Fund for Women in Mathematics
