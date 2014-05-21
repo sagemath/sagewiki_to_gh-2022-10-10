@@ -13,8 +13,11 @@ Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ
 
  * July 28-August 1, 2014 near Portland, Oregon at [[http://www.vacasarentals.com/unit.php?UnitID=11/|The Lodge at Welches]]
 
-== Speakers ==
+== Project Leaders ==
 
+ * [[http://www.math.ucsd.edu/~alina/|Alina Bucur]] (UC San Diego)
+ * Beth Malmskog (Villanova University)
+ * [[http://people.oregonstate.edu/~swisherh/home/|Holly Swisher]] (Oregon State University)
 
 == Schedule ==
 
