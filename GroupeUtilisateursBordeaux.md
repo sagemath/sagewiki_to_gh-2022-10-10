@@ -10,7 +10,7 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
 
 === prochaines séances ===
 
- * 4 ème séance: combinatoire
+ * 4 ème séance (mardi 3 juin): combinatoire
    * les objets combinatoires (partitions, permutations, chemins de Dyck, etc)
    * un peu de série formelles
    * les espèces
