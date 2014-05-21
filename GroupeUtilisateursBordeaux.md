@@ -10,11 +10,12 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
 
 === prochaines séances ===
 
- * 3eme séance: 20 mai, graphes et programmation linéaire
-    * les dictionnaires Python, networkx et les graphes dans Sage
-    * la LP
-       * [[http://www.steinertriples.fr/ncohen/tut/LP/]]
-       * [[http://sagemath.org/doc/thematic_tutorials/linear_programming.html|thematic tutorial on LP]]
+ * 4 ème séance: combinatoire
+   * les objets combinatoires (partitions, permutations, chemins de Dyck, etc)
+   * un peu de série formelles
+   * les espèces
+   * algèbre de Ore [[http://www.risc.jku.at/research/combinat/software/ore_algebra/|Ore algebra in Sage]]
+   * ...
 
 === séances passées ===
 
@@ -37,6 +38,12 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
         * les entiers/rationnels et calcul en flottant
         * les éléments et les parents
     * challenges du [[https://projecteuler.net/|projet Euler]]
+
+ * 3eme séance: 20 mai, graphes et programmation linéaire
+    * les dictionnaires Python, networkx et les graphes dans Sage
+    * la LP
+       * [[http://www.steinertriples.fr/ncohen/tut/LP/]]
+       * [[http://sagemath.org/doc/thematic_tutorials/linear_programming.html|thematic tutorial on LP]]
 
 === Sujets à aborder pour la suite ===
 
