@@ -14,6 +14,6 @@ Location: [[http://www.homeaway.com/vacation-rental/p906894|This House]]
  * Andrey Novoseltsev (Canada)
  * William Stein (Seattle)
  * Mike Hansen (Seattle)
- * Martin Albrecht (London)
+ * Martin Albrecht (London, June 24-30) 
  * Julian Rüth 
  * R. Andrew Ohana (Seattle)
