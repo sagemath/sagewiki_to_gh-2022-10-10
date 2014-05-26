@@ -16,6 +16,9 @@ Organizer: Jim Stankewicz, William Stein, Ian Kiming
  * Marc Masdeu (Warwick):  arrives on August 24, departs on August 30.
  * Xavier Guitart (Essen):  arrives on August 24, departs on August 30.
  * Aurel Page (Bordeaux):  arrives on August 24, departs on August 30.
+ * Jim Stankewicz (Copenhagen)
+ * Ian Kiming (Copenhagen)
+ * Nadim Rustom (Copenhagen)
 
 
  
