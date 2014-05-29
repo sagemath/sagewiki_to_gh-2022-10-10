@@ -16,5 +16,5 @@ Location: [[http://www.homeaway.com/vacation-rental/p906894|This House]]
  * Mike Hansen (Seattle)
  * Kiran Kedlaya (San Diego, June 23)
  * Martin Albrecht (London, June 24-30) 
- * Julian Rüth 
+ * Julian Rüth (Germany, June 19-30)
  * R. Andrew Ohana (Seattle)
