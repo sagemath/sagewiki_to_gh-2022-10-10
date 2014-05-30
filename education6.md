@@ -66,6 +66,30 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. Travis Scrimshaw (University of California Davis)
  1. [[http://riemann.unizar.es/~mmarco/|Miguel Marco]] (Leibniz Universität Hannover)
 
+== Schedule ==
+
+This schedule is tentative, preliminary and evolving.  We are leaving plenty of time in the afternoons and evenings for small working groups that will organize at the conference to get things done.
+||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
+|| || || || ||
+||<rowstyle="background-color: #E0E0FF;"> Homework  ||      || || ||
+||           ||      || || [[https://www.surveymonkey.com/s/SageEduDays2014Pre|Pre-Survey]] ||
+|| || || ||  ||
+||<rowstyle="background-color: #E0E0FF;"> Monday  || June 16     || || ||
+||  9:30 AM   || Introductions||                       ||   ||
+||  4:00 PM   || Status Reports  ||                       ||  ||
+||  5:00 PM   || Ten-minute survey ||                       ||  ||
+|| || || ||  ||
+||<rowstyle="background-color: #E0E0FF;"> Tuesday  || June 17     || || ||
+||  4:00 PM   || Status Reports  ||                       ||  ||
+||  5:00 PM   || Ten-minute survey ||                       ||  ||
+|| || || ||  ||
+||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 18     || || ||
+||  4:00 PM   || Status Reports  ||                       ||  ||
+||  5:00 PM || Thirty-minute survey                       ||                       ||  ||
+|| || || ||  ||
+
+
+
 {{{#!wiki comment
 
 LOTS OF OLD STUFF COMMENTED OUT, WILL RETURN IN EDITED, UPDATED FORM
