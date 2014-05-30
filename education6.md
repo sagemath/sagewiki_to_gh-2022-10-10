@@ -40,6 +40,12 @@ Funded by the National Science Foundation Division of Undergraduate Education.
  * We plan to have some rooms at [[http://www.uwmedicine.org/patient-resources/lodging/collegiana|The Collegianna]], but they cannot confirm those until we are closer to the event.
  * (2014/04/16) More lodging information will be coming soon.
 
+== Mailing Lists ==
+
+ * The mailing list for [[https://groups.google.com/forum/#!forum/sagedays58|Sage Days 58]],  will be used for Education Days 6 as well.  Please add yourself to this list if you are not already on it.  This will be the primary/only vehicle for announcements before and during the workshop, and last-minute changes during the week.
+
+ * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
+
 == Participants ==
 
 To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page located [[http://trac.sagemath.org/sage_trac|here]].  As a last resort, email Rob Beezer  at beezer@ups.edu and he'll add your name (please include a relevant web link, if available).
@@ -71,12 +77,6 @@ LOTS OF OLD STUFF COMMENTED OUT, WILL RETURN IN EDITED, UPDATED FORM
 }}}
 
 {{{#!wiki comment
-
-== Mailing Lists ==
-
- * The mailing list for [[https://groups.google.com/forum/?fromgroups#!forum/sagedays48|Sage Days 48]],  will be used for Education Days also.  Please add yourself to this list if you are not already on it.  This will be the primary vehicle for announcements, and last-minute changes during the week.
-
- * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
 
 
 == Pictures ==
