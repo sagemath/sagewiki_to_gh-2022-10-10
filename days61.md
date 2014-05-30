@@ -2,7 +2,7 @@
 
 Organizer: Jim Stankewicz, William Stein, Ian Kiming
 
-''Deadline to apply for funding: June 30''
+''Deadline to apply for funding: June 30'' [[http://stankewicz.net/sagedays/signup.html|Sign Up Here!]]
 
 
  * William Stein (Seattle)
