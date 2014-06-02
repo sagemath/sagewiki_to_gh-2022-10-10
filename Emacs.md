@@ -36,7 +36,7 @@ ipython shipped with Sage. Yet this sounds promising. See:
   (set-variable 'indent-tabs-mode nil)
   (set-variable 'py-indent-offset 4)
   }}}
-  This might not be so relevant with recent version of emacs.
+  This might not be so relevant with recent versions of emacs.
 
 == See also ==
 
