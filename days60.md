@@ -34,6 +34,7 @@ This a part of our effort to increase an awareness of Sage and its utility to ma
  1. Karl-Dieter Crisman (Gordon College)
  2. Anne Schilling (UC Davis)
  3. Nicolas M. Thi&eacute;ry (Universit&eacute; Paris Sud)
+ 4. P. Vanchinathan (VIT Chennai)
 
 == Applications ==
 
