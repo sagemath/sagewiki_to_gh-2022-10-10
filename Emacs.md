@@ -40,4 +40,4 @@ ipython shipped with Sage. Yet this sounds promising. See:
 
 == See also ==
 
-- This (not sot recent) [[http://www.saltycrane.com/blog/2010/05/my-emacs-python-environment/ blog post]] on customizing emacs for Python
+- This (not sot recent) [[http://www.saltycrane.com/blog/2010/05/my-emacs-python-environment/|blog post]] on customizing emacs for Python
