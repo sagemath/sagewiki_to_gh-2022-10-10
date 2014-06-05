@@ -55,3 +55,32 @@ Students should indicate their areas of interest and request their advisor/teach
 Faculty should attach their CV to the application.
 
 '''Applications are officially closed.''' However, do write to us if you missed the deadline but really wish to attend. We will see if we can somehow accommodate you.
+
+== List of Participants ==
+
+ 1. Suman Ahmad (U. of Burdwan) 
+ 1. Rekha Biswal (IMSc)
+ 1. I. V. S. Chanakya (U. of Hyderabad)
+ 1. U. V. Chetana (NIT Surathkal)
+ 1. Anjan Debnath (Ramanujan Inst.)
+ 1. Guhan Venkat (Bordeaux)
+ 1. Pranav Haridas (IISc)
+ 1. M. Hassain (IISc)
+ 1. Kannappan Sampath (ISI Bangalore)
+ 1. Dilpreet Kaur (IISER Mohali)
+ 1. Manoj Kummini (CMI)
+ 1. Kamalakshya Mahatab (IMSc)
+ 1. K. J. Manasa (NIT Surathkal)
+ 1. P. Prabakaran (Periyar University)
+ 1. Biswajit Ransingh (IMSc)
+ 1. B. Ravinder (IMSc)
+ 1. Santha Kumar (Periyar University)
+ 1. Selva Ganesh (Periyar University)
+ 1. Sachin Sharma (TIFR)
+ 1. Shiv Parsad (IISER Mohali)
+ 1. M. Subramani (CMI)
+ 1. V. H. Prathamesh (IISc)
+ 1. Tulasi Ram (IISc)
+ 1. Pooja Singla (IISc)
+ 1. S. Sivaramakrishnan (IIT Bombay)
+ 1. 
