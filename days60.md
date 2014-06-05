@@ -83,4 +83,3 @@ Faculty should attach their CV to the application.
  1. Tulasi Ram (IISc)
  1. Pooja Singla (IISc)
  1. S. Sivaramakrishnan (IIT Bombay)
- 1. 
