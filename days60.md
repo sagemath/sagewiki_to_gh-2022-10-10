@@ -35,6 +35,7 @@ This a part of our effort to increase an awareness of Sage and its utility to ma
  2. Anne Schilling (UC Davis)
  3. Nicolas M. Thi&eacute;ry (Universit&eacute; Paris Sud)
  4. P. Vanchinathan (VIT Chennai)
+ 5. Amritanshu Prasad (IMSc)
 
 == Applications ==
 
@@ -53,4 +54,4 @@ Students should indicate their areas of interest and request their advisor/teach
 
 Faculty should attach their CV to the application.
 
-'''Deadline extended:''' We have funding for a few more domestic participants, and so the application deadline is being extended to '''31 May 2014'''. We regret that funding is not available for international travel.
+'''Applications are officially closed.''' However, do write to us if you missed the deadline but really wish to attend. We will see if we can somehow accommodate you.
