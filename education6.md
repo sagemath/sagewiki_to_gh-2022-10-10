@@ -77,14 +77,17 @@ This schedule is tentative, preliminary and evolving.  We are leaving plenty of 
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Monday  || June 16     || || ||
 ||  9:30 AM   || Introductions||                       ||   ||
+||  Afternoon || Working Groups ||                       ||   ||
 ||  4:00 PM   || Status Reports  ||                       ||  ||
 ||  5:00 PM   || Ten-minute survey ||                       ||  [[https://www.surveymonkey.com/s/SageEduDays2014Mon|Daily Survey]]||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday  || June 17     || || ||
+||  Afternoon || Working Groups ||                       ||   ||
 ||  4:00 PM   || Status Reports  ||                       ||  ||
 ||  5:00 PM   || Ten-minute survey ||                       || [[https://www.surveymonkey.com/s/SageEduDays2014Tues|Daily Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 18     || || ||
+||  Afternoon || Working Groups ||                       ||   ||
 ||  4:00 PM   || Status Reports  ||                       ||  ||
 ||  5:00 PM || Thirty-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageEduDays2014Post|Post-Survey]] ||
 || || || ||  ||
