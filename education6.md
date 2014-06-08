@@ -92,6 +92,11 @@ This schedule is tentative, preliminary and evolving.  We are leaving plenty of 
 ||  5:00 PM || Thirty-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageEduDays2014Post|Post-Survey]] ||
 || || || ||  ||
 
+== UW Campus Wireless ==
+{{{
+UW NetID:   event0403    
+Password:   8V2D:9M7R:3E2H
+}}}
 
 
 {{{#!wiki comment
@@ -267,11 +272,6 @@ ALSO- I have a new demo of using Geogebra on the same page to do similar  things
  * Investigate and build course materials for Combinatorics and Graph Theory, Multivariable Calculus, and Calculus Laboratory courses.  
 
 
-== UW Campus Wireless ==
-{X{{
-UW NetID:   event0531    
-Password:   y7f3/y3a5/h7x4
-}}X}
 
 <<Anchor(pictures)>>
 == Pictures ==
