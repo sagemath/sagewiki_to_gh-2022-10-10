@@ -83,10 +83,11 @@ This schedule is tentative, preliminary and evolving.  We are leaving plenty of 
 ||  5:00 PM   || Ten-minute survey ||                       ||  [[https://www.surveymonkey.com/s/SageEduDays2014Mon|Daily Survey]]||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday  || June 17     || || ||
-||  9:30 AM   || !MathBook XML  ||  Rob Beezer           || [[http://mathbook.pugetsound.edu|MathBook XML]]  ||
-||  Afternoon || Working Groups ||                       ||   ||
-||  4:00 PM   || Status Reports  ||                       ||  ||
-||  5:00 PM   || Ten-minute survey ||                       || [[https://www.surveymonkey.com/s/SageEduDays2014Tues|Daily Survey]] ||
+||  9:30 AM     || !MathBook XML  ||  Rob Beezer           || [[http://mathbook.pugetsound.edu|MathBook XML]]  ||
+||  After Lunch || Discussion: SMC Support for Courses ||                       ||   ||
+||  Afternoon   || Working Groups ||                       ||   ||
+||  4:00 PM     || Status Reports  ||                       ||  ||
+||  5:00 PM     || Ten-minute survey ||                       || [[https://www.surveymonkey.com/s/SageEduDays2014Tues|Daily Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 18     || || ||
 ||  Afternoon || Working Groups ||                       ||   ||
