@@ -23,6 +23,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 == Logistics ==
 
  * At the [[http://www.washington.edu|University of Washington]] Seattle campus (on the west coast of the US, not Washington, DC).
+ * This [[uw-local-info|local information page]] could be helpful but '''has not been reviewed''' lately for accuracy, so double-check anything critical.
  * The airport code for Seattle-Tacoma International Airport is SEA.
  * June 16, 17 and 18 will be full days.  So plan to travel on June 15 and June 19.
  * If you are attending the IBL Conference in Denver, TJ Hitchman suggests Alaska Airlines 860, which departs at 8:25 PM, Wednesday, June 18.
