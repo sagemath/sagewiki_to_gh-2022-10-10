@@ -28,6 +28,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
  * June 16, 17 and 18 will be full days.  So plan to travel on June 15 and June 19.
  * If you are attending the IBL Conference in Denver, TJ Hitchman suggests Alaska Airlines 860, which departs at 8:25 PM, Wednesday, June 18.
  * All activities will take place in the [[http://www.washington.edu/maps/#!/meb|Mechanical Engineering Building, MEB]].  [[http://www.css.washington.edu/room/MEB+238|MEB 238]] will be used for presentations and [[http://www.css.washington.edu/room/MEB+246|MEB 246]] will be used as a workspace.  We also have [[http://www.css.washington.edu/room/MEB+248|MEB 248]], for every day but Tuesday, as overflow or breakout workspace.
+ * [[attachment:Sage-Edu-Days-6-reimbursement.pdf|Reimbursement Form]] for participants at Sage Edu Days 6 whose travel was approved in advance for funding.  Please help us by submitting these '''as soon as possible,''' since our grant ends '''very soon.'''
 
 
 == Lodging ==
