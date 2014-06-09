@@ -94,7 +94,7 @@ This schedule is tentative, preliminary and evolving.  We are leaving plenty of 
 ||  5:00 PM     || Ten-minute survey ||                       || [[https://www.surveymonkey.com/s/SageEduDays2014Tues|Daily Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 18     || || ||
-||            || TBA            ||  Jane Long            ||   ||
+||  9:30 AM   || (Approximately) What/How Students Learn Sage at SFASU ||  Jane Long            ||   ||
 ||  Afternoon || Working Groups ||                       ||   ||
 ||  4:00 PM   || Status Reports  ||                       ||  ||
 ||  5:00 PM || Thirty-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageEduDays2014Post|Post-Survey]] ||
