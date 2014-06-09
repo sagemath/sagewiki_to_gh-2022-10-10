@@ -61,12 +61,13 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://kskedlaya.org|Kiran Kedlaya]] (University of California, San Diego)
  1. [[http://www.faculty.sfasu.edu/longjh/|Jane Long]] (Stephen F Austin State University, Texas)
  1. [[http://cires.colorado.edu/education/outreach/workwithus.html|Susan Lynds]] (University of Colorado)
+ 1. [[http://riemann.unizar.es/~mmarco/|Miguel Marco]] (Leibniz Universität Hannover)
  1. Alex Nowak (Bates College)
+ 1. [[http://www.csudh.edu/math/wpong/|Wai Yan Pong]] (California State University Dominguez Hills)
+ 1. Travis Scrimshaw (University of California Davis)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://math.mc.edu/travis|John Travis]] (Mississippi College)
  1. Michael Wise (Mississippi College)
- 1. Travis Scrimshaw (University of California Davis)
- 1. [[http://riemann.unizar.es/~mmarco/|Miguel Marco]] (Leibniz Universität Hannover)
 
 == Schedule ==
 
