@@ -10,12 +10,15 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
 
 === prochaines séances ===
 
- * 4 ème séance (mardi 3 juin): combinatoire
-   * les objets combinatoires (partitions, permutations, chemins de Dyck, etc)
-   * un peu de série formelles
-   * les espèces
-   * algèbre de Ore [[http://www.risc.jku.at/research/combinat/software/ore_algebra/|Ore algebra in Sage]]
-   * ...
+ * C/C++ dans Python. Date à déterminer via [[http://framadate.org/63jwplq1wtnzc96t|ce sondage]]
+   * [[http://cython.org|Cython]].
+   * compiler certaines parties d'un programme Python
+   * interfacer du code C/C++
+
+ * contribuer à Sage. Date à déterminer via ce [[http://framadate.org/ea8pdb75a4ozyq8g|ce sondage]]
+   * documentation: [[http://www.sagemath.org/doc/developer/|Developer guide]]
+   * le [[http://trac.sagemath.org|serveur trac]]
+   * le [[http://git.sagemath.org|serveur git]]
 
 === séances passées ===
 
@@ -45,17 +48,15 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
        * [[http://www.steinertriples.fr/ncohen/tut/LP/]]
        * [[http://sagemath.org/doc/thematic_tutorials/linear_programming.html|thematic tutorial on LP]]
 
+ * 4 ème séance (mardi 3 juin): combinatoire
+   * les objets combinatoires (partitions, permutations, chemins de Dyck, etc)
+   * un peu de série formelles
+   * les espèces
+   * algèbre de Ore [[http://www.risc.jku.at/research/combinat/software/ore_algebra/|Ore algebra in Sage]]
+   * ...
+
 === Sujets à aborder pour la suite ===
 
- * combinatoire
-    * les objets combinatoires de Sage (partitions, permutations, arbres, etc)
-    * l'interface à [[http://oeis.org|oeis]]
-    * un peu de séries formelles
-   On se basera en partie sur les tutoriels suivants
-    * [[http://sagemath.org/doc/thematic_tutorials/tutorial-comprehensions.html|thematic tutorial comprehensions]]
-    * [[http://sagemath.org/doc/reference/combinat/sage/combinat/tutorial.html|thematic tutorial on combinatorics]]
-
  * Les différents types de nombres (et catégories/parents/éléments, coercion, etc)
- * Programmation en C/Python via Cython
  * Cryptographie et Pari/GP (voir avec Bill Allombert)
  * ...
