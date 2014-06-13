@@ -8,12 +8,12 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
 
 === prochaines séances ===
 
- * C/C++ dans Python. Date à déterminer via [[http://framadate.org/63jwplq1wtnzc96t|ce sondage]]
+ * 5eme seance (mardi 24, 14h00, salle 076 au LaBRI): C/C++ dans Python et Sage
    * [[http://cython.org|Cython]].
    * compiler certaines parties d'un programme Python
    * interfacer du code C/C++
 
- * contribuer à Sage. Date à déterminer via ce [[http://framadate.org/ea8pdb75a4ozyq8g|ce sondage]]
+ * 6eme seance (mercredi 25 juin, 9h30, salle 076 au LaBRI):contribuer à Sage
    * documentation: [[http://www.sagemath.org/doc/developer/|Developer guide]]
    * le [[http://trac.sagemath.org|serveur trac]]
    * le [[http://git.sagemath.org|serveur git]]
