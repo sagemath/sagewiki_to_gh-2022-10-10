@@ -9,21 +9,22 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
 === prochaines séances ===
 
  * 5eme seance (mardi 24 juin, 14h00, salle 076 au LaBRI): C/C++ dans Python et Sage
-   * [[http://cython.org|Cython]].
-   * compiler certaines parties d'un programme Python
-   * interfacer du code C/C++
+    * [[http://cython.org|Cython]].
+    * compiler certaines parties d'un programme Python
+    * interfacer du code C/C++
 
  * 6eme seance (mercredi 25 juin, 9h30, salle 076 au LaBRI): contribuer à Sage
-   Avant de venir a cette séance, installer le logiciel git sur votre machine et faites une demande de compte trac (voir le premier paragraphe de [[http://trac.sagemath.org]]).
-   * documentation: [[http://www.sagemath.org/doc/developer/|Developer guide]]
-   * le [[http://trac.sagemath.org|serveur trac]]
-   * le [[http://git.sagemath.org|serveur git]]
-   Des exemples de tickets débutants pour cette séance:
-   * [[http://trac.sagemath.org/ticket/11258|#11258: Add documentation for plotting max and min functions]]
-   * [[http://trac.sagemath.org/ticket/14044|#14044: Document bdist env vars for Mac clearly]]
-   * [[http://trac.sagemath.org/ticket/15419|#15419: Add explicit documentation about ymin, ymax to Graphics.show]]
-   * [[http://trac.sagemath.org/ticket/11536|#11536: Add warning or optional or something to TransitiveGroups doc]]
-   * and more at [[http://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=new&order=priority&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~beginner&report=38|Beginners tickets]]
+ Avant de venir a cette séance, installer le logiciel git sur votre machine et faites une demande de compte trac (voir le premier paragraphe de [[http://trac.sagemath.org]]).
+    * documentation: [[http://www.sagemath.org/doc/developer/|Developer guide]]
+    * le [[http://trac.sagemath.org|serveur trac]]
+    * le [[http://git.sagemath.org|serveur git]]
+
+ Des exemples de tickets débutants pour cette séance:
+    * [[http://trac.sagemath.org/ticket/11258|#11258: Add documentation for plotting max and min functions]]
+    * [[http://trac.sagemath.org/ticket/14044|#14044: Document bdist env vars for Mac clearly]]
+    * [[http://trac.sagemath.org/ticket/15419|#15419: Add explicit documentation about ymin, ymax to Graphics.show]]
+    * [[http://trac.sagemath.org/ticket/11536|#11536: Add warning or optional or something to TransitiveGroups doc]]
+    * et plus à [[http://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=new&order=priority&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~beginner&report=38|Beginners tickets]]
 
 === séances passées ===
 
