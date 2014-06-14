@@ -18,7 +18,12 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
    * documentation: [[http://www.sagemath.org/doc/developer/|Developer guide]]
    * le [[http://trac.sagemath.org|serveur trac]]
    * le [[http://git.sagemath.org|serveur git]]
-   Les tickets débutants pour cette séance: [[http://trac.sagemath.org/ticket/11258|#11258]], 
+   Des exemples de tickets débutants pour cette séance:
+   * [[http://trac.sagemath.org/ticket/11258|#11258: Add documentation for plotting max and min functions]]
+   * [[http://trac.sagemath.org/ticket/14044|#14044: Document bdist env vars for Mac clearly]]
+   * [[http://trac.sagemath.org/ticket/15419|#15419: Add explicit documentation about ymin, ymax to Graphics.show]]
+   * [[http://trac.sagemath.org/ticket/11536|#11536: Add warning or optional or something to TransitiveGroups doc]]
+   * and more at [[http://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=new&order=priority&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~beginner&report=38|Beginners tickets]]
 
 === séances passées ===
 
