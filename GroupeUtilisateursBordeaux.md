@@ -18,6 +18,7 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
    * documentation: [[http://www.sagemath.org/doc/developer/|Developer guide]]
    * le [[http://trac.sagemath.org|serveur trac]]
    * le [[http://git.sagemath.org|serveur git]]
+   Les tickets débutants pour cette séance: [[trac.sagemath.org/ticket/11258|#11258]], 
 
 === séances passées ===
 
