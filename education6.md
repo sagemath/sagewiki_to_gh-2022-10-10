@@ -60,6 +60,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
  1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
  1. [[http://kskedlaya.org|Kiran Kedlaya]] (University of California, San Diego)
+ 1. [[http://www.math.washington.edu/~lieblich|Max Lieblich]] (University of Washington, Seattle)
  1. [[http://www.faculty.sfasu.edu/longjh/|Jane Long]] (Stephen F Austin State University, Texas)
  1. [[http://cires.colorado.edu/education/outreach/workwithus.html|Susan Lynds]] (University of Colorado)
  1. [[http://riemann.unizar.es/~mmarco/|Miguel Marco]] (Leibniz Universität Hannover)
