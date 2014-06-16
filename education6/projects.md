@@ -19,7 +19,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  *  Sage servers
 
 === Bruce Cohen ===
- *  WebWork
+ *  !WebWork
  *  Calculus
  *  !SageMathCloud
 
@@ -41,7 +41,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 
 === John Travis ===
  *  Authoring
- *  WebWork
+ *  !WebWork
 
 === Jonathan Lee ===
  *  !SageMathCloud development
