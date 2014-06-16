@@ -62,6 +62,8 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://math.mc.edu/travis|John Travis]] (Mississippi College)
  1. Michael Wise (Mississippi College)
+ 1. Chris Kees (Coastal and Hydraulics Laboratory, US Army ERDC)
+ 1. Kevin Winters (Coastal and Hydraulics Laboratory, US Army ERDC)
 
 == Mailing Lists ==
 
