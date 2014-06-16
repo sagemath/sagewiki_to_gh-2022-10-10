@@ -7,6 +7,59 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Learning how to create interacts for the Sage library.
  * Learning how to contribute new code to Sage.
 
+=== Alex Nowak ===
+ *  Sage development 
+ *  Tropical algebra
+
+
+=== Andy Huchala ===
+ *  Documenting !SageMathCloud
+
+=== Audrey N ===
+ *  Sage servers
+
+=== Bruce Cohen ===
+ *  WebWork
+ *  Calculus
+ *  !SageMathCloud
+
+=== Chris Keys ===
+ *  PDEs
+ *  Distributions
+ *  Web apps
+
+=== Greg Bard ===
+ *  Book: Sage for Undergraduates
+ *  Interacts
+
+=== Keith Clawson ===
+ *  !SageMathCloud systems
+
+=== Jane Long ===
+ *  Switching department materials to !SageMathCloud
+ *  Interacts for online course for education majors
+
+=== John Travis ===
+ *  Authoring
+ *  WebWork
+
+=== Jonathan Lee ===
+ *  !SageMathCloud development
+
+=== Kevin ===
+ *  Web interface
+ *  Numerical tools
+
+=== Michael Wise ===
+ *  Getting started
+ *  Looking for a good project!
+
+=== Nathan Carter ===
+ *  Sage coding for non-coders
+
+=== Nicholas Ruhland ===
+ *  !SageMathCloud front-end
+
 === Rob Beezer ===
  *  Book-length documents to Sage worksheets via !MathBook XML
  *  Fine-tune !MathBook XML's CSS for !SageMathCloud, iPython notebooks, Sage worksheets
@@ -20,62 +73,10 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  *  Abstract Algebra book fine-tuning, via !MathBook XML
  *  ODE book: incorporate Sage
 
-=== Jane Long ===
- *  Switching department materials to !SageMathCloud
- *  Interacts for online course for education majors
-
-=== Keith Clawson ===
- *  !SageMathCloud systems
-
-=== Bruce Cohen ===
- *  WebWork
- *  Calculus
- *  !SageMathCloud
-
-=== Alex Nowak ===
- *  Sage development 
- *  Tropical algebra
-
-=== Audrey N ===
- *  Sage servers
-
-=== Nathan Carter ===
- *  Sage coding for non-coders
-
-=== John Travis ===
- *  Authoring
- *  WebWork
-
-=== Michael Wise ===
- *  Getting started
- *  Looking for a good project!
-
-=== Chris Keys ===
- *  PDEs
- *  Distributions
- *  Web apps
-
-=== Greg Bard ===
- *  Book: Sage for Undergraduates
- *  Interacts
-
 === Travis Scrimshaw ===
  *  Thematic Tutorials: Crystals
  *  Lie Algebras
  *  Categories
-
-=== Kevin ===
- *  Web interface
- *  Numerical tools
-
-=== Jonathan Lee ===
- *  !SageMathCloud development
-
-=== Nicholas Ruhland ===
- *  !SageMathCloud front-end
-
-=== Andy Huchala ===
- *  Documenting !SageMathCloud
 
 === William Stein ===
  *  !SageMathCloud
