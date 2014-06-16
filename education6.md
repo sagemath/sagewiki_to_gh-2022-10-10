@@ -14,6 +14,60 @@ Funded by the National Science Foundation Division of Undergraduate Education.
  * [[education4|Sage Education Days 4 (June 13-15, 2012)]]
  * [[education5|Sage Education Days 5 (June 19-21, 2013)]]
 
+== Schedule ==
+
+This schedule is tentative, preliminary and evolving.  We are leaving plenty of time in the afternoons and evenings for small working groups that will organize at the conference to get things done.
+||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
+|| || || || ||
+||<rowstyle="background-color: #E0E0FF;"> ||      || || ||
+||           || Homework     || || [[https://www.surveymonkey.com/s/SageEduDays2014Pre|Pre-Survey]] ||
+|| || || ||  ||
+||<rowstyle="background-color: #E0E0FF;"> Monday  || June 16     || || ||
+||  9:30 AM   || Introductions||                       ||   ||
+||  11:00 AM  || State of the !SageMathCloud [[attachment:stein-smc.pdf]] || William Stein || [[https://cloud.sagemath.com/|SageMathCloud]]  ||
+||  Noon      || 2014 Spies Sage Development Prize || William Stein ||  [[http://www.sagemath.org/development-prize.html|Annual Spies Sage Development Prize]] ||
+||  Afternoon || Working Groups ||                       ||   ||
+||  4:00 PM   || Status Reports  ||                       ||  ||
+||  5:00 PM   || Ten-minute survey ||                       ||  [[https://www.surveymonkey.com/s/SageEduDays2014Mon|Daily Survey]]||
+|| || || ||  ||
+||<rowstyle="background-color: #E0E0FF;"> Tuesday  || June 17     || || ||
+||  9:30 AM     || !MathBook XML  ||  Rob Beezer           || [[http://mathbook.pugetsound.edu|MathBook XML]]  ||
+||  After Lunch || Discussion: SMC Support for Courses ||                       ||   ||
+||  Afternoon   || Working Groups ||                       ||   ||
+||  4:00 PM     || Status Reports  ||                       ||  ||
+||  5:00 PM     || Ten-minute survey ||                       || [[https://www.surveymonkey.com/s/SageEduDays2014Tues|Daily Survey]] ||
+|| || || ||  ||
+||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 18     || || ||
+||  9:30 AM   || (Approximately) What/How Students Learn Sage at SFASU ||  Jane Long            ||   ||
+||  Afternoon || Working Groups ||                       ||   ||
+||  4:00 PM   || Status Reports  ||                       ||  ||
+||  5:00 PM || Thirty-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageEduDays2014Post|Post-Survey]] ||
+|| || || ||  ||
+
+== Participants ==
+
+To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page located [[http://trac.sagemath.org/sage_trac|here]].  As a last resort, email Rob Beezer  at beezer@ups.edu and he'll add your name (please include a relevant web link, if available).
+
+ 1. [[http://www.gregorybard.com|Gregory Bard]] (University of Wisconsin---Stout)
+ 1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
+ 1. [[http://web.bentley.edu/empl/c/ncarter/|Nathan Carter]] (Bentley University)
+ 1. [[http://tetrahedra.net/|Bruce Cohen]] (Lowell High School, San Francisco)
+ 1. [[http://www.math.umanitoba.ca/people/faculty.php?id=Michael_Doob|Michael Doob]] (University of Manitoba, Canada) -- unable to attend, 2014/06/12
+ 1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
+ 1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
+ 1. [[http://kskedlaya.org|Kiran Kedlaya]] (University of California, San Diego)
+ 1. [[http://www.math.washington.edu/~lieblich|Max Lieblich]] (University of Washington, Seattle)
+ 1. [[http://www.faculty.sfasu.edu/longjh/|Jane Long]] (Stephen F Austin State University, Texas)
+ 1. [[http://cires.colorado.edu/education/outreach/workwithus.html|Susan Lynds]] (University of Colorado)
+ 1. [[http://riemann.unizar.es/~mmarco/|Miguel Marco]] (Leibniz Universität Hannover)
+ 1. Alex Nowak (Bates College)
+ 1. [[http://www.csudh.edu/math/wpong/|Wai Yan Pong]] (California State University Dominguez Hills)
+ 1. Travis Scrimshaw (University of California Davis)
+ 1. [[http://wstein.org/|William Stein]] (University of Washington)
+ 1. [[http://math.mc.edu/travis|John Travis]] (Mississippi College)
+ 1. Michael Wise (Mississippi College)
+
+
 == Organizers ==
 
  * Rob Beezer [[http://buzzard.ups.edu]]
@@ -48,58 +102,7 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
  * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
 
-== Participants ==
 
-To register, please add yourself alphabetically by last name.  You need to request a Trac account to be able to login to the wiki - you can do that by following the instructions at the top of the page located [[http://trac.sagemath.org/sage_trac|here]].  As a last resort, email Rob Beezer  at beezer@ups.edu and he'll add your name (please include a relevant web link, if available).
-
- 1. [[http://www.gregorybard.com|Gregory Bard]] (University of Wisconsin---Stout)
- 1. [[http://buzzard.ups.edu|Rob Beezer]] (University of Puget Sound)
- 1. [[http://web.bentley.edu/empl/c/ncarter/|Nathan Carter]] (Bentley University)
- 1. [[http://tetrahedra.net/|Bruce Cohen]] (Lowell High School, San Francisco)
- 1. [[http://www.math.umanitoba.ca/people/faculty.php?id=Michael_Doob|Michael Doob]] (University of Manitoba, Canada) -- unable to attend, 2014/06/12
- 1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
- 1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
- 1. [[http://kskedlaya.org|Kiran Kedlaya]] (University of California, San Diego)
- 1. [[http://www.math.washington.edu/~lieblich|Max Lieblich]] (University of Washington, Seattle)
- 1. [[http://www.faculty.sfasu.edu/longjh/|Jane Long]] (Stephen F Austin State University, Texas)
- 1. [[http://cires.colorado.edu/education/outreach/workwithus.html|Susan Lynds]] (University of Colorado)
- 1. [[http://riemann.unizar.es/~mmarco/|Miguel Marco]] (Leibniz Universität Hannover)
- 1. Alex Nowak (Bates College)
- 1. [[http://www.csudh.edu/math/wpong/|Wai Yan Pong]] (California State University Dominguez Hills)
- 1. Travis Scrimshaw (University of California Davis)
- 1. [[http://wstein.org/|William Stein]] (University of Washington)
- 1. [[http://math.mc.edu/travis|John Travis]] (Mississippi College)
- 1. Michael Wise (Mississippi College)
-
-== Schedule ==
-
-This schedule is tentative, preliminary and evolving.  We are leaving plenty of time in the afternoons and evenings for small working groups that will organize at the conference to get things done.
-||<rowstyle="background-color: #E0E0FF;"> || Topic || Speaker || Links ||
-|| || || || ||
-||<rowstyle="background-color: #E0E0FF;"> ||      || || ||
-||           || Homework     || || [[https://www.surveymonkey.com/s/SageEduDays2014Pre|Pre-Survey]] ||
-|| || || ||  ||
-||<rowstyle="background-color: #E0E0FF;"> Monday  || June 16     || || ||
-||  9:30 AM   || Introductions||                       ||   ||
-||  11:00 AM  || State of the !SageMathCloud [[attachment:stein-smc.pdf]] || William Stein || [[https://cloud.sagemath.com/|SageMathCloud]]  ||
-||  Noon      || 2014 Spies Sage Development Prize || William Stein ||  [[http://www.sagemath.org/development-prize.html|Annual Spies Sage Development Prize]] ||
-||  Afternoon || Working Groups ||                       ||   ||
-||  4:00 PM   || Status Reports  ||                       ||  ||
-||  5:00 PM   || Ten-minute survey ||                       ||  [[https://www.surveymonkey.com/s/SageEduDays2014Mon|Daily Survey]]||
-|| || || ||  ||
-||<rowstyle="background-color: #E0E0FF;"> Tuesday  || June 17     || || ||
-||  9:30 AM     || !MathBook XML  ||  Rob Beezer           || [[http://mathbook.pugetsound.edu|MathBook XML]]  ||
-||  After Lunch || Discussion: SMC Support for Courses ||                       ||   ||
-||  Afternoon   || Working Groups ||                       ||   ||
-||  4:00 PM     || Status Reports  ||                       ||  ||
-||  5:00 PM     || Ten-minute survey ||                       || [[https://www.surveymonkey.com/s/SageEduDays2014Tues|Daily Survey]] ||
-|| || || ||  ||
-||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 18     || || ||
-||  9:30 AM   || (Approximately) What/How Students Learn Sage at SFASU ||  Jane Long            ||   ||
-||  Afternoon || Working Groups ||                       ||   ||
-||  4:00 PM   || Status Reports  ||                       ||  ||
-||  5:00 PM || Thirty-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageEduDays2014Post|Post-Survey]] ||
-|| || || ||  ||
 
 == UW Campus Wireless ==
 {{{
