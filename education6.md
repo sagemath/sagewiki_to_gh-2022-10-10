@@ -26,6 +26,8 @@ This schedule is tentative, preliminary and evolving.  We are leaving plenty of 
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday  || June 17     || || ||
 ||  9:30 AM     || !MathBook XML  ||  Rob Beezer           || [[http://mathbook.pugetsound.edu|MathBook XML]]  ||
+|| 10:45 AM     || Hashdist   || Chris Keys || ||
+|| 11:15 AM     || IPython Interactive Widgets  || Kevin Winters || ||
 ||  After Lunch || Discussion: SMC Support for Courses ||                       ||   ||
 ||  Afternoon   || Working Groups ||                       ||   ||
 ||  4:00 PM     || Status Reports  ||                       ||  ||
