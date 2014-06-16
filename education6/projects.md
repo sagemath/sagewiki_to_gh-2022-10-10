@@ -24,6 +24,58 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  *  Switching department materials to !SageMathCloud
  *  Interacts for online course for education majors
 
-=== Miguel Marco ===
- *  DE solver
- *  Development
+=== Keith Clawson ===
+ *  SMC systems
+
+=== Bruce Cohen ===
+ *  WebWork
+ *  Calculus
+ *  SMC
+
+=== Alex Nowak ===
+ *  Sage development 
+ *  Tropical algebra
+
+=== Audrey N ===
+ *  Sage servers
+
+=== Nathan Carter ===
+ *  Sage coding for non-coders
+
+=== John Travis ===
+ *  Authoring
+ *  WebWork
+
+=== Michael Wise ===
+ *  Getting started
+ *  Looking for a good project!
+
+=== Chris Keys ===
+ *  PDEs
+ *  Distributions
+ *  Web apps
+
+=== Greg Bard ===
+ *  Book: Sage for Undergraduates
+ *  Interacts
+
+=== Travis Scrimshaw ===
+ *  Thematic Tutorials: Crystals
+ *  Lie Algebras
+ *  Categories
+
+=== Kevin ===
+ *  Web interface
+ *  Numerical tools
+
+=== Jonathan Lee ===
+ *  SMC development
+
+=== Nicholas Ruhland ===
+ *  SMC front-end
+
+=== Andy Huchala ===
+ *  Documenting SMC
+
+=== William Stein ===
+ *  SMC 
