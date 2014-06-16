@@ -81,7 +81,7 @@ This schedule is tentative, preliminary and evolving.  We are leaving plenty of 
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Monday  || June 16     || || ||
 ||  9:30 AM   || Introductions||                       ||   ||
-||  11:00 AM  || State of the !SageMathCloud || William Stein || [[https://cloud.sagemath.com/|SageMathCloud]]  ||
+||  11:00 AM  || State of the !SageMathCloud [[attachment:stein-smc.pdf]] || William Stein || [[https://cloud.sagemath.com/|SageMathCloud]]  ||
 ||  Noon      || 2014 Spies Sage Development Prize || William Stein ||  [[http://www.sagemath.org/development-prize.html|Annual Spies Sage Development Prize]] ||
 ||  Afternoon || Working Groups ||                       ||   ||
 ||  4:00 PM   || Status Reports  ||                       ||  ||
