@@ -75,7 +75,9 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  * Learning how to contribute new code to Sage.
 
 === Rob Beezer ===
- *  
+ *  Book-length documents to Sage worksheets via !MathBook XML
+ *  Fine-tune !MathBook XML's CSS for !SageMathCloud, iPython notebooks, Sage worksheets
+ *  Learn Sage development git workflow
 
 == Organizers ==
 
