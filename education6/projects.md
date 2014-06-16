@@ -15,7 +15,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 === Andy Huchala ===
  *  Documenting !SageMathCloud
 
-=== Audrey N ===
+=== Andrey Novoseltsev  ===
  *  Sage servers
 
 === Bruce Cohen ===
