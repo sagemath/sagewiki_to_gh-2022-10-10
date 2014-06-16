@@ -35,6 +35,10 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 === Keith Clawson ===
  *  !SageMathCloud systems
 
+=== Kiran Kedlaya ===
+ *  XML catch-up
+ *  Determine future plans
+
 === Jane Long ===
  *  Switching department materials to !SageMathCloud
  *  Interacts for online course for education majors
