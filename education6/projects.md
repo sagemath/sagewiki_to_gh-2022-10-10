@@ -25,12 +25,12 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  *  Interacts for online course for education majors
 
 === Keith Clawson ===
- *  SMC systems
+ *  !SageMathCloud systems
 
 === Bruce Cohen ===
  *  WebWork
  *  Calculus
- *  SMC
+ *  !SageMathCloud
 
 === Alex Nowak ===
  *  Sage development 
@@ -69,13 +69,13 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  *  Numerical tools
 
 === Jonathan Lee ===
- *  SMC development
+ *  !SageMathCloud development
 
 === Nicholas Ruhland ===
- *  SMC front-end
+ *  !SageMathCloud front-end
 
 === Andy Huchala ===
- *  Documenting SMC
+ *  Documenting !SageMathCloud
 
 === William Stein ===
- *  SMC 
+ *  !SageMathCloud
