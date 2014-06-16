@@ -4,6 +4,8 @@ The Sixth [[http://www.sagemath.org|Sage]] Education Days will be held in conjun
 
 Funded by the National Science Foundation Division of Undergraduate Education.
 
+[[projects]]
+
 <<TableOfContents>>
 
 == Schedule ==
