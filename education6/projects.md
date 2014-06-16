@@ -46,7 +46,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
 === Jonathan Lee ===
  *  !SageMathCloud development
 
-=== Kevin ===
+=== Kevin Winters ===
  *  Web interface
  *  Numerical tools
 
