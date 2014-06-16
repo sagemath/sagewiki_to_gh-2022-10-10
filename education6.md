@@ -21,7 +21,7 @@ This schedule is tentative, preliminary and evolving.  We are leaving plenty of 
 ||  11:00 AM  || State of the !SageMathCloud || William Stein || [[https://cloud.sagemath.com/|SageMathCloud]], [[attachment:stein-smc.pdf]]  [[http://youtu.be/dctYHEb-daU|video (part 1 of 2)]]   [[http://youtu.be/wqLPCmgnkh0|(part 2 or 2)]]   ||
 ||  Noon      || 2014 Spies Sage Development Prize || William Stein ||  [[http://www.sagemath.org/development-prize.html|Annual Spies Sage Development Prize]] ||
 ||  Afternoon || Working Groups ||                       ||   ||
-||  4:00 PM   || Status Reports  ||                       ||  ||
+||  4:00 PM   || Status Reports  ||                       || [[http://youtu.be/7Cij7OA9n3I|part 1]]   [[http://youtu.be/WCM_6zvPlY4|part 2]]  ||
 ||  5:00 PM   || Ten-minute survey ||                       ||  [[https://www.surveymonkey.com/s/SageEduDays2014Mon|Daily Survey]]||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday  || June 17     || || ||
