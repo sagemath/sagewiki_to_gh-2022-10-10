@@ -23,7 +23,7 @@ Sage Days typically allow a great deal of unstructured time to work on projects,
  *  Calculus
  *  !SageMathCloud
 
-=== Chris Keys ===
+=== Chris Kees ===
  *  PDEs
  *  Distributions
  *  Web apps
