@@ -6,14 +6,6 @@ Funded by the National Science Foundation Division of Undergraduate Education.
 
 <<TableOfContents>>
 
-== Previous Sage Education Days ==
-
- * [[education1|Sage Education Day  1 (December 5, 2009)]]
- * [[education2|Sage Education Day  2 (February 24, 2010)]] (and [[education2fr | in French]])
- * [[education3|Sage Education Days 3 (June 16-18, 2011)]]
- * [[education4|Sage Education Days 4 (June 13-15, 2012)]]
- * [[education5|Sage Education Days 5 (June 19-21, 2013)]]
-
 == Schedule ==
 
 This schedule is tentative, preliminary and evolving.  We are leaving plenty of time in the afternoons and evenings for small working groups that will organize at the conference to get things done.
@@ -67,6 +59,23 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://math.mc.edu/travis|John Travis]] (Mississippi College)
  1. Michael Wise (Mississippi College)
 
+== Mailing Lists ==
+
+ * The mailing list for [[https://groups.google.com/forum/#!forum/sagedays58|Sage Days 58]],  will be used for Education Days 6 as well.  Please add yourself to this list if you are not already on it.  This will be the primary/only vehicle for announcements before and during the workshop, and last-minute changes during the week.
+
+ * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
+
+== Projects ==
+
+Sage Days typically allow a great deal of unstructured time to work on projects, either in groups or with the assistance of experts that are available.  Please plan to have a project to work on.  Examples could be:
+
+ * Learning a new area of Sage in preparation for teaching a course.
+ * Preparing worksheets for a course.
+ * Learning how to create interacts for the Sage library.
+ * Learning how to contribute new code to Sage.
+
+=== Rob Beezer ===
+ *  
 
 == Organizers ==
 
@@ -96,19 +105,19 @@ To register, please add yourself alphabetically by last name.  You need to reque
  * We plan to have some rooms at [[http://www.uwmedicine.org/patient-resources/lodging/collegiana|The Collegianna]], but they cannot confirm those until we are closer to the event.
  * (2014/04/16) More lodging information will be coming soon.
 
-== Mailing Lists ==
-
- * The mailing list for [[https://groups.google.com/forum/#!forum/sagedays58|Sage Days 58]],  will be used for Education Days 6 as well.  Please add yourself to this list if you are not already on it.  This will be the primary/only vehicle for announcements before and during the workshop, and last-minute changes during the week.
-
- * There is also a list specifically for discussing [[http://groups.google.com/group/sage-edu|education and Sage]].
-
-
-
 == UW Campus Wireless ==
 {{{
 UW NetID:   event0403    
 Password:   8V2D:9M7R:3E2H
 }}}
+
+== Previous Sage Education Days ==
+
+ * [[education1|Sage Education Day  1 (December 5, 2009)]]
+ * [[education2|Sage Education Day  2 (February 24, 2010)]] (and [[education2fr | in French]])
+ * [[education3|Sage Education Days 3 (June 16-18, 2011)]]
+ * [[education4|Sage Education Days 4 (June 13-15, 2012)]]
+ * [[education5|Sage Education Days 5 (June 19-21, 2013)]]
 
 
 {{{#!wiki comment
