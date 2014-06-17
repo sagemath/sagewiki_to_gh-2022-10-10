@@ -91,9 +91,9 @@ To register, please add yourself alphabetically by last name.  You need to reque
 
 == Pictures ==
 
-||<:99%> {{attachment:workshop-sage-edudays-6.jpg}}||
+||<:99%> {{attachment:workshop-edudays-6.jpg}}||
 ||<:99%> Working Groups ||
-||<:99%> {{attachment:bbold-sage-edudays-6.jpg}}||
+||<:99%> {{attachment:bbbold-edudays-6.jpg}}||
 ||<:99%> Logistics ||
 
 == Lodging ==
