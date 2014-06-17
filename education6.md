@@ -30,7 +30,8 @@ This schedule is tentative, preliminary and evolving.  We are leaving plenty of 
 || 11:15 AM     || IPython Interactive Widgets  || Kevin Winters || ||
 ||  After Lunch || Discussion: SMC Support for Courses ||    William Stein                   ||   ||
 ||  Afternoon   || Working Groups ||                       ||   ||
-||  4:00 PM     || Status Reports  ||                       ||  ||
+||  4:00 PM     || UTMOST PI Meeting  ||                       ||  ||
+||  4:30 PM     || Status Reports  ||                       ||  ||
 ||  5:00 PM     || Ten-minute survey ||                       || [[https://www.surveymonkey.com/s/SageEduDays2014Tues|Daily Survey]] ||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 18     || || ||
