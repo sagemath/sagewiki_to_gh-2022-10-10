@@ -64,6 +64,7 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. Michael Wise (Mississippi College)
  1. Chris Kees (Coastal and Hydraulics Laboratory, US Army ERDC)
  1. Kevin Winters (Coastal and Hydraulics Laboratory, US Army ERDC)
+ 1. [[http://faculty.washington.edu/rjl/|Randy LeVeque]] (University of Washington)
 
 == Mailing Lists ==
 
