@@ -28,7 +28,7 @@ This schedule is tentative, preliminary and evolving.  We are leaving plenty of 
 ||  9:30 AM     || !MathBook XML  ||  Rob Beezer           || [[http://mathbook.pugetsound.edu|MathBook XML]] [[http://youtu.be/1Kw359-d2Uw|video part 1/2]]  [[http://youtu.be/GrO3DvC3VLs|video part 2/2]] ||
 || 10:45 AM     || Hashdist   || Chris Kees || ||
 || 11:15 AM     || IPython Interactive Widgets  || Kevin Winters || ||
-||  1:30 PM || [[Discussion: SMC Support for Courses|/discussion]] ||    William Stein                   ||   ||
+||  1:30 PM || [[/discussion|Discussion: SMC Support for Courses]]  ||    William Stein                   ||   ||
 ||  3:00 PM || Informal technical discussion about bup || Rob Browning ||   ||
 ||  Afternoon   || Working Groups ||                       ||   ||
 ||  4:00 PM     || UTMOST PI Meeting  ||                       ||  ||
