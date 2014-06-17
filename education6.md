@@ -28,7 +28,7 @@ This schedule is tentative, preliminary and evolving.  We are leaving plenty of 
 ||  9:30 AM     || !MathBook XML  ||  Rob Beezer           || [[http://mathbook.pugetsound.edu|MathBook XML]]  ||
 || 10:45 AM     || Hashdist   || Chris Kees || ||
 || 11:15 AM     || IPython Interactive Widgets  || Kevin Winters || ||
-||  After Lunch || Discussion: SMC Support for Courses ||    William Stein                   ||   ||
+||  1:30 PM || Discussion: SMC Support for Courses ||    William Stein                   ||   ||
 ||  Afternoon   || Working Groups ||                       ||   ||
 ||  4:00 PM     || UTMOST PI Meeting  ||                       ||  ||
 ||  4:30 PM     || Status Reports  ||                       ||  ||
