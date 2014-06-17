@@ -88,6 +88,12 @@ To register, please add yourself alphabetically by last name.  You need to reque
  * All activities will take place in the [[http://www.washington.edu/maps/#!/meb|Mechanical Engineering Building, MEB]].  [[http://www.css.washington.edu/room/MEB+238|MEB 238]] will be used for presentations and [[http://www.css.washington.edu/room/MEB+246|MEB 246]] will be used as a workspace.  We also have [[http://www.css.washington.edu/room/MEB+248|MEB 248]], for every day but Tuesday, as overflow or breakout workspace.
  * [[attachment:Sage-Edu-Days-6-reimbursement.pdf|Reimbursement Form]] for participants at Sage Edu Days 6 whose travel was approved in advance for funding.  Please help us by submitting these '''as soon as possible,''' since our grant ends '''very soon.'''
 
+== Pictures ==
+
+||<:99%> {{attachment:workshop-sage-edudays-6.jpg}}||
+||<:99%> Working Groups ||
+||<:99%> {{attachment:bbold-sage-edudays-6.jpg}}||
+||<:99%> Logistics ||
 
 == Lodging ==
  * We have a block of rooms reserved at [[http://www.hoteldeca.com/|Hotel Deca]] right at the NW corner of campus and in the heart of the business dostrict close to the University.  Information for making a reservation is:
