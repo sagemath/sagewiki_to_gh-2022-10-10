@@ -52,7 +52,9 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. [[http://www.math.umanitoba.ca/people/faculty.php?id=Michael_Doob|Michael Doob]] (University of Manitoba, Canada) -- unable to attend, 2014/06/12
  1. [[http://www.uni.edu/theron|TJ Hitchman]] (University of Northern Iowa)
  1. [[http://faculty.sfasu.edu/judsontw/|Tom Judson]] (Stephen F Austin State University, Texas)
+ 1. Chris Kees (Coastal and Hydraulics Laboratory, US Army ERDC)
  1. [[http://kskedlaya.org|Kiran Kedlaya]] (University of California, San Diego)
+ 1. [[http://faculty.washington.edu/rjl/|Randy LeVeque]] (University of Washington)
  1. [[http://www.math.washington.edu/~lieblich|Max Lieblich]] (University of Washington, Seattle)
  1. [[http://www.faculty.sfasu.edu/longjh/|Jane Long]] (Stephen F Austin State University, Texas)
  1. [[http://cires.colorado.edu/education/outreach/workwithus.html|Susan Lynds]] (University of Colorado)
@@ -62,10 +64,8 @@ To register, please add yourself alphabetically by last name.  You need to reque
  1. Travis Scrimshaw (University of California Davis)
  1. [[http://wstein.org/|William Stein]] (University of Washington)
  1. [[http://math.mc.edu/travis|John Travis]] (Mississippi College)
- 1. Michael Wise (Mississippi College)
- 1. Chris Kees (Coastal and Hydraulics Laboratory, US Army ERDC)
  1. Kevin Winters (Coastal and Hydraulics Laboratory, US Army ERDC)
- 1. [[http://faculty.washington.edu/rjl/|Randy LeVeque]] (University of Washington)
+ 1. Michael Wise (Mississippi College)
 
 == Mailing Lists ==
 
