@@ -364,3 +364,4 @@ def _(T=slider([0..100],default=100,label='People surveyed'),X=slider([0..100],d
     else:
         G.show(aspect_ratio=1, axes=False)
 }}}
+{{attachment:vennjhl.png}}
