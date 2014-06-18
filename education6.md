@@ -25,7 +25,7 @@ This schedule is tentative, preliminary and evolving.  We are leaving plenty of 
 ||  5:00 PM   || Ten-minute survey ||                       ||  [[https://www.surveymonkey.com/s/SageEduDays2014Mon|Daily Survey]]||
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Tuesday  || June 17     || || ||
-||  9:30 AM     || !MathBook XML  ||  Rob Beezer           || [[http://mathbook.pugetsound.edu|MathBook XML]] [[http://youtu.be/1Kw359-d2Uw|video part 1/2]]  [[http://youtu.be/GrO3DvC3VLs|video part 2/2]] ||
+||  9:30 AM     || !MathBook XML  ||  Rob Beezer           || [[http://mathbook.pugetsound.edu|MathBook XML]] [[http://youtu.be/1Kw359-d2Uw|video part 1/2]]  [[http://youtu.be/GrO3DvC3VLs|video part 2/2]]  [[http://buzzard.ups.edu/talks/beezer-2014-sage-edu-days-6/sed-6-talk.html|HTML]] [[http://buzzard.ups.edu/talks/beezer-2014-sage-edu-days-6.pdf|PDF]]||
 || 10:45 AM     || Hashdist   || Chris Kees || [[http://youtu.be/no4MyXn4Uik|video part 1/2]]   [[http://youtu.be/5w_UpX3nhX4|video part 2/2]] ||
 || 11:15 AM     || IPython Interactive Widgets  || Kevin Winters || [[http://youtu.be/AntjkbXv1bA|video]] ||
 ||  1:30 PM || [[/discussion|Discussion: SMC Support for Courses]]  ||    William Stein                   ||   ||
