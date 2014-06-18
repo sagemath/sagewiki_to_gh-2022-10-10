@@ -297,11 +297,6 @@ by Jane Long (adapted from http://wiki.sagemath.org/interact/misc)
 This interact models a problem in which a certain number of people are surveyed to see if they participate in three different activities (running, biking, and swimming). Users can indicate the numbers of people in each category, from 0 to 100. Returns a graphic of a labeled Venn diagram with the number of people in each region. Returns an explanatory error message if user input is inconsistent. 
 
 {{{#!sagecell
-# Adapted from http://wiki.sagemath.org/interact/misc
-# An_Interactive_Venn_Diagram
-
-# This interact models problems in which a certain number of people are surveyed to see if they participate in three different activities (running, biking, and swimming). Users can indicate the numbers of people, from 0 to 100. Returns a graphic of a labeled Venn diagram with the number of people in each region. Returns an explanatory error message if user input is inconsistent. 
-
 @interact
 def _(T=slider([0..100],default=100,label='People surveyed'),X=slider([0..100],default=28,label='Run'), Y=slider([0..100],default=33,label='Bike'), Z=slider([0..100],default=59,label='Swim'),XY=slider([0..100],default=16,label='Run and Bike'),XZ=slider([0..100],default=13,label='Run and Swim'),YZ=slider([0..100],default=12,label='Bike and Swim'),XYZ=slider([0..100],default=7,label='Run, Bike, and Swim')):
     
