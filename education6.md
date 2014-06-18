@@ -37,6 +37,7 @@ This schedule is tentative, preliminary and evolving.  We are leaving plenty of 
 || || || ||  ||
 ||<rowstyle="background-color: #E0E0FF;"> Wednesday  || June 18     || || ||
 ||  9:30 AM   || (Approximately) What/How Students Learn Sage at SFASU ||  Jane Long            || [[http://youtu.be/ogLq5TZE8Kg|video]]   ||
+||  10:00 AM   || No code, please ||  Nathan Carter            ||    ||
 ||  Afternoon || Working Groups ||                       ||   ||
 ||  4:00 PM   || Status Reports  ||                       ||  ||
 ||  5:00 PM || Thirty-minute survey                       ||                       || [[https://www.surveymonkey.com/s/SageEduDays2014Post|Post-Survey]] ||
