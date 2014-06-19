@@ -4,7 +4,7 @@
 
 Goal: Develop SageMathCloud, the SageCell server, IPython, and any other web-related technology connected with Sage.
 
-Location: UW on June 16,17,18 and at [[http://www.homeaway.com/vacation-rental/p906894|This House]] on June 19,20, etc.
+Location: UW on June 16,17,18 and at [[http://www.homeaway.com/vacation-rental/p906894|This House]] at [[https://goo.gl/maps/Jydah|this location]] on June 19 (starting at about 6pm), 20, etc.
 
 == Confirmed Participants ==
 
