@@ -18,4 +18,4 @@ Location: [[http://www.homeaway.com/vacation-rental/p906894|This House]]
  * Martin Albrecht (London, June 24-30) 
  * Julian Rüth (Germany, June 19-29)
  * R. Andrew Ohana (Seattle)
- * Simon Spicer (Seattle)
+ * Simon Spicer (Seattle, June 23-27)
