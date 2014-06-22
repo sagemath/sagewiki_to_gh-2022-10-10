@@ -50,6 +50,7 @@ Friday: Check-out late morning
  * [[http://trac.sagemath.org/sage_trac/|Getting a Trac Account]] This process can take a few days, start this as soon as possible. 
  * [[http://wiki.sagemath.org/Installing_Editing_Software|Installing Editing Software]]
  * [[http://wiki.sagemath.org/problem_sets|Tutorials and Problem Sets]]
+ * [[attachment:Intro To Patching With Git]]
 
 
 == Other Info ==
