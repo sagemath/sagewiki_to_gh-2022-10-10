@@ -35,6 +35,16 @@ Thursday: TBD
 
 Friday: Check-out late morning
 
+== Participants ==
+ * [[http://www.eiu.edu/math/personnel.php?id=aalvarado2|Alejandra Alvarado]] (Eastern Illinois University)
+ * [[http://math.umn.edu/~goods052/|Heidi Goodson]] (University of Minnesota)
+ * [[https://www.usm.edu/gulfcoast/science-technology/karen-kohl-phd|Karen Kohl]] (University of Southern Mississippi)
+ * Alicia Marino (Wesleyan University)
+ * Laura Peskin (University of British Columbia)
+ * [[https://sites.google.com/site/katethompsonhomepage/|Kate Thompson]] (Davidson College)
+ * [[http://math.stanford.edu/~cvincent/|Christelle Vincent]] (Stanford University)
+ * [[http://www.mathcs.emory.edu/~mwest6/|Mckenzie West]] (Emory Universtiy)
+
 == Getting Started ==
  * [[http://wiki.sagemath.org/DownloadAndInstallationGuide|Installing Sage]] You will want to do the full build with the source code, not the binaries. 
  * [[http://trac.sagemath.org/sage_trac/|Getting a Trac Account]] This process can take a few days, start this as soon as possible. 
