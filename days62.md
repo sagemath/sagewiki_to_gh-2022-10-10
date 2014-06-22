@@ -1,4 +1,4 @@
-= Sage Days 62: Women in Sage (5) =
+= Sage Days 62: Women in Sage 5 =
 
 [[http://sagemath.org/|Sage]] is a mathematics software package, developed by and for the mathematical community.  It aims to become a viable alternative to commercial software packages on the basis of an open-source model.
 
