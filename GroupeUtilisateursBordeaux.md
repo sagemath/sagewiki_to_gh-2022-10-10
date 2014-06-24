@@ -14,7 +14,7 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
     * interfacer du code C/C++
 
  * 6eme seance (mercredi 25 juin, 9h30, salle 076 au LaBRI): contribuer à Sage
- Avant de venir a cette séance, installer le logiciel git sur votre machine et faites une demande de compte trac (voir le premier paragraphe de [[http://trac.sagemath.org]]).
+ '''''Avant de venir a cette séance faites une demande de compte trac (voir le premier paragraphe de [[http://trac.sagemath.org]]).'''''
     * documentation: [[http://www.sagemath.org/doc/developer/|Developer guide]]
     * le [[http://trac.sagemath.org|serveur trac]]
     * le [[http://git.sagemath.org|serveur git]]
