@@ -9,8 +9,8 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
 === prochaines séances ===
 
  * 5eme seance (mardi 24 juin, 14h00, salle 076 au LaBRI): C/C++ dans Python et Sage
-    * [[http://cython.org|Cython]].
-    * compiler certaines parties d'un programme Python
+    * les outils: [[https://docs.python.org/2/library/ctypes.html|ctypes]], [[http://cython.org|Cython]].
+    * compiler certaines parties d'un programme Python: illustration avec les tas de sable et les ensembles de Julia
     * interfacer du code C/C++
 
  * 6eme seance (mercredi 25 juin, 9h30, salle 076 au LaBRI): contribuer à Sage
