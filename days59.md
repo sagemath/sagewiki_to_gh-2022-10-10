@@ -19,3 +19,4 @@ Location: [[http://www.homeaway.com/vacation-rental/p906894|This House]] which i
  * Julian Rüth (Germany, June 19-29)
  * R. Andrew Ohana (Seattle)
  * Simon Spicer (Seattle, June 23-27)
+ * Robert Bradshaw (Seattle)
