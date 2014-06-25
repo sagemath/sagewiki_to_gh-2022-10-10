@@ -59,6 +59,7 @@ Faculty should attach their CV to the application.
 == List of Participants ==
 
  1. Suman Ahmad (U. of Burdwan) 
+ 1. G. Arunkumar (IMSc)
  1. Rekha Biswal (IMSc)
  1. I. V. S. Chanakya (U. of Hyderabad)
  1. U. V. Chetana (NIT Surathkal)
