@@ -4,29 +4,9 @@ Cours, tutoriels, coding sprint sur Sage (et Pari/GP, GAP, Cython, ...) à Borde
 
 == Cours 2014 ==
 
-Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet particulier vous intéresse, vous pouvez venir seulement à ce moment là.
+C'est fini pour cette année!
 
-=== prochaines séances ===
-
- * 5eme seance (mardi 24 juin, 14h00, salle 076 au LaBRI): C/C++ dans Python et Sage
-    * les outils: [[https://docs.python.org/2/library/ctypes.html|ctypes]], [[http://cython.org|Cython]].
-    * compiler certaines parties d'un programme Python: illustration avec les tas de sable et les ensembles de Julia
-    * interfacer du code C/C++
-
- * 6eme seance (mercredi 25 juin, 9h30, salle 076 au LaBRI): contribuer à Sage
- '''''Avant de venir a cette séance faites une demande de compte trac (voir le premier paragraphe de [[http://trac.sagemath.org]]).'''''
-    * documentation: [[http://www.sagemath.org/doc/developer/|Developer guide]]
-    * le [[http://trac.sagemath.org|serveur trac]]
-    * le [[http://git.sagemath.org|serveur git]]
-
- Des exemples de tickets débutants pour cette séance:
-    * [[http://trac.sagemath.org/ticket/11258|#11258: Add documentation for plotting max and min functions]]
-    * [[http://trac.sagemath.org/ticket/14044|#14044: Document bdist env vars for Mac clearly]]
-    * [[http://trac.sagemath.org/ticket/15419|#15419: Add explicit documentation about ymin, ymax to Graphics.show]]
-    * [[http://trac.sagemath.org/ticket/11536|#11536: Add warning or optional or something to TransitiveGroups doc]]
-    * et plus à [[http://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=new&order=priority&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~beginner&report=38|Beginners tickets]]
-
-=== séances passées ===
+=== Résumé des séances ===
 
  * séance 1 (vendredi 18 avril) introduction à Sage
     * 9h30-10h30: installation, découverte de la console et du notebook, tab-complétion, accès à la documentation, introduction a Python/Sage... on ne se servira que de la documentation fournie avec Sage et plus précisément des tutoriaux thématiques suivants:
@@ -60,6 +40,17 @@ Il n'est pas forcément utile d'assister à toutes les séances. Si un sujet par
    * les espèces
    * algèbre de Ore [[http://www.risc.jku.at/research/combinat/software/ore_algebra/|Ore algebra in Sage]]
    * ...
+
+ * 5eme seance (mardi 24 juin, 14h00, salle 076 au LaBRI): C/C++ dans Python et Sage
+    * les outils: [[https://docs.python.org/2/library/ctypes.html|ctypes]], [[http://cython.org|Cython]].
+    * compiler certaines parties d'un programme Python: illustration avec les tas de sable et les ensembles de Julia
+    * interfacer du code C/C++
+
+ * 6eme seance (mercredi 25 juin, 9h30, salle 076 au LaBRI): contribuer à Sage
+ '''''Avant de venir a cette séance faites une demande de compte trac (voir le premier paragraphe de [[http://trac.sagemath.org]]).'''''
+    * documentation: [[http://www.sagemath.org/doc/developer/|Developer guide]]
+    * le [[http://trac.sagemath.org|serveur trac]]
+    * le [[http://git.sagemath.org|serveur git]]
 
 === Sujets à aborder pour la suite ===
 
