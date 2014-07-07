@@ -20,3 +20,4 @@ Location: [[http://www.homeaway.com/vacation-rental/p906894|This House]] which i
  * R. Andrew Ohana (Seattle)
  * Simon Spicer (Seattle, June 23-27)
  * Robert Bradshaw (Seattle)
+ * William Alumbaugh (Missouri University of Science and Technology)
