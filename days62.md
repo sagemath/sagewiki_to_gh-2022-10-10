@@ -16,7 +16,7 @@ Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ
 == Project Leaders ==
 
  * [[http://www.math.ucsd.edu/~alina/|Alina Bucur]] (UC San Diego)
- * Beth Malmskog (Villanova University)
+ * Beth Malmskog (Villanova University)´´´Solving ´´S´´-unit Equations in Sage´´´
  * [[http://people.oregonstate.edu/~swisherh/home/|Holly Swisher]] (Oregon State University)
 
 == Schedule ==
