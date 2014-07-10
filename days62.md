@@ -12,9 +12,9 @@ Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ
 
 == Projects ==
 
- * [[http://www.math.ucsd.edu/~alina/|Alina Bucur]] (UC San Diego)
- * Beth Malmskog (Villanova University)'''Solving S-unit Equations in Sage'''
- * [[http://people.oregonstate.edu/~swisherh/home/|Holly Swisher]] (Oregon State University)
+ * '''Le coefficients for L-functions''' [[http://www.math.ucsd.edu/~alina/|Alina Bucur]] (UC San Diego)
+ * '''Solving S-unit Equations in Sage''Beth Malmskog (Villanova University)'
+ * '''Modular Forms Tune-Up''' [[http://people.oregonstate.edu/~swisherh/home/|Holly Swisher]] (Oregon State University)
 
 == Schedule ==
 
