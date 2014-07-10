@@ -6,17 +6,14 @@ This 4-day workshop will include talks, tutorials, and time spent in small proje
 
 Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ_s5gWOyNqvMlWYR0-p69rOKuSkJ7o6irnsa8Ug/viewform?usp=send_form|Apply Here.]] Participants will receive lodging and most meals as well as limited funding for travel.   
 
-== Projects ==
-
-
 == Dates/Location ==
 
  * July 28-August 1, 2014 near Portland, Oregon at [[http://www.vacasarentals.com/unit.php?UnitID=11/|The Lodge at Welches]]
 
-== Project Leaders ==
+== Projects ==
 
  * [[http://www.math.ucsd.edu/~alina/|Alina Bucur]] (UC San Diego)
- * Beth Malmskog (Villanova University)´´´Solving ´´S´´-unit Equations in Sage´´´
+ * Beth Malmskog (Villanova University)=Solving S-unit Equations in Sage=
  * [[http://people.oregonstate.edu/~swisherh/home/|Holly Swisher]] (Oregon State University)
 
 == Schedule ==
