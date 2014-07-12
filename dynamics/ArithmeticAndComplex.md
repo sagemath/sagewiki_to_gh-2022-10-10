@@ -30,8 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/15382|#15382]]) positive-review MacCaulay Resultant - Soli Vishkautsan, Hao Chen
-
  * ([[http://trac.sagemath.org/ticket/15389|#15389]]) needs-work: Krumm-Doyle Small Points Algorithm - David Krumm, John Doyle
 
  * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-review: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
@@ -49,6 +47,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * ([[http://trac.sagemath.org/ticket/15448|#15448]]) new: cartesian products of projective space - Ben Hutz
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/15382|#15382]])-- closed sage.6.3: MacCaulay Resultant - Soli Vishkautsan, Hao Chen
 
  * --([[http://trac.sagemath.org/ticket/15782|#15782]])-- closed sage.6.3: Increase Performance of Multiplier in Projective Morphism - Dillon Rose and Ben Hutz
 
