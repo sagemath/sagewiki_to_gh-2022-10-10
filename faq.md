@@ -207,8 +207,7 @@ Unfortunately no. You can run the python debugger to execute it step-by-step, bu
 
 === What tools do I need to develop in Sage? ===
 
-You need the prerequisite tools listed in the README.txt file in the root directory of Sage.
-
+You need the prerequisite tools listed in the ([https://github.com/sagemath/sage/blob/master/README.txt|README.txt]] file in the root directory of Sage.
 
 === Where is the source code to Sage? ===
 
