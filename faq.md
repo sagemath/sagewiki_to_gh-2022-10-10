@@ -212,7 +212,7 @@ You need the prerequisite tools listed in the README.txt file in the root direct
 
 === Where is the source code to Sage? ===
 
-You can browse the complete source code to everything in Sage at http://hg.sagemath.org/.  This is a web interface to the Mercurial repository.  The main source files are at http://hg.sagemath.org/sage-main?cmd=manifest;manifest=-1;path=/sage/.  The other directories include docs directories, the package system, etc.
+You can browse the complete source code to everything in Sage at https://github.com/sagemath/sage. This is a web interface to the Git repository.
 
 === How can I rebuild the Sage library in parallel? ===
 
@@ -362,7 +362,7 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
  * ANSWER: The problem can be fixed by running the following command "chcon -t textrel_shlib_t /path/to/libpari-gmp.so.2"
 ----------
  * QUESTION: Upgrading Sage went fine, but now the banner still shows the old version. How can I fix this?
- * ANSWER: Try doing {{{sage: hg_scripts.merge()}}} followed by {{{sage: hg_scripts.commit()}}}. As an alternative, you can simply try {{{hg_scripts.pull()}}}.
+ * ANSWER: You can type {{{sage: banner()}}} to see the real version. You have to to type {{{make build}}} to re-build sage and get the correct banner.
 ----------
  * QUESTION: How do I run sage in daemon mode, i.e. as a service?
  * ANSWER: We currently do not have a ready-to-go solution. There are several possibilities: Use screen, nohup or disown. We are tracking the issue at http://trac.sagemath.org/sage_trac/ticket/381 - so stay tuned.
