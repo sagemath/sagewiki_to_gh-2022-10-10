@@ -287,8 +287,13 @@ the fonts into your ~/.fonts directory. You can also install the "jsmath-fonts" 
 
 === How do I get help? ===
 
-Sage has two very active email lists: http://groups.google.com/group/sage-devel and http://groups.google.com/group/sage-support. There are also two very active IRC channels: #sage-devel and #sage-support on freenode.  Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://www.sagemath.org/help.html for a listing of these resources.
+There is a website for asking help: http://ask.sagemath.org.
 
+Sage has two very active email lists: http://groups.google.com/group/sage-devel and http://groups.google.com/group/sage-support.
+
+There are also two very active IRC channels: #sage-devel and #sage-support on freenode.
+
+Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://www.sagemath.org/help.html for a listing of these resources.
 
 == Other questions ==
 
