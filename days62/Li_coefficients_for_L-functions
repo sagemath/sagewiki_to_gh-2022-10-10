@@ -1,0 +1,42 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;\red16\green60\blue192;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs26 \cf2 Title: Li coefficients for L-functions\
+\
+Abstract:\
+\
+\pard\pardeftab720
+
+\f1\fs32 \cf2 The Li criterion for the Riemann hypothesis was firstly introduced by Xian-Yin Li in 1997 as a simple positivity criterion for the classical Riemann hypothesis, formulated in terms of the logarithmic derivative of the Riemann zeta function. This criterion was further generalized by Bombieri and Lagarias to a general multiset of complex numbers, and therefore to any L-function.\'a0\
+\pard\pardeftab720\sa260
+\cf2 One can further generalize this concept to $tau$-Li coefficients that encode further analytic properties of L-functions. The relevant property of the $tau$-Li coefficients $a_n$ of an L-function is their asymptotic behavior as $n\\to \\infty.$ It has been challenging to compute these coefficients for sufficiently high indices (the range one can handle now is ~15 -- see Mark Coffey's papers).
+\f0\fs26 \
+
+\f1\fs32 The goal of this project is to adapt and enhance Dockchitser's L-functions code (that William Stein has implemented in sage already) in order to make it possible to compute high order Li coefficients for as large a class of L-functions as possible.\'a0
+\f0\fs26 \
+
+\f1\fs32 \uc0\u8232 Further reading:
+\f0\fs26 \
+\
+\
+1. T. DoKchitser, Computing special values of motivic L-functions, Exper. Math. 13, No.2 (2004), 137-149\'a0\
+2. Documentation for Dokchitser's code ({\field{\*\fldinst{HYPERLINK "http://www.maths.bris.ac.uk/~matyd/computel/index.html"}}{\fldrslt \cf3 \ul \ulc3 http://www.maths.bris.ac.uk/~matyd/computel/index.html}}) and its implementation is sage (I am sure you can find this one)\
+3. K. Maslanka, Li's criterion for the Riemann hypothesis \'96 numerical approach, Opusc. Math. 24, No. 1, 103-114 (2004).\
+\
+
+\f1\fs32 4. X.-J. Li,\'a0The positivity of a sequence of numbers and the Riemann hypothesis,J. Number Theory 65 (1997), 325\'96333.\'a0
+\f0\fs26 \
+
+\f1\fs32 5. E. Bombieri and J. C. Lagarias,\'a0Complements to Li\'92s criterion for the Riemann hypothesis,\'a0J. Number Theory 77 (1999), 274\'96287.
+\f0\fs26 \
+\pard\pardeftab720
+
+\f1\fs32 \cf2 6. P. Freitas,\'a0A Li-type criterion for zero-free half-planes of Riemann\'92s zeta function,\'a0J. London Math, Soc. 73 (2006), 399-414.\'a0\
+\
+1 and 2 will be used this week\
+3 illustrates some of the technical challenges we face\
+4-6 are very good (and short!) introduction to Li coefficients. Pay special attention to the formulas in the equivalent definitions of the Li and $\\tau$-Li coefficients}
