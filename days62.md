@@ -17,7 +17,7 @@ Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ
   *
   *
  * '''Solving S-unit Equations in Sage''' Beth Malmskog (Villanova University) [[attachment:Solving S-Unit Equations in Sage]]
-  *
+  * Christelle Vincent
   *
   *
  * '''Modular Forms Tune-Up''' [[http://people.oregonstate.edu/~swisherh/home/|Holly Swisher]] (Oregon State University)
