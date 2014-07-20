@@ -1,4 +1,8 @@
-I am a Computer Scientist at Adobe Research and a SAGEvangelist.
+I am a Computer Scientist at Adobe Research and a SAGEvangelist (2005 - ).
+
+- http://www.adobe.com/technology/people/bangalore/iftikhar-ahamath-burhanuddin.html
+
+- https://www.linkedin.com/pub/iftikhar-burhanuddin/3/681/24a
 
 === Papers ===
 
