@@ -1,1 +1,1 @@
-= William Stein's SAGE-related projects =
+#REDIRECT http://wstein.org
