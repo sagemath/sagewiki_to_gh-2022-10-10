@@ -33,7 +33,7 @@ remember that this magazine will still be available years after publishing. ther
  * ''Algorithms'': Explain some implementation details - since Sage is about "opening algorithms" it should also transport this actively. This would capture the interest of others who are not actively involved in Sage, but are interested in implementing good algorithms. Benchmarks. Link to Source Code + papers.
   . ''"Research papers generally only cover the idea of the algorithm, but an implementation has a lot of other fundamental issues."'' (Tim Daly @ sage-devel, 2008-03-13)
  * ''Teaching'': Some article about using Sage for education - e.g. how to explain XY to a student, why useful, report your own experiences using Sage in education!
- * ''Developer's Corner'': Here are news from developers to developers, about internals, changes in a process, results from discussions about future issues, changes in the layout, benchmarks, short introduction how mercurial is used in development and its integration as part of sage's commands, ... or developing applications which use sage (bigger python script, analyzing data or something, importing sage commands)
+ * ''Developer's Corner'': Here are news from developers to developers, about internals, changes in a process, results from discussions about future issues, changes in the layout, benchmarks, short introduction how git is used in development and its integration as part of sage's commands, ... or developing applications which use sage (bigger python script, analyzing data or something, importing sage commands)
  * ''Politics/Philosophy'': what makes sage different to M*, ...
  * ''Community'': about people using sage
  * ''Events'': Sage somewhere in the wild? a conference? exhibition booth? what has happened? pictures!
