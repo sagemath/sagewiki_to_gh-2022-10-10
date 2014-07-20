@@ -1,3 +1,1 @@
-== William Stein ==
-
-http://wstein.org
+#REDIRECT http://wstein.org
