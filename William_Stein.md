@@ -1,1 +1,1 @@
-#REDIRECT http://wiki.sagemath.org/combinat/WilliamStein
+#REDIRECT http://wiki.sagemath.org/WilliamStein
