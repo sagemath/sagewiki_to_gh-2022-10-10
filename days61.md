@@ -2,7 +2,12 @@
 
 Organizer: Jim Stankewicz, William Stein, Ian Kiming
 
-''Deadline to apply for funding: June 30'' [[http://stankewicz.net/sagedays/signup.html|Sign Up Here!]]
+Wishlist:
+
+*Brandt Modules with more than one prime in the discriminant
+
+
+''Deadline to apply for funding: Passed! But you can still sign up!'' [[http://stankewicz.net/sagedays/signup.html|Sign Up Here!]]
 
 
  * William Stein (Seattle)
