@@ -39,6 +39,8 @@ Journal of Number Theory, Volume 133, Issue 2, February 2013, Pages 369 -- 374.
 Abstract: We show that there exist infinitely many elliptic curves with Shafarevich-Tate group of order essentially as large as the the square root of the minimal discriminant assuming certain conjectures. This improves on a result of de Weger.
 
 6. On the Equation $y^2 = x^3 - pqx$, with Ming-Deh Huang.
-Journal of Numbers, Volume 2014 (2014), Article ID 825634, 5 pages. http://dx.doi.org/10.1155/2014/825634
+Journal of Numbers, Volume 2014 (2014), Article ID 825634, 5 pages.
+
+Abtsract: We consider certain quartic twists of an elliptic curve. We establish the rank of these curves under the Birch and Swinnerton-Dyer conjecture and obtain bounds on the size of Shafarevich-Tate group of these curves. We also establish a reduction between the problem of factoring integers of a certain form and the problem of computing rational points on these twists.
 
 CategoryHomepage
