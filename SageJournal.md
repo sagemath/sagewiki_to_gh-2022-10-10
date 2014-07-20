@@ -1,1 +1,1 @@
-goto: SageMagazine
+#REDIRECT SageMagazine
