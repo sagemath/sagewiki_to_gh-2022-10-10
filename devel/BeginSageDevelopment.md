@@ -9,7 +9,7 @@ One of the good aspects of Python that Sage inherits is that working code is con
 
 If you don't know Python, you should start there, since it is Sage's main language. A good place to start is the [[http://docs.python.org/tutorial/|Python Official Tutorial]] and other documents available at http://python.org/doc/ . Another good place to take a look at is [[http://www.diveintopython.org/|Dive Into Python]], which may be pretty helpful in some specific topics like test-driven development.
 
-In the meantime, you can grab your copy of the [[http://www.sagemath.org/download-source.html|sage source]] and get used to [[http://www.selenic.com/mercurial/wiki/|mercurial]]. The [[http://hgbook.red-bean.com/hgbook.html|mercurial book]] is recommended for those who aren't used to that version control system (and to some extent to those who never used such a system).
+In the meantime, you can grab your copy of the [[http://www.sagemath.org/download-source.html|sage source]] and get used to [[http://git-scm.com/|git]]. The [[http://git-scm.com/book|pro git book]] is recommended for those who aren't used to that version control system (and to some extent to those who never used such a system).
 
 Once you are comfortable with Python itself (which is pretty fast for basics) you can start using Sage. If you want, you can try to learn Python by using Sage, but that isn't recommended because it's helpful to know what is pure Python and what is Sage doing its "magic". There are many things that work on one that don't on the other, because Sage does a lot of type conversions behind the scenes.
 
