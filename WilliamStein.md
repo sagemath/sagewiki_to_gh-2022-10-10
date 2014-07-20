@@ -1,1 +1,3 @@
-#REDIRECT http://wstein.org
+== William Stein ==
+
+[[http://wstein.org| wstein.org]]
