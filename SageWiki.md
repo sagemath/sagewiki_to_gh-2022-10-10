@@ -101,7 +101,7 @@ Note: [[http://trac.sagemath.org/sage_trac/|See the trac server]] for patches aw
 = Other Sage items =
 
  * [[days13/projects/sagenewbie|Sage primers]]
- * [[sagenb|list of institutions and projects using the Sage]]
+ * [[sagenb|list of institutions and projects using Sage]]
  * [[standard_packages_available_for_SAGE|standard packages available for Sage]]
  * [[optional_packages_available_for_SAGE|optional packages available for Sage]]
  * [[experimental_packages_available_for_SAGE|experimental packages available for Sage]]
