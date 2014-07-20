@@ -26,3 +26,6 @@
 
 
 '''My argument for including GD in it's full glory'''''' {{http://sage.math.washington.edu/home/boothby/f.png}} '''
+
+----
+CategoryHomepage
