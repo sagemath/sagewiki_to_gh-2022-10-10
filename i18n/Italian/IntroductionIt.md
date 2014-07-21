@@ -54,7 +54,7 @@ Per esempio:
     sage: N(k,30)      # 30 "bits"
     0.16549568 - 0.052149208*I
     sage: latex(k)
-    \frac{1}{{\sqrt{ 3 } i} + \frac{{5 \sqrt{ 73 `}}}`{9} + \frac{3}{4}}
+    \frac{1}{{\sqrt{ 3 } i} + \frac{{5 \sqrt{ 73 } } }{9} + \frac{3}{4}}
 
 
 Installazione
