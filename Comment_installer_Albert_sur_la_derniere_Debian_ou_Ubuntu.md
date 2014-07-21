@@ -1,6 +1,6 @@
 ## page was renamed from Comment installer Albert sur la derniere Debian/Ubuntu
 ## page was renamed from Comment installer Albert sur la derniere Ubuntu
-Les lignes commancant par un # sont des lignes de commande.
+Les lignes commençant par un # sont des lignes de commande.
 
  * télécharger les sources et décompresser l'archive : 
 
