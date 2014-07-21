@@ -1,6 +1,6 @@
 == Courte introduction à Sage ==
 
-Sage est un logiciel de calcul formel mathématique, en particulier pour la théorie des nombres, l'algèbre, et la géométrie. Il a été initié par William Stein. C'est un logiciel libre, disponible selon les termes de la licence générale GNU (GPL).
+Sage est un logiciel de calcul formel mathématique, en particulier utile pour la théorie des nombres, l'algèbre, et la géométrie. Il a été initié par William Stein. C'est un logiciel libre, disponible selon les termes de la licence générale GNU (GPL).
 
 Sage est une bibliothèque Python avec un interpréteur adapté aux besoins de l'utilisateur. Du code python, C++, et C (par l'intermédiaire de Pyrex) peut être directement ajouté. Le langage Python est un langage de programmation libre, interprété, orienté objet, avec un grand nombre de bibliothèques, par exemple pour l'analyse numérique, qui sont à la disposition des utilisateurs de Sage. Le langage Python peut également être utilisé en mode bibliothèque par des programmes en C/C++.
 
@@ -32,7 +32,7 @@ Télécharger Sage, un guide d'installation et un tutoriel, sur sa page Web
 
 http://sagemath.org/. 
 
-Bien que Sage emploie Python et PARI et d'autres paquets, il n'est pas nécessaire d'avoir ces logiciels préinstallés sur l'ordinateur. L'installation de Sage est vraiment conçue pour être relativement facile, mais s'il y a des problèmes, demandez (la page Web a des liens aux listes d'email pour le support de Sage). Il y a des instructions d'installation chez http://sagemath.org/sage/doc/html/inst/index.html. D'ailleurs, si Sage est installée une fois, l'évolution à la plus nouvelle version est particulièrement facile avec l'option de commande de « mise à niveau » (ceci est décrit sur le site Web donné ci-dessus et suppose un raccordement à Internet). 
+Bien que Sage emploie Python et PARI et d'autres paquets, il n'est pas nécessaire d'avoir ces logiciels pré-installés sur l'ordinateur. L'installation de Sage est vraiment conçue pour être relativement facile, mais s'il y a des problèmes, demandez (la page Web a des liens aux listes de diffusion pour le support de Sage). Il y a des instructions d'installation ici : http://www.sagemath.org/doc/installation/index.html. Par ailleurs, si Sage est installée une fois, l'évolution vers une nouvelle version est particulièrement facile avec l'option {{{sage -upgrade}}} de « mise à niveau » (ceci est décrit sur le site Web donné ci-dessus et suppose un raccordement à Internet). 
 
 Une fois que Sage est installé dans un répertoire tel que "sage-x.y.z", entrez dans ce répertoire en utilisant un terminal et tapez au clavier la commande "./sage" pour lancer Sage. Le message d'invite « sage: » s'affiche dans le terminal. Vous pouvez alors utiliser Sage. Une autre manière est de taper ensuite la commande « notebook() » qui 
 
@@ -40,11 +40,11 @@ Une fois que Sage est installé dans un répertoire tel que "sage-x.y.z", entrez
 
 (b) ouvre un navigateur et montre la page Web du Cahier de Sage. 
 
-Au message de sollicitation "sage:", tapez « factor (100) » (puis Entrée) et écrivent alors Ctrl-d (tenir le key de Ctrl et le d en même temps) ou facteur (de retour) « stoppé » 100 de volonté de Sage premier et sortent alors. Pour faire ceci dans le cahier, écrire le « factor (100) » dans une « cellule » (une fenêtre blanche vide dans le navigateur) et puis entrer Maj-Entrée. Sage montrera la factorisation dans l'espace juste au-dessous de la cellule. Pour sortir de la version Cahier de Sage, allez d'abord de nouveau à la ligne de commande et tapez Ctrl-c. Ensuite, sortir du navigateur. Ceci stoppe le Cahier de Sage. 
+Au message d'invite "sage:", tapez « factor(100) » (puis Entrée). Pour quitter Sage, tapez {{{exit}}} ou {{{quit}}}. Pour faire ceci dans le cahier, écrire « factor(100) » dans une « cellule » (une fenêtre blanche vide dans le navigateur) et puis entrer Maj-Entrée. Sage montrera la factorisation dans l'espace juste au-dessous de la cellule. Pour sortir du Cahier de Sage, allez d'abord de nouveau à la ligne de commande et tapez Ctrl-c. Ensuite, sortir du navigateur. Ceci stoppe le Cahier de Sage. 
 
-Il y a plus d'exemples, dans le cours d'instruction, constructions, et manuels de référence, disponibles sur la page Web de Sage. Allez-les voir !
+Il y a d'autres d'exemples, dans les tutoriels et les manuels de référence, disponibles sur la page Web de Sage. Allez-les voir !
 
-Sage est encore en développement, mais se développe activement et est déjà utilisable. Il y a un forum de discussion, un traqueur de bugs et une liste de souhaits. Visitez
+Sage est toujours en développement actif, mais est déjà parfaitement utilisable. Il y a un forum de discussion, un traqueur de bugs et une liste de souhaits. Visitez
 
 http://sagemath.org/
 
