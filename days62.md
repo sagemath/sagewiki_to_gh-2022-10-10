@@ -22,7 +22,7 @@ Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ
   * Mckenzie West
  * '''Modular Forms Tune-Up''' [[http://people.oregonstate.edu/~swisherh/home/|Holly Swisher]] (Oregon State University)
   * Heidi Goodson
-  * Karen Kohl
+  * 
   *
 
 == Schedule ==
