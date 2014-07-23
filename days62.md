@@ -33,7 +33,7 @@ Monday: Check-in late afternoon
 Tuesday: TBD 
 
 
-Wednesday: TBD
+Wednesday: Afternoon hike at Mt. Hood.
 
 
 Thursday: TBD
