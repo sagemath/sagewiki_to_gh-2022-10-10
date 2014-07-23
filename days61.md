@@ -15,8 +15,7 @@ Wishlist:
  * David Kohel (Luminy)
  * John Voight (Hanover, NH)
  * Aly Deines (Seattle)
- * Noam Elkies (Cambridge) [To be confirmed]
- * Steve Linton (St Andrews) [To be confirmed]
+ * Steve Linton (St Andrews)
  * Patrick Walls (Hamilton)
  * Marc Masdeu (Warwick)
  * Xavier Guitart (Essen)
@@ -24,6 +23,11 @@ Wishlist:
  * Jim Stankewicz (Copenhagen)
  * Ian Kiming (Copenhagen)
  * Nadim Rustom (Copenhagen)
-
+ * Michael Neururer (Nottingham)
+ * Jeroen Sijsling (Warwick)
+ * Mattieu Rambaud (Paris)
+ * Gonzalo Tornaria (Montevideo)
+ * Nicolas Sirolli (Montevideo)
+ * Gustavo Rama (Montevideo)
 
  
