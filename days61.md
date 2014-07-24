@@ -12,7 +12,7 @@ Wishlist:
 
  * William Stein (Seattle)
  * Lassina Dembele (Warwick)
- * David Kohel (Luminy)
+ * David Kohel (Marseille)
  * John Voight (Hanover, NH)
  * Aly Deines (Seattle)
  * Steve Linton (St Andrews)
