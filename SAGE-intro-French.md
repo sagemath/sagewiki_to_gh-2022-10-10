@@ -1,3 +1,4 @@
+#language fr
 == Courte introduction à Sage ==
 
 Sage est un logiciel de calcul formel mathématique, en particulier utile pour la théorie des nombres, l'algèbre, et la géométrie. Il a été initié par William Stein. C'est un logiciel libre, disponible selon les termes de la licence générale GNU (GPL).
