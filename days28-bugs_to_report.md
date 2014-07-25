@@ -1,3 +1,4 @@
+#language fr
 <<TableOfContents()>>
 
 == Baratin ==
