@@ -1,3 +1,4 @@
+#language it
 == index_it.rst ==
 {{{
 .. Sage documentation master file, created by sphinx-quickstart on Thu Aug 21 20:15:55 2008.
