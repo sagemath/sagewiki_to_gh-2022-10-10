@@ -1,3 +1,4 @@
+#language es
 See also [[http://modular.math.washington.edu//home/wdj/expository/sage-intro-es.html]]
 
 == Introducción corta a SAGE ==
