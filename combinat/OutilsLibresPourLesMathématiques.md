@@ -1,3 +1,4 @@
+#language fr
 = Outils Libres Pour Les Mathématiques =
 
 Le 4 février 2010, le groupe Plume du CNRS organise une journée "Outils Libres Pour Les Mathématiques". Ils m'ont demandé de faire la conf d'introduction. Voilà mon brouillon de titre et de résumé. Toute suggestion, en particulier pour rendre le premier paragraphe plus dense, profond et percutant, est bienvenue!
