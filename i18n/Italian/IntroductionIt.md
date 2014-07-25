@@ -1,3 +1,4 @@
+#language it
 == introduction_it.rst ==
 {{{
 Questo tutorial dovrebbe richiedere circa 3/4 ore per
