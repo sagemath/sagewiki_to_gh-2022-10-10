@@ -1,3 +1,4 @@
+#language fr
 Lors d'une rencontre du GroupeUtilisateursParis a été évoqué le fait de mettre en place un serveur permettant le dépôt de feuilles de calcul Sage, notamment en rapport avec l'utilisation de Sage à l’agrégation. Cette page temporaire sert à définir ce qu'on veut un peu plus précisément. Ajoute tes idées/demandes :
 
 
