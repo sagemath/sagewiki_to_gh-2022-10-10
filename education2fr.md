@@ -1,3 +1,4 @@
+#language fr
 = Journée Education Sage 2 =
 
  Cette seconde journée dédié à [[http://www.sagemath.org|Sage]] pour l'éducation aura lieu pendant la semaine des [[daysmarseille|Sage Days 20]].
