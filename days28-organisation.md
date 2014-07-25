@@ -1,3 +1,4 @@
+#language fr
 = Page d'organisation des sage-days a Orsay =
 
 [[days28-unreferenced_bugs]]
