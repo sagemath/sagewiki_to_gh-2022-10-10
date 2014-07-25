@@ -1,3 +1,4 @@
+#language de
 = Kurzreferenz der wichtigsten Befehle =
 Eine Übersicht besonders häufig benötigter Befehle:
 
