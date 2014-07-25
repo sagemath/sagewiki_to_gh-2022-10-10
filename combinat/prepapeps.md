@@ -1,3 +1,4 @@
+#language fr
 == Prospective ==
 
 === Si on avait de la thune que voudrait-on en faire ? ===
