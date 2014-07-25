@@ -1,3 +1,4 @@
+#language pt
 == Introdução curta ao SAGE: Software para a experimentação da álgebra e da geometria ==
 
 O SAGE é uma estrutura para a teoria do número, a álgebra, e a computação da geometria. A execução atual é primeiramente devido a William Stein. É fonte aberta e livremente disponível sob os termos da licença do general público do GNU (GPL). 
