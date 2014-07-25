@@ -45,6 +45,9 @@ Au message d'invite "sage:", tapez « factor(100) » (puis Entrée). Pour quitte
 
 Il y a d'autres d'exemples, dans les tutoriels et les manuels de référence, disponibles sur la page Web de Sage. Allez-les voir !
 
+Un petit résumé en une page des commandes de base est disponible [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=sage-quickref_fr.pdf|ici]] 
+
+
 Sage est toujours en développement actif, mais est déjà parfaitement utilisable. Il y a un forum de discussion, un traqueur de bugs et une liste de souhaits. Visitez
 
 http://sagemath.org/
