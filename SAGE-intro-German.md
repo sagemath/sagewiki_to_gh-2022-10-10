@@ -1,3 +1,4 @@
+#language de
 = Sage: freies Softwarepaket für Mathematik =
 [[SAGE|Sage]] ist eine Distribution freier Mathematiksoftware, bestehend aus zahlreichen eingebundenen Paketen, die eine einheitliche Oberfläche zum Behandeln verschiedenster Themen der Mathematik bereitstellt.
 
