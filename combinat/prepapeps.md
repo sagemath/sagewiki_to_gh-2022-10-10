@@ -4,35 +4,35 @@
 === Si on avait de la thune que voudrait-on en faire ? ===
   * Organisation de rencontres
     * code
-    * formation, en particulier une semaine de formation pour doctorants en automne a la montagne
+    * formation, en particulier une semaine de formation pour doctorants en automne à la montagne
   * Machine(s) ? Pour quel usage ?
   * Invitations ?
 
 
-=== Quelles sont les personnes/communautes actives/interessees par sage en France ? ===
-  * Combinatoire algebrique
+=== Quelles sont les personnes/communautés actives/intéressées par sage en France ? ===
+  * Combinatoire algébrique
     * Nicolas Borie
     * Adrien Boussicault
     * Florent Hivert
     * Nicolas Thiery
-  * Generation aleatoire et enumeration d'objets combinatoires
+  * Génération aléatoire et énumération d'objets combinatoires
     * Cyril Nicaud
     * Yann Ponty
-  * Systemes dynamiques, combinatoire des mots, pavages, automates cellulaires
+  * Systèmes dynamiques, combinatoire des mots, pavages, automates cellulaires
     * Vincent Delecroix
     * Timo Jolivet
-    * Sebastien Labbe
+    * Sébastien Labbé
     * Samuel Lelievre
     * Thierry Monteil
-    * Un thesard de Mathieu Sablik qui aurait fait des trucs la-dessus ?
-  * Arithmetique (informatique)
+    * Un thésard de Mathieu Sablik qui aurait fait des trucs la-dessus ?
+  * Arithmétique (informatique)
     * Paul Zimmermann
   * Calcul formel
     * Laurent Fousse
-  * Algebre lineaire
+  * Algèbre linéaire
     * Clement Pernet
     * Jean-Guillaume Dumas
-  * Theorie des graphes
+  * Théorie des graphes
     * Nathann Cohen
 
   * [[http://www.loria.fr/~zimmerma/sd10_participants.pdf|participants aux sage days 10 (Nancy)]]
@@ -48,7 +48,7 @@
   * ...
 
 
-=== Qui serait interesse par etre dans le peps ? ===
+=== Qui serait intéressé par être dans le peps ? ===
   * Nathann Cohen (Laboratoire d'Informatique, Signaux et Systèmes de Sophia-Antipolis - I3S - UMR 6070 - doctorant - théorie des graphes)
   * Vincent Delecroix (Institut de Mathématiques de Luminy - IML - UMR 6206 - doctorant - échanges d'intervalles)
   * Florent Hivert (Laboratoire d'Informatique, de Traitement de l'Information et des Systèmes - LITIS - EA 4108 - professeur - combinatoire algébrique)
@@ -62,7 +62,7 @@
 Qui d'autre ? Est-ce qu'on ouvre aux personnes plus "calcul" (Paul Zimmermann, Laurent Fousse,...)
 
 
-=== Quel argumentaire ? (redaction du baratin) ===
+=== Quel argumentaire ? (rédaction du baratin) ===
 
 (copie d'un mail de Nicolas) Discours général: notre recherche à tous nécessite des développements spécifiques et une plateforme libre pour être assez souple. Or la pratique montre que, même si nous sommes dans des domaines assez différent, une grosse partie des besoins sont communs (mais absents des systèmes existants). Il est donc très profitable de mutualiser nos efforts. Effet de bord: les résultats de nos développements sont aussi utiles pour d'autres chercheurs d'autres domaines et pour l'enseignement.
 
@@ -76,7 +76,7 @@ Pour les surfaces de translation
  * Classification des orbites des surfaces arithmétiques (expérimentation et travail en cours, Delecroix-Lelièvre-Zmiaikou)
  * Algorithme d'approximation des exposants de Lyapunov pour les mesures géométriques (travail en cours, Delecroix-Zorich)
  * simplicité du spectre de Lyapunov du cocycle KZ
- * dépendance rationelle des exposants du cocycle KZ. dépendance algébrique.
+ * dépendance rationnelle des exposants du cocycle KZ. dépendance algébrique.
 
 Côté s-adique
  * Complexité globale des échanges d'intervalles
