@@ -1,3 +1,4 @@
+#language fr
 ## page was renamed from combinat/EjcGdrIm2012EJC
 = EJC Rennes, séances Sage =
 
