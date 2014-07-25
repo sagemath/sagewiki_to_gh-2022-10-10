@@ -2,7 +2,14 @@
 
 Regular or irregular gatherings of people interested in Sage and related software.
 
- * [[uSage/Paris | Paris, FR ]]
+In North America:
+
+ * [[uSage/Seattle | Seattle, WA, USA ]]
+ * [[LaCIMSageFridays | Montréal, Québec, CA ]]
+
+In Europe:
+
  * [[uSage/Vienna | Vienna, AT ]]
  * [[uSage/Bristol | Bristol, UK ]]
- * [[uSage/Seattle | Seattle, WA, USA ]]
+ * [[GroupeUtilisateursParis | Paris, FR ]]
+ * [[GroupeUtilisateursBordeaux | Bordeaux, FR]]
