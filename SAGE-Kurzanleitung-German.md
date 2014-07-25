@@ -1,3 +1,4 @@
+#language de
 = Kurzanleitung für Sage =
 Sage ist eine Distribution mehrerer Mathematikprogramme. Daher ist es nur notwendig, ein größeres Paket herunterzuladen und zu installieren - alles weitere ist darin enthalten und auf Funktionstüchtigkeit getestet.
 
