@@ -1,3 +1,4 @@
+#language it
 == tour_algebra_it.rst ==
 {{{
 Algebra di base e Analisi
