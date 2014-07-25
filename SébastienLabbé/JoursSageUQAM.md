@@ -1,3 +1,4 @@
+#language fr
 = Jours Sage au LaCIM (UQAM) -- 14, 15 et 16 juillet 2009 =
 
 
