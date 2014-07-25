@@ -33,6 +33,7 @@ This a part of our effort to increase an awareness of Sage and its utility to ma
 
  1. Karl-Dieter Crisman (Gordon College)
  2. Anne Schilling (UC Davis)
+ 1. Travis Scrimshaw (UC Davis)
  3. Nicolas M. Thi&eacute;ry (Universit&eacute; Paris Sud)
  4. P. Vanchinathan (VIT Chennai)
  5. Amritanshu Prasad (IMSc)
@@ -77,6 +78,7 @@ Faculty should attach their CV to the application.
  1. B. Ravinder (IMSc)
  1. Santha Kumar (Periyar University)
  1. Selva Ganesh (Periyar University)
+ 1. B. R. Shankar (NIT Surathkal)
  1. Sachin Sharma (TIFR)
  1. Shiv Parsad (IISER Mohali)
  1. M. Subramani (CMI)
