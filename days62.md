@@ -47,7 +47,8 @@ Wednesday:
 Thursday: TBD
 
 
-Friday: Check-out late morning
+Friday: 
+ * Check-out late morning
 
 == Participants ==
  * [[http://www.eiu.edu/math/personnel.php?id=aalvarado2|Alejandra Alvarado]] (Eastern Illinois University)
