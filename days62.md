@@ -27,7 +27,8 @@ Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ
 
 == Schedule ==
 
-Monday: Check-in late afternoon
+Monday: 
+ * Check-in late afternoon
 
 
 Tuesday: 
@@ -38,7 +39,9 @@ Tuesday:
 
 
 
-Wednesday: Afternoon hike at Mt. Hood.
+Wednesday: 
+ * Morning, work in project groups
+ * Afternoon, hike at Mt. Hood
 
 
 Thursday: TBD
