@@ -30,7 +30,11 @@ Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ
 Monday: Check-in late afternoon
 
 
-Tuesday: TBD 
+Tuesday: 9:00-9:45 Project Talk, Alina Bucur
+         10:00-10:45 Project Talk, Beth Malnskog
+         11:00-12:00 Project Talk, Holly Swisher
+         Afternoon, work in project groups 
+
 
 
 Wednesday: Afternoon hike at Mt. Hood.
