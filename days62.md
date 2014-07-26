@@ -44,7 +44,9 @@ Wednesday:
  * Afternoon, hike to [[http://www.portlandhikersfieldguide.org/wiki/Mirror_Lake_Hike|Mirror Lake]] in Mt. Hood National Forest
 
 
-Thursday: TBD
+Thursday: 
+ * Morning, work in project groups
+ * Afternoon, work in project groups
 
 
 Friday: 
