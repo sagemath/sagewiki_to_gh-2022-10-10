@@ -13,7 +13,7 @@ Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ
 == Projects ==
 
  * '''Li coefficients for L-functions''' [[http://www.math.ucsd.edu/~alina/|Alina Bucur]] (UC San Diego) [[attachment:Li coefficients for L-functions]]
-  *
+  * Lola Thompson
   *
   *
  * '''Solving S-unit Equations in Sage''' Beth Malmskog (Villanova University) [[attachment:Solving S-Unit Equations in Sage]]
@@ -29,27 +29,37 @@ Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ
 
 Monday: 
  * Check-in late afternoon
-
+ * Dinner
 
 Tuesday: 
+ * Breakfast
  * 9:00-9:45 Project Talk, Alina Bucur
  * 10:00-10:45 Project Talk, Beth Malnskog
- * 11:00-12:00 Project Talk, Holly Swisher
+ * 11:00-11:45 Project Talk, Holly Swisher
+ * Lunch
  * Afternoon, work in project groups 
-
+ * Dinner
+ * Evening, work in project groups
 
 
 Wednesday: 
+ * Breakfast
  * Morning, work in project groups
+ * Lunch
  * Afternoon, hike to [[http://www.portlandhikersfieldguide.org/wiki/Mirror_Lake_Hike|Mirror Lake]] in Mt. Hood National Forest
-
+ * Dinner
+ * Evening, work in project groups
 
 Thursday: 
+ * Breakfast
  * Morning, work in project groups
+ * Lunch 
  * Afternoon, work in project groups
-
+ * Dinner
+ * Evening, project group presentations and campfire with s'mores!
 
 Friday: 
+ * Breakfast
  * Check-out late morning
 
 == Participants ==
