@@ -33,9 +33,9 @@ Monday:
 
 Tuesday: 
  * Breakfast
- * 9:00-9:45 Project Talk, Alina Bucur
- * 10:00-10:45 Project Talk, Beth Malnskog
- * 11:00-11:45 Project Talk, Holly Swisher
+ * 9:00-9:45 Project Talk, Beth Malmskog
+ * 10:00-10:45 Project Talk, Holly Swisher
+ * 11:00-11:45 Project Talk, Alina Bucur
  * Lunch
  * Afternoon, work in project groups 
  * Dinner
