@@ -15,7 +15,7 @@ Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ
  * '''Li coefficients for L-functions''' [[http://www.math.ucsd.edu/~alina/|Alina Bucur]] (UC San Diego) [[attachment:Li coefficients for L-functions]]
   * Lola Thompson
   * Laura Peskin
-  *
+  * Karen Kohl
  * '''Solving S-unit Equations in Sage''' Beth Malmskog (Villanova University) [[attachment:Solving S-Unit Equations in Sage]]
   * Christelle Vincent
   * Alejandra Alvarado
