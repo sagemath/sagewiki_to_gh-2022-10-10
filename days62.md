@@ -21,7 +21,7 @@ Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ
   * Christelle Vincent
   * Alejandra Alvarado
   * Mckenzie West
- * '''Computing examples of generalized Legendre curves that admit QM in Sage''' [[http://people.oregonstate.edu/~swisherh/home/|Holly Swisher]] (Oregon State University) [[attachment:Computing QM examples in Sage.pdf]]
+ * '''Computing examples curves that admit QM in Sage''' [[http://people.oregonstate.edu/~swisherh/home/|Holly Swisher]] (Oregon State University) [[attachment:Computing QM examples in Sage.pdf]]
   * Heidi Goodson
   * Alicia Marino
   * Anna Haensch
