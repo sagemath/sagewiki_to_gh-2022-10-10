@@ -45,11 +45,11 @@ Tuesday:
 
 Wednesday: 
  * Breakfast
- * 9:00-9:45 Talk on Using Git, Anna Haensch
+ * 9:00-9:45 Talk on using Git, Anna Haensch
  * Morning, work in project groups
  * Lunch
- * Afternoon, work in project groups
- * 3:00 - ?? Hike to [[http://www.portlandhikersfieldguide.org/wiki/Mirror_Lake_Hike|Mirror Lake]] in Mt. Hood National Forest
+ * Early afternoon, work in project groups
+ * 3:00 Hike to [[http://www.portlandhikersfieldguide.org/wiki/Mirror_Lake_Hike|Mirror Lake]] in Mt. Hood National Forest
  * Dinner
  * Evening, work in project groups
 
