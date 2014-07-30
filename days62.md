@@ -16,6 +16,7 @@ Online applications '''due May 23rd'''. [[https://docs.google.com/forms/d/113wkQ
   * Lola Thompson
   * Laura Peskin
   * Karen Kohl
+  * Kate Thompson
  * '''Solving S-unit Equations in Sage''' Beth Malmskog (Villanova University) [[attachment:Solving S-Unit Equations in Sage]]
   * Christelle Vincent
   * Alejandra Alvarado
@@ -44,9 +45,11 @@ Tuesday:
 
 Wednesday: 
  * Breakfast
+ * 9:00-9:45 Talk on Using Git, Anna Haensch
  * Morning, work in project groups
  * Lunch
- * Afternoon, hike to [[http://www.portlandhikersfieldguide.org/wiki/Mirror_Lake_Hike|Mirror Lake]] in Mt. Hood National Forest
+ * Afternoon, work in project groups
+   3:00 - ?? Hike to [[http://www.portlandhikersfieldguide.org/wiki/Mirror_Lake_Hike|Mirror Lake]] in Mt. Hood National Forest
  * Dinner
  * Evening, work in project groups
 
