@@ -30,8 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/15389|#15389]]) needs-work: Krumm-Doyle Small Points Algorithm - David Krumm, John Doyle
-
  * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-review: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
@@ -47,6 +45,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * ([[http://trac.sagemath.org/ticket/15448|#15448]]) new: cartesian products of projective space - Ben Hutz
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/15389|#15389]])-- closed sage.6.3: Krumm-Doyle Small Points Algorithm - David Krumm, John Doyle
 
  * --([[http://trac.sagemath.org/ticket/15382|#15382]])-- closed sage.6.3: MacCaulay Resultant - Soli Vishkautsan, Hao Chen
 
