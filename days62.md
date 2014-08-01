@@ -84,7 +84,7 @@ Friday:
 
 == Photos! ==
 
-[[http://www.shutterfly.com/lightbox/view.sfly?fid=e01447ec26b538936cbbd47cbb382743|Click here for photos from Women In Sage 5!]]
+[[https://womeninsage5.shutterfly.com|Click here for photos from Women In Sage 5!]]
 
 
 == Other Info ==
