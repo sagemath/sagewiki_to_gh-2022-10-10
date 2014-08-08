@@ -11,13 +11,15 @@ Funding is available for the travel (within India) and local expenses of partici
 
 == Tentative Schedule ==
 
-Day 1: morning: registration, general introduction to sage by experienced Sage developers.
+=== Registration and Introduction to the Conference ===
+14 August 10:00am-10:30am
 
-Day 1: afternoon: setting up, installation help etc.
+||Date||1030-1130||1200-1300||1400-1500||1530-1630||
+||14 Aug||Crisman||intros/Mahatab||project ideas||progress reps.||
+||15 Aug||Schilling ||Thiery||Optional Talks||Progress reps.||
+||16 Aug||Scrimshaw|| participant talks||||Sightseeing trip||
+||17 Aug||Vanchinathan|| participant talks||||winding up||
 
-Day 2: morning: intro to Sage-combinat by experienced Sage-combinat developers, followed by a discussion of projects for the rest of the week.
-
-Remaining days: talks by participants in the morning, coding for the afternoons.
 
 The intended audience will be mathematicians (faculty and PhD students) mostly from India who have an interest in using computers for their research.
 
@@ -59,7 +61,7 @@ Faculty should attach their CV to the application.
 
 == List of Participants ==
 
- 1. Suman Ahmad (U. of Burdwan) 
+ 1. Suman Ahmad (U. of Burdwan)
  1. G. Arunkumar (IMSc)
  1. Rekha Biswal (IMSc)
  1. I. V. S. Chanakya (U. of Hyderabad)
