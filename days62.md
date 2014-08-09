@@ -1,6 +1,6 @@
 = Sage Days 62: Women in Sage 5 =
 
-[[File:Sagedays62.jpg|thumb|alt=A cartoon centipede reads books and types on a laptop.|The Wikipede edits ''[[Myriapoda]]''.]]
+{{attachment:Sagedays62.jpg}}
 
 [[http://sagemath.org/|Sage]] is a mathematics software package, developed by and for the mathematical community.  It aims to become a viable alternative to commercial software packages on the basis of an open-source model.
 
