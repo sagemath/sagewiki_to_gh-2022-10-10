@@ -1,5 +1,7 @@
 = Sage Days 62: Women in Sage 5 =
 
+[[File:Sagedays62.jpg|thumb|alt=A cartoon centipede reads books and types on a laptop.|The Wikipede edits ''[[Myriapoda]]''.]]
+
 [[http://sagemath.org/|Sage]] is a mathematics software package, developed by and for the mathematical community.  It aims to become a viable alternative to commercial software packages on the basis of an open-source model.
 
 This 4-day workshop will include talks, tutorials, and time spent in small project groups developing Sage code. We will focus on various aspects of computational number theory with the dual goals of enhancing the Sage library, and increasing the number of women in the community of Sage developers.
