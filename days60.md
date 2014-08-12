@@ -63,4 +63,4 @@ This a part of our effort to increase an awareness of Sage and its utility to ma
 
 == Accommodation ==
 
-Outstation participants will be accommodated in the IMSc guest house. Directions for reaching IMSc are available at www.imsc.res.in/getting_imsc.
+Outstation participants will be accommodated in the IMSc guest house. Directions for reaching IMSc are available at [[http://www.imsc.res.in/getting_imsc]].
