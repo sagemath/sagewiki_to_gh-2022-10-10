@@ -31,26 +31,6 @@ This a part of our effort to increase an awareness of Sage and its utility to ma
  2. [[http://www.imsc.res.in/~amri/|Amritanshu Prasad]] (IMSc, Chennai)
  3. [[http://www.imsc.res.in/~svis/|S. Viswanath]] (IMSc, Chennai)
 
-
-== Applications ==
-
-You may apply for the entire workshop or any part of it. However, those attending the entire workshop will be given preference for travel support and accommodation.
-
-Please apply to sagedays60@gmail.com with the following information:
-
- * Name:
- * Position:
- * Institution:
- * Intended date of Arrival:
- * Intended date of Departure:
- * Whether travel support needed: Yes/No
-
-Students should indicate their areas of interest and request their advisor/teacher to send a letter supporting their application to the above e-mail address.
-
-Faculty should attach their CV to the application.
-
-'''Applications are officially closed.''' However, do write to us if you missed the deadline but really wish to attend. We will see if we can somehow accommodate you.
-
 == List of Participants ==
 
  1. Suman Ahmad (U. of Burdwan)
@@ -80,3 +60,7 @@ Faculty should attach their CV to the application.
  1. Tulasi Ram (IISc)
  1. Pooja Singla (IISc)
  1. S. Sivaramakrishnan (IIT Bombay)
+
+== Accommodation ===
+
+Outstation participants will be accommodated in the IMSc guest house. Directions for reaching IMSc are available at www.imsc.res.in/getting_imsc.
