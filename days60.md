@@ -31,14 +31,6 @@ This a part of our effort to increase an awareness of Sage and its utility to ma
  2. [[http://www.imsc.res.in/~amri/|Amritanshu Prasad]] (IMSc, Chennai)
  3. [[http://www.imsc.res.in/~svis/|S. Viswanath]] (IMSc, Chennai)
 
-== Confirmed Speakers ==
-
- 1. Karl-Dieter Crisman (Gordon College)
- 2. Anne Schilling (UC Davis)
- 1. Travis Scrimshaw (UC Davis)
- 3. Nicolas M. Thi&eacute;ry (Universit&eacute; Paris Sud)
- 4. P. Vanchinathan (VIT Chennai)
- 5. Amritanshu Prasad (IMSc)
 
 == Applications ==
 
