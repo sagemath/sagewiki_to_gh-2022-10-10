@@ -61,6 +61,6 @@ This a part of our effort to increase an awareness of Sage and its utility to ma
  1. Pooja Singla (IISc)
  1. S. Sivaramakrishnan (IIT Bombay)
 
-== Accommodation ===
+== Accommodation ==
 
 Outstation participants will be accommodated in the IMSc guest house. Directions for reaching IMSc are available at www.imsc.res.in/getting_imsc.
