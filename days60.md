@@ -25,6 +25,13 @@ The intended audience will be mathematicians (faculty and PhD students) mostly f
 
 This a part of our effort to increase an awareness of Sage and its utility to mathematical research among mathematicans in India.
 
+The topics to be covered by the speakers are as follows:
+
+ 1. Crisman: Introduction to Sage:  Mathematics Software for All
+ 2. Schilling and Thiery: Introduction to Sage-combinat
+ 3. Mahatab and Vanchinathan: talks about research using Sage.
+ 4. Scrimshaw: Classes in Sage-combinat
+
 == Organizers ==
 
  1. [[http://www.math.iisc.ernet.in/~arvind/|Arvind Ayyer]] (IISc, Bangalore)
