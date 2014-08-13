@@ -11,7 +11,7 @@ Funding is available for the travel (within India) and local expenses of partici
 
 == Tentative Schedule ==
 
-=== Registration and Introduction to the Conference ===
+'''Registration and Introduction to the Conference'''
 14 August 10:00am-10:30am
 
 ||Date||1030-1130||1200-1300||1400-1500||1530-1630||
