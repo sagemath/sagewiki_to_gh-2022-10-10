@@ -59,6 +59,7 @@ The topics to be covered by the speakers are as follows:
  1. B. Ravinder (IMSc)
  1. Santha Kumar (Periyar University)
  1. Selva Ganesh (Periyar University)
+ 1. Bidyut Sanki (IISc)
  1. B. R. Shankar (NIT Surathkal)
  1. Sachin Sharma (TIFR)
  1. Shiv Parsad (IISER Mohali)
