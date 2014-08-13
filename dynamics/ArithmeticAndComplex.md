@@ -36,8 +36,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
- * ([[http://trac.sagemath.org/ticket/15394|#15394]]) Lattes map from an Elliptic Curve - Patrick Ingram
-
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
  * Enabled canonical height for maps of `\PP^N` over number fields. Here is an early draft worksheet: [[attachment:Canonical height for number fields.sws| sws]], for `N>1` it requires the macaulay_resultant patch from above. - Adam Towsley, Paul Fili
@@ -45,6 +43,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * ([[http://trac.sagemath.org/ticket/15448|#15448]]) new: cartesian products of projective space - Ben Hutz
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/15394|#15394]])-- closed sage 6.4: Lattes map from an Elliptic Curve - Patrick Ingram, Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/15389|#15389]])-- closed sage.6.3: Krumm-Doyle Small Points Algorithm - David Krumm, John Doyle
 
