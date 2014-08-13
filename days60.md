@@ -40,6 +40,7 @@ The topics to be covered by the speakers are as follows:
 
 == List of Participants ==
 
+ 1. P. Akhilesh (HRI)
  1. Suman Ahmad (U. of Burdwan)
  1. G. Arunkumar (IMSc)
  1. Rekha Biswal (IMSc)
