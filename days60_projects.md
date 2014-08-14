@@ -72,13 +72,17 @@ Mamta
 
 #3624 coding theory -- A trivial review, now done! 
 
-== Conditional expectations of multivariate random variables == 
+Kamalakshya, Kannappan 
 
 == Reorganize the combinatorics documentation indexes into src/sage/combinat ==
 
 #16256
 
 Anne, Karl, Nicolas, Travis
+
+== Conditional expectations of multivariate random variables ==
+
+
 
 == Dimer model ==
 
