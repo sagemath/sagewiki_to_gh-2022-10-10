@@ -25,4 +25,10 @@ Implement a couple, look for dimensions of comodules (by duality)
 
 == Review of tutorials from the Sage-Combinat queue ==
 
-== == 
+== Conditional expectations of multivariate random variables == 
+
+== Reorganize the combinatorics documentation indexes into src/sage/combinat ==
+
+#16256
+
+Anne, Karl, Nicolas, Travis
