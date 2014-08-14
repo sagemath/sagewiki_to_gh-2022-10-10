@@ -2,17 +2,11 @@
 
 Sage-Combinat is a software project whose mission is: '''to improve the open source mathematical system [[http://www.sagemath.org/|Sage]] as an extensible toolbox for computer exploration in (algebraic) combinatorics, and foster code sharing between researchers in this area'''.
 
-In practice, Sage-combinat is a collection of extensions on top of [[http://www.sagemath.org/|Sage]], developed by a community of researchers. The intent is that most of those extensions get eventually integrated into Sage as soon as they are mature enough, with a typical short life-cycle of a few weeks. In other words: just install Sage, and you will benefit from all the Sage-combinat development, except for the latest bleeding edge features.
-
-----
-
-'''[[http://wiki.sagemath.org/combinat/Installation|Installation instructions]]'''
+In practice, Sage-combinat is a collection of branches on top of [[http://www.sagemath.org/|Sage]], developed by a community of researchers. The intent is that most of those branches get eventually integrated into Sage as soon as they are mature enough, with a typical short life-cycle of a few weeks. In other words: just install Sage, and you will benefit from all the Sage-combinat development, except for the latest bleeding edge features.
 
 ----
 
 == NEWS ==
-
- * April 7-11, 2014 [[http://wiki.sagemath.org/days57|Sage(-Combinat) Days 57]], Cernay
 
  * [[http://trac.sagemath.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
@@ -23,6 +17,10 @@ In practice, Sage-combinat is a collection of extensions on top of [[http://www.
  * [[http://wiki.sagemath.org/TentativeConventions|Help for new Git workflow]]
 
 == Past news ==
+
+ * August 14-17, 2014 [[http://wiki.sagemath.org/days60|Sage Days 60]], Chennai, India
+
+ * April 7-11, 2014 [[http://wiki.sagemath.org/days57|Sage(-Combinat) Days 57]], Cernay, France
 
  * November 4-8, 2013 [[http://wiki.sagemath.org/days54|Sage(-Combinat) Days 54]], University of California at Davis, USA
    Organized by Dan Bump, Anne Schilling and Travis Scrimshaw
