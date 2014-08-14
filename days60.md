@@ -32,6 +32,9 @@ The topics to be covered by the speakers are as follows:
  3. Mahatab and Vanchinathan: talks about research using Sage.
  4. Scrimshaw: Classes in Sage-combinat
 
+
+'''[[days60_projects|Projects for Sage Days 60]]'''
+
 == Organizers ==
 
  1. [[http://www.math.iisc.ernet.in/~arvind/|Arvind Ayyer]] (IISc, Bangalore)
