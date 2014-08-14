@@ -23,8 +23,11 @@ Amri
 == Class for bilinear and sesquilinear forms ==
 
 == Error estimates for differential difference equations ==
-
+Approximation of solution of a general equation. 
+To solve the equation at a given point with value and error.
+(Reference http://www.ams.org/journals/mcom/1969-23-106/S0025-5718-1969-0247789-3/S0025-5718-1969-0247789-3.pdf, http://en.wikipedia.org/wiki/Dickman_function )
 #16601
+Kamalakshya
 
 == Rational points on elliptic curves ==
 
@@ -32,8 +35,14 @@ Amri
 
 Implement a couple, look for dimensions of comodules (by duality)
 
+
+---- /!\ '''Edit conflict - other version:''' ----
 Mamta
 
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
 == Review of tutorials from the Sage-Combinat queue ==
 
 #3624 coding theory
