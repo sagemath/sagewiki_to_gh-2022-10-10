@@ -139,7 +139,7 @@ the extensions as git branches. Here are some useful links:
 
  * [[http://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=positive_review&component=combinatorics&or&status=needs_info&status=needs_review&status=needs_work&status=positive_review&cc=~sage-combinat&col=id&col=summary&col=component&col=status&col=type&col=priority&col=milestone&order=priority|In-progress tickets related to combinatorics]]
 
- * [[http://wiki.sagemath.org/TentativeConventions|Some conventions]]
+ * [[http://wiki.sagemath.org/TentativeConventions|Some conventions and help with the new git]]
 
 
 The Sage-Combinat extensions used to be managed as a collection of
