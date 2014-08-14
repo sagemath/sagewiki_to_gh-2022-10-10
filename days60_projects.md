@@ -1,5 +1,19 @@
 = Projects for Sage Days 60 =
 
+== Tutorials ==
+
+- Version control with GIT: 2
+- Quick categories intro: 3
+- Overview of Graph theory feature
+- Intro to Algebraic Number Theory
+- Contributing to Sage
+- Tutorial: Using GAP from Sage
+- Explore: polytopes
+- Tutorial: optimized code with Cython
+- Tutorial: commutative algebra
+- Tutorial: Homological algebra
+- Creating sage packages
+- Tutorial: SageTeX
 
 == Knot theory ==
 
