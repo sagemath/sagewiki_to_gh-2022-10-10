@@ -30,9 +30,9 @@ Amri
 
 == Play with finite dimensional Hopf algebras ==
 
-Mamta
-
 Implement a couple, look for dimensions of comodules (by duality)
+
+Mamta
 
 == Review of tutorials from the Sage-Combinat queue ==
 
