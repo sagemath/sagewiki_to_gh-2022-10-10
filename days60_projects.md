@@ -70,7 +70,7 @@ Mamta
 
 == Review of tutorials from the Sage-Combinat queue ==
 
-#3624 coding theory
+#3624 coding theory -- A trivial review, now done! 
 
 == Conditional expectations of multivariate random variables == 
 
