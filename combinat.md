@@ -129,27 +129,26 @@ In practice, Sage-combinat is a collection of branches on top of [[http://www.sa
  * Post bug reports, suggestions, patches on the [[http://trac.sagemath.org/sage_trac/milestone/sage-combinat|Sage-Combinat trac server]] or on the [[http://groups.google.com/group/sage-combinat-devel|mailing list]].
 
 === Code ===
+ 
+Since Sage 6.0, the
+[[http://trac.sagemath.org/wiki/QuickStartSageGit|development workflow]]
+has been reworked in depth, and we are in the progress of migrating
+the extensions as git branches. Here are some useful links:
+
+ * [[http://trac.sagemath.org/query?status=closed&component=combinatorics&or&status=closed&cc=~sage-combinat&col=id&col=summary&col=component&col=status&col=type&col=priority&col=milestone&order=priority|Closed tickets related to combinatorics]]
+
+ * [[http://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=positive_review&component=combinatorics&or&status=needs_info&status=needs_review&status=needs_work&status=positive_review&cc=~sage-combinat&col=id&col=summary&col=component&col=status&col=type&col=priority&col=milestone&order=priority|In-progress tickets related to combinatorics]]
+
+ * [[http://wiki.sagemath.org/TentativeConventions|Some conventions
+
 
 The Sage-Combinat extensions used to be managed as a collection of
 patches on our [[http://combinat.sagemath.org/patches/|patch server]],
-using a so-called mercurial queue. Since Sage 6.0, the
-[[http://trac.sagemath.org/wiki/QuickStartSageGit|development workflow]]
-has been reworked in depth, and we are in the progress of migrating
-the extensions as git branches.
-
+using a so-called mercurial queue.
 Quite some stuff below is thus outdated, and will be progressively
 replaced by information on the new workflow.
 
- * [[http://trac.sagemath.org/query?status=closed&component=combinatorics&or&status=closed&cc=~sage-combinat&col=id&col=summary&col=component&col=status&col=type&col=priority&col=milestone&order=priority|Closed tickets related to combinatorics]]
- * [[http://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=positive_review&component=combinatorics&or&status=needs_info&status=needs_review&status=needs_work&status=positive_review&cc=~sage-combinat&col=id&col=summary&col=component&col=status&col=type&col=priority&col=milestone&order=priority|In-progress tickets related to combinatorics]]
-
- * Browse the [[http://combinat.sagemath.org/code/file/tip/sage/|Sage sources with the Sage-combinat patches applied]]
-
- * Please read the [[combinat/MercurialStepByStep|Step by step tutorial]]  (in particular, how to '''download Sage-Combinat''')
-
- * For the curious: [[combinat/Mercurial|Technical background on the Sage-Combinat patch server (messy)]].
-
- * For hg/mercurial lovers: [[http://hgbook.red-bean.com/read/|Mercurial: The Definite Guide]] an e-book by Bryan O'Sullivan
+ * Browse the [[http://combinat.sagemath.org/code/file/tip/sage/|Sage sources with the Sage-combinat patches applied]] (only useful for Sage version prior to sage-6.0)
 
  * Developing for Sage-Combinat on Windows: [[combinat/SageDevelWindows|Sage Development on Windows]].
 
