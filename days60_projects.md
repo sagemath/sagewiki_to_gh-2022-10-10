@@ -15,6 +15,7 @@ Review the existing features in Sage (anything) and elsewhere, and create some t
 
 == Expose more features from Symmetrica ==
 
+#15555
 Amri
 
 == Quadratic forms over ch=2 ==
