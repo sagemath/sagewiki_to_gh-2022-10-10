@@ -10,6 +10,12 @@
 
 * Intro to Algebraic Number Theory
 
+Here are useful links for Number Theory in Sage:
+ 
+   1. [[http://www.math-cs.gordon.edu/~kcrisman/mat338/index.html|Here]] are some lecture notes using Sage on Elementary Number Theory by Karl-Dieter.
+   2. Sage [[http://www.sagemath.org/pdf/en/reference/number_fields/number_fields.pdf| reference manual]] for number fields. 
+   3. [[http://wstein.org/books/ant/ant.pdf|Here]] is a book by William Stein on Algebraic Number Theory.  
+
 * Contributing to Sage
 
 * Tutorial: Using GAP from Sage
