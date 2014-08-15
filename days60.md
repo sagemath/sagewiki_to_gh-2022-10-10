@@ -16,7 +16,7 @@ Funding is available for the travel (within India) and local expenses of partici
 
 ||Date||1030-1130||1200-1300||1400-1500||1530-1630||
 ||14 Aug||Crisman ([[attachment:Intro to Sage - SD 60 Chennai.sws|worksheet]]) ([[attachment:Intro to Sage - SD 60 Chennai -- Sage.pdf|pdf]])||intros/Mahatab||project ideas||progress reps.||
-||15 Aug||Schilling ||Thiery||Optional Talks||Progress reps.||
+||15 Aug||Schilling ([[attachment:Schilling-SageDays.sws|worksheet]]) ([[attachment:Schilling-talk-SageDays60.pdf|pdf]])||Thiery||Optional Talks||Progress reps.||
 ||16 Aug||Scrimshaw|| participant talks||||Sightseeing trip||
 ||17 Aug||Vanchinathan|| participant talks||||winding up||
 
