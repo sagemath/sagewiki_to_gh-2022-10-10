@@ -101,3 +101,7 @@ Travis, ...
 == Categories and Morphisms for crystals ==
 
 Anne, Nicolas, Travis
+
+== Ticket #16126 on Coxeter Groups == 
+
+Kannappan: I am interested in this ticket. I guess a minimal implementation should not take extremely long... 
