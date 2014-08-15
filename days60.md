@@ -15,7 +15,7 @@ Funding is available for the travel (within India) and local expenses of partici
 14 August 10:00am-10:30am
 
 ||Date||1030-1130||1200-1300||1400-1500||1530-1630||
-||14 Aug||Crisman||intros/Mahatab||project ideas||progress reps.||
+||14 Aug||Crisman ([[attachment:Intro to Sage - SD 60 Chennai.sws|worksheet]]) ([|pdf])||intros/Mahatab||project ideas||progress reps.||
 ||15 Aug||Schilling ||Thiery||Optional Talks||Progress reps.||
 ||16 Aug||Scrimshaw|| participant talks||||Sightseeing trip||
 ||17 Aug||Vanchinathan|| participant talks||||winding up||
