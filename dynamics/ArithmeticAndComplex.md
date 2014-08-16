@@ -44,6 +44,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
+ * --([[http://trac.sagemath.org/ticket/16832|#16832]])-- closed sage 6.4: Can't Coerce projective point to subscheme point - Peter Bruin
+
  * --([[http://trac.sagemath.org/ticket/15394|#15394]])-- closed sage 6.4: Lattes map from an Elliptic Curve - Patrick Ingram, Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/15389|#15389]])-- closed sage.6.3: Krumm-Doyle Small Points Algorithm - David Krumm, John Doyle
