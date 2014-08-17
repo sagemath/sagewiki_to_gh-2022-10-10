@@ -16,6 +16,8 @@ Here are useful links for Number Theory in Sage:
    2. Sage [[http://www.sagemath.org/pdf/en/reference/number_fields/number_fields.pdf| reference manual]] for number fields. 
    3. [[http://wstein.org/books/ant/ant.pdf|Here]] is a book by William Stein on Algebraic Number Theory.  
 
+Kn: [[attachment:Alg_Num_Thy.sws|Here]] is my Sage Worksheet. This is heavily bases on the references (2) and (3) above. 
+
 * Contributing to Sage
 
 * Tutorial: Using GAP from Sage
