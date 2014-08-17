@@ -2,6 +2,8 @@
 
 <<TableOfContents()>>
 
+'''If you created a ticket during this workshop please tag it "days60"'''
+
 == Venue ==
 
 The workshop takes place at [[http://www.imsc.res.in|The Institute of Mathematical Sciences]] in Chennai, India.
