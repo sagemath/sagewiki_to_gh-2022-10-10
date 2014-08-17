@@ -2,7 +2,7 @@
 
 <<TableOfContents()>>
 
-'''If you created a ticket during this workshop please tag it "days60"'''
+'''If you created or worked on a ticket during this workshop please tag it "days60"'''
 
 == Venue ==
 
