@@ -18,7 +18,7 @@ Funding is available for the travel (within India) and local expenses of partici
 ||14 Aug||Crisman ([[attachment:Intro to Sage - SD 60 Chennai.sws|worksheet]]) ([[attachment:Intro to Sage - SD 60 Chennai -- Sage.pdf|pdf]])||intros/Mahatab([[attachment:number_theory_talk.sws|worksheet]])([[attachment:number_talk.pdf|pdf]])||project ideas||progress reps.||
 ||15 Aug||Schilling ([[attachment:Schilling-SageDaysChennai.sws|worksheet]]) ([[attachment:Schilling-talk-sagedays60.pdf|pdf]])||Thiery||Optional Talks||Progress reps.||
 ||16 Aug||Scrimshaw ([[attachment:Scrimshaw_classes_categories_parents_elements.sws|worksheet]])||Viswanath/Amri||||Sightseeing trip||
-||17 Aug||Vanchinathan||Rekha//??||||winding up||
+||17 Aug||Vanchinathan||Rekha/Akhilesh||||winding up||
 
 
 The intended audience will be mathematicians (faculty and PhD students) mostly from India who have an interest in using computers for their research.
@@ -31,6 +31,10 @@ The topics to be covered by the speakers are as follows:
  2. Schilling and Thiery: Introduction to Sage-combinat
  3. Mahatab and Vanchinathan: talks about research using Sage.
  4. Scrimshaw: Classes in Sage-combinat
+ 5. Viswanath: Area-maximizing Gelfand-Tsetlin patterns
+ 6. Amri: Right-Angled Artin Groups
+ 7. Akhilesh: Multiple Zeta Values
+
 
 
 '''[[days60_projects|Projects for Sage Days 60]]'''
