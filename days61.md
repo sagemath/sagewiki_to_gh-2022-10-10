@@ -2,6 +2,8 @@
 
 Organizer: Jim Stankewicz, William Stein, Ian Kiming
 
+Official Website: [[https://sites.google.com/site/sagedays61/]]
+
 Wishlist:
 
 *Brandt Modules with more than one prime in the discriminant
