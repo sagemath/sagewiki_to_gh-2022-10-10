@@ -16,7 +16,7 @@ Wishlist:
 ''Deadline to apply for funding: Passed! But you can still sign up for sage days as a masterclass!'' [[http://stankewicz.net/sagedays/signup.html|Sign Up Here!]]
 
 
- * William Stein (Seattle)
+ * William Stein (Seattle) --  [[attachment:overview_talk.pdf]]
  * Lassina Dembele (Warwick)
  * David Kohel (Marseille)
  * John Voight (Hanover, NH)
