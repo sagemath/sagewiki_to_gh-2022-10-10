@@ -6,6 +6,8 @@ Official Website: [[https://sites.google.com/site/sagedays61/]]
 
 SageMathCloud Project: [[http://tinyurl.com/sagedays61]]
 
+Gitter chat room: [[https://gitter.im/sagemath/sage/sd61]]
+
 Wishlist:
 
  * Brandt Modules with more than one prime in the discriminant
