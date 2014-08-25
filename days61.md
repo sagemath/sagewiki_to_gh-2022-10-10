@@ -8,6 +8,8 @@ SageMathCloud Project: [[http://tinyurl.com/sagedays61]]
 
 Gitter chat room: [[https://gitter.im/sagemath/sage/sd61]]
 
+SageMathCloud Development Tutorial: [[http://mathandhats.blogspot.dk/2014/06/how-to-develop-for-sage-using-sage-math.html]]
+
 Wishlist:
 
  * Brandt Modules with more than one prime in the discriminant
