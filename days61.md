@@ -8,7 +8,7 @@ SageMathCloud Project: [[http://tinyurl.com/sagedays61]]
 
 Gitter chat room: [[https://gitter.im/sagemath/sage/sd61]]
 
-SageMathCloud Development Tutorial: [[http://mathandhats.blogspot.dk/2014/06/how-to-develop-for-sage-using-sage-math.html]]
+SageMathCloud Development Tutorial (for development after this conference when we don't want to use the copy of sage William built): [[http://mathandhats.blogspot.dk/2014/06/how-to-develop-for-sage-using-sage-math.html]]
 
 Wishlist:
 
