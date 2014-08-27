@@ -1,5 +1,7 @@
 = Sage Days 61: Quaternion Orders and Brandt Modules (August 25-29, 2014), Copenhagen, Denmark =
 
+{{attachment:voight.jpg|Voight|width=600}}
+
 Organizer: Jim Stankewicz, William Stein, Ian Kiming
 
 Official Website: [[https://sites.google.com/site/sagedays61/]]
