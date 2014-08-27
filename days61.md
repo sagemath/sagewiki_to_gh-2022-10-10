@@ -10,6 +10,8 @@ SageMathCloud Project: [[http://tinyurl.com/sagedays61]]
 
 Gitter chat room: [[https://gitter.im/sagemath/sage/sd61]]
 
+Conference Dinner: at [[http://spisrubogstub.dk/concept/]], and here is a map [[http://tinyurl.com/q7vetvw]]
+
 SageMathCloud Development Tutorial (for development after this conference when we don't want to use the copy of sage William built): [[http://mathandhats.blogspot.dk/2014/06/how-to-develop-for-sage-using-sage-math.html]]
 
 Wishlist:
