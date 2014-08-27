@@ -16,6 +16,8 @@ Wishlist:
 
  * Brandt Modules with more than one prime in the discriminant
 
+People:
+
 
  * William Stein (Seattle) --  [[attachment:overview_talk.pdf]]
  * Lassina Dembele (Warwick)
