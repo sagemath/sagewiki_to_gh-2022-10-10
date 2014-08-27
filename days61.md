@@ -10,7 +10,7 @@ SageMathCloud Project: [[http://tinyurl.com/sagedays61]]
 
 Gitter chat room: [[https://gitter.im/sagemath/sage/sd61]]
 
-Conference Dinner: at [[http://spisrubogstub.dk/concept/]], and here is a map [[http://tinyurl.com/q7vetvw]]
+Conference Dinner: at [[http://spisrubogstub.dk/concept/]], and here is a map [[http://tinyurl.com/q7vetvw]]  In particular, if you type the name of the restaurant (Rub & Stub) it will confidently take you to something that is an hour walk away that has **NOTHING TO DO** with the restaurant. 
 
 SageMathCloud Development Tutorial (for development after this conference when we don't want to use the copy of sage William built): [[http://mathandhats.blogspot.dk/2014/06/how-to-develop-for-sage-using-sage-math.html]]
 
