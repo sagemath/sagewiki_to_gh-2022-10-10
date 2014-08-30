@@ -37,9 +37,21 @@ The topics to be covered by the speakers are as follows:
  6. Amri: Right-Angled Artin Groups
  7. Akhilesh: Multiple Zeta Values
 
-
-
 '''[[days60_projects|Projects for Sage Days 60]]'''
+
+== Photos ==
+
+[[attachment:Class1.jpg|Participants at the Lecture]]
+
+[[attachment:Class2.jpg|Participants at the Lecture]]
+
+[[attachment:Discussion1.jpg|Discussing]]
+
+[[attachment:Discussion2.jpg|Discussing]]
+
+[[attachment:Discussion3.jpg|Discussing]]
+
+[[attachment:Discussion4.jpg|Discussing]]
 
 == Organizers ==
 
