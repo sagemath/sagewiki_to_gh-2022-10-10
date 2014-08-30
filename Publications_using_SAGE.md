@@ -1,9 +1,11 @@
 == Technical/Scholarly Publications Citing Sage ==
 
-If you use Sage in a book, paper, website, etc., please [[http://www.sagemath.org/contact.html | contact us]] about details of the publication, e.g. where is it published, provide a link to your publication. Please reference Sage as follows:
+If you use Sage in a book, paper, website, etc., please [[http://www.sagemath.org/contact.html | contact us]] about details of the publication, e.g. where is it published, provide a link to your publication. Alternatively, send us a [[ https://github.com/sagemath/publications/ | pull request ]].
+
+Please reference Sage as follows:
 
 {{{
-William A. Stein et al. Sage Mathematics Software (Version x.y.z),
+W. A. Stein et al. Sage Mathematics Software (Version x.y.z),
    The Sage Development Team, YYYY, http://www.sagemath.org.
 }}}
 
