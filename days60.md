@@ -53,6 +53,8 @@ The topics to be covered by the speakers are as follows:
 
 [[attachment:Discussion4.jpg|Discussing]]
 
+[[attachment:Selfie.jpg|What sagedays is complete without a selfie?]]
+
 == Organizers ==
 
  1. [[http://www.math.iisc.ernet.in/~arvind/|Arvind Ayyer]] (IISc, Bangalore)
