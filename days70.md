@@ -1,16 +1,15 @@
-= Sage Days 63 in Japan =
+= Sage Days 70 in Chicago =
 
 == When and where? ==
 
-October 12-13, 2014, at Shinshu University (Matsumoto campus), Japan.
+June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
 
 == Web page ==
 
-For more information, see web page
-[[http://math.shinshu-u.ac.jp/~nu/html/sage/days/201410/]].
+[[http://webpages.math.luc.edu/~lauve/sagedays/sagedays-loyolachicago.html]].
 
 == Organizers ==
 
-  * KIMURA, Iwao (University of Toyama, Japan)
-  * NUMATA, Yasuhide (Shinshu university, Japan)
-  * YOKOYAMA, Shun'ichi (Kyushu University, Japan)
+  * ALBERT, Mark V. (Loyola -- Computer Science)
+  * LAUVE, Aaron (Loyola -- Mathematics)
+  * TINGLEY, Peter (Loyola -- Mathematics)
