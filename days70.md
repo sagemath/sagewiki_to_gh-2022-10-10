@@ -6,7 +6,7 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
 
 == Web page ==
 
-[[http://webpages.math.luc.edu/~lauve/sagedays/sagedays-loyolachicago.html]].
+[[http://math.luc.edu/sagedays/]].
 
 == Organizers ==
 
