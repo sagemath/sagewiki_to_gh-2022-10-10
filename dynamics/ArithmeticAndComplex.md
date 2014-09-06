@@ -30,8 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/16838|#16838]]) needs-review: : make affine and projective dehomogenize and homogenize work together - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-review: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
@@ -45,6 +43,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * ([[http://trac.sagemath.org/ticket/15448|#15448]]) new: cartesian products of projective space - Ben Hutz
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/16838|#16838]])-- closed sage 6.4: make affine and projective dehomogenize and homogenize work together - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/16833|#16833]])-- closed sage 6.4: Use Macaulay resultant to compute resultant of projective morphisms - Joao de Faria
 
