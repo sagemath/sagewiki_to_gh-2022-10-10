@@ -1,4 +1,4 @@
-= Sage Days 64: Dev Days Davis =
+= Sage Days 64: Algebraic Combinatorics =
 
 == General Information ==
 
