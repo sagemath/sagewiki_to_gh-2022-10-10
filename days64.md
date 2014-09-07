@@ -14,12 +14,10 @@ March 17-20, 2015
 
 == Organizers ==
 
-* Dan Bump (Stanford)
-
-* Anne Schilling (UC Davis)
-
-* Travis Scrimshaw (UC Davis)
+ * Dan Bump (Stanford)
+ * Anne Schilling (UC Davis)
+ * Travis Scrimshaw (UC Davis)
 
 == Participants ==
 
-* Ben Salisbury (Central Michigan University)
+ * Ben Salisbury (Central Michigan University)
