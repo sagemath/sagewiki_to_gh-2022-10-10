@@ -15,7 +15,9 @@ March 17-20, 2015
 == Organizers ==
 
 * Dan Bump (Stanford)
+
 * Anne Schilling (UC Davis)
+
 * Travis Scrimshaw (UC Davis)
 
 == Participants ==
