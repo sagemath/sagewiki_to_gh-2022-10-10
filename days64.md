@@ -38,6 +38,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
 
 == Participants ==
 
+ * Kyu-Hwan Lee (University of Connecticut)
  * Ben Salisbury (Central Michigan University)
 
 == Organizers ==
