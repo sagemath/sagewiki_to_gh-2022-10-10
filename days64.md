@@ -4,15 +4,19 @@
 
 The goal of this Sage Days is to get people into developing [[http://www.sagemath.org|Sage]] with a slant towards algebraic combinatorics and Lie theory.
 
+=== When & Where ===
+
+March 17-20, 2015 at [[http://www.ucdavis.edu|UC Davis]].
+
 === Registration ===
 
 Registration is free.
 
 To register, e-mail either Anne (anne at math.ucdavis.edu) or Travis (tscrim at ucdavis.edu).
 
-=== When & Where ===
+=== Lodging ===
 
-March 17-20, 2015 at [[http://www.ucdavis.edu|UC Davis]].
+Coming soon.
 
 === Transportation ===
 
