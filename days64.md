@@ -28,7 +28,9 @@ Coming soon.
 
 == Projects ==
 
- * [[http://trac.sagemath.org/ticket/14901|Lie algebras #14901]] - Travis Scrimshaw
+If you have any projects that you'd want to work on, please add them. If you want to work on any project listed, just add your name.
+
+ * Lie algebras ([[http://trac.sagemath.org/ticket/14901|#14901]]) - Travis Scrimshaw
 
 == Participants ==
 
