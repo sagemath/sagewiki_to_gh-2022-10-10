@@ -37,6 +37,7 @@ Coming soon.
 
 If you have any projects that you'd want to work on, please add them. If you want to work on any project listed, just add your name.
 
+ * Extended affine Weyl groups ([[http://trac.sagemath.org/ticket/15375|#15375]]) - Dan Bump, Anne Schilling, Mark Shimozono, Nicolas Thiery
  * Lie algebras ([[http://trac.sagemath.org/ticket/14901|#14901]]) - Travis Scrimshaw
 
 == Participants ==
