@@ -5,6 +5,7 @@
 The goal of these Sage Days is to bring together developers in algebraic combinatorics, Lie theory and representation theory
 to discuss needed features and develop code. People who have coded in [[http://www.sagemath.org|Sage]] and would like to get help getting their
 code integrated into Sage are also welcome to join.
+Any level of Sage experience is welcome, however there will not be basic (python) programming tutorials. So we encourage people who wish to participate to have an understanding of basic python (there are numerous tutorials available online and books available if you want to learn) and basic object-oriented programming (OOP for short).
 
 === When & Where ===
 
@@ -12,10 +13,9 @@ March 17-20, 2015 at [[http://www.ucdavis.edu|UC Davis]].
 
 === Registration ===
 
-Registration is free.
+Registration is free. We have limited funding for travel and lodging.
 
-To register, e-mail either Anne (anne at math.ucdavis.edu) or Travis (tscrim at ucdavis.edu). You can also
-add your name to the participant list below with contact information!
+To register, e-mail either Anne (anne at math.ucdavis.edu) or Travis (tscrim at ucdavis.edu), and please indicate if you would like to apply for funding. You can also add your name to the participant list below with contact information!
 
 === Lodging ===
 
