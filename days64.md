@@ -7,6 +7,8 @@ to discuss needed features and develop code. People who have coded in [[http://w
 code integrated into Sage are also welcome to join.
 Any level of Sage experience is welcome, however there will not be basic (python) programming tutorials. So we encourage people who wish to participate to have an understanding of basic python (there are numerous tutorials available online and books available if you want to learn) and basic object-oriented programming (OOP for short).
 
+We would like to point out that a combinatorics related workshop will be held at AIM the following week for people who would like to combine the two, see [[http://aimath.org/workshops/upcoming/dynalgcomb/|AIM workshop]].
+
 === When & Where ===
 
 March 17-20, 2015 at [[http://www.ucdavis.edu|UC Davis]].
