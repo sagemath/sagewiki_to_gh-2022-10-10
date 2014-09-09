@@ -40,10 +40,15 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Extended affine Weyl groups ([[http://trac.sagemath.org/ticket/15375|#15375]]) - Dan Bump, Anne Schilling, Mark Shimozono, Nicolas Thiery
  * Lie algebras ([[http://trac.sagemath.org/ticket/14901|#14901]]) - Travis Scrimshaw
 
+== Tentative list of speakers ==
+
+ * Mark Shimozono
+
 == Participants ==
 
  * Kyu-Hwan Lee (University of Connecticut)
  * Ben Salisbury (Central Michigan University)
+ * Mark Shimozono (Virginia Tech)
 
 == Organizers ==
 
