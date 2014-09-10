@@ -52,10 +52,12 @@ If you have any projects that you'd want to work on, please add them. If you wan
 
 == Participants ==
 
+ * Vince Knight (Cardiff School of Mathematics, tentative)
  * Kyu-Hwan Lee (University of Connecticut)
  * Ben Salisbury (Central Michigan University)
  * Mark Shimozono (Virginia Tech)
- * Vince Knight (Cardiff School of Mathematics, tentative)
+ * Nicolas Thiery (LRI, Universite Paris Sud)
+ * Nathan Williams (LaCIM)
 
 == Organizers ==
 
