@@ -59,6 +59,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Mark Shimozono (Virginia Tech)
  * Nicolas Thiery (LRI, Universite Paris Sud)
  * Nathan Williams (LaCIM)
+ * Jessica Striker (North Dakota State University)
 
 == Organizers ==
 
