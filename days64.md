@@ -57,9 +57,9 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Jim Propp (UMass Lowell )
  * Ben Salisbury (Central Michigan University)
  * Mark Shimozono (Virginia Tech)
+ * Jessica Striker (North Dakota State University)
  * Nicolas Thiery (LRI, Universite Paris Sud)
  * Nathan Williams (LaCIM)
- * Jessica Striker (North Dakota State University)
 
 == Organizers ==
 
