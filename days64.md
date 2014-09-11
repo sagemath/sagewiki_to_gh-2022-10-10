@@ -55,6 +55,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Vince Knight (Cardiff School of Mathematics, tentative)
  * Kyu-Hwan Lee (University of Connecticut)
  * Jim Propp (UMass Lowell )
+ * Vivien Ripoll (Universitaet Wien)
  * Ben Salisbury (Central Michigan University)
  * Mark Shimozono (Virginia Tech)
  * Jessica Striker (North Dakota State University)
