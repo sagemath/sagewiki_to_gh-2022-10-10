@@ -41,6 +41,9 @@ If you have any projects that you'd want to work on, please add them. If you wan
 
  * Extended affine Weyl groups ([[http://trac.sagemath.org/ticket/15375|#15375]]) - Dan Bump, Anne Schilling, Mark Shimozono, Nicolas Thiery
  * Lie algebras ([[http://trac.sagemath.org/ticket/14901|#14901]]) - Travis Scrimshaw
+ * Hyperbolic Cartan types ([[http://trac.sagemath.org/ticket/15974|#15974]]) - Travis Scrimshaw
+   * Related with limit roots in hyperbolic types ([[http://trac.sagemath.org/ticket/16087|#16087]])
+   * Might also be useful: http://trac.sagemath.org/ticket/15703
 
 == Tentative list of speakers ==
 
