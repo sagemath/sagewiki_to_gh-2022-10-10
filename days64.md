@@ -57,6 +57,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
 
  * Vince Knight (Cardiff School of Mathematics, tentative)
  * Kyu-Hwan Lee (University of Connecticut)
+ * Maria Monks Gillespie (UC Berkeley)
  * Jim Propp (UMass Lowell )
  * Vivien Ripoll (Universitaet Wien)
  * Ben Salisbury (Central Michigan University)
