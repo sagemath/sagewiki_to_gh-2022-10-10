@@ -64,6 +64,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Ben Salisbury (Central Michigan University)
  * Mark Shimozono (Virginia Tech)
  * Jessica Striker (North Dakota State University)
+ * Joshua Swanson (University of Washington)
  * Nicolas Thiery (LRI, Universite Paris Sud)
  * Peter Tingley (Loyola, tentative)
  * Nathan Williams (LaCIM)
