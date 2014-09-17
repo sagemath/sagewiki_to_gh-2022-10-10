@@ -25,7 +25,7 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
  * Ben Salisbury (U Central Michigan, tentative)
  * Anne Schilling (UC Davis)
  * Travis Scrimshaw (UC Davis, tentative)
- * Bridget Tenner (DePaul, tentative)
+ * Bridget Tenner (DePaul U, tentative)
  * George Thiruvathukal (Loyola Chicago, tentative)
  * Peter Tingley (Loyola Chicago)
  * Amy Pang (UQAM, tentative)
