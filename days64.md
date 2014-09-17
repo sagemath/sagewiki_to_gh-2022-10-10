@@ -15,7 +15,7 @@ March 17-20, 2015 at [[http://www.ucdavis.edu|UC Davis]].
 
 === Registration ===
 
-Registration is free. We have limited funding for travel and lodging.
+Registration is free. We have limited funding for travel and lodging. Funding decisions will be made in December 2014.
 
 To register, e-mail either Anne (anne at math.ucdavis.edu) or Travis (tscrim at ucdavis.edu), and please indicate if you would like to apply for funding. You can also add your name to the participant list below with contact information!
 
