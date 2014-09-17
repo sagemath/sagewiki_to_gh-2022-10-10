@@ -9,7 +9,7 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
 
 [[http://math.luc.edu/sagedays/]]
 
-== Speakers ==
+== Confirmed Speakers ==
 
  * Anne Schilling (UC Davis)
  * Dinakar Muthiah (U Toronto)
