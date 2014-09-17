@@ -1,4 +1,4 @@
-= Sage Days 70 in Chicago =
+= Sage Days 65 in Chicago =
 
 == When and where? ==
 
