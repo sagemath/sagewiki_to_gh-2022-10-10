@@ -44,6 +44,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
+ * --([[http://trac.sagemath.org/ticket/16960|#16960]])-- closed sage 6.4: Orbit Structure for Affine Morphisms - Grayson Jorgenson
+
  * --([[http://trac.sagemath.org/ticket/16838|#16838]])-- closed sage 6.4: make affine and projective dehomogenize and homogenize work together - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/16833|#16833]])-- closed sage 6.4: Use Macaulay resultant to compute resultant of projective morphisms - Joao de Faria
