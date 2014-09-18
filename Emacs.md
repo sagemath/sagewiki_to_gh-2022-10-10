@@ -11,13 +11,13 @@ directly opening the appropriate source files from the help, the
 debugger or the tracebacks. It also provides goodies for running
 tests, typesetting output, etc.
 
-See: [[sage-mode]] or [[http://bitbucket.org/gvol/sage-mode]]
+See: SageModeComparison, [[sage-mode]], [[http://bitbucket.org/gvol/sage-mode]]
 
 == Sage-shell-mode ==
 
 This is another newer mode for Sage inside emacs.  It's known as sage-shell-mode and includes extensions for auto-complete, helm, and anything.  It was written from scratch by Sho Takemori and is available from MELPA.
 
-See: [[https://github.com/stakemori/sage-shell-mode]]
+See: SageModeComparison, [[https://github.com/stakemori/sage-shell-mode]]
 
 == EIN: IPython notebook client in Emacs ==
 
