@@ -57,6 +57,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
 
  * Jan Keitel (Max-Planck-Institut für Physik)
  * Vince Knight (Cardiff School of Mathematics, tentative)
+ * Hyeonmi Lee (Hanyang University/UC Davis)
  * Kyu-Hwan Lee (University of Connecticut)
  * Maria Monks Gillespie (UC Berkeley)
  * Jim Propp (UMass Lowell )
