@@ -55,6 +55,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
 
 == Participants ==
 
+ * Jonathan Judge (University of Connecticut)
  * Jan Keitel (Max-Planck-Institut für Physik)
  * Vince Knight (Cardiff School of Mathematics, tentative)
  * Hyeonmi Lee (Hanyang University/UC Davis)
