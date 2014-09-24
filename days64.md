@@ -63,6 +63,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Maria Monks Gillespie (UC Berkeley)
  * Jim Propp (UMass Lowell )
  * Vivien Ripoll (Universitaet Wien)
+ * Franco Saliola (UQAM)
  * Ben Salisbury (Central Michigan University)
  * Mark Shimozono (Virginia Tech)
  * Jessica Striker (North Dakota State University)
