@@ -40,7 +40,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * Enabled canonical height for maps of `\PP^N` over number fields. Here is an early draft worksheet: [[attachment:Canonical height for number fields.sws| sws]], for `N>1` it requires the macaulay_resultant patch from above. - Adam Towsley, Paul Fili
 
- * ([[http://trac.sagemath.org/ticket/15448|#15448]]) new: cartesian products of projective space - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/15448|#15448]]) needs-review: cartesian products of projective space - Ben Hutz
 
 == Complete ==
 
@@ -104,13 +104,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * primes_of_bad_reduction() and is_morphism() made to work for endomorphisms of subschemes (easy)
 
- * products of projective space (Ben Hutz)
-
  * dynamics on Wehler K3 surfaces (Joao de Faria)
 
  * error_bound computation for canonical height in dimension > 1
-
- * update affine space to include the appropriate functionality from projective space
 
  * enumeration of points of small height over number fields for affine and projective spaces
 
@@ -124,12 +120,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * use real interval field for floating point computations (in heights and possibly rational preperiodic point functions)
 
- * issue with dynatomic polynomials (see (5) from ([[http://trac.sagemath.org/ticket/14219|#14219]])
-
  * reduced form of endomorphisms -  i.e., compute an `SL(2,Z)` transformation that makes the coefficients small. The simplest approach would be to "reduce" the binary form describing the fixed points or (if that's too degenerate) the points of period n for some small n. See [Stoll, Michael; Cremona, John E., On the reduction theory of binary forms. J. Reine Angew. Math. 565 (2003), 79–99.], which is fairly easy to implement and which would be useful to have in sage anyway.
 
  * some kind of coersion model: if you have a map defined over QQ should you be able to take the image of a point over CC (i.e. somewhere you have a well defined embedding) without having to `change_ring()`. Something like this works for polynomials. This may or may not be a good idea, but if it can be done in a consistent manner it would improve usability in certain situations.
-
- * Ponies (Patrick)
 
  * PLEASE ADD MORE...
