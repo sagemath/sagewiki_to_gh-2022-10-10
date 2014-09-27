@@ -44,6 +44,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
+ * --([[http://trac.sagemath.org/ticket/16961|#16961]])-- closed sage 6.4: Fix Dynatomic Polynomials to work over the Complex Numbers - Joao de Faria
+
  * --([[http://trac.sagemath.org/ticket/16960|#16960]])-- closed sage 6.4: Orbit Structure for Affine Morphisms - Grayson Jorgenson
 
  * --([[http://trac.sagemath.org/ticket/16838|#16838]])-- closed sage 6.4: make affine and projective dehomogenize and homogenize work together - Ben Hutz
