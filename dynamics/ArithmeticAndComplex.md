@@ -32,15 +32,15 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-review: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
+ * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
+
+ * ([[http://trac.sagemath.org/ticket/17067|#17067]]) Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
+
+ * ([[http://trac.sagemath.org/ticket/15448|#15448]]) needs-review: cartesian products of projective space - Ben Hutz
+
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
 
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
-
- * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
-
- * Enabled canonical height for maps of `\PP^N` over number fields. Here is an early draft worksheet: [[attachment:Canonical height for number fields.sws| sws]], for `N>1` it requires the macaulay_resultant patch from above. - Adam Towsley, Paul Fili
-
- * ([[http://trac.sagemath.org/ticket/15448|#15448]]) needs-review: cartesian products of projective space - Ben Hutz
 
 == Complete ==
 
