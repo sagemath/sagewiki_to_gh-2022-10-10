@@ -44,6 +44,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Hyperbolic Cartan types ([[http://trac.sagemath.org/ticket/15974|#15974]]) - Travis Scrimshaw
    * Related with limit roots in hyperbolic types ([[http://trac.sagemath.org/ticket/16087|#16087]])
    * Might also be useful: http://trac.sagemath.org/ticket/15703
+ * Lie groups (in connection with !SageManifolds [[http://trac.sagemath.org/ticket/14865|#14865]]) - Eric Gourgoulhon
 
 == Tentative list of speakers ==
 
@@ -55,6 +56,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
 
 == Participants ==
 
+ * Eric Gourgoulhon (Observatoire de Paris)
  * Jonathan Judge (University of Connecticut)
  * Jan Keitel (Max-Planck-Institut für Physik)
  * Vince Knight (Cardiff School of Mathematics); tentative
