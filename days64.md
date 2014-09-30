@@ -62,7 +62,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Vince Knight (Cardiff School of Mathematics); tentative
  * Hyeonmi Lee (Hanyang University/UC Davis)
  * Kyu-Hwan Lee (University of Connecticut)
- * Trevor McGuire (North Dakota State University)
+ * Trevor !McGuire (North Dakota State University)
  * Maria Monks Gillespie (UC Berkeley)
  * Oliver Pechenik (University of Illinois -- Urbana-Champaign)
  * Jim Propp (UMass Lowell )
@@ -73,7 +73,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Jessica Striker (North Dakota State University)
  * Joshua Swanson (University of Washington)
  * Nicolas Thiery (LRI, Universite Paris Sud)
- * Peter Tingley (Loyola, tentative)
+ * Peter Tingley (Loyola); tentative
  * Nathan Williams (LaCIM)
 
 == Organizers ==
