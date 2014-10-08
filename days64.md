@@ -45,6 +45,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
    * Related with limit roots in hyperbolic types ([[http://trac.sagemath.org/ticket/16087|#16087]])
    * Might also be useful: http://trac.sagemath.org/ticket/15703
  * Lie groups (in connection with !SageManifolds [[http://trac.sagemath.org/ticket/14865|#14865]]) - Eric Gourgoulhon
+ * Generalized toggle groups and homomesy - Jessica Striker
 
 == Tentative list of speakers ==
 
