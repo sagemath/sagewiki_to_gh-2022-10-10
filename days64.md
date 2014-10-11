@@ -78,6 +78,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Nicolas Thiery (LRI, Universite Paris Sud)
  * Peter Tingley (Loyola); tentative
  * Nathan Williams (LaCIM)
+ * Ben Young (University of Oregon); tentative
 
 == Organizers ==
 
