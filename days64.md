@@ -58,6 +58,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
 == Participants ==
 
  * Michał Bejger (N. Copernicus Astronomical Center) 
+ * Federico Castillo (UC Davis)
  * Eric Gourgoulhon (Observatoire de Paris)
  * Jonathan Judge (University of Connecticut)
  * Jan Keitel (Max-Planck-Institut für Physik)
