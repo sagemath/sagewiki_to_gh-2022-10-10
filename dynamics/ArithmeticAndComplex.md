@@ -34,6 +34,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/17082|#17082]]) new- Height Difference Bounds over number fields - Joao Faria
 
+ * ([[http://trac.sagemath.org/ticket/17118|#17118]]) needs work - Added multiplier computation to affine morphism - Grayson Jorgenson
+
  * ([[http://trac.sagemath.org/ticket/16986|#16986]]) needs-review: Rational Preimages and All Rational Preimages over number fields - Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
