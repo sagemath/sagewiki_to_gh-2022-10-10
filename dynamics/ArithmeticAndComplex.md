@@ -32,23 +32,23 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-review: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
- * ([[http://trac.sagemath.org/ticket/17082|#17082]]) new- Height Difference Bounds over number fields - Joao Faria
-
- * ([[http://trac.sagemath.org/ticket/17118|#17118]]) needs work - Added multiplier computation to affine morphism - Grayson Jorgenson
+ * ([[http://trac.sagemath.org/ticket/17082|#17082]]) new - Height Difference Bounds over number fields - Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/16986|#16986]]) needs-review: Rational Preimages and All Rational Preimages over number fields - Joao Faria
 
- * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
-
- * ([[http://trac.sagemath.org/ticket/17067|#17067]]) Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
+ * ([[http://trac.sagemath.org/ticket/17067|#17067]]) needs-review: Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
 
  * ([[http://trac.sagemath.org/ticket/15448|#15448]]) needs-review: cartesian products of projective space - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
 
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/17118|#17118]])-- closed sage 6.4: Added multiplier computation to affine morphism - Grayson Jorgenson
 
  * --([[http://trac.sagemath.org/ticket/17001|#17001]])-- closed sage 6.4: Functionality for fast evaluation of affine morphisms - Grayson Jorgeson
 
