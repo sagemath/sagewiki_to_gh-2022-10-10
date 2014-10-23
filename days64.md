@@ -67,13 +67,14 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Vince Knight (Cardiff School of Mathematics); tentative
  * Hyeonmi Lee (Hanyang University/UC Davis)
  * Kyu-Hwan Lee (University of Connecticut)
- * Trevor !McGuire (North Dakota State University)
+ * Trevor McGuire (North Dakota State University)
  * Maria Monks Gillespie (UC Berkeley)
  * Oliver Pechenik (University of Illinois -- Urbana-Champaign)
  * Jim Propp (UMass Lowell )
  * Vivien Ripoll (Universitaet Wien)
  * Franco Saliola (UQAM); tentative
  * Ben Salisbury (Central Michigan University)
+ * Dmitry Shemetov (UC Davis)
  * Mark Shimozono (Virginia Tech)
  * Jessica Striker (North Dakota State University)
  * Joshua Swanson (University of Washington)
