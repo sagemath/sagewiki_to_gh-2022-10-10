@@ -50,7 +50,7 @@ There are several requirements for Sage to work successfully on these fully supp
 
 === Mac OS X ===
  * OSX 10.6 (Snow Leopard) 64-bit, with XCode 3. Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
- * OSX 10.9 (Maverics) 64-bit, wich XCode 5.1.1. Tested on [[http://build.sagemath.org/sage/buildslaves/volker-desktop-osx|volker-osx]]
+ * OSX 10.9 (Mavericks) 64-bit, wich XCode 5.1.1. Tested on [[http://build.sagemath.org/sage/buildslaves/volker-desktop-osx|volker-osx]]
 
 === Solaris SPARC 32-bit ===
  * Solaris 10 on SPARC processors in 32-bit mode. You need to use the '''Solaris linker''' in /usr/ccs/bin/ld (this is normally the default), the GNU linker is not supported. Tested on [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]]
@@ -74,9 +74,10 @@ If anyone is able to test on these systems, we would particularly appreciate rep
 Other Linux distributions, such as Slackware are never tested, so may or may not work. 
 
 === Mac OS X ===
- * OSX 10.4 (Tiger) on PPC. The pexpect interfaces tend to be less reliable than other platforms, so you might see some unreproducible doctest failures. Also, the "Mac App" doesn't work on OS X 10.4, but building from source or non-App binaries should work. 
+ * OSX 10.4 (Tiger) on PPC will build except for the rpy2 package; you can build the "Mac App" and it should work as well. The pexpect interfaces tend to be less reliable than other platforms, so you might see some unreproducible doctest failures.
  * OSX 10.5 (Leopard), both PPC and Intel chips.  
  * OSX 10.7 (Lion) and 10.8 (Mountain Lion) provided you use a sufficiently recent version of XCode.
+ * OS X 10.10 (Yosemite) is work in progress and should be supported soon.
 
 === Solaris ===
  * Solaris 10 03/2005 or any later Solaris 10 release on x86 processors in 32-bit mode.
