@@ -65,6 +65,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Jonathan Judge (University of Connecticut)
  * Jan Keitel (Max-Planck-Institut für Physik)
  * Vince Knight (Cardiff School of Mathematics); tentative
+ * Jean-Philippe Labbe (Jerusalem);
  * Hyeonmi Lee (Hanyang University/UC Davis)
  * Kyu-Hwan Lee (University of Connecticut)
  * Trevor McGuire (North Dakota State University)
