@@ -30,6 +30,12 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/17325|#17325]]) new: clear denominators for projective points does not always work - Joao Faria
+
+ * ([[http://trac.sagemath.org/ticket/17324|#17324]]) new: homogenize for affine morphisms needs to use projective embedding - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/17282|#17282]]) new: Implementing Wehler K3 Surfaces - Joao Faria
+
  * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-review: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/17082|#17082]]) new - Height Difference Bounds over number fields - Joao Faria
@@ -112,13 +118,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * cyclegraph() and orbit_structure() to work with Zmod and other finite spaces not just finite fields (medium)
 
- * primes_of_bad_reduction() and is_morphism() made to work for endomorphisms of subschemes (easy)
-
- * dynamics on Wehler K3 surfaces (Joao de Faria)
-
- * error_bound computation for canonical height in dimension > 1
-
- * enumeration of points of small height over number fields for affine and projective spaces
+ * is_morphism() made to work for endomorphisms of subschemes (easy)
 
  * fix all the white space issues in the projective and affine folders (easy)
 
