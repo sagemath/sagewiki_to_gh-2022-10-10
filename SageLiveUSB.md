@@ -14,9 +14,9 @@ This page aims at inventorying Live USB running sage. It is a working page to se
 
  * Main Author : ThierryMonteil
  * Base Distro : Debian wheezy (using http://live.debian.net/)
- * Current sage version : 6.3
+ * Current sage version : 6.4
  * Current kernel : Linux 3.2.0, 32 bits (compilation for other platforms is possible)
- * Size : 2.7 GB
+ * Size : 2.9 GB
  * RAM required : 512 MB RAM
 
 === Features ===
