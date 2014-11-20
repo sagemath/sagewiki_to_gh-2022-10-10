@@ -62,6 +62,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Federico Castillo (UC Davis)
  * Darij Grinberg (MIT)
  * Eric Gourgoulhon (Observatoire de Paris)
+ * Mee Seong Im
  * Jonathan Judge (University of Connecticut)
  * Jan Keitel (Max-Planck-Institut für Physik)
  * Vince Knight (Cardiff School of Mathematics); tentative
