@@ -50,7 +50,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
 == Tentative list of speakers ==
 
  * Vivien Ripoll (Universitaet Wien)
- * Franco Saliola (UQAM); tentative
+ * Franco Saliola (UQAM)
  * Mark Shimozono (Virginia Tech)
  * Nicolas Thiery (LRI, Universite Paris Sud)
  * Nathan Williams (LaCIM)
@@ -59,13 +59,14 @@ If you have any projects that you'd want to work on, please add them. If you wan
 
  * Robert Bassett (UC Davis)
  * Michał Bejger (N. Copernicus Astronomical Center) 
+ * James Campbell (Cardiff School of Mathematics)
  * Federico Castillo (UC Davis)
  * Darij Grinberg (MIT)
  * Eric Gourgoulhon (Observatoire de Paris)
  * Mee Seong Im (University of Illinois -- Urbana-Champaign)
  * Jonathan Judge (University of Connecticut)
  * Jan Keitel (Max-Planck-Institut für Physik)
- * Vince Knight (Cardiff School of Mathematics); tentative
+ * Vince Knight (Cardiff School of Mathematics)
  * Jean-Philippe Labbe (Jerusalem);
  * Hyeonmi Lee (Hanyang University/UC Davis)
  * Kyu-Hwan Lee (University of Connecticut)
@@ -74,7 +75,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Oliver Pechenik (University of Illinois -- Urbana-Champaign)
  * Jim Propp (UMass Lowell )
  * Vivien Ripoll (Universitaet Wien)
- * Franco Saliola (UQAM); tentative
+ * Franco Saliola (UQAM)
  * Ben Salisbury (Central Michigan University)
  * Dmitry Shemetov (UC Davis)
  * Mark Shimozono (Virginia Tech)
