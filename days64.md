@@ -15,7 +15,7 @@ March 17-20, 2015 at [[http://www.ucdavis.edu|UC Davis]].
 
 === Registration ===
 
-Registration is free. We have limited funding for travel and lodging. Funding decisions will be made in December 2014.
+Registration is free. We have limited funding for travel and lodging. Funding decisions will be made in November 2014.
 
 To register, e-mail either Anne (anne at math.ucdavis.edu) or Travis (tscrim at ucdavis.edu), and please indicate if you would like to apply for funding. You can also add your name to the participant list below with contact information!
 
@@ -64,6 +64,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Federico Castillo (UC Davis)
  * Darij Grinberg (MIT)
  * Eric Gourgoulhon (Observatoire de Paris)
+ * Emily Gunawan (University of Minnesota)
  * Mee Seong Im (University of Illinois -- Urbana-Champaign)
  * Jonathan Judge (University of Connecticut)
  * Jan Keitel (Max-Planck-Institut für Physik)
