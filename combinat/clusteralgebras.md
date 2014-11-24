@@ -23,7 +23,7 @@ This page contains our road map beyond the core implementation of cluster algebr
 
  * Include new Quivers/cluster seed for square and triangular products of quivers (as in Keller's work on periodicity) (Christian/Gregg) - http://trac.sagemath.org/sage_trac/ticket/14443
 
- * Implement snake graph / matrix multiplication formulas for cluster algebras from surfaces and friezes. (Gregg)  
+ * Implement snake graph / matrix multiplication formulas for cluster algebras from surfaces and friezes. (Gregg) - http://trac.sagemath.org/ticket/16310
  Also see Dupont's sage code on friezes from http://www.math.jussieu.fr/~dupontg/files/strings.sage 
 
 ==== Harder ====
