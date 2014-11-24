@@ -62,7 +62,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Michał Bejger (N. Copernicus Astronomical Center) 
  * James Campbell (Cardiff School of Mathematics)
  * Federico Castillo (UC Davis)
- * Kevin Dilks (University of Minnesota)
+ * Kevin Dilks (University of Minnesota); tentative
  * Darij Grinberg (MIT)
  * Eric Gourgoulhon (Observatoire de Paris)
  * Emily Gunawan (University of Minnesota)
