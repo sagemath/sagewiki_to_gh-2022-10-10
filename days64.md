@@ -22,6 +22,7 @@ To register, e-mail either Anne (anne at math.ucdavis.edu) or Travis (tscrim at 
 === Lodging ===
 
 We have the following "official" conference hotels. To get the specified room rates, when making the reservation mention that you are with "Sage Days".
+You need to book your room before February 3, 2015 to get the special rates.
 
  * [[http://www.aggieinn.com/|Aggie Inn]] (530)-756-0352 Conference rate of $114 - 134 a night.
  * [[http://book.bestwestern.com/bestwestern/US/CA/Davis-hotels/BEST-WESTERN-University-Lodge/Hotel-Overview.do?propertyCode=05363|Best Western University Lodge]] $95 a night.
