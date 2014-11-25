@@ -21,7 +21,16 @@ To register, e-mail either Anne (anne at math.ucdavis.edu) or Travis (tscrim at 
 
 === Lodging ===
 
-Coming soon.
+We have the following "official" conference hotels. To get the specified room rates, when making the reservation mention that you are with "Sage Days".
+
+ * [[http://www.aggieinn.com/|Aggie Inn]] (530)-756-0352 Conference rate of $114 - 134 a night.
+ * [[http://book.bestwestern.com/bestwestern/US/CA/Davis-hotels/BEST-WESTERN-University-Lodge/Hotel-Overview.do?propertyCode=05363|Best Western University Lodge]] $95 a night.
+
+There is also the following recommendation:
+
+ * [[http://www.econolodge.com/bestrate/davis-california-hotels?source=pmfgoell&brand-code=EL&pmf=google&k_clickid=9c601c88-20c4-4417-a9f9-72d8b7e24fa2&chain=E|Econolodge]] (make sure you pick the one in Davis)
+
+If you are receiving funding, please contact Matt Silver (mtsilver at math.ucdavis.edu) to reserve a room.
 
 === Transportation ===
 
