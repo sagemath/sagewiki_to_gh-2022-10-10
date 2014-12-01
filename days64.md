@@ -87,6 +87,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Oliver Pechenik (University of Illinois -- Urbana-Champaign)
  * Jim Propp (UMass Lowell)
  * Vivien Ripoll (Universitaet Wien)
+ * Tom Roby (University of Connecticut)
  * Franco Saliola (UQAM)
  * Ben Salisbury (Central Michigan University)
  * Dmitry Shemetov (UC Davis)
