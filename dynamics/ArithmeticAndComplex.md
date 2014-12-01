@@ -53,7 +53,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
  
- * ([[http://trac.sagemath.org/ticket/16986|#16986]])-- closed sage 6.4: Rational Preimages and All Rational Preimages over number fields - Joao Faria
+ * --([[http://trac.sagemath.org/ticket/16986|#16986]])-- closed sage 6.4: Rational Preimages and All Rational Preimages over number fields - Joao Faria
 
  * --([[http://trac.sagemath.org/ticket/17118|#17118]])-- closed sage 6.4: Added multiplier computation to affine morphism - Grayson Jorgenson
 
