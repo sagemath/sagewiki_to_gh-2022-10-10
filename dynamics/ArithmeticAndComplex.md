@@ -33,8 +33,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  
  * ([[http://trac.sagemath.org/ticket/17325|#17325]]) new: clear denominators for projective points does not always work - Joao Faria
 
- * ([[http://trac.sagemath.org/ticket/17324|#17324]]) new: homogenize for affine morphisms needs to use projective embedding - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/17282|#17282]]) new: Implementing Wehler K3 Surfaces - Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-work: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
@@ -43,8 +41,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/17067|#17067]]) needs-review: Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
 
- * ([[http://trac.sagemath.org/ticket/15448|#15448]]) needs-review: cartesian products of projective space - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
@@ -52,7 +48,11 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 == Complete ==
- 
+
+ * --([[http://trac.sagemath.org/ticket/17324|#17324]])-- closed sage 6.5: homogenize for affine morphisms needs to use projective embedding - Ben Hutz 
+
+ * --([[http://trac.sagemath.org/ticket/15448|#15448]])-- closed sage 6.5: cartesian products of projective space - Ben Hutz
+
  * --([[http://trac.sagemath.org/ticket/16986|#16986]])-- closed sage 6.4: Rational Preimages and All Rational Preimages over number fields - Joao Faria
 
  * --([[http://trac.sagemath.org/ticket/17118|#17118]])-- closed sage 6.4: Added multiplier computation to affine morphism - Grayson Jorgenson
