@@ -68,6 +68,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
 
 == Participants ==
 
+ * Jonathan Axtell (Iowa State University)
  * Robert Bassett (UC Davis)
  * Michał Bejger (N. Copernicus Astronomical Center) 
  * James Campbell (Cardiff School of Mathematics)
