@@ -29,18 +29,17 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 The arithmetic and complex dynamics functionality in Sage is currently in its infancy. A significant amount of functionality was developped at the ICERM semester in Spring 2012 and now we have started the process of moving this into Sage through a series of patches (trac tickets). Most of that functionality is current in experimental for that been greatly expanded upon at [[http://wiki.sagemath.org/sagedaysACD | Sage Days 55]]. Much remains to be done. Below you will find a road map of what has been implemented, what is in the process of being implemented, and ideas for future functionality.
 
 == In Progress ==
-
+ * ([[http://trac.sagemath.org/ticket/17326|#17326]]) needs-work: Implementing subschemes functionality for projective "is_morphism" - Joao Faria
+ 
  * ([[http://trac.sagemath.org/ticket/17325|#17325]]) new: clear denominators for projective points does not always work - Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/17324|#17324]]) new: homogenize for affine morphisms needs to use projective embedding - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/17282|#17282]]) new: Implementing Wehler K3 Surfaces - Joao Faria
 
- * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-review: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
+ * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-work: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
- * ([[http://trac.sagemath.org/ticket/17082|#17082]]) new - Height Difference Bounds over number fields - Joao Faria
-
- * ([[http://trac.sagemath.org/ticket/16986|#16986]]) needs-review: Rational Preimages and All Rational Preimages over number fields - Joao Faria
+ * ([[http://trac.sagemath.org/ticket/17082|#17082]]) needs-work - Height Difference Bounds over number fields - Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/17067|#17067]]) needs-review: Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
 
@@ -53,6 +52,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 == Complete ==
+ 
+ * ([[http://trac.sagemath.org/ticket/16986|#16986]])-- closed sage 6.4: Rational Preimages and All Rational Preimages over number fields - Joao Faria
 
  * --([[http://trac.sagemath.org/ticket/17118|#17118]])-- closed sage 6.4: Added multiplier computation to affine morphism - Grayson Jorgenson
 
