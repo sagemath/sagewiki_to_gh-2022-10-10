@@ -40,7 +40,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  
  * ([[http://trac.sagemath.org/ticket/17326|#17326]]) needs-work: Implementing subschemes functionality for projective "is_morphism" - Joao Faria
 
- * ([[http://trac.sagemath.org/ticket/17325|#17325]]) new: clear denominators for projective points does not always work - Joao Faria
+ * ([[http://trac.sagemath.org/ticket/17325|#17325]]) needs-review: clear denominators for projective points does not always work - Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/17282|#17282]]) new: Implementing Wehler K3 Surfaces - Joao Faria
 
