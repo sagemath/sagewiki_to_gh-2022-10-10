@@ -32,23 +32,23 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/17433|#17433]]) new: projective point equality fails for quoteint base rings - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/17427|#17427]]) new: x==y while hash(x)!=hash(y) with SchemeMorphism_point_projective_field - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/17429|#17429]]) needs-review: projective point equality returns false positive for ComplexIntervalField - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/17326|#17326]]) needs-work: Implementing subschemes functionality for projective "is_morphism" - Joao Faria
+ * ([[http://trac.sagemath.org/ticket/17427|#17427]]) new: x==y while hash(x)!=hash(y) with SchemeMorphism_point_projective_field - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/17386|#17386]]) needs-review: Enumerate points of bounded height in projective/affine space over number fields - Grayson Jorgenson
  
+ * ([[http://trac.sagemath.org/ticket/17326|#17326]]) needs-work: Implementing subschemes functionality for projective "is_morphism" - Joao Faria
+
  * ([[http://trac.sagemath.org/ticket/17325|#17325]]) new: clear denominators for projective points does not always work - Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/17282|#17282]]) new: Implementing Wehler K3 Surfaces - Joao Faria
 
- * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-work: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
-
  * ([[http://trac.sagemath.org/ticket/17082|#17082]]) needs-work - Height Difference Bounds over number fields - Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/17067|#17067]]) needs-review: Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
+
+ * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-work: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
