@@ -30,7 +30,11 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/17429|#17429]]) new: projective point equality returns false positive for ComplexIntervalField - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/17433|#17433]]) new: projective point equality fails for quoteint base rings - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/17427|#17427]]) new: x==y while hash(x)!=hash(y) with SchemeMorphism_point_projective_field - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/17429|#17429]]) needs-review: projective point equality returns false positive for ComplexIntervalField - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/17326|#17326]]) needs-work: Implementing subschemes functionality for projective "is_morphism" - Joao Faria
 
