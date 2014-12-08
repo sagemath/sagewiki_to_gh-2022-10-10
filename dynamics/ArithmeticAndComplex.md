@@ -32,11 +32,11 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/17441|#17441]]) needs-review: Change ring fails for SchemeMorphism_polynomial defined with fraction field elements  - Grayson Jorgenson
 
- * ([[http://trac.sagemath.org/ticket/17433|#17433]]) new: projective point equality fails for quoteint base rings - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/17433|#17433]]) needs-review: projective point equality fails for quoteint base rings - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/17429|#17429]]) needs-review: projective point equality returns false positive for ComplexIntervalField - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/17427|#17427]]) new: x==y while hash(x)!=hash(y) with SchemeMorphism_point_projective_field - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/17427|#17427]]) needs-review: x==y while hash(x)!=hash(y) with SchemeMorphism_point_projective_field - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/17386|#17386]]) needs-review: Enumerate points of bounded height in projective/affine space over number fields - Grayson Jorgenson
  
