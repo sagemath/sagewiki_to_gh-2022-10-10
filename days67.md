@@ -59,6 +59,10 @@ We also welcome any proposition of talks on a more specific subject: presentatio
  * Automata and Transducers in Sage, Daniel Krenn (?)
  * The Category framework, Nicolas Thiery (?)
 
+=== Tentative list of projects ===
+
+ * ...
+
 == Participants ==
 
  * Mathieu Guay-Paquet (UQAM) - !PyCon + Sage Days
