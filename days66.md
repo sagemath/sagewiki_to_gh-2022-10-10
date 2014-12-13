@@ -21,10 +21,11 @@ Université de Liège, Belgium
 
 == Participants ==
 
- * Thierry Monteil (Paris)
- * Vincent Delecroix (Bordeaux)
+ * Thierry Monteil (LIPN, Paris 13)
+ * Vincent Delecroix (Labri, Bordeaux)
  * Štěpán Starosta (Pragues)
+ * Tomáš Kalvoda (Pragues)
 
 == Organizers ==
 
-  * Sébastien Labbé (Liège)
+  * Sébastien Labbé (U. Liège)
