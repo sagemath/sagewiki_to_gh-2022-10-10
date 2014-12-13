@@ -85,6 +85,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Hyeonmi Lee (Hanyang University/UC Davis)
  * Kyu-Hwan Lee (University of Connecticut)
  * Maria Monks Gillespie (UC Berkeley)
+ * Chris Patton (UC Davis)
  * Oliver Pechenik (University of Illinois -- Urbana-Champaign)
  * Jim Propp (UMass Lowell)
  * Vivien Ripoll (Universitaet Wien)
