@@ -34,8 +34,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/17433|#17433]]) positive-review: projective point equality fails for quoteint base rings - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/17429|#17429]]) positive-review: projective point equality returns false positive for ComplexIntervalField - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/17427|#17427]]) positive-review: x==y while hash(x)!=hash(y) with SchemeMorphism_point_projective_field - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/17386|#17386]]) needs-review: Enumerate points of bounded height in projective/affine space over number fields - Grayson Jorgenson
@@ -61,6 +59,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/17429|#17429]])-- closed sage 6.5: projective point equality returns false positive for ComplexIntervalField - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/17324|#17324]])-- closed sage 6.5: homogenize for affine morphisms needs to use projective embedding - Ben Hutz 
 
