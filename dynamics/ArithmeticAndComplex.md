@@ -60,6 +60,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
+ * --([[http://trac.sagemath.org/ticket/17450|#17450]])-- closed sage 6.5: Fix category for quotients of polynomial rings - Travis Scrimshaw
+
  * --([[http://trac.sagemath.org/ticket/17429|#17429]])-- closed sage 6.5: projective point equality returns false positive for ComplexIntervalField - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/17324|#17324]])-- closed sage 6.5: homogenize for affine morphisms needs to use projective embedding - Ben Hutz 
