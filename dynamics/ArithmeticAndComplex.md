@@ -30,8 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/17441|#17441]]) needs-review: Change ring fails for SchemeMorphism_polynomial defined with fraction field elements  - Grayson Jorgenson
-
  * ([[http://trac.sagemath.org/ticket/17433|#17433]]) positive-review: projective point equality fails for quoteint base rings - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/17427|#17427]]) positive-review: x==y while hash(x)!=hash(y) with SchemeMorphism_point_projective_field - Ben Hutz
@@ -39,8 +37,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * ([[http://trac.sagemath.org/ticket/17386|#17386]]) needs-review: Enumerate points of bounded height in projective/affine space over number fields - Grayson Jorgenson
  
  * ([[http://trac.sagemath.org/ticket/17326|#17326]]) needs-work: Implementing subschemes functionality for projective "is_morphism" - Joao Faria
-
- * ([[http://trac.sagemath.org/ticket/17325|#17325]]) positive-review: clear denominators for projective points does not always work - Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/17323|#17323]]) needs-work: Implement "primes_of_bad_reduction" to work over Number Fields - Joao Faria 
 
@@ -59,6 +55,10 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/17441|#17441]])-- closed sage 6.5: Change ring fails for SchemeMorphism_polynomial defined with fraction field elements  - Grayson Jorgenson
+
+ * --([[http://trac.sagemath.org/ticket/17325|#17325]])-- closed sage 6.5: clear denominators for projective points does not always work - Joao Faria
 
  * --([[http://trac.sagemath.org/ticket/17450|#17450]])-- closed sage 6.5: Fix category for quotients of polynomial rings - Travis Scrimshaw
 
