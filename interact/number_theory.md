@@ -871,6 +871,31 @@ def _(gen = selector(['t+1', 't-1', '-1/t'], buttons=True,nrows=1)):
 
 = Multiple Zeta Values =
 by Akhilesh P.
+== Word to composition ==
+{{{#!sagecell
+R=RealField(10)
+@interact
+def _( weight=(7,(3..10))):
+ n=weight
+ a=[0 for i in range(n-1)]
+ a.append(1)
+ @interact
+ def _(v=('word', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x)))), accuracy=(100..100000)):
+  a=[v[i] for i in range(len(v))]
+  def bintocomp(a):
+	b=[]
+	count=1
+	for j in range(len(a)):
+		if(a[j]==0):
+			count=count+1
+		else:
+			b.append(count)
+			count=1	
+	return(b)
+  print bintocomp(a)
+}}}
+
+
 == Computing Multiple Zeta values ==
 {{{#!sagecell
 R=RealField(10)
