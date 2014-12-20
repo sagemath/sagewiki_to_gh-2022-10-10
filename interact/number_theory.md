@@ -891,7 +891,7 @@ def _( weight=(7,(2..30))):
 			b.append(count)
 			count=1	
 	return(b)
-  print bintocomp(a)
+  print "Composition is ",bintocomp(a)
 }}}
 
 
