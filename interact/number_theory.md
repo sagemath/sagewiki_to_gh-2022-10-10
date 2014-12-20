@@ -984,13 +984,18 @@ def _( weight=(5,(2..20))):
 R=RealField(10)
 @interact
 def _( Depth=(5,(2..20))):
- n=weight
+ n=Depth
  a=[2]
  a=a+[1 for i in range(n-1)]
  @interact
  def _(v=('Composition', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x)))), accuracy=(100..100000)):
   D=accuracy
   a=[v[i] for i in range(len(v))]
+  def comptobin(a):
+        word=[]
+        for i in range(len(a)):
+                word=word+[0]*(a[i]-1)+[1]
+        return(word)
   a=comptobin(a)
   DD=int(3.321928*D)+int(R(log(3.321928*D))/R(log(10)))+4
   RIF=RealIntervalField(DD)
@@ -1037,11 +1042,6 @@ def _( Depth=(5,(2..20))):
         for i in range(len(l1)):
                 Z=Z+l1[i]*l2[len(a)-i]
         return(Z)
-  def comptobin(a):
-	word=[]
-	for i in range(len(a)):
-		word=word+[0]*(a[i]-1)+[1]
-	return(word)
 
   print zeta(a)
 }}}
