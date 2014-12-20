@@ -1080,6 +1080,8 @@ def _( w1=(2,(2..20)), w2=(2,(2..20))):
  #this program gives the list of all binary words of weight n and depth k
  @interact
  def _(v1=('word1', input_grid(1, w1, default=[a], to_value=lambda x: vector(flatten(x)))), v2=('word2', input_grid(1, w2, default=[b], to_value=lambda x: vector(flatten(x))))):
+  a=[v1[i] for i in range(len(v1))]
+  b=[v2[i] for i in range(len(v2))]
   def kbits(n, k):
     result = []
     for bits in itertools.combinations(range(n), k):
