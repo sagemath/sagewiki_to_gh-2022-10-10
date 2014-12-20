@@ -937,7 +937,7 @@ def _( weight=(7,(2..30))):
   print "Dual word is ",dual(a)
 }}}
 
-{{attachment:akhi2.png}}
+{{attachment:akhi4.png}}
 
 
 == Computing Multiple Zeta values ==
