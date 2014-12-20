@@ -873,9 +873,8 @@ def _(gen = selector(['t+1', 't-1', '-1/t'], buttons=True,nrows=1)):
 by Akhilesh P.
 == Word to composition ==
 {{{#!sagecell
-R=RealField(10)
 @interact
-def _( weight=(7,(3..10))):
+def _( weight=(7,(2..30))):
  n=weight
  a=[0 for i in range(n-1)]
  a.append(1)
@@ -900,7 +899,7 @@ def _( weight=(7,(3..10))):
 {{{#!sagecell
 R=RealField(10)
 @interact
-def _( weight=(7,(3..10))):
+def _( weight=(5,(2..20))):
  n=weight
  a=[0 for i in range(n-1)]
  a.append(1)
