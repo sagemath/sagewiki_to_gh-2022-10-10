@@ -1155,3 +1155,113 @@ def _( w1=(2,(2..20)), w2=(2,(2..20))):
 
 }}}
 {{attachment:akhi6.png}}
+== Shuffle Regularization at 0 ==
+{{{#!sagecell
+@interact
+def _( w=(2,(2..20))):
+ a=[0]
+ a=a+[1 for i in range(1,w)]
+ import itertools
+ #this program gives the list of all binary words of weight n and depth k
+ @interact
+ def _(v=('word', input_grid(1, w, default=[a], to_value=lambda x: vector(flatten(x))))):
+  a=[v[i] for i in range(len(v))]
+  def kbits(n, k):
+    result = []
+    for bits in itertools.combinations(range(n), k):
+        s = ['0'] * n
+        for bit in bits:
+            s[bit] = '1'
+        result.append(''.join(s))
+    return result
+  def sort(a,l,m):
+        b=[]
+        n=len(a)
+        for i in range(n):
+                b.append(a[i])
+        for j in range(l-1,-1,-1):
+                k=0
+                for t in range(m+1):
+                        for i in range(n):      
+                                if(a[i][j]== t):
+                                        b[k]=a[i]
+                                        k=k+1
+                for i in range(n):
+                        a[i]=b[i]
+        return(a)
+  def count(a):
+        n=len(a)
+        b=[]
+        b.append(a[0])
+        m=[]
+        m.append(1)
+        c=0
+        for i in range(1,n):
+                if(a[i]==a[i-1]):
+                        m[c]=m[c]+1
+                else:
+                        b.append(a[i])
+                        m.append(1)
+                        c=c+1
+        return(b,m)
+  def shuffle(a,b):
+        r=len(a)
+        s=len(b)
+        # Generating an array of strings containing all combinations of weight r+s and depth s
+        M=kbits(r+s,s)
+        n=len(M)
+        a1= []
+        for i in range(n):
+                a1.append(list(M[i]))
+        # The zeroes are replaced by the entries of a and the ones by the entries of b
+        a2= []
+        for i in range(n):
+                a2.append([])
+                count0=0
+                count1=0
+                for j in range(s+r):
+                        if(a1[i][j]=='0'):
+                                a2[i].append(a[count0])
+                                count0=count0+1
+                        if(a1[i][j]=='1'):
+                                a2[i].append(b[count1])
+                                count1=count1+1
+        # Reordering in lexicographic order the entries of a2: this is done by first reordering them according to the last digit, then the next to last digit, etc
+        a3=sort(a2,r+s,max(a+b+[0]))
+        # Getting the same list without repetitions and with multiplicities 
+        a4=count(a3)
+        return(a4)
+  def Regshuf0(a):
+	r=[]
+	r.append([])
+	r.append([])
+	t=0
+	c=1
+	for i in range(len(a)+1):
+		if(t==0):
+			b=shufflenew2.shuffle(a[:len(a)-i],a[len(a)-i:])
+			for j in range(len(b[0])):
+				r[0].append(b[0][j])
+				r[1].append(b[1][j]*c)
+			c=-c
+			if(i<len(a)):
+				if(a[len(a)-1-i]==1):
+					t=1
+	r=sort1.sort(r,len(a),max(a+[0]))
+	r=counting2.count(r)
+	rg=[]
+	rg.append([])
+	rg.append([])
+	for i in range(len(r[0])):
+		if(r[1][i] is not 0):
+			rg[0].append(r[0][i])
+			rg[1].append(r[1][i])	
+	return(rg)
+  c=Regshuf0(a)
+  for i in range(len(c[0])-1):
+    print c[1][i],"*",c[0][i] ,"+ ",
+  print c[1][len(c[0])-1],"*",c[0][len(c[0])-1]
+
+
+}}}
+{{attachment:akhi6.png}}
