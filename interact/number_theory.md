@@ -915,7 +915,7 @@ def _( Depth=(7,(1..30))):
   print "Word is is ",comptobin(a)
 }}}
 
-{{attachment:akhi2.png}}
+{{attachment:akhi3.png}}
 
 
 == Computing Multiple Zeta values ==
