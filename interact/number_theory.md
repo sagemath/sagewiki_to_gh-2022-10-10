@@ -879,7 +879,7 @@ def _( weight=(7,(2..30))):
  a=[0 for i in range(n-1)]
  a.append(1)
  @interact
- def _(v=('word', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x)))), accuracy=(100..100000)):
+ def _(v=('word', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
   a=[v[i] for i in range(len(v))]
   def bintocomp(a):
 	b=[]
