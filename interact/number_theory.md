@@ -895,6 +895,28 @@ def _( weight=(7,(2..30))):
 }}}
 
 {{attachment:akhi2.png}}
+== Composition to Word ==
+{{{#!sagecell
+@interact
+def _( Depth=(7,(1..30))):
+ n=Depth
+ a=[]
+ a.append(2)
+ a=[1 for i in range(n-1)]
+ @interact
+ def _(v=('composition', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
+  a=[v[i] for i in range(len(v))]
+  def comptobin(a):
+	word=[]
+	for i in range(len(a)):
+		word=word+[0]*(a[i]-1)+[1]
+	return(word)
+
+  print "Word is is ",comptobin(a)
+}}}
+
+{{attachment:akhi2.png}}
+
 
 == Computing Multiple Zeta values ==
 {{{#!sagecell
