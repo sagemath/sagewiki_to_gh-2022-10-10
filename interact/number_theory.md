@@ -875,7 +875,12 @@ by Akhilesh P.
 {{{#!sagecell
 R=RealField(10)
 @interact
-def _(v=('vector', input_grid(1, 5, default=[[0,0,0,0,1]], to_value=lambda x: vector(flatten(x)))), accuracy=(100..100000)):
+def _( weight=(7,(3..10))):
+ n=weight
+ a=[0 for i in range(n-1)]
+ a.append(1)
+ @interact
+ def _(v=('word', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x)))), accuracy=(100..100000)):
   D=accuracy
   a=[v[i] for i in range(len(v))]
   DD=int(3.321928*D)+int(R(log(3.321928*D))/R(log(10)))+4
@@ -923,9 +928,5 @@ def _(v=('vector', input_grid(1, 5, default=[[0,0,0,0,1]], to_value=lambda x: ve
         for i in range(len(l1)):
                 Z=Z+l1[i]*l2[len(a)-i]
         return(Z)
-  print zeta(a)	
-
-
-
-
+  print zeta(a)
 }}}
