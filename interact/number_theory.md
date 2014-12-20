@@ -930,3 +930,4 @@ def _( weight=(7,(3..10))):
         return(Z)
   print zeta(a)
 }}}
+{{attachment:akhi1.png}}
