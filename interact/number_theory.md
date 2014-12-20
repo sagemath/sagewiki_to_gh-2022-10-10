@@ -902,7 +902,7 @@ def _( Depth=(7,(1..30))):
  n=Depth
  a=[]
  a.append(2)
- a=[1 for i in range(1,n)]
+ a=a+[1 for i in range(1,n)]
  @interact
  def _(v=('composition', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
   a=[v[i] for i in range(len(v))]
