@@ -894,6 +894,7 @@ def _( weight=(7,(2..30))):
   print "Composition is ",bintocomp(a)
 }}}
 
+{{attachment:akhi2.png}}
 
 == Computing Multiple Zeta values ==
 {{{#!sagecell
