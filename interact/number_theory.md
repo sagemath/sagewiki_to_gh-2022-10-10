@@ -1451,7 +1451,7 @@ def _( w=(2,(2..20))):
 			rg[0].append(r[0][i])
 			rg[1].append(r[1][i])	
 	return(rg)
-  c=Regshuf0(a)
+  c=Regshuf1(a)
   for i in range(len(c[0])-1):
     if(c[1][i] != 0):
       print c[1][i],"*",c[0][i] ,"+ ",
