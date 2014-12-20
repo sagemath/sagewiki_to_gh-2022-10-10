@@ -912,13 +912,14 @@ def _( Depth=(7,(1..30))):
 		word=word+[0]*(a[i]-1)+[1]
 	return(word)
 
-  print "Word is is ",comptobin(a)
+  print "Word is  ",comptobin(a)
 }}}
 
 {{attachment:akhi3.png}}
 
 
 == Computing Multiple Zeta values ==
+=== Word Input ===
 {{{#!sagecell
 R=RealField(10)
 @interact
@@ -975,6 +976,73 @@ def _( weight=(5,(2..20))):
         for i in range(len(l1)):
                 Z=Z+l1[i]*l2[len(a)-i]
         return(Z)
+  print zeta(a)
+}}}
+{{attachment:akhi1.png}}
+=== Composition Input ===
+{{{#!sagecell
+R=RealField(10)
+@interact
+def _( Depth=(5,(2..20))):
+ n=weight
+ a=[2]
+ a=a+[1 for i in range(n-1)]
+ @interact
+ def _(v=('Composition', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x)))), accuracy=(100..100000)):
+  D=accuracy
+  a=[v[i] for i in range(len(v))]
+  a=comptobin(a)
+  DD=int(3.321928*D)+int(R(log(3.321928*D))/R(log(10)))+4
+  RIF=RealIntervalField(DD)
+  def Li(word):
+        n=int(DD*log(10)/log(2))+1
+        B=[]
+        L=[]
+        S=[]
+        count=-1
+        k=len(word)
+        for i in range(k):
+                B.append(RIF('0'))
+                L.append(RIF('0'))
+                if(word[i]==1 and i<k-1):
+                        S.append(RIF('0'))
+                        count=count+1
+        T=RIF('1')
+        for m in range(n):
+                T=T/2
+                B[k-1]=RIF('1')/(m+1)
+                j=count
+                for i in range(k-2,-1,-1):
+                        if(word[i]==0):
+                                B[i]=B[i+1]/(m+1)
+                        elif(word[i]==1):
+                                B[i]=S[j]/(m+1)
+                                S[j]=S[j]+B[i+1]
+                                j=j-1
+                        L[i]=T*B[i]+L[i]
+                L[k-1]=T*B[k-1]+L[k-1]
+        return(L)
+  def dual(a):
+        b=list()
+        b=a
+        b=b[::-1]
+        for i in range(len(b)):
+                b[i]=1-b[i]                     
+        return(b)
+  def zeta(a):
+        b=dual(a)
+        l1=Li(a)+[1]
+        l2=Li(b)+[1]
+        Z=RIF('0')
+        for i in range(len(l1)):
+                Z=Z+l1[i]*l2[len(a)-i]
+        return(Z)
+  def comptobin(a):
+	word=[]
+	for i in range(len(a)):
+		word=word+[0]*(a[i]-1)+[1]
+	return(word)
+
   print zeta(a)
 }}}
 {{attachment:akhi1.png}}
