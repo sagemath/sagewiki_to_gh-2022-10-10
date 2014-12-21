@@ -30,6 +30,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/17353|#17353]]) new: Homogenize failes for affine space over function fields
+
  * ([[http://trac.sagemath.org/ticket/17433|#17433]]) positive-review: projective point equality fails for quoteint base rings - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/17427|#17427]]) positive-review: x==y while hash(x)!=hash(y) with SchemeMorphism_point_projective_field - Ben Hutz
