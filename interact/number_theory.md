@@ -1019,7 +1019,7 @@ def _( n=(5,(2..20))):
         for i in range(len(a)):
                 word=word+[0]*(a[i]-1)+[1]
         return(word)
-  DD=int(3.321928*D)+int(R(log(3.321928*D))/R(log(10)))+4
+  DD=int(D)+int(R(log(3.321928*D))/R(log(10)))+4
   RIF=RealIntervalField(DD)
   mp.dps=DD
   def Li(word):
