@@ -999,6 +999,80 @@ def _( Depth=(5,(2..20))):
   print zeta(a)
 }}}
 {{attachment:akhi5.png}}
+== Program to Compute Integer Relation between Multiple Zeta Values ==
+{{{#!sagecell
+from mpmath import *
+print "Enter the number of composition"
+@interact
+def _( n=(5,(2..20))):
+ a=[]
+ for i in range(n):
+        a.append([i+2,1])
+ print "In each box Enter composition as an array"
+ @interact
+ def _(v=('Compositions', input_box( default=a, to_value=lambda x: vector(flatten(x)))), accuracy=(100..100000)):
+  D=accuracy
+  R=RealField(10)
+  a=v
+  def comptobin(a):
+        word=[]
+        for i in range(len(a)):
+                word=word+[0]*(a[i]-1)+[1]
+        return(word)
+  DD=int(3.321928*D)+int(R(log(3.321928*D))/R(log(10)))+4
+  RIF=RealIntervalField(DD)
+  mp.dps=DD
+  def Li(word):
+        n=int(DD*log(10)/log(2))+1
+        B=[]
+        L=[]
+        S=[]
+        count=-1
+        k=len(word)
+        for i in range(k):
+                B.append(mpf('0'))
+                L.append(mpf('0'))
+                if(word[i]==1 and i<k-1):
+                        S.append(mpf('0'))
+                        count=count+1
+        T=mpf('1')
+        for m in range(n):
+                T=T/2
+                B[k-1]=mpf('1')/(m+1)
+                j=count
+                for i in range(k-2,-1,-1):
+                        if(word[i]==0):
+                                B[i]=B[i+1]/(m+1)
+                        elif(word[i]==1):
+                                B[i]=S[j]/(m+1)
+                                S[j]=S[j]+B[i+1]
+                                j=j-1
+                        L[i]=T*B[i]+L[i]
+                L[k-1]=T*B[k-1]+L[k-1]
+        return(L)
+  def dual(a):
+        b=list()
+        b=a
+        b=b[::-1]
+        for i in range(len(b)):
+                b[i]=1-b[i]                     
+        return(b)
+  def zeta(a):
+        b=dual(a)
+        l1=Li(a)+[1]
+        l2=Li(b)+[1]
+        Z=mpf('0')
+        for i in range(len(l1)):
+                Z=Z+l1[i]*l2[len(a)-i]
+        return(Z)
+  zet=[]
+  for i in range(n):
+        zet.append((zeta(comptobin(a[i]))))
+        print "zeta(",a[i],")=",zet[i]
+  u=pslq(zet,tol=10**-D,maxcoeff=100,maxsteps=10000)
+  print "the Intger Relation between the above zeta values given by the vector"
+  print u
+}}}
 
 == Word to composition ==
 {{{#!sagecell
