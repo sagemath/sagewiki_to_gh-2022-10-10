@@ -871,75 +871,6 @@ def _(gen = selector(['t+1', 't-1', '-1/t'], buttons=True,nrows=1)):
 
 = Multiple Zeta Values =
 by Akhilesh P.
-== Word to composition ==
-{{{#!sagecell
-@interact
-def _( weight=(7,(2..30))):
- n=weight
- a=[0 for i in range(n-1)]
- a.append(1)
- @interact
- def _(v=('word', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
-  a=[v[i] for i in range(len(v))]
-  def bintocomp(a):
-	b=[]
-	count=1
-	for j in range(len(a)):
-		if(a[j]==0):
-			count=count+1
-		else:
-			b.append(count)
-			count=1	
-	return(b)
-  print "Composition is ",bintocomp(a)
-}}}
-
-{{attachment:akhi2.png}}
-== Composition to Word ==
-{{{#!sagecell
-@interact
-def _( Depth=(7,(1..30))):
- n=Depth
- a=[]
- a.append(2)
- a=a+[1 for i in range(1,n)]
- @interact
- def _(v=('composition', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
-  a=[v[i] for i in range(len(v))]
-  def comptobin(a):
-	word=[]
-	for i in range(len(a)):
-		word=word+[0]*(a[i]-1)+[1]
-	return(word)
-
-  print "Word is  ",comptobin(a)
-}}}
-
-{{attachment:akhi3.png}}
-== Dual of a Word ==
-{{{#!sagecell
-@interact
-def _( weight=(7,(2..30))):
- n=weight
- a=[0 for i in range(n-1)]
- a.append(1)
- @interact
- def _(v=('word', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
-  a=[v[i] for i in range(len(v))]
-  def dual(a):
-	b=list()
-	b=a
-	b=b[::-1]
-	for i in range(len(b)):
-		b[i]=1-b[i]			
-	return(b)
-
-  print "Dual word is ",dual(a)
-}}}
-
-{{attachment:akhi4.png}}
-
-
 == Computing Multiple Zeta values ==
 === Word Input ===
 {{{#!sagecell
@@ -1068,6 +999,76 @@ def _( Depth=(5,(2..20))):
   print zeta(a)
 }}}
 {{attachment:akhi5.png}}
+
+== Word to composition ==
+{{{#!sagecell
+@interact
+def _( weight=(7,(2..30))):
+ n=weight
+ a=[0 for i in range(n-1)]
+ a.append(1)
+ @interact
+ def _(v=('word', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
+  a=[v[i] for i in range(len(v))]
+  def bintocomp(a):
+	b=[]
+	count=1
+	for j in range(len(a)):
+		if(a[j]==0):
+			count=count+1
+		else:
+			b.append(count)
+			count=1	
+	return(b)
+  print "Composition is ",bintocomp(a)
+}}}
+
+{{attachment:akhi2.png}}
+== Composition to Word ==
+{{{#!sagecell
+@interact
+def _( Depth=(7,(1..30))):
+ n=Depth
+ a=[]
+ a.append(2)
+ a=a+[1 for i in range(1,n)]
+ @interact
+ def _(v=('composition', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
+  a=[v[i] for i in range(len(v))]
+  def comptobin(a):
+	word=[]
+	for i in range(len(a)):
+		word=word+[0]*(a[i]-1)+[1]
+	return(word)
+
+  print "Word is  ",comptobin(a)
+}}}
+
+{{attachment:akhi3.png}}
+== Dual of a Word ==
+{{{#!sagecell
+@interact
+def _( weight=(7,(2..30))):
+ n=weight
+ a=[0 for i in range(n-1)]
+ a.append(1)
+ @interact
+ def _(v=('word', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
+  a=[v[i] for i in range(len(v))]
+  def dual(a):
+	b=list()
+	b=a
+	b=b[::-1]
+	for i in range(len(b)):
+		b[i]=1-b[i]			
+	return(b)
+
+  print "Dual word is ",dual(a)
+}}}
+
+{{attachment:akhi4.png}}
+
+
 == Shuffle product of two Words ==
 {{{#!sagecell
 @interact
