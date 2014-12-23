@@ -929,7 +929,10 @@ def _( weight=(5,(2..20))):
         for i in range(len(l1)):
                 Z=Z+l1[i]*l2[len(a)-i]
         return(Z)
-  print zeta(a)
+  u=zeta(a)
+  RIF=RealIntervalField(int(3.321928*D))
+  u=u/1
+  print u
 }}}
 {{attachment:akhi1.png}}
 === Composition Input ===
@@ -995,8 +998,10 @@ def _( Depth=(5,(2..20))):
         for i in range(len(l1)):
                 Z=Z+l1[i]*l2[len(a)-i]
         return(Z)
-
-  print zeta(a)
+  u=zeta(a)
+  RIF=RealIntervalField(int(3.321928*D))
+  u=u/1
+  print u
 }}}
 {{attachment:akhi5.png}}
 == Program to Compute Integer Relation between Multiple Zeta Values (Euler-Zagier numbers) ==
@@ -1068,6 +1073,9 @@ def _( n=(5,(2..20))):
   zet=[]
   for i in range(n):
         zet.append((zeta(comptobin(a[i]))))
+  mp.dps=D
+  for i in range(n):
+        zet[i]=zet[i]/1
         print "zeta(",a[i],")=",zet[i]
   u=pslq(zet,tol=10**-D,maxcoeff=100,maxsteps=10000)
   print "the Intger Relation between the above zeta values given by the vector"
