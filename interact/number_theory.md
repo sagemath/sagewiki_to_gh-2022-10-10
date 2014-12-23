@@ -869,9 +869,9 @@ def _(gen = selector(['t+1', 't-1', '-1/t'], buttons=True,nrows=1)):
 
 {{attachment:fund_domain.png}}
 
-= Multiple Zeta Values =
+= Multiple Zeta Values or Euler-Zagier numbers =
 by Akhilesh P.
-== Computing Multiple Zeta values ==
+== Computing Multiple Zeta values (Euler-Zagier numbers) ==
 === Word Input ===
 {{{#!sagecell
 R=RealField(10)
@@ -999,7 +999,7 @@ def _( Depth=(5,(2..20))):
   print zeta(a)
 }}}
 {{attachment:akhi5.png}}
-== Program to Compute Integer Relation between Multiple Zeta Values ==
+== Program to Compute Integer Relation between Multiple Zeta Values (Euler-Zagier numbers) ==
 {{{#!sagecell
 from mpmath import *
 print "Enter the number of composition"
