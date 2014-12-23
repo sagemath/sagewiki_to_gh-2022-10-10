@@ -1073,7 +1073,7 @@ def _( n=(5,(2..20))):
   print "the Intger Relation between the above zeta values given by the vector"
   print u
 }}}
-
+{{attachment:akhi10.png}}
 == Word to composition ==
 {{{#!sagecell
 @interact
