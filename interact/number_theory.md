@@ -876,7 +876,7 @@ by Akhilesh P.
 {{{#!sagecell
 R=RealField(10)
 @interact
-def _( weight=(5,(2..20))):
+def _( weight=(5,(2..100))):
  n=weight
  a=[0 for i in range(n-1)]
  a.append(1)
@@ -939,7 +939,7 @@ def _( weight=(5,(2..20))):
 {{{#!sagecell
 R=RealField(10)
 @interact
-def _( Depth=(5,(2..20))):
+def _( Depth=(5,(2..100))):
  n=Depth
  a=[2]
  a=a+[1 for i in range(n-1)]
@@ -1009,7 +1009,7 @@ def _( Depth=(5,(2..20))):
 from mpmath import *
 print "Enter the number of composition"
 @interact
-def _( n=(5,(2..20))):
+def _( n=(5,(2..100))):
  a=[]
  for i in range(n):
         a.append([i+2,1])
@@ -1085,7 +1085,7 @@ def _( n=(5,(2..20))):
 == Word to composition ==
 {{{#!sagecell
 @interact
-def _( weight=(7,(2..30))):
+def _( weight=(7,(2..100))):
  n=weight
  a=[0 for i in range(n-1)]
  a.append(1)
@@ -1109,7 +1109,7 @@ def _( weight=(7,(2..30))):
 == Composition to Word ==
 {{{#!sagecell
 @interact
-def _( Depth=(7,(1..30))):
+def _( Depth=(7,(1..100))):
  n=Depth
  a=[]
  a.append(2)
@@ -1130,7 +1130,7 @@ def _( Depth=(7,(1..30))):
 == Dual of a Word ==
 {{{#!sagecell
 @interact
-def _( weight=(7,(2..30))):
+def _( weight=(7,(2..100))):
  n=weight
  a=[0 for i in range(n-1)]
  a.append(1)
@@ -1154,7 +1154,7 @@ def _( weight=(7,(2..30))):
 == Shuffle product of two Words ==
 {{{#!sagecell
 @interact
-def _( w1=(2,(2..20)), w2=(2,(2..20))):
+def _( w1=(2,(2..100)), w2=(2,(2..100))):
  a=[0]
  b=[0 for i in range(w2-1)]
  a=a+[1 for i in range(1,w1)]
@@ -1241,7 +1241,7 @@ def _( w1=(2,(2..20)), w2=(2,(2..20))):
 == Shuffle Regularization at 0 ==
 {{{#!sagecell
 @interact
-def _( w=(2,(2..20))):
+def _( w=(2,(2..100))):
  a=[0]
  a=a+[1 for i in range(1,w)]
  import itertools
