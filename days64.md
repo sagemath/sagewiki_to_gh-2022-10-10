@@ -54,9 +54,10 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Hyperbolic Cartan types ([[http://trac.sagemath.org/ticket/15974|#15974]]) - Travis Scrimshaw
    * Related with limit roots in hyperbolic types ([[http://trac.sagemath.org/ticket/16087|#16087]])
    * Might also be useful: http://trac.sagemath.org/ticket/15703
- * Lie groups (in connection with !SageManifolds [[http://trac.sagemath.org/ticket/14865|#14865]]) - Eric Gourgoulhon
+ * Lie groups (in connection with !SageManifolds [[http://trac.sagemath.org/ticket/14865|#14865]]) - Eric Gourgoulhon, Travis Scrimshaw
  * Generalized toggle groups and homomesy - Jessica Striker
  * Snake graph perfect matching formula for curves on triangulated surfaces ([[http://trac.sagemath.org/ticket/16310|#16310]]) - Emily Gunawan
+ * Implement categories and general framework for representations - Travis Scrimshaw
 
 == Tentative list of speakers ==
 
