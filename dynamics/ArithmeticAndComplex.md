@@ -4,7 +4,7 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
 == News ==
 
- *
+ * [[http://www.nsf.gov/awardsearch/showAward?AWD_ID=1415294 | NSF DMS-1415294]] - Computational Tools for Dynamical Systems 9/2014 - 8/2017 (P.I.: Hutz)
 
 == Past News ==
 
