@@ -30,7 +30,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/17353|#17353]]) needs-review: Homogenize fails for affine space over function fields - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/17535|#17535]]) needs-review: Homogenize fails for affine space over function fields - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/17427|#17427]]) positive-review: x==y while hash(x)!=hash(y) with SchemeMorphism_point_projective_field - Ben Hutz
 
