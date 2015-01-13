@@ -30,8 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/17535|#17535]]) needs-review: Homogenize fails for affine space over function fields - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/17427|#17427]]) positive-review: x==y while hash(x)!=hash(y) with SchemeMorphism_point_projective_field - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/17386|#17386]]) needs-review: Enumerate points of bounded height in projective/affine space over number fields - Grayson Jorgenson
@@ -55,6 +53,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/17535|#17535]])-- closed sage 6.5: Homogenize fails for affine space over function fields - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/17433|#17433]])-- closed sage 6.5: projective point equality fails for quoteint base rings - Ben Hutz
 
