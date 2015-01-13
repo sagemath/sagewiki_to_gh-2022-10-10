@@ -69,6 +69,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
 
 == Participants ==
 
+ * P. Akhilesh (Harish-Chandra Research Institute, Allahabad, India)
  * Jonathan Axtell (Iowa State University)
  * Robert Bassett (UC Davis)
  * Michał Bejger (N. Copernicus Astronomical Center) 
