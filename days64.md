@@ -99,7 +99,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Jessica Striker (North Dakota State University)
  * Joshua Swanson (University of Washington)
  * Nicolas Thiery (LRI, Universite Paris Sud)
- * Peter Tingley (Loyola); tentative
+ * Peter Tingley (Loyola)
  * Nathan Williams (LaCIM)
  * Ben Young (University of Oregon); tentative
 
