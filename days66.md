@@ -14,7 +14,7 @@ There is a possibility that Wednesday will be reserved to solving bugs (Bug Day)
 
 == Some magic powder ==
 
-There will be "Math Computing Fights" organized at the end of the first two days. There will be math quiz involving computations. There will be prices for the fastest and nicest solutions. People may use whatever software they want. The show will be inspired from Star Academy and stuff like that.
+There will be "Math Computing Fights" organized at the end of the first two days. There will be math quiz involving computations. There will be prices for the fastest and nicest solutions. People may use whatever software they want. The show will be inspired from Star Academy and stuff like that. The goal will be to have fun and learn from each other.
 
 == Where ==
 
