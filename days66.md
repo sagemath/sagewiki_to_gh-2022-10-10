@@ -1,4 +1,4 @@
-= Sage Days 66 in Liège =
+= Sage Days 66 in Liège, Belgium =
 
 == When ==
 
@@ -6,11 +6,15 @@ From March 30 to April 2nd 2015
 
 == What ==
 
-Monday, Tuesday will be introduction talks.
+Monday, Tuesday will be devoted to users with introduction talks. We welcome local students and professor from Liège to attend those talks.
 
-Wednesday and Thursday will be advanced talks with lot of time for development.
+Wednesday and Thursday will be devoted to developers (wanabees welcome) with lot of time for development.
 
-There is a possibility that Wednesday will be devoted to solving bugs (Bug Day) where development of new features will be prohibited.
+There is a possibility that Wednesday will be reserved to solving bugs (Bug Day) where development of new features will be prohibited.
+
+== Some magic powder ==
+
+There will be "Math Computing Fights" organized at the end of the first two days. There will be math quiz involving computations. There will be prices for the fastest and nicest solutions. People may use whatever software they want. The show will be inspired from Star Academy and stuff like that.
 
 == Where ==
 
