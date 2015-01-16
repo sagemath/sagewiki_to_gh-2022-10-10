@@ -44,7 +44,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/17067|#17067]]) needs-review: Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
 
- * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-work: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
+ * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-review: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
