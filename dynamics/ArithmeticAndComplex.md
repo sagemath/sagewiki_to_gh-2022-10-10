@@ -40,7 +40,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/17282|#17282]]) new: Implementing Wehler K3 Surfaces - Joao Faria
 
- * ([[http://trac.sagemath.org/ticket/17082|#17082]]) needs-work - Height Difference Bounds over number fields - Joao Faria
+ * ([[http://trac.sagemath.org/ticket/17082|#17082]]) needs-review - Height Difference Bounds over number fields - Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/17067|#17067]]) needs-review: Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
 
