@@ -66,7 +66,7 @@ We also welcome any proposition of talks on a more specific subject: presentatio
 == Participants ==
 
  * Mathieu Guay-Paquet (UQAM) - !PyCon + Sage Days
- * (?) Daniel Krenn (TU Graz) - !PyCon + Sage Days
+ * Daniel Krenn (TU Graz) - !PyCon + Sage Days
  * Viviane Pons (Univ. Paris Sud) - !PyCon + Sage Days 
  * Franco Saliola (UQAM) - !PyCon + Sage Days
  * (?) Nicolas Thiéry (Univ. Paris Sud) - !PyCon + Sage Days
