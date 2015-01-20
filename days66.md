@@ -15,7 +15,7 @@ There is a possibility that Wednesday will be reserved to solving bugs (Bug Day)
 Possible development projects:
 
  - decrease Sage doctesting time (some tests are too long)
- - Reduce the number of [http://trac.sagemath.org/report/75|tickets that needs review]
+ - Reduce the number of [tickets that needs review|http://trac.sagemath.org/report/75]
 
 == Some magic powder ==
 
