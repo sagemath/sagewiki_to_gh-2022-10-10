@@ -12,6 +12,13 @@ Wednesday and Thursday will be devoted to developers (wanabees welcome) with lot
 
 There is a possibility that Wednesday will be reserved to solving bugs (Bug Day) where development of new features will be prohibited.
 
+Possible development projects:
+
+ - decrease Sage doctesting time (some tests are too long)
+ - Reduce the number of `tickets that needs review`__
+
+__ http://trac.sagemath.org/report/75
+
 == Some magic powder ==
 
 There will be "Math Computing Fights" organized at the end of the first two days. There will be math quiz involving computations. There will be prices for the fastest and nicest solutions and also for participation. People may use whatever software they want. The show will be inspired from Star Academy and vote will be done by the audience. The goal will be to have fun and learn from each other.
