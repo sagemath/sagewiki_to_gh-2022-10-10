@@ -100,6 +100,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Joshua Swanson (University of Washington)
  * Nicolas Thiery (LRI, Universite Paris Sud)
  * Peter Tingley (Loyola)
+ * Aladin Virmaux (LRI, Universite Paris Sud)
  * Nathan Williams (LaCIM)
  * Ben Young (University of Oregon); tentative
 
