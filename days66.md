@@ -17,9 +17,21 @@ Possible development projects:
  - decrease Sage doctesting time (some tests are too long)
  - Reduce the number of [[http://trac.sagemath.org/report/75|tickets that needs review]] (272 as of Jan 20th)
 
-== Math Computation Academy ==
+== Schedule ==
 
-There will be "Math Computing Fights" organized at the end of the first two days. There will be math quiz involving computations. There will be prices for the fastest and nicest solutions and also for participation. People may use whatever software they want. The show will be inspired from Star Academy and vote will be done by the audience. The goal will be to have fun and learn from each other.
+This is an idea of schedule.
+
+||      || Mon Mar 30 || Tue Mar 31 || Wed Apr 1 || Thu Apr 2 ||
+|| 9h30 || talk || talk|| talk || talk ||
+|| 11h  || talk || talk|| talk || talk ||
+|| 12h  || lunch || lunch|| lunch || lunch ||
+|| 13h  || work || work|| work || work ||
+|| 16h  || Computing Contest (beginners) || Computing Contest (advanced) || work || work ||
+|| 17h  || Wrap up || Wrap up || Wrap up || Wrap up ||
+
+== Math Computing Contest ==
+
+There will be "Math Computing Contest" organized at the end of two days. There will be math quiz involving computations. There will be prices for the fastest and nicest solutions and also for participation. People may use whatever software they want. The show will be inspired from Star Academy and vote will be done by the audience. The goal will be to have fun and learn from each other.
 
 == Where ==
 
