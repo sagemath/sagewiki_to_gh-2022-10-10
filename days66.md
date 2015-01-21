@@ -6,13 +6,13 @@ From March 30 to April 2nd 2015
 
 == Where ==
 
-Institute of Mathematics
-University of Liège
-Grande Traverse 12 (B37)
-B-4000 Liège, Belgium
+Institute of Mathematics,
+University of Liège,
+Grande Traverse 12 (B37),
+B-4000 Liège, Belgium,
 Latitude 50°586298, Longitude 5°558474
 
-[[Detailled instruction on how to get there are here|http://www.cant.ulg.ac.be/automatha/use.html]]
+[[http://www.cant.ulg.ac.be/automatha/use.html|Detailled instruction on how to get there can be found here]]
 
 == What ==
 
