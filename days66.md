@@ -10,7 +10,7 @@ Monday, Tuesday will be devoted to users with introduction talks. We welcome loc
 
 Wednesday and Thursday will be devoted to developers and those who want to become with lot of time for development.
 
-There is a possibility that Wednesday will be reserved for solving bugs (Bug Day) where development of new features will be prohibited.
+There is a possibility that Wednesday will be reserved for solving bugs (Bug Day).
 
 Possible development projects:
 
