@@ -4,6 +4,16 @@
 
 From March 30 to April 2nd 2015
 
+== Where ==
+
+Institute of Mathematics
+University of Liège
+Grande Traverse 12 (B37)
+B-4000 Liège, Belgium
+Latitude 50°586298, Longitude 5°558474
+
+[[Detailled instruction on how to get there are here|http://www.cant.ulg.ac.be/automatha/use.html]]
+
 == What ==
 
 Two talks per day done in the morning. Free time in the afternoon for coding, learning, testing, asking questions and discussing.
