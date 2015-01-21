@@ -8,9 +8,9 @@ From March 30 to April 2nd 2015
 
 Monday, Tuesday will be devoted to users with introduction talks. We welcome local students and professor from Liège to attend those talks.
 
-Wednesday and Thursday will be devoted to developers (wanabees welcome) with lot of time for development.
+Wednesday and Thursday will be devoted to developers and those who want to become with lot of time for development.
 
-There is a possibility that Wednesday will be reserved to solving bugs (Bug Day) where development of new features will be prohibited.
+There is a possibility that Wednesday will be reserved for solving bugs (Bug Day) where development of new features will be prohibited.
 
 Possible development projects:
 
