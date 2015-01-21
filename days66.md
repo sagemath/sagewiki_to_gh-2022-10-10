@@ -51,10 +51,6 @@ This is an idea of schedule.
 
 There will be "Math Computing Contest" organized at the end of two days. There will be math quiz involving computations. There will be prices for the fastest and nicest solutions and also for participation. People may use whatever software they want. The show will be inspired from Star Academy and vote will be done by the audience. The goal will be to have fun and learn from each other.
 
-== Where ==
-
-Université de Liège, Belgium
-
 == Confirmed Speakers ==
 
  * Thierry Monteil (LIPN, Paris 13)
