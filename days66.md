@@ -22,11 +22,11 @@ Possible development projects:
 This is an idea of schedule.
 
 ||      || Mon Mar 30 || Tue Mar 31 || Wed Apr 1 || Thu Apr 2 ||
-|| 9h30 || talk || talk|| talk || talk ||
-|| 11h  || talk || talk|| talk || talk ||
+|| 9h30 || talk (beginners) || talk (beginners) || talk (advanced) || talk (advanced) ||
+|| 11h  || talk (beginners) || talk (beginners) || talk (advanced) || talk (advanced) ||
 || 12h  || lunch || lunch|| lunch || lunch ||
 || 13h  || work || work|| work || work ||
-|| 16h  || Computing Contest (beginners) || Computing Contest (advanced) || work || work ||
+|| 16h  || Computing Contest || Computing Contest || work || work ||
 || 17h  || Wrap up || Wrap up || Wrap up || Wrap up ||
 
 == Math Computing Contest ==
