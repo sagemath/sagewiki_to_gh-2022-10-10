@@ -18,11 +18,11 @@ Latitude 50°586298, Longitude 5°558474
 
 Two talks per day done in the morning. Free time in the afternoon for coding, learning, testing, asking questions and discussing.
 
-=== Monday, Tuesday: for beginners and users ===
+=== Monday, Tuesday: mostly for beginners and users ===
 
-Monday, Tuesday will be devoted to Sage users with introduction to Sage talks as well as talks on research theme that are of interest to local users. We welcome local students and professor from Liège to attend those talks.
+Monday, Tuesday will be devoted to Sage users with introduction to Sage talks as well as talks on research theme that are of interest to local users. We welcome local students and professor from Liège to attend those talks. Sage developers are welcome.
 
-=== Wednesday, Thursday: for users and advanced users ===
+=== Wednesday, Thursday: mostly for users and advanced users ===
 
 Wednesday and Thursday will be devoted to users and developers and those who want to become with lot of time for development. There is a possibility that Wednesday will be reserved for solving bugs (Bug Day). Possible development projects:
 
@@ -31,7 +31,9 @@ Wednesday and Thursday will be devoted to users and developers and those who wan
 
 == Registration ==
 
-[[http://goo.gl/forms/W08LErp5mZ|Registration]] : some questions to help us organize the week.
+Registration is here with some questions to help us organize the week :
+
+   [[http://goo.gl/forms/W08LErp5mZ|Registration]]
 
 == Schedule ==
 
