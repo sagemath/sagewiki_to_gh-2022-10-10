@@ -6,16 +6,22 @@ From March 30 to April 2nd 2015
 
 == What ==
 
-Monday, Tuesday will be devoted to users with introduction talks. We welcome local students and professor from Liège to attend those talks.
+Two talks per day done in the morning. Free time in the afternoon for coding, learning, testing, asking questions and discussing.
 
-Wednesday and Thursday will be devoted to developers and those who want to become with lot of time for development.
+=== Monday, Tuesday: for beginners and users ===
 
-There is a possibility that Wednesday will be reserved for solving bugs (Bug Day).
+Monday, Tuesday will be devoted to Sage users with introduction to Sage talks as well as talks on research theme that are of interest to local users. We welcome local students and professor from Liège to attend those talks.
 
-Possible development projects:
+=== Wednesday, Thursday: for users and advanced users ===
+
+Wednesday and Thursday will be devoted to users and developers and those who want to become with lot of time for development. There is a possibility that Wednesday will be reserved for solving bugs (Bug Day). Possible development projects:
 
  - decrease Sage doctesting time (some tests are too long)
  - Reduce the number of [[http://trac.sagemath.org/report/75|tickets that needs review]] (272 as of Jan 20th)
+
+== Registration ==
+
+[[http://goo.gl/forms/W08LErp5mZ|Registration]] : some questions to help us organize the week.
 
 == Schedule ==
 
