@@ -16,6 +16,7 @@ Latitude 50°586298, Longitude 5°558474
 
 == Quoi? (What?) ==
 
+[[http://sagemath.org|Sage]] est un logiciel pour faire des mathématiques.
 Two talks per day done in the morning. Free time in the afternoon for coding, learning, testing, asking questions and discussing.
 
 === Lundi, mardi, mercredi: introduction à Sage (Monday, Tuesday: mostly for beginners and users) ===
@@ -40,13 +41,13 @@ Registration is here with some questions to help us organize the week :
 
 En préparation...
 
-||<5%>   ||<15%> Lundi 30 Mars ||<15%> Mardi 31 Mars ||<15%> Mercredi 1er Avril ||<15%> Jeudi 2 Avril ||<15%> Vendredi 3 Avril ||
-|| 9h30  ||<|2>  Introduction à Sage, installation et prise en main || talk (beginners) || talk (advanced) || talk (advanced) ||<|2>coding sprints (pour ceux qui ne sont pas partis)||
-|| 11h   ||                       talk (beginners)   || talk (advanced) || talk (advanced) ||
-|| 12h   || lunch              || lunch              || lunch           || lunch || lunch ||
-|| 13h   || travaux pratiques  || work               || work            || work ||<|2> coding sprints (pour ceux qui ne sont pas partis)||
-|| 16h   || Computing Contest  || Computing Contest  || work            || work ||
-|| 17h   || Cloture || Cloture || Cloture || Cloture || Cloture         ||
+||<5%>   ||<15% #FFFFAA> Lundi 30 Mars ||<15%  #FFFFAA> Mardi 31 Mars ||<15%  #FFFFAA> Mercredi 1er Avril ||<15%  #FFFFAA> Jeudi 2 Avril ||<15%  #FFFFAA> Vendredi 3 Avril ||
+||<#FFDDBB> 9h30  ||<#AFEFEF|2>  Introduction à Sage, installation et prise en main ||<:> talk (beginners) ||<:> talk (advanced) ||<:> Cours a determiner (advanced) ||<#E8FFE8|2> travaux pratiques (pour ceux qui ne sont pas partis)||
+||<#FFDDBB> 11h                                                                     ||<:>   Cours a determiner (bebutants)   ||<:> Cours a determiner (advanced) ||<:> Cours a determiner (advanced) ||
+||<#FFDDBB> 12h   ||<:> repas              ||<:> repas              ||<:> repas             ||<:> repas ||<:> repas ||
+||<#FFDDBB> 13h   ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0|2> travaux pratiques ||<#D0FFD0|2> travaux pratiques ||<#E8FFE8|2> travaux pratiques (pour ceux qui ne sont pas partis)||
+||<#FFDDBB> 16h   ||<#FFAAAA:> Challenge de Programmation  ||<#FFAAAA:> Challenge de Programmation  ||
+||<#FFDDBB> 17h   ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture     ||
 
 A ajouter:
 
