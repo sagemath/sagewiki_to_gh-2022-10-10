@@ -28,6 +28,7 @@ Wednesday and Thursday will be devoted to users and developers and those who wan
 
  - decrease Sage doctesting time (some tests are too long)
  - Reduce the number of [[http://trac.sagemath.org/report/75|tickets that needs review]] (272 as of Jan 20th)
+ - rework languages
 
 == Registration ==
 
