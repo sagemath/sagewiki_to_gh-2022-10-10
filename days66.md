@@ -67,7 +67,7 @@ There will be "Math Computing Contest" organized at the end of two days. There w
 
 == Participants ==
 
-Ajouter votre nom si vous venez:
+Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, remplissez le formulaire d'enregistrement.
 
  * Štěpán Starosta (Pragues)
  * Tomáš Kalvoda (Pragues)
