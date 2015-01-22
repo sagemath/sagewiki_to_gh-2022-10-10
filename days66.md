@@ -81,4 +81,4 @@ Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, rempl
 
 == Logements ==
 
-Si vous n'habitez pas sur Liège et que vous cherchez un logement, nous vous conseillons [[L'auberge de jeuness Simenon||http://www.lesaubergesdejeunesse.be/Liege-Presentation?lang=fr]].
+Si vous n'habitez pas sur Liège et que vous cherchez un logement, nous vous conseillons [[http://www.lesaubergesdejeunesse.be/Liege-Presentation?lang=fr|L'auberge de jeuness Simenon]].
