@@ -53,6 +53,7 @@ Les lundi et mardi après-midi nous organisons des challenge de programmations. 
  * decrease Sage doctesting time (some tests are too long)
  * one review afternoon (the [[http://trac.sagemath.org/report/75|tickets that needs review]] oscillates between 250 and 300)
  * more word combinatorics and languages
+ * less stupid datastructure for generic sparse matrices (currently dictionnary (i,j) -> value)
 
 == Orateurs confirmés ==
 
