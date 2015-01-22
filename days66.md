@@ -2,7 +2,7 @@
 
 == When ==
 
-From March 30 to April 2nd 2015
+From March 30 to April 3rd 2015
 
 == Where ==
 
@@ -29,23 +29,23 @@ Wednesday and Thursday will be devoted to users and developers and those who wan
  - decrease Sage doctesting time (some tests are too long)
  - Reduce the number of [[http://trac.sagemath.org/report/75|tickets that needs review]] (272 as of Jan 20th)
 
+== Friday: free day ==
+
 == Registration ==
 
 Registration is here with some questions to help us organize the week :
-
-   [[http://goo.gl/forms/W08LErp5mZ|Registration]]
 
 == Schedule ==
 
 This is an idea of schedule.
 
-||      || Mon Mar 30 || Tue Mar 31 || Wed Apr 1 || Thu Apr 2 ||
-|| 9h30 || talk (beginners) || talk (beginners) || talk (advanced) || talk (advanced) ||
-|| 11h  || talk (beginners) || talk (beginners) || talk (advanced) || talk (advanced) ||
-|| 12h  || lunch || lunch|| lunch || lunch ||
-|| 13h  || work || work|| work || work ||
-|| 16h  || Computing Contest || Computing Contest || work || work ||
-|| 17h  || Wrap up || Wrap up || Wrap up || Wrap up ||
+||      || Mon Mar 30 || Tue Mar 31 || Wed Apr 1 || Thu Apr 2 || Fri Apr 3 ||
+|| 9h30 || talk (beginners) || talk (beginners) || talk (advanced) || talk (advanced) || TBD ||
+|| 11h  || talk (beginners) || talk (beginners) || talk (advanced) || talk (advanced) || TBD ||
+|| 12h  || lunch || lunch|| lunch || lunch || lunch ||
+|| 13h  || work || work|| work || work || TBD ||
+|| 16h  || Computing Contest || Computing Contest || work || work || TBD ||
+|| 17h  || Wrap up || Wrap up || Wrap up || Wrap up || TBD ||
 
 == Math Computing Contest ==
 
