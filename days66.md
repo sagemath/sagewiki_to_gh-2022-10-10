@@ -2,7 +2,7 @@
 
 == When ==
 
-From March 30 to April 3rd 2015
+From March 30 to April 2nd 2015
 
 == Where ==
 
@@ -18,13 +18,13 @@ Latitude 50°586298, Longitude 5°558474
 
 Two talks per day done in the morning. Free time in the afternoon for coding, learning, testing, asking questions and discussing.
 
-=== Monday, Tuesday, Wednesday: mostly for beginners and users ===
+=== Monday, Tuesday: mostly for beginners and users ===
 
 Monday, Tuesday will be devoted to Sage users with introduction to Sage talks as well as talks on research theme that are of interest to local users. We welcome local students and professor from Liège to attend those talks. Sage developers are welcome.
 
-=== Thursday, Friday: mostly for users and advanced users ===
+=== Wednesday, Thursday: mostly for users and advanced users ===
 
-Thursday and Friday will be devoted to users and developers and those who want to become with lot of time for development. There is a possibility that Thursday will be reserved for solving bugs (Bug Day). Possible development projects:
+Wednesday and Thursday will be devoted to users and developers and those who want to become with lot of time for development. There is a possibility that Wednesday will be reserved for solving bugs (Bug Day). Possible development projects:
 
  - decrease Sage doctesting time (some tests are too long)
  - Reduce the number of [[http://trac.sagemath.org/report/75|tickets that needs review]] (272 as of Jan 20th)
@@ -33,17 +33,19 @@ Thursday and Friday will be devoted to users and developers and those who want t
 
 Registration is here with some questions to help us organize the week :
 
+   [[http://goo.gl/forms/W08LErp5mZ|Registration]]
+
 == Schedule ==
 
 This is an idea of schedule.
 
-||      || Mon Mar 30 || Tue Mar 31 || Wed Apr 1 || Thu Apr 2 || Fri Apr 3 ||
-|| 9h30 || talk (beginners) || talk (beginners) || talk || talk (advanced) || talk (advanced) ||
-|| 11h  || talk (beginners) || talk (beginners) || talk || talk (advanced) || talk (advanced) ||
-|| 12h  || lunch || lunch|| lunch || lunch || lunch ||
-|| 13h  || work || work|| work || work || work ||
-|| 16h  || Computing Contest || Computing Contest || work || work || work ||
-|| 17h  || Wrap up || Wrap up || Wrap up || Wrap up || Wrap up ||
+||      || Mon Mar 30 || Tue Mar 31 || Wed Apr 1 || Thu Apr 2 ||
+|| 9h30 || talk (beginners) || talk (beginners) || talk (advanced) || talk (advanced) ||
+|| 11h  || talk (beginners) || talk (beginners) || talk (advanced) || talk (advanced) ||
+|| 12h  || lunch || lunch|| lunch || lunch ||
+|| 13h  || work || work|| work || work ||
+|| 16h  || Computing Contest || Computing Contest || work || work ||
+|| 17h  || Wrap up || Wrap up || Wrap up || Wrap up ||
 
 == Math Computing Contest ==
 
