@@ -41,11 +41,11 @@ En préparation...
 
 ||<5%>   ||<15%> Lundi 30 Mars ||<15%> Mardi 31 Mars ||<15%> Mercredi 1er Avril ||<15%> Jeudi 2 Avril ||<15%> Vendredi 3 Avril ||
 || 9h30  ||<|2>  Introduction à Sage, installation et prise en main || talk (beginners) || talk (advanced) || talk (advanced) ||<|2>coding sprints (pour ceux qui ne sont pas partis)||
-|| 11h   ||  || talk (beginners) || talk (advanced) || talk (advanced) ||
-|| 12h   || lunch || lunch|| lunch || lunch || lunch ||
-|| 13h   || travaux pratiques || work|| work || work ||<|2> coding sprints (pour ceux qui ne sont pas partis)||
-|| 16h   || Computing Contest || Computing Contest || work || work ||
-|| 17h   || Cloture || Cloture || Cloture || Cloture || Cloture ||
+|| 11h   ||                       talk (beginners)   || talk (advanced) || talk (advanced) ||
+|| 12h   || lunch              || lunch              || lunch           || lunch || lunch ||
+|| 13h   || travaux pratiques  || work               || work            || work ||<|2> coding sprints (pour ceux qui ne sont pas partis)||
+|| 16h   || Computing Contest  || Computing Contest  || work            || work ||
+|| 17h   || Cloture || Cloture || Cloture || Cloture || Cloture         ||
 
 A ajouter:
 
