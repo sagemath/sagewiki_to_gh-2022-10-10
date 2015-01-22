@@ -19,35 +19,37 @@ Latitude 50°586298, Longitude 5°558474
 [[http://sagemath.org|Sage]] est un logiciel pour faire des mathématiques.
 Two talks per day done in the morning. Free time in the afternoon for coding, learning, testing, asking questions and discussing.
 
-=== Lundi, mardi, mercredi: introduction à Sage (Monday, Tuesday: mostly for beginners and users) ===
+=== Lundi, mardi: introduction à Sage (Monday-Tuesday: mostly for beginners and users) ===
 
-Monday, Tuesday will be devoted to Sage users with introduction to Sage talks as well as talks on research theme that are of interest to local users. We welcome local students and professor from Liège to attend those talks. Sage developers are welcome.
+Lundi et mardi seront consacrés à l'introduction au logiciel Sage ainsi que quelques exposés de recherches. Les étudiants et professeurs de Liège sont tous bienvenus. Les développeurs Sage également!
 
-=== jeudi, vendredi: développement avancé (Thursday-Friday: mostly for users and advanced users) ===
+=== mercredi, jeudi: développement avancé (Thursday-Friday: mostly for users and advanced users) ===
 
-Wednesday and Thursday will be devoted to users and developers and those who want to become with lot of time for development. There is a possibility that Wednesday will be reserved for solving bugs (Bug Day). Possible development projects:
+Mercredi et jeudi seront orientés pour le développement et la programmation. Venez si vous voulez en apprendre plus sur les rouages de Sage, ou écrire des programmes plus performants.
+
+Développements possibles:
 
  - decrease Sage doctesting time (some tests are too long)
- - Reduce the number of [[http://trac.sagemath.org/report/75|tickets that needs review]] (272 as of Jan 20th)
- - rework languages
+ - Reduce the number of [[http://trac.sagemath.org/report/75|tickets that needs review]] (oscillating between 250 and 300)
+ - words (based the recently reworked bitset) and languages
 
-== Registration ==
+== Que voulez-vous faire? ==
 
-Registration is here with some questions to help us organize the week :
+Pour nous aider à organiser au mieux ces Sage days:
 
-   [[http://goo.gl/forms/W08LErp5mZ|Registration]]
+   [[http://goo.gl/forms/W08LErp5mZ|quelques questions]]
 
 == Emploi du temps  ==
 
 En préparation...
 
 ||<5%>   ||<15% #FFFFAA> Lundi 30 Mars ||<15%  #FFFFAA> Mardi 31 Mars ||<15%  #FFFFAA> Mercredi 1er Avril ||<15%  #FFFFAA> Jeudi 2 Avril ||<15%  #FFFFAA> Vendredi 3 Avril ||
-||<#FFDDBB> 9h30  ||<#AFEFEF|2>  Introduction à Sage, installation et prise en main ||<:> talk (beginners) ||<:> talk (advanced) ||<:> Cours a determiner (advanced) ||<#E8FFE8|2> travaux pratiques (pour ceux qui ne sont pas partis)||
-||<#FFDDBB> 11h                                                                     ||<:>   Cours a determiner (bebutants)   ||<:> Cours a determiner (advanced) ||<:> Cours a determiner (advanced) ||
-||<#FFDDBB> 12h   ||<:> repas              ||<:> repas              ||<:> repas             ||<:> repas ||<:> repas ||
-||<#FFDDBB> 13h   ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0|2> travaux pratiques ||<#D0FFD0|2> travaux pratiques ||<#E8FFE8|2> travaux pratiques (pour ceux qui ne sont pas partis)||
-||<#FFDDBB> 16h   ||<#FFAAAA:> Challenge de Programmation  ||<#FFAAAA:> Challenge de Programmation  ||
-||<#FFDDBB> 17h   ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture     ||
+||<#FFEACC> 9h30  ||<#AFEFEF|2>  Introduction à Sage, installation et prise en main ||<#AFEFEF:> Cours a determiner (debutants) ||<#AFEFEF:> Cours a determiner (avancé) ||<#AFEFEF:> Cours a déterminer (avancé) ||<#E8FFE8|2> travaux pratiques (pour ceux qui ne sont pas partis)||
+||<#FFEACC> 11h                                                                     ||<#AFEFEF:> Cours a determiner (bebutants)   ||<#AFEFEF:> Cours a determiner (avancé) ||<#AFEFEF:> Cours a déterminer (avancé) ||
+||<#FFEACC> 12h   ||<:> repas              ||<:> repas              ||<:> repas             ||<:> repas ||<:> repas ||
+||<#FFEACC> 13h   ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0|2> travaux pratiques ||<#D0FFD0|2> travaux pratiques ||<#E8FFE8|2> travaux pratiques (pour ceux qui ne sont pas partis)||
+||<#FFEACC> 16h   ||<#FFAAAA:> Challenge de Programmation  ||<#FFAAAA:> Challenge de Programmation  ||
+||<#FFEACC> 17h   ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture     ||
 
 A ajouter:
 
