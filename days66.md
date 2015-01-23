@@ -37,8 +37,9 @@ Vendredi. On sera là, mais on ne sait pas encore pourquoi.
 
 A ajouter:
 
- * Jeroen 1: Cython (1h)
- * Jeroen 2: Cython advanced (interrupt) (30min)
+ * Jeroen Demeyer 1: [[http://cython.org/|Cython]] (1h)
+ * Jeroen Demeyer 2: Cython advanced in Sage (interruptions) (30min)
+ * Nathann Cohen: Sage development workflow ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]])
  * combinatoire des mots (quoi?)
  * Thierry Monteil: quoi?
  * Vincent Delecroix: quoi?
@@ -61,6 +62,7 @@ Les lundi et mardi après-midi nous organisons des challenge de programmations. 
  * [[http://www.lirmm.fr/~monteil/|Thierry Monteil]] (LIPN, Paris 13)
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Labri, Bordeaux)
  * [[http://cage.ugent.be/~jdemeyer/|Jeroen Demeyer]] (Université de Gent)
+ * [[http://www.steinertriples.fr/ncohen/|Nathann Cohen]] (LRI, Paris 11)
 
 == Participants ==
 
