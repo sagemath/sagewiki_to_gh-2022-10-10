@@ -81,7 +81,7 @@ Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, rempl
 
 == Organisateur ==
 
- * Sébastien Labbé (U. Liège)
+ * [[http://www.liafa.univ-paris-diderot.fr/~labbe/|Sébastien Labbé]] (U. Liège)
 
 == Logements ==
 
