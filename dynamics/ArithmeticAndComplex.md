@@ -30,8 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/17427|#17427]]) positive-review: x==y while hash(x)!=hash(y) with SchemeMorphism_point_projective_field - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/17386|#17386]]) needs-work: Enumerate points of bounded height in projective/affine space over number fields - Grayson Jorgenson
  
  * ([[http://trac.sagemath.org/ticket/17326|#17326]]) needs-work: Implementing subschemes functionality for projective "is_morphism" - Joao Faria
@@ -42,9 +40,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/17082|#17082]]) positive-review - Height Difference Bounds over number fields - Joao Faria
 
- * ([[http://trac.sagemath.org/ticket/17067|#17067]]) needs-review: Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
+ * ([[http://trac.sagemath.org/ticket/17067|#17067]]) needs-work: Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
 
- * ([[http://trac.sagemath.org/ticket/15393|#15393]]) positive-review: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
+ * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-review: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
@@ -53,6 +51,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/17427|#17427]])-- closed sage 6.5: x==y while hash(x)!=hash(y) with SchemeMorphism_point_projective_field - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/17535|#17535]])-- closed sage 6.5: Homogenize fails for affine space over function fields - Ben Hutz
 
