@@ -27,7 +27,7 @@ Mercredi et jeudi seront orientés pour le développement et la programmation. S
 
 Vendredi. On sera là, mais on ne sait pas encore pourquoi.
 
-||<5%>   ||<15% #FFFFAA> Lundi 30 Mars ||<15%  #FFFFAA> Mardi 31 Mars ||<15%  #FFFFAA> Mercredi 1er Avril ||<15%  #FFFFAA> Jeudi 2 Avril ||<15%  #FFFFAA> Vendredi 3 Avril ||
+||<5%>   ||<15% #FFFFAA> Lundi 30 Mars ||<15%  #FFFFAA> Mardi 31 Mars ||<15%  #FFFFAA> Mercredi 1er Avril ||<15%  #FFFFAA> Jeudi 2 Avril ||<15%  #FFFFCC> Vendredi 3 Avril ||
 ||<#FFEACC> 9h30  ||<#AFEFEF|2>  Introduction à Sage, installation et prise en main ||<#AFEFEF:> Cours a determiner (debutants) ||<#AFEFEF:> Cours a determiner (avancé) ||<#AFEFEF:> Cours a déterminer (avancé) ||<#E8FFE8|2> travaux pratiques (pour ceux qui ne sont pas partis)||
 ||<#FFEACC> 11h                                                                     ||<#AFEFEF:> Cours a determiner (bebutants)   ||<#AFEFEF:> Cours a determiner (avancé) ||<#AFEFEF:> Cours a déterminer (avancé) ||
 ||<#FFEACC> 12h   ||<:> repas              ||<:> repas              ||<:> repas             ||<:> repas ||<:> repas ||
