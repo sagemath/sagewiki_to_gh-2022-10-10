@@ -38,8 +38,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/17282|#17282]]) new: Implementing Wehler K3 Surfaces - Joao Faria
 
- * ([[http://trac.sagemath.org/ticket/17082|#17082]]) positive-review - Height Difference Bounds over number fields - Joao Faria
-
  * ([[http://trac.sagemath.org/ticket/17067|#17067]]) needs-work: Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
 
  * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-review: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
@@ -51,6 +49,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/17082|#17082]])-- closed sage 6.5: Height Difference Bounds over number fields - Joao Faria
 
  * --([[http://trac.sagemath.org/ticket/17427|#17427]])-- closed sage 6.5: x==y while hash(x)!=hash(y) with SchemeMorphism_point_projective_field - Ben Hutz
 
