@@ -13,9 +13,9 @@ Grande Traverse 12 (B37),<<BR>>
 B-4000 Liège, Belgique,<<BR>>
 Latitude 50°586298, Longitude 5°558474
 
-== Que voulez-vous faire? ==
+== Inscription ==
 
-Pour nous aider à organiser au mieux ces Sage days: [[http://goo.gl/forms/W08LErp5mZ|quelques questions]]
+Pour vous inscrire et pour nous aider à organiser au mieux ces journées Sage: [[http://goo.gl/forms/hzxgNxA100|quelques questions]]
 
 == Emploi du temps  ==
 
