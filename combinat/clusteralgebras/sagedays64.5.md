@@ -1,21 +1,45 @@
-== Cluster algebras road map beyond Sage-5.9 ==
+== Sage Days 64.5 ==
 
- * Version 13-04-11 (First version from discussion in Minneapolis)
+ * Minneapolis, June 1-5, 2015
+ * Version 15-01-26
 
-This page contains our road map beyond the core implementation of cluster algebras as merged in Sage-5.9, see [[http://trac.sagemath.org/sage_trac/ticket/10298|#10298]].
+The starting point is the core implementation of cluster algebras as merged in Sage-5.9, see [[http://trac.sagemath.org/sage_trac/ticket/10298|#10298]], with possible new features discussen in spring 2013 in Minneapolis.
 
-=== New features ===
+=== Topics ===
 
-==== Finished ====
+ Topics and goals for the week will be discussed the first day of the workshop. Below is a list of possible topics:
 
- * Implement Greedy bases - http://trac.sagemath.org/sage_trac/ticket/14445
+==== Important features ====
 
+ * Allow labellings of the vertices of quivers and cluster seeds (i.e., provide a dict that contains this information, and which is used all over to work with cluster seeds)
+    
+ * in some situations, it might be nice to update variable names. E.g., for Plücker coords and SL[N].
 
-==== Easier ====
-
- 1. generalized associahedra from cluster complexes (Christian) - http://trac.sagemath.org/sage_trac/ticket/10817
+ * generalized associahedra from cluster complexes (Christian) - http://trac.sagemath.org/sage_trac/ticket/10817
 
  * Check why variable_class() is so much slower compared with cluster_class().  This might be because Laurent polynomials are slow in sage. (Christian)
+
+ * Finish the implementation of finite reflection groups (Christian) -- trac.sagemath.org/ticket/11187
+
+ * Allowing options to work with g-vectors, d-vectors, c-vectors directly rather than with cluster variables
+
+==== Other features ====
+
+ * Scattering diagrams (visualization and algebraic computations of broken lines)
+
+ * Quantum cluster algebras
+
+ * Generalized cluster algebras
+
+ * Visualize ideal triangulations
+
+ * Exotic Belavin-Drinfeld cluster algebras or cluster algebras from Double Bruhat Cells
+
+ * Urban Renewal
+
+ * more on Quiver Representations?
+
+==== Other features, easy ====
 
  * Include new Quiver mutation types for Gale-Robinson Quivers (Gregg) - http://trac.sagemath.org/sage_trac/ticket/14444
 
@@ -26,11 +50,7 @@ This page contains our road map beyond the core implementation of cluster algebr
  * Implement snake graph / matrix multiplication formulas for cluster algebras from surfaces and friezes. (Gregg) - http://trac.sagemath.org/ticket/16310
  Also see Dupont's sage code on friezes from http://www.math.jussieu.fr/~dupontg/files/strings.sage 
 
-==== Harder ====
-
- 1. Allow labellings of the vertices of quivers and cluster seeds (i.e., provide a dict that contains this information, and which is used all over to work with cluster seeds)
-    
- * in some situations, it might be nice to update variable names. E.g., for Plücker coords and SL[N].
+==== Other features, hard ====
 
  * Finish mutation type checking for affine D_n (try to dove-tail with student describing all affine B/C/etc. quiver types)
 
@@ -54,7 +74,7 @@ This page contains our road map beyond the core implementation of cluster algebr
 
 === Changes to the compendium ===
 
- 1. Convert the compendium into an rst file and provide it as a thematic tutorial.
+ * Convert the compendium into an rst file and provide it as a thematic tutorial.
 
  * Change intro to describe downloading only sage >= 5.9
 
