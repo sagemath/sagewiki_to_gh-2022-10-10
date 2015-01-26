@@ -42,8 +42,11 @@ A ajouter:
  * Jeroen Demeyer 2: Cython advanced in Sage (interruptions) (30min)
  * Nathann Cohen: Sage development workflow ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]])
  * combinatoire des mots (quoi?)
- * Thierry Monteil: quoi?
+ * Thierry Monteil (pas forcément seul)
+    * prise en main (concepts de base, obtenir de l'aide, survivre)
+    * parent, element, coercion : comment manipuler plusieurs représentations d'un même objet mathématique ? Les différentes représentations des nombres réels et complexes.
  * Vincent Delecroix: quoi?
+
 
 == Challenge de programmation ==
 
