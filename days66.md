@@ -43,7 +43,8 @@ A ajouter:
  * Nathann Cohen: Sage development workflow ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]])
  * combinatoire des mots (quoi?)
  * Thierry Monteil (pas forcément seul)
-    * prise en main (concepts de base, obtenir de l'aide, survivre)
+    * introduction : pourquoi un logiciel libre de mathématiques ?
+    * prise en main (démarrer Sage, concepts de base, obtenir de l'aide, survivre)
     * parent, element, coercion : comment manipuler plusieurs représentations d'un même objet mathématique ? Les différentes représentations des nombres réels et complexes.
  * Vincent Delecroix: quoi?
 
