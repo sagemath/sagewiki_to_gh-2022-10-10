@@ -49,15 +49,15 @@ Coming soon.
 
 If you have any projects that you'd want to work on, please add them. If you want to work on any project listed, just add your name.
 
- * Extended affine Weyl groups ([[http://trac.sagemath.org/ticket/15375|#15375]]) - Dan Bump, Anne Schilling, Mark Shimozono, Nicolas Thiery
- * Lie algebras ([[http://trac.sagemath.org/ticket/14901|#14901]]) - Travis Scrimshaw
+ * Extended affine Weyl groups ([[http://trac.sagemath.org/ticket/15375|#15375]]) - Dan Bump, Anne Schilling, Mark Shimozono, Nicolas Thiery, Mee Seong Im
+ * Lie algebras ([[http://trac.sagemath.org/ticket/14901|#14901]]) - Travis Scrimshaw, Mee Seong Im
  * Hyperbolic Cartan types ([[http://trac.sagemath.org/ticket/15974|#15974]]) - Travis Scrimshaw
    * Related with limit roots in hyperbolic types ([[http://trac.sagemath.org/ticket/16087|#16087]])
    * Might also be useful: http://trac.sagemath.org/ticket/15703
- * Lie groups (in connection with !SageManifolds [[http://trac.sagemath.org/ticket/14865|#14865]]) - Eric Gourgoulhon, Travis Scrimshaw
+ * Lie groups (in connection with !SageManifolds [[http://trac.sagemath.org/ticket/14865|#14865]]) - Eric Gourgoulhon, Travis Scrimshaw, Mee Seong Im
  * Generalized toggle groups and homomesy - Jessica Striker
  * Snake graph perfect matching formula for curves on triangulated surfaces ([[http://trac.sagemath.org/ticket/16310|#16310]]) - Emily Gunawan
- * Implement categories and general framework for representations - Travis Scrimshaw
+ * Implement categories and general framework for representations - Travis Scrimshaw, Mee Seong Im
  * Alternating sign matrices (implement fully packed loops, map to link pattern, fix corner sum matrix) - Jessica Striker
 
 == Tentative list of speakers ==
