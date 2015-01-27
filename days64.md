@@ -43,6 +43,8 @@ See also: https://www.math.ucdavis.edu/about/directions/
 
 == Schedule ==
 
+Tentative:
+
 |||||| Tuesday 3/17 ||
 || 10 - 11 AM || Nicolas Theiry || TBA ||
 || 11 - 12 AM || Franco Saliola || TBA ||
