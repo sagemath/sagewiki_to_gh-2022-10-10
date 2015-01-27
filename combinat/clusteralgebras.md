@@ -3,7 +3,7 @@
 == Cluster algebras road map beyond Sage-5.9 ==
 
  * Infos about [[http://www.ima.umn.edu/2011-2012/SW7.9-13.12/#Schedule|SageDays 40]], Minneapolis July 9-13, 2012
- * Infos about [[http://www.ima.umn.edu/2014-2015/SW6.1-5.12/#Schedule|SageDays 64.5]], Minneapolis June 1-5, 2015
+ * Infos about [[http://www.ima.umn.edu/2014-2015/SW6.1-5.15/?event_id=SW6.1-5.15|SageDays 64.5]], Minneapolis June 1-5, 2015
   * [[combinat/clusteralgebras/sagedays64.5|Wiki containing further info]]
 
 This page contains our road map beyond the core implementation of cluster algebras as merged in Sage-5.9, see [[http://trac.sagemath.org/sage_trac/ticket/10298|#10298]].
