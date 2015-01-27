@@ -1,6 +1,6 @@
 == Sage Days 64.5 ==
 
- * Minneapolis, June 1-5, 2015
+ * [[http://www.ima.umn.edu/2014-2015/SW6.1-5.15/?event_id=SW6.1-5.15|Minneapolis, June 1-5, 2015]]
  * Version 15-01-26
 
 The starting point is the core implementation of cluster algebras as merged in Sage-5.9, see [[http://trac.sagemath.org/sage_trac/ticket/10298|#10298]], with possible new features discussen in spring 2013 in Minneapolis.
