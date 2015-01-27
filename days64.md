@@ -43,7 +43,22 @@ See also: https://www.math.ucdavis.edu/about/directions/
 
 == Schedule ==
 
-Coming soon.
+|||||| Tuesday 3/17 ||
+|| 10 - 11 AM || Nicolas Theiry || TBA ||
+|| 11 - 12 AM || Franco Saliola || TBA ||
+|| 12 - 12:30 PM |||| Introductions and discussions of projects ||
+|| 12:30 - 1:30 PM |||| Lunch ||
+|||||| Wednesday 3/18 ||
+|| 10 - 11 AM || Mark Shimozono || TBA ||
+|| 11 - 12 AM || Vivien Ripoll || TBA ||
+|| 12 - 1 PM |||| Lunch ||
+|||||| Thursday 3/19 ||
+|| 10 - 11 AM || Nathan Williams || TBA ||
+|| 12 - 1 PM |||| Lunch ||
+|||||| Friday 3/20 ||
+|| 12 - 1 PM |||| Lunch ||
+
+All other time will be devoted to coding sprints.
 
 == Projects ==
 
