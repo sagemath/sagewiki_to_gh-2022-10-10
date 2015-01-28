@@ -46,19 +46,27 @@ See also: https://www.math.ucdavis.edu/about/directions/
 Tentative:
 
 |||||| Tuesday 3/17 ||
+|| 9:30 AM |||| Coffee break ||
 || 10 - 11 AM || Nicolas Theiry || TBA ||
 || 11 - 12 AM || Franco Saliola || TBA ||
 || 12 - 12:30 PM |||| Introductions and discussions of projects ||
 || 12:30 - 1:30 PM |||| Lunch ||
+|| 3:30 PM |||| Coffee break ||
 |||||| Wednesday 3/18 ||
+|| 9:30 AM |||| Coffee break ||
 || 10 - 11 AM || Mark Shimozono || TBA ||
 || 11 - 12 AM || Vivien Ripoll || TBA ||
 || 12 - 1 PM |||| Lunch ||
+|| 3:30 PM |||| Coffee break ||
 |||||| Thursday 3/19 ||
+|| 9:30 AM |||| Coffee break ||
 || 10 - 11 AM || Nathan Williams || TBA ||
 || 12 - 1 PM |||| Lunch ||
+|| 3:30 PM |||| Coffee break ||
 |||||| Friday 3/20 ||
+|| 9:30 AM |||| Coffee break ||
 || 12 - 1 PM |||| Lunch ||
+|| 3:30 PM |||| Coffee break ||
 
 All other time will be devoted to coding sprints.
 
