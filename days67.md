@@ -52,7 +52,7 @@ We are looking for volunteers to take on the different introductory talks. Here 
 
  * Introduction to Sage
  * Introduction to python
- * Contributing to Sage: git and trac
+ * Contributing to Sage: git and trac (Daniel Krenn)
 
 We also welcome any proposition of talks on a more specific subject: presentation of some specific Sage packages or functionalities, mathematical problems related to computer exploration, any mathematic development or interesting algorithm... Please keep in mind that the mathematical content should stay at a non-specialist level to make it accessible to whole community (especially students and non-mathematicians fellow pythonistas). 
 
