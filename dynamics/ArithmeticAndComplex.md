@@ -30,17 +30,13 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/17386|#17386]]) needs-work: Enumerate points of bounded height in projective/affine space over number fields - Grayson Jorgenson
+ * ([[http://trac.sagemath.org/ticket/17386|#17386]]) needs-review: Enumerate points of bounded height in projective/affine space over number fields - Grayson Jorgenson
  
  * ([[http://trac.sagemath.org/ticket/17326|#17326]]) needs-work: Implementing subschemes functionality for projective "is_morphism" - Joao Faria
 
- * ([[http://trac.sagemath.org/ticket/17323|#17323]]) needs-work: Implement "primes_of_bad_reduction" to work over Number Fields - Joao Faria 
+ * ([[http://trac.sagemath.org/ticket/17323|#17323]]) needs-review: Implement "primes_of_bad_reduction" to work over Number Fields - Joao Faria 
 
  * ([[http://trac.sagemath.org/ticket/17282|#17282]]) new: Implementing Wehler K3 Surfaces - Joao Faria
-
- * ([[http://trac.sagemath.org/ticket/17067|#17067]]) needs-work: Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
-
- * ([[http://trac.sagemath.org/ticket/15393|#15393]]) needs-review: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
@@ -49,6 +45,10 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/17067|#17067]])-- closed sage 6.5: Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
+
+ * --([[http://trac.sagemath.org/ticket/15393|#15393]])-- closed sage 6.5: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
  * --([[http://trac.sagemath.org/ticket/17082|#17082]])-- closed sage 6.5: Height Difference Bounds over number fields - Joao Faria
 
