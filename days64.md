@@ -102,6 +102,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * James Campbell (Cardiff School of Mathematics)
  * Federico Castillo (UC Davis)
  * Kevin Dilks (University of Minnesota)
+ * Bryan Gillespie (UC Berkeley)
  * Darij Grinberg (MIT)
  * Eric Gourgoulhon (Observatoire de Paris)
  * Emily Gunawan (University of Minnesota)
