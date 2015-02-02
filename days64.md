@@ -5,7 +5,7 @@
 The goal of these Sage Days is to bring together developers in algebraic combinatorics, Lie theory, and representation theory
 to discuss needed features and develop code. People who have coded in [[http://www.sagemath.org|Sage]] and would like to get help getting their
 code integrated into Sage are also welcome to join.
-Any level of Sage experience is welcome, however there will not be basic (python) programming tutorials. We encourage people who wish to participate to have an understanding of basic python (there are [[http://www.sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html|numerous tutorials]] available online and books available if you want to learn) and basic object-oriented programming (OOP for short). There are also [[http://thales.math.uqam.ca/~saliola/sage/tutorials/|Sage tutorials]]) available online as well.
+Any level of Sage experience is welcome, however there will not be basic (python) programming tutorials. We encourage people who wish to participate to have an understanding of basic python (there are [[http://www.sagemath.org/doc/thematic_tutorials/tutorial-programming-python.html|numerous tutorials]] available online and books available if you want to learn) and basic object-oriented programming (OOP for short). A longer list of [[http://thales.math.uqam.ca/~saliola/sage/tutorials/|Sage tutorials]]) are available online as well.
 
 We would like to point out that a combinatorics related workshop will be held at AIM the following week for people who would like to combine the two, see [[http://aimath.org/workshops/upcoming/dynalgcomb/|AIM workshop]].
 
