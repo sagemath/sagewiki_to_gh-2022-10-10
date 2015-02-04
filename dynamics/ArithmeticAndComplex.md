@@ -30,6 +30,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/17729|#17729]]) new: Implement Weil restriction for affine schemes/points/morphisms - Ben Hutz 
+
  * ([[http://trac.sagemath.org/ticket/17386|#17386]]) needs-review: Enumerate points of bounded height in projective/affine space over number fields - Grayson Jorgenson
  
  * ([[http://trac.sagemath.org/ticket/17326|#17326]]) needs-review: Implementing subschemes functionality for projective "is_morphism" - Joao Faria
