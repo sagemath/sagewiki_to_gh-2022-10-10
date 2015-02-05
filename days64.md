@@ -114,6 +114,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Hyeonmi Lee (Hanyang University/UC Davis)
  * Kyu-Hwan Lee (University of Connecticut)
  * Maria Monks Gillespie (UC Berkeley)
+ * Tze-Chun Ou (University of Connecticut)
  * Chris Patton (UC Davis)
  * Oliver Pechenik (University of Illinois -- Urbana-Champaign)
  * Jim Propp (UMass Lowell)
@@ -130,6 +131,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Peter Tingley (Loyola)
  * Aladin Virmaux (LRI, Universite Paris Sud)
  * Nathan Williams (LaCIM)
+ * Sandi Xhumari (University of Connecticut)
  * Ben Young (University of Oregon); tentative
 
 == Organizers ==
