@@ -84,6 +84,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Snake graph perfect matching formula for curves on triangulated surfaces ([[http://trac.sagemath.org/ticket/16310|#16310]]) - Emily Gunawan
  * Implement categories and general framework for representations - Travis Scrimshaw, Mee Seong Im
  * Alternating sign matrices (implement fully packed loops, map to link pattern, fix corner sum matrix) - Jessica Striker
+ * Crystal morphisms, subcrystals, and virtual crystals ([[http://trac.sagemath.org/ticket/15463|#15463]]) - Travis Scrimshaw
 
 == Tentative list of speakers ==
 
