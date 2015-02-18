@@ -65,11 +65,15 @@ We also welcome any proposition of talks on a more specific subject: presentatio
 
 == Participants ==
 
+ * Grégory Châtel (Univ. Paris Est) - !PyCon + Sage Days
+ * Darij Grinberg (MIT) - Sage Days
  * Mathieu Guay-Paquet (UQAM) - !PyCon + Sage Days
  * Daniel Krenn (TU Graz) - !PyCon + Sage Days
  * Viviane Pons (Univ. Paris Sud) - !PyCon + Sage Days 
+ * Pooja Rao - !PyCon + Sage Days
  * Franco Saliola (UQAM) - !PyCon + Sage Days
- * (?) Nicolas Thiéry (Univ. Paris Sud) - !PyCon + Sage Days
+ * Travis Scrimshaw (UC Davis) !PyCon + Sage Days
+ * Nicolas Thiéry (Univ. Paris Sud) - !PyCon + Sage Days
 
 == Organizers ==
 
