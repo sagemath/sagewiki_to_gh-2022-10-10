@@ -76,7 +76,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
 
  * Extended affine Weyl groups ([[http://trac.sagemath.org/ticket/15375|#15375]]) - Dan Bump, Anne Schilling, Mark Shimozono, Nicolas Thiery, Mee Seong Im
  * Lie algebras ([[http://trac.sagemath.org/ticket/14901|#14901]]) - Travis Scrimshaw, Mee Seong Im
- * Root multiplicities of Kac-Moody algebras - Kyu-Hwan Lee, Jonathan Judge
+ * Root multiplicities of Kac-Moody algebras - Kyu-Hwan Lee, Ben Salisbury, Jonathan Judge
  * Hyperbolic Cartan types ([[http://trac.sagemath.org/ticket/15974|#15974]]) - Travis Scrimshaw
    * Related with limit roots in hyperbolic types ([[http://trac.sagemath.org/ticket/16087|#16087]])
    * Might also be useful: http://trac.sagemath.org/ticket/15703
