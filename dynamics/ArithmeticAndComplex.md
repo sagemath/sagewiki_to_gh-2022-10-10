@@ -30,9 +30,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/17729|#17729]]) needs-review: Implement Weil restriction for affine schemes/points/morphisms - Ben Hutz 
+ * ([[http://trac.sagemath.org/ticket/17762|#17762]]) needs-review: Connected component for a rational preperiodic point - Grayson Jorgenson
 
- * ([[http://trac.sagemath.org/ticket/17386|#17386]]) positive-review: Enumerate points of bounded height in projective/affine space over number fields - Grayson Jorgenson
+ * ([[http://trac.sagemath.org/ticket/17729|#17729]]) needs-review: Implement Weil restriction for affine schemes/points/morphisms - Ben Hutz 
 
  * ([[http://trac.sagemath.org/ticket/17323|#17323]]) positive-review: Implement "primes_of_bad_reduction" to work over Number Fields - Joao Faria 
 
@@ -45,9 +45,11 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 == Complete ==
-* --([[http://trac.sagemath.org/ticket/17326|#17326]])-- closed sage 6.6: Implementing subschemes functionality for projective "is_morphism" - Joao Faria
+ * ([[http://trac.sagemath.org/ticket/17386|#17386]])-- closed sage 6.6: Enumerate points of bounded height in projective/affine space over number fields - Grayson Jorgenson
+
+ * --([[http://trac.sagemath.org/ticket/17326|#17326]])-- closed sage 6.6: Implementing subschemes functionality for projective "is_morphism" - Joao Faria
  
-* --([[http://trac.sagemath.org/ticket/17067|#17067]])-- closed sage 6.5: Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
+ * --([[http://trac.sagemath.org/ticket/17067|#17067]])-- closed sage 6.5: Enabled canonical height for maps of `\PP^N` over number fields - Ben Hutz, Paul Fili
 
  * --([[http://trac.sagemath.org/ticket/15393|#15393]])-- closed sage 6.5: FMV Algorithm for automorphism groups - Bianca Thompson, Ben Hutz, Joao Faria
 
