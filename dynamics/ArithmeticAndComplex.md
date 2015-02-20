@@ -45,7 +45,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 == Complete ==
- * ([[http://trac.sagemath.org/ticket/17386|#17386]])-- closed sage 6.6: Enumerate points of bounded height in projective/affine space over number fields - Grayson Jorgenson
+ * --([[http://trac.sagemath.org/ticket/17386|#17386]])-- closed sage 6.6: Enumerate points of bounded height in projective/affine space over number fields - Grayson Jorgenson
 
  * --([[http://trac.sagemath.org/ticket/17326|#17326]])-- closed sage 6.6: Implementing subschemes functionality for projective "is_morphism" - Joao Faria
  
