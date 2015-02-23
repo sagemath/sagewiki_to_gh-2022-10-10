@@ -38,9 +38,10 @@ Vendredi. On sera là, mais on ne sait pas encore pourquoi.
 
 A ajouter:
 
- * Jeroen Demeyer 1: [[http://cython.org/|Cython]] (1h)
- * Jeroen Demeyer 2: Cython advanced in Sage (interruptions) (30min)
- * Nathann Cohen: Sage development workflow ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]])
+ * Jeroen Demeyer 1: [[http://cython.org/|Cython]] (1h, mercredi)
+ * Jeroen Demeyer 2: Cython advanced in Sage (interruptions) (30min, mercredi ou jeudi)
+ * Nathann Cohen: Sage development workflow ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]], mercredi)
+ * Johan Nielsen or David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
  * combinatoire des mots (quoi?)
  * Thierry Monteil (pas forcément seul)
     * introduction : pourquoi un logiciel libre de mathématiques ?
@@ -60,7 +61,7 @@ Les lundi et mardi après-midi nous organisons des challenge de programmations. 
  * one review afternoon (the [[http://trac.sagemath.org/report/75|tickets that needs review]] oscillates between 250 and 300)
  * more word combinatorics and languages
  * less stupid datastructure for generic sparse matrices (currently dictionnary (i,j) -> value)
- * code migration facilities with big M's
+ * code migration facilities with big M's (need Mathematica experts with various versions of the software)
 
 == Orateurs confirmés ==
 
