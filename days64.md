@@ -105,6 +105,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Dan Bump (Stanford)
  * James Campbell (Cardiff School of Mathematics)
  * Federico Castillo (UC Davis)
+ * Tom Denton (Youtube)
  * Kevin Dilks (University of Minnesota)
  * Bryan Gillespie (UC Berkeley)
  * Darij Grinberg (MIT)
