@@ -74,6 +74,7 @@ We also welcome any proposition of talks on a more specific subject: presentatio
  * Franco Saliola (UQAM) - !PyCon + Sage Days
  * Travis Scrimshaw (UC Davis) !PyCon + Sage Days
  * Nicolas Thiéry (Univ. Paris Sud) - !PyCon + Sage Days
+ * Syed Hosseini (UCalgary) - Sage Days
 
 == Organizers ==
 
