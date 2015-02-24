@@ -400,5 +400,20 @@ g = particiones.grafo()
 g.show(edge_labels=True, figsize=(6,6), vertex_size=500, color_by_label=True)
 }}}
 
+{{{#D3js interactive version (just a screenshot here)
+edge_partition = [
+    [edge for edge in g.edges() if edge[-1]==el]  
+    for el in set(g.edge_labels()) 
+    ]
+g.show(method='js', 
+       edge_labels=True, 
+       vertex_labels=True, 
+       link_distance=90, 
+       charge=-400, 
+       link_strength=2, 
+       force_spring_layout=True, 
+       edge_partition=edge_partition)
+}}}
+
 {{attachment:call_graph_partitions_js_2.png}}
 {{attachment:call_graph_partitions.png}}
