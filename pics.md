@@ -117,7 +117,7 @@ sage: show(p1+p2)
 {{http://sage.math.washington.edu/home/wdj/art/cylinder-inside-cone.jpg}}
 
 === A hypotrochoid animation by Dean Moore ===
-Hypotrochoid. Written by Dean Moore, February 2008                            
+Hypotrochoid. Written by Dean Moore, February 2008
 
 This animation was moved to the section on the animate command : [[http://wiki.sagemath.org/animate#AhypotrochoidanimationbyDeanMoore]]
 
@@ -159,7 +159,7 @@ def butterfly2d():
     """"
     EXAMPLE:
         sage: butterfly2d()
-    """    
+    """
     g = Graphics()
     x1, y1 = 0, 0
     from math import sin, cos, exp, pi
@@ -169,7 +169,7 @@ def butterfly2d():
         y = r * sin(theta)
         xx = x*6 + 25       # Scale factors to enlarge and center the curve.
         yy = y*6 + 25
-        if theta != 0: 
+        if theta != 0:
             l = line( [(x1, y1), (xx, yy)], rgbcolor=hue(theta/7 + 4) )
             g = g + l
             x1, y1 = xx, yy
@@ -179,7 +179,7 @@ def butterfly3d():
     """"
     EXAMPLE:
         sage: butterfly3d()
-    """    
+    """
     g = point3d((0,0,0))
     x1, y1 = 0, 0
     from math import sin, cos, exp, pi
@@ -400,18 +400,20 @@ g = particiones.grafo()
 g.show(edge_labels=True, figsize=(6,6), vertex_size=500, color_by_label=True)
 }}}
 
-{{{#D3js interactive version (just a screenshot here)
+.
+{{{
+#D3js interactive version (just a screenshot here)
 edge_partition = [
-    [edge for edge in g.edges() if edge[-1]==el]  
-    for el in set(g.edge_labels()) 
+    [edge for edge in g.edges() if edge[-1]==el]
+    for el in set(g.edge_labels())
     ]
-g.show(method='js', 
-       edge_labels=True, 
-       vertex_labels=True, 
-       link_distance=90, 
-       charge=-400, 
-       link_strength=2, 
-       force_spring_layout=True, 
+g.show(method='js',
+       edge_labels=True,
+       vertex_labels=True,
+       link_distance=90,
+       charge=-400,
+       link_strength=2,
+       force_spring_layout=True,
        edge_partition=edge_partition)
 }}}
 
