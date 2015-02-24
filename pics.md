@@ -400,5 +400,5 @@ g = particiones.grafo()
 g.show(edge_labels=True, figsize=(6,6), vertex_size=500, color_by_label=True)
 }}}
 
-[[attachment:call_graph_partitions_js_2.png]]
-[[attachment:call_graph_partitions.png]]
+{{attachment:call_graph_partitions_js_2.png}}
+{{attachment:call_graph_partitions.png}}
