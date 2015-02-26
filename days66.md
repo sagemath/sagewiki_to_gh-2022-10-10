@@ -58,10 +58,11 @@ Les lundi et mardi après-midi nous organisons des challenge de programmations. 
 
  * one bug afternoon (correct bug, new features forbidden)
  * [[Days66Doctesting|decrease Sage doctesting time]] (some tests are too long)
- * one review afternoon (the [[http://trac.sagemath.org/report/75|tickets that needs review]] oscillates between 250 and 300)
+ * one review afternoon (the [[http://trac.sagemath.org/report/75|tickets that needs review]] oscillates between 250 and 300 and [[http://trac.sagemath.org/report/92|the open tickets]] are over 3000)
  * more word combinatorics and languages
  * less stupid datastructure for generic sparse matrices (currently dictionnary (i,j) -> value)
  * code migration facilities with big M's (need Mathematica experts with various versions of the software)
+ * [[http://trac.sagemath.org/ticket/21|ticket #21 (about sage command)]]
 
 == Orateurs confirmés ==
 
