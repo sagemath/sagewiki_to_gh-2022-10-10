@@ -74,26 +74,26 @@ Les lundi et mardi après-midi nous organisons des challenge de programmations. 
 
 Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, remplissez le formulaire d'enregistrement.
 
- * Mehdi Ayadi
+ 1. Mehdi Ayadi
  * Michelangelo Bucci (U. Liège)
  * Émilie Charlier (U. Liège)
- * Vincent Delecroix (Labri, Bordeaux)
+ * [[www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Labri, Bordeaux)
  * Brandon Dravie (U. Lorraine)
- * Jordan Emme (Marseille)
+ * [[https://www.i2m.univ-amu.fr/~emme.j/doku.php?id=start|Jordan Emme]] (Marseille)
  * Tomáš Kalvoda (Pragues)
- * Thomas Kleyntssens (U. Liège)
+ * [[http://www.math.ulg.ac.be/kleyntssens/|Thomas Kleyntssens]] (U. Liège)
  * Jacob Kroeker (U. Hannovre)
- * Sébastien Labbé (U. Liège)
- * Julien Leroy
+ * [[http://www.liafa.univ-paris-diderot.fr/~labbe/|Sébastien Labbé]] (U. Liège)
+ * [[http://math.uni.lu/~leroy/|Julien Leroy]] (U. Luxembourg)
  * David Lucas
  * Thierry Monteil (LIPN, Paris 13)
- * Johan Nielsen (Paris Saclay)
- * Clément Pernet (Lyon)
+ * [[http://jsrn.dk/|Johan Nielsen]] (Paris Saclay)
+ * [[http://lig-membres.imag.fr/pernet/|Clément Pernet]] (Lyon)
  * Michel Rigo (U. Liège)
  * Eric Rowland (U. Liège)
  * Štěpán Starosta (Pragues)
  * Marion Stipulanti (U. Liège)
- * Elise Vandomme (U. Liège)
+ * [[http://www.discmath.ulg.ac.be/vandomme/|Elise Vandomme]] (U. Liège)
 
 == Organisateur ==
 
