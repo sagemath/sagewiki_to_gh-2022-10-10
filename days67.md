@@ -98,6 +98,7 @@ Thursday: Coding sprints
  * Matthieu Josuat-Vergès (Univ. Paris Est) - Sage Days
  * Daniel Krenn (TU Graz) - !PyCon + Sage Days
  * Viviane Pons (Univ. Paris Sud) - !PyCon + Sage Days 
+ * Emily Redelmeier - Sage Days
  * Pooja Rao - !PyCon + Sage Days
  * Franco Saliola (UQAM) - !PyCon + Sage Days
  * Travis Scrimshaw (UC Davis) !PyCon + Sage Days
