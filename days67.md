@@ -49,7 +49,7 @@ Here is  the [[https://us.pycon.org/2015/schedule/talks/list/|list of accepted t
 The SageDays will be organized as follows: 
  
  * Morning: talks and tutorials (location TBA)
- * Afternoon: Coding sprints at PyCon
+ * Afternoon: Coding sprints at !PyCon
 
 
 Monday:
@@ -60,7 +60,7 @@ Monday:
  * Tutorial : introduction to Sage and python
  * Sage install party!
 
-14h -- 17h: Coding sprints at PyCon
+14h -- 17h: Coding sprints at !PyCon
 
 Tuesday:
 
@@ -71,7 +71,7 @@ Tuesday:
  * ??
  * ??
 
-14h -- 17h: Coding sprints at PyCon
+14h -- 17h: Coding sprints at !PyCon
 
 Wednesday:
 
@@ -81,7 +81,7 @@ Wednesday:
  * The Category framework (Nicolas Thiery) 
  * Contributing to Sage: git and trac (Daniel Krenn)
 
-14h -- 17h: Coding sprints at PyCon
+14h -- 17h: Coding sprints at !PyCon
 
 Thursday: Coding sprints
 
