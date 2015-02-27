@@ -95,6 +95,7 @@ Thursday: Coding sprints
  * Grégory Châtel (Univ. Paris Est) - !PyCon + Sage Days
  * Darij Grinberg (MIT) - Sage Days
  * Mathieu Guay-Paquet (UQAM) - !PyCon + Sage Days
+ * Matthieu Josuat-Vergès (Univ. Paris Est) - Sage Days
  * Daniel Krenn (TU Graz) - !PyCon + Sage Days
  * Viviane Pons (Univ. Paris Sud) - !PyCon + Sage Days 
  * Pooja Rao - !PyCon + Sage Days
