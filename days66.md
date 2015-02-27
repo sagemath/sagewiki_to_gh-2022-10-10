@@ -19,8 +19,6 @@ Pour vous inscrire et pour nous aider à organiser au mieux ces journées Sage: 
 
 == Emploi du temps  ==
 
-En préparation...
-
 Lundi, mardi: introduction à Sage et quelques exposés de recherches. Les étudiants et professeurs de Liège sont tous bienvenus. Les développeurs Sage également!
 
 Mercredi et jeudi seront orientés pour le développement et la programmation. Si vous voulez en apprendre plus sur les rouages de Sage, écrire des programmes plus performants, interfacer une librairie en C++ ou développer vos propres projets venez nous voir!
@@ -90,8 +88,8 @@ Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, rempl
  * [[http://jsrn.dk/|Johan Nielsen]] (Paris Saclay)
  * [[http://lig-membres.imag.fr/pernet/|Clément Pernet]] (Lyon)
  * Michel Rigo (U. Liège)
- * Eric Rowland (U. Liège)
- * Štěpán Starosta (Pragues)
+ * [[http://thales.math.uqam.ca/~rowland/|Eric Rowland]] (U. Liège)
+ * [[https://users.fit.cvut.cz/~staroste/|Štěpán Starosta]] (Pragues)
  * Marion Stipulanti (U. Liège)
  * [[http://www.discmath.ulg.ac.be/vandomme/|Elise Vandomme]] (U. Liège)
 
