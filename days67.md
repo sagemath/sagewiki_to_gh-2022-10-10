@@ -61,7 +61,8 @@ We also welcome any proposition of talks on a more specific subject: presentatio
 
 === Tentative list of projects ===
 
- * ...
+ * Automorphism group of function fields
+ * Riemann-Roch space functionality
 
 == Participants ==
 
