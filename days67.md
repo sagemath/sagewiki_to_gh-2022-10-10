@@ -103,6 +103,7 @@ Thursday: Coding sprints
  * Travis Scrimshaw (UC Davis) !PyCon + Sage Days
  * Nicolas Thiéry (Univ. Paris Sud) - !PyCon + Sage Days
  * Syed Hosseini (UCalgary) - Sage Days
+ * Mike Zabrocki (York University) - Sage Days
 
 == Organizers ==
 
