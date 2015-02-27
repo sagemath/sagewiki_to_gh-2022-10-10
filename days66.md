@@ -75,7 +75,7 @@ Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, rempl
  1. Mehdi Ayadi
  * Michelangelo Bucci (U. Liège)
  * Émilie Charlier (U. Liège)
- * [[www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Labri, Bordeaux)
+ * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Labri, Bordeaux)
  * Brandon Dravie (U. Lorraine)
  * [[https://www.i2m.univ-amu.fr/~emme.j/doku.php?id=start|Jordan Emme]] (Marseille)
  * Tomáš Kalvoda (Pragues)
