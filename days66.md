@@ -74,16 +74,26 @@ Les lundi et mardi après-midi nous organisons des challenge de programmations. 
 
 Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, remplissez le formulaire d'enregistrement.
 
- * Štěpán Starosta (Pragues)
- * Tomáš Kalvoda (Pragues)
+ * Mehdi Ayadi
+ * Michelangelo Bucci (U. Liège)
  * Émilie Charlier (U. Liège)
+ * Vincent Delecroix (Labri, Bordeaux)
+ * Brandon Dravie (U. Lorraine)
+ * Jordan Emme (Marseille)
+ * Tomáš Kalvoda (Pragues)
+ * Thomas Kleyntssens (U. Liège)
+ * Jacob Kroeker (U. Hannovre)
+ * Sébastien Labbé (U. Liège)
+ * Julien Leroy
+ * David Lucas
+ * Thierry Monteil (LIPN, Paris 13)
+ * Johan Nielsen (Paris Saclay)
+ * Clément Pernet (Lyon)
  * Michel Rigo (U. Liège)
  * Eric Rowland (U. Liège)
+ * Štěpán Starosta (Pragues)
+ * Marion Stipulanti (U. Liège)
  * Elise Vandomme (U. Liège)
- * Michelangelo Bucci (U. Liège)
- * Thierry Monteil (LIPN, Paris 13)
- * Vincent Delecroix (Labri, Bordeaux)
- * Sébastien Labbé (U. Liège)
 
 == Organisateur ==
 
