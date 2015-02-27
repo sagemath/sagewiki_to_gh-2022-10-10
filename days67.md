@@ -42,22 +42,48 @@ If you're looking for a roommate or a place to stay, please put your name bellow
 
 == Schedule ==
 
-The Sage Days schedule has not been decided yet. Lots of time will be free sprint time on Sage projects. 
-
 Here is  the [[https://us.pycon.org/2015/schedule/talks/list/|list of accepted talks]] of the main !PyCon conference taking place before Sage-Days on April 10-12. Especially, There will be one Sage related talk: [[https://us.pycon.org/2015/schedule/presentation/354/|Experimental pure mathematics using Sage]] by Viviane Pons. 
 
-=== Tentative list of talks ===
+=== Tentative Schedule ===
 
-We are looking for volunteers to take on the different introductory talks. Here are some talks we would like to see, you can put your name and / or add suggestions.
+The SageDays will be organized as follows: 
+ 
+ * Morning: talks and tutorials (location TBA)
+ * Afternoon: Coding sprints at PyCon
 
- * Introduction to Sage
- * Introduction to python
+
+Monday:
+
+9h30 -- 12h 30: 
+
+ * Presentation of Sage
+ * Tutorial : introduction to Sage and python
+ * Sage install party!
+
+14h -- 17h: Coding sprints at PyCon
+
+Tuesday:
+
+9h30 -- 12h30:
+
+ * Status report
+ * Coercion in Sage (Daniel Krenn)
+ * ??
+ * ??
+
+14h -- 17h: Coding sprints at PyCon
+
+Wednesday:
+
+9h30 -- 12h30:
+
+ * Status report
+ * The Category framework (Nicolas Thiery) 
  * Contributing to Sage: git and trac (Daniel Krenn)
 
-We also welcome any proposition of talks on a more specific subject: presentation of some specific Sage packages or functionalities, mathematical problems related to computer exploration, any mathematic development or interesting algorithm... Please keep in mind that the mathematical content should stay at a non-specialist level to make it accessible to whole community (especially students and non-mathematicians fellow pythonistas). 
+14h -- 17h: Coding sprints at PyCon
 
- * Automata and Transducers in Sage, Daniel Krenn (?)
- * The Category framework, Nicolas Thiery (?)
+Thursday: Coding sprints
 
 === Tentative list of projects ===
 
