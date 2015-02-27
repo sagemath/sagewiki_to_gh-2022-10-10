@@ -37,19 +37,17 @@ Vendredi. On sera là, mais on ne sait pas encore pourquoi.
 ||<#FFEACC> 17h   ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture     ||
 
 
-A ajouter:
+Orateurs (il est possible que certaines interventions soient en anglais):
 
- * Jeroen Demeyer 1: [[http://cython.org/|Cython]] (1h, mercredi)
- * Jeroen Demeyer 2: Cython advanced in Sage (interruptions) (30min, mercredi ou jeudi)
- * Nathann Cohen: Sage development workflow ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]], mercredi)
- * Johan Nielsen or David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
- * combinatoire des mots (quoi?)
- * Thierry Monteil (pas forcément seul)
+ * Thierry Monteil/Vincent Delecroix/Sébastien Labbé
     * introduction : pourquoi un logiciel libre de mathématiques ?
     * prise en main (démarrer Sage, concepts de base, obtenir de l'aide, survivre)
     * parent, element, coercion : comment manipuler plusieurs représentations d'un même objet mathématique ? Les différentes représentations des nombres réels et complexes.
- * Vincent Delecroix: quoi?
-
+    * combinatoire des mots
+ * Jeroen Demeyer 1: [[http://cython.org/|Cython]]
+ * Nathann Cohen: Le développement dans Sage ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]], mercredi)
+ * Jeroen Demeyer 2: Advanced Cython (integration of C/C++ libraries, interruptions)
+ * Johan Nielsen or David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
 
 == Challenge de programmation ==
 
