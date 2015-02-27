@@ -34,6 +34,15 @@ Vendredi. On sera là, mais on ne sait pas encore pourquoi.
 ||<#FFEACC> 16h   ||<#FFAAAA:> Challenge de Programmation  ||<#FFAAAA:> Challenge de Programmation  ||
 ||<#FFEACC> 17h   ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture     ||
 
+Sujets pour les travaux pratiques
+
+ * débuter
+ * programmation avancée
+ * Cython
+ * combinatoire des mots
+ * algèbre linéaire
+ * théorie des nombres
+ * théorie des graphes et programmation linéaire entière
 
 Orateurs (il est possible que certaines interventions soient en anglais):
 
@@ -45,7 +54,7 @@ Orateurs (il est possible que certaines interventions soient en anglais):
  * Jeroen Demeyer 1: [[http://cython.org/|Cython]]
  * Nathann Cohen: Le développement dans Sage ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]], mercredi)
  * Jeroen Demeyer 2: Advanced Cython (integration of C/C++ libraries, interruptions)
- * Johan Nielsen or David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
+ * David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
 
 == Challenge de programmation ==
 
@@ -53,13 +62,13 @@ Les lundi et mardi après-midi nous organisons des challenge de programmations. 
 
 == Développements possibles (possible development projects) ==
 
- * one bug afternoon (correct bug, new features forbidden)
- * [[Days66Doctesting|decrease Sage doctesting time]] (some tests are too long)
- * one review afternoon (the [[http://trac.sagemath.org/report/75|tickets that needs review]] oscillates between 250 and 300 and [[http://trac.sagemath.org/report/92|the open tickets]] are over 3000)
  * more word combinatorics and languages
+ * one bug afternoon (correct bug, new features forbidden)
  * less stupid datastructure for generic sparse matrices (currently dictionnary (i,j) -> value)
  * code migration facilities with big M's (need Mathematica experts with various versions of the software)
  * [[http://trac.sagemath.org/ticket/21|ticket #21 (about sage command)]]
+ * [[Days66Doctesting|decrease Sage doctesting time]] (some tests are too long)
+ * one review afternoon (the [[http://trac.sagemath.org/report/75|tickets that needs review]] oscillates between 250 and 300 and [[http://trac.sagemath.org/report/92|the open tickets]] are over 3000)
 
 == Orateurs confirmés ==
 
