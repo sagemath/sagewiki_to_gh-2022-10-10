@@ -19,7 +19,7 @@ Pour vous inscrire et pour nous aider à organiser au mieux ces journées Sage: 
 
 == Emploi du temps  ==
 
-Lundi, mardi: introduction à Sage et quelques exposés de recherches. Les étudiants et professeurs de Liège sont tous bienvenus. Les développeurs Sage également!
+Lundi, mardi: introduction à Sage et quelques exposés de recherches. Les étudiant·e·s et professeur·e·s de Liège sont tou·te·s bienvenu·e·s. Les développeur·e·s Sage également!
 
 Mercredi et jeudi seront orientés pour le développement et la programmation. Si vous voulez en apprendre plus sur les rouages de Sage, écrire des programmes plus performants, interfacer une librairie en C++ ou développer vos propres projets venez nous voir!
 
@@ -27,10 +27,10 @@ Vendredi. On sera là, mais on ne sait pas encore pourquoi.
 
 ||<5%>   ||<15% #FFFFAA> Lundi 30 Mars ||<15%  #FFFFAA> Mardi 31 Mars ||<15%  #FFFFAA> Mercredi 1er Avril ||<15%  #FFFFAA> Jeudi 2 Avril ||<15%  #FFFFCC> Vendredi 3 Avril ||
 ||Salle ||<:> S.33  ||<:> matin: 0/33 après-midi: S.36 ||<:> 1/64 ||<:> 0/33 ||<:> 0/36 ||
-||<#FFEACC> 9h30  ||<#AFEFEF|2>  Introduction à Sage, installation et prise en main ||<#AFEFEF:> Cours a déterminer (débutants) ||<#AFEFEF:> Cython ||<#AFEFEF:> Cython avancé (interfacer une bibliothèque, gestion des signaux) ||<#E8FFE8|2> travaux pratiques (pour ceux qui ne sont pas partis)||
-||<#FFEACC> 11h                                                                     ||<#AFEFEF:> Cours à déterminer (débutants)   ||<#AFEFEF:> Développer dans Sage (git/trac) ||<#AFEFEF:> Coding theory in Sage ||
+||<#FFEACC> 9h30  ||<#AFEFEF|2>  Introduction à Sage, installation et prise en main ||<#AFEFEF:> Cours a déterminer (débutant·e·s) ||<#AFEFEF:> Cython ||<#AFEFEF:> Cython avancé (interfacer une bibliothèque, gestion des signaux) ||<#E8FFE8|2> travaux pratiques (pour celles et ceux qui ne sont pas parti·e·s)||
+||<#FFEACC> 11h                                                                     ||<#AFEFEF:> Cours à déterminer (débutant·e·s)   ||<#AFEFEF:> Développer dans Sage (git/trac) ||<#AFEFEF:> Coding theory in Sage ||
 ||<#FFEACC> 12h   ||<:> repas              ||<:> repas              ||<:> repas             ||<:> repas ||<:> repas ||
-||<#FFEACC> 13h   ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0|2> travaux pratiques ||<#D0FFD0|2> travaux pratiques ||<#E8FFE8|2> travaux pratiques (pour ceux qui ne sont pas partis)||
+||<#FFEACC> 13h   ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0|2> travaux pratiques ||<#D0FFD0|2> travaux pratiques ||<#E8FFE8|2> travaux pratiques (pour celles et ceux qui ne sont pas parti·e·s)||
 ||<#FFEACC> 16h   ||<#FFAAAA:> Challenge de Programmation  ||<#FFAAAA:> Challenge de Programmation  ||
 ||<#FFEACC> 17h   ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture     ||
 
@@ -58,7 +58,7 @@ Orateurs (il est possible que certaines interventions soient en anglais):
 
 == Challenge de programmation ==
 
-Les lundi et mardi après-midi nous organisons des challenge de programmations. Cela consiste en une série de questions pour lesquels il sera nécessaire de faire un peu de programmation. Il y aura des prix pour les plus rapides, les meilleures et les moins bonnes solutions (vote du public). Ainsi que pour tous les participants. Les règles sont simples: vous pouvez utiliser tout ce que vous voulez (pas forcément Sage). L'objectif étant de s'amuser et d'apprendre des autres.
+Les lundi et mardi après-midi nous organisons des challenge de programmations. Cela consiste en une série de questions pour lesquels il sera nécessaire de faire un peu de programmation. Il y aura des prix pour les plus rapides, les meilleures et les moins bonnes solutions (vote du public). Ainsi que pour tou·te·s les participant·e·s. Les règles sont simples: vous pouvez utiliser tout ce que vous voulez (pas forcément Sage). L'objectif étant de s'amuser et d'apprendre des autres.
 
 == Développements possibles (possible development projects) ==
 
@@ -70,14 +70,14 @@ Les lundi et mardi après-midi nous organisons des challenge de programmations. 
  * [[Days66Doctesting|decrease Sage doctesting time]] (some tests are too long)
  * one review afternoon (the [[http://trac.sagemath.org/report/75|tickets that needs review]] oscillates between 250 and 300 and [[http://trac.sagemath.org/report/92|the open tickets]] are over 3000)
 
-== Orateurs confirmés ==
+== Orateur(ice?)s confirmés ==
 
  * [[http://www.lirmm.fr/~monteil/|Thierry Monteil]] (LIPN, Paris 13)
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Labri, Bordeaux)
  * [[http://cage.ugent.be/~jdemeyer/|Jeroen Demeyer]] (Université de Gent)
  * [[http://www.steinertriples.fr/ncohen/|Nathann Cohen]] (LRI, Paris 11)
 
-== Participants ==
+== Participant·e·s ==
 
 Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, remplissez le formulaire d'enregistrement.
 
