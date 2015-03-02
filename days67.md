@@ -92,7 +92,7 @@ Thursday: Coding sprints
 
 == Participants ==
 
- * Olivier Bouillot (Univ. Paris Est) - !PyCon + SageDays
+ * Olivier Bouillot (Univ. Paris Est) - !PyCon + Sage Days
  * Grégory Châtel (Univ. Paris Est) - !PyCon + Sage Days
  * Darij Grinberg (MIT) - Sage Days
  * Mathieu Guay-Paquet (UQAM) - !PyCon + Sage Days
