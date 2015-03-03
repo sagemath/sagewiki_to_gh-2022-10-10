@@ -30,8 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/17762|#17762]]) positive-review: Connected component for a rational preperiodic point - Grayson Jorgenson
-
  * ([[http://trac.sagemath.org/ticket/17729|#17729]]) needs-review: Implement Weil restriction for affine schemes/points/morphisms - Ben Hutz 
 
  * ([[http://trac.sagemath.org/ticket/17282|#17282]]) new: Implementing Wehler K3 Surfaces - Joao Faria
@@ -43,6 +41,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/17762|#17762]])-- closed sage 6.6: Connected component for a rational preperiodic point - Grayson Jorgenson
 
  * --([[http://trac.sagemath.org/ticket/17323|#17323]])-- closed sage 6.6: Implement "primes_of_bad_reduction" to work over Number Fields - Joao Faria 
 
