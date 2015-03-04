@@ -60,7 +60,7 @@ Tentative:
 || 3:30 PM |||| Coffee break ||
 |||||| Thursday 3/19 ||
 || 9:30 AM |||| Coffee break ||
-|| 10 - 11 AM || Nathan Williams || TBA ||
+|| 10 - 11 AM || Nathan Williams || Sage Days $dim(V_{\rho}(A_3))$ ||
 || 12 - 1 PM |||| Lunch ||
 || 3:30 PM |||| Coffee break ||
 |||||| Friday 3/20 ||
