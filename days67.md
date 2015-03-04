@@ -67,7 +67,7 @@ Tuesday:
 9h30 -- 12h30:
 
  * Status report
- * Coercion in Sage (Daniel Krenn)
+ * Contributing to Sage: git and trac (Daniel Krenn)
  * ??
  * ??
 
@@ -79,7 +79,7 @@ Wednesday:
 
  * Status report
  * The Category framework (Nicolas Thiery) 
- * Contributing to Sage: git and trac (Daniel Krenn)
+ * Coercion in Sage (Daniel Krenn)
 
 14h -- 17h: Coding sprints at !PyCon
 
