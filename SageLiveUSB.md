@@ -14,7 +14,7 @@ This page aims at inventorying Live USB running sage. It is a working page to se
 
  * Main Author : ThierryMonteil
  * Base Distro : Debian wheezy (using http://live.debian.net/)
- * Current sage version : 6.4
+ * Current sage version : 6.5
  * Current kernel : Linux 3.2.0, 32 bits (compilation for other platforms is possible)
  * Size : 2.9 GB
  * RAM required : 512 MB RAM
@@ -29,7 +29,7 @@ This page aims at inventorying Live USB running sage. It is a working page to se
  * Straightforward home persistence : the changes made on the user homedir are kept for next reboots, but no additional partitionning or customization is needed, the data can be accessed from any other OS.
  * Self repair : the live USB drive can try to self-repair its own filesystem, which can be useful if the user removed it while running.
  *  Language switcher : the user can change the system language easily (this feature apparently does not exist in xfce nor lxde). All existing UTF-8 locales are generated.
- *  Contains quite a lot of softwares : sagemath (boosted with octave, scilab, some optional packages: database_gap, gap_packages, nauty, dot2tex), geogebra, latex, editors, gimp, vlc, libreoffice, backup, rescue,...
+ *  Contains quite a lot of softwares : sagemath (boosted with octave, scilab, some optional packages: database_gap, gap_packages, nauty, dot2tex, cbc, cryptominisat, d3js, [[the scipy stack|http://scipy.org/stackspec.html]]), geogebra, latex, editors, gimp, vlc, libreoffice, backup, rescue,...
 
 
 
