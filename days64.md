@@ -138,7 +138,6 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Aladin Virmaux (LRI, Universite Paris Sud)
  * Nathan Williams (LaCIM)
  * Sandi Xhumari (University of Connecticut)
- * Ben Young (University of Oregon); tentative
 
 == Organizers ==
 
