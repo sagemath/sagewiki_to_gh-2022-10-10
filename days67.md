@@ -79,7 +79,7 @@ Wednesday:
 
  * Status report
  * The Category framework (Nicolas Thiery) 
- * Coercion in Sage (Daniel Krenn)
+ * Multiplying Apples and Oranges: Coercions in Sage (Daniel Krenn)
 
 14h -- 17h: Coding sprints at !PyCon
 
