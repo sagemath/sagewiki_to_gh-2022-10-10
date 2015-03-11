@@ -43,6 +43,8 @@ See also: https://www.math.ucdavis.edu/about/directions/
 
 == Schedule ==
 
+All talks and coffee breaks will be in the [[http://campusmap.ucdavis.edu/|Mathematical Sciences Building]] MSB 1147.
+
 Tentative:
 
 |||||| Tuesday 3/17 ||
