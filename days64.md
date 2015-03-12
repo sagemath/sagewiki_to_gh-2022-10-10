@@ -110,6 +110,8 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Federico Castillo (UC Davis)
  * Tom Denton (Youtube)
  * Kevin Dilks (University of Minnesota)
+ * Brendon Dutra (UC Davis)
+ * Matt Erbst (Software Engineer)
  * Bryan Gillespie (UC Berkeley)
  * Darij Grinberg (MIT)
  * Eric Gourgoulhon (Observatoire de Paris)
