@@ -101,6 +101,10 @@ Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, rempl
  * [[https://users.fit.cvut.cz/~staroste/|Štěpán Starosta]] (Pragues)
  * Marion Stipulanti (U. Liège)
  * [[http://www.discmath.ulg.ac.be/vandomme/|Elise Vandomme]] (U. Liège)
+ * Rukiye Cavus (U. Liège)
+ * [[http://lipn.univ-paris13.fr/~bui/|VanChien BUI]] (LIPN, U. Paris 13)
+ * [[http://www.lix.polytechnique.fr/~augot|Daniel Augot]] (INRIA, LIX)
+ * [[http://math.univ-lyon1.fr/homes-www/kreusch/|Marie Kreusch]] (U. Liège)
 
 == Organisateur ==
 
