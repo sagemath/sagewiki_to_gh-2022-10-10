@@ -15,10 +15,7 @@ March 17-20, 2015 at [[http://www.ucdavis.edu|UC Davis]].
 
 === Registration ===
 
-Registration is now closed due to space limitations.
-
-We have limited funding for travel and lodging. Funding decisions will be made by December 1, 2014.
-To register, e-mail either Anne (anne at math.ucdavis.edu) or Travis (tscrim at ucdavis.edu), and please indicate if you would like to apply for funding.
+Registration is now closed due to space limitations and funding decisions have been made. If you have questions about registration, e-mail either Anne (anne at math.ucdavis.edu) or Travis (tscrim at ucdavis.edu).
 
 === Lodging ===
 
@@ -44,7 +41,7 @@ See also: https://www.math.ucdavis.edu/about/directions/
 
 == Schedule ==
 
-All talks and coffee breaks will be in the [[http://campusmap.ucdavis.edu/|Mathematical Sciences Building]] MSB 1147.
+All talks and coffee breaks will be in [[http://campusmap.ucdavis.edu/|Mathematical Sciences Building (MSB)]] 1147.
 Coding sprints will take place in MSB 1147, MSB 3240, MSB 3236, MSB 3106 (after 3pm on Wednesday).
 
 
