@@ -30,7 +30,7 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
  * Bridget Tenner (DePaul U, tentative)
  * George Thiruvathukal (Loyola Chicago, tentative)
  * Peter Tingley (Loyola Chicago)
- * Yannic Vargas (LaCIM, UQAM)
+ * Yannic Vargas (UQAM)
  * Mike Zabrocki (York U)
  
 
