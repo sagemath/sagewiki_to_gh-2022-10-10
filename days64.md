@@ -46,7 +46,6 @@ See also: https://www.math.ucdavis.edu/about/directions/
 All talks and coffee breaks will be in the [[http://campusmap.ucdavis.edu/|Mathematical Sciences Building]] MSB 1147.
 Coding sprints will take place in MSB 1147, MSB 3240, MSB 3236.
 
-Tentative:
 
 |||||| Tuesday 3/17 ||
 || 9:30 AM |||| Coffee break ||
@@ -91,7 +90,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Alternating sign matrices (implement fully packed loops, map to link pattern, fix corner sum matrix) - Jessica Striker, Emily Gunawan
  * Crystal morphisms, subcrystals, and virtual crystals ([[http://trac.sagemath.org/ticket/15463|#15463]]) - Travis Scrimshaw, Anne Schilling
 
-== Tentative list of speakers ==
+== Speakers ==
 
  * Vivien Ripoll (Universitaet Wien)
  * Franco Saliola (UQAM)
