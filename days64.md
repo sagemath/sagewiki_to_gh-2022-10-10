@@ -44,7 +44,7 @@ See also: https://www.math.ucdavis.edu/about/directions/
 == Schedule ==
 
 All talks and coffee breaks will be in the [[http://campusmap.ucdavis.edu/|Mathematical Sciences Building]] MSB 1147.
-Coding sprints will take place in MSB 1147, MSB 3240, MSB 3236.
+Coding sprints will take place in MSB 1147, MSB 3240, MSB 3236, MSB 3106 (after 3pm on Wednesday).
 
 
 |||||| Tuesday 3/17 ||
