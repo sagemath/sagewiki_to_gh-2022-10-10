@@ -81,19 +81,17 @@ Les lundi et mardi après-midi nous organisons des challenge de programmations. 
 
 Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, remplissez le formulaire d'enregistrement.
 
+
  1. Mehdi Ayadi
  * Michelangelo Bucci (U. Liège)
  * Émilie Charlier (U. Liège)
- * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Labri, Bordeaux)
  * Brandon Dravie (U. Lorraine)
  * [[https://www.i2m.univ-amu.fr/~emme.j/doku.php?id=start|Jordan Emme]] (Marseille)
  * Tomáš Kalvoda (Pragues)
  * [[http://www.math.ulg.ac.be/kleyntssens/|Thomas Kleyntssens]] (U. Liège)
  * Jacob Kroeker (U. Hannovre)
- * [[http://www.liafa.univ-paris-diderot.fr/~labbe/|Sébastien Labbé]] (U. Liège)
  * [[http://math.uni.lu/~leroy/|Julien Leroy]] (U. Luxembourg)
  * David Lucas
- * Thierry Monteil (LIPN, Paris 13)
  * [[http://jsrn.dk/|Johan Nielsen]] (Paris Saclay)
  * [[http://lig-membres.imag.fr/pernet/|Clément Pernet]] (Lyon)
  * Michel Rigo (U. Liège)
@@ -105,6 +103,11 @@ Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, rempl
  * [[http://lipn.univ-paris13.fr/~bui/|VanChien BUI]] (LIPN, U. Paris 13)
  * [[http://www.lix.polytechnique.fr/~augot|Daniel Augot]] (INRIA, LIX)
  * [[http://math.univ-lyon1.fr/homes-www/kreusch/|Marie Kreusch]] (U. Liège)
+ * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Labri, Bordeaux)
+ * Thierry Monteil (LIPN, Paris 13)
+ * [[http://cage.ugent.be/~jdemeyer/|Jeroen Demeyer]] (Université de Gent)
+ * [[http://www.steinertriples.fr/ncohen/|Nathann Cohen]] (LRI, Paris 11)
+ * [[http://www.liafa.univ-paris-diderot.fr/~labbe/|Sébastien Labbé]] (U. Liège)
 
 == Organisateur ==
 
