@@ -19,8 +19,10 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
 == Participants ==
 
  * Mark V. Albert (Loyola Chicago)
+ * Steve Doty (Loyola Chicago, tentative)
  * Aaron Lauve (Loyola Chicago)
  * Dinakar Muthiah (U Toronto)
+ * Amy Pang (LaCIM, UQAM)
  * Franco Saliola (UQAM)
  * Ben Salisbury (U Central Michigan, tentative)
  * Anne Schilling (UC Davis)
@@ -28,9 +30,8 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
  * Bridget Tenner (DePaul U, tentative)
  * George Thiruvathukal (Loyola Chicago, tentative)
  * Peter Tingley (Loyola Chicago)
- * Amy Pang (UQAM, tentative)
  * Mike Zabrocki (York U)
- * Steve Doty (Loyola Chicago, tentative)
+ 
 
 
 == Organizers ==
