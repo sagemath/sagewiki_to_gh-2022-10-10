@@ -82,27 +82,27 @@ Les lundi et mardi après-midi nous organisons des challenge de programmations. 
 Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, remplissez le formulaire d'enregistrement.
 
 
- 1. Mehdi Ayadi
- * Michelangelo Bucci (U. Liège)
- * Émilie Charlier (U. Liège)
- * Brandon Dravie (U. Lorraine)
+ 1. [[http://math.uni.lu/~leroy/|Julien Leroy]] (U. Luxembourg)
+ * Mehdi Ayadi
  * [[https://www.i2m.univ-amu.fr/~emme.j/doku.php?id=start|Jordan Emme]] (Marseille)
- * Tomáš Kalvoda (Pragues)
+ * [[http://math.univ-lyon1.fr/homes-www/kreusch/|Marie Kreusch]] (U. Liège)
  * [[http://www.math.ulg.ac.be/kleyntssens/|Thomas Kleyntssens]] (U. Liège)
- * Jacob Kroeker (U. Hannovre)
- * [[http://math.uni.lu/~leroy/|Julien Leroy]] (U. Luxembourg)
- * David Lucas
+ * Brandon Dravie (U. Lorraine)
  * [[http://jsrn.dk/|Johan Nielsen]] (Paris Saclay)
- * [[http://lig-membres.imag.fr/pernet/|Clément Pernet]] (Lyon)
+ * David Lucas
  * Michel Rigo (U. Liège)
- * [[http://thales.math.uqam.ca/~rowland/|Eric Rowland]] (U. Liège)
- * [[https://users.fit.cvut.cz/~staroste/|Štěpán Starosta]] (Pragues)
+ * Jacob Kroeker (U. Hannovre)
  * Marion Stipulanti (U. Liège)
- * [[http://www.discmath.ulg.ac.be/vandomme/|Elise Vandomme]] (U. Liège)
+ * [[http://lig-membres.imag.fr/pernet/|Clément Pernet]] (Lyon)
  * Rukiye Cavus (U. Liège)
  * [[http://lipn.univ-paris13.fr/~bui/|VanChien BUI]] (LIPN, U. Paris 13)
  * [[http://www.lix.polytechnique.fr/~augot|Daniel Augot]] (INRIA, LIX)
- * [[http://math.univ-lyon1.fr/homes-www/kreusch/|Marie Kreusch]] (U. Liège)
+ * Michelangelo Bucci (U. Liège)
+ * Émilie Charlier (U. Liège)
+ * Tomáš Kalvoda (Pragues)
+ * [[http://thales.math.uqam.ca/~rowland/|Eric Rowland]] (U. Liège)
+ * [[https://users.fit.cvut.cz/~staroste/|Štěpán Starosta]] (Pragues)
+ * [[http://www.discmath.ulg.ac.be/vandomme/|Elise Vandomme]] (U. Liège)
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Labri, Bordeaux)
  * Thierry Monteil (LIPN, Paris 13)
  * [[http://cage.ugent.be/~jdemeyer/|Jeroen Demeyer]] (Université de Gent)
