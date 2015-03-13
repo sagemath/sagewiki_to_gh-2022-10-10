@@ -92,7 +92,7 @@ Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, rempl
  * David Lucas
  * Michel Rigo (U. Liège)
  * Jacob Kroeker (U. Hannovre)
- * Marion Stipulanti (U. Liège)
+ * Manon Stipulanti (U. Liège)
  * [[http://lig-membres.imag.fr/pernet/|Clément Pernet]] (Lyon)
  * Rukiye Cavus (U. Liège)
  * [[http://lipn.univ-paris13.fr/~bui/|VanChien BUI]] (LIPN, U. Paris 13)
