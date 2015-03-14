@@ -88,6 +88,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Alternating sign matrices (implement fully packed loops, map to link pattern, fix corner sum matrix) - Jessica Striker, Emily Gunawan
  * Crystal morphisms, subcrystals, and virtual crystals ([[http://trac.sagemath.org/ticket/15463|#15463]]) - Travis Scrimshaw, Anne Schilling
  * Refactoring (skew) tableau(x) classes - Darij Grinberg, Travis Scrimshaw
+ * Do something about !IntegerListsLex and the associated Partitions / Compositions bugs [[http://trac.sagemath.org/ticket/17548|#17548]], [[http://trac.sagemath.org/ticket/17956|#17956]]
 
 == Speakers ==
 
