@@ -91,17 +91,17 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Refactoring (skew) tableau(x) classes - Darij Grinberg, Travis Scrimshaw
  * Do something about !IntegerListsLex and the associated Partitions / Compositions bugs [[http://trac.sagemath.org/ticket/17548|#17548]], [[http://trac.sagemath.org/ticket/17956|#17956]], [[http://trac.sagemath.org/ticket/17920|#17920]]
 
- * Finalize [[http://trac.sagemath.org/ticket/11111|#11111]] (better
-   support for finite dimensional modules and algebras, ...) and it's
-   prerequisites [[http://trac.sagemath.org/ticket/8678|#8678]]
-   (module morphisms),
-   [[http://trac.sagemath.org/ticket/17160|#17160]] (finitely
-   generated magmas/.../groups),
-   [[http://trac.sagemath.org/ticket/16925|#16925]] (symmetric group
-   algebras), and work toward integrating
-   [[http://trac.sagemath.org/ticket/16659|#16659]] (decomposition of
-   finite dimensional associative algebras) - Nicolas Thiéry, Travis
-   Scrimshaw, Darij Grinberg, Franco Saliola, Aladin Virmaux.
+ * Finalize the following stack of tickets:
+   * [[http://trac.sagemath.org/ticket/11111|#11111]] (better support for finite dimensional modules and algebras, ...)
+   * [[http://trac.sagemath.org/ticket/8678|#8678]] (module morphisms),
+   * [[http://trac.sagemath.org/ticket/17160|#17160]] (category for finitely generated magmas/.../groups),
+   * [[http://trac.sagemath.org/ticket/16925|#16925]] (symmetric group algebras)
+
+   Nicolas Thiéry, Travis Scrimshaw, Darij Grinberg, Franco Saliola, Aladin Virmaux.
+
+ * work toward integrating [[http://trac.sagemath.org/ticket/16659|#16659]] (decomposition of finite dimensional associative algebras) -    Nicolas Thiéry, Franco Saliola, Aladin Virmaux.
+
+
 
 == Speakers ==
 
