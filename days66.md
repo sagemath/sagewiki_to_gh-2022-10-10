@@ -46,11 +46,12 @@ Sujets pour les travaux pratiques
 
 Orateurs (il est possible que certaines interventions soient en anglais):
 
- * Thierry Monteil/Vincent Delecroix/Sébastien Labbé
+ * Thierry Monteil/Vincent Delecroix/Sébastien Labbé/Štěpán Starosta
     * introduction : pourquoi un logiciel libre de mathématiques ?
     * prise en main (démarrer Sage, concepts de base, obtenir de l'aide, survivre)
     * parent, element, coercion : comment manipuler plusieurs représentations d'un même objet mathématique ? Les différentes représentations des nombres réels et complexes.
     * combinatoire des mots
+ *
  * Jeroen Demeyer 1: [[http://cython.org/|Cython]]
  * Nathann Cohen: Le développement dans Sage ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]], mercredi)
  * Jeroen Demeyer 2: Advanced Cython (integration of C/C++ libraries, interruptions)
@@ -76,6 +77,7 @@ Les lundi et mardi après-midi nous organisons des challenge de programmations. 
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Labri, Bordeaux)
  * [[http://cage.ugent.be/~jdemeyer/|Jeroen Demeyer]] (Université de Gent)
  * [[http://www.steinertriples.fr/ncohen/|Nathann Cohen]] (LRI, Paris 11)
+ * [[https://users.fit.cvut.cz/~staroste/|Štěpán Starosta]] (Pragues)
 
 == Participant·e·s ==
 
