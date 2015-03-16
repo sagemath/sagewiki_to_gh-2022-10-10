@@ -21,7 +21,7 @@ Pour vous inscrire et pour nous aider à organiser au mieux ces journées Sage: 
 
 Lundi, mardi: introduction à Sage et quelques exposés de recherches. Les étudiant·e·s et professeur·e·s de Liège sont tou·te·s bienvenu·e·s. Les développeur·e·s Sage également!
 
-Mercredi et jeudi seront orientés pour le développement et la programmation. Si vous voulez en apprendre plus sur les rouages de Sage, écrire des programmes plus performants, interfacer une librairie en C++ ou développer vos propres projets venez nous voir!
+Mercredi et jeudi seront orientés pour le développement et la programmation. Si vous voulez en apprendre plus sur les rouages de Sage, écrire des programmes plus performants, interfacer une librairie en C++ ou développer vos propres projets venez nous voir! Vous pouvez aussi continuer ce que vous aurez commencé lundi/mardi.
 
 Vendredi. On sera là, mais on ne sait pas encore pourquoi.
 
