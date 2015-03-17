@@ -82,7 +82,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
    * Might also be useful: http://trac.sagemath.org/ticket/15703
  * Limit roots of Coxeter groups ([[http://trac.sagemath.org/ticket/16087|#16087]] and [[http://trac.sagemath.org/ticket/15703|#15703]]) - Jean-Philippe Labbe and Vivien Ripoll
  * Lie groups (in connection with !SageManifolds [[http://trac.sagemath.org/ticket/14865|#14865]]) - Eric Gourgoulhon, Travis Scrimshaw, Mee Seong Im
- * Generalized toggle groups and homomesy - Jessica Striker, Emily Gunawan
+ * Generalized toggle groups ([[http://trac.sagemath.org/ticket/17978|#17978]]) and homomesy - Jessica Striker, Emily Gunawan
  * Snake graph perfect matching formula for curves on triangulated surfaces ([[http://trac.sagemath.org/ticket/16310|#16310]]) - Emily Gunawan
  * Implement categories and general framework for representations -
    Travis Scrimshaw, Mee Seong Im, Nicolas Thiéry, Franco Saliola
