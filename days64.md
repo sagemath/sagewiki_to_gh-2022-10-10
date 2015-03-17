@@ -75,8 +75,8 @@ All other time will be devoted to coding sprints.
 If you have any projects that you'd want to work on, please add them. If you want to work on any project listed, just add your name.
 
  * Extended affine Weyl groups ([[http://trac.sagemath.org/ticket/15375|#15375]]) - Dan Bump, Anne Schilling, Mark Shimozono, Nicolas Thiery, Mee Seong Im
- * Lie algebras ([[http://trac.sagemath.org/ticket/14901|#14901]]) - Travis Scrimshaw, Mee Seong Im, Darij Grinberg
- * Root multiplicities of Kac-Moody algebras - Kyu-Hwan Lee, Ben Salisbury, Jonathan Judge
+ * Lie algebras ([[http://trac.sagemath.org/ticket/14901|#14901]]) - Travis Scrimshaw, Mee Seong Im, Darij Grinberg, Daniel Bump
+ * Root (and Weight) multiplicities of Kac-Moody algebras - Kyu-Hwan Lee, Ben Salisbury, Jonathan Judge, Daniel Bump
  * Hyperbolic Cartan types ([[http://trac.sagemath.org/ticket/15974|#15974]]) - Travis Scrimshaw
    * Related with limit roots in hyperbolic types ([[http://trac.sagemath.org/ticket/16087|#16087]])
    * Might also be useful: http://trac.sagemath.org/ticket/15703
@@ -86,7 +86,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Snake graph perfect matching formula for curves on triangulated surfaces ([[http://trac.sagemath.org/ticket/16310|#16310]]) - Emily Gunawan
  * Implement categories and general framework for representations - Travis Scrimshaw, Mee Seong Im, Nicolas Thiéry, Franco Saliola
  * Alternating sign matrices (implement fully packed loops, map to link pattern, fix corner sum matrix ([[http://trac.sagemath.org/ticket/17977|#17977]])) - Jessica Striker, Emily Gunawan
- * Crystal morphisms, subcrystals, and virtual crystals ([[http://trac.sagemath.org/ticket/15463|#15463]]) - Travis Scrimshaw, Anne Schilling
+ * Crystal morphisms, subcrystals, and virtual crystals ([[http://trac.sagemath.org/ticket/15463|#15463]]) - Travis Scrimshaw, Anne Schilling, Daniel Bump
  * Refactoring (skew) tableau(x) classes - Darij Grinberg, Travis Scrimshaw
  * Work on [[http://trac.sagemath.org/ticket/17979|#17979]] to do something about !IntegerListsLex and the associated Partitions / Compositions bugs [[http://trac.sagemath.org/ticket/17548|#17548]], [[http://trac.sagemath.org/ticket/17956|#17956]], [[http://trac.sagemath.org/ticket/17920|#17920]]
 
