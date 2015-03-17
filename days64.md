@@ -56,7 +56,8 @@ Coding sprints will take place in MSB 1147, MSB 3240, MSB 3236, MSB 3106 (after 
 || 9:30 AM |||| Coffee break ||
 || 10 - 11 AM || Vivien Ripoll & Jean-Philippe Labbé || Computing and displaying infinite root systems ||
 || 11 - 12 AM || Mark Shimozono || Implementation of double affine Hecke algebra in Sage ||
-|| 12 - 1 PM |||| Lunch ||
+|| 12 - 1:30 PM |||| Lunch ||
+|| 1:30-2:15pm|| Eric Gourgoulhon || Introduction to Sage-manifolds ||
 || 3:30 PM |||| Coffee break ||
 |||||| Thursday 3/19 ||
 || 9:30 AM |||| Coffee break ||
