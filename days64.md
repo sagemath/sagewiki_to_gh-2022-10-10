@@ -86,9 +86,9 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Generalized toggle groups ([[http://trac.sagemath.org/ticket/17978|#17978]]) and homomesy - Jessica Striker, Emily Gunawan
  * Snake graph formula for curves on cluster algebra triangulations ([[http://trac.sagemath.org/ticket/16310|#16310]]) - Emily Gunawan
  * Implement categories and general framework for representations - Travis Scrimshaw, Mee Seong Im, Nicolas Thiéry, Franco Saliola, Aladin Virmaux
- * Alternating sign matrices (implement fully packed loops, map to link pattern, fix corner sum matrix ([[http://trac.sagemath.org/ticket/17977|#17977]])) - Jessica Striker, Emily Gunawan
+ * Alternating sign matrices (implement fully packed loops, map to link pattern, fix corner sum matrix ([[http://trac.sagemath.org/ticket/17977|#17977]]) - Jessica Striker, Emily Gunawan
  * Crystal morphisms, subcrystals, and virtual crystals ([[http://trac.sagemath.org/ticket/15463|#15463]]) - Travis Scrimshaw, Anne Schilling, Daniel Bump
- * Refactoring (skew) tableau(x) classes - Darij Grinberg, Travis Scrimshaw ([[http://trac.sagemath.org/ticket/17983|#17983]]))
+ * Refactoring (skew) tableau(x) classes - Darij Grinberg, Travis Scrimshaw ([[http://trac.sagemath.org/ticket/17983|#17983]])
  * Work on [[http://trac.sagemath.org/ticket/17979|#17979]] to do something about !IntegerListsLex and the associated Partitions / Compositions bugs [[http://trac.sagemath.org/ticket/17548|#17548]], [[http://trac.sagemath.org/ticket/17956|#17956]], [[http://trac.sagemath.org/ticket/17920|#17920]]
 
  * Finalize the following stack of tickets:
