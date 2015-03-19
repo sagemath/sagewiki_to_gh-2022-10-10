@@ -163,3 +163,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Dan Bump (Stanford)
  * Anne Schilling (UC Davis)
  * Travis Scrimshaw (UC Davis)
+
+== Group photo ==
+
+[[attachment:sage-days.jpg]]
