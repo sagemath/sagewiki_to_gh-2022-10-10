@@ -67,6 +67,7 @@ Coding sprints will take place in MSB 1147, MSB 3240, MSB 3236, MSB 3106 (after 
 || 3:30 PM |||| Coffee break ||
 |||||| Friday 3/20 ||
 || 9:30 AM |||| Coffee break ||
+|| 10 AM || Everyone || Visualization ||
 || 12 - 1 PM |||| Lunch ||
 || 3:30 PM |||| Coffee break ||
 
