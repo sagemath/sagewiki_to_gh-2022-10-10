@@ -62,6 +62,7 @@ Coding sprints will take place in MSB 1147, MSB 3240, MSB 3236, MSB 3106 (after 
 |||||| Thursday 3/19 ||
 || 9:30 AM |||| Coffee break ||
 || 10 - 11 AM || Nathan Williams || Sage Days $dim(V_{\rho}(A_3))$ ||
+|| 11 - 12pm || Nicolas Thiery || Introduction to categories in Sage ||
 || 12 - 1 PM |||| Lunch ||
 || 3:30 PM |||| Coffee break ||
 |||||| Friday 3/20 ||
