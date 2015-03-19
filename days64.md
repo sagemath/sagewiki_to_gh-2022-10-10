@@ -167,3 +167,4 @@ If you have any projects that you'd want to work on, please add them. If you wan
 == Group photo ==
 
 [[attachment:sage-days.jpg]]
+[[attachment:Group-Phote-1.jpg]]
