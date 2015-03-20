@@ -68,6 +68,7 @@ Coding sprints will take place in MSB 1147, MSB 3240, MSB 3236, MSB 3106 (after 
 |||||| Friday 3/20 ||
 || 9:30 AM |||| Coffee break ||
 || 10 AM || Everyone || [[http://en.wikipedia.org/wiki/Show_and_tell_(education)|Visualization Show & Tell]] ||
+||       ||          || [[http://wiki.sagemath.org/combinat/CoolPictures|Cool Pictures in combinatorics]] (add more!)||
 || 12 - 1 PM |||| Lunch ||
 || 3:30 PM |||| Coffee break ||
 
