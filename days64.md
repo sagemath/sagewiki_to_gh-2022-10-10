@@ -168,4 +168,4 @@ If you have any projects that you'd want to work on, please add them. If you wan
 
 [[attachment:sage-days.jpg]]
 
-[[attachment:Group-Photo-1.jpg]]
+[[attachment:Group-Photo-1.JPG]]
