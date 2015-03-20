@@ -47,7 +47,7 @@ Coding sprints will take place in MSB 1147, MSB 3240, MSB 3236, MSB 3106 (after 
 
 |||||| Tuesday 3/17 ||
 || 9:30 AM |||| Coffee break ||
-|| 10 - 11 AM || Nicolas Thiery || Introduction to Sage Development I ||
+|| 10 - 11 AM || Nicolas Thiéry || Introduction to Sage Development I ||
 || 11 - 12 AM || Franco Saliola || Introduction to Sage Development II ||
 || 12 - 12:30 PM |||| Introductions and discussions of projects ||
 || 12:30 - 1:30 PM |||| Lunch ||
@@ -62,7 +62,7 @@ Coding sprints will take place in MSB 1147, MSB 3240, MSB 3236, MSB 3106 (after 
 |||||| Thursday 3/19 ||
 || 9:30 AM |||| Coffee break ||
 || 10 - 11 AM || Nathan Williams || Sage Days $dim(V_{\rho}(A_3))$ ||
-|| 11 - 12pm || Nicolas Thiery || Introduction to categories in Sage ||
+|| 11 - 12pm || Nicolas Thiéry || [[attachment:WritingAParentAndACategoryDemo.ipynb|Introduction to categories in Sage]] ||
 || 12 - 1 PM |||| Lunch ||
 || 3:30 PM |||| Coffee break ||
 |||||| Friday 3/20 ||
@@ -79,7 +79,7 @@ All other time will be devoted to coding sprints.
 
 If you have any projects that you'd want to work on, please add them. If you want to work on any project listed, just add your name.
 
- * Extended affine Weyl groups ([[http://trac.sagemath.org/ticket/15375|#15375]]) - Dan Bump, Anne Schilling, Mark Shimozono, Nicolas Thiery, Mee Seong Im
+ * Extended affine Weyl groups ([[http://trac.sagemath.org/ticket/15375|#15375]]) - Dan Bump, Anne Schilling, Mark Shimozono, Nicolas Thiéry, Mee Seong Im
  * Lie algebras ([[http://trac.sagemath.org/ticket/14901|#14901]]) - Travis Scrimshaw, Mee Seong Im, Darij Grinberg, Daniel Bump
  * Root (and Weight) multiplicities of Kac-Moody algebras - Kyu-Hwan Lee, Ben Salisbury, Jonathan Judge, Daniel Bump
  * Hyperbolic Cartan types ([[http://trac.sagemath.org/ticket/15974|#15974]]) - Travis Scrimshaw
@@ -112,7 +112,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Vivien Ripoll (Universitaet Wien)
  * Franco Saliola (UQAM)
  * Mark Shimozono (Virginia Tech)
- * Nicolas Thiery (LRI, Universite Paris Sud)
+ * Nicolas Thiéry (LRI, Universite Paris Sud)
  * Nathan Williams (LaCIM)
 
 == Participants ==
@@ -153,7 +153,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
  * Jessica Striker (North Dakota State University)
  * Joshua Swanson (University of Washington)
  * Marko Thiel (Universitaet Wien)
- * Nicolas Thiery (LRI, Universite Paris Sud)
+ * Nicolas Thiéry (LRI, Universite Paris Sud)
  * Peter Tingley (Loyola)
  * Bolor Turmunkh (University of Illinois - Urbana-Champaign)
  * Aladin Virmaux (LRI, Universite Paris Sud)
