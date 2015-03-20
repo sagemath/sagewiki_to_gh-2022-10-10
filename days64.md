@@ -103,7 +103,7 @@ If you have any projects that you'd want to work on, please add them. If you wan
    Nicolas Thiéry, Travis Scrimshaw, Darij Grinberg, Franco Saliola, Aladin Virmaux.
 
  * Work toward integrating [[http://trac.sagemath.org/ticket/16659|#16659]] (decomposition of finite dimensional associative algebras) -    Nicolas Thiéry, Franco Saliola, Aladin Virmaux
- * Quiver Hecke and related algebras (basic algebraic structure) - Travis Scrimshaw, Peter Tingley, Mee Seong Im, Kyu-Hwan Lee, Ben Salisbury, Jonathan Axtell, Tze-Chun Ou, Jonathan Judge
+ * Quiver Hecke and related algebras (basic algebraic structure) - Travis Scrimshaw, Peter Tingley, Mee Seong Im, Kyu-Hwan Lee, Ben Salisbury, Jonathan Axtell, Sandi Xhumari, Tze-Chun Ou, Jonathan Judge
 
 
 == Speakers ==
