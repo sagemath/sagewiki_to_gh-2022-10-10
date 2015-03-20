@@ -67,7 +67,7 @@ Tuesday:
 9h30 -- 12h30:
 
  * Status report
- * SymPy (James Crist)
+ * !SymPy (James Crist)
  * Contributing to Sage: git and trac (Daniel Krenn)
  * ??
 
