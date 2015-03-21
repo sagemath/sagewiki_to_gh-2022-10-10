@@ -6,4 +6,4 @@ Primary Goal: Fix bugs in anything related to Sage.  However, all kinds of Sage 
 
 Location: 
 
-{{attachment: encinitas.10}}
+{{attachment: encinitas.jpg}}
