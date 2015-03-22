@@ -7,3 +7,4 @@ Primary Goal: Fix bugs in anything related to Sage.  However, all kinds of Sage 
 Location: 
 
 {{attachment:encinitas.jpg}}
+(See [[http://www.vrbo.com/86203]])
