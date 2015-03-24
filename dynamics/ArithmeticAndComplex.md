@@ -138,13 +138,16 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 === Wishlist ===
 
+ * implement Algorithm 4 in elements_of_bounded_height for number fields (the one that takes into account precision issues)
+
+ * implement periodic and preperiodic points for rational maps (projective and affine)
+
  * Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles
 
  * is_conjugate() for morphisms and iterator over morphisms of fixed degree up to conjugacy (medium)
 
  * cyclegraph() and orbit_structure() to work with Zmod and other finite spaces not just finite fields (medium)
 
- * is_morphism() made to work for endomorphisms of subschemes (easy)
 
  * fix all the white space issues in the projective and affine folders (easy)
 
