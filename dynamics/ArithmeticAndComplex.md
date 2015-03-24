@@ -28,6 +28,21 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
 The arithmetic and complex dynamics functionality in Sage is currently in its infancy. A significant amount of functionality was developped at the ICERM semester in Spring 2012 and now we have started the process of moving this into Sage through a series of patches (trac tickets). Most of that functionality is current in experimental for that been greatly expanded upon at [[http://wiki.sagemath.org/sagedaysACD | Sage Days 55]]. Much remains to be done. Below you will find a road map of what has been implemented, what is in the process of being implemented, and ideas for future functionality.
 
+== In Progress ==
+
+ * ([[http://trac.sagemath.org/ticket/18008|#18008]]) new: Periodic points for projective/affine morphism - Grayson Jorgenson
+
+ * ([[http://trac.sagemath.org/ticket/17907|#17907]]) needs-review: Random failure in enum_projective_number_field - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/17855|#17855]]) needs-review: create is_preperiodic function for points of projective space - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/17282|#17282]]) neeeds-review: Implementing Wehler K3 Surfaces - Joao Faria
+
+ * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
+
+ * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
+
+ * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 === Wishlist ===
 
@@ -73,22 +88,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * rational point algorithms on subschemes of products of projective space
 
  * PLEASE ADD MORE...
-
-== In Progress ==
-
- * ([[http://trac.sagemath.org/ticket/18008|#18008]]) new: Periodic points for projective/affine morphism - Grayson Jorgenson
-
- * ([[http://trac.sagemath.org/ticket/17907|#17907]]) needs-review: Random failure in enum_projective_number_field - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/17855|#17855]]) needs-review: create is_preperiodic function for points of projective space - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/17282|#17282]]) new: Implementing Wehler K3 Surfaces - Joao Faria
-
- * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
-
- * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
-
- * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 == Complete ==
 
