@@ -70,6 +70,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * some kind of coersion model: if you have a map defined over QQ should you be able to take the image of a point over CC (i.e. somewhere you have a well defined embedding) without having to `change_ring()`. Something like this works for polynomials. This may or may not be a good idea, but if it can be done in a consistent manner it would improve usability in certain situations.
 
+ * rational point algorithms on subschemes of products of projective space
+
  * PLEASE ADD MORE...
 
 == In Progress ==
