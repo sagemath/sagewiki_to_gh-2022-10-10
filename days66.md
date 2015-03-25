@@ -112,6 +112,7 @@ Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, rempl
  * [[http://cage.ugent.be/~jdemeyer/|Jeroen Demeyer]] (Université de Gent)
  * [[http://www.steinertriples.fr/ncohen/|Nathann Cohen]] (LRI, Paris 11)
  * [[http://www.liafa.univ-paris-diderot.fr/~labbe/|Sébastien Labbé]] (U. Liège)
+ * [[http://www.danielkrenn.at|Daniel Krenn]] (TU Graz)
 
 == Organisateur ==
 
