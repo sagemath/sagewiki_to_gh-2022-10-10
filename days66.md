@@ -106,6 +106,7 @@ Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, rempl
  * [[http://thales.math.uqam.ca/~rowland/|Eric Rowland]] (U. Liège)
  * [[https://users.fit.cvut.cz/~staroste/|Štěpán Starosta]] (Pragues)
  * [[http://www.discmath.ulg.ac.be/vandomme/|Elise Vandomme]] (U. Liège)
+ * Julien Raskin (U. Liège)
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Labri, Bordeaux)
  * Thierry Monteil (LIPN, Paris 13)
  * [[http://cage.ugent.be/~jdemeyer/|Jeroen Demeyer]] (Université de Gent)
