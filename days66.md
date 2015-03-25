@@ -30,8 +30,8 @@ Vendredi. On sera là, mais on ne sait pas encore pourquoi.
 ||<#FFEACC> 9h30  ||<#AFEFEF|2>  Introduction à Sage, installation et prise en main ||<#AFEFEF:> Cours/TP (débutant·e·s): parents, éléments, coercion, représentations des nombres ||<#AFEFEF:> Cython ||<#AFEFEF:> Cython avancé (interfacer une bibliothèque, gestion des signaux) ||<#E8FFE8|2> travaux pratiques (pour celles et ceux qui ne sont pas parti·e·s)||
 ||<#FFEACC> 11h                                                                     ||<#AFEFEF:> Cours/TP (débutant·e·s): MILP   ||<#AFEFEF:> Développer dans Sage (git/trac) ||<#AFEFEF:> Coding theory in Sage ||
 ||<#FFEACC> 12h   ||<:> repas              ||<:> repas              ||<:> repas             ||<:> repas ||<:> repas ||
-||<#FFEACC> 13h   ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0|2> travaux pratiques ||<#D0FFD0|2> travaux pratiques ||<#E8FFE8|2> travaux pratiques (pour celles et ceux qui ne sont pas parti·e·s)||
-||<#FFEACC> 16h   ||<#FFAAAA:> Challenge de Programmation  ||<#FFAAAA:> Challenge de Programmation  ||
+||<#FFEACC> 13h   ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0:> travaux pratiques ||<#D0FFD0|2> travaux pratiques ||<#E8FFE8|2> travaux pratiques (pour celles et ceux qui ne sont pas parti·e·s)||
+||<#FFEACC> 16h   ||<#FFAAAA:> Challenge de Programmation  ||<#FEBAFA:> Marie Kreush séminaire compréhensible ||<#FFAAAA:> Challenge de Programmation  ||
 ||<#FFEACC> 17h   ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture     ||
 
 Sujets pour les travaux pratiques
