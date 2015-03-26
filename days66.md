@@ -20,8 +20,8 @@ Il faut compter 30 minutes environ pour s'y rendre en autobus. On peut acheter u
 
 Les lignes d'autobus:
 
- * Bus TEC Ligne 48. Descendre à l'arrêt "Ateliers". L'arrêt qui précède est "Croix de fer".
- * Bus TEC Ligne 58. Descendre à l'arrêt "Science Park".
+ * Bus TEC [[http://www2.ulg.ac.be/acces/plans/bus/bus48.html|Ligne 48]]. Descendre à l'arrêt "Ateliers". L'arrêt qui précède est "Croix de fer".
+ * Bus TEC [[http://www2.ulg.ac.be/acces/plans/bus/bus58.html|Ligne 58]]. Descendre à l'arrêt "Science Park".
 
 Liens:
 
