@@ -6,14 +6,17 @@ Il y aura deux exposés chaque matin. Les après-midi seront plus libres et rés
 
 '''Quand? (When?)''' du lundi 30 mars au vendredi 3 avril 2015.
 
-'''Où? (Where?)''': <<BR>>
+== Comment se rendre sur place (Transportation) ==
+
+La conférence a lieu à l'Institut de Mathématiques à 10km de Liège:
+
 Institut de Mathématiques,<<BR>>
 Université of Liège,<<BR>>
-Grande Traverse 12 (B37),<<BR>>
+Grande Traverse 12 (Bâtiment B37),<<BR>>
 B-4000 Liège, Belgique,<<BR>>
 Latitude 50°586298, Longitude 5°558474
 
-== Comment se rendre sur place (Transportation) ==
+Il faut compter 30 minutes environ pour s'y rendre en autobus. On peut acheter un billet au chauffeur dans l'autobus (1.90 euros). Vous pouvez acheter une carte de 8 passages pour 8.80 euros à certains guichets aux arrêts de bus principaux.
 
 Les lignes d'autobus:
 
