@@ -13,7 +13,7 @@ Grande Traverse 12 (B37),<<BR>>
 B-4000 Liège, Belgique,<<BR>>
 Latitude 50°586298, Longitude 5°558474
 
-== Transportation ==
+== Comment se rendre sur place (Transportation) ==
 
 Les lignes d'autobus:
 
@@ -22,9 +22,9 @@ Les lignes d'autobus:
 
 Liens:
 
- * [[http://www.math.ulg.ac.be/acces.html|Département de mathématiques, U. de Liège]]
+ * [[http://www.math.ulg.ac.be/acces.html|Accès au Département de mathématiques, U. de Liège]]
  * [[http://www2.ulg.ac.be/acces/plans/pdf/sartilman.pdf|Plan du campus (pdf)]]
- * [[http://www.cant.ulg.ac.be/automatha/use.html|Instructions détaillées (detailed instructions on how to get there)]]
+ * [[http://www.cant.ulg.ac.be/automatha/use.html|Instructions détaillées avec images (detailed instructions on how to get there with pictures)]]
 
 == Inscription ==
 
