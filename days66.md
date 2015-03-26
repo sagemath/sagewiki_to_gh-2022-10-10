@@ -57,6 +57,22 @@ Orateurs (il est possible que certaines interventions soient en anglais):
  * Jeroen Demeyer 2: Advanced Cython (integration of C/C++ libraries, interruptions)
  * David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
 
+== Références, pdf des transparents, liens vers les tutoriels ==
+
+Dans cette section, nous mettrons les liens vers les pdfs des présentations et les tutoriels.
+
+Lundi:
+
+ - ...
+
+Mardi:
+
+Mercredi:
+
+Jeudi:
+
+Vendredi:
+
 == Challenge de programmation ==
 
 Les lundi et mardi après-midi nous organisons des challenge de programmations. Cela consiste en une série de questions pour lesquels il sera nécessaire de faire un peu de programmation. Il y aura des prix pour les plus rapides, les meilleures et les moins bonnes solutions (vote du public). Ainsi que pour tou·te·s les participant·e·s. Les règles sont simples: vous pouvez utiliser tout ce que vous voulez (pas forcément Sage). L'objectif étant de s'amuser et d'apprendre des autres.
