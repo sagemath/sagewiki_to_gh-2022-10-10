@@ -10,8 +10,8 @@ Il y aura deux exposés chaque matin. Les après-midi seront plus libres et rés
 
 La conférence a lieu à l'Institut de Mathématiques à 10km de Liège:
 
-Local 1/55
-Institut de Mathématiques,<<BR>>
+
+Institut de Mathématiques, Salle 1/55<<BR>>
 Université of Liège,<<BR>>
 Grande Traverse 12 (Bâtiment B37),<<BR>>
 B-4000 Liège, Belgique,<<BR>>
