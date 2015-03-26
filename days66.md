@@ -10,6 +10,7 @@ Il y aura deux exposés chaque matin. Les après-midi seront plus libres et rés
 
 La conférence a lieu à l'Institut de Mathématiques à 10km de Liège:
 
+Local 1/55
 Institut de Mathématiques,<<BR>>
 Université of Liège,<<BR>>
 Grande Traverse 12 (Bâtiment B37),<<BR>>
@@ -42,7 +43,7 @@ Mercredi et jeudi seront orientés pour le développement et la programmation. S
 Vendredi. On sera là, mais on ne sait pas encore pourquoi.
 
 ||<5%>   ||<15% #FFFFAA> Lundi 30 Mars ||<15%  #FFFFAA> Mardi 31 Mars ||<15%  #FFFFAA> Mercredi 1er Avril ||<15%  #FFFFAA> Jeudi 2 Avril ||<15%  #FFFFCC> Vendredi 3 Avril ||
-||Salle ||<:> S.33  ||<:> matin: 0/33 après-midi: S.36 ||<:> 1/64 ||<:> 0/33 ||<:> 0/36 ||
+||Salle ||<:> 1/55  ||<:> 1/55 ||<:> 1/55 ||<:> 1/55 ||<:> 1/55 ||
 ||<#FFEACC> 9h30  ||<#AFEFEF|2>  Introduction à Sage, installation et prise en main ||<#AFEFEF:> Cours/TP (débutant·e·s): parents, éléments, coercion, représentations des nombres ||<#AFEFEF:> Cython ||<#AFEFEF:> Cython avancé (interfacer une bibliothèque, gestion des signaux) ||<#D0FFD0|2> travaux pratiques||
 ||<#FFEACC> 11h                                                                     ||<#AFEFEF:> Cours/TP (débutant·e·s): MILP   ||<#AFEFEF:> Développer dans Sage (git/trac) ||<#AFEFEF:> Coding theory in Sage ||
 ||<#FFEACC> 12h   ||<:> repas              ||<:> repas              ||<:> repas             ||<:> repas ||<:> repas ||
