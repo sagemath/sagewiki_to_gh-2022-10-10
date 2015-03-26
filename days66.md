@@ -17,14 +17,14 @@ Latitude 50°586298, Longitude 5°558474
 
 Les lignes d'autobus:
 
- - Bus TEC Ligne 48. Descendre à l'arrêt "Ateliers". L'arrêt qui précède est "Croix de fer".
- - Bus TEC Ligne 58. Descendre à l'arrêt "Science Park".
+ * Bus TEC Ligne 48. Descendre à l'arrêt "Ateliers". L'arrêt qui précède est "Croix de fer".
+ * Bus TEC Ligne 58. Descendre à l'arrêt "Science Park".
 
 Liens:
 
- - [[http://www.math.ulg.ac.be/acces.html|Département de mathématiques, U. de Liège]]
- - [[http://www2.ulg.ac.be/acces/plans/pdf/sartilman.pdf|Plan du campus (pdf)]]
- - [[http://www.cant.ulg.ac.be/automatha/use.html|Instructions détaillées (detailed instructions on how to get there)]]
+ * [[http://www.math.ulg.ac.be/acces.html|Département de mathématiques, U. de Liège]]
+ * [[http://www2.ulg.ac.be/acces/plans/pdf/sartilman.pdf|Plan du campus (pdf)]]
+ * [[http://www.cant.ulg.ac.be/automatha/use.html|Instructions détaillées (detailed instructions on how to get there)]]
 
 == Inscription ==
 
