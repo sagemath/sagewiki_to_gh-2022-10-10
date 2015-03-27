@@ -48,10 +48,11 @@ Vendredi. On sera là, mais on ne sait pas encore pourquoi.
 ||<5%>   ||<15% #FFFFAA> Lundi 30 Mars ||<15%  #FFFFAA> Mardi 31 Mars ||<15%  #FFFFAA> Mercredi 1er Avril ||<15%  #FFFFAA> Jeudi 2 Avril ||<15%  #FFFFCC> Vendredi 3 Avril ||
 ||Salle ||<:> 1/55  ||<:> 1/55 ||<:> 1/55 ||<:> 1/55 ||<:> 1/55 ||
 ||<#FFEACC> 9h ||<:> Café install  ||<:> Café ||<:> Café ||<:> Café ||<:> Café ||
-||<#FFEACC> 9h30  ||<#AFEFEF|2>  Introduction à Sage, installation et prise en main ||<#AFEFEF:> Cours/TP (débutant·e·s): parents, éléments, coercion, représentations des nombres ||<#AFEFEF:> Cython ||<#AFEFEF:> Cython avancé (interfacer une bibliothèque, gestion des signaux) ||<#D0FFD0|2> travaux pratiques||
-||<#FFEACC> 11h                                                                     ||<#AFEFEF:> Cours/TP (débutant·e·s): MILP   ||<#AFEFEF:> Développer dans Sage (git/trac) ||<#AFEFEF:> Coding theory in Sage ||
+||<#FFEACC> 9h30  ||<#AFEFEF|2> Introduction à Sage, installation et prise en main ||<#AFEFEF:> Cours/TP (débutant·e·s): parents, éléments, coercion, représentations des nombres ||<#AFEFEF:> Cython ||<#AFEFEF:> Cython avancé (interfacer une bibliothèque, gestion des signaux) ||<#D0FFD0|2> travaux pratiques||
+||<#FFEACC> 11h                                                                     ||<#AFEFEF:> Cours/TP (débutant·e·s): MILP   ||<#AFEFEF:> Automata in Sage ||<#AFEFEF:> Coding theory in Sage ||
 ||<#FFEACC> 12h   ||<:> repas              ||<:> repas              ||<:> repas             ||<:> repas ||<:> repas ||
-||<#FFEACC> 13h   ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0:> travaux pratiques  ||<#D0FFD0:> travaux pratiques ||<#D0FFD0|2> travaux pratiques ||<#D0FFD0|2> travaux pratiques et status report||
+||<#FFEACC|2> 13h   ||<#AFEFEF:> Développer dans Sage (git/trac) ||<#D0FFD0|2> travaux pratiques ||<#D0FFD0|2> travaux pratiques  ||<#D0FFD0|3> travaux pratiques  ||<#D0FFD0|3> travaux pratiques et status report ||
+||<#D0FFD0:> travaux pratiques   ||  ||
 ||<#FFEACC> 16h   ||<#FFAAAA:> Challenge de Programmation  ||<#FEBAFA:> Marie Kreush séminaire compréhensible (S42) ||<#FFAAAA:> Challenge de Programmation  ||
 ||<#FFEACC> 17h   ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture     ||
 
@@ -74,7 +75,7 @@ Orateurs (il est possible que certaines interventions soient en anglais):
     * combinatoire des mots
  *
  * Jeroen Demeyer 1: [[http://cython.org/|Cython]]
- * Nathann Cohen: Le développement dans Sage ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]], mercredi)
+ * Nathann Cohen: Le développement dans Sage ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]], lundi)
  * Jeroen Demeyer 2: Advanced Cython (integration of C/C++ libraries, interruptions)
  * David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
 
