@@ -6,6 +6,16 @@ Il y aura deux exposés chaque matin. Les après-midi seront plus libres et rés
 
 '''Quand? (When?)''' du lundi 30 mars au vendredi 3 avril 2015.
 
+== Inscription ==
+
+Pour vous inscrire et pour nous aider à organiser au mieux ces journées Sage: [[http://goo.gl/forms/hzxgNxA100|quelques questions]]
+
+== Dimanche 29 mars 19h : soirée d'accueil ==
+
+Une soirée d'accueil aura lieu le dimanche soir le 29 mars à 19h à la [[http://www.grignoux.be/sauveniere_index|Brasserie Sauvenière]]. Venez rencontrer les autres participants et commencer l'installation du logiciel de votre ordinateur:
+
+[[12, place Xavier Neujean 4000 Liège|http://www.grignoux.be/en-pratique-nous-trouver/#brasserie]]
+
 == Comment se rendre au Bâtiment B37? (Transportation) ==
 
 La conférence a lieu à l'Institut de Mathématiques à 10km de Liège:
@@ -28,16 +38,6 @@ Liens:
  * [[http://www.math.ulg.ac.be/acces.html|Accès au Département de mathématiques, U. de Liège]]
  * [[http://www2.ulg.ac.be/acces/plans/pdf/sartilman.pdf|Plan du campus (pdf)]]
  * [[http://www.cant.ulg.ac.be/automatha/use.html|Instructions détaillées avec images (detailed instructions on how to get there with pictures)]]
-
-== Inscription ==
-
-Pour vous inscrire et pour nous aider à organiser au mieux ces journées Sage: [[http://goo.gl/forms/hzxgNxA100|quelques questions]]
-
-== Dimanche 29 mars 19h : soirée d'accueil ==
-
-Une soirée d'accueil aura lieu le dimanche soir le 29 mars à 19h à la [[http://www.grignoux.be/sauveniere_index|Brasserie Sauvenière]]. Venez rencontrer les autres participants et commencer l'installation du logiciel de votre ordinateur:
-
-[[12, place Xavier Neujean 4000 Liège|http://www.grignoux.be/en-pratique-nous-trouver/#brasserie]]
 
 == Emploi du temps  ==
 
