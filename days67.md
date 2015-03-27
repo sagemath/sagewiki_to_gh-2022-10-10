@@ -106,6 +106,7 @@ Thursday: Coding sprints
  * Nicolas Thiéry (Univ. Paris Sud) - !PyCon + Sage Days
  * Syed Hosseini (UCalgary) - Sage Days
  * Mike Zabrocki (York University) - Sage Days
+ * Eduardo Blazek (UQAM) - Sage Days
 
 == Organizers ==
 
