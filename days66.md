@@ -6,10 +6,9 @@ Il y aura deux exposés chaque matin. Les après-midi seront plus libres et rés
 
 '''Quand? (When?)''' du lundi 30 mars au vendredi 3 avril 2015.
 
-== Comment se rendre sur place (Transportation) ==
+== Comment se rendre au Bâtiment B37? (Transportation) ==
 
 La conférence a lieu à l'Institut de Mathématiques à 10km de Liège:
-
 
 Institut de Mathématiques, Salle 1/55<<BR>>
 Université of Liège,<<BR>>
@@ -17,7 +16,7 @@ Grande Traverse 12 (Bâtiment B37),<<BR>>
 B-4000 Liège, Belgique,<<BR>>
 Latitude 50°586298, Longitude 5°558474
 
-Il faut compter 30 minutes environ pour s'y rendre en autobus. On peut acheter un billet au chauffeur dans l'autobus (1.90 euros). Vous pouvez acheter une carte de 8 passages pour 8.80 euros à certains guichets aux arrêts de bus principaux.
+Il faut compter 30 minutes de trajet d'autobus + jusqu'à 10 minutes pour attendre l'autobus. On peut acheter un billet au chauffeur dans l'autobus (1.90 euros). Vous pouvez acheter une carte de 8 passages pour 8.80 euros à certains guichets aux arrêts de bus principaux.
 
 Les lignes d'autobus:
 
@@ -33,6 +32,12 @@ Liens:
 == Inscription ==
 
 Pour vous inscrire et pour nous aider à organiser au mieux ces journées Sage: [[http://goo.gl/forms/hzxgNxA100|quelques questions]]
+
+== Dimanche 29 mars 19h : soirée d'accueil ==
+
+Une soirée d'accueil aura lieu le dimanche soir le 29 mars à 19h à la [[http://www.grignoux.be/sauveniere_index|Brasserie Sauvenière]]. Venez rencontrer les autres participants et commencer l'installation du logiciel de votre ordinateur:
+
+[[12, place Xavier Neujean 4000 Liège|http://www.grignoux.be/en-pratique-nous-trouver/#brasserie]]
 
 == Emploi du temps  ==
 
