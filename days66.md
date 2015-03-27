@@ -57,7 +57,7 @@ Vendredi. On sera là, mais on ne sait pas encore pourquoi.
 ||<#FFEACC> 11h                                                                     ||<#AFEFEF:> Cours/TP (débutant·e·s): MILP   ||<#AFEFEF:> Automata in Sage ||<#AFEFEF:> Coding theory in Sage ||
 ||<#FFEACC> 12h   ||<:> repas              ||<:> repas              ||<:> repas             ||<:> repas ||<:> repas ||
 ||<#FFEACC|2> 13h   ||<#AFEFEF:> Développer dans Sage (git/trac) ||<#D0FFD0|2> travaux pratiques ||<#D0FFD0|2> travaux pratiques  ||<#D0FFD0|3> travaux pratiques  ||<#D0FFD0|3> travaux pratiques et status report ||
-||<#D0FFD0:> travaux pratiques   ||  ||
+||<#D0FFD0:> travaux pratiques   ||
 ||<#FFEACC> 16h   ||<#FFAAAA:> Challenge de Programmation  ||<#FEBAFA:> Marie Kreush séminaire compréhensible (S42) ||<#FFAAAA:> Challenge de Programmation  ||
 ||<#FFEACC> 17h   ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture     ||
 
