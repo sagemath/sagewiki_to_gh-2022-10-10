@@ -37,7 +37,12 @@ Liens:
  * [[http://www2.ulg.ac.be/acces/plans/pdf/sartilman.pdf|Plan du campus (pdf)]]
  * [[http://www.cant.ulg.ac.be/automatha/use.html|Instructions détaillées avec images (detailed instructions on how to get there with pictures)]]
 
-== Emploi du temps  ==
+== Fonctionnement de la semaine ==
+
+Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui vous intéressent, et demander de l'aide lorsque nécessaire. En particulier, les travaux pratiques sont distribués, de sorte que chacun·e puisse avancer à son rythme. Si vous ne comptez pas suivre un expose particulier (il est même recommandé de ne pas tout suivre), installez-vous plutôt au fond de la salle.
+
+
+== Emploi du temps provisoire ==
 
 Lundi, mardi: introduction à Sage et quelques exposés de recherches. Les étudiant·e·s et professeur·e·s de Liège sont tou·te·s bienvenu·e·s. Les développeur·e·s Sage également!
 
