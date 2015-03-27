@@ -12,9 +12,7 @@ Pour vous inscrire et pour nous aider à organiser au mieux ces journées Sage: 
 
 == Dimanche 29 mars 19h : soirée d'accueil ==
 
-Une soirée d'accueil aura lieu le dimanche soir le 29 mars à 19h à la [[http://www.grignoux.be/sauveniere_index|Brasserie Sauvenière]]. Venez rencontrer les autres participants et commencer l'installation du logiciel de votre ordinateur:
-
-[[12, place Xavier Neujean 4000 Liège|http://www.grignoux.be/en-pratique-nous-trouver/#brasserie]]
+Une soirée d'accueil aura lieu le dimanche soir le 29 mars à 19h à la [[http://www.grignoux.be/sauveniere_index|Brasserie Sauvenière]]. Venez rencontrer les autres participants et commencer l'installation du logiciel de votre ordinateur. Voici l'adresse: [[http://www.grignoux.be/en-pratique-nous-trouver/#brasserie|12, place Xavier Neujean 4000 Liège]].
 
 == Comment se rendre au Bâtiment B37? (Transportation) ==
 
