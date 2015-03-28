@@ -42,7 +42,7 @@ Liens:
 Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui vous intéressent, et demander de l'aide lorsque nécessaire. En particulier, les travaux pratiques sont distribués, de sorte que chacun·e puisse avancer à son rythme sur les sujets de son choix et de son niveau. Si vous ne comptez pas suivre un expose particulier (il est même recommandé de ne pas tout suivre), installez-vous plutôt au fond de la salle.
 
 
-== Emploi du temps (provisoire) ==
+== Emploi du temps (très provisoire) ==
 
 Lundi, mardi: introduction à Sage et quelques exposés de recherches. Les étudiant·e·s et professeur·e·s de Liège sont tou·te·s bienvenu·e·s. Les développeur·e·s Sage également!
 
