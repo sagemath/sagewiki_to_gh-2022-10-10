@@ -4,17 +4,24 @@
 Venez apprendre à résoudre des problèmes, explorer des conjectures.
 Il y aura deux exposés chaque matin. Les après-midi seront plus libres et réservées à la programmation, les travaux pratiques, les demandes et les discussions.
 
-'''Quand? (When?)''' du lundi 30 mars au vendredi 3 avril 2015.
 
-== Inscription ==
+<<TableOfContents>>
+
+== Pratique ==
+
+=== Dates ===
+
+Du lundi 30 mars au vendredi 3 avril 2015.
+
+=== Inscription ===
 
 Pour vous inscrire et pour nous aider à organiser au mieux ces journées Sage: [[http://goo.gl/forms/hzxgNxA100|quelques questions]]
 
-== Dimanche 29 mars 19h : soirée d'accueil ==
+=== Dimanche 29 mars 19h : soirée d'accueil ===
 
 Une soirée d'accueil aura lieu le dimanche soir le 29 mars à 19h à la [[http://www.grignoux.be/sauveniere_index|Brasserie Sauvenière]] à l'adresse: [[http://www.grignoux.be/en-pratique-nous-trouver/#brasserie|12, place Xavier Neujean 4000 Liège]]. Venez rencontrer les autres participant·e·s autour d'une bonne bière belge ! Vous pouvez amener votre portable si Sage n'y est pas deja installé.
 
-== Comment se rendre au Bâtiment B37? (Transportation) ==
+=== Comment se rendre au Bâtiment B37? (Transportation) ===
 
 La conférence a lieu à l'Institut de Mathématiques à 10km de Liège:
 
@@ -37,12 +44,14 @@ Liens:
  * [[http://www2.ulg.ac.be/acces/plans/pdf/sartilman.pdf|Plan du campus (pdf)]]
  * [[http://www.cant.ulg.ac.be/automatha/use.html|Instructions détaillées avec images (detailed instructions on how to get there with pictures)]]
 
-== Fonctionnement de la semaine ==
+== Programme ==
+
+=== Fonctionnement de la semaine ===
 
 Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui vous intéressent, et demander de l'aide lorsque nécessaire. En particulier, les travaux pratiques sont distribués, de sorte que chacun·e puisse avancer à son rythme sur les sujets de son choix et de son niveau. Si vous ne comptez pas suivre un exposé particulier (il est fortement recommandé de ne pas tout suivre), installez-vous plutôt au fond de la salle.
 
 
-== Emploi du temps (très provisoire) ==
+=== Emploi du temps (très provisoire) ===
 
 ||<#AFEFEF:> Cours/Tutoriel ||<#D0FFD0:> Travaux Pratiques ||<#FFE0E0>Présentation ||<#AAEEAA:> Challenge de Programmation ||
 
@@ -79,7 +88,7 @@ Orateurs (il est possible que certaines interventions soient en anglais):
  * Jeroen Demeyer 2: Advanced Cython (integration of C/C++ libraries, interruptions)
  * David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
 
-== Références, pdf des transparents, liens vers les tutoriels ==
+=== Références, pdf des transparents, liens vers les tutoriels ===
 
 Dans cette section, nous mettrons les liens vers les pdfs des présentations et les tutoriels.
 
@@ -95,11 +104,11 @@ Jeudi:
 
 Vendredi:
 
-== Challenge de programmation ==
+=== Challenge de programmation ===
 
 Les lundi et mardi après-midi nous organisons des challenge de programmations. Cela consiste en une série de questions pour lesquels il sera nécessaire de faire un peu de programmation. Il y aura des prix pour les plus rapides, les meilleures et les moins bonnes solutions (vote du public). Ainsi que pour tou·te·s les participant·e·s. Les règles sont simples: vous pouvez utiliser tout ce que vous voulez (pas forcément Sage). L'objectif étant de s'amuser et d'apprendre des autres.
 
-== Développements possibles (possible development projects) ==
+=== Développements possibles (possible development projects) ===
 
  * more word combinatorics and languages
  * one bug afternoon (correct bug, new features forbidden)
