@@ -50,7 +50,7 @@ Mercredi et jeudi seront orientés pour le développement et la programmation. S
 
 Vendredi. On sera là, mais on ne sait pas encore pourquoi.
 
-||<5%>   ||<15% #FFFFAA> Lundi 30 Mars ||<15%  #FFFFAA> Mardi 31 Mars ||<15%  #FFFFAA> Mercredi 1er Avril ||<15%  #FFFFAA> Jeudi 2 Avril ||<15%  #FFFFCC> Vendredi 3 Avril ||
+||<5%>   ||<15% #FFFFAA> Lundi 30 Mars ||<15%  #FFFFAA> Mardi 31 Mars ||<15%  #FFFFAA> Mercredi 1er Avril ||<15%  #FFFFAA> Jeudi 2 Avril ||<15%  #FFFFAA> Vendredi 3 Avril ||
 ||Salle ||<:> 1/55  ||<:> 1/55 ||<:> 1/55 ||<:> 1/55 ||<:> 1/55 ||
 ||<#FFEACC> 9h ||<:> Café install  ||<:> Café ||<:> Café ||<:> Café ||<:> Café ||
 ||<#FFEACC> 9h30  ||<#AFEFEF|2> Introduction à Sage, installation et prise en main ||<#AFEFEF:> Cours/TP (débutant·e·s): parents, éléments, coercion, représentations des nombres ||<#AFEFEF:> Cython ||<#AFEFEF:> Cython avancé (interfacer une bibliothèque, gestion des signaux) ||<#D0FFD0|2> travaux pratiques||
