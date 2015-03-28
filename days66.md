@@ -39,7 +39,7 @@ Liens:
 
 == Fonctionnement de la semaine ==
 
-Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui vous intéressent, et demander de l'aide lorsque nécessaire. En particulier, les travaux pratiques sont distribués, de sorte que chacun·e puisse avancer à son rythme sur les sujets de son choix et de son niveau. Si vous ne comptez pas suivre un expose particulier (il est même recommandé de ne pas tout suivre), installez-vous plutôt au fond de la salle.
+Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui vous intéressent, et demander de l'aide lorsque nécessaire. En particulier, les travaux pratiques sont distribués, de sorte que chacun·e puisse avancer à son rythme sur les sujets de son choix et de son niveau. Si vous ne comptez pas suivre un exposé particulier (il est fortement recommandé de ne pas tout suivre), installez-vous plutôt au fond de la salle.
 
 
 == Emploi du temps (très provisoire) ==
