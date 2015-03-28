@@ -44,22 +44,18 @@ Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui 
 
 == Emploi du temps (très provisoire) ==
 
-Lundi, mardi: introduction à Sage et quelques exposés de recherches. Les étudiant·e·s et professeur·e·s de Liège sont tou·te·s bienvenu·e·s. Les développeur·e·s Sage également!
-
-Mercredi et jeudi seront orientés pour le développement et la programmation. Si vous voulez en apprendre plus sur les rouages de Sage, écrire des programmes plus performants, interfacer une librairie en C++ ou développer vos propres projets venez nous voir! Vous pouvez aussi continuer ce que vous aurez commencé lundi/mardi.
-
-Vendredi. On sera là, mais on ne sait pas encore pourquoi.
+||<#AFEFEF:> Cours/Tutoriel ||<#D0FFD0:> Travaux Pratiques ||<#FFE0E0>Présentation ||<#AAEEAA:> Challenge de Programmation ||
 
 ||<5%>   ||<15% #FFFFAA> Lundi 30 Mars ||<15%  #FFFFAA> Mardi 31 Mars ||<15%  #FFFFAA> Mercredi 1er Avril ||<15%  #FFFFAA> Jeudi 2 Avril ||<15%  #FFFFAA> Vendredi 3 Avril ||
 ||Salle ||<:> 1/55  ||<:> 1/55 ||<:> 1/55 ||<:> 1/55 ||<:> 1/55 ||
-||<#FFEACC> 9h ||<:> Café install  ||<:> Café ||<:> Café ||<:> Café ||<:> Café ||
-||<#FFEACC> 9h30  ||<#AFEFEF|2> Introduction à Sage, installation et prise en main ||<#AFEFEF:> Cours/TP (débutant·e·s): parents, éléments, coercion, représentations des nombres ||<#AFEFEF:> Cython ||<#AFEFEF:> Cython avancé (interfacer une bibliothèque, gestion des signaux) ||<#D0FFD0|2> travaux pratiques||
-||<#FFEACC> 11h                                                                     ||<#AFEFEF:> Cours/TP (débutant·e·s): MILP   ||<#AFEFEF:> Automata in Sage ||<#AFEFEF:> Coding theory in Sage ||
-||<#FFEACC> 12h   ||<:> repas              ||<:> repas              ||<:> repas             ||<:> repas ||<:> repas ||
-||<#FFEACC|2> 13h   ||<#AFEFEF:> Développer dans Sage (git/trac) ||<#D0FFD0|2> travaux pratiques ||<#D0FFD0|2> travaux pratiques  ||<#D0FFD0|3> travaux pratiques  ||<#D0FFD0|3> travaux pratiques et status report ||
+||<#FFFFAA> 9h ||<:> Café install  ||<:> Café ||<:> Café ||<:> Café ||<:> Café ||
+||<#FFFFAA> 9h30  ||<#AFEFEF|2> Introduction à Sage, installation et prise en main ||<#AFEFEF:> Cours/TP (débutant·e·s): parents, éléments, coercion, représentations des nombres ||<#AFEFEF:> Cython ||<#AFEFEF:> Cython avancé (interfacer une bibliothèque, gestion des signaux) ||<#D0FFD0|2> travaux pratiques||
+||<#FFFFAA> 11h                                                                     ||<#AFEFEF:> Cours/TP (débutant·e·s): MILP   ||<#FFE0E0:> Automata in Sage ||<#FFE0E0:> Coding theory in Sage ||
+||<#FFFFAA> 12h   ||<:> repas              ||<:> repas              ||<:> repas             ||<:> repas ||<:> repas ||
+||<#FFFFAA|2> 13h   ||<#AFEFEF:> Développer dans Sage (git/trac) ||<#D0FFD0|2> travaux pratiques ||<#D0FFD0|2> travaux pratiques  ||<#D0FFD0|3> travaux pratiques  ||<#D0FFD0|3> travaux pratiques et status report ||
 ||<#D0FFD0:> travaux pratiques   ||
-||<#FFEACC> 16h   ||<#FFAAAA:> Challenge de Programmation  ||<#FEBAFA:> Marie Kreush séminaire compréhensible (S42) ||<#FFAAAA:> Challenge de Programmation  ||
-||<#FFEACC> 17h   ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture     ||
+||<#FFFFAA> 16h   ||<#AAEEAA:> Challenge de Programmation  ||<#FFE0E0:> Marie Kreush séminaire compréhensible (S42) ||<#AAEEAA:> Challenge de Programmation  ||
+||<#FFFFAA> 17h   ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture ||<:> Cloture     ||
 
 Sujets pour les travaux pratiques
 
