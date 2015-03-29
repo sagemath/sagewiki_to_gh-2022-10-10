@@ -111,6 +111,10 @@ Les lundi et mardi après-midi nous organisons des challenge de programmations. 
 
 === Développements possibles (possible development projects) ===
 
+Accès aux tickets de la semaine: [[http://trac.sagemath.org/query?keywords=~sd66|tickets sd66]].
+
+Voici quelques développements possibles:
+
  * more word combinatorics and languages
  * one bug afternoon (correct bug, new features forbidden)
  * less stupid datastructure for generic sparse matrices (currently dictionnary (i,j) -> value)
