@@ -127,6 +127,7 @@ Les lundi et mardi après-midi nous organisons des challenge de programmations. 
  * [[http://cage.ugent.be/~jdemeyer/|Jeroen Demeyer]] (Université de Gent)
  * [[http://www.steinertriples.fr/ncohen/|Nathann Cohen]] (LRI, Paris 11)
  * [[https://users.fit.cvut.cz/~staroste/|Štěpán Starosta]] (Pragues)
+ * [[http://danielkrenn.at/|Daniel Krenn]] (Graz)
 
 == Participant·e·s ==
 
