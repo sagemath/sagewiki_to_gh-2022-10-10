@@ -58,10 +58,10 @@ Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui 
 ||<5%>   ||<15% #FFFFAA:> Lundi 30 Mars ||||<15%  #FFFFAA:> Mardi 31 Mars ||<15%  #FFFFAA:> Mercredi 1er Avril ||<15%  #FFFFAA:> Jeudi 2 Avril ||<15%  #FFFFAA:> Vendredi 3 Avril ||
 ||Salle ||<:> 1/55  ||||<:> 1/55 ||<:> 1/55 ||<:> 1/55 ||<:> 1/55 ||
 ||<#FFFFAA> 9h ||<:> Café install  ||||<:> Café ||<:> Café ||<:> Café ||<:> Café ||
-||<#FFFFAA> 9h30  ||<#AFEFEF|5> Introduction à Sage, installation et prise en main ||||<#AFEFEF|2> Cours/TP: parents, éléments, coercion ||<#AFEFEF:|2> Cython ||<#AFEFEF:> Cython avancé ||<#D0FFD0|5> Travaux Pratiques ||
+||<#FFFFAA> 9h30  ||<#AFEFEF|5> Introduction à Sage, installation et prise en main ||||<#AFEFEF|2> Cours/TP: parents, éléments, coercion ||<#AFEFEF:|2> Cython ||<#AFEFEF:> Cython avancé ||<#D0FFD0|2> Travaux Pratiques ||
 ||<#FFFFAA> 10h00 ||
-||<#FFFFAA> 10h30 ||
-||<#FFFFAA> 11h                                                                     ||||<#AFEFEF|2> Cours/TP: MILP   ||<#FFE0E0:> Automata in Sage ||<#FFE0E0:> Coding theory in Sage ||
+||<#FFFFAA> 10h30 ||||<:> Café ||<:> Café ||<:> Café ||<:>Café||
+||<#FFFFAA> 11h                                                                     ||||<#AFEFEF|2> Cours/TP: MILP   ||<#FFE0E0:> Automata in Sage ||<#FFE0E0:> Coding theory in Sage ||<#D0FFD0|2> Travaux Pratiques ||
 ||<#FFFFAA> 11h30 ||
 ||<#FFFFAA> 12h   ||<:> repas              ||||<:> repas              ||<:> repas             ||<:> repas ||<:> repas ||
 ||<#FFFFAA> 13h   ||<#D0FFD0:> Travaux Pratiques ||<#D0FFD0:> Travaux Pratiques||<#AFEFEF:> Développer dans Sage (git/trac)||<#D0FFD0:> Travaux Pratiques  ||<#D0FFD0|2> Travaux Pratiques  ||<#D0FFD0|2> Travaux Pratiques et status report ||
