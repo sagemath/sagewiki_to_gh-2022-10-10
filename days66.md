@@ -58,7 +58,7 @@ Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui 
 ||<5%>   ||<15% #FFFFAA> Lundi 30 Mars ||||<15%  #FFFFAA> Mardi 31 Mars ||<15%  #FFFFAA> Mercredi 1er Avril ||<15%  #FFFFAA> Jeudi 2 Avril ||<15%  #FFFFAA> Vendredi 3 Avril ||
 ||Salle ||<:> 1/55  ||||<:> 1/55 ||<:> 1/55 ||<:> 1/55 ||<:> 1/55 ||
 ||<#FFFFAA> 9h ||<:> Café install  ||||<:> Café ||<:> Café ||<:> Café ||<:> Café ||
-||<#FFFFAA> 9h30  ||<#AFEFEF|2> Introduction à Sage, installation et prise en main ||||<#AFEFEF:> Cours/TP (débutant·e·s): parents, éléments, coercion, représentations des nombres ||<#AFEFEF:> Cython ||<#AFEFEF:> Cython avancé (interfacer une bibliothèque, gestion des signaux) ||<#D0FFD0|2> Travaux Pratiques ||
+||<#FFFFAA> 9h30  ||<#AFEFEF|2> Introduction à Sage, installation et prise en main ||||<#AFEFEF:> Cours/TP (débutant·e·s): parents, éléments, coercion ||<#AFEFEF:> Cython ||<#AFEFEF:> Cython avancé (interfacer une bibliothèque, gestion des signaux) ||<#D0FFD0|2> Travaux Pratiques ||
 ||<#FFFFAA> 11h                                                                     ||||<#AFEFEF:> Cours/TP (débutant·e·s): MILP   ||<#FFE0E0:> Automata in Sage ||<#FFE0E0:> Coding theory in Sage ||
 ||<#FFFFAA> 12h   ||<:> repas              ||||<:> repas              ||<:> repas             ||<:> repas ||<:> repas ||
 ||<#FFFFAA> 13h   ||<#D0FFD0:> Travaux Pratiques (débutant·e·s) ||<#D0FFD0:> Travaux Pratiques||<#AFEFEF:> Développer dans Sage (git/trac)||<#D0FFD0:> Travaux Pratiques  ||<#D0FFD0|2> Travaux Pratiques  ||<#D0FFD0|2> Travaux Pratiques et status report ||
@@ -74,6 +74,7 @@ Sujets pour les travaux pratiques
  * algèbre linéaire
  * théorie des nombres
  * théorie des graphes et programmation linéaire entière
+ * représentations des nombres
 
 Orateurs (il est possible que certaines interventions soient en anglais):
 
