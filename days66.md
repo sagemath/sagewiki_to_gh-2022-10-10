@@ -105,13 +105,25 @@ Dans cette section, nous mettrons les liens vers les pdfs des présentations et 
 
 Lundi:
 
- - ...
+ - Introduction à Sage (Thierry Monteil, [[attachment:intro.pdf]], [[attachment:intro.rst]])
 
 Mardi:
 
+ - Parent/Eléments/Coercion (Vincent Delecroix)
+
+ - Mixed Integer Linear Programming (MILP) (Nathann Cohen)
+
 Mercredi:
 
+ - Cython (Jeroen Demeyer)
+
+ - Automata (Daniel Krenn)
+
 Jeudi:
+
+ - Cython avancé (Jeroen Demeyer)
+
+ - Coding Theory (David Lucas)
 
 Vendredi:
 
