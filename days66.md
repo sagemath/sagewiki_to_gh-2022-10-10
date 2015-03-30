@@ -70,18 +70,6 @@ Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui 
 
 
 
-Orateurs (il est possible que certaines interventions soient en anglais):
-
- * Thierry Monteil/Vincent Delecroix/Sébastien Labbé/Štěpán Starosta
-    * introduction : pourquoi un logiciel libre de mathématiques ?
-    * prise en main (démarrer Sage, concepts de base, obtenir de l'aide, survivre)
-    * parent, element, coercion : comment manipuler plusieurs représentations d'un même objet mathématique ? Les différentes représentations des nombres réels et complexes.
-    * combinatoire des mots
- *
- * Jeroen Demeyer 1: [[http://cython.org/|Cython]]
- * Nathann Cohen: Le développement dans Sage ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]], lundi)
- * Jeroen Demeyer 2: Advanced Cython (integration of C/C++ libraries, interruptions)
- * David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
 
 === Références, pdf des transparents, liens vers les tutoriels ===
 
@@ -89,36 +77,44 @@ Dans cette section, nous mettrons les liens vers les pdfs des présentations et 
 
 Lundi AM:
 
- - 9h30: Mot de bienvenu et tour de table
- - 10h: Introduction à Sage (Thierry Monteil, [[attachment:intro.pdf]], [[attachment:intro.rst]])
- - Accès aux fichiers:
+ * 9h30: Mot de bienvenu et tour de table
+ * 10h: Introduction à Sage (Thierry Monteil, [[attachment:intro.pdf]], [[attachment:intro.rst]])
+   * introduction : pourquoi un logiciel libre de mathématiques ?
+   * prise en main (démarrer Sage, concepts de base, obtenir de l'aide, survivre)
+ * Accès aux fichiers:
    * réseau local: http://10.9.41.XYZ/sage/
    * internet: http://lipn.univ-paris13.fr/~monteil/hebergement/sage/sd66/
 
 Lundi PM:
 
- - 13h30 Tutoriels thématiques (cliquer sur "Help" dans le notebook de Sage)
- - 16h: Challenges de Programmation
+ * 13h30 Tutoriels thématiques (cliquer sur "Help" dans le notebook de Sage)
+ * 16h: Challenges de Programmation
 
 Mardi:
 
- - Parent/Eléments/Coercion (Vincent Delecroix)
-
- - Mixed Integer Linear Programming (MILP) (Nathann Cohen)
+ * 9h30: Parent/Eléments/Coercion (Vincent Delecroix)
+    * parent, element, coercion : comment manipuler plusieurs représentations d'un même objet mathématique ? Les différentes représentations des nombres réels et complexes.
+ * 11h: Mixed Integer Linear Programming (MILP) (Nathann Cohen)
+ * 13h30: Nathann Cohen: Le développement dans Sage ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]])
 
 Mercredi:
 
- - Cython (Jeroen Demeyer)
-
- - Automata (Daniel Krenn)
+ * Jeroen Demeyer 1: [[http://cython.org/|Cython]]
+ * Automata (Daniel Krenn)
 
 Jeudi:
 
- - Cython avancé (Jeroen Demeyer)
-
- - Coding Theory (David Lucas)
+ * Jeroen Demeyer 2: Advanced Cython (integration of C/C++ libraries, interruptions)
+ * David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
 
 Vendredi:
+
+À placer:
+
+ * Štěpán Starosta (combinatoire des mots)
+ * Michelangel Bucci (visualisation en R)
+ * Ce qui marche bien en mathematica
+
 
 === Challenge de programmation ===
 
