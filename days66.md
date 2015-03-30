@@ -81,9 +81,6 @@ Lundi AM:
  * 10h: Introduction à Sage (Thierry Monteil, [[attachment:intro.pdf]], [[attachment:intro.rst]])
    * introduction : pourquoi un logiciel libre de mathématiques ?
    * prise en main (démarrer Sage, concepts de base, obtenir de l'aide, survivre)
- * Accès aux fichiers:
-   * réseau local: http://10.9.41.XYZ/sage/
-   * internet: http://lipn.univ-paris13.fr/~monteil/hebergement/sage/sd66/
 
 Lundi PM:
 
@@ -92,7 +89,7 @@ Lundi PM:
 
 Mardi:
 
- * 9h30: Parent/Eléments/Coercion (Vincent Delecroix)
+ * 9h30: Parent/Eléments/Coercion (Vincent Delecroix, [[attachment:parent_element.rst]])
     * parent, element, coercion : comment manipuler plusieurs représentations d'un même objet mathématique ? Les différentes représentations des nombres réels et complexes.
  * 11h: Mixed Integer Linear Programming (MILP) (Nathann Cohen)
  * 13h30: Nathann Cohen: Le développement dans Sage ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]])
