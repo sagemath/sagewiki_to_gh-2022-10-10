@@ -149,7 +149,7 @@ Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, rempl
  1. [[http://math.uni.lu/~leroy/|Julien Leroy]] (U. Luxembourg)
  * Mehdi Ayadi
  * [[https://www.i2m.univ-amu.fr/~emme.j/doku.php?id=start|Jordan Emme]] (Marseille)
- * [[http://math.univ-lyon1.fr/homes-www/kreusch/|Marie Kreusch]] (U. Liège)
+ * [[http://mkreusch.wordpress.com|Marie Kreusch]] (U. Liège)
  * [[http://www.math.ulg.ac.be/kleyntssens/|Thomas Kleyntssens]] (U. Liège)
  * Brandon Dravie (U. Lorraine)
  * [[http://jsrn.dk/|Johan Nielsen]] (Paris Saclay)
