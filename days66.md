@@ -71,7 +71,7 @@ Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui 
 ||<#FFFFAA> 11h                                                                     ||||<#AFEFEF|2> Cours/TP: MILP   ||<#FFE0E0:> Automata in Sage ||||<#FFE0E0:> Coding theory in Sage ||<#D0FFD0|2> Travaux Pratiques ||
 ||<#FFFFAA> 11h30 ||
 ||<#FFFFAA> 12h   ||<:> Repas              ||||<:> Repas              ||<:> Repas             ||||<:> Repas ||<:> Repas ||
-||<#FFFFAA> 13h30 ||<#D0FFD0:> Travaux Pratiques ||<#D0FFD0:> Travaux Pratiques||<#AFEFEF:> Développer dans Sage (git/trac)||<#D0FFD0:> Travaux Pratiques ||<#D0FFD0|2> Travaux Pratiques ||<#FFED80> Asymptotic expressions ||<#D0FFD0|2> Travaux Pratiques et status report ||
+||<#FFFFAA> 13h30 ||<#D0FFD0:> Travaux Pratiques ||<#D0FFD0:> Travaux Pratiques||<#AFEFEF:> Développer dans Sage (git/trac)||<#D0FFD0:> Travaux Pratiques ||<#D0FFD0|2> Travaux Pratiques ||<#FFED80:> Asymptotic expressions ||<#D0FFD0|2> Travaux Pratiques et status report ||
 ||<#FFFFAA> 16h   ||<#AAEEAA:> Challenge de Programmation  ||||<#FFE0E0:> Marie Kreush séminaire compréhensible (S42) ||<#AAEEAA:> Challenge de Programmation  ||
 ||<#FFFFAA> 17h   ||<:> Clôture ||||<:> Clôture ||<:> Clôture ||||<:> Clôture ||<:> Clôture     ||
 
