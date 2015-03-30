@@ -68,16 +68,7 @@ Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui 
 ||<#FFFFAA> 16h   ||<#AAEEAA:> Challenge de Programmation  ||||<#FFE0E0:> Marie Kreush séminaire compréhensible (S42) ||<#AAEEAA:> Challenge de Programmation  ||
 ||<#FFFFAA> 17h   ||<:> Clôture ||||<:> Clôture ||<:> Clôture ||||<:> Clôture ||<:> Clôture     ||
 
-Sujets pour les travaux pratiques
 
- * débuter
- * programmation avancée
- * Cython
- * combinatoire des mots
- * algèbre linéaire
- * théorie des nombres
- * théorie des graphes et programmation linéaire entière
- * représentations des nombres
 
 Orateurs (il est possible que certaines interventions soient en anglais):
 
@@ -96,13 +87,18 @@ Orateurs (il est possible que certaines interventions soient en anglais):
 
 Dans cette section, nous mettrons les liens vers les pdfs des présentations et les tutoriels.
 
-Lundi:
+Lundi AM:
 
  - 9h30: Mot de bienvenu et tour de table
  - 10h: Introduction à Sage (Thierry Monteil, [[attachment:intro.pdf]], [[attachment:intro.rst]])
  - Accès aux fichiers:
    * réseau local: http://10.9.41.XYZ/sage/
    * internet: http://lipn.univ-paris13.fr/~monteil/hebergement/sage/sd66/
+
+Lundi PM:
+
+ - 13h30 Tutoriels thématiques (cliquer sur "Help" dans le notebook de Sage)
+ - 16h: Challenges de Programmation
 
 Mardi:
 
@@ -127,6 +123,17 @@ Vendredi:
 === Challenge de programmation ===
 
 Les lundi et mardi après-midi nous organisons des challenge de programmations. Cela consiste en une série de questions pour lesquels il sera nécessaire de faire un peu de programmation. Il y aura des prix pour les plus rapides, les meilleures et les moins bonnes solutions (vote du public). Ainsi que pour tou·te·s les participant·e·s. Les règles sont simples: vous pouvez utiliser tout ce que vous voulez (pas forcément Sage). L'objectif étant de s'amuser et d'apprendre des autres.
+
+=== Sujets pour les travaux pratiques ===
+
+ * débuter
+ * programmation avancée
+ * Cython
+ * combinatoire des mots
+ * algèbre linéaire
+ * théorie des nombres
+ * théorie des graphes et programmation linéaire entière
+ * représentations des nombres
 
 === Développements possibles (possible development projects) ===
 
