@@ -1,3 +1,8 @@
+- http://10.9.41.90/sage/
+- http://lipn.univ-paris13.fr/~monteil/hebergement/sage/sd66/
+
+
+
 = Sage Days 66 à Liège en Belgique -- 30/03/2015 - 03/04/2015 =
 
 [[http://sagemath.org|Sage]] est un logiciel pour faire des mathématiques.
