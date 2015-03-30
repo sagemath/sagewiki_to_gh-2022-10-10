@@ -1,10 +1,3 @@
-Accès aux fichiers:
-
- - réseau local: http://10.9.41.XYZ/sage/
-
- - internet: http://lipn.univ-paris13.fr/~monteil/hebergement/sage/sd66/
-
-
 = Sage Days 66 à Liège en Belgique -- 30/03/2015 - 03/04/2015 =
 
 [[http://sagemath.org|Sage]] est un logiciel pour faire des mathématiques.
@@ -105,7 +98,11 @@ Dans cette section, nous mettrons les liens vers les pdfs des présentations et 
 
 Lundi:
 
- - Introduction à Sage (Thierry Monteil, [[attachment:intro.pdf]], [[attachment:intro.rst]])
+ - 9h30: Mot de bienvenu et tour de table
+ - 10h: Introduction à Sage (Thierry Monteil, [[attachment:intro.pdf]], [[attachment:intro.rst]])
+ - Accès aux fichiers:
+   * réseau local: http://10.9.41.XYZ/sage/
+   * internet: http://lipn.univ-paris13.fr/~monteil/hebergement/sage/sd66/
 
 Mardi:
 
