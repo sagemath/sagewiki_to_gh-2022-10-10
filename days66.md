@@ -92,6 +92,7 @@ Mardi:
  * 9h30: Parent/Eléments/Coercion (Vincent Delecroix, [[attachment:parent_element.rst]])
     * parent, element, coercion : comment manipuler plusieurs représentations d'un même objet mathématique ? Les différentes représentations des nombres réels et complexes.
  * 11h: Mixed Integer Linear Programming (MILP) (Nathann Cohen)
+  * exos http://lipn.univ-paris13.fr/~monteil/hebergement/sage/sd66/lp/
  * 13h30: Nathann Cohen: Le développement dans Sage ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]])
 
 Mercredi:
