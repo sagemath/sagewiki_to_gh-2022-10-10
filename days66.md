@@ -100,8 +100,11 @@ Mercredi:
 
  * Jeroen Demeyer 1: [[http://cython.org/|Cython]]
  * Daniel Krenn: [[http://www.sagemath.org/doc/reference/combinat/sage/combinat/finite_state_machine.html|Automata and Transducers]]
-   ([[attachment:]])
-
+   (worksheet: 
+   [[attachment:Automata and Transducers in SageMath.ipynb|ipynb]],
+   [[attachment:Automata and Transducers in SageMath.pdf|pdf]],
+   [[attachment:Automata and Transducers in SageMath.rst|rst]],
+   [[attachment:Automata and Transducers in SageMath.sws|sws]])
 
 Jeudi:
 
