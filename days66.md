@@ -93,6 +93,7 @@ Mardi:
     * parent, element, coercion : comment manipuler plusieurs représentations d'un même objet mathématique ? Les différentes représentations des nombres réels et complexes.
  * 11h: Mixed Integer Linear Programming (MILP) (Nathann Cohen)
   * exos http://lipn.univ-paris13.fr/~monteil/hebergement/sage/sd66/lp/
+  * [[http://matplotlib.org/examples/color/named_colors.html|couleurs matplotlib]]
  * 13h30: Nathann Cohen: Le développement dans Sage ([[http://git-scm.com/|git]] and [[http://trac.edgewall.org/|trac]])
 
 Mercredi:
