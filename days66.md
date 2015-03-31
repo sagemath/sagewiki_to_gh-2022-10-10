@@ -99,7 +99,9 @@ Mardi:
 Mercredi:
 
  * Jeroen Demeyer 1: [[http://cython.org/|Cython]]
- * Automata (Daniel Krenn)
+ * Daniel Krenn: [[http://www.sagemath.org/doc/reference/combinat/sage/combinat/finite_state_machine.html|Automata and Transducers]]
+   ([[attachment:]])
+
 
 Jeudi:
 
