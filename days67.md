@@ -69,7 +69,7 @@ Tuesday:
  * Status report
  * !SymPy (James Crist)
  * Contributing to Sage: git and trac (Daniel Krenn)
- * IPython (Thomas Klyver)
+ * IPython (Thomas Kluyver)
 
 14h -- 17h: Coding sprints at !PyCon
 
