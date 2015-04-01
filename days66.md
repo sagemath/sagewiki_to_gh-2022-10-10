@@ -55,18 +55,18 @@ Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui 
 
 ||<#AFEFEF:> Cours/Tutoriel ||<#D0FFD0:> Travaux Pratiques ||<#FFE0E0>Présentation ||<#FFED80> Discussion ||<#AAEEAA:> Challenge de Programmation ||
 
-||<5%>   ||<15% #FFFFAA:> Lundi 30 Mars ||||<15%  #FFFFAA:> Mardi 31 Mars ||<15%  #FFFFAA:> Mercredi 1er Avril ||||<15%  #FFFFAA:> Jeudi 2 Avril ||<15%  #FFFFAA:> Vendredi 3 Avril ||
-||Salle ||<:> 1/55  ||||<:> 1/55 ||<:> 1/55 ||||<:> 1/55 ||<:> 1/55 ||
+||<5%>   ||<15% #FFFFAA:> Lundi 30 Mars ||||<15%  #FFFFAA:> Mardi 31 Mars ||<15%  #FFFFAA:> Mercredi 1er Avril ||||<15%  #FFFFAA:> Jeudi 2 Avril ||||<15%  #FFFFAA:> Vendredi 3 Avril ||
+||Salle ||<:> 1/55  ||||<:> 1/55 ||<:> 1/55 ||||<:> 1/55 ||||<:> 1/55 ||
 ||<#FFFFAA> 9h ||<:> Install café  ||||||||||||||
-||<#FFFFAA> 9h30  ||<#AFEFEF|5> Introduction à Sage, installation et prise en main ||||<#AFEFEF|2> Cours/TP: parents, éléments, coercion ||<#AFEFEF:|2> Cython ||||<#AFEFEF:> Cython avancé ||<#D0FFD0:> Travaux Pratiques ||
-||<#FFFFAA> 10h00 ||||<#FFE0E0> Mathematica demo ||<#FFE0E0:> R demo ||
-||<#FFFFAA> 10h30 ||||<:> Café ||<:> Café ||||<:> Café ||<:>Café||
-||<#FFFFAA> 11h                                                                     ||||<#AFEFEF|2> Cours/TP: MILP   ||<#D0FFD0:|2> Travaux Pratiques ||||<#FFE0E0:|2> Coding theory in Sage ||<#D0FFD0|2> Travaux Pratiques ||
-||<#FFFFAA> 11h30 ||
-||<#FFFFAA> 12h   ||<:> Repas              ||||<:> Repas              ||<:> Repas             ||||<:> Repas ||<:> Repas ||
-||<#FFFFAA> 13h30 ||<#D0FFD0:> Travaux Pratiques ||<#D0FFD0:> Travaux Pratiques||<#AFEFEF:> Développer dans Sage (git/trac)||<#FFE0E0:> Automata in Sage ||<#D0FFD0|2> Travaux Pratiques ||<#FFED80:> Asymptotic expressions ||<#D0FFD0|2> Travaux Pratiques et status report ||
-||<#FFFFAA> 16h   ||<#AAEEAA:> Challenge de Programmation  ||||<#FFE0E0:> Marie Kreush séminaire compréhensible (S42) ||<#AAEEAA:> Challenge de Programmation  ||
-||<#FFFFAA> 17h   ||<:> Clôture ||||<:> Clôture ||<:> Clôture ||||<:> Clôture ||<:> Clôture     ||
+||<#FFFFAA> 9h30  ||<#AFEFEF|5> Introduction à Sage, installation et prise en main ||||<#AFEFEF|2> Cours/TP: parents, éléments, coercion ||<#AFEFEF:|2> Cython ||||<#AFEFEF:> Cython avancé ||||<#D0FFD0:> Travaux Pratiques ||
+||<#FFFFAA> 10h00 ||||<#FFE0E0> Mathematica demo ||||<#FFE0E0:> R demo ||
+||<#FFFFAA> 10h30 ||||<:> Café ||<:> Café ||||<:> Café ||||<:>Café||
+||<#FFFFAA> 11h                                                                     ||||<#AFEFEF|2> Cours/TP: MILP   ||<#D0FFD0:|2> Travaux Pratiques ||||<#FFE0E0:|2> Coding theory in Sage ||<#D0FFD0|2> Travaux Pratiques ||<#FFED80:> Substitutive languages ||
+||<#FFFFAA> 11h30 || ||
+||<#FFFFAA> 12h   ||<:> Repas              ||||<:> Repas              ||<:> Repas             ||||<:> Repas ||||<:> Repas ||
+||<#FFFFAA> 13h30 ||<#D0FFD0:> Travaux Pratiques ||<#D0FFD0:> Travaux Pratiques||<#AFEFEF:> Développer dans Sage (git/trac)||<#FFE0E0:> Automata in Sage ||||<#FFE0E0:> Linbox ||||<#D0FFD0|2> Travaux Pratiques et status report ||
+||<#FFFFAA> 16h   ||<#AAEEAA:> Challenge de Programmation  ||||<#FFE0E0:> Marie Kreush séminaire compréhensible (S42) ||<#AAEEAA:> Challenge de Programmation  ||<#D0FFD0:>Travaux Pratiques||<#FFED80:> Asymptotic expressions||
+||<#FFFFAA> 17h   ||<:> Clôture ||||<:> Clôture ||<:> Clôture ||||<:> Clôture ||||<:> Clôture     ||
 
 
 
