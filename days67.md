@@ -92,11 +92,13 @@ Thursday: Coding sprints
 
 == Participants ==
 
+ * Hector Blandin 
  * Olivier Bouillot (Univ. Paris Est) - !PyCon + Sage Days
  * Grégory Châtel (Univ. Paris Est) - !PyCon + Sage Days
  * Darij Grinberg (MIT) - Sage Days
  * Mathieu Guay-Paquet (UQAM) - !PyCon + Sage Days
  * Matthieu Josuat-Vergès (Univ. Paris Est) - Sage Days
+ * Oana-Andreea Kosztan - Sage Days
  * Daniel Krenn (TU Graz) - !PyCon + Sage Days
  * Viviane Pons (Univ. Paris Sud) - !PyCon + Sage Days 
  * Emily Redelmeier - Sage Days
