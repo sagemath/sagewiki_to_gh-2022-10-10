@@ -57,7 +57,7 @@ Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui 
 
 ||<5%>   ||<15% #FFFFAA:> Lundi 30 Mars ||||<15%  #FFFFAA:> Mardi 31 Mars ||<15%  #FFFFAA:> Mercredi 1er Avril ||||<15%  #FFFFAA:> Jeudi 2 Avril ||||<15%  #FFFFAA:> Vendredi 3 Avril ||
 ||Salle ||<:> 1/55  ||||<:> 1/55 ||<:> 1/55 ||||<:> 1/55 ||||<:> 1/55 ||
-||<#FFFFAA> 9h ||<:> Install café  ||||||||||||||
+||<#FFFFAA> 9h ||<:> Install café  ||||||||||||||||
 ||<#FFFFAA> 9h30  ||<#AFEFEF|5> Introduction à Sage, installation et prise en main ||||<#AFEFEF|2> Cours/TP: parents, éléments, coercion ||<#AFEFEF:|2> Cython ||||<#AFEFEF:> Cython avancé ||||<#D0FFD0:> Travaux Pratiques ||
 ||<#FFFFAA> 10h00 ||||<#FFE0E0> Mathematica demo ||||<#FFE0E0:> R demo ||
 ||<#FFFFAA> 10h30 ||||<:> Café ||<:> Café ||||<:> Café ||||<:>Café||
