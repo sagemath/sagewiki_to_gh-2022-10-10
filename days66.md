@@ -169,7 +169,7 @@ Ajouter votre nom si vous venez. Si vous n'avez pas de compte sur ce wiki, rempl
  * [[http://jsrn.dk/|Johan Nielsen]] (Paris Saclay)
  * David Lucas
  * Michel Rigo (U. Liège)
- * Jacob Kroeker (U. Hannovre)
+ * [[http://scholar.google.com/citations?user=i9dWhqMAAAAJ&hl=de |Jacob Kroeker]] (U. Hannovre)
  * Manon Stipulanti (U. Liège)
  * [[http://lig-membres.imag.fr/pernet/|Clément Pernet]] (Lyon)
  * Rukiye Cavus (U. Liège)
