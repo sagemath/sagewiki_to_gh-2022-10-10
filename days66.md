@@ -59,7 +59,7 @@ Durant toute la semaine, vous pouvez à tout moment avancer sur les thèmes qui 
 ||Salle ||<:> 1/55  ||||<:> 1/55 ||<:> 1/55 ||||<:> 1/55 ||||<:> 1/55 ||
 ||<#FFFFAA> 9h ||<:> Install café  ||||||||||||||||
 ||<#FFFFAA> 9h30  ||<#AFEFEF|5> Introduction à Sage, installation et prise en main ||||<#AFEFEF|2> Cours/TP: parents, éléments, coercion ||<#AFEFEF:|2> Cython ||||<#AFEFEF:> Cython avancé ||||<#D0FFD0:> Travaux Pratiques ||
-||<#FFFFAA> 10h00 ||||<#FFE0E0> Mathematica demo ||||<#FFE0E0:> R demo ||
+||<#FFFFAA> 10h00 ||||<#FFE0E0> Mathematica demo ||||<#FFE0E0:> Catch and prevent bugs in computer algebra systems ||
 ||<#FFFFAA> 10h30 ||||<:> Café ||<:> Café ||||<:> Café ||||<:>Café||
 ||<#FFFFAA> 11h                                                                     ||||<#AFEFEF|2> Cours/TP: MILP   ||<#D0FFD0:|2> Travaux Pratiques ||||<#FFE0E0:|2> Coding theory in Sage ||<#D0FFD0|2> Travaux Pratiques ||<#FFED80:> Substitutive languages ||
 ||<#FFFFAA> 11h30 || ||
@@ -109,14 +109,21 @@ Jeudi:
        worksheet: [[attachment:Cython part 2.sws]]
  * David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
       (worksheet: [[attachment:Encoders_Decoders.sws]], [[attachment:Linear_codes.sws]], [[attachment:Reed-Solomon.sws]], [[attachment:Channels.sws]]. Slides: [[attachment:coding_theory_in_sage.pdf]])
+ * Eric Rowland : présentation de Mathamatica
+ * Clément Pernet : présentation de Linbox
+ * Michelangel Bucci : visualisation en R
+
 
 Vendredi:
+
+ * Jakob Kröker : Catch and prevent bugs in computer algebra systems
+
+
 
 À placer:
 
  * Štěpán Starosta (combinatoire des mots)
- * Michelangel Bucci (visualisation en R)
- * Ce qui marche bien en mathematica
+
 
 
 === Challenge de programmation ===
