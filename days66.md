@@ -99,12 +99,14 @@ Mardi:
 Mercredi:
 
  * Jeroen Demeyer 1: [[http://cython.org/|Cython]]
+       worksheet: [[attachment:Cython part 1.sws]]
  * Daniel Krenn: [[http://www.sagemath.org/doc/reference/combinat/sage/combinat/finite_state_machine.html|Automata and Transducers]]
    (worksheet: [[attachment:Automata and Transducers in SageMath.ipynb|ipynb]], [[attachment:Automata and Transducers in SageMath.pdf|pdf]], [[attachment:Automata and Transducers in SageMath.rst|rst]], [[attachment:Automata and Transducers in SageMath.sws|sws]])
 
 Jeudi:
 
  * Jeroen Demeyer 2: Advanced Cython (integration of C/C++ libraries, interruptions)
+       worksheet: [[attachment:Cython part 2.sws]]
  * David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
       (worksheet: [[attachment:Encoders_Decoders.sws]], [[attachment:Linear_codes.sws]], [[attachment:Reed-Solomon.sws]], [[attachment:Channels.sws]]. Slides: [[attachment:coding_theory_in_sage.pdf]])
 
