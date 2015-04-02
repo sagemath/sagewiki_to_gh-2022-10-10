@@ -106,6 +106,7 @@ Jeudi:
 
  * Jeroen Demeyer 2: Advanced Cython (integration of C/C++ libraries, interruptions)
  * David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
+      (worksheet: [[attachment:Encoders_Decoders.sws]], [[attachment:Linear_codes.sws]], [[attachment:Reed-Solomon.sws]], [[attachment:Channels.sws]]. Slides: [[attachment:coding_theory_in_sage.pdf]])
 
 Vendredi:
 
