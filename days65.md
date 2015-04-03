@@ -34,6 +34,7 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
  * Yannic Vargas (UQAM)
  * Mike Zabrocki (York U)
  * Panupong Vichitkunakorn (U Illinois)
+ * Kevin Dilks (U Minnesota)
  
 
 
