@@ -21,6 +21,7 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
  * Mark V. Albert (Loyola Chicago)
  * Steve Doty (Loyola Chicago, tentative)
  * Mee Seong Im (U Illinois)
+ * Jonathan Judge (UConn)
  * Aaron Lauve (Loyola Chicago)
  * Dinakar Muthiah (U Toronto)
  * Amy Pang (LaCIM, UQAM)
