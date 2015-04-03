@@ -117,7 +117,7 @@ Jeudi:
 
 Vendredi:
 
- * Jakob Kröker : Catch and prevent bugs in computer algebra systems
+ * Jakob Kröker :  [[attachment:Catch and prevent bugs in computer algebra systems.pdf]]
 
 
 
