@@ -87,6 +87,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * rational point algorithms on subschemes of products of projective space
 
+ * preperiodic points function for projective morphisms
+
  * PLEASE ADD MORE...
 
 == Complete ==
