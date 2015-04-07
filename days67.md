@@ -10,11 +10,22 @@ These Sage-Days are not specialized in one specific mathematical topic: the idea
 
 === When & Where ===
 
-Sage-Days 67 will be held in '''Montreal Convention center''' (Palais des congrès)  and /or at the UQAM during the 2015 !PyCon sprints '''April 13-16''', it is a satellite event to !PyCon which is organized as follows:
+Sage-Days 67 will be held in '''UQAM''' and '''Montreal Convention center''' (Palais des congrès)  during the 2015 !PyCon sprints '''April 13-16''', it is a satellite event to !PyCon which is organized as follows:
 
  * April 8-9 Tutorials
  * April 10-12 Main conference
  * April 13-16 !PyCon sprints / Sage Days 67
+
+All !PyCon related events will happen at the '''Montreal Convention center''' (Palais des congrès): [[https://us.pycon.org/2015/venue/]]
+
+The Sage Days talks will happen in UQAM:
+
+Pavillon Président-Kennedy
+201, Président-Kennedy,
+3rd floor, room PK-3605
+
+(the two locations are 10 minutes away by walk)
+
 
 === Registration ===
 
@@ -42,48 +53,39 @@ If you're looking for a roommate or a place to stay, please put your name bellow
 
 == Schedule ==
 
+=== PyCon ===
+
 Here is  the [[https://us.pycon.org/2015/schedule/talks/list/|list of accepted talks]] of the main !PyCon conference taking place before Sage-Days on April 10-12. Especially, There will be one Sage related talk: [[https://us.pycon.org/2015/schedule/presentation/354/|Experimental pure mathematics using Sage]] by Viviane Pons. 
 
-=== Tentative Schedule ===
+=== Sage Days Schedule ===
 
 The SageDays will be organized as follows: 
  
- * Morning: talks and tutorials (location TBA)
- * Afternoon: Coding sprints at !PyCon
+ * '''Mornings''' (Monday, Tuesday, and Wednesday): talks and tutorials at '''UQAM''', room PK-3605, Pavillon Président-Kennedy, 201, Président-Kennedy,
+ * '''Afternoons''' and Thursday: Coding sprints at !PyCon (Palais des congrès)
+
+See the full schedule bellow.
 
 
-Monday:
+||  || Monday 04/13 || Tuesday 04/14 || Wednesday 04/14 || Thursday 04/14 ||
+|| '''Morning Location''' || '''UQAM''' || '''UQAM''' || '''UQAM''' || '''Palais des congrès''' ||
+|| 09:30 || Orientation || Status report || Status report || SPRINTS ||
+|| 09:45 || Presentation of Sage || !SymPy (James Crist) || Multiplying Apples and Oranges: Coercions in Sage (Daniel Krenn) || SPRINTS ||
+|| 10:15 |||||| Coffee break || SPRINTS ||
+|| 10:45 || Tutorial: Introduction to Sage and Python || Contributing to Sage: git and trac (Daniel Krenn) || The Category framework (Nicolas Thiery) || SPRINTS ||
+|| 11:15 || Tutorial and install party || IPython (Thomas Kluyver) || Projects and lightning talks || SPRINTS ||
+|| 11:45 |||||||| LUNCH BREAK ||
+|| '''Afternoon Location''' || '''Palais des congrès''' || '''Palais des congrès''' || '''Palais des congrès''' || '''Palais des congrès''' ||
+|| 14:00 |||||||| SPRINTS ||
+|| 17:00 |||||| || Last status report ||
 
-9h30 -- 12h 30: 
+=== What are the coding sprints? ===
 
- * Presentation of Sage
- * Tutorial : introduction to Sage and python
- * Sage install party!
+Coding Sprints are "free coding time" where everyone can work on their own projects: from following introduction tutorials to implementing advanced functionalities. It can be done individually or in small groups. It is the perfect place to start a group project on mathematical functionalities that one wants to have in Sage.
 
-14h -- 17h: Coding sprints at !PyCon
+It is not reserved to advanced developers! As a new comer, it gives you a great opportunity to start using Sage and implementing the computation you need surrounded by advanced developers who can help you if you encounter some problems. 
 
-Tuesday:
-
-9h30 -- 12h30:
-
- * Status report
- * !SymPy (James Crist)
- * Contributing to Sage: git and trac (Daniel Krenn)
- * IPython (Thomas Kluyver)
-
-14h -- 17h: Coding sprints at !PyCon
-
-Wednesday:
-
-9h30 -- 12h30:
-
- * Status report
- * The Category framework (Nicolas Thiery) 
- * Multiplying Apples and Oranges: Coercions in Sage (Daniel Krenn)
-
-14h -- 17h: Coding sprints at !PyCon
-
-Thursday: Coding sprints
+The coding sprints will be held at !PyCon as a !PyCon sprint project. This means there will be many other (non sage) developers working on lots of open source python projects. Please, feel free to "look around". 
 
 === Tentative list of projects ===
 
