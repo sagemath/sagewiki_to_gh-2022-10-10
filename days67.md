@@ -26,6 +26,8 @@ Pavillon Président-Kennedy
 
 (it's a 10 minutes walk between Palais des Congrès and UQAM)
 
+[[https://www.google.com/maps/d/edit?mid=zBPmD3dTXYo8.kd1jMhRdZIPs|See the map]]
+
 
 === Registration ===
 
