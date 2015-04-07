@@ -24,7 +24,7 @@ Pavillon Président-Kennedy
 201, Président-Kennedy,
 3rd floor, room PK-3605
 
-(the two locations are 10 minutes away by walk)
+(it's a 10 minutes walk between Palais des Congrès and UQAM)
 
 
 === Registration ===
