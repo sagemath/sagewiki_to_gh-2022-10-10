@@ -66,6 +66,8 @@ The SageDays will be organized as follows:
  * '''Mornings''' (Monday, Tuesday, and Wednesday): talks and tutorials at '''UQAM''', room PK-3605, Pavillon Président-Kennedy, 201, Président-Kennedy,
  * '''Afternoons''' and Thursday: Coding sprints at !PyCon (Palais des congrès)
 
+[[https://www.google.com/maps/d/edit?mid=zBPmD3dTXYo8.kd1jMhRdZIPs|See the map]]
+
 See the full schedule bellow.
 
 
