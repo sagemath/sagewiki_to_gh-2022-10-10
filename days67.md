@@ -73,7 +73,7 @@ See the full schedule bellow.
 || '''Morning Location''' || '''UQAM''' || '''UQAM''' || '''UQAM''' || '''Palais des congrès''' ||
 || 09:30 || Orientation || Status report || Status report || SPRINTS ||
 || 09:45 || Presentation of Sage || !SymPy (James Crist) || Multiplying Apples and Oranges: Coercions in Sage (Daniel Krenn) || SPRINTS ||
-|| 10:15 |||||| Coffee break || SPRINTS ||
+|| 10:15 |||||| Coffee break (LaCIM coffee room, 4th floor) || SPRINTS ||
 || 10:45 || Tutorial: Introduction to Sage and Python || Contributing to Sage: git and trac (Daniel Krenn) || The Category framework (Nicolas Thiery) || SPRINTS ||
 || 11:15 || Tutorial and install party || IPython (Thomas Kluyver) || Projects and lightning talks || SPRINTS ||
 || 11:45 |||||||| LUNCH BREAK ||
