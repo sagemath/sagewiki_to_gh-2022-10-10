@@ -107,7 +107,8 @@ The coding sprints will be held at !PyCon as a !PyCon sprint project. This means
  * Matthieu Josuat-Vergès (Univ. Paris Est) - Sage Days
  * Oana-Andreea Kosztan - Sage Days
  * Daniel Krenn (TU Graz) - !PyCon + Sage Days
- * Viviane Pons (Univ. Paris Sud) - !PyCon + Sage Days 
+ * Viviane Pons (Univ. Paris Sud) - !PyCon + Sage Days
+ * José A López (UQAM) 
  * Emily Redelmeier - Sage Days
  * Pooja Rao - !PyCon + Sage Days
  * Franco Saliola (UQAM) - !PyCon + Sage Days
