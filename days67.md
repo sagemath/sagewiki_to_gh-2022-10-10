@@ -10,7 +10,7 @@ These Sage-Days are not specialized in one specific mathematical topic: the idea
 
 === When & Where ===
 
-Sage-Days 67 will be held in '''UQAM''' and '''Montreal Convention center''' (Palais des congrès)  during the 2015 !PyCon sprints '''April 13-16''', it is a satellite event to !PyCon which is organized as follows:
+Sage-Days 67 will be held in '''UQAM''' AND '''Montreal Convention center''' (Palais des congrès)  during the 2015 !PyCon sprints '''April 13-16''', it is a satellite event to !PyCon which is organized as follows:
 
  * April 8-9 Tutorials
  * April 10-12 Main conference
@@ -18,7 +18,7 @@ Sage-Days 67 will be held in '''UQAM''' and '''Montreal Convention center''' (Pa
 
 All !PyCon related events will happen at the '''Montreal Convention center''' (Palais des congrès): [[https://us.pycon.org/2015/venue/]]
 
-The Sage Days talks will happen in UQAM:
+The Sage Days talks will happen in '''UQAM''':
 
 Pavillon Président-Kennedy
 201, Président-Kennedy,
