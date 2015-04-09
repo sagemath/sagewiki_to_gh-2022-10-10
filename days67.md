@@ -71,7 +71,7 @@ The SageDays will be organized as follows:
 See the full schedule bellow.
 
 
-||  || Monday 04/13 || Tuesday 04/14 || Wednesday 04/14 || Thursday 04/14 ||
+||  || Monday 04/13 || Tuesday 04/14 || Wednesday 04/15 || Thursday 04/16 ||
 || '''Morning Location''' || '''UQAM''' || '''UQAM''' || '''UQAM''' || '''Palais des congrès''' ||
 || 09:30 || Orientation || Status report || Status report || SPRINTS ||
 || 09:45 || Presentation of Sage || !SymPy (James Crist) || Multiplying Apples and Oranges: Coercions in SageMath (Daniel Krenn) || SPRINTS ||
