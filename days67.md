@@ -111,6 +111,7 @@ The coding sprints will be held at !PyCon as a !PyCon sprint project. This means
  * José A López (UQAM) 
  * Emily Redelmeier - Sage Days
  * Pooja Rao - !PyCon + Sage Days
+ * David Roe - Sage Days
  * Franco Saliola (UQAM) - !PyCon + Sage Days
  * Travis Scrimshaw (UC Davis) !PyCon + Sage Days
  * Nicolas Thiéry (Univ. Paris Sud) - !PyCon + Sage Days
