@@ -117,6 +117,7 @@ The coding sprints will be held at !PyCon as a !PyCon sprint project. This means
  * Syed Hosseini (UCalgary) - Sage Days
  * Mike Zabrocki (York University) - Sage Days
  * Eduardo Blazek (UQAM) - Sage Days
+ * Nancy Wallace (UQAM) - Sage Days
 
 == Organizers ==
 
