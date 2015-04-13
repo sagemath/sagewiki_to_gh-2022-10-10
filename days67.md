@@ -1,5 +1,7 @@
 = Sage Days 67: PyCon 2015 =
 
+'''Monday april, 13: PyCon sprints on room 512d'''
+
 == General Information ==
 
 [[https://us.pycon.org/2015|PyCon]] is the largest gathering of the python community. The 2015 session is held in Montreal on April 8-16. Sage Days 67 are a satellite event which will occur on April 13-16, during the !PyCon sprints.
@@ -9,6 +11,8 @@ You can participate to both !PyCon and Sage-Days or only to Sage-Days. We invite
 These Sage-Days are not specialized in one specific mathematical topic: the idea is to discover the different functionalities of Sage and the different development (basic and advanced) that take place within Sage to improve mathematical research. It is also a good place to initiate a development project on some missing functionalities. And last but not least, it is the perfect place to meet and discuss with other python open-source communities which will be attending !PyCon (IPython, !SciPy, ...).
 
 === When & Where ===
+
+'''Monday april, 13: PyCon sprints on room 512d'''
 
 Sage-Days 67 will be held in '''UQAM''' AND '''Montreal Convention center''' (Palais des congrès)  during the 2015 !PyCon sprints '''April 13-16''', it is a satellite event to !PyCon which is organized as follows:
 
@@ -70,6 +74,7 @@ The SageDays will be organized as follows:
 
 See the full schedule bellow.
 
+'''Monday april, 13: PyCon sprints on room 512d'''
 
 ||  || Monday 04/13 || Tuesday 04/14 || Wednesday 04/15 || Thursday 04/16 ||
 || '''Morning Location''' || '''UQAM''' || '''UQAM''' || '''UQAM''' || '''Palais des congrès''' ||
