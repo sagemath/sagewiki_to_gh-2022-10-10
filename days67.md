@@ -1,6 +1,6 @@
 = Sage Days 67: PyCon 2015 =
 
-'''Monday april, 13: PyCon sprints on room 512d'''
+'''Monday april, 13: !PyCon sprints on room 512d'''
 
 == General Information ==
 
@@ -12,7 +12,7 @@ These Sage-Days are not specialized in one specific mathematical topic: the idea
 
 === When & Where ===
 
-'''Monday april, 13: PyCon sprints on room 512d'''
+'''Monday april, 13: !PyCon sprints on room 512d'''
 
 Sage-Days 67 will be held in '''UQAM''' AND '''Montreal Convention center''' (Palais des congrès)  during the 2015 !PyCon sprints '''April 13-16''', it is a satellite event to !PyCon which is organized as follows:
 
@@ -74,7 +74,7 @@ The SageDays will be organized as follows:
 
 See the full schedule bellow.
 
-'''Monday april, 13: PyCon sprints on room 512d'''
+'''Monday april, 13: !PyCon sprints on room 512d'''
 
 ||  || Monday 04/13 || Tuesday 04/14 || Wednesday 04/15 || Thursday 04/16 ||
 || '''Morning Location''' || '''UQAM''' || '''UQAM''' || '''UQAM''' || '''Palais des congrès''' ||
