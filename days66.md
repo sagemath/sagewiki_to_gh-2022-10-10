@@ -111,7 +111,7 @@ Jeudi:
  * David Lucas: [[https://bitbucket.org/lucasdavid/sage_coding_project|sage coding theory project]] (mercredi ou jeudi)
       (worksheet: [[attachment:Encoders_Decoders.sws]], [[attachment:Linear_codes.sws]], [[attachment:Reed-Solomon.sws]], [[attachment:Channels.sws]]. Slides: [[attachment:coding_theory_in_sage.pdf]])
  * Eric Rowland : présentation de Mathamatica
- * Clément Pernet : présentation de Linbox [[attachment:SD_pernet.pdf|pdf]]
+ * Clément Pernet : présentation de Linbox [[attachment:SD66_pernet.pdf]]
  * Michelangel Bucci : visualisation en R
 
 
