@@ -85,7 +85,7 @@ See the full schedule bellow.
 
 === How can I get started developing Sage really, really quickly? ===
 
-Use the SageMathCloud! You should only have to copy a folder into your own project (a few minutes) and then have everything you need to begin Sage development work immediately. For instructions, see [[https://cloud.sagemath.com/projects/53b77207-8614-4086-a032-432af4b4cdbd/files/sage-dev-images/README.md|Sage Source and SMC binaries]]. (This is a new and experimental process.)
+Use the [[http://cloud.sagemath.com|SageMathCloud]]! You should only have to copy a folder into your own project (a few minutes) and then have everything you need to begin Sage development work immediately. For instructions, see [[https://cloud.sagemath.com/projects/53b77207-8614-4086-a032-432af4b4cdbd/files/sage-dev-images/README.md|Sage Source and SMC binaries]]. (This is a new and experimental process.)
 
 === What are the coding sprints? ===
 
