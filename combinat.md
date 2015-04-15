@@ -18,6 +18,15 @@ In practice, Sage-combinat is a collection of branches on top of [[http://www.sa
 
 == Past news ==
 
+ * June 8-12, 2015 [[http://gauss.math.luc.edu/sagedays/|Sage Days 65]], Loyola University Chicago, USA
+   Organized by Mark V. Albert, Aaron Lauve, Peter Tingley
+
+ * April 13-16, 2015 [[http://wiki.sagemath.org/days67|Sage Days 67]], UQAM, Canada
+   Organized by Mathieu Guay-Paquet, Viviane Pons, Franco Saliola
+
+ * March 17-20, 2015 [[http://wiki.sagemath.org/days64|Sage Days 64]], University of California at Davis, USA
+   Organized by Dan Bump, Anne Schilling and Travis Scrimshaw
+
  * August 14-17, 2014 [[http://wiki.sagemath.org/days60|Sage Days 60]], Chennai, India
 
  * April 7-11, 2014 [[http://wiki.sagemath.org/days57|Sage(-Combinat) Days 57]], Cernay, France
