@@ -97,6 +97,9 @@ See the full schedule bellow.
    * [[http://www.sagemath.org/doc/developer/index.html]]
    * [[http://trac.sagemath.org]]
 
+ * The Coercion Framework
+   * [[attachment:The Coercion Framework of SageMath.ipynb]]
+
 === How can I get started developing Sage really, really quickly? ===
 
 Use the [[http://cloud.sagemath.com|SageMathCloud]]! You should only have to copy a folder into your own project (a few minutes) and then have everything you need to begin Sage development work immediately. For instructions, see [[https://cloud.sagemath.com/projects/53b77207-8614-4086-a032-432af4b4cdbd/files/sage-dev-images|Sage Source and SMC binaries]]. (This is a new and experimental process.)
