@@ -99,6 +99,7 @@ See the full schedule bellow.
 
  * The Coercion Framework
    * [[attachment:The Coercion Framework of SageMath.ipynb]]
+   * [[attachment:The Coercion Framework of SageMath.pdf]]
 
 === How can I get started developing Sage really, really quickly? ===
 
