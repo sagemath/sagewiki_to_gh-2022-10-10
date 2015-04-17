@@ -30,10 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/18008|#18008]]) new: Periodic points for projective/affine morphism - Grayson Jorgenson
-
- * ([[http://trac.sagemath.org/ticket/17907|#17907]]) positive-review: Random failure in enum_projective_number_field - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/17282|#17282]]) needs-review: Implementing Wehler K3 Surfaces - Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
@@ -91,7 +87,11 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
+ * --([[http://trac.sagemath.org/ticket/18008|#18008]])-- closed sage 6.7: Periodic points for projective/affine morphism - Grayson Jorgenson
+
  * --([[http://trac.sagemath.org/ticket/17855|#17855]])-- closed sage 6.7: create is_preperiodic function for points of projective space - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/17907|#17907]])-- closed sage 6.6: Random failure in enum_projective_number_field - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/17729|#17729]])-- closed sage 6.6: Implement Weil restriction for affine schemes/points/morphisms - Ben Hutz 
 
