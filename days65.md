@@ -36,6 +36,7 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
  * Mike Zabrocki (York U)
  * Panupong Vichitkunakorn (U Illinois)
  * Kevin Dilks (U Minnesota)
+ * Emily Gunawan (U Minnesota)
  
 
 
