@@ -11,13 +11,13 @@ This is a collection of notes on how the [[http://www.sagemath.org/mirrors.html|
 
 To synchronize with Sage's master, you can use this command:
 {{{
-rsync -av --delete-after boxen.math.washington.edu::sage $TARGET
+rsync -av --delete-after rsync.sagemath.org::sage $TARGET
 }}}
 where {{{$TARGET}}} should be replaced by your local target directory.
 
  1. {{{-a}}} switches to archive mode (same timestamp, ...)
  1. {{{-v}}} (or {{{-vv}}}, {{{-vvv}}}) verbosity level, for the lovely logs
- 1. {{{--delete-after}}} tells rsync to delete files that are not on the master ''after'' the synchronization has finished. There are also other versions of {{{--delete*}}} that can be used to delete older files earlier or during the process, but it's best if files stay on the mirror during sync. '''Do not forget one of the {{{--delete*}}} switches!'''
+ 1. {{{--delete-after}}} tells rsync to delete files that are not on the master ''after'' the synchronization has finished (i.e. old binary files from the last release). There are also other versions of {{{--delete*}}} that can be used to delete older files earlier or during the process, but it's best if files stay on the mirror during sync. '''Do not forget one of the {{{--delete*}}} switches to avoid using up more and more disk space!'''
 
 '''Other Sources''': Since the master is sometimes slow, you can also try to rsync from one of the mirrors: 
   * --(rsync://ftp.sh.cvut.cz/sagemath)--
