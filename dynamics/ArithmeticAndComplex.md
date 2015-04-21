@@ -40,6 +40,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 === Wishlist ===
 
+ * implement enumeration, rational points for subschemes of products of projective spaces
+
  * implement critical points, is_pcf, critical point portrait, critical height function
 
  * implement Algorithm 4 in elements_of_bounded_height for number fields (the one that takes into account precision issues)
