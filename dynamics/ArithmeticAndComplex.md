@@ -30,7 +30,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/18279|#18279]]) new: implemented rational preperiodic points for polynomials over number fields - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/18281|#18281]]) new: implement critical point functionality including is_pcf for projective morphisms - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/18279|#18279]]) needs-review: implement rational preperiodic points for polynomials over number fields - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/17282|#17282]]) needs-review: Implementing Wehler K3 Surfaces - Joao Faria
 
@@ -45,8 +47,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * implement is_polynomial(). In dimension 1, this is the existence of a totally ramified fixed point. It would also be nice to determine the conjugation to move that fixed point to ifnty.
 
  * implement enumeration, rational points for subschemes of products of projective spaces
-
- * implement critical points, is_pcf, critical point portrait, critical height function
 
  * implement Algorithm 4 in elements_of_bounded_height for number fields (the one that takes into account precision issues)
 
