@@ -40,6 +40,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 === Wishlist ===
 
+ * implement is_polynomial(). In dimension 1, this is the existence of a totally ramified fixed point. It would also be nice to determine the conjugation to move that fixed point to ifnty.
+
  * implement enumeration, rational points for subschemes of products of projective spaces
 
  * implement critical points, is_pcf, critical point portrait, critical height function
