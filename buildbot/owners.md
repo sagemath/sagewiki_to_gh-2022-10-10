@@ -1,9 +1,9 @@
 Bot names and owners:
 
-arando : 
-sage4 :
-eddy :
-librae :
-silence :
-pi : 
-groebner :
+    arando : 
+    sage4 :
+    eddy :
+    librae :
+    silence :
+    pi : 
+    groebner :
