@@ -1,9 +1,10 @@
 Bot names and owners:
-
-    arando : 
-    sage4 :
-    eddy :
-    librae :
-    silence :
-    pi : 
-    groebner :
+{{{
+    arando = jdemeyer
+    sage4 = jdemeyer
+    eddy = ?
+    librae = vdelecroix
+    silence = ncohen
+    pi = ?
+    groebner = ?
+}}}
