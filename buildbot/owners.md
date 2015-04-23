@@ -3,7 +3,8 @@ Bot names and owners:
     arando = jdemeyer
     sage4 = jdemeyer
     eddy = ?
-    librae = vdelecroix
+    librae = ?
+    mangouste = ?
     silence = ncohen
     pi = ?
     groebner = ?
