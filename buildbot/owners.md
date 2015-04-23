@@ -7,4 +7,7 @@ Bot names and owners:
     silence = ncohen
     pi = ?
     groebner = ?
+    pcl337b = ?
+    Martin-Laptop = ?
+    icj-laptop = chapoton
 }}}
