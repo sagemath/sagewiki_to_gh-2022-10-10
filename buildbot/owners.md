@@ -2,7 +2,7 @@ Bot names and owners:
 {{{
     arando        --> jdemeyer
     eddy          --> ?
-    groebner      --> ?
+    groebner      --> jkroeker
     icj-laptop    --> chapoton
     librae        --> vdelecroix
     Martin-Laptop --> mantepse
