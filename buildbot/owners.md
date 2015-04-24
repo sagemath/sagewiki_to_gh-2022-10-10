@@ -5,7 +5,7 @@ Bot names and owners:
     groebner      --> ?
     icj-laptop    --> chapoton
     librae        --> vdelecroix
-    Martin-Laptop --> ?
+    Martin-Laptop --> mantepse
     mangouste     --> vdelecroix
     pcl337b       --> ?
     pi            --> ?
