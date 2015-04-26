@@ -9,6 +9,7 @@ Bot names and owners:
     mangouste     --> vdelecroix
     pcl337b       --> ?
     pi            --> ?
+    rp01          --> ?
     sage4         --> jdemeyer
     silence       --> ncohen
 }}}
