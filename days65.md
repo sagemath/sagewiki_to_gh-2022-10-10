@@ -25,6 +25,7 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
  * Mee Seong Im (U Illinois)
  * Jonathan Judge (UConn)
  * Aaron Lauve (Loyola Chicago)
+ * Jake Levinson (U Michigan)
  * Dinakar Muthiah (U Toronto)
  * Amy Pang (LaCIM, UQAM)
  * Franco Saliola (UQAM)
@@ -37,7 +38,6 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
  * Yannic Vargas (UQAM)
  * Panupong Vichitkunakorn (U Illinois)
  * Mike Zabrocki (York U)
- * Jake Levinson (U Michigan)
 
 
 == Organizers ==
