@@ -19,23 +19,24 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
 == Participants ==
 
  * Mark V. Albert (Loyola Chicago)
+ * Kevin Dilks (U Minnesota)
  * Steve Doty (Loyola Chicago)
+ * Emily Gunawan (U Minnesota)
  * Mee Seong Im (U Illinois)
  * Jonathan Judge (UConn)
  * Aaron Lauve (Loyola Chicago)
  * Dinakar Muthiah (U Toronto)
  * Amy Pang (LaCIM, UQAM)
  * Franco Saliola (UQAM)
- * Ben Salisbury (U Central Michigan, tentative)
+ * Ben Salisbury (U Central Michigan)
  * Anne Schilling (UC Davis)
  * Bridget Tenner (DePaul U, tentative)
- * George Thiruvathukal (Loyola Chicago, tentative)
+ * Kyle Petersen (DePaul U, tentative)
+ * George Thiruvathukal (Loyola Chicago)
  * Peter Tingley (Loyola Chicago)
  * Yannic Vargas (UQAM)
- * Mike Zabrocki (York U)
  * Panupong Vichitkunakorn (U Illinois)
- * Kevin Dilks (U Minnesota)
- * Emily Gunawan (U Minnesota)
+ * Mike Zabrocki (York U)
  
 
 
