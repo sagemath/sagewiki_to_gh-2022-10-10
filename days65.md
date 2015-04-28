@@ -24,6 +24,7 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
  * Emily Gunawan (U Minnesota)
  * Mee Seong Im (U Illinois)
  * Jonathan Judge (UConn)
+ * Jonathan Lamar (U Colorado)
  * Aaron Lauve (Loyola Chicago)
  * Jake Levinson (U Michigan)
  * Dinakar Muthiah (U Toronto)
