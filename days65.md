@@ -37,7 +37,7 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
  * Yannic Vargas (UQAM)
  * Panupong Vichitkunakorn (U Illinois)
  * Mike Zabrocki (York U)
- 
+ * Jake Levinson (U Michigan)
 
 
 == Organizers ==
