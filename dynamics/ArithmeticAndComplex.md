@@ -129,7 +129,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * --([[http://trac.sagemath.org/ticket/17429|#17429]])-- closed sage 6.5: projective point equality returns false positive for ComplexIntervalField - Ben Hutz
 
- * --([[http://trac.sagemath.org/ticket/17324|#17324]])-- closed sage 6.5: homogenize for affine morphisms needs to use projective embedding - Ben Hutz 
+ * --([[http://trac.sagemath.org/ticket/17324|#17324]])-- closed sage 6.5: implement eq and ne for affine morphisms - Ben Hutz 
 
  * --([[http://trac.sagemath.org/ticket/15448|#15448]])-- closed sage 6.5: cartesian products of projective space - Ben Hutz
 
