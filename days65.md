@@ -19,7 +19,7 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
 == Participants ==
 
  * Mark V. Albert (Loyola Chicago)
- * Steve Doty (Loyola Chicago, tentative)
+ * Steve Doty (Loyola Chicago)
  * Mee Seong Im (U Illinois)
  * Jonathan Judge (UConn)
  * Aaron Lauve (Loyola Chicago)
