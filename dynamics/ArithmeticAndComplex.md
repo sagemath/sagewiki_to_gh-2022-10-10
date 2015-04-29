@@ -44,6 +44,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 === Wishlist ===
 
+ * dynamical systems of products of projective spaces
+
  * implement is_polynomial(). In dimension 1, this is the existence of a totally ramified fixed point. It would also be nice to determine the conjugation to move that fixed point to ifnty.
 
  * implement enumeration, rational points for subschemes of products of projective spaces
@@ -80,6 +82,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * moduli space invariants - symmetric functions in multipliers of periodic points, others...
 
  * use real interval field for floating point computations (in heights and possibly rational preperiodic point functions)
+
+ * implement Algorithm 4 for Doyle-Krumm to remove precision dependency on enumeration of number field points
 
  * reduced form of endomorphisms -  i.e., compute an `SL(2,Z)` transformation that makes the coefficients small. The simplest approach would be to "reduce" the binary form describing the fixed points or (if that's too degenerate) the points of period n for some small n. See [Stoll, Michael; Cremona, John E., On the reduction theory of binary forms. J. Reine Angew. Math. 565 (2003), 79–99.], which is fairly easy to implement and which would be useful to have in sage anyway.
 
