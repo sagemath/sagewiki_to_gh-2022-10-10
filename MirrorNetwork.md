@@ -1,15 +1,15 @@
-= Sage Mirror Network =
+= SageMath Mirror Network =
 
-This is a collection of notes on how the [[http://www.sagemath.org/mirrors.html|mirror network]] of Sage operates and a '''howto on how a mirror is setup'''. This might be of interest outside Sage, too. It's only Linux specific.
+This is a collection of notes on how the [[http://www.sagemath.org/mirrors.html|mirror network]] of SageMath operates and a '''howto on how a mirror is setup'''. This might be of interest outside SageMath, too. It's only Linux specific.
 
 == RSYNC ==
 
-[[http://www.samba.org/ftp/rsync/rsync.html|rsync]] 
+[[http://www.samba.org/ftp/rsync/rsync.html|rsync]]
 
  1. is a tool to synchronize a local directory with the contents of a remote directory.
  1. is a server, that provides access to local directories to exchange data using the rsync protocol.
 
-To synchronize with Sage's master, you can use this command:
+To synchronize with SageMath's master, you can use this command:
 {{{
 rsync -av --delete-after rsync.sagemath.org::sage $TARGET
 }}}
@@ -19,12 +19,12 @@ where {{{$TARGET}}} should be replaced by your local target directory.
  1. {{{-v}}} (or {{{-vv}}}, {{{-vvv}}}) verbosity level, for the lovely logs
  1. {{{--delete-after}}} tells rsync to delete files that are not on the master ''after'' the synchronization has finished (i.e. old binary files from the last release). There are also other versions of {{{--delete*}}} that can be used to delete older files earlier or during the process, but it's best if files stay on the mirror during sync. '''Do not forget one of the {{{--delete*}}} switches to avoid using up more and more disk space!'''
 
-'''Other Sources''': Since the master is sometimes slow, you can also try to rsync from one of the mirrors: 
+'''Other Sources''': Since the master is sometimes slow, you can also try to rsync from one of the mirrors:
   * --(rsync://ftp.sh.cvut.cz/sagemath)--
   * rsync://rsync.mirrorservice.org/www.sagemath.org/ (they fixed their mirror service. still, boxen from above will be more recent)
 
 === rsync master ===
-It's dead simple to setup an rsync master server. In Ubuntu/Debian, you have to install rsync and then edit the rsync config file {{{/etc/rsyncd.conf}}}. The inet deamon calls the rsync process if someone wants to connect. 
+It's dead simple to setup an rsync master server. In Ubuntu/Debian, you have to install rsync and then edit the rsync config file {{{/etc/rsyncd.conf}}}. The inet deamon calls the rsync process if someone wants to connect.
 
 == Periodic Checks ==
 
@@ -37,7 +37,7 @@ At least twice a day, a mirror should check if there are updates on the master. 
 {{{
 */10 * * * * "/home/<username>/rsync_sagemath" 2> /home/<username>/rsync_sagemath.errors > /dev/null
 }}}
-calls the rsync_sagemath script every time the minutes in the computer clock are "00" or a multiple of "10" (modulo 10). Something like "{{{0 */2 * * * }}}" does it every second hour when the minutes are "00", "{{{0 1,9,19 * * * }}}" at full hours 1am, 9am and 7pm, ... Read the [[http://linux.die.net/man/1/crontab|man crontab]] page for more information. The part after that just says that errors should be written into a specific file and everything else should be written nowhere. 
+calls the rsync_sagemath script every time the minutes in the computer clock are "00" or a multiple of "10" (modulo 10). Something like "{{{0 */2 * * * }}}" does it every second hour when the minutes are "00", "{{{0 1,9,19 * * * }}}" at full hours 1am, 9am and 7pm, ... Read the [[http://linux.die.net/man/1/crontab|man crontab]] page for more information. The part after that just says that errors should be written into a specific file and everything else should be written nowhere.
 
 Beware, there *has* to be a <newline> at the end of the file, not just the crontab line.
 
@@ -45,7 +45,7 @@ A nice addition would be to write the output of the rsync task to a temporary fi
 
 === flock ===
 
-[[http://linux.die.net/man/1/flock|flock]] is a utility that ensures, that a certain command is only called once. 
+[[http://linux.die.net/man/1/flock|flock]] is a utility that ensures, that a certain command is only called once.
 This is very useful, because the mirror task from above maybe lasts longer than the time interval of the scheduler.
 The way I use it is the following:
 {{{
@@ -62,10 +62,11 @@ It might happen that the debian package linux-utils (that holds flock) is not in
 {{{
 $ cat rsync_sagemath
 
-# rsyncs from sage.math.washington.edu using it's rsync daemon
+# rsyncs from sage.math.washington.edu using its rsync daemon
 # for automated use, remove the "vv" and "progress" switches
 
-# locking mechanism from http://stackoverflow.com/questions/185451/quick-and-dirty-way-to-ensure-only-one-instance-of-a-shell-script-is-running-at-a
+# locking mechanism from
+# http://stackoverflow.com/questions/185451/quick-and-dirty-way-to-ensure-only-one-instance-of-a-shell-script-is-running-at-a
 # since flock is not installed :(
 
 cd
