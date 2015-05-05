@@ -30,6 +30,7 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
  * Jake Levinson (U Michigan)
  * Dinakar Muthiah (U Toronto)
  * Amy Pang (LaCIM, UQAM)
+ * Viviane Pons (LRI, U Paris-Sud)
  * Franco Saliola (UQAM)
  * Ben Salisbury (U Central Michigan)
  * Anne Schilling (UC Davis)
