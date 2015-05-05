@@ -21,6 +21,7 @@ June 8-12, 2015, at Loyola University Chicago, in Chicago, Ill., USA.
  * Mark V. Albert (Loyola Chicago)
  * Kevin Dilks (U Minnesota)
  * Steve Doty (Loyola Chicago)
+ * Merv Fansler (Millersville U)
  * Emily Gunawan (U Minnesota)
  * Mee Seong Im (U Illinois)
  * Jonathan Judge (UConn)
