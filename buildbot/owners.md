@@ -2,6 +2,7 @@ Bot names and owners:
 {{{
     arando        --> jdemeyer
     eddy          --> ?
+    kepler        --> nilesjohnson
     groebner      --> jkroeker
     icj-laptop    --> chapoton
     librae        --> vdelecroix
