@@ -1,6 +1,7 @@
 Bot names and owners:
 {{{
     arando        --> jdemeyer
+    andromeda     --> jkroeker
     eddy          --> ?
     kepler        --> nilesjohnson
     groebner      --> jkroeker
