@@ -30,6 +30,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/18399|#18399]]) needs-review: projective automorphism group fails for homogenized maps - Ben Hutz
+
  * ([[http://trac.sagemath.org/ticket/18281|#18281]]) needs-review: implement critical point functionality including is_pcf for projective morphisms - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/18279|#18279]]) needs-review: implement rational preperiodic points for polynomials over number fields - Ben Hutz
