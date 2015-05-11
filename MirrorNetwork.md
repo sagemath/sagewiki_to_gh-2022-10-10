@@ -15,13 +15,19 @@ rsync -av --delete-after rsync.sagemath.org::sage $TARGET
 }}}
 where {{{$TARGET}}} should be replaced by your local target directory.
 
+'''NOTE:''' If you are a new mirror or re-syncing everything, please use
+{{{
+rsync://rsync.mirrorservice.org/www.sagemath.org/
+}}}
+to avoid traffic on the main mirror server. Thank you!
+
  1. {{{-a}}} switches to archive mode (same timestamp, ...)
  1. {{{-v}}} (or {{{-vv}}}, {{{-vvv}}}) verbosity level, for the lovely logs
  1. {{{--delete-after}}} tells rsync to delete files that are not on the master ''after'' the synchronization has finished (i.e. old binary files from the last release). There are also other versions of {{{--delete*}}} that can be used to delete older files earlier or during the process, but it's best if files stay on the mirror during sync. '''Do not forget one of the {{{--delete*}}} switches to avoid using up more and more disk space!'''
 
 '''Other Sources''': Since the master is sometimes slow, you can also try to rsync from one of the mirrors:
   * --(rsync://ftp.sh.cvut.cz/sagemath)--
-  * rsync://rsync.mirrorservice.org/www.sagemath.org/ (they fixed their mirror service. still, boxen from above will be more recent)
+  * rsync://rsync.mirrorservice.org/www.sagemath.org/
 
 === rsync master ===
 It's dead simple to setup an rsync master server. In Ubuntu/Debian, you have to install rsync and then edit the rsync config file {{{/etc/rsyncd.conf}}}. The inet deamon calls the rsync process if someone wants to connect.
