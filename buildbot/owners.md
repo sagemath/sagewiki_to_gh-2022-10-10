@@ -3,7 +3,7 @@ Bot names and owners:
     arando            --> jdemeyer
     andromeda         --> jkroeker
     debian_jessie_32  --> tmonteil
-    eddy              --> ?
+    eddy              --> Vincent.Neri (lri, Orsay, Paris sud)
     kepler            --> nilesjohnson
     groebner          --> jkroeker
     icj-laptop        --> chapoton
