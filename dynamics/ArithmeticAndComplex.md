@@ -38,8 +38,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/18281|#18281]]) needs-review: implement critical point functionality including is_pcf for projective morphisms - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/18279|#18279]]) needs-review: implement rational preperiodic points for polynomials over number fields - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/17282|#17282]]) needs-review: Implementing Wehler K3 Surfaces - Joao Faria
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
@@ -102,6 +100,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PLEASE ADD MORE...
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/18279|#18279]])-- closed sage 6.7: implement rational preperiodic points for polynomials over number fields - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/18008|#18008]])-- closed sage 6.7: Periodic points for projective/affine morphism - Grayson Jorgenson
 
