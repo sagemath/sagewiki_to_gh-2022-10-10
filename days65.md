@@ -68,6 +68,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Develop code for Hopf monoids in species (Lauve) 
  * Learn how to use SAGE in my classroom 
  * Resume coding basic algebraic structure for KLR-algebras, quantum shuffle algebras, etc (Im) 
+ * Start a wiki for combinatorial Hopf algebras, in the format of FindStat (Pang)
 
 
 == Participants ==
@@ -98,6 +99,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Ben Salisbury (U Central Michigan)
  * Anne Schilling (UC Davis)
  * Schultze
+ * George H. Seelinger (Loyola Chicago)
  * Bridget Tenner (DePaul U, tentative)
  * George Thiruvathukal (Loyola Chicago)
  * Thomas (tentative)
@@ -106,7 +108,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Panupong Vichitkunakorn (U Illinois)
  * Mike Zabrocki (York U)
  * Zhou
- * George H. Seelinger (Loyola Chicago)
+
 
 
 == Organizers ==
