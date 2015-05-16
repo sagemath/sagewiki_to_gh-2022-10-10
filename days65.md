@@ -15,7 +15,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
 
 == Tentative Schedule ==
 
-|| &nbsp; ||<:99%> '''Mon''' ||<:99%> '''Tue''' ||<:99%> '''Wed''' ||<:99%> '''Thu''' ||<:99%> '''Fri''' ||
+|| &nbsp; ||<:18%> '''Mon''' ||<:18%> '''Tue''' ||<:18%> '''Wed''' ||<:18%> '''Thu''' ||<:18%> '''Fri''' ||
 || 9:30 ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||
 || 9:45 ||
 || 10:00 ||<|4 #BBBBFF> Saliola ||<|4 #BBBBFF> Schilling ||<|4 #BBBBFF> Salisbury ||<|4 #BBBBFF> Seelinger? ||<|4 #BBBBFF> open ||
