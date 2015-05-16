@@ -106,6 +106,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Panupong Vichitkunakorn (U Illinois)
  * Mike Zabrocki (York U)
  * Zhou
+ * George H. Seelinger (Loyola Chicago)
 
 
 == Organizers ==
