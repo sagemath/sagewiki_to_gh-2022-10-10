@@ -78,6 +78,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Merv Fansler (Millersville U)
  * Feinberg
  * Emily Gunawan (U Minnesota)
+ * Haught
  * Mee Seong Im (U Illinois)
  * Jonathan Judge (UConn)
  * Kim
