@@ -65,8 +65,9 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
 == (Personal) Goals for the Week ==
 ''Participants should feel free to add to this list in advance of the meeting. Anonymous contributions are okay.''
 
- * Develop code for Hopf monoids in species (Lauve)
- * Learn how to use SAGE in my classroom
+ * Develop code for Hopf monoids in species (Lauve) 
+ * Learn how to use SAGE in my classroom 
+ * Resume coding basic algebraic structure for KLR-algebras, quantum shuffle algebras, etc (Im) 
 
 
 == Participants ==
@@ -79,7 +80,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Feinberg
  * Emily Gunawan (U Minnesota)
  * Haught
- * Mee Seong Im (U Illinois)
+ * Mee Seong Im (U Illinois and USMA)
  * Jonathan Judge (UConn)
  * Kim
  * King
