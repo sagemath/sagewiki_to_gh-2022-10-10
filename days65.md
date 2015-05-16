@@ -92,6 +92,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Amy Pang (LaCIM, UQAM)
  * Kyle Petersen (DePaul U, tentative)
  * Viviane Pons (LRI, U Paris-Sud)
+ * Poudel
  * Franco Saliola (UQAM)
  * Ben Salisbury (U Central Michigan)
  * Anne Schilling (UC Davis)
