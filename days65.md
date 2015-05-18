@@ -8,7 +8,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
 == Confirmed Speakers ==
  * Nantel Bergeron (York U)
  * Dinakar Muthiah (U Toronto)
- * Ben Salisbury (U Central Michigan)
+ * Ben Salisbury (Central Michigan U)
  * Franco Saliola (UQAM)
  * Anne Schilling (UC Davis)
  * Mike Zabrocki (York U)
@@ -69,6 +69,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Learn how to use SAGE in my classroom 
  * Resume coding basic algebraic structure for KLR-algebras, quantum shuffle algebras, etc (Im) 
  * Start a wiki for combinatorial Hopf algebras, in the format of FindStat (Pang)
+ * Crystals of tableaux for the Lie superalgebra gl(m|n) (Salisbury)
 
 
 == Participants ==
@@ -96,7 +97,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Viviane Pons (LRI, U Paris-Sud)
  * Poudel
  * Franco Saliola (UQAM)
- * Ben Salisbury (U Central Michigan)
+ * Ben Salisbury (Central Michigan U)
  * Anne Schilling (UC Davis)
  * Schultze
  * George H. Seelinger (Loyola Chicago)
