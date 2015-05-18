@@ -79,7 +79,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Kevin Dilks (U Minnesota)
  * Steve Doty (Loyola Chicago)
  * Merv Fansler (Millersville U)
- * Feinberg
+ * Gabriel Feinberg (Haverford College)
  * Emily Gunawan (U Minnesota)
  * Haught
  * Mee Seong Im (U Illinois and USMA)
