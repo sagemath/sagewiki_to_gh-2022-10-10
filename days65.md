@@ -101,6 +101,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Anne Schilling (UC Davis)
  * Schultze
  * George H. Seelinger (Loyola Chicago)
+ * Mark Shimozono (Virginia Tech)
  * Bridget Tenner (DePaul U, tentative)
  * George Thiruvathukal (Loyola Chicago)
  * Thomas (tentative)
