@@ -75,7 +75,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
 
 
 == Participants ==
- * Addabbo
+ * Darlayne Addabbo (U Illinois)
  * Mark V. Albert (Loyola Chicago)
  * N. Bergeron
  * Kevin Dilks (U Minnesota)
