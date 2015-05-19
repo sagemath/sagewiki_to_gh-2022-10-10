@@ -71,6 +71,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Start a wiki for combinatorial Hopf algebras, in the format of [[http://www.findstat.org|FindStat]] (Pang)
  * Crystals of tableaux for the Lie superalgebra gl(m|n) (Salisbury)
  * improve NC-Grobner basis calculations, implement dual Quasi-Schur basis #18447 (Zabrocki)
+ * Non-commutative version of Faugere's F5 algorithm in Sage (King)
 
 
 == Participants ==
@@ -86,7 +87,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Mee Seong Im (U Illinois and USMA)
  * Jonathan Judge (UConn)
  * Kim
- * King
+ * Simon King (FSU Jena, Germany)
  * Michael Kratochvil (Loyola Chicago)
  * Jonathan Lamar (U Colorado)
  * Aaron Lauve (Loyola Chicago)
