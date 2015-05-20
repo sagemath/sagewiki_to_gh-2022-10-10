@@ -18,7 +18,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
 ||<tablewidth="80%"> &nbsp; ||<:17%> '''Mon''' ||<:17%> '''Tue''' ||<:17%> '''Wed''' ||<:17%> '''Thu''' ||<:17%> '''Fri''' ||
 || 9:30 ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||
 || 9:45 ||
-|| 10:00 ||<|4 #BBBBFF> Saliola ||<|4 #BBBBFF> Schilling ||<|4 #BBBBFF> Salisbury ||<|4 #BBBBFF> Seelinger? ||<|4 #BBBBFF> open ||
+|| 10:00 ||<|4 #BBBBFF> Saliola ||<|4 #BBBBFF> Schilling ||<|4 #BBBBFF> Salisbury ||<|4 #BBBBFF> Simon ||<|4 #BBBBFF> open ||
 || 10:15 ||
 || 10:30 ||
 || 10:45 ||
@@ -34,9 +34,9 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
 || 13:15 ||
 || 13:30 ||
 || 13:45 ||
-|| 14:00 ||<|3 #BBBBFF> Muthiah ||<|4 #BBBBFF> Zabrocki ||<|4 #BBBBFF> Judge? ||
+|| 14:00 ||<|3 #BBBBFF> Muthiah ||<|4 #BBBBFF> Zabrocki ||<|2 #BBBBFF> Seelinger ||
 || 14:15 ||
-|| 14:30 ||
+|| 14:30 ||<|2 #BBBBFF> Judge ||
 || 14:45 ||<|3 #BBBBFF> Bergeron ||
 || 15:00 ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||
 || 15:15 ||
