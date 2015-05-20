@@ -49,7 +49,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  ||<|2> Products of Projective Spaces || Implement dynamical systems functionality such as iteration, orbits || Many of these will be easy, some will probably be hard ||
  || Implement rational points on subschemes || Easy ||
  || Polynomials || implement is_polynomial(). In dimension 1, this is the existence of a totally ramified fixed point. It would also be nice to determine the conjugation to move that fixed point to ifnty. || Medium ||
- || Points of Bounded Height || implement Algorithm 4 in elements_of_bounded_height for number fields (the one that takes into account precision issues) || Hard ||
+ || Points of Bounded Height || implement Algorithm 4 from "Computing algebraic numbers of bounded height" by Doyle-Krumm to use in elements_of_bounded_height for number fields. This is a high priority since currently the precision has an effect on the output. Algorithm 4 is able to take precision into account. || Hard ||
 
  * Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles
 
