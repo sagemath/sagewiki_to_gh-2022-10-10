@@ -50,7 +50,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  ||||||||'''Wishlist'''||
  || Area|| Description || Difficulty || Priority ||
  ||<|3> Products of Projective Spaces || Implement dynamical systems functionality such as iteration, orbits || Many of these will be easy, some will probably be hard || ||
- || rational preperiodic point algorithms on subschemes of products of projective space || big || ||
+ || rational preperiodic point algorithms on subschemes of products of projective space || medium || ||
  || Implement rational points on subschemes || Easy || ||
  ||<|2> Polynomials || implement is_polynomial(). In dimension 1, this is the existence of a totally ramified fixed point. It would also be nice to determine the conjugation to move that fixed point to ifnty. || Medium || ||
  || specific functionality for regular polynomial endomorphisms of P^N || || ||
