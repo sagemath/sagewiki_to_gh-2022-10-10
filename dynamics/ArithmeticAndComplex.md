@@ -47,27 +47,19 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  ||||||||'''Wishlist'''||
  || Area|| Description || Difficulty || Priority ||
  ||<|2> Products of Projective Spaces || Implement dynamical systems functionality such as iteration, orbits || Many of these will be easy, some will probably be hard ||
- || Implement rational points on subschemes || Easy ||
- || Polynomials || implement is_polynomial(). In dimension 1, this is the existence of a totally ramified fixed point. It would also be nice to determine the conjugation to move that fixed point to ifnty. || Medium ||
- || Points of Bounded Height || implement Algorithm 4 from "Computing algebraic numbers of bounded height" by Doyle-Krumm to use in elements_of_bounded_height for number fields. This is a high priority since currently the precision has an effect on the output. Algorithm 4 is able to take precision into account. || Hard || High||
- || Attracting Cycles || Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles || ||
+ || Implement rational points on subschemes || Easy ||||
+ ||<|2> Polynomials || implement is_polynomial(). In dimension 1, this is the existence of a totally ramified fixed point. It would also be nice to determine the conjugation to move that fixed point to ifnty. || Medium ||||
+ || specific functionality for regular polynomial endomorphisms of P^N ||||
+ ||<|3> Rational Maps|| Indeterminancy locus ||||
+ || Dyammical degree ||||
+ ||periodic and preperiodic points (projective and affine) ||||
+ || Points of Bounded Height || implement Algorithm 4 from "Computing algebraic numbers of bounded height" by Doyle-Krumm to use in elements_of_bounded_height for number fields. This is a high priority since currently the precision has an effect on the output. Algorithm 4 is able to take precision into account. || Hard || High ||
+ || Attracting Cycles || Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles ||||
  || Moduli Space || is_conjugate() for morphisms and iterator over morphisms of fixed degree up to conjugacy. See Faber-Manes-Viray || medium ||||
  || Non-Integral Domains || Make projective space work over non-integral domains. One method would be to make a valid point on which is valid for modulo all maximal ideals ||||||
-
- * cyclegraph() and orbit_structure() to work with Zmod and other finite spaces not just finite fields (medium)
-
- * fix all the white space issues in the projective and affine folders (easy)
-
- * specific functionality for regular polynomial endomorphisms of P^N (Patrick might start implementing this someday)
-
- * rational maps
-   * indeterminancy locus
-   * dynamical degree
-   * periodic and preperiodic points (projective and affine)
-
- * potential good and critically good reduction
-
- * Very generally, implement a function which determines how to do efficient iteration of functions. For example, when computing the iterate $f^{17}$, it is more efficient to compute $f^2=f\circ f$, then $f^4=f^2\circ f^2$, then $f^8=f^4\circ f^4$, then $f^{16}=f^8\circ f^8$, and then finally $f^{17}=f^{16}\circ f$, than it is to compute $f\circ \cdots \circ f$ directly. (Zieve, ICERM)
+ || Documentation || fix all the white space issues in the projective and affine folders || easy ||||
+ || Reduction || potential good and critically good reduction ||||
+ || Optimization ||  Very generally, implement a function which determines how to do efficient iteration of functions. For example, when computing the iterate $f^{17}$, it is more efficient to compute $f^2=f\circ f$, then $f^4=f^2\circ f^2$, then $f^8=f^4\circ f^4$, then $f^{16}=f^8\circ f^8$, and then finally $f^{17}=f^{16}\circ f$, than it is to compute $f\circ \cdots \circ f$ directly. (Zieve, ICERM) ||||
 
  * Implement a function which takes as input to rational functions $f(x)$ and $g(x)$, and determines whether or not $f^n=g^m$ for some integers $n,m \geq 1$. (Zieve, ICERM)
 
