@@ -52,14 +52,14 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  ||<|3> Products of Projective Spaces || Implement dynamical systems functionality such as iteration, orbits || Many of these will be easy, some will probably be hard || ||
  || rational preperiodic point algorithms on subschemes of products of projective space || medium || ||
  || Implement rational points on subschemes || Easy || ||
- || Rational Points on Subschemes || Implement an efficient rational points search on subschemes. Currently it is done by enumeration unless dim is 0 || ||
+ || Rational Points on Subschemes || Implement an efficient rational points search on subschemes. Currently it is done by enumeration unless dim is 0 || || ||
  ||<|2> Polynomials || implement is_polynomial(). In dimension 1, this is the existence of a totally ramified fixed point. It would also be nice to determine the conjugation to move that fixed point to ifnty. || Medium || ||
  || specific functionality for regular polynomial endomorphisms of P^N || || ||
- ||<|3> Rational Maps|| Indeterminancy locus || easy || ||
+ ||<|3> Rational Maps || Indeterminancy locus || easy || ||
  || Dyammical degree || || ||
  || periodic and preperiodic points (projective and affine) || || ||
  ||<|2> Numerical Precision || implement Algorithm 4 from "Computing algebraic numbers of bounded height" by Doyle-Krumm to use in elements_of_bounded_height for number fields. This is a high priority since currently the precision has an effect on the output. Algorithm 4 is able to take precision into account. || Hard || High ||
- | |use real interval field for floating point computations (in heights and possibly rational preperiodic point functions) || medium || ||
+ || use real interval field for floating point computations (in heights and possibly rational preperiodic point functions) || medium || ||
  || Attracting Cycles || Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles || || ||
  ||<|2> Moduli Space || is_conjugate() for morphisms and iterator over morphisms of fixed degree up to conjugacy. See Faber-Manes-Viray || medium || ||
  || reduced form of endomorphisms -  i.e., compute an `SL(2,Z)` transformation that makes the coefficients small. The simplest approach would be to "reduce" the binary form describing the fixed points or (if that's too degenerate) the points of period n for some small n. See [Stoll, Michael; Cremona, John E., On the reduction theory of binary forms. J. Reine Angew. Math. 565 (2003), 79–99.], which is fairly easy to implement and which would be useful to have in sage anyway. || medium || ||
