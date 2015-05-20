@@ -45,15 +45,14 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Wishlist ==
  ||||||||'''Wishlist'''||
- || Area|| Description || Difficulty ||
+ || Area|| Description || Difficulty || Priority ||
  ||<|2> Products of Projective Spaces || Implement dynamical systems functionality such as iteration, orbits || Many of these will be easy, some will probably be hard ||
  || Implement rational points on subschemes || Easy ||
  || Polynomials || implement is_polynomial(). In dimension 1, this is the existence of a totally ramified fixed point. It would also be nice to determine the conjugation to move that fixed point to ifnty. || Medium ||
- || Points of Bounded Height || implement Algorithm 4 from "Computing algebraic numbers of bounded height" by Doyle-Krumm to use in elements_of_bounded_height for number fields. This is a high priority since currently the precision has an effect on the output. Algorithm 4 is able to take precision into account. || Hard ||
-
- * Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles
-
- * is_conjugate() for morphisms and iterator over morphisms of fixed degree up to conjugacy (medium)
+ || Points of Bounded Height || implement Algorithm 4 from "Computing algebraic numbers of bounded height" by Doyle-Krumm to use in elements_of_bounded_height for number fields. This is a high priority since currently the precision has an effect on the output. Algorithm 4 is able to take precision into account. || Hard || High||
+ || Attracting Cycles || Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles || ||
+ || Moduli Space || is_conjugate() for morphisms and iterator over morphisms of fixed degree up to conjugacy. See Faber-Manes-Viray || medium ||||
+ || Non-Integral Domains || Make projective space work over non-integral domains. One method would be to make a valid point on which is valid for modulo all maximal ideals ||||||
 
  * cyclegraph() and orbit_structure() to work with Zmod and other finite spaces not just finite fields (medium)
 
