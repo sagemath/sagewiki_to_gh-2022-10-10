@@ -30,10 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/18409|#18409]]) positive-review: Dynatomic polynomial bug for fractional coefficients - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/18399|#18399]]) positive-review: projective automorphism group fails for homogenized maps - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/18374|#18374]]) needs-review: Inconsistency in dimension of total ideals. - Miguel Marco
 
  * ([[http://trac.sagemath.org/ticket/18281|#18281]]) needs-review: implement critical point functionality including is_pcf for projective morphisms - Ben Hutz
@@ -100,6 +96,10 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PLEASE ADD MORE...
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/18409|#18409]])-- closed sage 6.8: Dynatomic polynomial bug for fractional coefficients - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/18399|#18399]])-- closed sage 6.8: projective automorphism group fails for homogenized maps - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/18279|#18279]])-- closed sage 6.7: implement rational preperiodic points for polynomials over number fields - Ben Hutz
 
