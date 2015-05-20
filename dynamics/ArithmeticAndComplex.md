@@ -43,7 +43,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 
- ||||||<tablewidth="80%">'''Wishlist'''||
+ ||||||<tablestyle="width: 80%">'''Heading'''||
  || Topic || Description || Priority || Difficulty ||
 
  * dynamical systems of products of projective spaces
