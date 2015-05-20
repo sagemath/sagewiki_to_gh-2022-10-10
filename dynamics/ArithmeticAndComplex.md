@@ -43,11 +43,11 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 
+== Wishlist ==
  ||||||||'''Wishlist'''||
- || Area|| Description || Type|| Difficulty ||
- || Products of Projective Spaces || The frame work for maps on products of projective spaces is implemented. It would be nice to implement dynamical systems functionality such as iteration, orbits || Enhacement || Many of these will be easy, some will probably be hard ||
-
- * dynamical systems of products of projective spaces
+ || Area|| Description || Difficulty ||
+ || Products of Projective Spaces || Implement dynamical systems functionality such as iteration, orbits || Many of these will be easy, some will probably be hard ||
+ || Products of Projective Spaces || Implement rational points on subschemes || Easy ||
 
  * implement is_polynomial(). In dimension 1, this is the existence of a totally ramified fixed point. It would also be nice to determine the conjugation to move that fixed point to ifnty.
 
