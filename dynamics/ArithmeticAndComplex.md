@@ -43,8 +43,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * PostCriticallyFiniteMorphisms - Holly Krieger, Adam Towsley, Vincent Delecroix, Ben Hutz, Patrick Ingram
 
 
- ||||||||'''Heading'''||
- || Area|| Description || Priority || Difficulty ||
+ ||||||||'''Wishlist'''||
+ || Area|| Description || Type|| Difficulty ||
+ || Products of Projective Spaces || The frame work for maps on products of projective spaces is implemented. It would be nice to implement dynamical systems functionality such as iteration, orbits || Enhacement || Many of these will be easy, some will probably be hard ||
 
  * dynamical systems of products of projective spaces
 
