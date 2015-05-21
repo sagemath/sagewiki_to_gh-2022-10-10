@@ -4,9 +4,11 @@
 
 Primary Goal: Fix bugs in anything related to Sage.  However, all kinds of Sage development will be on the table. 
 
+Google group: https://groups.google.com/forum/?hl=en#!forum/sd64ish
+
+SageMathCloud project: [[https://cloud.sagemath.com/projects/b89f55a7-1345-453f-a45e-9de87b5213c0]] -- email an organizer to be added as a collaborator
+
 Location: 
 
 {{attachment:encinitas.jpg}}
 (See [[http://www.vrbo.com/86203]])
-
-SageMathCloud project: [[https://cloud.sagemath.com/projects/b89f55a7-1345-453f-a45e-9de87b5213c0]] -- email an organizer to be added as a collaborator
