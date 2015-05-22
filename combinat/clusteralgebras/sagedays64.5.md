@@ -19,7 +19,7 @@ The starting point is the core implementation of cluster algebras as merged in S
 
  * Check why variable_class() is so much slower compared with cluster_class().  This might be because Laurent polynomials are slow in sage. (Christian)
 
- * Finish the implementation of finite reflection groups (Christian) -- trac.sagemath.org/ticket/11187
+ * Finish the implementation of finite reflection groups (Christian) -- http://trac.sagemath.org/ticket/11187
 
  * Allowing options to work with g-vectors, d-vectors, c-vectors directly rather than with cluster variables
 
