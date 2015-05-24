@@ -134,6 +134,10 @@ def tangent_line(f = input_box(default=sin(x)), xbegin = slider(0,10,1/10,0), xe
 
 == Numerical integrals with the midpoint rule ==
 by Marshall Hampton
+    #find_maximum_on_interval and find_minimum_on_interval are deprecated 
+    #use find_local_maximum find_local_minimum instead
+    #see http://trac.sagemath.org/2607 for details -RRubalcaba
+
 {{{#!sagecell
 var('x')
 @interact
@@ -149,8 +153,8 @@ def midpoint(n = slider(1,100,1,4), f = input_box(default = "x^2", type = str), 
         xm = midxs[q]
         ym = midys[q]
         rects = rects + line([[xm-dx/2,0],[xm-dx/2,ym],[xm+dx/2,ym],[xm+dx/2,0]], rgbcolor = (1,0,0)) + point((xm,ym), rgbcolor = (1,0,0))
-    min_y = find_minimum_on_interval(func,a,b)[0]
-    max_y = find_maximum_on_interval(func,a,b)[0]
+    min_y = find_local_minimum(func,a,b)[0]
+    max_y = find_local_maximum(func,a,b)[0]
     html('<h3>Numerical integrals with the midpoint rule</h3>')
     html('$\int_{a}^{b}{f(x) dx} {\\approx} \sum_i{f(x_i) \Delta x}$')
     print "\n\nSage numerical answer: " + str(integral_numerical(func,a,b,max_points = 200)[0])
@@ -164,6 +168,9 @@ by Nick Alexander (based on the work of Marshall Hampton)
 
 {{{#!sagecell
 # by Nick Alexander (based on the work of Marshall Hampton)
+    #find_maximum_on_interval and find_minimum_on_interval are deprecated 
+    #use find_local_maximum find_local_minimum instead
+    #see http://trac.sagemath.org/2607 for details -RRubalcaba
 
 var('x')
 @interact
@@ -187,10 +194,10 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
         elif endpoint_rule == 'Right':
             xs.append(q*dx + a + dx)
         elif endpoint_rule == 'Upper':
-            x = find_maximum_on_interval(func, q*dx + a, q*dx + dx + a)[1]
+            x = find_local_maximum(func, q*dx + a, q*dx + dx + a)[1]
             xs.append(x)
         elif endpoint_rule == 'Lower':
-            x = find_minimum_on_interval(func, q*dx + a, q*dx + dx + a)[1]
+            x = find_local_minimum(func, q*dx + a, q*dx + dx + a)[1]
             xs.append(x)
     ys = [ func(x) for x in xs ]
          
@@ -201,8 +208,8 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
         y = ys[q]
         rects += line([[xm-dx/2,0],[xm-dx/2,y],[xm+dx/2,y],[xm+dx/2,0]], rgbcolor = (1,0,0))
         rects += point((x, y), rgbcolor = (1,0,0))
-    min_y = min(0, find_minimum_on_interval(func,a,b)[0])
-    max_y = max(0, find_maximum_on_interval(func,a,b)[0])
+    min_y = min(0, find_local_minimum(func,a,b)[0])
+    max_y = max(0, find_local_maximum(func,a,b)[0])
 
     # html('<h3>Numerical integrals with the midpoint rule</h3>')
     show(plot(func,a,b) + rects, xmin = a, xmax = b, ymin = min_y, ymax = max_y)
