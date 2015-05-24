@@ -126,8 +126,8 @@ def tangent_line(f = input_box(default=sin(x)), xbegin = slider(0,10,1/10,0), xe
     fplot = plot(f, prange[0], prange[1])
     print 'Tangent line is y = ' + tanf._repr_()
     tanplot = plot(tanf, prange[0], prange[1], rgbcolor = (1,0,0))
-    fmax = f.find_maximum_on_interval(prange[0], prange[1])[0]
-    fmin = f.find_minimum_on_interval(prange[0], prange[1])[0]
+    fmax = f.find_local_maximum(prange[0], prange[1])[0]
+    fmin = f.find_local_minimum(prange[0], prange[1])[0]
     show(fplot + tanplot, xmin = prange[0], xmax = prange[1], ymax = fmax, ymin = fmin)
 }}}
 {{attachment:tangents.png}}
@@ -153,8 +153,8 @@ def midpoint(n = slider(1,100,1,4), f = input_box(default = "x^2", type = str), 
         xm = midxs[q]
         ym = midys[q]
         rects = rects + line([[xm-dx/2,0],[xm-dx/2,ym],[xm+dx/2,ym],[xm+dx/2,0]], rgbcolor = (1,0,0)) + point((xm,ym), rgbcolor = (1,0,0))
-    min_y = find_local_minimum(func,a,b)[0]
-    max_y = find_local_maximum(func,a,b)[0]
+    min_y = min(0, sage.numerical.optimize.find_local_minimum(func,a,b)[0])
+    max_y = max(0, sage.numerical.optimize.find_local_maximum(func,a,b)[0])
     html('<h3>Numerical integrals with the midpoint rule</h3>')
     html('$\int_{a}^{b}{f(x) dx} {\\approx} \sum_i{f(x_i) \Delta x}$')
     print "\n\nSage numerical answer: " + str(integral_numerical(func,a,b,max_points = 200)[0])
