@@ -86,7 +86,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Haught
  * Mee Seong Im (U Illinois and USMA)
  * Jonathan Judge (UConn)
- * Kim
+ * WonGeun Kim (CUNY)
  * Simon King (FSU Jena, Germany)
  * Michael Kratochvil (Loyola Chicago)
  * Jonathan Lamar (U Colorado)
