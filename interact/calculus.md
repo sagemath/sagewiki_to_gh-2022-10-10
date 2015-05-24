@@ -32,7 +32,7 @@ def _(f = cos(x) - x, a = float(0), b = float(1), eps=(-3,(-16..-1))):
      eps = 10^eps
      print "eps = %s"%float(eps)
      try:
-         time c, intervals = bisect_method(f, a, b, eps)
+         c, intervals = bisect_method(f, a, b, eps)
      except ValueError:
          print "f must have opposite sign at the endpoints of the interval"
          show(plot(f, a, b, color='red'), xmin=a, xmax=b)
