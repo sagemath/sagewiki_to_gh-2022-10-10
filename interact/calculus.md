@@ -134,9 +134,9 @@ def tangent_line(f = input_box(default=sin(x)), xbegin = slider(0,10,1/10,0), xe
 
 == Numerical integrals with the midpoint rule ==
 by Marshall Hampton
-    #find_maximum_on_interval and find_minimum_on_interval are deprecated 
-    #use find_local_maximum find_local_minimum instead
-    #see http://trac.sagemath.org/2607 for details -RRubalcaba
+#find_maximum_on_interval and find_minimum_on_interval are deprecated 
+#use find_local_maximum find_local_minimum instead
+#see http://trac.sagemath.org/2607 for details -RRubalcaba
 
 {{{#!sagecell
 var('x')
@@ -168,9 +168,9 @@ by Nick Alexander (based on the work of Marshall Hampton)
 
 {{{#!sagecell
 # by Nick Alexander (based on the work of Marshall Hampton)
-    #find_maximum_on_interval and find_minimum_on_interval are deprecated 
-    #use find_local_maximum find_local_minimum instead
-    #see http://trac.sagemath.org/2607 for details -RRubalcaba
+#find_maximum_on_interval and find_minimum_on_interval are deprecated 
+#use find_local_maximum find_local_minimum instead
+#see http://trac.sagemath.org/2607 for details -RRubalcaba
 
 var('x')
 @interact
