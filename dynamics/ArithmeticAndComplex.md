@@ -30,11 +30,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/18374|#18374]]) needs-review: Inconsistency in dimension of total ideals. - Miguel Marco
-
- * ([[http://trac.sagemath.org/ticket/18281|#18281]]) needs-review: implement critical point functionality including is_pcf for projective morphisms - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/17282|#17282]]) needs-review: Implementing Wehler K3 Surfaces - Joao Faria
+ * ([[http://trac.sagemath.org/ticket/18443|#18443]]) - needs-review: Multiplier spectra for projective morphisms - Grayson Jorgenson
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
@@ -76,6 +72,12 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 
 == Complete ==
+
+ * ([[http://trac.sagemath.org/ticket/18374|#18374]])-- closed: Inconsistency in dimension of total ideals. - Miguel Marco
+
+ * ([[http://trac.sagemath.org/ticket/18281|#18281]])-- closed: implement critical point functionality including is_pcf for projective morphisms - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/17282|#17282]])-- closed: Implementing Wehler K3 Surfaces - Joao Faria
 
  * --([[http://trac.sagemath.org/ticket/18409|#18409]])-- closed sage 6.8: Dynatomic polynomial bug for fractional coefficients - Ben Hutz
 
