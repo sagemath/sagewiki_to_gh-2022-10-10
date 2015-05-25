@@ -73,11 +73,11 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
- * ([[http://trac.sagemath.org/ticket/18374|#18374]])-- closed: Inconsistency in dimension of total ideals. - Miguel Marco
+ * --([[http://trac.sagemath.org/ticket/18374|#18374]])-- closed sage 6.8: Inconsistency in dimension of total ideals. - Miguel Marco
 
- * ([[http://trac.sagemath.org/ticket/18281|#18281]])-- closed: implement critical point functionality including is_pcf for projective morphisms - Ben Hutz
+ * --([[http://trac.sagemath.org/ticket/18281|#18281]])-- closed sage 6.8: implement critical point functionality including is_pcf for projective morphisms - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/17282|#17282]])-- closed: Implementing Wehler K3 Surfaces - Joao Faria
+ * --([[http://trac.sagemath.org/ticket/17282|#17282]])-- closed sage 6.8: Implementing Wehler K3 Surfaces - Joao Faria
 
  * --([[http://trac.sagemath.org/ticket/18409|#18409]])-- closed sage 6.8: Dynatomic polynomial bug for fractional coefficients - Ben Hutz
 
