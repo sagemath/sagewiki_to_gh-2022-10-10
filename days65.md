@@ -72,7 +72,7 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Crystals of tableaux for the Lie superalgebra gl(m|n) (Salisbury)
  * improve NC-Grobner basis calculations, implement dual Quasi-Schur basis #18447 (Zabrocki)
  * Non-commutative version of Faugere's F5 algorithm in Sage (King)
- * Code test for satisfaction of $\mathcal A_\infty$-algebra relations (Fansler)
+ * Code test for satisfaction of $A_\infty$-algebra relations (Fansler)
 
 
 == Participants ==
