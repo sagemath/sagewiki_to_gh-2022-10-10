@@ -14,11 +14,9 @@ June 1-5, 2015, at the IMA, University of Minnesota, in Minneapolis, MN, USA.
 
 == Schedule ==
 
-All talks and coffee breaks will be in [[http://campusmap.ucdavis.edu/|Mathematical Sciences Building (MSB)]] 1147.
-Coding sprints will take place in MSB 1147, MSB 3240, MSB 3236, MSB 3106 (after 3pm on Wednesday).
+All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 
-
-||                 ||                  || Monday June 01, 2015 ||
+||                 ||                  || '''Monday June 01, 2015''' ||
 || 8:30am-9:00am   ||                  || Registration and Coffee ||
 || 9:00am-9:15am   ||                  || Welcome ||
 || 9:15am-10:00am  || Gregg Musiker    || Tutorial: Sage Introduction and Installation Assistance ||
@@ -31,7 +29,7 @@ Coding sprints will take place in MSB 1147, MSB 3240, MSB 3236, MSB 3106 (after 
 || 4:00pm-4:45pm   ||                  || Discussion: Introductions and Functionality Wish Lists ||
 || 4:45pm-5:45pm   ||                  || Group Meetings/Coding Sprints start ||
 || 6:00pm-8:30pm   ||                  || Social Hour at Stub and Herbs ||
-||                 ||                  || Tuesday June 02, 2015 ||
+||                 ||                  || '''Tuesday June 02, 2015''' ||
 || 8:30am-9:00am   ||                  || Coffee ||
 || 9:00am-10:00am  || Stella Salvatore || Tutorial: Contributing to Sage ||
 || 10:00am-11:00am ||                  || Coding Sprints ||
