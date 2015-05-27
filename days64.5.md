@@ -18,35 +18,31 @@ All talks and coffee breaks will be in [[http://campusmap.ucdavis.edu/|Mathemati
 Coding sprints will take place in MSB 1147, MSB 3240, MSB 3236, MSB 3106 (after 3pm on Wednesday).
 
 
-|||||| Tuesday 3/17 ||
-|| 9:30 AM |||| Coffee break ||
-|| 10 - 11 AM || Nicolas Thiéry || Introduction to Sage Development I ||
-|| 11 - 12 AM || Franco Saliola || Introduction to Sage Development II ||
-|| 12 - 12:30 PM |||| Introductions and discussions of projects ||
-|| 12:30 - 1:30 PM |||| Lunch ||
-|| 3:30 PM |||| Coffee break ||
-|||||| Wednesday 3/18 ||
-|| 9:30 AM |||| Coffee break ||
-|| 10 - 11 AM || Vivien Ripoll & Jean-Philippe Labbé || Computing and displaying infinite root systems ||
-|| 11 - 12 AM || Mark Shimozono || Implementation of double affine Hecke algebra in Sage ||
-|| 12 - 1:30 PM |||| Lunch ||
-|| 1:30-2:15pm|| Eric Gourgoulhon || Introduction to !SageManifolds ([[http://sagemanifolds.obspm.fr/doc/sagemanifolds-days64.pdf|slides]], [[http://sagemanifolds.obspm.fr/examples/html/SM_sphere_S2_days64.html|example worksheet]]) ||
-|| 3:30 PM |||| Coffee break ||
-|||||| Thursday 3/19 ||
-|| 9:30 AM |||| Coffee break ||
-|| 10 - 11 AM || Nathan Williams || Sage Days $dim(V_{\rho}(A_3))$ ||
-|| 11 - 12pm || Nicolas Thiéry || Writing a parent and a category in Sage: [[attachment:WritingAParentAndACategoryDemo.ipynb|Jupyter notebook]] [[attachment:WritingAParentAndACategoryDemo.pdf|pdf]] ||
-|| 12 - 1 PM |||| Lunch ||
-|| 3:30 PM |||| Coffee break ||
-|||||| Friday 3/20 ||
-|| 9:30 AM |||| Coffee break ||
-|| 10 AM || Everyone || [[http://en.wikipedia.org/wiki/Show_and_tell_(education)|Visualization Show & Tell]] ||
-||       ||          || [[http://wiki.sagemath.org/combinat/CoolPictures|Cool Pictures in combinatorics]] (add more!)||
-||       ||          || [[http://sagemanifolds.obspm.fr/gallery.html|Cool Pictures produced with SageManifolds]]||
-|| 12 - 1 PM |||| Lunch ||
-|| 3:30 PM |||| Coffee break ||
+||                 ||                  || Monday June 01, 2015 ||
+|| 8:30am-9:00am   ||                  || Registration and Coffee ||
+|| 9:00am-9:15am   ||                  || Welcome ||
+|| 9:15am-10:00am  || Gregg Musiker    || Tutorial: Sage Introduction and Installation Assistance ||
+|| 10:00am-11:00am || Dylan Rupel      || Tutorial: Current State of the Cluster Package ||
+|| 11:00am-11:30am ||                  || Break ||
+|| 11:30am-12:30pm || Harold Williams  || Cluster Algebras IV: Cluster Algebras from C to G ||
+|| 12:30pm-2:30pm  ||                  || Lunch ||
+|| 2:30pm-3:30pm   || Greg Muller      || Finite Order Approximations of Scattering Diagrams ||
+|| 3:30pm-4:00pm   ||                  || Break ||
+|| 4:00pm-4:45pm   ||                  || Discussion: Introductions and Functionality Wish Lists ||
+|| 4:45pm-5:45pm   ||                  || Group Meetings/Coding Sprints start ||
+|| 6:00pm-8:30pm   ||                  || Social Hour at Stub and Herbs ||
+||                 ||                  || Tuesday June 02, 2015 ||
+|| 8:30am-9:00am   ||                  || Coffee ||
+|| 9:00am-10:00am  || Stella Salvatore || Tutorial: Contributing to Sage ||
+|| 10:00am-11:00am ||                  || Coding Sprints ||
+|| 11:00am-11:10am ||                  || Group Photo ||
+|| 11:10am-11:30am ||                  || Break ||
+|| 11:30am-12:30pm || David Speyer     || Combinatorics of Cluster Structures on the Grassmannian ||
+|| 12:30pm-2:30pm  ||                  || Lunch ||
+|| 2:30pm-3:30pm   || Simon King       || An F5 Algorithm for Modules Over Path Algebra Quotients and the Computation of Loewy Layers ||
+|| 3:30pm-4:00pm   ||                  || Break ||
+|| 4:00pm-6:00pm   ||                  || Group Meetings and Coding Sprints ||
 
-All other time will be devoted to coding sprints.
 
 == Projects ==
 
@@ -77,7 +73,7 @@ All other time will be devoted to coding sprints.
   * Greg Muller, University of Michigan
   * Gregg Musiker, University of Minnesota
   * Vincent Pilaud, École Polytechnique
-  * Viviane PonsUniversité de Paris XI (Paris-Sud)
+  * Viviane Pons, Université de Paris XI (Paris-Sud)
   * Nathan Reading, North Carolina State University
   * Dylan Rupel, Northeastern University
   * Stella Salvatore, Università di Roma "La Sapienza"
