@@ -16,31 +16,58 @@ June 1-5, 2015, at the IMA, University of Minnesota, in Minneapolis, MN, USA.
 
 All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 
-||                 ||                  || '''Monday June 01, 2015''' ||
-|| 8:30am-9:00am   ||                  || Registration and Coffee ||
-|| 9:00am-9:15am   ||                  || Welcome ||
-|| 9:15am-10:00am  || Gregg Musiker    || Tutorial: Sage Introduction and Installation Assistance ||
-|| 10:00am-11:00am || Dylan Rupel      || Tutorial: Current State of the Cluster Package ||
-|| 11:00am-11:30am ||                  || Break ||
-|| 11:30am-12:30pm || Harold Williams  || Cluster Algebras IV: Cluster Algebras from C to G ||
-|| 12:30pm-2:30pm  ||                  || Lunch ||
-|| 2:30pm-3:30pm   || Greg Muller      || Finite Order Approximations of Scattering Diagrams ||
-|| 3:30pm-4:00pm   ||                  || Break ||
-|| 4:00pm-4:45pm   ||                  || Discussion: Introductions and Functionality Wish Lists ||
-|| 4:45pm-5:45pm   ||                  || Group Meetings/Coding Sprints start ||
-|| 6:00pm-8:30pm   ||                  || Social Hour at Stub and Herbs ||
-||                 ||                  || '''Tuesday June 02, 2015''' ||
-|| 8:30am-9:00am   ||                  || Coffee ||
-|| 9:00am-10:00am  || Stella Salvatore || Tutorial: Contributing to Sage ||
-|| 10:00am-11:00am ||                  || Coding Sprints ||
-|| 11:00am-11:10am ||                  || Group Photo ||
-|| 11:10am-11:30am ||                  || Break ||
-|| 11:30am-12:30pm || David Speyer     || Combinatorics of Cluster Structures on the Grassmannian ||
-|| 12:30pm-2:30pm  ||                  || Lunch ||
-|| 2:30pm-3:30pm   || Simon King       || An F5 Algorithm for Modules Over Path Algebra Quotients and the Computation of Loewy Layers ||
-|| 3:30pm-4:00pm   ||                  || Break ||
-|| 4:00pm-6:00pm   ||                  || Group Meetings and Coding Sprints ||
-
+||                   ||                  || '''Monday June 01, 2015''' ||
+|| 08:30am - 09:00am ||                  || Registration and Coffee ||
+|| 09:00am - 09:15am ||                  || Welcome ||
+|| 09:15am - 10:00am || Gregg Musiker    || Tutorial: Sage Introduction and Installation Assistance ||
+|| 10:00am - 11:00am || Dylan Rupel      || Tutorial: Current State of the Cluster Package ||
+|| 11:00am - 11:30am ||                  || Break ||
+|| 11:30am - 12:30pm || Harold Williams  || Cluster Algebras IV: Cluster Algebras from C to G ||
+|| 12:30pm - 02:30pm ||                  || Lunch ||
+|| 02:30pm - 03:30pm || Greg Muller      || Finite Order Approximations of Scattering Diagrams ||
+|| 03:30pm - 04:00pm ||                  || Break ||
+|| 04:00pm - 04:45pm ||                  || Discussion: Introductions and Functionality Wish Lists ||
+|| 04:45pm - 05:45pm ||                  || Group Meetings/Coding Sprints start ||
+|| 06:00pm - 08:30pm ||                  || Social Hour at Stub and Herbs ||
+||                   ||                  || '''Tuesday June 02, 2015''' ||
+|| 08:30am - 09:00am ||                  || Coffee ||
+|| 09:00am - 10:00am || Stella Salvatore || Tutorial: Contributing to Sage ||
+|| 10:00am - 11:00am ||                  || Coding Sprints ||
+|| 11:00am - 11:10am ||                  || Group Photo ||
+|| 11:10am - 11:30am ||                  || Break ||
+|| 11:30am - 12:30pm || David Speyer     || Combinatorics of Cluster Structures on the Grassmannian ||
+|| 12:30pm - 02:30pm ||                  || Lunch ||
+|| 02:30pm - 03:30pm || Simon King       || An F5 Algorithm for Modules Over Path Algebra Quotients and the Computation of Loewy Layers ||
+|| 03:30pm - 04:00pm ||                  || Break ||
+|| 04:00pm - 06:00pm ||                  || Group Meetings and Coding Sprints ||
+||                   ||                  || '''Wednesday June 03, 2015''' ||
+|| 08:30am - 09:00am ||                  || Coffee ||
+|| 09:00am - 10:00am || Nathan Reading   || Sortable Elements in Cluster-algebra Computations ||
+|| 10:00am - 11:00am ||                  || Coding Sprints ||
+|| 11:00am - 11:30am ||                  || Break ||
+|| 11:30am - 12:30pm ||                  || Coding Sprints ||
+|| 12:30pm - 02:30pm ||                  || Lunch ||
+|| 02:30pm - 03:30pm || Vincent Pilaud   || Compatibility Fans for Graphical Nested Complexes ||
+|| 03:30pm - 04:00pm ||                  || Break ||
+|| 04:00pm - 04:30pm ||                  || Discussion: Status Reports ||
+|| 04:30pm - 06:00pm ||                  || Group Meetings and Coding Sprints ||
+||                   ||                  || '''Thursday June 04, 2015''' ||
+|| 08:30am - 09:00am ||                  || Coffee ||
+|| 09:00am - 10:00am || Christian Stump  || Talk: Subword complexes in Sage ||
+|| 10:00am - 11:00am ||                  || Coding Sprints ||
+|| 11:00am - 11:30am ||                  || Break ||
+|| 11:30am - 12:30pm ||                  || Coding Sprints ||
+|| 12:30pm - 02:30pm ||                  || Lunch ||
+|| 02:30pm - 03:30pm ||                  || Lecture ||
+|| 03:30pm - 04:00pm ||                  || Break ||
+|| 04:00pm - 06:00pm ||                  || Group Meetings and Coding Sprints ||
+||                   ||                  || '''Friday June 05, 2015''' ||
+|| 08:30am - 09:00am ||                  || Coffee ||
+|| 09:00am - 10:30am ||                  || Coding Sprints ||
+|| 10:30am - 11:00am ||                  || Break ||
+|| 11:00am - 12:00pm ||                  || Coding Sprints ||
+|| 12:00pm - 02:00pm ||                  || Lunch ||
+|| 02:00pm - 03:00pm ||                  || Final Status Reports ||
 
 == Projects ==
 
