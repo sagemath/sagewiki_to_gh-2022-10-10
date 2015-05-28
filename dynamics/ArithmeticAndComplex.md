@@ -51,15 +51,15 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Rational Points on Subschemes || Implement an efficient rational points search on subschemes. Currently it is done by enumeration unless dim is 0 || || ||
  ||<|2> Polynomials || implement is_polynomial(). In dimension 1, this is the existence of a totally ramified fixed point. It would also be nice to determine the conjugation to move that fixed point to ifnty. || Medium || ||
  || specific functionality for regular polynomial endomorphisms of P^N || || ||
- ||<|3> Rational Maps || Indeterminancy locus || easy || ||
- || Dyammical degree || || ||
+ ||<|3> Rational Maps || Indeterminacy locus || easy || ||
+ || Dynamical degree || || ||
  || periodic and preperiodic points (projective and affine) || || ||
  ||<|2> Numerical Precision || implement Algorithm 4 from "Computing algebraic numbers of bounded height" by Doyle-Krumm to use in elements_of_bounded_height for number fields. This is a high priority since currently the precision has an effect on the output. Algorithm 4 is able to take precision into account. || Hard || High ||
  || use real interval field for floating point computations (in heights and possibly rational preperiodic point functions) || medium || ||
  || Attracting Cycles || Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles || || ||
  ||<|3> Moduli Space || is_conjugate() for morphisms and iterator over morphisms of fixed degree up to conjugacy. See Faber-Manes-Viray || medium || ||
  || reduced form of endomorphisms -  i.e., compute an `SL(2,Z)` transformation that makes the coefficients small. The simplest approach would be to "reduce" the binary form describing the fixed points or (if that's too degenerate) the points of period n for some small n. See [Stoll, Michael; Cremona, John E., On the reduction theory of binary forms. J. Reine Angew. Math. 565 (2003), 79–99.], which is fairly easy to implement and which would be useful to have in sage anyway. || medium || ||
- || Given two sets of N+2 points not N+1 of which co-hyerplaner, determine the conjugation that sends one set to the other || easy || ||
+ || Given two sets of N+2 points no N+1 of which co-hyperplaner, determine the conjugation that sends one set to the other || easy || ||
  || Non-Integral Domains || Make projective space work over non-integral domains. One method would be to make a valid point on which is valid for modulo all maximal ideals || || ||
  ||<|2> Documentation || fix all the white space issues in the projective and affine folders || easy || ||
  || Write Tutorials || ||
@@ -69,7 +69,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Dynamical Zeta Functions || Compute the dynamical zeta function || || ||
  ||<|2> Miscellaneous ||Implement a function which takes as input to rational functions $f(x)$ and $g(x)$, and determines whether or not $f^n=g^m$ for some integers $n,m \geq 1$. (Zieve, ICERM) || || ||
  || Chebyshev creator || easy || ||
- || Coercion || some kind of coersion model: if you have a map defined over QQ should you be able to take the image of a point over CC (i.e. somewhere you have a well defined embedding) without having to `change_ring()`. Something like this works for polynomials. This may or may not be a good idea, but if it can be done in a consistent manner it would improve usability in certain situations. || || ||
+ || Coercion || some kind of coercion model: if you have a map defined over QQ should you be able to take the image of a point over CC (i.e. somewhere you have a well defined embedding) without having to `change_ring()`. Something like this works for polynomials. This may or may not be a good idea, but if it can be done in a consistent manner it would improve usability in certain situations. || || ||
 
 
 == Complete ==
