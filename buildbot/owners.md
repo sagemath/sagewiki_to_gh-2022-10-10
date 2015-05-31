@@ -16,4 +16,5 @@ Bot names and owners:
     sage4             --> jdemeyer
     silence           --> ncohen
     ubuntu_vivid_64   --> tmonteil
+    zorn              --> ?
 }}}
