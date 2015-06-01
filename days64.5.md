@@ -71,6 +71,8 @@ All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 
 The starting point is the core implementation of cluster algebras as merged in Sage-5.9, see [[http://trac.sagemath.org/sage_trac/ticket/10298|#10298]], with possible new features discussen in spring 2013 in Minneapolis.
 
+=== Demo from Monday morning's Talk: ====
+
 === Topics ===
 
  Topics and goals for the week will be discussed the first day of the workshop. Below is a list of possible topics:
