@@ -73,6 +73,10 @@ The starting point is the core implementation of cluster algebras as merged in S
 
 === Demo from Monday morning's Talk: ====
 
+[[attachment:IMA Demo]]
+
+[[attachment:IMA Demo (Notebook)]]
+
 === Topics ===
 
  Topics and goals for the week will be discussed the first day of the workshop. Below is a list of possible topics:
