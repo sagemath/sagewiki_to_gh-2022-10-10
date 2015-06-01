@@ -93,16 +93,16 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Jonathan Lamar (U Colorado)
  * Aaron Lauve (Loyola Chicago)
  * Jake Levinson (U Michigan)
- * Ly
+ * Megan Ly (Boulder)
  * Dinakar Muthiah (U Toronto)
  * Amy Pang (LaCIM, UQAM)
  * Kyle Petersen (DePaul U, tentative)
  * Viviane Pons (LRI, U Paris-Sud)
- * Poudel
+ * Anup Poudel (Loyola)
  * Franco Saliola (UQAM)
  * Ben Salisbury (Central Michigan U)
  * Anne Schilling (UC Davis)
- * Schultze
+ * Adam Schultze (Loyola Chicago and SUNY Albany) 
  * George H. Seelinger (Loyola Chicago)
  * Mark Shimozono (Virginia Tech)
  * Bridget Tenner (DePaul U, tentative)
@@ -112,7 +112,6 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Yannic Vargas (UQAM)
  * Panupong Vichitkunakorn (U Illinois)
  * Mike Zabrocki (York U)
- * Zhou
 
 
 
