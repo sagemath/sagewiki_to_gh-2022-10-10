@@ -5,13 +5,6 @@
 
 June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicago, Ill., USA.
 
-#== Confirmed Speakers ==
-# * Nantel Bergeron (York U)
-# * Dinakar Muthiah (U Toronto)
-# * Ben Salisbury (Central Michigan U)
-# * Franco Saliola (UQAM)
-# * Anne Schilling (UC Davis)
-# * Mike Zabrocki (York U)
 
 == Tentative Schedule ==
 
