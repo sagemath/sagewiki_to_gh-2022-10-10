@@ -24,7 +24,7 @@ All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 || 11:00am - 11:30am ||                  || Break ||
 || 11:30am - 12:30pm || Harold Williams  || Cluster Algebras IV: Cluster Algebras from C to G ||
 || 12:30pm - 02:30pm ||                  || Lunch ||
-|| 02:30pm - 03:30pm || Greg Muller      || Finite Order Approximations of Scattering Diagrams ([[attachment:SageDaysSD.pdf|slides]],[[https://github.com/morilac/SageDaysSD|github]]) ||
+|| 02:30pm - 03:30pm || Greg Muller      || Finite Order Approximations of Scattering Diagrams ([[attachment:SageDaysSD.pdf|slides]],[[attachment:SDNotes(rough).pdf|notes]],[[https://github.com/morilac/SageDaysSD|github]]) ||
 || 03:30pm - 04:00pm ||                  || Break ||
 || 04:00pm - 04:45pm ||                  || Discussion: Introductions and Functionality Wish Lists ||
 || 04:45pm - 05:45pm ||                  || Group Meetings/Coding Sprints start ||
