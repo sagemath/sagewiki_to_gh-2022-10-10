@@ -95,9 +95,11 @@ The starting point is the core implementation of cluster algebras as merged in S
 
  * Allowing options to work with g-vectors, d-vectors, c-vectors directly rather than with cluster variables
 
+ * Cluster algebras as algebras
+
 ==== Other features ====
 
- * Scattering diagrams (visualization and algebraic computations of broken lines)
+ * Scattering diagrams (visualization and algebraic computations of broken lines, consistent completions)
 
  * Quantum cluster algebras
 
@@ -122,6 +124,12 @@ The starting point is the core implementation of cluster algebras as merged in S
  * Implement snake graph / matrix multiplication formulas for cluster algebras from surfaces and friezes. (Gregg) - http://trac.sagemath.org/ticket/16310
  Also see Dupont's sage code on friezes from http://www.math.jussieu.fr/~dupontg/files/strings.sage 
 
+ * Consider allowing flexible naming of cluster variables.
+
+ * Computing upper cluster algebras (Jacob Matherne, Greg Muller)
+
+ * Dilating quivers from tilings on torus (Gregg Musiker)
+
 ==== Other features, hard ====
 
  * Finish mutation type checking for affine D_n (try to dove-tail with student describing all affine B/C/etc. quiver types)
@@ -143,6 +151,22 @@ The starting point is the core implementation of cluster algebras as merged in S
  * LP algebras (Thomas Lam and Pasha Pylyavskyy with Gregg?)
 
  * Q-system and T-system calculations as in Di Francesco and Kedem's work
+
+ * Generalized minors in Kac-Moody algebras (Harold Williams, Salvatore Stella, Dylan Rupel)
+
+ * Cluster structures for Grassmannians and Plucker coordinates (David Speyer)
+
+ * interface to gap3/chevie: subword complexes, reflection groups, sorting (Christian Stump)
+
+ * How to efficiently visit all seeds within a fixed distance of an initial seed (Nathan Reading)
+
+ * Find sequence of mutations connecting two given seeds
+
+ * Add options to mutation_class() to restrict what types of mutations are allowed: sink/source mutation, urban renewal, green mutations (Gregg Musiker)
+
+ * Can we detect whether a quiver comes from a bicolored graph in a disc (or is mutation equivalent to one that does)? (Harold Williams)
+
+ * Various bases for cluster algebras (theta, greedy, standard, LLM)
 
 === Changes to the compendium ===
 
