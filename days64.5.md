@@ -73,7 +73,7 @@ The starting point is the core implementation of cluster algebras as merged in S
 
 === Demo from Monday morning's Talk: ====
 
-[[attachment:IMA Demo]]
+[[attachment:IMA-Demo.sagews]]
 
 [[attachment:IMA Demo (Notebook)]]
 
