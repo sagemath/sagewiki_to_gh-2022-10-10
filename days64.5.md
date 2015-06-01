@@ -19,7 +19,9 @@ All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 ||                   ||                  || '''Monday June 01, 2015''' ||
 || 08:30am - 09:00am ||                  || Registration and Coffee ||
 || 09:00am - 09:15am ||                  || Welcome ||
-|| 09:15am - 10:00am || Gregg Musiker    || Tutorial: Sage Introduction and Installation Assistance ||
+|| 09:15am - 10:00am || Gregg Musiker    || Tutorial: Sage Introduction and Installation Assistance||
+||                   ||                  ||    [[attachment:IMA-Demo.sagews]]  ||
+||                   ||                  ||    [[attachment:IMA Demo (Notebook)]]   ||
 || 10:00am - 11:00am || Dylan Rupel      || Tutorial: Current State of the Cluster Package ||
 || 11:00am - 11:30am ||                  || Break ||
 || 11:30am - 12:30pm || Harold Williams  || Cluster Algebras IV: Cluster Algebras from C to G ||
@@ -71,7 +73,7 @@ All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 
 The starting point is the core implementation of cluster algebras as merged in Sage-5.9, see [[http://trac.sagemath.org/sage_trac/ticket/10298|#10298]], with possible new features discussen in spring 2013 in Minneapolis.
 
-=== Demo from Monday morning's Talk: ====
+== Demo from Monday morning's Talk: ==
 
 [[attachment:IMA-Demo.sagews]]
 
