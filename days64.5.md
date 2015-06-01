@@ -20,7 +20,7 @@ All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 || 08:30am - 09:00am ||                  || Registration and Coffee ||
 || 09:00am - 09:15am ||                  || Welcome ||
 || 09:15am - 10:00am || Gregg Musiker    || Tutorial: Sage Introduction and Installation Assistance ([[attachment:IMA-Demo.sagews|cloud]], [[attachment:IMA Demo (Notebook)|notebook]])||
-|| 10:00am - 11:00am || Dylan Rupel      || Tutorial: Current State of the Cluster Package ||
+|| 10:00am - 11:00am || Dylan Rupel      || Tutorial: Current State of the Cluster Package [[attachment:DylanWorksheet|notebook]] ||
 || 11:00am - 11:30am ||                  || Break ||
 || 11:30am - 12:30pm || Harold Williams  || Cluster Algebras IV: Cluster Algebras from C to G ||
 || 12:30pm - 02:30pm ||                  || Lunch ||
