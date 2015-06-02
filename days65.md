@@ -5,6 +5,8 @@
 
 June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicago, Ill., USA.
 
+Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Rooms 123 & 124.
+
 
 == Tentative Schedule ==
 
@@ -15,9 +17,9 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
 || 10:15 ||
 || 10:30 ||
 || 10:45 ||
-|| 11:00 ||<|2 #6666FF> Project Intros ||<|4> Tutorial/Worksheets: Thiruvathukal+Albert ||<|4> Tutorial/Worksheets: Tingley ||<|4> Tutorial/Worksheets: Lauve ||<|4> Tutorial/Worksheets: open ||
+|| 11:00 ||<|2 #6666FF> Project Intros ||<|4> Tutorial: Thiruvathukal+Albert ||<|4> Tutorial: Tingley ||<|4> Tutorial: Lauve ||<|4> Tutorial: open ||
 || 11:15 ||
-|| 11:30 ||<|3> Tutorial/Worksheets: Doty ||
+|| 11:30 ||<|3> Tutorial: Doty ||
 || 11:45 ||
 || 12:00 ||<|8 #FFFFBB> Lunch ||<|28> Lunch / Free Afternoon ||<|8 #FFFFBB> Lunch ||<|3 #66FF66> Final Progress Reports ||
 || 12:15 ||<|7 #FFFFBB> Lunch ||
@@ -106,6 +108,41 @@ June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicag
  * Panupong Vichitkunakorn (U Illinois)
  * Mike Zabrocki (York U)
 
+
+== Abstracts ==
+||||<tablewidth="80%" style="background-color: #d63366; text-align: left; color: #FFFFFF; border:none;"> '''Monday''' ||
+||<style="width: 17%; text-align: left; border-left:none; border-right:none;"> '''Franco Saliola''' ||<style="width: 63%; text-align: left;  border-left:none; border-right:none;"> ''Let's Start Using Sage!'' ||
+||||<( style="border:none;"> A whirlwind tour of what Sage can and cannot do (and why you should care).<<BR>>&nbsp; ||
+||<style="text-align: left;  border-left:none; border-right:none;"> '''Stephen Doty''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Getting Started with the Sagemath Cloud'' ||
+||||<( style="border:none;"> Sagemath Cloud is a recent project to make Sage (and much more: e.g., Python, R, LaTeX, Terminal) available in any modern browser, without the need to install anything on the computer. This will be an introduction, with no prerequisites.<<BR>>&nbsp; ||
+||<style="text-align: left;  border-left:none; border-right:none;"> '''Dinakar Muthiah''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''TBA'' ||
+||||<( style="border:none;"> ...<<BR>>&nbsp; ||
+||<style="text-align: left;  border-left:none; border-right:none;"> '''Nantel Bergeron''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Homogeneous, Non-commutative Gröbner Bases'' ||
+||||<( style="border:none;"> Computing a non-commutative Gröbner basis takes an extremely long time. I will present the algorithm and indicate where it could be parallelized...<<BR>>&nbsp; ||
+||||<style="background-color: #d63366; text-align: left; color: #FFFFFF; border:none;"> '''Tuesday''' ||
+||<style="text-align: left;  border-left:none; border-right:none;"> '''Anne Schilling''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Algebraic Combinatorics in Sage: How to use it, make it, and get it into Sage'' ||
+||||<( style="border:none;"> We will very briefly discuss the history of combinatorics in Sage and give some examples on how to use some features like crystals, permutations and words. We will then implement some new missing features together and see how to get them into Sage.<<BR>>&nbsp; ||
+||<style="text-align: left;  border-left:none; border-right:none;"> '''Mark A. & George T.''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Code collaboration in SAGE and other open source projects'' ||
+||||<( style="border:none;"> We will have a brief introduction to the typical organizational structures and technologies used by large-scale open source projects and how one can contribute at various levels in each. This will be followed by a tutorial for working collaboratively on code to contribute directly to the SAGE environment.<<BR>>&nbsp; ||
+||<style="text-align: left;  border-left:none; border-right:none;"> '''Mike Zabrocki''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''How to program a combinatorial Hopf algebra (with bases)'' ||
+||||<( style="border:none;"> I will review the structure of the code for combinatorial Hopf algebras (symmetric functions/partitions, quasi-symmetric functions/compositions, non-commutative symmetric functions/compositions, symmetric functions in non-commuting variables/set partitions) that are already in Sage and explain how to create a new combinatorial Hopf algebra on another set of combinatorial objects.  I will also point out the ongoing work on open tickets to implement other combinatorial Hopf algebras (packed words #15611, FQSym, WQSym, PQSym #13793, PBT/Loday-Ronco #13855)<<BR>>&nbsp; ||
+||||<style="background-color: #d63366; text-align: left; color: #FFFFFF; border:none;"> '''Wednesday''' ||
+||<style="text-align: left;  border-left:none; border-right:none;"> '''Ben Salisbury''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''TBA'' ||
+||||<( style="border:none;"> ...<<BR>>&nbsp; ||
+||<style="text-align: left;  border-left:none; border-right:none;"> '''Peter Tingley''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''TBA'' ||
+||||<( style="border:none;"> ...<<BR>>&nbsp; ||
+||||<style="background-color: #d63366; text-align: left; color: #FFFFFF; border:none;"> '''Thursday''' ||
+||<style="text-align: left;  border-left:none; border-right:none;"> '''Simon King''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''An F5 algorithm for modules over path algebra quotients and the computation of Loewy layers'' ||
+||||<( style="border:none;"> The F5 algorithm is a signature based algorithm to compute Gröbner bases for modules over polynomial rings. The F5 signature allows to exploit commutativity relations in order to avoid redundant computations. When considering modules over path algebra quotients, one can instead exploit the quotient relations to avoid redundancies.<<BR>>&nbsp;<<BR>>
+For my applications, it is important that Gröbner bases are actually not more than a by-product of the F5 algorithm. Indeed, the F5 signature provides additional information: If the quotient algebra is a basic algebra and if a negative degree monomial ordering is used, then the F5 signature allows to read off the Loewy layers of the module.<<BR>>&nbsp; ||
+||<style="text-align: left;  border-left:none; border-right:none;"> '''Aaron Lauve''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Convolution Powers: step by step'' ||
+||||<( style="border:none;"> I share my personal story (I want to say "natural progression" but I'm sure it's nothing of the kind) from perceived gap in the Sage code for Hopf algebras to sage-trac ticket submission.<<BR>>&nbsp; ||
+||<style="text-align: left;  border-left:none; border-right:none;"> '''George Seelinger''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''TBA'' ||
+||||<( style="border:none;"> ... ||
+||<style="text-align: left;  border-left:none; border-right:none;"> '''Jonathan Judge''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Root Multiplicities for Kac-Moody Algebras in Sage'' ||
+||||<( style="border:none;"> Root multiplicities are fundamental data in the structure theory of Kac-Moody algebras. We will give a brief survey on root multiplicities that highlights the differences between finite, affine, and indefinite types. Then we will describe the two main ways that these multiplicities are computed, namely Berman-Moody's formula and Peterson's recurrent formula. Lastly, we demonstrate an implementation of Peterson's recurrent formula in Sage.<<BR>>&nbsp; ||
+||||<style="background-color: #d63366; text-align: left; color: #FFFFFF; border:none;"> '''Friday''' ||
+||<style="text-align: left;  border-left:none; border-right:none;"> '''open''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''...''<<BR>>&nbsp; ||
 
 
 == Organizers ==
