@@ -49,7 +49,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
 || 18:15 ||
 || 18:30 ||
 || 18:45 ||
-|| 19:00 ||<:> Goose Island Brew Pub ||
+|| 19:00 ||<:> [[http://www.gooseislandbrewpubs.com/home-clybourn/|Goose Island Brew Pub]] ||
 
 
 == Main Focci ==
