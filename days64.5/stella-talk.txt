@@ -1,0 +1,325 @@
+|Sage development in a (big) nutshell| 
+|------------------------------------|
+
+Fact: sage is BIG!
+
+	The usual install takes nearly 6G and there are hundreds of people
+	contributing to its development.
+
+Need tools to keep development under control
+
+	* *Git*  a (very good) Version Control System
+	* *Trac* a web based issue tracker
+
+
+|GIT - the stupid content tracker|
+|--------------------------------|
+
+- What is it for?
+
+	In layman terms it keeps track of all the different versions of your
+	files (including history and tests) and allows you to jump in between them.
+	
+	It lets you share your files with other authors and keeps all the
+	modifications distinct and traceable
+
+	It is used in the development of many pieces of software 
+
+	Works well with all text files: try it to maintain your LaTeX projects!!
+	
+- How does it work? (really abridged version)
+	
+	The versions of your files are organized in a tree structure
+
+		Nodes are called *commits*
+
+		Each node belong to a *branch*
+		
+		The current commit is called *HEAD*
+
+	- Example:
+
+	$ cd /tmp
+	$ mkdir git-example
+	$ cd git-example
+	$ git init
+	Initialized empty Git repository in /tmp/git-example/.git/
+	$ git status
+	On branch master
+
+	Initial commit
+
+	nothing to commit (create/copy files and use "git add" to track)
+	$ echo "Some text" > a_file
+	$ git status
+	On branch master
+
+	Initial commit
+	
+	Untracked files:
+	  (use "git add <file>..." to include in what will be committed)
+	
+	        a_file
+	
+	nothing added to commit but untracked files present (use "git add" to track)
+	
+	$ git add a_file
+	$ git status 
+	On branch master
+
+	Initial commit
+
+	Changes to be committed:
+	  (use "git rm --cached <file>..." to unstage)
+
+        	new file:   a_file
+
+	$ git commit -m "This is the first commit (lets call it A)"
+	[master (root-commit) 9757e8b] This is the first commit (lets call it A)
+	 1 file changed, 1 insertion(+)
+ 	 create mode 100644 a_file
+
+	The situation righ now is this
+	
+		master ---- *A* --
+
+	$ echo "Some more text" >> a_file
+	$ echo "Even more text" > another_file
+	$ git status
+	On branch master
+	Changes not staged for commit:
+	  (use "git add <file>..." to update what will be committed)
+	  (use "git checkout -- <file>..." to discard changes in working directory)
+	
+	        modified:   a_file
+	
+	Untracked files:
+	  (use "git add <file>..." to include in what will be committed)
+	
+	        another_file
+	
+	no changes added to commit (use "git add" and/or "git commit -a")
+	
+	$ git add a_file another_file
+	$ git commit -m "Second commit (This is B)"
+	[master 2da3dee] Second commit (This is B)
+	 2 files changed, 2 insertions(+)
+	 create mode 100644 another_file
+
+	Now the situation is this
+		
+		master ---- A ---- *B* --
+
+	$ git checkout -b another_branch
+	Switched to a new branch 'another_branch'
+	$ echo "Third text" >> a_file
+	$ git commit -a -m "Third commit (This is C)"
+	[another_branch 212e815] Third commit (This is C)
+	 1 file changed, 1 insertion(+)
+
+	Now the situation is
+
+		master ---- A ---- B
+				    \
+		another_branch	     *C* --
+
+	$ echo  "Once more" >> a_file
+	$ git commit -a -m "This commit is D"
+	[another_branch 5073aeb] This commit is D
+	 1 file changed, 1 insertion(+)
+
+	Now the situation is
+
+		master ---- A ---- B 
+				    \
+		another_branch	     C ---- *D* --
+
+	$ git checkout master
+	$ echo "Yet some more text" >> another_file
+	$ git commit -a -m "This commit is E"
+	[master b6c0727] This commit is E
+	 1 file changed, 1 insertion(+)
+
+	Now the situation is
+
+		master ---- A ---- B ---- *E* --
+				    \
+		another_branch	     C ---- D
+
+	
+	$ git merge another_branch
+	Merge made by the 'recursive' strategy.
+	 a_file | 2 ++
+	 1 file changed, 2 insertions(+)
+	
+	
+	Finally the situation is
+
+		master ---- A ---- B ---- E ---- *F* --
+				    \		 /
+		another_branch	     C ---- D --
+
+		
+
+|Trac Server|
+|-----------|
+- What is it for?
+	
+	It is used to centralize and organize sage development
+
+	It provides:
+		
+		bug tracking
+		
+		new feature development
+
+		peer review
+
+- How does it work?
+	
+	Each task (bug report, new feature, etc) is assigned a *ticket*
+
+	Each ticket is reviewed before being accepted into sage 
+
+
+- How do I get an account?
+	  
+	Write an e-mail to *sage-trac-account@googlegroups.com* containing:
+	
+		your full name
+		preferred username
+		contact email
+		the reason for needing a trac account
+
+- How do I set up trac to know my computer?
+
+	- instal git-trac (not really needed but makes life easyer)
+	$ git clone https://github.com/sagemath/git-trac-command.git
+	$ cd git-trac-command
+	$ sudo python setup.py install
+	
+	- setup sage
+	$ cd /path/to/your/sage/install
+	$ git trac config --user USERNAME --pass 'PASSWORD'
+
+	- upload your SSH public key to the trac server:
+
+	$ ssh-keygen
+
+	Go to http://trac.sagemath.org
+	Log in with your trac username/password
+	Click on "Preferences"
+	Go to the "SSH Keys" tab
+	Paste the content of your public key file (e.g. ~/.ssh/id_rsa.pub)
+	Click on "Save changes"
+
+	- test it out
+
+	$ ssh git@trac.sagemath.org info
+
+
+|Working example|
+|---------------|
+
+- CluserSeed does not know how to compute d-vectors
+
+	sage: B = matrix([[0,-1],[1,0]])
+	sage: S = ClusterSeed(B)
+
+	sage: S?
+
+	- Find out where it is defined from  "String form"
+
+	- Have a look at the file
+
+	$ vim src/sage/combinat/cluster_algebra_quiver/cluster_seed.py
+
+	- Create new branch and a new ticket
+
+	$ git trac create "Add d-vectors"
+	
+	- start doing edits
+
+	$ vim src/sage/combinat/cluster_algebra_quiver/cluster_seed.py
+
+	- attach file to keep track of results (caveat: this may give problems
+	  when loading modules or doing comparisons)
+	
+	sage: cd /opt/sage/src/sage/combinat/cluster_algebra_quiver/
+	sage: %attach cluster_seed.py
+
+	607G 
+	:read ~/sage-days/code-1.py
+
+	- Test 
+
+	add documentation
+	:read ~/sage-days/code-1.5.py
+
+	- Save and commit
+
+	$ git commit -a -m "Add d-vector to ClusterSeed"
+	
+	- TEST IT
+
+	$ sage -b -t src/sage/combinat/cluster_algebra_quiver/cluster_seed.py
+
+	- Push changes to trac server
+
+	$ git trac push
+
+	- Play with ticket
+	
+	$ git trac browse
+
+	- More edits
+	
+	$ vim src/sage/combinat/cluster_algebra_quiver/cluster_seed.py
+
+	625G
+	:read ~/sage-days/code-2.py
+
+	$ git commit -a -m "Add d-matrix to ClusterSeed"
+	$ sage -b -t src/sage/combinat/cluster_algebra_quiver/cluster_seed.py
+	$ git trac push
+	
+	- Open it up for review
+	$ git trac browse
+
+	-------------------------------------------------------------
+	$ git checkout develop
+
+	- Review
+
+	$ git trac checkout #ticket
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
