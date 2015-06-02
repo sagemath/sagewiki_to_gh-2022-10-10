@@ -111,7 +111,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
 
 == Abstracts ==
 ||||<tablewidth="80%" style="background-color: #d63366; text-align: left; color: #FFFFFF; border:none;"> '''Monday''' ||
-||<style="width: 17%; text-align: left; border-left:none; border-right:none;"> <<Anchor(Saliola)>>'''Franco Saliola''' ||<style="width: 63%; text-align: left;  border-left:none; border-right:none;"> ''Let's Start Using Sage!'' ||
+||<style="width: 13%; text-align: left; border-left:none; border-right:none;"> <<Anchor(Saliola)>>'''Franco Saliola''' ||<style="width: 67%; text-align: left;  border-left:none; border-right:none;"> ''Let's Start Using Sage!'' ||
 ||||<( style="border:none;"> A whirlwind tour of what Sage can and cannot do (and why you should care).<<BR>>&nbsp; ||
 ||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Doty)>>'''Stephen Doty''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Getting Started with the Sagemath Cloud'' ||
 ||||<( style="border:none;"> Sagemath Cloud is a recent project to make Sage (and much more: e.g., Python, R, LaTeX, Terminal) available in any modern browser, without the need to install anything on the computer. This will be an introduction, with no prerequisites.<<BR>>&nbsp; ||
