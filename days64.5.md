@@ -31,7 +31,7 @@ All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 || 06:00pm - 08:30pm ||                  || Social Hour at Stub and Herbs ||
 ||                   ||                  || '''Tuesday June 02, 2015''' ||
 || 08:30am - 09:00am ||                  || Coffee ||
-|| 09:00am - 10:00am || Stella Salvatore || Tutorial: Contributing to Sage ||
+|| 09:00am - 10:00am || Stella Salvatore || Tutorial: Contributing to Sage ([[attachment:stella-slides.txt|slides]])||
 || 10:00am - 11:00am ||                  || Coding Sprints ||
 || 11:00am - 11:10am ||                  || Group Photo ||
 || 11:10am - 11:30am ||                  || Break ||
