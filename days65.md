@@ -127,8 +127,8 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
 ||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Zabrocki)>>'''Mike Zabrocki''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''How to program a combinatorial Hopf algebra (with bases)'' ||
 ||||<( style="border:none;"> I will review the structure of the code for combinatorial Hopf algebras (symmetric functions/partitions, quasi-symmetric functions/compositions, non-commutative symmetric functions/compositions, symmetric functions in non-commuting variables/set partitions) that are already in Sage and explain how to create a new combinatorial Hopf algebra on another set of combinatorial objects.  I will also point out the ongoing work on open tickets to implement other combinatorial Hopf algebras (packed words #15611, FQSym, WQSym, PQSym #13793, PBT/Loday-Ronco #13855)<<BR>>&nbsp; ||
 ||||<style="background-color: #d63366; text-align: left; color: #FFFFFF; border:none;"> '''Wednesday''' ||
-||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Salisbury)>>'''Ben Salisbury''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''TBA'' ||
-||||<( style="border:none;"> ...<<BR>>&nbsp; ||
+||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Salisbury)>>'''Ben Salisbury''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Affine crystals in Sage'' ||
+||||<( style="border:none;"> I will give a brief overview of affine crystals (both irreducible highest weight affine crystals and affine Verma crytals) before discussing certain implementations of these crystals in Sage.  I will also point to some current Sage work in this area as well as possible extensions beyond.<<BR>>&nbsp; ||
 ||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Tingley)>>'''Peter Tingley''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''TBA'' ||
 ||||<( style="border:none;"> ...<<BR>>&nbsp; ||
 ||||<style="background-color: #d63366; text-align: left; color: #FFFFFF; border:none;"> '''Thursday''' ||
