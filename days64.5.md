@@ -96,7 +96,7 @@ The starting point is the core implementation of cluster algebras as merged in S
   - Dylan
   - Florian 
   - Mandy
-  - Jesse
+  - Jesse Levitt
   - Chen
 
  * Finite order scattering diagrams
