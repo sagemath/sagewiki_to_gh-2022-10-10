@@ -85,11 +85,15 @@ The starting point is the core implementation of cluster algebras as merged in S
 
  * Implementing g-vectors, c-vectors and F-polynomials without cluster mutation; possibly replace mutation
 
+ - Gregg Musiker
+
  * Quantum cluster algebras
 
  * Finite order cluster algebras
 
  * Flexibility to name cluster variables; perhaps label internally by g-vectors?
+
+- Gregg Musiker
 
  * Considering mutation sequences of a restricted type: Sink/source, urban renewal, green
 
