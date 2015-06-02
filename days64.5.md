@@ -81,6 +81,24 @@ The starting point is the core implementation of cluster algebras as merged in S
 
  Topics and goals for the week will be discussed the first day of the workshop. Below is a list of possible topics:
 
+=== Topics from first feature meeting (6+ votes) ===
+
+ * Implementing g-vectors, c-vectors and F-polynomials without cluster mutation; possibly replace mutation
+
+ * Quantum cluster algebras
+
+ * Finite order cluster algebras
+
+ * Flexibility to name cluster variables; perhaps label internally by g-vectors?
+
+ * Considering mutation sequences of a restricted type: Sink/source, urban renewal, green
+
+ * Presenting upper cluster algebras
+
+ * Interface to gap3/chevie; subword complexes, reflection groups, and sorting
+
+ * Path algebra arithmetic
+
 ==== Important features ====
 
  * Allow labellings of the vertices of quivers and cluster seeds (i.e., provide a dict that contains this information, and which is used all over to work with cluster seeds)
@@ -167,24 +185,6 @@ The starting point is the core implementation of cluster algebras as merged in S
  * Can we detect whether a quiver comes from a bicolored graph in a disc (or is mutation equivalent to one that does)? (Harold Williams)
 
  * Various bases for cluster algebras (theta, greedy, standard, LLM)
-
-=== Topics from first feature meeting (6+ votes) ===
-
- * Implementing g-vectors, c-vectors and F-polynomials without cluster mutation; possibly replace mutation
-
- * Quantum cluster algebras
-
- * Finite order cluster algebras
-
- * Flexibility to name cluster variables; perhaps label internally by g-vectors?
-
- * Considering mutation sequences of a restricted type: Sink/source, urban renewal, green
-
- * Presenting upper cluster algebras
-
- * Interface to gap3/chevie; subword complexes, reflection groups, and sorting
-
- * Path algebra arithmetic
 
 === Changes to the compendium ===
 
