@@ -135,7 +135,7 @@ The starting point is the core implementation of cluster algebras as merged in S
 
  * Interface to gap3/chevie; subword complexes, reflection groups, and sorting
   - Christian
-  - Vincent
+  - Vincent Pilaud
   - Simon
   - Aram 
   - Salomon
