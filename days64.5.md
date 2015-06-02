@@ -84,25 +84,73 @@ The starting point is the core implementation of cluster algebras as merged in S
 === Topics from first feature meeting (6+ votes) ===
 
  * Implementing g-vectors, c-vectors and F-polynomials without cluster mutation; possibly replace mutation
-
- - Gregg Musiker
+  - Gregg Musiker
+  - Dylan Rupel
+  - Jesse Levitt
+  - Greg Muller
+  - Salvadore Stela
+  - Harold
+  - Natan
 
  * Quantum cluster algebras
+  - Dylan
+  - Florian 
+  - Mandy
+  - Jesse
+  - Chen
 
- * Finite order cluster algebras
+ * Finite order scattering diagrams
+  - Salvatore Stella
+  - Greg
+  - Dylan
+  - Mandy
+  - Gregg
+  - Erick
+  - Jacob
+  - Trey
+  - Harold
 
  * Flexibility to name cluster variables; perhaps label internally by g-vectors?
-
-- Gregg Musiker
+  - Gregg Musiker
+  - David
+  - Christian
+  - Panupong
+  - Chris
+  - Anna
 
  * Considering mutation sequences of a restricted type: Sink/source, urban renewal, green
+  - Salvatore Stella
+  - Aram
+  - Matt
+  - Eric
+  - Gregg
+  - Jan
 
  * Presenting upper cluster algebras
+  - Harold
+  - Greg
+  - Jacob
+  - Matt
+  - Natan
 
  * Interface to gap3/chevie; subword complexes, reflection groups, and sorting
+  - Christian
+  - Vincent
+  - Simon
+  - Aram 
+  - Salomon
+  - Nathan
+  - Viviane
 
  * Path algebra arithmetic
-
+  - Simon
+  - Christian
+  - Salomon
+  - Anna 
+  - Chen
+  - Trey
+  - Jacob
+  - Eric
 ==== Important features ====
 
  * Allow labellings of the vertices of quivers and cluster seeds (i.e., provide a dict that contains this information, and which is used all over to work with cluster seeds)
