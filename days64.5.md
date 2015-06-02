@@ -37,7 +37,7 @@ All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 || 11:10am - 11:30am ||                  || Break ||
 || 11:30am - 12:30pm || David Speyer     || Combinatorics of Cluster Structures on the Grassmannian ([[attachment:SpeyerSlides.pdf|slides]]) ||
 || 12:30pm - 02:30pm ||                  || Lunch ||
-|| 02:30pm - 03:30pm || Simon King       || An F5 Algorithm for Modules Over Path Algebra Quotients and the Computation of Loewy Layers ||
+|| 02:30pm - 03:30pm || Simon King       || An F5 Algorithm for Modules Over Path Algebra Quotients and the Computation of Loewy Layers ([[attachment:F5Loewy.pdf|slides]], [[http://trac.sagemath.org/sage_trac/ticket/17435|#17435]]||
 || 03:30pm - 04:00pm ||                  || Break ||
 || 04:00pm - 06:00pm ||                  || Group Meetings and Coding Sprints ||
 ||                   ||                  || '''Wednesday June 03, 2015''' ||
