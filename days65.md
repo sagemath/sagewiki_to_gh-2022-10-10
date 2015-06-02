@@ -137,7 +137,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
 ||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Lauve)>>'''Aaron Lauve''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Convolution Powers: step by step'' ||
 ||||<( style="border:none;"> I share my personal story (I want to say "natural progression" but I'm sure it's nothing of the kind) from perceived gap in the Sage code for Hopf algebras to sage-trac ticket submission.<<BR>>&nbsp; ||
 ||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Seelinger)>>'''George Seelinger''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''TBA'' ||
-||||<( style="border:none;"> ... ||
+||||<( style="border:none;"> ...<<BR>>&nbsp; ||
 ||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Judge)>>'''Jonathan Judge''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Root Multiplicities for Kac-Moody Algebras in Sage'' ||
 ||||<( style="border:none;"> Root multiplicities are fundamental data in the structure theory of Kac-Moody algebras. We will give a brief survey on root multiplicities that highlights the differences between finite, affine, and indefinite types. Then we will describe the two main ways that these multiplicities are computed, namely Berman-Moody's formula and Peterson's recurrent formula. Lastly, we demonstrate an implementation of Peterson's recurrent formula in Sage.<<BR>>&nbsp; ||
 ||||<style="background-color: #d63366; text-align: left; color: #FFFFFF; border:none;"> '''Friday''' ||
