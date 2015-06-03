@@ -1,6 +1,6 @@
 = Sage Days 64.5: Cluster Algebras =
 
-The official webpage of the meeting is at the [[http://www.ima.umn.edu/2013-2014/SW6.1-5.15|IMA website]]. If you want to know who was physically participating, check out our [[GroupPhoto|group photo]].
+The official webpage of the meeting is at the [[http://www.ima.umn.edu/2013-2014/SW6.1-5.15|IMA website]]. If you want to know who was physically participating, check out our [[attachment:GroupPhoto|group photo]].
 
 == General Information ==
 
