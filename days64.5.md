@@ -53,12 +53,13 @@ All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 || 04:30pm - 06:00pm ||                  || Group Meetings and Coding Sprints ||
 ||                   ||                  || '''Thursday June 04, 2015''' ||
 || 08:30am - 09:00am ||                  || Coffee ||
-|| 09:00am - 10:00am || Christian Stump  || Talk: Subword complexes in Sage ||
+|| 09:00am - 10:00am || Christian Stump  || Talk: Subword complexes ||
 || 10:00am - 11:00am ||                  || Coding Sprints ||
 || 11:00am - 11:30am ||                  || Break ||
 || 11:30am - 12:30pm ||                  || Coding Sprints ||
 || 12:30pm - 02:30pm ||                  || Lunch ||
-|| 02:30pm - 03:30pm ||                  || Lecture ||
+|| 02:30pm - 02:45pm || Florian Gellert  || Short presentation on the {{{Sage cell}}} ||
+|| 02:45pm - 03:30pm ||                  || Coding Sprints ||
 || 03:30pm - 04:00pm ||                  || Break ||
 || 04:00pm - 06:00pm ||                  || Group Meetings and Coding Sprints ||
 ||                   ||                  || '''Friday June 05, 2015''' ||
