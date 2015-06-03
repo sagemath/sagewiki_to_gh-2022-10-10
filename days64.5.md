@@ -82,6 +82,36 @@ The starting point is the core implementation of cluster algebras as merged in S
 
  Topics and goals for the week will be discussed the first day of the workshop. Below is a list of possible topics:
 
+
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+=== Progress Report on Wednesday ===
+
+* Salvatore, Dylan: Re-implementing ClusterSeeds using F-polys and g-vectors.  Also, implementing Tropical Semifields 
+
+* Jesse, Chris - Add modularity so that one can compute certain cluster seed quantities without others 
+
+* Gregg, Chris, Jesse, Emily - Related to above, allowing other names for cluster variables.  (Goal is to merge all three of these pieces together to have trac tickets rewriting ClusterSeed)
+
+* Simon and ??? - Working on F5 algorithm, have a ticket for review
+
+* Anna, Emily - fixed bug in snake graphs and triangulation
+
+* Jan, Vivianne - mutation analyzer, using functions to only mutate at certain type of vertices 18594
+
+* Greg, Jacob, Matt, ?? - implementing upper cluster algebra presentation algorithm but saturation is computing a quotient ideal that is time intensive.  Okay for ranks 4 or so
+
+* Christian - Chevee code in progress
+
+* Chris and David - code for weakly separated sets and visualization
+
+* Greg, Mandy, Eric, Trey - working with Greg's stereographic projection, modeling them internally where they intersect
+
+* Florian - added class for Quantum Tori
+
+
+---- /!\ '''End of edit conflict''' ----
 === Topics from first feature meeting (6+ votes) ===
 
  * Implementing g-vectors, c-vectors and F-polynomials without cluster mutation; possibly replace mutation
