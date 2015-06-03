@@ -89,6 +89,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
  * Aaron Lauve (Loyola Chicago)
  * Jake Levinson (U Michigan)
  * Megan Ly (Boulder)
+ * Peter McNamara (U Queensland, Australia)
  * Dinakar Muthiah (U Toronto)
  * Amy Pang (LaCIM, UQAM)
  * Kyle Petersen (DePaul U, tentative)
