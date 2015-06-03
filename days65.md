@@ -11,7 +11,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
 == Tentative Schedule ==
 
 ||<tablewidth="80%"> &nbsp; ||<:17%> '''Mon''' ||<:17%> '''Tue''' ||<:17%> '''Wed''' ||<:17%> '''Thu''' ||<:17%> '''Fri''' ||
-|| 9:30 ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||
+|| 9:30 ||<|2 #FFFF66> Coffee & Light Breakfast ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||
 || 9:45 ||
 || 10:00 ||<|4 #BBBBFF> [[#Saliola|Saliola]] ||<|4 #BBBBFF> [[#Schilling|Schilling]] ||<|4 #BBBBFF> [[#Salisbury|Salisbury]] ||<|4 #BBBBFF> [[#King|King]] ||<|4 #BBBBFF> open ||
 || 10:15 ||
