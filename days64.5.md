@@ -1,6 +1,6 @@
 = Sage Days 64.5: Cluster Algebras =
 
-The official webpage of the meeting is at the [[http://www.ima.umn.edu/2013-2014/SW6.1-5.15|IMA website]]. If you want to know who was physically participating, check out our [[attachment:GroupPhoto|group photo]].
+The official webpage of the meeting is at the [[http://www.ima.umn.edu/2013-2014/SW6.1-5.15|IMA website]]. If you want to know who was physically participating, check out our [[attachment:GroupPhoto.jpg|group photo]].
 
 == General Information ==
 
@@ -42,7 +42,7 @@ All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 || 04:00pm - 06:00pm ||                  || Group Meetings and Coding Sprints ||
 ||                   ||                  || '''Wednesday June 03, 2015''' ||
 || 08:30am - 09:00am ||                  || Coffee ||
-|| 09:00am - 10:00am || Nathan Reading   || Sortable Elements in Cluster-algebra Computations [[attachment:Reading|board with things to know]] ||
+|| 09:00am - 10:00am || Nathan Reading   || Sortable Elements in Cluster-algebra Computations [[attachment:Reading.jpg|board with things to know]] ||
 || 10:00am - 11:00am ||                  || Coding Sprints ||
 || 11:00am - 11:30am ||                  || Break ||
 || 11:30am - 12:30pm ||                  || Coding Sprints ||
