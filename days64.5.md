@@ -42,7 +42,7 @@ All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 || 04:00pm - 06:00pm ||                  || Group Meetings and Coding Sprints ||
 ||                   ||                  || '''Wednesday June 03, 2015''' ||
 || 08:30am - 09:00am ||                  || Coffee ||
-|| 09:00am - 10:00am || Nathan Reading   || Sortable Elements in Cluster-algebra Computations [[attachment:Reading.pdf|board with things to know]] ||
+|| 09:00am - 10:00am || Nathan Reading   || Sortable Elements in Cluster-algebra Computations [[attachment:Reading|board with things to know]] ||
 || 10:00am - 11:00am ||                  || Coding Sprints ||
 || 11:00am - 11:30am ||                  || Break ||
 || 11:30am - 12:30pm ||                  || Coding Sprints ||
