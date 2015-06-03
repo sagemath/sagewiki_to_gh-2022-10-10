@@ -112,7 +112,7 @@ The starting point is the core implementation of cluster algebras as merged in S
 
  * Flexibility to name cluster variables; perhaps label internally by g-vectors?
   - Gregg Musiker
-  - David
+  - David Speyer
   - Christian
   - Panupong
   - Chris
