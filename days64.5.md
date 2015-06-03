@@ -82,10 +82,6 @@ The starting point is the core implementation of cluster algebras as merged in S
 
  Topics and goals for the week will be discussed the first day of the workshop. Below is a list of possible topics:
 
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
 === Progress Report on Wednesday ===
 
 * Salvatore, Dylan: Re-implementing ClusterSeeds using F-polys and g-vectors.  Also, implementing Tropical Semifields 
@@ -98,7 +94,7 @@ The starting point is the core implementation of cluster algebras as merged in S
 
 * Anna, Emily - fixed bug in snake graphs and triangulation
 
-* Jan, Vivianne - mutation analyzer, using functions to only mutate at certain type of vertices 18594
+* Aram, Vivianne - mutation analyzer, using functions to only mutate at certain type of vertices 18594
 
 * Greg, Jacob, Matt, ?? - implementing upper cluster algebra presentation algorithm but saturation is computing a quotient ideal that is time intensive.  Okay for ranks 4 or so
 
