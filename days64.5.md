@@ -106,8 +106,6 @@ The starting point is the core implementation of cluster algebras as merged in S
 
 * Florian - added class for Quantum Tori
 
-
----- /!\ '''End of edit conflict''' ----
 === Topics from first feature meeting (6+ votes) ===
 
  * Implementing g-vectors, c-vectors and F-polynomials without cluster mutation; possibly replace mutation
