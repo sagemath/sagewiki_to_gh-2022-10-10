@@ -73,7 +73,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
 == Participants ==
  * Darlayne Addabbo (U Illinois)
  * Mark V. Albert (Loyola Chicago)
- * N. Bergeron
+ * N. Bergeron (York U)
  * Kevin Dilks (U Minnesota)
  * Steve Doty (Loyola Chicago)
  * Merv Fansler (Millersville U)
