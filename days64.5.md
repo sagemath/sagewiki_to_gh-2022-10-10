@@ -142,6 +142,8 @@ The starting point is the core implementation of cluster algebras as merged in S
   - Panupong
   - Chris
   - Anna
+  - Darlayne
+
 
  * Considering mutation sequences of a restricted type: Sink/source, urban renewal, green
   - Salvatore Stella
