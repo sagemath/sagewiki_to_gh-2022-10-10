@@ -106,7 +106,6 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
  * George Thiruvathukal (Loyola Chicago)
  * Hugh Thomas (U New Brunswick, Canada)
  * Peter Tingley (Loyola Chicago)
- * Yannic Vargas (UQAM)
  * Panupong Vichitkunakorn (U Illinois)
  * Mike Zabrocki (York U)
 
