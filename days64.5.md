@@ -56,7 +56,7 @@ All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 || 09:00am - 10:00am || Christian Stump  || Talk: Subword complexes ||
 || 10:00am - 11:00am ||                  || Coding Sprints ||
 || 11:00am - 11:30am ||                  || Break ||
-|| 11:30am - 12:30pm ||                  || Coding Sprints ||
+|| 11:30am - 12:30pm || David Speyer     || Positroid Cluster Algebras and the Octahedron Recurrence ||
 || 12:30pm - 02:30pm ||                  || Lunch ||
 || 02:30pm - 02:45pm || Florian Gellert  || Short presentation on the {{{Sage cell}}} ||
 || 02:45pm - 03:30pm ||                  || Coding Sprints ||
