@@ -56,7 +56,7 @@ All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 || 09:00am - 10:00am || Christian Stump  || Talk: Subword complexes ||
 || 10:00am - 11:00am ||                  || Coding Sprints ||
 || 11:00am - 11:30am ||                  || Break ||
-|| 11:30am - 12:30pm || David Speyer     || Positroid Cluster Algebras and the Octahedron Recurrence [[attachment:WeakSepSAGE2.pdf]] ||
+|| 11:30am - 12:30pm || David Speyer     || Positroid Cluster Algebras and the Octahedron Recurrence [[attachment:WeakSepSAGE2.pdf|slides]] ||
 || 12:30pm - 02:30pm ||                  || Lunch ||
 || 02:30pm - 02:45pm || Florian Gellert  || Short presentation on the {{{Sage cell}}} ||
 || 02:45pm - 03:30pm ||                  || Coding Sprints ||
@@ -70,7 +70,7 @@ All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
 || 12:00pm - 02:00pm ||                  || Lunch ||
 || 02:00pm - 03:00pm ||                  || Final Status Reports ||
 
-The starting point is the core implementation of cluster algebras as merged in Sage-5.9, see [[http://trac.sagemath.org/sage_trac/ticket/10298|#10298]], with possible new features discussen in spring 2013 in Minneapolis.
+The starting point is the core implementation of cluster algebras as merged in Sage-5.9, see [[http://trac.sagemath.org/sage_trac/ticket/10298|#10298]], with possible new features discussed in spring 2013 in Minneapolis.
 
 == Demo from Monday morning's Talk: ==
 
