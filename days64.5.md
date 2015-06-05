@@ -1,6 +1,6 @@
 = Sage Days 64.5: Cluster Algebras =
 
-If you want to know who was physically participating, check out our [[attachment:GroupPhoto.jpg|group photo|&do=get]]. Here are two more pictures of the [[attachment:GroupPhoto2.jpg|group|&do=get]] and of [[attachment:SalvatoreDylan.jpg|Salvatore and Dylan|&do=get]]. Finally, we had a little walk with another [[attachment:GroupPhoto3.jpg|partial group photo|&do=get]].
+If you want to know who was physically participating, check out our [[attachment:GroupPhoto.jpg|group photo|&do=get]]. Here are two more pictures of the [[attachment:GroupPhoto2.jpg|group|&do=get]] and of [[attachment:SalvatoreDylan.jpg|Salvatore and Dylan|&do=get]]. Finally, we had a little walk with another two pictures with some of us, [[attachment:GroupPhoto3.jpg|partial group photo|&do=get]], [[attachment:GroupPhoto4.jpg|partial group photo|&do=get]].
 
 == General Information ==
 
