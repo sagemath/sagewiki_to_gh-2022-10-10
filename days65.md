@@ -68,7 +68,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
  * improve NC-Grobner basis calculations, implement dual Quasi-Schur basis #18447 (Zabrocki)
  * Non-commutative version of Faugere's F5 algorithm in Sage (King)
  * Code test for satisfaction of $A_\infty$-algebra relations (Fansler)
- * Help Mike, improve my sage 
+ * Help Mike, improve my sage habilities (Nantel) 
 
 
 == Participants ==
