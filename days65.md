@@ -89,7 +89,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
  * Jonathan Lamar (U Colorado)
  * Aaron Lauve (Loyola Chicago)
  * Jake Levinson (U Michigan)
- * Megan Ly (Boulder)
+ * Megan Ly (U Colorado Boulder)
  * Peter McNamara (U Queensland, Australia)
  * Dinakar Muthiah (U Toronto)
  * Amy Pang (LaCIM, UQAM)
