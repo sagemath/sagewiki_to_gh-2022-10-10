@@ -83,16 +83,25 @@ The starting point is the core implementation of cluster algebras as merged in S
 * Jesse, Chris - Add modularity so that one can compute certain cluster seed quantities without others 
 
 * Gregg, Chris, Jesse, Emily - Related to above, allowing other names for cluster variables.  (Goal is to merge all three of these pieces together to have trac tickets rewriting ClusterSeed)
+  * Ticket numbers: #18615, #18594.
 
-* Simon and ??? - Working on F5 algorithm, have a ticket for review
+* Simon - Working on F5 algorithm, have a ticket for review
 
 * Anna, Emily - fixed bug in snake graphs and triangulation
 
 * Aram, Vivianne - mutation analyzer, using functions to only mutate at certain type of vertices 18594
 
-* Greg, Jacob, Matt, ?? - implementing upper cluster algebra presentation algorithm but saturation is computing a quotient ideal that is time intensive.  Okay for ranks 4 or so
+* Greg, Jacob, Matt, ?? - implementing upper cluster algebra presentation algorithm but saturation is computing a quotient ideal that is time intensive.
+  * Ticket numbers: tba
 
-* Christian - Chevee code in progress
+* Christian, Vincent, Nathan W., Simon - Chevie interface for reflection groups. Almost ready for review.
+  * Ticket number :11187
+
+* Vincent, Christian - Subword complexes. Almost ready for review.
+  * Ticket number: 11010
+
+* Nathan W. - m-eralized Cambrian lattices
+  * Ticket number: 18597
 
 * Chris and David - code for weakly separated sets and visualization
 
