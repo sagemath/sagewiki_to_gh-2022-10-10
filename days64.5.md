@@ -83,13 +83,14 @@ The starting point is the core implementation of cluster algebras as merged in S
 * Jesse, Chris - Add modularity so that one can compute certain cluster seed quantities without others 
 
 * Gregg, Chris, Jesse, Emily - Related to above, allowing other names for cluster variables.  (Goal is to merge all three of these pieces together to have trac tickets rewriting ClusterSeed)
-  * Ticket numbers: #18615, #18594.
+  * Ticket numbers: #18615
 
 * Simon - Working on F5 algorithm, have a ticket for review
 
 * Anna, Emily - fixed bug in snake graphs and triangulation
 
 * Aram, Vivianne - mutation analyzer, using functions to only mutate at certain type of vertices 18594
+  * Ticket numbers: #18594
 
 * Greg, Jacob, Matt, ?? - implementing upper cluster algebra presentation algorithm but saturation is computing a quotient ideal that is time intensive.
   * Ticket numbers: tba
@@ -106,8 +107,12 @@ The starting point is the core implementation of cluster algebras as merged in S
 * Chris and David - code for weakly separated sets and visualization
 
 * Greg, Mandy, Eric, Trey - working with Greg's stereographic projection, modeling them internally where they intersect
+  * Ticket number: 16310
 
 * Florian - added class for Quantum Tori
+
+* Greg, Mandy - Scattering diagrams (visualization and algebraic computations of broken lines, consistent completions)
+  * Ticket number: ?
 
 === Topics from first feature meeting (6+ votes) ===
 
@@ -198,8 +203,6 @@ The starting point is the core implementation of cluster algebras as merged in S
  * Cluster algebras as algebras
 
 ==== Other features ====
-
- * Scattering diagrams (visualization and algebraic computations of broken lines, consistent completions)
 
  * Quantum cluster algebras
 
