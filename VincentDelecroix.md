@@ -3,7 +3,7 @@
 #language en
 == Vincent Delecroix ==
 
-Au sein de SAGE je butine entre :
+Au sein de Sage je butine entre :
  * la combinatoire (génération exhaustive / génération aléatoire, un peu d'hypergraphes)
  * les systèmes dynamiques discrets
 
