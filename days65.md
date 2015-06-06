@@ -10,14 +10,14 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
 
 == Tentative Schedule ==
 
-||<tablewidth="80%"> &nbsp; ||<:17%> '''Mon''' ||<:17%> '''Tue''' ||<:17%> '''Wed''' ||<:17%> '''Thu''' ||<:17%> '''Fri''' ||
+||<tablewidth="80%"> &nbsp; ||<:17%> '''Mon''' ||<:17%> '''Tue''' ||<:18%> '''Wed''' ||<:16%> '''Thu''' ||<:17%> '''Fri''' ||
 || 9:30 ||<|2 #FFFF66> Coffee & Light Breakfast ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||<|2 #FFFF66> Coffee ||
 || 9:45 ||
 || 10:00 ||<|4 #BBBBFF> [[#Saliola|Saliola]] ||<|4 #BBBBFF> [[#Schilling|Schilling]] ||<|4 #BBBBFF> [[#Salisbury|Salisbury]] ||<|4 #BBBBFF> [[#King|King]] ||<|4 #BBBBFF> open ||
 || 10:15 ||
 || 10:30 ||
 || 10:45 ||
-|| 11:00 ||<|2 #6666FF> Project Intros ||<|4> Tutorial: [[#Mark|Thiruvathukal+Albert]] ||<|4> Tutorial: [[#Tingley|Tingley & Peters]] ||<|4> Tutorial: [[#Lauve|Lauve]] ||<|4> Tutorial: open ||
+|| 11:00 ||<|2 #6666FF> Project Intros ||<|4> Tutorial: [[#Mark|Thiruvathukal+Albert]] ||<|4> Tutorial: [[#Tingley|Tingley + Peters]] ||<|4> Tutorial: [[#Lauve|Lauve]] ||<|4> Tutorial: open ||
 || 11:15 ||
 || 11:30 ||<|3> Tutorial: [[#Doty|Doty]] ||
 || 11:45 ||
@@ -130,14 +130,14 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
 ||||<style="background-color: #d63366; text-align: left; color: #FFFFFF; border:none;"> '''Wednesday''' ||
 ||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Salisbury)>>'''Ben Salisbury''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Affine crystals in Sage'' ||
 ||||<( style="border:none;"> I will give a brief overview of affine crystals (both irreducible highest weight affine crystals and affine Verma crytals) before discussing certain implementations of these crystals in Sage.  I will also point to some current Sage work in this area as well as possible extensions beyond.<<BR>>&nbsp; ||
-||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Tingley)>>'''Peter T. & Emily P.''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''TBA'' ||
+||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Tingley)>>'''Peter T. & Emily P.''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Linear Algebra in Sage'' ||
 ||||<( style="border:none;"> We will lead a session on figuring out how to get sage to do something. This will mostly consist of participants working together to try and figure stuff out. That stuff will be from linear algebra and, if things go well, random matrix theory.<<BR>>&nbsp; ||
 ||||<style="background-color: #d63366; text-align: left; color: #FFFFFF; border:none;"> '''Thursday''' ||
 ||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(King)>>'''Simon King''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''An F5 algorithm for modules over path algebra quotients and the computation of Loewy layers'' ||
 ||||<( style="border:none;"> The F5 algorithm is a signature based algorithm to compute Gröbner bases for modules over polynomial rings. The F5 signature allows to exploit commutativity relations in order to avoid redundant computations. When considering modules over path algebra quotients, one can instead exploit the quotient relations to avoid redundancies. <<BR>>&nbsp;<<BR>>For my applications, it is important that Gröbner bases are actually not more than a by-product of the F5 algorithm. Indeed, the F5 signature provides additional information: If the quotient algebra is a basic algebra and if a negative degree monomial ordering is used, then the F5 signature allows to read off the Loewy layers of the module.<<BR>>&nbsp; ||
 ||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Lauve)>>'''Aaron Lauve''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Convolution Powers: step by step'' ||
 ||||<( style="border:none;"> I share my personal story (I want to say "natural progression" but I'm sure it's nothing of the kind) from perceived gap in the Sage code for Hopf algebras to sage-trac ticket submission.<<BR>>&nbsp; ||
-||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Seelinger)>>'''George Seelinger''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Linear Algebra in Sage'' ||
+||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Seelinger)>>'''George Seelinger''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''TBA'' ||
 ||||<( style="border:none;"> ...<<BR>>&nbsp; ||
 ||<style="text-align: left;  border-left:none; border-right:none;"> <<Anchor(Judge)>>'''Jonathan Judge''' ||<style="text-align: left;  border-left:none; border-right:none;"> ''Root Multiplicities for Kac-Moody Algebras in Sage'' ||
 ||||<( style="border:none;"> Root multiplicities are fundamental data in the structure theory of Kac-Moody algebras. We will give a brief survey on root multiplicities that highlights the differences between finite, affine, and indefinite types. Then we will describe the two main ways that these multiplicities are computed, namely Berman-Moody's formula and Peterson's recurrent formula. Lastly, we demonstrate an implementation of Peterson's recurrent formula in Sage.<<BR>>&nbsp; ||
