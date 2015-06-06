@@ -62,7 +62,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
 
  * Develop code for Hopf monoids in species (Lauve) 
  * Learn how to use SAGE in my classroom 
- * Resume coding basic algebraic structure for KLR-algebras, quantum shuffle algebras, etc (Im) 
+ * Resume coding basic algebraic structure for KLR-algebras, quantum shuffle algebras, etc (Im, Scrimshaw) 
  * Start a wiki for combinatorial Hopf algebras, in the format of [[http://www.findstat.org|FindStat]] (Pang)
  * Crystals of tableaux for the Lie superalgebra gl(m|n) (Salisbury)
  * improve NC-Grobner basis calculations, implement dual Quasi-Schur basis #18447 (Zabrocki)
