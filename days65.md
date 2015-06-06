@@ -17,7 +17,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
 || 10:15 ||
 || 10:30 ||
 || 10:45 ||
-|| 11:00 ||<|2 #6666FF> Project Intros ||<|4> Tutorial: [[#Mark|Thiruvathukal+Albert]] ||<|4> Tutorial: <BR>[[#Tingley|Tingley + Peters]] ||<|4> Tutorial: [[#Lauve|Lauve]] ||<|4> Tutorial: open ||
+|| 11:00 ||<|2 #6666FF> Project Intros ||<|4> Tutorial: [[#Mark|Thiruvathukal+Albert]] ||<|4> Tutorial: <<BR>>[[#Tingley|Tingley + Peters]] ||<|4> Tutorial: [[#Lauve|Lauve]] ||<|4> Tutorial: open ||
 || 11:15 ||
 || 11:30 ||<|3> Tutorial: [[#Doty|Doty]] ||
 || 11:45 ||
