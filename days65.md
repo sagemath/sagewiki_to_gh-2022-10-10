@@ -62,13 +62,14 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
 
  * Develop code for Hopf monoids in species (Lauve) 
  * Learn how to use SAGE in my classroom 
- * Resume coding basic algebraic structure for KLR-algebras, quantum shuffle algebras, etc (Im, Scrimshaw) 
+ * Resume coding basic algebraic structure for KLR-algebras, quantum shuffle algebras, etc (Im, McNamara) 
  * Start a wiki for combinatorial Hopf algebras, in the format of [[http://www.findstat.org|FindStat]] (Pang)
  * Crystals of tableaux for the Lie superalgebra gl(m|n) (Salisbury)
  * improve NC-Grobner basis calculations, implement dual Quasi-Schur basis #18447 (Zabrocki)
  * Non-commutative version of Faugere's F5 algorithm in Sage (King)
  * Code test for satisfaction of $A_\infty$-algebra relations (Fansler)
  * Help Mike, improve my sage habilities (Nantel) 
+ * Get MV polytope code ready to include in sage (Tingley-Muthiah)
 
 
 == Participants ==
