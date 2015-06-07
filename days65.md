@@ -105,7 +105,6 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
  * Mark Shimozono (Virginia Tech)
  * Bridget Tenner (DePaul U, tentative)
  * George Thiruvathukal (Loyola Chicago)
- * Hugh Thomas (U New Brunswick, Canada)
  * Peter Tingley (Loyola Chicago)
  * Panupong Vichitkunakorn (U Illinois)
  * Mike Zabrocki (York U)
