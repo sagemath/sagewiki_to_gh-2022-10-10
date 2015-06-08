@@ -73,7 +73,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
  * Get MV polytope code ready to include in sage (Tingley-Muthiah)
  * Weight lattice realization for crystals (see [[http://trac.sagemath.org/ticket/18453|#18453]]) (Schilling, Salisbury)
  * Implementation of Foata bijection on words [[http://trac.sagemath.org/ticket/18628|#18628]] (Schilling)
-
+ * Learn some patterns for organizing research code and computations (Muthiah)
 
 == Participants ==
  * Darlayne Addabbo (U Illinois)
