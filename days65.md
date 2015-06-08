@@ -74,6 +74,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
  * Weight lattice realization for crystals (see [[http://trac.sagemath.org/ticket/18453|#18453]]) (Schilling, Salisbury)
  * Implementation of Foata bijection on words [[http://trac.sagemath.org/ticket/18628|#18628]] (Schilling)
  * Learn some patterns for organizing research code and computations (Muthiah)
+ * Come up with general framework for constructing sub-Hopf algebras of Malvenuto-Reutenauer that arise from lattice quotients on the weak order (see: Nathan Reading, ''Lattice congruences, fans and Hopf algebras'', [[http://arxiv.org/abs/math/0402063]]). (Dilks)
 
 == Participants ==
  * Darlayne Addabbo (U Illinois)
