@@ -67,6 +67,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
  * Crystals of tableaux for the Lie superalgebra gl(m|n) (Salisbury)
  * improve NC-Grobner basis calculations, implement dual Quasi-Schur basis #18447 (Zabrocki)
  * Non-commutative version of Faugere's F5 algorithm in Sage (King)
+ * Quiver representation for ''cyclic'' quivers (Gunawan, King)
  * Code test for satisfaction of $A_\infty$-algebra relations (Fansler)
  * Help Mike, improve my sage habilities (Nantel) 
  * Get MV polytope code ready to include in sage (Tingley-Muthiah)
