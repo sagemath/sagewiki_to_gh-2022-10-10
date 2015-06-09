@@ -155,6 +155,83 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
   * LAUVE, Aaron (Loyola Chicago -- Mathematics)
   * TINGLEY, Peter (Loyola Chicago -- Mathematics)
 
+
+== List of projects people are working on ==
+
+List compiled in the afternoon June 9, 2015:
+
+Surface cluster algebra/quiver reps/infinite dim'l matrices
+- Emily
+- Darleen (need expert to look at code)
+- Simon
+
+Combinatorial Hopf Algebras
+- Aaron L.
+- Panupong
+- Amy
+- John
+- Kevin (need expert to look at code)
+- Nantel 
+- Mike
+
+Associahedron
+- Merve
+
+Root mulitiplicities
+- Jon
+
+Super Characters 
+- Megan
+- John
+
+Inverse Foata Bijection
+
+Fix DAHA Code/Extended affine Weyl groups
+- Mark
+
+Fix this morning's bug
+- Franco
+- Mike
+
+Non-commutative Groebner bases
+- Nantel
+- Simon
+- Vivianne
+- Franco
+
+Diagram Algebras
+- George S.
+- Steve D.
+
+KLR/quantum shuffle/canonical bases
+- Peter M.
+- Peter T.
+
+Spherical Varieties
+- Won don Kim
+
+MV Polytopes/PBW Crystals
+- Adam S.
+- Dinakar
+- Peter
+
+Weight function for affine crystals
+- Ben 
+- Anne
+
+Tutorials/Tutorial Requests
+- Merv (Combinatorics)
+- Jake (Abstract alg)
+- Panupong (Contributing)
+- John, Megan (contributing, cython)
+- Fully packed loops (Vivianne)
+- Mark, Albert (Abstract alg)
+- Doty (cython, see Franco's web page)
+- Simon (coercion)
+- Franco (development in the cloud)
+
+
+
 == Useful links ==
 
   * [[http://math.luc.edu/sagedays/]]: Main conference webpage (with information about housing)
