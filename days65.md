@@ -76,6 +76,8 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
  * Learn some patterns for organizing research code and computations (Muthiah)
  * Come up with general framework for constructing sub-Hopf algebras of Malvenuto-Reutenauer that arise from lattice quotients on the weak order (see: Nathan Reading, ''Lattice congruences, fans and Hopf algebras'', [[http://arxiv.org/abs/math/0402063]]). (Dilks)
 
+ * Monkey Patch tutorial? (Dilks wants one)
+
 == Participants ==
  * Darlayne Addabbo (U Illinois)
  * Mark V. Albert (Loyola Chicago)
