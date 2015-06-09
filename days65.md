@@ -155,6 +155,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
   * LAUVE, Aaron (Loyola Chicago -- Mathematics)
   * TINGLEY, Peter (Loyola Chicago -- Mathematics)
 
-== Web page ==
+== Useful links ==
 
-[[http://math.luc.edu/sagedays/]]  (with information about housing)
+  * [[http://math.luc.edu/sagedays/]]: Main conference webpage (with information about housing)
+  * [[https://cloud.sagemath.com/projects/53b77207-8614-4086-a032-432af4b4cdbd/files/sage-dev-images/|Sage Development Images]]: Sage Math Cloud project with the development images
