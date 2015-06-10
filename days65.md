@@ -210,7 +210,7 @@ KLR/quantum shuffle/canonical bases
 - Peter T.
 
 Spherical Varieties
-- Won don Kim
+- Won Geun Kim
 
 MV Polytopes/PBW Crystals
 - Adam S.
