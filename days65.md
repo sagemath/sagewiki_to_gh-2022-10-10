@@ -238,3 +238,4 @@ Tutorials/Tutorial Requests
 
   * [[http://math.luc.edu/sagedays/]]: Main conference webpage (with information about housing)
   * [[https://cloud.sagemath.com/projects/53b77207-8614-4086-a032-432af4b4cdbd/files/sage-dev-images/|Sage Development Images]]: Sage Math Cloud project with the development images
+  * [[http://www.chitownfestivals.com]]: neighborhoods to explore, if you are around this weekend
