@@ -233,6 +233,8 @@ Tutorials/Tutorial Requests
 - Franco (development in the cloud)
 
 
+== Workshop Dinner ==
+The dinner will be at Goose Island Brew Pub, at the corner of N. Marcey and W Willow; near the North/Clybourn Red Line station. 
 
 == Useful links ==
 
