@@ -234,7 +234,7 @@ Tutorials/Tutorial Requests
 
 
 == Workshop dinner ==
-The dinner will be at [[http://www.gooseislandbrewpubs.com/home-clybourn/|Goose Island Brew Pub]], at the corner of N. Marcey and W Willow; near the North/Clybourn Red Line station. 
+The dinner will be at [[http://www.gooseislandbrewpubs.com/home-clybourn/|Goose Island Brew Pub]], at the corner of [[https://www.google.com/maps/place/W+Willow+St+%26+N+Marcey+St,+Chicago,+IL+60642/@41.9130338,-87.6543868,17z/data=!3m1!4b1!4m2!3m1!1s0x880fd321754a6fe5:0x16439cf7de1f697b|N. Marcey and W. Willow]; near the North/Clybourn Red Line station. 
 
 == Useful links ==
 
