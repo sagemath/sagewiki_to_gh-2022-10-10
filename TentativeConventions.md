@@ -237,17 +237,30 @@ $ git help <command>
 where `<command>` is something like `push`, `pull`, `commit`, etc.
 
 <<Anchor(upgrade)>>
-=== Get the latest official development version of Sage ===
+=== Get the latest official stable version and development version of Sage ===
 
 First, check if you have any unsaved changes by running the command:
 {{{
 ~/sage-git$ git status
 }}}
-If you do have unsaved changes, they will be lost! [[#save|Save them first]], then run the following commands:
+If you do have unsaved changes, they will be lost! [[#save|Save them first]]. To get the latest stable
+version of Sage run the following commands:
 {{{
 ~/sage-git$ git fetch origin           # get the latest repository information from Trac
 ~/sage-git$ git reset --hard master    # make all your files correspond to the local master branch
 ~/sage-git$ git clean -d -f            # get rid of any untracked files or directories
+~/sage-git$ git checkout master        # switch to the master branch (in case you are not yet on it)
+~/sage-git$ git pull --ff-only         # move the local master branch forward to match the information from Trac
+~/sage-git$ make start                 # rebuild the parts of Sage that changed
+}}}
+The latest development version of Sage is in the branch `develop`. It is a good idea to base all new Sage
+development off the development branch. Before starting to work on a new project, get the latest development
+version via
+{{{
+~/sage-git$ git fetch origin           # get the latest repository information from Trac
+~/sage-git$ git reset --hard develop   # make all your files correspond to the local develop branch
+~/sage-git$ git clean -d -f            # get rid of any untracked files or directories
+~/sage-git$ git checkout develop       # change to the development branch
 ~/sage-git$ git pull --ff-only         # move the local master branch forward to match the information from Trac
 ~/sage-git$ make start                 # rebuild the parts of Sage that changed
 }}}
