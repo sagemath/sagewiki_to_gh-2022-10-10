@@ -76,8 +76,6 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
  * Learn some patterns for organizing research code and computations (Muthiah)
  * Come up with general framework for constructing sub-Hopf algebras of Malvenuto-Reutenauer that arise from lattice quotients on the weak order (see: Nathan Reading, ''Lattice congruences, fans and Hopf algebras'', [[http://arxiv.org/abs/math/0402063]]). (Dilks)
 
- * Monkey Patch tutorial? (Dilks wants one)
-
 == Participants ==
  * Darlayne Addabbo (U Illinois)
  * Mark V. Albert (Loyola Chicago)
@@ -232,6 +230,7 @@ Tutorials/Tutorial Requests
  * Doty (cython, see Franco's web page)
  * Simon (coercion)
  * Franco (development in the cloud)
+ * Monkey Patch tutorial? (Dilks wants one)
 
 == Workshop dinner ==
 The dinner will be at [[http://www.gooseislandbrewpubs.com/home-clybourn/|Goose Island Brew Pub]], at the corner of [[https://www.google.com/maps/place/W+Willow+St+%26+N+Marcey+St,+Chicago,+IL+60642/@41.9130338,-87.6543868,17z/data=!3m1!4b1!4m2!3m1!1s0x880fd321754a6fe5:0x16439cf7de1f697b|N. Marcey and W. Willow]; near the North/Clybourn Red Line station. 
