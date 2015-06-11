@@ -204,6 +204,7 @@ Non-commutative Groebner bases
 Diagram Algebras
  * George S.
  * Steve D.
+ * Aaron L.
 
 KLR/quantum shuffle/canonical bases
  * Peter M.
