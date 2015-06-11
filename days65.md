@@ -163,75 +163,74 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
 List compiled in the afternoon June 9, 2015:
 
 Surface cluster algebra/quiver reps/infinite dim'l matrices
-- Emily
-- Darleen (need expert to look at code)
-- Simon
+ * Emily
+ * Darleen (need expert to look at code)
+ * Simon
 
 Combinatorial Hopf Algebras
-- Aaron L.
-- Panupong
-- Amy
-- John
-- Kevin (need expert to look at code)
-- Nantel 
-- Mike
+ * Aaron L.
+ * Panupong
+ * Amy
+ * John
+ * Kevin (need expert to look at code)
+ * Nantel 
+ * Mike
 
 Associahedron
-- Merve
+ * Merve
 
 Root mulitiplicities
-- Jon
+ * Jon
 
 Super Characters 
-- Megan
-- John
+ * Megan
+ * John
 
 Inverse Foata Bijection
 
 Fix DAHA Code/Extended affine Weyl groups
-- Mark
+ * Mark
 
 Fix this morning's bug
-- Franco
-- Mike
+ * Franco
+ * Mike
 
 Non-commutative Groebner bases
-- Nantel
-- Simon
-- Vivianne
-- Franco
+ * Nantel
+ * Simon
+ * Vivianne
+ * Franco
 
 Diagram Algebras
-- George S.
-- Steve D.
+ * George S.
+ * Steve D.
 
 KLR/quantum shuffle/canonical bases
-- Peter M.
-- Peter T.
+ * Peter M.
+ * Peter T.
 
 Spherical Varieties
-- Won Geun Kim
+ * Won Geun Kim
 
 MV Polytopes/PBW Crystals
-- Adam S.
-- Dinakar
-- Peter
+ * Adam S.
+ * Dinakar
+ * Peter
 
 Weight function for affine crystals
-- Ben 
-- Anne
+ * Ben 
+ * Anne
 
 Tutorials/Tutorial Requests
-- Merv (Combinatorics)
-- Jake (Abstract alg)
-- Panupong (Contributing)
-- John, Megan (contributing, cython)
-- Fully packed loops (Vivianne)
-- Mark, Albert (Abstract alg)
-- Doty (cython, see Franco's web page)
-- Simon (coercion)
-- Franco (development in the cloud)
-
+ * Merv (Combinatorics)
+ * Jake (Abstract alg)
+ * Panupong (Contributing)
+ * John, Megan (contributing, cython)
+ * Fully packed loops (Vivianne)
+ * Mark, Albert (Abstract alg)
+ * Doty (cython, see Franco's web page)
+ * Simon (coercion)
+ * Franco (development in the cloud)
 
 == Workshop dinner ==
 The dinner will be at [[http://www.gooseislandbrewpubs.com/home-clybourn/|Goose Island Brew Pub]], at the corner of [[https://www.google.com/maps/place/W+Willow+St+%26+N+Marcey+St,+Chicago,+IL+60642/@41.9130338,-87.6543868,17z/data=!3m1!4b1!4m2!3m1!1s0x880fd321754a6fe5:0x16439cf7de1f697b|N. Marcey and W. Willow]; near the North/Clybourn Red Line station. 
@@ -241,3 +240,5 @@ The dinner will be at [[http://www.gooseislandbrewpubs.com/home-clybourn/|Goose 
   * [[http://math.luc.edu/sagedays/]]: Main conference webpage (with information about housing)
   * [[https://cloud.sagemath.com/projects/53b77207-8614-4086-a032-432af4b4cdbd/files/sage-dev-images/|Sage Development Images]]: Sage Math Cloud project with the development images
   * [[http://www.chitownfestivals.com]]: neighborhoods to explore, if you are around this weekend
+  * [[http://doc.sagemath.org/html/en/developer/reviewer_checklist.html|Reviewer Checklist]]
+  * [[http://doc.sagemath.org/html/en/developer/git_trac.html|Collaborative Development with Git-Trac]]: documentation that explains how to use the helper `git trac` command, which simplifies many of the most common actions in collaboration on Sage (checking out a ticket; pulling new changes; pushing your changes; ...)
