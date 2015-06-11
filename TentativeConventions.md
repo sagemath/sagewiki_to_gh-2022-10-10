@@ -271,7 +271,7 @@ The option `--ff-only` for the `git pull` command makes sure that if there are b
 
 To start work on a new feature, you should first [[#upgrade|get latest official development version of Sage]], and use that as the base of your work. Then create a new local branch (named `<localname>` here, but please pick a better name) to hold your code changes:
 {{{
-~/sage-git$ git checkout master -b <localname>    # create a new branch <localname> based at the current master branch
+~/sage-git$ git checkout develop -b <localname>    # create a new branch <localname> based at the current develop branch
 }}}
 Then, you can go ahead and start making your code changes. Be sure to [[#save|save your work]] when you are done!
 
