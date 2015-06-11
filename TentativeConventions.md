@@ -406,6 +406,14 @@ In any case, before running Sage, rebuild the parts that changed with the comman
 ~/sage-git$ make start
 }}}
 
+It can happen that you might have already compiled the latest development version on your `develop` branch, but that the branch you want to get from trac is based on a later version of Sage. In this case, just checking out the branch on trac as above will result in a lot of recompilation. This can be avoided with the following workflow:
+{{{
+~/sage-git$ git checkout develop -b mynewbranch
+~/sage-git$ git fetch origin
+~/sage-git$ git merge origin/public/ticket/18653
+~/sage-git$ make start
+}}}
+
 === Move/delete/rename a local branch ===
 
 If you want to delete a local branch `<localname>`:
