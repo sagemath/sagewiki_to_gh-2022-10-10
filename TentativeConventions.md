@@ -408,9 +408,9 @@ In any case, before running Sage, rebuild the parts that changed with the comman
 
 It can happen that you might have already compiled the latest development version on your `develop` branch, but that the branch you want to get from trac is based on a later version of Sage. In this case, just checking out the branch on trac as above will result in a lot of recompilation. This can be avoided with the following workflow:
 {{{
-~/sage-git$ git checkout develop -b mynewbranch
-~/sage-git$ git fetch origin
-~/sage-git$ git merge origin/public/ticket/18653
+~/sage-git$ git checkout develop -b <localname>   # locally create a new branch based on the develop branch
+~/sage-git$ git fetch origin                      # get the latest changes from the trac server 
+~/sage-git$ git merge origin/public/ticket/18653  # merge the new branch from trac into the current branch <localname>
 ~/sage-git$ make start
 }}}
 
