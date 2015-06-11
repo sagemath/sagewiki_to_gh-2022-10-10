@@ -69,7 +69,7 @@ Specifically, IES Building [[http://www.luc.edu/media/lucedu/lsc.pdf|(#38)]], Ro
  * Non-commutative version of Faugere's F5 algorithm in Sage (King)
  * Quiver representation for ''cyclic'' quivers (Gunawan, King). See [[http://trac.sagemath.org/ticket/18632|#18632]]
  * Code test for satisfaction of $A_\infty$-algebra relations (Fansler)
- * Help Mike, improve my sage habilities (Nantel) 
+ * Help Mike, improve my sage abilities (Nantel) 
  * Get MV polytope code ready to include in sage (Tingley-Muthiah)
  * Weight lattice realization for crystals (see [[http://trac.sagemath.org/ticket/18453|#18453]]) (Schilling, Salisbury)
  * Implementation of Foata bijection on words [[http://trac.sagemath.org/ticket/18628|#18628]] (Schilling)
