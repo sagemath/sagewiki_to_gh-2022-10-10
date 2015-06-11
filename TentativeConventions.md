@@ -410,7 +410,7 @@ It can happen that you might have already compiled the latest development versio
 {{{
 ~/sage-git$ git checkout develop -b <localname>   # locally create a new branch based on the develop branch
 ~/sage-git$ git fetch origin                      # get the latest changes from the trac server 
-~/sage-git$ git merge origin/public/ticket/18653  # merge the new branch from trac into the current branch <localname>
+~/sage-git$ git pull origin public/ticket/18653   # pull in the new branch from trac into the current branch <localname>
 ~/sage-git$ make start
 }}}
 
