@@ -13,6 +13,7 @@ Per poter aggiungere il proprio nome è necessario creare un account nel Wi``Ki 
  * --(MatteoCasati AKA Cassa)--
  * --(AlessandroPezzoni)--
  * --(RobertoPanai)--
+ * dberti
 
 Gli utenti barrati hanno partecipato all'iniziativa in passato ma non sono più coinvolti attivamente.
 
