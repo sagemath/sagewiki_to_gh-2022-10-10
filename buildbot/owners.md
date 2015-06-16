@@ -2,6 +2,7 @@ Bot names and owners:
 {{{
     arando            --> jdemeyer
     andromeda         --> jkroeker
+    Athena            --> kdilks
     debian_jessie_32  --> tmonteil
     eddy              --> Vincent.Neri (lri, Orsay, Paris sud)
     kepler            --> nilesjohnson
