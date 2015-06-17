@@ -30,8 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/18443|#18443]]) - needs-review: Multiplier spectra for projective morphisms - Grayson Jorgenson
-
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
@@ -71,6 +69,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/18443|#18443]])-- closed sage 6.8: Multiplier spectra for projective morphisms - Grayson Jorgenson
 
  * --([[http://trac.sagemath.org/ticket/18374|#18374]])-- closed sage 6.8: Inconsistency in dimension of total ideals. - Miguel Marco
 
