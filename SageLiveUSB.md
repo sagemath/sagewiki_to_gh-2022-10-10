@@ -7,16 +7,16 @@ This page aims at inventorying Live USB running sage. It is a working page to se
 === Links ===
 
  * Homepage : http://sagedebianlive.metelu.net/
- * Download page (Sage mirrors) : http://sagemath.org/download-livecd.html
+ * Download page (Sage mirrors) : http://sagemath.org/download-liveusb.html
  * Sources to build your own : http://sagedebianlive.metelu.net/sources/sagedebianlive/
 
 === Data ===
 
  * Main Author : ThierryMonteil
  * Base Distro : Debian wheezy (using http://live.debian.net/)
- * Current sage version : 6.5
- * Current kernel : Linux 3.2.0, 32 bits (compilation for other platforms is possible)
- * Size : 2.9 GB
+ * Current sage version : 6.7
+ * Current kernel : Linux 3.16.0 , 32 bits (compilation for other platforms is possible)
+ * Size : 3.1 GB
  * RAM required : 512 MB RAM
 
 === Features ===
