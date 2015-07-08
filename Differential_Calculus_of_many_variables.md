@@ -2,6 +2,7 @@
 == Limits ==
 == Partial Derivatives ==
 == Local maximum and minimum for functions with two variables ==
+We start with the definition of local max and min.
 
 '''Definition.'''
 Let $f(x,y)$ defined over a region $R$ which contains the point $(a,b)$.
@@ -17,7 +18,7 @@ We can use the following theorem for finding them.
 If $f(x,y)$ has local max or min in the interior of  $R$ where the first partial derivatives exist, then $f_{x}(a,b) = 0$ and $f_{y}(a,b) = 0$.
 
 We call these points critical.
-We say a critical point inflexion point, if in a small disk with center  $(a,b)$ there are points with $f(x,y) > f(a,b)$ and $f(x,y) < f(a,b)$.
+We say that a critical point is an inflexion point, if in a small disk with center  $(a,b),$ there are points with $f(x,y) > f(a,b)$ and $f(x,y) < f(a,b)$.
 
 In order to find out what kind of point is a critical point (i.e. local max or min) we use the following criterion.
 
@@ -38,7 +39,7 @@ We can easily implement the previous in Sage (we did not include the case where 
 
 {{{
 """
-Find local maxima and minima of functions with two valiables
+Find local maxima and minima of functions with two variables in R^2
 
  AUTHORS:
 
@@ -63,15 +64,15 @@ Find local maxima and minima of functions with two valiables
 
 #############
 # We work at R^2 so we don't have boundary points.
-# f : symbolic expression with two valiables <<x,y>>
-# flag : default=true, enables plotting
-# future: fmin : default=0, for growing the plain of the function, accepts only positive
-# future: symbolic expression become variable independent
+# f : symbolic expression with two variables <<x,y>>
+# flag : default=true, enables plotting 
+# TODO : fmin : default=0, for growing the plain of the function, accepts only positive
+# TODO : symbolic expression become variable independent
 #############
 
 def local_maxmin(f, flag = true):
 
-    print "f function is: "
+    print "The function f is: "
     print f
 
     # Algorithm for Fermat's theorem
@@ -283,12 +284,12 @@ def local_maxmin(f, flag = true):
 
 
 {{{#!python numbers=none
-# Set the function
+# Define the function
 sage:var('x,y')
 sage:f = x**3 + y**3 - x
 sage:local_maxmin(f,false)
 
-f function is:
+The function f is:
 x^3 + y^3 - x
 --------------------
 The critical points are:
@@ -304,4 +305,4 @@ Hessian is zero. We do not have a method for this point, to examine what it is.
 }}}
 
 == Local maximum and minimum for functions with three variables ==
-== Finding extrema points of functions subject to some constraints (Lagrange multiplier) ==
+== Finding extrema points of functions subject to some constraints (Lagrange multipliers) ==
