@@ -299,7 +299,7 @@ Hessian is zero. We do not have a method for this point, to examine what it is.
 --------------------
 [x == 1/3*sqrt(3), y == 0]
 Hessian is zero. We do not have a method for this point, to examine what it is.
-</source>
+
 
 }}}
 
