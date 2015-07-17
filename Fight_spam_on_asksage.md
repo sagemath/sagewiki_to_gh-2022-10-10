@@ -1,9 +1,10 @@
 If you feel you can help to fight spam, please ask for an admin account.
 
-Here are measures to remove spam, in increasing.
+Here are measures to remove spam, in increasing order.
 
 == isolated spam message ==
  * go to the message, click on "close" or "delete" if someone already closed it.
+ * a discussion started on the policy about this (should we remove it direclty and block the user, should we let another chance), since some message are not clearly spams, look at the archives of sage-askbot-admin mailing-list.
 
 == bunch of spams from the same user ==
  * click on the user's nickname (bottom right of the question)
