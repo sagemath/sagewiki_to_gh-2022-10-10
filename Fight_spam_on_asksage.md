@@ -6,12 +6,12 @@ Here are measures to remove spam, in increasing order.
  * go to the message, click on "close" or "delete" if someone already closed it.
  * a discussion started on the policy about this (should we remove it direclty and block the user, should we let another chance), since some message are not clearly spams, look at the archives of sage-askbot-admin mailing-list.
 
-== bunch of spams from the same user ==
+== bunch of spams from the same user (remove) ==
  * click on the user's nickname (bottom right of the question)
  * click on "moderation" (top right)
  * click on "block user and delete all content"
 
-== bunch of spams with a similar pattern ==
+== bunch of spams with a similar pattern (prevent) ==
  * go to http://ask.sagemath.org/settings/MODERATION/
  * add the typical keywords appearing in the spams on the "Reject all posts with these phrases" field.
 
