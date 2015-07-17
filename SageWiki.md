@@ -123,5 +123,5 @@ Note: [[http://trac.sagemath.org/sage_trac/|See the trac server]] for patches aw
  * [[GrantEurope|asking for a european grant]]
  * [[IpythonNotebook|What is missing to use ipython notebook ?]]
  * [[Infrastructure]]
-
+ * [[Fight spam on asksage]]
 (Note -- wikis are ''not'' written in HTML.  Use the GUI Mode (in Firefox) or read the wiki help links at the top.)
