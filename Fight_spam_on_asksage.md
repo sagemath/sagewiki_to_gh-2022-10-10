@@ -11,7 +11,7 @@ Here are measures to remove spam, in increasing order.
  * click on "moderation" (top right)
  * click on "block user and delete all content"
 
-== lot of bunch of spams with a similar pattern ==
+== bunch of spams with a similar pattern ==
  * go to http://ask.sagemath.org/settings/MODERATION/
  * add the typical keywords appearing in the spams on the "Reject all posts with these phrases" field.
 
