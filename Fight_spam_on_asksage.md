@@ -18,3 +18,4 @@ Here are measures to remove spam, in increasing order.
 == overloaded, need to stop the flood ==
  * go to http://ask.sagemath.org/settings/ACCESS_CONTROL/
  * select "Allow only registered user to access the forum"
+ * W should find a way to temporary block user registration.
