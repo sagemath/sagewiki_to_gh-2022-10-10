@@ -1,6 +1,8 @@
 ## page was renamed from days70
 = Sage Days 65 in Chicago =
 
+[[http://webpages.math.luc.edu/~ptingley/photos/SAGEDAYS65/index.html|Photo]]
+
 == When and where? ==
 
 June 8-12, 2015, at [[http://www.luc.edu/|Loyola University Chicago]], in Chicago, Ill., USA.
