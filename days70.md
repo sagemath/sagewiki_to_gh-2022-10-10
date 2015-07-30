@@ -2,6 +2,8 @@
 
 Berkeley California
 
+Topic: Sage, SageMathCloud, Jupyter
+
 November 9-13, 2015
 
 Organizers: William Stein, Harald Schilly
