@@ -5,6 +5,7 @@ Bot names and owners:
     Athena            --> kdilks
     debian_jessie_32  --> tmonteil
     eddy              --> Vincent.Neri (lri, Orsay, Paris sud)
+    edoras            --> ?
     kepler            --> nilesjohnson
     groebner          --> jkroeker
     icj-laptop        --> chapoton
