@@ -20,6 +20,7 @@ Possible participents:
  * Andrew Ohana (pending)
  * Markus Pfeiffer (pending)
  * Jean-Pierre Flori (pending)
+ * David Lucas (pending)
 
 Funding:
 
