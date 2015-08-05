@@ -12,14 +12,14 @@ Local support: Fernando Perez, Ken Ribet
 
 Possible participents:
 
-* William Stein (confirmed)
-* Harald Schilly (confirmed)
-* Volker Braun (confirmed)
-* Fernando Perez
-* Jason Grout (pending)
-* Andrew Ohana (pending)
-* Markus Pfeiffer (pending)
-* Jean-Pierre Flori (pending)
+ * William Stein (confirmed)
+ * Harald Schilly (confirmed)
+ * Volker Braun (confirmed)
+ * Fernando Perez
+ * Jason Grout (pending)
+ * Andrew Ohana (pending)
+ * Markus Pfeiffer (pending)
+ * Jean-Pierre Flori (pending)
 
 Funding:
 
