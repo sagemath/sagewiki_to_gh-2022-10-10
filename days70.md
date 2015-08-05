@@ -9,3 +9,14 @@ Dates: The dates are Nov 8 -14, with arrival on Nov 8 and departure on Nov 14.  
 Organizers: William Stein, Harald Schilly
 
 Local support: Fernando Perez, Ken Ribet
+
+Possible participents:
+
+ - William Stein (confirmed)
+ - Harald Schilly (confirmed)
+ - Volker Braun (confirmed)
+ - Fernando Perez
+ - Jason Grout (pending)
+ - Andrew Ohana (pending)
+ - Markus Pfeiffer (pending)
+ - Jean-Pierre Flori (pending)
