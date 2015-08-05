@@ -1,6 +1,6 @@
 # Sage Days 70 
 
-Berkeley California
+Berkeley, California
 
 Topic: Sage, SageMathCloud, Jupyter
 
