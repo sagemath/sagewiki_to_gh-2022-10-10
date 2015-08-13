@@ -21,6 +21,7 @@ Possible participents:
  * Markus Pfeiffer (pending)
  * Jean-Pierre Flori (pending)
  * David Lucas (pending)
+ * Raniere Silva (pending)
 
 Funding:
 
