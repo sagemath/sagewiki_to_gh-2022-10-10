@@ -16,10 +16,10 @@ Possible participents:
  * Harald Schilly (confirmed)
  * Volker Braun (confirmed)
  * Fernando Perez
+ * Jean-Pierre Flori (confirmed)
  * Jason Grout (pending)
  * Andrew Ohana (pending)
  * Markus Pfeiffer (pending)
- * Jean-Pierre Flori (pending)
  * David Lucas (pending)
  * Raniere Silva (pending)
 
