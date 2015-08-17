@@ -17,6 +17,7 @@ Possible participents:
  * Volker Braun (confirmed)
  * Fernando Perez
  * Jean-Pierre Flori (confirmed)
+ * Rob Beezer (confirmed)
  * Jason Grout (pending)
  * Andrew Ohana (pending)
  * Markus Pfeiffer (pending)
