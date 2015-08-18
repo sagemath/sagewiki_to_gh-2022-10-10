@@ -10,9 +10,17 @@ Location: http://www.homeaway.com/vacation-rental/p273689vb
 
 If you click here you should get a 10-day forecast: http://www.weather.com/weather/tenday/l/98232:4:US
 
-== Transportation, carpools ==
+== The Website of the Island: ==
+
+Main Website: http://www.samishisland.net/
+
+Maps Page: http://www.samishisland.net/si_mapsdirections.html
+
+== Transportation, Carpools: ==
 
 Let's put transportation information here.
+
+Mapquest's Idea of How to Get There: http://mapq.st/1EAKOvq
 
 === Can offer a ride: ===
 
