@@ -6,6 +6,10 @@ Primary Goal: Fix bugs in anything related to Sage.  However, all kinds of Sage 
 
 Location: http://www.homeaway.com/vacation-rental/p273689vb
 
+== Weather Info: ==
+
+If you click here you should get a 10-day forecast: http://www.weather.com/weather/tenday/l/98232:4:US
+
 == Transportation, carpools ==
 
 Let's put transportation information here.
@@ -16,4 +20,4 @@ Let's put transportation information here.
 
 === Needs a ride: ===
 
-* Dan Drake
+* Dan Drake (riding with Gregory Bard)
