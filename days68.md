@@ -8,7 +8,7 @@ Location: http://www.homeaway.com/vacation-rental/p273689vb
 
 == Weather Info: ==
 
-If you click here you should get a 10-day forecast: http://www.weather.com/weather/tenday/l/98232:4:US
+If you click here you should get a 10-day forecast (hint: it's PERFECT): http://www.weather.com/weather/tenday/l/98232:4:US
 
 == The Website of the Island: ==
 
