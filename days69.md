@@ -8,7 +8,7 @@
 
 == Projects: ==
  * Writing/fixing documentation: fixing typos 
-    * git -command
+    * git command should be git -command
  * Reviewing patches
  * ABC project (Lily, Kristin)
  * Modular forms project (Jackie)
