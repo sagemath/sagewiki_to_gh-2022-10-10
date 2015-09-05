@@ -1,8 +1,13 @@
 = Sage Days 69: Women in Sage 6 (September 4-9, 2015) =
 
-== Saturday schedule: ==
- * 9:00 a.m. trac/review a patch example
- * 10:35 a.m. projects
+== Saturday (Sept 5) ==
+ * 9:00 a.m. getting started on trac
+ * 10:30 a.m. projects
+ * 5:00 p.m. status reports 
+
+== Sunday (Sept 6) == 
+ * 9:00 a.m. review a patch example
+ * 10:00 a.m. project work
  * 1:00 p.m. review a patch
  * 5:00 p.m. status reports 
 
