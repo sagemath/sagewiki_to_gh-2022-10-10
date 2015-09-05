@@ -16,3 +16,19 @@
 
 
 Organizers: Jennifer Balakrishnan, Alyson Deines
+
+Participants:
+
+ * Jen Berg
+ * Lubjana Beshaj
+ * Alina Bucur
+ * Amy Feaver
+ * Emily Gunawan
+ * Lily Khadjavi
+ * Karen Kohl
+ * Michelle Kovesi
+ * Kristin Lauter
+ * Nadia Lafrenière
+ * Jackie Lang
+ * Mélodie Lapointe
+ * Stéphanie Schanck
