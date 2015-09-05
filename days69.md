@@ -11,9 +11,11 @@
  * ABC project
  * Modular forms project
  * Combinatorics patches
+   * http://trac.sagemath.org/ticket/18003
  * L-functions
  * Sister Celine's algorithm code 
    * https://www.math.upenn.edu/~wilf/AeqB.html
+   * http://mathworld.wolfram.com/SisterCelinesMethod.html
 
 
 Organizers: Jennifer Balakrishnan, Alyson Deines
