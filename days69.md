@@ -23,6 +23,9 @@
  * Newton's method bug (Amy)
  * Discrete Gaussian sampler bug (Kristin)
     * http://trac.sagemath.org/ticket/17764
+ * Sturm sequences?/ Weil polynomials (Alina) - patch in FLINT
+ * Power sums of roots of polynomials (Alina) - implement it Sage (goal: beat pari)
+
 
 
 Organizers: Jennifer Balakrishnan, Alyson Deines
