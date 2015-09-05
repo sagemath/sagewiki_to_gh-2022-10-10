@@ -2,7 +2,8 @@
 
 == Saturday schedule: ==
  * 9:00 a.m. trac/review a patch example
- * 10:00 a.m. projects
+ * 10:35 a.m. projects
+ * 1:00 p.m. review a patch
  * 5:00 p.m. status reports
 
 == Projects: ==
