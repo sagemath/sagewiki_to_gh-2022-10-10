@@ -12,7 +12,7 @@
  * Modular forms project
  * Combinatorics patches
  * L-functions
- * Recurrence code 
+ * Sister Celine's algorithm code 
 
 
 Organizers: Jennifer Balakrishnan, Alyson Deines
