@@ -34,6 +34,7 @@
 == Trac Tickets ==
  * To Review
   * http://trac.sagemath.org/ticket/14164
+  * http://trac.sagemath.org/ticket/11699
 
  *Updates in Documentation
   * http://trac.sagemath.org/ticket/5728
