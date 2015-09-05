@@ -19,7 +19,9 @@
  * Recurrences for hypergeometric sums - Sister Celine's algorithm code (Karen)
    * https://www.math.upenn.edu/~wilf/AeqB.html
    * http://mathworld.wolfram.com/SisterCelinesMethod.html
- * L-functions
+ * Analytic rank for elliptic curve L-functions (Michelle)
+ * Newton's method bug (Amy)
+ * 
 
 
 Organizers: Jennifer Balakrishnan, Alyson Deines
