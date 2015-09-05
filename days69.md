@@ -33,7 +33,6 @@
 
 == Trac Tickets ==
  * I think these are relatively easy
-  * http://trac.sagemath.org/ticket/3709
   * http://trac.sagemath.org/ticket/1422
   * http://trac.sagemath.org/ticket/5728
   * http://trac.sagemath.org/ticket/6106
