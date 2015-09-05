@@ -8,10 +8,10 @@
 
 == Projects: ==
  * Writing/fixing documentation: fixing typos 
-    ** git -command
+    * git -command
  * Reviewing patches
- * ABC project
- * Modular forms project
+ * ABC project (Lily, Kristin)
+ * Modular forms project (Jackie)
  * Combinatorics patches
    * Finish fully packed loop class http://trac.sagemath.org/ticket/18003
    * Create a snake graph class (using part of the code already written for on http://trac.sagemath.org/ticket/16310)
