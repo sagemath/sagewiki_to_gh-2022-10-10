@@ -34,6 +34,7 @@
 == Trac Tickets that (I think) should be easy ==
 
 http://trac.sagemath.org/ticket/3709
+http://trac.sagemath.org/ticket/1422
 
 
 Organizers: Jennifer Balakrishnan, Alyson Deines
