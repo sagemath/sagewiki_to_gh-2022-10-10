@@ -36,6 +36,7 @@
   * http://trac.sagemath.org/ticket/3709
   * http://trac.sagemath.org/ticket/1422
   * http://trac.sagemath.org/ticket/5728
+  * http://trac.sagemath.org/ticket/6106
 
  * Not 100% sure if the tickets below here are easy, but they look easier than others?
   * http://trac.sagemath.org/ticket/4204
