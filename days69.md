@@ -12,14 +12,14 @@
  * Reviewing patches
  * ABC project (Lily, Kristin)
  * Modular forms project (Jackie)
- * Combinatorics patches (Emily, Karen)
+ * Combinatorics patches (Emily)
    * Finish fully packed loop class http://trac.sagemath.org/ticket/18003
    * Create a snake graph class (using part of the code already written for on http://trac.sagemath.org/ticket/16310)
       * a snake graph is a connected sequence of square tiles which goes north and east http://www.northeastern.edu/martsinkovsky/p/MADL/2013/slides-canakci.pdf
- * L-functions
- * Sister Celine's algorithm code
+ * Recurrences for hypergeometric sums - Sister Celine's algorithm code (Karen)
    * https://www.math.upenn.edu/~wilf/AeqB.html
    * http://mathworld.wolfram.com/SisterCelinesMethod.html
+ * L-functions
 
 
 Organizers: Jennifer Balakrishnan, Alyson Deines
