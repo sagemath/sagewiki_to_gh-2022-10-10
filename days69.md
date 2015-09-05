@@ -13,6 +13,7 @@
  * Combinatorics patches
  * L-functions
  * Sister Celine's algorithm code 
+   * https://www.math.upenn.edu/~wilf/AeqB.html
 
 
 Organizers: Jennifer Balakrishnan, Alyson Deines
