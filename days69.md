@@ -41,6 +41,9 @@
   * http://trac.sagemath.org/ticket/6769
   * http://trac.sagemath.org/ticket/4204
 
+ * Things that people at SD69 have a personal interest in seeing work :)
+  * http://trac.sagemath.org/ticket/7114 (Amy)
+
  * Ones that should possibly be closed?
   * http://trac.sagemath.org/ticket/5091 
 
