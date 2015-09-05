@@ -36,10 +36,7 @@
   * http://trac.sagemath.org/ticket/14164
 
  *Updates in Documentation
-    * http://trac.sagemath.org/ticket/5728
-
-
-  * http://trac.sagemath.org/ticket/6467
+  * http://trac.sagemath.org/ticket/5728
   * http://trac.sagemath.org/ticket/6769
   * http://trac.sagemath.org/ticket/4204
   * http://trac.sagemath.org/ticket/7586
