@@ -31,6 +31,9 @@
  * Sturm sequences/ Weil polynomials (Alina) - patch in FLINT
  * Power sums of roots of polynomials (Alina) - implement it in Sage (goal: beat pari)
 
+== Trac Tickets that (I think) should be easy ==
+
+http://trac.sagemath.org/ticket/3709
 
 
 Organizers: Jennifer Balakrishnan, Alyson Deines
