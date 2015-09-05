@@ -21,7 +21,8 @@
    * http://mathworld.wolfram.com/SisterCelinesMethod.html
  * Analytic rank for elliptic curve L-functions (Michelle)
  * Newton's method bug (Amy)
- * 
+ * Discrete Gaussian sampler bug (Kristin)
+    * http://trac.sagemath.org/ticket/17764
 
 
 Organizers: Jennifer Balakrishnan, Alyson Deines
