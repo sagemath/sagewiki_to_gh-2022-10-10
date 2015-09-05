@@ -4,10 +4,11 @@
  * 9:00 a.m. trac/review a patch example
  * 10:35 a.m. projects
  * 1:00 p.m. review a patch
- * 5:00 p.m. status reports
+ * 5:00 p.m. status reports 
 
 == Projects: ==
- * Writing documentation
+ * Writing/fixing documentation: fixing typos 
+    ** git -command
  * Reviewing patches
  * ABC project
  * Modular forms project
