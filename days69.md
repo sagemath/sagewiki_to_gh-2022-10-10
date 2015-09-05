@@ -12,7 +12,7 @@
  * Reviewing patches
  * ABC project (Lily, Kristin)
  * Modular forms project (Jackie)
- * Combinatorics patches
+ * Combinatorics patches (Emily, Karen)
    * Finish fully packed loop class http://trac.sagemath.org/ticket/18003
    * Create a snake graph class (using part of the code already written for on http://trac.sagemath.org/ticket/16310)
       * a snake graph is a connected sequence of square tiles which goes north and east http://www.northeastern.edu/martsinkovsky/p/MADL/2013/slides-canakci.pdf
