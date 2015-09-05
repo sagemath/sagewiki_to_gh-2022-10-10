@@ -32,9 +32,10 @@
  * Power sums of roots of polynomials (Alina) - implement it in Sage (goal: beat pari)
 
 == Trac Tickets ==
- * I think these are relatively easy
+ * To Review
   * http://trac.sagemath.org/ticket/14164
-  * http://trac.sagemath.org/ticket/1422
+
+
   * http://trac.sagemath.org/ticket/5728
   * http://trac.sagemath.org/ticket/6106
   * http://trac.sagemath.org/ticket/6467
