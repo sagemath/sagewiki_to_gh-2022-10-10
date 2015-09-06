@@ -14,7 +14,7 @@
  * Writing/fixing documentation: fixing typos 
     * git command should be git -command
  * Reviewing patches
- * ABC project (Lily, Kristin, Aly)
+ * ABC project (Lily, Kristin, Aly, Jen, Jen)
  * Modular forms project (Jackie, Aly, Lubjana)
  * Combinatorics patches (Emily, Nadia, Stéphanie, Mélodie)
    * Finish fully packed loop class http://trac.sagemath.org/ticket/18003
