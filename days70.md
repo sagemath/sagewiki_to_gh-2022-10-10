@@ -15,14 +15,14 @@ Possible participents:
  * William Stein (confirmed)
  * Harald Schilly (confirmed)
  * Volker Braun (confirmed)
- * Fernando Perez
+ * Fernando Perez (confirmed)
  * Jean-Pierre Flori (confirmed)
  * Rob Beezer
  * Jason Grout (pending)
  * Andrew Ohana (pending)
  * Markus Pfeiffer (pending)
  * David Lucas (pending)
- * Raniere Silva (pending)
+ * Raniere Silva (confirmed)
 
 Funding:
 
