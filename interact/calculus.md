@@ -54,7 +54,7 @@ Note that there is a more complicated Newton's method below.
 
 by William Stein
 
-http://sagenb.org/home/pub/2824/
+https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2824-Double%20Precision%20Root%20Finding%20Using%20Newton's%20Method.sagews 
 
 {{{#!sagecell
 def newton_method(f, c, eps, maxiter=100):
