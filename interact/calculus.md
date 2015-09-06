@@ -96,7 +96,7 @@ def _(f = x^2 - 2, c = float(0.5), eps=(-3,(-16..-1)), interval=float(0.5)):
 == A contour map and 3d plot of two inverse distance functions ==
 by William Stein
 
-http://sagenb.org/home/pub/2823/
+https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2823.sagews
 
 {{{#!sagecell
 @interact
