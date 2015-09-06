@@ -1289,7 +1289,7 @@ def _(x0=(0.5,1.5), y0=(0.5, 1.5),
 
 by John Travis
 
-http://www.sagenb.org/home/pub/2829/
+https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2829.sagews
 
 {{{#!sagecell
 ##  Graphing surfaces over non-rectangular domains 
