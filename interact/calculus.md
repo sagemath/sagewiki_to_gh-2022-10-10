@@ -1485,7 +1485,7 @@ def viewer(mesh = checkbox(default = False, label = 'Show u,v meshlines'), uc = 
 
 by John Travis
 
-http://www.sagenb.org/home/pub/2827/
+https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2827-$%20%5Cint_%7BC%7D%20%5Cleft%20%5Clangle%20M,N,P%20%5Cright%20%5Crangle%20dr%20$%20=%20$%20%25s%20$.sagews
 
 {{{#!sagecell
 ##  This worksheet interactively computes and displays the line integral of a 3D vector field 
