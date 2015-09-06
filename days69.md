@@ -48,6 +48,7 @@
  * Things that people at SD69 have a personal interest in seeing work :)
   * http://trac.sagemath.org/ticket/7114 (Amy)
   * http://trac.sagemath.org/ticket/8559 (Amy - might be easy)
+  * http://trac.sagemath.org/ticket/14756 (Lubjana)
 
 
 
