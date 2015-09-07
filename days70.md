@@ -15,6 +15,7 @@ Possible participents:
  * William Stein (confirmed)
  * Harald Schilly (confirmed)
  * Volker Braun (confirmed)
+ * Jereon Demeyer (pending)
  * Fernando Perez (confirmed)
  * Jean-Pierre Flori (confirmed)
  * Rob Beezer
