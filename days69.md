@@ -8,7 +8,21 @@
 == Sunday (Sept 6) ==
  * 9:00 a.m. review a patch example
  * 10:00 a.m. project work
- * 5:00 p.m. status reports 
+ * 5:00 p.m. workshop dinner
+
+== Monday (Sept 7) == 
+
+ * 10:00 a.m. project work
+ * 5:00 p.m. status reports
+
+== Tuesday (Sept 8) == 
+
+ * 10:00 a.m. project work
+ * 5:00 p.m. status reports
+
+== Wednesday (Sept 9) == 
+ * 10:00 a.m. departure
+
 
 == Projects: ==
  * Writing/fixing documentation: fixing typos 
