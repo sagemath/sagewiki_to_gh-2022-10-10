@@ -20,7 +20,7 @@ Probably, we are trying to support a wide range of computers. See the [[Supporte
 
 === Can I try out Sage without downloading anything? ===
 
-Yes!  Go to http://www.sagenb.org/ and set up a free account.  If you log in, you will be working on a free Sage notebook server that will work identically to the one you get with Sage.
+Yes!  Go to https://cloud.sagemath.com/ and set up a free account.  If you log in, you will be working on a free Sage cloud server that will work identically to the one you get with Sage.
 
 
 === How do I get a Sage program I can run immediately? ===
