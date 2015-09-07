@@ -5,18 +5,16 @@
  * 10:30 a.m. projects
  * 5:00 p.m. status reports 
 
-== Sunday (Sept 6)== 
+== Sunday (Sept 6) ==
  * 9:00 a.m. review a patch example
  * 10:00 a.m. project work
  * 5:00 p.m. workshop dinner
 
-== Monday (Sept 7)== 
-
+== Monday (Sept 7) ==
  * 10:00 a.m. project work
  * 5:00 p.m. status reports
 
-== Tuesday (Sept 8)== 
-
+== Tuesday (Sept 8) ==
  * 10:00 a.m. project work
  * 5:00 p.m. status reports
 
