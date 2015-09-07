@@ -197,7 +197,7 @@ def show_mandelbrot(option = selector(options, nrows = 2, width=8),
 
 == Mandelbrot & Julia Interact with variable exponent ==
 
-published notebook: [[http://sagenb.org/pub/1299/]]
+published notebook: [[https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/1201-1301/1299-Mandelbrot.sagews]]
 
 === Mandelbrot ===
 by Harald Schilly
