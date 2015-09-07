@@ -18,7 +18,7 @@
  * 10:00 a.m. project work
  * 5:00 p.m. status reports
 
-== Wednesday (Sept 9)== 
+== Wednesday (Sept 9) ==
  * 10:00 a.m. departure
 
 
