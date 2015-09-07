@@ -25,6 +25,7 @@
 == Projects: ==
  * Writing/fixing documentation: fixing typos 
     * git command should be git -command
+    * git trac review : In doc.sagemath.org/html/en/developer/git_trac.html#reviewing , "git trac review 12345 downloads the branch from the ticket and shows you what is being added" is not exactly what it does.
  * Reviewing patches
  * ABC project (Lily, Kristin, Aly, Jen, Jen)
  * Modular forms project (Jackie, Aly, Lubjana)
@@ -32,6 +33,8 @@
    * Finish fully packed loop class http://trac.sagemath.org/ticket/18003
    * Create a snake graph class (using part of the code written for on http://trac.sagemath.org/ticket/16310)
       * a snake graph is a connected sequence of square tiles which goes north and east http://www.northeastern.edu/martsinkovsky/p/MADL/2013/slides-canakci.pdf
+   * Words : Lyndon and Christoffel words. See trac.sagemath.org/ticket/19150, and more patches coming soon
+   * Review a patch : http://trac.sagemath.org/ticket/19008 (about graphs)
  * Recurrences for hypergeometric sums - Sister Celine's algorithm code (Karen)
    * https://www.math.upenn.edu/~wilf/AeqB.html
    * http://mathworld.wolfram.com/SisterCelinesMethod.html
