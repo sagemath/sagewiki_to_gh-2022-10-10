@@ -26,6 +26,7 @@
  * Writing/fixing documentation: fixing typos 
     * git command should be git -command
     * git trac review : In doc.sagemath.org/html/en/developer/git_trac.html#reviewing , "git trac review 12345 downloads the branch from the ticket and shows you what is being added" is not exactly what it does.
+    * The depreciation explication in Developer's guide is unclear : the use of * shouldn't be there, or made more precise.
  * Reviewing patches
  * ABC project (Lily, Kristin, Aly, Jen, Jen)
  * Modular forms project (Jackie, Aly, Lubjana)
