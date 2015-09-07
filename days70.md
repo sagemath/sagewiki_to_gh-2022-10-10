@@ -21,7 +21,7 @@ Possible participents:
  * Rob Beezer
  * Jason Grout (pending)
  * Andrew Ohana (pending)
- * Markus Pfeiffer (pending)
+ * Markus Pfeiffer (confirmed)
  * David Lucas (pending)
  * Raniere Silva (confirmed)
 
