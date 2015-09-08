@@ -40,6 +40,7 @@
    * https://www.math.upenn.edu/~wilf/AeqB.html
    * http://mathworld.wolfram.com/SisterCelinesMethod.html
  * Analytic rank for elliptic curve L-functions (Michelle)
+ * Reducing models of hyperelliptic curves (Lubjana)
  * Newton's method bug (Amy)
   * No more bug.
  * Updating old Sage worksheets to public SMC worksheets (Amy)
