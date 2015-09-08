@@ -34,8 +34,8 @@
    * Finish fully packed loop class http://trac.sagemath.org/ticket/18003
    * Create a snake graph class (using part of the code written for on http://trac.sagemath.org/ticket/16310)
       * http://trac.sagemath.org/ticket/19160
-   * Words : Lyndon and Christoffel words. See http://trac.sagemath.org/ticket/19150, http://trac.sagemath.org/ticket/19154, http://trac.sagemath.org/ticket/19155, and more patches coming soon
-   * Review a patch : http://trac.sagemath.org/ticket/19008 (about graphs)
+   * Words : Lyndon and Christoffel words. See http://trac.sagemath.org/ticket/19150, http://trac.sagemath.org/ticket/19154, http://trac.sagemath.org/ticket/19155, http://trac.sagemath.org/ticket/19159 and more patches coming soon
+   * Review patches : http://trac.sagemath.org/ticket/19008 (about graphs), http://trac.sagemath.org/ticket/19161 (about posets)
  * Recurrences for hypergeometric sums - Sister Celine's algorithm code (Karen)
    * https://www.math.upenn.edu/~wilf/AeqB.html
    * http://mathworld.wolfram.com/SisterCelinesMethod.html
