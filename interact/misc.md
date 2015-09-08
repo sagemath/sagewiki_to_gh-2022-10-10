@@ -299,7 +299,7 @@ This interact models a problem in which a certain number of people are surveyed 
 {{{#!sagecell
 @interact
 def _(T=slider([0..100],default=100,label='People surveyed'),X=slider([0..100],default=28,label='Run'), Y=slider([0..100],default=33,label='Bike'), Z=slider([0..100],default=59,label='Swim'),XY=slider([0..100],default=16,label='Run and Bike'),XZ=slider([0..100],default=13,label='Run and Swim'),YZ=slider([0..100],default=12,label='Bike and Swim'),XYZ=slider([0..100],default=7,label='Run, Bike, and Swim')):
-    
+   
     centers = [(cos(n*2*pi/3), sin(n*2*pi/3)) for n in [0,1,2]]
     scale = 1.7
     clr = ['yellow', 'blue', 'green']
@@ -309,12 +309,12 @@ def _(T=slider([0..100],default=100,label='People surveyed'),X=slider([0..100],d
              fill=True, alpha=0.3)
     for i in range(3):
         G += circle(centers[i], scale, rgbcolor='black')
-    
+   
     # Label sets
     G += text('Run',(3,0),rgbcolor='black')
     G += text('Bike',(-1,3),rgbcolor='black')
     G += text('Swim',(-1,-3),rgbcolor='black')
-    
+   
     # Plot pairs of intersections
     ZX=XZ-XYZ
     G += text(ZX, (1.3*cos(2*2*pi/3 + pi/3), 1.3*sin(2*2*pi/3 + pi/3)), rgbcolor='black')
@@ -322,7 +322,7 @@ def _(T=slider([0..100],default=100,label='People surveyed'),X=slider([0..100],d
     G += text(YX, (1.3*cos(0*2*pi/3 + pi/3), 1.3*sin(0*2*pi/3 + pi/3)), rgbcolor='black')
     ZY=YZ-XYZ
     G += text(ZY, (1.3*cos(1*2*pi/3 + pi/3), 1.3*sin(1*2*pi/3 + pi/3)), rgbcolor='black')
-   
+  
     # Plot what is in one but neither other
     XX=X-ZX-YX-XYZ
     G += text(XX, (1.5*centers[0][0],1.7*centers[0][1]), rgbcolor='black')
@@ -330,37 +330,17 @@ def _(T=slider([0..100],default=100,label='People surveyed'),X=slider([0..100],d
     G += text(YY, (1.5*centers[1][0],1.7*centers[1][1]), rgbcolor='black')
     ZZ=Z-ZY-ZX-XYZ
     G += text(ZZ, (1.5*centers[2][0],1.7*centers[2][1]), rgbcolor='black')
-
+ 
     # Plot intersection of all three
     G += text(XYZ, (0,0), rgbcolor='black')
-    
+   
     # Indicate number not in X, in Y, or in Z
     C=T-XX-YY-ZZ-ZX-ZY-YX-XYZ
     G += text(C,(3,-3),rgbcolor='black')
     
     # Check reasonableness before displaying result
-    if XYZ>XY or XYZ>XZ or XYZ>YZ or XY>X or XY>Y or XZ>X or XZ>Z or YZ>Y or YZ>Z or C<0:
-        print 'This situation is impossible!'
-        if XYZ > XY:
-            print 'The number of people who run, bike, and swim cannot be greater than the number of people who run and bike! (Why?)'
-        if XYZ > XZ:
-            print 'The number of people who run, bike, and swim cannot be greater than the number of people who run and swim! (Why?)'
-        if XYZ > YZ:
-            print 'The number of people who run, bike, and swim cannot be greater than the number of people who bike and swim! (Why?)'
-        if XY > X:
-            print 'The number of people who run and bike cannot be greater than the number of people who run! (Why?)'
-        if XY > Y:
-            print 'The number of people who run and bike cannot be greater than the number of people who bike! (Why?)'
-        if XZ > X:
-            print 'The number of people who run and swim cannot be greater than the number of people who run! (Why?)'
-        if XZ > Z:
-            print 'The number of people who run and swim cannot be greater than the number of people who swim! (Why?)'
-        if YZ > Y:
-            print 'The number of people who bike and swim cannot be greater than the number of people who bike! (Why?)'
-        if YZ > Z:
-            print 'The number of people who bike and swim cannot be greater than the number of people who swim! (Why?)'
-        if C<0:
-            print 'You have indicated too many people! The number of people exceeds the number of people surveyed. (Why?)'
+    if XYZ>XY or XYZ>XZ or XYZ>YZ or XY>X or XY>Y or XZ>X or XZ>Z or YZ>Y or YZ>Z or C<0 or XYZ<0 or XZ<0 or YZ<0 or XY<0 or X<0 or Y<0 or Z<0:
+        print 'This situation is impossible! (Why?)'
     else:
         G.show(aspect_ratio=1, axes=False)
 }}}
