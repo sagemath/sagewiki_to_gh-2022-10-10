@@ -41,6 +41,7 @@
    * http://mathworld.wolfram.com/SisterCelinesMethod.html
  * Analytic rank for elliptic curve L-functions (Michelle)
  * Newton's method bug (Amy)
+ * Updating old Sage worksheets to public SMC worksheets (Amy)
  * Discrete Gaussian sampler bug (Kristin, Amy)
     * http://trac.sagemath.org/ticket/17764
     * http://trac.sagemath.org/ticket/19138
