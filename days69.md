@@ -26,7 +26,7 @@
  * Writing/fixing documentation: fixing typos 
     * git command should be git -command
     * git trac review : In http://doc.sagemath.org/html/en/developer/git_trac.html#reviewing , "git trac review 12345 downloads the branch from the ticket and shows you what is being added" is not exactly what it does.
-    * The depreciation explication in Developer's guide is unclear : the use of * shouldn't be there, or made more precise. In general, the depreciation should be made more clear for when you move a file. http://doc.sagemath.org/html/en/developer/coding_in_python.html#deprecation
+    * The deprecation explication in Developer's guide is unclear. Especially, the deprecation should be made more clear for when you move a file. http://doc.sagemath.org/html/en/developer/coding_in_python.html#deprecation
     * The way to install Sage for developers is wrong : "You can use your local installation of Sage, or (to start without Sage) download it from github which is a public read-only mirror (=faster) of our internal git repository". I think we had difficulties developing because we tried to use our local installation (with the tar file) instead of the git one. http://doc.sagemath.org/html/en/developer/walk_through.html#obtaining-the-sage-source-code
  * Reviewing patches
  * ABC project (Lily, Kristin, Aly, Jen, Jen)
