@@ -5,8 +5,8 @@ If you use Sage in a book, paper, website, etc., please [[http://www.sagemath.or
 Please reference Sage as follows:
 
 {{{
-W. A. Stein et al. Sage Mathematics Software (Version x.y.z),
-   The Sage Development Team, YYYY, http://www.sagemath.org.
+Sage Mathematics Software (Version x.y.z),
+   The Sage Developers, YYYY, http://www.sagemath.org.
 }}}
 
 where you should change `x.y.z` to the exact version number you used for your publication. Also change `YYYY` to the year that reflects the version of Sage you used for the publication. 
@@ -16,8 +16,7 @@ where you should change `x.y.z` to the exact version number you used for your pu
 {{{
 @manual{sage,
   Key          = {Sage},
-  Author       = {W.\thinspace{}A. Stein and others},
-  Organization = {The Sage Development Team},
+  Author       = {The Sage Developers},
   Title        = {{S}age {M}athematics {S}oftware ({V}ersion x.y.z)},
   note         = {{\tt http://www.sagemath.org}},
   Year         = {YYYY},
@@ -37,8 +36,8 @@ Include them as doi = {dx.doi.org/...}
 {{{
 \newcommand{\etalchar}[1]{$^{#1}$}
 \bibitem[S{\etalchar{+}}09]{sage}
-W.\thinspace{}A. Stein et~al., \emph{{S}age {M}athematics {S}oftware ({V}ersion
-  x.y.z)}, The Sage Development Team, YYYY, {\tt http://www.sagemath.org}.
+\emph{{S}age {M}athematics {S}oftware ({V}ersion
+  x.y.z)}, The Sage Developers, YYYY, {\tt http://www.sagemath.org}.
 }}}
 
 Also, be sure to find out what components of Sage, e.g., !NumPy, PARI, GAP, that your calculation uses, and properly attribute those systems (for example, ask on sage-devel). Also, you may use the {{{get_systems}}} method:
