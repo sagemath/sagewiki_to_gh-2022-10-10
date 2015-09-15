@@ -2,6 +2,8 @@
 
 Berkeley, California
 
+SageMathCloud project: https://cloud.sagemath.com/projects/ad9e7c84-b1de-4c64-b056-9a5e04d9107e
+
 Topic: Sage, SageMathCloud, Jupyter
 
 Dates: The dates are Nov 8-14, with arrival on Nov 8 and departure on Nov 14.  So we'll probably work on the night of Nov 8, and night of Nov 13, but people will start disappearing on the morning of Nov 14.  (Of course, dates are always flexible for individual participants.)
