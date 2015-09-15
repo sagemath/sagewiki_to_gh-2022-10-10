@@ -27,6 +27,6 @@ Possible participents:
 
 Funding:
 
-- The IPython group will support up to 2 Europeans. 
-- The [[OpenDreamKit|http://opendreamkit.org/]] project will fund several more Europeans.
-- A grant will support some US participants.
+ * The IPython group will support up to 2 Europeans. 
+ * The [[OpenDreamKit|http://opendreamkit.org/]] project will fund several more Europeans.
+ * A grant will support some US participants.
