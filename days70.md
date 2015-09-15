@@ -10,20 +10,21 @@ Organizers: William Stein, Harald Schilly
 
 Local support: Fernando Perez, Ken Ribet
 
-Possible participents:
+Participents:
 
- * William Stein (confirmed)
- * Harald Schilly (confirmed)
- * Volker Braun (confirmed)
- * Jereon Demeyer (pending)
- * Fernando Perez (confirmed)
+ * William Stein (confirmed) -- Seattle
+ * Harald Schilly (confirmed) -- Vienna, Austria
+ * Volker Braun (confirmed) -- Germany (?)
+ * Jereon Demeyer (pending) -- Belgium
+ * Fernando Perez (confirmed) -- Berkeley
  * Jean-Pierre Flori (confirmed)
- * Rob Beezer
- * Jason Grout (pending)
- * Andrew Ohana (pending)
+ * Rob Beezer -- near Seattle
+ * Jason Grout (pending) -- Bloomberg
+ * Andrew Ohana (pending) -- Seattle
  * Markus Pfeiffer (confirmed)
  * David Lucas (pending)
  * Raniere Silva (confirmed)
+ * Shuyan Ouyang (confirmed) -- Berkeley Student
 
 Funding:
 
