@@ -27,6 +27,7 @@ Participents:
  * David Lucas (pending)
  * Raniere Silva (confirmed)
  * Shuyan Ouyang (confirmed) -- Berkeley Student
+ * Tom Denton (will drop by) -- Google
 
 Funding:
 
