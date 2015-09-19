@@ -28,6 +28,7 @@ Participents:
  * Raniere Silva (confirmed)
  * Shuyan Ouyang (confirmed) -- Berkeley Student
  * Tom Denton (will drop by) -- Google
+ * Dennis Stein (confirmed) -- San Diego; will create a marketing video about Sage based on interviews
 
 Funding:
 
