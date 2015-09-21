@@ -30,6 +30,7 @@ Participents:
  * Tom Denton (will drop by) -- Google
  * Dennis Stein (confirmed) -- San Diego; will create a marketing video about Sage based on interviews
  * Emily Gunawan (confirmed) -- University of Minnesota, combinatorics
+ * Viviane Pons (confirmed) -- France
 
 Funding:
 
