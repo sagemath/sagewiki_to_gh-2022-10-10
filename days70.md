@@ -2,6 +2,8 @@
 
 Berkeley, California
 
+Lodging: some participants will stay here -- http://www.homeaway.com/vacation-rental/p3993577; two will stay at the Berkeley Faculty club.
+
 SageMathCloud project: https://cloud.sagemath.com/projects/ad9e7c84-b1de-4c64-b056-9a5e04d9107e
 
 Topic: Sage, SageMathCloud, Jupyter
