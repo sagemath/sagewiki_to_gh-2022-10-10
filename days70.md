@@ -24,7 +24,7 @@ Participents:
  * Jean-Pierre Flori (confirmed)
  * Rob Beezer -- near Seattle
  * Jason Grout (pending) -- Bloomberg
- * Andrew Ohana (pending) -- Seattle
+ * Andrew Ohana (very unlikely) -- Seattle
  * Markus Pfeiffer (confirmed)
  * David Lucas (pending)
  * Raniere Silva (confirmed)
