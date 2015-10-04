@@ -22,7 +22,7 @@ Participents:
  * Jeroen Demeyer (pending) -- Belgium
  * Fernando Perez (confirmed) -- Berkeley
  * Jean-Pierre Flori (confirmed)
- * Rob Beezer -- near Seattle
+ * Rob Beezer (confirmed) -- near Seattle
  * Jason Grout (pending) -- Bloomberg
  * Andrew Ohana (very unlikely) -- Seattle
  * Markus Pfeiffer (confirmed)
