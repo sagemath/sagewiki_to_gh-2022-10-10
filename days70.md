@@ -19,7 +19,7 @@ Participents:
  * William Stein (confirmed) -- Seattle
  * Harald Schilly (confirmed) -- Vienna, Austria
  * Volker Braun (confirmed) -- Germany (?)
- * Jeroen Demeyer (pending) -- Belgium
+ * Jeroen Demeyer (confirmed) -- Belgium
  * Fernando Perez (confirmed) -- Berkeley
  * Jean-Pierre Flori (confirmed)
  * Rob Beezer (confirmed) -- near Seattle
