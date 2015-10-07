@@ -26,7 +26,7 @@ Participents:
  * Jason Grout (pending) -- Bloomberg
  * Andrew Ohana (very unlikely) -- Seattle
  * Markus Pfeiffer (confirmed)
- * David Lucas (pending)
+ * David Lucas (confirmed) -- France
  * Raniere Silva (confirmed)
  * Shuyan Ouyang (confirmed) -- Berkeley Student
  * Tom Denton (will drop by) -- Google
