@@ -66,7 +66,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Chebyshev creator || easy || ||
  || is_preperiodic over finite fields || easy || ||
  || height_difference_bound for non-endomorphism || || ||
- || Blow-up at a point (or more generally resolution of singularities) || || ||
+ || Blow-up at a point (or more generally: resolution of singularities) || || ||
  || Coercion || some kind of coercion model: if you have a map defined over QQ should you be able to take the image of a point over CC (i.e. somewhere you have a well defined embedding) without having to `change_ring()`. Something like this works for polynomials. This may or may not be a good idea, but if it can be done in a consistent manner it would improve usability in certain situations. || || ||
  ||<|2> Postcritically finite morphisms || given a number field enumerate pcf maps over that field || || ||
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
