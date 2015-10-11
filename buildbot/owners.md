@@ -7,14 +7,17 @@ Bot names and owners:
     eddy              --> Vincent.Neri (lri, Orsay, Paris sud)
     edoras            --> ?
     kepler            --> nilesjohnson
+    kevin-Virtualbox  --> kdilks
     geom              --> dimpase
     groebner          --> jkroeker
     icj-laptop        --> chapoton
     librae            --> vdelecroix
     Martin-Laptop     --> mantepse
     mangouste         --> vdelecroix
+    Mercury           --> kdilks
     pcl337b           --> ?
     pi                --> ?
+    poseidon          --> kdilks
     rk01-math         --> dkrenn
     rp01              --> ?
     sage4             --> jdemeyer
