@@ -6,6 +6,7 @@ Bot names and owners:
     debian_jessie_32  --> tmonteil
     eddy              --> Vincent.Neri (lri, Orsay, Paris sud)
     edoras            --> ?
+    findstat          --> stumpc5
     kepler            --> nilesjohnson
     kevin-Virtualbox  --> kdilks
     geom              --> dimpase
