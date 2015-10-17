@@ -6,6 +6,47 @@ Location: Oxford, UK
 
 Funding: Clay Mathematics Institute and the Beatrice Yormark Fund for Women in Mathematics
 
+== Participants ==
+
+The following people will most likely be able to attend.
+
+ * Jen Balakrishnan
+ * David Roe
+ * Xavier Caruso
+ * Mirela Ciperiani
+ * Clifton Cunningham
+ * Alyson Deines
+ * Kiran Kedlaya
+ * Jan Steffen Mueller
+ * Julian Rueth
+ * Jan Tuitman
+
+We have also invited the following people:
+
+ * Francesca Balestrieri
+ * Amnon Besser
+ * Francesca Bianchi
+ * Philip Candelas
+ * Xavier Caruso
+ * Raf Cluckers
+ * Xenia de la Ossa
+ * Netan Dogra
+ * Jessica Fintzen
+ * Victor Flynn
+ * Julia Gordon
+ * Thomas Hales
+ * David Harvey
+ * Minhyong Kim
+ * Alan Lauder
+ * Francois Loeser
+ * Celine Maistret
+ * Marc Masdeu
+ * Ander Steele
+ * William Stein
+ * Tristan Vaccon
+ * Chris Wuthrich
+ * Sarah Zerbes
+
 == Topics ==
 
 We'll have morning talks on the following topics, with afternoons and evenings dedicated to related projects.
