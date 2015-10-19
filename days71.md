@@ -24,6 +24,7 @@ The following people will most likely be able to attend.
 We have also invited the following people:
 
  * Francesca Balestrieri
+ * Jamie Beacom
  * Amnon Besser
  * Francesca Bianchi
  * Philip Candelas
