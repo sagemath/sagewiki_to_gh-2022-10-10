@@ -17,9 +17,12 @@ The following people will most likely be able to attend.
  * Clifton Cunningham
  * Alyson Deines
  * Kiran Kedlaya
+ * Celine Maistret
  * Jan Steffen Mueller
  * Julian Rueth
+ * Ander Steele
  * Jan Tuitman
+ * Tristan Vaccon
 
 We have also invited the following people:
 
@@ -40,13 +43,9 @@ We have also invited the following people:
  * Minhyong Kim
  * Alan Lauder
  * Francois Loeser
- * Celine Maistret
  * Marc Masdeu
- * Ander Steele
  * William Stein
- * Tristan Vaccon
  * Chris Wuthrich
- * Sarah Zerbes
 
 == Topics ==
 
