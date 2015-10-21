@@ -18,32 +18,32 @@ The following people will most likely be able to attend.
  * Alyson Deines
  * Kiran Kedlaya
  * Celine Maistret
+ * Marc Masdeu
  * Jan Steffen Mueller
  * Julian Rueth
  * Ander Steele
  * Jan Tuitman
  * Tristan Vaccon
 
-We have also invited the following people:
+Locals who will likely attend:
 
  * Francesca Balestrieri
  * Jamie Beacom
- * Amnon Besser
  * Francesca Bianchi
  * Philip Candelas
+ * Xenia de la Ossa
+ * Victor Flynn
+ * Minhyong Kim
+
+We have also invited the following people:
+
+ * Amnon Besser
  * Xavier Caruso
  * Raf Cluckers
- * Xenia de la Ossa
  * Netan Dogra
  * Jessica Fintzen
- * Victor Flynn
- * Julia Gordon
  * Thomas Hales
  * David Harvey
- * Minhyong Kim
- * Alan Lauder
- * Francois Loeser
- * Marc Masdeu
  * William Stein
  * Chris Wuthrich
 
