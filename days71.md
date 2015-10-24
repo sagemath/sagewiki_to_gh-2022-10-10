@@ -10,12 +10,13 @@ Funding: Clay Mathematics Institute and the Beatrice Yormark Fund for Women in M
 
 The following people will most likely be able to attend.
 
- * Jen Balakrishnan
+ * Jennifer Balakrishnan
  * David Roe
  * Xavier Caruso
  * Mirela Ciperiani
  * Clifton Cunningham
  * Alyson Deines
+ * Netan Dogra
  * Kiran Kedlaya
  * Celine Maistret
  * Marc Masdeu
@@ -40,7 +41,6 @@ We have also invited the following people:
  * Amnon Besser
  * Xavier Caruso
  * Raf Cluckers
- * Netan Dogra
  * Jessica Fintzen
  * Thomas Hales
  * David Harvey
