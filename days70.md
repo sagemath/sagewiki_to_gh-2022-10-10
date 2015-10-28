@@ -23,16 +23,15 @@ Participents:
  * Fernando Perez (confirmed) -- Berkeley
  * Jean-Pierre Flori (confirmed)
  * Rob Beezer (confirmed) -- near Seattle
- * Jason Grout (pending) -- Bloomberg
- * Andrew Ohana (very unlikely) -- Seattle
+ * Jason Grout (confirmed) -- Bloomberg
  * Markus Pfeiffer (confirmed)
  * David Lucas (confirmed) -- France
  * Raniere Silva (confirmed)
  * Shuyan Ouyang (confirmed) -- Berkeley Student
- * Tom Denton (will drop by) -- Google
  * Dennis Stein (confirmed) -- San Diego; will create a marketing video about Sage based on interviews
  * Emily Gunawan (confirmed) -- University of Minnesota, combinatorics
  * Viviane Pons (confirmed) -- France
+ * Tom Denton (will drop by) -- Google
 
 Funding:
 
