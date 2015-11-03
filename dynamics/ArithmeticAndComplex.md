@@ -30,6 +30,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/19512|#19512]]) is_morphism for maps of products of projective spaces - Grayson Jorgenson
+
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
