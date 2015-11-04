@@ -29,7 +29,7 @@ Participents:
  * Raniere Silva (confirmed)
  * Shuyan Ouyang (confirmed) -- Berkeley Student
  * Dennis Stein (confirmed) -- San Diego; will create a marketing video about Sage based on interviews
- * Emily Gunawan (confirmed) -- University of Minnesota, combinatorics
+ * Emily Gunawan (canceled) -- University of Minnesota, combinatorics
  * Viviane Pons (confirmed) -- France
  * Tom Denton (will drop by) -- Google
 
