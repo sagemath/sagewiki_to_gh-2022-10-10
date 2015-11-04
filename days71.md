@@ -35,6 +35,7 @@ Locals who will likely attend:
  * Xenia de la Ossa
  * Victor Flynn
  * Minhyong Kim
+ * Chris Nicholls
 
 We have also invited the following people:
 
