@@ -205,6 +205,9 @@ Magma has:
    * Kevin Buzzard's code for computing weight 1 cusp forms
    * Lassina Dembele's algorithms for Hilbert modular forms using definite quaternion algebras
 
+
+Kevin Buzzard says on November 5, 2015 that he would also be more than willing to share the magma code he wrote; he also wrote code that computed mod p weight 1 modular forms, which he did not give to magma but would happily give to anyone who asks (including magma). However it should be noted that George J. Schaeffer wrote some **much** more efficient weight 1 modular forms code, so in terms of optimising overall functionality of sage one should *definitely* attempt to implement Schaeffer's code first if possible.
+
 Getting either of these into Sage would be a worthy project (the first much easier than the second).
 
 The second is very much also work of John Voight.  I don't think the second would be too hard, given the work that John Voight and Lassina Dembele have already done, since they have both written numerous nice papers very clearly explaining the algorithms, and they are more than willing to share all the Magma code they wrote. -- William Stein. 
