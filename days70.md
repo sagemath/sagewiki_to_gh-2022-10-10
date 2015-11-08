@@ -38,3 +38,7 @@ Funding:
  * The IPython group will support up to 2 Europeans. 
  * The [[OpenDreamKit|http://opendreamkit.org/]] project will fund several more Europeans.
  * A grant will support some US participants.
+
+Schedule:
+
+https://cloud.sagemath.com/projects/ad9e7c84-b1de-4c64-b056-9a5e04d9107e/files/organization/talk-schedule.md
