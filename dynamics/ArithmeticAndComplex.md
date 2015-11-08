@@ -30,6 +30,10 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/19552|#19552]]) images and preimages of projective subschemes - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/19551|#19551]]) Basic failures in projective product morphisms
+
  * ([[http://trac.sagemath.org/ticket/19512|#19512]]) is_morphism for maps of products of projective spaces - Grayson Jorgenson
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
