@@ -215,7 +215,7 @@ You can browse the complete source code to everything in Sage at https://github.
 
 === How can I rebuild the Sage library in parallel? ===
 
-When you run {{{sage -b}}}, the Sage library gets rebuilt. If you've changed a large number of files (for example, by using Mercurial to jump over many revisions), rebuilding the library will take a long time. If you are using a multicore machine, you can speed this up very easily: set the {{{MAKE}}} environment variable. If you run, say, {{{env MAKE='make -j5' ./sage -b}}} then the Sage library will get rebuilt using five threads. The other library-rebuilding commands also work: {{{-br}}}, {{{-ba}}}, and {{{-ba-force}}} all respect {{{MAKE}}}. In the bash shell, you can also simply do {{{export MAKE='make -j5'}}} and thereafter any rebuilds you do will automatically use five threads.
+When you run {{{sage -b}}}, the Sage library gets rebuilt. If you've changed a large number of files (for example, by using Git to jump over many revisions), rebuilding the library will take a long time. If you are using a multicore machine, you can speed this up very easily: set the {{{MAKE}}} environment variable. If you run, say, {{{env MAKE='make -j5' ./sage -b}}} then the Sage library will get rebuilt using five threads. The other library-rebuilding commands also work: {{{-br}}}, {{{-ba}}}, and {{{-ba-force}}} all respect {{{MAKE}}}. In the bash shell, you can also simply do {{{export MAKE='make -j5'}}} and thereafter any rebuilds you do will automatically use five threads.
 
 Note that there is an apparent bug in GNU make, so that you cannot leave a space between the {{{-j}}} and the number of threads (jobs, as Make calls them). So {{{make -j 5}}} and so on will ''not'' work.
 
@@ -269,18 +269,6 @@ For matrices in particular, see [[http://groups.google.com/group/sage-devel/brow
 The {{{save}}} and {{{load}}} commands will save and load an object, respectively.  In the notebook, the {{{DATA}}} variable is the location of the data storage area of the worksheet.  To save the object {{{my_stuff}}} in a worksheet, you could do {{{save(my_stuff, DATA+"my_stuff")}}} and to reload it, you would just do {{{my_stuff = load(DATA+"my_stuff")}}}
 
 
-=== I get an error from jsMath or the math symbols don't look right when displaying in the notebook ===
-
-If you see the error "It looks like jsMath failed to set up properly (error code -7).  I
-will try to keep going, but it could get ugly.", you haven't installed the TeX fonts which help jsMath render beautiful mathematics.  To get the nice TeX 
-display with jsMath, please download a set of fonts from here:
-
-[[http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html]]
-
-If you are on Linux/Unix, ignore the instructions on the page and just unzip 
-the fonts into your ~/.fonts directory. You can also install the "jsmath-fonts" package.
-
-
 == Getting help ==
 
 
@@ -288,7 +276,11 @@ the fonts into your ~/.fonts directory. You can also install the "jsmath-fonts" 
 
 There is a website for asking help: http://ask.sagemath.org.
 
-Sage has two very active email lists: http://groups.google.com/group/sage-devel and http://groups.google.com/group/sage-support.
+Sage has two very active email lists: 
+
+* For developers of sage: http://groups.google.com/group/sage-devel
+
+* For users of sage: http://groups.google.com/group/sage-support.
 
 There are also two very active IRC channels: #sage-devel and #sage-support on freenode.
 
