@@ -1,6 +1,12 @@
 Page de préparation des cours de combinatoire algébrique et énumérative et de Sage a Lyon en janvier 2016.
 
 
+Programme des (autres) enseignements:
+ * L3 http://www.ens-lyon.fr/DI/?page_id=18
+ * M1 http://www.ens-lyon.fr/DI/?page_id=4036&lang=en
+ * M2 http://www.ens-lyon.fr/DI/?page_id=16
+
+
 == Partie Combinatoire algébrique et énumérative ==
 
 juste quelque idees en vrac
