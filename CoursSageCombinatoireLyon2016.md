@@ -1,10 +1,10 @@
 Page de préparation des cours de combinatoire énumérative et de Sage a Lyon en janvier 2016.
 
 
-== Partie Combinatoire énumérative == 
+== Partie Combinatoire énumérative ==
 
 
-== Partie Sage == 
+== Partie Sage ==
 
 Propositions de thèmes à aborder 
 
