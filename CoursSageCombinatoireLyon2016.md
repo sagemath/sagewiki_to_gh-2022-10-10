@@ -5,17 +5,17 @@ Page de préparation des cours de combinatoire algébrique et énumérative et d
 
 juste quelque idees en vrac
 
-* graphes, arbres, cartes
-* series generatrices et techniques de decompositions
-* inversion de Lagrange, asymptotique
-* ?
+  * graphes, arbres, cartes
+  * series generatrices et techniques de decompositions
+  * inversion de Lagrange, asymptotique
+  * ?
 
 == Partie Combinatoire algébrique ==
 
-* partitions, fonctions symetriques
-* posets
-* carquois
-* ?
+  * partitions, fonctions symetriques
+  * posets
+  * carquois
+  * ?
 
 == Partie Sage ==
 
