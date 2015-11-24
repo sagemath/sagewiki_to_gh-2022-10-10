@@ -30,8 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/19557|#19557]]) needs-review: Basic iteration functionality for products of projective spaces - Grayson Jorgenson
-
  * ([[http://trac.sagemath.org/ticket/19552|#19552]]) needs-review: images and preimages of projective subschemes - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/19551|#19551]]) new: Basic failures in projective product morphisms
@@ -79,6 +77,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/19557|#19557]])-- closed sage 6.10: Basic iteration functionality for products of projective spaces - Grayson Jorgenson
 
  * --([[http://trac.sagemath.org/ticket/19512|#19512]])-- closed sage 6.10: is_morphism for maps of products of projective spaces - Grayson Jorgenson
 
