@@ -32,8 +32,6 @@ Locals who will likely attend:
  * Francesca Balestrieri
  * Jamie Beacom
  * Francesca Bianchi
- * Philip Candelas
- * Xenia de la Ossa
  * Victor Flynn
  * Minhyong Kim
  * Christopher Nicholls
@@ -44,8 +42,9 @@ We have also invited the following people:
  * Xavier Caruso
  * Raf Cluckers
  * Jessica Fintzen
- * Thomas Hales
+ * Toby Gee
  * David Harvey
+ * Fernando Rodriguez Villegas
  * William Stein
  * Chris Wuthrich
 
