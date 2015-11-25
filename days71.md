@@ -21,6 +21,7 @@ The following people will most likely be able to attend.
  * Celine Maistret
  * Marc Masdeu
  * Jan Steffen Mueller
+ * Joaquin Rodrigues Jacinto
  * Julian Rueth
  * Ander Steele
  * Jan Tuitman
