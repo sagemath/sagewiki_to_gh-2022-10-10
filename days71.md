@@ -38,12 +38,10 @@ Locals who will likely attend:
 
 We have also invited the following people:
 
- * Amnon Besser
  * Kevin Buzzard
  * Xavier Caruso
  * Raf Cluckers
  * Jessica Fintzen
- * Toby Gee
  * Immanuel Halupczok
  * David Harvey
  * Maike Massierer
