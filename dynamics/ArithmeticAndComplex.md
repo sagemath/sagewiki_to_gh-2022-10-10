@@ -30,6 +30,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/19635|#19635]]) new: Products of projective spaces over fields and finite fields - Grayson Jorgenson
+
  * ([[http://trac.sagemath.org/ticket/19552|#19552]]) needs-review: images and preimages of projective subschemes - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/19551|#19551]]) new: Basic failures in projective product morphisms
