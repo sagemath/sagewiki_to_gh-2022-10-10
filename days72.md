@@ -4,13 +4,13 @@
 
 Location: Prague, Czech Republic
 
-== Topics ==
+== Focus & Topics ==
+
+=== Introduction and Tutorial for Beginners ===
 
 === Automata and Digit Expansions ===
 
 Automata and transducers are available in !SageMath via its [[http://doc.sagemath.org/html/en/reference/combinat/sage/combinat/finite_state_machine.html|finite state machines module]]. The introduction of this package will focus on examples related to digit expansions.
-
-=== Add other Topics here ===
 
 == Participants ==
 
