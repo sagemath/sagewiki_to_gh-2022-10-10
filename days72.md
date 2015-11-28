@@ -10,14 +10,16 @@ Location: Prague, Czech Republic
 
 TODO
 
-=== TODO ===
+=== Add other Topics here ===
 
 == Participants ==
 
 The following people will most likely be able to attend.
 
- * TODO
+ * Daniel Krenn
+ * Štěpán Starosta
+ * ...
 
 Locals who will likely attend:
 
- * TODO
+ * ...
