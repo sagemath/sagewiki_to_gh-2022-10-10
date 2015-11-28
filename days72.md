@@ -1,6 +1,6 @@
-= Sage Days 72 (May 21-22): satellite event of Numeration 2016 (May 23-27)
+= Sage Days 72 (May 21-22): satellite event of Numeration 2016 (May 23-27) =
 
-'''Organizers''': Štěpán Starosta
+'''Organizers''': Daniel Krenn, Štěpán Starosta
 
 Location: Prague, Czech Republic
 
