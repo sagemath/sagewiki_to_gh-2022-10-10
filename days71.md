@@ -43,7 +43,6 @@ We have also invited the following people:
  * Raf Cluckers
  * Jessica Fintzen
  * Immanuel Halupczok
- * David Harvey
  * Maike Massierer
  * Maurizio Monge
  * Fernando Rodriguez Villegas
