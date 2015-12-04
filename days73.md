@@ -8,7 +8,9 @@ This is a Sage workshop prior to the conference [[http://www.birs.ca/events/2016
 
  * make a list of challenging computational questions
 
-It is intended to be a small workshop (10 to 15 people).
+ * implement new algorithms
+
+It is intended to be a small workshop (10 to 15 people) focusing on coding sprints.
 
 == Organizers ==
 
