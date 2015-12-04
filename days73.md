@@ -4,7 +4,7 @@ This is a Sage workshop prior to the conference [[http://www.birs.ca/events/2016
 
  * introduce Sage to people from Oaxaca or assisting to the conference
 
- * program and code presentations about surface geometry and dynamics
+ * have program and code presentations about geometry and dynamics of surfaces
 
  * make a list of challenging computational question
 
