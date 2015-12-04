@@ -6,7 +6,7 @@ This is a Sage workshop prior to the conference [[http://www.birs.ca/events/2016
 
  * have program and code presentations about geometry and dynamics of surfaces
 
- * make a list of challenging computational question
+ * make a list of challenging computational questions
 
 It is intended to be a small workshop (10 to 15 people).
 
