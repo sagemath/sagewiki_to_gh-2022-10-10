@@ -12,6 +12,18 @@ This is a Sage workshop prior to the conference [[http://www.birs.ca/events/2016
 
 It is intended to be a small workshop (10 to 15 people) focusing on coding sprints.
 
+== Existing programs about translation surfaces ==
+
+ * Alex Eskin code (saddle connection exploration + decomposition in cylinders)
+
+ * various [[http://math.rice.edu/~rm51/|programs by Ronen Mukamel]] (Delaunay triangulations, Teichmueller curves especially in genus 2)
+
+ * Vincent Delecroix [[http://www.labri.fr/perso/vdelecro/programming.html|flatsurf package]] (mostly interval exchanges and square tiled surfaces, but a bit of topology)
+
+ * Vincent Delecroix and Pat Hooper [[https://github.com/videlec/sage-flatsurf|drawing program]]
+
+ * Charles Fougeron code for Lyapunov exponents of strata coverings
+
 == Organizers ==
 
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
