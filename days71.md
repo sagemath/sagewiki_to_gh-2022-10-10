@@ -42,10 +42,12 @@ We have also invited the following people:
  * Raf Cluckers
  * Jessica Fintzen
  * Immanuel Halupczok
+ * Rob Harron
  * Maike Massierer
  * Maurizio Monge
  * Fernando Rodriguez Villegas
  * William Stein
+ * Jeanine Van Order
  * Chris Wuthrich
 
 == Topics ==
