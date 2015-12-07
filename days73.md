@@ -22,7 +22,7 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
 
  * Vincent Delecroix and Pat Hooper [[https://github.com/videlec/sage-flatsurf|drawing program]]
 
- * Charles Fougeron code for Lyapunov exponents of strata coverings
+ * Charles Fougeron code for Lyapunov exponents of strata coverings (see [[http://trac.sagemath.org/ticket/16102|trac ticket #16102]])
 
 == Organizers ==
 
