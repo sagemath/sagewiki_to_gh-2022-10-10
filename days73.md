@@ -28,3 +28,13 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
 
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
  * [[http://www.matmor.unam.mx/~ferran/|Ferrán Valdez]]
+
+== Preliminary list of participants (to be confirmed) ==
+
+ * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
+ * [[http://wphooper.com/|Pat Hooper]]
+ * [[http://www.math.u-psud.fr/~lelievre/|Samuel Lelièvre]]
+ * [[http://monteil.perso.math.cnrs.fr/|Thierry Monteil]]
+ * [[http://www.math.toronto.edu/~rafi/|Kasra Rafi]]
+ * [[http://www.matmor.unam.mx/~ferran/|Ferrán Valdez]]
+ * [[http://www.math.uiuc.edu/~work2/|Grace Work]]
