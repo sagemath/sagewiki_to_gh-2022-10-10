@@ -26,6 +26,8 @@ The following people will most likely be able to attend.
  * Ander Steele
  * Jan Tuitman
  * Tristan Vaccon
+ * Jeanine Van Order
+
 
 Locals who will likely attend:
 
@@ -47,7 +49,6 @@ We have also invited the following people:
  * Maurizio Monge
  * Fernando Rodriguez Villegas
  * William Stein
- * Jeanine Van Order
  * Chris Wuthrich
 
 == Topics ==
