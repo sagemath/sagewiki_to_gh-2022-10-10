@@ -6,6 +6,7 @@ Programme des (autres) enseignements:
  * M1 http://www.ens-lyon.fr/DI/?page_id=4036&lang=en
  * M2 http://www.ens-lyon.fr/DI/?page_id=16
 
+Cours donné par Viviane en rapport : https://www.lri.fr/~pons/en/eaump.php
 
 == Partie Combinatoire algébrique et énumérative ==
 
