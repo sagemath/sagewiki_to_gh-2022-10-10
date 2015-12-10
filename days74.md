@@ -1,10 +1,10 @@
 = Sage Days 74: Differential geometry and topology =
 
-[[http://www.sagemath.org|Sage]] Days 74 will take place on May 30 - June 2 at [[http://cias.obspm.fr/|CIAS (Centre International d'Ateliers Scientifiques)]], located in Paris, France.
+[[http://www.sagemath.org|Sage]] Days 74 will take place on May 30 - June 2 at the [[https://www.obspm.fr/-cias-.html|Workshop Center (CIAS)]] of Observatoire de Paris, France.
 
 == Registration ==
 
-Registration is now open. Contact Travis (tscrimsh@umn.edu) to register.
+Registration is now open. Contact eric.gourgoulhon@obspm.fr to register.
 
 == Schedule ==
 
