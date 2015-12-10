@@ -39,7 +39,6 @@ TBA.
  * Jeremy L. Martin* (University of Kansas, Lawrence)
  * John Palmieri* (University of Washington, Seattle)
  * Thibaut Paumard* (Observatoire de Paris)
- * William Stein (University of Washington, Seattle)
  * Nicolas Thiéry* (University Paris Sud)
 
 (* denotes confirmed)
