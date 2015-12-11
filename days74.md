@@ -29,19 +29,23 @@ TBA.
 
 TBA.
 
+=== Funding ===
+
+European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are expected to cover their expenses from their !OpenDreamKit funds.
+
 === Speakers ===
 
- * Mark Bell* (University of Illinois, Urbana-Champaign)
- * Volker Braun* (Berlin)
- * Marc Culler* (University of Illinois, Chicago)
- * Vincent Delecroix* (University of Bordeaux)
- * Nathan Dunfield* (University of Illinois, Urbana-Champaign)
- * Patrick Hooper* (City College of New York)
- * Marcin Kostur* (University of Silesia, Katowice)
- * Jeremy L. Martin* (University of Kansas, Lawrence)
- * John Palmieri* (University of Washington, Seattle)
- * Thibaut Paumard* (Observatoire de Paris)
- * Nicolas Thiéry* (University Paris Sud)
+ * Mark Bell* (University of Illinois, Urbana-Champaign): ''Flipper and Sage''
+ * Volker Braun* (Berlin): ''!SageMath''
+ * Marc Culler* (University of Illinois, Chicago): ''!SnapPy''
+ * Vincent Delecroix* (University of Bordeaux): ''Riemannian manifolds''
+ * Nathan Dunfield* (University of Illinois, Urbana-Champaign): ''!SnapPy''
+ * Patrick Hooper* (City College of New York): ''TBA''
+ * Marcin Kostur* (University of Silesia, Katowice): ''3D visualization''
+ * Jeremy L. Martin* (University of Kansas, Lawrence): ''CW complexes''
+ * John Palmieri* (University of Washington, Seattle): ''topology''
+ * Thibaut Paumard* (Observatoire de Paris): ''Gyoto code and geodesics''
+ * Nicolas Thiéry* (University Paris Sud): ''categories in Sage''
 
 (* denotes confirmed)
 
