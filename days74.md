@@ -32,6 +32,7 @@ TBA.
 === Speakers ===
 
  * Mark Bell* (University of Illinois, Urbana-Champaign)
+ * Volker Braun* (Berlin)
  * Marc Culler* (University of Illinois, Chicago)
  * Vincent Delecroix* (University of Bordeaux)
  * Nathan Dunfield* (University of Illinois, Urbana-Champaign)
@@ -45,7 +46,9 @@ TBA.
 
 === Participants ===
 
+ * Michal Bejger (N. Copernicus Astronomical Center, Warsaw)
  * Mark Bell (University of Illinois, Urbana-Champaign)
+ * Volker Braun (Berlin)
  * Marc Culler (University of Illinois, Chicago)
  * Vincent Delecroix (University of Bordeaux)
  * Nathan Dunfield (University of Illinois, Urbana-Champaign)
