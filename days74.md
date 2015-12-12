@@ -17,7 +17,9 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * [[http://sagemanifolds.obspm.fr/|SageManifolds]] inclusion into Sage.
  * [[http://trac.sagemath.org/ticket/14901|Lie algebras #14901]] and implement their relationship with manifolds.
  * CW/Cube complexes by generalizing the manifold classes.
- * Computation of geodesics on pseudo-Riemannian manifolds. 
+ * Computation of geodesics on pseudo-Riemannian manifolds.
+ * Include the `sage.geometry.riemannian_manifolds` (i.e. parametrized surfaces) into the more general framework of !SageManifolds.
+ * Experiment plotting possibilities with OpenGL (nice stuff from !SnapPy!).
 
 == Details ==
 
