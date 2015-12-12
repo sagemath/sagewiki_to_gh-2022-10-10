@@ -68,6 +68,7 @@ European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are
  * Thibaut Paumard (Observatoire de Paris)
  * Travis Scrimshaw (University of Minnesota)
  * Nicolas Thiéry (University Paris Sud)
+ * Anne Vaugon (University Paris Sud)
 
 === Organizers ===
 
