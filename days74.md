@@ -47,7 +47,7 @@ European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are
  * Jeremy L. Martin* (University of Kansas, Lawrence): ''CW complexes''
  * John Palmieri* (University of Washington, Seattle): ''topology''
  * Thibaut Paumard* (Observatoire de Paris): ''Gyoto code and geodesics''
- * Nicolas Thiéry* (University Paris Sud): ''categories in Sage''
+ * Nicolas Thiéry* (University Paris Sud): ''Modelling mathematics in Sage (parents, elements, categories, ...)''
 
 (* denotes confirmed)
 
