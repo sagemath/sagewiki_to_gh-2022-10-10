@@ -19,7 +19,7 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * CW/Cube complexes by generalizing the manifold classes.
  * Computation of geodesics on pseudo-Riemannian manifolds.
  * Include the `sage.geometry.riemannian_manifolds` (i.e. parametrized surfaces) into the more general framework of !SageManifolds.
- * Experiment plotting possibilities with OpenGL (nice stuff from !SnapPy!).
+ * Experiment plotting possibilities with OpenGL (nice stuff from !SnapPy!) and more... what could be supported by a browser?
 
 == Details ==
 
