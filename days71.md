@@ -23,6 +23,7 @@ The following people will most likely be able to attend.
  * Marc Masdeu
  * Jan Steffen Mueller
  * Joaquin Rodrigues Jacinto
+ * Fernando Rodriguez Villegas
  * Julian Rueth
  * Ander Steele
  * Jan Tuitman
@@ -47,7 +48,6 @@ We have also invited the following people:
  * Immanuel Halupczok
  * Rob Harron
  * Maurizio Monge
- * Fernando Rodriguez Villegas
  * William Stein
  * Chris Wuthrich
 
