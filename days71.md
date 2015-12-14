@@ -14,6 +14,7 @@ The following people will most likely be able to attend.
  * David Roe
  * Xavier Caruso
  * Mirela Ciperiani
+ * Edgar Costa
  * Clifton Cunningham
  * Alyson Deines
  * Netan Dogra
@@ -45,7 +46,6 @@ We have also invited the following people:
  * Jessica Fintzen
  * Immanuel Halupczok
  * Rob Harron
- * Maike Massierer
  * Maurizio Monge
  * Fernando Rodriguez Villegas
  * William Stein
