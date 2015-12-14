@@ -4,7 +4,7 @@
 
 == Registration ==
 
-Registration is now open. Contact Eric (eric.gourgoulhon@obspm.fr) and Travis (tscrimsh@umn.edu) to register.
+Registration is free and now open. Contact Eric (eric.gourgoulhon@obspm.fr) and Travis (tscrimsh@umn.edu) to register.
 
 == Schedule ==
 
