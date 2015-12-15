@@ -34,6 +34,8 @@ We recommend to book some hotel in Paris, in Montparnasse area (14th arrondissem
 Meudon is located at 10 min by train from Montparnasse station in Paris.
 A system of car shuttle will be organized from Meudon station to the workshop center (CIAS).
 
+''More details soon...''
+
 
 === Funding ===
 
