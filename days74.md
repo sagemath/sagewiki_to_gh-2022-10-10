@@ -62,6 +62,7 @@ European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are
  * Eric Gourgoulhon (Observatoire de Paris)
  * Patrick Hooper (City College of New York)
  * Marcin Kostur (University of Silesia, Katowice)
+ * Samuel Lelièvre (University Paris Sud)
  * Marco Mancini (Observatoire de Paris)
  * Jeremy L. Martin (University of Kansas, Lawrence)
  * John Palmieri (University of Washington, Seattle)
