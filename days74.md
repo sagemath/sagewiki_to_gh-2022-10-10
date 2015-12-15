@@ -25,15 +25,24 @@ Here is a list of possible projects. Feel free to add your own to the list.
 
 === Lodging ===
 
-TBA.
+We recommend to book some hotel in Paris, in Montparnasse area (14th arrondissement). 
+
+''More details soon...''
 
 === Transportation ===
 
-TBA.
+Meudon is located at 10 min by train from Montparnasse station in Paris.
+A system of car shuttle will be organized from Meudon station to the workshop center (CIAS).
+
 
 === Funding ===
 
 European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are expected to cover their expenses from their !OpenDreamKit funds.
+
+=== Support ===
+
+ * [[http://www.obspm.fr/|Observatoire de Paris]]
+ * Horizon 2020 European Research Infrastructure project [[http://opendreamkit.org/|OpenDreamKit]]
 
 === Speakers ===
 
