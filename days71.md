@@ -29,6 +29,8 @@ The following people will most likely be able to attend.
  * Jan Tuitman
  * Tristan Vaccon
  * Jeanine Van Order
+ * Chris Wuthrich
+
 
 
 Locals who will likely attend:
@@ -49,7 +51,6 @@ We have also invited the following people:
  * Rob Harron
  * Maurizio Monge
  * William Stein
- * Chris Wuthrich
 
 == Topics ==
 
