@@ -22,6 +22,7 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * Experiment plotting possibilities with OpenGL (nice stuff from !SnapPy!) and more... what could be supported by a browser?
  * Persistent homology.
  * Simplicial sets. (Co)simplicial objects in various categories.
+ * Incorporation of [[https://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/ |Kenzo]]?
 
 == Details ==
 
