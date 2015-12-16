@@ -20,6 +20,8 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * Computation of geodesics on pseudo-Riemannian manifolds.
  * Include the `sage.geometry.riemannian_manifolds` (i.e. parametrized surfaces) into the more general framework of !SageManifolds.
  * Experiment plotting possibilities with OpenGL (nice stuff from !SnapPy!) and more... what could be supported by a browser?
+ * Persistent homology.
+ * Simplicial sets. (Co)simplicial objects in various categories.
 
 == Details ==
 
@@ -58,7 +60,7 @@ European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are
  * Patrick Hooper* (City College of New York): ''TBA''
  * Marcin Kostur* (University of Silesia, Katowice): ''3D visualization''
  * Jeremy L. Martin* (University of Kansas, Lawrence): ''CW complexes''
- * John Palmieri* (University of Washington, Seattle): ''topology''
+ * John Palmieri* (University of Washington, Seattle): ''simplicial sets''
  * Thibaut Paumard* (Observatoire de Paris): ''Gyoto code and geodesics''
  * Nicolas Thiéry* (University Paris Sud): ''Modelling mathematics in Sage (parents, elements, categories, ...)''
 
