@@ -50,6 +50,7 @@ We have also invited the following people:
  * Immanuel Halupczok
  * Rob Harron
  * Maurizio Monge
+ * Sandra Rozensztajn
 
 == Topics ==
 
