@@ -12,13 +12,15 @@ Cours donné par Viviane en rapport : https://www.lri.fr/~pons/en/eaump.php
 
 juste quelque idees en vrac
 
-  * graphes, arbres, cartes
+  * des belles bijections (Joyal pour les arbres, ?)
+  * graphes, arbres, cartes (rq: les graphes non plonges ont probablement ete deja bien vus a Lyon, voir par exemple http://www.ens-lyon.fr/DI/?p=87 et http://oc.inpg.fr/esperet/cours/cr17.html)
   * series generatrices et techniques de decompositions
   * inversion de Lagrange, asymptotique
   * ?
 
 == Partie Combinatoire algébrique ==
 
+  * actions de groupes comme moyen de comprendre les symmetries et compter en fonction, Polya
   * partitions, fonctions symetriques
   * posets
   * carquois
@@ -30,11 +32,13 @@ Propositions de thèmes à aborder
 
  * Prise en main, trouver de l'aide
  * Coercion
- * Représentation des nombres
- * Methodes de résolution de problèmes difficiles
+ * Représentation des nombres reels et complexes
+ * formulation MILP de problemes combinatoires
+ * Methodes de résolution de problèmes difficiles, illustres sur le probleme de la pavabilite des polyominos
    * brute force
    * Backtracking, dancing links
    * MILP
    * Chaines de Markov
    * what else ?
  * Contribuer
+ * ?
