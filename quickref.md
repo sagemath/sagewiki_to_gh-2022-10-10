@@ -22,6 +22,8 @@
 
 == Spanish ==
 
+ * '''Sage: guía de referencia rápida''' by William Stein (March 2009) - adaptación al español: Javier Honrubia González - [[attachment:quickref-es.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-es.pdf|download]] (y el código fuente [[attachment:quickref-es.zip]])
+
  * '''Una visita rápida a Sage''' by Juan Luis Varona (January 2010) - [[attachment:VisitaSAGE.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=VisitaSAGE.pdf|download]] (y el código fuente [[attachment:VisitaSAGE.tex]])
 
 == Catalan ==
