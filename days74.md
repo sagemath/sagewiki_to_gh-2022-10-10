@@ -50,15 +50,16 @@ European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are
 
  * [[http://www.obspm.fr/|Observatoire de Paris]]
  * Horizon 2020 European Research Infrastructure project [[http://opendreamkit.org/|OpenDreamKit]]
+ * ANR Project [[http://pageperso.univ-brest.fr/~jnicolas/ANRAARG/ANR_AARG.html|Analyse Asymptotique en Relativité Générale]]
 
 === Speakers ===
 
  * Mark Bell* (University of Illinois, Urbana-Champaign): ''Flipper and Sage''
- * Volker Braun* (Berlin): ''!SageMath''
+ * Volker Braun* (Berlin): ''!SageMath''; ''toric geometry''
  * Marc Culler* (University of Illinois, Chicago): ''!SnapPy''
  * Vincent Delecroix* (University of Bordeaux): ''Riemannian manifolds''
  * Nathan Dunfield* (University of Illinois, Urbana-Champaign): ''!SnapPy''
- * Patrick Hooper* (City College of New York): ''TBA''
+ * Patrick Hooper* (City College of New York): ''!FlatSurf and translation surfaces in Sage''
  * Marcin Kostur* (University of Silesia, Katowice): ''3D visualization''
  * Jeremy L. Martin* (University of Kansas, Lawrence): ''CW complexes''
  * John Palmieri* (University of Washington, Seattle): ''simplicial sets''
