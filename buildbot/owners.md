@@ -11,6 +11,7 @@ Bot names and owners:
     kevin-Virtualbox  --> kdilks
     geom              --> dimpase
     groebner          --> jkroeker
+    hera-OptiPlex     --> ?
     icj-laptop        --> chapoton
     librae            --> vdelecroix
     Martin-Laptop     --> mantepse
