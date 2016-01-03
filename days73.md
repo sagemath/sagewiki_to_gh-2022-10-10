@@ -1,16 +1,21 @@
 = Sage Days 73 in Oaxaca, Mexico May 04-07 2016 =
 
-This is a Sage workshop prior to the conference [[http://www.birs.ca/events/2016/5-day-workshops/16w5010|Flat Surfaces and Dynamics of Moduli Space]] to be held in Oaxaca May 08-13. The aim is to:
+[[http://sagemath.org|Sage]] is an open source software for mathematics. This is the webpage for the Sage workshop prior to the conference [[http://www.birs.ca/events/2016/5-day-workshops/16w5010|Flat Surfaces and Dynamics of Moduli Space]] to be held in Oaxaca May 08-13. The aim is to:
 
  * introduce Sage to people from Oaxaca or assisting to the conference
 
  * have program and code presentations about geometry and dynamics of surfaces
 
- * make a list of challenging computational questions
-
- * implement new algorithms
+ * help people to implement their own projects
 
 It is intended to be a small workshop (10 to 15 people) focusing on coding sprints.
+
+== Previsional schedule ==
+
+||<5%>                    ||<15% #FFFFAA:> Wednesday 4 May ||<15%  #FFFFAA:> Thursday 5 May ||<15%  #FFFFAA:> Friday 6 May ||<15%  #FFFFAA:> Saturday 7 May ||
+||<#FFFFAA> morning       ||<#AFEFEF:> Sage introduction   ||  ?                            ||  ?                          || ?                             ||
+||<#FFFFAA> 13:00 - 14:30 || lunch break                   || lunch break                   || lunch break                 || lunch break                   ||
+||<#FFFFAA> afternoon     || ?                             || ?                             || ?                           || ?                             ||
 
 == Existing programs about translation surfaces ==
 
@@ -39,3 +44,7 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
  * [[http://www.math.toronto.edu/~rafi/|Kasra Rafi]]
  * [[http://www.matmor.unam.mx/~ferran/|Ferrán Valdez]]
  * [[http://www.math.uiuc.edu/~work2/|Grace Work]]
+
+== Support ==
+
+This workshop is supported by the ERC H2020 project [[http://opendreamkit.org/|OpenDreamKit]].
