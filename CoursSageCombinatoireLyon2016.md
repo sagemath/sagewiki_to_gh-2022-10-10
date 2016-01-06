@@ -14,7 +14,7 @@ juste quelque idees en vrac
 
 == Structures arborescentes ==
 
-  * arbres numerotes (Joyal, Prüfer)
+  * arbres etiquetes (Joyal, Prüfer)
   * nombres de Catalan, arbres binaires, triangulations, mots de Dyck, arbres planaires
   * series generatrices et techniques de decompositions, éviter tant que possible l'analyse complexe
   * cartes, lien avec les arbres, asymptotique (rq: les graphes non plonges ont probablement ete deja bien vus a Lyon donc plutot hors sujet, voir par exemple http://www.ens-lyon.fr/DI/?p=87 et http://oc.inpg.fr/esperet/cours/cr17.html)
