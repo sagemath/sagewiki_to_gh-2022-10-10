@@ -12,10 +12,15 @@ Cours donné par Viviane en rapport : https://www.lri.fr/~pons/en/eaump.php
 
 juste quelque idees en vrac
 
-  * des belles bijections (Joyal pour les arbres, ?)
-  * graphes, arbres, cartes (rq: les graphes non plonges ont probablement ete deja bien vus a Lyon, voir par exemple http://www.ens-lyon.fr/DI/?p=87 et http://oc.inpg.fr/esperet/cours/cr17.html)
-  * series generatrices et techniques de decompositions
-  * inversion de Lagrange, asymptotique
+== Structures arborescentes ==
+
+  * arbres numerotes (Joyal, Prüfer)
+  * nombres de Catalan, arbres binaires, triangulations, mots de Dyck, arbres planaires
+  * series generatrices et techniques de decompositions, éviter tant que possible l'analyse complexe
+  * cartes, lien avec les arbres, asymptotique (rq: les graphes non plonges ont probablement ete deja bien vus a Lyon donc plutot hors sujet, voir par exemple http://www.ens-lyon.fr/DI/?p=87 et http://oc.inpg.fr/esperet/cours/cr17.html)
+  * inversion de Lagrange, asymptotique, théorème de transfert (énoncé)
+  * hauteur moyenne d'un arbre binaire aléatoire.
+  * une application en analyse d'algorithmes ?
   * ?
 
 == Partie Combinatoire algébrique ==
@@ -30,11 +35,11 @@ juste quelque idees en vrac
 
 Propositions de thèmes à aborder 
 
- * Prise en main, trouver de l'aide
- * Coercion
- * Représentation des nombres reels et complexes
- * formulation MILP de problemes combinatoires
- * Methodes de résolution de problèmes difficiles, illustres sur le probleme de la pavabilite des polyominos
+ * Prise en main, trouver de l'aide (ok)
+ * Coercion (ok)
+ * Représentation des nombres reels et complexes (en cours, Thierry)
+ * formulation MILP de problemes combinatoires (ok)
+ * Methodes de résolution de problèmes difficiles, illustres sur le probleme de la pavabilite des polyominos (en cours, Thierry)
    * brute force
    * Backtracking, dancing links
    * MILP
