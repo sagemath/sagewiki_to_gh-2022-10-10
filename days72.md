@@ -18,6 +18,7 @@ The following people will most likely be able to attend.
 
  * Daniel Krenn
  * Štěpán Starosta
+ * Rob Rubalcaba (subject to funding)
  * ...
 
 Locals who will likely attend:
