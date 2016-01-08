@@ -33,17 +33,28 @@ juste quelque idees en vrac
 
 == Partie Sage ==
 
-Propositions de thèmes à aborder 
+Tutoriels a disposition (en cours de preparation), en plus des thematic tutorials
 
- * Prise en main, trouver de l'aide (ok)
- * Coercion (ok)
+Mecanismes importants qui demandent probablement un accompagnement au tableau:
+
+ * Prise en main, trouver de l'aide (Thierry)
+ * Coercion (Thierry + thematic tutorials, prerequis pour le suivant)
  * Représentation des nombres reels et complexes (en cours, Thierry)
- * formulation MILP de problemes combinatoires (ok)
- * Methodes de résolution de problèmes difficiles, illustres sur le probleme de la pavabilite des polyominos (en cours, Thierry)
-   * brute force
-   * Backtracking, dancing links
-   * MILP
-   * Chaines de Markov
-   * what else ?
+ * formulation MILP de problemes combinatoires (d'apres une page de Nathann Cohen a diversifier parce que c'est pas mal des graphes (par exemple sudoku))
+ * ?
+
+Tutos ludiques en autonomie
+
+ * Methodes de résolution de problèmes difficiles illustres et a comparer sur le probleme de la pavabilite des polyominos (en cours, Thierry)
+ * Dessiner le pavage de Penrose (Thierry)
+ * Shannon switching game et matroides (Thierry, vraiment pas sur que j'ai le temps mais ca fait un moment que ca me travaille)
+ * ?
+
+Tutos en rapport avec le cours de combinatoire:
+ * ?
+
+Autres thèmes à aborder:
+
  * Contribuer
+ * Cython
  * ?
