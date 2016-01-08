@@ -35,7 +35,7 @@ This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software S
 
 == Hosting a workshop ==
  * [[HowToHostASageDays|How To Host A Sage Days]] --- Advice to future hosts
- * [[HowToSpreadSageDuringAWorkshop|How to spread sage during a workshop]] --- Advice to future hosts
+ * [[HowToSpreadSageDuringAWorkshop|How to Spread Sage During a Workshop]] --- Advice to future hosts
 
 
 
