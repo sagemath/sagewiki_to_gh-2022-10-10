@@ -13,6 +13,7 @@ Bot names and owners:
     groebner          --> jkroeker
     hera-OptiPlex     --> BLACKLISTED
     icj-laptop        --> chapoton
+    lehner            --> ?
     librae            --> vdelecroix
     Martin-Laptop     --> mantepse
     mangouste         --> vdelecroix
