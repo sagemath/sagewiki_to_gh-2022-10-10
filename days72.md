@@ -21,7 +21,7 @@ The following people will most likely be able to attend.
  * Daniel Krenn
  * Rob Rubalcaba (subject to funding)
  * Štěpán Starosta
- * Attila Kovács (uncofirmed)
+ * Attila Kovács (unconfirmed)
  * ...
 
 Locals who will likely attend:
