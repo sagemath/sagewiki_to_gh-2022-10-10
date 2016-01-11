@@ -1,4 +1,4 @@
-= Sage Days 72 (May 21-22): satellite event of Numeration 2016 (May 23-27) =
+= Sage Days 72 (May 21-22): satellite event of [[http://km.fjfi.cvut.cz/jn16/|Numeration 2016]] (May 23-27) =
 
 '''Organizers''': Daniel Krenn, Štěpán Starosta
 
@@ -19,6 +19,7 @@ The following people will most likely be able to attend.
  * Daniel Krenn
  * Rob Rubalcaba (subject to funding)
  * Štěpán Starosta
+ * Attila Kovács (uncofirmed)
  * ...
 
 Locals who will likely attend:
