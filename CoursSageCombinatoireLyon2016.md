@@ -27,7 +27,7 @@ juste quelque idees en vrac
 
   * actions de groupes comme moyen de comprendre les symmetries et compter en fonction, Polya
   * partitions, fonctions symetriques
-  * posets
+  * posets (F. Chapoton)
   * carquois
   * ?
 
@@ -51,6 +51,7 @@ Tutos ludiques en autonomie
  * ?
 
 Tutos en rapport avec le cours de combinatoire:
+ * un tuto sur les posets (Fréderic, en cours de redaction)
  * ?
 
 Autres thèmes à aborder:
