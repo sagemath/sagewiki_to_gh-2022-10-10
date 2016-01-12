@@ -45,3 +45,4 @@ See directions [[http://www.lix.polytechnique.fr/cryptologie/directions|here]].
  * David Lucas (Inria Saclay - LIX)
  * Johan S. R. Nielsen (DTU)
  * Clément Pernet (U. Grenoble Alpes, U. de Lyon - LIP)
+ * Luca De Feo (U. Versailles)
