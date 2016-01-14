@@ -82,7 +82,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
- * --([[http://trac.sagemath.org/ticket/19552|#19552]])-- closed sage 6.10: images and preimages of projective subschemes - Ben Hutz
+ * --([[http://trac.sagemath.org/ticket/19552|#19552]])-- closed sage 7.0: images and preimages of projective subschemes - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/19557|#19557]])-- closed sage 6.10: Basic iteration functionality for products of projective spaces - Grayson Jorgenson
 
