@@ -32,7 +32,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/19635|#19635]]) new: Products of projective spaces over fields and finite fields - Grayson Jorgenson
 
- * ([[http://trac.sagemath.org/ticket/19552|#19889]]) new: Fix coding style and documentation style in affine schemes - Lauren  Miller
+ * ([[http://trac.sagemath.org/ticket/19889|#19889]]) new: Fix coding style and documentation style in affine schemes - Lauren  Miller
 
  * ([[http://trac.sagemath.org/ticket/19551|#19551]]) new: Basic failures in projective product morphisms
 
