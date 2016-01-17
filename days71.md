@@ -46,7 +46,6 @@ We have also invited the following people:
 
  * Xavier Caruso
  * Raf Cluckers
- * Jessica Fintzen
  * Immanuel Halupczok
  * Rob Harron
  * Maurizio Monge
