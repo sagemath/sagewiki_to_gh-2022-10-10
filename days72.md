@@ -26,4 +26,5 @@ The following people will most likely be able to attend.
 
 Locals who will likely attend:
 
+ * Tomáš Kalvoda
  * ...
