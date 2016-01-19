@@ -41,6 +41,8 @@ See directions [[http://www.lix.polytechnique.fr/cryptologie/directions|here]].
 
 == Participants ==
 
+Please add you name to list if you want to attend this Sage Days.
+
  * Daniel Augot (Inria Saclay - LIX)
  * David Lucas (Inria Saclay - LIX)
  * Johan S. R. Nielsen (DTU)
