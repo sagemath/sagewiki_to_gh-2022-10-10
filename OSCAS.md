@@ -15,7 +15,7 @@ A ''computer algebra system'' (CAS) is a mathematical software package capable o
 || LiDIA || "open source" || http://www.cdc.informatik.tu-darmstadt.de/TI/LiDIA/ (broken link)||
 || Macaulay2 ||  GPL ||  http://www.math.uiuc.edu/Macaulay2/ ||
 || Magnus ||   GPL ||   http://sourceforge.net/projects/magnus/ ||
-|| MAS || "open source" || http://alice.fmi.uni-passau.de/mas.html ||
+|| MAS || "open source" || http://krum.rz.uni-mannheim.de/mas/ ||
 || Mathemagix ||  GPL? || http://www.mathemagix.org/ ||
 || Mathomatic ||  LGPL || http://mathomatic.orgserve.de/math/ ||
 || Maxima ||   GPL || http://maxima.sourceforge.net ||
