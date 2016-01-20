@@ -1,4 +1,4 @@
-Bot names and owners:
+Sagemath patchbots names and owners:
 {{{
     arando            --> jdemeyer
     andromeda         --> jkroeker
