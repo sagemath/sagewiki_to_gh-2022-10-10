@@ -5,7 +5,7 @@ A ''computer algebra system'' (CAS) is a mathematical software package capable o
 == The terrain ==
 || Axiom || [[http://www.opensource.org/licenses/bsd-license.php|BSD]] || http://axiom-developer.org ||
 || CADABRA || GPL || http://cadabra.phi-sci.com/ ||
-|| DoCon || open source || http://www.haskell.org/docon (broken)||
+|| DoCon || open source || http://www.haskell.org/docon (broken link)||
 || FriCAS || [[http://www.opensource.org/licenses/bsd-license.php|BSD]] || http://fricas.sourceforge.net ||
 || GAP || GPL || http://www.gap-system.org ||
 || GIAC || GPL || http://www-fourier.ujf-grenoble.fr/~parisse/giac.html ||
