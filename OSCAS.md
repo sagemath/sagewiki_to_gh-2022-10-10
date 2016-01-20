@@ -4,6 +4,8 @@ A ''computer algebra system'' (CAS) is a mathematical software package capable o
 
 For a list maintained by sigsam, see [[http://www.sigsam.org/Resources/Software.html|here]].
 
+For the list by Oberwolfach, see [[https://orms.mfo.de/|here]].
+
 == The terrain ==
 || Axiom || [[http://www.opensource.org/licenses/bsd-license.php|BSD]] || http://axiom-developer.org ||
 || CADABRA || GPL || http://cadabra.phi-sci.com/ ||
