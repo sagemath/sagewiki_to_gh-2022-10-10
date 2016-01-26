@@ -39,18 +39,18 @@ Other hotels are
  * [[http://www.hotel-ariane.fr/English.phtml|Hôtel Ariane Montparnasse]] (***) (approx. 130 euros/night, including breakfast)
  * [[http://hotelduparcparis.com/en/|Hôtel du Parc]] (***) (approx. 170 euros/night, including breakfast)
 
-If you prefer to stay in Meudon, at a walking distance (25 min) from the Workshop Center, see
+If you prefer to stay in Meudon, at a walking distance (25 min) from the Workshop Center (CIAS), see
 
  * [[http://www.ibis.com/fr/hotel-6277-ibis-budget-meudon/index.shtml|Hôtel Ibis Budget Meudon]] (**) (approx. 80 euros/night, including breakfast)
 
 For a larger choice, see this [[http://lesia.obspm.fr/List-of-some-convenient-hotels.html|list of convenient hotels]] from LESIA/Observatoire de Paris. 
 
-'''NS: since May/June is a high touristic season in Paris, it is recommended to book a room as soon as possible!'''
+'''NB: since May/June is a high touristic season in Paris, it is recommended to book a room as soon as possible!'''
 
 === Transportation ===
 
-Meudon is located at 10 min by train from Montparnasse station in Paris.
-A system of car shuttle will be organized from Meudon station to the workshop center (CIAS).
+Meudon is located at 10 min by train from [[http://www.gares-sncf.com/fr/gare/frpmo/paris-montparnasse|Montparnasse station]] in Paris. All hotels listed above are located at a walking distance from Montparnasse station. 
+A system of car shuttle will be organized from Meudon station to the Workshop Center (CIAS).
 
 If you plan instead to come by your own, please follow these [[https://www.obspm.fr/acces-au-site-de-meudon.html?lang=en|access instructions]] (click on the map to enlarge it; the CIAS is located in BAT. 9).
 
