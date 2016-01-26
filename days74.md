@@ -1,6 +1,6 @@
 = Sage Days 74: Differential geometry and topology =
 
-[[http://www.sagemath.org|Sage]] Days 74 will take place on May 30 - June 2, 2016 at the [[https://www.obspm.fr/-cias-.html?lang=en|Workshop Center (CIAS)]] of Observatoire de Paris, France.
+[[http://www.sagemath.org|Sage]] Days 74 will take place on May 30 - June 2, 2016 at the [[https://www.obspm.fr/-cias-.html?lang=en|Workshop Center (CIAS)]] of Observatoire de Paris, located in Meudon, near Paris, France.
 
 == Registration ==
 
@@ -8,7 +8,7 @@ Registration is free and now open. Contact Eric (eric.gourgoulhon@obspm.fr) and 
 
 == Schedule ==
 
-TBA
+TBA (see the list of speakers below)
 
 == Projects ==
 
@@ -28,9 +28,24 @@ Here is a list of possible projects. Feel free to add your own to the list.
 
 === Lodging ===
 
-We recommend to book some hotel in Paris, in Montparnasse area (14th arrondissement). 
+We recommend to book a room in some hotel in Paris, in Montparnasse area (14th arrondissement).
+In particular, we recommend the 
 
-''More details soon...''
+ * [[http://www.hotel-du-maine.fr/en/|Hôtel du Maine]] (**) (109 euros/night, including breakfast)
+
+Other hotels are 
+
+ * [[http://www.hotel-denfert.com/|Hôtel Denfert Montparnasse]] (**) (approx. 110 euros/night, including breakfast) 
+ * [[http://www.hotel-ariane.fr/English.phtml|Hôtel Ariane Montparnasse]] (***) (approx. 130 euros/night, including breakfast)
+ * [[http://hotelduparcparis.com/en/|Hôtel du Parc]] (***) (approx. 170 euros/night, including breakfast)
+
+If you prefer to stay in Meudon, at a walking distance (25 min) from the Workshop Center, see
+
+ * [[http://www.ibis.com/fr/hotel-6277-ibis-budget-meudon/index.shtml|Hôtel Ibis Budget Meudon]] (**) (approx. 80 euros/night, including breakfast)
+
+For a larger choice, see this [[http://lesia.obspm.fr/List-of-some-convenient-hotels.html|list of convenient hotels]] from LESIA/Observatoire de Paris. 
+
+'''NS: since May/June is a high touristic season in Paris, it is recommended to book a room as soon as possible!'''
 
 === Transportation ===
 
