@@ -30,13 +30,13 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/19891|#19891]]) new: Fix coding style and documentation in Projective schemes - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/19979|#19979]]) new: Fix coding style and documentation in projective prducts - Lauren Miller
+
+ * ([[http://trac.sagemath.org/ticket/19891|#19891]]) postive-review: Fix coding style and documentation in Projective schemes - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/19889|#19889]]) new: Fix coding style and documentation style in affine schemes - Lauren  Miller
 
  * ([[http://trac.sagemath.org/ticket/19635|#19635]]) new: Products of projective spaces over fields and finite fields - Grayson Jorgenson
-
- * ([[http://trac.sagemath.org/ticket/19551|#19551]]) new: Basic failures in projective product morphisms
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
@@ -81,6 +81,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/19551|#19551]])-- closed sage 7.0: Basic failures in projective product morphisms - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/19552|#19552]])-- closed sage 7.0: images and preimages of projective subschemes - Ben Hutz
 
