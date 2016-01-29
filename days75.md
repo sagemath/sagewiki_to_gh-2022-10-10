@@ -48,3 +48,5 @@ Please add you name to the list if you want to attend this Sage Days.
  * Johan S. R. Nielsen (DTU)
  * Clément Pernet (U. Grenoble Alpes, U. de Lyon - LIP)
  * Luca De Feo (U. Versailles)
+ * Miguel Marco (U. de Zaragoza)
+ * Irene Márquez (Inria)
