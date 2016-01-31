@@ -30,9 +30,11 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/19979|#19979]]) new: Fix coding style and documentation in projective prducts - Lauren Miller
+ * ([[http://trac.sagemath.org/ticket/19991|#19991]]) needs-review: improve dimension function for subschemes of projective products - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/19891|#19891]]) postive-review: Fix coding style and documentation in Projective schemes - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/19979|#19979]]) new: Fix coding style and documentation in projective products - Lauren Miller
+
+ * ([[http://trac.sagemath.org/ticket/19891|#19891]]) needs-review: Fix coding style and documentation in Projective schemes - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/19889|#19889]]) new: Fix coding style and documentation style in affine schemes - Lauren  Miller
 
