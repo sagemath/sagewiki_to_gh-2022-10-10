@@ -107,4 +107,5 @@ European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are
 
  * Eric Gourgoulhon (Observatoire de Paris)
  * Marco Mancini (Observatoire de Paris)
+ * Benoît Pilorget (!OpenDreamKit)
  * Travis Scrimshaw (University of Minnesota)
