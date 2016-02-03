@@ -54,3 +54,7 @@ OS X? (Fink, Homebrew, !MacPorts)
 === Documentation ===
 
   * Sphinx
+
+=== Memory requirement to build Sage documentation ===
+
+  * http://gentoo.2317880.n4.nabble.com/sage-on-gentoo-Cannot-install-sage-doc-insufficient-memory-td285831.html
