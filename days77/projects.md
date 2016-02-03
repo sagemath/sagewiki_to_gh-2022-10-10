@@ -10,18 +10,31 @@ Add your name to topics you are interested in.
 
   * Cygwin32
   * Cygwin64
+  * MSYS2
+  * MINGW
 
 === Packaging ===
 
+Cross-platform (Linux, OS X, Windows, ...)
+
+  * Docker
+  * !ZeroInstall
+
+Linux
+
   * Arch-Linux
   * Debian
-  * Docker
   * Fedora
   * Gentoo
   * NPM
   * RPM
   * Ubuntu PPA
-  * !ZeroInstall
+
+OS X
+
+  * Fink
+  * Homebrew
+  * !MacPorts
 
 === Modularization ===
 
