@@ -1,22 +1,22 @@
-= SageMath po-polsku / SageMath resources in Polish =
+= SageMath po polsku (SageMath resources in Polish) =
 
-== Books ==
+== Książki (Books) ==
 
-  * Zrozumieć matematykę z pakietem Sage
-    * Authors: Andrzej Giniewicz, Katarzyna Zajączkowska.
-    * Title: "Zrozumieć matematykę z pakietem Sage"
-    * Translated title: "Understand mathematics with the Sage package"
-    * Publisher: GiS (http://www.gis.wroc.pl/)
+  * Zrozumieć matematykę z pakietem Sage (Understand mathematics with the Sage package)
+    * Autorzy: Andrzej Giniewicz, Katarzyna Zajączkowska.
+    * Wydawca: GiS (http://www.gis.wroc.pl/)
     * ISBN: 978-83-62780-42-6
-    * Year: 2015
-    * Web page: http://www.eurekacode.com/matematyka
+    * Rok: 2015
+    * Strona domowa: http://www.eurekacode.com/matematyka
 
-== Materiały dydaktyczne ==
+== Materiały dydaktyczne (Teaching resources) ==
 
-  * http://visual.icse.us.edu.pl/iCSE_main/
-  * http://visual.icse.us.edu.pl/szkola/
-  * http://visual.icse.us.edu.pl/
+Materiały dydaktyczne opublikowane w ramach projektu [[http://icse.us.edu.pl|iCSE]] na Uniwersytecie Śląskim.
 
-== Notebooks and worskheets ==
+  * [[http://visual.icse.us.edu.pl/|Wizualizacje i symulacje fizyczne]]
+  * [[http://visual.icse.us.edu.pl/iCSE_main/|SageMath na uczelni]]
+  * [[http://visual.icse.us.edu.pl/szkola/|SageMath w szkole]]
 
-  * https://sage2.icse.us.edu.pl/pub/
+== Opublikowane notatniki (Published Notebooks) ==
+
+  * [[https://sage2.icse.us.edu.pl/pub/|Materiały opublikowane przez pracowników Uniwersytetu Śląskiego]]
