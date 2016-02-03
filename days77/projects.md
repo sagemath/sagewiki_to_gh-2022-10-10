@@ -26,6 +26,10 @@ Linux (see also [[https://wiki.sagemath.org/Infrastructure#Packaging_for_Linux|I
 
 OS X? (Fink, Homebrew, !MacPorts)
 
+=== Relocating SageMath once built ===
+
+  * See recent discussions on sage-devel, sage-release, sage-support around the relocate-once script
+
 === Windows port ===
 
   * Cygwin32
