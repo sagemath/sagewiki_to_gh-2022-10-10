@@ -11,6 +11,12 @@
     * Year: 2015
     * Web page: http://www.eurekacode.com/matematyka
 
+== Materiały dydaktyczne ==
+
+  * http://visual.icse.us.edu.pl/iCSE_main/
+  * http://visual.icse.us.edu.pl/szkola/
+  * http://visual.icse.us.edu.pl/
+
 == Notebooks and worskheets ==
 
-  * https://sage2.icse.us.edu.pl/home/pub/687/
+  * https://sage2.icse.us.edu.pl/pub/
