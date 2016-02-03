@@ -33,8 +33,9 @@ OS X? (Fink, Homebrew, !MacPorts)
 === Windows port ===
 
   * Using Cygwin etc.
+    * [[http://trac.sagemath.org/ticket/13841|Cygwin port metaticket on Sage trac]]
     * Cygwin32
-    * Cygwin64: [[http://trac.sagemath.org/wiki/Cygwin64Port|Cygwin64 port notes]]
+    * Cygwin64: [[http://trac.sagemath.org/wiki/Cygwin64Port|Cygwin64 port notes on Sage trac wiki]]
     * MSYS2
     * MINGW
 
