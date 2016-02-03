@@ -14,7 +14,7 @@ Cross-platform (Linux, OS X, Windows, ...)
   * Docker
   * !ZeroInstall
 
-Linux (see also [[https://wiki.sagemath.org/Infrastructure#Packaging_for_Linux|Infrastructure page]]
+Linux (see also [[https://wiki.sagemath.org/Infrastructure#Packaging_for_Linux|Infrastructure page]])
 
   * Arch-Linux
   * Debian
@@ -24,11 +24,7 @@ Linux (see also [[https://wiki.sagemath.org/Infrastructure#Packaging_for_Linux|I
   * RPM
   * Ubuntu PPA
 
-OS X
-
-  * Fink
-  * Homebrew
-  * !MacPorts
+OS X? (Fink, Homebrew, !MacPorts)
 
 === Windows port ===
 
