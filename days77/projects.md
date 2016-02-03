@@ -14,7 +14,7 @@ Cross-platform (Linux, OS X, Windows, ...)
   * Docker
   * !ZeroInstall
 
-Linux
+Linux (see also [[https://wiki.sagemath.org/Infrastructure#Packaging_for_Linux|Infrastructure page]]
 
   * Arch-Linux
   * Debian
