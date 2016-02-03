@@ -32,10 +32,14 @@ OS X? (Fink, Homebrew, !MacPorts)
 
 === Windows port ===
 
-  * Cygwin32
-  * Cygwin64
-  * MSYS2
-  * MINGW
+  * Using Cygwin etc.
+    * Cygwin32
+    * Cygwin64: [[http://trac.sagemath.org/wiki/Cygwin64Port|Cygwin64 port notes]]
+    * MSYS2
+    * MINGW
+
+  * one-click install
+    * windows one-click installer, using either Docker, or Cygwin etc, or a native port
 
 === SageMath Live ===
 
