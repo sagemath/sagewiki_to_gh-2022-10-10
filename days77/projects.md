@@ -45,7 +45,7 @@ OS X? (Fink, Homebrew, !MacPorts)
 === SageMath Live ===
 
   * SageDebianLive
-  * [[https://launchpad.net/~aims/+archive/ubuntu/aims-desktop|AIMS Desktop]] is an installer and LiveISO which includes Sagemath
+  * [[https://launchpad.net/~aims/+archive/ubuntu/aims-desktop|AIMS Desktop]] is an installer and LiveISO which includes Sagemath. Should soon be available as a public ISO. Will either recompile all Ubuntu binaries in order to be allowed to redistribute, or rebase on Debian.
 
 === Modularization ===
 
