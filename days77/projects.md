@@ -54,7 +54,7 @@ OS X? (Fink, Homebrew, !MacPorts)
 
 === Documentation ===
 
-  * Sphinx
+  * [[https://github.com/OpenDreamKit/OpenDreamKit/issues/87|Sphinx]]
 
 === Memory requirement to build Sage documentation ===
 
