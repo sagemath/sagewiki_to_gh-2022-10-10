@@ -30,7 +30,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/19991|#19991]]) needs-review: improve dimension function for subschemes of projective products - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/20018|#20018]]) new: init for endomorphism of projective subschemes fails - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/19979|#19979]]) new: Fix coding style and documentation in projective products - Lauren Miller
 
@@ -83,6 +83,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/19991|#19991]])-- clsoed sage 7.1: improve dimension function for subschemes of projective products - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/19551|#19551]])-- closed sage 7.0: Basic failures in projective product morphisms - Ben Hutz
 
