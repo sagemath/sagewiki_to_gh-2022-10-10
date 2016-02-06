@@ -34,8 +34,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/19979|#19979]]) new: Fix coding style and documentation in projective products - Lauren Miller
 
- * ([[http://trac.sagemath.org/ticket/19891|#19891]]) needs-review: Fix coding style and documentation in Projective schemes - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/19889|#19889]]) new: Fix coding style and documentation style in affine schemes - Lauren  Miller
 
  * ([[http://trac.sagemath.org/ticket/19635|#19635]]) new: Enumeration functionality for products of projective spaces over fields and finite fields - Grayson Jorgenson
@@ -84,7 +82,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
- * --([[http://trac.sagemath.org/ticket/19991|#19991]])-- clsoed sage 7.1: improve dimension function for subschemes of projective products - Ben Hutz
+ * --([[http://trac.sagemath.org/ticket/19991|#19991]])-- closed sage 7.1: improve dimension function for subschemes of projective products - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/19891|#19891]])-- closed sage 7.1: Fix coding style and documentation in Projective schemes - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/19551|#19551]])-- closed sage 7.0: Basic failures in projective product morphisms - Ben Hutz
 
