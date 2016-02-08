@@ -1,11 +1,10 @@
-= Sage Days 77 - Cernay, 2016 =
+= Sage Days 77 - April 4th-8th -Cernay, 2016 =
 
 = Sage developer days on packaging, portability, documentation tools =
 
 == Cernay (near Paris and Orsay, France) ==
 
-One week in either Feb, Mar, Apr, or May, 2016, see the date poll at
-https://framadate.org/HSPRcUBuWDFnSx95
+See also the date poll at https://framadate.org/HSPRcUBuWDFnSx95
 
 <<TableOfContents()>>
 
