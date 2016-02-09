@@ -4,14 +4,11 @@
 
 == Cernay (near Paris and Orsay, France) ==
 
-See also the date poll at https://framadate.org/HSPRcUBuWDFnSx95
-
 <<TableOfContents()>>
 
-Sage Days 77 will be held in Cernay-la-Ville (40km South-West of Paris, near Orsay),
-[[https://framadate.org/HSPRcUBuWDFnSx95|some time]] in Winter or Spring 2016.
+Sage Days 77 will be held in Cernay-la-Ville (40km South-West of Paris, near Orsay), April 4th-8th.
 
-We are planning to book the guest house
+We are booking the guest house
 [[http://www.cernayvacances.com/en/stay/de-toren/|The Tower]] (and
 [[http://www.cernayvacances.com/en/stay/le-grenier-royal/|Le grenier royal]]),
 a very nice and cosy "gîte", just short of an hour from Paris by public transport.
@@ -31,8 +28,9 @@ from the Mathematics and the Computer Science Departments at Université Paris-S
 
 == Participants ==
 
-Please register your interest and date preferrences using
-[[https://framadate.org/HSPRcUBuWDFnSx95|this poll]].
+- [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]], Laboratoire de Recherche en Informatique, Université Paris Sud
+  Arrival: Sunday 3 in the evening; departure Saturday 9th in the morning
+- ...
 
 == Programme and topics ==
 
@@ -41,10 +39,6 @@ Tentative title: "Sage developer days on packaging, portability, documentation t
 Please list at [[days77/projects]] any topic you think would fit the theme of these Sage Days.
 
 == Practical information ==
-
-=== Dates ===
-
-[[https://framadate.org/HSPRcUBuWDFnSx95|To be set.]]
 
 === Venue ===
 
@@ -98,8 +92,7 @@ especially with significant skills in the workshop's themes.
 
 === Registration ===
 
-At this stage, please register your interest and your date preferrences
-using [[https://framadate.org/HSPRcUBuWDFnSx95|this date poll]].
+At this stage, please add your name to the participant lists above, following the existing entries as template.
 In due time, we will set up proper registration.
 
 Please also add a few words about your wishes or projects for the workshop
