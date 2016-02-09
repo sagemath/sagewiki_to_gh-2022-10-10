@@ -47,8 +47,6 @@ Locals who will likely attend:
  * Minhyong Kim
  * Christopher Nicholls
 
-We have also invited the following people:
-
 
 == Topics ==
 
