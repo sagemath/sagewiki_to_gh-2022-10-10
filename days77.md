@@ -1,12 +1,12 @@
-= Sage Days 77 - April 4th-8th -Cernay, 2016 =
+= Sage Days 77 - April 4-8, 2016, Cernay =
 
-= Sage developer days on packaging, portability, documentation tools =
+'''''Sage developer days on packaging, portability, documentation tools'''''
 
-== Cernay (near Paris and Orsay, France) ==
+'''''Cernay (near Paris and Orsay, France)'''''
 
 <<TableOfContents()>>
 
-Sage Days 77 will be held in Cernay-la-Ville (40km South-West of Paris, near Orsay), April 4th-8th.
+Sage Days 77 will be held in Cernay-la-Ville (40km South-West of Paris, near Orsay), April 4-8, 2016.
 
 We are booking the guest house
 [[http://www.cernayvacances.com/en/stay/de-toren/|The Tower]] (and
@@ -23,23 +23,23 @@ See the links for activity reports and some photos.
 
 This workshop is also "Sage Days 77", part of a long tradition of [[Workshops|Sage Days]].
 
-The workshop is funded by [[http://opendreamkit.org/|!OpenDreamKit]], with material help
+The workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]], with material help
 from the Mathematics and the Computer Science Departments at Université Paris-Sud, Orsay.
 
-== Participants ==
+= Participants =
 
-- [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]], Laboratoire de Recherche en Informatique, Université Paris Sud, Sunday 3 evening to Saturday morning
-- ...
+ * [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]], Laboratoire de Recherche en Informatique, Université Paris Sud, Sunday 3 evening to Saturday morning
+ * ...
 
-== Programme and topics ==
+= Programme and topics =
 
 Tentative title: "Sage developer days on packaging, portability, documentation tools".
 
 Please list at [[days77/projects]] any topic you think would fit the theme of these Sage Days.
 
-== Practical information ==
+= Practical information =
 
-=== Venue ===
+== Venue ==
 
 The workshop takes place in a guest house, which has comfortable working spaces,
 a cooking and dining area, and a few bedrooms. This favors an intense workshop,
@@ -54,13 +54,13 @@ The surrounding area offers nice hiking possibilities -- bring hiking/climbing s
 
 Your music instruments and scores, card or board games, etc, are also welcome for the breaks.
 
-=== Meal organisation ===
+== Meal organisation ==
 
 Meals are cooked in turns by the participants for everyone, so bring along your
 favorite recipes and dishes! All diets, including vegetarian, will be taken into
 account.
 
-=== Funding ===
+== Funding ==
 
 The workshop is funded by !OpenDreamKit, with material help from
 the Mathematics and the Computer Science Departments at Université Paris-Sud, Orsay.
@@ -71,7 +71,7 @@ Accommodation and meals for all participants are covered by our funding sources.
 We aim to cover travel expenses for most other participants,
 especially with significant skills in the workshop's themes.
 
-=== From Paris to Cernay ===
+== From Paris to Cernay ==
 
  * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
  * From Denfert-Rochereau: 40 minutes RER B to Saint-Rémy-les-Chevreuse + 15 minutes bus to Cernay-la-Ville
@@ -89,9 +89,9 @@ especially with significant skills in the workshop's themes.
 
  * We will run some car shuttles from Saint-Rémy-les-Chevreuse, to be planned later.
 
-=== Registration ===
+== Registration ==
 
-At this stage, please add your name to the participant lists above, following the existing entries as template.
+At this stage, please add your name to the participant list above, following the existing entries as template.
 In due time, we will set up proper registration.
 
 Please also add a few words about your wishes or projects for the workshop
