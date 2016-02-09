@@ -55,4 +55,6 @@ OS X? (Fink, Homebrew, !MacPorts)
 === Documentation ===
 
   * [[https://github.com/OpenDreamKit/OpenDreamKit/issues/87|Sphinx]]
-  * Memory requirements to build Sage documentation: http://gentoo.2317880.n4.nabble.com/sage-on-gentoo-Cannot-install-sage-doc-insufficient-memory-td285831.html
+  * Memory requirements to build Sage documentation
+    * http://gentoo.2317880.n4.nabble.com/sage-on-gentoo-Cannot-install-sage-doc-insufficient-memory-td285831.html
+    * https://groups.google.com/d/msg/sage-release/81bxW-7_qX0/BGDs8bGEFQAJ
