@@ -50,7 +50,7 @@ OS X? (Fink, Homebrew, !MacPorts)
 === Modularization ===
 
   * Make Sage more modular, using pip packages.
-    * Make interrupt.pyx a stand-alone package: [[https://groups.google.com/d/topic/sage-devel/oA9NsF26eOA/discussion|sage-devel discussion]] and [[http://trac.sagemath.org/ticket/20002|Trac #20002]]
+    * Make interrupt.pyx a stand-alone package: [[https://github.com/sagemath/cysignals]] and [[http://trac.sagemath.org/ticket/20002|Trac #20002]]
 
 === Documentation ===
 
