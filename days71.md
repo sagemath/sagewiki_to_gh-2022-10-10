@@ -14,22 +14,27 @@ The following people will most likely be able to attend.
  * David Roe
  * Xavier Caruso
  * Mirela Ciperiani
+ * Raf Cluckers
  * Edgar Costa
  * Clifton Cunningham
  * Alyson Deines
  * Netan Dogra
+ * Immanuel Halupczok
  * Kiran Kedlaya
  * Celine Maistret
+ * Maurizio Monge
  * Marc Masdeu
  * Jan Steffen Mueller
  * Joaquin Rodrigues Jacinto
  * Fernando Rodriguez Villegas
+ * Sandra Rozensztajn
  * Julian Rueth
  * Ander Steele
  * Jan Tuitman
  * Tristan Vaccon
  * Jeanine Van Order
  * Chris Wuthrich
+
 
 
 
@@ -44,12 +49,6 @@ Locals who will likely attend:
 
 We have also invited the following people:
 
- * Xavier Caruso
- * Raf Cluckers
- * Immanuel Halupczok
- * Rob Harron
- * Maurizio Monge
- * Sandra Rozensztajn
 
 == Topics ==
 
