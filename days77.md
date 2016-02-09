@@ -28,8 +28,7 @@ from the Mathematics and the Computer Science Departments at Université Paris-S
 
 == Participants ==
 
-- [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]], Laboratoire de Recherche en Informatique, Université Paris Sud
-  Arrival: Sunday 3 in the evening; departure Saturday 9th in the morning
+- [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]], Laboratoire de Recherche en Informatique, Université Paris Sud, Sunday 3 evening to Saturday morning
 - ...
 
 == Programme and topics ==
