@@ -26,7 +26,7 @@ The following people will most likely be able to attend.
  * Maurizio Monge
  * Jan Steffen Mueller
  * Joaquin Rodrigues Jacinto
- * Fernando Rodriguez Villegas
+ * Fernando Rodriguez-Villegas
  * Sandra Rozensztajn
  * Julian Rueth
  * Ander Steele
