@@ -22,8 +22,8 @@ The following people will most likely be able to attend.
  * Immanuel Halupczok
  * Kiran Kedlaya
  * Celine Maistret
- * Maurizio Monge
  * Marc Masdeu
+ * Maurizio Monge
  * Jan Steffen Mueller
  * Joaquin Rodrigues Jacinto
  * Fernando Rodriguez Villegas
