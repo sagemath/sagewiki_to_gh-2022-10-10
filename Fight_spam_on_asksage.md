@@ -1,4 +1,6 @@
-If you feel you can help to fight spam, please ask for an admin account.
+Most spam (currently all) is blocked automatically, thanks to the firewall (iptables) blocking IP sets provided by stopforumspam.
+
+However, it is possible that spam could enter the website again, in which case, it must be removed by hand.  If you feel you can help to fight spam, please ask for an admin account.
 
 Here are measures to remove spam, in increasing order.
 
