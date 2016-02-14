@@ -44,7 +44,6 @@ Locals who will likely attend:
  * Jamie Beacom
  * Francesca Bianchi
  * Victor Flynn
- * Minhyong Kim
  * Christopher Nicholls
 
 
