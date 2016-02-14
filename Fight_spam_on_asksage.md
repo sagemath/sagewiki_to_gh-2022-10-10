@@ -20,4 +20,4 @@ Here are measures to remove spam, in increasing order.
 == overloaded, need to stop the flood ==
  * go to http://ask.sagemath.org/settings/ACCESS_CONTROL/
  * select "Make site read-only"
- * We should find a way to temporary block user registration, so that registered users can still interact.
+ * Then, we could temporary block user registration, from nginx configuation, so that registered users can still interact.
