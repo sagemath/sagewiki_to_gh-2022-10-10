@@ -30,7 +30,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/20018|#20018]]) new: minimal periodic points code improvement - unassigned
+ * ([[http://trac.sagemath.org/ticket/20059|#20059]]) new: minimal periodic points code improvement - unassigned
 
  * ([[http://trac.sagemath.org/ticket/20018|#20018]]) new: init for endomorphism of projective subschemes fails - Ben Hutz
 
