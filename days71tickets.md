@@ -16,7 +16,7 @@
 === Misc ===
 
  * [[http://trac.sagemath.org/ticket/7016 | Mod for Qp #7016]] (see [[https://groups.google.com/forum/#!msg/sage-devel/nQDAMtqnEsY/B08aYCM_AwAJ | this discussion]])
- * [[http://trac.sagemath.org/ticket/10698 | Precision for p-adic power series #10298]]
+ * [[http://trac.sagemath.org/ticket/10698 | Precision for p-adic power series #10298]] and [[http://trac.sagemath.org/ticket/14425 | #14425]]
 
 == Features ==
 
