@@ -72,6 +72,6 @@ Inspired by Hodge theory for complex varieties, ''p''-adic Hodge theory seeks to
 
 By Faltings' Theorem, curves of genus at least 2 over number fields ''K'' have finitely many ''K''-rational points; however, the proof is not effective and thus does not yield an algorithm. Nevertheless, under certain hypotheses on the Jacobian of the curve, the method of Chabauty-Coleman can produce these points. Recently, Kim has proposed a nonabelian analogue.  In the last few years, explicit examples of Kim's program have been studied for elliptic and hyperelliptic curves, using ''p''-adic Hodge theory and local ''p''-adic heights.
 
-== Relevant trac tickets == 
+== Relevant trac tickets ==
 
 [[days71tickets |Open trac tickets ]]
