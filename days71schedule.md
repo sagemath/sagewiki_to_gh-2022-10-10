@@ -20,6 +20,12 @@
 
 4:30 pm -  5:00 pm: Topic 6
 
+5:00 pm -  6:30 pm: Coding sprint organization
+
+6:30 pm - 8:00 pm: Dinner
+
+8:00 pm - 10:00 pm: Lightning talks
+
 == Monday, March 21 ==
 
 
