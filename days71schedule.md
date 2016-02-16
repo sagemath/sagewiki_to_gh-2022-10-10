@@ -10,15 +10,15 @@
 
 12:45 pm -  2:00 pm: Lunch
 
- 2:00 pm -  2:30 pm: Topic 3
+2:00 pm -  2:30 pm: Topic 3
 
- 2:45 pm -  3:15 pm: Topic 4
+2:45 pm -  3:15 pm: Topic 4
 
- 3:15 pm -  3:45 pm: Tea/coffee break
+3:15 pm -  3:45 pm: Tea/coffee break
 
- 3:45 pm -  4:15 pm: Topic 5
+3:45 pm -  4:15 pm: Topic 5
 
- 4:30 pm -  4:45 pm: Topic 6
+4:30 pm -  4:45 pm: Topic 6
 
 == Monday, March 21 ==
 
