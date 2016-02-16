@@ -11,7 +11,6 @@ Funding: Clay Mathematics Institute and the Beatrice Yormark Fund for Women in M
 
  * Jennifer Balakrishnan
  * David Roe
-
  * Francesca Balestrieri
  * Jamie Beacom
  * Francesca Bianchi
