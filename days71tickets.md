@@ -1,6 +1,15 @@
 == Bug fixes ==
 
 
+=== Beginner-friendly ===
+
+
+=== Priority tickets ===
+
+[[|]]
+
+=== Misc ===
+
 == Features ==
 
 
