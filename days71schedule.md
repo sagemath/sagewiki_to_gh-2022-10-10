@@ -35,3 +35,5 @@
 == Wednesday, March 23 ==
 
 == Thursday, March 24 ==
+
+10 am - 1 pm: Status reports, wrap-up and discussion
