@@ -8,10 +8,13 @@ Funding: Clay Mathematics Institute and the Beatrice Yormark Fund for Women in M
 
 == Participants ==
 
-The following people will most likely be able to attend.
 
  * Jennifer Balakrishnan
  * David Roe
+
+ * Francesca Balestrieri
+ * Jamie Beacom
+ * Francesca Bianchi
  * Xavier Caruso
  * Mirela Ciperiani
  * Raf Cluckers
@@ -19,12 +22,14 @@ The following people will most likely be able to attend.
  * Clifton Cunningham
  * Alyson Deines
  * Netan Dogra
+ * Victor Flynn
  * Immanuel Halupczok
  * Kiran Kedlaya
  * Celine Maistret
  * Marc Masdeu
  * Maurizio Monge
  * Jan Steffen Mueller
+ * Christopher Nicholls
  * Joaquin Rodrigues Jacinto
  * Fernando Rodriguez-Villegas
  * Sandra Rozensztajn
@@ -35,13 +40,11 @@ The following people will most likely be able to attend.
  * Jeanine Van Order
  * Chris Wuthrich
 
-Locals who will likely attend:
 
- * Francesca Balestrieri
- * Jamie Beacom
- * Francesca Bianchi
- * Victor Flynn
- * Christopher Nicholls
+
+
+
+
 
 == Schedule ==
 
