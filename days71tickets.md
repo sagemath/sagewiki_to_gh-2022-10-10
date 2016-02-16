@@ -4,6 +4,8 @@
 === Beginner-friendly ===
 
  * [[http://trac.sagemath.org/ticket/12535 | Add doctest #12535]]
+ * [[http://trac.sagemath.org/ticket/8627 | Add doctest #8627]]
+ * [[http://trac.sagemath.org/ticket/8628 | Default precision type #8628]] (default should probably be capped relative)
 
 === Priority tickets ===
 
