@@ -18,7 +18,7 @@
 
 3:45 pm -  4:15 pm: Topic 5
 
-4:30 pm -  4:45 pm: Topic 6
+4:30 pm -  5:00 pm: Topic 6
 
 == Monday, March 21 ==
 
