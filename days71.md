@@ -43,6 +43,9 @@ Locals who will likely attend:
  * Victor Flynn
  * Christopher Nicholls
 
+== Schedule ==
+
+[[days71schedule |Workshop schedule]]
 
 == Topics ==
 
@@ -77,4 +80,4 @@ By Faltings' Theorem, curves of genus at least 2 over number fields ''K'' have f
 
 == Relevant trac tickets ==
 
-[[days71tickets |Open trac tickets ]]
+[[days71tickets |Open tickets ]]
