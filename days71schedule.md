@@ -1,7 +1,9 @@
 == Sunday, March 20 ==
 
 10:00 am - 11:00 am: Aly Deines, Introduction to Sage
+
 11:00 am - 11:30 am: Tea/coffee break
+
 11:30 am - 12:00 pm: Topic 1
 12:15 pm - 12:45 pm: Topic 2
 12:45 pm -  2:00 pm: Lunch
