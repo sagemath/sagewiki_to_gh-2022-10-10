@@ -47,6 +47,8 @@ Note: Travis Scrimshaw would be happy to join brainstorms remotely:
 afternoon (Germany time), but I am basically free all day Tuesday (and
 I wake up early). Thursday or Friday works too from Berlin''
 
+François Bissey from sage-on-gentoo: I would be happy to join some brainstorming session remotely from New Zealand. At the time of the meeting I will be 11 hours ahead if I am not mistaken. 9am for you will be 8pm for me, and 8pm for you will be 7am the next day for me. So I may able to connect during your morning for a little bit and if you have late (10pm+) sessions.
+
 === SageMath Live ===
 
   * SageDebianLive
