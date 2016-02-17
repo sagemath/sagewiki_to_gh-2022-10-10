@@ -28,14 +28,16 @@ from the Mathematics and the Computer Science Departments at Université Paris-S
 
 = Participants =
 
+Please add your name to the participant list below, following the existing entries as template.
+
  * [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]], Laboratoire de Recherche en Informatique, Université Paris Sud, Sunday 3 evening to Saturday morning
- * ...
+ * [[http://carva.org/samuel.lelievre/|Samuel Lelièvre]], Laboratoire de mathématique d'Orsay, Université Paris-Sud. Sunday evening to Saturday morning.
 
 = Programme and topics =
 
-Tentative title: "Sage developer days on packaging, portability, documentation tools".
+Tentative title: '''''Sage developer days on packaging, portability, documentation tools'''''.
 
-Please list at [[days77/projects]] any topic you think would fit the theme of these Sage Days.
+Please add a few words at [[days77/projects]] about your wishes or projects for the workshop.
 
 = Practical information =
 
@@ -82,17 +84,10 @@ especially with significant skills in the workshop's themes.
     * from Rambouillet (SNCF station) line 39-03 and 39-203
    More information on schedules [[http://www.savac.fr/transports/lignes-regulieres/votre-ligne-reguliere|here]].
    Of the two bus stops in Cernay, Grand'Place is closest to the guest house.
+
    Beware that there are big gaps in the day with no buses to Cernay.
 
  * Check travel itineraries on [[http://www.vianavigo.com/|ViaNavigo]] (includes trains, RER, buses).
    Or [[http://ratp.fr|ratp]] but only for travel up to Saint-Rémy-les-Chevreuse.
 
  * We will run some car shuttles from Saint-Rémy-les-Chevreuse, to be planned later.
-
-== Registration ==
-
-At this stage, please add your name to the participant list above, following the existing entries as template.
-In due time, we will set up proper registration.
-
-Please also add a few words about your wishes or projects for the workshop
-on the [[days77/projects]] page.
