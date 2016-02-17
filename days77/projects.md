@@ -42,6 +42,11 @@ OS X? (Fink, Homebrew, !MacPorts)
   * one-click install
     * windows one-click installer, using either Docker, or Cygwin etc, or a native port
 
+Note: Travis Scrimshaw would be happy to join brainstorms remotely:
+``I fly on Wednesday afternoon (Minneapolis time) and arrive Thursday
+afternoon (Germany time), but I am basically free all day Tuesday (and
+I wake up early). Thursday or Friday works too from Berlin''
+
 === SageMath Live ===
 
   * SageDebianLive
