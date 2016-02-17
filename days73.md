@@ -13,7 +13,7 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
 == Previsional schedule ==
 
 ||<5%>                    ||<15% #FFFFAA:> Wednesday 4 May ||<15%  #FFFFAA:> Thursday 5 May ||<15%  #FFFFAA:> Friday 6 May ||<15%  #FFFFAA:> Saturday 7 May ||
-||<#FFFFAA> morning       ||<#AFEFEF:> Sage introduction   ||  ?                            ||  ?                          || ?                             ||
+||<#FFFFAA> morning       ||<#AFEFEF:> Participant presentation<<BR>>and<<BR>>Sage introduction   ||  ?                            ||  ?                          || ?                             ||
 ||<#FFFFAA> 13:00 - 14:30 || lunch break                   || lunch break                   || lunch break                 || lunch break                   ||
 ||<#FFFFAA> afternoon     || ?                             || ?                             || ?                           || ?                             ||
 
