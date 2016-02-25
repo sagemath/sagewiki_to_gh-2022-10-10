@@ -26,6 +26,9 @@ The following people will most likely be able to attend.
  * Rob Rubalcaba (subject to funding)
  * Štěpán Starosta
  * Attila Kovács (unconfirmed)
+ * Horst Brunotte
+ * Hbaib Mohamed
+ * Mario Weitzer
  * ...
 
 Locals who will likely attend:
