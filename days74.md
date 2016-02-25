@@ -63,9 +63,9 @@ European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are
 
 === Support ===
 
- * [[http://www.obspm.fr/|Observatoire de Paris]]
- * Horizon 2020 European Research Infrastructure project [[http://opendreamkit.org/|OpenDreamKit]]
- * ANR Project [[http://pageperso.univ-brest.fr/~jnicolas/ANRAARG/ANR_AARG.html|Analyse Asymptotique en Relativité Générale]]
+ * [[http://www.obspm.fr/|Observatoire de Paris]]: [[https://www.obspm.fr/-cias-.html?lang=en|CIAS]] and Federative Action ''[[http://gphys.obspm.fr/|Gravitation et physique fondamentale (GPhys)]]''
+ * Horizon 2020 European Research Infrastructure project ''[[http://opendreamkit.org/|OpenDreamKit]]''
+ * ANR Project ''[[http://pageperso.univ-brest.fr/~jnicolas/ANRAARG/ANR_AARG.html|Analyse Asymptotique en Relativité Générale]]''
 
 === Speakers ===
 
