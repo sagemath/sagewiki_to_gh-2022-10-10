@@ -14,6 +14,10 @@ Location: Prague, Czech Republic
 
 Automata and transducers are available in !SageMath via its [[http://doc.sagemath.org/html/en/reference/combinat/sage/combinat/finite_state_machine.html|finite state machines module]]. The introduction of this package will focus on examples related to digit expansions.
 
+=== Experimenting with SageMath ===
+
+The presentation will cover some experience collected while using SageMath as a tool to help in research and teaching. We will also shortly present the Julia language and compare it with SageMath.
+
 == Participants ==
 
 The following people will most likely be able to attend.
