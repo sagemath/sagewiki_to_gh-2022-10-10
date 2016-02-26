@@ -34,6 +34,7 @@ Please add your name to the participant list below, following the existing entri
  * [[http://carva.org/samuel.lelievre/|Samuel Lelièvre]], Laboratoire de mathématique d'Orsay, Université Paris-Sud. Sunday evening to Saturday morning.
  * Jeroen Demeyer, University of Ghent (and Paris-Sud Orsay?). Sunday evening to Saturday morning.
  * [[http://defeo.lu/|Luca De Feo]], Laboratoire de Mathématiques de Versailles, Université de Versailles. Sunday evening to Saturday morning.
+ * Jean-Pierre Flori, ANSSI. Random days during the weeks.
 
 = Programme and topics =
 
