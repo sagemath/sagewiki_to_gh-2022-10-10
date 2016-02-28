@@ -38,6 +38,7 @@ Please add your name to the participant list below, following the existing entri
  * Julien Cristau, Logilab.
  * Erik Bray, Laboratoire de Recherche en Informatique, Université Paris-Sud. Sunday evening to Saturday morning.
    * May have to come and go depending on timing of my wife's arrival in France; will try to arrange things so that there's minimal interference.
+ * Florent Hivert, Laboratoire de Recherche en Informatique, Université Paris Sud
 
 = Programme and topics =
 
