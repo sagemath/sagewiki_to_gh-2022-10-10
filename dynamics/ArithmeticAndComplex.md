@@ -34,8 +34,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/20059|#20059]]) new: minimal periodic points code improvement - unassigned
 
- * ([[http://trac.sagemath.org/ticket/20018|#20018]]) new: init for endomorphism of projective subschemes fails - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/19635|#19635]]) needs-work: Enumeration functionality for products of projective spaces over fields and finite fields - Grayson Jorgenson
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
@@ -81,6 +79,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/20018|#20018]])-- closed sage 7.1: init for endomorphism of projective subschemes fails - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/19979|#19979]])-- closed sage 7.1: Fix coding style and documentation in projective products - Lauren Miller
 
