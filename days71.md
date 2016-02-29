@@ -15,11 +15,13 @@ Funding: Clay Mathematics Institute and the Beatrice Yormark Fund for Women in M
  * Jamie Beacom
  * Francesca Bianchi
  * Xavier Caruso
+ * Wouter Castryck
  * Mirela Ciperiani
  * Raf Cluckers
  * Edgar Costa
  * Clifton Cunningham
  * Alyson Deines
+ * Jeroen Demeyer
  * Netan Dogra
  * Victor Flynn
  * Immanuel Halupczok
