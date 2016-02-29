@@ -14,7 +14,7 @@ TBA (see the list of speakers below)
 
 Here is a list of possible projects. Feel free to add your own to the list.
 
- * [[http://sagemanifolds.obspm.fr/|SageManifolds]] inclusion into Sage.
+ * [[http://sagemanifolds.obspm.fr/|SageManifolds]] inclusion into Sage (cf. [[http://trac.sagemath.org/ticket/18528|#18528]])
  * [[http://trac.sagemath.org/ticket/14901|Lie algebras #14901]] and implement their relationship with manifolds.
  * CW/Cube complexes by generalizing the manifold classes.
  * Computation of geodesics on pseudo-Riemannian manifolds.
