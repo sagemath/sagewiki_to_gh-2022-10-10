@@ -82,7 +82,7 @@ Early morning: Coding sprints for early risers
 
 5:30 pm - 6:30 pm: Status reports
 
-7 pm - 9:00 pm: Dinner
+7:00 pm - 9:00 pm: Dinner
 
 9:00 pm - late: Coding sprints 
 
