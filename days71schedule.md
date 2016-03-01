@@ -90,4 +90,5 @@ Early morning: Coding sprints for early risers
 
 Early morning: Coding sprints for early risers
 
-10 am - 1 pm: Status reports, wrap-up and discussion
+10 am - 12:30 pm: Status reports, wrap-up and discussion
+12:30 pm - 2pm: Lunch
