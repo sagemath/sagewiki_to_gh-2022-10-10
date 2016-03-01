@@ -28,12 +28,66 @@
 
 == Monday, March 21 ==
 
+Early morning: Coding sprints for early risers
 
+10:00 am - 11:00 am: Topic 1
+
+11:00 am - 11:30 am: Tea/coffee break
+
+11:30 am - 12:30 pm: Topic 2
+
+12:30 pm - 2:00 pm: Lunch
+
+2:00 pm - 5:30 pm: Coding sprints
+
+5:30 pm - 6:30 pm: Status reports
+
+6:30 pm - 8:00 pm: Dinner
+
+8:00 pm - late: Coding sprints 
 
 == Tuesday, March 22 ==
 
+Early morning: Coding sprints for early risers
+
+10:00 am - 11:00 am: Topic 3
+
+11:00 am - 11:30 am: Tea/coffee break
+
+11:30 am - 12:30 pm: Topic 4
+
+12:30 pm - 2:00 pm: Lunch
+
+2:00 pm - 5:30 pm: Coding sprints
+
+5:30 pm - 6:30 pm: Status reports
+
+6:30 pm - 8:00 pm: Dinner
+
+8:00 pm - late: Coding sprints 
+
 == Wednesday, March 23 ==
 
+Early morning: Coding sprints for early risers
+
+10:00 am - 11:00 am: Topic 5
+
+11:00 am - 11:30 am: Tea/coffee break
+
+11:30 am - 12:30 pm: Topic 6
+
+12:30 pm - 2:00 pm: Lunch
+
+2:00 pm - 5:30 pm: Coding sprints
+
+5:30 pm - 6:30 pm: Status reports
+
+6:30 pm - 8:00 pm: Dinner
+
+8:00 pm - late: Coding sprints 
+
 == Thursday, March 24 ==
+
+Early morning: Coding sprints for early risers
 
 10 am - 1 pm: Status reports, wrap-up and discussion
