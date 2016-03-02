@@ -45,9 +45,9 @@ The program will include '''introduction tutorials''' to Sage and combinatorics 
 
 ''Detailed schedule to be announced''. 
 
-== Speakers == 
+== Speakers ==
 
-''To be announced''
+To be announced
 
 == Lodging, funding, and other practical informations ==
 
