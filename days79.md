@@ -49,6 +49,10 @@ The program will include '''introduction tutorials''' to Sage and combinatorics 
 
 To be announced
 
+== Participants ==
+
+TBA
+
 == Lodging, funding, and other practical informations ==
 
 There will be some limited funding available: more information to come.
