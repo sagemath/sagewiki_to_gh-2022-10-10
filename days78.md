@@ -34,9 +34,9 @@ Need financial aid:*
 
 Do you wish to give a talk or present a tutorial?**
 
-''* There might be some limited financial aid available going in priority to students to cover local expenses'''
+''* There might be some limited financial aid available going in priority to students to cover local expenses''
 
-''**A talk can be on anything related to mathematical development (it does not have to be Sage)
+''** A talk can be on anything related to mathematical development (it does not have to be Sage)
 If you have some Sage experience, please consider giving a tutorial''
 
 == Program ==
