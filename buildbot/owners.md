@@ -14,7 +14,7 @@ Sagemath patchbots names and owners:
     hera-OptiPlex     --> BLACKLISTED
     icj-laptop        --> chapoton
     lehner            --> cremona
-    librae            --> vdelecroix
+    librae            --> vdelecroix (BLACKLISTED)
     Martin-Laptop     --> mantepse
     mangouste         --> vdelecroix
     Mercury           --> kdilks
