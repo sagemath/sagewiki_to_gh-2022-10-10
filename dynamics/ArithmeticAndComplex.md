@@ -30,9 +30,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/20067|#20067]]) new: Change ring to QQbar fails for subschemes - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/20168|#20168]]) needs-review: small improvements to projective morphism - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/20059|#20059]]) new: minimal periodic points code improvement - unassigned
+ * ([[http://trac.sagemath.org/ticket/20059|#20059]]) needs-review: minimal periodic points code improvement - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/19635|#19635]]) needs-work: Enumeration functionality for products of projective spaces over fields and finite fields - Grayson Jorgenson
 
@@ -74,6 +74,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/20067|#20067]])-- closed sage 7.1: Change ring to QQbar fails for subschemes - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/20018|#20018]])-- closed sage 7.1: init for endomorphism of projective subschemes fails - Ben Hutz
 
