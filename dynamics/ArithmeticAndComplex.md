@@ -62,14 +62,12 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || reduced form of endomorphisms -  i.e., compute an `SL(2,Z)` transformation that makes the coefficients small. The simplest approach would be to "reduce" the binary form describing the fixed points or (if that's too degenerate) the points of period n for some small n. See [Stoll, Michael; Cremona, John E., On the reduction theory of binary forms. J. Reine Angew. Math. 565 (2003), 79–99.], which is fairly easy to implement and which would be useful to have in sage anyway. || medium || ||
  || Given two sets of N+2 points no N+1 of which co-hyperplaner, determine the conjugation that sends one set to the other || easy || ||
  || Non-Integral Domains || Make projective space work over non-integral domains. One method would be to make a valid point on which is valid for modulo all maximal ideals || || ||
- ||<|2> Documentation || fix all the white space issues in the projective and affine folders || easy || ||
- || Write Tutorials || ||
+ ||<|1> Documentation || Write Tutorials || ||
  || Reduction || potential good and critically good reduction || medium || ||
  || Optimization ||  Very generally, implement a function which determines how to do efficient iteration of functions. For example, when computing the iterate $f^{17}$, it is more efficient to compute $f^2=f\circ f$, then $f^4=f^2\circ f^2$, then $f^8=f^4\circ f^4$, then $f^{16}=f^8\circ f^8$, and then finally $f^{17}=f^{16}\circ f$, than it is to compute $f\circ \cdots \circ f$ directly. (Zieve, ICERM) || || ||
  || Complex Dynamics || Implement Thurston's algorithm. More precisely, develop an efficient method to determine if there is a Thurston obstruction. (Epstein, ICERM) || || ||
  || Dynamical Zeta Functions || Compute the dynamical zeta function || || ||
- ||<|6> Miscellaneous ||Implement a function which takes as input to rational functions $f(x)$ and $g(x)$, and determines whether or not $f^n=g^m$ for some integers $n,m \geq 1$. (Zieve, ICERM) || || ||
- || Chebyshev creator || easy || ||
+ ||<|5> Miscellaneous ||Implement a function which takes as input to rational functions $f(x)$ and $g(x)$, and determines whether or not $f^n=g^m$ for some integers $n,m \geq 1$. (Zieve, ICERM) || || ||
  || is_preperiodic over finite fields || easy || ||
  || height_difference_bound for non-endomorphism || || ||
  || bakcwards orbit: perhaps a switch for depth on rational_preimages() || easy || ||
