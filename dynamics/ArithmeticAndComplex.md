@@ -46,7 +46,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  ||||||||'''Wishlist'''||
  || Area|| Description || Difficulty || Priority ||
- ||<|1> Products of Projective Spaces || Rational Points on Subschemes || Implement an efficient rational points search on subschemes. Currently it is done by enumeration unless dim is 0 || || ||
+ ||<|1> Products of Projective Spaces || Rational Points on Subschemes || Implement an efficient rational points search on subschemes. Currently it is done by enumeration unless dim is 0 || ||
  ||<|2> Polynomials || implement is_polynomial(). In dimension 1, this is the existence of a totally ramified fixed point. It would also be nice to determine the conjugation to move that fixed point to ifnty. || Medium || ||
  || specific functionality for regular polynomial endomorphisms of P^N || || ||
  ||<|3> Rational Maps || Indeterminacy locus || easy || ||
