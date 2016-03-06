@@ -40,7 +40,7 @@ Please add your name to the participant list below, following the existing entri
  * Florent Cayré, Logilab.
  * Erik Bray, Laboratoire de Recherche en Informatique, Université Paris-Sud. Sunday evening to Saturday morning.
  * Florent Hivert, Laboratoire de Recherche en Informatique, Université Paris Sud
- * Julian Rüth
+ * Julian Rüth, Sunday evening to Friday evening.
  * ThierryMonteil, not sure about the exact dates.
 
 = Programme and topics =
