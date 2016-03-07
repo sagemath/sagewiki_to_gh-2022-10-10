@@ -69,19 +69,17 @@ European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are
 
 === Speakers ===
 
- * Mark Bell* (University of Illinois, Urbana-Champaign): ''Flipper and Sage''
- * Volker Braun* (Berlin): ''!SageMath''; ''toric geometry''
- * Marc Culler* (University of Illinois, Chicago): ''!SnapPy''
- * Vincent Delecroix* (University of Bordeaux): ''Riemannian manifolds''
- * Nathan Dunfield* (University of Illinois, Urbana-Champaign): ''!SnapPy''
- * Patrick Hooper* (City College of New York): ''!FlatSurf and translation surfaces in Sage''
- * Marcin Kostur* (University of Silesia, Katowice): ''3D visualization''
- * Jeremy L. Martin* (University of Kansas, Lawrence): ''CW complexes''
- * John Palmieri* (University of Washington, Seattle): ''simplicial sets''
- * Thibaut Paumard* (Observatoire de Paris): ''Gyoto code and geodesics''
- * Nicolas Thiéry* (University Paris Sud): ''Modelling mathematics in Sage (parents, elements, categories, ...)''
-
-(* denotes confirmed)
+ * Mark Bell (University of Illinois, Urbana-Champaign): ''Flipper and Sage''
+ * Volker Braun (Berlin): ''!SageMath''; ''toric geometry''
+ * Marc Culler (University of Illinois, Chicago): ''!SnapPy''
+ * Vincent Delecroix (University of Bordeaux): ''Riemannian manifolds''
+ * Nathan Dunfield (University of Illinois, Urbana-Champaign): ''!SnapPy''
+ * Patrick Hooper (City College of New York): ''!FlatSurf and translation surfaces in Sage''
+ * Marcin Kostur (University of Silesia, Katowice): ''3D visualization''
+ * Jeremy L. Martin (University of Kansas, Lawrence): ''CW complexes''
+ * John Palmieri (University of Washington, Seattle): ''simplicial sets''
+ * Thibaut Paumard (Observatoire de Paris): ''Gyoto code and geodesics''
+ * Nicolas Thiéry (University Paris Sud): ''Modelling mathematics in Sage (parents, elements, categories, ...)''
 
 === Participants ===
 
@@ -91,6 +89,7 @@ European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are
  * Marc Culler (University of Illinois, Chicago, USA)
  * Vincent Delecroix (University of Bordeaux, France)
  * Nathan Dunfield (University of Illinois, Urbana-Champaign, USA)
+ * Anastasia Golubtsova (Bogoliubov Laboratory of Theoretical Physics, Dubna, Russia)
  * Eric Gourgoulhon (Observatoire de Paris, France)
  * Patrick Hooper (City College of New York, USA)
  * Marcin Kostur (University of Silesia, Katowice, Poland)
