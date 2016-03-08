@@ -24,7 +24,7 @@
 
 6:30 pm - 8:00 pm: Dinner
 
-8:00 pm - 10:00 pm: Lightning talks
+8:00 pm - 10:00 pm: Lightning talks: Tristan Vaccon, Francesca Bianchi, Maurizio Monge, Edgar Costa
 
 == Monday, March 21 ==
 
