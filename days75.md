@@ -8,15 +8,17 @@ Please contact David Lucas (david.lucas[at]inria.fr) for any question.
 
 = Focus & Topics =
 
+The overall theme of this Sage Days is coding theory, but there will be lots of general hacking.
+Even if you don't have any particular interest in coding theory, you should participate! 
+
 The aim of this Sage Days is to:
 
- * introduce Sage to coding theorists
+ * Introduce Sage to coding theorists.
 
- * have presentations about the enhancements we made to Sage's coding theory library during Inria's [[https://bitbucket.org/lucasdavid/sage_coding_project/wiki/Home|ACTIS]] project
+ * Have presentations about the enhancements we made to Sage's coding theory library during Inria's [[https://bitbucket.org/lucasdavid/sage_coding_project/wiki/Home|ACTIS]] project
 
- * help people to work on their projects
+ * Help people to work on their own projects.
 
-Anyone, even without any particular interest to coding theory can participate! 
 We plan on having talks on the mornings, and coding sprints on the afternoons.
 The first 3 days' talks will be focused on basic functionalities of our library, the last 2 days
 on advanced functionalities, with an emphasis on Sage development.
@@ -24,6 +26,21 @@ on advanced functionalities, with an emphasis on Sage development.
 == Schedule ==
 
 TBA
+
+== Ideas for hacking projects ==
+
+Feel free to add your own ideas here.
+
+* Review any open coding theory ticket, see [[http://trac.sagemath.org/ticket/18846|#18846]].
+
+* Port implementation of asymptotically fast (GF(q)[x])[y] root-finding from [[https://bitbucket.org/jsrn/codinglib|Codinglib]].
+
+* Link to advanced fast polynomial arithmetic library functions such as multi-point evaluation and Lagrange interpolation.
+
+* Link to fast GF(2)[x] library (currently used is NTL generic GF(p)[x]).
+
+* Link to new features of new LinBox release.
+
 
 = Funding =
 
