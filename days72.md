@@ -32,6 +32,12 @@ The following people will most likely be able to attend.
  * Horst Brunotte
  * Hbaib Mohamed
  * Mario Weitzer
+ * Kamil Keprt
+ * Karel Klouda
+ * Ondřej Kolouch
+ * Mohamed Mkaouar
+ * Lukáš Novotný
+ * Jan Šustek
  * ...
 
 Locals who will likely attend:
