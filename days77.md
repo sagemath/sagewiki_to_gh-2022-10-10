@@ -73,6 +73,13 @@ Meals are cooked in turns by the participants for everyone, so bring along your
 favorite recipes and dishes! All diets, including vegetarian, will be taken into
 account.
 
+The organizers will do some large shopping before coming, and then we will complement locally, as needed. Please send us
+the list of ingredients for the dish(es) you plan to prepare. We will be roughtly 10-15 and should plan for roughly 10 meals.
+
+- Salvatore: stuffed bread, I will need flour, yeast, salt for the dough; a little garlic, olive oil red
+pepper and any long leaf vegetable for the stuffing.
+- Wednesday evening: pizza from the local pizza truck.
+
 == Funding ==
 
 The workshop is funded by !OpenDreamKit, with material help from
