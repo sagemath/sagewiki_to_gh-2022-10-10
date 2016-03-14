@@ -32,7 +32,7 @@ Funding: Clay Mathematics Institute and the Beatrice Yormark Fund for Women in M
  * Jan Steffen Mueller
  * Christopher Nicholls
  * Joaquin Rodrigues Jacinto
- * Fernando Rodriguez-Villegas
+ * Fernando Rodriguez Villegas
  * Sandra Rozensztajn
  * Julian Rueth
  * Ander Steele
