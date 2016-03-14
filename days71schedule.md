@@ -1,6 +1,6 @@
 == Sunday, March 20 ==
 
-10:00 am - 11:00 am: Aly Deines, Introduction to Sage
+10:00 am - 11:00 am: Alyson Deines, Introduction to Sage
 
 11:00 am - 11:30 am: Tea/coffee break
 
@@ -30,11 +30,11 @@
 
 Early morning: Coding sprints for early risers
 
-10:00 am - 11:00 am: Topic 1
+10:00 am - 11:00 am: Jan Tuitman, Zeta functions II
 
 11:00 am - 11:30 am: Tea/coffee break
 
-11:30 am - 12:30 pm: Topic 2
+11:30 am - 12:30 pm: Raf Cluckers, Motivic integration and orbital integrals II
 
 12:30 pm - 2:00 pm: Lunch
 
@@ -50,11 +50,11 @@ Early morning: Coding sprints for early risers
 
 Early morning: Coding sprints for early risers
 
-10:00 am - 11:00 am: Topic 3
+10:00 am - 11:00 am: Chris Wuthrich, Iwasawa theory II
 
 11:00 am - 11:30 am: Tea/coffee break
 
-11:30 am - 12:30 pm: Topic 4
+11:30 am - 12:30 pm: Ander Steele, Overconvergent modular symbols II
 
 12:30 pm - 2:00 pm: Lunch
 
@@ -70,11 +70,11 @@ Early morning: Coding sprints for early risers
 
 Early morning: Coding sprints for early risers
 
-10:00 am - 11:00 am: Topic 5
+10:00 am - 11:00 am: Kiran Kedlaya, p-adic Hodge theory II
 
 11:00 am - 11:30 am: Tea/coffee break
 
-11:30 am - 12:30 pm: Topic 6
+11:30 am - 12:30 pm: Jennifer Balakrishnan,  Variations on Chabauty-Coleman II
 
 12:30 pm - 2:00 pm: Lunch
 
