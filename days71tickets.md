@@ -1,5 +1,6 @@
 == Bug fixes ==
 
+[[http://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&component=padics&col=id&col=summary&col=status&col=type&order=priority | Tickets related to p-adics]]
 
 === Beginner-friendly ===
 
