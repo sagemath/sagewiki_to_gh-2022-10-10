@@ -6,7 +6,7 @@
 
 11:30 am - 12:00 pm: Fernando Rodriguez Villegas, Zeta functions I 
 
-12:15 pm - 12:45 pm: Clifton Cunningham, Motivic integration and orbital integrals I 
+12:15 pm - 12:45 pm: Immanuel Halupczok, Motivic integration and orbital integrals I 
 
 12:45 pm -  2:00 pm: Lunch
 
