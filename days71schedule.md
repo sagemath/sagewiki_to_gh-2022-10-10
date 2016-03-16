@@ -1,6 +1,6 @@
 == Sunday, March 20 ==
 
-10:00 am - 11:00 am: Alyson Deines, [[abstracts/SageIntro|Introduction to Sage]]
+10:00 am - 11:00 am: Alyson Deines, [[days71abstracts#sage_intro|Introduction to Sage]]
 
 11:00 am - 11:30 am: Tea/coffee break
 
