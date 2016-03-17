@@ -12,7 +12,7 @@ This talk will have three parts.  In the first, I will discuss what number theor
 
 ----
 
-'''Motivic integration and orbital integrals I''', <<Anchor(motivic1)>> ''Immanuel Halupczok'' (12:15-12:45)
+'''Motivic integration and orbital integrals''', <<Anchor(motivic1)>> ''Immanuel Halupczok'' (12:15-12:45)
 
 ----
 
