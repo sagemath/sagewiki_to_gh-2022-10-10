@@ -74,11 +74,11 @@ Early morning: Coding sprints for early risers
 
 Early morning: Coding sprints for early risers
 
-10:00 am - 11:00 am: ''Xavier Caruso'', [[days71abstracts#precision2|p-adic Floats]]
+10:00 am - 11:00 am: ''Jennifer Balakrishnan'', [[days71abstracts#chabauty2|Variations on Chabauty-Coleman II]]  
 
 11:00 am - 11:30 am: Tea/coffee break
 
-11:30 am - 12:30 pm: ''Jennifer Balakrishnan'', [[days71abstracts#chabauty2|Variations on Chabauty-Coleman II]]
+11:30 am - 12:30 pm: ''Xavier Caruso'', [[days71abstracts#precision2|p-adic Floats]]
 
 12:30 pm - 2:00 pm: Lunch
 
