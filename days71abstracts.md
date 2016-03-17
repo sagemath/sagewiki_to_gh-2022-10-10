@@ -58,7 +58,11 @@ compute Hida families through an eigenform of trivial character.
 
 ----
 
-''Edgar Costa'' (8:40-8:55)
+'''Zeta functions of quartic K3 surfaces over F_3''', <<Anchor(K3F3)>> ''Edgar Costa'' (8:40-8:55)
+
+With the goal of doing a census of the Hasse--Weil zeta functions of
+quartic K3 surfaces over F_3, we overview the problem of computing the
+zeta function of a generic K3 surface over F_3 using p-adic methods.
 
 -------
 
