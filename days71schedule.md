@@ -24,7 +24,11 @@
 
 6:30 pm - 8:00 pm: Dinner
 
-8:00 pm - 9:00 pm: Lightning talks: [[days71abstracts#hida|Computation of Hida families of ordinary cusp forms]] (''Francesca Bianchi''), '''TBA''' (''Maurizio Monge''), [[days71abstracts#K3F3|Zeta functions of quartic K3 surfaces over F_3]] (''Edgar Costa'')
+8:00 pm - 8:15 pm: ''Francesca Bianchi'', [[days71abstracts#hida|Computation of Hida families of ordinary cusp forms]]
+
+8:20 pm - 8:35 pm: ''Maurizio Monge'', [[days71abstracts#eispoly|A family of Eisenstein polynomials generating totally ramified extensions, identification of extensions and construction of class fields]]
+
+8:40 pm - 8:55 pm: ''Edgar Costa'', [[days71abstracts#K3F3|Zeta functions of quartic K3 surfaces over F_3]]
 
 == Monday, March 21 ==
 
