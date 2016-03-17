@@ -51,6 +51,8 @@ Funding: Clay Mathematics Institute and the Beatrice Yormark Fund for Women in M
 
 [[days71schedule |Workshop schedule]]
 
+[[days71abstracts | Talk abstracts]]
+
 == Topics ==
 
 We'll have morning talks on the following topics, with afternoons and evenings dedicated to related projects.
