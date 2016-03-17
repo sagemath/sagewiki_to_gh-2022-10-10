@@ -110,7 +110,13 @@ talk should also include what sage cannot do in this direction.
 
 == Wednesday ==
 
-'''p-adic Floats''', <<Anchor(precision2)>> ''Xavier Caruso'' (10:00-11:00)
+'''Variations on Chabauty-Coleman II''', <<Anchor(chabauty2)>> ''Jennifer Balakrishnan'' (10:00-11:00)
+
+I will discuss the computation of some iterated Coleman integrals that play a role in Kim's nonabelian Chabauty method to find rational points on curves.  In particular, I will give a few examples in the case where the rank of the Jacobian is equal to the genus of the curve where this has been used in joint work with Dogra and Mueller to explicitly find rational points. 
+----
+
+'''p-adic Floats''', <<Anchor(precision2)>> ''Xavier Caruso'' (11:30-12:30)
+
 
 Floating point arithmetic is by far the most common implementation of
 real numbers on computers. This is in complete opposition with the
@@ -118,7 +124,3 @@ $p$-adic case for which all standard implementations rely on interval
 arithmetic.
 This talk aims at arguing for initiating -- and then generalizing --
 the use of $p$-adic floating point arithmetic in computer algebra systems.
-
-----
-
-'''Variations on Chabauty-Coleman II''', <<Anchor(chabauty2)>> ''Jennifer Balakrishnan'' (11:30-12:30)
