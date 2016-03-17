@@ -24,6 +24,8 @@ This talk will have three parts.  In the first, I will discuss what number theor
 
 '''Overconvergent modular symbols I''', <<Anchor(overconvergent1)>> ''David Roe'' (2:45-3:15)
 
+I will give an introduction to overconvergent modular symbols, their implementation in Sage, and what remains to be done.
+
 ----
 
 '''p-adic Precision I''', <<Anchor(precision1)>> ''Tristan Vaccon'' (3:45-4:15)
