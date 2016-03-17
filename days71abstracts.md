@@ -8,7 +8,7 @@ This talk will have three parts.  In the first, I will discuss what number theor
 
 ----
 
-'''Zeta functions I''', <<Anchor(zeta1)>> ''Fernando Rodriguez Villegas'' (11:30-12:00)
+'''Zeta functions''', <<Anchor(zeta1)>> ''Fernando Rodriguez Villegas'' (11:30-12:00)
 
 ----
 
@@ -17,18 +17,26 @@ This talk will have three parts.  In the first, I will discuss what number theor
 ----
 
 
-'''Iwasawa theory I''', <<Anchor(iwasawa1)>> ''Jeanine Van Order'' (2:00-2:30)
+'''Iwasawa theory - a brief introduction''', <<Anchor(iwasawa1)>> ''Jeanine Van Order'' (2:00-2:30)
 
+
+I will present an overview of Iwasawa theory starting with the work of Iwasawa on Z_p-extensions of number fields, leading to the study of Iwasawa algebras and their structure theory. I will then present three settings where we know the so-called Iwasawa main conjecture in full: totally real number fields (by Wiles/Mazur-Wiles, cf. Rubin), elliptic curves with complex multiplication (by Coates-Wiles/Yager, cf. Rubin), and modular elliptic curves (by Kato/Rohrlich and Skinner-Urban). 
+
+Some other recent developments and open problems will be discussed at the end of the lecture. 
 
 ----
 
-'''Overconvergent modular symbols I''', <<Anchor(overconvergent1)>> ''David Roe'' (2:45-3:15)
+'''Overconvergent modular symbols''', <<Anchor(overconvergent1)>> ''David Roe'' (2:45-3:15)
 
 I will give an introduction to overconvergent modular symbols, their implementation in Sage, and what remains to be done.
 
 ----
 
-'''p-adic Precision I''', <<Anchor(precision1)>> ''Tristan Vaccon'' (3:45-4:15)
+'''p-adic precision: theory, examples and application to some p-adic differential equations''', <<Anchor(precision1)>> ''Tristan Vaccon'' (3:45-4:15)
+
+As you already know, p-adic numbers can usually only be handled with finite precision, which yields the problems of determining the smallest precision needed or the loss of precision per operation.  With X. Caruso and D. Roe, we have provided a new method to handle precision over p-adics that relies on differentials and first-order approximation. It provides results that are (essentially) optimals and do not depend on the choice of algorithm.  We will present an illustration on how to use this method with the study of the computation of the determinant of a p-adic matrix.
+
+We will also present the following application. In a joint work with P.Lairez, we have applied this method for the computation of solutions to some p-adic differential equations with separation of variables.  These differential equations were studied as they are used to compute isogenies between elliptic curves.
 
 ----
 
@@ -107,7 +115,9 @@ talk should also include what sage cannot do in this direction.
 
 -----
 
-'''Overconvergent modular symbols II''', <<Anchor(overconvergent2)>> ''Ander Steele'' (11:30-12:30)
+'''Non-ordinary families of overconvergent modular symbols''', <<Anchor(overconvergent2)>> ''Ander Steele'' (11:30-12:30)
+
+Abstract: I'll describe an approach to computing families of modular symbols in the higher slope case. I'll also survey the recent work of Robert Harron, Robert Pollack, et. al. on computations of ordinary families.
 
 -------
 
