@@ -84,7 +84,7 @@ talk should also include what sage cannot do in this direction.
 
 == Wednesday ==
 
-'''p-adic Precision II''', <<Anchor(precision2)>> ''Xavier Caruso'' (10:00-11:00)
+'''p-adic Floats''', <<Anchor(precision2)>> ''Xavier Caruso'' (10:00-11:00)
 
 Floating point arithmetic is by far the most common implementation of
 real numbers on computers. This is in complete opposition with the
