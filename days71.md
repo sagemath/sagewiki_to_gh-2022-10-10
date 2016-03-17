@@ -73,9 +73,9 @@ One can situate classical modular forms in an infinite dimensional ''p''-adic Ba
 
 Orbital integrals play a fundamental role in trace formulas and their applications to the Langlands program.  Hales has been pursuing a program to practically compute these integrals using motivic integration.  The methods used in these computations differ from the other projects in that ''p'' is not fixed at the beginning of the computation.  Instead, the end result is motivic, and can be evaluated for a particular prime using algorithms for computing zeta functions as in the first project.
 
-=== p-adic Hodge theory ===
+=== p-adic Precision and Sage ===
  
-Inspired by Hodge theory for complex varieties, ''p''-adic Hodge theory seeks to describe various categories of ''p''-adic Galois representations using linear algebraic data.  Using period rings described by Fontaine, the theory gives isomorphisms between categories of Galois representations and categories of vector spaces equipped with Frobenius actions, filtrations, etc.  Recently, the [[http://cethop.math.cnrs.fr/|CETHop project]] has led an effort to find practical algorithms for computing examples in this area.
+This project will focus on implementing various core p-adic functionality in Sage, especially precision models for arithmetic with polynomials, matrices, and power series.  Other goals include improving the coercion between p-adic fields and their residue fields, working on p-adic fields that are neither unramified nor totally ramified, and adding completions for number fields.  
 
 === Variations on the Chabauty-Coleman method and rational points on curves ===
 
