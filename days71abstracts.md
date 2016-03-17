@@ -40,7 +40,17 @@ will not about any specific implementation).
 
 ----
 
-''Francesca Bianchi'' (8:00-8:15)
+'''Computation of Hida families of ordinary cusp forms''', <<Anchor(hida)>> ''Francesca Bianchi'' (8:00-8:15)
+
+The first example of a p-adic family of modular forms goes back to
+Serre's construction of the p-adic Eisenstein series. At the end of
+the 1980s Hida then introduced the notion of a p-adic family of
+modular forms going through a cuspidal eigenform in the ordinary
+subspace of a given weight. This means that we look for a q-expansion
+such that the coefficients depend p-adically on a parameter k, in such
+a way that specialising the expansion at a certain k gives an
+eigenform of weight k. In the talk we will present an algorithm to
+compute Hida families through an eigenform of trivial character.
 
 ----
 
