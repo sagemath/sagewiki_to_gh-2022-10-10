@@ -17,7 +17,7 @@ This talk will have three parts.  In the first, I will discuss what number theor
 ----
 
 
-'''Iwasawa theory -- a brief introduction''', <<Anchor(iwasawa1)>> ''Jeanine Van Order'' (2:00-2:30)
+'''Iwasawa theory - a brief introduction''', <<Anchor(iwasawa1)>> ''Jeanine Van Order'' (2:00-2:30)
 
 
 ----
