@@ -99,6 +99,7 @@ European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are
  * Jeremy L. Martin (University of Kansas, Lawrence, USA)
  * John Palmieri (University of Washington, Seattle, USA)
  * Thibaut Paumard (Observatoire de Paris, France)
+ * Saul Schleimer (University of Warwick, UK)
  * Travis Scrimshaw (University of Minnesota, USA)
  * Nicolas Thiéry (University Paris Sud, France)
  * Artur Trzesiok (Poland)
