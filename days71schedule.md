@@ -16,7 +16,7 @@
 
 3:15 pm -  3:45 pm: Tea/coffee break
 
-3:45 pm -  4:15 pm: ''Tristan Vaccon'', [[days71abstracts#precision1|p-adic Precision I]]
+3:45 pm -  4:15 pm: ''Tristan Vaccon'', [[days71abstracts#precision1|p-adic precision: theory, examples and application to some p-adic differential equations]]
 
 4:30 pm -  5:00 pm: ''Victor Flynn'', [[days71abstracts#chabauty1|Variations on Chabauty-Coleman I]]
 
