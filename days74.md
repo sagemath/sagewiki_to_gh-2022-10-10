@@ -20,9 +20,12 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * Computation of geodesics on pseudo-Riemannian manifolds.
  * Include the `sage.geometry.riemannian_manifolds` (i.e. parametrized surfaces) into the more general framework of !SageManifolds.
  * Experiment plotting possibilities with OpenGL (nice stuff from !SnapPy!) and more... for rendering in browser there is the [[https://en.wikipedia.org/wiki/WebGL|WebGL]] javascript library that is supported by most browsers.
- * Persistent homology.
+ * Improve persistent homology.
  * Simplicial sets. (Co)simplicial objects in various categories.
  * Incorporation of [[https://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/ |Kenzo]]?
+ * Improve/Implement knot theory in Sage (cf. [[http://trac.sagemath.org/ticket/17030|#17030]])
+ * Implement more (co)homology theories (e.g., De Rham cohomology).
+ * Implement methods for computing homotopy groups.
 
 == Details ==
 
