@@ -12,15 +12,26 @@ This talk will have three parts.  In the first, I will discuss what number theor
 
 ----
 
-'''Motivic integration and orbital integrals''', <<Anchor(motivic1)>> ''Immanuel Halupczok'' (12:15-12:45)
+'''Counting points using uniform p-adic integration''', <<Anchor(motivic1)>> ''Immanuel Halupczok'' (12:15-12:45)
 
+Given a variety $V$ defined over $\mathbb{ℤ}$, one can ask how the number $\#V(\mathbb{ℤ}/m\mathbb{ℤ})$ of
+$\mathbb{ℤ}/m\mathbb{ℤ}$-rational points of $V$ depends on $m \in \mathbb{N}$. For a fixed prime $p$, there
+exists a strong relation between the numbers $\#V(\mathbb{ℤ}/p^r\mathbb{ℤ})$ for different $r$,
+which can be expressed as a power series (the "Poincaré series of $V$")
+being a rational function; this was proven by Denef-Igusa-Meuser in the
+80s.
+
+One way to prove this result uses $p$-adic integration. That proof can be
+carried out uniformly for all $p$, thus yielding uniformity in p
+statements about Poincaré series. I will use this as a motivation to
+introduce uniform $p$-adic integration.
 ----
 
 
 '''Iwasawa theory - a brief introduction''', <<Anchor(iwasawa1)>> ''Jeanine Van Order'' (2:00-2:30)
 
 
-I will present an overview of Iwasawa theory starting with the work of Iwasawa on Z_p-extensions of number fields, leading to the study of Iwasawa algebras and their structure theory. I will then present three settings where we know the so-called Iwasawa main conjecture in full: totally real number fields (by Wiles/Mazur-Wiles, cf. Rubin), elliptic curves with complex multiplication (by Coates-Wiles/Yager, cf. Rubin), and modular elliptic curves (by Kato/Rohrlich and Skinner-Urban). 
+I will present an overview of Iwasawa theory starting with the work of Iwasawa on $\mathbb{Z}_p$-extensions of number fields, leading to the study of Iwasawa algebras and their structure theory. I will then present three settings where we know the so-called Iwasawa main conjecture in full: totally real number fields (by Wiles/Mazur-Wiles, cf. Rubin), elliptic curves with complex multiplication (by Coates-Wiles/Yager, cf. Rubin), and modular elliptic curves (by Kato/Rohrlich and Skinner-Urban). 
 
 Some other recent developments and open problems will be discussed at the end of the lecture. 
 
