@@ -6,7 +6,7 @@
 
 11:30 am - 12:00 pm: ''Fernando Rodriguez Villegas'', [[days71abstracts#zeta1|Zeta functions I]]
 
-12:15 pm - 12:45 pm: ''Immanuel Halupczok'', [[days71abstracts#motivic1|Motivic integration and orbital integrals I]]
+12:15 pm - 12:45 pm: ''Immanuel Halupczok'', [[days71abstracts#motivic1|Counting points using uniform p-adic integration]]
 
 12:45 pm -  2:00 pm: Lunch
 
