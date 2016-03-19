@@ -30,6 +30,8 @@
 
 8:40 pm - 8:55 pm: ''Edgar Costa'', [[days71abstracts#K3F3|Zeta functions of quartic K3 surfaces over F_3]]
 
+9 pm - late: Coding sprints 
+
 == Monday, March 21 ==
 
 Early morning: Coding sprints for early risers
