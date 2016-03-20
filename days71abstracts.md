@@ -2,7 +2,7 @@
 
 == Sunday ==
 
-'''Sage Number Theory and Development''', <<Anchor(sage_intro)>> ''Alyson Deines'' (10:00-11:00)
+'''Sage Number Theory and Development''', <<Anchor(sage_intro)>> ''Alyson Deines'' (10:00-11:00)[[attachment:SageDevelopmentTalk.pdf|slides]]
 
 This talk will have three parts.  In the first, I will discuss what number theoretic constructs are implemented in Sage and how to use them.  Next, I will compare Sage's functionality with Magma's functionality.  In particular, some gaps in Sage.  The last part is an introduction to Sage development using !GitHub and the Trac server.
 
