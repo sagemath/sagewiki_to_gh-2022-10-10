@@ -92,7 +92,7 @@ class field, given a suitable description of a norm subgroup.
 
 ----
 
-'''Zeta functions of quartic K3 surfaces over F_3''', <<Anchor(K3F3)>> ''Edgar Costa'' (8:40-8:55)
+'''Zeta functions of quartic K3 surfaces over F_3''', <<Anchor(K3F3)>> ''Edgar Costa'' (8:40-8:55, [[attachment:Costa_k3f3.pdf| slides]])
 
 With the goal of doing a census of the Hasse--Weil zeta functions of
 quartic K3 surfaces over $\mathbb{F}_3$, we overview the problem of computing the
