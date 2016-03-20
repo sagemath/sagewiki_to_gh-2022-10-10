@@ -20,6 +20,7 @@
  * Maurizio Monge
  * Jan Steffen Mueller
  * Christopher Nicholls
+ * Dima Pasechnik
  * Joaquin Rodrigues Jacinto
  * Fernando Rodriguez Villegas
  * Sandra Rozensztajn
