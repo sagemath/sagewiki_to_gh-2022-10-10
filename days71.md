@@ -52,7 +52,7 @@ We'll be using a [[https://cloud.sagemath.com/projects/6883ce8a-99c6-4d78-a678-3
 
 You should set up a terminal for using git and for using Sage.  Open `~/Terms/Admin.term` and then
 
-{{{#!highlight bash
+{{{
 ~$ cd ~/Terms/
 ~/Terms$ ./setup_gitterm.py
 Your name (for git commits): <TYPE YOUR FULL NAME>
@@ -64,7 +64,7 @@ Your trac password: <TYPE YOUR TRAC PASSWORD>
 If you have it save your trac password, it will be stored in plaintext in ~/Terms/.USERNAME_git.term.init (though only accessible to people at this workshop).  If not, you'll need to type your password when you open the terminal and it will be stored in a bash environment variable.  If you're not happy with either option, talk to David.
 
 You can then create a terminal for working on each project.
-{{{#!highlight bash
+{{{
 ~/Terms$ ./join_group.py --help
 usage: join_group.py [-h]
                      {Chabauty,Prec,Zeta,Iwasawa,Overconvergent,Motivic} users
