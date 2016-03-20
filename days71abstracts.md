@@ -12,7 +12,7 @@ This talk will have three parts.  In the first, I will discuss what number theor
 
 ----
 
-'''Counting points using uniform p-adic integration''', <<Anchor(motivic1)>> ''Immanuel Halupczok'' (12:15-12:45)
+'''Counting points using uniform p-adic integration''', <<Anchor(motivic1)>> ''Immanuel Halupczok'' (12:15-12:45)[[attachment:UniformIntegrationTalk.pdf|slides]]
 
 Given a variety $V$ defined over $\mathbb{ℤ}$, one can ask how the number $\#V(\mathbb{ℤ}/m\mathbb{ℤ})$ of
 $\mathbb{ℤ}/m\mathbb{ℤ}$-rational points of $V$ depends on $m \in \mathbb{N}$. For a fixed prime $p$, there
