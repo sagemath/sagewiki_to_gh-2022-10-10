@@ -37,7 +37,7 @@ Some other recent developments and open problems will be discussed at the end of
 
 ----
 
-'''Overconvergent modular symbols''', <<Anchor(overconvergent1)>> ''David Roe'' (2:45-3:15)
+'''Overconvergent modular symbols''', <<Anchor(overconvergent1)>> ''David Roe'' (2:45-3:15, [[attachment:Roe_SD71.pdf|slides]])
 
 I will give an introduction to overconvergent modular symbols, their implementation in Sage, and what remains to be done.
 
