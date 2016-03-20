@@ -1,4 +1,4 @@
-= Sage Days 71 Abstracts =
+= Sage Days 71 Abstracts and Slides =
 
 == Sunday ==
 
