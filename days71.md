@@ -44,6 +44,44 @@ By Faltings' Theorem, curves of genus at least 2 over number fields ''K'' have f
 
 == Getting started ==
 
+== Sage Math Cloud Project ==
+
+We'll be using a [[https://cloud.sagemath.com/projects/6883ce8a-99c6-4d78-a678-34bfff8afa39|Sage Math Cloud project]] for development during the workshop.  If you need access, email [[mailto:roed@pitt.edu|David]].
+
+=== Setting up terminals ===
+
+You should set up a terminal for using git and for using Sage.  Open `~/Terms/Admin.term` and then
+
+{{{#!highlight bash
+~$ cd ~/Terms/
+~/Terms$ ./setup_gitterm.py
+Your name (for git commits): <TYPE YOUR FULL NAME>
+Your email (for git commits): <TYPE YOUR EMAIL>
+Your trac username: <TYPE YOUR TRAC USERNAME>
+Do you want to save your trac password? [y/N] <CHOOSE Y OR N>
+Your trac password: <TYPE YOUR TRAC PASSWORD>
+}}}
+If you have it save your trac password, it will be stored in plaintext in ~/Terms/.USERNAME_git.term.init (though only accessible to people at this workshop).  If not, you'll need to type your password when you open the terminal and it will be stored in a bash environment variable.  If you're not happy with either option, talk to David.
+
+You can then create a terminal for working on each project.
+{{{#!highlight bash
+~/Terms$ ./join_group.py --help
+usage: join_group.py [-h]
+                     {Chabauty,Prec,Zeta,Iwasawa,Overconvergent,Motivic} users
+                     [users ...]
+ 
+Create terminals for users interested in working on a given project. They
+alias the correct copy of Sage.
+ 
+positional arguments:
+  {Chabauty,Prec,Zeta,Iwasawa,Overconvergent,Motivic}
+                        which project to create terminals for
+  users                 users to create terminals for.
+ 
+optional arguments:
+  -h, --help            show this help message and exit
+~/Terms$ ./join_group NAME_OF_PROJECT YOUR_TRAC_USERNAME
+}}}
 
 == Relevant trac tickets ==
 
