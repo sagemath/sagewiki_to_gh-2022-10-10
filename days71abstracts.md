@@ -102,7 +102,7 @@ zeta function of a generic K3 surface over $\mathbb{F}_3$ using $p$-adic methods
 
 == Monday ==
 
-'''A survey of p-adic point counting''', <<Anchor(zeta2)>> ''Jan Tuitman'' (10:00-11:00)
+'''A survey of p-adic point counting''', <<Anchor(zeta2)>> ''Jan Tuitman'' (10:00-11:00, [[attachment:tuitman.pdf|slides]])
 
 We will give a broad overview of p-adic methods to compute
 the zeta function of an algebraic variety.
