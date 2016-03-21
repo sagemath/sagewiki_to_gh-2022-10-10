@@ -80,6 +80,10 @@ the list of ingredients for the dish(es) you plan to prepare. We will be roughtl
 pepper and any long leaf vegetable for the stuffing.
 - Wednesday evening: pizza from the local pizza truck.
 
+== Practicalities ==
+
+Linen are provided. Please bring towels, ...
+
 == Funding ==
 
 The workshop is funded by !OpenDreamKit, with material help from
