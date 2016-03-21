@@ -30,7 +30,7 @@ from the Mathematics and the Computer Science Departments at Université Paris-S
 
 Please add your name to the participant list below, following the existing entries as template.
 
- * [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]], Laboratoire de Recherche en Informatique, Université Paris Sud, Sunday 3 evening to Saturday morning
+ * [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]], Laboratoire de Recherche en Informatique, Université Paris Sud, Sunday evening to Saturday morning
  * [[http://carva.org/samuel.lelievre/|Samuel Lelièvre]], Laboratoire de mathématique d'Orsay, Université Paris-Sud. Sunday evening to Saturday morning.
  * Jeroen Demeyer, University of Ghent (and Paris-Sud Orsay?). Sunday evening to Saturday morning.
  * [[http://defeo.lu/|Luca De Feo]], Laboratoire de Mathématiques de Versailles, Université de Versailles. Sunday evening to Saturday morning.
