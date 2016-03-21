@@ -95,9 +95,8 @@ especially with significant skills in the workshop's themes.
 
  * From centre of Paris: 40 minutes RER B to Saint-Rémy-les-Chevreuse + 15 minutes bus to Cernay-la-Ville
  * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
- * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and aerial photo]]
 
- * Bus option
+ * Bus options:
     * from St Rémy les Chevreuse (RER station), bus 39-03 or 39-103
     * from Rambouillet (SNCF station) line 39-03 and 39-203
    More information on schedules [[http://www.savac.fr/transports/lignes-regulieres/votre-ligne-reguliere|here]].
@@ -109,3 +108,5 @@ especially with significant skills in the workshop's themes.
    Or [[http://ratp.fr|ratp]] but only for travel up to Saint-Rémy-les-Chevreuse.
 
  * We will run some car shuttles from Saint-Rémy-les-Chevreuse, to be planned later.
+
+ * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and aerial photo]]
