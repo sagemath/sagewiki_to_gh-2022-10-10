@@ -99,10 +99,10 @@ especially with significant skills in the workshop's themes.
  * Bus options:
     * from St Rémy les Chevreuse (RER station), bus 39-03 or 39-103
     * from Rambouillet (SNCF station) line 39-03 and 39-203
-   More information on schedules [[http://www.savac.fr/transports/lignes-regulieres/votre-ligne-reguliere|here]].
-   Of the two bus stops in Cernay, Grand'Place is closest to the guest house.
-
-   Beware that there are big gaps in the day with no buses to Cernay.
+    * Of the two bus stops in Cernay, Grand'Place is closest to the guest house.
+    * [[http://www.savac.fr/transports/lignes-regulieres/votre-ligne-reguliere|Bus schedules (SAVAC)]].
+   
+   Beware that there are no buses at all to Cernay on sunday and that there are big gaps in the day with no buses.
 
  * Check travel itineraries on [[http://www.vianavigo.com/|ViaNavigo]] (includes trains, RER, buses).
    Or [[http://ratp.fr|ratp]] but only for travel up to Saint-Rémy-les-Chevreuse.
