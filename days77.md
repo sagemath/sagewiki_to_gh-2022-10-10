@@ -2,7 +2,7 @@
 
 '''''Sage developer days on packaging, portability, documentation tools'''''
 
-'''''Cernay (near Paris and Orsay, France)'''''
+'''''Cernay-la-Ville, Yvelines (near Paris and Orsay, France)'''''
 
 <<TableOfContents()>>
 
