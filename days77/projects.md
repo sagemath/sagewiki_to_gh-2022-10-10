@@ -47,7 +47,7 @@ OS X? (Fink, Homebrew, !MacPorts)
     * windows one-click installer, using either Docker, or Cygwin etc, or a native port
 
 Note: Travis Scrimshaw would be happy to join brainstorms remotely:
-``I fly on Wednesday afternoon (Minneapolis time) and arrive Thursday
+''I fly on Wednesday afternoon (Minneapolis time) and arrive Thursday
 afternoon (Germany time), but I am basically free all day Tuesday (and
 I wake up early). Thursday or Friday works too from Berlin''
 
@@ -62,6 +62,7 @@ François Bissey from sage-on-gentoo: I would be happy to join some brainstormin
 
   * Make Sage more modular, using pip packages.
     * Make interrupt.pyx a stand-alone package: [[https://github.com/sagemath/cysignals]] and [[http://trac.sagemath.org/ticket/20002|Trac #20002]]
+    * Make the Sage <-> PARI interface a stand-alone package: [[http://trac.sagemath.org/ticket/20238|Trac #20238]]
 
 === Documentation ===
 
