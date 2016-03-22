@@ -45,6 +45,17 @@ The program will include '''introduction tutorials''' to Sage and combinatorics 
 
 ''Detailed schedule to be announced''. 
 
+== Particiants ==
+
+* Eviatar Bach (UBC)
+* Faird Aliniaeifard (York university)
+* Julien Courtiel (UBC)
+* Emily Gunawan (University of Minnesota)
+* Viviane Pons (Univ. Paris Sud)
+* Steph van Willigenburg (UBC)
+* Mike Zabrocki (York university)
+
+
 == Lodging, funding, and other practical informations ==
 
 There might be some limited funding available: more information to come.
