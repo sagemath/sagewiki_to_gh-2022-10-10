@@ -16,7 +16,7 @@ Organizers: [[mailto:viviane.pons@lri.fr|Viviane Pons]] and [[mailto:jcourtie@sf
 
 Date: 3 days '''From June 29 to July 1st, 2016'''
 
-Venue: Vancouver (more details to come)
+Venue: University of British Columbia, Vancouver
 
 == Registration ==
 
@@ -64,8 +64,8 @@ The program will include a main lecture from '''Mike Zabrocki''' (subject to be 
  * Mike Zabrocki (York university)
 
 
-== Lodging, funding, and other practical informations ==
+== Lodging and other practical informations ==
 
-There might be some limited funding available: more information to come.
+Some low cost accommodation are available at near UBC at: [[http://www.ubcconferences.com/accommodations/]].
 
-Check the [[https://sites.google.com/site/fpsac2016|FPSAC]] website for more practical informations on the Vancouver venue.
+The [[https://sites.google.com/site/fpsac2016|FPSAC]] conference will be held in downtown Vancouver, a 30 minutes bus ride from UBC. You can check the [[https://sites.google.com/site/fpsac2016/local-information|FPSAC venue page]] for more information and suggestion on affordable accommodation downtown.
