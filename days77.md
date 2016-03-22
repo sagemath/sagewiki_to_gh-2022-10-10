@@ -38,7 +38,7 @@ Please add your name to the participant list below, following the existing entri
  * Julien Cristau, Logilab.
  * David Douard, Logilab.
  * Florent Cayré, Logilab.
- * [[http://www.math.u-bordeaux1.fr/~aenge/]|Andreas Enge]], DR, INRIA Bordeaux–Sud-Ouest (Monday early afternoon to Friday evening or Saturday morning)
+ * [[http://www.math.u-bordeaux1.fr/~aenge/|Andreas Enge]], DR, INRIA Bordeaux–Sud-Ouest (Monday early afternoon to Friday evening or Saturday morning)
  * Erik Bray, Laboratoire de Recherche en Informatique, Université Paris-Sud (Sunday evening to Saturday morning)
  * Florent Hivert, Laboratoire de Recherche en Informatique, Université Paris Sud
  * Julian Rüth (Sunday evening to Friday evening)
