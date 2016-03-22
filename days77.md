@@ -38,6 +38,8 @@ Please add your name to the participant list below, following the existing entri
  * Julien Cristau, Logilab.
  * David Douard, Logilab.
  * Florent Cayré, Logilab.
+ * [[http://www.math.u-bordeaux1.fr/~aenge/]|Andreas Enge]], DR, INRIA Bordeaux–Sud-Ouest,
+   Monday early afternoon to Friday evening or Saturday morning
  * Erik Bray, Laboratoire de Recherche en Informatique, Université Paris-Sud. Sunday evening to Saturday morning.
  * Florent Hivert, Laboratoire de Recherche en Informatique, Université Paris Sud
  * Julian Rüth, Sunday evening to Friday evening.
@@ -79,6 +81,10 @@ the list of ingredients for the dish(es) you plan to prepare. We will be roughtl
 - Salvatore: stuffed bread, I will need flour, yeast, salt for the dough; a little garlic, olive oil red
 pepper and any long leaf vegetable for the stuffing.
 - Wednesday evening: pizza from the local pizza truck.
+- Andreas:  [[http://www.food.com/recipe/allg-uer-cheese-spaetzle-allg-uer-k-sspatzen-418348|Spaetzle]]:
+  farine, oeufs, fromage dur qui a du goût et beaucoup d'oignons. Plus
+  de la salade pour manger autre chose que des calories...
+
 
 == Practicalities ==
 
