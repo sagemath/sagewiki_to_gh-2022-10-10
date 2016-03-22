@@ -30,21 +30,20 @@ from the Mathematics and the Computer Science Departments at Université Paris-S
 
 Please add your name to the participant list below, following the existing entries as template.
 
- * [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]], Laboratoire de Recherche en Informatique, Université Paris Sud, Sunday evening to Saturday morning
- * [[http://carva.org/samuel.lelievre/|Samuel Lelièvre]], Laboratoire de mathématique d'Orsay, Université Paris-Sud. Sunday evening to Saturday morning.
- * Jeroen Demeyer, University of Ghent (and Paris-Sud Orsay?). Sunday evening to Saturday morning.
- * [[http://defeo.lu/|Luca De Feo]], Laboratoire de Mathématiques de Versailles, Université de Versailles. Sunday evening to Saturday morning.
- * Jean-Pierre Flori, ANSSI. Random days during the week.
+ * [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]], Laboratoire de Recherche en Informatique, Université Paris Sud (Sunday evening to Saturday morning)
+ * [[http://carva.org/samuel.lelievre/|Samuel Lelièvre]], Laboratoire de mathématique d'Orsay, Université Paris-Sud (Sunday evening to Saturday morning)
+ * Jeroen Demeyer, University of Ghent / Université Paris-Sud (Sunday evening to Saturday morning)
+ * [[http://defeo.lu/|Luca De Feo]], Laboratoire de Mathématiques de Versailles, Université de Versailles (Sunday evening to Saturday morning)
+ * Jean-Pierre Flori, ANSSI (Random days during the week)
  * Julien Cristau, Logilab.
  * David Douard, Logilab.
  * Florent Cayré, Logilab.
- * [[http://www.math.u-bordeaux1.fr/~aenge/]|Andreas Enge]], DR, INRIA Bordeaux–Sud-Ouest,
-   Monday early afternoon to Friday evening or Saturday morning
- * Erik Bray, Laboratoire de Recherche en Informatique, Université Paris-Sud. Sunday evening to Saturday morning.
+ * [[http://www.math.u-bordeaux1.fr/~aenge/]|Andreas Enge]], DR, INRIA Bordeaux–Sud-Ouest (Monday early afternoon to Friday evening or Saturday morning)
+ * Erik Bray, Laboratoire de Recherche en Informatique, Université Paris-Sud (Sunday evening to Saturday morning)
  * Florent Hivert, Laboratoire de Recherche en Informatique, Université Paris Sud
- * Julian Rüth, Sunday evening to Friday evening.
- * ThierryMonteil, not sure about the exact dates.
- * [[http://www1.mat.uniroma1.it/people/stella/index.shtml|Salvatore Stella]], INdAM - Marie Curie, Dipartimento di matematica "G. Castelnuovo", University of Rome "La Sapienza", Wednesday 6 (late) evening or Thursday 7 morning to Saturday Friday evening
+ * Julian Rüth (Sunday evening to Friday evening)
+ * ThierryMonteil (not sure about the exact dates).
+ * [[http://www1.mat.uniroma1.it/people/stella/index.shtml|Salvatore Stella]], INdAM - Marie Curie, Dipartimento di matematica "G. Castelnuovo", University of Rome "La Sapienza" (Wednesday 6 (late) evening or Thursday 7 morning to Saturday Friday evening)
 
 = Programme and topics =
 
