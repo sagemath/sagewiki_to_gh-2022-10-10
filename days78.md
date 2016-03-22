@@ -41,7 +41,7 @@ If you have some Sage experience, please consider giving a tutorial''
 
 == Program ==
 
-The program will include '''introduction tutorials''' to Sage and combinatorics in Sage. There will also be time for '''code sprints'''.
+The program will include a main lecture from '''Mike Zabrocki''' (subject to be announced) as well as '''introduction tutorials''' to Sage and combinatorics in Sage. There will also be time for '''code sprints'''.
 
 ''Detailed schedule to be announced''. 
 
