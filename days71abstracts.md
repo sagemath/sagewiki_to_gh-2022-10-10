@@ -116,7 +116,7 @@ As a concrete variant of motivic integration, we will discuss uniform $p$-adic i
 
 == Tuesday ==
 
-'''Iwasawa theory II''', <<Anchor(iwasawa2)>> ''Chris Wuthrich'' (10:00-11:00)
+'''Iwasawa theory II''', <<Anchor(iwasawa2)>> ''Chris Wuthrich'' (10:00-11:00, [[attachment:Wuthrich.pdf|notes]])
 
 I intend to show what sage can do with $p$-adic $L$-functions
 of elliptic curves. Through the known results on the $p$-adic version of
