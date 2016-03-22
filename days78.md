@@ -20,7 +20,7 @@ Venue: Vancouver (more details to come)
 
 == Registration ==
 
-Please send the following form to [[mailto:viviane.pons@lri.fr|Viviane Pons]]
+Please send the following form to [[mailto:viviane.pons@lri.fr|Viviane Pons]]. If you wish to apply for financial aid, please do '''before April 30''' by filling out the extra application form.
 
 Name:
 
@@ -30,14 +30,22 @@ Date of Arrival:
 
 Date of departure:
 
-Need financial aid:*
+Do you wish to give a talk or present a tutorial?*
 
-Do you wish to give a talk or present a tutorial?**
-
-''* There might be some limited financial aid available going in priority to students to cover local expenses''
-
-''** A talk can be on anything related to mathematical development (it does not have to be Sage)
+''* A talk can be on anything related to mathematical development (it does not have to be Sage)
 If you have some Sage experience, please consider giving a tutorial''
+
+== Financial Aid ==
+
+A limited number of financial aids will be be distributed in priority to students and postdocs. Please apply before '''April 30''' by filling out this extra form and sending to [[mailto:viviane.pons@lri.fr|Viviane Pons]].
+
+Current status (Student, postdoc, etc.) :
+
+Estimation of budget for the whole event (travel, lodging):
+
+Do you also participate to the FPSAC conference?
+
+Do you have other source of funding for this event (FPSAC aid, local funding)?
 
 == Program ==
 
