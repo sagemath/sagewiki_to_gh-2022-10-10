@@ -30,6 +30,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/20262|#20262]]) new: Add point transformation matrix for projective space - Rebecca Lauren Miller
+
  * ([[http://trac.sagemath.org/ticket/20227|#20227]]) new: Chow form for projective subschemes - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/20168|#20168]]) needs-review: small improvements to projective morphism - Ben Hutz
