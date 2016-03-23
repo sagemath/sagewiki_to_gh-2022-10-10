@@ -15,7 +15,7 @@
 === Priority tickets ===
 
  * [[http://trac.sagemath.org/ticket/11895 | Hashing #11895]]
- * [[http://trac.sagemath.org/ticket/8181 | Residue Fields #8181]] and [[http://trac.sagemath.org/ticket/8240 | #8240]]
+ * --([[http://trac.sagemath.org/ticket/8181 | Residue Fields #8181]])-- and [[http://trac.sagemath.org/ticket/8240 | #8240]]
 
 === Misc ===
 
