@@ -35,6 +35,6 @@
 === Priority tickets ===
 
  * [[http://trac.sagemath.org/ticket/812 | OMS #812]]
- * [[http://trac.sagemath.org/ticket/14304 | Unramified templating #14304]]
+ * --([[http://trac.sagemath.org/ticket/14304 | Unramified templating #14304]])--
 
 === Misc ===
