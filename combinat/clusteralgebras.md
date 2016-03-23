@@ -16,6 +16,7 @@ This page contains our road map beyond the core implementation of cluster algebr
 
  * generalized associahedra from cluster complexes (Christian) - http://trac.sagemath.org/sage_trac/ticket/10817
 
+ * Jim Starx code for Quiver Representations and abilities to work with Auslander-Reiten translates, etc. ([[http://trac.sagemath.org/sage_trac/ticket/12630|#12630]])
 
 ==== Easier ====
 
@@ -49,8 +50,6 @@ This page contains our road map beyond the core implementation of cluster algebr
  * Work with cluster algebras as "algebras" and find bases or express elements in bases 
 
  * d-vectors (using inductive formulas from Cluster Algebras IV?)
-
- * Jim Starx code for Quiver Representations and abilities to work with Auslander-Reiten translates, etc. ([[http://trac.sagemath.org/sage_trac/ticket/12630|#12630]])
 
  * LP algebras (Thomas Lam and Pasha Pylyavskyy with Gregg?)
 
