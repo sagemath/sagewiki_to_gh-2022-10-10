@@ -29,7 +29,7 @@ introduce uniform $p$-adic integration.
 
 
 '''Iwasawa theory - a brief introduction''', <<Anchor(iwasawa1)>> ''Jeanine Van Order'' (2:00-2:30)
-
+[[attachment:Iwasawa_I.pdf|slides]]
 
 I will present an overview of Iwasawa theory starting with the work of Iwasawa on $\mathbb{Z}_p$-extensions of number fields, leading to the study of Iwasawa algebras and their structure theory. I will then present three settings where we know the so-called Iwasawa main conjecture in full: totally real number fields (by Wiles/Mazur-Wiles, cf. Rubin), elliptic curves with complex multiplication (by Coates-Wiles/Yager, cf. Rubin), and modular elliptic curves (by Kato/Rohrlich and Skinner-Urban). 
 
