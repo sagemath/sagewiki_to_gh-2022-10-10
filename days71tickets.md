@@ -30,7 +30,7 @@
 
 === Beginner-friendly ===
 
- * [[http://trac.sagemath.org/ticket/15211 | Documentation link #15211]] - Needs review
+ * --([[http://trac.sagemath.org/ticket/15211 | Documentation link #15211]])--
  * [[http://trac.sagemath.org/ticket/13630 | Documentation needs updated. #13630]]
 
 === Priority tickets ===
