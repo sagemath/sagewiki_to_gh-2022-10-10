@@ -89,6 +89,7 @@ European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are
  * Michal Bejger (N. Copernicus Astronomical Center, Warsaw, Poland)
  * Mark Bell (University of Illinois, Urbana-Champaign, USA)
  * Volker Braun (Berlin, Germany)
+ * Léo Brunswic (University of Avignon, France)
  * Marc Culler (University of Illinois, Chicago, USA)
  * Vincent Delecroix (University of Bordeaux, France)
  * Nathan Dunfield (University of Illinois, Urbana-Champaign, USA)
