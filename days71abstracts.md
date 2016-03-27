@@ -43,7 +43,7 @@ I will give an introduction to overconvergent modular symbols, their implementat
 
 ----
 
-'''p-adic precision: theory, examples and application to some p-adic differential equations''', <<Anchor(precision1)>> ''Tristan Vaccon'' (3:45-4:15)
+'''p-adic precision: theory, examples and application to some p-adic differential equations''', <<Anchor(precision1)>> ''Tristan Vaccon'' (3:45-4:15, [[attachment:Vaccon_SD71.pdf|slides]])
 
 As you already know, p-adic numbers can usually only be handled with finite precision, which yields the problems of determining the smallest precision needed or the loss of precision per operation.  With X. Caruso and D. Roe, we have provided a new method to handle precision over p-adics that relies on differentials and first-order approximation. It provides results that are (essentially) optimals and do not depend on the choice of algorithm.  We will present an illustration on how to use this method with the study of the computation of the determinant of a p-adic matrix.
 
