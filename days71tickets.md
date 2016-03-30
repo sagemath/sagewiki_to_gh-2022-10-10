@@ -9,7 +9,7 @@
  * --([[http://trac.sagemath.org/ticket/8628 | Default precision type #8628]] (default should probably be capped relative))--
  * [[http://trac.sagemath.org/ticket/20073 | Nonmonic extensions #20073]]
  * [[http://trac.sagemath.org/ticket/20244 | Fix root_field()]]
- * [[http://trac.sagemath.org/ticket/20247 | Fix documentation of p-adic L-functions #20247]]
+ * --([[http://trac.sagemath.org/ticket/20247 | Fix documentation of p-adic L-functions #20247]])--
  * [[http://trac.sagemath.org/ticket/20243 | Count real roots of polynomials using Sturm sequences #20243]]
  * [[http://trac.sagemath.org/ticket/20249 | Review ticket #20249 adding Skinner-Urban condition.]]
 
