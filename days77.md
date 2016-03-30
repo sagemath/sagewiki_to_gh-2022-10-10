@@ -77,9 +77,11 @@ account.
 The organizers will do some large shopping before coming, and then we will complement locally, as needed. Please send us
 the list of ingredients for the dish(es) you plan to prepare. We will be roughtly 10-15 and should plan for roughly 10 meals.
 
-- Salvatore: stuffed bread, I will need flour, yeast, salt for the dough; a little garlic, olive oil red
-pepper and any long leaf vegetable for the stuffing.
+- Salvatore: stuffed bread, I will need flour (a couple of Kg), yeast, salt for the dough; a little garlic, olive oil red
+pepper and any long leaf vegetable for the stuffing (the more the better). This is usually better with some sort of sausage inside but if we need to cater to vegetarians it can be omitted.
+
 - Wednesday evening: pizza from the local pizza truck.
+
 - Andreas:  [[http://www.food.com/recipe/allg-uer-cheese-spaetzle-allg-uer-k-sspatzen-418348|Spaetzle]]:
   farine, oeufs, fromage dur qui a du goût et beaucoup d'oignons. Plus
   de la salade pour manger autre chose que des calories...
