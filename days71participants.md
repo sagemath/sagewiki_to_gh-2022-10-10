@@ -10,7 +10,6 @@
  * Edgar Costa
  * Clifton Cunningham
  * Alyson Deines
- * Jeroen Demeyer
  * Netan Dogra
  * Victor Flynn
  * Immanuel Halupczok
