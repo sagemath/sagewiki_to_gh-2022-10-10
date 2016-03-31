@@ -46,6 +46,7 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
  * [[http://monteil.perso.math.cnrs.fr/|Thierry Monteil]] (might attend remotely)
  * --([[https://sites.google.com/site/yulanqing/|Yulan Qing]])--
  * [[http://www.math.toronto.edu/~rafi/|Kasra Rafi]]
+ * Anja Randecker
  * [[http://www.matmor.unam.mx/~ferran/|Ferrán Valdez]]
  * [[http://www.math.uiuc.edu/~work2/|Grace Work]]
 
