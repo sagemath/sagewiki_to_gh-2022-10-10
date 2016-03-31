@@ -67,6 +67,8 @@ François Bissey from sage-on-gentoo: I would be happy to join some brainstormin
 === Documentation ===
 
   * [[https://github.com/OpenDreamKit/OpenDreamKit/issues/87|Sphinx]]
+  * [[https://groups.google.com/d/topic/sphinx-users/TXOIeCvJh9k/discussion|Sphinx 1.4 release announcement on sphinx-users]]
+  * [[http://trac.sagemath.org/ticket/18497|Sage trac ticket #18497 Update Sphinx to 1.3.5]] (and now to 1.4)
   * Memory requirements to build Sage documentation
     * http://gentoo.2317880.n4.nabble.com/sage-on-gentoo-Cannot-install-sage-doc-insufficient-memory-td285831.html
     * https://groups.google.com/d/msg/sage-release/81bxW-7_qX0/BGDs8bGEFQAJ
