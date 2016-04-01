@@ -88,7 +88,7 @@ pepper and any long leaf vegetable for the stuffing (the more the better). This 
   farine, oeufs, fromage dur qui a du goût et beaucoup d'oignons. Plus
   de la salade pour manger autre chose que des calories...
 
-- Erik: Sake no foil yaki; salmon or chicken (enough for everyone; chicken probably cheaper), shiitake and shimeji mushrooms, bell peppers (any colors), carrots, scallions, snow peas, onions, soy sauce, mirin, and sake.  (I will try to bring the mushrooms, soy sauce, mirin, and sake).
+- Erik: Sake no foil yaki; salmon or chicken (enough for everyone; chicken probably cheaper but salmon tastier IMO), shiitake and shimeji mushrooms, bell peppers (any colors), carrots, scallions, snow peas, onions, soy sauce, mirin, and sake.  (I will try to bring the mushrooms, soy sauce, mirin, and sake).
 
 == Practicalities ==
 
