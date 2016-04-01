@@ -80,7 +80,7 @@ The organizers will do some large shopping before coming, and then we will compl
 the list of ingredients for the dish(es) you plan to prepare. We will be roughtly 10-15 and should plan for roughly 10 meals.
 
 - Salvatore: stuffed bread, I will need flour (a couple of Kg), yeast, salt for the dough; a little garlic, olive oil red
-pepper and any long leaf vegetable for the stuffing (the more the better). This is usually better with some sort of sausage inside but if we need to cater to vegetarians it can be omitted.
+pepper and any long leaf vegetable for the stuffing (the more the better). This is usually better with some sort of sausage inside but if we need to cater to vegetarians it can be omitted. NdLuca: I see Salvatore's origins are close to mine. Some notes for the shoppers: you want "levure boulangère" for yeast, not Alsa or similar, most boulangers sell it, I can grab some at mine if needed. Concerning the "long leaf", those that can be found in France are scarole, chardon (chicorée), cerfeuil, bourrache (hard to find).
 
 - Wednesday evening: pizza from the local pizza truck.
 
@@ -89,6 +89,11 @@ pepper and any long leaf vegetable for the stuffing (the more the better). This 
   de la salade pour manger autre chose que des calories...
 
 - Erik: Sake no foil yaki; salmon or chicken (enough for everyone; chicken probably cheaper but salmon tastier IMO), shiitake and shimeji mushrooms, bell peppers (any colors), carrots, scallions, snow peas, onions, soy sauce, mirin, and sake.  (I will try to bring the mushrooms, soy sauce, mirin, and sake).
+
+- Luca: Tortano (Neapolitan Easter bread, not for the faint of heart). 1kg flour, 200g lard (saindoux), levure boulangère, 200g pork graisserons/rillons (can be replaced with dried sausage or similar), 100g provolone cheese or similar (tomme will do), parmigiano, pepper. Or I can just make pasta/lasagna, whatever :)
+
+- Luca: Pastiera (Neapolitan Easter cake), if someone can bring it in a car.
+
 
 == Practicalities ==
 
