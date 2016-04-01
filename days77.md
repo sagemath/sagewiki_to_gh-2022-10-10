@@ -24,7 +24,7 @@ See the links for activity reports and some photos.
 This workshop is also "Sage Days 77", part of a long tradition of [[Workshops|Sage Days]].
 
 The workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]], with material help
-from the Mathematics and the Computer Science Departments at Université Paris-Sud, Orsay.
+from the Laboratoire de Recherche en Informatique, the Mathematics and the Computer Science Departments at Université Paris-Sud, Orsay.
 
 = Participants =
 
