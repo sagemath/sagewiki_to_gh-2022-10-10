@@ -33,6 +33,8 @@ Feel free to add your own ideas here.
 
 * Review any open coding theory ticket, see [[http://trac.sagemath.org/ticket/18846|#18846]].
 
+* Fix smaller issues with `linear_code.py` as noted on the [[https://bitbucket.org/lucasdavid/sage_coding_project/issues/155/problems-with-linear_codepy|ACTIS Bitbucket wiki]].
+
 * Port implementation of asymptotically fast (GF(q)[x])[y] root-finding from [[https://bitbucket.org/jsrn/codinglib|Codinglib]].
 
 * Link to advanced fast polynomial arithmetic library functions such as multi-point evaluation and Lagrange interpolation.
