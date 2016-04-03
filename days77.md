@@ -41,7 +41,7 @@ Please add your name to the participant list below, following the existing entri
  * [[http://www.math.u-bordeaux1.fr/~aenge/|Andreas Enge]], DR, INRIA Bordeaux–Sud-Ouest (Monday early afternoon to Friday evening or Saturday morning)
  * Erik Bray, Laboratoire de Recherche en Informatique, Université Paris-Sud (Sunday evening to Saturday morning)
  * Florent Hivert, Laboratoire de Recherche en Informatique, Université Paris Sud
- * Julian Rüth (Sunday evening to Friday evening)
+ * Julian Rüth (Sunday evening, 19:50 at the airport, should be at the Saint-Rémy station at about 21:00; to Friday evening)
  * ThierryMonteil (not sure about the exact dates).
  * [[http://www1.mat.uniroma1.it/people/stella/index.shtml|Salvatore Stella]], INdAM - Marie Curie, Dipartimento di matematica "G. Castelnuovo", University of Rome "La Sapienza" (Wednesday 6 (late) evening or Thursday 7 morning to Saturday Friday evening)
  * Robert Lehmann, Sunday 9pm, to Tuesday 4pm
