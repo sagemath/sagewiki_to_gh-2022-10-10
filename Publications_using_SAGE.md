@@ -5,7 +5,7 @@ If you use Sage in a book, paper, website, etc., please [[http://www.sagemath.or
 Please reference Sage as follows:
 
 {{{
-Sage Mathematics Software (Version x.y.z),
+SageMath, the Sage Mathematics Software System (Version x.y.z),
    The Sage Developers, YYYY, http://www.sagemath.org.
 }}}
 
@@ -15,9 +15,9 @@ where you should change `x.y.z` to the exact version number you used for your pu
 
 {{{
 @manual{sage,
-  Key          = {Sage},
+  Key          = {SageMath},
   Author       = {The Sage Developers},
-  Title        = {{S}age {M}athematics {S}oftware ({V}ersion x.y.z)},
+  Title        = {{S}ageMath, the {S}age {M}athematics {S}oftware {S}ystem ({V}ersion x.y.z)},
   note         = {{\tt http://www.sagemath.org}},
   Year         = {YYYY},
 }
