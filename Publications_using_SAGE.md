@@ -36,7 +36,7 @@ Include them as doi = {dx.doi.org/...}
 {{{
 \newcommand{\etalchar}[1]{$^{#1}$}
 \bibitem[S{\etalchar{+}}09]{sage}
-\emph{{S}age {M}athematics {S}oftware ({V}ersion
+\emph{{S}ageMath, the {S}age {M}athematics {S}oftware {S}ystem ({V}ersion
   x.y.z)}, The Sage Developers, YYYY, {\tt http://www.sagemath.org}.
 }}}
 
