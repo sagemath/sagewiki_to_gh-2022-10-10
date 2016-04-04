@@ -59,7 +59,8 @@ Please add your name to the participant list below, following the existing entri
 For remote discussions, we will tentatively be using:
 
  * Video: https://hubl.in/sage-days77
- * Chat: https://gitter.im/sagemath/sage-days77
+ * Pad: https://www.lri.fr/etherpad/p/sage-days77
+ * Chat (if that integrated in the pad/video is not good enough): https://gitter.im/sagemath/sage-days77
 
 = Programme and topics =
 
