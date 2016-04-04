@@ -47,12 +47,14 @@ Please add your name to the participant list below, following the existing entri
  * Robert Lehmann, Sunday 9pm, to Tuesday 4pm
  * Antoine Teutsch, (Wednesday evening to Saturday morning)
 
-= Remote Participants =
+== Remote Participants ==
 
  * Travis Scrimshaw: I fly on Wednesday afternoon (Minneapolis time) and arrive Thursday afternoon (Germany time), but I am basically free all day Tuesday (and I wake up early). I will happy to join on Thursday or Friday as well.
 
  * François Bissey: Monday morning, ...
  * ...
+
+== Remote infrastructure ==
 
 For remote discussions, we will tentatively be using:
 
