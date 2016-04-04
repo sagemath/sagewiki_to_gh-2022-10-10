@@ -51,11 +51,15 @@ Please add your name to the participant list below, following the existing entri
 
  * Travis Scrimshaw: I fly on Wednesday afternoon (Minneapolis time) and arrive Thursday afternoon (Germany time), but I am basically free all day Tuesday (and I wake up early). I will happy to join on Thursday or Friday as well.
 
+ * François Bissey: Monday morning, ...
+ * ...
 
+For remote discussions, we will tentatively be using:
+
+- Video: https://hubl.in/sage-days77
+- Chat: https://gitter.im/sagemath/sage-days77
 
 = Programme and topics =
-
-Tentative title: '''''Sage developer days on packaging, portability, documentation tools'''''.
 
 Please add a few words at [[days77/projects]] about your wishes or projects for the workshop.
 
