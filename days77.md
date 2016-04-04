@@ -56,8 +56,8 @@ Please add your name to the participant list below, following the existing entri
 
 For remote discussions, we will tentatively be using:
 
-- Video: https://hubl.in/sage-days77
-- Chat: https://gitter.im/sagemath/sage-days77
+ * Video: https://hubl.in/sage-days77
+ * Chat: https://gitter.im/sagemath/sage-days77
 
 = Programme and topics =
 
