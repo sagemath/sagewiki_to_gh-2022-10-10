@@ -65,6 +65,8 @@ For remote discussions, we will tentatively be using:
 
 Please add a few words at [[days77/projects]] about your wishes or projects for the workshop.
 
+ * [[https://www.lri.fr/etherpad/p/sage-days77|Live pad for discussing the projects, time table]], ...
+
 = Practical information =
 
 == Venue ==
