@@ -3,7 +3,7 @@
 Equality using Coercion considered harmful?
 ===========================================
 
-Currently, Sage specifies that, upon comparing with ``a==b`` two objects `a` and `b` that do not have the same parent, a coercion is attempted to put them in the same parent. To prepare a discussion on whether that specification is viable in the long run, we are gathering here (borderline?) use cases where this behaviour is harmful.
+Currently, Sage specifies that, upon comparing with ``a==b`` two objects `a` and `b` that do not have the same parent, a coercion is attempted to put them in the same parent. To prepare a discussion on whether that specification is viable in the long run, we are gathering here (borderline?) use cases where this behaviour is harmful. (Note that there is also the related problem of broken notions of equality for elements with the same parent which is discussed at EqualityUnhashable_.)
 
 ::
 
