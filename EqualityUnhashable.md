@@ -33,8 +33,8 @@ The reason for this is that p-adics break Python's contract on hash functions, n
 
 With the current notion of equality, the only possible hash function would be a constant (which is not very useful) or a hash function that raises a TypeError (also not very useful.)
 
-Fuzzy objects
--------------
+Representations of objects
+--------------------------
 
 Objects with different representations. An example here are fraction field elements or ideals. There is a well defined notion of equality. However, there is in general no normal form, so there is no non-trivial hash function for these objects.
 
