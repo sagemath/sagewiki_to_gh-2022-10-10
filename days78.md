@@ -1,4 +1,4 @@
-= Sage Days 78 - June 29 -- July 1st, 2016, Vancouver =
+= Sage Days 78 --- June 29 to July 1st, 2016, Vancouver =
 
 '''''Sage Days on Combinatorics'''''
 
@@ -6,7 +6,11 @@
 
 <<TableOfContents()>>
 
-These Sage Days are organized as a satellite event of the [[https://sites.google.com/site/fpsac2016|FPSAC]] combinatorics conference. The main mathematical topic will be '''combinatorics'''. Every one is welcome from Sage newcomers to advanced developers: there will be plenty of introductory talks and also time for code sprints. '''It is the perfect occasion to learn Sage!'''
+These Sage Days are organized as a satellite event of the
+[[https://sites.google.com/site/fpsac2016|FPSAC]] combinatorics conference.
+The main mathematical topic will be '''combinatorics'''. Everyone is welcome
+from Sage newcomers to advanced developers: there will be plenty of introductory
+talks and also time for code sprints. '''It is the perfect occasion to learn Sage!'''
 
 This is co-organized by [[https://www.pims.math.ca/|Pims]] and [[http://opendreamkit.org/|OpenDreamKit]].
 
@@ -39,7 +43,9 @@ If you have some Sage experience, please consider giving a tutorial.''
 
 == Financial Aid ==
 
-A limited number of financial aids will be be distributed in priority to students and postdocs to cover mostly local costs. Please apply before '''April 30''' by filling out this extra form and sending it to [[mailto:viviane.pons@lri.fr|Viviane Pons]].
+A limited number of financial aids will be be distributed in priority to students and postdocs
+to cover mostly local costs. Please apply before '''April 30''' by filling out this extra form
+and sending it to [[mailto:viviane.pons@lri.fr|Viviane Pons]].
 
 Current status (student, postdoc, etc.) :
 
@@ -70,7 +76,7 @@ There will also be time for '''code sprints'''.
  * Mike Zabrocki (York university)
 
 
-== Lodging and other practical informations ==
+== Lodging and other practical information ==
 
 Low cost accommodation is available near UBC at: [[http://www.ubcconferences.com/accommodations/]].
 
