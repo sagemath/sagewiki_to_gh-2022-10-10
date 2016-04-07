@@ -6,6 +6,12 @@
 
 <<TableOfContents()>>
 
+= Fast links =
+
+[[http://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days77&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Sage tickets worked on at Sage Days 77]]
+
+= Announcement =
+
 Sage Days 77 will be held in Cernay-la-Ville (40km South-West of Paris, near Orsay), April 4-8, 2016.
 
 We are booking the guest house
