@@ -37,7 +37,7 @@ If you have some Sage experience, please consider giving a tutorial''
 
 == Financial Aid ==
 
-A limited number of financial aids will be be distributed in priority to students and postdocs. Please apply before '''April 30''' by filling out this extra form and sending to [[mailto:viviane.pons@lri.fr|Viviane Pons]].
+A limited number of financial aids will be be distributed in priority to students and postdocs to cover mostly local costs. Please apply before '''April 30''' by filling out this extra form and sending to [[mailto:viviane.pons@lri.fr|Viviane Pons]].
 
 Current status (Student, postdoc, etc.) :
 
