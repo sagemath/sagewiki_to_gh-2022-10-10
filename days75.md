@@ -69,3 +69,4 @@ Please add you name to the list if you want to attend this Sage Days.
  * Luca De Feo (U. Versailles)
  * Miguel Marco (U. de Zaragoza)
  * Irene Márquez (Inria)
+ * Vincent Neiger (ENS Lyon) (to be confirmed)
