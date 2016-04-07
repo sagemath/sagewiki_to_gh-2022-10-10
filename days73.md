@@ -17,6 +17,28 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
 ||<#FFFFAA> 13:00 - 14:30 || lunch break                   || lunch break                   || lunch break                 || lunch break                   ||
 ||<#FFFFAA> afternoon     || ?                             || ?                             || ?                           || ?                             ||
 
+== Talks ==
+
+ * (tutorial) number types in Sage: integers, rationals, number fields, symbolic, floating point, intervals, balls
+
+ * (tutorial) SL2Z and triangle group code in Sage
+
+ * (tutorial) [[http://www.labri.fr/perso/vdelecro/flatsurf.html|flatsurf package]]
+
+== Projects ==
+
+ * infinite index subgroups of SL2Z
+
+ * arbitrary subgroups of SL2R, SL2C
+
+ * construct SL2Z subgroups (SL2R?, SL2C?) from a set of generators
+
+ * Lyapunov exponents, volume, Siegel Veech constants
+
+ * Delaunay triangulations
+
+ * ... ''add your own project'' ...
+
 == Existing programs about translation surfaces ==
 
  * Alex Eskin code (saddle connection exploration + decomposition in cylinders)
