@@ -39,6 +39,8 @@ Feel free to add your own ideas here.
 
 * Port implementation of asymptotically fast (GF(q)[x])[y] root-finding from [[https://bitbucket.org/jsrn/codinglib|Codinglib]].
 
+* Improve integration of the (GF(q)[x])[y] root-finding so that it is tab-expansion-available for any such polynomial.
+
 * Fix and review [[http://trac.sagemath.org/ticket/16742|#16742]] regarding faster F[x] matrix reduction.
 
 * Link to advanced fast polynomial arithmetic library functions such as multi-point evaluation and Lagrange interpolation.
