@@ -1,14 +1,19 @@
-= Sage Days 77 - April 4-8, 2016, Cernay =
+= Sage Days 77 --- April 4--8, 2016, Cernay =
 
 '''''Sage developer days on packaging, portability, documentation tools'''''
 
 '''''Cernay-la-Ville, Yvelines (near Paris and Orsay, France)'''''
 
+Fast links:
+
+ * wiki: [[days77|days77]], [[days77/projects|projects]]
+ * pads: [[https://www.lri.fr/etherpad/p/sage-days77|general]] /
+ [[https://www.lri.fr/etherpad/p/sage-days77-documentation|documentation]] /
+ [[https://www.lri.fr/etherpad/p/sage-days77-packaging|packaging]] /
+ [[https://www.lri.fr/etherpad/p/sage-days77-structured-documents|structured-documents]]
+ * trac: [[http://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days77&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Sage tickets worked on at Sage Days 77]]
+
 <<TableOfContents()>>
-
-= Fast links =
-
-[[http://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days77&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Sage tickets worked on at Sage Days 77]]
 
 = Announcement =
 
