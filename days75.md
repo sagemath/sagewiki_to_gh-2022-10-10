@@ -35,13 +35,19 @@ Feel free to add your own ideas here.
 
 * Fix smaller issues with `linear_code.py` as noted on the [[https://bitbucket.org/lucasdavid/sage_coding_project/issues/155/problems-with-linear_codepy|ACTIS Bitbucket wiki]].
 
+* Improve integration of finite field non-prime basis representation introduced in [[http://trac.sagemath.org/ticket/20284|#20284]].
+
 * Port implementation of asymptotically fast (GF(q)[x])[y] root-finding from [[https://bitbucket.org/jsrn/codinglib|Codinglib]].
+
+* Fix and review [[http://trac.sagemath.org/ticket/16742|#16742]] regarding faster F[x] matrix reduction.
 
 * Link to advanced fast polynomial arithmetic library functions such as multi-point evaluation and Lagrange interpolation.
 
 * Link to fast GF(2)[x] library (currently used is NTL generic GF(p)[x]).
 
 * Link to new features of new LinBox release.
+
+* Cython implementation of the Brouwer-Zimmermann algorithm for computing the minimum distance of a linear code.
 
 
 = Funding =
