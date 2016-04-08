@@ -45,7 +45,7 @@ Please add your name to the participant list below, following the existing entri
  * [[http://carva.org/samuel.lelievre/|Samuel Lelièvre]], Laboratoire de mathématique d'Orsay, Université Paris-Sud (Sunday evening to Saturday morning)
  * Jeroen Demeyer, University of Ghent / Université Paris-Sud (arrive Sunday evening around 22:45 at Saint-Rémy-lès-Chevreuse; depart Saturday morning)
  * [[http://defeo.lu/|Luca De Feo]], Laboratoire de Mathématiques de Versailles, Université de Versailles (Sunday evening to Saturday morning)
- * Jean-Pierre Flori, ANSSI (Tuesday all day long, potentially arriving on Monday afternoon with a sleeping bag, and potentially Friday all day long) 
+ * Jean-Pierre Flori, ANSSI (Friday all day long) 
  * Julien Cristau, Logilab.
  * David Douard, Logilab.
  * Florent Cayré, Logilab.
