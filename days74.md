@@ -95,6 +95,7 @@ European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are
  * Nathan Dunfield (University of Illinois, Urbana-Champaign, USA)
  * Anastasia Golubtsova (Bogoliubov Laboratory of Theoretical Physics, Dubna, Russia)
  * Eric Gourgoulhon (Observatoire de Paris, France)
+ * Claudia Grabs (University of Potsdam, Germany)
  * Patrick Hooper (City College of New York, USA)
  * Marcin Kostur (University of Silesia, Katowice, Poland)
  * Ronja Kuhne (University of Warwick, UK)
