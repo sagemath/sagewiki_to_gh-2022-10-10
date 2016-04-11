@@ -126,7 +126,7 @@ Note: [[http://trac.sagemath.org/sage_trac/|See the trac server]] for patches aw
  * [[Fight spam on asksage]]
  * [[Classify old-style packages]]
  * [[SageAppliance|Using Sage within virtualbox]]
- * [[Packaging]]
+ * [[Distribution]]
 
 
 (Note -- wikis are ''not'' written in HTML.  Use the GUI Mode (in Firefox) or read the wiki help links at the top.)
