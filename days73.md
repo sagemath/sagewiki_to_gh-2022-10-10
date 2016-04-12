@@ -31,15 +31,9 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
 
 == Projects ==
 
- * infinite index subgroups of SL2Z
+ * Computing Teichmueller maps between translation surfaces (Maxime)
 
- * arbitrary subgroups of SL2R, SL2C
-
- * construct SL2Z subgroups (SL2R?, SL2C?) from a set of generators
-
- * Lyapunov exponents, volume, Siegel Veech constants
-
- * Delaunay triangulations
+ * merge the two flatsurf projects [[https://github.com/videlec/sage-flatsurf]] and [[http://www.labri.fr/perso/vdelecro/flatsurf.html]] (Pat, Vincent)
 
  * ... ''add your own project'' ...
 
