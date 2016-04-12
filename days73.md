@@ -19,11 +19,15 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
 
 == Talks ==
 
- * (tutorial) number types in Sage: integers, rationals, number fields, symbolic, floating point, intervals, balls
+ * (tutorial / presentation) Pat Hooper: [[https://github.com/videlec/sage-flatsurf|Flatsurf]]
 
- * (tutorial) SL2Z and triangle group code in Sage
+ * (tutorial / presentation) Vincent Delecroix: [[http://www.labri.fr/perso/vdelecro/flatsurf.html|the flatsurf package]] (warning: distinct from the above!)
 
- * (tutorial) [[http://www.labri.fr/perso/vdelecro/flatsurf.html|flatsurf package]]
+ * ? (tutorial) number types in Sage: integers, rationals, number fields, symbolic, floating point, intervals, balls
+
+ * ? (tutorial) SL2Z and triangle group code in Sage
+
+ * ? (tutorial) graphs and digraphs in Sage ([[http://doc.sagemath.org/html/en/reference/graphs/index.html|Sage graph stuff]] and possibly [[http://www.tcs.hut.fi/Software/bliss/|bliss software]], [[http://pallini.di.uniroma1.it/|nauty and Traces]], [[http://igraph.org/redirect.html|igraph]], ...)
 
 == Projects ==
 
