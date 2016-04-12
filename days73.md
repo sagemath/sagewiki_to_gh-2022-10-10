@@ -57,6 +57,8 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
 
  * Chris Swierczewski [[https://github.com/abelfunctions/abelfunctions|Riemann surfaces package]]
 
+ * [[http://www.math.udel.edu/~driscoll/SC/|Schwarz-Christoffel Toolbox in Matlab]]
+
 == Organizers ==
 
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
