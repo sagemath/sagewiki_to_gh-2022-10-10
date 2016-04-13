@@ -23,6 +23,8 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
 
  * (tutorial / presentation) Vincent Delecroix: [[http://www.labri.fr/perso/vdelecro/flatsurf.html|the flatsurf package]] (warning: distinct from the above!)
 
+ * (tutorial) numerical computations with numpy and scipy within Sage ([[https://www.scipy.org/])
+
  * ? (tutorial) number types in Sage: integers, rationals, number fields, symbolic, floating point, intervals, balls
 
  * ? (tutorial) SL2Z and triangle group code in Sage
