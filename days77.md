@@ -13,6 +13,7 @@ Fast links:
  [[https://www.lri.fr/etherpad/p/sage-days77-structured-documents|structured-documents]] /
  [[https://www.lri.fr/etherpad/p/sage-days77-windows|windows]]
  * trac: [[http://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days77&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Sage tickets worked on at Sage Days 77]]
+ * reports: [[days77/packaging|packaging]]
 
 <<TableOfContents()>>
 
@@ -79,6 +80,7 @@ For remote discussions, we will tentatively be using:
 Please add a few words at [[days77/projects]] about your wishes or projects for the workshop.
 
  * [[https://www.lri.fr/etherpad/p/sage-days77|Live pad for discussing the projects, time table]], ...
+ * [[days77/packaging|Report on packaging]].
 
 = Practical information =
 
