@@ -35,6 +35,8 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
 
  * merge the two flatsurf projects [[https://github.com/videlec/sage-flatsurf]] and [[http://www.labri.fr/perso/vdelecro/flatsurf.html]] (Pat, Vincent)
 
+ * visualize the translation structure induced by a differential (Anja)
+
  * ... ''add your own project'' ...
 
 == Existing programs about translation surfaces ==
