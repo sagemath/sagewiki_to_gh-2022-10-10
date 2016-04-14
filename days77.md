@@ -59,6 +59,7 @@ Please add your name to the participant list below, following the existing entri
  * [[http://www1.mat.uniroma1.it/people/stella/index.shtml|Salvatore Stella]], INdAM - Marie Curie, Dipartimento di matematica "G. Castelnuovo", University of Rome "La Sapienza" (Wednesday 6 (late) evening or Thursday 7 morning to Saturday Friday evening)
  * Robert Lehmann, Sunday 9pm, to Tuesday 4pm
  * Antoine Teutsch, (Wednesday evening to Saturday morning)
+ * Sébastien Labbé, (Thursday to Friday)
 
 == Remote participants ==
 
