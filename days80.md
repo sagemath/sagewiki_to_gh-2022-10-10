@@ -16,4 +16,4 @@ The aim of this 5-days coding sprint is to finalize the Sage work on '''finite r
 
 == Funding ==
 
-The workshop is funded by the German Research Foundation project '''Combinatorial and geometric structures for reflection groups and groupoids''' within the priority program '''SPP 1489:  Algorithmic and Experimental Methods in Algebra, Geometry and Number Theory'''.
+The workshop is funded by the German Research Foundation project [[http://gepris.dfg.de/gepris/projekt/239354514|Combinatorial and geometric structures for reflection groups and groupoids]] within the priority program [[http://www.computeralgebra.de/|SPP 1489:  Algorithmic and Experimental Methods in Algebra, Geometry and Number Theory]].
