@@ -30,7 +30,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/20262|#20262]]) positive-review: Add point transformation matrix for projective space - Rebecca Lauren Miller
+ * ([[http://trac.sagemath.org/ticket/20451|#20451]]) needs-review: canonical height error - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/20227|#20227]]) needs-review: Chow form for projective subschemes - Ben Hutz
 
@@ -72,6 +72,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/20262|#20262]])-- closed sage 7.2: Add point transformation matrix for projective space - Rebecca Lauren Miller
 
  * --([[http://trac.sagemath.org/ticket/20168|#20168]])-- closed sage 7.2: small improvements to projective morphism - Ben Hutz
 
