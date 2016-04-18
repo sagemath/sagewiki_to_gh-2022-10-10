@@ -79,4 +79,4 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
 
 == Support ==
 
-This workshop is supported by the ERC H2020 project [[http://opendreamkit.org/|OpenDreamKit]].
+This workshop is supported by the ERC H2020 project [[http://opendreamkit.org/|OpenDreamKit]] and [[http://www.pmc.gob.mx/|Punto Mexico Conectado @ Oaxaca]].
