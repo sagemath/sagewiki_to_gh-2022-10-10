@@ -62,7 +62,7 @@ If you plan instead to come by your own, please follow these [[https://www.obspm
 
 === Funding ===
 
-European participants from an [[http://opendreamkit.org/|OpenDreamKit]] node are expected to cover their expenses from their !OpenDreamKit funds.
+European participants receiving some [[http://opendreamkit.org/|OpenDreamKit]] funding for conferences/workshops are expected to use it to cover their expenses.
 
 === Support ===
 
