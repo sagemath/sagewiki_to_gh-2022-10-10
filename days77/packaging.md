@@ -8,11 +8,10 @@ There is a cyclic interest in these issues. Past Sage Days that have also dealt 
 
 When talking about ''modularization'', ''packaging'', ''distribution'', etc., Sage devs may mean several different things at the same time:
 
- * Distributing SageMath as a set of packages for a popular distribution (e.g., Debian, Ubuntu, Arch, Anaconda, ...);
- * Improving the current module system built in SageMath (at the time of writing, SPKGs), and its interfaces with the build system and the development workflow;
- * Splitting the SageMath library into more granular modules, possibly making some modules optional;
- * Taking components out of SageMath and making them available to general purpose python code (e.g., via PyPI);
- * Allowing users to share their SageMath code without putting it inside SageMath core.
+ * Distributing !SageMath as a set of packages for a popular distribution (e.g., Debian, Sage-on-Gentoo, Arch, Anaconda, ...);
+ * Improving the current packaging system built in !SageMath (the system using `build/make/Makefile` and `spkg-install` scripts), and its interfaces with the development workflow;
+ * Splitting the !SageMath library into more granular modules (which may or may not depend on some hypothetical !SageMath-core package), possibly making some modules optional and/or making them available to general purpose Python code (e.g., via PyPI);
+ * Allowing users to share their !SageMath code without putting it inside SageMath core.
  
 Although these are separate problems, the interactions are non-trivial.
 
