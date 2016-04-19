@@ -103,6 +103,10 @@ Anaconda is mostly oriented towards binary packages, though Erik noted that noth
 === Common obstacles to packaging SageMath for distributions ===
 
  * Obviously, the main problem is Sage patching a lot of its dependencies.
+   * A side problem is to better isolate and document those dependencies that are ''direct'' dependencies of sage-the-library
+     and not sub-dependencies.  This does not reduce the overall complexity but would provided a slightly more tractable
+     starting point for reasoning about what sage's dependencies are.  This includes better distinction between build-time and
+     run-time dependencies as well.
  * Most packagers start by ''neutering'' the package system (spkg) of !SageMath. François suggets putting all the bits that are about packaging in a separate directory or project, with an option not to install them.
  * Only build-time dependencies in metadata, no run-time dependencies.
  * Some packagers would like the SageMath library to be a package like any other. This is virtually what is done for Gentoo.
