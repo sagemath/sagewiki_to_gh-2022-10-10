@@ -66,6 +66,8 @@ At Days 77, Julien and others worked on:
  * Importing patches to SageMath from Gentoo,
  * Replacing build time patches to cython with runtime ones, and building cython modules (sage master) on debian.
 
+More info available on [[https://www.logilab.org/blogentry/5540528|Logilab's blog]].
+
 === Arch ===
 
 [[https://www.archlinux.org/people/trusted-users/#arojas|Antonio Rojas]] maintains a very up-to-date SageMath package for Arch/community (v7.1 at the time of writing). [[https://www.archlinux.de/?page=PackageStatistics|Arch stastics]] show that >3% of users (who report package statistics) have the package installed.
@@ -140,7 +142,7 @@ Desirable features:
  * Provide a hub where people can contribute packages (like PyPI, npm, ...)
  * In particular, make it easy for the average mathematician to write a simple package and make it accessible to his colleagues
 
-The following systems where considered at Days 77: [[#Pip.2FPyPI]], [[#Anaconda-1]], [[#Guix.2FNix-1]], [[#Gentoo_prefix]], [[#hashdist]].
+The following systems where considered at Days 77: [[#Pip.2FPyPI]], [[#Anaconda-1]], [[#Guix.2FNix-1]], [[#Gentoo_prefix]], [[#HashDist]].
 
 === Pip/PyPI ===
 
@@ -175,14 +177,51 @@ Anaconda being mostly oriented towards binary packages, it does very little to h
 
 although this seems to have stalled for the moment.
 
-To some extent, with respect to its host system, Anaconda is a monolith as much as SageMath, albeit with larger adoption, better integration, and a better packaging system. Among other things, transitioning from spkgs to Anaconda would shift the "monolith blame" from SageMath to Anaconda, which would not be bad.
+To some extent, with respect to its host system, Anaconda is a monolith as much as SageMath, albeit with larger adoption, better integration, and a better packaging system. Among other things, transitioning from spkgs to Anaconda would shift the "monolith blame" from SageMath to Anaconda.
+
+=== Gentoo prefix ===
+
+[[Gentoo prefix|https://wiki.gentoo.org/wiki/Project:Prefix]] brings Gentoo portage package manager to other Linux distributions. Packages are installed in a ''prefix'', rather than in the system paths, allowing users to have different versions of the same library at the same time. Following Gentoo's philosophy, it targets source packages, although it is possible in principle to make it handle binaries.
+
+On the plus side, SageMath being already packaged for gentoo, it is relatively easy to package it for prefix. Indeed, this was already done by Timo Kluck at Days 47. Prefix supports Linux and OS X (although the usual breakages happen on OS X updates).
+
+On the minus side, prefix has no support for Windows. Being very powerful, it may look daunting at first. There are some concerns on stability, maturity and sustainability, and it is almost a one man show (Fabian Groffen).
 
 
 === Guix/Nix ===
 
-=== Gentoo prefix ===
+[[http://www.gnu.org/software/guix/|Guix]] and [[https://nixos.org/nix/|Nix]] are two very similar distribution agnostic ''functional'' package managers. Both projects focus on reproducible builds, in particular building/installing a package twice should give the same result byte-for-byte. Like Gentoo prefix, the learning curve can be steep.
 
-=== hashdist ===
+Both Guix and Nix can be used as system-level package mangers, or as user-space package managers. In user-space, they install everything starting from the build chain, only taking the kernel from the system.
+
+Like Gentoo prefix, they do isolated builds, allowing the user to have many version of the same library. They also support binaries, but need to be root, or use a user-space chroot such as [[https://github.com/proot-me/PRoot/blob/master/doc/proot/manual.txt]] or [[https://github.com/lethalman/nix-user-chroot]].
+
+Differences between Guix and Nix:
+
+ * Guix is GNU, so it will never support OS X or Windows. Nix is less strict, and is reported to work on Mac OS. There is some limited [[https://nixos.org/wiki/Nix_on_Windows|Windows support]] for Nix too (see also [[https://ternaris.com/lab/nix-on-windows.html|this report]].
+ * Guix uses a general purpose language (Guile, a Scheme) to describe packages. Nix uses a homebrew DSL.
+
+Some more notes on Nix:
+
+ * Sage 6.8 is packaged for NiX (but they are cheating, so the dependencies are not)
+
+ * Packages can have parameters, so it is conceivable to have a parameter like "use-host" for packages such as python, blas, ... (To do this cleanly, these would probably rely on a tar of the relevant files from the system which then get put into the nix storage) (An example for parameters can be seen here https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/firefox/default.nix )
+
+ * There is no built-in support to swap in host libraries or binaries but it can be done (then of course, you need to recompile all dependants) https://github.com/NixOS/nixpkgs/issues/305
+
+=== HashDist ===
+
+[[https://hashdist.github.io/|HashDist]] is an environment management tool whose promise is to "build only once". It uses concepts similar to Guix and Nix, but its focus is on build management, rather than reproducible builds (although it CAN do reproducible builds). A succinct abstract on HashDist's goals can be found [[http://adsabs.harvard.edu/abs/2014AGUFM.H51K0749A|here]].
+
+[[https://github.com/hashdist/hashstack|HashStack]], HashDist's companion, is a collection of software profiles for HashDist.
+
+HashDist works as a userspace tool, defining ''software stacks'' which allow isolated builds (like in prefix, guix, nix). Contrary to guix and nix, it does not insist on building a stack from the build chain up, but obviously one gives up reproducibility by relying on the system build tools. Any other library can be swapped between HashDist built libraries and system ones.
+
+To avoid unneeded recompilations, HashDist computes hashes of the build steps, in a similar way to Guix/Nix.
+
+HashDist has no support for binary packages, but has experimental support to generate Anaconda packages. It works on Linux and OS X, and has some experimental support for Cygwin.
+
+Our own Volker is part of the HashDist community. He made an [[https://github.com/vbraun/sagestack|attempt in 2014]] to auto-convert spkg-install scripts to hashdist.
 
 
 == Discussions outside Days 77 ==
