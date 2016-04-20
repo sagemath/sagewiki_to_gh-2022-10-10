@@ -49,7 +49,11 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
 
  In case 2. and 3. the algorithm should also output a fundamental domain and generators in canonical forms. (Charles, Vincent)
 
- * Affine interval exchange transformations (Charles)
+ * Generating saddle connections in a given surface and study their statistics (Grace)
+
+ * Affine interval exchange transformations: rotation number for affine circle homeos, generalized Rauzy induction (Charles)
+
+ * Teichmueller flow for genus 1 quadratic differentials (Charles)
 
  * ... ''add your own project'' ...
 
