@@ -65,13 +65,17 @@ There will also be time for '''code sprints'''.
 
 == Participants ==
 
- * Eviatar Bach (UBC)
  * Faird Aliniaeifard (York university)
+ * Eviatar Bach (UBC)
  * Julien Courtiel (UBC)
+ * Clément Dervieux (Paris Diderot -- Ecole polytechnique)
  * Katie Gedeon (University of Oregon)
+ * Bennet Goeckner (University of Kansas)
  * Emily Gunawan (University of Minnesota)
+ * Amit Jamadagni (Birla Institute of Technology and Science)
  * Jang Soo Kim (Sungkyunkwan University)
  * Viviane Pons (Université Paris Sud)
+ * Ahmed Umer Ashraf (University of West Ontario)
  * Steph van Willigenburg (UBC)
  * Mike Zabrocki (York university)
 
