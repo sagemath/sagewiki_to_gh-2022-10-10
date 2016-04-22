@@ -117,6 +117,8 @@ Cygwin is also a bit outdated and can be difficult to set up. In particular, its
 
 Jean-Pierre has documented his efforts at porting Sage (including dependencies, which are were most of the issues are) for Cygwin, both [[http://trac.sagemath.org/wiki/CygwinPort|32-bit]] and [[http://trac.sagemath.org/wiki/Cygwin64Port|64-bit]]. Sage has been built successfully on Cygwin in the past, but it has not worked consistently due to the lack of continuous integration on Cygwin. The full suite of doctests has never passed 100% on Cygwin either.
 
+Finally, we discussed some specific currently known blockers to building Sage on Cygwin. Erik Bray has volunteered to work on these, and any further Cygwin issues that arise.  These issues can be followed on Sage's issue tracker under the [[http://trac.sagemath.org/query?status=!closed&component=porting%3A+Cygwin|"Porting: Cygwin" component]].
+
 ===== MinGW(-w64) =====
 
 MinGW is also a relatively old project--almost as old as Cygwin. It in fact started as a fork from Cygwin, but with very different goals.  MinGW only aims to provide a minimal GNU toolkit (gcc, bintools) for compiling native code on Windows. It does not rely or or include a POSIX-compatibility layer, and supports linking with MSCRT for minimal libc support.  MinGW-w64 is in turn a fork of the original MinGW project with 64-bit support, a more developer-friendly license, and a more active development community.
