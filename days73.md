@@ -15,7 +15,9 @@ The workshop will start wednesday 04 morning and ends saturday 07 after lunch. I
 ||<5%>                    ||<15% #FFFFAA:> Wednesday 4 May ||<15%  #FFFFAA:> Thursday 5 May ||<15%  #FFFFAA:> Friday 6 May ||<15%  #FFFFAA:> Saturday 7 May ||
 ||<#FFFFAA> morning       ||<#AFEFEF:> Participant presentation<<BR>>and<<BR>>Sage introduction   ||  ?                            ||  ?                          || ?                             ||
 ||<#FFFFAA> 13:00 - 14:30 || lunch break                   || lunch break                   || lunch break                 || lunch break                   ||
-||<#FFFFAA> afternoon     || ?                             || ?                             || ?                           || FREE                          ||
+||<#FFFFAA> 14:30 - 17:00 || ?                             || ?                             || ?                           || FREE                          ||
+||<#FFFFAA> 17:00 - 17:30 || coffe break                   || coffe break                   || coffe break                 || FREE                          ||
+||<#FFFFAA> 17:30 - 19:00 || ?                             || ?                             || ?                           || FREE                          ||
 
 == Talks ==
 
