@@ -8,14 +8,15 @@
 
  * help people to implement their own projects
 
-It is intended to be a small workshop (10 to 15 people) focusing on coding sprints.
+The workshop will start wednesday 04 morning and ends saturday 13 after lunch.
+
 
 == Previsional schedule ==
 
 ||<5%>                    ||<15% #FFFFAA:> Wednesday 4 May ||<15%  #FFFFAA:> Thursday 5 May ||<15%  #FFFFAA:> Friday 6 May ||<15%  #FFFFAA:> Saturday 7 May ||
 ||<#FFFFAA> morning       ||<#AFEFEF:> Participant presentation<<BR>>and<<BR>>Sage introduction   ||  ?                            ||  ?                          || ?                             ||
 ||<#FFFFAA> 13:00 - 14:30 || lunch break                   || lunch break                   || lunch break                 || lunch break                   ||
-||<#FFFFAA> afternoon     || ?                             || ?                             || ?                           || ?                             ||
+||<#FFFFAA> afternoon     || ?                             || ?                             || ?                           || FREE                          ||
 
 == Talks ==
 
@@ -51,7 +52,7 @@ It is intended to be a small workshop (10 to 15 people) focusing on coding sprin
 
  * Generating saddle connections in a given surface and study their statistics (Grace)
 
- * Affine interval exchange transformations: rotation number for affine circle homeos, generalized Rauzy induction (Charles)
+ * Affine interval exchange transformations: rotation number for affine circle homeos, generalized Rauzy induction, hyperbolicity, periodic points, ... (Charles)
 
  * Teichmueller flow for genus 1 quadratic differentials (Charles)
 
