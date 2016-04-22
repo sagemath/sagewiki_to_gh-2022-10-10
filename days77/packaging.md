@@ -94,6 +94,48 @@ of distributing or developing Sage. Anyway, if we can get to the point
 where an unpatched Sage builds in the very restrictive setting those two
 impose, then it should be relatively easy to build for any distribution."
 
+=== Windows ===
+
+The topic of Sage on Windows of course stands distinctly apart from the previous sections which pertain solely to Linux distributions.  Where Windows is concerned there are two main issues, the first of which is generally not a deep problem on different flavors of Linux:
+
+ 1. Simply building Sage and its dependencies on Windows, and obtaining correct numerical results.
+ 2. Packaging and distribution of Sage and its dependencies.
+
+Most of our discussion about Windows pertained to the first issue, as it is still an open problem, and having a correctly functioning Sage on Windows is naturally a higher priority than issues with packaging and distribution per se.  However, easy installation on Windows remains a high priority as well due to the large number of potential Windows users for Sage, and general lack of standard user-friendly distribution mechanisms for software packages on Windows.
+
+==== Building on Windows ====
+
+There is some confusion about the differences and relationships between systems for building and running *NIX based software on Windows.  These include Cygwin, MSYS2, and MinGW(-w64).  There are others but these are the only three we discussed.  There is also the recently announced Ubuntu-based Linux subsystem for Windows, which will be discussed a little later.
+
+===== Cygwin =====
+
+Cygwin is the oldest of these projects--its purpose is to provide a complete as possible set of POSIX standard interfaces built on top of Windows system calls. In many cases this is difficult, slow, and fragile, but doable (most famously problem of emulating `fork()`). The Cygwin project also distributes software built with and designed to run on Cygwin's POSIX emulation layer, including GCC, bintools, and other GNU development tools like the autotools suite--all running through Cygwin. And it includes a whole suite of other common open source *NIX software, including shells, built with Cygwin's tools.  For various reasons most software requires a little bit of porting specifically to work on Cygwin, but some requires little to no extra work at all.  
+
+Because Cygwin provides emulation of many (most?) non-native (to Windows) POSIX features used by Sage and its dependencies, it is the lowest hanging fruit for building a Sage "for Windows".  To be clear, when one builds software in Cygwin they are building it in a sense ''for'' Cygwin, as opposed to "for Windows" in that Cygwin is a POSIX-compatibility subsystem on top of Windows, and any software built for Cygwin can't be used without it.  That said, Cygwin itself can and often is  distributed as a single DLL. So a Sage distribution for Windows can include the Cygwin DLL, and the end result is mostly transparent to users. There may be performance degradation due to use of the POSIX-compatibility layer instead of native Windows system calls, but nobody has explored how that affects Sage. It would probably not be significant for pure numerical computation, but it may affect, for example, the performance of Sage's interfaces to other CAS's.
+
+Cygwin is also a bit outdated and can be difficult to set up. In particular, its packaging system is not very good, and the only (supported) way to install new packages for Cygwin is to re-run Cygwin's graphical installer and select additional packages.  There is however a third-party project called [[https://github.com/transcode-open/apt-cyg|apt-cyg]] which provides a command-line installer for Cygwin packages.
+
+Jean-Pierre has documented his efforts at porting Sage (including dependencies, which are were most of the issues are) for Cygwin, both [[http://trac.sagemath.org/wiki/CygwinPort|32-bit]] and [[http://trac.sagemath.org/wiki/Cygwin64Port|64-bit]]. Sage has been built successfully on Cygwin in the past, but it has not worked consistently due to the lack of continuous integration on Cygwin. The full suite of doctests has never passed 100% on Cygwin either.
+
+===== MinGW(-w64) =====
+
+MinGW is also a relatively old project--almost as old as Cygwin. It in fact started as a fork from Cygwin, but with very different goals.  MinGW only aims to provide a minimal GNU toolkit (gcc, bintools) for compiling native code on Windows. It does not rely or or include a POSIX-compatibility layer, and supports linking with MSCRT for minimal libc support.  MinGW-w64 is in turn a fork of the original MinGW project with 64-bit support, a more developer-friendly license, and a more active development community.
+
+It was agreed that building Sage with MinGW would be a good goal to have, as the end result is truly Windows-native software with no need for POSIX-emulation, and likely (but not proven) better performance.  However, some parts of Sage and its dependencies present a significant hurdle to this. Some of the major blockers we identified include:
+
+ 1. Sage's pexpect interfaces--pexpect has only experimental support for Windows, in the form of a wrapper for Python's `subprocess.Popen`, as opposed to communicating via pseudo-terminals (which is definitely not supported on Windows). What remains unclear at the moment is whether the use of ptys is strictly required for all of Sage's interfaces.
+ 2. Cysignals--the current implementation is not even applicable to Windows. However, some of its functionality--especially interrupt-handling--could be ported to Windows in principle.  At worst, outright disabled.
+ 3. GAP/libGAP--has Cython support but no native Windows support.  Erik has done some investigation and believes it should be possible to port GAP to Windows with some effort.
+ 4. PARI/GP--used to have problems, but now supposedly has support for building with MinGW-w64.
+
+Because of these issues it was generally agreed that the issue of building with MinGW should be tabled for now, and efforts should instead focus on the loose ends with Cygwin support before returning to it.  Much of the work done for building on Cygwin could also benefit the MinGW effort as well.
+
+===== MSYS2 =====
+
+MSYS2 is also a fork of Cygwin, and its goals are different from both Cygwin and MinGW.  A more complete overview of the differences can be read on the project's [[https://sourceforge.net/p/msys2/wiki/How%20does%20MSYS2%20differ%20from%20Cygwin/|wiki]].  In short, MSYS2 is less focused on the POSIX-emulation goals of Cygwin (but benefits directly from them, and regularly merges upstream changes from Cygwin), but is more focused on providing a friendly software development environment for developers used to working on *NIX system, including shells, common shell tools, etc. It also includes a port of Arch's "pacman" package manager for installing and managing software.  In other words, the MSYS2 project is more focused on the user experience, while the developers of the Cygwin project remain primarily focused on the POSIX-emulation part of the equation.  Another major selling point for MSYS2 is that includes support for both a Cygwin-like toolchain that includes POSIX emulation, as well as for the MinGW toolchain.  So one can develop software for both within the same development environment.  Software built with the MSYS2 toolchain uses POSIX-emulation, and must be shipped with an msys2 DLL, much like as software built for Cygwin must be shipped with cygwin.dll.  Software built with MSYS2's MinGW is no different from using the MinGW toolchain directly without using the rest of the MSYS2 environment.
+
+Therefore it is worth trying out, and targeting as an environment in which to develop Sage in Windows. That is, development documentation might include instructions for setting up MSYS2 for Sage development.  The Cygwin-specific porting effort should translate over to using MSYS2's compiler toolchain. And it might be a good environment for experimenting with MinGW support if/when we reach that point.
+
 === Anaconda ===
 
 [[https://www.continuum.io/|Anaconda]] is a user-space distribution and package manager for scientific software. Born in the python ecosystem, it is becoming a ''de facto'' standard for scientific software.
