@@ -26,17 +26,17 @@ The workshop will start wednesday 04 morning and ends saturday 07 after lunch. I
 
 == Talks ==
 
- * (tutorial, wednesday 15:30 - 17:00, Vincent Delecroix) '''symbolic vs numerics in Sage'''.
+ * '''symbolic vs numerics in Sage''' (tutorial, wednesday 15:30 - 17:00, Vincent Delecroix)
    There are many ways to deal with numbers within Sage (algebraic numbers, floating points, intervals, ...). We will present and illustrate pros and cons of all of them. We will also spend some time on how to perform numerical computations in Sage: root finding, integration, solving ordinary differential equations.
 
- * (tutorial / presentation) Pat Hooper: [[https://github.com/videlec/sage-flatsurf|Flatsurf]]
+ * [[https://github.com/videlec/sage-flatsurf|Flatsurf]] (demo, ¿when?,  Pat Hooper)
 
- * (tutorial / presentation) Vincent Delecroix: [[http://www.labri.fr/perso/vdelecro/flatsurf.html|the flatsurf package]] (warning: distinct from the above!)
+ * [[http://www.labri.fr/perso/vdelecro/flatsurf.html|the flatsurf package]] (demo, ¿when?, Vincent Delecroix)
 
+ * '''computing Lyapunov exponents of the Teichmueller flow''' (demo, ¿when?, Charles Fougeron)
 
- * (tutorial) development howtos: [[https://en.wikipedia.org/wiki/Git_%28software%29|git]], the [[http://trac.sagemath.org/|Sage trac server]], mailing lists ([[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]], [[https://groups.google.com/forum/#!forum/sage-support|sage-support]], [[http://pari.math.u-bordeaux.fr/lists-index.html|pari-users]], etc) and forums ([[http://ask.sagemath.org/|ask sagemath]]).
-
- * ? (tutorial) number types in Sage: integers, rationals, number fields, symbolic, floating point, intervals, balls
+ * '''developing tools''' (tutorial, ¿when?, ¿who?)
+  [[https://en.wikipedia.org/wiki/Git_%28software%29|git]], the [[http://trac.sagemath.org/|Sage trac server]], mailing lists ([[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]], [[https://groups.google.com/forum/#!forum/sage-support|sage-support]], [[http://pari.math.u-bordeaux.fr/lists-index.html|pari-users]], etc) and forums ([[http://ask.sagemath.org/|ask sagemath]]).
 
  * ? (tutorial) SL2Z and triangle group code in Sage
 
