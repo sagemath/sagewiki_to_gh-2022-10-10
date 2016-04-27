@@ -8,7 +8,7 @@
 
  * help people to implement their own projects
 
-The workshop will start wednesday 04 morning and ends saturday 07 after lunch. It will take place at [[http://www.pmc.gob.mx/|Punto Mexico Conectado @ Oaxaca]] in [[http://www.openstreetmap.org/way/30435874#map=18/17.06483/-96.73348|calzada Madero numero 101]].
+The workshop will start wednesday 04 morning and ends saturday 07 after lunch. It will take place at [[http://www.pmc.gob.mx/|Punto Mexico Conectado @ Oaxaca]] in [[https://www.google.com.mx/maps/place/Punto+M%C3%A9xico+Conectado+Oaxaca/@17.0630565,-96.7325754,19z/data=!4m2!3m1!1s0x85c722148d9070eb:0x431c6d96d211d5b5|calzada Madero numero 101]].
 
 == Previsional schedule ==
 
