@@ -15,12 +15,12 @@ The workshop will start wednesday 04 morning and ends saturday 07 after lunch. I
 ||<5%>                    ||<15% #FFFFAA:> Wednesday 4 May ||<15%  #FFFFAA:> Thursday 5 May ||<15%  #FFFFAA:> Friday 6 May ||<15%  #FFFFAA:> Saturday 7 May ||
 ||<#FFFFAA> 09:00 - 10:00 || registro y instalación        || ?                             || ?                           || ?                             ||
 ||<#FFFFAA> 10:00 - 11:00 || presentación de Sage          || ?                             || ?                           || ?                             ||
-||<#F0F0FF> 11:00 - 11:30 ||<#F0F0FF> té y café            ||<#F0F0FF> coffe break          ||<#F0F0FF> coffe break        ||<#F0F0FF> coffe break          ||
+||<#F8F8FF> 11:00 - 11:30 ||<#F8F8FF> té y café            ||<#F8F8FF> coffe break          ||<#F8F8FF> coffe break        ||<#F8F8FF> coffe break          ||
 ||<#FFFFAA> 11:30 - 13:00 || actividades practicas         || ?                             || ?                           || ?                             ||
 ||<#CCCCFF> 13:00 - 14:30 ||<#CCCCFF> lunch break          ||<#CCCCFF> lunch break          ||<#CCCCFF> lunch break        ||<#CCCCFF> lunch break          ||
 ||<#FFFFAA> 14:30 - 15:30 || presentation / discussion     || ?                             || ?                           || FREE                          ||
 ||<#FFFFAA> 15:30 - 17:00 || tutorial: symbolic vs numeric || ?                             || ?                           || FREE                          ||
-||<#F0F0FF> 17:00 - 17:30 ||<#F0F0FF> coffe break          ||<#F0F0FF> coffe break          ||<#F0F0FF> coffe break        || FREE                          ||
+||<#F8F8FF> 17:00 - 17:30 ||<#F8F8FF> coffe break          ||<#F8F8FF> coffe break          ||<#F8F8FF> coffe break        || FREE                          ||
 ||<#FFFFAA> 17:30 - 18:00 || demo                          || ?                             || ?                           || FREE                          ||
 ||<#FFFFAA> 18:00 - 19:00 || coding spring                 || ?                             || ?                           || FREE                          ||
 
