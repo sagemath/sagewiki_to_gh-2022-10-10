@@ -27,7 +27,7 @@ The workshop will start wednesday 04 morning and ends saturday 07 after lunch. I
 == Talks ==
 
  * '''symbolic vs numerics in Sage''' (tutorial, wednesday 15:30 - 17:00, Vincent Delecroix)
-   There are many ways to deal with numbers within Sage (algebraic numbers, floating points, intervals, ...). We will present and illustrate pros and cons of all of them. We will also spend some time on how to perform numerical computations in Sage: root finding, integration, solving ordinary differential equations.
+   There are many ways to deal with numbers within Sage (algebraic numbers, floating points, intervals, ...). We will present and illustrate pros and cons of all of them on some concrete problems: root finding, integration, solving ordinary differential equations.
 
  * [[https://github.com/videlec/sage-flatsurf|Flatsurf]] (demo, ¿when?,  Pat Hooper)
 
