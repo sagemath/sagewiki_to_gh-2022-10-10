@@ -25,6 +25,8 @@ The presentation will cover some experience collected while using SageMath as a 
 
 == Tentative schedule ==
 
+There will be time during most of the lectures (or just after) to try out SageMath by yourselves.
+
 Saturday:
  * 9:30: * coffee break *
  * 10:00: welcoming session and introductions (+ installation)
@@ -33,7 +35,8 @@ Saturday:
  * 12:00: lunch
  * 14:00: automata in SageMath [Clemens Heuberger or Daniel Krenn]
  * 15:00: * coffee break *
- * 15:30: number theory in SageMath [Štěpán Starosta or Tomáš Vávra]
+ * 15:30: SageMath's coercion framework [Daniel Krenn]
+ * 16:00: number theory in SageMath [Štěpán Starosta or Tomáš Vávra]
  * discussion, coding, etc.
 
 Sunday:
