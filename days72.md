@@ -52,36 +52,36 @@ Sunday:
 The following people will most likely be able to attend.
 
 
-* Karam Aloui
-* Petr Ambrož
-* Hamdi Ammar
-* Myriam Amri
-* hamdi aouinti
-* Horst Brunotte
-* Amara Chandoul
-* Jonas Jankauskas
-* Kamil Keprt
-* Karel Klouda
-* Ondřej Kolouch
-* Attila Kovács
-* Daniel Krenn
-* DoYong Kwon
-* Faiza Mahjoub
-* Merkhi Malika
-* Mohamed Mkaouar
-* Hbaib Mohamed
-* Lukáš Novotný
-* Marco Pedicini
-* Driss Sana
-* Zhang Shuqin
-* Bernd Sing
-* Lukas Spiegelhofer
-* Štěpán Starosta
-* Milena Svobodová
-* Jan Šustek
-* Tomas Vavra
-* Walid Wannes
-* Mario Weitzer
+ * Karam Aloui
+ * Petr Ambrož
+ * Hamdi Ammar
+ * Myriam Amri
+ * hamdi aouinti
+ * Horst Brunotte
+ * Amara Chandoul
+ * Jonas Jankauskas
+ * Kamil Keprt
+ * Karel Klouda
+ * Ondřej Kolouch
+ * Attila Kovács
+ * Daniel Krenn
+ * DoYong Kwon
+ * Faiza Mahjoub
+ * Merkhi Malika
+ * Mohamed Mkaouar
+ * Hbaib Mohamed
+ * Lukáš Novotný
+ * Marco Pedicini
+ * Driss Sana
+ * zhang shuqin
+ * Bernd Sing
+ * Lukas Spiegelhofer
+ * Štěpán Starosta
+ * Milena Svobodová
+ * Jan Šustek
+ * Tomas Vavra
+ * Walid Wannes
+ * Mario Weitzer
  * Rob Rubalcaba (subject to funding)
 
 Locals who will likely attend:
