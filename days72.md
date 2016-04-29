@@ -41,9 +41,9 @@ Sunday:
  * 10:00 - 10:30: development for SageMath [Daniel Krenn]
  * 11:00: Julia vs. SageMath [Tomáš Kalvoda]
  * 12:00: lunch
- * 14:00: Using Sage in number system research (part 1) [Attila Kovacs]
+ * 14:00: Using Sage in number system research (part 1) [Attila Kovács]
  * 15:00:  * coffee break *
- * 15:30: Using Sage in number system research (part 2) [Attila Kovacs]
+ * 15:30: Using Sage in number system research (part 2) [Attila Kovács]
  * discussion, coding, etc.
 
 
@@ -51,20 +51,38 @@ Sunday:
 
 The following people will most likely be able to attend.
 
- * Daniel Krenn
+
+* Karam Aloui
+* Petr Ambrož
+* Hamdi Ammar
+* Myriam Amri
+* hamdi aouinti
+* Horst Brunotte
+* Amara Chandoul
+* Jonas Jankauskas
+* Kamil Keprt
+* Karel Klouda
+* Ondřej Kolouch
+* Attila Kovács
+* Daniel Krenn
+* DoYong Kwon
+* Faiza Mahjoub
+* Merkhi Malika
+* Mohamed Mkaouar
+* Hbaib Mohamed
+* Lukáš Novotný
+* Marco Pedicini
+* Driss Sana
+* Zhang Shuqin
+* Bernd Sing
+* Lukas Spiegelhofer
+* Štěpán Starosta
+* Milena Svobodová
+* Jan Šustek
+* Tomas Vavra
+* Walid Wannes
+* Mario Weitzer
  * Rob Rubalcaba (subject to funding)
- * Štěpán Starosta
- * Attila Kovács
- * Horst Brunotte
- * Hbaib Mohamed
- * Mario Weitzer
- * Kamil Keprt
- * Karel Klouda
- * Ondřej Kolouch
- * Mohamed Mkaouar
- * Lukáš Novotný
- * Jan Šustek
- * ...
 
 Locals who will likely attend:
 
