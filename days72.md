@@ -43,7 +43,7 @@ Sunday:
  * 12:00: lunch
  * 14:00: Using Sage in number system research (part 1) [Attila Kovacs]
  * 15:00:  * coffee break *
- * 15:30: Using Sage in number system research (part ě) [Attila Kovacs]
+ * 15:30: Using Sage in number system research (part 2) [Attila Kovacs]
  * discussion, coding, etc.
 
 
