@@ -173,6 +173,7 @@ Examples:
 - `Sage-Manifolds <http://sagemanifolds.obspm.fr/>`_
 - `slabbe-0.2.spkg <http://www.slabbe.org/blogue/categorie/slabbe-spkg/>`_
   See also this `blog post <http://www.slabbe.org/blogue/2014/08/releasing-slabbe-my-own-sage-package/>`_
+- `CHA <https://bitbucket.org/nborie/cha>`_
 
 Pros:
 
