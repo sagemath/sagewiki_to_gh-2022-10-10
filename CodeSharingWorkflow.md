@@ -165,8 +165,8 @@ Standalone (pip) packages
 Here the idea is to implement feature sets as independent Python
 packages on top of Sage. Converting a bunch of Python files into such
 a package to make it `easy to install
-<https://python-packaging.readthedocs.io/en/latest/minimal.html>`_ is
-straightforward e.g. with pip.
+<http://python-packaging-user-guide.readthedocs.io/en/latest/distributing/>`_ is
+straightforward.
 
 Examples:
 
