@@ -30,7 +30,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/20451|#20451]]) needs-review: canonical height error - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/20079|#20079]]) needs-review: Chebyshev Polynomials - Joe Eisner, Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/20227|#20227]]) needs-review: Chow form for projective subschemes - Ben Hutz
 
@@ -47,8 +47,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  ||||||||'''Wishlist'''||
  || Area|| Description || Difficulty || Priority ||
  ||<|1> Products of Projective Spaces || Rational Points on Subschemes || Implement an efficient rational points search on subschemes. Currently it is done by enumeration unless dim is 0 || ||
- ||<|2> Polynomials || implement is_polynomial(). In dimension 1, this is the existence of a totally ramified fixed point. It would also be nice to determine the conjugation to move that fixed point to ifnty. || Medium || ||
- || specific functionality for regular polynomial endomorphisms of P^N || || ||
+ ||<|1> Polynomials || specific functionality for regular polynomial endomorphisms of P^N || || ||
  ||<|3> Rational Maps || Indeterminacy locus || easy || ||
  || Dynamical degree || || ||
  || periodic and preperiodic points (projective and affine) || || ||
@@ -72,6 +71,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/20451|#20451]])-- closed sage 7.2: canonical height error - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/20262|#20262]])-- closed sage 7.2: Add point transformation matrix for projective space - Rebecca Lauren Miller
 
