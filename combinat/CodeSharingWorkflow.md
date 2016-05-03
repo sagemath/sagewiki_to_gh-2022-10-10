@@ -59,9 +59,9 @@ Here are our goals in using the Sage-Combinat queue for sharing patches:
 
 - Overview of what's developed by who
 
-   Having a centralized place where all de development is seen is a good tool
-   for team coordination and code management. It also helps early detection of
-   patch conflicts.
+   Having a centralized place where all development is seen is a good
+   tool for team coordination and code management. It also helps early
+   detection of patch conflicts.
 
 - Sharing code with beginner colleagues
 
