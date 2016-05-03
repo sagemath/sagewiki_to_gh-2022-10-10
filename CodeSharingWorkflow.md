@@ -1,3 +1,5 @@
+{{{#!rst
+
 = On development workflows for sharing (experimental) code =
 
 One core aim of Sage is to foster code sharing, and encourage groups
@@ -204,3 +206,4 @@ Pros:
 - Depending on how strongly one pushes toward the integration of
   mature code, one can flexibly interpolate between the all-in-one
   model and the package model
+}}}
