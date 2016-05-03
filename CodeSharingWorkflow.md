@@ -75,7 +75,8 @@ Of course the milleage will vary from project to project, but the objectives of 
     many concrete classes (subclassing each and every concrete class
     would be a pain)
 
-    See also the related:
+    See also:
+
     - http://www.csd.uwo.ca/~watt/pub/reprints/2006-dsal-postfacto.pdf
     - https://en.wikipedia.org/wiki/Extension_method
     - https://en.wikipedia.org/wiki/Monkey_patch
@@ -136,7 +137,7 @@ Cons:
 Patch queue as used by Sage-Combinat between 2009 and 2013
 ----------------------------------------------------------
 
-See also the following [[combinat/CodeSharingWorkflow|design notes about the Sage-Combinat workflow]].
+See also those old ``design notes about the Sage-Combinat workflow <combinat/CodeSharingWorkflow>`_.
 
 TODO: description
 
