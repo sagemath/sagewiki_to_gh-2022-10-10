@@ -82,6 +82,7 @@ There will also be time for '''code sprints'''.
  * Seung Jin Lee (Korea Institute for Advanced Study)
  * Viviane Pons (Université Paris Sud)
  * Robin Sulzgruber (Universität Wien)
+ * Jessica Striker (North Dakota State University)
  * Ahmed Umer Ashraf (University of West Ontario)
  * Steph van Willigenburg (UBC)
  * Mike Zabrocki (York university)
