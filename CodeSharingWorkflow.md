@@ -1,6 +1,7 @@
 {{{#!rst
-
-= On development workflows for sharing (experimental) code =
+========================================================
+On development workflows for sharing (experimental) code
+========================================================
 
 One core aim of Sage is to foster code sharing, and encourage groups
 of researchers, teachers, and other users to get together to develop
@@ -20,9 +21,10 @@ for various use cases.
 
 At this point it's a collection of notes by N. Thiéry; please hack in and contribute your own vision!
 
-== Objectives of a development workflow ==
+Objectives of a development workflow
+====================================
 
-Specifically, the objectives of a development workflow can be to:
+Of course the milleage will vary from project to project, but the objectives of a development workflow can typically be to:
 
 1.  Support *fast paced development* within a group of users working on
     the same topic, or needing similar features.
@@ -78,36 +80,35 @@ Specifically, the objectives of a development workflow can be to:
     - https://en.wikipedia.org/wiki/Extension_method
     - https://en.wikipedia.org/wiki/Monkey_patch
 
-== Existing workflows ==
+Existing workflows
+==================
 
-=== Direct integration into Sage ===
+Direct integration into Sage
+----------------------------
 
 In this workflow, each feature is shared by integrating it directly into Sage.
 
 Pros:
 
 - Simplicity for the user: all stable features are directly available in Sage
-
-- Simplicity for Sage developers: no additional workflow to learn, no
-  need to worry about distribution
-
-- Promote early integration of code and 3.
-
+- Simplicity for Sage developers: no additional workflow to learn
+- No need to worry about release, distribution, test infrastructure, ...
+- Promotes early integration of code and 3.
 - 8. is straightforward
 
 Cons:
 
 - Limited support for 2.
-
 - Slows down the development: once a feature is in Sage, any change
   needs to be reviewed, refactoring of the public API requires taking
   care of backward compatibility. No good for 4.
-
 - Getting the latest feature forces updating to the latest version of Sage
-
 - Introduces a bias toward code bloat (in doubt, features tend to be added to Sage)
 
-=== Experimental feature branches ===
+Experimental feature branches
+-----------------------------
+
+In this workflow, experimental feature or feature sets are implemented as branches on the Sage sources.
 
 Pros:
 
@@ -132,7 +133,8 @@ Cons:
 - Because of the above, this workflow does not work well for 4.
 - Introduces a bias toward the all-in-one development model.
 
-=== Patch queue as used by Sage-Combinat between 2009 and 2013 ===
+Patch queue as used by Sage-Combinat between 2009 and 2013
+----------------------------------------------------------
 
 See also the following [[combinat/CodeSharingWorkflow|design notes about the Sage-Combinat workflow]].
 
@@ -156,13 +158,19 @@ Cons:
   and the rest of the world, and prevented rapid reconfiguration of
   projects around topics and groups of developers
 
-=== Using (pip) packages ===
+Standalone (pip) packages
+-------------------------
 
 Here the idea is to implement feature sets as independent Python
 packages on top of Sage. Converting a bunch of Python files into such
-a package, and making it easy to install is easy with e.g. pip:
+a package to make it `easy to install
+<https://python-packaging.readthedocs.io/en/latest/minimal.html>`_ is
+straightforward e.g. with pip.
 
-https://python-packaging.readthedocs.io/en/latest/minimal.html
+Examples:
+- `Sage-Manifolds <http://sagemanifolds.obspm.fr/>`_
+- `slabbe-0.2.spkg <http://www.slabbe.org/blogue/categorie/slabbe-spkg/>`_
+  See also this `blog post <http://www.slabbe.org/blogue/2014/08/releasing-slabbe-my-own-sage-package/>`_
 
 Pros:
 - Good for 1., 2., 4.,
@@ -170,8 +178,10 @@ Pros:
 Cons:
 - Handling of compatibility with various versions of the dependencies (in particular Sage)
 - Risk of code rotting (as Sage evolves over time) or death (if it's not maintained)
+- Requires coordination with Sage and related packages to not step on each other
 
-=== Using (pip) packages with an integration mission ===
+Standalone (pip) packages with an integration mission
+-----------------------------------------------------
 
 This is a variant on the previous development workflow, with an
 explicit focus on easing (or even promoting) the integration of mature
@@ -185,25 +195,27 @@ Specific steps:
   all this code dynamically in the Sage library.
 
   The effect is to patch the Sage library, as with branches or patch
-  queues; however this is done at the granularity of methods rather
-  than lines in the source code.
+  queues; however this is done semantically at the granularity of methods
+  rather than syntactically at the granularity of lines in the source code.
+
+
+Examples:
+- `Sage-semigroups <https://github.com/nthiery/sage-semigroups/>`_ (very preliminary!!!)
 
 Pros:
-
 - Same as above
-
 - 8. is straightforward
-
 - Lighter maintenance overhead compared to branches or patch queues:
   one only needs to take care of semantic conflicts, not syntactic
   ones.
-
 - The integration of mature code into Sage helps for 3 and for the
   maintenance as well: keeping the library as a "small layer" over
   Sage reduces the risks of irreversibly drifting away, and reduces
   the amount of updating.
-
 - Depending on how strongly one pushes toward the integration of
   mature code, one can flexibly interpolate between the all-in-one
   model and the package model
+
+Cons:
+- The concept has not yet been really battlefield tested.
 }}}
