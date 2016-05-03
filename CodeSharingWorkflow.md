@@ -65,10 +65,10 @@ Of course the milleage will vary from project to project, but the objectives of 
 8.  Promote extending existing Sage classes and modules with additional features.
 
     This eases dynamic feature discovery by users (once installed,
-    things are at their usual place) and enable transparent migration
-    of the code inside the Sage library if and when desired (no need
-    to change the code itself, nor code using it). This also promotes
-    coherent coding standards.
+    features can be found at their expected place) and enable
+    transparent migration of code inside the Sage library if and when
+    desired (no need to change the code itself, nor code using
+    it). This also promotes coherent coding standards.
 
     Note: subclassing is not always an option to extend a class,
     e.g. when a feature is to be added to an abstract base class of
@@ -229,4 +229,8 @@ Pros:
 Cons:
 
 - The concept has not yet been really battlefield tested!
+- Moving code into the Sage library is done by copy pasting. This
+  makes for a clean diff showing just the addition of the new methods,
+  but means that one looses the history and author tracking (that's
+  not that different from history squashing as used by many projects)
 }}}
