@@ -14,7 +14,9 @@ purple-sage for number theory, ...
 The goal of this document is to discuss the different workflow that
 have been tried, their pros and cons, to share best practices and
 brainstorm about what support and recommendations Sage could provide
-for various use cases
+for various use cases.
+
+At this point it's a collection of notes by N. Thiéry; please hack in and contribute your own vision!
 
 == Objectives of a development workflow ==
 
