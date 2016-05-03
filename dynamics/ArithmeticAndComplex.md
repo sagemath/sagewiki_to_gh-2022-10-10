@@ -54,8 +54,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  ||<|2> Numerical Precision || implement Algorithm 4 from "Computing algebraic numbers of bounded height" by Doyle-Krumm to use in elements_of_bounded_height for number fields. This is a high priority since currently the precision has an effect on the output. Algorithm 4 is able to take precision into account. || Hard || High ||
  || use real interval field for floating point computations (in heights and possibly rational preperiodic point functions) || medium || ||
  || Attracting Cycles || Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles || || ||
- ||<|2> Moduli Space || is_conjugate() for morphisms and iterator over morphisms of fixed degree up to conjugacy. See Faber-Manes-Viray || medium || ||
- || reduced form of endomorphisms -  i.e., compute an `SL(2,Z)` transformation that makes the coefficients small. The simplest approach would be to "reduce" the binary form describing the fixed points or (if that's too degenerate) the points of period n for some small n. See [Stoll, Michael; Cremona, John E., On the reduction theory of binary forms. J. Reine Angew. Math. 565 (2003), 79–99.], which is fairly easy to implement and which would be useful to have in sage anyway. || medium || ||
  || Non-Integral Domains || Make projective space work over non-integral domains. One method would be to make a valid point on which is valid for modulo all maximal ideals || || ||
  ||<|1> Documentation || Write Tutorials || ||
  || Reduction || potential good and critically good reduction || medium || ||
