@@ -137,7 +137,7 @@ Cons:
 Patch queue as used by Sage-Combinat between 2009 and 2013
 ----------------------------------------------------------
 
-See also those old ``design notes about the Sage-Combinat workflow <combinat/CodeSharingWorkflow>`_.
+See also those old `design notes about the Sage-Combinat workflow <combinat/CodeSharingWorkflow>`_.
 
 TODO: description
 
