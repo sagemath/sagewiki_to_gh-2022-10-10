@@ -1,24 +1,32 @@
-#format text_markdown
+= On development workflows for sharing (experimental) code =
 
-# On development workflows for (experimental) code sharing
+One core aim of Sage is to foster code sharing, and encourage groups
+of researchers, teachers, and other users to get together to develop
+new features they need either on top of or within Sage, and share
+them.
 
-One core aim of Sage (and subprojects like Sage-manifolds,
-Sage-Combinat, Sage-Words, ...)  is to improve the open source
-mathematical system \texttt{Sage} as an extensible toolbox for
-computer exploration (in geometry, algebraic and enumerative
-combinatorics, combinatorics on words, etc), and foster code sharing
-between researchers in those areas.
+Over the years, many development workflows have been experimented by
+various groups of people to improve Sage in certain areas, like
+Sage-Combinat for (algebraic) combinatorics, Sage-Words for
+combinatorics on words, Sage-manifolds for differential geometry,
+purple-sage for number theory, ...
 
-Over the years, many development workflows have been experimented
-with; the goal of this document is to discuss them toward recommending
-best practice.
+The goal of this document is to discuss the different workflow that
+have been tried, their pros and cons, to share best practices and
+brainstorm about what support and recommendations Sage could provide
+for various use cases
 
-Specifically, the objectives of a development workflow are:
+== Objectives of a development workflow ==
 
-1.  Support fast paced development within a group of researchers
-    working on the same topic, or needing similar features.
+Specifically, the objectives of a development workflow can be to:
 
-2.  Support rapid and modular dissemination of experimental features
+1.  Support *fast paced development* within a group of users working on
+    the same topic, or needing similar features.
+
+2.  Support *rapid dissemination of experimental features*
+
+    The goal is simultaneously to support users, and to get early
+    feedback on the code.
 
     Typical needs:
 
@@ -28,28 +36,33 @@ Specifically, the objectives of a development workflow are:
     - Getting the latest version of a feature, without having to
       upgrade all of Sage (e.g. just before delivering a talk!!!)
 
-    This is important to get early feedback on the code.
+    - Feature discovery: increasing the chances for someone to
+      discover that a given feature is being implemented somewhere.
 
 3.  Foster high quality code by promoting documentation, tests, code reviews
 
-4.  Foster intrinsic high quality code by providing an ecosystem where
-    (experimental) code can live, compete with other implementations,
-    mature and be selected or die, all at a fine granularity.
+4.  Foster intrinsic high quality code by providing an *ecosystem*
+    where (experimental) code can live, compete with other
+    implementations, mature and be selected or die, all at a fine
+    granularity.
 
-5.  Strike a balance between the risks of code-bloat and of code death
+5.  Strike a balance between centralized and decentralized.
 
-6.  Minimize maintenance overhead, and in particular code rotting
+    In particular mitigate the risks of code-bloat of the Sage library
+    versus the risks of death of code lying out somewhere on the web.
+
+6.  Minimize *maintenance* overhead, and in particular code rotting
 
 7.  Remain flexible between the all-in-one versus packages development models
     (simplifying things out: between Sage's model and GAP's model)
 
 8.  Promote extending existing Sage classes and modules with additional features.
 
-    This eases feature discovery by users (things are at their
-    expected place) and enable transparent migration of the code
-    inside the Sage library if and when desired (no need to change the
-    code itself, nor code using it). This also promotes coherent
-    coding standards.
+    This eases dynamic feature discovery by users (once installed,
+    things are at their usual place) and enable transparent migration
+    of the code inside the Sage library if and when desired (no need
+    to change the code itself, nor code using it). This also promotes
+    coherent coding standards.
 
     Note: subclassing is not always an option to extend a class,
     e.g. when a feature is to be added to an abstract base class of
@@ -61,9 +74,11 @@ Specifically, the objectives of a development workflow are:
     - https://en.wikipedia.org/wiki/Extension_method
     - https://en.wikipedia.org/wiki/Monkey_patch
 
-## Direct integration into Sage
+== Existing workflows ==
 
-In this workflow, sharing a feature goes by integrating it into Sage.
+=== Direct integration into Sage ===
+
+In this workflow, each feature is shared by integrating it directly into Sage.
 
 Pros:
 
@@ -82,30 +97,7 @@ Cons:
 - Getting the latest feature forces updating to the latest version of Sage
 - Introduces a bias toward code bloat (in doubt, features tend to be added to Sage)
 
-## Patch queue as used by Sage-Combinat between 2009 and 2013
-
-TODO: description
-
-Pros:
-
-- Relatively good for 1. (except for 6.)
-- Relatively good for 2. (thanks to "sage -combinat install"), except
-  for modularity and requiring some Sage recompilation
-- 8. is straightforward
-
-Cons:
-
-- Complexity of working at the meta level (version control on the patches)
-- Really bad at 6: Horrible maintenance overhead due to syntactic conflicts and lack of automatic merging
-- Introduces a strong bias toward code death, or at least non integration into Sage
-- Monolithic: one could not use several patch queues at once, so this
-  did not support overlaping groups of people working on different
-  topics; this introduced a non-natural barrier between Sage-Combinat
-  and the rest of the world, and prevented rapid reconfiguration of
-  projects around topics and groups of developers
-
-
-## Experimental feature branches
+=== Experimental feature branches ===
 
 Pros:
 
@@ -130,16 +122,46 @@ Cons:
 - Because of the above, this workflow does not work well for 4.
 - Introduces a bias toward the all-in-one development model.
 
-## Using (pip) packages
+=== Patch queue as used by Sage-Combinat between 2009 and 2013 ===
+
+See also the following [[combinat/CodeSharingWorkflow|design notes about the Sage-Combinat workflow]].
+
+TODO: description
+
+Pros:
+
+- Relatively good for 1. (except for 6.)
+- Relatively good for 2. (thanks to "sage -combinat install"), except
+  for modularity and requiring some Sage recompilation
+- 8. is straightforward
+
+Cons:
+
+- Complexity of working at the meta level (version control on the patches)
+- Really bad at 6: Horrible maintenance overhead due to syntactic conflicts and lack of automatic merging
+- Introduces a strong bias toward code death, or at least non integration into Sage
+- Monolithic: one could not use several patch queues at once, so this
+  did not support overlaping groups of people working on different
+  topics; this introduced a non-natural barrier between Sage-Combinat
+  and the rest of the world, and prevented rapid reconfiguration of
+  projects around topics and groups of developers
+
+=== Using (pip) packages ===
+
+Here the idea is to implement feature sets as independent Python
+packages on top of Sage. Converting a bunch of Python files into such
+a package, and making it easy to install is easy with e.g. pip:
+
+https://python-packaging.readthedocs.io/en/latest/minimal.html
 
 Pros:
 - Good for 1., 2., 4.,
 
 Cons:
-- Risk of code rotting or death
 - Handling of compatibility with various versions of the dependencies (in particular Sage)
+- Risk of code rotting (as Sage evolves over time) or death (if it's not maintained)
 
-## Using (pip) packages with an integration mission
+=== Using (pip) packages with an integration mission ===
 
 This is a variant on the previous development workflow, with an
 explicit focus on easing (or even promoting) the integration of mature
@@ -157,7 +179,7 @@ Specific steps:
   than lines in the source code.
 
 Pros:
-- Same as for usual (pip) packages
+- Same as above
 - 8. is straightforward
 - Lighter maintenance overhead compared to branches or patch queues:
   one only needs to take care of semantic conflicts, not syntactic
