@@ -19,7 +19,7 @@ have been tried, their pros and cons, to share best practices and
 brainstorm about what support and recommendations Sage could provide
 for various use cases.
 
-At this point it's a collection of notes by N. Thiéry; please hack in and contribute your own vision!
+At this point this is a collection of notes by N. Thiéry; please hack in and contribute your own vision!
 
 Objectives of a development workflow
 ====================================
