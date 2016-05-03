@@ -168,14 +168,17 @@ a package to make it `easy to install
 straightforward e.g. with pip.
 
 Examples:
+
 - `Sage-Manifolds <http://sagemanifolds.obspm.fr/>`_
 - `slabbe-0.2.spkg <http://www.slabbe.org/blogue/categorie/slabbe-spkg/>`_
   See also this `blog post <http://www.slabbe.org/blogue/2014/08/releasing-slabbe-my-own-sage-package/>`_
 
 Pros:
+
 - Good for 1., 2., 4.,
 
 Cons:
+
 - Handling of compatibility with various versions of the dependencies (in particular Sage)
 - Risk of code rotting (as Sage evolves over time) or death (if it's not maintained)
 - Requires coordination with Sage and related packages to not step on each other
@@ -187,22 +190,28 @@ This is a variant on the previous development workflow, with an
 explicit focus on easing (or even promoting) the integration of mature
 code into Sage.
 
-Specific steps:
+Specifics:
 
-- layout the code as in the Sage library, with top module called
-  sage-blah instead of sage, and use *recursive monkey patching*
-  (TODO: make a pip package for this, and add a link here) to insert
-  all this code dynamically in the Sage library.
+- Layout the code as in the Sage library, with top module called
+  e.g. ``sage-blah`` instead of ``sage``. For example, to add a method to the
+  Sage class Partition, one would put it in an otherwise empty class
+  ``sage-blah.combinat.partition.Partition``.
+
+- Use *recursive monkey patching* (TODO: make a pip package for this,
+  and add a link here) to insert all the code dynamically in the Sage
+  library.
 
   The effect is to patch the Sage library, as with branches or patch
-  queues; however this is done semantically at the granularity of methods
-  rather than syntactically at the granularity of lines in the source code.
-
+  queues; however this is done semantically at the granularity of
+  methods rather than syntactically at the granularity of lines in the
+  source code.
 
 Examples:
+
 - `Sage-semigroups <https://github.com/nthiery/sage-semigroups/>`_ (very preliminary!!!)
 
 Pros:
+
 - Same as above
 - 8. is straightforward
 - Lighter maintenance overhead compared to branches or patch queues:
@@ -217,5 +226,6 @@ Pros:
   model and the package model
 
 Cons:
-- The concept has not yet been really battlefield tested.
+
+- The concept has not yet been really battlefield tested!
 }}}
