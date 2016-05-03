@@ -170,10 +170,20 @@ straightforward.
 
 Examples:
 
-- `Sage-Manifolds <http://sagemanifolds.obspm.fr/>`_
+- `Template for creating Sage packages <https://github.com/cswiercz/sage_packages>`
+- `Modular Abelian Varities <https://github.com/williamstein/sage_modabvar>`
+- `Python implementation of chebfun <https://github.com/cswiercz/pychebfun>`
+- `Purple Sage <https://github.com/williamstein/psage>`
 - `slabbe-0.2.spkg <http://www.slabbe.org/blogue/categorie/slabbe-spkg/>`_
   See also this `blog post <http://www.slabbe.org/blogue/2014/08/releasing-slabbe-my-own-sage-package/>`_
-- `CHA <https://bitbucket.org/nborie/cha>`_
+  Note that this is an spkg, rather than a standard pip-installable package.
+
+NON-Examples:
+
+- `Sage-Manifolds <http://sagemanifolds.obspm.fr/>`: the install script (http://sagemanifolds.obspm.fr/spkg/sm-install.sh) for this does all kinds of copying files directly into the sage install, using sed to modify parts of the sage library, etc.  It's terrifying.  -- William
+
+- `CHA <https://bitbucket.org/nborie/cha>`_   "It is recommended to use the more recent implementation from the branch attached to this ticket rather than this library."; I think this is just some code to copy into the sage library or run directly, with no package support at all.
+
 
 Pros:
 
