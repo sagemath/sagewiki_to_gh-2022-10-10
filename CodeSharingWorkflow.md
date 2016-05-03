@@ -85,18 +85,24 @@ In this workflow, each feature is shared by integrating it directly into Sage.
 Pros:
 
 - Simplicity for the user: all stable features are directly available in Sage
+
 - Simplicity for Sage developers: no additional workflow to learn, no
   need to worry about distribution
+
 - Promote early integration of code and 3.
+
 - 8. is straightforward
 
 Cons:
 
 - Limited support for 2.
+
 - Slows down the development: once a feature is in Sage, any change
   needs to be reviewed, refactoring of the public API requires taking
   care of backward compatibility. No good for 4.
+
 - Getting the latest feature forces updating to the latest version of Sage
+
 - Introduces a bias toward code bloat (in doubt, features tend to be added to Sage)
 
 === Experimental feature branches ===
@@ -181,15 +187,20 @@ Specific steps:
   than lines in the source code.
 
 Pros:
+
 - Same as above
+
 - 8. is straightforward
+
 - Lighter maintenance overhead compared to branches or patch queues:
   one only needs to take care of semantic conflicts, not syntactic
   ones.
+
 - The integration of mature code into Sage helps for 3 and for the
   maintenance as well: keeping the library as a "small layer" over
   Sage reduces the risks of irreversibly drifting away, and reduces
   the amount of updating.
+
 - Depending on how strongly one pushes toward the integration of
   mature code, one can flexibly interpolate between the all-in-one
   model and the package model
