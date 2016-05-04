@@ -11,7 +11,7 @@ them.
 Over the years, many development workflows have been experimented by
 various groups of people to improve Sage in certain areas, like
 Sage-Combinat for (algebraic) combinatorics, Sage-Words for
-combinatorics on words, Sage-manifolds for differential geometry,
+combinatorics on words, SageManifolds for differential geometry,
 purple-sage for number theory, ...
 
 The goal of this document is to discuss the different workflow that
@@ -106,6 +106,10 @@ Cons:
 - Getting the latest feature forces updating to the latest version of Sage
 - Introduces a bias toward code bloat (in doubt, features tend to be added to Sage)
 
+Examples: 
+
+- `SageManifolds <http://sagemanifolds.obspm.fr/>`_, cf. the metaticket `#18528 <http://trac.sagemath.org/ticket/18528>`_ 
+
 Experimental feature branches
 -----------------------------
 
@@ -170,17 +174,17 @@ straightforward.
 
 Examples:
 
-- `Template for creating Sage packages <https://github.com/cswiercz/sage_packages>`
-- `Modular Abelian Varities <https://github.com/williamstein/sage_modabvar>`
-- `Python implementation of chebfun <https://github.com/cswiercz/pychebfun>`
-- `Purple Sage <https://github.com/williamstein/psage>`
+- `Template for creating Sage packages <https://github.com/cswiercz/sage_packages>`_
+- `Modular Abelian Varities <https://github.com/williamstein/sage_modabvar>`_
+- `Python implementation of chebfun <https://github.com/cswiercz/pychebfun>`_
+- `Purple Sage <https://github.com/williamstein/psage>`_
 - `slabbe-0.2.spkg <http://www.slabbe.org/blogue/categorie/slabbe-spkg/>`_
   See also this `blog post <http://www.slabbe.org/blogue/2014/08/releasing-slabbe-my-own-sage-package/>`_
   Note that this is an spkg, rather than a standard pip-installable package.
 
 NON-Examples:
 
-- `Sage-Manifolds <http://sagemanifolds.obspm.fr/>`: the install script (http://sagemanifolds.obspm.fr/spkg/sm-install.sh) for this does all kinds of copying files directly into the sage install, using sed to modify parts of the sage library, etc.  It's terrifying.  -- William
+- `SageManifolds <http://sagemanifolds.obspm.fr/>`_: the install script (http://sagemanifolds.obspm.fr/spkg/sm-install.sh) for this does all kinds of copying files directly into the sage install, using sed to modify parts of the sage library, etc.  It's terrifying.  -- William. True but that's only a provisory thing for an easy install by a newbie, until the process of full integration of SageManifolds in Sage, started at `#18528 <http://trac.sagemath.org/ticket/18528>`_, is finished. For a developer, the recommended installation process is via git, not via the above script. Actually, we started SageManifolds as a (new-style) spkg and it was distributed as such until version 0.4. Then, in order to ease the review process, we split it in many tickets (listed at `#18528 <http://trac.sagemath.org/ticket/18528>`_) and devise the above script just for end users not familiar with git and make. Really the development workflow of SageManifolds pertains to the category ''Direct integration into Sage'' above, hence it is a Non-Example here -- Eric. 
 
 - `CHA <https://bitbucket.org/nborie/cha>`_   "It is recommended to use the more recent implementation from the branch attached to this ticket rather than this library."; I think this is just some code to copy into the sage library or run directly, with no package support at all.
 
