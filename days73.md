@@ -21,7 +21,7 @@ The workshop will start wednesday 04 morning and ends saturday 07 after lunch. I
 ||<#FFFFAA> 14:30 - 15:30 || presentation / discussion     || ?                             || ?                           || FREE                          ||
 ||<#FFFFAA> 15:30 - 17:00 || tutorial: symbolic vs numeric || ?                             || ?                           || FREE                          ||
 ||<#F8F8FF> 17:00 - 17:30 ||<#F8F8FF> coffe break          ||<#F8F8FF> coffe break          ||<#F8F8FF> coffe break        || FREE                          ||
-||<#FFFFAA> 17:30 - 18:00 || Pat Hooper's demo             || ?                             || ?                           || FREE                          ||
+||<#FFFFAA> 17:30 - 18:00 || Pat Hooper's demo             || Charle's demo                 || Vincent's demo              || FREE                          ||
 ||<#FFFFAA> 18:00 - 19:00 || coding spring                 || ?                             || ?                           || FREE                          ||
 
 == Talks ==
