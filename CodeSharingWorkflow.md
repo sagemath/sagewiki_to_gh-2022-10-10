@@ -17,9 +17,13 @@ purple-sage for number theory, ...
 The goal of this document is to discuss the different workflow that
 have been tried, their pros and cons, to share best practices and
 brainstorm about what support and recommendations Sage could provide
-for various use cases.
+for various use cases. Eventually, this could become a section of the
+developers manual (though this can be of interest for other people
+wanting to start sharing code without necessarily contributing to
+Sage).
 
-At this point this is a collection of notes by N. Thiéry; please hack in and contribute your own vision!
+At this point this is a collection of notes by N. Thiéry; please hack
+in and contribute your own vision!
 
 Objectives of a development workflow
 ====================================
@@ -145,6 +149,10 @@ See also those old `design notes about the Sage-Combinat workflow <combinat/Code
 
 TODO: description
 
+This section is just for reference: there used to be a strong rationale for this workflow with the
+former Sage development workflow and a given context. But not
+any more. 
+
 Pros:
 
 - Relatively good for 1. (except for 6.)
@@ -184,7 +192,32 @@ Examples:
 
 NON-Examples:
 
-- `SageManifolds <http://sagemanifolds.obspm.fr/>`_: the install script (http://sagemanifolds.obspm.fr/spkg/sm-install.sh) for this does all kinds of copying files directly into the sage install, using sed to modify parts of the sage library, etc.  It's terrifying.  -- William. True but that's only a provisory thing for an easy install by a newbie, until the process of full integration of SageManifolds in Sage, started at `#18528 <http://trac.sagemath.org/ticket/18528>`_, is finished. For a developer, the recommended installation process is via git, not via the above script. Actually, we started SageManifolds as a (new-style) spkg and it was distributed as such until version 0.4. Then, in order to ease the review process, we split it in many tickets (listed at `#18528 <http://trac.sagemath.org/ticket/18528>`_) and devise the above script just for end users not familiar with git and make. Really the development workflow of SageManifolds pertains to the category ''Direct integration into Sage'' above, hence it is a Non-Example here -- Eric. 
+- `SageManifolds <http://sagemanifolds.obspm.fr/>`_
+
+  The `install script <http://sagemanifolds.obspm.fr/spkg/sm-install.sh>`_
+  for this does all kinds of copying files directly into the sage
+  install, using sed to modify parts of the sage library, etc.  It's
+  terrifying.  -- William.
+
+  True but that's only a provisory thing for an easy install by a
+  newbie, until the process of full integration of SageManifolds in
+  Sage, started at `#18528 <http://trac.sagemath.org/ticket/18528>`_,
+  is finished. For a developer, the recommended installation process
+  is via git, not via the above script. Actually, we started
+  SageManifolds as a (new-style) spkg and it was distributed as such
+  until version 0.4. Then, in order to ease the review process, we
+  split it in many tickets (listed at `#18528
+  <http://trac.sagemath.org/ticket/18528>`_) and devise the above
+  script just for end users not familiar with git and make. Really the
+  development workflow of SageManifolds pertains to the category
+  ''Direct integration into Sage'' above, hence it is a Non-Example
+  here -- Eric.
+
+  Or maybe to the category "standalone package with an integration
+  mission below". By the way, the usage of scripts could potentially
+  be replaced by the monkey patching approach described below, though
+  I'd need to check the exact use cases. Let's discuss this at some
+  point!  -- Nicolas
 
 - `CHA <https://bitbucket.org/nborie/cha>`_   "It is recommended to use the more recent implementation from the branch attached to this ticket rather than this library."; I think this is just some code to copy into the sage library or run directly, with no package support at all.
 
