@@ -29,7 +29,7 @@ The workshop will start wednesday 04 morning and ends saturday 07 after lunch. I
  * Presentación de Sage, (jupyter notebook [[attachment:Sage presentation.ipynb]])
 
  * '''symbolic vs numerics in Sage''' (tutorial, wednesday 15:30 - 17:00, Vincent Delecroix)
-   There are many ways to deal with numbers within Sage (algebraic numbers, floating points, intervals, ...). We will present and illustrate pros and cons of all of them on some concrete problems: root finding, integration, solving ordinary differential equations.
+   There are many ways to deal with numbers within Sage (algebraic numbers, floating points, intervals, ...). We will present and illustrate pros and cons of all of them on some concrete problems: root finding, integration, solving ordinary differential equations. [[attachment:symbolic_vs_numeric.rst]]
 
  * [[https://github.com/videlec/sage-flatsurf|Flatsurf]] (demo, ¿when?,  Pat Hooper)
 
