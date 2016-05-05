@@ -30,8 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/20079|#20079]]) needs-review: Chebyshev Polynomials - Joe Eisner, Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/20227|#20227]]) needs-review: Chow form for projective subschemes - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/19635|#19635]]) needs-work: Enumeration functionality for products of projective spaces over fields and finite fields - Grayson Jorgenson
@@ -69,6 +67,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/20079|#20079]])-- closed sage 7.2: Chebyshev Polynomials - Joe Eisner, Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/20451|#20451]])-- closed sage 7.2: canonical height error - Ben Hutz
 
