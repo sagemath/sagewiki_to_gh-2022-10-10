@@ -81,7 +81,7 @@ European participants receiving some [[http://opendreamkit.org/|OpenDreamKit]] f
  * Nathan Dunfield (University of Illinois, Urbana-Champaign): ''!SnapPy''
  * Patrick Hooper (City College of New York): ''!FlatSurf and translation surfaces in Sage''
  * Marcin Kostur (University of Silesia, Katowice): ''3D visualization''
- * Jeremy L. Martin (University of Kansas, Lawrence): ''CW complexes''
+ * Jeremy L. Martin (University of Kansas, Lawrence): ''Simplicial and relative simplicial complexes''
  * John Palmieri (University of Washington, Seattle): ''simplicial sets''
  * Thibaut Paumard (Observatoire de Paris): ''Gyoto code and geodesics''
  * Nicolas Thiéry (University Paris Sud): ''Modelling mathematics in Sage (parents, elements, categories, ...)''
