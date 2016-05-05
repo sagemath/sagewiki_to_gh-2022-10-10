@@ -82,9 +82,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * --([[http://trac.sagemath.org/ticket/20018|#20018]])-- closed sage 7.1: init for endomorphism of projective subschemes fails - Ben Hutz
 
- * --([[http://trac.sagemath.org/ticket/19979|#19979]])-- closed sage 7.1: Fix coding style and documentation in projective products - Lauren Miller
+ * --([[http://trac.sagemath.org/ticket/19979|#19979]])-- closed sage 7.1: Fix coding style and documentation in projective products - Rebecca Lauren Miller
 
- * --([[http://trac.sagemath.org/ticket/19889|#19889]])-- closed sage 7.1: Fix coding style and documentation style in affine schemes - Lauren  Miller
+ * --([[http://trac.sagemath.org/ticket/19889|#19889]])-- closed sage 7.1: Fix coding style and documentation style in affine schemes - Rebecca Lauren  Miller
 
  * --([[http://trac.sagemath.org/ticket/19991|#19991]])-- closed sage 7.1: improve dimension function for subschemes of projective products - Ben Hutz
 
