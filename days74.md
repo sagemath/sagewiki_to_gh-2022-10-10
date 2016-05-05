@@ -27,7 +27,11 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * Implement more (co)homology theories (e.g., De Rham cohomology).
  * Implement methods for computing homotopy groups.
  * Tropical curves/geometry.
- * Geometric crystals.
+ * Implement Lie groups and related geometric objects such as Schubert cells.
+ * Implement geometric crystals.
+ * Implement hyperbolic space for dimensions > 2.
+ * Implement common metric spaces; for example, L^p^ spaces.
+ * Combine/standardize features of the hyperbolic plane with [[http://sagemanifolds.obspm.fr/|SageManifolds]].
 
 == Details ==
 
