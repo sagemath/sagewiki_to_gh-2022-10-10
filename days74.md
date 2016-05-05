@@ -26,6 +26,8 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * Improve/Implement knot theory in Sage (cf. [[http://trac.sagemath.org/ticket/17030|#17030]])
  * Implement more (co)homology theories (e.g., De Rham cohomology).
  * Implement methods for computing homotopy groups.
+ * Tropical curves/geometry.
+ * Geometric crystals.
 
 == Details ==
 
