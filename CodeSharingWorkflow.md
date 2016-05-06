@@ -3,7 +3,7 @@
 On development workflows for sharing (experimental) code
 ========================================================
 
-One core aim of Sage is to foster code sharing, and encourage groups
+One core aim of Sage is to foster code sharing, and to encourage groups
 of researchers, teachers, and other users to get together to develop
 new features they need either on top of or within Sage, and share
 them.
@@ -14,11 +14,11 @@ Sage-Combinat for (algebraic) combinatorics, Sage-Words for
 combinatorics on words, SageManifolds for differential geometry,
 purple-sage for number theory, ...
 
-The goal of this document is to discuss the different workflow that
-have been tried, their pros and cons, to share best practices and
-brainstorm about what support and recommendations Sage could provide
+The goal of this document is to discuss the different workflows that
+have been tried with their pros and cons, to share best practices and
+to brainstorm about what support and recommendations Sage could provide
 for various use cases. Eventually, this could become a section of the
-developers manual (though this can be of interest for other people
+developer's manual (though this can be of interest for other people
 wanting to start sharing code without necessarily contributing to
 Sage).
 
@@ -28,12 +28,13 @@ in and contribute your own vision!
 Objectives of a development workflow
 ====================================
 
-Of course the milleage will vary from project to project, but the objectives of a development workflow can typically be to:
+Of course the milleage will vary from project to project, but the objectives
+of a development workflow can typically be to:
 
 1.  Support *fast paced development* within a group of users working on
     the same topic, or needing similar features.
 
-2.  Support *rapid dissemination of experimental features*
+2.  Support *rapid dissemination of experimental features*.
 
     The goal is simultaneously to support users, and to get early
     feedback on the code.
@@ -47,9 +48,9 @@ Of course the milleage will vary from project to project, but the objectives of 
       upgrade all of Sage (e.g. just before delivering a talk!!!)
 
     - Feature discovery: increasing the chances for someone to
-      discover that a given feature is being implemented somewhere.
+      discover that a given feature is being implemented somewhere
 
-3.  Foster high quality code by promoting documentation, tests, code reviews
+3.  Foster high quality code by promoting documentation, tests, code reviews.
 
 4.  Foster intrinsic high quality code by providing an *ecosystem*
     where (experimental) code can live, compete with other
@@ -61,15 +62,15 @@ Of course the milleage will vary from project to project, but the objectives of 
     In particular mitigate the risks of code-bloat of the Sage library
     versus the risks of death of code lying out somewhere on the web.
 
-6.  Minimize *maintenance* overhead, and in particular code rotting
+6.  Minimize *maintenance* overhead, and in particular code rotting.
 
 7.  Remain flexible between the all-in-one versus packages development models
-    (simplifying things out: between Sage's model and GAP's model)
+    (simplifying things out: between Sage's model and GAP's model).
 
 8.  Promote extending existing Sage classes and modules with additional features.
 
     This eases dynamic feature discovery by users (once installed,
-    features can be found at their expected place) and enable
+    features can be found at their expected location) and enable
     transparent migration of code inside the Sage library if and when
     desired (no need to change the code itself, nor code using
     it). This also promotes coherent coding standards.
@@ -77,7 +78,7 @@ Of course the milleage will vary from project to project, but the objectives of 
     Note: subclassing is not always an option to extend a class,
     e.g. when a feature is to be added to an abstract base class of
     many concrete classes (subclassing each and every concrete class
-    would be a pain)
+    would be a pain).
 
     See also:
 
@@ -98,49 +99,51 @@ Pros:
 - Simplicity for the user: all stable features are directly available in Sage
 - Simplicity for Sage developers: no additional workflow to learn
 - No need to worry about release, distribution, test infrastructure, ...
-- Promotes early integration of code and 3.
-- 8. is straightforward
+- Promotes early integration of code and objective 3
+- Makes objective 8 straightforward
 
 Cons:
 
-- Limited support for 2.
+- Limited support for objective 2
 - Slows down the development: once a feature is in Sage, any change
   needs to be reviewed, refactoring of the public API requires taking
-  care of backward compatibility. No good for 4.
+  care of backward compatibility. No good for objective 4
 - Getting the latest feature forces updating to the latest version of Sage
 - Introduces a bias toward code bloat (in doubt, features tend to be added to Sage)
 
 Examples: 
 
-- `SageManifolds <http://sagemanifolds.obspm.fr/>`_, cf. the metaticket `#18528 <http://trac.sagemath.org/ticket/18528>`_ 
+- `SageManifolds <http://sagemanifolds.obspm.fr/>`_, cf. the metaticket
+`#18528 <http://trac.sagemath.org/ticket/18528>`_ 
 
 Experimental feature branches
 -----------------------------
 
-In this workflow, experimental feature or feature sets are implemented as branches on the Sage sources.
+In this workflow, experimental feature or feature sets are implemented as
+branches on the Sage sources.
 
 Pros:
 
-- 8. is straightforward
+- Makes objective 8 straightforward
 - Encourages integration into Sage
 - Development history is automatically kept upon integration into Sage
 
 Cons:
 
 - Branch needs to be regularly updated to prevent code rotting due to
-  syntactical conflicts with changes in Sage (though automatic merges help).
-- 2. requires basic git knowledge from end-users.
-- Lack of modularity for 2.: due to potential conflicts, it's not easy
+  syntactical conflicts with changes in Sage (though automatic merges help)
+- Objective 2 requires basic git knowledge from end-users
+- Lack of modularity for objective 2: due to potential conflicts, it's not easy
   to combine features from several branches; upgrading to the latest
   version of a branch often forces a change of version of Sage
 - Cherry picking certain mature features for integration in Sage is
   somewhat cumbersome (the granularity of branches and commits is
-  orthogonal to the granularity of features).
+  orthogonal to the granularity of features)
 - It's hard to strike the right granularity in terms of feature /
   feature set. We tried dependency tracking among branches as a way to
-  build feature sets out of features, but this did not work well.
-- Because of the above, this workflow does not work well for 4.
-- Introduces a bias toward the all-in-one development model.
+  build feature sets out of features, but this did not work well
+- Because of the above, this workflow does not work well for objective 4
+- Introduces a bias toward the all-in-one development model
 
 Patch queue as used by Sage-Combinat between 2009 and 2013
 ----------------------------------------------------------
@@ -155,15 +158,16 @@ any more.
 
 Pros:
 
-- Relatively good for 1. (except for 6.)
-- Relatively good for 2. (thanks to "sage -combinat install"), except
+- Relatively good for objective 1 (except for objective 6)
+- Relatively good for objective 2 (thanks to "sage -combinat install"), except
   for modularity and requiring some Sage recompilation
-- 8. is straightforward
+- Objective 8 is straightforward
 
 Cons:
 
 - Complexity of working at the meta level (version control on the patches)
-- Really bad at 6: Horrible maintenance overhead due to syntactic conflicts and lack of automatic merging
+- Really bad at objective 6: Horrible maintenance overhead due to syntactic conflicts
+  and lack of automatic merging
 - Introduces a strong bias toward code death, or at least non integration into Sage
 - Monolithic: one could not use several patch queues at once, so this
   did not support overlaping groups of people working on different
@@ -224,7 +228,7 @@ NON-Examples:
 
 Pros:
 
-- Good for 1., 2., 4.,
+- Good for objectives 1, 2, 4
 
 Cons:
 
@@ -262,11 +266,11 @@ Examples:
 Pros:
 
 - Same as above
-- 8. is straightforward
+- Objective 8 is straightforward
 - Lighter maintenance overhead compared to branches or patch queues:
   one only needs to take care of semantic conflicts, not syntactic
   ones.
-- The integration of mature code into Sage helps for 3 and for the
+- The integration of mature code into Sage helps for objective 3 and for the
   maintenance as well: keeping the library as a "small layer" over
   Sage reduces the risks of irreversibly drifting away, and reduces
   the amount of updating.
