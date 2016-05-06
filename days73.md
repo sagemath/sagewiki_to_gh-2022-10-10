@@ -28,6 +28,8 @@ The workshop will start wednesday 04 morning and ends saturday 07 after lunch. I
 
  * Presentación de Sage, (jupyter notebook [[attachment:Sage presentation.ipynb]])
 
+ During the elaboration of the talk it appeared that many things differ between the jupyter and Sage notebook. It was reported on the mailing list [[https://groups.google.com/forum/#!topic/sage-devel/OO64qyj65oo|sage-devel]]. Some of the problem are already fixed (see e.g. [[http://trac.sagemath.org/ticket/20562|#20562]])!
+
  * '''symbolic vs numerics in Sage''' (tutorial, wednesday 15:30 - 17:00, Vincent Delecroix)
    There are many ways to deal with numbers within Sage (algebraic numbers, floating points, intervals, ...). We will present and illustrate pros and cons of all of them on some concrete problems: root finding, integration, solving ordinary differential equations.  [[attachment:symbolic_vs_numeric.rst]]
 
