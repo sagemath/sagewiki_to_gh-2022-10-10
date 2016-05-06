@@ -32,6 +32,7 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * Implement hyperbolic space for dimensions > 2.
  * Implement common metric spaces; for example, L^p^ spaces.
  * Combine/standardize features of the hyperbolic plane with [[http://sagemanifolds.obspm.fr/|SageManifolds]].
+ * Sage development workflow (cf. https://wiki.sagemath.org/CodeSharingWorkflow)
 
 == Details ==
 
