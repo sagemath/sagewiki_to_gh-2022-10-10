@@ -13,15 +13,15 @@ The workshop will start wednesday 04 morning and ends saturday 07 after lunch. I
 == Previsional schedule ==
 
 ||<5%>                    ||<15% #FFFFAA:> Wednesday 4 May ||<15%  #FFFFAA:> Thursday 5 May ||<15%  #FFFFAA:> Friday 6 May ||<15%  #FFFFAA:> Saturday 7 May ||
-||<#FFFFAA> 09:00 - 10:00 || registro y instalación        || coding sprint                 || ?                           || ?                             ||
-||<#FFFFAA> 10:00 - 11:00 || presentación de Sage          || coding sprint                 || ?                           || ?                             ||
+||<#FFFFAA> 09:00 - 10:00 || registro y instalación        || coding sprint                 || sharing Sage/Python code    || ?                             ||
+||<#FFFFAA> 10:00 - 11:00 || presentación de Sage          || coding sprint                 || type and classes in Python  || ?                             ||
 ||<#F8F8FF> 11:00 - 11:30 ||<#F8F8FF> té y café            ||<#F8F8FF> coffe break          ||<#F8F8FF> coffe break        ||<#F8F8FF> coffe break          ||
 ||<#FFFFAA> 11:30 - 13:00 || actividades practicas         || coding sprint                 || ?                           || ?                             ||
 ||<#CCCCFF> 13:00 - 14:30 ||<#CCCCFF> lunch break          ||<#CCCCFF> lunch break          ||<#CCCCFF> lunch break        ||<#CCCCFF> lunch break          ||
 ||<#FFFFAA> 14:30 - 15:30 || presentation / discussion     || coding sprint                 || ?                           || FREE                          ||
 ||<#FFFFAA> 15:30 - 17:00 || tutorial: symbolic vs numeric || coding sprint                 || ?                           || FREE                          ||
 ||<#F8F8FF> 17:00 - 17:30 ||<#F8F8FF> coffe break          ||<#F8F8FF> coffe break          ||<#F8F8FF> coffe break        || FREE                          ||
-||<#FFFFAA> 17:30 - 18:00 || Pat Hooper's demo             || Vincent's demo                 || Vincent's demo              || FREE                          ||
+||<#FFFFAA> 17:30 - 18:00 || Pat Hooper's demo             || Vincent's demo                || Charles's demo              || FREE                          ||
 ||<#FFFFAA> 18:00 - 19:00 || coding spring                 || status report                 || ?                           || FREE                          ||
 
 == Talks ==
