@@ -78,7 +78,7 @@ people: Anja
 
 {{attachment:flat_picture_of_z-quared-dz.png}}
 
-{{attachment:attachment:other_flat_picture_of_z-quared-dz.png}}
+{{attachment:other_flat_picture_of_z-quared-dz.png}}
 
 
 === other projects ===
