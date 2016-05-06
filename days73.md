@@ -134,7 +134,7 @@ people: Anja
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
  * [[http://www.matmor.unam.mx/~ferran/|Ferrán Valdez]]
 
-== Preliminary list of participants (to be confirmed) ==
+== Participants ==
 
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
  * [[https://www.math.toronto.edu/cms/fortier-bourque-maxime/|Maxime Fortier-Bourque]]
