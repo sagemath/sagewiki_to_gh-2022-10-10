@@ -159,6 +159,10 @@ European participants receiving some [[http://opendreamkit.org/|OpenDreamKit]] f
  * Artur Trzesiok (Poland)
  * Anne Vaugon (University Paris Sud, France)
 
+==== Remote: ====
+
+ * Miguel Angel Marco Buzunariz (University of Zaragoza, Spain)
+
 === Organizers ===
 
  * Eric Gourgoulhon (Observatoire de Paris)
