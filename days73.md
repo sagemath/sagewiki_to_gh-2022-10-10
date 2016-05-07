@@ -100,6 +100,12 @@ people: Grace
 
 Distribution of gap of saddle connection for a surface defined on a cubic field!: GRACE PICTURE TO COME
 
+=== Computing quadratic differentials on tori ===
+
+people: Charles
+
+Using Weirstrass function one can find explicit formulas for quadratic differentials on tori1: CHARLES PICTURES TO COME!
+
 === other projects ===
 
  * Compute properties of Coxeter or Artin groups (normal forms, ...)
