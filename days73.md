@@ -8,21 +8,21 @@
 
  * help people to implement their own projects
 
-The workshop will start wednesday 04 morning and ends saturday 07 after lunch. It will take place at [[http://www.pmc.gob.mx/|Punto Mexico Conectado @ Oaxaca]] in [[https://www.google.com.mx/maps/place/Punto+M%C3%A9xico+Conectado+Oaxaca/@17.0630565,-96.7325754,19z/data=!4m2!3m1!1s0x85c722148d9070eb:0x431c6d96d211d5b5|calzada Madero numero 101]].
+The workshop was started on wednesday 04 morning and ended on saturday 07. It took place at [[http://www.pmc.gob.mx/|Punto Mexico Conectado @ Oaxaca]] in [[https://www.google.com.mx/maps/place/Punto+M%C3%A9xico+Conectado+Oaxaca/@17.0630565,-96.7325754,19z/data=!4m2!3m1!1s0x85c722148d9070eb:0x431c6d96d211d5b5|calzada Madero numero 101]].
 
-== Previsional schedule ==
+== Schedule ==
 
 ||<5%>                    ||<15% #FFFFAA:> Wednesday 4 May ||<15%  #FFFFAA:> Thursday 5 May ||<15%  #FFFFAA:> Friday 6 May ||<15%  #FFFFAA:> Saturday 7 May ||
-||<#FFFFAA> 09:00 - 10:00 || registro y instalación        || coding sprint                 || sharing Sage/Python code    || ?                             ||
-||<#FFFFAA> 10:00 - 11:00 || presentación de Sage          || coding sprint                 || type and classes in Python  || ?                             ||
+||<#FFFFAA> 09:00 - 10:00 || registro y instalación        || coding sprint                 || coding sprint               || ?                             ||
+||<#FFFFAA> 10:00 - 11:00 || presentación de Sage          || coding sprint                 || coding sprint               || ?                             ||
 ||<#F8F8FF> 11:00 - 11:30 ||<#F8F8FF> té y café            ||<#F8F8FF> coffe break          ||<#F8F8FF> coffe break        ||<#F8F8FF> coffe break          ||
-||<#FFFFAA> 11:30 - 13:00 || actividades practicas         || coding sprint                 || ?                           || ?                             ||
+||<#FFFFAA> 11:30 - 13:00 || actividades practicas         || coding sprint                 || sharing code howto          || status report                 ||
 ||<#CCCCFF> 13:00 - 14:30 ||<#CCCCFF> lunch break          ||<#CCCCFF> lunch break          ||<#CCCCFF> lunch break        ||<#CCCCFF> lunch break          ||
-||<#FFFFAA> 14:30 - 15:30 || presentation / discussion     || coding sprint                 || ?                           || FREE                          ||
-||<#FFFFAA> 15:30 - 17:00 || tutorial: symbolic vs numeric || coding sprint                 || ?                           || FREE                          ||
+||<#FFFFAA> 14:30 - 15:30 || presentation / discussion     || coding sprint                 || coding sprint               || FREE                          ||
+||<#FFFFAA> 15:30 - 17:00 || tutorial: symbolic vs numeric || coding sprint                 || coding sprint               || FREE                          ||
 ||<#F8F8FF> 17:00 - 17:30 ||<#F8F8FF> coffe break          ||<#F8F8FF> coffe break          ||<#F8F8FF> coffe break        || FREE                          ||
 ||<#FFFFAA> 17:30 - 18:00 || Pat Hooper's demo             || Vincent's demo                || Charles's demo              || FREE                          ||
-||<#FFFFAA> 18:00 - 19:00 || coding spring                 || status report                 || ?                           || FREE                          ||
+||<#FFFFAA> 18:00 - 19:00 || coding spring                 || status report                 || coding sprint               || FREE                          ||
 
 == Talks ==
 
@@ -33,20 +33,11 @@ The workshop will start wednesday 04 morning and ends saturday 07 after lunch. I
  * '''symbolic vs numerics in Sage''' (tutorial, wednesday 15:30 - 17:00, Vincent Delecroix)
    There are many ways to deal with numbers within Sage (algebraic numbers, floating points, intervals, ...). We will present and illustrate pros and cons of all of them on some concrete problems: root finding, integration, solving ordinary differential equations.  [[attachment:symbolic_vs_numeric.rst]]
 
- * [[https://github.com/videlec/sage-flatsurf|Flatsurf]] (demo, ¿when?,  Pat Hooper)
+ * [[https://github.com/videlec/sage-flatsurf|Flatsurf]] Pat's demo: PAT'S WORKSHEET TO COME
 
- * [[http://www.labri.fr/perso/vdelecro/flatsurf.html|the flatsurf package]] (demo, ¿when?, Vincent Delecroix)
+ * [[http://www.labri.fr/perso/vdelecro/flatsurf.html|the flatsurf package]] (demo, thursday 17:30 - 18:00, Vincent Delecroix)
 
- * '''computing Lyapunov exponents of the Teichmueller flow''' (demo, ¿when?, Charles Fougeron)
-
- * '''developing tools''' (tutorial, ¿when?, ¿who?)
-  [[https://en.wikipedia.org/wiki/Git_%28software%29|git]], the [[http://trac.sagemath.org/|Sage trac server]], mailing lists ([[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]], [[https://groups.google.com/forum/#!forum/sage-support|sage-support]], [[http://pari.math.u-bordeaux.fr/lists-index.html|pari-users]], etc) and forums ([[http://ask.sagemath.org/|ask sagemath]]).
-
- * ? class howto ?
-
- * ? (tutorial) SL2Z and triangle group code in Sage
-
- * ? (tutorial) graphs and digraphs in Sage ([[http://doc.sagemath.org/html/en/reference/graphs/index.html|Sage graph stuff]] and possibly [[http://www.tcs.hut.fi/Software/bliss/|bliss software]], [[http://pallini.di.uniroma1.it/|nauty and Traces]], [[http://igraph.org/redirect.html|igraph]], ...)
+ * '''computing Lyapunov exponents of the Teichmueller flow''' (demo, friday, 17:30 - 18:00, Charles Fougeron): CHARLES WORKHSEET TO COME
 
 == Projects ==
 
@@ -103,6 +94,12 @@ people: Anja
 {{attachment:flat_picture_of_z-quared-dz.png}} {{attachment:other_flat_picture_of_z-quared-dz.png}}
 
 
+===  Generating saddle connections in a given surface and study their statistics *efficiently* ===
+
+people: Grace
+
+Distribution of gap of saddle connection for a surface defined on a cubic field!: GRACE PICTURE TO COME
+
 === other projects ===
 
  * Compute properties of Coxeter or Artin groups (normal forms, ...)
@@ -116,8 +113,6 @@ people: Anja
     3. has infinite covolume
 
  In case 2. and 3. the algorithm should also output a fundamental domain and generators in canonical forms. (Charles, Vincent)
-
- * Generating saddle connections in a given surface and study their statistics *efficiently* (Grace)
 
  * Affine interval exchange transformations: rotation number for affine circle homeos, generalized Rauzy induction, hyperbolicity, periodic points, ... (Charles)
 
