@@ -89,6 +89,10 @@ A nice animation of a Teichmueller geodesic embedded in R3 (four time punctured 
 
 {{attachment:twist-small.gif}}  {{attachment:P2A-small.gif}}
 
+Some graphs
+
+{{attachment:graph1.png}}  {{attachment:graph2.png}}  {{attachment:graph3.png}}
+
 === visualize the translation structure induced by a not so nice differential ===
 
 people: Anja
