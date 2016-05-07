@@ -8,7 +8,49 @@ Registration is free and now open. Contact Eric (eric.gourgoulhon@obspm.fr) and 
 
 == Schedule ==
 
-TBA (see the list of speakers below)
+|||||| '''Monday 30 May''' ||
+|| 9:30 - 10:30 || Volker Braun || ''An introduction to !SageMath'' ||
+|| 10:30 - 11:00 |||| coffee break ||
+|| 11:00 - 12:00 || Nathan Dunfield || ''!SnapPy'' ||
+|| 12:00 - 13:00 || Marc Culler || ''!SnapPy'' ||
+|| 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
+|| 14:00 - 15:00 |||| Organization of working groups ||
+|| 15:00 - 16:00 |||| working groups / coding sprints ||
+|| 16:00 - 16:30 |||| coffee break ||
+|| 16:30 - ...   |||| working groups / coding sprints ||
+|||||| '''Tuesday 31 May''' ||
+|| 9:30 - 10:30 || Nicolas Thiéry || ''Modelling mathematics in Sage (parents, elements, categories, ...)'' ||
+|| 10:30 - 11:00 |||| coffee break ||
+|| 11:00 - 12:00 || Marcin Kostur || ''3D visualization'' ||
+|| 12:00 - 13:00 || Thibaut Paumard || ''Gyoto code and geodesics'' ||
+|| 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
+|| 14:00 - 16:00 |||| working groups / coding sprints ||
+|| 16:00 - 16:30 |||| coffee break ||
+|| 16:30 - 17:00 |||| progress reports ||
+|| 17:00 - ...   |||| working groups / coding sprints ||
+|||||| '''Wednesday 1 June''' ||
+|| 9:30 - 10:30 || John Palmieri || ''Simplicial sets'' ||
+|| 10:30 - 11:00 |||| coffee break ||
+|| 11:00 - 12:00 || Mark Bell || ''Flipper and Sage'' ||
+|| 12:00 - 13:00 || Volker Braun || ''Toric geometry'' ||
+|| 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
+|| 14:00 - 16:00 |||| working groups / coding sprints ||
+|| 16:00 - 16:30 |||| coffee break ||
+|| 16:30 - 17:00 |||| progress reports ||
+|| 17:00 - 18:30   |||| working groups / coding sprints ||
+|| 18:30  |||| social dinner ||
+|||||| '''Thursday 2 June''' ||
+|| 9:30 - 10:30 || John Palmieri || ''Simplicial sets'' ||
+|| 10:30 - 11:00 |||| coffee break ||
+|| 11:00 - 12:00 || Patrick Hooper || ''!FlatSurf and translation surfaces in Sage'' ||
+|| 12:00 - 13:00 || Vincent Delecroix || ''Riemannian manifolds'' ||
+|| 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
+|| 14:00 - 15:00 |||| progress reports ||
+|| 15:00 - 16:00 |||| working groups / coding sprints ||
+|| 16:00 - 16:30 |||| coffee break ||
+|| 16:30 - 17:00 |||| progress reports ||
+|| 17:00 - ...   |||| working groups / coding sprints ||
+
 
 == Projects ==
 
