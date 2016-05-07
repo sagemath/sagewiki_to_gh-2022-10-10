@@ -92,7 +92,9 @@ people: Maxime, Kasra
 
  * nice 3d plots to make animations of geodesic in Teichmueller space
 
-A nice animation of a Teichmueller geodesic embedded in R3 (four time punctured sphere): KASRA GIF PICTURE TO COME!!
+A nice animation of a Teichmueller geodesic embedded in R3 (four time punctured sphere): 
+
+{{attachment:twist-small.gif}}  {{attachment:P2A-small.gif}}
 
 === visualize the translation structure induced by a not so nice differential ===
 
