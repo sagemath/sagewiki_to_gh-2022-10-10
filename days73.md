@@ -51,6 +51,8 @@ people: Ferrán
 
 The algorithm that given the (decorated) train-track algorithm produces the Teichmueller polynomial is ready!! Remains to produce automatically these graphs.
 
+{{attachment::teichpol0-small.png}}  {{attachment::teichpol1-small.png}}  
+
 === flatsurf Package(s) ===
 
 people: Charles, Pat, Vincent
