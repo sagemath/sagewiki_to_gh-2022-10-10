@@ -20,7 +20,7 @@ to brainstorm about what support and recommendations Sage could provide
 for various use cases. Eventually, this could become a section of the
 developer's manual (though this can be of interest for other people
 wanting to start sharing code without necessarily contributing to
-Sage).
+Sage), or a page of the sagemath.org website.
 
 At this point this is a collection of notes by N. Thiéry; please hack
 in and contribute your own vision!
