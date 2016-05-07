@@ -40,7 +40,7 @@ Registration is free and now open. Contact Eric (eric.gourgoulhon@obspm.fr) and 
 || 17:00 - 18:30   |||| working groups / coding sprints ||
 || 18:30  |||| social dinner ||
 |||||| '''Thursday 2 June''' ||
-|| 9:30 - 10:30 || John Palmieri || ''Simplicial sets'' ||
+|| 9:30 - 10:30 || Jeremy Martin || ''Simplicial and relative simplicial complexes'' ||
 || 10:30 - 11:00 |||| coffee break ||
 || 11:00 - 12:00 || Patrick Hooper || ''!FlatSurf and translation surfaces in Sage'' ||
 || 12:00 - 13:00 || Vincent Delecroix || ''Riemannian manifolds'' ||
