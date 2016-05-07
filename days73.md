@@ -102,6 +102,8 @@ people: Grace
 
 Distribution of gap of saddle connection for a surface defined on a cubic field!: GRACE PICTURE TO COME
 
+{{attachment:sd.png}}
+
 === Computing quadratic differentials on tori ===
 
 people: Charles
