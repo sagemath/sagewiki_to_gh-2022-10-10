@@ -58,6 +58,8 @@ people: Ferrán
 
  * Explore Thierry's Coulbois [[https://github.com/coulbois/sage-train-track|train-track code]]
 
+The algorithm that given the (decorated) train-track algorithm produces the Teichmueller polynomial is ready!! Remains to produce automatically these graphs.
+
 === flatsurf Package(s) ===
 
 people: Charles, Pat, Vincent
@@ -89,6 +91,8 @@ people: Maxime, Kasra
  * geodesics, balls, triangles, ... Needs computing Teichmueller maps, i.e. solving PDE
 
  * nice 3d plots to make animations of geodesic in Teichmueller space
+
+A nice animation of a Teichmueller geodesic embedded in R3 (four time punctured sphere): KASRA GIF PICTURE TO COME!!
 
 === visualize the translation structure induced by a not so nice differential ===
 
