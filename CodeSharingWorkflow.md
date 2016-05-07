@@ -1,6 +1,6 @@
 {{{#!rst
 ========================================================
-On development workflows for sharing (experimental) code
+On development models for sharing (experimental) code
 ========================================================
 
 One core aim of Sage is to foster code sharing, and to encourage groups
