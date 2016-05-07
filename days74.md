@@ -43,7 +43,7 @@ Registration is free and now open. Contact Eric (eric.gourgoulhon@obspm.fr) and 
 || 9:30 - 10:30 || Jeremy Martin || ''Simplicial and relative simplicial complexes'' ||
 || 10:30 - 11:00 |||| coffee break ||
 || 11:00 - 12:00 || Patrick Hooper || ''!FlatSurf and translation surfaces in Sage'' ||
-|| 12:00 - 13:00 || Vincent Delecroix || ''Riemannian manifolds'' ||
+|| 12:00 - 13:00 || Vincent Delecroix || ''!FlatSurf and translation surfaces in Sage'' ||
 || 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
 || 14:00 - 15:00 |||| progress reports ||
 || 15:00 - 16:00 |||| working groups / coding sprints ||
