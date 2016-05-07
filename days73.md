@@ -100,7 +100,7 @@ people: Anja
 
 people: Grace
 
-Distribution of gap of saddle connection for a surface defined on a cubic field!: GRACE PICTURE TO COME
+Distribution of gap of saddle connection for a surface defined on a cubic field!
 
 {{attachment:sd.png}}
 
