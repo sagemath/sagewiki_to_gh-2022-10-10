@@ -157,7 +157,6 @@ European participants receiving some [[http://opendreamkit.org/|OpenDreamKit]] f
  * Travis Scrimshaw (University of Minnesota, USA)
  * Nicolas Thiéry (University Paris Sud, France)
  * Artur Trzesiok (Poland)
- * Anne Vaugon (University Paris Sud, France)
 
 ==== Remote: ====
 
