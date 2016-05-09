@@ -869,7 +869,7 @@ def _(gen = selector(['t+1', 't-1', '-1/t'], buttons=True,nrows=1)):
 
 {{attachment:fund_domain.png}}
 
-= Multiple Zeta Values or Euler-Zagier numbers =
+= Multiple Zeta Values  =
 by Akhilesh P.
 == Computing Multiple Zeta values (Euler-Zagier numbers) ==
 === Word Input ===
