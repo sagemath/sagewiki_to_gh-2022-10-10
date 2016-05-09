@@ -1,4 +1,4 @@
-= Multiple Zeta Values or Euler-Zagier numbers =
+= Multiple Zeta Values  =
 by Akhilesh P.
 == Computing Multiple Zeta values (Euler-Zagier numbers) ==
 === Word Input ===
