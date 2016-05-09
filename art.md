@@ -25,7 +25,6 @@
  * [[http://sage.math.washington.edu/home/wdj/art/sage-motivational-poster2.jpg|poster 2]] (jpg)
 ----
 = Sage-related art =
- * [[http://sage.math.washington.edu/home/malb/graphics/banner/sagelogo.png|logo]]
  * [[http://www.sagemath.org/old/days2/sage-car.png|Sage car]]
  * [[http://sage.math.washington.edu/home/malb/graphics/sage-car.pdf|Sage car PDF]]
  * [[http://sagemath.org/old/art/|old sage art page, some good graffiti!]]
