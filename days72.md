@@ -36,12 +36,12 @@ Saturday:
  * 14:00: number theory in SageMath [Štěpán Starosta or Tomáš Vávra]
  * 15:00: * coffee break *
  * 15:30: automata in SageMath [Clemens Heuberger]
- * 16:30: SageMath's coercion framework [Daniel Krenn]
+ * 16:30--17:00: Multiplying apples and oranges by SageMath's coercion framework [Daniel Krenn]
  * discussion, coding, etc.
 
 Sunday:
  * 9:30: * coffee break *
- * 10:00 - 10:30: development for SageMath [Daniel Krenn]
+ * 10:00--10:30: development for SageMath [Daniel Krenn]
  * 11:00: Julia vs. SageMath [Tomáš Kalvoda]
  * 12:00: lunch
  * 14:00: Using Sage in number system research (part 1) [Attila Kovács]
