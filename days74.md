@@ -153,7 +153,6 @@ European participants receiving some [[http://opendreamkit.org/|OpenDreamKit]] f
  * Jeremy L. Martin (University of Kansas, Lawrence, USA)
  * John Palmieri (University of Washington, Seattle, USA)
  * Thibaut Paumard (Observatoire de Paris, France)
- * Saul Schleimer (University of Warwick, UK)
  * Travis Scrimshaw (University of Minnesota, USA)
  * Nicolas Thiéry (University Paris Sud, France)
  * Artur Trzesiok (Poland)
