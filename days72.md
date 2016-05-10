@@ -33,10 +33,10 @@ Saturday:
  * 11:00: Introduction to SageMath (and Python) [Štěpán Starosta]
 	* there will be room to try SageMath
  * 12:00: lunch
- * 14:00: automata in SageMath [Clemens Heuberger or Daniel Krenn]
+ * 14:00: number theory in SageMath [Štěpán Starosta or Tomáš Vávra]
  * 15:00: * coffee break *
- * 15:30: SageMath's coercion framework [Daniel Krenn]
- * 16:00: number theory in SageMath [Štěpán Starosta or Tomáš Vávra]
+ * 15:30: automata in SageMath [Clemens Heuberger]
+ * 16:30: SageMath's coercion framework [Daniel Krenn]
  * discussion, coding, etc.
 
 Sunday:
