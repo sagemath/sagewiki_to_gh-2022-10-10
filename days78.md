@@ -85,6 +85,7 @@ There will also be time for '''code sprints'''.
  * Travis Scrimshaw (University of Minnesota)
  * Robin Sulzgruber (Universität Wien) 
  * Jessica Striker (North Dakota State University)
+ * Foster Tom (UBC)
  * Ahmed Umer Ashraf (University of West Ontario)
  * Steph van Willigenburg (UBC)
  * Mike Zabrocki (York university)
