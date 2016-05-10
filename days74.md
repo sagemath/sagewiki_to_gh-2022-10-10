@@ -22,7 +22,7 @@ Registration is free and now open. Contact Eric (eric.gourgoulhon@obspm.fr) and 
 || 9:30 - 10:30 || Nicolas Thiéry || ''Modelling mathematics in Sage (parents, elements, categories, ...)'' ||
 || 10:30 - 11:00 |||| coffee break ||
 || 11:00 - 12:00 || Marcin Kostur || ''3D visualization'' ||
-|| 12:00 - 13:00 || Thibaut Paumard || ''Gyoto code and geodesics'' ||
+|| 12:00 - 13:00 || Volker Braun || ''Toric geometry'' ||
 || 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
 || 14:00 - 16:00 |||| working groups / coding sprints ||
 || 16:00 - 16:30 |||| coffee break ||
@@ -32,7 +32,7 @@ Registration is free and now open. Contact Eric (eric.gourgoulhon@obspm.fr) and 
 || 9:30 - 10:30 || John Palmieri || ''Simplicial sets'' ||
 || 10:30 - 11:00 |||| coffee break ||
 || 11:00 - 12:00 || Mark Bell || ''Flipper and Sage'' ||
-|| 12:00 - 13:00 || Volker Braun || ''Toric geometry'' ||
+|| 12:00 - 13:00 || Thibaut Paumard || ''Gyoto code and geodesics'' ||
 || 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
 || 14:00 - 16:00 |||| working groups / coding sprints ||
 || 16:00 - 16:30 |||| coffee break ||
