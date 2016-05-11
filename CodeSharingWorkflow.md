@@ -119,7 +119,8 @@ Cons:
 Examples: 
 
 - `SageManifolds <http://sagemanifolds.obspm.fr/>`_, cf. the metaticket
-  `#18528 <http://trac.sagemath.org/ticket/18528>`_ 
+  `#18528 <http://trac.sagemath.org/ticket/18528>`_
+- `Algebraic Coding Theory for Sage <http://bitbucket.org/lucasdavid/sage_coding_project/wiki/Home>`_, cf. the metaticket `#18846 <http://trac.sagemath.org/ticket/18846>`_
 
 Experimental feature branches
 -----------------------------
