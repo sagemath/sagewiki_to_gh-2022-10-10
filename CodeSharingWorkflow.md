@@ -115,13 +115,20 @@ Cons:
   care of backward compatibility. No good for objective 4
 - Getting the latest feature forces updating to the latest version of Sage
 - Introduces a bias toward code bloat (in doubt, features tend to be added to Sage)
+- When development is faster than reviews, the maintenance effort in having many open tickets gets heavy when minor changes to an early ticket has to be merged into all later ones. 
 
 Examples: 
 
 - `SageManifolds <http://sagemanifolds.obspm.fr/>`_, cf. the metaticket
   `#18528 <http://trac.sagemath.org/ticket/18528>`_
-- `Algebraic Coding Theory for Sage <http://bitbucket.org/lucasdavid/sage_coding_project/wiki/Home>`_, cf. the metaticket `#18846 <http://trac.sagemath.org/ticket/18846>`_
+- `ACTIS: Algebraic Coding Theory for Sage <http://bitbucket.org/lucasdavid/sage_coding_project/wiki/Home>`_, cf. the metaticket `#18846 <http://trac.sagemath.org/ticket/18846>`_
 
+Discussion:
+
+- Soften model using external repo: In the beginning of ACTIS (see above), we maintained a public clone of Sage on Bitbucket where each major feature set was a branch. Once our main design was mature enough, the first few branches were made into Trac tickets and merged in Sage. This fully achieved objective 2 and 4 in this phase. When choosing the scope of a branch, attention was given to minimising dependencies, easing the maintenance burden of parallel development. However, extracting tickets from branches was manual and error-prone, and changes done in the trac review phase were annoying to port back to the public repo. So after the most volatile period of design, we abandoned this model.
+- Use the @experimental decorator to mitigate the backward compatibility issue while the code is not yet fully mature. The decorator is a bit clumsy to use due to doc-testing in Sphinx (tricks need to be done to avoid printing the experimental warning on each doc-test), see e.g. `AsymptoticRing <http://doc.sagemath.org/html/en/reference/asymptotic/sage/rings/asymptotic/growth_group.html>`.
+
+ 
 Experimental feature branches
 -----------------------------
 
