@@ -54,17 +54,23 @@ Feel free to add your own ideas here.
 
 = Funding =
 
-We plan on having some funding to invite a few participants.
+We have some funding for sage developers and students.
+Please contact David Lucas (david.lucas[at]inria.fr) to ask for funding.
 
 = Logistics =
 
 == Lodging ==
 
-TBA
+We booked a holiday cottage ([[http://www.cernayvacances.com/en/stay/de-toren/|The Tower]]
+and [[http://www.cernayvacances.com/en/stay/le-grenier-royal/|Le grenier royal]] and will provide
+free lodging.
+As there is a limited number of rooms, please contact David Lucas (david.lucas[at]inria.fr) if you
+want to stay at the cottage.
 
 == Transportation ==
 
 See directions [[http://www.lix.polytechnique.fr/cryptologie/directions|here]].
+We will provide transportation by cars between the cottage and Inria Saclay.
 
 == Participants ==
 
