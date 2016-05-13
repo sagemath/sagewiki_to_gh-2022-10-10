@@ -114,6 +114,8 @@ people: Charles
 
 Using Weirstrass function one can find explicit formulas for quadratic differentials on tori1: CHARLES PICTURES TO COME!
 
+{{attachment:Charles-gen_meromorphic_p0_z0.87_0.72I.png}}
+
 === other projects ===
 
  * Compute properties of Coxeter or Artin groups (normal forms, ...)
