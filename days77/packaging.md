@@ -105,7 +105,7 @@ Most of our discussion about Windows pertained to the first issue, as it is stil
 
 ==== Building on Windows ====
 
-There is some confusion about the differences and relationships between systems for building and running *NIX based software on Windows.  These include Cygwin, MSYS2, and MinGW(-w64).  There are others but these are the only three we discussed.  There is also the recently announced Ubuntu-based Linux subsystem for Windows, which will be discussed a little later.
+There is some confusion about the differences and relationships between systems for building and running *NIX based software on Windows.  These include Cygwin, MSYS2, and MinGW(-w64).  There are others but these are the only three we discussed.  There is also the recently announced Ubuntu-based Windows Subsystem for Linux (WSL), which will be discussed a little later.
 
 ===== Cygwin =====
 
@@ -137,6 +137,23 @@ Because of these issues it was generally agreed that the issue of building with 
 MSYS2 is also a fork of Cygwin, and its goals are different from both Cygwin and MinGW.  A more complete overview of the differences can be read on the project's [[https://sourceforge.net/p/msys2/wiki/How%20does%20MSYS2%20differ%20from%20Cygwin/|wiki]].  In short, MSYS2 is less focused on the POSIX-emulation goals of Cygwin (but benefits directly from them, and regularly merges upstream changes from Cygwin), but is more focused on providing a friendly software development environment for developers used to working on *NIX system, including shells, common shell tools, etc. It also includes a port of Arch's "pacman" package manager for installing and managing software.  In other words, the MSYS2 project is more focused on the user experience, while the developers of the Cygwin project remain primarily focused on the POSIX-emulation part of the equation.  Another major selling point for MSYS2 is that includes support for both a Cygwin-like toolchain that includes POSIX emulation, as well as for the MinGW toolchain.  So one can develop software for both within the same development environment.  Software built with the MSYS2 toolchain uses POSIX-emulation, and must be shipped with an msys2 DLL, much like as software built for Cygwin must be shipped with cygwin.dll.  Software built with MSYS2's MinGW is no different from using the MinGW toolchain directly without using the rest of the MSYS2 environment.
 
 Therefore it is worth trying out, and targeting as an environment in which to develop Sage in Windows. That is, development documentation might include instructions for setting up MSYS2 for Sage development.  The Cygwin-specific porting effort should translate over to using MSYS2's compiler toolchain. And it might be a good environment for experimenting with MinGW support if/when we reach that point.
+
+===== MSVC =====
+
+Another possibility for supporting Sage on Windows would be to build Sage on Microsoft's native compiler toolchain.  This was not discussed at length, though there was apparently an effort to investigate this some time ago, for which there are breadcrumbs of documentation under https://wiki.sagemath.org/windows.
+
+Python extension modules, including those compiled from Cython, ''can'' be built with MSVC.  Supporting this in Sage would mostly be a matter of ensuring that any modules that are configured to be built with specific compiler options first check what compiler is being used, and supply the appropriate options depending on the compiler (gcc, msvc, etc.).  However, many of Sage's dependencies do not already support building with the MS toolchain, so it's probably not worth the effort.  It's not clear whether there would be any immediate advantage to doing so.
+
+===== Windows Subsystem for Linux =====
+
+Just before SD77 the Windows Subsystem for Linux (WSL) was publicly announced for the first time.  This provides an emulation layer for Linux system calls, and some other APIs, baked directly into the Windows Kernel (as opposed to something like Cygwin which runs entirely in userspace).  The initial release of the WSL was developed in cooperation with Canonical, and includes a base image based on Ubuntu, including APT, and (presumably) a repository specifically for software that can run (ostensibly) on Windows.  This includes any user-mode software that does not use a GUI (i.e. that does not require an X server).  To be clear: These are real ELF64 binaries straight from Ubuntu's repository, which can run on Windows through the WSL.
+
+The initial release of WSL will be available in Windows 10 users [[http://arstechnica.com/information-technology/2016/03/windows-10-270-million-users-binbash-supporting-anniversary-update-coming-summer/|in an update available this summer]].  This will obviously be worth pursuing as a way forward for supporting Windows in the future.  But there are some caveats, such that this does not obsolete ongoing efforts to support Windows:
+
+ 1. Currently this is only planned to be available on Windows 10 (and even then only after an update). It's not clear (and seems unlikely) that Microsoft has any plans to backport this to older Windows versions.  It's also not yet clear whether it will be available on Windows by default (with the appropriate updates) or if it will be available only after installing a separate add-on.
+
+ 2. Currently Microsoft is positioning this as a tool for developers ''only'', and not for application deployment.  See [[http://arstechnica.com/information-technology/2016/04/why-microsoft-needed-to-make-windows-run-linux-software/|this article]] that has more historical background on the WSL, and why it should be viewed primarily as a developer tool.  This is not to say that one ''couldn't'' distribute software that uses the WSL, but we can't yet expect to have any support from Microsoft for that use case.  MS has not explicitly ruled this out as a possibility in the future either, but for now this is still considered very experimental.
+
 
 === Anaconda ===
 
