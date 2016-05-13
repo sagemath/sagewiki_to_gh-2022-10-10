@@ -89,9 +89,11 @@ A nice animation of a Teichmueller geodesic embedded in R3 (four time punctured 
 
 {{attachment:twist-small.gif}}  {{attachment:P2A-small.gif}}
 
-Some graphs
+Given two complex structures on the pentagon, the first plot represents the graph of (half the logarithm of)
+the ratio of extremal lengths with respect to these structures, as a function on measured foliations. The next two
+plots are the derivative and second derivative respectively.
 
-{{attachment:graph1.png}}  {{attachment:graph2.png}}  {{attachment:graph3.png}}
+{{attachment:graph3.png}}  {{attachment:graph4.png}}  {{attachment:graph5.png}}
 
 === visualize the translation structure induced by a not so nice differential ===
 
