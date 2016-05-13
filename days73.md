@@ -114,7 +114,7 @@ Distribution of gap of saddle connection for a surface defined on a cubic field!
 
 people: Charles
 
-Using Weirstrass function one can find explicit formulas for quadratic differentials on tori1: CHARLES PICTURES TO COME!
+Using Weirstrass function one can find explicit formulas for quadratic differentials on tori
 
 {{attachment:Charles-gen_meromorphic_p0_z0.87_0.72I.png}}
 
