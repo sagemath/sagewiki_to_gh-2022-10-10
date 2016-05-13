@@ -93,7 +93,7 @@ Given two complex structures on the pentagon, the first plot represents the grap
 the ratio of extremal lengths with respect to these structures, as a function on measured foliations. The next two
 plots are the derivative and second derivative respectively.
 
-{{attachment:graph3.png}}  {{attachment:graph4.png}}  {{attachment:graph5.png}}
+{{attachment:Maxime-graph3.png}}  {{attachment:Maxime-graph4.png}}  {{attachment:Maxime-graph5.png}}
 
 === visualize the translation structure induced by a not so nice differential ===
 
