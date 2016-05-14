@@ -8,7 +8,7 @@
 
  * help people to implement their own projects
 
-The workshop was started on wednesday 04 morning and ended on saturday 07. It took place at [[http://www.pmc.gob.mx/|Punto Mexico Conectado @ Oaxaca]] in [[https://www.google.com.mx/maps/place/Punto+M%C3%A9xico+Conectado+Oaxaca/@17.0630565,-96.7325754,19z/data=!4m2!3m1!1s0x85c722148d9070eb:0x431c6d96d211d5b5|calzada Madero numero 101]].
+The workshop started on wednesday 04 morning and ended on saturday 07. It took place at [[http://www.pmc.gob.mx/|Punto Mexico Conectado @ Oaxaca]] in [[https://www.google.com.mx/maps/place/Punto+M%C3%A9xico+Conectado+Oaxaca/@17.0630565,-96.7325754,19z/data=!4m2!3m1!1s0x85c722148d9070eb:0x431c6d96d211d5b5|calzada Madero numero 101]].
 
 == Schedule ==
 
@@ -26,7 +26,7 @@ The workshop was started on wednesday 04 morning and ended on saturday 07. It to
 
 == Talks ==
 
- * Presentación de Sage, (jupyter notebook [[attachment:Sage presentation.ipynb]])
+ * Presentación de Sage, (jupyter notebook [[attachment:Sage presentation.ipynb]] [[attachment:Sage presentation.pdf]])
 
  During the elaboration of the talk it appeared that many things differ between the jupyter and Sage notebook. It was reported on the mailing list [[https://groups.google.com/forum/#!topic/sage-devel/OO64qyj65oo|sage-devel]]. Some of the problem are already fixed (see e.g. [[http://trac.sagemath.org/ticket/20562|#20562]])!
 
