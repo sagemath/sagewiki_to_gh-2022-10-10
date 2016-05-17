@@ -22,7 +22,7 @@
 
 == Swedish ==
 
- * [[attachment:sage-ref-swedish.pdf]]
+ * [[attachment:sage-ref-swedish.pdf]] by Anders Martinsson (May 2016)
 
 == Spanish ==
 
