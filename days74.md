@@ -75,6 +75,8 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * Implement common metric spaces; for example, L^p^ spaces.
  * Combine/standardize features of the hyperbolic plane with [[http://sagemanifolds.obspm.fr/|SageManifolds]].
  * Sage development workflow (cf. https://wiki.sagemath.org/CodeSharingWorkflow)
+ * Improve/upgrade CHomP and its interface (cf. [[http://trac.sagemath.org/ticket/15202|#15202]])
+ * Clean up simplicial complex code (some easy cleanups like allowing the `_enlarged` cache to persist in `add_face`, also generally examine the code)
 
 == Details ==
 
