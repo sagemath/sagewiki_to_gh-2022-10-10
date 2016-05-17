@@ -20,6 +20,10 @@
 
  * '''Maths de base''' (Traduction francaise de '''Basic Math''') - [[attachment:sage-quickref_fr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=sage-quickref_fr.pdf|download]] (et son source [[attachment:sage-quickref_fr.tex]])
 
+== Swedish ==
+
+ * [[attachment:sage-ref-swedish.pdf]]
+
 == Spanish ==
 
  * '''Sage: guía de referencia rápida''' by William Stein (March 2009) - adaptación al español: Javier Honrubia González - [[attachment:quickref-es.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-es.pdf|download]] (y el código fuente [[attachment:quickref-es.zip]])
