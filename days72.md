@@ -86,8 +86,7 @@ The following people will most likely be able to attend.
  * Walid Wannes
  * Mario Weitzer
  * Rob Rubalcaba (subject to funding)
-
-Locals who will likely attend:
-
  * Tomáš Kalvoda
- * ...
+ * Zdeněk Čulík
+ * Clemens Heuberger
+ * Vladimir Lotoreichik
