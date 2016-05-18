@@ -143,6 +143,7 @@ European participants receiving some [[http://opendreamkit.org/|OpenDreamKit]] f
  * Léo Brunswic (University of Avignon, France)
  * Marc Culler (University of Illinois, Chicago, USA)
  * Vincent Delecroix (University of Bordeaux, France)
+ * Jeroen Demeyer (Ghent University, Belgium / University Paris Sud, France)
  * Nathan Dunfield (University of Illinois, Urbana-Champaign, USA)
  * Anastasia Golubtsova (Bogoliubov Laboratory of Theoretical Physics, Dubna, Russia)
  * Eric Gourgoulhon (Observatoire de Paris, France)
