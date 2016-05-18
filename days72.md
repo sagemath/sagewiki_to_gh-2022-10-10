@@ -59,24 +59,28 @@ The following people will most likely be able to attend.
  * Petr Ambrož
  * Hamdi Ammar
  * Myriam Amri
- * hamdi aouinti
+ * Hamdi Aouinti
  * Horst Brunotte
  * Amara Chandoul
+ * Clemens Heuberger
  * Jonas Jankauskas
+ * Tomáš Kalvoda
  * Kamil Keprt
  * Karel Klouda
  * Ondřej Kolouch
  * Attila Kovács
  * Daniel Krenn
  * DoYong Kwon
+ * Vladimir Lotoreichik
  * Faiza Mahjoub
  * Merkhi Malika
  * Mohamed Mkaouar
  * Hbaib Mohamed
  * Lukáš Novotný
  * Marco Pedicini
+ * Rob Rubalcaba (subject to funding)
  * Driss Sana
- * zhang shuqin
+ * Zhang Shuqin
  * Bernd Sing
  * Lukas Spiegelhofer
  * Štěpán Starosta
@@ -85,8 +89,4 @@ The following people will most likely be able to attend.
  * Tomas Vavra
  * Walid Wannes
  * Mario Weitzer
- * Rob Rubalcaba (subject to funding)
- * Tomáš Kalvoda
  * Zdeněk Čulík
- * Clemens Heuberger
- * Vladimir Lotoreichik
