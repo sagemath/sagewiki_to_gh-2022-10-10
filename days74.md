@@ -155,9 +155,11 @@ European participants receiving some [[http://opendreamkit.org/|OpenDreamKit]] f
  * Jeremy L. Martin (University of Kansas, Lawrence, USA)
  * John Palmieri (University of Washington, Seattle, USA)
  * Thibaut Paumard (Observatoire de Paris, France)
+ * Bonnie Saunders (University of Illinois, Chicago, USA)
  * Travis Scrimshaw (University of Minnesota, USA)
  * Nicolas Thiéry (University Paris Sud, France)
  * Artur Trzesiok (Poland)
+ * Frédéric Vincent (Observatoire de Paris, France)
 
 ==== Remote: ====
 
