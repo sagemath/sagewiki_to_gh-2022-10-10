@@ -10,6 +10,7 @@
    * Answering questions on Q&A sites of the !StackOverflow network
    * Administration team of Ask Sage
    * Backup server for Ask Sage at Orsay mathematics department, since 2016
+   * Produced binaries for OS X, 2010--2013
    * Sage compute engine at Orsay mathematics department (for local use), since 2011
 
  * Topics of interest in Sage
