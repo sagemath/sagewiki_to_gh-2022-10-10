@@ -1,6 +1,7 @@
 ##master-page:HomepageTemplate
 #format wiki
 #language en
+
 = Samuel Lelièvre (slelievre) =
 
  * Contributions to Sage
@@ -10,6 +11,7 @@
    * Answering questions on Q&A sites of the !StackOverflow network
    * Administration team of Ask Sage
    * Backup server for Ask Sage at Orsay mathematics department, since 2016
+   * Expanding and monitoring the download mirror network, since 2011
    * Produced binaries for OS X, 2010--2013
    * Sage compute engine at Orsay mathematics department (for local use), since 2011
 
