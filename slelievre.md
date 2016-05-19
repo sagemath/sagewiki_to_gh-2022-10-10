@@ -5,6 +5,7 @@
 = Samuel Lelièvre (slelievre) =
 
  * Contributions to Sage
+   * Participate in the ERC H2020 [[http://opendreamkit.org/|OpenDreamKit]] project, 2016--2020
    * [[http://www.labri.fr/perso/vdelecro/flatsurf.html|Package flatsurf for Sage]], with Vincent Delecroix
    * Sage trac activity: http://trac.sagemath.org/search?q=slelievre
    * Ask Sage activity: http://ask.sagemath.org/users/1092/slelievre/
@@ -27,6 +28,8 @@
  * Sage days attended or organized [*]
    * [[days73|days73, Oaxaca, Mexico, 2016-05]]
    * [*] [[days77|days77, Cernay, France, 2016-04]]
+   * [[http://gapdays.de/gap-sage-days2016/|First joint GAP-Sage days, St Andrews, Scotland, 2016-01]]
+   * [[http://gapdays.de/gapdays2014/|GAP days 1, Aachen, Germany, 2014-08]]
    * [*] [[days57|days57, Cernay, France, 2014-04]]
    * [[Sage Days Bobo 2012|days43, Bobo Dioulasso, Burkina Faso, 2012-11]]
    * [[combinat/SageCombinatDaysCernay2012|combinatdayscernay2012, Cernay, France]]
