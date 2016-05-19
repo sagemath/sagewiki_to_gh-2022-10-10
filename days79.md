@@ -51,7 +51,10 @@ To be announced
 
 == Participants ==
 
-TBA
+Jean-Philippe Labbé
+Klaus Dohmen
+Malka Schaps
+Tomer Bauer
 
 == Lodging, funding, and other practical informations ==
 
