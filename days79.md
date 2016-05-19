@@ -51,10 +51,10 @@ To be announced
 
 == Participants ==
 
-Jean-Philippe Labbé
-Klaus Dohmen
-Malka Schaps
-Tomer Bauer
+ * Jean-Philippe Labbé (Hebrew University, Jerusalem)
+ * Klaus Dohmen (Hochschule Mittweida, University of Applied Sciences, Germany)
+ * Malka Schaps (Bar-Ilan University, Bar-Ilan, Israel)
+ * Tomer Bauer (Bar-Ilan University, Bar-Ilan, Israel)
 
 == Lodging, funding, and other practical informations ==
 
