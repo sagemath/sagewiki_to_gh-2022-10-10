@@ -8,6 +8,10 @@
 
 Location: Prague, Czech Republic
 
+Venue: same as the conference ([[http://km.fjfi.cvut.cz/jn16/?loc=local]])
+
+Room: 301 for the sessions, 214 for coffee breaks
+
 == Focus & Topics ==
 
 === Introduction and Tutorial for Beginners ===
