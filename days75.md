@@ -85,3 +85,4 @@ Please add you name to the list if you want to attend this Sage Days.
  * Irene Márquez (Inria)
  * Vincent Neiger (ENS Lyon) (to be confirmed)
  * Julien Lavauzelle (LIX & Inria Saclay)
+ * Xavier Caruso (IRMAR) (to be confirmed)
