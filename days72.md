@@ -46,6 +46,7 @@ Saturday:
  * 15:30--16:30: automata in SageMath [Clemens Heuberger]
     * [[http://wwwu.aau.at/cheuberg/presentations/2016-05-21_Praha_SageDays72_Automata.ipynb|Jupyter Notebook]] and [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/automata/2016-05-21_Praha_SageDays72_Automata.html|copy of the (ipython) notebook in SageMathCloud]]
     * a paper on Automata package exists "Automata in SageMath---Combinatorics meet Theoretical Computer Science": [[https://dmtcs.episciences.org/1475|DMTCS link]], [[http://arxiv.org/abs/1404.7458| arxiv link]]
+    * [[http://doc.sagemath.org/html/en/reference/combinat/sage/combinat/finite_state_machine.html|SageMath documentation of the package]]
  * 16:30--17:00: Multiplying apples and oranges by SageMath's coercion framework [Daniel Krenn]
     * [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/coercion%20model%20(multiplying%20apples%20with%20oranges)/The%20Coercion%20Framework%20of%20SageMath.ipynb|coercion framework (ipython) worksheet in SageMathCloud]]
  * discussion, coding, etc.
