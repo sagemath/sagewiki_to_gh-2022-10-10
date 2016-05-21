@@ -36,10 +36,12 @@ Saturday:
  * 10:00: welcoming session and introductions (+ installation)
  * 11:00: Introduction to SageMath (and Python) [Štěpán Starosta]
 	* there will be room to try SageMath
-        * [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/introduction%20to%20SageMath/1.%20Introduction.sagews|Introduction.sagews]]
+        * [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/introduction%20to%20SageMath/]]
 
  * 12:00: lunch
  * 14:00: number theory in SageMath [Štěpán Starosta or Tomáš Vávra]
+    * [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/number%20theory/]]
+    * few other tutorials [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/other%20tutorials/]]
  * 15:00: * coffee break *
  * 15:30--16:30: automata in SageMath [Clemens Heuberger]
  * 16:30--17:00: Multiplying apples and oranges by SageMath's coercion framework [Daniel Krenn]
