@@ -44,7 +44,7 @@ Saturday:
     * few other tutorials [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/other%20tutorials/4.%20Graph%20theory.sagews|Graph theory  (cloud) worksheet]], [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/other%20tutorials/3.%20Linear%20algebra.sagews|Linear algebra (cloud) worksheet]]
  * 15:00: * coffee break *
  * 15:30--16:30: automata in SageMath [Clemens Heuberger]
-    * [[http://wwwu.aau.at/cheuberg/sd72/automata.ipynb|Jupyter Notebook]]
+    * [[http://wwwu.aau.at/cheuberg/presentations/2016-05-21_Praha_SageDays72_Automata.ipynb|Jupyter Notebook]]
  * 16:30--17:00: Multiplying apples and oranges by SageMath's coercion framework [Daniel Krenn]
  * discussion, coding, etc.
 
