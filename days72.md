@@ -36,7 +36,7 @@ Saturday:
  * 10:00: welcoming session and introductions (+ installation)
  * 11:00: Introduction to SageMath (and Python) [Štěpán Starosta]
 	* there will be room to try SageMath
-        * [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/introduction%20to%20SageMath/1.%20Introduction.sagews]]
+        * [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/introduction%20to%20SageMath/1.%20Introduction.sagews| Introduction (SageMath, Python, etc.)]]
 
  * 12:00: lunch
  * 14:00: number theory in SageMath [Štěpán Starosta or Tomáš Vávra]
