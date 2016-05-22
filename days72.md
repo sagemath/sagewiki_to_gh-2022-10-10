@@ -54,6 +54,7 @@ Saturday:
 Sunday:
  * 9:30: * coffee break *
  * 10:00--10:30: development for SageMath [Daniel Krenn]
+ * 10.30 experiencing SageMath, coding, discussions, etc.
  * 11:00: [[https://julialang.org|Julia]] vs. SageMath [Tomáš Kalvoda]
  * 12:00: lunch
  * 14:00--15:00: Using Sage in number system research (part 1) [Attila Kovács]
