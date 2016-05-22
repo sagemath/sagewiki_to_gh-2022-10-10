@@ -32,9 +32,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/20650|#20650]]) needs-review: Added is_polynomial and make_look_poly to projective morphism- Rebecca Lauren Miller
 
- * ([[http://trac.sagemath.org/ticket/20227|#20227]]) needs-review: Chow form for projective subschemes - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/19635|#19635]]) needs-work: Enumeration functionality for products of projective spaces over fields and finite fields - Grayson Jorgenson
+ * ([[http://trac.sagemath.org/ticket/20227|#20227]])-- needs-review: Chow form for projective subschemes - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
@@ -70,7 +68,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
- * --([[http://trac.sagemath.org/ticket/20079|#20079]])-- closed sage 7.2: Chebyshev Polynomials - Joe Eisner, Ben Hutz
+ * --([[http://trac.sagemath.org/ticket/19635|#19635]])-- closed sage 7.3: Enumeration functionality for products of projective spaces over fields and finite fields - Grayson Jorgenson
+
+ * --([[http://trac.sagemath.org/ticket/20079|#20079]])-- closed sage 7.3: Chebyshev Polynomials - Joe Eisner, Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/20451|#20451]])-- closed sage 7.2: canonical height error - Ben Hutz
 
