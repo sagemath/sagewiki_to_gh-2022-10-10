@@ -35,7 +35,7 @@ Saturday:
  * 9:30: * coffee break *
  * 10:00: welcoming session and introductions (+ installation)
  * 11:00: Introduction to SageMath (and Python) [Štěpán Starosta]
-	* there will be room to try SageMath
+	* [[https://wiki.sagemath.org/days72?action=AttachFile&do=get&target=Introduction_to_SageMath_2016.pdf|introduction (pdf)]]
         * [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/introduction%20to%20SageMath/1.%20Introduction.sagews| Introduction (SageMath, Python, etc.) (cloud) worksheet]]
 
  * 12:00: lunch
