@@ -54,6 +54,7 @@ Saturday:
 Sunday:
  * 9:30: * coffee break *
  * 10:00--10:30: development for SageMath [Daniel Krenn]
+   * [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/contributing%20to%20SageMath/Contributing%20to%20SageMath.html|(ipython) worksheet in SageMathCloud]]
  * 10.30 experiencing SageMath, coding, discussions, etc.
  * 11:00: [[https://julialang.org|Julia]] vs. SageMath [Tomáš Kalvoda]
    * [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/CythonJulia/|notebooks]]
