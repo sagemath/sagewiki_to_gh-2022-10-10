@@ -56,6 +56,7 @@ Sunday:
  * 10:00--10:30: development for SageMath [Daniel Krenn]
  * 10.30 experiencing SageMath, coding, discussions, etc.
  * 11:00: [[https://julialang.org|Julia]] vs. SageMath [Tomáš Kalvoda]
+   * [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/CythonJulia/|notebooks]]
  * 12:00: lunch
  * 14:00--15:00: Using Sage in number system research (part 1) [Attila Kovács]
  * 15:00:  * coffee break *
