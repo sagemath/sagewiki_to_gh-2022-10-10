@@ -263,9 +263,10 @@ Specifics:
   Sage class Partition, one would put it in an otherwise empty class
   ``sage-blah.combinat.partition.Partition``.
 
-- Use *recursive monkey patching* (TODO: make a pip package for this,
-  and add a link here) to insert all the code dynamically in the Sage
-  library.
+- Use recursive monkey patching to insert all the code dynamically in
+  the Sage library, for example by using the
+  `recursive-monkey-patch
+  <https://pypi.python.org/pypi/recursive-monkey-patch>`_ pip package
 
   The effect is to patch the Sage library, as with branches or patch
   queues; however this is done semantically at the granularity of
@@ -274,7 +275,7 @@ Specifics:
 
 Examples:
 
-- `Sage-semigroups <https://github.com/nthiery/sage-semigroups/>`_ (very preliminary!!!)
+- `Sage-semigroups <https://github.com/nthiery/sage-semigroups/>`_ (quite preliminary!!!)
 
 Pros:
 
