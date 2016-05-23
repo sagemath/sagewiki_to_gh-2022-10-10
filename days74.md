@@ -152,6 +152,7 @@ European participants receiving some [[http://opendreamkit.org/|OpenDreamKit]] f
  * Marcin Kostur (University of Silesia, Katowice, Poland)
  * Ronja Kuhne (University of Warwick, UK)
  * Samuel Lelièvre (University Paris Sud, France)
+ * Alba Malaga Sabogal (Aix-Marseille Université, France)
  * Marco Mancini (Observatoire de Paris, France)
  * Jeremy L. Martin (University of Kansas, Lawrence, USA)
  * John Palmieri (University of Washington, Seattle, USA)
