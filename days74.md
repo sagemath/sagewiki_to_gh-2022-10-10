@@ -78,6 +78,10 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * Improve/upgrade CHomP and its interface (cf. [[http://trac.sagemath.org/ticket/15202|#15202]])
  * Clean up simplicial complex code (some easy cleanups like allowing the `_enlarged` cache to persist in `add_face`, also generally examine the code)
 
+There is also the SageMathCloud project page available for collaborations:
+
+https://cloud.sagemath.com/projects/bc98ddf4-68da-49db-8986-90c80b24daa3/files/
+
 == Details ==
 
 === Lodging ===
