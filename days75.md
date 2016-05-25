@@ -35,6 +35,8 @@ Feel free to add your own ideas here.
 
 * Fix any open issue with `linear_code.py` as noted on the [[https://bitbucket.org/lucasdavid/sage_coding_project/issues/155/problems-with-linear_codepy|ACTIS Bitbucket wiki]].
 
+* Improve documentation of sage.coding
+
 * Improve integration of finite field non-prime basis representation introduced in [[http://trac.sagemath.org/ticket/20284|#20284]].
 
 * Port implementation of asymptotically fast (GF(q)[x])[y] root-finding from [[https://bitbucket.org/jsrn/codinglib|Codinglib]].
