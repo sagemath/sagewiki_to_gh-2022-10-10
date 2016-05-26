@@ -8,6 +8,8 @@ Registration is free and now open. Contact Eric (eric.gourgoulhon@obspm.fr) and 
 
 == Schedule ==
 
+The morning sessions will take place in '''Salle de Conférences du Château''' (CIAS building) and the afternoon sessions will be held in various rooms of CIAS.
+
 |||||| '''Monday 30 May''' ||
 || 9:30 - 10:30 || Volker Braun || ''An introduction to !SageMath'' ||
 || 10:30 - 11:00 |||| coffee break ||
@@ -112,8 +114,6 @@ A system of car shuttle will be organized from Meudon station to the Workshop Ce
 
 If you plan instead to come by your own, please follow these [[https://www.obspm.fr/acces-au-site-de-meudon.html?lang=en|access instructions]] (click on the map to enlarge it; the CIAS is located in BAT. 9).
 
-''More details soon...''
-
 
 === Funding ===
 
@@ -159,6 +159,7 @@ European participants receiving some [[http://opendreamkit.org/|OpenDreamKit]] f
  * Alba Malaga Sabogal (Aix-Marseille Université, France)
  * Marco Mancini (Observatoire de Paris, France)
  * Jeremy L. Martin (University of Kansas, Lawrence, USA)
+ * Thomas Morzadec (University Paris Sud, France)
  * John Palmieri (University of Washington, Seattle, USA)
  * Thibaut Paumard (Observatoire de Paris, France)
  * Bonnie Saunders (University of Illinois, Chicago, USA)
