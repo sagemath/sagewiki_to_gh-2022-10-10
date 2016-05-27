@@ -65,7 +65,6 @@ There will also be time for '''code sprints'''.
 
 == Participants ==
 
- * Faird Aliniaeifard (York university)
  * Eviatar Bach (UBC)
  * Adrien Boussicault (Université de Bordeaux)
  * Julien Courtiel (UBC)
