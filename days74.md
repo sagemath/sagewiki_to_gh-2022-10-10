@@ -67,7 +67,7 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * Improve persistent homology.
  * Simplicial sets. (Co)simplicial objects in various categories.
  * Incorporation of [[https://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/ |Kenzo]]? (see [[https://github.com/gheber/kenzo|Repackaged in a sane way Kenzo]])
- * Improve/Implement knot theory in Sage (cf. [[http://trac.sagemath.org/ticket/17030|#17030]] [[http://trac.sagemath.org/ticket/20509|#20509]])
+ * Improve/Implement knot theory in Sage (cf. [[http://trac.sagemath.org/ticket/17030|#17030]] [[http://trac.sagemath.org/ticket/20509|#20509]])... and link it with Snappy?
  * Implement more (co)homology theories (e.g., De Rham cohomology).
  * Implement methods for computing homotopy groups.
  * Tropical curves/geometry.
