@@ -62,7 +62,7 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * [[http://trac.sagemath.org/ticket/14901|Lie algebras #14901]] and implement their relationship with manifolds. (Travis)
  * CW/Cube complexes by generalizing the manifold classes. (Travis)
  * Computation of geodesics on pseudo-Riemannian manifolds. (Eric)
- * Include the `sage.geometry.riemannian_manifolds` (i.e. parametrized surfaces) into the more general framework of !SageManifolds.
+ * Include the `sage.geometry.riemannian_manifolds` (i.e. parametrized surfaces) into the more general framework of !SageManifolds (Claudia, Eric)
  * Experiment plotting possibilities with OpenGL (nice stuff from !SnapPy!) and more... for rendering in browser there is the [[https://en.wikipedia.org/wiki/WebGL|WebGL]] javascript library that is supported by most browsers.
  * Improve persistent homology. (Travis, John)
  * Simplicial sets. (Co)simplicial objects in various categories. (John)
@@ -79,7 +79,7 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * Sage development workflow (cf. https://wiki.sagemath.org/CodeSharingWorkflow)
  * Improve/upgrade CHomP and its interface (cf. [[http://trac.sagemath.org/ticket/15202|#15202]]) (Travis, John, Volker?)
  * Clean up simplicial complex code (some easy cleanups like allowing the `_enlarged` cache to persist in `add_face`, also generally examine the code) (Travis, John)
- * From Nathan's talk: Make !SnapPy a Sage package, Sage attach and !TKinter, Modernize !CyPari, Modularization of some parts of SageMath kernel for use in stand-alone Snpa. See [[http://trac.sagemath.org/ticket/15152|#15152]] for the "attach" issue.
+ * From Nathan's talk: Make !SnapPy a Sage package, Sage attach and Tkinter, Modernize !CyPari, Modularization of some parts of SageMath kernel for use in stand-alone Snpa. See [[http://trac.sagemath.org/ticket/15152|#15152]] for the "attach" issue.
  * Relative simplicial complexes. (Jeremy)
  * Exchanging information between 2D and 3D manifolds. (Vincent)
 There is also the [[https://cloud.sagemath.com/|SageMathCloud]] project page available for collaborations:
