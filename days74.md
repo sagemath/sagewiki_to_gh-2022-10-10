@@ -177,7 +177,8 @@ European participants receiving some [[http://opendreamkit.org/|OpenDreamKit]] f
 
 === Organizers ===
 
- * Eric Gourgoulhon (Observatoire de Paris)
- * Marco Mancini (Observatoire de Paris)
+ * Eric Gourgoulhon (LUTH, Observatoire de Paris)
+ * Nicole Letourneur (CIAS, Observatoire de Paris)
+ * Marco Mancini (LUTH, Observatoire de Paris)
  * Benoît Pilorget (!OpenDreamKit)
  * Travis Scrimshaw (University of Minnesota)
