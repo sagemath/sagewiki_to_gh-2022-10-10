@@ -79,6 +79,7 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * Sage development workflow (cf. https://wiki.sagemath.org/CodeSharingWorkflow)
  * Improve/upgrade CHomP and its interface (cf. [[http://trac.sagemath.org/ticket/15202|#15202]])
  * Clean up simplicial complex code (some easy cleanups like allowing the `_enlarged` cache to persist in `add_face`, also generally examine the code)
+ * From Nathan's talk: Make !SnapPy a Sage package, Sage attach and !TKinter, Modernize !CyPari, Modularization of some parts of SageMath kernel for use in stand-alone Snpa
 
 There is also the [[https://cloud.sagemath.com/|SageMathCloud]] project page available for collaborations:
 
