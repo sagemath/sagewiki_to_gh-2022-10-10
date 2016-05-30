@@ -61,7 +61,7 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * [[http://sagemanifolds.obspm.fr/|SageManifolds]] inclusion into Sage (cf. [[http://trac.sagemath.org/ticket/18528|#18528]]) (Travis, Eric)
  * [[http://trac.sagemath.org/ticket/14901|Lie algebras #14901]] and implement their relationship with manifolds. (Travis)
  * CW/Cube complexes by generalizing the manifold classes. (Travis)
- * Computation of geodesics on pseudo-Riemannian manifolds.
+ * Computation of geodesics on pseudo-Riemannian manifolds. (Eric)
  * Include the `sage.geometry.riemannian_manifolds` (i.e. parametrized surfaces) into the more general framework of !SageManifolds.
  * Experiment plotting possibilities with OpenGL (nice stuff from !SnapPy!) and more... for rendering in browser there is the [[https://en.wikipedia.org/wiki/WebGL|WebGL]] javascript library that is supported by most browsers.
  * Improve persistent homology. (Travis, John)
