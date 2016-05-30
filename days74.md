@@ -58,16 +58,16 @@ The morning sessions will take place in '''Salle de Conférences du Château''' 
 
 Here is a list of possible projects. Feel free to add your own to the list.
 
- * [[http://sagemanifolds.obspm.fr/|SageManifolds]] inclusion into Sage (cf. [[http://trac.sagemath.org/ticket/18528|#18528]])
- * [[http://trac.sagemath.org/ticket/14901|Lie algebras #14901]] and implement their relationship with manifolds.
- * CW/Cube complexes by generalizing the manifold classes.
+ * [[http://sagemanifolds.obspm.fr/|SageManifolds]] inclusion into Sage (cf. [[http://trac.sagemath.org/ticket/18528|#18528]]) (Travis, Eric)
+ * [[http://trac.sagemath.org/ticket/14901|Lie algebras #14901]] and implement their relationship with manifolds. (Travis)
+ * CW/Cube complexes by generalizing the manifold classes. (Travis)
  * Computation of geodesics on pseudo-Riemannian manifolds.
  * Include the `sage.geometry.riemannian_manifolds` (i.e. parametrized surfaces) into the more general framework of !SageManifolds.
  * Experiment plotting possibilities with OpenGL (nice stuff from !SnapPy!) and more... for rendering in browser there is the [[https://en.wikipedia.org/wiki/WebGL|WebGL]] javascript library that is supported by most browsers.
- * Improve persistent homology.
- * Simplicial sets. (Co)simplicial objects in various categories.
+ * Improve persistent homology. (Travis, John)
+ * Simplicial sets. (Co)simplicial objects in various categories. (John)
  * Incorporation of [[https://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/ |Kenzo]]? (see [[https://github.com/gheber/kenzo|Repackaged in a sane way Kenzo]])
- * Improve/Implement knot theory in Sage (cf. [[http://trac.sagemath.org/ticket/17030|#17030]] [[http://trac.sagemath.org/ticket/20509|#20509]])... and link it with Snappy?
+ * Improve/Implement knot theory in Sage (cf. [[http://trac.sagemath.org/ticket/17030|#17030]] [[http://trac.sagemath.org/ticket/20509|#20509]])... and link it with Snappy? (Travis, Miguel, Eric?, Nathan?)
  * Implement more (co)homology theories (e.g., De Rham cohomology).
  * Implement methods for computing homotopy groups.
  * Tropical curves/geometry.
@@ -77,10 +77,11 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * Implement common metric spaces; for example, L^p^ spaces.
  * Combine/standardize features of the hyperbolic plane with [[http://sagemanifolds.obspm.fr/|SageManifolds]].
  * Sage development workflow (cf. https://wiki.sagemath.org/CodeSharingWorkflow)
- * Improve/upgrade CHomP and its interface (cf. [[http://trac.sagemath.org/ticket/15202|#15202]])
- * Clean up simplicial complex code (some easy cleanups like allowing the `_enlarged` cache to persist in `add_face`, also generally examine the code)
+ * Improve/upgrade CHomP and its interface (cf. [[http://trac.sagemath.org/ticket/15202|#15202]]) (Travis, John, Volker?)
+ * Clean up simplicial complex code (some easy cleanups like allowing the `_enlarged` cache to persist in `add_face`, also generally examine the code) (Travis, John)
  * From Nathan's talk: Make !SnapPy a Sage package, Sage attach and !TKinter, Modernize !CyPari, Modularization of some parts of SageMath kernel for use in stand-alone Snpa. See [[http://trac.sagemath.org/ticket/15152|#15152]] for the "attach" issue.
-
+ * Relative simplicial complexes. (Jeremy)
+ * Exchanging information between 2D and 3D manifolds. (Vincent)
 There is also the [[https://cloud.sagemath.com/|SageMathCloud]] project page available for collaborations:
 
 https://cloud.sagemath.com/projects/bc98ddf4-68da-49db-8986-90c80b24daa3/files/
