@@ -1,4 +1,4 @@
-= Sage Days 79 - November 21 -- November 25, 2016, Jerusalem =
+= Sage Days 79 - November 21 -- November 24, 2016, Jerusalem =
 
 '''''Sage Days on Combinatorics'''''
 
@@ -12,7 +12,7 @@ Organizers: [[mailto:labbe@math.huji.ac.il|Jean-Philippe Labbé]].
 
 == Dates and Venue ==
 
-Date: ~3-5 days '''From November 21 to November 25, 2016'''
+Date: 4 days '''From November 21 to November 24, 2016'''
 
 The Friday will be reserved for discussion and coding sprints.
 
