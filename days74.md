@@ -88,7 +88,7 @@ https://cloud.sagemath.com/projects/bc98ddf4-68da-49db-8986-90c80b24daa3/files/
 
 Some of the work done within Sage
 
-    [[http://trac.sagemath.org/query?keywords=~sd74&or&keywords=~days74&col=id&col=summary&col=keywords&col=status&col=owner&col=type&col=priority&order=priority|List of tickets written and/or reviewed during these Sage days]]
+    [[http://trac.sagemath.org/query?keywords=~sd74&or&keywords=~days74&col=id&col=summary&col=keywords&col=status&col=owner&col=type&col=priority&order=status|List of tickets written and/or reviewed during these Sage days]]
 
 == Details ==
 
