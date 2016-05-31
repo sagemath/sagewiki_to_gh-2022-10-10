@@ -79,7 +79,7 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * Sage development workflow (cf. https://wiki.sagemath.org/CodeSharingWorkflow)
  * Improve/upgrade CHomP and its interface (cf. [[http://trac.sagemath.org/ticket/15202|#15202]]) (Travis, John, Volker?)
  * Clean up simplicial complex code (some easy cleanups like allowing the `_enlarged` cache to persist in `add_face`, also generally examine the code) (Travis, John)
- * From Nathan's talk: Make !SnapPy a Sage package, Sage attach and Tkinter, Modernize !CyPari, Modularization of some parts of SageMath kernel for use in stand-alone Snpa. See [[http://trac.sagemath.org/ticket/15152|#15152]] for the "attach" issue.
+ * From Nathan's talk: Make !SnapPy a Sage package ([[http://trac.sagemath.org/ticket/20739|#20739]]), Sage attach and Tkinter ([[http://trac.sagemath.org/ticket/15152|#15152]]), Modernize !CyPari (see [[http://trac.sagemath.org/ticket/20238|#20238]]), Modularization of some parts of SageMath kernel for use in stand-alone Snappy.
  * Relative simplicial complexes. (Jeremy)
  * Exchanging information between 2D and 3D manifolds. (Vincent)
 There is also the [[https://cloud.sagemath.com/|SageMathCloud]] project page available for collaborations:
