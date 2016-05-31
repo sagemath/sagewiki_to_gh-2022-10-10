@@ -22,7 +22,7 @@ The morning sessions will take place in '''Salle de Conférences du Château''' 
 || 16:30 - ...   |||| working groups / coding sprints ||
 |||||| '''Tuesday 31 May''' ||
 || 10:00 - 11:00 |||| coffee break ||
-|| 11:00 - 12:00 || Nicolas Thiéry || ''Modelling mathematics in Sage <<BR>>(parents, elements, categories, ...)'' ||
+|| 11:00 - 12:00 || Nicolas Thiéry || [[attachment:2016-05-31-CategoriesInSage.pdf|''Infrastructure for generic code in SageMath: categories, axioms, constructions'']]<<BR>> [[attachment:2016-05-31-CategoriesInSage.ipynb|examples [ipynb]]] ||
 || 12:00 - 13:00 || Marcin Kostur || ''3D visualization'' ||
 || 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
 || 14:00 - 15:00 || Volker Braun || [[attachment:VolkerBraun-Toric-Geometry.ipynb|''Toric geometry'']] ||
