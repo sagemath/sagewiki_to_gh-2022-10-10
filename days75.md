@@ -88,3 +88,4 @@ Please add you name to the list if you want to attend this Sage Days.
  * Vincent Neiger (ENS Lyon) (to be confirmed)
  * Julien Lavauzelle (LIX & Inria Saclay)
  * Xavier Caruso (IRMAR) (to be confirmed)
+ * Jean-Pierre Flori (ANSSI) (I'll show up randomly and will be commuting from Paris)
