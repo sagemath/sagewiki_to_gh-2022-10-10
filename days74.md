@@ -11,7 +11,7 @@ Registration is free and now open. Contact Eric (eric.gourgoulhon@obspm.fr) and 
 The morning sessions will take place in '''Salle de Conférences du Château''' (CIAS building) and the afternoon sessions will be held in various rooms of CIAS.
 
 |||||| '''Monday 30 May''' ||
-|| 9:30 - 10:30 || Volker Braun || [[attachment:VolkerBraun-Introduction.ipynb|''An introduction to !SageMath'']] ||
+|| 9:30 - 10:30 || Volker Braun || [[attachment:VolkerBraun-Introduction.ipynb|''An introduction to SageMath'']] ||
 || 10:30 - 11:00 |||| coffee break ||
 || 11:00 - 12:00 || Marc Culler || ''!SnapPy (Part 1)'' ||
 || 12:00 - 13:00 || Nathan Dunfield || ''!SnapPy (Part 2)'' ||
