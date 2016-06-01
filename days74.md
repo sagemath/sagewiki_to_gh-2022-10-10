@@ -31,7 +31,7 @@ The morning sessions will take place in '''Salle de Conférences du Château''' 
 || 16:30 - 17:00 |||| progress reports ||
 || 17:00 - ...   |||| working groups / coding sprints ||
 |||||| '''Wednesday 1 June''' ||
-|| 9:30 - 10:30 || John Palmieri || ''Simplicial sets'' ||
+|| 9:30 - 10:30 || John Palmieri || [[attachment:palmieri-sagedays74.pdf|''Simplicial sets'' (PDF)]], [[attachment:palmieri-sd74.ipynb|Jupyter notebook]] ||
 || 10:30 - 11:00 |||| coffee break ||
 || 11:00 - 12:00 || Mark Bell || ''Flipper and Sage'' ||
 || 12:00 - 13:00 || Frédéric Vincent <<BR>> & Thibaut Paumard || ''Gyoto code and geodesics'' ||
