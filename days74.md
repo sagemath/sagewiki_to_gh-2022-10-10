@@ -33,8 +33,8 @@ The morning sessions will take place in '''Salle de Conférences du Château''' 
 |||||| '''Wednesday 1 June''' ||
 || 9:30 - 10:30 || John Palmieri || [[attachment:palmieri-sagedays74.pdf|''Simplicial sets'' (PDF)]], [[attachment:palmieri-sd74.ipynb|Jupyter notebook]] ||
 || 10:30 - 11:00 |||| coffee break ||
-|| 11:00 - 12:00 || Mark Bell || ''Flipper and Sage'' ||
-|| 12:00 - 13:00 || Frédéric Vincent <<BR>> & Thibaut Paumard || ''Gyoto code and geodesics'' ||
+|| 11:00 - 12:00 || Mark Bell || ''Flipper and Sage'' <<BR>> + [[attachment:sage_gotchas.pdf|''Sage gotchas'']] ||
+|| 12:00 - 13:00 || Frédéric Vincent <<BR>> & Thibaut Paumard || ''Gyoto code and geodesics'' [[attachment:Gyoto_F_Vincent.pdf|(part 1)]] [[attachment:Gyoto_T_Paumard.pdf|(part 2)]]||
 || 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
 || 14:00 - 16:00 |||| working groups / coding sprints ||
 || 16:00 - 16:30 |||| coffee break ||
