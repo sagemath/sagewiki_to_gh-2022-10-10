@@ -82,6 +82,8 @@ Here is a list of possible projects. Feel free to add your own to the list.
  * From Nathan's talk: Make !SnapPy a Sage package ([[http://trac.sagemath.org/ticket/20739|#20739]]), Sage attach and Tkinter ([[http://trac.sagemath.org/ticket/15152|#15152]]), Modernize !CyPari (see [[http://trac.sagemath.org/ticket/20238|#20238]]), Modularization of some parts of SageMath kernel for use in stand-alone Snappy.
  * Relative simplicial complexes. (Jeremy)
  * Exchanging information between 2D and 3D manifolds. (Vincent)
+ * From Mark Bell's talk: confusing documentation of the .n method, accurate numerical approximation, pushout for different number fields ([[http://trac.sagemath.org/ticket/20746|#20746]]), the bitwise ~ incompatible between Python and Sage integers
+
 There is also the [[https://cloud.sagemath.com/|SageMathCloud]] project page available for collaborations:
 
 https://cloud.sagemath.com/projects/bc98ddf4-68da-49db-8986-90c80b24daa3/files/
