@@ -42,7 +42,7 @@ The morning sessions will take place in '''Salle de Conférences du Château''' 
 || 17:00 - 18:30   |||| working groups / coding sprints ||
 || 18:30  |||| social dinner ||
 |||||| '''Thursday 2 June''' ||
-|| 9:30 - 10:30 || Jeremy Martin || ''Simplicial and relative simplicial complexes'' ||
+|| 9:30 - 10:30 || Jeremy Martin || ''Simplifical complexes (and Sage, of course!)'' <<BR>> ''from a combinatorialist's point of view'' [[attachment:J_Martin_SageDays74.pdf|[slides]]] ||
 || 10:30 - 11:00 |||| coffee break ||
 || 11:00 - 12:00 || Patrick Hooper || ''!FlatSurf and translation surfaces in Sage (Part 1)'' ||
 || 12:00 - 13:00 || Vincent Delecroix || ''!FlatSurf and translation surfaces in Sage (Part 2)'' ||
