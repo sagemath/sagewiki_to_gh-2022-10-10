@@ -13,8 +13,8 @@ The morning sessions will take place in '''Salle de Conférences du Château''' 
 |||||| '''Monday 30 May''' ||
 || 9:30 - 10:30 || Volker Braun || [[attachment:VolkerBraun-Introduction.ipynb|''An introduction to SageMath'']] ||
 || 10:30 - 11:00 |||| coffee break ||
-|| 11:00 - 12:00 || Marc Culler || ''!SnapPy (Part 1)'' ||
-|| 12:00 - 13:00 || Nathan Dunfield || ''!SnapPy (Part 2)'' ||
+|| 11:00 - 12:00 || Marc Culler || [[attachment:SnapPyPart1.pdf|''SnapPy (Part 1)'']] ||
+|| 12:00 - 13:00 || Nathan Dunfield || [[attachment:SnapPyPart2.ipynb|''SnapPy (Part 2)'']] ||
 || 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
 || 14:00 - 15:00 |||| Organization of working groups ||
 || 15:00 - 16:00 |||| working groups / coding sprints ||
