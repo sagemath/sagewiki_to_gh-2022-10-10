@@ -11,10 +11,10 @@ Registration is free and now open. Contact Eric (eric.gourgoulhon@obspm.fr) and 
 The morning sessions will take place in '''Salle de Conférences du Château''' (CIAS building) and the afternoon sessions will be held in various rooms of CIAS.
 
 |||||| '''Monday 30 May''' ||
-|| 9:30 - 10:30 || Volker Braun || [[attachment:VolkerBraun-Introduction.ipynb|''An introduction to SageMath'']] ||
+|| 9:30 - 10:30 || Volker Braun || ''[[attachment:VolkerBraun-Introduction.ipynb|An introduction to SageMath]]'' ||
 || 10:30 - 11:00 |||| coffee break ||
-|| 11:00 - 12:00 || Marc Culler || [[attachment:SnapPyPart1.pdf|''SnapPy (Part 1)'']] ||
-|| 12:00 - 13:00 || Nathan Dunfield || [[attachment:SnapPyPart2.ipynb|''SnapPy (Part 2)'']] ||
+|| 11:00 - 12:00 || Marc Culler || ''[[attachment:SnapPyPart1.pdf|SnapPy (Part 1)]]'' ||
+|| 12:00 - 13:00 || Nathan Dunfield || ''[[attachment:SnapPyPart2.ipynb|SnapPy (Part 2)]]'' ||
 || 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
 || 14:00 - 15:00 |||| Organization of working groups ||
 || 15:00 - 16:00 |||| working groups / coding sprints ||
@@ -22,18 +22,18 @@ The morning sessions will take place in '''Salle de Conférences du Château''' 
 || 16:30 - ...   |||| working groups / coding sprints ||
 |||||| '''Tuesday 31 May''' ||
 || 10:00 - 11:00 |||| coffee break ||
-|| 11:00 - 12:00 || Nicolas Thiéry || [[attachment:2016-05-31-CategoriesInSage.pdf|''Infrastructure for generic code in SageMath: categories, axioms, constructions'']]<<BR>> [[attachment:2016-05-31-CategoriesInSage.ipynb|examples [ipynb]]] ||
-|| 12:00 - 13:00 || Marcin Kostur || ''3D visualization'' ||
+|| 11:00 - 12:00 || Nicolas Thiéry || ''[[attachment:2016-05-31-CategoriesInSage.pdf|Infrastructure for generic code in SageMath: categories, axioms, constructions]]''<<BR>> [[attachment:2016-05-31-CategoriesInSage.ipynb|examples [ipynb]]] ||
+|| 12:00 - 13:00 || Marcin Kostur<<BR>> & Artur Trzesiok || ''[[http://mybinder.org/repo/K3D-tools/K3D-jupyter|Jupyter notebook extension for K3D visualization library]]'' ||
 || 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
-|| 14:00 - 15:00 || Volker Braun || [[attachment:VolkerBraun-Toric-Geometry.ipynb|''Toric geometry'']] ||
+|| 14:00 - 15:00 || Volker Braun || ''[[attachment:VolkerBraun-Toric-Geometry.ipynb|Toric geometry]]'' ||
 || 15:00 - 16:00 |||| working groups / coding sprints ||
 || 16:00 - 16:30 |||| coffee break ||
 || 16:30 - 17:00 |||| progress reports ||
 || 17:00 - ...   |||| working groups / coding sprints ||
 |||||| '''Wednesday 1 June''' ||
-|| 9:30 - 10:30 || John Palmieri || [[attachment:palmieri-sagedays74.pdf|''Simplicial sets'' (PDF)]], [[attachment:palmieri-sd74.ipynb|Jupyter notebook]] <<BR>> [[http://trac.sagemath.org/ticket/20745|trac #20745]] ||
+|| 9:30 - 10:30 || John Palmieri || ''[[attachment:palmieri-sagedays74.pdf|Simplicial sets (PDF)]]'', [[attachment:palmieri-sd74.ipynb|Jupyter notebook]] <<BR>> [[http://trac.sagemath.org/ticket/20745|trac #20745]] ||
 || 10:30 - 11:00 |||| coffee break ||
-|| 11:00 - 12:00 || Mark Bell || ''Flipper and Sage'' <<BR>> + [[attachment:sage_gotchas.pdf|''Sage gotchas'']] ||
+|| 11:00 - 12:00 || Mark Bell || ''Flipper and Sage'' <<BR>> + ''[[attachment:sage_gotchas.pdf|Sage gotchas]]'' ||
 || 12:00 - 13:00 || Frédéric Vincent <<BR>> & Thibaut Paumard || ''Gyoto code and geodesics'' [[attachment:Gyoto_F_Vincent.pdf|(part 1)]] [[attachment:Gyoto_T_Paumard.pdf|(part 2)]]||
 || 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
 || 14:00 - 16:00 |||| working groups / coding sprints ||
