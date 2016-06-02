@@ -181,6 +181,12 @@ European participants receiving some [[http://opendreamkit.org/|OpenDreamKit]] f
 
  * Miguel Angel Marco Buzunariz (University of Zaragoza, Spain)
 
+==== Group photo ====
+
+{{attachment:group_photo_SD74.jpg}}
+
+Credit: Sylvain Cnudde
+
 === Organizers ===
 
  * Eric Gourgoulhon (LUTH, Observatoire de Paris)
