@@ -66,6 +66,7 @@ There will also be time for '''code sprints'''.
 == Participants ==
 
  * Eviatar Bach (UBC)
+ * Matthew Barrow (Powerex)
  * Adrien Boussicault (Université de Bordeaux)
  * Julien Courtiel (UBC)
  * Kevin Dilks (North Dakota State University)
@@ -80,6 +81,7 @@ There will also be time for '''code sprints'''.
  * Jang Soo Kim (Sungkyunkwan University)
  * Patxi Laborde-Zubieta (Université de Bordeaux)
  * Seung Jin Lee (Korea Institute for Advanced Study)
+ * Amir Maleki (UBC)
  * Viviane Pons (Université Paris Sud)
  * Vivien Ripoll (Universität Wien)
  * Travis Scrimshaw (University of Minnesota)
