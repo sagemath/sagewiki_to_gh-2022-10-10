@@ -89,3 +89,4 @@ Please add you name to the list if you want to attend this Sage Days.
  * Julien Lavauzelle (LIX & Inria Saclay)
  * Xavier Caruso (IRMAR) (to be confirmed)
  * Jean-Pierre Flori (ANSSI) (I'll show up randomly and will be commuting from Paris)
+ * Arpit Merchant (IIIT-H, India) (to be confirmed)
