@@ -57,11 +57,37 @@ Do you have other sources of funding for this event (FPSAC aid, local funding)?
 
 == Program ==
 
-The program will include a main lecture from '''Mike Zabrocki''' (subject to be announced)
-as well as '''introductory tutorials''' to Sage and combinatorics in Sage.
-There will also be time for '''code sprints'''.
+This is a tentative program which is subject to evolutions depending on the requests and needs of the participants.
 
-''Detailed schedule to be announced''. 
+||      || Wednesday 06/29 || Thursday 06/30 || Friday 07/01 ||
+|| 9:30 || ''Presentation of Sage''<<BR>>Viviane Pons || ''Open Problems in Combinatorial Representation Theory''*<<BR>>Mike Zabrocki  || ''How to contribute to Sage?''<<BR>>Kevin Dilks  ||
+|| 10:30 |||||| Coffee break ||
+|| 11:00 ||  ''Tutorial: introduction to Python and Sage''<<BR>>Aram Dermenjian || ''Knot theory in Sage''<<BR>>Amit Jamadagni || ''CODE SPRINTS'' ||
+|| 12:00 || Install party || || ||
+|| 12:30 |||||| Lunch Break ||
+|| 14:00 || ''Intro to research-based coding in Sage''<<BR>>Jessica Striker || ''Crystals in Sage''<<BR>>Travis Scrimshaw || ''CODE SPRINTS'' ||
+|| 15:00 |||||| Coffee break ||
+|| 15:30 || ''How to create a Sage class for a combinatorial objects?''<<BR>>Emily Gunawan || ''CODE SPRINTS'' || ''CODE SPRINTS'' ||
+|| 16:30 || ''Introduction to code sprints''** || ''CODE SPRINTS'' || ''CODE SPRINTS'' ||
+|| 17:00 ||  || Status report || Status report ||
+
+* '''Open Problems in Combinatorial Representation Theory''' by Mike Zabrocki
+
+Symmetric functions are a tool for understanding the decomposition of $S_n$/$Gl_n$ representations into irreducible subspaces.  The definitions that arise are well known computations and operations in linear algebra (inverting matrices, conjugation, Gram-Schmit orthogonalization, LU decomposition, etc.), but these computations are very slow compared to manipulations of combinatorial objects.
+
+I'll choose 5 (time permitting) of what I consider some motivating open problems in symmetric functions/combinatorial representation theory.  This is a taste of what are just beyond the limits of algebraic combinatorics now.
+
+ 1. k-Schur functions and their structure coefficients
+ 2. diagonal harmonics, Garsia-Haiman modules, Macdonald symmetric functions, operator $\nabla$
+ 3. restriction of irreducible modules from $Gl_n$ to $S_n$ as permutation matricies
+ 4. plethysm and inner plethysm structure coefficients
+ 5. Kronecker product structure coefficients
+
+Sage does all of these computations well, usually as a mix of linear algebra and combinatorics.  The algebra of symmetric functions encodes many common combinatorial objects in the coefficients: partitions, tableaux, subsets, words, integer matrices, lattice paths, Dyck paths, parking functions, set partitions, etc. and these objects are used as building blocks to describe combinatorial decompositions.
+
+** '''Introduction to code sprints'''
+
+A ''code sprint'' is a get-together of people around a particular software development project. During Sage days, code sprints are the occasion for everyone to get to work on a Sage project whether it is to go through the tutorials, to start exploring the part of Sage related to their research, or to get together with other participants to work on a needed feature. Sage days bring together Sage newbies along with more advanced developers: it is the perfect occasion for everyone to meet, share, learn, and code together! Every evening, we will have ''status report'' so that everyone can share their progress on the different projects.
 
 == Participants ==
 
