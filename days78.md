@@ -91,6 +91,7 @@ There will also be time for '''code sprints'''.
  * Foster Tom (UBC)
  * Ahmed Umer Ashraf (University of West Ontario)
  * Steph van Willigenburg (UBC)
+ * Corey Vorland (North Dakota State University)
  * Mike Zabrocki (York university)
 
 
