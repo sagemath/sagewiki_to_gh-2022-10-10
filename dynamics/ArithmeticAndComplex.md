@@ -30,7 +30,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/20650|#20650]]) needs-review: Added is_polynomial and make_look_poly to projective morphism- Rebecca Lauren Miller
+ * ([[http://trac.sagemath.org/ticket/20780|#20780]]) needs-review: add level parameter to rational_preimages - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/20650|#20650]]) needs-review: Added is_polynomial and make_look_poly to projective morphism - Rebecca Lauren Miller
 
  * ([[http://trac.sagemath.org/ticket/20227|#20227]])-- needs-review: Chow form for projective subschemes - Ben Hutz
 
