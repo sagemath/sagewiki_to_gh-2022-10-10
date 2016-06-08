@@ -32,8 +32,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/20780|#20780]]) needs-review: add level parameter to rational_preimages - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/20650|#20650]]) needs-review: Added is_polynomial and make_look_poly to projective morphism - Rebecca Lauren Miller
-
  * ([[http://trac.sagemath.org/ticket/20227|#20227]])-- needs-review: Chow form for projective subschemes - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
@@ -60,15 +58,16 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Optimization ||  Very generally, implement a function which determines how to do efficient iteration of functions. For example, when computing the iterate $f^{17}$, it is more efficient to compute $f^2=f\circ f$, then $f^4=f^2\circ f^2$, then $f^8=f^4\circ f^4$, then $f^{16}=f^8\circ f^8$, and then finally $f^{17}=f^{16}\circ f$, than it is to compute $f\circ \cdots \circ f$ directly. (Zieve, ICERM) || || ||
  || Complex Dynamics || Implement Thurston's algorithm. More precisely, develop an efficient method to determine if there is a Thurston obstruction. (Epstein, ICERM) || || ||
  || Dynamical Zeta Functions || Compute the dynamical zeta function || || ||
- ||<|4> Miscellaneous ||Implement a function which takes as input to rational functions $f(x)$ and $g(x)$, and determines whether or not $f^n=g^m$ for some integers $n,m \geq 1$. (Zieve, ICERM) || || ||
+ ||<|3> Miscellaneous ||Implement a function which takes as input to rational functions $f(x)$ and $g(x)$, and determines whether or not $f^n=g^m$ for some integers $n,m \geq 1$. (Zieve, ICERM) || || ||
  || height_difference_bound for non-endomorphism || || ||
- || backwards orbit: perhaps a switch for depth on rational_preimages() || easy || ||
  || Blow-up at a point (or more generally: resolution of singularities) See Trac #11864 || || ||
  || Coercion || some kind of coercion model: if you have a map defined over QQ should you be able to take the image of a point over CC (i.e. somewhere you have a well defined embedding) without having to `change_ring()`. Something like this works for polynomials. This may or may not be a good idea, but if it can be done in a consistent manner it would improve usability in certain situations. || || ||
  ||<|2> Postcritically finite morphisms || given a number field enumerate pcf maps over that field || || ||
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/20650|#20650]])-- closed sage 7.3: Added is_polynomial and make_look_poly to projective morphism - Rebecca Lauren Miller, Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/19635|#19635]])-- closed sage 7.3: Enumeration functionality for products of projective spaces over fields and finite fields - Grayson Jorgenson
 
