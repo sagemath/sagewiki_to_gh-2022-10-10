@@ -23,7 +23,7 @@ The morning sessions will take place in '''Salle de Conférences du Château''' 
 |||||| '''Tuesday 31 May''' ||
 || 10:00 - 11:00 |||| coffee break ||
 || 11:00 - 12:00 || Nicolas Thiéry || ''[[attachment:2016-05-31-CategoriesInSage.pdf|Infrastructure for generic code in SageMath: categories, axioms, constructions]]''<<BR>> [[attachment:2016-05-31-CategoriesInSage.ipynb|examples [ipynb]]] ||
-|| 12:00 - 13:00 || Marcin Kostur<<BR>> & Artur Trzesiok || ''[[http://mybinder.org/repo/K3D-tools/K3D-jupyter|Jupyter notebook extension for K3D visualization library]]'' [[https://wiki.sagemath.org/K3D-tools|wiki]] ||
+|| 12:00 - 13:00 || Marcin Kostur<<BR>> & Artur Trzesiok || ''[[http://mybinder.org/repo/K3D-tools/K3D-jupyter|Jupyter notebook extension for K3D visualization library]]'' [[K3D-tools|wiki]] ||
 || 13:00 - 14:00 |||| lunch at the Observatory cafeteria||
 || 14:00 - 15:00 || Volker Braun || ''[[attachment:VolkerBraun-Toric-Geometry.ipynb|Toric geometry]]'' ||
 || 15:00 - 16:00 |||| working groups / coding sprints ||
