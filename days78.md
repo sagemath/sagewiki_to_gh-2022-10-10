@@ -59,6 +59,9 @@ Do you have other sources of funding for this event (FPSAC aid, local funding)?
 
 This is a tentative program which is subject to evolutions depending on the requests and needs of the participants.
 
+All talks are being held in '''Earth Science Building''' room 2012. [[http://www.maps.ubc.ca/PROD/index_detail.php?locat1=225| A map of the campus can be found here]].
+
+
 ||      || Wednesday 06/29 || Thursday 06/30 || Friday 07/01 ||
 || 9:30 || ''Presentation of Sage''<<BR>>Viviane Pons || ''Open Problems in Combinatorial Representation Theory''*<<BR>>Mike Zabrocki  || ''How to contribute to Sage?''<<BR>>Kevin Dilks  ||
 || 10:30 |||||| Coffee break ||
