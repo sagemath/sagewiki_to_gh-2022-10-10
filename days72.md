@@ -27,7 +27,7 @@ Automata and transducers are available in !SageMath via its [[http://doc.sagemat
 
 The presentation will cover some experience collected while using SageMath as a tool to help in research and teaching. We will also shortly present the Julia language and compare it with SageMath.
 
-== Schedule ==
+== Schedule (and Downloads) ==
 
 There will be time during most of the lectures (or just after) to try out SageMath by yourselves.
 
