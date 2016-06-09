@@ -60,6 +60,9 @@ Sunday:
    * [[https://cloud.sagemath.com/projects/a2005f50-2b45-4bf9-9a55-ad4f7223f3f1/files/presentations/CythonJulia/|notebooks]]
  * 12:00: lunch
  * 14:00--15:00: Using Sage in number system research (part 1) [Attila Kovács]
+   * [[https://wiki.sagemath.org/days72?action=AttachFile&do=get&target=NumerationSystems.pdf|presentaion (pdf)]]
+   * [[https://wiki.sagemath.org/days72?action=AttachFile&do=get&target=NumerationSystems.sagews|notebook (.sagews)]]
+   * [[https://wiki.sagemath.org/days72?action=AttachFile&do=get&target=NumerationClass.sage|SageMath class (.sage)]]
  * 15:00:  * coffee break *
  * 15:30--16:30: Using Sage in number system research (part 2) [Attila Kovács]
  * discussion, coding, etc.
