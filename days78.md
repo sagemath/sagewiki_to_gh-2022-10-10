@@ -25,8 +25,6 @@ Venue: University of British Columbia, Vancouver
 == Registration ==
 
 Please send the following form to [[mailto:viviane.pons@lri.fr|Viviane Pons]].
-If you wish to apply for financial aid, please do so '''before April 30'''
-by filling out the extra application form.
 
 Name:
 
@@ -114,6 +112,7 @@ A ''code sprint'' is a get-together of people around a particular software devel
  * Viviane Pons (Université Paris Sud)
  * Vivien Ripoll (Universität Wien)
  * Travis Scrimshaw (University of Minnesota)
+ * Adrian She (UBC)
  * Robin Sulzgruber (Universität Wien) 
  * Jessica Striker (North Dakota State University)
  * Marko Thiel (University of Zurich)
