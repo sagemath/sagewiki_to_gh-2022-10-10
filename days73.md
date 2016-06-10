@@ -33,7 +33,11 @@ The workshop started on wednesday 04 morning and ended on saturday 07. It took p
  * '''symbolic vs numerics in Sage''' (tutorial, wednesday 15:30 - 17:00, Vincent Delecroix)
    There are many ways to deal with numbers within Sage (algebraic numbers, floating points, intervals, ...). We will present and illustrate pros and cons of all of them on some concrete problems: root finding, integration, solving ordinary differential equations.  [[attachment:symbolic_vs_numeric.rst]]
 
- * [[https://github.com/videlec/sage-flatsurf|Flatsurf]] Pat's demo: PAT'S WORKSHEET TO COME
+ * [[https://github.com/videlec/sage-flatsurf|Flatsurf]] Pat's demo: 
+[[attachment:Hooper-sage_days_73-demo1.sws | Demo 1 as a Sage Worksheet]]
+[[attachment:Hooper-sage_days_73-demo1.pdf | Demo 1 as a PDF]]
+[[attachment:Hooper-sage_days_73-demo2.sws | Demo 2 as a Sage Worksheet]]
+[[attachment:Hooper-sage_days_73-demo2.pdf | Demo 2 as a PDF]]
 
  * [[http://www.labri.fr/perso/vdelecro/flatsurf.html|the flatsurf package]] (demo, thursday 17:30 - 18:00, Vincent Delecroix)
 
