@@ -1,6 +1,7 @@
 Sagemath patchbots names and owners:
 {{{
     arando            --> jdemeyer
+    ark               --> rws
     andromeda         --> jkroeker
     Athena            --> kdilks
     debian_jessie_32  --> tmonteil
