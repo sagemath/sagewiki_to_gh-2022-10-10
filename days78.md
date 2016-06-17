@@ -111,6 +111,7 @@ A ''code sprint'' is a get-together of people around a particular software devel
  * Amir Maleki (UBC)
  * Viviane Pons (Université Paris Sud)
  * Vivien Ripoll (Universität Wien)
+ * Dan Romik (UC Davis)
  * Travis Scrimshaw (University of Minnesota)
  * Adrian She (UBC)
  * Robin Sulzgruber (Universität Wien) 
