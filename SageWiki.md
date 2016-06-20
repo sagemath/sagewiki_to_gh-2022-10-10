@@ -98,6 +98,11 @@ Note: [[http://trac.sagemath.org/sage_trac/|See the trac server]] for patches aw
  * [[http://tug.ctan.org/pkg/sagetex|SageTeX - Put some sage into your TeX]]
 
 
+= Debates =
+
+ * [[Debate/Collective infrastructure management]]
+
+
 = Other Sage items =
 
  * [[days13/projects/sagenewbie|Sage primers]]
