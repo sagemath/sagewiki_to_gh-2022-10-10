@@ -66,9 +66,9 @@ All talks are being held in '''Earth Science Building''' room 2012. [[http://www
 || 11:00 ||  ''Tutorial: introduction to Python and Sage''<<BR>>Aram Dermenjian || ''Knot theory in Sage''<<BR>>Amit Jamadagni || ''CODE SPRINTS'' ||
 || 12:00 || Install party || || ||
 || 12:30 |||||| Lunch Break ||
-|| 14:00 || ''Intro to research-based coding in Sage''<<BR>>Jessica Striker || ''Crystals in Sage''<<BR>>Travis Scrimshaw || ''The moving sofa problem'' <<BR>>Ban Romik (15 minutes)<<BR>> <<BR>>''CODE SPRINTS'' ||
+|| 14:00 || ''Intro to research-based coding in Sage''<<BR>>Jessica Striker || ''Crystals in Sage''<<BR>>Travis Scrimshaw || ''CODE SPRINTS'' ||
 || 15:00 |||||| Coffee break ||
-|| 15:30 || ''Tutorial: Creating a Sage class for a combinatorial object''<<BR>>Emily Gunawan || ''CODE SPRINTS'' || ''CODE SPRINTS'' ||
+|| 15:30 || ''Tutorial: Creating a Sage class for a combinatorial object''<<BR>>Emily Gunawan || ''The moving sofa problem'' <<BR>>Ban Romik (15 minutes)<<BR>> <<BR>> || ''CODE SPRINTS'' ||
 || 16:30 || ''Short projects presentation'' <<BR>> Matt Erbst || ''CODE SPRINTS'' || ''CODE SPRINTS'' ||
 || 17:00 || ''Introduction to code sprints''** || Status report || Status report ||
 
