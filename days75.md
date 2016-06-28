@@ -51,6 +51,10 @@ Feel free to add your own ideas here.
 
 * Link to new features of new LinBox release.
 
+* Implement the Hartmann-Tzeng bound for cyclic codes.
+
+* Implement Goppa codes.
+
 * Cython implementation of the Brouwer-Zimmermann algorithm for computing the minimum distance of a linear code.
 
 
