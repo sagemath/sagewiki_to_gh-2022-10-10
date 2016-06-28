@@ -99,6 +99,7 @@ A ''code sprint'' is a get-together of people around a particular software devel
  * Kevin Dilks (North Dakota State University)
  * Aram Dermenjian (UQAM)
  * Clément Dervieux (Paris Diderot -- Ecole polytechnique)
+ * Matt Erbst
  * Katie Gedeon (University of Oregon)
  * Tomack Gilmore (Universität Wien)
  * Bennet Goeckner (University of Kansas)
