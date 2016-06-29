@@ -72,7 +72,7 @@ All talks are being held in '''Earth Science Building''' room 2012. [[http://www
 || 16:30 || ''Short projects presentation'' <<BR>> Matt Erbst || ''CODE SPRINTS'' || ''CODE SPRINTS'' ||
 || 17:00 || ''Introduction to code sprints''** || Status report || Status report ||
 
-[https://cloud.sagemath.com/projects/78ab9ed6-f958-4f9e-9c71-bcd84f7cb06c/files/Public/|All talks and tutorials on SMC]
+[[https://cloud.sagemath.com/projects/78ab9ed6-f958-4f9e-9c71-bcd84f7cb06c/files/Public/|All talks and tutorials on SMC]]
 
 * '''Open Problems in Combinatorial Representation Theory''' by Mike Zabrocki
 
