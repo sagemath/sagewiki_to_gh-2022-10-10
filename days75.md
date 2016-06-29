@@ -101,3 +101,4 @@ Please add you name to the list if you want to attend this Sage Days.
  * Ricardo Alfaro (U. of Michigan - Flint)
  * Charles Bouillaguet (U. Lille 1) 
  * Nicholas Coxon (Inria Saclay - LIX)
+ * Joe Fields (SCSU - New Haven, CT, USA)
