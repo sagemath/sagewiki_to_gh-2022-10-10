@@ -68,7 +68,7 @@ All talks are being held in '''Earth Science Building''' room 2012. [[http://www
 || 12:30 |||||| Lunch Break ||
 || 14:00 || ''Intro to research-based coding in Sage''<<BR>>Jessica Striker || ''Crystals in Sage''<<BR>>Travis Scrimshaw || ''CODE SPRINTS'' ||
 || 15:00 |||||| Coffee break ||
-|| 15:30 || ''Tutorial: Creating a Sage class for a combinatorial object''<<BR>>Emily Gunawan || ''The moving sofa problem'' <<BR>>Dan Romik (15 minutes)<<BR>> <<BR>> || ''CODE SPRINTS'' ||
+|| 15:30 || ''Tutorial: Creating a Sage class for a combinatorial object''[[http://rawgit.com/egunawan/permutation/master/start_tutorial.html|examples]]<<BR>>Emily Gunawan || ''The moving sofa problem'' <<BR>>Dan Romik (15 minutes)<<BR>> <<BR>> || ''CODE SPRINTS'' ||
 || 16:30 || ''Short projects presentation'' <<BR>> Matt Erbst || ''CODE SPRINTS'' || ''CODE SPRINTS'' ||
 || 17:00 || ''Introduction to code sprints''** || Status report || Status report ||
 
