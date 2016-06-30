@@ -92,6 +92,37 @@ Sage does all of these computations well, usually as a mix of linear algebra and
 
 A ''code sprint'' is a get-together of people around a particular software development project. During Sage days, code sprints are the occasion for everyone to get to work on a Sage project whether it is to go through the tutorials, to start exploring the part of Sage related to their research, or to get together with other participants to work on a needed feature. Sage days bring together Sage newbies along with more advanced developers: it is the perfect occasion for everyone to meet, share, learn, and code together! Every evening, we will have ''status report'' so that everyone can share their progress on the different projects.
 
+== Projects ==
+
+=== Install development version of Sage ===
+
+Viviane, Robin, Matt, Ahmed, Bennet, Adrian
+
+=== Grothendieck polynomials ===
+
+Travis, Viviane
+
+=== Plane partitions ===
+
+Vivien, Jessica, Tomack, Jang Soo, Kevin, Matt, Sean, Corey
+
+=== Lie algebras ===
+
+Travis, Amit, Dan, Aram
+
+=== Simplicial complexes ===
+
+Bennet
+
+=== Polyominos ===
+
+Adrien
+
+=== Review tickets ===
+
+Viviane, Emily, Mike
+
+
 == Participants ==
 
  * Eviatar Bach (UBC)
@@ -125,6 +156,7 @@ A ''code sprint'' is a get-together of people around a particular software devel
  * Steph van Willigenburg (UBC)
  * Corey Vorland (North Dakota State University)
  * Mike Zabrocki (York university)
+
 
 
 == Lodging and other practical information ==
