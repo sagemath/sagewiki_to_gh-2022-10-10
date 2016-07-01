@@ -98,17 +98,26 @@ A ''code sprint'' is a get-together of people around a particular software devel
 
 Viviane, Robin, Matt, Ahmed, Bennet, Adrian
 
+--> most people got it to work but some progress need to be made on a quick access to a development environment especially for windows user.
+
 === Grothendieck polynomials ===
 
 Travis, Viviane
+
+--> Discussed the current implementation and a plan to get it reviews soonish
 
 === Plane partitions ===
 
 Vivien, Jessica, Tomack, Jang Soo, Kevin, Matt, Sean, Corey
 
+--> worked on implementing plane partitions: got the class, the latex, the asci art. Next step: put the code on the ticket.
+
+
 === Plot methods for set partitions via chord diagrams ===
 
 Julien, Emily, Robin, Vivien
+
+--> The ticket is there and should go soon in "needs review"
 
 === Lie algebras ===
 
@@ -125,6 +134,12 @@ Adrien
 === Review tickets ===
 
 Viviane, Emily, Mike
+
+=== Rook placement ===
+
+Sean, Bennet
+
+--> working on an implementation
 
 
 == Participants ==
