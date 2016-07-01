@@ -1,5 +1,7 @@
 All of the things you need to know to get Sage set up for development are documented...somewhere. Unfortunately, the information is in a few different places, and it's not clear which order you need to go through them in. This will hopefully organize the information in a more linear fashion. Relevant links most of this information are culled from are
 
+http://doc.sagemath.org/html/en/developer/index.html
+
 http://doc.sagemath.org/html/en/installation/source.html
 
 http://doc.sagemath.org/html/en/developer/git_trac.html
@@ -164,4 +166,3 @@ A "component" (indicating which part of Sage this is dealing with), a "priority"
 For the purposes of this tutorial, we will be using a specially made 'git-trac' program which streamlines the process of pushing/pulling code between your local copy of Sage and what's on the trac server. Eventually, it would be worth figuring out how to do things the 'right way' ( http://doc.sagemath.org/html/en/developer/manual_git.html#chapter-manual-git https://wiki.sagemath.org/TentativeConventions#Quick_reference_guide:_I_want_to... ) to get a better idea about what's actually going on, and to give you more control over workflow for more complicated tickets. But even then, I personally prefer using git-trac command for simple bug fixes/enhancements.
 
 The directions for setting up the git-trac command at ( http://doc.sagemath.org/html/en/developer/git_trac.html ) are fairly complete and self-contained.
-
