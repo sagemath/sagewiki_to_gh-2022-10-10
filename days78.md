@@ -63,13 +63,13 @@ All talks are being held in '''Earth Science Building''' room 2012. [[http://www
 ||      || Wednesday 06/29 || Thursday 06/30 || Friday 07/01 ||
 || 9:30 || ''Presentation of Sage''<<BR>>Viviane Pons || ''Open Problems in Combinatorial Representation Theory''*<<BR>>Mike Zabrocki  || ''How to contribute to Sage?''<<BR>>Kevin Dilks  ||
 || 10:30 |||||| Coffee break ||
-|| 11:00 ||  ''Tutorial: introduction to Python and Sage''<<BR>>Aram Dermenjian || ''Knot theory in Sage''<<BR>>Amit Jamadagni || ''CODE SPRINTS'' ||
+|| 11:00 ||  ''Tutorial: introduction to Python and Sage''<<BR>>Aram Dermenjian || ''Knot theory in Sage''<<BR>>Amit Jamadagni ||''Short presentation on [[http://opendreamkit.org/|OpenDreamKit]]''<<BR>><<BR>> ''CODE SPRINTS'' ||
 || 12:00 || Install party || || ||
 || 12:30 |||||| Lunch Break ||
-|| 14:00 || ''Intro to research-based coding in Sage''<<BR>>Jessica Striker || ''Crystals in Sage''<<BR>>Travis Scrimshaw || ''CODE SPRINTS'' ||
+|| 14:00 || ''Intro to research-based coding in Sage''<<BR>>Jessica Striker || ''Crystals in Sage''<<BR>>Travis Scrimshaw || ''Short projects presentation'' <<BR>> Matt Erbst <<BR>><<BR>> ''CODE SPRINTS'' ||
 || 15:00 |||||| Coffee break ||
 || 15:30 || ''Tutorial: Creating a Sage class for a combinatorial object''<<BR>>[[http://rawgit.com/egunawan/permutation/master/start_tutorial.html|follow along]] Emily Gunawan || ''The moving sofa problem'' <<BR>>Dan Romik (15 minutes)<<BR>> <<BR>> || ''CODE SPRINTS'' ||
-|| 16:30 || ''Short projects presentation'' <<BR>> Matt Erbst || ''CODE SPRINTS'' || ''CODE SPRINTS'' ||
+|| 16:30 ||  || ''CODE SPRINTS'' || ''CODE SPRINTS'' ||
 || 17:00 || ''Introduction to code sprints''** || Status report || Status report ||
 
 [[https://cloud.sagemath.com/projects/78ab9ed6-f958-4f9e-9c71-bcd84f7cb06c/files/|All talks and tutorials on SMC]]
