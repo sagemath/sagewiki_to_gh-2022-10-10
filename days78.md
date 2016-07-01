@@ -106,6 +106,10 @@ Travis, Viviane
 
 Vivien, Jessica, Tomack, Jang Soo, Kevin, Matt, Sean, Corey
 
+=== Plot methods for set partitions via chord diagrams ===
+
+Julien, Emily, Robin, Vivien
+
 === Lie algebras ===
 
 Travis, Amit, Dan, Aram
