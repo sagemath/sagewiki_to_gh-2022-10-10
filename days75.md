@@ -60,11 +60,6 @@ Feel free to add your own ideas here.
 * Cython implementation of the Brouwer-Zimmermann algorithm for computing the minimum distance of a linear code.
 
 
-= Funding =
-
-We have some funding for sage developers and students.
-Please contact David Lucas (david.lucas[at]inria.fr) to ask for funding.
-
 = Logistics =
 
 == Lodging ==
