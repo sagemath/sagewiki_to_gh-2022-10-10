@@ -8,7 +8,7 @@ Please contact David Lucas (david.lucas[at]inria.fr) for any question.
 
 = Focus & Topics =
 
-The overall theme of this Sage Days is coding theory, but there will be lots of general hacking.
+The overall theme of this Sage Days is coding theory and exact linear algebra related to it, but there will be lots of general hacking.
 Even if you don't have any particular interest in coding theory, you should participate! 
 Similarly, even if don't know Sage at all but are interested in coding theory, you should also participate!
 There will be an installation session, introductory talks to Sage and its development workflow.
