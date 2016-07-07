@@ -27,9 +27,29 @@ on advanced functionalities, with an emphasis on Sage development.
 
 == Schedule ==
 
-TBA
+Disclaimer: This is a preliminary schedule which is subject to change!
 
-== Ideas for hacking projects ==
+||<#AFEFEF:> Plenary talks ||<#D0FFD0:> Coding sprints ||
+
+||<5%>              ||<15% #FFFFAA:> Monday, 22nd August ||<15%  #FFFFAA:> Tuesday, 23rd August ||<15%  #FFFFAA:> Wednesday, 24th August ||<15%  #FFFFAA:> Thursday, 25th August  ||<15%  #FFFFAA:> Friday, 26th August ||
+||Room              ||<:> Gilles Kahn  ||<:> Gilles Kahn ||<:> Gilles Kahn ||<:> Gilles Kahn ||<:> Gilles Kahn ||
+||<#FFFFAA> 9am     ||<:|3> Welcome and install session||<#D0FFD0:|4>Coding sprints session||<#D0FFD0:|4>Coding sprints session||<#D0FFD0:|4>Coding sprints session||<#D0FFD0:|4>Coding sprints session||
+||<#FFFFAA> 9.30am  ||
+||<#FFFFAA> 10am    ||
+||<#FFFFAA> 10.30am ||<#AFEFEF:|2>Introduction to Sage||
+||<#FFFFAA> 11am    ||<#AFEFEF:|2>Presentation of LinBox||<#AFEFEF:|2>Decoding techniques for algebraic codes: algorithmic and implementation||<#AFEFEF:|2>Rank-metric codes in Sage||<#AFEFEF:|2>TBA||
+||<#FFFFAA> 11.30am ||Hands-on Sage (tutorials, ...)||
+||<#FFFFAA> 12am    ||Lunch break||Lunch break||Lunch break||Lunch break||Lunch break||
+||<#FFFFAA> 1.30pm  ||<#AFEFEF:|2>Introduction to coding theory in Sage||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||
+||<#FFFFAA> 2pm     ||
+||<#FFFFAA> 2.30pm  ||Break||
+||<#FFFFAA> 3pm     ||<#AFEFEF:>Status report on ACTIS||
+||<#FFFFAA> 3.15pm  ||<#AFEFEF:>Brainstorming on coding sprints||
+||<#FFFFAA> 3.30pm  ||<#D0FFD0:|2>Coding sprints session||
+||<#FFFFAA> 5.30pm  ||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||
+||<#FFFFAA> 6pm     ||<:> End ||<:> End ||<:> End ||<:> End ||<:> End ||
+
+== Ideas for coding sprints ==
 
 Feel free to add your own ideas here.
 
