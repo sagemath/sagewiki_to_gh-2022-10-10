@@ -49,6 +49,9 @@ Disclaimer: This is a preliminary schedule which is subject to change!
 ||<#FFFFAA> 5.30pm  ||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||
 ||<#FFFFAA> 6pm     ||<:> End ||<:> End ||<:> End ||<:> End ||<:> End ||
 
+We also expect to have informal lightning talks by the participants throughout
+the week on any subject that comes up.
+
 == Ideas for coding sprints ==
 
 Feel free to add your own ideas here.
