@@ -7,6 +7,7 @@ Sage Days 49 Coding Sprint Projects
 
 Below is a list of proposed projects. Please edit and add your projects!
 
+
 Combinatorics
 -------------
 
