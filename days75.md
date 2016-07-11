@@ -122,3 +122,4 @@ Please add you name to the list if you want to attend this Sage Days.
  * Charles Bouillaguet (U. Lille 1) 
  * Nicholas Coxon (Inria Saclay - LIX)
  * Joe Fields (SCSU - New Haven, CT, USA)
+ * Fangan Dosso (U. de Toulon)
