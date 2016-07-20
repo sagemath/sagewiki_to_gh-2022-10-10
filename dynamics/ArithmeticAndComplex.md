@@ -30,10 +30,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/20780|#20820]]) Conjugating sets of Rational Functions - Rebecca Lauren Miller
-
- * ([[http://trac.sagemath.org/ticket/20780|#20780]]) needs-review: add level parameter to rational_preimages - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/20227|#20227]])-- needs-review: Chow form for projective subschemes - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
@@ -68,6 +64,10 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/20820|#20820]])-- closed sage 7.3: Conjugating sets of Rational Functions - Rebecca Lauren Miller
+
+ * --([[http://trac.sagemath.org/ticket/20780|#20780]])-- closed sage 7.3: add level parameter to rational_preimages - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/20650|#20650]])-- closed sage 7.3: Added is_polynomial and make_look_poly to projective morphism - Rebecca Lauren Miller, Ben Hutz
 
