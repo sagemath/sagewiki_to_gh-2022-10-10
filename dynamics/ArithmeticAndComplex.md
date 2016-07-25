@@ -45,7 +45,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  ||<|1> Products of Projective Spaces || Rational Points on Subschemes || Implement an efficient rational points search on subschemes. Currently it is done by enumeration unless dim is 0 || ||
  ||<|1> Polynomials || specific functionality for regular polynomial endomorphisms of P^N || || ||
  ||<|3> Rational Maps || Indeterminacy locus || easy || ||
- || Dynamical degree || || ||
+ || Dynamical degree(s), arithmetic degree || || ||
  || periodic and preperiodic points (projective and affine) || || ||
  ||<|2> Numerical Precision || implement Algorithm 4 from "Computing algebraic numbers of bounded height" by Doyle-Krumm to use in elements_of_bounded_height for number fields. This is a high priority since currently the precision has an effect on the output. Algorithm 4 is able to take precision into account. || Hard || High ||
  || use real interval field for floating point computations (in heights and possibly rational preperiodic point functions) || medium || ||
