@@ -32,11 +32,15 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/21097|#21097]])-- new: incorrect parent in dynatomic_polynomial - Michelle Manes
+ * ([[http://trac.sagemath.org/ticket/21100|#21100]])-- needs-review: division error in normalize_coordinates - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/21099|#21099]])-- needs-review: incorrect parent in dynatomic_polynomial - Michelle Manes
+
+ * ([[http://trac.sagemath.org/ticket/21097|#21097]])-- needs-review: incorrect parent in dynatomic_polynomial - Michelle Manes
 
  * ([[http://trac.sagemath.org/ticket/21091|#21091]])-- positive-review: is_polynomial bug fix - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/20227|#20227]])-- needs-review: Chow form for projective subschemes - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/20227|#20227]])-- positive-review: Chow form for projective subschemes - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
