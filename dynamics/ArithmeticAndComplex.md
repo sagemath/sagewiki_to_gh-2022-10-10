@@ -34,7 +34,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/21100|#21100]])-- needs-review: division error in normalize_coordinates - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/21099|#21099]])-- needs-review: incorrect parent in dynatomic_polynomial - Michelle Manes
+ * ([[http://trac.sagemath.org/ticket/21099|#21099]])-- needs-review: critical subscheme / critical points for a map on projective space - Michelle Manes
 
  * ([[http://trac.sagemath.org/ticket/21097|#21097]])-- needs-review: incorrect parent in dynatomic_polynomial - Michelle Manes
 
