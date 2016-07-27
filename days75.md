@@ -37,14 +37,14 @@ Disclaimer: This is a preliminary schedule which is subject to change!
 ||<#FFFFAA> 9.30am  ||
 ||<#FFFFAA> 10am    ||
 ||<#FFFFAA> 10.30am ||<#AFEFEF:|2>Introduction to Sage||
-||<#FFFFAA> 11am    ||<#AFEFEF:|2>Presentation of LinBox||<#AFEFEF:|2>Decoding techniques for algebraic codes: algorithmic and implementation||<#AFEFEF:|2>Rank-metric codes in Sage||<#AFEFEF:|2>TBA||
+||<#FFFFAA> 11am    ||<#AFEFEF:|2>Presentation of LinBox (Clément Pernet)||<#AFEFEF:|2>Decoding techniques for algebraic codes: algorithmic and implementation (Johan S. R. Nielsen)||<#AFEFEF:|2>Rank-metric codes in Sage (Arpit Merchant)||<#AFEFEF:|2>TBA||
 ||<#FFFFAA> 11.30am ||Hands-on Sage (tutorials, ...)||
 ||<#FFFFAA> 12am    ||Lunch break||Lunch break||Lunch break||Lunch break||Lunch break||
-||<#FFFFAA> 1.30pm  ||<#AFEFEF:|2>Introduction to coding theory in Sage||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||
+||<#FFFFAA> 1.30pm  ||<#AFEFEF:|2>Introduction to coding theory in Sage (David Lucas)||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||
 ||<#FFFFAA> 2pm     ||
 ||<#FFFFAA> 2.30pm  ||Break||
-||<#FFFFAA> 3pm     ||<#AFEFEF:>Status report on ACTIS||
-||<#FFFFAA> 3.15pm  ||<#AFEFEF:>Brainstorming on coding sprints||
+||<#FFFFAA> 3pm     ||<#AFEFEF:>Status report on ACTIS (David Lucas)||
+||<#FFFFAA> 3.15pm  ||<#AFEFEF:>Brainstorming on coding sprints (David Lucas)||
 ||<#FFFFAA> 3.30pm  ||<#D0FFD0:|2>Coding sprints session||
 ||<#FFFFAA> 5.30pm  ||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||
 ||<#FFFFAA> 6pm     ||<:> End ||<:> End ||<:> End ||<:> End ||<:> End ||
@@ -95,8 +95,22 @@ want to stay at the cottage.
 
 == Transportation ==
 
-See directions [[http://www.lix.polytechnique.fr/cryptologie/directions|here]].
-We will provide transportation by cars between the cottage and Inria Saclay.
+=== How to reach Inria Saclay ===
+
+Board the RER B, direction ''Saint Rémy lès Chevreuse'', ''Orsay'' or ''Massy-Palaiseau'' and stop at Massy-Palaiseau.
+Exit on ''Massy-Atlantis'' side and board 91.06B or 91.06C bus. Stop at ''Polytechnique - Laboratoire''.
+A map of Massy-Palaiseau RER/Bus station is available
+[[https://www.ensta-paristech.fr/sites/default/files/fichiers/menu_gauche/plan_gare_massy.pdf|here (pdf)]]
+
+=== How to reach the cottage ===
+
+From Orly Airport: Take the Orlyval to Paris, and stop at ''Antony''. Then, board the RER B to ''Saint Rémy lès Chevreuse'' and
+stop at ''Saint Rémy lès Chevreuse''. We will drive you to the cottage from there.
+
+From Charles de Gaulle Airport: Take the RER B to ''Saint Rémy lès Chevreuse'' and
+stop at ''Saint Rémy lès Chevreuse''. We will drive you to the cottage from there.
+
+We will also provide transportation by cars between the cottage and Inria Saclay.
 
 == Participants ==
 
@@ -109,7 +123,6 @@ Please add you name to the list if you want to attend this Sage Days.
  * Luca De Feo (U. Versailles)
  * Miguel Marco (U. de Zaragoza)
  * Irene Márquez (Inria)
- * Vincent Neiger (ENS Lyon) (to be confirmed)
  * Julien Lavauzelle (LIX & Inria Saclay)
  * Xavier Caruso (IRMAR) (to be confirmed)
  * Jean-Pierre Flori (ANSSI) (I'll show up randomly and will be commuting from Paris)
