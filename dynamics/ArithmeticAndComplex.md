@@ -32,7 +32,13 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/21100|#21100]])-- needs-review: division error in normalize_coordinates - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/21102|#21102]])-- needs-review: wrong base ring in sigma invariants - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/21108|#21108]])-- positive-review: division error in normalize_coordinates - Vincent Delacroix
+
+ * ([[http://trac.sagemath.org/ticket/21106|#21106]])-- positive-review: class for flattenning morphism - Vincent Delecroix, Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/21100|#21100]])-- not needed: division error in normalize_coordinates - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/21099|#21099]])-- needs-review: critical subscheme / critical points for a map on projective space - Michelle Manes
 
