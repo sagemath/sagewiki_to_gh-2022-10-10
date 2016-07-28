@@ -34,11 +34,11 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/21113|#21113]])-- needs-review: unflattening morphism error - Ben Hutz
 
+ * ([[http://trac.sagemath.org/ticket/21112|#21112]])-- needs-review: wrong base ring in sigma invariants - Ben Hutz
+
  * ([[http://trac.sagemath.org/ticket/21108|#21108]])-- positive-review: use flattening in quo_rem - Vincent Delacroix
 
  * ([[http://trac.sagemath.org/ticket/21106|#21106]])-- positive-review: class for flattening morphism - Vincent Delecroix, Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/21102|#21102]])-- needs-review: wrong base ring in sigma invariants - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/21100|#21100]])-- duplicate/won't fix: division error in normalize_coordinates - Ben Hutz
 
