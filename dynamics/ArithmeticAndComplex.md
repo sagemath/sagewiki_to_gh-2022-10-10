@@ -40,7 +40,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/21102|#21102]])-- needs-review: wrong base ring in sigma invariants - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/21100|#21100]])-- not needed: division error in normalize_coordinates - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/21100|#21100]])-- duplicate/won't fix: division error in normalize_coordinates - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/21099|#21099]])-- needs-review: critical subscheme / critical points for a map on projective space - Michelle Manes
 
