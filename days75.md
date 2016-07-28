@@ -36,7 +36,7 @@ Disclaimer: This is a preliminary schedule which is subject to change!
 ||<#FFFFAA> 9am     ||<:|3> Welcome and install session||<#D0FFD0:|4>Coding sprints session||<#D0FFD0:|4>Coding sprints session||<#D0FFD0:|4>Coding sprints session||<#D0FFD0:|4>Coding sprints session||
 ||<#FFFFAA> 9.30am  ||
 ||<#FFFFAA> 10am    ||
-||<#FFFFAA> 10.30am ||<#AFEFEF:|2>Introduction to Sage||
+||<#FFFFAA> 10.30am ||<#AFEFEF:|2>Introduction to Sage (Luca De Feo)||
 ||<#FFFFAA> 11am    ||<#AFEFEF:|2>Presentation of LinBox (Clément Pernet)||<#AFEFEF:|2>Decoding techniques for algebraic codes: algorithmic and implementation (Johan S. R. Nielsen)||<#AFEFEF:|2>Rank-metric codes in Sage (Arpit Merchant)||<#AFEFEF:|2>TBA||
 ||<#FFFFAA> 11.30am ||Hands-on Sage (tutorials, ...)||
 ||<#FFFFAA> 12am    ||Lunch break||Lunch break||Lunch break||Lunch break||Lunch break||
