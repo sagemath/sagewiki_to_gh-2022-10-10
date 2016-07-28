@@ -32,6 +32,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/21118|#21118]])-- new: list of degrees of iterates of function - Joseph Silverman
+
  * ([[http://trac.sagemath.org/ticket/21117|#21117]])-- needs-review: specialization for subschemes and scheme_morphisms - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/21113|#21113]])-- needs-review: unflattening morphism error - Ben Hutz
