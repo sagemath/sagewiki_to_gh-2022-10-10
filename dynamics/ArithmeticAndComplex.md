@@ -44,6 +44,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/21106|#21106]])-- positive-review: class for flattening morphism - Vincent Delecroix, Ben Hutz
 
+ * ([[http://trac.sagemath.org/ticket/21104|#21104]])-- needs-review: indeterminancy locus - Michelle Manes
+
  * ([[http://trac.sagemath.org/ticket/21100|#21100]])-- positive-review (duplicate/won't fix): division error in normalize_coordinates - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/21099|#21099]])-- needs-work: critical subscheme / critical points for a map on projective space - Michelle Manes
