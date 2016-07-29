@@ -1,5 +1,7 @@
 Sage Days 75 will be held from August 22-26, 2016 at [[https://www.inria.fr/en/centre/saclay|Inria Saclay]], France.
 
+<<TableOfContents()>>
+
 = Organizers =
 
 Daniel Augot, David Lucas, Johan S. R. Nielsen, Clément Pernet.
@@ -135,7 +137,7 @@ There will be a buffet on Sunday evening.
 On the other days, voluntary participants will take turns to prepare dinners.
 Feel free to bring you own favourite delicatessen!
 
-== Participants ==
+= Participants =
 
 Please add you name to the list if you want to attend this Sage Days.
 
