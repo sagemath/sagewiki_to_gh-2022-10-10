@@ -48,7 +48,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/21099|#21099]])-- needs-work: critical subscheme / critical points for a map on projective space - Michelle Manes
 
- * ([[http://trac.sagemath.org/ticket/21097|#21097]])-- needs-work: incorrect parent in dynatomic_polynomial - Michelle Manes
+ * ([[http://trac.sagemath.org/ticket/21097|#21097]])-- needs-review: incorrect parent in dynatomic_polynomial - Michelle Manes
 
  * ([[http://trac.sagemath.org/ticket/20227|#20227]])-- needs-review: Chow form for projective subschemes - Ben Hutz
 
