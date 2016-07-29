@@ -88,6 +88,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
  || given a family, which members are pcf|| || ||
  || Berkovich P1 || || ||
+ || Improve speed || || ||
+
 
 == Complete ==
 
