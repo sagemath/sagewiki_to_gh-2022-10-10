@@ -78,7 +78,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  ||<|1> Documentation || Write Tutorials || ||
  || Complex Dynamics || Implement Thurston's algorithm. More precisely, develop an efficient method to determine if there is a Thurston obstruction. (Epstein, ICERM) || || ||
  || Dynamical Zeta Functions || Compute the dynamical zeta function || || ||
- ||<|3> Miscellaneous ||Implement a function which takes as input to rational functions $f(x)$ and $g(x)$, and determines whether or not $f^n=g^m$ for some integers $n,m \geq 1$. (Zieve, ICERM) || || ||
+ ||<|3> Miscellaneous ||Implement a function which takes as input to rational functions $f(x)$ and $g(x)$, and determines whether or not $f^n=g^m$ for some integers $n,m \geq 1$. (Zieve, ICERM) || ||
  || Coercion || some kind of coercion model: if you have a map defined over QQ should you be able to take the image of a point over CC (i.e. somewhere you have a well defined embedding) without having to `change_ring()`. Something like this works for polynomials. This may or may not be a good idea, but if it can be done in a consistent manner it would improve usability in certain situations. || || ||
  ||<|3> Postcritically finite morphisms || given a number field enumerate pcf maps over that field || || ||
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
