@@ -32,7 +32,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/21118|#21118]])-- new: list of degrees of iterates of function - Joseph Silverman
+ * ([[http://trac.sagemath.org/ticket/21118|#21118]])-- needs-work: list of degrees of iterates of function - Joseph Silverman
 
  * ([[http://trac.sagemath.org/ticket/21117|#21117]])-- needs-review: specialization for subschemes and scheme_morphisms - Ben Hutz
 
@@ -44,15 +44,13 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/21106|#21106]])-- positive-review: class for flattening morphism - Vincent Delecroix, Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/21100|#21100]])-- duplicate/won't fix: division error in normalize_coordinates - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/21100|#21100]])-- positive-review (duplicate/won't fix): division error in normalize_coordinates - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/21099|#21099]])-- needs-review: critical subscheme / critical points for a map on projective space - Michelle Manes
+ * ([[http://trac.sagemath.org/ticket/21099|#21099]])-- needs-work: critical subscheme / critical points for a map on projective space - Michelle Manes
 
- * ([[http://trac.sagemath.org/ticket/21097|#21097]])-- needs-review: incorrect parent in dynatomic_polynomial - Michelle Manes
+ * ([[http://trac.sagemath.org/ticket/21097|#21097]])-- needs-work: incorrect parent in dynatomic_polynomial - Michelle Manes
 
- * ([[http://trac.sagemath.org/ticket/21091|#21091]])-- positive-review: is_polynomial bug fix - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/20227|#20227]])-- positive-review: Chow form for projective subschemes - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/20227|#20227]])-- needs-review: Chow form for projective subschemes - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/15378|#15378]]) Composition of Morphisms - Vincent Delecroix, Donald Richardson, Soli Vishkautsan
 
@@ -88,6 +86,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/21091|#21091]])-- closed sage 7.3: is_polynomial bug fix - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/20820|#20820]])-- closed sage 7.3: Conjugating sets of Rational Functions - Rebecca Lauren Miller
 
