@@ -87,8 +87,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  ||<|3> Postcritically finite morphisms || given a number field enumerate pcf maps over that field || || ||
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
  || given a family, which members are pcf|| || ||
- || Berkovich P1 || || ||
- || Improve speed ||sigma_invariants is currently very slow.  (Took several minutes to compute 2-cycle sigma invariants for a cubic.)  If we hope to use this to describe functions in the "Arithmetic Dynamics Database," then computation needs to be much faster. || Need to think about methods.  Will numerical approximations go faster?  Do we need to bound denominators of symmetric functions?  Can we?||
+ || Berkovich P1 || || ||  ||
+ || Improve speed ||sigma_invariants is currently very slow.  (Took several minutes to compute 2-cycle sigma invariants for a cubic.)  If we hope to use this to describe functions in the "Arithmetic Dynamics Database," then computation needs to be much faster. || Need to think about methods.  Will numerical approximations go faster?  Do we need to bound denominators of symmetric functions?  Can we?||  ||
 
 
 == Complete ==
