@@ -95,6 +95,15 @@ want to stay at the cottage.
 
 == Transportation ==
 
+=== Arrival on the weekend (August 20-21) ===
+
+If you arrive on Saturday (20th), stop at Massy-Palaiseau RER station. Let me (David Lucas) know when you arrive at the station and
+I'll pick you there. We will then drive you to the cottage at 3.30pm.
+
+If you arrive on Sunday (21st), stop at Massy-Palaiseau RER station. There will be two shuttles, one at 6.40pm and the other
+one at 9.30pm. Both will depart from Massy-Palaiseau SNCF station. To reach the SNCF station from the RER station, please check
+the map given below.
+
 === How to reach Inria Saclay ===
 
 Board the RER B, direction ''Saint Rémy lès Chevreuse'', ''Orsay'' or ''Massy-Palaiseau'' and stop at Massy-Palaiseau.
@@ -111,6 +120,20 @@ From Charles de Gaulle Airport: Take the RER B to ''Saint Rémy lès Chevreuse''
 stop at ''Saint Rémy lès Chevreuse''. We will drive you to the cottage from there.
 
 We will also provide transportation by cars between the cottage and Inria Saclay.
+
+== Meals at the cottage ==
+
+=== Breakfast ===
+
+Basic continental breakfasts will be provided every morning.
+There is also a bakery close to the house to buy fresh bread and pastry. 
+
+=== Dinner ===
+
+There will be a buffet on Sunday evening.
+
+On the other days, voluntary participants will take turns to prepare dinners.
+Feel free to bring you own favourite delicatessen!
 
 == Participants ==
 
