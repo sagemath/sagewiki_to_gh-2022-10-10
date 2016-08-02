@@ -82,7 +82,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  ||<|1> Documentation || Write Tutorials || ||
  || Complex Dynamics || Implement Thurston's algorithm. More precisely, develop an efficient method to determine if there is a Thurston obstruction. (Epstein, ICERM) || || ||
  || Dynamical Zeta Functions || Compute the dynamical zeta function || || ||
- ||<4|>Miscellaneous ||Implement a function which takes as input to rational functions $f(x)$ and $g(x)$, and determines whether or not $f^n=g^m$ for some integers $n,m \geq 1$. (Zieve, ICERM) || || ||
+ ||<|4>Miscellaneous ||Implement a function which takes as input to rational functions $f(x)$ and $g(x)$, and determines whether or not $f^n=g^m$ for some integers $n,m \geq 1$. (Zieve, ICERM) || || ||
  || fix inheritance structure in generic/morphism/py. see tracc 14711 || || ||
  || implement more general schemes - charts, morphisms || || ||
  || color code cyclegraph. mark critical points for pcf potrait. perhaps color code points in intermediate fields for finite fields || || ||
