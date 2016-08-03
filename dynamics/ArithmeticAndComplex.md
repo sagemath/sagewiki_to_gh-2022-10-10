@@ -56,7 +56,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/20227|#20227]]) positive-review: Chow form for projective subschemes - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/15378|#15378]]) needs-review: Composition of Morphisms - Vincent Delecroix, Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/15378|#15378]]) positive-review: Composition of Morphisms - Vincent Delecroix, Ben Hutz
 
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
 
