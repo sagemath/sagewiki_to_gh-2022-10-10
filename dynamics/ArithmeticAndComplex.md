@@ -68,6 +68,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Area|| Description || Difficulty || Priority ||
  ||<|1> Products of Projective Spaces || Rational Points on Subschemes || Implement an efficient rational points search on subschemes. Currently it is done by enumeration unless dim is 0 || ||
  ||<|1> Polynomials || specific functionality for regular polynomial endomorphisms of P^N || || ||
+ ||<|1> Canonical heights || implement Well's algorithm that does not require factoring the resultant || || ||
  ||<|7> Rational Maps || Dynamical degree(s), arithmetic degree || || ||
  || periodic and preperiodic points (projective and affine) || || ||
  || Q.is_iterate_defined(f,n)  || || ||
