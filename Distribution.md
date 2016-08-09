@@ -65,3 +65,29 @@ Here are some links about distributing Sage.
 
 == Discussion ==
   * mailing list (dormant): [[https://groups.google.com/forum/#!forum/sage-windows|sage-windows]]
+
+= Porting to exotic architectures =
+
+  * trac-wiki: [[https://trac.sagemath.org/wiki/ExoticPorts|Porting SageMath to Exotic architectures]]
+  
+== BSD ==
+  * pending tickets: [[https://trac.sagemath.org/query?status=!closed&component=porting%3A+BSD|component: "porting: BSD"]]
+
+== Solaris ==
+  * pending tickets: [[https://trac.sagemath.org/query?status=!closed&component=porting%3A+Solaris|component: "porting: Solaris"]]
+
+== AIX, HP-UX ==
+  * pending tickets: [[https://trac.sagemath.org/query?status=!closed&component=porting%3A+AIX+or+HP-UX|component: "porting: AIX or HP-UX"]]
+
+= Using SageMath through other software =
+
+== Cantor ==
+
+  * home page: https://edu.kde.org/cantor/
+  * author: https://arieder.wordpress.com
+  * wiki page here: https://wiki.sagemath.org/Cantor
+
+== TeXmacs ==
+
+  * wiki page here: https://wiki.sagemath.org/TeXmacs
+  * wiki page there: http://www.texmacs.org/tmweb/plugins/cas.en.html
