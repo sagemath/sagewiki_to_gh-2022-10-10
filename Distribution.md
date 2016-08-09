@@ -4,8 +4,15 @@ Here are some links about distributing Sage.
 
 <<TableOfContents()>>
 
-= Pre-compiled binaries =
-  * http://www.sagemath.org/download.html
+= Source and pre-compiled binaries =
+
+The release manager releases the source for each development release
+and each public release. Binaries for a number of operating systems
+are prepared by the release manager, and sometimes by more people.
+
+  * source (public): http://www.sagemath.org/download-source.html
+  * source (devel): http://www.sagemath.org/download-latest.html
+  * binaries: http://www.sagemath.org/download.html
 
 = Containers =
 
@@ -23,6 +30,8 @@ Here are some links about distributing Sage.
   * mailing list: https://sagedebianlive.metelu.net/mailman/listinfo/devel
 
 = Linux distros =
+
+  * mailing-list: [[https://groups.google.com/forum/#!forum/sage-packaging|sage-packaging]]
 
 == Arch-linux ==
   * hosted at: https://www.archlinux.org/packages/community/x86_64/sagemath/
