@@ -11,10 +11,11 @@ Here are some links about distributing Sage.
 
 == Docker ==
   * url: https://hub.docker.com/u/sagemath/
-  * admin: vbraun, sebasguts
+  * admin: vbraun, sebasguts, nthiery, embray
 
 == Virtualbox ==
   * see SageAppliance
+  * people: vbraun
 
 = Live USB =
   * admin: tmonteil
@@ -25,14 +26,17 @@ Here are some links about distributing Sage.
 
 == Arch-linux ==
   * hosted at: https://www.archlinux.org/packages/community/x86_64/sagemath/
+  * wiki page: https://wiki.archlinux.org/index.php/SageMath
   * maintainer: Antonio Rojas
 
 == Debian ==
-  * https://wiki.debian.org/DebianScience/Sage
+  * wiki page: https://wiki.debian.org/DebianScience/Sage
+  * people: Julien Puydt (Snark)
+  * mailing list (dormant): [[https://groups.google.com/forum/#!forum/debian-sage|debian-sage]]
 
 == Fedora package ==
   * hosted at: https://apps.fedoraproject.org/packages/sagemath
-  * other link: https://fedoraproject.org/wiki/SIGs/SciTech/SAGE
+  * wiki page: https://fedoraproject.org/wiki/SIGs/SciTech/SAGE
   * maintainer: Paulo Cesar Pereira de Andrade (pcpa)
 
 == Gentoo: Sage-on-Gentoo ==
@@ -48,7 +52,16 @@ Here are some links about distributing Sage.
   * admin: pipedream
   * contact: https://launchpad.net/~aims/+archive/ubuntu/sagemath
 
-= SageMath installer for Windows =
+= Windows =
+
+== SageMath installer for Windows ==
   * in alpha stage
   * requires HAV activation in the BIOS
   * hosted at: https://github.com/embray/sage-windows/releases
+
+== Porting to Cygwin ==
+  * pending tickets: [[https://trac.sagemath.org/query?status=!closed&component=porting%3A+Cygwin|component: "porting: cygwin"]]
+  * wiki pages on Sage's trac: [[https://trac.sagemath.org/wiki/CygwinPort|Cygwin32]], [[https://trac.sagemath.org/wiki/Cygwin64Port|Cygwin64]]
+
+== Discussion ==
+  * mailing list (dormant): [[https://groups.google.com/forum/#!forum/sage-windows|sage-windows]]
