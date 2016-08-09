@@ -41,7 +41,7 @@ If you have some Sage experience, please consider giving a tutorial''
 
 == Program ==
 
-The program will include '''introduction tutorials''' to Sage and combinatorics in Sage. There will also be time for '''code sprints'''.
+The program will include '''introduction tutorials''' to Sage and combinatorics in Sage. The meeting will include '''scientific talks''' and there will also be time for '''code sprints'''.
 
 ''Detailed schedule to be announced''. 
 
@@ -55,6 +55,8 @@ To be announced
  * Klaus Dohmen (Hochschule Mittweida, University of Applied Sciences, Germany)
  * Malka Schaps (Bar-Ilan University, Bar-Ilan, Israel)
  * Tomer Bauer (Bar-Ilan University, Bar-Ilan, Israel)
+ * Mee Seong Im (United States Military Academy, NY)
+ * Travis Scrimshaw (University of Minnesota, USA)
 
 == Lodging, funding, and other practical informations ==
 
