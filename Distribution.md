@@ -41,7 +41,8 @@ are prepared by the release manager, and sometimes by more people.
 == Debian ==
   * wiki page: https://wiki.debian.org/DebianScience/Sage
   * people: Julien Puydt (Snark)
-  * mailing list (dormant): [[https://groups.google.com/forum/#!forum/debian-sage|debian-sage]]
+  * Sage-side mailing list (dormant): [[https://groups.google.com/forum/#!forum/debian-sage|debian-sage]]
+  * Debian-side mailing list (created 2016-08-10): https://lists.alioth.debian.org/mailman/listinfo/debian-science-sagemath
 
 == Fedora package ==
   * hosted at: https://apps.fedoraproject.org/packages/sagemath
