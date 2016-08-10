@@ -57,6 +57,7 @@ To be announced
  * Tomer Bauer (Bar-Ilan University, Bar-Ilan, Israel)
  * Mee Seong Im (United States Military Academy, NY)
  * Travis Scrimshaw (University of Minnesota, USA)
+ * Vincent Delecroix (Université de Bordeaux, France)
 
 == Lodging, funding, and other practical informations ==
 
