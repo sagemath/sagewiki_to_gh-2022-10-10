@@ -17,13 +17,17 @@
    * Sage compute engine at Orsay mathematics department (for local use), since 2011
 
  * Topics of interest in Sage
-   * ThingsCalledSage
-   * FromSageToSageMath
-   * SageMathExternalPackages
-   * CodeSharingWorkflow
    * [[dynamics]] (especially translation surfaces)
-   * [[https://sageindex.lipn.univ-paris13.fr/|Index librorum salvificorum]], an index of Sage ressources (in alpha stage, feedback needed).
-   * [[Infrastructure]], towards a transparent and collective administration of Sage services.
+   * [[https://sageindex.lipn.univ-paris13.fr/|Index librorum salvificorum]], an index of Sage ressources (in alpha stage, feedback needed)
+   * wiki pages:
+     * [[Infrastructure]], towards a transparent and collective administration of Sage services
+     * [[Distribution]], !SageMath distribution and packaging
+     * SageMathExternalPackages, a list of external packages for Sage
+     * CodeSharingWorkflow, a list of workflows for sharing Sage code
+     * [[Social Networks]], !SageMath presence on social and professional networks
+     * [[jobs]], jobs involving !SageMath
+     * ThingsCalledSage, other things and projects called Sage
+     * FromSageToSageMath, a history of the name, from SAGE to Sage to !SageMath
 
  * Sage days attended or organized [*]
    * [[days73|days73, Oaxaca, Mexico, 2016-05]]
