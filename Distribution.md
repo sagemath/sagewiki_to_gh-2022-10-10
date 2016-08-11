@@ -102,3 +102,7 @@ are prepared by the release manager, and sometimes by more people.
 
   * wiki page here: https://wiki.sagemath.org/TeXmacs
   * wiki page there: http://www.texmacs.org/tmweb/plugins/cas.en.html
+
+= Discussions =
+
+  * Sage Days 77: https://wiki.sagemath.org/days77
