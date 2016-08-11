@@ -1,3 +1,5 @@
-There will be a Sage days during [[http://ragaad.org/bobo2012/|CIMPA research school]] at Bobo (Burkina Faso), October 29 - November 9, 2012. More info soon.
+Sage days 43 took place during the
+[[http://www.cimpa-icpam.org/archivesecoles/20130131161626/|Bobo2012 CIMPA research school]]
+at Bobo (Burkina Faso), October 29 - November 9, 2012.
 
-[[http://trac.sagemath.org/sage_trac/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days43&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=id|Tickets related to the days]].
+[[http://trac.sagemath.org/sage_trac/query?keywords=~days43&or&keywords=~bobo2012|Tickets related to Sage days 43]].
