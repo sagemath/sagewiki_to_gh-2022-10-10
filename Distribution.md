@@ -1,6 +1,8 @@
 = Distribution and packaging of SageMath =
 
-Here are some links about distributing Sage.
+Here are some links and information about distributing Sage.
+
+Related page: SupportedPlatforms.
 
 <<TableOfContents()>>
 
