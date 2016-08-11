@@ -1,22 +1,26 @@
 ## page was renamed from finance
 <<Navigation(children,1)>>
-<<TableOfContents>>
 
 = Quantitative Finance in Sage =
 
+<<TableOfContents>>
+
 [[attachment:mrw.png|{{attachment:mrw.png}}]]
 
-= PEOPLE =
+= People =
   * [[WilliamStein|William Stein]]
   * Brett Nakashima
   * Christopher Swierczewski
   * [[GlennTarbox|Glenn Tarbox]]
 
-= GROUP =
-  http://groups.google.com/group/sage-finance
+= Mailing list =
+  * http://groups.google.com/group/sage-finance
 
-= Links and Quotes =
-  SageFinance/EarlyThoughts
+= Links and quotes =
+  * SageFinance/EarlyThoughts
+
+= Fetching and plotting stock market data =
+  * https://wiki.sagemath.org/interact/web
 
 ----
 
