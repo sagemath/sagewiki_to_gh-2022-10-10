@@ -18,8 +18,7 @@
  
   * Topics of interest in Sage
     * [[dynamics]] (especially translation surfaces)
-    * [[https://sageindex.lipn.univ-paris13.fr/|Index librorum salvificorum]],
-      an index of Sage ressources (in alpha stage, feedback needed)
+    * [[https://sageindex.lipn.univ-paris13.fr/|Index librorum salvificorum]], an index of Sage ressources (in alpha stage, feedback needed)
     * wiki pages:
       * [[Infrastructure]], towards a transparent and collective administration of Sage services
       * [[Distribution]], !SageMath distribution and packaging
@@ -29,7 +28,14 @@
       * [[jobs]], jobs involving !SageMath
       * ThingsCalledSage, other things and projects called Sage
       * FromSageToSageMath, a history of the name, from SAGE to Sage to !SageMath
- 
+
+  * sage-trac tickets about upgrades, updates, packages
+    * [[https://trac.sagemath.org/query?summary=~upgrad&desc=1&order=status|summary contains upgrad]]
+    * [[https://trac.sagemath.org/query?summary=~updat&desc=1&order=status|summary contains updat]]
+    * [[https://trac.sagemath.org/query?summary=~upgrad&or&summary=~updat&desc=1&order=status|summary contains upgrad or updat]]
+    * [[https://trac.sagemath.org/query?summary=~packag&desc=1&order=status|summary contains packag]]
+    * [[https://trac.sagemath.org/query?summary=~upgrad&or&summary=~updat&or&summary=~packag&desc=1&order=status|summary contains "upgrad" or "updat" or "packag"
+  
   * Sage days attended or organized [*]
     * [[days73|days73, Oaxaca, Mexico, 2016-05]]
     * [*] [[days77|days77, Cernay, France, 2016-04]]
