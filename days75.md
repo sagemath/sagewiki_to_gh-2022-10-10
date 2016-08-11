@@ -162,4 +162,5 @@ Please add you name to the list if you want to attend this Sage Days.
  * Joe Fields (SCSU - New Haven, CT, USA)
  * Fangan Dosso (U. de Toulon)
  * Nicolas M. Thiéry (U. Paris Sud)
+ * Akhilesh Parol (IMSc Chennai, India)
  * Samuel Lelièvre (U. Paris Sud)
