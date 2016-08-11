@@ -48,6 +48,7 @@ are prepared by the release manager, and sometimes by more people.
 == Fedora package ==
   * hosted at: https://apps.fedoraproject.org/packages/sagemath
   * wiki page: https://fedoraproject.org/wiki/SIGs/SciTech/SAGE
+  * see also: https://admin.fedoraproject.org/pkgdb/package/rpms/sagemath/
   * maintainer: Paulo Cesar Pereira de Andrade (pcpa)
 
 == Gentoo: Sage-on-Gentoo ==
