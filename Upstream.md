@@ -10,6 +10,7 @@
     * [[https://askbot.com|Askbot]]
     * [[https://groups.google.com/|Google groups]]
     * [[https://github.com/|GitHub]]
+    * [[https://moinmo.in|MoinMoin]]
 
 == Upgrading and updating upstream packages ==
 
@@ -27,4 +28,4 @@ Here are some useful trac queries (final "e" omitted on purpose to also get fina
 
 == What about downstream? ==
 
-See [[Distribution]], [[Interfaces]], [[SageMathExternalPackages]].
+See [[Distribution]], [[Interfaces]], [[SageMathExternalPackages]], [[CodeSharingWorkflow]].
