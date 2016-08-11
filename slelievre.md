@@ -2,7 +2,14 @@
 #format wiki
 #language en
 
-= Samuel Lelièvre (slelievre on Sage's trac and wiki; slel on GitHub) =
+= Samuel Lelièvre (slelievre) =
+
+Usernames: slelievre on Sage's
+[[https://ask.sagemath.org|ask]],
+[[https://trac.sagemath.org|trac]] and
+[[https://wiki.sagemath.org|wiki]];
+[[https://github.com/slel|slel]] on [[https://github.com/|GitHub]];
+[[https://bitbucket.org/slelievre/|slelievre]] on [[https://bitbucket.org/|Bitbucket]].
 
 <<TableOfContents()>>
 
@@ -10,8 +17,8 @@
 
   * Participate in the ERC H2020 [[http://opendreamkit.org/|OpenDreamKit]] project, 2016--2020
   * [[http://www.labri.fr/perso/vdelecro/flatsurf.html|flatsurf package]] for Sage, with Vincent Delecroix
-  * Sage trac activity: http://trac.sagemath.org/search?q=slelievre
-  * Ask Sage activity: http://ask.sagemath.org/users/1092/slelievre/
+  * Sage trac activity: https://trac.sagemath.org/search?q=slelievre
+  * Ask Sage activity: https://ask.sagemath.org/users/1092/slelievre/
   * Answering questions on Q&A sites of the !StackOverflow network
   * Administration team of Ask Sage
   * Backup server for Ask Sage at Orsay mathematics department, since 2016
@@ -28,6 +35,8 @@
 
   * [[Infrastructure]], towards a transparent and collective administration of Sage services
   * [[Distribution]], !SageMath distribution and packaging
+  * [[Upstream]], !SageMath upstream packages
+  * [[Interfaces]], !SageMath interfaces to and from other software
   * SageMathExternalPackages, a list of external packages for Sage
   * CodeSharingWorkflow, a list of workflows for sharing Sage code
   * [[Social Networks]], !SageMath presence on social and professional networks
