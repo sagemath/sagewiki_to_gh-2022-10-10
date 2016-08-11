@@ -1,13 +1,18 @@
+= SageMath on social and professional networks =
+
 See also: [[Infrastructure]].
 
-=== Facebook ===
+== Facebook ==
   * url: https://www.facebook.com/Sage-Math-26593144945/
   * admin: schilly
 
-=== Google+ ===
+== Google+ ==
   * url: https://plus.google.com/+sagemath
   * admin: schilly
 
-=== Twitter ===
+== Twitter ==
   * url: https://twitter.com/sagemath
   * admin: schilly
+
+== LinkedIn ==
+  * url: https://www.linkedin.com/groups/2010654/profile
