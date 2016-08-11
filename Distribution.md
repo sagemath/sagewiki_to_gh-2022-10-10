@@ -35,8 +35,12 @@ are prepared by the release manager, and sometimes by more people.
   * url: https://launchpad.net/~aims/+archive/ubuntu/aims-desktop
   * admin: pipedream
 
-= Linux distros =
+== Clef agreg ==
+  * url: http://clefagreg.dnsalias.org/
+  * what: bootable "Linux + math software" environment for French "agrégation" exams
+  * admin: François Boisson
 
+= Linux distros =
   * mailing-list: [[https://groups.google.com/forum/#!forum/sage-packaging|sage-packaging]]
 
 == Arch-linux ==
