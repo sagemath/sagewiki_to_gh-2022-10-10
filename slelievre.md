@@ -20,6 +20,8 @@ Usernames: slelievre on Sage's
 
 == Some Sage wiki pages ==
 
+I'm interested in the following pages on SageMath's wiki.
+
   * [[Infrastructure]], towards a transparent and collective administration of Sage services
   * [[Distribution]], !SageMath distribution and packaging
   * [[Upstream]], !SageMath upstream packages
@@ -28,6 +30,7 @@ Usernames: slelievre on Sage's
   * CodeSharingWorkflow, a list of workflows for sharing Sage code
   * [[Social Networks]], !SageMath presence on social and professional networks
   * [[Inbound Links]], links to or descriptions of !SageMath on other websites
+  * SupportedPlatforms, list of supported platforms
   * [[jobs]], jobs involving !SageMath
   * ThingsCalledSage, other things and projects called Sage
   * FromSageToSageMath, a history of the name, from SAGE to Sage to !SageMath
