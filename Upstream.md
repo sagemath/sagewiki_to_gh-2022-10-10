@@ -4,7 +4,10 @@
 
 == Upstream projects ==
 
-That would be a long list.
+  * Components: http://www.sagemath.org/links-components.html
+  * Used for the infrastructure:
+    * [[https://trac.edgewall.org/Trac]]
+    * [[https://askbot.com|Askbot]]
 
 == Upgrading and updating upstream packages ==
 
