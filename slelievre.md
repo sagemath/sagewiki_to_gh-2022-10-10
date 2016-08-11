@@ -34,18 +34,20 @@
     * [[https://trac.sagemath.org/query?summary=~updat&desc=1&order=status|summary contains updat]]
     * [[https://trac.sagemath.org/query?summary=~upgrad&or&summary=~updat&desc=1&order=status|summary contains upgrad or updat]]
     * [[https://trac.sagemath.org/query?summary=~packag&desc=1&order=status|summary contains packag]]
-    * [[https://trac.sagemath.org/query?summary=~upgrad&or&summary=~updat&or&summary=~packag&desc=1&order=status|summary contains "upgrad" or "updat" or "packag"
+    * [[https://trac.sagemath.org/query?summary=~upgrad&or&summary=~updat&or&summary=~packag&desc=1&order=status|summary contains "upgrad" or "updat" or "packag"]]
   
-  * Sage days attended or organized [*]
-    * [[days73|days73, Oaxaca, Mexico, 2016-05]]
-    * [*] [[days77|days77, Cernay, France, 2016-04]]
-    * [[http://gapdays.de/gap-sage-days2016/|First joint GAP-Sage days, St Andrews, Scotland, 2016-01]]
-    * [[http://gapdays.de/gapdays2014/|GAP days 1, Aachen, Germany, 2014-08]]
-    * [*] [[days57|days57, Cernay, France, 2014-04]]
-    * [[Sage Days Bobo 2012|days43, Bobo Dioulasso, Burkina Faso, 2012-11]]
-    * [[combinat/SageCombinatDaysCernay2012|combinatdayscernay2012, Cernay, France]]
-    * [*] [[days28|days28, Orsay, France, 2011-01]]
-    * [[daysmarseille|days20, Marseille, France, 2010-02]]
+  * Sage days and similar events attended or organized (a: attended, o: organized)
+    * [a] [[http://opendreamkit.org/meetings/2016-06-27-Bremen/|OpenDreamKit annual project meeting, Bremen, 2016-06]]
+    * [a] [[days73|days73, Oaxaca, Mexico, 2016-05]]
+    * [o] [[days77|days77, Cernay, France, 2016-04]]
+    * [a] [[http://opendreamkit.org/2015/12/08/WP6StAndrewsMeeting/|Knowledge representation, St Andrews, Scotland, 2016-01]]
+    * [a] [[http://gapdays.de/gap-sage-days2016/|First joint GAP-Sage days, St Andrews, Scotland, 2016-01]]
+    * [a] [[http://gapdays.de/gapdays2014/|GAP days 1, Aachen, Germany, 2014-08]]
+    * [o] [[days57|days57, Cernay, France, 2014-04]]
+    * [a] [[Sage Days Bobo 2012|days43, Bobo Dioulasso, Burkina Faso, 2012-11]]
+    * [a] [[combinat/SageCombinatDaysCernay2012|combinatdayscernay2012, Cernay, France]]
+    * [o] [[days28|days28, Orsay, France, 2011-01]]
+    * [a] [[daysmarseille|days20, Marseille, France, 2010-02]]
  
   * [[GroupeUtilisateursParis|Sage user group in Paris]] (about once a month)
  
