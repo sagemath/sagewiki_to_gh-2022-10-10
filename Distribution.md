@@ -93,16 +93,9 @@ are prepared by the release manager, and sometimes by more people.
 
 = Using SageMath through other software =
 
-== Cantor ==
+Other software, such as Cantor and !TeXmacs, have interfaces to SageMath.
 
-  * home page: https://edu.kde.org/cantor/
-  * author: https://arieder.wordpress.com
-  * wiki page here: https://wiki.sagemath.org/Cantor
-
-== TeXmacs ==
-
-  * wiki page here: https://wiki.sagemath.org/TeXmacs
-  * wiki page there: http://www.texmacs.org/tmweb/plugins/cas.en.html
+See [[https://wiki.sagemath.org/Interfaces#Interfaces_to_SageMath_in_other_software|Interfaces to Sage in other software]].
 
 = Discussions =
 
