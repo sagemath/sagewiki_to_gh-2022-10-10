@@ -27,6 +27,7 @@ Usernames: slelievre on Sage's
   * SageMathExternalPackages, a list of external packages for Sage
   * CodeSharingWorkflow, a list of workflows for sharing Sage code
   * [[Social Networks]], !SageMath presence on social and professional networks
+  * [[Inbound Links]], links to or descriptions of !SageMath on other websites
   * [[jobs]], jobs involving !SageMath
   * ThingsCalledSage, other things and projects called Sage
   * FromSageToSageMath, a history of the name, from SAGE to Sage to !SageMath
