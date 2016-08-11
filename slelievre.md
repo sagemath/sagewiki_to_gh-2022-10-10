@@ -20,7 +20,7 @@ Usernames: slelievre on Sage's
 
 == Some Sage wiki pages ==
 
-I'm interested in the following pages on SageMath's wiki.
+I'm interested in the following pages on !SageMath's wiki.
 
   * [[Infrastructure]], towards a transparent and collective administration of Sage services
   * [[Distribution]], !SageMath distribution and packaging
@@ -34,6 +34,7 @@ I'm interested in the following pages on SageMath's wiki.
   * [[jobs]], jobs involving !SageMath
   * ThingsCalledSage, other things and projects called Sage
   * FromSageToSageMath, a history of the name, from SAGE to Sage to !SageMath
+  * [[faq]], a list of frequently asked questions
 
 == Sage trac tickets about upgrades, updates, packages ==
 
