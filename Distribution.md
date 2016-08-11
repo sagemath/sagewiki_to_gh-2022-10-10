@@ -25,9 +25,15 @@ are prepared by the release manager, and sometimes by more people.
   * people: vbraun
 
 = Live USB =
+
+== Sage Debian Live ==
   * admin: tmonteil
   * hosted at: http://sagedebianlive.metelu.net/
   * mailing list: https://sagedebianlive.metelu.net/mailman/listinfo/devel
+
+== AIMS Desktop ==
+  * url: https://launchpad.net/~aims/+archive/ubuntu/aims-desktop
+  * admin: pipedream
 
 = Linux distros =
 
