@@ -12,26 +12,13 @@ Usernames: slelievre on Sage's
 [[https://bitbucket.org/slelievre/|slelievre]] on [[https://bitbucket.org/|Bitbucket]].
 
 <<TableOfContents()>>
-
-== Contributions to Sage ==
-
-  * Participate in the ERC H2020 [[http://opendreamkit.org/|OpenDreamKit]] project, 2016--2020
-  * [[http://www.labri.fr/perso/vdelecro/flatsurf.html|flatsurf package]] for Sage, with Vincent Delecroix
-  * Sage trac activity: https://trac.sagemath.org/search?q=slelievre
-  * Ask Sage activity: https://ask.sagemath.org/users/1092/slelievre/
-  * Answering questions on Q&A sites of the !StackOverflow network
-  * Administration team of Ask Sage
-  * Backup server for Ask Sage at Orsay mathematics department, since 2016
-  * Expanding and monitoring the download mirror network, since 2011
-  * Produced binaries for OS X, 2010--2013
-  * Sage compute engine at Orsay mathematics department (for local use), since 2011
  
 == Topics of interest in Sage ==
 
   * [[dynamics]] (especially translation surfaces)
   * [[https://sageindex.lipn.univ-paris13.fr/|Index librorum salvificorum]], an index of Sage ressources (in alpha stage, feedback needed)
 
-== Sage wiki pages ==
+== Some Sage wiki pages ==
 
   * [[Infrastructure]], towards a transparent and collective administration of Sage services
   * [[Distribution]], !SageMath distribution and packaging
@@ -51,8 +38,8 @@ Usernames: slelievre on Sage's
   * [[https://trac.sagemath.org/query?summary=~upgrad&or&summary=~updat&desc=1&order=status|summary contains upgrad or updat]]
   * [[https://trac.sagemath.org/query?summary=~packag&desc=1&order=status|summary contains packag]]
   * [[https://trac.sagemath.org/query?summary=~upgrad&or&summary=~updat&or&summary=~packag&desc=1&order=status|summary contains "upgrad" or "updat" or "packag"]]
-  
-== Sage days and similar events attended or organized (a: attended, o: organized) ==
+
+== Sage days and similar events [a]ttended or [o]rganized ==
 
   * [a] [[http://opendreamkit.org/meetings/2016-06-27-Bremen/|OpenDreamKit annual project meeting, Bremen, 2016-06]]
   * [a] [[days73|days73, Oaxaca, Mexico, 2016-05]]
@@ -85,7 +72,20 @@ Usernames: slelievre on Sage's
   * M1-MAO-CF: mathématiques assistées par ordinateur, option Calcul formel; Orsay, 2015--2016
   * préparation à l'agrégation externe de mathématiques, épreuve orale de modélisation, option C; Orsay, 2014--2016
   * préparation à l'agrégation interne de mathématiques, épreuve orale d'exemples et exercices; Orsay, 2014--2016
- 
+
+== Contributions to Sage ==
+
+  * Participate in the ERC H2020 [[http://opendreamkit.org/|OpenDreamKit]] project, 2016--2020
+  * [[http://www.labri.fr/perso/vdelecro/flatsurf.html|flatsurf package]] for Sage, with Vincent Delecroix
+  * Sage trac activity: https://trac.sagemath.org/search?q=slelievre
+  * Ask Sage activity: https://ask.sagemath.org/users/1092/slelievre/
+  * Answer questions on Q&A sites of the !StackOverflow network
+  * Administration team of Ask Sage
+  * Backup server for Ask Sage at Orsay mathematics department, since 2016
+  * Expand and monitor the download mirror network, since 2011
+  * Produce binaries for OS X, 2010--2013
+  * Sage compute engine at Orsay mathematics department (for local use), since 2011
+
 == Professional webpage ==
 
 http://www.math.u-psud.fr/~lelievre/
