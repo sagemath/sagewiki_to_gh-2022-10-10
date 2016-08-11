@@ -6,8 +6,10 @@
 
   * Components: http://www.sagemath.org/links-components.html
   * Used for the infrastructure:
-    * [[https://trac.edgewall.org/Trac]]
+    * [[https://trac.edgewall.org|Trac]]
     * [[https://askbot.com|Askbot]]
+    * [[https://groups.google.com/|Google groups]]
+    * [[https://github.com/|GitHub]]
 
 == Upgrading and updating upstream packages ==
 
