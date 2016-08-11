@@ -23,6 +23,7 @@ and more. Please add links!
 See also
 
   * [[http://doc.sagemath.org/html/fr/tutorial/interfaces.html|SageMath documentation page on Interfaces]]
+  * [[http://www.sagemath.org/git-developer-guide/coding_in_other.html|SageMath developer guide on Interfaces]]
 
 == Accessing other software in Sage notebook worksheets, SageMathCloud Sage worksheets, Jupyter Notebook worksheets ==
 
