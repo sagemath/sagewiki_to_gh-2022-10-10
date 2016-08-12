@@ -1,20 +1,20 @@
-== Technical/Scholarly Publications Citing Sage ==
+== Technical/Scholarly Publications Citing SageMath ==
 
-If you use Sage in a book, paper, website, etc., please [[http://www.sagemath.org/contact.html | contact us]] about details of the publication, e.g. where is it published, provide a link to your publication. Alternatively, send us a [[ https://github.com/sagemath/publications/ | pull request ]].
+If you use SageMath in a book, paper, website, etc., please [[http://www.sagemath.org/contact.html | contact us]] about details of the publication, e.g. where is it published, provide a link to your publication. Alternatively, send us a [[ https://github.com/sagemath/publications/ | pull request ]].
 
-Please reference Sage as follows:
+Please reference SageMath as follows:
 
 {{{
 SageMath, the Sage Mathematics Software System (Version x.y.z),
    The Sage Developers, YYYY, http://www.sagemath.org.
 }}}
 
-where you should change `x.y.z` to the exact version number you used for your publication. Also change `YYYY` to the year that reflects the version of Sage you used for the publication. 
+where you should change `x.y.z` to the exact version number you used for your publication. Also change `YYYY` to the year that reflects the version of SageMath you used for the publication. 
 
 === BibTex ===
 
 {{{
-@manual{sage,
+@manual{sagemath,
   Key          = {SageMath},
   Author       = {The Sage Developers},
   Title        = {{S}ageMath, the {S}age {M}athematics {S}oftware {S}ystem ({V}ersion x.y.z)},
@@ -40,7 +40,7 @@ Include them as doi = {dx.doi.org/...}
   x.y.z)}, The Sage Developers, YYYY, {\tt http://www.sagemath.org}.
 }}}
 
-Also, be sure to find out what components of Sage, e.g., !NumPy, PARI, GAP, that your calculation uses, and properly attribute those systems (for example, ask on sage-devel). Also, you may use the {{{get_systems}}} method:
+Also, be sure to find out what components of SageMath, e.g., !NumPy, PARI, GAP, that your calculation uses, and properly attribute those systems (for example, ask on [https://groups.google.com/forum/#!forum/sage-devel sage-devel]). Also, you may use the {{{get_systems}}} method:
 
 {{{
 sage: from sage.misc.citation import get_systems
@@ -48,7 +48,7 @@ sage: get_systems("integrate(cos(x^2), x)")
 ['MPFI', 'ginac', 'GMP', 'Maxima']
 }}}
 
-Similarly, consider finding out who wrote the Sage code you're using and acknowledge them explicitly as well.
+Similarly, consider finding out who wrote the SageMath code that you are using and acknowledge them explicitly as well.
 
 
 === EndNote (RIS file) ===
