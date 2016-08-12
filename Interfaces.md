@@ -13,10 +13,10 @@ Sage has interfaces to
   * MATLAB
   * Maxima
   * MuPAD
-  * GNU Octave
-  * PARI/GP
+  * [[https://www.gnu.org/software/octave/ | GNU Octave]]
+  * [[http://pari.math.u-bordeaux.fr/ | PARI/GP]]
   * R
-  * Singular
+  * [[https://www.singular.uni-kl.de/ | Singular]]
 
 and more. Please add links!
 
