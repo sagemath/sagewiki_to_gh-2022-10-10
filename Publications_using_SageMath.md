@@ -1,3 +1,4 @@
+## page was renamed from Publications_using_SAGE
 == Technical/Scholarly Publications Citing SageMath ==
 
 If you use SageMath in a book, paper, website, etc., please [[http://www.sagemath.org/contact.html | contact us]] about details of the publication, e.g. where is it published, provide a link to your publication. Alternatively, send us a [[ https://github.com/sagemath/publications/ | pull request ]].
@@ -40,7 +41,7 @@ Include them as doi = {dx.doi.org/...}
   x.y.z)}, The Sage Developers, YYYY, {\tt http://www.sagemath.org}.
 }}}
 
-Also, be sure to find out what components of SageMath, e.g., !NumPy, PARI, GAP, that your calculation uses, and properly attribute those systems (for example, ask on [https://groups.google.com/forum/#!forum/sage-devel sage-devel]). Also, you may use the {{{get_systems}}} method:
+Also, be sure to find out what components of SageMath, e.g., !NumPy, PARI, GAP, that your calculation uses, and properly attribute those systems (for example, ask on [[https://groups.google.com/forum/#!forum/sage-devel | sage-devel]]). Also, you may use the {{{get_systems}}} method:
 
 {{{
 sage: from sage.misc.citation import get_systems
