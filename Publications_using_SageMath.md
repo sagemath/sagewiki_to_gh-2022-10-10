@@ -56,6 +56,6 @@ Similarly, consider finding out who wrote the SageMath code that you are using a
 
 [[http://sagemath.org/files/sage.ris|sage.ris]]
 
-== Books and Articles mentioning Sage ==
+== Books and Articles mentioning SageMath ==
 
 Please see http://www.sagemath.org/library-publications.html
