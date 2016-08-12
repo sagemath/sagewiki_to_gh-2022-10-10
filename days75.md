@@ -164,3 +164,4 @@ Please add you name to the list if you want to attend this Sage Days.
  * Nicolas M. Thiéry (U. Paris Sud)
  * Akhilesh Parol (IMSc Chennai, India)
  * Samuel Lelièvre (U. Paris Sud)
+ * Philippe Dumas (Inria Saclay)
