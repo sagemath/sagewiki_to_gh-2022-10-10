@@ -6,17 +6,18 @@
 
 Sage has interfaces to
 
-  * GAP
-  * Magma
-  * Maple
-  * Mathematica
-  * MATLAB
-  * Maxima
-  * MuPAD
-  * [[https://www.gnu.org/software/octave/ | GNU Octave]]
-  * [[http://pari.math.u-bordeaux.fr/ | PARI/GP]]
-  * R
-  * [[https://www.singular.uni-kl.de/ | Singular]]
+  * 🔒 Magma
+  * 🔒 Maple
+  * 🔒 Mathematica
+  * 🔒 MATLAB
+  * 🔒 MuPAD
+
+  * 🔓 [[http://www.gap-system.org/ | GAP]]
+  * 🔓 [[http://maxima.sourceforge.net/ | Maxima]]
+  * 🔓 [[https://www.gnu.org/software/octave/ | GNU Octave]]
+  * 🔓 [[http://pari.math.u-bordeaux.fr/ | PARI/GP]]
+  * 🔓 [[https://www.r-project.org/ | R]]
+  * 🔓 [[https://www.singular.uni-kl.de/ | Singular]]
 
 and more. Please add links!
 
