@@ -38,25 +38,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/21117|#21117]]) needs-review: specialization for subschemes and scheme_morphisms - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/21113|#21113]]) positive-review: unflattening morphism error - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/21112|#21112]]) positive-review: wrong base ring in sigma invariants - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/21108|#21108]]) positive-review: use flattening in quo_rem - Vincent Delacroix
-
- * ([[http://trac.sagemath.org/ticket/21106|#21106]]) positive-review: class for flattening morphism - Vincent Delecroix, Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/21104|#21104]]) positive-review: indeterminancy locus - Michelle Manes
-
  * ([[http://trac.sagemath.org/ticket/21100|#21100]]) positive-review (duplicate/won't fix): division error in normalize_coordinates - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/21099|#21099]]) positive-review: critical subscheme / critical points for a map on projective space - Michelle Manes
-
- * ([[http://trac.sagemath.org/ticket/21097|#21097]]) positive-review: incorrect parent in dynatomic_polynomial - Michelle Manes
-
- * ([[http://trac.sagemath.org/ticket/20227|#20227]]) positive-review: Chow form for projective subschemes - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/15378|#15378]]) positive-review: Composition of Morphisms - Vincent Delecroix, Ben Hutz
 
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
 
@@ -96,6 +78,24 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/21113|#21113]])-- closed sage 7.4: unflattening morphism error - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/21112|#21112]])-- closed sage 7.4: wrong base ring in sigma invariants - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/21108|#21108]])-- closed sage 7.4: use flattening in quo_rem - Vincent Delacroix
+
+ * --([[http://trac.sagemath.org/ticket/21106|#21106]])-- closed sage 7.4: class for flattening morphism - Vincent Delecroix, Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/21104|#21104]])-- closed sage 7.4: indeterminancy locus - Michelle Manes
+
+ * --([[http://trac.sagemath.org/ticket/21099|#21099]])-- closed sage 7.4: critical subscheme / critical points for a map on projective space - Michelle Manes
+
+ * --([[http://trac.sagemath.org/ticket/21097|#21097]])-- closed sage 7.4: incorrect parent in dynatomic_polynomial - Michelle Manes
+
+ * --([[http://trac.sagemath.org/ticket/20227|#20227]])-- closed sage 7.4: Chow form for projective subschemes - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/15378|#15378]])-- closed sage 7.4: Composition of Morphisms - Vincent Delecroix, Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/21091|#21091]])-- closed sage 7.3: is_polynomial bug fix - Ben Hutz
 
