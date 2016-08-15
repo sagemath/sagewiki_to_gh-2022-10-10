@@ -4,11 +4,11 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
 == News ==
 
- * [[https://icerm.brown.edu/collaborate/ | ICERM@Collaborate]] - Program on Computational Arithmetic Dynamics - July 25, 2016 - July 29, 2016
-
  * [[http://www.nsf.gov/awardsearch/showAward?AWD_ID=1415294 | NSF DMS-1415294]] - Computational Tools for Dynamical Systems 9/2014 - 8/2017 (P.I.: Hutz)
 
 == Past News ==
+
+ * [[https://icerm.brown.edu/collaborate/ | ICERM@Collaborate]] - Program on Computational Arithmetic Dynamics - July 25, 2016 - July 29, 2016
 
  * [[http://wiki.sagemath.org/sagedaysACD | Sage Days]] Held Sage Days 55 (November 7-10, 2013) at Florida Institute of Technology.
 
@@ -21,6 +21,8 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
   * anyone may subscribe by sending an e-mail to: sage-dynamics+subscribe at googlegroups dot com
 
 == Documentation and Tutorials ==
+
+ * Quick reference card for dynamics available on the Sage Quickref page ([[https://wiki.sagemath.org/quickref/]])
 
  * [[http://www.sagemath.org/doc/developer/ | Sage developer's guide]]
  
