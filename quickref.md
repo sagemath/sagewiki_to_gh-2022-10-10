@@ -16,6 +16,9 @@
 
  * '''Abstract Algebra''' by B. Balof, T. W. Judson, D. Perkinson, R. Potluri, version 1.0 (June 2012) - [[attachment:quickref-algebra.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=quickref-algebra.pdf|download]] (and the source [[attachment:quickref-algebra.tar.bz2]])
 
+ * '''Dynamical Systems''' by B. Hutz and J. Silverman, version 1.0 (Auguts 2016) - [[attachment:dynamics_ref.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=dynamics_ref.pdf|download]] (and the source [[attachment:dynamics_ref.tex]])
+
+
 == French ==
 
  * '''Maths de base''' (Traduction francaise de '''Basic Math''') - [[attachment:sage-quickref_fr.pdf]] [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=sage-quickref_fr.pdf|download]] (et son source [[attachment:sage-quickref_fr.tex]])
