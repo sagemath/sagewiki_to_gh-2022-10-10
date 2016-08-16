@@ -36,12 +36,13 @@ I'm interested in the following pages on !SageMath's wiki.
   * FromSageToSageMath, a history of the name, from SAGE to Sage to !SageMath
   * [[faq]], a list of frequently asked questions
 
-== Sage trac tickets about upgrades, updates, packages ==
+== Sage trac tickets about interfaces, packages, updates, upgrades ==
 
+  * [[https://trac.sagemath.org/query?summary=~interfac&desc=1&order=status|summary contains interfac]]
+  * [[https://trac.sagemath.org/query?summary=~packag&desc=1&order=status|summary contains packag]]
   * [[https://trac.sagemath.org/query?summary=~upgrad&desc=1&order=status|summary contains upgrad]]
   * [[https://trac.sagemath.org/query?summary=~updat&desc=1&order=status|summary contains updat]]
   * [[https://trac.sagemath.org/query?summary=~upgrad&or&summary=~updat&desc=1&order=status|summary contains upgrad or updat]]
-  * [[https://trac.sagemath.org/query?summary=~packag&desc=1&order=status|summary contains packag]]
   * [[https://trac.sagemath.org/query?summary=~upgrad&or&summary=~updat&or&summary=~packag&desc=1&order=status|summary contains "upgrad" or "updat" or "packag"]]
 
 == Sage days and similar events [a]ttended or [o]rganized ==
