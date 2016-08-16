@@ -36,7 +36,9 @@ I'm interested in the following pages on !SageMath's wiki.
   * FromSageToSageMath, a history of the name, from SAGE to Sage to !SageMath
   * [[faq]], a list of frequently asked questions
 
-== Sage trac tickets about interfaces, packages, updates, upgrades ==
+== Some Sage trac queries and tickets ==
+
+=== Interfaces, packages, updates, upgrades ===
 
   * [[https://trac.sagemath.org/query?summary=~interfac&desc=1&order=status|summary contains interfac]]
   * [[https://trac.sagemath.org/query?summary=~packag&desc=1&order=status|summary contains packag]]
@@ -44,6 +46,13 @@ I'm interested in the following pages on !SageMath's wiki.
   * [[https://trac.sagemath.org/query?summary=~updat&desc=1&order=status|summary contains updat]]
   * [[https://trac.sagemath.org/query?summary=~upgrad&or&summary=~updat&desc=1&order=status|summary contains upgrad or updat]]
   * [[https://trac.sagemath.org/query?summary=~upgrad&or&summary=~updat&or&summary=~packag&desc=1&order=status|summary contains "upgrad" or "updat" or "packag"]]
+
+=== Regressions, speed ===
+
+  * [[https://trac.sagemath.org/query?summary=~regression&desc=1&order=status|summary contains regression]]
+  * [[https://trac.sagemath.org/query?summary=~speed&desc=1&order=status|summary contains speed]]
+  * [[https://trac.sagemath.org/query?summary=~fast&desc=1&order=status|summary contains fast]]
+  * [[https://trac.sagemath.org/query?summary=~slow&desc=1&order=status|summary contains slow]]
 
 == Sage days and similar events [a]ttended or [o]rganized ==
 
