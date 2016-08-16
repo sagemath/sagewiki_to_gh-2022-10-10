@@ -4,29 +4,33 @@
 
 == Interfaces to other software in SageMath ==
 
-Sage has interfaces to
+=== Sage interfaces to closed software ===
+  * Magma
+  * Maple
+  * Mathematica
+  * MATLAB
+  * MuPAD
 
-  * 🔒 Magma
-  * 🔒 Maple
-  * 🔒 Mathematica
-  * 🔒 MATLAB
-  * 🔒 MuPAD
-
-  * 🔓 [[http://www.gap-system.org/ | GAP]]
-  * 🔓 [[http://maxima.sourceforge.net/ | Maxima]]
-  * 🔓 [[https://www.gnu.org/software/octave/ | GNU Octave]]
-  * 🔓 [[http://pari.math.u-bordeaux.fr/ | PARI/GP]]
-  * 🔓 [[https://www.r-project.org/ | R]]
-  * 🔓 [[https://www.singular.uni-kl.de/ | Singular]]
+=== Sage interfaces to free software ===
+  * [[http://www.gap-system.org/ | GAP]]
+  * [[http://maxima.sourceforge.net/ | Maxima]]
+  * [[https://www.gnu.org/software/octave/ | GNU Octave]]
+  * [[http://pari.math.u-bordeaux.fr/ | PARI/GP]]
+  * [[https://www.r-project.org/ | R]]
+  * [[https://www.singular.uni-kl.de/ | Singular]]
 
 and more. Please add links!
 
 See also
 
   * [[http://doc.sagemath.org/html/fr/tutorial/interfaces.html|SageMath documentation page on Interfaces]]
-  * [[http://www.sagemath.org/git-developer-guide/coding_in_other.html|SageMath developer guide on Interfaces]]
+  * [[http://doc.sagemath.org/html/en/developer/coding_in_other.html|SageMath developer guide on Interfaces]]
 
-== Accessing other software in Sage notebook worksheets, SageMathCloud Sage worksheets, Jupyter Notebook worksheets ==
+== Using other software in Sage worksheets ==
+
+One can access other software from Sage worksheets,
+be it in the Sage Notebook, in SageMathCloud Sage worksheets, or in Jupyter Notebook worksheets using the
+SageMath Jupyter kernel.
 
 There are
 
