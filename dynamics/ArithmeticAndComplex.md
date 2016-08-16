@@ -34,6 +34,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/21248|#21248]]) needs-review: implementation of Redued Bianry Form by Stoll and Cremona- Rebecca Lauren Miller
+
  * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger
 
  * ([[http://trac.sagemath.org/ticket/21118|#21118]]) needs-work: list of degrees of iterates of function - Joseph Silverman
