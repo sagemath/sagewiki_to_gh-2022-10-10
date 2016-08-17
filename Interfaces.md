@@ -13,6 +13,7 @@
 
 === Sage interfaces to free software ===
   * [[http://www.gap-system.org/ | GAP]]
+  * [[http://www.math.uiuc.edu/Macaulay2/ Macaulay2]]
   * [[http://maxima.sourceforge.net/ | Maxima]]
   * [[https://www.gnu.org/software/octave/ | GNU Octave]]
   * [[http://pari.math.u-bordeaux.fr/ | PARI/GP]]
