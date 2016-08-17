@@ -58,11 +58,39 @@ the week on any subject that comes up.
 
 Feel free to add your own ideas here.
 
+=== Coding theory ideas ===
+
 * Review any open coding theory ticket, see [[http://trac.sagemath.org/ticket/18846|#18846]].
 
-* Fix any open issue with `linear_code.py` as noted on the [[https://bitbucket.org/lucasdavid/sage_coding_project/issues/155/problems-with-linear_codepy|ACTIS Bitbucket wiki]].
+* Fix any open minor issue with `linear_code.py` as noted on the [[https://bitbucket.org/lucasdavid/sage_coding_project/issues/155/problems-with-linear_codepy|ACTIS Bitbucket wiki]].
 
-* Improve documentation of sage.coding
+* Improve documentation of functions and modules in sage.coding.
+
+* Implement the Hartmann-Tzeng bound for cyclic codes. See #20100 for cyclic codes.
+
+* Cython implementation of the Brouwer-Zimmermann algorithm for computing the minimum distance of a linear code.
+
+* Finish the implementation of Golay codes.
+
+* Create a proper code class for any construction in `code_constructions.py`,
+  and endow it with (some of) the known properties for that class.
+
+* Implement a class for Goppa codes. Implement a decoder, e.g. based on its
+  formulation as a subfield subcode of a GRS code.
+
+* Create a class for binary codes and move the binary-code specific methods of `AbstractLinearCode` into this class. Possibly think the efficient binary   code methods in sage.coding.binary_code.pyx into it.
+
+* Create a class for two-weight codes. Rewrite sage.coding.two_weight_db.py such that it creates elements of this class.
+
+* Create a class for self-dual codes. Think sage.coding.sd_codes into it. Be sure to merge in trac #21165 before working on this, since it does relevant renaming and refactoring.
+
+* Create an abstract class AbstractSubfieldLinearCode for codes which are linear over a *subfield* of the base field. Examples include interleaved codes, folded RS codes, and rank-metric codes which are linear over the matrix base field. Should AbstractLinearCode inherit from this?
+
+* Create a base class for codes over (ZZ mod N). See #6452 for the relevant base module structure. Create a class for the famous Z4 codes and their embedding into binary codes.
+
+
+
+=== Algebra ideas ===
 
 * Improve integration of finite field non-prime basis representation introduced in [[http://trac.sagemath.org/ticket/20284|#20284]].
 
@@ -78,11 +106,6 @@ Feel free to add your own ideas here.
 
 * Link to new features of new LinBox release.
 
-* Implement the Hartmann-Tzeng bound for cyclic codes.
-
-* Implement Goppa codes.
-
-* Cython implementation of the Brouwer-Zimmermann algorithm for computing the minimum distance of a linear code.
 
 
 = Logistics =
