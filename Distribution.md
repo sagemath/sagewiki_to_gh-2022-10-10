@@ -2,7 +2,7 @@
 
 Here are some links and information about distributing Sage.
 
-Related page: SupportedPlatforms.
+Related pages: SupportedPlatforms, [[days77/packaging]]
 
 <<TableOfContents()>>
 
@@ -48,14 +48,16 @@ are prepared by the release manager, and sometimes by more people.
 == Arch-linux ==
   * hosted at: https://www.archlinux.org/packages/community/x86_64/sagemath/
   * wiki page: https://wiki.archlinux.org/index.php/SageMath
+  * repo: https://git.archlinux.org/svntogit/community.git/?h=packages/sagemath
   * maintainer: Antonio Rojas
 
 == Debian ==
   * wiki page: https://wiki.debian.org/DebianScience/Sage
-  * people: Julien Puydt (Snark)
   * (Sage-side) mailing list (dormant): [[https://groups.google.com/forum/#!forum/debian-sage|debian-sage]]
   * (Debian-side) mailing list (created 2016-08-10): https://lists.alioth.debian.org/mailman/listinfo/debian-science-sagemath
   * Debian-science mailing list (used before debian-science-sagemath was created): https://lists.debian.org/debian-science/
+  * Some steps: https://www.logilab.org/blogentry/5540528
+  * people: Julien Puydt (Snark), Julien Cristau, 
 
 == Fedora package ==
   * hosted at: https://apps.fedoraproject.org/packages/sagemath
@@ -66,8 +68,11 @@ are prepared by the release manager, and sometimes by more people.
 
 == Gentoo: Sage-on-Gentoo ==
   * repository: https://github.com/cschwan/sage-on-gentoo
+  * Known test failures: https://github.com/cschwan/sage-on-gentoo/wiki/Known-test-failures
   * admin: fbissey, cschwan
 
+== Guix/Nix ==
+  * some info: [[days77/packaging]]
 == RPM package (Fedora, Mandriva) ==
   * hosted at: http://rpmfind.net/linux/rpm2html/search.php?query=sagemath
 
