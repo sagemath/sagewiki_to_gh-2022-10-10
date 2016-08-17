@@ -38,9 +38,11 @@ I'm interested in the following pages on !SageMath's wiki.
 
 == Some Sage trac queries and tickets ==
 
-=== Interfaces, packages, updates, upgrades ===
+=== Bindings, interfaces, libraries, packages, updates, upgrades ===
 
+  * [[https://trac.sagemath.org/query?summary=~bind&page=2&desc=1&order=status|summary contains bind]]
   * [[https://trac.sagemath.org/query?summary=~interfac&desc=1&order=status|summary contains interfac]]
+  * [[https://trac.sagemath.org/query?summary=~lib&desc=1&order=status|summary contains lib]]
   * [[https://trac.sagemath.org/query?summary=~packag&desc=1&order=status|summary contains packag]]
   * [[https://trac.sagemath.org/query?summary=~upgrad&desc=1&order=status|summary contains upgrad]]
   * [[https://trac.sagemath.org/query?summary=~updat&desc=1&order=status|summary contains updat]]
@@ -53,6 +55,8 @@ I'm interested in the following pages on !SageMath's wiki.
   * [[https://trac.sagemath.org/query?summary=~speed&desc=1&order=status|summary contains speed]]
   * [[https://trac.sagemath.org/query?summary=~fast&desc=1&order=status|summary contains fast]]
   * [[https://trac.sagemath.org/query?summary=~slow&desc=1&order=status|summary contains slow]]
+  * [[https://trac.sagemath.org/query?summary=~forever&desc=1&order=status|summary contains forever]]
+  * [[https://trac.sagemath.org/query?summary=~+ages&desc=1&order=status|summary contains ages]]
 
 == Sage days and similar events [a]ttended or [o]rganized ==
 
