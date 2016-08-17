@@ -72,11 +72,9 @@ Feel free to add your own ideas here.
 
 * Finish the implementation of Golay codes.
 
-* Create a proper code class for any construction in `code_constructions.py`,
-  and endow it with (some of) the known properties for that class.
+* Create a proper code class for any construction in `code_constructions.py`, and endow it with (some of) the known properties for that class.
 
-* Implement a class for Goppa codes. Implement a decoder, e.g. based on its
-  formulation as a subfield subcode of a GRS code.
+* Implement a class for Goppa codes. Implement a decoder, e.g. based on its formulation as a subfield subcode of a GRS code.
 
 * Create a class for binary codes and move the binary-code specific methods of `AbstractLinearCode` into this class. Possibly think the efficient binary   code methods in sage.coding.binary_code.pyx into it.
 
