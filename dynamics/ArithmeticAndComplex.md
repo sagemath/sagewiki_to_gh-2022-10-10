@@ -34,9 +34,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/21285|#21285]]) needs-review: error in change_ring for affine morphisms - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/21285|#21285]]) positive-review: error in change_ring for affine morphisms - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/21248|#21248]]) needs-review: implementation of Redued Bianry Form by Stoll and Cremona- Rebecca Lauren Miller
+ * ([[http://trac.sagemath.org/ticket/21248|#21248]]) needs-review: implementation of Reduced Binary Form by Stoll and Cremona- Rebecca Lauren Miller
 
  * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger
 
@@ -81,6 +81,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || given a family, which members are pcf|| || ||
  || Berkovich P1 || || ||  ||
  || Improve speed ||sigma_invariants is currently very slow.  (Took several minutes to compute 2-cycle sigma invariants for a cubic.)  If we hope to use this to describe functions in the "Arithmetic Dynamics Database," then computation needs to be much faster. || Need to think about methods.  Will numerical approximations go faster?  Do we need to bound denominators of symmetric functions?  Can we?||  ||
+ || reduced form || Implement for higher dimensions. See Stoll 'Reduction Theory Of Point Clusters In Projective Space' || ||
 
 
 == Complete ==
