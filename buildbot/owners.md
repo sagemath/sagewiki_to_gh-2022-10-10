@@ -7,6 +7,7 @@ Sagemath patchbots names and owners:
     debian_jessie_32  --> tmonteil
     eddy              --> Vincent.Neri (lri, Orsay, Paris sud)
     edoras            --> ?
+    fermat            --> cremona
     findstat          --> stumpc5
     kepler            --> nilesjohnson
     kevin-Virtualbox  --> kdilks
@@ -14,7 +15,6 @@ Sagemath patchbots names and owners:
     groebner          --> jkroeker
     hera-OptiPlex     --> BLACKLISTED
     icj-laptop        --> chapoton
-    lehner            --> cremona
     librae            --> vdelecroix
     Martin-Laptop     --> mantepse
     mangouste         --> vdelecroix
