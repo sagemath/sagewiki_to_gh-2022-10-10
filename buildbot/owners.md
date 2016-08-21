@@ -26,6 +26,7 @@ Sagemath patchbots names and owners:
     rp01              --> ?
     sage4             --> jdemeyer
     silence           --> ncohen
+    tmonteil-*        --> tmonteil (various VM to test different arch/OS/release)
     ubuntu_vivid_64   --> tmonteil
     zorn              --> agd
 }}}
