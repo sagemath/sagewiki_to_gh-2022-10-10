@@ -35,8 +35,8 @@ Disclaimer: This is a preliminary schedule which is subject to change!
 
 ||<5%>              ||<15% #FFFFAA:> Monday, 22nd August ||<15%  #FFFFAA:> Tuesday, 23rd August ||<15%  #FFFFAA:> Wednesday, 24th August ||<15%  #FFFFAA:> Thursday, 25th August  ||<15%  #FFFFAA:> Friday, 26th August ||
 ||Room              ||<:> Gilles Kahn  ||<:> Gilles Kahn ||<:> Gilles Kahn ||<:> Gilles Kahn ||<:> Gilles Kahn ||
-||<#FFFFAA> 9am     ||<:|3> Welcome and install session||<#D0FFD0:|4>Coding sprints session||<#D0FFD0:|4>Coding sprints session||<#D0FFD0:|4>Coding sprints session||<#D0FFD0:|4>Coding sprints session||
-||<#FFFFAA> 9.30am  ||
+||<#FFFFAA> 9am     ||<:|3> Welcome and install session||<#D0FFD0:|1>Coding sprints session||<#D0FFD0:|4>Coding sprints session||<#D0FFD0:|4>Coding sprints session||<#D0FFD0:|4>Coding sprints session||
+||<#FFFFAA> 9.30am  || ||<#D0FFD0:|2>Talk on Git and Trac||
 ||<#FFFFAA> 10am    ||
 ||<#FFFFAA> 10.30am ||<#AFEFEF:|2>[[http://defeo.lu/sagemath-paris/sagedays75-2016-08-22.html#1|Introduction to Sage]] (Luca De Feo)||
 ||<#FFFFAA> 11am    ||<#AFEFEF:|2>Presentation of LinBox (Clément Pernet)||<#AFEFEF:|2>Decoding techniques for algebraic codes: algorithmic and implementation (Johan S. R. Nielsen)||<#AFEFEF:|2>Rank-metric codes in Sage (Arpit Merchant)||<#AFEFEF:|2>TBA||
