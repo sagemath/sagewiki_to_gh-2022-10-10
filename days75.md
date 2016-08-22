@@ -56,7 +56,7 @@ the week on any subject that comes up.
 
 == Ideas for coding sprints ==
 
-Feel free to add your own ideas here.
+Feel free to add your own ideas on this [[https://mensuel.framapad.org/p/sage-days-75|collaborative PAD]].
 
 === Coding theory ideas ===
 
