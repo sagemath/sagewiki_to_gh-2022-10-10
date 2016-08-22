@@ -45,7 +45,7 @@ Disclaimer: This is a preliminary schedule which is subject to change!
 ||<#FFFFAA> 1.30pm  ||<#AFEFEF:|2>Introduction to coding theory in Sage (David Lucas)||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||
 ||<#FFFFAA> 2pm     ||
 ||<#FFFFAA> 2.30pm  ||Break||
-||<#FFFFAA> 3pm     ||<#AFEFEF:>Status report on [[ACTIS|https://bitbucket.org/lucasdavid/sage_coding_project/wiki/Home]] (David Lucas)||
+||<#FFFFAA> 3pm     ||<#AFEFEF:>Status report on [[https://bitbucket.org/lucasdavid/sage_coding_project/wiki/Home|Actis]] (David Lucas)||
 ||<#FFFFAA> 3.15pm  ||<#AFEFEF:>Brainstorming on coding sprints (David Lucas)||
 ||<#FFFFAA> 3.30pm  ||<#D0FFD0:|2>Coding sprints session||
 ||<#FFFFAA> 5.30pm  ||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||
