@@ -40,7 +40,7 @@ Disclaimer: This is a preliminary schedule which is subject to change!
 ||<#FFFFAA> 10am    ||
 ||<#FFFFAA> 10.30am ||<#AFEFEF:|2>[[http://defeo.lu/sagemath-paris/sagedays75-2016-08-22.html#1|Introduction to Sage]] (Luca De Feo)||
 ||<#FFFFAA> 11am    ||<#AFEFEF:|2>Presentation of LinBox (Clément Pernet)||<#AFEFEF:|2>Decoding techniques for algebraic codes: algorithmic and implementation (Johan S. R. Nielsen)||<#AFEFEF:|2>Rank-metric codes in Sage (Arpit Merchant)||<#AFEFEF:|2>TBA||
-||<#FFFFAA> 11.30am ||Hands-on Sage (tutorials, ...)||
+||<#FFFFAA> 11.30am ||Hands-on Sage (tutorials, ...) See [[http://doc.sagemath.org/html/en/thematic_tutorials/index.html|Thematic tutorials]] including one on [[http://doc.sagemath.org/html/en/thematic_tutorials/coding_theory.html#coding-theory|coding theory]]||
 ||<#FFFFAA> 12am    ||Lunch break||Lunch break||Lunch break||Lunch break||Lunch break||
 ||<#FFFFAA> 1.30pm  ||<#AFEFEF:|2>Introduction to coding theory in Sage (David Lucas)||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||<#D0FFD0:|6>Coding sprints session||
 ||<#FFFFAA> 2pm     ||
