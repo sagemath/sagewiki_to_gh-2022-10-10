@@ -19,7 +19,7 @@ The aim of this Sage Days is to:
 
  * Introduce Sage to coding theorists.
 
- * Have presentations about the enhancements we made to Sage's coding theory library during Inria's [[https://bitbucket.org/lucasdavid/sage_coding_project/wiki/Home|ACTIS]] project
+ * Have presentations about the enhancements we made to Sage's coding theory library during Inria's [[ACTIS|https://bitbucket.org/lucasdavid/sage_coding_project/wiki/Home]] project
 
  * Help people to work on their own projects.
 
