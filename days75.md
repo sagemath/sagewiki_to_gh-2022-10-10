@@ -48,7 +48,7 @@ Disclaimer: This is a preliminary schedule which is subject to change!
 ||<#FFFFAA> 3pm     ||<#AFEFEF:>Status report on [[https://bitbucket.org/lucasdavid/sage_coding_project/wiki/Home|Actis]] (David Lucas)||
 ||<#FFFFAA> 3.15pm  ||<#AFEFEF:>Brainstorming on coding sprints (David Lucas)||
 ||<#FFFFAA> 3.30pm  ||<#D0FFD0:|2>Coding sprints session||
-||<#FFFFAA> 5.30pm  ||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||<#D0FFD0:>Status report on coding sprints||
+||<#FFFFAA> 5.00pm  ||<#D0FFD0:|1>Status report on coding sprints||<#D0FFD0:|1>Status report on coding sprints||<#D0FFD0:|1>Status report on coding sprints||<#D0FFD0:|1>Status report on coding sprints||
 ||<#FFFFAA> 6pm     ||<:> End ||<:> End ||<:> End ||<:> End ||<:> End ||
 
 We also expect to have informal short talks by the participants throughout
