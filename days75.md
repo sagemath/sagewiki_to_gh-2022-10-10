@@ -188,3 +188,4 @@ Please add you name to the list if you want to attend this Sage Days.
  * Philippe Dumas (Inria Saclay)
  * ThierryMonteil (not sure about the exact dates)
  * Sébastien Labbé (U. Liège, Thursday-Friday)
+ * Édouard Rousseau (U. Paris-Sud)
