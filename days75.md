@@ -193,4 +193,4 @@ Please add you name to the list if you want to attend this Sage Days.
 
 = Other files =
 
-[[attachment:Demonstration of new CT features in Sage (Dagstuhl Aug 2016)|Demonstration of new CT features in Sage (Dagstuhl Aug 2016), J. Rosenkilde]]
+[[attachment:2016_08_dagstuhl_sage.ipynb|Demonstration of new CT features in Sage (Dagstuhl Aug 2016), J. Rosenkilde]]
