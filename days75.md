@@ -189,3 +189,8 @@ Please add you name to the list if you want to attend this Sage Days.
  * ThierryMonteil (not sure about the exact dates)
  * Sébastien Labbé (U. Liège, Thursday-Friday)
  * Édouard Rousseau (U. Paris-Sud)
+
+
+= Other files =
+
+[[attachment:Demonstration of new CT features in Sage (Dagstuhl Aug 2016)|Demonstration of new CT features in Sage (Dagstuhl Aug 2016), J. Rosenkilde]]
