@@ -42,6 +42,10 @@ are prepared by the release manager, and sometimes by more people.
   * what: bootable "Linux + math software" environment for French "agrégation" exams
   * admin: François Boisson
 
+= Anaconda / Conda / Conda Forge =
+
+In preparation.
+
 = Linux distros =
   * mailing-list: [[https://groups.google.com/forum/#!forum/sage-packaging|sage-packaging]]
 
