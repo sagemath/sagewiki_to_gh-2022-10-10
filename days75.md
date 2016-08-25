@@ -164,7 +164,7 @@ Please add you name to the list if you want to attend this Sage Days.
 
  * Daniel Augot (Inria Saclay - LIX)
  * David Lucas (Inria Saclay - LIX)
- * Johan S. R. Nielsen (DTU)
+ * Johan Rosenkilde (né Nielsen) (DTU, Denmark)
  * Clément Pernet (U. Grenoble Alpes, U. de Lyon - LIP)
  * Luca De Feo (U. Versailles)
  * Miguel Marco (U. de Zaragoza)
