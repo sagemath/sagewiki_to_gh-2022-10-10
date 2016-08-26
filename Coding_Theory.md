@@ -33,9 +33,19 @@ within their interest.
 The following represents existing and wished Coding Theory in Sage. Please add
 your wishes to this diagram (and update it if it is out of date).
 
-The diagrams are standard SVG created with [[http://inkscape.com|Inkscape]].
+The diagrams are non-standard SVG created with [[http://inkscape.com|Inkscape]]. The shown images are PNG rendering. Modifications should be done to the SVG.
 
+== Main Roadmap ==
 
+    [[attachment:ct_roadmap.svg]]
+
+    {{attachment:ct_roadmap.png}}
+
+== Decoders Roadmap ==
+
+    [[attachment:ct_roadmap_decoders.svg]]
+
+    {{attachment:ct_roadmap_decoders.png}}
 
 = Detailed discussions =
 
