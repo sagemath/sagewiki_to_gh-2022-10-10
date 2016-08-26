@@ -59,6 +59,10 @@ Support Algebraic Geometric codes in Sage rests on the following building blocks
 
 Feel free to contact jsrn if you are interested in contributing to this.
 
+=== Bounds and optimal codes ===
+
+Not very easy, no support yet. What to do with [[http://codetables.de]] ?
+
 === Non-linear codes ===
 
 `AbstractLinearCodes` supports only linear codes in the classical sense: vector
