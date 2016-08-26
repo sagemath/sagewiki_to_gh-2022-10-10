@@ -1,95 +1,104 @@
-= Coding Theory =
+= Coding Theory in Sage =
 
-A linear code of length n  is a finite dimensional subspace of $GF(q)^n$, with a fixed (usually the standard) basis. Sage can compute with linear error-correcting codes to a limited extent. It basically has some native Python commands and wrappers to GAP and GUAVA 3.1 commands (GUAVA 3.1 includes Leon's C code, though uncompiled). GUAVA 3.1 is included with Sage.
+A collection of ideas and long-term goals for Coding Theory in Sage, and the people interested.
 
-Sage can compute Hamming codes
+Feel free to add yourself to the list below. Please elaborate on the roadmap and
+discussions on long-term improvements to the parts of Coding Theory in Sage that
+you are passionate about.
 
-{{{
-sage: C = HammingCode(3,GF(3))   
-sage: C
-Linear code of length 13, dimension 10 over Finite Field of size 3
-sage: C.minimum_distance()     
-3
-sage: C.gen_mat()
-    [1 0 0 0 0 0 0 0 2 0 0 2 1]
-    [0 1 0 0 0 0 0 0 2 0 0 2 0]
-    [0 0 1 0 0 0 0 0 2 0 0 2 2]
-    [0 0 0 1 0 0 0 0 2 0 0 1 0]
-    [0 0 0 0 1 0 0 0 2 0 0 1 2]
-    [0 0 0 0 0 1 0 0 2 0 0 1 1]
-    [0 0 0 0 0 0 1 0 2 0 0 0 2]
-    [0 0 0 0 0 0 0 1 2 0 0 0 1]
-    [0 0 0 0 0 0 0 0 0 1 0 2 2]
-    [0 0 0 0 0 0 0 0 0 0 1 2 1]
-}}}
-the four Golay codes (the binary one, ternary one, and their extended versions),
+== Main communication channel: sage-coding-theory Google Group ==
 
-{{{
-sage: C = ExtendedTernaryGolayCode() 
-sage: C
-Linear code of length 12, dimension 6 over Finite Field of size 3
-sage: C.minimum_distance()               
-6
-sage: C.gen_mat()               
-    [1 0 0 0 0 0 2 0 1 2 1 2]
-    [0 1 0 0 0 0 1 2 2 2 1 0]
-    [0 0 1 0 0 0 1 1 1 0 1 1]
-    [0 0 0 1 0 0 1 1 0 2 2 2]
-    [0 0 0 0 1 0 2 1 2 2 0 1]
-    [0 0 0 0 0 1 0 2 1 2 2 1]
-}}}
-as well as toric codes, cyclic codes, quadratic and quasi-quadratic residue codes, "random" linear codes, and many others. 
+This mailing list, a little brother to sage-devel, is where we communicate:
 
-For a given code C, Sage can return a generator matrix, a check matrix, and the dual code:
+[[https://groups.google.com/forum/#!forum/sage-coding-theory]]
 
-{{{
-sage: C = HammingCode(3,GF(2))
-Linear code of length 7, dimension 3 over Finite Field of size 2
-sage: C.gen_mat()
-   [1 0 0 1 0 1 0]
-   [0 1 0 1 0 1 1]
-   [0 0 1 1 0 0 1]
-   [0 0 0 0 1 1 1]
-sage: C.check_mat()
-   [1 0 0 1 1 0 1]
-   [0 1 0 1 0 1 1]
-   [0 0 1 1 1 1 0]
-sage: C.dual_code()
-Linear code of length 7, dimension 3 over Finite Field of size 2
-sage: C = HammingCode(3,GF(4,'a'))
-sage: C.dual_code()
-Linear code of length 21, dimension 3 over Finite Field in a of size 2^2
-}}}
-
-For a linear code C and a vector v in $GF(q)^n$, Sage can try to decode v (i.e., find the codeword c in C closest to v in the Hamming metric) using syndrome decoding. As of yet, no special decoding methods have been implemented.
+Subscribe to this low-volume mailing list if you want to be kept in the loop,
+and write on it for any discussion on coding theory in Sage.
 
 
-{{{
-sage: C = HammingCode(3,GF(2))
-sage: MS = MatrixSpace(GF(2),1,7)
-sage: F = GF(2); a = F.gen()
-sage: v1 = [a,a,F(0),a,a,F(0),a]
-sage: C.decode(v1)
-(1, 0, 0, 1, 1, 0, 1)
-sage: v2 = matrix([[a,a,F(0),a,a,F(0),a]])
-sage: C.decode(v2)
-(1, 0, 0, 1, 1, 0, 1)
-sage: v3 = vector([a,a,F(0),a,a,F(0),a])
-sage: c = C.decode(v3); c
-(1, 0, 0, 1, 1, 0, 1)
-}}}
-To plot the (histogram of) the weight distribution of a code, one can use the matplotlib package included with Sage:
+== People in CT in Sage and their main interests ==
 
-{{{
-sage: C = HammingCode(4,GF(2))
-sage: w = C.weight_distribution(); w
-[1, 0, 0, 35, 105, 168, 280, 435, 435, 280, 168, 105, 35, 0, 0, 1]
-sage: J = range(len(w))
-sage: W = IndexedSequence([ZZ(w[i]) for i in J],J)
-sage: W.plot_histogram()
-}}}
-This yields the following plot:
+    * jsrn: Johan Rosenkilde (DTU, Denmark). anything sage.coding, algebra
+    * dlucas: David Lucas
+    * cpernet: Clément Pernet
+    * danielaugot: Daniel Augot (Inria, Saclay)
 
-{{http://sage.math.washington.edu/home/wdj/art/hamming4-wt-histogram.png}}
+You are welcome to Cc these developers on tickets related to Coding theory
+within their interest.
 
-Sage can also compute algebraic-geometric codes, called AG codes, via the Singular interface. One may also use the (one-point planar) AG codes implemented in GUAVA via the Sage interface to GAP gap_console(). See the [[http://sage.math.washington.edu/home/wdj/guava/:|GUAVA]] manual for more details.
+
+
+= Roadmap =
+
+The following represents existing and wished Coding Theory in Sage. Please add
+your wishes to this diagram (and update it if it is out of date).
+
+The diagrams are standard SVG created with [[http://inkscape.com|Inkscape]].
+
+
+
+= Detailed discussions =
+
+=== A-G Codes ===
+
+Support Algebraic Geometric codes in Sage rests on the following building blocks:
+
+    * Representation of algebraic curves. Done: `Curve` and `AffineSpace`/`ProjectiveSpace`.
+    * Representation of divisors. Done: see `Curve.divisor`.
+    * Computation of Riemann-Roch space bases. TODO.
+
+Feel free to contact jsrn if you are interested in contributing to this.
+
+=== Non-linear codes ===
+
+`AbstractLinearCodes` supports only linear codes in the classical sense: vector
+spaces in `F^n` for some finite field `F`, considered over the Hamming metric.
+There's many relevant relaxations of this restriction.
+
+For optimal code sharing, an hierarchy of abstract code classes should be
+thought out to accommodate these.
+
+
+=== Subfield linear codes ===
+
+Codes that are linear over a subfield. Examples include Interleaved linear
+codes, Folded RS codes and Multiplicity codes.
+
+
+=== Relation with Guava ===
+
+See [[Coding_Theory/Guava]]. The most valuable part seems to be Leon's code for computing the automorphism group of a code
+
+
+== General algebra in Sage that is important for coding theory ==
+
+    * Link to advanced fast polynomial arithmetic library functions such as multi-point evaluation and Lagrange interpolation.
+    * Link to fast GF(2)[x] library (currently used is NTL generic GF(p)[x]).
+    * Port implementation of asymptotically fast (GF(q)[x])[y] root-finding from [[https://bitbucket.org/jsrn/codinglib|Codinglib]]. Bruno Grenet has been working on this.
+    * Fix and review http://trac.sagemath.org/ticket/16742 regarding faster F[x] matrix reduction.
+
+
+== Various Other Projects ==
+
+    * Implement the Hartmann-Tzeng bound for cyclic codes. See =20100 for cyclic codes.
+    * Cython implementation of the Brouwer-Zimmermann algorithm for computing the minimum distance of a linear code.
+    * Create a proper code class for any construction in `code_constructions.py`, and endow it with (some of) the known properties for that class.
+    * Implement a class for Goppa codes. Implement a decoder, e.g. based on its formulation as a subfield subcode of a GRS code.
+    * Create a class for binary codes and move the binary-code specific methods of `AbstractLinearCode` into this class. Possibly think the efficient binary code methods in sage.coding.binary_code.pyx into it.
+    * Create a class for two-weight codes. Rewrite sage.coding.two_weight_db.py such that it creates elements of this class.
+    * Create a class for self-dual codes. Think sage.coding.sd_codes into it.
+    * Create a base class for codes over (ZZ mod N). See =6452 for the relevant base module structure. Create a class for the famous Z4 codes and their embedding into binary codes.
+
+
+=== ACTIS: Full-time developer for Coding Theory in Sage ===
+
+For 2 years, 2014-2016, David Lucas (dlucas) was hired to (re)develop coding
+theory functionality for Sage. The "advisors" of this project were Johan
+Rosenkilde, Clément Pernet and Daniel Augot.
+
+We are still in the immediate post-phase of this project:
+
+    * Migrate Issues pointed out on the [[https://bitbucket.org/lucasdavid/sage_coding_project/issues/155/problems-with-linear_codepy|ACTIS Bitbucket issue tracker]] to tickets and to here.
+
+
+  
