@@ -6,14 +6,6 @@ Feel free to add yourself to the list below. Please elaborate on the roadmap and
 discussions on long-term improvements to the parts of Coding Theory in Sage that
 you are passionate about.
 
-== Main communication channel: sage-coding-theory Google Group ==
-
-This mailing list, a little brother to sage-devel, is where we communicate:
-
-[[https://groups.google.com/forum/#!forum/sage-coding-theory]]
-
-Subscribe to this low-volume mailing list if you want to be kept in the loop,
-and write on it for any discussion on coding theory in Sage.
 
 
 == People in CT in Sage and their main interests ==
@@ -27,6 +19,14 @@ You are welcome to Cc these developers on tickets related to Coding theory
 within their interest.
 
 
+== Main communication channel: sage-coding-theory Google Group ==
+
+This mailing list, a little brother to sage-devel, is where we communicate:
+
+[[https://groups.google.com/forum/#!forum/sage-coding-theory]]
+
+Subscribe to this low-volume mailing list if you want to be kept in the loop,
+and write on it for any discussion on coding theory in Sage.
 
 = Roadmap =
 
