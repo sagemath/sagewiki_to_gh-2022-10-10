@@ -3,14 +3,9 @@
 ## page was renamed from drkirkby
 ## page was renamed from MyStartingPage
 
-= About this wiki =
+= Sage Wiki =
 
 This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software System]] project. This is mainly used by developers for organization of e.g. SageDays and discussion of long-term projects.
-
-'''Editing the wiki.''' Page editing uses the MoinMoin syntax. To edit the wiki, log in using your [[http://trac.sagemath.org/sage_trac/|sage-trac]] account. Getting an account involves convincing a human by email that you not a spammer.
-
-'''License and Copyright.''' Contributions to the [[http://www.sagemath.org/|Sage]] wiki and to the [[http://www.sagemath.org/documentation.html|Sage documentation]] are licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]]. By contributing, you agree to place your contribution under that license.
-
 
 <<TableOfContents>>
 
@@ -123,4 +118,10 @@ These lists are possibly out-of-date. Use the listed Sage command for the newest
  * [[Social Networks]]
 
 
-(Note -- wikis are ''not'' written in HTML.  Use the GUI Mode (in Firefox) or read the wiki help links at the top.)
+= About this wiki =
+
+'''Editing the wiki.''' Page editing uses the MoinMoin syntax. To edit the wiki, log in using your [[http://trac.sagemath.org/sage_trac/|sage-trac]] account. Getting an account involves convincing a human by email that you not a spammer.
+
+Note -- wikis are ''not'' written in HTML.  Use the GUI Mode (in Firefox) or read the wiki help links at the top.
+
+'''License and Copyright.''' Contributions to the [[http://www.sagemath.org/|Sage]] wiki and to the [[http://www.sagemath.org/documentation.html|Sage documentation]] are licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]]. By contributing, you agree to place your contribution under that license.
