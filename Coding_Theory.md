@@ -104,15 +104,11 @@ See [[Coding_Theory/Guava]]. The most valuable part seems to be Leon's code for 
     * Create a base class for codes over (ZZ mod N). See =6452 for the relevant base module structure. Create a class for the famous Z4 codes and their embedding into binary codes.
 
 
-=== ACTIS: Full-time developer for Coding Theory in Sage ===
+=== A bit a history : ACTIS, bootstrapping Coding Theory in Sage ===
 
-For 2 years, 2014-2016, David Lucas (dlucas) was hired to (re)develop coding
-theory functionality for Sage. The "advisors" of this project were Johan
-Rosenkilde, Clément Pernet and Daniel Augot.
+Johan Rosenkilde, Clément Pernet and Daniel Augot got INRIA funding for a 2 years project, ACTIS ("Algorithmic Coding Theory in Sage), 2014-2016, and David Lucas (dlucas) was hired to (re)develop coding
+theory functionality for Sage, with a strong bias towards algebraic codes and their associated decoding algorithms.
 
-We are still in the immediate post-phase of this project:
-
-    * Migrate Issues pointed out on the [[https://bitbucket.org/lucasdavid/sage_coding_project/issues/155/problems-with-linear_codepy|ACTIS Bitbucket issue tracker]] to tickets and to here.
-
+We are in the immediate post-phase of this project, which is now finished. Yet there are some issues that we pointed out on the (deprecated) [[https://bitbucket.org/lucasdavid/sage_coding_project/issues/155/problems-with-linear_codepy|ACTIS Bitbucket issue tracker]] which need to be moved to trac.
 
   
