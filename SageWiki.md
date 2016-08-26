@@ -40,7 +40,9 @@ The most up-to date list of Sage developers is on our [[http://trac.sagemath.org
  * [[http://groups.google.com/group/sage-edu|sage-edu]] for teaching using Sage
  * [[http://groups.google.com/group/sage-dsageng|sage-dsageng]] for Distributed and Parallel Sage
  * [[http://groups.google.com/group/sage-finance|sage-finance]] for finance
- * [[http://groups.google.com/group/sage-finance|sage-coding-theory]] for coding theory
+ * [[http://groups.google.com/group/sage-coding-theory|sage-coding-theory]] for coding theory
+ * [[http://groups.google.com/group/sage-nt|sage-nt]] for number theory
+ * [[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]]
  * IRC channel: {{{#sagemath}}} on [[http://freenode.net/|freenode ]] (`chat.freenode.net`)
  * The Sage website contains links to [[http://www.sagemath.org/development-groups.html | other discussion mailing lists]].
 
