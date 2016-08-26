@@ -61,6 +61,8 @@ the week on any subject that comes up.
 
 See [[https://mensuel.framapad.org/p/sage-days-75|collaborative PAD]].
 
+[[https://trac.sagemath.org/query?status=!closed&keywords=~sd75|tickets related to the sage-days]]
+
 = Logistics =
 
 == Lodging ==
