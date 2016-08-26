@@ -88,7 +88,7 @@ See [[Coding_Theory/Guava]]. The most valuable part seems to be Leon's code for 
 
     * Link to advanced fast polynomial arithmetic library functions such as multi-point evaluation and Lagrange interpolation.
     * Link to fast GF(2)[x] library (currently used is NTL generic GF(p)[x]).
-    * Port implementation of asymptotically fast (GF(q)[x])[y] root-finding from [[https://bitbucket.org/jsrn/codinglib|Codinglib]]. Bruno Grenet has been working on this.
+    * Port implementation of asymptotically fast (GF(q)[x])[y] root-finding from [[https://bitbucket.org/jsrn/codinglib|Codinglib]]: Ticket http://trac.sagemath.org/ticket/21333 (needing review).
     * Fix and review http://trac.sagemath.org/ticket/16742 regarding faster F[x] matrix reduction.
 
 
@@ -110,5 +110,3 @@ Johan Rosenkilde, Clément Pernet and Daniel Augot got INRIA funding for a 2 yea
 theory functionality for Sage, with a strong bias towards algebraic codes and their associated decoding algorithms.
 
 We are in the immediate post-phase of this project, which is now finished. Yet there are some issues that we pointed out on the (deprecated) [[https://bitbucket.org/lucasdavid/sage_coding_project/issues/155/problems-with-linear_codepy|ACTIS Bitbucket issue tracker]] which need to be moved to trac.
-
-  
