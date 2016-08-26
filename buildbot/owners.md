@@ -5,6 +5,7 @@ Sagemath patchbots names and owners:
     andromeda         --> jkroeker
     Athena            --> kdilks
     debian_jessie_32  --> tmonteil
+    cristal           --> Bouillaguet
     eddy              --> Vincent.Neri (lri, Orsay, Paris sud)
     edoras            --> ?
     fermat            --> cremona
