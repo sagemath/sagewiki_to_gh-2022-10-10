@@ -14,17 +14,6 @@ This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software S
 
 <<TableOfContents>>
 
-
-= FAQ: Frequently Asked Questions =
-
- * [[faq|Sage FAQ - Frequently Asked Questions]]
-
-
-= News =
-
- * [[SAGE_in_the_News|Sage In the News and Blogs]]
-
-
 = Workshops =
 <<Anchor(sagedays)>>
 == Past and future workshops ==
@@ -71,11 +60,32 @@ The main developer doc is the [[http://www.sagemath.org/doc/developer/ | Develop
 
 The [[devel | development wiki]] also contain some (currently out-of-date) information on Sage development.
 
-= Special Interest discussion pages =
 
-* [[Coding_Theory|Coding Theory in Sage]]
+= Special Discussion Pages =
 
-= Tips and Tricks =
+ * [[Coding_Theory|Coding Theory in Sage]]
+ * [[Debate/Collective infrastructure management]]
+
+= Demonstrations of Graphical Capabilities (mostly out-of-date) =
+
+ * [[pics|Code to make cool images]]
+ * [[plot|Sage plotting]]
+ * [[art|Art - posters, banners, etc]]
+ * [[interact|Interact Demos]]
+ * [[animate|Animate Demos]]
+ * [[http://tug.ctan.org/pkg/sagetex|SageTeX - Put some sage into your TeX]]
+
+= Packages =
+
+These lists are possibly out-of-date. Use the listed Sage command for the newest information:
+
+ * [[standard_packages_available_for_SAGE|Standard packages available for Sage]] (`./sage -standard`)
+ * [[optional_packages_available_for_SAGE|Optional packages available for Sage]] (`./sage -optional`)
+ * [[experimental_packages_available_for_SAGE|Experimental packages available for Sage]] (`./sage -experimenta`)
+ * [[Sage_Spkg_Tracking|SPKG changelog and descriptions]]
+
+
+= Various Out-of-Date Tips and Information pages =
 
  * [[Tips]]
  * [[UsingSquashFS]]
@@ -85,28 +95,10 @@ The [[devel | development wiki]] also contain some (currently out-of-date) infor
  * [[InstallingGapPackages|Installing GAP packages]]
 
 
-= Images / Plotting / Art / Interacts =
-
- * [[pics|Code to make cool images]]
- * [[plot|Sage plotting]]
- * [[art|Art - posters, banners, etc]]
- * [[interact|Interact Demos]]
- * [[animate|Animate Demos]]
- * [[http://tug.ctan.org/pkg/sagetex|SageTeX - Put some sage into your TeX]]
-
-
-= Debates =
-
- * [[Debate/Collective infrastructure management]]
-
-
-= Other Sage items =
-
- * [[sagenb|list of institutions and projects using Sage]]
- * [[standard_packages_available_for_SAGE|standard packages available for Sage]]
- * [[optional_packages_available_for_SAGE|optional packages available for Sage]]
- * [[experimental_packages_available_for_SAGE|experimental packages available for Sage]]
- * [[Sage_Spkg_Tracking|SPKG changelog and descriptions]]
+= Other out-of-date pages =
+ * [[faq|Sage FAQ - Frequently Asked Questions (Out-of-date)]]
+ * [[SAGE_in_the_News|Sage In the News and Blogs (Out-of-date)]]
+ * [[sagenb|List of institutions and projects using Sage]]
  * [[OSCAS]]s
  * [[SAGE_Reviews|Sage Reviews]]
  * [[Teaching_using_SAGE|Teaching using Sage]]
