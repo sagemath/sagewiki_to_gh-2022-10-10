@@ -9,12 +9,12 @@ This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software S
 
 <<TableOfContents>>
 
-= Workshops =
+= SageDays and Sage Workshops =
 <<Anchor(sagedays)>>
-== Past and future workshops ==
+== Past and future Workshops ==
  * Upcoming Workshops
  <<Include(Workshops, , from="^##start-include$", to="^----$")>>
- * [[Workshops | All workshops]], including past and future Sage Days, Bug Days, Doc Days, Review Days, Education Days, and some other Sage-related events.
+ * [[Workshops | All Workshops]], including past and future Sage Days, Bug Days, Doc Days, Review Days, Education Days, and some other Sage-related events.
 
 
 == Hosting a workshop ==
