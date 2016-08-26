@@ -27,6 +27,9 @@ We plan on having talks on the mornings, and coding sprints on the afternoons.
 The first 3 days' talks will be focused on basic functionalities of our library, the last 2 days
 on advanced functionalities, with an emphasis on Sage development.
 
+
+See also the [[Coding_Theory]] dedicated page.
+
 == Schedule ==
 
 Disclaimer: This is a preliminary schedule which is subject to change!
