@@ -29,8 +29,6 @@ The most up-to date list of Sage developers is on our [[http://trac.sagemath.org
 
 [[http://www.sagemath.org/development-map.html|Overview of (many) Sage developers on a world map]]
 
- * [[CommunityManagement|Collection of stories on Open Source community management]]
-
 
 <<Anchor(messagingsites)>>
 = Mailing Lists / Chat Rooms =
@@ -116,6 +114,7 @@ These lists are possibly out-of-date. Use the listed Sage command for the newest
  * [[SageAppliance|Using Sage within virtualbox]]
  * [[Distribution]]
  * [[Social Networks]]
+ * [[CommunityManagement|Collection of stories on Open Source community management]]
 
 
 = About this wiki =
