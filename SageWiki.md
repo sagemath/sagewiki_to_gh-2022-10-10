@@ -53,7 +53,7 @@ Development is handled using "tickets" on the [[http://trac.sagemath.org/sage_tr
 
 The main developer doc is the [[http://www.sagemath.org/doc/developer/ | Developers' Guide]].
 
-The [[devel | development wiki]] also contain some (currently out-of-date) information on Sage development.
+The [[devel | development wiki]] also contain some (currently out-of-date) information on Sage development. See also this recent [[CodeSharingWorkflow|discussion on SageMath development workflow]].
 
 
 = Special Discussion Pages =
