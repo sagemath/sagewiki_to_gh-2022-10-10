@@ -60,6 +60,7 @@ The [[devel | development wiki]] also contain some (currently out-of-date) infor
 
  * [[Coding_Theory|Coding Theory in Sage]]
  * [[Debate/Collective infrastructure management]]
+ * [[CodeSharingWorkflow|On development models for sharing (experimental) code]]
 
 = Demonstrations of Graphical Capabilities (mostly out-of-date) =
 
@@ -69,6 +70,7 @@ The [[devel | development wiki]] also contain some (currently out-of-date) infor
  * [[interact|Interact Demos]]
  * [[animate|Animate Demos]]
  * [[http://tug.ctan.org/pkg/sagetex|SageTeX - Put some sage into your TeX]]
+ * [[K3D-tools|K3D-jupyter 3D visualisation in jupyter notebook]]
 
 = Packages =
 
