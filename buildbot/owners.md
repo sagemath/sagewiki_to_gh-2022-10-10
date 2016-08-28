@@ -27,7 +27,7 @@ Sagemath patchbots names and owners:
     rp01              --> ?
     sage4             --> jdemeyer
     silence           --> ncohen
-    tmonteil-*        --> tmonteil (various VM to test different arch/OS/release)
+    tmonteil-*        --> tmonteil (various VM to test different arch/OS/release). Contact me if you want a 32bit patchbot to test a particular ticket.
     ubuntu_vivid_64   --> tmonteil
     zorn              --> agd
 }}}
