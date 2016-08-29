@@ -83,7 +83,8 @@ Reminder: remember to add keyword 'sd75' on all Sage tickets you may be working 
 
  * List decoding should return empty list instead of None when no codeword is found: needs review http://trac.sagemath.org/ticket/21347
 
- * Refactoring class hierarchy for univariate polynomials : Johan, Bruno => Thoughts and skeleton of code at https://gist.github.com/bgrenet/7d0c318f72eab845c58037e9b0d2702c
+ * Refactoring class hierarchy for univariate polynomials : Johan, Bruno 
+   * See https://gist.github.com/bgrenet/7d0c318f72eab845c58037e9b0d2702c
 
 
 == Linear Algebra ==
