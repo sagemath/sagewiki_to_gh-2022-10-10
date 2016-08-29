@@ -57,7 +57,7 @@ Reminder: remember to add keyword 'sd75' on all Sage tickets you may be working 
 
     * experimental warning needs to be thrown properly -> done.
     * A lot of changes and improvements were made to the documentation of the ticket.
-    * In needs_review now   
+    * In needs_review now
 
  * skew polys over finite fields (#21088)
    * This ticket is no longer relevant: it mainly implements inplace methods but they are not faster that standard ones
@@ -66,7 +66,7 @@ Reminder: remember to add keyword 'sd75' on all Sage tickets you may be working 
  * Interpolation and minimal vanishing poly for skew polys #21131
    Working on rewriting history. Otherwise pretty close to setting needs_review.
  * Abstract base class for Rank Metric Codes #21226
-   * Add documentation and remaining methods. 
+   * Add documentation and remaining methods.
  * Gabidulin Code + decoder: #20970
 
 == Algebra ==
@@ -75,7 +75,7 @@ Reminder: remember to add keyword 'sd75' on all Sage tickets you may be working 
    * See https://gist.github.com/defeo/cabab27ea93aeb9e0deb0ba8c5bc745b
 
  * Port implementation of asymptotically fast (GF(q)[x])[y] root-finding from [[https://bitbucket.org/jsrn/codinglib|Codinglib]]. Bruno, Johan => needs review: http://trac.sagemath.org/ticket/21333
- 
+
  * Improve integration of the (GF(q)[x])[y] root-finding so that it is tab-expansion-available for any such polynomial (a reasonably fast implementation of such root-finding was introduced in [[http://trac.sagemath.org/ticket/19666|#19666]]) Johan, Bruno, Turku:
 
         * https://trac.sagemath.org/ticket/21331 closed.
@@ -83,8 +83,8 @@ Reminder: remember to add keyword 'sd75' on all Sage tickets you may be working 
 
  * List decoding should return empty list instead of None when no codeword is found: needs review http://trac.sagemath.org/ticket/21347
 
- * Refactoring class hierarchy for univariate polynomials : Johan, Bruno
-   Look at overall picture Wednesday evening. Get master-advice from Nicolas Thursday. => Got super advice! (And even skeleton of code => in good way ;-))
+ * Refactoring class hierarchy for univariate polynomials : Johan, Bruno => Thoughts and skeleton of code at https://gist.github.com/bgrenet/7d0c318f72eab845c58037e9b0d2702c
+
 
 == Linear Algebra ==
 
@@ -125,12 +125,12 @@ Reminder: remember to add keyword 'sd75' on all Sage tickets you may be working 
 
  * https://trac.sagemath.org/ticket/19971 SCSCP (Luca,Miguel????)
     * mostly working client
-  
+
  * https://trac.sagemath.org/ticket/18010 Multiple Zeta (Akhilesh)
- 
+
  * https://trac.sagemath.org/ticket/18019 MPFI slowness (Akhilesh)
- 
- * Cleaning old tickets: 
+
+ * Cleaning old tickets:
     * https://trac.sagemath.org/ticket/10261 -> needs review (Sebastien)
     * https://trac.sagemath.org/ticket/10948 -> needs review (Sebastien)
 
@@ -153,17 +153,17 @@ Reminder: remember to add keyword 'sd75' on all Sage tickets you may be working 
  * Clément: Master level: a classical CT course, with not much computer programming. Another one, more oriented to CIRC codes with a practical implementation project. (http://lig-membres.imag.fr/pernet/M2SCCI_Coding.html)
  * Visualization of Coding Theory (maybe using Graphs???)
 Images would have to be bit map images/png (see: bit-array module in Python). But an idea is to have product codes that decode it. The main idea is to create a project that is open and the students have a free choice to decide what the final visualization looks like.
- * Evaluations of students/their submissions using Sage. 
+ * Evaluations of students/their submissions using Sage.
  * Getting students to contribute to Sage as part of a course - write a Wikipedia page on a particular topic and the prof evaluates based on that (makes changes if there are mistakes). Or maybe add code or documentation to Sage.
- * SageMathCloud- advantage over other CMS is that it has Sage built right in and students can be up and running immediately. 
- * Another takeaway is to augment theoretical explanations of codes using Sage, for exampleone can create worksheets that can be shared so that  students can see visually (perfect codes - see Nicolas' course notes) how a code looks or follow step wise the properties of codes and a virtual pipeline of message->encoding->adding errors (channel)-> decoding. 
+ * SageMathCloud- advantage over other CMS is that it has Sage built right in and students can be up and running immediately.
+ * Another takeaway is to augment theoretical explanations of codes using Sage, for exampleone can create worksheets that can be shared so that  students can see visually (perfect codes - see Nicolas' course notes) how a code looks or follow step wise the properties of codes and a virtual pipeline of message->encoding->adding errors (channel)-> decoding.
  * Using advanced CT features to support learning. Live demos (pick code, channel, encode, etc), functions for data, applications. Have students take a text file/image/video/sound and encode it and then add noise and then decode and analyze/compare it. Very fun for students to understand.
  * Demonstrate code efficiency, etc.
  * Interactive documentation base (Miguel) https://riemann.unizar.es/sage-wiki
  *  Nicolas: Improving my class notes
     * Btw: feel free to reuse any chunk of those notes if useful (e.g. for a tutorial)
     * Potentially useful features for those course notes: parity code, code from a set of words, drawing codes, text <-> vectors conversions
- * Razvan Barbulescu wishes to use Sage (especially Cyclic codes in Sage) in his course at the preparatory school for the french ''agrégation de mathématiques'' 
+ * Razvan Barbulescu wishes to use Sage (especially Cyclic codes in Sage) in his course at the preparatory school for the french ''agrégation de mathématiques''
  * Sébastien Labbé gave a Course "Introduction aux logiciels mathématiques" this year at Université of Liège. It is based on Python modules (sympy, pandas, etc.) rather than SageMath because of problems installing sagemath in the windows computer room of the department. See http://www.slabbe.org/Enseignements/MATH2010/
 
 == Talks conducted ==
@@ -173,6 +173,6 @@ Images would have to be bit map images/png (see: bit-array module in Python). Bu
  * Tutorial: implementing new codes (David): Tania, Édouard....
  * Learning more about codes over rings (Ricardo): David, Tania, Joe, Daniel, ...
    * we discussed on what Ricardo would like to have in Sage
-   * I (David) took some notes. 
+   * I (David) took some notes.
  * Johan, Wednesday 11:00: "Decoding algebraic codes for the lazy mathematician". Done.
  * Interactive documentation base (Miguel) https://riemann.unizar.es/sage-wiki
