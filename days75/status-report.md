@@ -163,6 +163,7 @@ Images would have to be bit map images/png (see: bit-array module in Python). Bu
  *  Nicolas: Improving my class notes
     * Btw: feel free to reuse any chunk of those notes if useful (e.g. for a tutorial)
     * Potentially useful features for those course notes: parity code, code from a set of words, drawing codes, text <-> vectors conversions
+ * Razvan Barbulescu wishes to use Sage (especially Cyclic codes in Sage) in his course at the preparatory school for the french ''agrégation de mathématiques'' 
 
 == Talks conducted ==
 
