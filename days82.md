@@ -17,7 +17,7 @@ part of the [[http://opendreamkit.org/|OpenDreamKit]] project and has been using
 
 [[http://people.maths.ox.ac.uk/balakrishnan/|Jennifer Balakrishnan]]...
 
-[[https://www.ndsu.edu/pubweb/~striker/|Jessica Striker]]'s research is in combinatorics, with connections to algebra, geometry, and physics. She is an assistant professor at North Dakota State University and has been contributing to Sage since 2013.
+[[https://www.ndsu.edu/pubweb/~striker/|Jessica Striker]]'s research is in combinatorics, with connections to algebra, geometry, and physics. She is an assistant professor at [[https://www.ndsu.edu/math/|North Dakota State University]] and has been contributing to Sage since 2013.
 
 == Venue ==
 
