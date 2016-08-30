@@ -148,6 +148,7 @@ Please add you name to the list if you want to attend this Sage Days.
  * ThierryMonteil (CNRS, U. Paris North, Tuesday-Friday)
  * Sébastien Labbé (U. Liège, Thursday-Friday)
  * Édouard Rousseau (U. Paris-Sud)
+ * Türkü Özlüm Çelik (U. de Rennes 1)
 
 
 = Other files =
