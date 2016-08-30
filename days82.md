@@ -1,11 +1,11 @@
-= Sage Days 82 : Women in sage (2017) =
+= Sage Days 82 : Women in Sage (2017) =
 
 '''''January 9 - 13, 2017'''''
 '''''Paris area, France'''''
 
 <<TableOfContents()>>
 
-These Sage days are a special event for women who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introduction presentations, training,  and team work on
+These Sage days are a special event for women who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introduction presentations, training,  and teamwork on
 specific projects.
 
 This event is fully funded by the [[http://opendreamkit.org/|OpenDreamKit]] project.
@@ -17,7 +17,7 @@ part of the [[http://opendreamkit.org/|OpenDreamKit]] project and has been using
 
 [[http://people.maths.ox.ac.uk/balakrishnan/|Jennifer Balakrishnan]]...
 
-[[https://www.ndsu.edu/pubweb/~striker/|Jessica Striker]]...
+[[https://www.ndsu.edu/pubweb/~striker/|Jessica Striker]]'s research is in combinatorics, with connections to algebra, geometry, and physics. She is an assistant professor at North Dakota State University and has been contributing to Sage since 2013.
 
 == Venue ==
 
