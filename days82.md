@@ -12,7 +12,7 @@ This event is fully funded by the [[http://opendreamkit.org/|OpenDreamKit]] proj
 
 == Organizers ==
 
-[[https://www.lri.fr/~pons/|Viviane Pons]] is a researcher in combinatorics and a ''Maître de conférences'' (associate professor) in Paris-Sud University (Orsay). She is
+[[https://www.lri.fr/~pons/|Viviane Pons]] is a researcher in combinatorics and a ''Maître de conférences'' (associate professor) in [[http://www.u-psud.fr/|Paris-Sud University]] (Orsay). She is
 part of the [[http://opendreamkit.org/|OpenDreamKit]] project and has been using and contributing to Sage since 2010. 
 
 [[http://people.maths.ox.ac.uk/balakrishnan/|Jennifer Balakrishnan]]...
@@ -29,7 +29,9 @@ The workshop will take place in a rented house in Paris area. More information t
 
 Due to the conditions of the workshop, the size of the event is limited. We ask every potential participant to send an application. '''Applications are due October 31''', a response will be sent in early November or even earlier if the number of applications is limited.
 
-Please send your application to ''to be announced'' including
+Once an application is accepted, then '''all local costs''' (food and lodging) will be taken care of by the conference. Transportation stays at the charge of the participant. 
+
+'''''Please send your application to [[mailto:days82@services.cnrs.fr|days82@services.cnrs.fr]] including'''''
 
 '''Name, institution, professional situation''' (student, postdoc, professor, etc.)
 
@@ -37,7 +39,8 @@ Please send your application to ''to be announced'' including
 experience is not necessary''' to participate to the event!
 
 '''Mathematical / Sage project:''' If you have a specific project in mind to work on during the week, please describe it. Otherwise, tell us what part
-of Sage you are interested in and what kind of mathematics you do.
+of Sage you are interested in and what kind of mathematics you do. ''Remark: a same project can be shared by many participants, if you share your project
+with another applicant, please say so''.
 
 '''Motivation:''' please explain what motivates you to participate to this event.
 
