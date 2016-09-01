@@ -3,6 +3,8 @@
 '''''January 9 - 13, 2017'''''
 '''''Paris area, France'''''
 
+Official French title and pun: Les Sage-Math Femmes 
+
 <<TableOfContents()>>
 
 These Sage days are a special event for women who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introduction presentations, training,  and teamwork on
