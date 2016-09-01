@@ -3,7 +3,7 @@
 '''''January 9 - 13, 2017'''''
 '''''Paris area, France'''''
 
-Official French title and pun: Les Sage-Math Femmes 
+Official French title and pun: Les !SageMath Femmes 
 
 <<TableOfContents()>>
 
