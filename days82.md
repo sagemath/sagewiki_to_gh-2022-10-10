@@ -7,7 +7,7 @@ Official French title and pun: Les !SageMath Femmes
 
 <<TableOfContents()>>
 
-These Sage days are a special event for women who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introduction presentations, training,  and teamwork on
+These Sage days are a special event for women who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introduction presentations, self training,  and teamwork on
 specific projects.
 
 This event is fully funded by the [[http://opendreamkit.org/|OpenDreamKit]] project.
