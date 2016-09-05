@@ -17,7 +17,7 @@ This event is fully funded by the [[http://opendreamkit.org/|OpenDreamKit]] proj
 [[https://www.lri.fr/~pons/|Viviane Pons]] is a researcher in combinatorics and a ''Maître de conférences'' (associate professor) in [[http://www.u-psud.fr/|Paris-Sud University]] (Orsay). She is
 part of the [[http://opendreamkit.org/|OpenDreamKit]] project and has been using and contributing to Sage since 2010. 
 
-[[http://people.maths.ox.ac.uk/balakrishnan/|Jennifer Balakrishnan]]...
+[[http://math.bu.edu/people/jbala/|Jennifer Balakrishnan]] works in number theory and arithmetic geometry. She is the Clare Boothe Luce Assistant Professor at [[http://math.bu.edu/|Boston University]]. She has been using and contributing to Sage since 2006.
 
 [[https://www.ndsu.edu/pubweb/~striker/|Jessica Striker]]'s research is in combinatorics, with connections to algebra, geometry, and physics. She is an assistant professor at [[https://www.ndsu.edu/math/|North Dakota State University]] and has been contributing to Sage since 2013.
 
