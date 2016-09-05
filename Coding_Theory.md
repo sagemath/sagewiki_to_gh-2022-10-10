@@ -83,6 +83,17 @@ codes, Folded RS codes and Multiplicity codes.
 
 See [[Coding_Theory/Guava]]. The most valuable part seems to be Leon's code for computing the automorphism group of a code
 
+=== Representing automorphisms of codes ===
+
+Sage is reasonably good at computing automorphisms of codes with the methods `automorphisms_group_gens`, ` permutation_automorphism_group`, and the related method `canonical_representative`. These use an efficient C implementation written by Thomas Feuler, based on his PhD thesis.
+
+However, the representations of such automorphisms is very lacking. For instance, the "groups" returned by the above methods are simply a list of generators, with no group methods attached to them. And one cannot take an element of this group and apply it to e.g. a codeword or a whole code.
+
+Using a nice, Sage-wide algebraic representation would also make it much easier to implement the automorphism groups of special families for which it is known, e.g. Reed-Solomon codes.
+
+In `sage.schemes` there has been some recent development in automorphism groups
+of curves. Perhaps this can serve as a base?
+
 
 == General algebra in Sage that is important for coding theory ==
 
