@@ -4,6 +4,7 @@ Sagemath patchbots names and owners:
     ark               --> rws
     andromeda         --> jkroeker
     Athena            --> kdilks
+    bunion	      --> etn40ff (this is a laptop so it will be running sporadically)
     debian_jessie_32  --> tmonteil
     cristal           --> Bouillaguet
     eddy              --> Vincent.Neri (lri, Orsay, Paris sud)
