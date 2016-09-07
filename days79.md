@@ -47,7 +47,7 @@ The program will include '''introduction tutorials''' to Sage and combinatorics 
 
 == Speakers ==
 
-To be announced
+ * '''Travis Scrimshaw''' on ''TBA''
 
 == Participants ==
 
