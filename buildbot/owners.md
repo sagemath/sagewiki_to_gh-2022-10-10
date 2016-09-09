@@ -24,7 +24,6 @@ Sagemath patchbots names and owners:
     pcl337b           --> ?
     pi                --> ?
     poseidon          --> kdilks
-    rk01-math         --> dkrenn
     rp01              --> ?
     sage4             --> jdemeyer
     silence           --> ncohen
