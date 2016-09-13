@@ -20,6 +20,28 @@ Fridays are usually considered weekend days in Israel.
 
 Venue: Hebrew University of Jerusalem, Givat Ram Campus, (exact rooms TBA)
 
+== Program ==
+
+The program will include '''introduction tutorials''' to Sage, combinatorics and symbolic dynamics in Sage. The meeting will include '''scientific talks''' and there will also be time for '''code sprints'''.
+
+''Detailed schedule to be announced''. 
+
+== Speakers ==
+
+ * '''Travis Scrimshaw''' on ''TBA''
+ * '''Vincent Delecroix''' on ''TBA''
+ * '''Jean-Philippe Labbé''' on ''Introduction to Sage''
+
+== Participants ==
+
+ * Jean-Philippe Labbé (Hebrew University, Jerusalem)
+ * Klaus Dohmen (Hochschule Mittweida, University of Applied Sciences, Germany)
+ * Malka Schaps (Bar-Ilan University, Bar-Ilan, Israel)
+ * Tomer Bauer (Bar-Ilan University, Bar-Ilan, Israel)
+ * Mee Seong Im (United States Military Academy, NY)
+ * Travis Scrimshaw (University of Minnesota, USA)
+ * Vincent Delecroix (Université de Bordeaux, France)
+
 == Registration ==
 
 Please send the following form to [[mailto:labbe@math.huji.ac.il|Jean-Philippe Labbé]]
@@ -47,28 +69,6 @@ Do you wish to give a talk or present a tutorial?
 
 ''A talk can be on anything related to mathematical development (it does not have to be Sage)
 If you have some Sage experience, please consider giving a tutorial''
-
-== Program ==
-
-The program will include '''introduction tutorials''' to Sage, combinatorics and symbolic dynamics in Sage. The meeting will include '''scientific talks''' and there will also be time for '''code sprints'''.
-
-''Detailed schedule to be announced''. 
-
-== Speakers ==
-
- * '''Travis Scrimshaw''' on ''TBA''
- * '''Vincent Delecroix''' on ''TBA''
- * '''Jean-Philippe Labbé''' on ''Introduction to Sage''
-
-== Participants ==
-
- * Jean-Philippe Labbé (Hebrew University, Jerusalem)
- * Klaus Dohmen (Hochschule Mittweida, University of Applied Sciences, Germany)
- * Malka Schaps (Bar-Ilan University, Bar-Ilan, Israel)
- * Tomer Bauer (Bar-Ilan University, Bar-Ilan, Israel)
- * Mee Seong Im (United States Military Academy, NY)
- * Travis Scrimshaw (University of Minnesota, USA)
- * Vincent Delecroix (Université de Bordeaux, France)
 
 == Lodging, funding, and other practical informations ==
 
