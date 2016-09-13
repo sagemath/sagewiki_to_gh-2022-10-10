@@ -34,8 +34,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/21285|#21285]]) positive-review: error in change_ring for affine morphisms - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/21248|#21248]]) needs-review: implementation of Reduced Binary Form by Stoll and Cremona- Rebecca Lauren Miller
 
  * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger
@@ -43,8 +41,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * ([[http://trac.sagemath.org/ticket/21118|#21118]]) needs-work: list of degrees of iterates of function - Joseph Silverman
 
  * ([[http://trac.sagemath.org/ticket/21117|#21117]]) needs-review: specialization for subschemes and scheme_morphisms - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/21100|#21100]]) positive-review (duplicate/won't fix): division error in normalize_coordinates - Ben Hutz
 
  * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
 
@@ -85,6 +81,10 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/21285|#21285]])-- closed sage 7.4: error in change_ring for affine morphisms - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/21100|#21100]])-- closed - duplicate/won't fix: division error in normalize_coordinates - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/21113|#21113]])-- closed sage 7.4: unflattening morphism error - Ben Hutz
 
