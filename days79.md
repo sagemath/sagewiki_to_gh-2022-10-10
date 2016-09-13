@@ -1,26 +1,31 @@
 = Sage Days 79 - November 21 -- November 24, 2016, Jerusalem =
 
-'''''Sage Days on Combinatorics'''''
+'''''First Sage Days in Israel'''''
 
-'''''Jerusalem, Israel'''''
+'''''Einstein Institute of Mathematics, Hebrew University of Jerusalem, Israel'''''
+
+'''Topics: Combinatorics, Symbolic dynamics'''
 
 <<TableOfContents()>>
 
-This Sage Days is the first one organized in Israel. The aim of the meeting will be to introduce the software to students and mathematicians in the region, with further emphasis on (but not limited to) '''combinatorics''' and '''discrete geometry'''. It will be a great occasion to learn more about the software and for advanced developers to present and improve current tools.
+This Sage Days is the first one organized in Israel. The aim of the meeting will be to introduce the software to students and mathematicians in the region, with further emphasis on (but not limited to) '''combinatorics''' and '''symbolic dynamics'''. It will be a great occasion to learn more about the software and for advanced developers to present and improve current tools.
 
 Organizers: [[mailto:labbe@math.huji.ac.il|Jean-Philippe Labbé]]. 
 
 == Dates and Venue ==
 
-Date: 4 days '''From November 21 to November 24, 2016'''
+Date: 4 days '''from November 21 to November 24, 2016'''
 
-The Friday will be reserved for discussion and coding sprints.
+Fridays are usually considered weekend days in Israel.
 
-Venue: Jerusalem (more details to come)
+Venue: Hebrew University of Jerusalem, Givat Ram Campus, (exact rooms TBA)
 
 == Registration ==
 
 Please send the following form to [[mailto:labbe@math.huji.ac.il|Jean-Philippe Labbé]]
+
+The ''deadline for funding request'' for lodging and transportation fees is '''September 30th'''.
+The remaining reserved rooms (see below) will be available for participants not receiving funding.
 
 Name:
 
@@ -30,9 +35,13 @@ Date of Arrival:
 
 Date of departure:
 
-What are your interests in Sage (including coding projects)? What would you like to learn about Sage?:
+What are your interests in Sage (including coding projects)? What would you like to learn about Sage?
 
-Do you need financial support for transportation and/or lodging?
+What are your programming experiences?
+
+Do you use computer algebra systems? Which one?
+
+Please specify: you need financial support for transportation and/or lodging?
 
 Do you wish to give a talk or present a tutorial? 
 
@@ -41,13 +50,15 @@ If you have some Sage experience, please consider giving a tutorial''
 
 == Program ==
 
-The program will include '''introduction tutorials''' to Sage and combinatorics in Sage. The meeting will include '''scientific talks''' and there will also be time for '''code sprints'''.
+The program will include '''introduction tutorials''' to Sage, combinatorics and symbolic dynamics in Sage. The meeting will include '''scientific talks''' and there will also be time for '''code sprints'''.
 
 ''Detailed schedule to be announced''. 
 
 == Speakers ==
 
  * '''Travis Scrimshaw''' on ''TBA''
+ * '''Vincent Delecroix''' on ''TBA''
+ * '''Jean-Philippe Labbé''' on ''Introduction to Sage''
 
 == Participants ==
 
@@ -61,4 +72,10 @@ The program will include '''introduction tutorials''' to Sage and combinatorics 
 
 == Lodging, funding, and other practical informations ==
 
-There will be some limited funding available: more information to come.
+We have 10 rooms reserved at the ''Beit Belgia'' (Belgium House) on Givat Ram campus from November 20th to November 25th. Seven of them have two single beds and the other three are ''suits'' with a double bed and a couch. People receiving funding for housing will have a room there waiting for them. Depending on the availability, the remaining rooms will be available for participants not receiving lodging funding. More information to come.
+
+There are also hotels near to campus:
+
+[[https://www.prima-hotels-israel.com/jerusalem-hotels/prima-park-jerusalem-hotel|Prima Park Hotel]]
+
+[[http://jerusalemgardenshotel.com/|Jerusalem Gardens Hotel]]
