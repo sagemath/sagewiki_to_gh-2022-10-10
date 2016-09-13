@@ -30,7 +30,6 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
 
  * '''Travis Scrimshaw''' on ''TBA''
  * '''Vincent Delecroix''' on ''TBA''
- * '''Jean-Philippe Labbé''' on ''Introduction to Sage''
 
 == Participants ==
 
