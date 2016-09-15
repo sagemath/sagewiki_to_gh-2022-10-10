@@ -8,7 +8,7 @@
 
 <<TableOfContents()>>
 
-This Sage Days is the first one organized in Israel. The aim of the meeting will be to introduce the software to students and mathematicians in the region, with further emphasis on (but not limited to) '''combinatorics''' and '''symbolic dynamics'''. It will be a great occasion to learn more about the software and for advanced developers to present and improve current tools.
+This Sage Days is the first one organized in Israel under the framework of the European Research Council (ERC) grant entitled: '''“Avenues in Probabilistic and Geometric Combinatorics”'''. The aim of the meeting will be to introduce the software to students and mathematicians in the region, with further emphasis on (but not limited to) '''geometric combinatorics''' and '''symbolic dynamics'''. It will be a great occasion to learn more about the software and for advanced developers to present and improve current tools.
 
 Organizers: [[mailto:labbe@math.huji.ac.il|Jean-Philippe Labbé]]. 
 
@@ -45,29 +45,33 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
 
 Please send the following form to [[mailto:labbe@math.huji.ac.il|Jean-Philippe Labbé]]
 
-The ''deadline for funding request'' for lodging and transportation fees is '''September 30th'''.
-The remaining reserved rooms (see below) will be available for participants not receiving funding.
-
-Name:
-
-Institution:
-
-Date of Arrival:
-
-Date of departure:
-
-What are your interests in Sage (including coding projects)? What would you like to learn about Sage?
-
-What are your programming experiences?
-
-Do you use computer algebra systems? Which one?
-
-Please specify: you need financial support for transportation and/or lodging?
-
-Do you wish to give a talk or present a tutorial? 
+ * Name:
+ * Institution:
+ * Date of Arrival:
+ * Date of departure:
+ * What are your interests in Sage (including coding projects)? What would you like to learn about Sage?
+ * What are your programming experiences?
+ * Do you use computer algebra systems? Which one?
+ * Please specify: you need financial support for transportation and/or lodging?
+ * Do you wish to give a talk or present a tutorial? 
 
 ''A talk can be on anything related to mathematical development (it does not have to be Sage)
-If you have some Sage experience, please consider giving a tutorial''
+If you have some Sage experience, please consider giving a tutorial''.
+
+== Funding ==
+
+The ''deadline for funding request'' for lodging and transportation fees is '''September 30th'''.
+To apply for funding, please send an email to
+
+[[mailto:labbe@math.huji.ac.il|Jean-Philippe Labbé]]
+
+with the following information:
+ * Current status (postdoc, Phd Student):
+ * Estimated costs of travel
+ * Duration of stay
+ * Describe your interests in the workshop
+
+before '''September 30th'''.
 
 == Lodging, funding, and other practical informations ==
 
