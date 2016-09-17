@@ -34,9 +34,13 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
 == Participants ==
 
  * Jean-Philippe Labbé (Hebrew University, Jerusalem)
+ * Ariel Davis (Hebrew University, Jerusalem)
  * Klaus Dohmen (Hochschule Mittweida, University of Applied Sciences, Germany)
- * Malka Schaps (Bar-Ilan University, Bar-Ilan, Israel)
- * Tomer Bauer (Bar-Ilan University, Bar-Ilan, Israel)
+ * Moritz Firsching (Freie Universität, Berlin, Germany)
+ * Malka Schaps (Bar-Ilan University, Ramat Gan, Israel)
+ * Tomer Bauer (Bar-Ilan University, Ramat Gan, Israel)
+ * Tahl Nowik (Bar-Ilan University, Ramat Gan, Israel)
+ * Stuart W. Margolis (Bar-Ilan University, Ramat Gan, Israel)
  * Mee Seong Im (United States Military Academy, NY)
  * Travis Scrimshaw (University of Minnesota, USA)
  * Vincent Delecroix (Université de Bordeaux, France)
