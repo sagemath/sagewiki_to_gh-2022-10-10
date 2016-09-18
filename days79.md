@@ -43,6 +43,7 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
  * Tahl Nowik (Bar-Ilan University, Ramat Gan, Israel)
  * Ola Omari (Bar-Ilan University, Ramat Gan, Israel)
  * Stuart W. Margolis (Bar-Ilan University, Ramat Gan, Israel)
+ * Moshe Newman (Beer-Sheva, Israel)
  * Mee Seong Im (United States Military Academy, NY)
  * Travis Scrimshaw (University of Minnesota, USA)
  * Vincent Delecroix (Université de Bordeaux, France)
