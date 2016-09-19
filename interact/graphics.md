@@ -8,8 +8,8 @@ goto [[interact|interact main page]]
 by Marshall Hampton.  
 {{{#!sagecell
 npi = RDF(pi)
-from math import cos,sin
 def rot(t):
+    from math import cos, sin
     return matrix([[cos(t),sin(t)],[-sin(t),cos(t)]])
 
 def pursuit(n,x0,y0,lamb,steps = 100, threshold = .01):
