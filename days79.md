@@ -44,9 +44,13 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
  * Ola Omari (Bar-Ilan University, Ramat Gan, Israel)
  * Stuart W. Margolis (Bar-Ilan University, Ramat Gan, Israel)
  * Moshe Newman (Beer-Sheva, Israel)
+ * Adina Heilbron Cohen (Tel Aviv University, Israel)
+ * Peleg Michaeli (Tel Aviv University, Israel)
+ * Nishant Chandgotia (Tel Aviv University, Israel)
  * Mee Seong Im (United States Military Academy, NY)
  * Travis Scrimshaw (University of Minnesota, USA)
  * Vincent Delecroix (Université de Bordeaux, France)
+ * Florent Ygouf (Institut Fourier, Université Grenoble, France)
 
 == Registration ==
 
