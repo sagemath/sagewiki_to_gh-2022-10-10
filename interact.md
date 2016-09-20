@@ -7,7 +7,6 @@ This is a collection of pages demonstrating the use of [[http://sagemath.org/doc
  * [[interact/algebra|Algebra]]
  * [[interact/bio|Bioinformatics]]
  * [[interact/calculus|Calculus]]
- * [[interact/chemistry|Chemistry]]
  * [[interact/diffeq|Differential Equations]]
  * [[interact/graphics|Drawing Graphics]]
  * [[interact/dynsys|Dynamical Systems]]
