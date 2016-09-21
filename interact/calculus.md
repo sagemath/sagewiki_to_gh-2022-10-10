@@ -1464,7 +1464,7 @@ def _(f=input_box(default=6-4*x^2-y^2*2/5,label='Top = $f(x,y) = $',width=30),
 {{attachment:Lateral_Surface.png}}
 
 
-== Parametric surface example ==
+== Parametric surface example (FIXME in Jupyter) ==
 by Marshall Hampton
 {{{#!sagecell
 var('u,v')
