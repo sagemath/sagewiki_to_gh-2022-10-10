@@ -636,7 +636,7 @@ def cuboid(v1,v2,**kwds):
 var('x,y')
 R16 = RealField(16)
 npi = RDF(pi)
-sin,cos = math.sin,math.cos 
+
 html("<h1>The midpoint rule for a function of two variables</h1>")
 @interact
 def midpoint2d(func = input_box('y*sin(x)/x+sin(y)',type=str,label='function of x and y'), nx = slider(2,20,1,3,label='x subdivisions'), ny = slider(2,20,1,3,label='y subdivisions'), x_start = slider(-10,10,.1,0), x_end = slider(-10,10,.1,3*npi), y_start= slider(-10,10,.1,0), y_end= slider(-10,10,.1,3*npi)):
