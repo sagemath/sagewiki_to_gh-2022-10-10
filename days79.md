@@ -36,8 +36,7 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
  * Jean-Philippe Labbé (Hebrew University, Jerusalem)
  * Ariel Davis (Hebrew University, Jerusalem)
  * Daniel Kalmanovich (Hebrew University, Jerusalem)
- * Klaus Dohmen (Hochschule Mittweida, University of Applied Sciences, Germany)
- * Moritz Firsching (Freie Universität, Berlin, Germany)
+ * Panagiotis E Georgoudis (Hebrew University, Jerusalem)
  * Malka Schaps (Bar-Ilan University, Ramat Gan, Israel)
  * Tomer Bauer (Bar-Ilan University, Ramat Gan, Israel)
  * Tahl Nowik (Bar-Ilan University, Ramat Gan, Israel)
@@ -47,10 +46,16 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
  * Adina Heilbron Cohen (Tel Aviv University, Israel)
  * Peleg Michaeli (Tel Aviv University, Israel)
  * Nishant Chandgotia (Tel Aviv University, Israel)
+ * Clara Shikhelman (Tel Aviv University, Israel)
  * Mee Seong Im (United States Military Academy, NY)
  * Travis Scrimshaw (University of Minnesota, USA)
  * Vincent Delecroix (Université de Bordeaux, France)
+ * Nicolas Thiery (Université Paris-Sud, France)
  * Florent Ygouf (Institut Fourier, Université Grenoble, France)
+ * Klaus Dohmen (Hochschule Mittweida, University of Applied Sciences, Germany)
+ * Moritz Firsching (Freie Universität, Berlin, Germany)
+ * Yumeng Li (Berlin Mathematical School, Germany)
+
 
 == Registration ==
 
