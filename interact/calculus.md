@@ -769,12 +769,12 @@ path = parametric_plot( position(t).list(), (t, start, stop), color = "black" )
 #
 # derivatives of motion, lengths, unit vectors, etc
 #
-velocity = derivative( position(t) )
-acceleration = derivative(velocity(t))
+velocity = derivative(position(t), t)
+acceleration = derivative(velocity(t), t)
 speed = velocity.norm()
-speed_deriv = derivative(speed)
+speed_deriv = derivative(speed, t)
 tangent = (1/speed)*velocity
-dT = derivative(tangent(t))
+dT = derivative(tangent(t), t)
 normal = (1/dT.norm())*dT
 #
 # interact section
