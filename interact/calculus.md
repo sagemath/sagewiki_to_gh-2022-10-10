@@ -845,7 +845,7 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
 }}}
 {{attachment:motion2d.png}}
 
-== Vector Calculus, 3-D Motion ==
+== Vector Calculus, 3-D Motion (FIXME) ==
 by Rob Beezer
 
 Available as a [[http://buzzard.ups.edu/sage/motion-d.sws|worksheet]]
