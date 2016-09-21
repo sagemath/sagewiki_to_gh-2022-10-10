@@ -517,7 +517,7 @@ def trans(x=input_box(x, label="x",type=SR),
     html("$T(u,v)=%s$"%(latex(T(u,v))))
     html("Jacobian: $%s$"%latex(jacobian(u,v)))
     html("A very small region in $xy$ plane is approximately %0.4g times the size of the corresponding region in the $uv$ plane"%jacobian(u_val,v_val).n())
-    html.table([[uvplot,xyplot]])
+    pretty_print(table([[uvplot,xyplot]]))
 }}}
 
 
@@ -1091,7 +1091,7 @@ def _(f=input_box(default=(x*y^2)/(x^2+y^4),width=30,label='$f(x)$'),
 #    surface += parametric_plot([u^2,u],[u,-1,1],color='black')    
     limit_point = point((x0,y0),color='red',size=30)
 #    show(limit_point+surface)
-    html.table([[surface],['hi']])
+    pretty_print(table([[surface],['hi']]))
 }}}
 {{attachment:3D_Limit_Defn_Contours.png}}
 
