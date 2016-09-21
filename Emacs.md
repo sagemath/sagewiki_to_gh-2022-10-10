@@ -1,21 +1,20 @@
 = Sage and Emacs =
 
 The purpose of this page is to collect tips and tricks for Sage users
-and developpers using the text editor Emacs.
+and developers using the text editor Emacs.
 
-== Sage-mode ==
+== sage-shell-mode ==
 
-This emacs mode allows for running a Sage interpreter inside emacs,
-and interacting with it sending in chunks of code or doctests,
-directly opening the appropriate source files from the help, the
-debugger or the tracebacks. It also provides goodies for running
-tests, typesetting output, etc.
+[[https://github.com/stakemori/sage-shell-mode|sage-shell-mode]] is the recommended mode for Sage in Emacs. This mode provides two features:
 
-See: SageModeComparison, [[sage-mode]], [[http://bitbucket.org/gvol/sage-mode]]
+1. Run a Sage shell inside Emacs, fully equipped with command history,
+completion, dynamic help and opening of source files, etc.
 
-== Sage-shell-mode ==
+2. A major mode for `.sage` files along with functionality for sending chunks of code to a running Sage shell.
 
-This is another newer mode for Sage inside emacs.  It's known as sage-shell-mode and includes extensions for auto-complete, helm, and anything.  It was written from scratch by Sho Takemori and is available from MELPA.
+`sage-shell-mode` allows extensions for `auto-complete`, `helm`, `anything`, and embedding in `org-mode`.  It was written from scratch by Sho Takemori.
+
+`sage-shell-mode` is most easily installed using the Emacs package manager MELPA. Alternatively, go to [[https://github.com/stakemori/sage-shell-mode|the GitHub page]].
 
 See: SageModeComparison, [[https://github.com/stakemori/sage-shell-mode]]
 
@@ -28,6 +27,18 @@ ipython shipped with Sage. Yet this sounds promising. See:
 
 - https://github.com/tkf/emacs-ipython-notebook/issues/131
 - http://trac.sagemath.org/ticket/16053
+
+== Sage-mode ==
+
+Note: `sage-mode` works only for Sage 7.3 and earlier.
+
+This emacs mode allows for running a Sage interpreter inside emacs,
+and interacting with it sending in chunks of code or doctests,
+directly opening the appropriate source files from the help, the
+debugger or the tracebacks. It also provides goodies for running
+tests, typesetting output, etc.
+
+See: SageModeComparison, [[sage-mode]], [[http://bitbucket.org/gvol/sage-mode]]
 
 == Miscellaneous ==
 
