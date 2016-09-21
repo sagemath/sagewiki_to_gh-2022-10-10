@@ -455,7 +455,7 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
 }}}
 {{attachment:newtraph.png}}
 
-== Coordinate Transformations ==
+== Coordinate Transformations (FIXME in Jupyter) ==
 by Jason Grout
 
 
@@ -1392,7 +1392,7 @@ def _(f=input_box(default=(1/3)*x^2 + (1/4)*y^2 + 5,label='$f(x)=$'),
 }}}
 {{attachment:3D_Irregular_Volume.png}}
 
-== Lateral Surface Area ==
+== Lateral Surface Area (FIXME in Jupyter) ==
 
 by John Travis
 
