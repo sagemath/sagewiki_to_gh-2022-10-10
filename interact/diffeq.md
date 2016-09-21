@@ -33,8 +33,8 @@ def euler_method(y_exact_in = input_box('-cos(x)+1.0', type = str, label = 'Exac
     for step in range(nsteps):
         sol.append(sol[-1] + stepsize*y_prime(xvals[-1],sol[-1]))
         xvals.append(xvals[-1] + stepsize)
-    sol_max = max(sol + [find_maximum_on_interval(y_exact,start,stop)[0]])
-    sol_min = min(sol + [find_minimum_on_interval(y_exact,start,stop)[0]])
+    sol_max = max(sol + [find_local_maximum(y_exact,start,stop)[0]])
+    sol_min = min(sol + [find_local_minimum(y_exact,start,stop)[0]])
     show(plot(y_exact(x),start,stop,rgbcolor=(1,0,0))+line([[xvals[index],sol[index]] for index in range(len(sol))]),xmin=start,xmax = stop, ymax = sol_max, ymin = sol_min)
     if nsteps < steps_shown:
         table_range = range(len(sol))
