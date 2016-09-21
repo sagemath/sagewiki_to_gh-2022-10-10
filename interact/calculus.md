@@ -733,7 +733,7 @@ def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x),type=S
 {{attachment:quadrature1.png}}
 {{attachment:quadrature2.png}}
 
-== Vector Calculus, 2-D Motion FIXME ==
+== Vector Calculus, 2-D Motion ==
 By Rob Beezer
 
 A fast_float() version is available in a [[http://buzzard.ups.edu/sage/motion-2d.sws|worksheet]]
