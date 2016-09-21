@@ -57,7 +57,7 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
  * Yumeng Li (Berlin Mathematical School, Germany)
 
 
-== Registration ==
+== Registration & Funding ==
 
 Please send the following form to [[mailto:labbe@math.huji.ac.il|Jean-Philippe Labbé]]
 
@@ -68,20 +68,16 @@ Please send the following form to [[mailto:labbe@math.huji.ac.il|Jean-Philippe L
  * What are your interests in Sage (including coding projects)? What would you like to learn about Sage?
  * What are your programming experiences?
  * Do you use computer algebra systems? Which one?
- * Please specify: you need financial support for transportation and/or lodging?
  * Do you wish to give a talk or present a tutorial? 
 
 ''A talk can be on anything related to mathematical development (it does not have to be Sage)
 If you have some Sage experience, please consider giving a tutorial''.
 
-== Funding ==
+ * Please specify: you need financial support for transportation and/or lodging?
 
 The ''deadline for funding request'' for lodging and transportation fees is '''September 30th'''.
-To apply for funding, please send an email to
+To apply for funding, please give the following information:
 
-[[mailto:labbe@math.huji.ac.il|Jean-Philippe Labbé]]
-
-with the following information:
  * Current status (postdoc, Phd Student):
  * Estimated costs of travel
  * Duration of stay
