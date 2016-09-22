@@ -55,6 +55,7 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
  * Klaus Dohmen (Hochschule Mittweida, University of Applied Sciences, Germany)
  * Moritz Firsching (Freie Universität, Berlin, Germany)
  * Yumeng Li (Berlin Mathematical School, Germany)
+ * Vijay Sharma (Riyaaz, Netherlands)
 
 
 == Registration & Funding ==
