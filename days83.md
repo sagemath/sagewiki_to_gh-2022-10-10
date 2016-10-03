@@ -6,7 +6,8 @@
 
 '''Topics: Combinatorics, nodes theory'''
 
-Organizers: [[mailto:h_abchir@yahoo.com|Abchir Hamid]], [[mailto:boussica@labri.fr|Adrien Boussicault]]. 
+Organizers: [[mailto:h_abchir@yahoo.com|Abchir Hamid]], [[mailto:bousbaa.imadeddine@gmail.com|Imad Eddine Bousbaa]],
+[[mailto:boussica@labri.fr|Adrien Boussicault]]. 
 
 == Dates and Venue ==
 
@@ -18,7 +19,7 @@ TBA
 
 == Speakers ==
 
-TBA
+ * [[https://riemann.unizar.es/~mmarco/#personal|Miguel A. Marco-Buzunariz]]
 
 == Participants ==
 
