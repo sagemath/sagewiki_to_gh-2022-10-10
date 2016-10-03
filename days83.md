@@ -4,7 +4,7 @@
 
 '''University of Hassan II, Casablanca, Maroc'''
 
-'''Topics: Combinatorics, nodes theory'''
+'''Topics: Combinatorics, Knot theory'''
 
 Organizers: [[mailto:h_abchir@yahoo.com|Abchir Hamid]], [[mailto:bousbaa.imadeddine@gmail.com|Imad Eddine Bousbaa]],
 [[mailto:boussica@labri.fr|Adrien Boussicault]]. 
