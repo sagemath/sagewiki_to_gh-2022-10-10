@@ -69,6 +69,7 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
  * Evgeniya Lagoda (Berlin Mathematical School, Germany)
  * Vijay Sharma (Riyaaz, Netherlands)
  * Sebastián Donoso (Center for Mathematical Modeling, University of Chile)
+ * Sébastien Labbé (Université de Liège, Belgium)
 
 
 == Registration & Funding ==
