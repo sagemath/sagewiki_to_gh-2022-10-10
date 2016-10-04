@@ -30,4 +30,6 @@ Sagemath patchbots names and owners:
     tmonteil-*        --> tmonteil (various VM to test different arch/OS/release). Contact me if you want a 32bit patchbot to test a particular ticket.
     ubuntu_vivid_64   --> tmonteil
     zorn              --> agd
+    x200t-ThinkPad-*  --> jkroeker
+    vogon.jeltz(32Bit)--> jkroeker
 }}}
