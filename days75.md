@@ -59,11 +59,12 @@ the week on any subject that comes up.
 
 == Activity during the SageDays ==
 
-See [[https://mensuel.framapad.org/p/sage-days-75|collaborative PAD]].
-
 [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~sd75&order=priority|tickets related to the sage-days]]
 
 [[https://wiki.sagemath.org/days75/status-report|status report]]
+
+
+Wee used a short-lived [[https://mensuel.framapad.org|collaborative Framapad]] for dynamically tracking status during the Sage Days. Each day ended with a status meeting where everyone said what they had worked on and were currently working on.
 
 = Logistics =
 
