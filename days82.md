@@ -7,10 +7,12 @@ Official French title and pun: Les !SageMath Femmes
 
 <<TableOfContents()>>
 
-These Sage days are a special event for women who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introduction presentations, self training,  and teamwork on
+These Sage days are a special event for women* who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introduction presentations, self training,  and teamwork on
 specific projects.
 
 This event is fully funded by the [[http://opendreamkit.org/|OpenDreamKit]] project.
+
+*The application / invitation process is limited to women, nevertheless all activities of the workshop will be public and open to every one.
 
 == Organizers ==
 
@@ -23,9 +25,10 @@ part of the [[http://opendreamkit.org/|OpenDreamKit]] project and has been using
 
 == Venue ==
 
-'''Lodging and food will be provided for all participants, transportation is NOT provided.'''
+The workshop will take place in a rented house in Paris area. Some activities will be held at Paris-Sud university. More information to come.
 
-The workshop will take place in a rented house in Paris area. More information to come.
+
+'''Lodging and food will be provided for all participants, transportation is NOT provided.'''
 
 == Application ==
 
