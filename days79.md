@@ -109,3 +109,7 @@ There are also hotels near to campus:
 [[https://www.prima-hotels-israel.com/jerusalem-hotels/prima-park-jerusalem-hotel|Prima Park Hotel]]
 
 [[http://jerusalemgardenshotel.com/|Jerusalem Gardens Hotel]]
+
+For people that want to extend their stay before/after the workshop, Abraham Hostel is a very good choice of hotel/hostel downtown, close to the tram line and 10 minutes walk to the old city.
+
+[[https://abrahamhostels.com/jerusalem/|Abraham Hostel Jerusalem]]
