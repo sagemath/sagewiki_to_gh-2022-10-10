@@ -115,4 +115,6 @@ It is possible to get to Jerusalem from the airport:
  i. with a licenced taxi (beige colored with black), just exit the airport and turn left. It costs around 250-300NIS.
  i. with a shared taxi (mini-van) called "sherut", just exit the airport and turn right. It costs 64NIS. No need of reservation, but it leaves once the van is full. Tell to the driver "Givat Ram Campus, Beit Belgia".
 
+The ride takes between 50 minutes and 1h15 depending on traffic conditions
+
 Prior to the workshop we will try to organize us to coordinate taxis if possible.
