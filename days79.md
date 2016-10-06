@@ -74,11 +74,13 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
 
 == Registration & Funding ==
 
+The funding deadline is now passed. It is still possible to register to the workshop until November 4 2016.
+
 Please send the following form to [[mailto:labbe@math.huji.ac.il|Jean-Philippe Labbé]]
 
  * Name:
  * Institution:
- * Date of Arrival:
+ * Date of arrival:
  * Date of departure:
  * What are your interests in Sage (including coding projects)? What would you like to learn about Sage?
  * What are your programming experiences?
@@ -88,19 +90,7 @@ Please send the following form to [[mailto:labbe@math.huji.ac.il|Jean-Philippe L
 ''A talk can be on anything related to mathematical development (it does not have to be Sage)
 If you have some Sage experience, please consider giving a tutorial''.
 
- * Please specify: you need financial support for transportation and/or lodging?
-
-The ''deadline for funding request'' for lodging and transportation fees is '''September 30th'''.
-To apply for funding, please give the following information:
-
- * Current status (postdoc, Phd Student):
- * Estimated costs of travel
- * Duration of stay
- * Describe your interests in the workshop
-
-before '''September 30th'''.
-
-== Lodging, funding, and other practical informations ==
+== Lodging ==
 
 We have 10 rooms reserved at the ''Beit Belgia'' (Belgium House) on Givat Ram campus from November 20th to November 25th. Seven of them have two single beds and the other three are ''suits'' with a double bed and a couch. People receiving funding for housing will have a room there waiting for them. Depending on the availability, the remaining rooms will be available for participants not receiving lodging funding. More information to come.
 
@@ -113,3 +103,16 @@ There are also hotels near to campus:
 For people that want to extend their stay before/after the workshop, Abraham Hostel is a very good choice of hotel/hostel downtown, close to the tram line and 10 minutes walk to the old city.
 
 [[https://abrahamhostels.com/jerusalem/|Abraham Hostel Jerusalem]]
+
+== Practical informations ==
+
+=== Get to Jerusalem ===
+
+The principal international airport in Israel is Tel Aviv Airport (TLV) located 55km from Jerusalem.
+
+It is possible to get to Jerusalem from the airport:
+
+-with a licenced taxi (beige colored with black), just exit the airport and turn left. It costs around 250-300NIS.
+-with a shared taxi (mini-van) called "sherut", just exit the airport and turn right. It costs 64NIS. No need of reservation, but it leaves once the van is full. Tell to the driver "Givat Ram Campus, Beit Belgia".
+
+Prior to the workshop we will try to organize us to coordinate taxis if possible.
