@@ -1,7 +1,5 @@
 = Sage Interactions =
 
-'''WARNING: These are all broken as of Sept 2016.  Fixing this is hopefully a high priority. -- William Stein'''
-
 This is a collection of pages demonstrating the use of [[http://sagemath.org/doc/reference/sagenb/notebook/interact.html#sagenb.notebook.interact.interact|the interact command]] in Sage. It should be easy to just scroll through and copy/paste examples into Sage notebooks. If you have suggestions on how to improve interact, add them [[interactSuggestions|here]] or email sage-support@googlegroups.com . Of course, your own examples are also welcome!
 
  * [[interact/algebra|Algebra]]
