@@ -58,6 +58,8 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
  * Mee Seong Im (United States Military Academy, NY)
  * Travis Scrimshaw (University of Minnesota, USA)
  * Vincent Delecroix (Université de Bordeaux, France)
+ * Adrien Boussicault (Université de Bordeaux, France)
+ * Patxi Laborde-Zubieta *(Université de Bordeaux, France)
  * Nicolas Thiery (Université Paris-Sud, France)
  * Florent Ygouf (Institut Fourier, Université Grenoble, France)
  * Viviane Pons (Université Paris-Sud, France)
