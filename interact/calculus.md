@@ -26,9 +26,9 @@ def bisect_method(f, a, b, eps):
         else:
             raise ValueError, "f must have a sign change in the interval (%s,%s)"%(a,b)
         intervals.append((a,b))
-html("<h1>Double Precision Root Finding Using Bisection</h1>")
+pretty_print(html("<h1>Double Precision Root Finding Using Bisection</h1>"))
 @interact
-def _(f = cos(x) - x, a = float(0), b = float(1), eps=(-3,(-16..-1))):
+def _(f = cos(x) - x, a = float(0), b = float(1), eps=(-3,[-16..-1])):
      eps = 10^eps
      print "eps = %s"%float(eps)
      try:
