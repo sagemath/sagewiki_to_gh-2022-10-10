@@ -225,7 +225,7 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
     numerical_answer = integral_numerical(func,a,b,max_points = 200)[0]
     estimated_answer = dx * sum([ ys[q] for q in range(number_of_subdivisions)])
 
-    pretty_print(html(r'''
+    html(r'''
     <div class="math">
     \begin{align*}
       \int_{a}^{b} {f(x) \, dx} & = %s \\\
@@ -235,7 +235,7 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
       & = %s .
     \end{align*}
     </div>
-    ''' % (numerical_answer, number_of_subdivisions, sum_html, num_html, estimated_answer)))
+    ''' % (numerical_answer, number_of_subdivisions, sum_html, num_html, estimated_answer))
 }}}
 {{attachment:num_int2.png}}
 
@@ -246,7 +246,7 @@ This is not very general, but could be modified to show other families of polar 
 @interact
 def para(n1 = slider(1,5,1,default = 2), n2 = slider(1,5,1,default = 3), a1 = slider(1,10,1/10,6/5), a2 = slider(1,10,1/10,6), b = slider(0,2,1/50,0)):
     var('t')
-    html('$r=' + latex(b+sin(a1*t)^n1 + cos(a2*t)^n2)+'$')
+    pretty_print(html('$r=' + latex(b+sin(a1*t)^n1 + cos(a2*t)^n2)+'$'))
     p = parametric_plot((cos(t)*(b+sin(a1*t)^n1 + cos(a2*t)^n2), sin(t)*(b+sin(a1*t)^n1 + cos(a2*t)^n2)), (t,0, 20*pi), plot_points = 1024, rgbcolor = (0,0,0))
     show(p, figsize = [5,5], xmin = -2-b, xmax = 2+b, ymin = -2-b, ymax = 2+b, axes = False)
 }}}
@@ -333,9 +333,9 @@ def _(f=sin(x), g=cos(x), xrange=input_box((0,1)), yrange='auto', a=1,
     elif action == 'f(g)':
         h = f(g)
         lbl = 'f(g)'
-    html('<center><font color="red">$f = %s$</font></center>'%latex(f))
-    html('<center><font color="green">$g = %s$</font></center>'%latex(g))
-    html('<center><font color="blue"><b>$h = %s = %s$</b></font></center>'%(lbl, latex(h)))
+    pretty_print(html('<center><font color="red">$f = %s$</font></center>'%latex(f)))
+    pretty_print(html('<center><font color="green">$g = %s$</font></center>'%latex(g)))
+    pretty_print(html('<center><font color="blue"><b>$h = %s = %s$</b></font></center>'%(lbl, latex(h))))
     if do_plot:
         P = plot(f, xrange, color='red', thickness=2) +  \
             plot(g, xrange, color='green', thickness=2) + \
@@ -514,9 +514,9 @@ def trans(x=input_box(x, label="x",type=SR),
     vertices+=[(x(*c),y(*c)) for c in [pt+(1-t)*du for t in t_vals]]
     xyplot+=polygon(vertices,color='purple',alpha=0.7)
     xyplot+=line(vertices,color='green')
-    html("$T(u,v)=%s$"%(latex(T(u,v))))
-    html("Jacobian: $%s$"%latex(jacobian(u,v)))
-    html("A very small region in $xy$ plane is approximately %0.4g times the size of the corresponding region in the $uv$ plane"%jacobian(u_val,v_val).n())
+    pretty_print(html("$T(u,v)=%s$"%(latex(T(u,v)))))
+    pretty_print(html("Jacobian: $%s$"%latex(jacobian(u,v))))
+    pretty_print(html("A very small region in $xy$ plane is approximately %0.4g times the size of the corresponding region in the $uv$ plane"%jacobian(u_val,v_val).n()))
     pretty_print(table([[uvplot,xyplot]]))
 }}}
 
@@ -536,8 +536,8 @@ dot = point((x0,f(x0)),pointsize=80,rgbcolor=(1,0,0))
 def _(order=(1..12)):
     ft = f.taylor(x,x0,order)
     pt = plot(ft,-1, 5, color='green', thickness=2)
-    html('$f(x)\;=\;%s$'%latex(f))
-    html('$\hat{f}(x;%s)\;=\;%s+\mathcal{O}(x^{%s})$'%(x0,latex(ft),order+1))
+    pretty_print(html('$f(x)\;=\;%s$'%latex(f)))
+    pretty_print(html('$\hat{f}(x;%s)\;=\;%s+\mathcal{O}(x^{%s})$'%(x0,latex(ft),order+1)))
     show(dot + p + pt, ymin = -.5, ymax = 1)
 }}}
 {{attachment:taylor_series_animated.gif}}
@@ -550,13 +550,13 @@ I'll break tradition and put the image first. Apologies if this is Not A Good Th
 {{attachment:snapshot_epsilon_delta.png}}
 
 {{{#!sagecell
-html("<h2>Limits: <i>ε-δ</i></h2>")
-html("This allows you to estimate which values of <i>δ</i> guarantee that <i>f</i> is within <i>ε</i> units of a limit.")
-html("<ul><li>Modify the value of <i>f</i> to choose a function.</li>")
-html("<li>Modify the value of <i>a</i> to change the <i>x</i>-value where the limit is being estimated.</li>")
-html("<li>Modify the value of <i>L</i> to change your guess of the limit.</li>")
-html("<li>Modify the values of <i>δ</i> and <i>ε</i> to modify the rectangle.</li></ul>")
-html("If the blue curve passes through the pink boxes, your values for <i>δ</i> and/or <i>ε</i> are probably wrong.")
+pretty_print(html("<h2>Limits: <i>ε-δ</i></h2>"))
+pretty_print(html("This allows you to estimate which values of <i>δ</i> guarantee that <i>f</i> is within <i>ε</i> units of a limit."))
+pretty_print(html("<ul><li>Modify the value of <i>f</i> to choose a function.</li>"))
+pretty_print(html("<li>Modify the value of <i>a</i> to change the <i>x</i>-value where the limit is being estimated.</li>"))
+pretty_print(html("<li>Modify the value of <i>L</i> to change your guess of the limit.</li>"))
+pretty_print(html("<li>Modify the values of <i>δ</i> and <i>ε</i> to modify the rectangle.</li></ul>"))
+pretty_print(html("If the blue curve passes through the pink boxes, your values for <i>δ</i> and/or <i>ε</i> are probably wrong."))
 @interact
 def delta_epsilon(f = input_box(default=(x^2-x)/(x-1)), a=input_box(default=1), L = input_box(default=1), delta=input_box(label="δ",default=0.1), epsilon=input_box(label="ε",default=0.1), xm=input_box(label="<i>x</i><sub>min</sub>",default=-1), xM=input_box(label="<i>x</i><sub>max</sub>",default=4)):
     f_left_plot = plot(f,xm,a-delta/3,thickness=2)
@@ -580,12 +580,12 @@ by Wai Yan Pong
 x=var('x')
 @interact
 def _(x = slider(-7/10,7/10,1/20,1/2)):
-    html('<h3>A graphical illustration of $\lim_{x -> 0} \sin(x)/x =1$</h3>')
-    html('Below is the unit circle, so the length of the <font color=red>red line</font> is |sin(x)|')
-    html('and the length of the <font color=blue>blue line</font> is |tan(x)| where x is the length of the arc.') 
-    html('From the picture, we see that |sin(x)| $\le$ |x| $\le$ |tan(x)|.')
-    html('It follows easily from this that cos(x) $\le$ sin(x)/x $\le$ 1 when x is near 0.')
-    html('As $\lim_{x ->0} \cos(x) =1$, we conclude that $\lim_{x -> 0} \sin(x)/x =1$.')
+    pretty_print(html('<h3>A graphical illustration of $\lim_{x -> 0} \sin(x)/x =1$</h3>'))
+    pretty_print(html('Below is the unit circle, so the length of the <font color=red>red line</font> is |sin(x)|'))
+    pretty_print(html('and the length of the <font color=blue>blue line</font> is |tan(x)| where x is the length of the arc.'))
+    pretty_print(html('From the picture, we see that |sin(x)| $\le$ |x| $\le$ |tan(x)|.'))
+    pretty_print(html('It follows easily from this that cos(x) $\le$ sin(x)/x $\le$ 1 when x is near 0.'))
+    pretty_print(html('As $\lim_{x ->0} \cos(x) =1$, we conclude that $\lim_{x -> 0} \sin(x)/x =1$.'))
     if not (x == 0):
         pretty_print("sin(x)/x = "+str(sin(float(x))/float(x)))
     elif x == 0:
@@ -637,7 +637,7 @@ var('x,y')
 R16 = RealField(16)
 npi = RDF(pi)
 
-html("<h1>The midpoint rule for a function of two variables</h1>")
+pretty_print(html("<h1>The midpoint rule for a function of two variables</h1>"))
 @interact
 def midpoint2d(func = input_box('y*sin(x)/x+sin(y)',type=str,label='function of x and y'), nx = slider(2,20,1,3,label='x subdivisions'), ny = slider(2,20,1,3,label='y subdivisions'), x_start = slider(-10,10,.1,0), x_end = slider(-10,10,.1,3*npi), y_start= slider(-10,10,.1,0), y_end= slider(-10,10,.1,3*npi)):
     f = sage_eval('lambda x,y: ' + func)
@@ -652,8 +652,8 @@ def midpoint2d(func = input_box('y*sin(x)/x+sin(y)',type=str,label='function of 
         for yv in yvals:
             num_approx += f(xv,yv)*darea
             cubs.append(cuboid([xv-delx/2,yv-dely/2,0],[xv+delx/2,yv+dely/2,f(xv,yv)], opacity = .5, rgbcolor = (1,0,0)))
-    html("$$\int_{"+str(R16(y_start))+"}^{"+str(R16(y_end))+"} "+ "\int_{"+str(R16(x_start))+"}^{"+str(R16(x_end))+"} "+func+"\ dx \ dy$$")
-    html('<p style="text-align: center;">Numerical approximation: ' + str(num_approx)+'</p>')
+    pretty_print(html("$$\int_{"+str(R16(y_start))+"}^{"+str(R16(y_end))+"} "+ "\int_{"+str(R16(x_start))+"}^{"+str(R16(x_end))+"} "+func+"\ dx \ dy$$"))
+    pretty_print(html('<p style="text-align: center;">Numerical approximation: ' + str(num_approx)+'</p>'))
     p1 = plot3d(f,(x,x_start,x_end),(y,y_start,y_end))
     show(p1+sum(cubs))
 }}}
@@ -724,8 +724,8 @@ def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x),type=S
     y_val = map(scaled_ff,x_val)
     trapezoid = integral-trapz(y_val, x_val)
     simpson = integral-simps(y_val, x_val)
-    html("$$\sum_{i=1}^{i=%s}w_i\left(%s\\right)= %s\\approx %s =\int_{-1}^{1}%s \,dx$$"%(n,
-        latex(f), approximation, integral, latex(scaled_func)))
+    pretty_print(html("$$\sum_{i=1}^{i=%s}w_i\left(%s\\right)= %s\\approx %s =\int_{-1}^{1}%s \,dx$$"%(n,
+        latex(f), approximation, integral, latex(scaled_func))))
     error_data = [trapezoid, simpson, integral-approximation,integral_error]
     print "Trapezoid: %s, Simpson: %s, \nMethod: %s, Real: %s"%tuple(error_data)
     show(bar_chart(error_data,width=1),ymin=min(error_data), ymax=max(error_data))
@@ -1018,8 +1018,8 @@ def _(f=input_box((x^2-y^2)/(x^2+y^2),width=30,label='$f(x)$'),
     collapsing_surface = plot3d(g,(t,0,2*pi),(r,1/100,R),transformation=cylinder,rgbcolor=(0,1,0))
     
     G = surface+collapsing_surface
-    html('Enter $(x_0 ,y_0 )$ above and see what happens as $ R \\rightarrow 0 $.')
-    html('The surface has a limit as $(x,y) \\rightarrow $ ('+str(x0)+','+str(y0)+') if the green region collapses to a point.')
+    pretty_print(html('Enter $(x_0 ,y_0 )$ above and see what happens as $ R \\rightarrow 0 $.'))
+    pretty_print(html('The surface has a limit as $(x,y) \\rightarrow $ ('+str(x0)+','+str(y0)+') if the green region collapses to a point.'))
 
 #   If checked, add a couple of curves on the surface corresponding to limit as x->x0 for y=x^(3/5),
 #   and as y->y0 for x=y^(3/5).  Should make this more robust but perhaps using 
@@ -1039,9 +1039,9 @@ def _(f=input_box((x^2-y^2)/(x^2+y^2),width=30,label='$f(x)$'),
         G += curve_x+curve_y+text_x+text_y 
  
     
-        html('The red curves represent a couple of trajectories on the surface.  If they do not meet, then')
-        html('there is also no limit.  (If computer hangs up, likely the computer can not do these limits.)')
-        html('\n<center><font color="red">$\lim_{(x,?)\\rightarrow(x_0,y_0)} f(x,y) =%s$</font>'%str(limit_x)+'  and <font color="red">$\lim_{(?,y)\\rightarrow(x_0,y_0)} f(x,y) =%s$</font></center>'%str(limit_y))
+        pretty_print(html('The red curves represent a couple of trajectories on the surface.  If they do not meet, then'))
+        pretty_print(html('there is also no limit.  (If computer hangs up, likely the computer can not do these limits.)'))
+        pretty_print(html('\n<center><font color="red">$\lim_{(x,?)\\rightarrow(x_0,y_0)} f(x,y) =%s$</font>'%str(limit_x)+'  and <font color="red">$\lim_{(?,y)\\rightarrow(x_0,y_0)} f(x,y) =%s$</font></center>'%str(limit_y)))
         
     if in_3d:
         show(G,stereo="redcyan",viewer=view_method)
@@ -1078,8 +1078,8 @@ def _(f=input_box(default=(x*y^2)/(x^2+y^4),width=30,label='$f(x)$'),
         x0=input_box(0,width=10,label='$x_0$'),
         y0=input_box(0,width=10,label='$y_0$')):
 
-    html('Enter $(x_0 ,y_0 )$ above and see what happens as the number of contour levels $\\rightarrow \infty $.')
-    html('A surface will have a limit in the center of this graph provided there is not a sudden change in color there.')    
+    pretty_print(html('Enter $(x_0 ,y_0 )$ above and see what happens as the number of contour levels $\\rightarrow \infty $.'))
+    pretty_print(html('A surface will have a limit in the center of this graph provided there is not a sudden change in color there.'))
 
 #   Need to make certain the min and max contour lines are not huge due to asymptotes.  If so, clip and start contours at some reasonable
 #   values so that there are a nice collection of contours to show around the desired point.
@@ -1169,7 +1169,7 @@ def _(func=input_box(INI_func,label="f(x,y)=",type=str),\
  show_planes=("Show zero planes", False),  show_axes=("Show axes", True),  
  show_table=("Show table", True)):
  f=sage_eval('lambda x,y: ' + func)
- html(r'Function $ f(x,y)=%s$ '%latex(f(x,y)))
+ pretty_print(html(r'Function $ f(x,y)=%s$ '%latex(f(x,y))))
  xmin,xmax,ymin,ymax=sage_eval('('+bounds+')')
  A=plot3d(f(x,y),(x,xmin,xmax),(y,ymin,ymax),opacity=0.5)
  if not(bool(st_points=='')):
@@ -1183,8 +1183,8 @@ def _(func=input_box(INI_func,label="f(x,y)=",type=str),\
          y0=st_p[current][1]
          z0=f(x0,y0)
          if show_table:
-              html(r'<tr><td>$\quad f(%s,%s)\quad $</td><td>$\quad %s$</td>\
-              </tr>'%(latex(x0),latex(y0),z0.n()))
+              pretty_print(html(r'<tr><td>$\quad f(%s,%s)\quad $</td><td>$\quad %s$</td>\
+              </tr>'%(latex(x0),latex(y0),z0.n())))
          A=A+point3d((x0,y0,z0),size=9,rgbcolor=point_color)           
      html(r'</table>')
  if not(bool(bnd_curves=='')):
@@ -1217,9 +1217,9 @@ by Robert Marik
 x,y=var('x y')
 html('<h2>Explaining approximation of a function in two \
 variables by differential</h2>')
-html('Points x0 and y0 are values where the exact value of the function \
+pretty_print(html('Points x0 and y0 are values where the exact value of the function \
 is known. Deltax and Deltay are displacements of the new point. Exact value \
-and approximation by differential at shifted point are compared.')
+and approximation by differential at shifted point are compared.'))
 @interact
 def _(func=input_box('sqrt(x^3+y^3)',label="f(x,y)=",type=str), x0=1, y0=2, \
   deltax=slider(-1,1,0.01,0.2),\
@@ -1237,12 +1237,12 @@ def _(func=input_box('sqrt(x^3+y^3)',label="f(x,y)=",type=str), x0=1, y0=2, \
   exact_value=f(x0+deltax,y0+deltay)
   approx_value=tangent(x0+deltax,y0+deltay).n(digits=10)
   abs_error=(abs(exact_value-approx_value))
-  html(r'Function $ f(x,y)=%s \approx %s $ '%(latex(f(x,y)),latex(tangent(x,y))))
-  html(r' $f %s = %s$'%(latex((x0,y0)),latex(exact_value_ori)))
-  html(r'Shifted point $%s$'%latex(((x0+deltax),(y0+deltay))))
-  html(r'Value of the function in shifted point is $%s$'%f(x0+deltax,y0+deltay))
-  html(r'Value on the tangent plane in shifted point is $%s$'%latex(approx_value))
-  html(r'Error is $%s$'%latex(abs_error)) 
+  pretty_print(html(r'Function $ f(x,y)=%s \approx %s $ '%(latex(f(x,y)),latex(tangent(x,y)))))
+  pretty_print(html(r' $f %s = %s$'%(latex((x0,y0)),latex(exact_value_ori))))
+  pretty_print(html(r'Shifted point $%s$'%latex(((x0+deltax),(y0+deltay)))))
+  pretty_print(html(r'Value of the function in shifted point is $%s$'%f(x0+deltax,y0+deltay)))
+  pretty_print(html(r'Value on the tangent plane in shifted point is $%s$'%latex(approx_value)))
+  pretty_print(html(r'Error is $%s$'%latex(abs_error)))
   show(A+B+C+CC+D)
 }}}
 {{attachment:3D_differential.png}}
@@ -1279,7 +1279,7 @@ def _(x0=(0.5,1.5), y0=(0.5, 1.5),
             approx += coeff * deriv * (x-x0)^i * (y-y0)^(n-i)
     plot += plot3d(approx, (x, 0.4, 1.6), 
              (y, 0.4, 1.6), color='red', opacity=0.7)
-    html('$F(x,y) = e^{-(x^2+y^2)/2} \\cos(y) \\sin(x^2+y^2)$')
+    pretty_print(html('$F(x,y) = e^{-(x^2+y^2)/2} \\cos(y) \\sin(x^2+y^2)$'))
     show(plot)
 }}}
 {{attachment:taylor-3d.png}}
@@ -1437,7 +1437,7 @@ def _(f=input_box(default=6-4*x^2-y^2*2/5,label='Top = $f(x,y) = $',width=30),
 
     line_integral_approx = numerical_integral(A,a,b)[0]
 
-    html(r'<font align=center size=+1>Lateral Surface $ \approx $ %s</font>'%str(line_integral_approx))
+    pretty_print(html(r'<font align=center size=+1>Lateral Surface $ \approx $ %s</font>'%str(line_integral_approx)))
 
 #   Plot the top function z = f(x,y) that is being integrated.
     G = plot3d(f,(x,xx[0],xx[1]),(y,yy[0],yy[1]),opacity=0.2)
@@ -1521,7 +1521,7 @@ def _(M=input_box(default=x*y*z,label="$M(x,y,z)$"),
     global line_integral
     line_integral = integral(A(t=t),t,tt[0],tt[1])
     
-    html(r'<h2 align=center>$ \int_{C} \left \langle M,N,P \right \rangle dr $ = $ %s $ </h2>'%latex(line_integral))
+    pretty_print(html(r'<h2 align=center>$ \int_{C} \left \langle M,N,P \right \rangle dr $ = $ %s $ </h2>'%latex(line_integral)))
     G = plot_vector_field3d((M,N,P),(x,xx[0],xx[1]),(y,yy[0],yy[1]),(z,zz[0],zz[1]),plot_points=6)
     G += parametric_plot3d([u,v,w],(t,tt[0],tt[1]),thickness='5',color='yellow')
     if in_3d:
