@@ -74,7 +74,7 @@ def newton_method(f, c, eps, maxiter=100):
     return c, iterates
     
 var('x')    
-html("<h1>Double Precision Root Finding Using Newton's Method</h1>")
+pretty_print(html("<h1>Double Precision Root Finding Using Newton's Method</h1>"))
 @interact
 def _(f = x^2 - 2, c = float(0.5), eps=(-3,(-16..-1)), interval=float(0.5)):
      eps = 10^(eps)
@@ -84,7 +84,7 @@ def _(f = x^2 - 2, c = float(0.5), eps=(-3,(-16..-1)), interval=float(0.5)):
      print "f(c) = %r"%f(x=z)
      n = len(iterates)
      print "iterations =", n
-     html(iterates)
+     pretty_print(html(iterates))
      P = plot(f, (x,z-interval, z+interval), rgbcolor='blue')
      h = P.ymax(); j = P.ymin()
      L = sum(point((w,(n-1-float(i))/n*h), rgbcolor=(float(i)/n,0.2,0.3), pointsize=10) + \
