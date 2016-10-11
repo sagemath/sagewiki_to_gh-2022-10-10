@@ -115,7 +115,7 @@ def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)),
 by Marshall Hampton
 
 {{{#!sagecell
-html('<h2>Tangent line grapher</h2>')
+pretty_print(html('<h2>Tangent line grapher</h2>'))
 @interact
 def tangent_line(f = input_box(default=sin(x)), xbegin = slider(0,10,1/10,0), xend = slider(0,10,1/10,10), x0 = slider(0, 1, 1/100, 1/2)):
     prange = [xbegin, xend]
@@ -155,8 +155,8 @@ def midpoint(n = slider(1,100,1,4), f = input_box(default = "x^2", type = str), 
         rects = rects + line([[xm-dx/2,0],[xm-dx/2,ym],[xm+dx/2,ym],[xm+dx/2,0]], rgbcolor = (1,0,0)) + point((xm,ym), rgbcolor = (1,0,0))
     min_y = min(0, sage.numerical.optimize.find_local_minimum(func,a,b)[0])
     max_y = max(0, sage.numerical.optimize.find_local_maximum(func,a,b)[0])
-    html('<h3>Numerical integrals with the midpoint rule</h3>')
-    html('$\int_{a}^{b}{f(x) dx} {\\approx} \sum_i{f(x_i) \Delta x}$')
+    pretty_print(html('<h3>Numerical integrals with the midpoint rule</h3>'))
+    pretty_print(html('$\int_{a}^{b}{f(x) dx} {\\approx} \sum_i{f(x_i) \Delta x}$'))
     print "\n\nSage numerical answer: " + str(integral_numerical(func,a,b,max_points = 200)[0])
     print "Midpoint estimated answer: " + str(RDF(dx*sum([midys[q] for q in range(n)])))
     show(plot(func,a,b) + rects, xmin = a, xmax = b, ymin = min_y, ymax = max_y)
@@ -225,7 +225,7 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
     numerical_answer = integral_numerical(func,a,b,max_points = 200)[0]
     estimated_answer = dx * sum([ ys[q] for q in range(number_of_subdivisions)])
 
-    html(r'''
+    pretty_print(html(r'''
     <div class="math">
     \begin{align*}
       \int_{a}^{b} {f(x) \, dx} & = %s \\\
@@ -235,7 +235,7 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
       & = %s .
     \end{align*}
     </div>
-    ''' % (numerical_answer, number_of_subdivisions, sum_html, num_html, estimated_answer))
+    ''' % (numerical_answer, number_of_subdivisions, sum_html, num_html, estimated_answer)))
 }}}
 {{attachment:num_int2.png}}
 
