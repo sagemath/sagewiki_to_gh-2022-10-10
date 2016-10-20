@@ -8,7 +8,7 @@
 
 <<TableOfContents()>>
 
-This Sage Days is the first one organized in Israel under the framework of the European Research Council (ERC) grant entitled: '''“Avenues in Probabilistic and Geometric Combinatorics”''' and the ERC H2020 project [[OpenDreamKit|http://opendreamkit.org/]]. The aim of the meeting will be to introduce the software to students and mathematicians in the region, with further emphasis on (but not limited to) '''geometric combinatorics''' and '''symbolic dynamics'''. It will be a great occasion to learn more about the software and for advanced developers to present and improve current tools.
+This Sage Days is the first one organized in Israel under the framework of the European Research Council (ERC) grant entitled: '''“Avenues in Probabilistic and Geometric Combinatorics”''' and the ERC H2020 project [[http://opendreamkit.org/|OpenDreamKit]]. The aim of the meeting will be to introduce the software to students and mathematicians in the region, with further emphasis on (but not limited to) '''geometric combinatorics''' and '''symbolic dynamics'''. It will be a great occasion to learn more about the software and for advanced developers to present and improve current tools.
 
 Organizers: [[mailto:labbe@math.huji.ac.il|Jean-Philippe Labbé]]. 
 
