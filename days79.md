@@ -18,7 +18,7 @@ Date: 4 days '''from November 21 to November 24, 2016'''
 
 Fridays are usually considered weekend days in Israel.
 
-Venue: Hebrew University of Jerusalem, Givat Ram Campus, (exact rooms TBA)
+Venue: '''Library of the Belgium House''', Hebrew University of Jerusalem, Givat Ram Campus
 
 == Program ==
 
