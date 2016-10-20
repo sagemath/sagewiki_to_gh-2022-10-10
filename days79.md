@@ -28,7 +28,7 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
 
 == Speakers ==
 
- * '''Travis Scrimshaw''' on ''TBA''
+ * '''Travis Scrimshaw''' on ''Crystals and Box-Ball Systems''
  * '''Vincent Delecroix''' on ''TBA''
 
 == Participants ==
