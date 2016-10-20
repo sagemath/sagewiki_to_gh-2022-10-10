@@ -108,6 +108,8 @@ For people that want to extend their stay before/after the workshop, Abraham Hos
 
 == Practical informations ==
 
+If you did not already, please fill in the [[https://docs.google.com/forms/d/e/1FAIpQLSds8fhDkwXBiFRfXqlIW6Z03slffVhkf_1hEVkFQAOsjMbIJA/viewform?c=0&w=1|Information form]]
+
 === Get to Jerusalem ===
 
 The principal international airport in Israel is Tel Aviv Airport (TLV) located 55km from Jerusalem.
