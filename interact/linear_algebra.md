@@ -222,7 +222,7 @@ def _(M=input_grid(D,D, default = example,
     show(M)
     for m in range(0,D-1):
         if M[m,m] == 0:
-            lista = [(M[j,m],j) for j in range(m,D)]
+            lista = [(M[j,m],j) for j in range(m+1,D)]
             maxi, c = max(lista)
             M[c,:],M[m,:]=M[m,:],M[c,:]
             print 'We permute rows %d and %d'%(m+1,c+1)
