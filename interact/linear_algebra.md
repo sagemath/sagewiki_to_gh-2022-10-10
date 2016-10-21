@@ -44,19 +44,19 @@ def GS_modern(a_list):
             v[j] = v[j] - r[i][j]*q[i]
     q = matrix([q[i] for i in indices]).transpose()
     return q, matrix(r)
-html('<h2>Numerical instability of the classical Gram-Schmidt algorithm</h2>')
+pretty_print(html('<h2>Numerical instability of the classical Gram-Schmidt algorithm</h2>'))
 @interact
 def gstest(precision = slider(range(3,53), default = 10), a1 = input_box([1,1/1000,1/1000]), a2 = input_box([1,1/1000,0]), a3 = input_box([1,0,1/1000])):
     myR = RealField(precision)
     displayR = RealField(5)
-    html('precision in bits: ' + str(precision) + '<br>')
+    pretty_print(html('precision in bits: ' + str(precision) + '<br>'))
     A = matrix([a1,a2,a3])
     A = [vector(myR,x) for x in A]
     qn, rn = GS_classic(A)
     qb, rb = GS_modern(A)
-    html('Classical Gram-Schmidt:')
+    pretty_print(html('Classical Gram-Schmidt:'))
     show(matrix(displayR,qn))
-    html('Stable Gram-Schmidt:')
+    pretty_print(html('Stable Gram-Schmidt:'))
     show(matrix(displayR,qb))
 }}}
 {{attachment:GramSchmidt.png}}
@@ -74,8 +74,8 @@ def dualv(a1=slider(srg,default=1),a2=slider(srg,default=2), a3=slider(srg,defau
     p1 = polygon([[0,0],[a1,a2],[a1+a3,a2+a4],[a3,a4],[0,0]], alpha=.5)
     p2 = polygon([[0,0],[a1,a3],[a1+a2,a3+a4],[a2,a4],[0,0]],rgbcolor='red', alpha=.5)
     A = matrix([[a1,a2],[a3,a4]])
-    html('<h3>The determinant of a matrix is equal to the determinant of the transpose</h3>')
-    html("$det(%s) = det(%s)=%s$"%(latex(A),latex(A.transpose()),latex(RR(A.determinant()))))
+    pretty_print(html('<h3>The determinant of a matrix is equal to the determinant of the transpose</h3>'))
+    pretty_print(html("$det(%s) = det(%s)=%s$"%(latex(A),latex(A.transpose()),latex(RR(A.determinant())))))
     show(A1+A2+A3+A4+p1+p2)
 }}}
 {{attachment:Det_transpose.png}}
@@ -91,7 +91,7 @@ def linear_transformation(A=matrix([[1,-1],[-1,1/2]]),theta=slider(0, 2*pi, .1),
     v=vector([r*cos(theta), r*sin(theta)])
     w = A*v
     circles = sum([circle((0,0), radius=i, color='black') for i in [1..2]])
-    html("$%s %s=%s$"%tuple(map(latex, [A, v.column().n(4), w.column().n(4)])))
+    pretty_print(html("$%s %s=%s$"%tuple(map(latex, [A, v.column().n(4), w.column().n(4)]))))
     show(v.plot(color='red')+w.plot(color='blue')+circles,aspect_ratio=1)
 }}}
 {{attachment:Linear-Transformations.png}}
@@ -101,12 +101,12 @@ by Marshall Hampton.  This animated version requires convert (imagemagick) to be
 The animation illustrates the idea behind the stronger version of Gerschgorin's theorem, which says that if the disks around the eigenvalues are disjoint then there is one eigenvalue per disk.  The proof is by continuity of the eigenvalues under a homotopy to a diagonal matrix. 
 {{{#!sagecell
 from scipy import linalg
-html('<h2>The Gerschgorin circle theorem</h2>')
+pretty_print(html('<h2>The Gerschgorin circle theorem</h2>'))
 @interact
 def Gerschgorin(Ain = input_box(default='[[10,1,1/10,0],[-1,9,0,1],[1,0,2,3/10],[-.5,0,-.3,1]]', type = str, label = 'A = '), an_size = slider(1,100,1,1.0)):
     A = sage_eval(Ain)
     size = len(A)
-    html('$A = ' + latex(matrix(RealField(10),A))+'$')
+    pretty_print(html('$A = ' + latex(matrix(RealField(10),A))+'$'))
     A = matrix(RealField(10),A)
     B = [[0 for i in range(size)] for j in range(size)]
     for i in range(size):
@@ -170,8 +170,8 @@ def svd_vis(a11=slider(-1,1,.05,1),a12=slider(-1,1,.05,1),a21=slider(-1,1,.05,0)
     uvects = Graphics()
     for i in (0,1):
         if s[i] != 0: uvects += arrow([offset,0],vector([offset,0])+matrix(s*u).column(i),rgbcolor = colors[i+2])
-    html('<h3>Singular value decomposition: image of the unit circle and the singular vectors</h3>')
-    html("$A = %s  = %s %s %s$"%(latex(my_mat), latex(matrix(rf_low,u.tolist())), latex(matrix(rf_low,2,2,[s[0],0,0,s[1]])), latex(matrix(rf_low,vh.tolist())))) 
+    pretty_print(html('<h3>Singular value decomposition: image of the unit circle and the singular vectors</h3>'))
+    pretty_print(html("$A = %s  = %s %s %s$"%(latex(my_mat), latex(matrix(rf_low,u.tolist())), latex(matrix(rf_low,2,2,[s[0],0,0,s[1]])), latex(matrix(rf_low,vh.tolist())))))
     image_ell = parametric_plot(rotell(s,u,t, offset),(0,2*pi))
     graph_stuff=circle((0,0),1)+image_ell+vvects+uvects
     graph_stuff.set_aspect_ratio(1)
@@ -186,7 +186,7 @@ import scipy.fftpack as Fourier
 def discrete_fourier(f = input_box(default=sum([sin(k*x) for k in range(1,5,2)])), scale = slider(.1,20,.1,5)):
     pbegin = -float(pi)*scale
     pend = float(pi)*scale
-    html("<h3>Function plot and its discrete Fourier transform</h3>")
+    pretty_print(html("<h3>Function plot and its discrete Fourier transform</h3>"))
     show(plot(f, (x,pbegin, pend), plot_points = 512), figsize = [4,3])
     f_vals = [f(x=ind) for ind in srange(pbegin, pend,(pend-pbegin)/512.0)]
     my_fft = Fourier.fft(f_vals)
