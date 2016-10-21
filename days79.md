@@ -110,6 +110,8 @@ For people that want to extend their stay before/after the workshop, Abraham Hos
 
 If you did not already, please fill in the [[https://docs.google.com/forms/d/e/1FAIpQLSds8fhDkwXBiFRfXqlIW6Z03slffVhkf_1hEVkFQAOsjMbIJA/viewform?c=0&w=1|Information form]]
 
+For more general information about traveling to [[http://wikitravel.org/en/Jerusalem|Jerusalem]].
+
 === Get to Jerusalem ===
 
 The principal international airport in Israel is Tel Aviv Airport (TLV) located 55km from Jerusalem.
@@ -122,3 +124,16 @@ It is possible to get to Jerusalem from the airport:
 The ride takes between 50 minutes and 1h15 depending on traffic conditions
 
 Prior to the workshop we will try to organize us to coordinate taxis if possible.
+
+=== Meals on campus ===
+
+There are different meal options on Givat Campus. [[http://www.huji.ac.il/huji/images/campuses-maps/campusEdSafra.jpg|Campus Map]]
+
+Among the common chosen options, that all have vegetarian options:
+
+ i. Cafeteria in the Sherman Administration buildind: Israeli dishes
+ i. Wise Auditorium (Restaurant Fabricio): Italian/Israeli restaurant with pizza, calzone, salads and coffee.
+ i. Sprinzak Building: Coffee with prepared sandwiches, salads, juices and coffee
+ i. Rothberg building: Big salad and pasta bar, with coffee.
+ i. (more expansive) Belgium House: Coffee and salads and prepared buffets 
+ i. (more expansive) Haivrit Restaurant: next to the swimming pool. Typical israeli dairy food (no meat).
