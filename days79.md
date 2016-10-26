@@ -125,6 +125,8 @@ The ride takes between 50 minutes and 1h15 depending on traffic conditions
 
 Prior to the workshop we will try to organize us to coordinate taxis if possible.
 
+Taxis do not usually accept credit cards. A ride between TLV airport and Jerusalem costs between 250-300NIS.
+
 === Meals on campus ===
 
 There are different meal options on Givat Campus. [[http://www.huji.ac.il/huji/images/campuses-maps/campusEdSafra.jpg|Campus Map]]
