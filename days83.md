@@ -2,7 +2,7 @@
 
 
 
-'''University of Hassan II, Casablanca, Maroc'''
+'''University of Hassan II, Marrakech, Maroc'''
 
 '''Topics: Combinatorics, Knot theory'''
 
