@@ -34,8 +34,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/21248|#21248]]) positive-review: implementation of Reduced Binary Form by Stoll and Cremona- Rebecca Lauren Miller
-
  * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger
 
  * ([[http://trac.sagemath.org/ticket/21118|#21118]]) needs-work: list of degrees of iterates of function - Joseph Silverman
@@ -81,6 +79,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/21248|#21248]])-- closed sage 7.5: implementation of Reduced Binary Form by Stoll and Cremona- Rebecca Lauren Miller
 
  * --([[http://trac.sagemath.org/ticket/21285|#21285]])-- closed sage 7.4: error in change_ring for affine morphisms - Ben Hutz
 
