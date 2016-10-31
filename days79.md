@@ -60,7 +60,7 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
  * Vincent Delecroix (Université de Bordeaux, France)
  * Adrien Boussicault (Université de Bordeaux, France)
  * Patxi Laborde-Zubieta *(Université de Bordeaux, France)
- * Nicolas Thiery (Université Paris-Sud, France)
+ * Nicolas M. Thiery (Université Paris-Sud, France)
  * Florent Ygouf (Institut Fourier, Université Grenoble, France)
  * Viviane Pons (Université Paris-Sud, France)
  * Florent Hivert (University Paris-Sud, France)
