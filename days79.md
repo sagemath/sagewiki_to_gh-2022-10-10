@@ -57,6 +57,7 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
  * David Zisselman (Hebrew University, Jerusalem)
  * Ofir David (Hebrew University, Jerusalem)
  * Ori	Parzanchevski (Hebrew University, Jerusalem)
+ * Edo Arad (Hebrew University, Jerusalem)
  * Malka Schaps (Bar-Ilan University, Ramat Gan, Israel)
  * Tomer Bauer (Bar-Ilan University, Ramat Gan, Israel)
  * Tahl Nowik (Bar-Ilan University, Ramat Gan, Israel)
@@ -109,10 +110,6 @@ Please send the following form to [[mailto:labbe@math.huji.ac.il|Jean-Philippe L
  * What are your interests in Sage (including coding projects)? What would you like to learn about Sage?
  * What are your programming experiences?
  * Do you use computer algebra systems? Which one?
- * Do you wish to give a talk or present a tutorial? 
-
-''A talk can be on anything related to mathematical development (it does not have to be Sage)
-If you have some Sage experience, please consider giving a tutorial''.
 
 == Lodging ==
 
