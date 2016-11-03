@@ -42,4 +42,5 @@ Date: 5 days '''from October 31 to November 4, 2016'''
 
 == Materials ==
 
- 
+ * [[attachment:first_steps.ipynb]]
+ * [[attachment:object_oriented.ipynb]]
