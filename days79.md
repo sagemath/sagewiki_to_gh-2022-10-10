@@ -22,9 +22,25 @@ Venue: '''Library of the Belgium House''', Hebrew University of Jerusalem, Givat
 
 == Program ==
 
-The program will include '''introduction tutorials''' to Sage, combinatorics and symbolic dynamics in Sage. The meeting will include '''scientific talks''' and there will also be time for '''code sprints'''.
+Here is a preliminary program for the workshop. The content of the week is ''very flexible'': more tutorials and presentations can occur depending on the interests of participants. There are side tables in the Library room: small groups of people may use them to work during the tutorials.
 
-''Detailed schedule to be announced''. 
+||<5%>   ||<20%:> Monday Nov 21 ||<20%:> Tuesday Nov 21 ||<20%:> Wednesday Nov 21 ||<20%:> Thursday Nov 21 ||
+||9:00   ||<#12DB0A:> Welcome/Presentation ||<#FF7676|2> Tutorial: Sage Interfaces ||<#FF7676|2> Tutorial: How to contribute to Sage ||<#FFC300|3> Practical Work ||
+||9:30   ||<#12AB0A|2> Presentation of Sage + Installation Session||
+||10:00  ||<#FFC300:> Practical Work ||<#FFC300:> Practical Work ||
+||10:30  ||||||||<#A5DDFF> Coffee break ||
+||11:00  ||<#12AB0A|3> Installation Session + Introduction to Sage/python ||<#FF7676:> Tutorial: Polytopes & Discr. Geom. ||<#FF7676:> Tutorial: Graphs & Linear Prog. ||<#FFC300:> Practical Work ||
+||11:30  ||<#FFC300|2> Practical Work ||<#FFC300|2> Practical Work ||<#8348AF|2> Status Report ||
+||12:00  ||
+||12:30  ||||||||<#A5DDFF> Lunch ||
+||14:00  ||<#12AB0A|2> Travis Scrimshaw Crystals and Box-Ball Systems ||<#12AB0A|2> Vincent Delecroix TBA ||<#FFC300|2> Practical Work ||<#FFA500|2> Zabrodsky Lectures: Dan Freed (U. Texas at Austin) -- Manchester Building||
+||14:30  ||
+||15:00  ||||||<#A5DDFF> Coffee break ||<#FFC500:> Light Refreshments ||
+||15:30  ||<#FF7676:> Tutorial: Repr. Th. & Crystals ||<#FF7676:> Tutorial: Symbolic dynamics ||<#FFC300|3> Practical Work ||<:> End ||
+||16:00  ||<#FFC300|2> Practical Work ||<#FFC300|2> Practical Work ||
+||16:30  ||
+||17:00  ||<:> End ||<:> End ||<:> End ||
+
 
 == Speakers ==
 
@@ -59,7 +75,7 @@ The program will include '''introduction tutorials''' to Sage, combinatorics and
  * Travis Scrimshaw (University of Minnesota, USA)
  * Vincent Delecroix (Université de Bordeaux, France)
  * Adrien Boussicault (Université de Bordeaux, France)
- * Patxi Laborde-Zubieta *(Université de Bordeaux, France)
+ * Patxi Laborde-Zubieta (Université de Bordeaux, France)
  * Nicolas M. Thiery (Université Paris-Sud, France)
  * Florent Ygouf (Institut Fourier, Université Grenoble, France)
  * Viviane Pons (Université Paris-Sud, France)
