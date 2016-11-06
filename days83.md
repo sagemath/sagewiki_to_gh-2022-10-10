@@ -21,7 +21,7 @@ Date: 5 days '''from October 31 to November 4, 2016'''
 || Pause ||  ||  ||  ||  || ||
 || 11:00 - 12:30 || Some use cases of sage || How to program on sage (Python) || How to program on sage (Python) || Some talks on knot theory || How to contribute in sage ||
 || Lunch ||  ||  ||  ||  ||  ||
-|| 14:30 - 15:00 || Sage installation || Using sage to make maths || Using sage to make maths || First implementations || ||
+|| 14:30 - 15:00 || <|4>  Sage installation || Using sage to make maths || Using sage to make maths || First implementations || ||
 || 15:00 - 16:00 ||  ||  ||  ||  || How to contribute in sage ||
 || 16:00 - 17:30 ||  ||  ||  ||  || Meeting to decide what to do in the future ||
 || 17:00 - 18:00 ||  ||  ||  ||  || ||
