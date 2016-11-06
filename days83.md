@@ -37,6 +37,7 @@ Date: 5 days '''from October 31 to November 4, 2016'''
 == Participants ==
 
  * [[mailto:h_abchir@yahoo.com|Abchir Hamid]]
+ * [[mailto:m.boucetta@uca.ac.ma|Mohamed Boucetta]]
  * Students of master MOCASIM and "Geometrie et optimization des formes" of the Cadi Ayyad University
 
 
