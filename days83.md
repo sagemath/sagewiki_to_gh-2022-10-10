@@ -2,7 +2,8 @@
 
 
 
-'''University of Hassan II, Marrakech, Maroc'''
+''' Cadi Ayyad University, FSTG, Marrakech, Maroc'''
+'''Departement of Mathematics'''
 
 '''Topics: Combinatorics, Knot theory'''
 
