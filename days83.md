@@ -2,7 +2,8 @@
 
 
 
-''' Cadi Ayyad University, FSTG, Marrakech, Maroc'''
+'''Cadi Ayyad University, Faculté des Sciences et Techniques Guéliz, Marrakech, Maroc'''
+
 '''Departement of Mathematics'''
 
 '''Topics: Combinatorics, Knot theory'''
