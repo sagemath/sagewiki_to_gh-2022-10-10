@@ -24,7 +24,7 @@ Venue: '''Library of the Belgium House''', Hebrew University of Jerusalem, Givat
 
 Here is a preliminary program for the workshop. The content of the week is ''very flexible'': more tutorials and presentations can occur depending on the interests of participants. There are side tables in the Library room: small groups of people may use them to work during the tutorials.
 
-||<5%>   ||<20%:> Monday Nov 21 ||<20%:> Tuesday Nov 21 ||<20%:> Wednesday Nov 21 ||<20%:> Thursday Nov 21 ||
+||<5%>   ||<20%:> Monday Nov 21 ||<20%:> Tuesday Nov 22 ||<20%:> Wednesday Nov 23 ||<20%:> Thursday Nov 24 ||
 ||9:00   ||<#12DB0A:> Welcome/Presentation ||<#FF7676|2> Tutorial: Sage Interfaces ||<#FF7676|2> Tutorial: How to contribute to Sage ||<#FFC300|3> Practical Work ||
 ||9:30   ||<#12AB0A|2> Presentation of Sage + Installation Session||
 ||10:00  ||<#FFC300:> Practical Work ||<#FFC300:> Practical Work ||
