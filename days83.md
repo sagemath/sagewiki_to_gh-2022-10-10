@@ -47,3 +47,5 @@ Date: 5 days '''from October 31 to November 4, 2016'''
 
  * [[attachment:first_steps.ipynb]]
  * [[attachment:object_oriented.ipynb]]
+ * [[attachment:Knots-Marrakech.ipynb]]
+ * [[attachment:Knots2.ipynb]]
