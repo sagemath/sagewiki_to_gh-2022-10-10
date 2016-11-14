@@ -96,21 +96,6 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
  * Sebastián Donoso (Center for Mathematical Modeling, University of Chile)
  * Sébastien Labbé (Université de Liège, Belgium)
 
-
-== Registration & Funding ==
-
-The funding deadline is now passed. It is still possible to register to the workshop until November 4 2016.
-
-Please send the following form to [[mailto:labbe@math.huji.ac.il|Jean-Philippe Labbé]]
-
- * Name:
- * Institution:
- * Date of arrival:
- * Date of departure:
- * What are your interests in Sage (including coding projects)? What would you like to learn about Sage?
- * What are your programming experiences?
- * Do you use computer algebra systems? Which one?
-
 == Lodging ==
 
 We have 10 rooms reserved at the ''Beit Belgia'' (Belgium House) on Givat Ram campus from November 20th to November 25th. Seven of them have two single beds and the other three are ''suits'' with a double bed and a couch. People receiving funding for housing will have a room there waiting for them. Depending on the availability, the remaining rooms will be available for participants not receiving lodging funding. More information to come.
