@@ -50,5 +50,5 @@ Date: 5 days '''from October 31 to November 4, 2016'''
  * [[attachment:object_oriented.ipynb]]
  * [[attachment:Knots-Marrakech.ipynb]]
  * [[attachment:Knots2.ipynb]]
- * [[attachment:algebre_de_lie.ipynb]]
+ * [[attachment:lie_algebra.ipynb]]
  * [[attachment:svd_image.zip]]
