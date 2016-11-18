@@ -51,3 +51,4 @@ Date: 5 days '''from October 31 to November 4, 2016'''
  * [[attachment:Knots2.ipynb]]
  * [[attachment:algebre_de_lie.ipynb]]
  * [[attachment:svd_image.zip]]
+ * [[attachment:introduction_a_la_programmation_imperative.ipynb]]
