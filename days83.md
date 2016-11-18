@@ -46,9 +46,9 @@ Date: 5 days '''from October 31 to November 4, 2016'''
 == Materials ==
 
  * [[attachment:first_steps.ipynb]]
+ * [[attachment:introduction_a_la_programmation_imperative.ipynb]]
  * [[attachment:object_oriented.ipynb]]
  * [[attachment:Knots-Marrakech.ipynb]]
  * [[attachment:Knots2.ipynb]]
  * [[attachment:algebre_de_lie.ipynb]]
  * [[attachment:svd_image.zip]]
- * [[attachment:introduction_a_la_programmation_imperative.ipynb]]
