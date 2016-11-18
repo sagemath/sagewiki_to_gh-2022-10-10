@@ -33,19 +33,20 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 ||11:30  ||<#FFC300|2> Practical Work ||<#FFC300|2> Practical Work ||<#8348AF|2> Status Report ||
 ||12:00  ||
 ||12:30  ||||||||<#A5DDFF> Lunch ||
-||14:00  ||<#12AB0A|2> Travis Scrimshaw Crystals and Box-Ball Systems ||<#12AB0A|2> Vincent Delecroix TBA ||<#FFC300|2> Practical Work ||<#FFA500|2> Zabrodsky Lectures: Dan Freed (U. Texas at Austin) -- Manchester Building||
+||14:00  ||<#12AB0A|2> Travis Scrimshaw Crystals and Box-Ball Systems ||<#12AB0A|2> Vincent Delecroix Lyapunov exponent of Teichmüller Flow ||<#FFC300|2> Practical Work ||<#FFA500|2> Zabrodsky Lectures: Dan Freed (U. Texas at Austin) -- Manchester Building||
 ||14:30  ||
 ||15:00  ||||||<#A5DDFF> Coffee break ||<#FFC500:> Light Refreshments ||
 ||15:30  ||<#FF7676:> Tutorial: Repr. Th. & Crystals ||<#FF7676:> Tutorial: Symbolic dynamics ||<#FFC300|3> Practical Work ||<:> End ||
 ||16:00  ||<#FFC300|2> Practical Work ||<#FFC300|2> Practical Work ||
 ||16:30  ||
+||16:45  ||<#8348AF:> Report ||<#8348AF:> Report ||<#8348AF:> Report ||
 ||17:00  ||<:> End ||<:> End ||<:> End ||
 
 
 == Speakers ==
 
  * '''Travis Scrimshaw''' on ''Crystals and Box-Ball Systems''
- * '''Vincent Delecroix''' on ''TBA''
+ * '''Vincent Delecroix''' on ''Computing Lyapunov exponents of the Teichmüller flow''
 
 == Participants ==
 
