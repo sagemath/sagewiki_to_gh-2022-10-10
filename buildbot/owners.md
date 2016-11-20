@@ -15,7 +15,7 @@ Sagemath patchbots names and owners:
     kevin-Virtualbox  --> kdilks
     geom              --> dimpase
     groebner          --> jkroeker
-    hera-OptiPlex     --> BLACKLISTED
+    hera-OptiPlex     --> ?
     icj-laptop        --> chapoton
     librae            --> vdelecroix
     Martin-Laptop     --> mantepse
