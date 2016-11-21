@@ -46,11 +46,13 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 
 == Tutorials on learning python/Sage ==
 
-For participants starting with python and Sage, we suggest you to go through some tutorials listed here.
+For participants starting with python and Sage, we suggest you to go through some tutorials and documentation listed here.
 
 [[http://doc.sagemath.org/html/en/tutorial/tour.html|A guided tour in Sage]] takes you through basic notions and structures available in Sage.
 
 [[https://docs.python.org/3/tutorial/|The python tutorial]] guides you through the basic notions to advanced features of python programming language.
+
+We prepared a tutorial for your [[|First steps in Sage]]
 
 == Sage Development ==
 
