@@ -38,7 +38,7 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 ||14:00  ||<#12AB0A|2> Travis Scrimshaw Crystals and Box-Ball Systems ||<#12AB0A|2> Vincent Delecroix Lyapunov exponent of Teichmüller Flow ||<#FFC300|2> Practical Work ||<#FFA500|2> Zabrodsky Lectures: Dan Freed (U. Texas at Austin) -- Manchester Building||
 ||14:30  ||
 ||15:00  ||||||<#A5DDFF> Coffee break ||<#FFC500:> Light Refreshments ||
-||15:30  ||<#FF7676:> Tutorial: Repr. Th. & Crystals ||<#FF7676:> Multi-dim. continued fractions ||<#FFC300|3> Practical Work ||<:> End ||
+||15:30  ||<#FF7676:> Tutorial: Repr. Th. & Crystals [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.ipynb|Jupyter notebook]] ||<#FF7676:> Multi-dim. continued fractions ||<#FFC300|3> Practical Work ||<:> End ||
 ||16:00  ||<#FFC300|2> Practical Work ||<#FFC300|2> Practical Work ||
 ||16:30  ||
 ||16:45  ||<#8348AF:> Report ||<#8348AF:> Report ||<#8348AF:> Report ||
@@ -54,7 +54,7 @@ For participants starting with python and Sage, we suggest you to go through som
 
 == Speakers ==
 
- * '''Travis Scrimshaw''' on ''Crystals and Box-Ball Systems''
+ * '''Travis Scrimshaw''' on ''Crystals and Box-Ball Systems'' [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=scrimshaw_talk.pdf|slides]]
  * '''Vincent Delecroix''' on ''Computing Lyapunov exponents of the Teichmüller flow''
 
 == Participants ==
