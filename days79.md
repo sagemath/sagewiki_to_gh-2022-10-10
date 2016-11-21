@@ -22,7 +22,7 @@ Venue: '''Library of the Belgium House''', Hebrew University of Jerusalem, Givat
 
 == Program ==
 
-Fill [[https://www.google.co.il/search?client=ubuntu&channel=fs&q=days79&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=6aQyWLrCAZHY8Ae2vYOoDw|the pad]] with your needs!
+Fill [[https://mensuel.framapad.org/p/sagedays79|the pad]] with your needs!
 
 Here is a preliminary program for the workshop. The content of the week is ''very flexible'': more tutorials and presentations can occur depending on the interests of participants. There are side tables in the Library room: small groups of people may use them to work during the tutorials.
 
