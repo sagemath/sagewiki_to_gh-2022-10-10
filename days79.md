@@ -52,6 +52,10 @@ For participants starting with python and Sage, we suggest you to go through som
 
 [[https://docs.python.org/3/tutorial/|The python tutorial]] guides you through the basic notions to advanced features of python programming language.
 
+== Sage Development ==
+
+Sage trac tickets with keyword [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days79&order=priority|days79]]. Do not forget to add the keyword "days79" for Sage trac tickets you are working on during the week.
+
 == Speakers ==
 
  * '''Travis Scrimshaw''' on ''Crystals and Box-Ball Systems'' [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=scrimshaw_talk.pdf|slides]]
