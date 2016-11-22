@@ -33,7 +33,7 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 ||9:30   ||<#12AB0A|2> Presentation of Sage + Installation Session||
 ||10:00  ||<#FFC300:> Practical Work ||<#FFC300:> Practical Work ||
 ||10:30  ||||||||<#A5DDFF> Coffee break ||
-||11:00  ||<#12AB0A|3> Installation Session + Introduction to Sage/python ||<#FF7676:> Tutorial: Polytopes & Discr. Geom. ||<#FF7676:> Tutorial: Graphs & Linear Prog. ||<#FFC300:> Practical Work ||
+||11:00  ||<#12AB0A|3> Installation Session + Introduction to Sage/python ||<#FF7676:> Tutorial: Polytopes & Discr. Geom. ||<#FF7676:> Tutorial: Graphs & Linear Prog. [[attachment:graphs_and_lp.ipynb|ipynb]] [[attachment:graphs_and_lp.pdf|pdf]] ||<#FFC300:> Practical Work ||
 ||11:30  ||<#FFC300|2> Practical Work ||<#FFC300|2> Practical Work ||<#8348AF|2> Status Report ||
 ||12:00  ||
 ||12:30  ||||||||<#A5DDFF> Lunch ||
@@ -50,19 +50,21 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 
 For participants starting with Python and Sage, we suggest you to read through some (not all!) documentation listed here.
 
-[[http://doc.sagemath.org/html/en/tutorial/tour.html|A guided tour in Sage]] takes you through basic notions and structures available in Sage.
+  * [[http://doc.sagemath.org/html/en/tutorial/tour.html|A guided tour in Sage]] takes you through basic notions and structures available in Sage.
 
-[[https://docs.python.org/3/tutorial/|The python tutorial]] guides you through the basic notions to advanced features of python programming language.
+  * [[https://docs.python.org/3/tutorial/|The python tutorial]] guides you through the basic notions to advanced features of python programming language.
 
-Test your knowledge with the progressive tutorials:
+  * And you can test your knowledge with the progressive tutorials:
 
- i. A tutorial for your [[attachment:First steps in Sage.ipynb|First steps in Sage]]
- i. A tutorial for you to leran [[attachment:introduction_to_imperative_programming.ipynb|imperative programming]] ( [[attachment:introduction_to_imperative_programming.rst]])
- i. A tutorial for you to learn [[attachment:python_object_oriented.ipynb|object oriented python]]
+    i. A tutorial for your [[attachment:First steps in Sage.ipynb|First steps in Sage]]
+    ii. A tutorial for you to learn [[attachment:introduction_to_imperative_programming.ipynb|imperative programming]] ( [[attachment:introduction_to_imperative_programming.rst]])
+    iii. A tutorial for you to learn [[attachment:python_object_oriented.ipynb|object oriented python]]
 
- * Polytope tutorial (Moritz Firsching): [[attachment:Polytope playground.ipynb]]
+* Polytope tutorial (Moritz Firsching): [[attachment:Polytope playground.ipynb]]
 
-Representation theory and crystals tutorial [[attachment:repr_theory_tutorial.ipynb|Jupyter notebook]]
+* Representation theory and crystals tutorial [[attachment:repr_theory_tutorial.ipynb|Jupyter notebook]]
+
+* Graph theory and Linear Programming [[attachment:graphs_and_lp.ipynb|Jupyter notebook]] [[attachment:graphs_and_lp.pdf|pdf version of the notebook]]
 
 == Sage Development ==
 
