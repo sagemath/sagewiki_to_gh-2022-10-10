@@ -60,6 +60,7 @@ and test you knowledge with the progressive tutorials:
  i. A tutorial for you to leran [[attachment:introduction_to_imperative_programming.ipynb|imperative programming]] ( [[attachment:introduction_to_imperative_programming.rst]])
  i. A tutorial for you to learn [[attachment:python_object_oriented.ipynb|object oriented python]]
 
+Polytope tutorial (Moritz Firsching): 
 == Sage Development ==
 
 Sage trac tickets with keyword [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days79&order=priority|days79]]. Do not forget to add the keyword "days79" for Sage trac tickets you are working on during the week.
