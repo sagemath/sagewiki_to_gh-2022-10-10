@@ -48,19 +48,19 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 
 == Tutorials on learning python/Sage ==
 
-- For participants starting with Python and Sage, we suggest you to read through some (not all!) documentation listed here.
+- For participants starting with Python and Sage, we suggest you to read through some (not all!) documentation listed below
 
   - [[http://doc.sagemath.org/html/en/tutorial/tour.html|A guided tour in Sage]] takes you through basic notions and structures available in Sage.
 
   - [[https://docs.python.org/3/tutorial/|The python tutorial]] guides you through the basic notions to advanced features of python programming language.
 
-  And you can test your knowledge with the progressive tutorials:
+- You can then test your knowledge with these progressive tutorials:
 
-  - A tutorial for your [[attachment:First steps in Sage.ipynb|First steps in Sage]]
+  - [[attachment:First steps in Sage.ipynb|First steps in Sage]]
 
-  - A tutorial for you to learn [[attachment:introduction_to_imperative_programming.ipynb|imperative programming]] ( [[attachment:introduction_to_imperative_programming.rst]])
+  - [[attachment:introduction_to_imperative_programming.ipynb|imperative programming]]
 
-  - A tutorial for you to learn [[attachment:python_object_oriented.ipynb|object oriented python]]
+  - [[attachment:python_object_oriented.ipynb|object oriented python]]
 
 - Polytope tutorial (Moritz Firsching): [[attachment:Polytope playground.ipynb]]
 
