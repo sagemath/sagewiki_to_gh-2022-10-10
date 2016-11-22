@@ -68,6 +68,9 @@ Sage trac tickets with keyword [[https://trac.sagemath.org/query?status=closed&s
 
  * '''Travis Scrimshaw''' on ''Crystals and Box-Ball Systems'' [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=scrimshaw_talk.pdf|slides]]
  * '''Vincent Delecroix''' on ''Computing Lyapunov exponents of the Teichmüller flow''
+    * [[attachment:VincentDelecroix-beamer_jerusalem_2016.pdf]]
+    * [[attachment:VincentDelecroix-notebook_Jerusalem_2016.ipynb]]
+    * [[attachment:VincentDelecroix-notebook_Jerusalem_2016.pdf]]
 
 == Participants ==
 
