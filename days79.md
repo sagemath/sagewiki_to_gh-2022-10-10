@@ -61,7 +61,8 @@ Test your knowledge with the progressive tutorials:
  i. A tutorial for you to learn [[attachment:python_object_oriented.ipynb|object oriented python]]
 
  * Polytope tutorial (Moritz Firsching): [[attachment:Polytope playground.ipynb]]
- * Representation theory and crystals tutorial (Travis Scrimshaw): [[attachment:repr_theory_tutorial.ipynb|Jupyter notebook]]
+
+Representation theory and crystals tutorial [[attachment:repr_theory_tutorial.ipynb|Jupyter notebook]]
 
 == Sage Development ==
 
