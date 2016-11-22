@@ -55,7 +55,7 @@ For participants starting with python and Sage, we suggest you to read through s
 and test you knowledge with the progressive tutorials:
 
  i. A tutorial for your [[attachment:First steps in Sage.ipynb|First steps in Sage]]
- i. A tutorial for
+ i. A tutorial for you to leran [[attachment:introduction_to_imperative_programming.ipynb|imperative programming]] ( [[attachment:introduction_to_imperative_programming.rst]])
  i. A tutorial for you to learn [[attachment:python_object_oriented.ipynb|object oriented python]]
 
 == Sage Development ==
