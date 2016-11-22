@@ -10,6 +10,8 @@
 
 This Sage Days is the first one organized in Israel under the framework of the European Research Council (ERC) grant entitled: '''“Avenues in Probabilistic and Geometric Combinatorics”''' and the European Commission H2020 project [[http://opendreamkit.org/|OpenDreamKit]]. The aim of the meeting will be to introduce the software to students and mathematicians in the region, with further emphasis on (but not limited to) '''geometric combinatorics''' and '''symbolic dynamics'''. It will be a great occasion to learn more about the software and for advanced developers to present and improve current tools.
 
+Fill [[https://mensuel.framapad.org/p/sagedays79|the pad]] with your needs and wishes!
+
 Organizer: [[mailto:labbe@math.huji.ac.il|Jean-Philippe Labbé]]. 
 
 == Dates and Venue ==
@@ -22,7 +24,7 @@ Venue: '''Library of the Belgium House''', Hebrew University of Jerusalem, Givat
 
 == Program ==
 
-Fill [[https://mensuel.framapad.org/p/sagedays79|the pad]] with your needs!
+Fill [[https://mensuel.framapad.org/p/sagedays79|the pad]] with your needs and wishes!
 
 Here is a preliminary program for the workshop. The content of the week is ''very flexible'': more tutorials and presentations can occur depending on the interests of participants. There are side tables in the Library room: small groups of people may use them to work during the tutorials.
 
