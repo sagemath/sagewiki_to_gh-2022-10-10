@@ -66,7 +66,7 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 
 - Representation theory and crystals tutorial (Travis Scrimshaw) [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.ipynb|Jupyter notebook]]
 
-- Graph theory and Linear Programming tutorial (Vincent Delecroix) [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.ipynb|Jupyter notebook]] [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.pdf|pdf version of the notebook]]
+- Graph theory and Linear Programming tutorial (Vincent Delecroix) [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.ipynb|Jupyter notebook]] [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=graphs_and_lp.pdf|pdf version of the notebook]]
 
 == Sage Development ==
 
@@ -74,12 +74,12 @@ Sage trac tickets with keyword [[https://trac.sagemath.org/query?status=closed&s
 
 == Speakers ==
 
- * '''Travis Scrimshaw''' on ''Crystals and Box-Ball Systems'' [[attachment:scrimshaw_talk.pdf|slides]]
+ * '''Travis Scrimshaw''' on ''Crystals and Box-Ball Systems'' [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=scrimshaw_talk.pdf|slides]]
 
  * '''Vincent Delecroix''' on ''Computing Lyapunov exponents of the Teichmüller flow''
-    * [[attachment:VincentDelecroix-beamer_jerusalem_2016.pdf]]
-    * [[attachment:VincentDelecroix-notebook_Jerusalem_2016.ipynb]]
-    * [[attachment:VincentDelecroix-notebook_Jerusalem_2016.pdf]]
+    * [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=VincentDelecroix-beamer_jerusalem_2016.pdf|VincentDelecroix-beamer_jerusalem_2016.pdf]]
+    * [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=VincentDelecroix-notebook_Jerusalem_2016.ipynb|VincentDelecroix-notebook_Jerusalem_2016.ipynb]]
+    * [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=VincentDelecroix-beamer_jerusalem_2016.pdf|VincentDelecroix-notebook_Jerusalem_2016.pdf]]
 
 == Participants ==
 
