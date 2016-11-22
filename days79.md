@@ -56,17 +56,17 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 
 - You can then test your knowledge with these progressive tutorials:
 
-  - [[attachment:First steps in Sage.ipynb|First steps in Sage]]
+  - [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=First+steps+in+Sage.ipynb|First steps in Sage]]
 
-  - [[attachment:introduction_to_imperative_programming.ipynb|imperative programming]]
+  - [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=introduction_to_imperative_programming.ipynb|imperative programming]]
 
-  - [[attachment:python_object_oriented.ipynb|object oriented python]]
+  - [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=python_object_oriented.ipynb|object oriented python]]
 
-- Polytope tutorial (Moritz Firsching): [[attachment:Polytope playground.ipynb]]
+- Polytope tutorial (Moritz Firsching): [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=Polytope+playground.ipynb|Polytope playground.ipynb]]
 
-- Representation theory and crystals tutorial (Travis Scrimshaw) [[attachment:repr_theory_tutorial.ipynb|Jupyter notebook]]
+- Representation theory and crystals tutorial (Travis Scrimshaw) [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.ipynb|Jupyter notebook]]
 
-- Graph theory and Linear Programming tutorial (Vincent Delecroix) [[attachment:graphs_and_lp.ipynb|Jupyter notebook]] [[attachment:graphs_and_lp.pdf|pdf version of the notebook]]
+- Graph theory and Linear Programming tutorial (Vincent Delecroix) [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.ipynb|Jupyter notebook]] [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.ipynb|pdf version of the notebook]]
 
 == Sage Development ==
 
