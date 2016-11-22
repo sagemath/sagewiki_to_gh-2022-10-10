@@ -40,7 +40,7 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 ||14:00  ||<#12AB0A|2> Travis Scrimshaw Crystals and Box-Ball Systems ||<#12AB0A|2> Vincent Delecroix Lyapunov exponent of Teichmüller Flow ||<#FFC300|2> Practical Work ||<#FFA500|2> Zabrodsky Lectures: Dan Freed (U. Texas at Austin) -- Manchester Building||
 ||14:30  ||
 ||15:00  ||||||<#A5DDFF> Coffee break ||<#FFC500:> Light Refreshments ||
-||15:30  ||<#FF7676:> Tutorial: Repr. Th. & Crystals [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.ipynb|Jupyter notebook]] ||<#FF7676:> Multi-dim. continued fractions ||<#FFC300|3> Practical Work ||<:> End ||
+||15:30  ||<#FF7676:> Tutorial: Repr. Th. & Crystals ||<#FF7676:> Multi-dim. continued fractions ||<#FFC300|3> Practical Work ||<:> End ||
 ||16:00  ||<#FFC300|2> Practical Work ||<#FFC300|2> Practical Work ||
 ||16:30  ||
 ||16:45  ||<#8348AF:> Report ||<#8348AF:> Report ||<#8348AF:> Report ||
@@ -48,26 +48,29 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 
 == Tutorials on learning python/Sage ==
 
-For participants starting with python and Sage, we suggest you to read through some (not all!) documentation listed here.
+For participants starting with Python and Sage, we suggest you to read through some (not all!) documentation listed here.
 
 [[http://doc.sagemath.org/html/en/tutorial/tour.html|A guided tour in Sage]] takes you through basic notions and structures available in Sage.
 
 [[https://docs.python.org/3/tutorial/|The python tutorial]] guides you through the basic notions to advanced features of python programming language.
 
-and test you knowledge with the progressive tutorials:
+Test your knowledge with the progressive tutorials:
 
  i. A tutorial for your [[attachment:First steps in Sage.ipynb|First steps in Sage]]
  i. A tutorial for you to leran [[attachment:introduction_to_imperative_programming.ipynb|imperative programming]] ( [[attachment:introduction_to_imperative_programming.rst]])
  i. A tutorial for you to learn [[attachment:python_object_oriented.ipynb|object oriented python]]
 
  * Polytope tutorial (Moritz Firsching): [[attachment:Polytope playground.ipynb]]
+ * Representation theory and crystals tutorial (Travis Scrimshaw): [[attachment:repr_theory_tutorial.ipynb|Jupyter notebook]]
+
 == Sage Development ==
 
 Sage trac tickets with keyword [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days79&order=priority|days79]]. Do not forget to add the keyword "days79" for Sage trac tickets you are working on during the week.
 
 == Speakers ==
 
- * '''Travis Scrimshaw''' on ''Crystals and Box-Ball Systems'' [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=scrimshaw_talk.pdf|slides]]
+ * '''Travis Scrimshaw''' on ''Crystals and Box-Ball Systems'' [[attachment:scrimshaw_talk.pdf|slides]]
+
  * '''Vincent Delecroix''' on ''Computing Lyapunov exponents of the Teichmüller flow''
     * [[attachment:VincentDelecroix-beamer_jerusalem_2016.pdf]]
     * [[attachment:VincentDelecroix-notebook_Jerusalem_2016.ipynb]]
