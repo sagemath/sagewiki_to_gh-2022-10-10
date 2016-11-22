@@ -66,7 +66,7 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 
 - Representation theory and crystals tutorial (Travis Scrimshaw) [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.ipynb|Jupyter notebook]]
 
-- Graph theory and Linear Programming tutorial (Vincent Delecroix) [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.ipynb|Jupyter notebook]] [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.ipynb|pdf version of the notebook]]
+- Graph theory and Linear Programming tutorial (Vincent Delecroix) [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.ipynb|Jupyter notebook]] [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=repr_theory_tutorial.pdf|pdf version of the notebook]]
 
 == Sage Development ==
 
