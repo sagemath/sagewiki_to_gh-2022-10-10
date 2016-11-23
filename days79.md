@@ -74,6 +74,8 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 
 Sage trac tickets with keyword [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days79&order=priority|days79]]. Do not forget to add the keyword "days79" for Sage trac tickets you are working on during the week.
 
+The documentation concerning contributing to Sage can be accessed here: [[http://doc.sagemath.org/html/en/developer/index.html|Sage Developer’s Guide]]
+
 == Speakers ==
 
  * '''Travis Scrimshaw''' on ''Crystals and Box-Ball Systems'' [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=scrimshaw_talk.pdf|slides]]
