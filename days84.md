@@ -5,7 +5,12 @@
 
 <<TableOfContents()>>
 
-These Sage days will be focused on the development of the interface to polytopes libraries (ppl, polymake, etc) as well as the creation of a generic number field implementation in C/C++. This workshop is dedicated to people already familiar to Sage or being active in some polytope related libraries/softwares.
+These (Sage) days will be focused on:
+ - the development of interfaces to polytope libraries/softwares (ppl, polymake, etc)
+ - moving as independent Python packages the Sage interfaces to cdd, ppl, etc (see e.g. [pplpy](https://pypi.python.org/pypi/pplpy/))
+ - generic number field implementation in C/C++ using normaliz
+ - and more!
+This workshop is dedicated to people already familiar to Sage or being active in some polytope related libraries/softwares.
 
 There is a very limited number of places. If you are interested get quickly in contact with Vincent Delecroix (vincentDOTdelecroixATuDASHbordeaux.fr).
 
