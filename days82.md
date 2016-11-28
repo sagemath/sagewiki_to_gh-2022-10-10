@@ -14,7 +14,11 @@ During the workshop participants will have to cook several times for everybody. 
 == Participants ==
 
 - [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] is a researcher in ergodic theory, geometry and combinatorics on words.
+
 - Marc Masdeu
+
 - Jean-Philippe Labbé
+
 - Matthias Köppe
+
 - Moritz Firsching
