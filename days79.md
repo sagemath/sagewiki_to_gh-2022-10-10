@@ -64,7 +64,7 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 
   - [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=python_object_oriented.ipynb|object oriented python]]
 
-  - [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=python_object_oriented--Solution.ipynb|object oriented python -- Solution]]
+  - [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=object_oriented_python--Solution.ipynb|object oriented python -- Solution]]
 
 - Polytope tutorial (Moritz Firsching): [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=Polytope+playground.ipynb|Polytope playground.ipynb]]
 
