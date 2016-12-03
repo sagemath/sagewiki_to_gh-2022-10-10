@@ -58,9 +58,11 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 
   - [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=First+steps+in+Sage.ipynb|First steps in Sage]]
 
-  - [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=First+steps+in+Sage--Solution.ipynb|First steps in Sage -- Solutions]]
+  - [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=First+steps+in+Sage--Solution.ipynb|First steps in Sage -- Solution]]
 
-  - [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=introduction_to_imperative_programming.ipynb|imperative programming]]
+  - [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=introduction_to_imperative_programming.ipynb|Imperative Programming]]
+
+  - [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=introduction_to_imperative_programming--Solution.ipynb|Imperative Programming -- Solution]]
 
   - [[https://wiki.sagemath.org/days79?action=AttachFile&do=get&target=python_object_oriented.ipynb|object oriented python]]
 
