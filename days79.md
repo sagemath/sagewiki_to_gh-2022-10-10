@@ -50,9 +50,9 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 
 - For participants starting with Python and Sage, we suggest you to read through some (not all!) documentation listed below
 
-  - [[http://doc.sagemath.org/html/en/tutorial/tour.html|A guided tour in Sage]] takes you through basic notions and structures available in Sage.
+  - [[http://doc.sagemath.org/html/en/tutorial/tour.html|A guided tour in Sage]] takes you through basic notions and structures available in Sage
 
-  - [[https://docs.python.org/3/tutorial/|The python tutorial]] guides you through the basic notions to advanced features of python programming language.
+  - [[https://docs.python.org/3/tutorial/|The python tutorial]] guides you through the basic notions to advanced features of python programming language
 
 - You can then test your knowledge with these progressive tutorials:
 
@@ -75,6 +75,21 @@ Here is a preliminary program for the workshop. The content of the week is ''ver
 Sage trac tickets with keyword [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days79&order=priority|days79]]. Do not forget to add the keyword "days79" for Sage trac tickets you are working on during the week.
 
 The documentation concerning contributing to Sage can be accessed here: [[http://doc.sagemath.org/html/en/developer/index.html|Sage Developer’s Guide]]
+
+== Status Report ==
+
+As the first Sage Days in Israel, the main objective of this meeting was to introduce the software to local participants. Around half of the ~45 participants were beginners, we made around 15 installations of SageMath on Windows, Mac and Linux. The [[http://www.sagemath.org/download-liveusb.html|Live USB sticks]] were of great help. We allocated a lot of time for beginners to learn from tutorials but also directly from the more experienced users by personalized help. Having a flexible schedule allowed to have such help sessions, but one should not forget to prepare material for all participants to stay busy.
+
+Here is a summary of the accomplishments of the week:
+
+  * 47 tickets, see [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days79&order=priority|here]] for more details.
+  * Around 15 installations on Windows, Mac and Linux
+  * Creation of a sample package for adding to Sage
+  * Around 10 participants got to know Sage better doing tutorials
+  * Experienced Sage users answered tons of questions surrounding usage of Sage
+  * We got 5-6 more experienced users to contribute to Sage by reviewing, reporting, writing tickets
+  * Many discussions and healthy debates about view, plot, show and polytope in Sage
+  * Some projects and discussions will be continued through future collaborations and meetings in 2017
 
 == Speakers ==
 
