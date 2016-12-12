@@ -61,6 +61,7 @@ The [[devel | development wiki]] also contain some (currently out-of-date) infor
  * [[Coding_Theory|Coding Theory in Sage]]
  * [[Debate/Collective infrastructure management]]
  * [[CodeSharingWorkflow|On development models for sharing (experimental) code]]
+ * [[Python3|On the move to Python 3]]
 
 = Demonstrations of Graphical Capabilities (mostly out-of-date) =
 
