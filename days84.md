@@ -24,4 +24,5 @@ During the workshop participants will have to cook several times for everybody. 
  * Jean-Philippe Labbé
  * Matthias Köppe
  * Moritz Firsching
- * Simon King (?)
+ * Simon King (to be confirmed)
+ * Julian Pfeifle (to be confirmed)
