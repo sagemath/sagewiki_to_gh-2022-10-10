@@ -9,6 +9,7 @@ These (Sage) days will be focused on:
  * the development of interfaces to polytope libraries/softwares (ppl, polymake, etc)
  * moving as independent Python packages the Sage interfaces to cdd, ppl, etc (see e.g. [[https://pypi.python.org/pypi/pplpy/|pplpy]])
  * generic number field implementation in C/C++ using normaliz
+ * mutable polytopes in Sage
  * and more!
 This workshop is dedicated to people already familiar to Sage or being active in some polytope related libraries/softwares.
 
@@ -23,3 +24,4 @@ During the workshop participants will have to cook several times for everybody. 
  * Jean-Philippe Labbé
  * Matthias Köppe
  * Moritz Firsching
+ * Simon King (?)
