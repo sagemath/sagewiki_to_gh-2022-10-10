@@ -61,7 +61,7 @@ The [[devel | development wiki]] also contain some (currently out-of-date) infor
  * [[Coding_Theory|Coding Theory in Sage]]
  * [[Debate/Collective infrastructure management]]
  * [[CodeSharingWorkflow|On development models for sharing (experimental) code]]
- * [[Python3|Porting sagelib to Python 3]]
+ * [[Python3-compatible code|Writing Python 3 compatible code]] see also [[PortingToPython3|matplotlib experience Porting to Python 3]]
 
 = Demonstrations of Graphical Capabilities (mostly out-of-date) =
 
