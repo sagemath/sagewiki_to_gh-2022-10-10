@@ -29,3 +29,22 @@ Monday January 9, 2017
 The event is free. Please register by sending an email to [[mailto:viviane.pons@lri.fr|viviane.pons@lri.fr]] (to evaluate the number of participants)
 
 == Participants ==
+
+ * Mary Baker, Tarleton State Univ.
+ * Jennifer Balakrishnan, Boston univ.
+ * Judith Braunsteiner, TU Wien
+ * Justine Falque, Univ. Paris-Sud
+ * Emily Gunawan, Gustavus Adolphus College
+ * Sonia Ionica, Univ. de Picardie
+ * Evgeniya Ishchukova, Southern Fed. Univ. Taganrog
+ * Rachel Karpman, The Ohio State University
+ * Elisa Lorenzo García, Univ. Rennes 1
+ * Ekaterina Maro, Southern Fed. Univ. Taganrog
+ * Turku Ozlum CELIK, Univ. Rennes 1
+ * Viviane Pons, Univ. Paris-Sud
+ * Christelle Rovetta, UPMC
+ * Anna Somoza, Univ. Politectica de Catalunya
+ * Manon Stipulati, Univ. Liege
+ * Jessica Striker, North Dakota State
+ * Lama Tarsissi, Univ. Savoie Mont-Blanc
+ * Eleni Tzanaki, Univ. of Crete
