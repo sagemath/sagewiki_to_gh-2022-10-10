@@ -25,28 +25,116 @@ part of the [[http://opendreamkit.org/|OpenDreamKit]] project and has been using
 
 == Venue ==
 
-The workshop will take place in a rented house in Paris area. Some activities will be held at Paris-Sud university. More information to come.
+The workshop is mostly organized at a rented house in Ris-Orangis (Paris area, RER D):
 
+https://www.homelidays.com/hebergement/p1594881
 
-'''Lodging and food will be provided for all participants, transportation is NOT provided.'''
+19 bis avenue des Marronniers - 91130 RIS-ORANGIS
+
+Monday morning, we will be at [[http://www.ihp.fr/|Institut Henri Poincarré]] in Paris.
 
 == Application ==
 
-Due to the conditions of the workshop, the size of the event is limited. We ask every potential participant to send an application. '''Applications are due October 31''', a response will be sent in early November or even earlier if the number of applications is limited.
+Applications are now closed, The house is full! Never the less, even though we cannot provide more lodging, you are free to join us during the day.
+Please let us know by sending an email to: days82@services.cnrs.fr .
 
-Once an application is accepted, then '''all local costs''' (food and lodging) will be taken care of by the conference. Transportation stays at the charge of the participant. 
+== Program ==
 
-'''''Please send your application to [[mailto:days82@services.cnrs.fr|days82@services.cnrs.fr]] including'''''
+||          || Monday 01/09 || Tuesday 01/10 || Wednesday 01/11 || Thursday 01/12 || Friday 01/13 ||
+|| Morning  || [[https://wiki.sagemath.org/days82_sageintro| Sage introduction workshop]] <<BR>>   IHP ||  Short presentations <<BR>> from participants || PROJECTS || PROJECTS || Leaving the house ||
+|| Afternoon || Back to the house <<BR>> Short presentations <<BR>> from participants || PROJECTS || PROJECTS || PROJECTS || Coding Cafe with Pyladies <<BR>> (Paris, location TBA) ||
 
-'''Name, institution, professional situation''' (student, postdoc, professor, etc.)
+== Participants ==
 
-'''Previous programming experience:''' describe your programming experience either with Sage or any other language. Please note '''that previous
-experience is not necessary''' to participate to the event!
+ * Mary Baker, Tarleton State Univ.
+ * Jennifer Balakrishnan, Boston univ.
+ * Judith Braunsteiner, TU Wien
+ * Justine Falque, Univ. Paris-Sud
+ * Emily Gunawan, Gustavus Adolphus College
+ * Sonia Ionica, Univ. de Picardie
+ * Evgeniya Ishchukova, Southern Fed. Univ. Taganrog
+ * Rachel Karpman, The Ohio State University
+ * Elisa Lorenzo García, Univ. Rennes 1
+ * Ekaterina Maro, Southern Fed. Univ. Taganrog
+ * Turku Ozlum CELIK, Univ. Rennes 1
+ * Viviane Pons, Univ. Paris-Sud
+ * Christelle Rovetta, UPMC
+ * Anna Somoza, Univ. Politectica de Catalunya
+ * Manon Stipulati, Univ. Liege
+ * Jessica Striker, North Dakota State
+ * Lama Tarsissi, Univ. Savoie Mont-Blanc
+ * Eleni Tzanaki, Univ. of Crete
 
-'''Mathematical / Sage project:''' If you have a specific project in mind to work on during the week, please describe it. Otherwise, tell us what part
-of Sage you are interested in and what kind of mathematics you do. ''Remark: a same project can be shared by many participants, if you share your project
-with another applicant, please say so''.
+== Thematics ==
 
-'''Motivation:''' please explain what motivates you to participate to this event.
+=== Combinatorics of words ===
 
-'''Reference letter:''' if you are a student, please attach a reference letter.
+Lama: Christoffel words, Stern-Brocot tree, Continued fraction, Balanced words.
+
+Manon: Pascal triangles, k-regular sequences, abstract numeration systems, Cobham's theorems.
+
+=== Discrete Geometry ===
+
+Eleni: polytopes, Minkowski sum, Minkowski decomposition, hyperplane arrangements
+
+=== Algebraic combinatorics ===
+
+Judith: combinatorial representation theory, special orthogonal group, vacillating tableaux, branching rules
+
+Emily: Cluster algebras, Laurent Phenomenon algebras, algebraic combinatorics, frieze pattern
+
+Rachel: positroids, cluster algebras, flag varieties, networks
+
+Justine: Permutation groups, profile, age algebra, relational structures
+
+Viviane: Weak order, Tamari lattice, posets
+
+=== Abstract Algebra ===
+
+Mary: Quantum Shuffle Algebra, KLR Algebra, PBW Bases
+
+=== Perfect Simulation ===
+
+Christelle: Markov chains, queueing networks, perfect simulation
+
+=== Number Theory ===
+
+Anna: Schottky problem, Sato-Tate conjecture
+
+Turku Ozlum: geometry, algebra, cryptography
+
+=== Arithmetic geometry ===
+
+Elisa: Low genus curves, curves invariants, jacobians curves.
+
+=== Cryptography ===
+
+Sorina Ionica: curve-based cryptography, number theory, algorithms
+
+=== Cryptanalysis of block ciphers ===
+
+Ekaterina: solving nonlinear systems of equations, SAT solving, algebraic cryptanalysis
+
+Evgeniya: Block cipher, cryptanalysis, secret key, parallel computations 
+
+== Projects ==
+
+=== Invariant of curves ===
+
+Anna, Elisa, Sorina
+
+=== Kummer surface ===
+
+Turku Ozlum
+
+=== Sage Package for Khovanov-Lauda-Rouquier (KLR) algebras ===
+
+Mary
+
+=== Snake graph cluster algebra ===
+
+Emily
+
+## Positroid varieties in the Grassmannian
+
+Rachel
