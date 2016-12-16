@@ -35,8 +35,10 @@ Monday morning, we will be at [[http://www.ihp.fr/|Institut Henri Poincarré]] i
 
 Instruction to go to the house:
 
-by train: RER D, station "Ris-Orangis".
+'''by train: RER D, station "Ris-Orangis".'''
+
 From Roissy airport: take RER B up to Gare du Nord then change to RER D to Ris-Orangis (direction Corbeil Essone, check on the board that the train goes there)
+
 From Orly Airport : take Orly bus to Denfert Rochereau, then RER B to Chatelet les Halles (direction north) then RER D to Ris-Orangis (direction Corbeil Essone, check on the board that the train goes there). Another option is to take Orlyval to Antony where you can take the RER B to Chatelet les Halles.
 
 
