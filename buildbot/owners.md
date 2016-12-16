@@ -17,13 +17,13 @@ Sagemath patchbots names and owners:
     groebner          --> jkroeker
     hera-OptiPlex     --> ?
     icj-laptop        --> chapoton
-    librae            --> vdelecroix
     Martin-Laptop     --> mantepse
     mangouste         --> vdelecroix
     Mercury           --> kdilks
     pcl337b           --> ?
     pi                --> ?
     poseidon          --> kdilks
+    quasar            --> vdelecroix
     rp01              --> ?
     sage4             --> jdemeyer
     silence           --> ncohen
