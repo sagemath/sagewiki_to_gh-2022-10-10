@@ -29,7 +29,7 @@ The workshop is mostly organized at a rented house in Ris-Orangis (Paris area, R
 
 https://www.homelidays.com/hebergement/p1594881
 
-19 bis avenue des Marronniers - 91130 RIS-ORANGIS
+19 bis avenue des Marronniers - 91130 RIS-ORANGIS (around 30 kilometers soth-east of Paris)
 
 Monday morning, we will be at [[http://www.ihp.fr/|Institut Henri Poincarré]] in Paris.
 
