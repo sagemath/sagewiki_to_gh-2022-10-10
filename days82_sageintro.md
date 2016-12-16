@@ -40,6 +40,7 @@ The event is free. Please register by sending an email to [[mailto:viviane.pons@
  * Rachel Karpman, The Ohio State University
  * Elisa Lorenzo García, Univ. Rennes 1
  * Ekaterina Maro, Southern Fed. Univ. Taganrog
+ * Simon Modeste, Université de Montpellier
  * Turku Ozlum CELIK, Univ. Rennes 1
  * Viviane Pons, Univ. Paris-Sud
  * Christelle Rovetta, UPMC
