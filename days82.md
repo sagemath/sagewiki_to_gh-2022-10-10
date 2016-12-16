@@ -60,7 +60,7 @@ Please let us know by sending an email to: days82@services.cnrs.fr .
  * Viviane Pons, Univ. Paris-Sud
  * Christelle Rovetta, UPMC
  * Anna Somoza, Univ. Politectica de Catalunya
- * Manon Stipulati, Univ. Liege
+ * Manon Stipulanti, Univ. Liege
  * Jessica Striker, North Dakota State
  * Lama Tarsissi, Univ. Savoie Mont-Blanc
  * Eleni Tzanaki, Univ. of Crete
