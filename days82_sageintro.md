@@ -33,6 +33,7 @@ The event is free. Please register by sending an email to [[mailto:viviane.pons@
  * Mary Baker, Tarleton State Univ.
  * Jennifer Balakrishnan, Boston univ.
  * Judith Braunsteiner, TU Wien
+ * Sylvie Corteel, Paris Diderot
  * Justine Falque, Univ. Paris-Sud
  * Emily Gunawan, Gustavus Adolphus College
  * Sonia Ionica, Univ. de Picardie
