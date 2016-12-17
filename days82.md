@@ -65,6 +65,7 @@ Please let us know by sending an email to: days82@services.cnrs.fr .
  * Evgeniya Ishchukova, Southern Fed. Univ. Taganrog
  * Rachel Karpman, The Ohio State University
  * Elisa Lorenzo García, Univ. Rennes 1
+ * Alba Marina Málaga Sabogal, Paris 8
  * Ekaterina Maro, Southern Fed. Univ. Taganrog
  * Turku Ozlum CELIK, Univ. Rennes 1
  * Viviane Pons, Univ. Paris-Sud
@@ -111,6 +112,10 @@ Marie-Françoise: Topology of real algebraic curves, subresultants
 === Perfect Simulation ===
 
 Christelle: Markov chains, queueing networks, perfect simulation
+
+=== Dynamical Systems ===
+
+Alba: Wind trees, ergodic theory, billiards, flat surface, infinite measure preserving maps
 
 === Number Theory ===
 
