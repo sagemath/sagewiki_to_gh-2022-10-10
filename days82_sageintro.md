@@ -40,6 +40,7 @@ The event is free. Please register by sending an email to [[mailto:viviane.pons@
  * Evgeniya Ishchukova, Southern Fed. Univ. Taganrog
  * Rachel Karpman, The Ohio State University
  * Elisa Lorenzo García, Univ. Rennes 1
+ * Alba Marina Málaga Sabogal, Paris 8 
  * Ekaterina Maro, Southern Fed. Univ. Taganrog
  * Simon Modeste, Université de Montpellier
  * Turku Ozlum CELIK, Univ. Rennes 1
