@@ -69,6 +69,7 @@ Please let us know by sending an email to: days82@services.cnrs.fr .
  * Turku Ozlum CELIK, Univ. Rennes 1
  * Viviane Pons, Univ. Paris-Sud
  * Christelle Rovetta, UPMC
+ * Marie-Françoise Roy, Univ. Rennes 1
  * Anna Somoza, Univ. Politectica de Catalunya
  * Manon Stipulanti, Univ. Liege
  * Jessica Striker, North Dakota State
@@ -102,6 +103,10 @@ Viviane: Weak order, Tamari lattice, posets
 === Abstract Algebra ===
 
 Mary: Quantum Shuffle Algebra, KLR Algebra, PBW Bases
+
+=== Algorithms in real algebraic geometry ===
+
+Marie-Françoise: Topology of real algebraic curves, subresultants
 
 === Perfect Simulation ===
 
