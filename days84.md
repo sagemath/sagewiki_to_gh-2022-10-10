@@ -33,4 +33,4 @@ The Sage days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * Matthias Köppe
  * Moritz Firsching
  * Simon King (to be confirmed)
- * Julian Pfeifle (to be confirmed)
+ * Julian Pfeifle (length of stay to be confirmed)
