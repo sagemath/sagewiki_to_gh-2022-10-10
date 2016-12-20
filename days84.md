@@ -3,8 +3,6 @@
 '''''February 27th - March 12th 2017'''''
 '''''[[http://www.openstreetmap.org/#map=14/42.1772/2.4901|Olot, Cataluña, España]]'''''
 
-<<TableOfContents()>>
-
 These (Sage) days will be focused on Polytopes and linear programming. This workshop is dedicated to people already familiar to Sage or being active in some polytope related libraries/softwares.
 
 There is a very limited number of places. If you are interested get quickly in contact with Vincent Delecroix (vincentDOTdelecroixATuDASHbordeaux.fr).
