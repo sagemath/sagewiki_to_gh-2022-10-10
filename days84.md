@@ -5,14 +5,7 @@
 
 <<TableOfContents()>>
 
-These (Sage) days will be focused on Polytopes and linear programming. More specifically we would like to:
- * develop interfaces to polytope libraries/softwares (ppl, polymake, etc)
- * moving as independent Python packages the Sage interfaces to cdd, ppl, etc (see e.g. [[https://pypi.python.org/pypi/pplpy/|pplpy]])
- * make a generic number field implementation in C/C++ using normaliz
- * add mutable polytopes in Sage
- * and more!
-
-This workshop is dedicated to people already familiar to Sage or being active in some polytope related libraries/softwares.
+These (Sage) days will be focused on Polytopes and linear programming. This workshop is dedicated to people already familiar to Sage or being active in some polytope related libraries/softwares.
 
 There is a very limited number of places. If you are interested get quickly in contact with Vincent Delecroix (vincentDOTdelecroixATuDASHbordeaux.fr).
 
@@ -24,6 +17,14 @@ The Sage days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
 
  * [[http://www.teisa-bus.com/es/horarios|buses TEISA]] from either Girona or Barcelona
  * [[http://www.viesverdes.cat/FR/53/route-du-petit-train-i.html|nice bike path from Girona]]
+
+== Projects ==
+
+ * develop interfaces to polytope libraries/softwares (ppl, polymake, etc)
+ * moving as independent Python packages the Sage interfaces to cdd, ppl, etc (see e.g. [[https://pypi.python.org/pypi/pplpy/|pplpy]])
+ * make a generic number field implementation in C/C++ using normaliz
+ * add mutable polytopes in Sage
+ * ... (add your project!)
 
 == Participants ==
 
