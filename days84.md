@@ -22,6 +22,7 @@ The Sage days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * moving as independent Python packages the Sage interfaces to cdd, ppl, etc (see e.g. [[https://pypi.python.org/pypi/pplpy/|pplpy]])
  * make a generic number field implementation in C/C++ using normaliz
  * add mutable polytopes in Sage
+ * [[https://trac.sagemath.org/ticket/22006|#22006: CBC tries to use system's blas at runtime which creates an error]]
  * ... (add your project!)
 
 == Participants ==
