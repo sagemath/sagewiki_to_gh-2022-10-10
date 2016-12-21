@@ -128,4 +128,4 @@ These lists are possibly out-of-date. Use the listed Sage command for the newest
 
 Note -- wikis are ''not'' written in HTML.  Use the GUI Mode (in Firefox) or read the wiki help links at the top.
 
-'''License and Copyright.''' Contributions to the [[http://www.sagemath.org/|Sage]] wiki and to the [[http://www.sagemath.org/documentation.html|Sage documentation]] are licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]]. By contributing, you agree to place your contribution under that license.
+'''License and Copyright.''' Contributions to the [[http://www.sagemath.org/|Sage]] wiki and to the [[http://doc.sagemath.org|Sage documentation]] are licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]]. By contributing, you agree to place your contribution under that license.
