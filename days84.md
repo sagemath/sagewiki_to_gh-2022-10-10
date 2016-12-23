@@ -34,5 +34,5 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * Jean-Philippe Labbé
  * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]]
  * Moritz Firsching
- * Simon King (to be confirmed)
+ * Simon King (dates to be confirmed)
  * Julian Pfeifle (length of stay to be confirmed)
