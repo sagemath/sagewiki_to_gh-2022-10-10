@@ -39,6 +39,8 @@ The event is free. Please register by sending an email to [[mailto:viviane.pons@
  * Sonia Ionica, Univ. de Picardie
  * Evgeniya Ishchukova, Southern Fed. Univ. Taganrog
  * Rachel Karpman, The Ohio State University
+ * Eunjung Kim, Université Paris-Dauphine/LAMSADE
+ * Arpita Korwar, Univ. Paris-Diderot
  * Anne-Catherine Letournel, Univ Paris-Sud
  * Elisa Lorenzo García, Univ. Rennes 1
  * Alba Marina Málaga Sabogal, Paris 8 
@@ -52,3 +54,4 @@ The event is free. Please register by sending an email to [[mailto:viviane.pons@
  * Jessica Striker, North Dakota State
  * Lama Tarsissi, Univ. Savoie Mont-Blanc
  * Eleni Tzanaki, Univ. of Crete
+ * Françoise Levy-dit-Vehel, ENSTA
