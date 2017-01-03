@@ -9,7 +9,7 @@ We will probably communicate using Gitter and Framapad. This will be decided lat
 
 = Organizers =
 
-Daniel Augot, David Lucas, Johan Rosenkilde, Clément Pernet.
+Daniel Augot, David Lucas, Julien Lavauzelle, Johan Rosenkilde, Clément Pernet.
 
 Please contact Johan Rosenkilde (jsrn[at]jsrn.dk) for any question.
 
@@ -32,4 +32,5 @@ Feel free to add yourself to this list if you plan to participate for some of or
  * David Lucas (dlucas)
  * Johan Rosenkilde (jsrn)
  * Clément Pernet (cpernet)
+ * Julien Lavauzelle (jlavauzelle)
  * Luca De Feo (defeo) — afternoon only
