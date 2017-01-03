@@ -18,9 +18,9 @@ Monday January 9, 2017
 
 10AM -- 1PM Tutorials
 
- * Introduction to Sage tutorial
- * Introduction to python and Sage
- * Programming for research in Sage
+ * Introduction to Sage and Python tutorial
+ * Introduction to number theory in Sage
+ * Intro to research-based coding in Sage (combinatorics)
 
 1PM -- 2PM lunch buffet
 
@@ -33,6 +33,7 @@ The event is free. Please register by sending an email to [[mailto:viviane.pons@
  * Mary Baker, Tarleton State Univ.
  * Jennifer Balakrishnan, Boston univ.
  * Judith Braunsteiner, TU Wien
+ * Victoria Cantoral, Univ. Paris Diderot
  * Sylvie Corteel, Paris Diderot
  * Justine Falque, Univ. Paris-Sud
  * Emily Gunawan, Gustavus Adolphus College
