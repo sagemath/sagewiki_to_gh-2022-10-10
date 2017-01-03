@@ -32,3 +32,4 @@ Feel free to add yourself to this list if you plan to participate for some of or
  * David Lucas (dlucas)
  * Johan Rosenkilde (jsrn)
  * Clément Pernet (cpernet)
+ * Luca De Feo (defeo) — afternoon only
