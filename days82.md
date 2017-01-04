@@ -45,7 +45,7 @@ From Orly Airport : take Orly bus to Denfert Rochereau, then RER B to Chatelet l
 
 == Application ==
 
-Applications are now closed, The house is full! Never the less, even though we cannot provide more lodging, you are free to join us during the day.
+Applications are now closed, The house is full! Nevertheless, even though we cannot provide more lodging, you are free to join us during the day.
 Please let us know by sending an email to: days82@services.cnrs.fr .
 
 == Program ==
@@ -100,6 +100,8 @@ Rachel: positroids, cluster algebras, flag varieties, networks
 Justine: Permutation groups, profile, age algebra, relational structures
 
 Viviane: Weak order, Tamari lattice, posets
+
+Jessica: Plane partitions, tableaux, alternating sign matrices
 
 === Abstract Algebra ===
 
@@ -158,3 +160,7 @@ Emily
 ## Positroid varieties in the Grassmannian
 
 Rachel
+
+=== Implement plane partitions, descending plane partitions, increasing tableaux ===
+
+Jessica
