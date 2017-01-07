@@ -36,3 +36,7 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * Moritz Firsching
  * Simon King (dates to be confirmed)
  * Julian Pfeifle (length of stay to be confirmed)
+
+== Acknowledgment ==
+
+This workshop is supported by the H2020 European Project [[http://opendreamkit.org/|OpenDreamKit]]
