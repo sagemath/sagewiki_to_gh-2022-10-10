@@ -57,11 +57,11 @@ Please let us know by sending an email to: days82@services.cnrs.fr .
 == Participants ==
 
  * Mary Baker, Tarleton State Univ.
- * Jennifer Balakrishnan, Boston univ.
+ * Jennifer Balakrishnan, Boston Univ.
  * Judith Braunsteiner, TU Wien
  * Justine Falque, Univ. Paris-Sud
  * Emily Gunawan, Gustavus Adolphus College
- * Sonia Ionica, Univ. de Picardie
+ * Sorina Ionica, Univ. de Picardie
  * Evgeniya Ishchukova, Southern Fed. Univ. Taganrog
  * Rachel Karpman, The Ohio State University
  * Elisa Lorenzo García, Univ. Rennes 1
