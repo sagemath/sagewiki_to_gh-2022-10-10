@@ -51,7 +51,7 @@ Please let us know by sending an email to: days82@services.cnrs.fr .
 == Program ==
 
 ||          || Monday 01/09 || Tuesday 01/10 || Wednesday 01/11 || Thursday 01/12 || Friday 01/13 ||
-|| Morning  || [[https://wiki.sagemath.org/days82_sageintro| Sage introduction workshop]] <<BR>>   IHP ||  Short presentations <<BR>> from participants || PROJECTS || PROJECTS || Leaving the house ||
+|| Morning  || [[https://wiki.sagemath.org/days82_sageintro| Sage introduction workshop]] <<BR>>   IHP ||  Short presentations <<BR>> from participants || PROJECTS || PROJECTS || Leaving the house (9:30AM) ||
 || Afternoon || Back to the house <<BR>> Short presentations <<BR>> from participants || PROJECTS || PROJECTS || PROJECTS || Coding Cafe with Pyladies <<BR>> (Paris, location TBA) ||
 
 == Participants ==
