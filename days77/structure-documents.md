@@ -18,7 +18,7 @@ for a comparison of Jupyter notebooks and MathHub.info active documents.
 
 http://nbsphinx.readthedocs.org/en/0.2.5/
 
-=== Thebe (by Oreilly)
+=== Thebe (by Oreilly) ===
 
 https://github.com/oreillymedia/thebe
 
