@@ -1,6 +1,6 @@
 = Sage Days 77 --- April 4--8, 2016, Cernay =
 
-'''''Sage developer days on packaging, portability, documentation tools'''''
+'''''Sage developers days on packaging, portability, documentation tools'''''
 
 '''''Cernay-la-Ville, Yvelines (near Paris and Orsay, France)'''''
 
