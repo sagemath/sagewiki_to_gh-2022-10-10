@@ -60,11 +60,18 @@ Monday talks
  * Eleni
  * Lama
  * Manon
+ * Christelle
+ * Judith
+ * Justine
+
 
 Tuesday talks
  * Anna, Elisa, Sorina
  * Evgeniya
  * Ekaterina
+ * Rachel
+ * Turku
+
 
 == SD 82 on SMC ==
 
