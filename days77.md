@@ -6,8 +6,7 @@
 
 Fast links:
 
- * [[days77/projects|projects]]
- * trac: [[http://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days77&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Sage tickets worked on at Sage Days 77]]
+ * [[http://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days77&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Sage trac tickets worked on at Sage Days 77]]
  * reports:
    * [[days77/packaging|Packaging and distributing SageMath (including on Windows)]]
    * [[days77/documentation|Documentation tools: Sphinx, ...]]
