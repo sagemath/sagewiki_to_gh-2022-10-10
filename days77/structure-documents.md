@@ -11,7 +11,9 @@ for a comparison of Jupyter notebooks and MathHub.info active documents.
  * Preliminary work by Harald Shilly (motivation: sage documentation): https://github.com/sphinx-doc/sphinx/pull/2117
 
  * Experimental script using pandoc+notedown: https://github.com/nthiery/rst-to-ipynb (Nicolas + ...)
+
    For some output, see: http://Nicolas.Thiery.name/Enseignement/Agregation/
+
    Update 01/2017: Now available as `sage -rst2ipynb` (see https://trac.sagemath.org/ticket/21513, https://trac.sagemath.org/ticket/21514)
 
 === Embedding Jupyter notebooks inside Sphinx documents ===
@@ -40,11 +42,11 @@ its main author Robert Beezer.
 
 ==== Example of book: Abstract Algebra: Theory and Applications, Tom Judson ====
 
-Print: http://www.amazon.com/Abstract-Algebra-Applications-Thomas-Judson/dp/0989897591
-PDF:     http://abstract.ups.edu/download/aata-20150812.pdf
-HTML:    http://abstract.ups.edu/aata/
-Source:  https://github.com/twjudson/aata
-Clone:   git clone https://github.com/twjudson/aata.git
+* Print: http://www.amazon.com/Abstract-Algebra-Applications-Thomas-Judson/dp/0989897591
+* PDF:     http://abstract.ups.edu/download/aata-20150812.pdf
+* HTML:    http://abstract.ups.edu/aata/
+* Source:  https://github.com/twjudson/aata
+* Clone:   git clone https://github.com/twjudson/aata.git
 
 ==== Nice features ====
 
