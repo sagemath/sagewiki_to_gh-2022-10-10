@@ -42,11 +42,11 @@ its main author Robert Beezer.
 
 ==== Example of book: Abstract Algebra: Theory and Applications, Tom Judson ====
 
-* Print: http://www.amazon.com/Abstract-Algebra-Applications-Thomas-Judson/dp/0989897591
-* PDF:     http://abstract.ups.edu/download/aata-20150812.pdf
-* HTML:    http://abstract.ups.edu/aata/
-* Source:  https://github.com/twjudson/aata
-* Clone:   git clone https://github.com/twjudson/aata.git
+ * Print: http://www.amazon.com/Abstract-Algebra-Applications-Thomas-Judson/dp/0989897591
+ * PDF:     http://abstract.ups.edu/download/aata-20150812.pdf
+ * HTML:    http://abstract.ups.edu/aata/
+ * Source:  https://github.com/twjudson/aata
+ * Clone:   git clone https://github.com/twjudson/aata.git
 
 ==== Nice features ====
 
