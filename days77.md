@@ -80,10 +80,10 @@ For remote discussions, we will tentatively be using:
 
 = Programme and topics =
 
-Please add a few words at [[days77/projects]] about your wishes or projects for the workshop.
+ * [[days77/projects|Projects]]
+ * [[days77/timetable|Timetable]]
 
  * [[https://www.lri.fr/etherpad/p/sage-days77|Live pad for discussing the projects, time table]], ...
- * [[days77/packaging|Report on packaging]].
 
 = Practical information =
 
