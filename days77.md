@@ -7,10 +7,9 @@
 Fast links:
 
  * [[http://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days77&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Sage trac tickets worked on at Sage Days 77]]
- * reports:
-   * [[days77/packaging|Packaging and distributing SageMath (including on Windows)]]
-   * [[days77/documentation|Documentation tools: Sphinx, ...]]
-   * [[days77/live-structured-documents|Live structured documents]]
+ * [[days77/packaging|Report on Packaging and distributing SageMath (including on Windows)]]
+ * [[days77/documentation|Report on Documentation tools: Sphinx, ...]]
+ * [[days77/live-structured-documents|Report on Live structured documents]]
     
 
 <<TableOfContents()>>
