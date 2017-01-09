@@ -22,6 +22,7 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * moving as independent Python packages the Sage interfaces to cdd, ppl, etc (see e.g. [[https://pypi.python.org/pypi/pplpy/|pplpy]])
  * make a generic number field implementation in C/C++ using normaliz
  * add mutable polytopes in Sage
+ * Delaunay/Voronoi polytopes of lattices (-> algorithm for norm form equation)
  * [[https://trac.sagemath.org/ticket/22006|#22006: CBC tries to use system's blas at runtime which creates an error]]
  * [[https://trac.sagemath.org/ticket/20875|#20875: Meta-ticket: Polytopes, lattice (integer) point counting / enumeration, and their applications]]
  * [[https://trac.sagemath.org/ticket/20302|#20302: Meta-ticket: Improvements to MixedIntegerLinearProgram etc.]]
