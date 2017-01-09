@@ -15,6 +15,8 @@ Fast links:
  * reports:
    * [[days77/packaging|Packaging and distributing SageMath (including on Windows)]]
    * [[days77/documentation|Documentation tools: Sphinx, ...]]
+   * [[days77/structure-documents|Structured documents]]
+    
 
 <<TableOfContents()>>
 
