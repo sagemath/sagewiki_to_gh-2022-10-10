@@ -16,9 +16,9 @@ Fast links:
 
 = Announcement =
 
-Sage Days 77 will be held in Cernay-la-Ville (40km South-West of Paris, near Orsay), April 4-8, 2016.
+Sage Days 77 was held in Cernay-la-Ville (40km South-West of Paris, near Orsay), April 4-8, 2016.
 
-We are booking the guest house
+We booked the guest house
 [[http://www.cernayvacances.com/en/stay/de-toren/|The Tower]] (and
 [[http://www.cernayvacances.com/en/stay/le-grenier-royal/|Le grenier royal]]),
 a very nice and cosy "gîte", just short of an hour from Paris by public transport.
@@ -33,7 +33,7 @@ See the links for activity reports and some photos.
 
 This workshop is also "Sage Days 77", part of a long tradition of [[Workshops|Sage Days]].
 
-The workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]], with material help
+The workshop was funded by [[http://opendreamkit.org/|OpenDreamKit]], with material help
 from the Laboratoire de Recherche en Informatique, the Mathematics and the Computer Science Departments at Université Paris-Sud, Orsay.
 
 = Participants =
