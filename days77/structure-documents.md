@@ -29,13 +29,13 @@ kernel in any html page.
 
 === Live documentation for Sage with Sphinx and Thebe ===
 
-This was implemented by Florent Cayré, Nicolas Thiéry at and after the
+This was implemented by Florent Cayré and Nicolas Thiéry at and after the
 Sage Days in http://trac.sagemath.org/ticket/20690. See
 https://trac.sagemath.org/ticket/20893 for a follow up.
 
 === MathBookXML ===
 
-[[https://mathbook.pugetsound.edu/|MathBookXML] is an infrastructure
+[[https://mathbook.pugetsound.edu/|MathBookXML]] is an infrastructure
 for authoring large documents, in XML formats, with export to latex,
 html, Sage, SMC, Jupyter notebook. We enjoyed a remote presentation by
 its main author Robert Beezer.
