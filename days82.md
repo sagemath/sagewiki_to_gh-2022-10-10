@@ -57,9 +57,14 @@ Please let us know by sending an email to: days82@services.cnrs.fr .
 
 Monday talks
  * Alba
+ * Eleni
+ * Lama
+ * Manon
 
 Tuesday talks
  * Anna, Elisa, Sorina
+ * Evgeniya
+ * Ekaterina
 
 == SD 82 on SMC ==
 
