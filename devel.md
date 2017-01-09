@@ -50,3 +50,5 @@ The Sage notebook provides a graphical user interface to Sage. To help out with 
  * [[devel/LatexToWorksheet | Latex document conversion to Sage worksheets]] 
 
  * [[SharingYourBranch | Sharing your branch of Sage development]]
+
+ * [[prerequisitesUbuntu | List of Ubuntu packages required to build Sage]]
