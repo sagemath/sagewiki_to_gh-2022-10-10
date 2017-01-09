@@ -31,13 +31,13 @@ The event is free. Please register by sending an email to [[mailto:viviane.pons@
 == Participants ==
 
  * Mary Baker, Tarleton State Univ.
- * Jennifer Balakrishnan, Boston univ.
+ * Jennifer Balakrishnan, Boston Univ.
  * Judith Braunsteiner, TU Wien
  * Victoria Cantoral, Univ. Paris Diderot
  * Sylvie Corteel, Paris Diderot
  * Justine Falque, Univ. Paris-Sud
  * Emily Gunawan, Gustavus Adolphus College
- * Sonia Ionica, Univ. de Picardie
+ * Sorina Ionica, Univ. de Picardie
  * Evgeniya Ishchukova, Southern Fed. Univ. Taganrog
  * Rachel Karpman, The Ohio State University
  * Eunjung Kim, Université Paris-Dauphine/LAMSADE
