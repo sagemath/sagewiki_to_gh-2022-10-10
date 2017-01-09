@@ -43,23 +43,21 @@ from the Laboratoire de Recherche en Informatique, the Mathematics and the Compu
 
 = Participants =
 
-Please add your name to the participant list below, following the existing entries as template.
-
- * [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]], Laboratoire de Recherche en Informatique, Université Paris Sud (Sunday evening to Saturday morning)
- * [[http://carva.org/samuel.lelievre/|Samuel Lelièvre]], Laboratoire de mathématique d'Orsay, Université Paris-Sud (Sunday evening to Saturday morning)
+ * [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]] (Laboratoire de Recherche en Informatique, Université Paris Sud, algebraic combinatorics, category infrastructure in Sage, ... Sunday evening to Saturday morning)
+ * [[http://carva.org/samuel.lelievre/|Samuel Lelièvre]] (Laboratoire de mathématique d'Orsay, Université Paris-Sud, algebraic combinatorics, documentation, parallel computations, Sunday evening to Saturday morning)
  * Jeroen Demeyer, University of Ghent / Université Paris-Sud (arrive Sunday evening around 22:45 at Saint-Rémy-lès-Chevreuse; depart Saturday morning)
  * [[http://defeo.lu/|Luca De Feo]], Laboratoire de Mathématiques de Versailles, Université de Versailles (Sunday evening to Saturday morning)
  * Jean-Pierre Flori, ANSSI (Friday all day long) 
- * Julien Cristau, Logilab.
- * David Douard, Logilab.
+ * Julien Cristau, Logilab, Debian
+ * David Douard, Logilab, Debian, GUI, python.
  * Florent Cayré, Logilab.
  * [[http://www.math.u-bordeaux1.fr/~aenge/|Andreas Enge]], DR, INRIA Bordeaux–Sud-Ouest (Monday early afternoon to Friday evening or Saturday morning)
  * Erik Bray, Laboratoire de Recherche en Informatique, Université Paris-Sud (Sunday evening to Saturday morning)
  * Florent Hivert, Laboratoire de Recherche en Informatique, Université Paris Sud
- * Julian Rüth (Sunday evening, 23:00 at the airport, should be at the Saint-Rémy station at about 00:40; to Friday evening)
+ * Julian Rüth (Freelance, Sunday evening, 23:00 at the airport, should be at the Saint-Rémy station at about 00:40; to Friday evening)
  * ThierryMonteil (not sure about the exact dates, will come by bicycle).
  * [[http://www1.mat.uniroma1.it/people/stella/index.shtml|Salvatore Stella]], INdAM - Marie Curie, Dipartimento di matematica "G. Castelnuovo", University of Rome "La Sapienza" (Wednesday 6 (late) evening or Thursday 7 morning to Saturday Friday evening)
- * Robert Lehmann, Sunday 9pm, to Tuesday 4pm
+ * Robert Lehmann (Google Zurich, Sphinx co-maintainer hat, Sunday 9pm, to Tuesday 4pm)
  * Antoine Teutsch, (Wednesday evening to Saturday morning)
  * Sébastien Labbé, (Thursday to Friday)
 
@@ -67,7 +65,7 @@ Please add your name to the participant list below, following the existing entri
 
  * Travis Scrimshaw: I fly on Wednesday afternoon (Minneapolis time) and arrive Thursday afternoon (Germany time), but I am basically free all day Tuesday (and I wake up early). I will happy to join on Thursday or Friday as well.
 
- * François Bissey: Monday morning, ...
+ * François Bissey (University of Canterbury, New Zealand, sage-on-gentoo, Monday morning, ...)
  * ...
 
 == Remote infrastructure ==
