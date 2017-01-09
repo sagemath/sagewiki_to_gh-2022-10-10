@@ -55,6 +55,12 @@ Please let us know by sending an email to: days82@services.cnrs.fr .
 || Afternoon || Back to the house <<BR>> Short presentations <<BR>> from participants || PROJECTS || PROJECTS || PROJECTS || Coding Cafe with Pyladies <<BR>> (Paris, location TBA) ||
 
 
+Monday talks
+ * Alba
+
+Tuesday talks
+ * Anna, Elisa, Sorina
+
 == SD 82 on SMC ==
 
 [[https://cloud.sagemath.com/projects/cf6a856b-d9a5-429b-b822-e9244928d351/files/SD82Public/MondayPresentation/|SMC project]] (Email one of the organizers if you need access)
