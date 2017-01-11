@@ -20,6 +20,7 @@ Sagemath patchbots names and owners:
     Martin-Laptop     --> mantepse
     mangouste         --> vdelecroix
     Mercury           --> kdilks
+    pbua              --> novoselt
     pcl337b           --> ?
     pi                --> ?
     poseidon          --> kdilks
