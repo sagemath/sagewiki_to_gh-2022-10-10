@@ -30,7 +30,7 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
 
 == Participants ==
 
- * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
+ * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (February 27th - March 12th)
  * [[http://warwick.ac.uk/mmasdeu/|Marc Masdeu]]
  * Jean-Philippe Labbé
  * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]]
