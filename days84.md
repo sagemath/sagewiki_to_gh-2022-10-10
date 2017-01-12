@@ -30,13 +30,13 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
 
 == Participants ==
 
- * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (February 27th - March 12th)
+ * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (february 27th - march 12th)
  * [[http://warwick.ac.uk/mmasdeu/|Marc Masdeu]]
  * Jean-Philippe Labbé
  * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]]
  * Moritz Firsching
  * Simon King (dates to be confirmed)
- * Julian Pfeifle (length of stay to be confirmed)
+ * Julian Pfeifle (march 6th - march 10th)
  * [[http://marcelo-forets.fr/|Marcelo Forets]] february 27th - march 4th
  * [[http://www.normalesup.org/~page/|Aurel Page]] (length of stay to be confirmed)
  * Thierry Monteil (?)
