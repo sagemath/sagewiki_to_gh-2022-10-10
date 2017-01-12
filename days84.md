@@ -26,6 +26,7 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * [[https://trac.sagemath.org/ticket/22006|#22006: CBC tries to use system's blas at runtime which creates an error]]
  * [[https://trac.sagemath.org/ticket/20875|#20875: Meta-ticket: Polytopes, lattice (integer) point counting / enumeration, and their applications]]
  * [[https://trac.sagemath.org/ticket/20302|#20302: Meta-ticket: Improvements to MixedIntegerLinearProgram etc.]]
+ * [[https://trac.sagemath.org/ticket/18703|#18703: oriented matroids]]
  * ... (add your project!)
 
 == Participants ==
@@ -34,7 +35,7 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * [[http://warwick.ac.uk/mmasdeu/|Marc Masdeu]]
  * Jean-Philippe Labbé
  * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]]
- * Moritz Firsching
+ * [[https://page.mi.fu-berlin.de/moritz/|Moritz Firsching]] (march 3th - march 8th)
  * Simon King (dates to be confirmed)
  * Julian Pfeifle (march 6th - march 10th)
  * [[http://marcelo-forets.fr/|Marcelo Forets]] march 5th - march 11th
