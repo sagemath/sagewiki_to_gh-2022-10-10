@@ -37,7 +37,7 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * Moritz Firsching
  * Simon King (dates to be confirmed)
  * Julian Pfeifle (march 6th - march 10th)
- * [[http://marcelo-forets.fr/|Marcelo Forets]] february 27th - march 4th
+ * [[http://marcelo-forets.fr/|Marcelo Forets]] march 5th - march 11th
  * [[http://www.normalesup.org/~page/|Aurel Page]] (length of stay to be confirmed)
  * Thierry Monteil (?)
  * Katy Beeler (?)
