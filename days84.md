@@ -1,6 +1,6 @@
 = Sage Days 84 : Polytopes in Sage =
 
-'''''February 27th - March 12th 2017'''''
+'''''February 27th - March 10th 2017'''''
 '''''[[http://www.openstreetmap.org/#map=14/42.1772/2.4901|Olot, Catalunya, Spain]]'''''
 
 These (Sage) days will be focused on Polytopes and linear programming. This workshop is dedicated to people already familiar with Sage or being active in some polytope related libraries/software.
