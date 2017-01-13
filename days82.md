@@ -79,7 +79,7 @@ Tuesday talks
 
 == Workshop photo ==
 
-The workshop photo is
+The workshop photo is [[attachment:photo.jpg|here]].
 
 == Participants ==
 
