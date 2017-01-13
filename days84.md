@@ -31,17 +31,18 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
 
 == Participants ==
 
- * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (february 27th - march 12th)
- * [[http://warwick.ac.uk/mmasdeu/|Marc Masdeu]]
- * Jean-Philippe Labbé
- * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]]
- * [[https://page.mi.fu-berlin.de/moritz/|Moritz Firsching]] (march 3th - march 8th)
- * Simon King (dates to be confirmed)
- * Julian Pfeifle (march 6th - march 10th)
- * [[http://marcelo-forets.fr/|Marcelo Forets]] march 5th - march 11th
- * [[http://www.normalesup.org/~page/|Aurel Page]] (length of stay to be confirmed)
+ * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (February 27th - March 10th)
+ * [[http://warwick.ac.uk/mmasdeu/|Marc Masdeu]] (February 27th - March 10th)
+ * Jean-Philippe Labbé (February 27th - March 10th)
+ * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]] (February 27th - March 10th)
+ * [[https://page.mi.fu-berlin.de/moritz/|Moritz Firsching]] (March 3rd - March 8th)
+ * Julian Pfeifle (March 6th - March 10th)
+ * [[http://marcelo-forets.fr/|Marcelo Forets]] (March 5th - March 11th)
+ * [[http://www.normalesup.org/~page/|Aurel Page]] (February 27th - March 3rd)
+ * Katy Beeler (March 5th - March 10th)
+ * Andreas Paffenholz (?)
  * Thierry Monteil (?)
- * Katy Beeler (?)
+ * Simon King (?)
 
 == Acknowledgment ==
 
