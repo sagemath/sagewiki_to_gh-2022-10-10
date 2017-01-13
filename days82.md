@@ -77,6 +77,10 @@ Tuesday talks
 
 [[https://cloud.sagemath.com/projects/cf6a856b-d9a5-429b-b822-e9244928d351/files/SD82Public/MondayPresentation/|SMC project]] (Email one of the organizers if you need access)
 
+== Workshop photo ==
+
+The workshop photo is
+
 == Participants ==
 
  * Mary Baker, Tarleton State Univ.
