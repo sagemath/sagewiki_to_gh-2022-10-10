@@ -31,7 +31,7 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
 
 == Participants ==
 
- * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix (LaBRI - Bordeaux)]] (February 27th - March 10th)
+ * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix (LaBRI - Bordeaux)]] (February 27th - March 11th)
  * [[http://warwick.ac.uk/mmasdeu/|Marc Masdeu (U. Warwick)]] (February 27th - March 10th)
  * [[http://page.mi.fu-berlin.de/labbe/|Jean-Philippe Labbé (Freie Universität Berlin)]] (February 27th - March 10th)
  * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe (UC Davis)]] (February 27th - March 10th)
@@ -42,6 +42,7 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * [[http://www.mathematik.tu-darmstadt.de/~paffenholz/|Andreas Paffenholz (Technische U. Darmstadt)]] (March 6th - March 10th)
  * Thierry Monteil (?)
  * Simon King (?)
+ * Vincent Klein (?)
 
 == Acknowledgment ==
 
