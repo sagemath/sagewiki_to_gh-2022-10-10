@@ -1,4 +1,4 @@
-Sage Days 85 (tentative): packaging, portability, documentation tools
+= Sage Days 85 (tentative): packaging, portability, documentation tools =
 
 Last year we ran a one-week long [[https://wiki.sagemath.org/days77|Sage developers days]] in Cernay, near Paris, on packaging, portability, and documentation tools for Sage:
 
