@@ -256,6 +256,12 @@ NON-Examples:
   I'd need to check the exact use cases. Let's discuss this at some
   point!  -- Nicolas
 
+  UPDATE (15 Jan 2017): SageManifolds is now fully integrated in 
+  Sage 7.5. There is therefore no need for an install script, even
+  for a newbie; cf. the new 
+  `download page <http://sagemanifolds.obspm.fr/download.html>`_  
+  -- Eric.
+
 - `CHA <https://bitbucket.org/nborie/cha>`_   "It is recommended to use the more recent implementation from the branch attached to this ticket rather than this library."; I think this is just some code to copy into the sage library or run directly, with no package support at all.
 
 
