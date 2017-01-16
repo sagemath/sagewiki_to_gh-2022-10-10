@@ -20,4 +20,4 @@ The themes will certainly be influenced by the four main workshops held during t
 
 === Contact ===
 
-Please contact the organizers if you are interested.
+Please contact the organizers if you are interested in participating.
