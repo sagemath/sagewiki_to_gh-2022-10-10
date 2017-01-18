@@ -13,4 +13,4 @@ In addition, it is recommended to install
  * libavdevice-dev
  * pandoc   ''(to convert Jupyter notebooks to pdf)''  
 
-For more details, see  are in the  [[http://doc.sagemath.org/html/en/installation/source.html#prerequisites|Prerequisites section]] of Sage Installation Guide.
+For more details, see the  [[http://doc.sagemath.org/html/en/installation/source.html#prerequisites|Prerequisites section]] of Sage Installation Guide.
