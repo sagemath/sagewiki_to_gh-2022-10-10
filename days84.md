@@ -1,4 +1,4 @@
-= Sage Days 84 : Polytopes (in Sage, Python and more) =
+= Sage Days 84 : Polytopes (in Sage, Python, polymake and more) =
 
 '''''February 27th - March 10th 2017'''''
 '''''[[http://www.openstreetmap.org/#map=14/42.1772/2.4901|Olot, Catalunya, Spain]]'''''
