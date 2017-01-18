@@ -27,6 +27,7 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * [[https://trac.sagemath.org/ticket/20875|#20875: Meta-ticket: Polytopes, lattice (integer) point counting / enumeration, and their applications]]
  * [[https://trac.sagemath.org/ticket/20302|#20302: Meta-ticket: Improvements to MixedIntegerLinearProgram etc.]]
  * [[https://trac.sagemath.org/ticket/18703|#18703: oriented matroids]]
+ * release the [[https://github.com/videlec/e-antic|real embedded number fields library]] (built on top of antic)
  * ... (add your project!)
 
 == Participants ==
