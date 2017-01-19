@@ -43,7 +43,9 @@ Go to http://www.sagemath.org/src-old to download the tar archive for any releas
 
 === Wouldn't it be way better if Sage did not ship as a gigantic bundle? ===
 
-This has been discussed over and over again and it [[/bigsagerant|plainly doesn't work]].
+Some OS [[Distribution|distributions]] do this, to varying degrees. However it requires
+continual maintenance and distribution-specific knowledge that the Sage team does not have.
+We are happy to accept reasonable patches that would help make this task easier for them.
 
 
 === How do I compile the source to Sage? ===
