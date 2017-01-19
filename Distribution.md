@@ -57,11 +57,15 @@ In preparation.
 
 == Debian ==
   * wiki page: https://wiki.debian.org/DebianScience/Sage
-  * (Sage-side) mailing list (dormant): [[https://groups.google.com/forum/#!forum/debian-sage|debian-sage]]
-  * (Debian-side) mailing list (created 2016-08-10): https://lists.alioth.debian.org/mailman/listinfo/debian-science-sagemath
-  * Debian-science mailing list (used before debian-science-sagemath was created): https://lists.debian.org/debian-science/
-  * Some steps: https://www.logilab.org/blogentry/5540528
-  * people: Julien Puydt (Snark), Julien Cristau, 
+  * packages: https://packages.debian.org/sagemath
+  * build logs: https://buildd.debian.org/status/package.php?p=sagemath including ptestlong results
+  * repo: https://anonscm.debian.org/cgit/debian-science/packages/sagemath.git
+    * patches: https://anonscm.debian.org/cgit/debian-science/packages/sagemath.git/tree/debian/patches/
+  * mailing list: https://lists.alioth.debian.org/mailman/listinfo/debian-science-sagemath
+    * earlier discussions happened on the [[https://lists.debian.org/debian-science/|debian-science mailing list]]
+    * Sage-side mailing list (dormant): [[https://groups.google.com/forum/#!forum/debian-sage|debian-sage]]
+  * status pages: [[http://people.debian.org/~thansen/debian-sage-status.html|master branch]] [[http://people.debian.org/~thansen/debian-sage-dev-status.html|develop branch]] [[http://people.debian.org/~thansen/debian-sage-7.4-status.html|7.4]]
+  * people: Tobias Hansen, Julien Puydt, Jerome Benoit, Ximin Luo
 
 == Fedora package ==
   * hosted at: https://apps.fedoraproject.org/packages/sagemath
@@ -77,14 +81,14 @@ In preparation.
 
 == Guix/Nix ==
   * some info: [[days77/packaging]]
+
 == RPM package (Fedora, Mandriva) ==
   * hosted at: http://rpmfind.net/linux/rpm2html/search.php?query=sagemath
 
-== Ubuntu (PPA) ==
-  * purpose: easy-to-install Ubuntu .deb packages
-  * hosted at: launchpad.net
-  * admin: pipedream
-  * contact: https://launchpad.net/~aims/+archive/ubuntu/sagemath
+== Ubuntu ==
+  * packages: http://packages.ubuntu.com/sagemath derived from the [[#Debian|Debian]] packages
+  * earlier PPA: https://launchpad.net/~aims/+archive/ubuntu/sagemath
+    * admin: pipedream
 
 = Windows =
 
