@@ -50,3 +50,52 @@ Robert pointed to preliminary work by Harald Schilly: https://github.com/sphinx-
  * Discussion on "inspect" I do not get because I do not know what "inspect" is
  * This is time consuming: each time one has to rebuild the whole documentation.
  * Jeroen is concerned about images in the docs and build times.
+
+== Notes from Robert (Sphinx Dev) ==
+
+TODO: merge with the above?
+
+I have visited the [1]Sage Days 77 in Cernay, France, this week to
+help them with their Sphinx setup.
+
+Sage is looking at adopting vanilla Sphinx; autodoc will be a big
+upstreamer for them, memory might be a show stopper.
+
+
+[2]Sage is a distribution of mathematical Python libraries (or
+"mathematics software system"), currently bundling Sphinx 2.2.x.  Their
+[3]documentation consists of ~200 plain text files and ~2000
+[4]automodule stubs.  This brings a number of [5]interesting
+challenges.
+
+First off, they have their own [6]copy of autodoc to support a number
+of use cases around Cython and wrapped functions.  Since it diverged
+back around Sphinx 1.0, it is unclear what's required from our side.
+They have started [7]work to merge forward, and will then approach us
+with whatever extension points / improvements they'd need.  Most of
+these fixes should be useful in core Sphinx as well.
+
+They also have their [8]own poor man's parallelization (splitting up
+the documentation into multiple Sphinx projects and then building
+through make -j) based on sphinx-multidoc.  We have experimented with
+Sphinx's parallel build support, and it seems to give similiar
+speedups.
+
+Last but not least, they also have their own [9]copy of apidoc.  We
+agreed that plain sphinx-apidoc covers them well, with the caveat that
+it'd be a big advantage for them (and other projects, I believe) if
+they could spare the stub automodule files.  They suggested putting
+"automodule:" statements directly into the toctree, which I have a
+rough draft implementation of.
+
+Building their apidoc consumes 1.8G in memory for the doctrees alone.
+Their resource footprint peaks at 2.6G (or at 3+G with extensions
+enabled); doctrees are 200M in pickled format. I have filed some bugs
+with the results of our memory forensics.  There are a couple of
+caches that unnecessarily blow up the memory consumption
+([10]MemoryAnalyzer, [11]sys.modules, and probably linecache.) and
+quite a few opportunities to reduce the doctree in-memory blowup (see
+[12]#2426 for Text nodes.)
+
+I can only recommend other Sphinx developers (to be) to visit user
+projects like this.  It is a valuable learning opportunity for us.
