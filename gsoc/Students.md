@@ -11,7 +11,9 @@ You can explore the [[GSoC/2017|GSoC 2017 Ideas Page]] for information on potent
 
 == What is GSoC? ==
 
+[[summerofcode.withgoogle.com|Google Summer of Code] is a program for university students aimed at introducing them to world of open source. Students typically begin by browsing the Ideas Pages of various participating open source organisations (orgs) such as Sage and communicate with mentors to write and submit well-defined project proposals. These proposals are reviewed by the respective orgs as well as Google and the selected students then spend 12 weeks in the summer writing code and receive a stipend from Google for their work. 
 
+Please ensure that you satisfy the [[https://developers.google.com/open-source/gsoc/faq#what_are_the_eligibility_requirements_for_participation | Eligibility Criteria]] before applying and note the [[https://developers.google.com/open-source/gsoc/timeline | GSoC Timeline]].
 
 
 == What is Sage? ==
