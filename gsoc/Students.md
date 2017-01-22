@@ -2,7 +2,7 @@
 
 Hello and welcome to SageMath's (or Sage for short) GSoC guide for students!
 
-We are glad that you are interested in participating in GSoC with Sage and we look forward to working with you. On this page, you will find numerous application details and links to resources that can help you quickly set up Sage and get started.
+We are glad that you are interested in participating in [[GSoC | GSoC with Sage]] and we look forward to working with you. On this page, you will find numerous application details and links to resources that can help you quickly set up Sage and get started.
 
 You can also explore the [[GSoC/2017|GSoC 2017 Ideas Page]] for information on potential projects.
 
@@ -42,3 +42,4 @@ Sage, as an open source project, depends on a diverse community of volunteers to
  * '''Don't Send Generic Introductory Emails''' -  Posts such as "I am interested in open source. How can I get started with Sage?", "How can I proceed?", "How do I use this module?" are very time-consuming to answer and can get ignored. At best, these will get a response containing a link to the documentation and request for further information. Save yourself the time and do your homework. Briefly describe your background and ask easily answerable questions by indicating the field and project you are interested in.
  * '''Be Specific and Precise''' - Spend a little time in crafting good emails with helpful titles. Provide context to the problem you are facing and include relevant details such as describing what you have done so far, the error message, development environment, etc. Make it easy for the reader to understand what you are asking for.
  * '''Do Your Homework''' - Please check the information pages and past discussions on forums to ensure that you are not reposting or crossposting the same question. Attempt to first resolve the problem yourself before asking and demonstrate willingness and capability to help yourself. This will go a long way in creating a positive impression. ([[http://www.catb.org/~esr/faqs/smart-questions.html | How To Ask Questions The Smart Way?]] is a wonderful read on how to ask questions in a way more likely to get you a satisfactory answer.)
+ * '''Don't Ask to Ask''' - Don't hesitate to ask questions but when you do, don't ask questions of the type "Can anyone help me?". Simply go ahead and state the issue you are facing.
