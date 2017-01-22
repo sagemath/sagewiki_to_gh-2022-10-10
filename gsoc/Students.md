@@ -2,10 +2,17 @@
 
 Hello and welcome to SageMath's (or Sage for short) GSoC guide for students!
 
+We are glad that you are interested in participating in GSoC with Sage and we look forward to working with you. On this page, you will find numerous application details and links to resources that can help you quickly set up Sage and get started.
+
+You can explore the [[GSoC/2017|GSoC 2017 Ideas Page]] for information on potential projects.
+
 <<TableOfContents()>>
 
 
 == What is GSoC? ==
+
+
+
 
 == What is Sage? ==
 
