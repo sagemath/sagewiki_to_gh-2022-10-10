@@ -43,3 +43,7 @@ Sage, as an open source project, depends on a diverse community of volunteers to
  * '''Be Specific and Precise''' - Spend a little time in crafting good emails with helpful titles. Provide context to the problem you are facing and include relevant details such as describing what you have done so far, the error message, development environment, etc. Make it easy for the reader to understand what you are asking for.
  * '''Do Your Homework''' - Please check the information pages and past discussions on forums to ensure that you are not reposting or crossposting the same question. Attempt to first resolve the problem yourself before asking and demonstrate willingness and capability to help yourself. This will go a long way in creating a positive impression. ([[http://www.catb.org/~esr/faqs/smart-questions.html | How To Ask Questions The Smart Way?]] is a wonderful read on how to ask questions in a way more likely to get you a satisfactory answer.)
  * '''Don't Ask to Ask''' - Don't hesitate to ask questions but when you do, don't ask questions of the type "Can anyone help me?". Simply go ahead and state the issue you are facing.
+
+You may also want to peruse the [[https://opensource.googleblog.com/2011/03/dos-and-donts-of-google-summer-of-code.html | The DOs and DON’Ts of Google Summer of Code]] published on GSoC's official blog.
+
+== Getting Started == 
