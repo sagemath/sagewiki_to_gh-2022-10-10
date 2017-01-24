@@ -46,4 +46,4 @@ Sage, as an open source project, depends on a diverse community of volunteers to
 
 You may also want to peruse the [[https://opensource.googleblog.com/2011/03/dos-and-donts-of-google-summer-of-code.html | The DOs and DON’Ts of Google Summer of Code]] published on GSoC's official blog.
 
-== Getting Started == 
+== Getting Started ==
