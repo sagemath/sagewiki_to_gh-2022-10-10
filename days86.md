@@ -1,6 +1,8 @@
 = Sage Days 86 =
 
-'''''May 8-12, 2017, Montreal, Canada'''''
+'''''April 17-21, 2017, Montreal, Canada'''''
+
+~-(note that it was originally planned for May 8-12, 2017)-~
 
 At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinatorics2017/index.php/|Algebra and words in combinatorics]] from March to July 2017, a Sage Days will be held at the Centre de Recherche Mathématiques.
 
