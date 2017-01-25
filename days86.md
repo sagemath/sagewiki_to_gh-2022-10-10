@@ -6,7 +6,7 @@ At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinato
 
 === Organizers ===
 
- * Sébastien Labbé (CRNS, LaBRI, Université de Bordeaux)
+ * Sébastien Labbé (CNRS, LaBRI, Université de Bordeaux)
  * Nicolas M. Thiéry (Université Paris Sud)
 
 === Themes ===
