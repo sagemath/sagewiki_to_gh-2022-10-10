@@ -11,7 +11,7 @@ Another list by the AMS [[http://www.mathontheweb.org/mathweb/mi-software.html|h
 == The terrain ==
 || Axiom || [[http://www.opensource.org/licenses/bsd-license.php|BSD]] || http://axiom-developer.org ||
 || CADABRA || GPL || http://cadabra.phi-sci.com/ ||
-|| DoCon || open source || http://www.haskell.org/docon (broken link)||
+|| DoCon || open source || http://homepages.inf.ed.ac.uk/wadler/realworld/docon2.html||
 || FriCAS || [[http://www.opensource.org/licenses/bsd-license.php|BSD]] || http://fricas.sourceforge.net ||
 || GAP || GPL || http://www.gap-system.org ||
 || GIAC || GPL || http://www-fourier.ujf-grenoble.fr/~parisse/giac.html ||
@@ -23,7 +23,7 @@ Another list by the AMS [[http://www.mathontheweb.org/mathweb/mi-software.html|h
 || Magnus ||   GPL ||   http://sourceforge.net/projects/magnus/ ||
 || MAS || "open source" || http://krum.rz.uni-mannheim.de/mas/ ||
 || Mathemagix ||  GPL? || http://www.mathemagix.org/ ||
-|| Mathomatic ||  LGPL || http://mathomatic.orgserve.de/math/ (broken link)||
+|| Mathomatic ||  LGPL || http://launchpad.net/mathomatic||
 || Maxima ||   GPL || http://maxima.sourceforge.net ||
 || NTL ||  GPL || http://www.shoup.net/ntl/ ||
 || Pari || GPL || http://pari.math.u-bordeaux.fr ||
