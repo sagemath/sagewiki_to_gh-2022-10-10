@@ -1,5 +1,4 @@
 
-
 = Sage/GAP Days 85 --- March 13-17, 2017, Cernay =
 
 '''''Sage developers days on packaging, portability, documentation tools'''''
@@ -83,6 +82,8 @@ See the [[https://www.lri.fr/etherpad/p/sage-days85|pad]].
 The workshop takes place in a guest house, which has comfortable working spaces,
 a cooking and dining area, and a few bedrooms. This favors an intense workshop,
 with everything taking place in the same location.
+
+Technically speaking, the guest house is rented from Saturday to Satur
 
 We will set up a wired internet connection and an open wifi.
 
