@@ -33,6 +33,7 @@ To configure this, go to Settings -> Configure Konversation -> Behavior -> Auto 
 
 {{attachment:bug.jpg}}
 
+= IRC =
 {{{
 06:32 < cwitty> mabshoff_, are you here?
 06:36 < mabshoff_> Yep
