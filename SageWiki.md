@@ -110,7 +110,6 @@ These lists are possibly out-of-date. Use the listed Sage command for the newest
  * [[Distribution]]
  * [[Social Networks]]
  * [[CommunityManagement|Collection of stories on Open Source community management]]
- * [[DsagenNg]]
 
 Alphabetical listing of things to do (out-of-date and general organise) - mrennekamp
  * [[AXIOM]] one of the components
@@ -127,6 +126,9 @@ Alphabetical listing of things to do (out-of-date and general organise) - mrenne
  * [[buildbot]] -- merge subpages
  * [[bug]] -- add content to describe Bug Days in general
  * [[cando]] documents "What Sage Can Do" -- decide what to do with it. current version is from 2008.
+ * (all) Categories - eg [[CategoryFrameworkAndCleanup]] and [[DsageNg]]
+ * [[Chile]] - tiny page for "events in Chile"
+ * [[Classify old-style packages]] is a to-do list for the wiki ... I'm (mrennekamp) sure that this is duplicated somewhere
 
 = About this wiki =
 
