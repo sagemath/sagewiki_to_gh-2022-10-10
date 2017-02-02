@@ -78,6 +78,7 @@ These lists are possibly out-of-date. Use the listed Sage command for the newest
  * [[Sage_Spkg_Tracking|SPKG changelog and descriptions]]
 
 = ''OUT OF DATE! NEEDS UPDATED!''
+ * [[Tips]]
  * [[UsingSquashFS]]
  * [[SagemathLive]]
  * [[Send corrected worksheets to each student]]
@@ -124,6 +125,7 @@ Alphabetical listing of things to do (out-of-date and general organise) - mrenne
  * take all Bugdays and put each into ONE page
  * [[buildbot]] -- merge subpages
  * [[bug]] -- add content to describe Bug Days in general
+ * [[cando]] documents "What Sage Can Do" -- decide what to do with it. current version is from 2008.
 
 = About this wiki =
 
