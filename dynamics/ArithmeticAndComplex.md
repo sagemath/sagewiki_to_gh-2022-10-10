@@ -34,9 +34,11 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/22293|#22293]]) needs-review: products and powers of schemes and subschemes - Ben Hutz
+
  * ([[http://trac.sagemath.org/ticket/22269|#22269]]) needs-review: Segre embedding for multiple component products - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/22268|#22268]]) needs-review: copy for schememorphisms points not deep enough - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/22268|#22268]]) positive-review: copy for schememorphisms points not deep enough - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger
 
