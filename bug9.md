@@ -81,3 +81,40 @@ Many other people will hopefully participate, but didn't yet add themselves here
  * http://trac.sagemath.org/sage_trac/ticket/1845: list_plot3d should be able to accept lists of points in arbitrary positions
  * http://trac.sagemath.org/sage_trac/ticket/1854: add more 3d plots to the reference manual
  * http://trac.sagemath.org/sage_trac/ticket/1856: 3d graphics -- bug in setting options via the show command
+
+= Status =
+Bug Day 9 Status
+
+Bugs closed or updated and by whom:
+
+http://trac.sagemath.org/sage_trac/ticket/712 -- William -- closed
+http://trac.sagemath.org/sage_trac/ticket/1485 -- Michael -- closed by merging patch by David Joyner, Simon King
+http://trac.sagemath.org/sage_trac/ticket/1508 -- William -- patch posted
+http://trac.sagemath.org/sage_trac/ticket/1525 -- Robert M -- closed
+http://trac.sagemath.org/sage_trac/ticket/1616 -- Michael -- Merged Mike Hansen's patches
+http://trac.sagemath.org/sage_trac/ticket/1710 -- William -- closed
+http://trac.sagemath.org/sage_trac/ticket/1789 -- William -- closed
+http://trac.sagemath.org/sage_trac/ticket/1800 -- Carl -- closed
+http://trac.sagemath.org/sage_trac/ticket/1801 -- Michael -- closed by merging spkg by Robert Bradshaw
+http://trac.sagemath.org/sage_trac/ticket/1813 -- Michael -- closed by merging patch by Martin Albrecht
+http://trac.sagemath.org/sage_trac/ticket/1821 -- Michael -- closed
+http://trac.sagemath.org/sage_trac/ticket/1846 -- William -- invalid
+http://trac.sagemath.org/sage_trac/ticket/1851 -- Robert M -- closed
+http://trac.sagemath.org/sage_trac/ticket/1606 -- William Stein -- patch posted (needs review)
+http://trac.sagemath.org/sage_trac/ticket/1855 -- William Stein -- 1-line patch posted (needs review)
+http://trac.sagemath.org/sage_trac/ticket/1854 -- William Stein -- lots more 3d plotting examples
+http://trac.sagemath.org/sage_trac/ticket/187 -- William Stein -- verified not a problem anymore and closed.
+http://trac.sagemath.org/sage_trac/ticket/1622 -- Michael Abshoff -- closed by updated spkg
+http://trac.sagemath.org/sage_trac/ticket/1627 -- Michael Abshoff -- closed by updated spkg
+http://trac.sagemath.org/sage_trac/ticket/1630 -- Michael Abshoff -- closed by updated spkg
+http://trac.sagemath.org/sage_trac/ticket/1853 -- Michael Abshoff -- closed by updated spkg
+http://trac.sagemath.org/sage_trac/ticket/1856 -- William Stein -- bug setting options in 3d plots
+http://trac.sagemath.org/sage_trac/ticket/827 -- Nick Alexander -- closed
+http://trac.sagemath.org/sage_trac/ticket/1826 -- Robert Bradshaw, Robert Miller -- closed
+http://trac.sagemath.org/sage_trac/ticket/1746 -- Alex Ghitza -- closed
+http://trac.sagemath.org/sage_trac/ticket/1850 -- Robert Bradshaw -- closed
+http://trac.sagemath.org/sage_trac/ticket/1772 -- Mike Hansen -- closed
+http://trac.sagemath.org/sage_trac/ticket/1391 -- Martin Albrecht -- closed
+http://trac.sagemath.org/sage_trac/ticket/1653 -- David Harvey - closed
+http://trac.sagemath.org/sage_trac/ticket/1858 -- William Stein -- doctest improvements (patch posted)
+http://trac.sagemath.org/sage_trac/ticket/1859 -- Robert Bradshaw
