@@ -118,12 +118,12 @@ Alphabetical listing of things to do (out-of-date and general organise) - mrenne
  * [[AMS]] booths at AMS / MAA meetings ('08 and '09) and an '09 special session
  * [[animate]] fun gifs, with code
  * [[art]] duplicates many things, but need to put ALL SAGE ARTWORK EVER MADE into this wiki page ... also broken links
- * [[bash-completion]] one of many [[Tips]], so not sure what to do with it
+ * [[Tips/bash-completion]] one of many [[Tips]], so not sure what to do with it
  * [[BLAD]] BLAD integration in Sage 'This wiki page is about the integration of the Bibliothèques Lilloises d'Algèbre Différentielle in Sage.' 2011
  * [[bruhat]] project from 2008, S sub n under bruhat order
  * take all Bugdays and put each into ONE page
  * [[buildbot]] -- merge subpages
- * [[bug]] -- add content to describe BugDays in general
+ * [[bug]] -- add content to describe Bug Days in general
 
 = About this wiki =
 
