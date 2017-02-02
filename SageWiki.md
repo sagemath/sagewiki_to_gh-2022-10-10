@@ -1,6 +1,6 @@
 = Sage Wiki =
 
-This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software System]] project. This is mainly used by developers for organization of e.g. SageDays and discussion of long-term projects.
+This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software System]] project. This is mainly used by developers for organization of e.g. SageDays and discussion of long-term projects. Since it ''is'' a wiki, pages should be made to last over many, and frequent, changes.
 
 <<TableOfContents>>
 
@@ -129,6 +129,8 @@ Alphabetical listing of things to do (out-of-date and general organise) - mrenne
  * (all) Categories - eg [[CategoryFrameworkAndCleanup]] and [[DsageNg]]
  * [[Chile]] - tiny page for "events in Chile"
  * [[Classify old-style packages]] is a to-do list for the wiki ... I'm (mrennekamp) sure that this is duplicated somewhere
+ * [[CodeOfConduct]] not sure why there; would like to see go to official documentation
+ * [[CodeSharingWorkflow]] N. Thiery's musings on workflow development. Nothing wrong, but would help to collaborate.
 
 = About this wiki =
 
