@@ -1,8 +1,3 @@
-## page was renamed from MyStartingPage
-## page was renamed from MyStartingPage
-## page was renamed from drkirkby
-## page was renamed from MyStartingPage
-
 = Sage Wiki =
 
 This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software System]] project. This is mainly used by developers for organization of e.g. SageDays and discussion of long-term projects.
@@ -114,8 +109,21 @@ These lists are possibly out-of-date. Use the listed Sage command for the newest
  * [[Distribution]]
  * [[Social Networks]]
  * [[CommunityManagement|Collection of stories on Open Source community management]]
- * [[AXIOM]]
 
+Alphabetical listing of things to do (out-of-date and general organise) - mrennekamp
+ * [[AXIOM]] one of the components
+ * [[AIX]] which talks of porting sage to AIX
+ * All SEP's (Sage Enhancement Proposal) were / need to be removed, as to keep information on Trac
+ * [[Algorithms_for_quaternion_algebras]]
+ * [[AMS]] booths at AMS / MAA meetings ('08 and '09) and an '09 special session
+ * [[animate]] fun gifs, with code
+ * [[art]] duplicates many things, but need to put ALL SAGE ARTWORK EVER MADE into this wiki page ... also broken links
+ * [[bash-completion]] one of many [[Tips]], so not sure what to do with it
+ * [[BLAD]] BLAD integration in Sage 'This wiki page is about the integration of the Bibliothèques Lilloises d'Algèbre Différentielle in Sage.' 2011
+ * [[bruhat]] project from 2008, S sub n under bruhat order
+ * take all Bugdays and put each into ONE page
+ * [[buildbot]] -- merge subpages
+ * [[bug]] -- add content to describe BugDays in general
 
 = About this wiki =
 
