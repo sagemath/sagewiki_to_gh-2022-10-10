@@ -82,18 +82,12 @@ These lists are possibly out-of-date. Use the listed Sage command for the newest
  * [[experimental_packages_available_for_SAGE|Experimental packages available for Sage]] (`./sage -experimenta`)
  * [[Sage_Spkg_Tracking|SPKG changelog and descriptions]]
 
-
-= Various Out-of-Date Tips and Information pages =
-
- * [[Tips]]
+= ''OUT OF DATE! NEEDS UPDATED!''
  * [[UsingSquashFS]]
  * [[SagemathLive]]
  * [[Send corrected worksheets to each student]]
  * [[SageAppliance|Working with the Sage Virtual Machine (VirtualBox)]] (See also: [[SageApplianceV4|previous version of the Sage VM]])
  * [[InstallingGapPackages|Installing GAP packages]]
-
-
-= Other out-of-date pages =
  * [[faq|Sage FAQ - Frequently Asked Questions (Out-of-date)]]
  * [[SAGE_in_the_News|Sage In the News and Blogs (Out-of-date)]]
  * [[sagenb|List of institutions and projects using Sage]]
@@ -120,6 +114,7 @@ These lists are possibly out-of-date. Use the listed Sage command for the newest
  * [[Distribution]]
  * [[Social Networks]]
  * [[CommunityManagement|Collection of stories on Open Source community management]]
+ * [[AXIOM]]
 
 
 = About this wiki =
