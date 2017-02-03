@@ -21,9 +21,14 @@ If you are interested in participating, please fill/edit the
 [[https://framadate.org/UuaAiTczyBfEoaeu|poll]] with the dates you
 would be coming.
 
-Note: unlike last year, only one guest house was available
-for rental; therefore, there will be limited space; late registered
-may need to sleep in a tent; you are warned :-)
+Notes:
+
+ * unlike last year, only one guest house was available for rental;
+   therefore, there will be limited space; late registered may need to
+   sleep in a tent; you are warned :-)
+
+ * The guest house is actually rented Saturday to Saturday; everybody
+   is welcome to stay for the whole time
 
 == Funding ==
 
@@ -56,6 +61,7 @@ This workshop is also part of a long tradition of [[Workshops|Sage Days]], and [
 == Participants ==
 
  * [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]] (Laboratoire de Recherche en Informatique, Université Paris Sud, algebraic combinatorics, category infrastructure in Sage, ... Sunday evening to Saturday morning)
+ * Markus Pfeiffer (St Andrews, semigroups, GAP, ... Monday-Friday)
 
 == Infrastructure ==
 
