@@ -33,7 +33,7 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix (LaBRI - Bordeaux)]] (February 27th - March 11th)
  * [[http://warwick.ac.uk/mmasdeu/|Marc Masdeu (U. Warwick)]] (February 27th - March 10th)
  * [[http://page.mi.fu-berlin.de/labbe/|Jean-Philippe Labbé (Freie Universität Berlin)]] (February 27th - March 10th)
- * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe (UC Davis)]] (February 27th - March 10th)
+ * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe (UC Davis)]] (February 27th - March 11th)
  * [[https://page.mi.fu-berlin.de/moritz/|Moritz Firsching (Freie Universität Berlin)]] (March 3rd - March 8th)
  * [[https://mat.upc.edu/en/people/julian.pfeifle/|Julian Pfeifle (U. Politècnica de Catalunya)]] (March 6th - March 10th)
  * [[http://marcelo-forets.fr/|Marcelo Forets (VERIMAG - U. Grenoble)]] (March 5th - March 11th)
