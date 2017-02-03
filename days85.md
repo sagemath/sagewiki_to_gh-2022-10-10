@@ -45,7 +45,7 @@ workshop. Please get in touch!
 == Previous workshops ==
 
 This follows a tradition of coding workshops in Cernay:
-[[days77|2017]],
+[[days77|2016]],
 [[days57|2014]],
 [[combinat/SageCombinatDaysCernay2012|2012]],
 [[combinat/SageCombinatChevieWorkshopOrsay2010|2010]],
