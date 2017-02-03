@@ -21,11 +21,6 @@ If you are interested in participating, please fill/edit the
 [[https://framadate.org/UuaAiTczyBfEoaeu|poll]] with the dates you
 would be coming.
 
-We booked the guest house
-[[http://www.cernayvacances.com/en/stay/de-toren/|The Tower]], a very
-nice and cosy "gîte", just short of an hour from Paris by public
-transport.  
-
 Note: unlike last year, only one guest house was available
 for rental; therefore, there will be limited space; late registered
 may need to sleep in a tent; you are warned :-)
