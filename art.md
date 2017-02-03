@@ -8,8 +8,8 @@ sage: animate?
 
 
 <<TableOfContents>>
-
-=== The witch of Maria Agnesi ===
+= Animated =
+== The witch of Maria Agnesi ==
 
 {{attachment:witch.gif}}
 
@@ -155,7 +155,7 @@ animation.show(delay=animation_delay)
 #     animation = animate(frames)
 }}}
 
-=== The Towers of Hanoi ===
+== The Towers of Hanoi ==
 
 {{attachment:hanoi.gif}}
 
@@ -212,7 +212,7 @@ frame_list=[initial]+list(animate_towers(towers))
 animate(frame_list, axes=False).show(delay=80)
 }}}
 
-=== Fibonacci Tiles ===
+== Fibonacci Tiles ==
 
 {{attachment:fibotile.gif}}
 
@@ -227,7 +227,7 @@ sage: a = animate(G)
 sage: a.show(delay=150)
 }}}
 
-=== Pencil of conics ===
+== Pencil of conics ==
 by Pablo Angulo
 {{attachment:pencil.gif}}
 
@@ -256,13 +256,11 @@ a = animate(graficas)
 
 a.show(delay=10)
 }}}
-== Pictures drawn by Sage ==
+= Pictures drawn by Sage =
 
 These pictures and images were drawn by [[http://www.sagemath.org|Sage]].
 
-<<TableOfContents>>
-
-=== Everywhere continuous, nowhere differentiable function ===
+== Everywhere continuous, nowhere differentiable function ==
  * Everywhere continuous, nowhere differentiable function (in the infinite limit, anyway):
 {{{#!python numbers=none
 p = Graphics()
@@ -275,7 +273,7 @@ p.show(xmin=0, ymin=0,dpi=250)
 
 {{http://sage.math.washington.edu/home/wdj/art/cool-sage-pic-small1.png|cool pic 1}}
 
-=== Mirrored balls in tachyon ===
+== Mirrored balls in tachyon ==
 
 {{{#!python numbers=none
 t = Tachyon(camera_center=(8.5,5,5.5), look_at=(2,0,0), raydepth=6, xres=1500, yres=1500)
@@ -293,7 +291,7 @@ show(t)
 
 {{http://sage.math.washington.edu/home/wdj/art/balls-mirrored-sage-tachyon1a.png|cool ray tracing pic}}
 
-=== Math art by Tom Boothby ===
+== Math art by Tom Boothby ==
 {{{#!python numbers=none
 # Author: Tom Boothby
 # This is a remake of an old art piece I made in POVRay
@@ -320,7 +318,7 @@ t.show(verbose=1)
 
 {{http://sage.math.washington.edu/home/wdj/art/boothby-tachyon1.png|cool pic 2}}
 
-=== Twisted cubic in tachyon ===
+== Twisted cubic in tachyon ==
 {{{#!python numbers=none
 t = Tachyon(xres=512,yres=512, camera_center=(5,0,0))
 t.light((4,3,2), 0.2, (1,1,1))
@@ -337,7 +335,7 @@ t.show()
 
 {{http://sage.math.washington.edu/home/wdj/art/boothby-tachyon2.png|cool pic 3}}
 
-=== Reflections from four spheres in tachyon ===
+== Reflections from four spheres in tachyon ==
 {{{#!python numbers=none
 t6 = Tachyon(camera_center=(0,-4,1), xres = 800, yres = 600, raydepth = 12, aspectratio=.75, antialiasing = True)
 t6.light((0.02,0.012,0.001), 0.01, (1,0,0))
@@ -354,7 +352,7 @@ t6.show()
 
 {{attachment:fourspheres.png}}
 
-=== A cone inside a sphere ===
+== A cone inside a sphere ==
 {{{#!python numbers=none
 sage: u,v = var("u,v")
 sage: p1 = parametric_plot3d([cos(u)*v, sin(u)*v, 3*v/2-1/3], (u, 0, 2*pi), (v, 0, 0.95),plot_points=[20,20])
@@ -364,7 +362,7 @@ sage: show(p1+p2)
 
 {{http://sage.math.washington.edu/home/wdj/art/cone-inside-sphere.jpg}}
 
-=== A cylinder inside a cone ===
+== A cylinder inside a cone ==
 {{{#!python numbers=none
 sage: u,v = var("u,v")
 sage: p1 = parametric_plot3d([cos(u)*v, sin(u)*v, 3/2-3*v/2], (u, 0, 2*pi), (v, 0, 1.5), opacity = 0.5, plot_points=[20,20])
@@ -374,21 +372,7 @@ sage: show(p1+p2)
 
 {{http://sage.math.washington.edu/home/wdj/art/cylinder-inside-cone.jpg}}
 
-=== A hypotrochoid animation by Dean Moore ===
-Hypotrochoid. Written by Dean Moore, February 2008
-
-This animation was moved to the section on the animate command : [[http://wiki.sagemath.org/animate#AhypotrochoidanimationbyDeanMoore]]
-
-=== A simpler hypotrochoid ===
-
-This animation was moved to the section on the animate command : [[http://wiki.sagemath.org/animate#Asimplerhypotrochoid]]
-
-=== The witch of Maria Agnesi ===
-by Marshall Hampton
-
-This animation was moved to the section on the animate command : [[http://wiki.sagemath.org/animate#ThewitchofMariaAgnesi]]
-
-=== p-adic Seasons Greetings ===
+== p-adic Seasons Greetings ==
 
  * I know this is early, but thanks to Robert Bradshaw's p-adic plot function, here is a p-adic Seasons Greetings:
 
@@ -404,7 +388,7 @@ sage: P4 = text("$from$ $everyone$ $at$ sagemath.org!",(0.1,-1.6))
 sage: (P1+P2+P3+P4).show(axes=False)
 }}}
 
-=== Lorentz butterfly ===
+== Lorentz butterfly ==
 
 {{{#!python numbers=off
 """
@@ -460,7 +444,7 @@ def butterfly3d():
 
 {{http://sage.math.washington.edu/home/wdj/art/butterfly3d.png}}
 
-=== Feigenbaum diagram ===
+== Feigenbaum diagram ==
 Author: Pablo Angulo
 Posted to sage-devel 2008-09-13. See also https://sage.math.washington.edu:8101/home/pub/3
 #Note: Mandelbrot set moved to interact/fractals
@@ -491,7 +475,7 @@ point(puntos,pointsize=1)
 {{attachment:feigenbaum.png}}
 
 
-=== Sierpinski triangle ===
+== Sierpinski triangle ==
 
  * This was a black+white Sierpinski triangle coded by Marshall Hampton, with some slight tweeking by David Joyner to add colors:
 
@@ -531,11 +515,7 @@ http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage.pdf,
 and in A4 size:
 http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage-a4.pdf.
 
-=== The Tamer and the Lion by Provencal and Labbe ===
-
-This animation was moved to the section on the animate command : [[http://wiki.sagemath.org/animate#TheTamerandtheLionbyProvencalandLabbe]]
-
-=== Integral Curvature Apollonian Circle Packing ===
+== Integral Curvature Apollonian Circle Packing ==
 by Marshall Hampton and Carl Witty
 
 {{{
@@ -614,7 +594,7 @@ circs.save('./Apollonian3.png',axes = False, figsize = [12,12], xmin = \
 
 {{attachment:Apollonian.png}}
 
-=== Call graph of a recursive function ===
+== Call graph of a recursive function ==
 {{{
 def grafo_llamadas(f):
     class G(object):
