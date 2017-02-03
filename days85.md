@@ -23,12 +23,9 @@ would be coming.
 
 Notes:
 
- * unlike last year, only one guest house was available for rental;
-   therefore, there will be limited space; late registered may need to
-   sleep in a tent; you are warned :-)
+ * unlike last year, only one guest house was available for rental; therefore, there will be limited space; late registered may need to sleep in a tent; you are warned :-)
 
- * The guest house is actually rented Saturday to Saturday; everybody
-   is welcome to stay for the whole time
+ * The guest house is actually rented Saturday to Saturday; everybody is welcome to stay for the whole time
 
 == Funding ==
 
