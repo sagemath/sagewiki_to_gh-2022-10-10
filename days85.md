@@ -1,4 +1,3 @@
-
 = Sage/GAP Days 85 --- March 13-17, 2017, Cernay =
 
 '''''Sage developers days on packaging, portability, documentation tools'''''
@@ -104,14 +103,14 @@ will complement locally, as needed. Please edit below or send us the
 list of ingredients for the dish(es) you plan to prepare. We will be
 roughtly 10-15 and should plan for roughly 10 meals.
 
-- ...
-- ...
+ * ...
+ * ...
 
 === Practicalities ===
 
 Linen are provided. Please bring towels, ...
 
-=== From Paris to Cernay ==-
+=== From Paris to Cernay ===
 
  * From centre of Paris: 40 minutes RER B to Saint-Rémy-les-Chevreuse + 15 minutes bus to Cernay-la-Ville
  * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
