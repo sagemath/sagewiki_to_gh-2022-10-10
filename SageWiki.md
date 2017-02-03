@@ -112,12 +112,9 @@ These lists are possibly out-of-date. Use the listed Sage command for the newest
  * [[CommunityManagement|Collection of stories on Open Source community management]]
 
 Alphabetical listing of things to do (out-of-date and general organise) - mrennekamp
- * [[AXIOM]] one of the components
- * [[AIX]] which talks of porting sage to AIX
+ * [[aix]] which talks of porting sage to AIX
  * All SEP's (Sage Enhancement Proposal) were / need to be removed, as to keep information on Trac
- * [[Algorithms_for_quaternion_algebras]]
- * [[AMS]] booths at AMS / MAA meetings ('08 and '09) and an '09 special session
- * [[animate]] fun gifs, with code
+ * [[ams]] booths at AMS / MAA meetings ('08 and '09) and an '09 special session
  * [[art]] duplicates many things, but need to put ALL SAGE ARTWORK EVER MADE into this wiki page ... also broken links
  * [[Tips/bash-completion]] one of many [[Tips]], so not sure what to do with it
  * [[BLAD]] BLAD integration in Sage 'This wiki page is about the integration of the Bibliothèques Lilloises d'Algèbre Différentielle in Sage.' 2011
@@ -131,6 +128,7 @@ Alphabetical listing of things to do (out-of-date and general organise) - mrenne
  * [[Classify old-style packages]] is a to-do list for the wiki ... I'm (mrennekamp) sure that this is duplicated somewhere
  * [[CodeOfConduct]] not sure why there; would like to see go to official documentation
  * [[CodeSharingWorkflow]] N. Thiery's musings on workflow development. Nothing wrong, but would help to collaborate.
+ * [[coercion]]
 
 = About this wiki =
 
