@@ -35,3 +35,4 @@ Feel free to add yourself to this list if you plan to participate for some of or
  * Julien Lavauzelle (jlavauzelle)
  * Luca De Feo (defeo) — afternoon only
  * Bruno Grenet (bruno)
+ * Matthew Rennekamp (mrennekamp)
