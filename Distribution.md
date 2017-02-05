@@ -44,7 +44,8 @@ are prepared by the release manager, and sometimes by more people.
 
 = Anaconda / Conda / Conda Forge =
 
-In preparation.
+!SageMath is now available in Anaconda via !CondaForge, see
+[[https://groups.google.com/d/topic/sage-devel/wyaV8x5qolI/discussion|this announcement on sage-devel]].
 
 = Linux distros =
   * mailing-list: [[https://groups.google.com/forum/#!forum/sage-packaging|sage-packaging]]
@@ -89,6 +90,13 @@ In preparation.
   * packages: http://packages.ubuntu.com/sagemath derived from the [[#Debian|Debian]] packages
   * earlier PPA: https://launchpad.net/~aims/+archive/ubuntu/sagemath
     * admin: pipedream
+
+= Mac OS X / OS X / macOS =
+
+== Homebrew ==
+
+!SageMath can now be installed via Homebrew. This fetches the dmg for the app and installs the app.
+See [[https://groups.google.com/d/msg/sage-devel/jdLfIKQ1M18/PVQqJUUqAgAJ|this post on sage-devel]].
 
 = Windows =
 
