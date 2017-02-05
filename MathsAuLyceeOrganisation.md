@@ -4,7 +4,7 @@
 
 == Programme (provisoire) (mi2010) ==
 
-==== 10h Présentation du logiciel Sage (N. Thierry (?), F. Saliola (?), S. Labbe (?), V. Delecroix (?)) ====
+==== 10h Présentation du logiciel Sage (N. Thiéry (?), F. Saliola (?), S. Labbé (?), V. Delecroix (?)) ====
 
 Une introduction en deux parties:
 
@@ -14,7 +14,7 @@ Une introduction en deux parties:
 
 ==== 10h45 Des expériences et des projets ====
 
-   * Documentation (projet de livre) (?) (F. Maltey (?), N. Thierry, P. Zimmermann (?))
+   * Documentation (projet de livre) (?) (F. Maltey (?), N. Thiéry, P. Zimmermann (?))
 
    * Utilisation lors des stages Hippocampe
 
@@ -34,7 +34,7 @@ Que peuvent faire les élèves avec ?
 
    * dans leur travail personnel,
    * pour vérifier leur compréhension des méthodes de calcul,
-   * pour complèter leur méthode de raisonnement.
+   * pour compléter leur méthode de raisonnement.
 
 Le raisonnement devant le clavier n'est pas le même qu'avec un crayon.
 
@@ -42,7 +42,7 @@ Le raisonnement devant le clavier n'est pas le même qu'avec un crayon.
 
 ==== 15h Ateliers pratiques ====
 
-   * Propositions de Travaux Pratiques à différents niveaux illustrant les programes de Terminale et premier cycle du supérieur.
+   * Propositions de Travaux Pratiques à différents niveaux illustrant les programmes de Terminale et premier cycle du supérieur.
 
    * Ateliers WIMS
 
