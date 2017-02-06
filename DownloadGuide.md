@@ -1,3 +1,4 @@
+#REDIRECT DownloadandInstallGuide
 = Sage Download Guide =
 
 This guide explains how to download Sage and which version you should download from one of the [[http://sagemath.org/download.html|download mirrors]]. You need to know your operating system, the download mirror closest to your geographic location, and maybe some specific system information.
