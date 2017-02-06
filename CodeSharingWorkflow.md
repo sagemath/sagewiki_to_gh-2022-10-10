@@ -1,5 +1,5 @@
-{{{#!rst
 <<TableOfContents>>
+{{{#!rst
 ========================================================
 On development models for sharing (experimental) code
 ========================================================
