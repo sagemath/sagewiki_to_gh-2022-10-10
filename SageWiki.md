@@ -11,23 +11,44 @@ This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software S
  <<Include(Workshops, , from="^##start-include$", to="^----$")>>
  * [[Workshops | All Workshops]], including past and future Sage Days, Bug Days, Doc Days, Review Days, Education Days, and some other Sage-related events.
 
-
 == Hosting a workshop ==
  * [[HowToHostASageDays|How To Host A Sage Days]] --- Advice to future hosts
  * [[HowToSpreadSageDuringAWorkshop|How to Spread Sage During a Workshop]] --- Advice to future hosts
 
+= Major Wiki Pages =
+Note: "Contributors" are not necessarily coders/programmers, but "Developers" 'are'.
+||'''Title'''||'''Description'''||'''Stand Alone?'''||'''Importance (or to whom)'''||'''How to make page better'''||
+|| [[art]] || Visuals made with SageMath || Single page, see also [[interact]] || Low || Adding more pictures / animations ||
+|| [[bug]] || Archive of Bug Days || Category || Interested (old and new) Contributors || Maintaining Information ||
+|| [[buildbot]] || Buildbot and Patchbot || Parent to [[buildbot/owners|owners]] || Contributors || Work with developing Buildbot and Patchbot ||
+|| [[cando]] || Features of SageMath || Likely has duplicates || Prospective Users || Add Information and Maintain. New features often. ||
+|| [[CodeOfConduct]] || Moral & Behavior Standards || Stand-Alone || Contributors || Harness to prevent and/or solve conflicts ||
+|| [[CodeSharingWorkflow]] || Sharing experimental code || One of many "Conventions" pages || Developers || Merge into a single "Conventions" page or category ||
+|| [[Coding_Theory]] || Roadmap and discussions || Stand-Alone || Developers interested in coding theory || Continually update with Trac ||
+|| [[coercion]] || Often-referenced topic; deals with integrating set theory || Stand-Alone || Developers ||  ||
+|| [[combinat]] || Major group that enhances (SageMath) for algebraic combinatorics || Category || Topic Developers and Researchers || Update and Archive pages ||
+|| [[Community]] || List of SageWiki Users || Stand-Alone || Wiki Contributors || Add all accounts to the page ||
+|| [[Comparisons]] || Compares SageMath to various competitors || Parent Page || Users and Developers || Make a single page and update often ||
+|| [[contribute]] || Ideas for ways to start contributing to SageMath || Only [[contribute/AnswerQuestions]] so far || Prospective Contributors || Add ideas ||
+|| [[CorporateIdentity]] || Standardize how SageMath is referenced || Stand-Alone || High || Add information, such as source for making the logo ||
+|| [[cyclo]] || Cyclotomic Linear Algebra; old project with solved Trac ticket || Category || Low || Move, maintain, or remove ||
+|| days## || (Naming Sage Days) || Category || Mid || (mrennekamp: Would like to rename all to fix name scheme.) Maintain information for archiving. ||
+|| [[debian]] || All things related to Debian and SageMath || Category || Mid || Updates as needed ||
+|| [[devel]] || "Organize development of SageMath" || Category || HIGH || Link all related pages as it is now ||
+|| [[Distribution]] || Gives information for distribution (ex. package management) || Stand-Alone || Contributors || Maintain information ||
+|| [[doc]] || Doc Days, which (yes) focused on documentation || Category || Archive, Interested Contributors || Maintain ||
+|| [[DocumentationProject]] || Main page for documentation || 'Should be' a Category || Contributors and users || Add info for all internal and external documents ||
+|| [[DsageNg]] || SageMath in a distributed environment || Category || Developers || Update often with Trac ||
+|| [[dynamics]] || Implementing various algorithms related to dynamics || Category || Developers || Update with Trac ||
 
 
 = People =
-
 The most up-to date list of Sage developers is on our [[http://trac.sagemath.org/sage_trac/wiki#AccountNamesMappedtoRealNames|list of developers on the Sage trac wiki]].
 
 [[http://www.sagemath.org/development-map.html|Overview of (many) Sage developers on a world map]]
 
-
 <<Anchor(messagingsites)>>
 = Mailing Lists / Chat Rooms =
-
  * [[http://groups.google.com/group/sage-support|sage-support]]
  * [[http://groups.google.com/group/sage-devel|sage-devel]]
  * [[http://groups.google.com/group/sage-release|sage-release]]
@@ -40,7 +61,6 @@ The most up-to date list of Sage developers is on our [[http://trac.sagemath.org
  * [[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]]
  * IRC channel: {{{#sagemath}}} on [[http://freenode.net/|freenode ]] (`chat.freenode.net`)
  * The Sage website contains links to [[http://www.sagemath.org/development-groups.html | other discussion mailing lists]].
-
 
 = Development =
 
@@ -73,7 +93,7 @@ These lists are possibly out-of-date. Use the listed Sage command for the newest
  * [[experimental_packages_available_for_SAGE|Experimental packages available for Sage]] (`./sage -experimenta`)
  * [[Sage_Spkg_Tracking|SPKG changelog and descriptions]]
 
-= ''OUT OF DATE! NEEDS UPDATED!''
+= ''OUT OF DATE! NEEDS UPDATED!'' =
  * [[Tips]]
  * [[UsingSquashFS]]
  * [[SagemathLive]]
@@ -125,6 +145,16 @@ Alphabetical listing of things to do (out-of-date and general organise) - mrenne
  * [[CodeOfConduct]] not sure why there; would like to see go to official documentation
  * [[CodeSharingWorkflow]] N. Thiery's musings on workflow development. Nothing wrong, but would help to collaborate.
  * [[coercion]]
+ * Most [[combinat]] probably
+ * [[Comparisons]]
+ * Move [[Cryptography]] to [[Code_Theory]]
+ * What is [[CUDA]?
+ * [[Debate/Collective infrastructure management]] : we have [[Infrastrucure]], so connect these
+ * [[DeformationTheory]] -- I don't know status of progress on this feature
+ * [[DenseLinearAlgebra]] -- If not on Trac, then probably should go as a milestone....? Don't know progress of this either
+ * [[dev1]] and all their subpages list what was done at "developer days 1", which is same as [[days8.5]]
+ * [[DevMapNewPeople]] -- is this needed? 
+
 
 = About this wiki =
 
