@@ -1,8 +1,6 @@
 <<TableOfContents>>
-{{{#!rst
-========================================================
-On development models for sharing (experimental) code
-========================================================
+
+= On development models for sharing (experimental) code =
 
 One core aim of Sage is to foster code sharing, and to encourage groups
 of researchers, teachers, and other users to get together to develop
@@ -28,32 +26,31 @@ in and contribute your own vision!
 
 See also:
 
-- A `preliminary list of SageMath external packages <https://wiki.sagemath.org/SageMathExternalPackages>`_
-- A `discussion on sage-devel about modularization of the Sage library <https://groups.google.com/d/topic/sage-devel/oZbdbo1kHW0/discussion>`_
+ * A [[preliminary list of SageMath external packages|https://wiki.sagemath.org/SageMathExternalPackages]]
+ * A [[discussion on sage-devel about modularization of the Sage library|https://groups.google.com/d/topic/sage-devel/oZbdbo1kHW0/discussion]]
 
-Objectives of a development workflow
-====================================
+== Objectives of a development workflow == 
 
 Of course the milleage will vary from project to project, but the objectives
 of a development workflow can typically be to:
 
-1.  Support *fast paced development* within a group of users working on
+1.  Support ''fast paced development'' within a group of users working on
     the same topic, or needing similar features.
 
-2.  Support *rapid dissemination of experimental features*.
+2.  Support ''rapid dissemination of experimental features''.
 
     The goal is simultaneously to support users, and to get early
     feedback on the code.
 
     Typical needs:
 
-    - Using, for a given calculation, experimental features from
-      different areas, developped by different groups of people
+    * Using, for a given calculation, experimental features from
+      different areas, developed by different groups of people
 
-    - Getting the latest version of a feature, without having to
+    * Getting the latest version of a feature, without having to
       upgrade all of Sage (e.g. just before delivering a talk!!!)
 
-    - Feature discovery: increasing the chances for someone to
+    * Feature discovery: increasing the chances for someone to
       discover that a given feature is being implemented somewhere
 
 3.  Foster high quality code by promoting documentation, tests, code reviews.
@@ -92,11 +89,9 @@ of a development workflow can typically be to:
     - https://en.wikipedia.org/wiki/Extension_method
     - https://en.wikipedia.org/wiki/Monkey_patch
 
-Existing workflows
-==================
+= Existing workflows =
 
-Direct integration into Sage
-----------------------------
+== Direct integration into Sage ==
 
 In this workflow, each feature is shared by integrating it directly into Sage.
 
@@ -120,8 +115,7 @@ Cons:
 
 Examples: 
 
-- `SageManifolds <http://sagemanifolds.obspm.fr/>`_, cf. the metaticket
-  `#18528 <http://trac.sagemath.org/ticket/18528>`_
+- `SageManifolds <http://sagemanifolds.obspm.fr/>`_, cf. the metaticket`#18528 <http://trac.sagemath.org/ticket/18528>`_
 - `ACTIS: Algebraic Coding Theory for Sage <http://bitbucket.org/lucasdavid/sage_coding_project/wiki/Home>`_, cf. the metaticket `#18846 <http://trac.sagemath.org/ticket/18846>`_
 
 Discussion:
@@ -130,8 +124,7 @@ Discussion:
 - Use the @experimental decorator to mitigate the backward compatibility issue while the code is not yet fully mature. The decorator is a bit clumsy to use due to doc-testing in Sphinx (tricks need to be done to avoid printing the experimental warning on each doc-test), see e.g. `AsymptoticRing <http://doc.sagemath.org/html/en/reference/asymptotic/sage/rings/asymptotic/growth_group.html>`_.
 
  
-Experimental feature branches
------------------------------
+== Experimental feature branches ==
 
 In this workflow, experimental feature or feature sets are implemented as
 branches on the Sage sources.
@@ -178,10 +171,9 @@ Some remarks:
 * The features in the features trac are either orthogonal or competent to other features in their functionality.
 * Some parts of the present Sage library may be turned into features. For example, we may have "feature/sage/modular/abvar".
 
-Patch queue as used by Sage-Combinat between 2009 and 2013
-----------------------------------------------------------
+== Patch queue as used by Sage-Combinat between 2009 and 2013 ==
 
-See also those old `design notes about the Sage-Combinat workflow <combinat/CodeSharingWorkflow>`_.
+See also the bottom of this page.
 
 TODO: description
 
@@ -208,8 +200,7 @@ Cons:
   and the rest of the world, and prevented rapid reconfiguration of
   projects around topics and groups of developers
 
-Standalone (pip) packages
--------------------------
+== Standalone (pip) packages ==
 
 Here the idea is to implement feature sets as independent Python
 packages on top of Sage. Converting a bunch of Python files into such
@@ -275,8 +266,7 @@ Cons:
 - Risk of code rotting (as Sage evolves over time) or death (if it's not maintained)
 - Requires coordination with Sage and related packages to not step on each other
 
-Standalone (pip) packages with an integration mission
------------------------------------------------------
+=== Standalone (pip) packages with an integration mission ===
 
 This is a variant on the previous development workflow, with an
 explicit focus on easing (or even promoting) the integration of mature
@@ -325,18 +315,15 @@ Cons:
   makes for a clean diff showing just the addition of the new methods,
   but means that one looses the history and author tracking (that's
   not that different from history squashing as used by many projects)
-}}}
-{{{#!rst
 
-What is this Sage-Combinat queue madness about???
-=================================================
+= What is this Sage-Combinat queue madness about??? =
 
 Sage-Combinat is a software project whose mission is: "to improve the
 open source mathematical system Sage as an extensible toolbox for
 computer exploration in (algebraic) combinatorics, and foster code
 sharing between researchers in this area".
 
-In practice it's a community of a dozen regular contributers, 20
+In practice it's a community of a dozen regular contributors, 20
 occasional ones and, maybe, 30 users. They collaborate together on a
 collection of experimental patches (i.e. extensions) on top of
 Sage. Each one describes a relatively atomic modification which may
@@ -348,9 +335,7 @@ extensions are merged in each version of Sage (42 in Sage 5.0!), and
 more than 200 are under development.
 
 
-Why do we want to share our experimental code
----------------------------------------------
-
+== Why do we want to share our experimental code ==
 Here are our goals in using the Sage-Combinat queue for sharing patches:
 
 - Preintegration
@@ -403,38 +388,16 @@ Here are our goals in using the Sage-Combinat queue for sharing patches:
 
 
 
-What are our constraints
-------------------------
-
-- Vital necessity of supporting several versions of Sage at once
-
-    For the convenience of the user, it is usually possible to use the
-    sage-combinat patches with older versions of sage. The intent is only
-    to temporarily support one or two older versions of sage (that is
-    about one month old). Typical use case: a developer urgently needs the
-    latest version of a patch for a software demonstration at a
-    conference, but can't instantly upgrade because of a slow internet
-    connection. There is no guarantee whatsoever; on occasion we do not
-    support this when this causes technical difficulties.
-
-- By nature, our calculations are transversal. Thus it would be hard
-  to split Sage-Combinat in smaller chunks by subareas.
+== What are our constraints == 
+ * Vital necessity of supporting several versions of Sage at once
+ ** For the convenience of the user, it is usually possible to use the sage-combinat patches with older versions of sage. The intent is only to temporarily support one or two older versions of sage (that is about one month old). Typical use case: a developer urgently needs the latest version of a patch for a software demonstration at a conference, but can't instantly upgrade because of a slow internet connection. There is no guarantee whatsoever; on occasion we do not support this when this causes technical difficulties.
+ * By nature, our calculations are transversal. Thus it would be hard to split Sage-Combinat in smaller chunks by subareas.
 
 
+== Some random questions ==
 
-Some random questions
----------------------
+ * linear order versus DAG (directed acyclic graph) of dependencies: what's easier to maintain ?
 
-- linear order versus DAG (directed acyclic graph) of dependencies: what's
-  easier to maintain ?
-
-
-
-Foreseeable future
-------------------
-
-- More contributers
-- Less overlap between patches as development goes from core to
-  peripheral features
-
-}}}
+== Foreseeable future ==
+ * More contributers
+ * Less overlap between patches as development goes from core to peripheral features
