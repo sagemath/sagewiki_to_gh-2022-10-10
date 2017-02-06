@@ -29,7 +29,7 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * [[https://trac.sagemath.org/ticket/21950|#21950: Add pulling_triangulation method to polyhedron class and point configuration]]
  * [[https://trac.sagemath.org/ticket/18128|#18128: Add a face truncation method to Polyhedron class]]
  * Uniform random generation of integer points in polytopes
- * Survey existent maintained Python bindings to MILP solvers, and see if we could use it instead of our own, those include pyomo, pulp, numberjack,...
+ * Survey existent maintained Python bindings to MILP solvers, and see if we could use them instead of our own, those include pyomo, pulp, numberjack,...
  * ... (add your project!)
 
 == Participants ==
