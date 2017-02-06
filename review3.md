@@ -42,3 +42,4 @@ Feel free to add yourself to this list if you plan to participate for some of or
  * Luca De Feo (defeo) — afternoon only
  * Bruno Grenet (bruno)
  * Matthew Rennekamp (mrennekamp)
+ * Arpit Merchant (arpitdm) - joining intermittently
