@@ -61,6 +61,7 @@ This workshop is also part of a long tradition of [[Workshops|Sage Days]], and [
  * Markus Pfeiffer (St Andrews, semigroups, GAP, ... Monday-Friday)
  * [[http://defeo.lu/|Luca De Feo]] (Laboratoire de Mathématiques de Versailles && Inria Saclay)
  * Julian Rüth (freelance, not exactly sure about my dates yet, most likely Saturday-Friday)
+ * Erik Bray (Laboratoire de Recherche en Informatique, Université Paris Sud; will probably arrive Tuesday and stay through Saturday morning)
 
 == Infrastructure ==
 
