@@ -23,6 +23,12 @@ developing Coding Theory for Sage.
 The main goal is to finish and review many of the open tickets on Coding Theory
 functionality. See [[https://trac.sagemath.org/wiki/SageCodingRoadMap|CodingTheoryRoadmap]] on Trac.
 
+= How to get together =
+
+This is a virtual meeting, so every-one is invited to join from his/her preferred location. To communicate, we propose the two virtual rendez-vous:
+
+ * A Slack public chat room : [https://sagereviewday3.slack.com/] with possibility to create sub-channels and private discussions if necessary;
+ * A Framapad collaborative pad : [https://bimestriel.framapad.org/p/SageReviewDay3] to keep track of the working agenda, and to be updated with status reports
 
 = Participants =
 
