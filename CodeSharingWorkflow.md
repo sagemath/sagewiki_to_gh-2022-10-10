@@ -21,15 +21,14 @@ developer's manual (though this can be of interest for other people
 wanting to start sharing code without necessarily contributing to
 Sage), or a page of the sagemath.org website.
 
-At this point this is a collection of notes by N. Thiéry; please hack
-in and contribute your own vision!
+At this point this is a collection of notes by N. Thiéry; please hack in and contribute your own vision!
 
 See also:
 
  * A [[SageMathExternalPackages]]
  * A [[https://groups.google.com/d/topic/sage-devel/oZbdbo1kHW0/discussion|discussion on sage-devel about modularization of the Sage library]]
 
-== Objectives of a development workflow == 
+== Objectives of a development workflow ==
 
 Of course the milleage will vary from project to project, but the objectives
 of a development workflow can typically be to:
