@@ -26,8 +26,8 @@ in and contribute your own vision!
 
 See also:
 
- * A [[preliminary list of SageMath external packages|https://wiki.sagemath.org/SageMathExternalPackages]]
- * A [[discussion on sage-devel about modularization of the Sage library|https://groups.google.com/d/topic/sage-devel/oZbdbo1kHW0/discussion]]
+ * A [[SageMathExternalPackages]]
+ * A [[https://groups.google.com/d/topic/sage-devel/oZbdbo1kHW0/discussion|discussion on sage-devel about modularization of the Sage library]]
 
 == Objectives of a development workflow == 
 
