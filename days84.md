@@ -46,7 +46,7 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * Vincent Klein (Bordeaux, march 1st or 2nd - march 10th)
  * [[http://wwwb.math.rwth-aachen.de/~gutsche/|Sebastian Gutsche]] (?)
  * ThierryMonteil (February 27th - March 7th)
- * Simon King (?)
+ * Simon King (February 27th - March 11th)
 
 == Acknowledgment ==
 
