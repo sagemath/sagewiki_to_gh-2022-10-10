@@ -25,7 +25,7 @@ functionality. See [[https://trac.sagemath.org/wiki/SageCodingRoadMap|CodingTheo
 
 = How to get together =
 
-This is a virtual meeting, so every-one is invited to join from his/her preferred location. To communicate, we propose the two virtual rendez-vous:
+This is a virtual meeting, so every-one is invited to join from her/his preferred location. To communicate, we propose the two following virtual rendez-vous:
 
  * A [[https://sagereviewday3.slack.com/|Slack public chat room ]] with possibility to create sub-channels and private discussions if necessary;
  * A [[https://bimestriel.framapad.org/p/SageReviewDay3|Framapad collaborative pad]] to keep track of the working agenda, and to be updated with status reports
