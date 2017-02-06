@@ -69,7 +69,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Attracting Cycles || Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles || || ||
  || Non-Integral Domains || Make projective space work over non-integral domains. One method would be to make a valid point on which is valid for modulo all maximal ideals || || ||
  ||<|1> Documentation || Write Tutorials || || ||
- || <|2>Complex Dynamics || Implement Thurston's algorithm. More precisely, develop an efficient method to determine if there is a Thurston obstruction. (Epstein, ICERM) || || ||
+ ||<|2> Complex Dynamics || Implement Thurston's algorithm. More precisely, develop an efficient method to determine if there is a Thurston obstruction. (Epstein, ICERM) || || ||
  || || Plotting of Mandlebrot/Julia sets. There are a number of programs that give excellent graphical feedback of complex dynamics behavior. It would be helpful to either interface Sage with an existing library, or implement so of this directly in Sage|| || ||
  || Dynamical Zeta Functions || Compute the dynamical zeta function || || ||
  ||<|4>Miscellaneous ||Implement a function which takes as input to rational functions $f(x)$ and $g(x)$, and determines whether or not $f^n=g^m$ for some integers $n,m \geq 1$. (Zieve, ICERM) || || ||
