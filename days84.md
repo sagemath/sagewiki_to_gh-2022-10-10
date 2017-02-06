@@ -26,6 +26,8 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * [[https://trac.sagemath.org/ticket/20302|#20302: Meta-ticket: Improvements to MixedIntegerLinearProgram etc.]]
  * [[https://trac.sagemath.org/ticket/18703|#18703: oriented matroids]]
  * release the [[https://github.com/videlec/e-antic|real embedded number fields library]] (built on top of antic)
+ * [[https://trac.sagemath.org/ticket/21950|#21950: Add pulling_triangulation method to polyhedron class and point configuration]]
+ * [[https://trac.sagemath.org/ticket/18128|#18128: Add a face truncation method to Polyhedron class]]
  * ... (add your project!)
 
 == Participants ==
