@@ -2,8 +2,7 @@ Review Days 3 is a one-day '''online''' event held February 7, 2017.
 The Review Days will officially run from 9-17, GMT+1, or until everyone runs out
 of steam.
 
-We will probably communicate using Gitter and Framapad. This will be decided later.
-
+We will communicate using Slack and Framapad. See below.
 
 <<TableOfContents()>>
 
