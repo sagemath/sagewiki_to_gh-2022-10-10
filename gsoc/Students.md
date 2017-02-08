@@ -50,8 +50,8 @@ You may also want to peruse the [[https://opensource.googleblog.com/2011/03/dos-
 
 Its always a good idea to get started early, even before the complete project ideas list is out. By becoming actively involved, you can significantly improve your GSoC proposal and also help us in deciding how you stand out from the rest of the applicants. But first, you should complete the checklist below to ensure that you are ready to contribute.
 
- 1. '''Know where Sage development happens''': There are different forums for contacting the community as listed above. Also, we have,
- a. [[http://git.sagemath.org/sage.git/tree/ | git.sagemath.org]] - Sage uses Git for version control and this online repository is a good way to study the code online. It is also available on [[https://github.com/sagemath/sage | Github]]. The developer version can be downloaded from [[ http://www.sagemath.org/download-source.html | here]].
-b. [[http://doc.sagemath.org/html/en/developer/index.html | Developer Documentation]] - This is the single best resource for everything related to Sage and as such should be considered as required reading. 
+ 1. '''Obtain Sage's Source Code''' - Sage uses Git for version control and the online repository at [[http://git.sagemath.org/sage.git/tree/ | git.sagemath.org]] is a good way to study the code online. It is also available on [[https://github.com/sagemath/sage | Github]]. The developer version can be downloaded from [[ http://www.sagemath.org/download-source.html | here]].
+ 2. '''Read the Sage Guide''' - [[http://doc.sagemath.org/html/en/developer/index.html | Developer Documentation]] is the single best resource for everything related to Sage development and as such should be considered as required reading. 
+ 3. '''Install Sage on your local system''' - 
 
 There are different ways to contribute and acquaint yourself with the various aspects of Sage development. 
