@@ -42,3 +42,62 @@ Feel free to add yourself to this list if you plan to participate for some of or
  * Bruno Grenet (bruno)
  * Matthew Rennekamp (mrennekamp)
  * Arpit Merchant (arpitdm) - joining intermittently
+
+
+= Aftermath: Copy-paste of our Framapad = 
+
+== Reviews being done: ==
+
+    # 20335: BCH codes: solved the conflicts, doctests pass, but need a deeper review (Julien) --> we almost finished, it just remains to add some doc to explain the link between the BCH code and its underlying GRS code.
+
+
+== Rebase and Review ==
+
+    #20849: improve grs.py docstring (cpernet) -> merge conflicts solved
+
+
+== Improve and Review ==
+
+    # 20938: Decoding algorithm for low-order q-ary or binary Reed-Muller codes (Johan)
+
+    #21088: Merged conflicts, resolved doctest errors and fixed deprecated statements (Arpit)
+
+
+
+== Other ideas ==
+
+    CyclicCode : overwrite dual_code()
+
+    the ZeroCode should be available (Sage supports VectorSpace of dimension 0)
+
+
+
+== Done during Sage Review Day 3 ==
+
+    # 21328: Parity check code: just need a quick final review => Done (David)
+
+    #21131 Interpolation, Minimum vanishing polynomial and Multi-point evaluation -> Positive Review
+
+    #20899:  `AbstractLinearCode` should throw sensible error messages on printing
+
+    #20087:  `__call __ (message)` on linear code or encoder should return a codeword -> Positive Review
+
+    #20898: Syndrome decoder for a linear code sometimes sets wrong decoder type : -> Fixed, positive review
+
+    # 20908: Reage index and catalogs for sage.coding (David, Johan)
+
+    # 21333: Asymptotically fast (GF (q) [x]) [y] root-finding. (Johan)
+
+    # 21024: Faster k [x] matrix reduction (could be closed # 16742 as invalid). (Johan)
+
+    # 20087 (`__call __ (message)` on linear code or encoder should return a codeword): cpernet => done (positive review)
+
+    # 20001: Wrote the table for decoder types and their definitions (David) => (positive review)
+
+    #21159: Cached generator matrices and parity check matrices should be immutable: cpernet => fixed (positive reviewed)
+
+    # 20953: minimum distance and gap (Julien)
+
+    #21156: dimension() uses _dimension even if it does not exist (bruno) => Positive review
+
+    #20787:  GolayCode looks OK, but we are stuck  in the --long coverage because of olf chinen_polynomial() stuff.
