@@ -88,4 +88,4 @@ Project:
  * Schedule: A timetable, including special circumstances like exams or holidays, for the individual tasks.
  * Risk Management: Try to anticipate potential problems and explain, how to mitigate them. Propose alternative scenarios, if a particular milestone isn't reached, to still successfully complete the project.
 
-Note: '''→ [[|SageMath's GSoC page to submit your proposal]] ←'''
+Note: All final applications must be submitted on the official [[https://summerofcode.withgoogle.com/| GSoC]] website.
