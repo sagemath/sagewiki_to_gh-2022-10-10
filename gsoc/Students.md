@@ -60,4 +60,30 @@ Lastly, learn about the [[http://doc.sagemath.org/html/en/developer/walk_through
 
 == First Contributions ==
 
-There are two primary ways to contribute and acquaint yourself with the various aspects of Sage development namely, writing a ticket and reviewing a ticket. [[https://trac.sagemath.org/report/38 | Beginner Tickets]] are issues that are interesting yet simple enough to complete and will take very little time. You should first figure out which module(s) of Sage you are interesting in contributing to (possibly through the list of available project ideas) and then find a suitable open easy ticket to resolve. Alternatively, if you don't find something specific, you can always ask on the ''sage-gsoc'' mailing list.
+There are two primary ways to contribute and acquaint yourself with the various aspects of Sage development namely, writing a ticket and reviewing a ticket.  [[https://trac.sagemath.org/report/38 | Beginner Tickets]] are issues that are interesting yet simple enough to complete and will take very little time. You should first figure out which module(s) of Sage you are interesting in contributing to (possibly through the list of available project ideas) and then find a suitable open easy ticket to resolve. Alternatively, if you don't find something specific, you can always ask on the ''sage-gsoc'' mailing list.
+
+ I. '''Writing A Ticket''' - Developers, to put it simply, report on a bug or feature or enhancement that they wish to help and open a ticket on Trac. Then they discuss potential solution ideas through comments and based on that write code and submit it. If you are writing a ticket, you should follow [[http://doc.sagemath.org/html/en/developer/git_background.html#section-git-tutorials | standard git practices]].
+ II. '''Reviewing A Ticket''' - Once a developer submits code to resolve the ticket, it is reviewed independently by other developer(s) who may comment changes as deemed necessary. All recommendations must be incorporated before the new code can be merged into Sage. This is a very important component of Sage development which helps ensure quality control as well as constructive feedback. If you are reviewing a ticket, please complete the [[http://doc.sagemath.org/html/en/developer/reviewer_checklist.html | Reviewer's Checklist]] and ask for assistance if you are not sure how to evaluate items from the list. [[https://trac.sagemath.org/report/75 | Tickets needing review]] are a good place to start.
+
+== GSoC Application Proposal ==
+
+The Project Proposal is the most vital component of your application process and the primary resource available to the organization to judge your suitability for the program. Please spend time on crafting a detailed and well-thought proposal. It is a great idea to share your proposal with the respective mentors of the project you are applying to and obtain their feedback before the application deadline. Determining the scope and planning a schedule in particular, can be tricky tasks. The more you think about these and the more you discuss with the mentors, the easier it will be later on when the coding period begins. Please use the following application template and make sure to be as precise and detailed as possible.
+
+Personal:
+ * Name
+ * Contact Information (email, instant messaging, …)
+ * Location/Timezone
+ * University
+Background:
+ * What are your technical skills, education, experience, etc. Especially make sure to explain with what level of mathematics you are comfortable with and on what level you would like to program.
+ * Who are you? What makes you the best person to work on this particular project? Your personal motivation?
+ * What platform and operating-system are you using on your computer? (Sage development is done best on Linux and OSX)
+ * Are you or have you been engaged in other open-source projects?
+ * Do you code on your own pet projects?
+ * Are you a Sage user, how long do you know Sage?
+Project:
+ * Title, Project Synopsis: a short description and summary of its aim and scope.
+ * What is your personal involvement or relationship with your proposed project?
+ * Details: describe all the details and explain modules or parts of your whole project. Break down the whole project into individual tasks - as good as possible - and describe deliverable and quantifiable results for each of them. It also helps if you have already discussed this with a possible mentor.
+ * Schedule: A timetable, including special circumstances like exams or holidays, for the individual tasks.
+ * Risk Management: Try to anticipate potential problems and explain, how to mitigate them. Propose alternative scenarios, if a particular milestone isn't reached, to still successfully complete the project.
