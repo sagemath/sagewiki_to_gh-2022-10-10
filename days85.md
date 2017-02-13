@@ -63,6 +63,7 @@ This workshop is also part of a long tradition of [[Workshops|Sage Days]], and [
  * Julian Rüth (freelance, not exactly sure about my dates yet, most likely Saturday-Friday)
  * Erik Bray (Laboratoire de Recherche en Informatique, Université Paris Sud; will probably arrive Tuesday and stay through Saturday morning)
  * Alexander Konovalov (St Andrews, semigroups, GAP, ... Monday-Friday)
+ * Jean-Pierre Flori (ANSSI, will show up at a couple of random days during the week)
 
 == Infrastructure ==
 
