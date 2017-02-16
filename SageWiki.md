@@ -14,9 +14,17 @@ This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software S
 == Hosting a workshop ==
  * [[HowToHostASageDays|How To Host A Sage Days]] --- Advice to future hosts
  * [[HowToSpreadSageDuringAWorkshop|How to Spread Sage During a Workshop]] --- Advice to future hosts
+= Major external (editable) related pages =
+||'''URL'''||'''Description'''||
+||[[https://www.sagemath.org/]]||Official homepage of SageMath||
+||[[https://trac.sagemath.org/]]||Where development happens||
+||[[https://www.python.org/moin/SageMath/]]||One of the Python things (other being PyPi)||
+||[[https://wiki.archlinux.org/index.php/SageMath]]||Arch Linux wiki||
+||[[https://sagemath.wikispaces.com/]]||(Somebody's?) personal? wiki||
+
 
 = Major Wiki Pages =
-Note: "Contributors" are not necessarily coders/programmers, but "Developers" 'are'.
+Note: "Contributors" are not necessarily coders/programmers, but "Developers" '' are ''.
 ||'''Title'''||'''Description'''||'''Stand Alone?'''||'''Importance (or to whom)'''||'''How to make page better'''||
 || [[art]] || Visuals made with SageMath || Single page, see also [[interact]] || Low || Adding more pictures / animations ||
 || [[bug]] || Archive of Bug Days || Category || Interested (old and new) Contributors || Maintaining Information ||
