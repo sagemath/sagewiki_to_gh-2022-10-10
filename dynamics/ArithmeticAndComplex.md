@@ -38,7 +38,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/22268|#22268]]) needs-work: copy for schememorphisms points not deep enough - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/22265|#22265]]) new: fix dynatomic polynomial - Lauren Miller
+ * ([[http://trac.sagemath.org/ticket/22265|#22265]]) needs-review: fix dynatomic polynomial - Rebecca Lauren Miller
 
  * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger
 
