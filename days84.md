@@ -45,7 +45,6 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * [[http://www.normalesup.org/~page/|Aurel Page (U. Warwick)]] (February 27th - March 3rd)
  * [[http://www.mathematik.tu-darmstadt.de/~paffenholz/|Andreas Paffenholz (Technische U. Darmstadt)]] (March 6th - March 11th)
  * Vincent Klein (Bordeaux, March 3rd - March 10th)
- * [[http://wwwb.math.rwth-aachen.de/~gutsche/|Sebastian Gutsche]] (?)
  * Thierry Monteil (February 27th - March 7th)
  * [[http://users.minet.uni-jena.de/~king/eindex.html|Simon King (FSU Jena)]] (February 27th - March 11th)
 
