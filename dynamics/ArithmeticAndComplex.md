@@ -34,8 +34,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/22293|#22293]]) needs-review: products and powers of schemes and subschemes - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/22268|#22268]]) needs-work: copy for schememorphisms points not deep enough - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/22265|#22265]]) needs-review: fix dynatomic polynomial - Rebecca Lauren Miller
@@ -84,6 +82,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 
 == Complete ==
+ * --([[http://trac.sagemath.org/ticket/22293|#22293]])-- closed sage 7.6: products and powers of schemes and subschemes - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/22269|#22269]])-- closed sage 7.6: Segre embedding for multiple component products - Ben Hutz
 
