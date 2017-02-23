@@ -27,7 +27,6 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * [[https://trac.sagemath.org/ticket/18703|#18703: oriented matroids]]
  * release the [[https://github.com/videlec/e-antic|real embedded number fields library]] (built on top of antic)
  * [[https://trac.sagemath.org/ticket/21950|#21950: Add pulling_triangulation method to polyhedron class and point configuration]]
- * [[https://trac.sagemath.org/ticket/18128|#18128: Add a face truncation method to Polyhedron class]]
  * Uniform random generation of integer points in polytopes
  * Survey existent maintained Python bindings to MILP solvers, and see if we could use them instead of our own, those include pyomo, pulp, numberjack,...
  * [[http://doc.sagemath.org/html/en/reference/geometry/sage/geometry/hasse_diagram.html|Atomic and Coatomic lattice]] Refactor this function so that it returns a lattice and so that you can input only one of the two incidences.
