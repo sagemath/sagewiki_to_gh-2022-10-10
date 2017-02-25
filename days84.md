@@ -30,7 +30,7 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
  * Uniform random generation of integer points in polytopes
  * Survey existent maintained Python bindings to MILP solvers, and see if we could use them instead of our own, those include pyomo, pulp, numberjack,...
  * [[http://doc.sagemath.org/html/en/reference/geometry/sage/geometry/hasse_diagram.html|Atomic and Coatomic lattice]] Refactor this function so that it returns a lattice and so that you can input only one of the two incidences.
- * [[https://trac.sagemath.org/ticket/22420: #22420:Meta-ticket: Polytopes, polyhedron and their properties]] Increase the functionalities of polyhedron class
+ * [[https://trac.sagemath.org/ticket/22420| #22420:Meta-ticket: Polytopes, polyhedron and their properties]] Increase the functionalities of polyhedron class
  * ... (add your project!)
 
 == Participants ==
