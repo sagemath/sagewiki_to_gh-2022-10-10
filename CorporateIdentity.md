@@ -14,7 +14,7 @@ Design material for a SageMath [[http://en.wikipedia.org/wiki/Corporate_identity
 
 == Color scheme ==
 
-White on blue background.
+||<style="color: white; background-color:blue">White on blue background||
 
 == Links ==
 
