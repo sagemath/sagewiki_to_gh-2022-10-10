@@ -4,7 +4,6 @@ See CorporateIdentity for some other recent logos.
 
 * Original file containing the sources and other ideas for the current design. Credits go to "Sirio Bolaños Puchet", this artwork was created 2008 in Mexico:
 {{attachment:sage_icons.svg}}
-{{attachment:sagelogo (new).svg}}
 
 * This is the old Sage logo, which was created by Alex Clemesha:
 {{attachment:sagelogo.png}}
