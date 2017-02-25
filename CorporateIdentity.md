@@ -1,22 +1,19 @@
 = Corporate Identity =
 
-Design material for a Sage CI. ([[http://en.wikipedia.org/wiki/Corporate_identity | CI definition @ wikipedia]])
+Design material for a SageMath [[http://en.wikipedia.org/wiki/Corporate_identity |Corporate Identity]].
 
-== Logo and Graphics ==
-|| File || Author || Purpose ||
-|| [[attachment:sage_logos.tar.bz2 | New Sage Logo, 2009]] || Sirio Bolaños || Facelifting of old logo ||
+== Logos and icons ==
 
-== Colors ==
+<<EmbedObject(sagemath-icon.svg,width=20%)>>
 
-[[http://sage.math.washington.edu/home/schilly/newColorScheme.html|new color scheme for next generation web site]]
+[[attachment:sagemath-icon.svg]]
 
-== Program/Desktop Icons ==
+== Color scheme ==
 
-[[http://sage.math.washington.edu/home/schilly/icon/]]
+White on blue background.
 
-Attached svg to this wiki page: [[attachment:sagemath-icon.svg]]
+== Links ==
 
-== Business Cards ==
-
+[[https://github.com/sagemath/artwork|Artwork on github]]
 
 == Terms of Usage ==
