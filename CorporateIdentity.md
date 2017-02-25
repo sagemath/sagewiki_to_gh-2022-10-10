@@ -22,5 +22,6 @@ Design material for a SageMath [[http://en.wikipedia.org/wiki/Corporate_identity
 
 [[https://github.com/sagemath/artwork|Artwork on github]]
 [[http://www.sagemath.org/library-marketing.html|Marketing Resources]]
+[[https://github.com/sagemath/website/tree/master/src/pix|Images of website]]
 
 == Terms of Usage ==
