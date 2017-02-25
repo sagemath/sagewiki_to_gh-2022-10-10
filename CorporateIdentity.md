@@ -4,13 +4,15 @@ Design material for a SageMath [[http://en.wikipedia.org/wiki/Corporate_identity
 
 == Logos and icons ==
 
-<<EmbedObject(icon_sagemath.svg,width=20%)>>
-
 <<EmbedObject(logo_sagemath.svg)>>
+
+<<EmbedObject(logo_sagemath_opensource.svg)>>
 
 <<EmbedObject(logo_sagemath_trac.svg)>>
 
 <<EmbedObject(logo_sagemath_wiki.svg)>>
+
+<<EmbedObject(icon_sagemath.svg,width=20%)>>
 
 == Color scheme ==
 
