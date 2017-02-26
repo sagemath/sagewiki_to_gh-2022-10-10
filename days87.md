@@ -1,6 +1,13 @@
 = Sage Days 87: p-adics in Sage and the LMFDB (July 17-22, 2017) =
 
-'''Organizers''': Jennifer Balakrishnan, Xavier Caruso, Edgar Costa, Taylor Dupuy, David Roe, William Stein, Christelle Vincent
+'''Organizers''':
+ * Jennifer Balakrishnan
+ * Xavier Caruso
+ * Edgar Costa
+ * Taylor Dupuy
+ * David Roe
+ * William Stein
+ * Christelle Vincent
 
 Location: University of Vermont, in Burlington, VT.
 
