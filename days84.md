@@ -16,6 +16,8 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
 
 == Projects ==
 
+You can have a look at our list of [[https://trac.sagemath.org/query?keywords=~days84|Sage tickets with days84 tags]]
+
  * develop interfaces to polytope libraries/softwares (ppl, polymake, etc)
  * moving as independent Python packages the Sage interfaces to cdd, ppl, etc (see e.g. [[https://pypi.python.org/pypi/pplpy/|pplpy]])
  * make a generic number field implementation in C/C++ using normaliz
