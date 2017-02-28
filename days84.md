@@ -15,12 +15,6 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
 
 == Schedule ==
 
-
-||<5%>   ||<19%:> Tuesday Feb 28 ||<19%:> Wednesday Mar 1 ||<19%:> Thursday Mar 2 ||<19%:> Friday Mar 3 ||<19%>: Saturday Mar 4||
-||10:00           || || convex hull howto || school activity || coding sprint || coding sprint ||
-||after lunch     || sage sample || autotools, etc || Pexpect || Sage categoris || ? ||
-||5 pm math talk  || group cohomology || Barvinok || max plus || constraints on polytopes || ? ||
-
 Flattened alternative presentation (every free slot is made of coding sprint):
 
  * Tuesday Feb 28 
