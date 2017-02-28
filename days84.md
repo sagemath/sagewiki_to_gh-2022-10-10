@@ -15,41 +15,32 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
 
 == Schedule ==
 
-Flattened alternative presentation (every free slot is made of coding sprint):
+Every free slot is made of coding sprint
 
  * Tuesday Feb 28 
    * 09:00 : organization meeting
-   * 14:00 : sage sample
-   * 17:00 : group cohomology
-   * 21:00 : autotools
+   * 14:00 : sage sample:how to make a sage package (Matthias)
+   * 17:00 : group cohomology (Aurel/Marc)
+   * 21:00 : autotools, make, etc (Matthias)
  * Wednesday Mar 1
    * 10:00 : convex hull howto
-   * afternoon (depending on forecast) : Barvinok
+   * afternoon (depending on forecast) : Barvinok (integer points in polytopes) (Matthias)
    * afternoon (depending on forecast) : hiking the volcanoes
  * Thursday Mar 2
    * 10:00 : school activity
-   * 14:00 : Pexpect
-   * 17:00 : max plus
+   * 14:00 : Pexpect (Simon)
+   * 17:00 : max plus semigroup (Vincent)
  * Friday Mar 3
-   * 14:00 : Sage categoris 
-   * 17:00 : constraints on polytopes
+   * 14:00 : Sage categories (Vincent/Simon)
+   * 17:00 : combinatorial and geometrical constraints on polytopes (JP)
  * Saturday Mar 4
 
-Math talks
-
- * group cohomology (Aurel/Marc)
- * Barvinok (integer points in polytopes) (Matthias)
- * max plus semigroup (Vincent)
- * combinatorial and geometrical constraints on polytopes (JP)
+Unscheduled math talks:
  * ?
 
-Development/softwares talks
+Unscheduled development/softwares talks:
+ * ?
 
- * sage sample: how to make a sage package (Matthias)
- * autotools, make, etc (Matthias)
- * Pexpect (Simon)
- * convex hull howto (Matthias)
- * Sage categories (Vincent/Simon)
 
 == Projects ==
 
