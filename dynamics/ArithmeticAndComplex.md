@@ -53,13 +53,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  ||<|1> Products of Projective Spaces || Rational Points on Subschemes || Implement an efficient rational points search on subschemes. Currently it is done by enumeration unless dim is 0 || ||
  ||<|1> Polynomials || specific functionality for regular polynomial endomorphisms of P^N || || ||
  ||<|1> Canonical heights || implement Well's algorithm that does not require factoring the resultant || || ||
- ||<|7> Rational Maps || Dynamical degree(s), arithmetic degree || || ||
- || periodic and preperiodic points (projective and affine) || || ||
- || Q.is_iterate_defined(f,n)  || || ||
- || Q.hits_indeterminancy_locus(f,n)  || || ||
- || add noramlize parameter to nth_iterate_map  || || ||
- || Q.height_iterate_sequence || || ||
- || cyclegraph || || ||
  ||<|2> Numerical Precision || implement Algorithm 4 from "Computing algebraic numbers of bounded height" by Doyle-Krumm to use in elements_of_bounded_height for number fields. This is a high priority since currently the precision has an effect on the output. Algorithm 4 is able to take precision into account. || Hard || High ||
  || use real interval field for floating point computations (in heights and possibly rational preperiodic point functions) || medium || ||
  || Attracting Cycles || Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles || || ||
