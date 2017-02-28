@@ -13,6 +13,30 @@ During the workshop participants will have to cook several times for everybody. 
 
 The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://www.openstreetmap.org/#map=14/42.1772/2.4901|Olot]]. It is a small town close to Girona (55km) and Barcelona (110km). You can find very detailed practical information about how to reach Faber [[http://www.warwick.ac.uk/mmasdeu/files/faber_information.pdf|HERE]].
 
+== Schedule ==
+
+
+||<5%>   ||<19%:> Tuesday Feb 28 ||<19%:> Wednesday Mar 1 ||<19%:> Thursday Mar 2 ||<19%:> Friday Mar 3 ||<19%>: Saturday Mar 4||
+||10:00           || || convex hull howto || school activity || coding sprint || coding sprint ||
+||after lunch     || sage sample || autotools, etc || Pexpect || Sage categoris || ? ||
+||5 pm math talk  || group cohomology || Barvinok || max plus || constraints on polytopes || ? ||
+
+
+Math
+
+ * group cohomology (Aurel/Marc)
+ * Barvinok (integer points in polytopes) (Matthias)
+ * max plus semigroup (Vincent)
+ * combinatorial and geometrical constraints on polytopes (JP)
+ * ?
+
+Development/softwares
+
+ * sage sample: how to make a sage package (Matthias)
+ * autotools, make, etc (Matthias)
+ * Pexpect (Simon)
+ * convex hull howto (Matthias)
+ * Sage categories (Vincent/Simon)
 
 == Projects ==
 
