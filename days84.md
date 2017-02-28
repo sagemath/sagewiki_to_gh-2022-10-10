@@ -21,8 +21,27 @@ The Sage Days will happen at [[http://faberresidency.com/|FABER]] in [[http://ww
 ||after lunch     || sage sample || autotools, etc || Pexpect || Sage categoris || ? ||
 ||5 pm math talk  || group cohomology || Barvinok || max plus || constraints on polytopes || ? ||
 
+Flattened alternative presentation (every free slot is made of coding sprint):
 
-Math
+ * Tuesday Feb 28 
+   * 09:00 : organization meeting
+   * 14:00 : sage sample
+   * 17:00 : group cohomology
+   * 21:00 : autotools
+ * Wednesday Mar 1
+   * 10:00 : convex hull howto
+   * afternoon (depending on forecast) : Barvinok
+   * afternoon (depending on forecast) : hiking the volcanoes
+ * Thursday Mar 2
+   * 10:00 : school activity
+   * 14:00 : Pexpect
+   * 17:00 : max plus
+ * Friday Mar 3
+   * 14:00 : Sage categoris 
+   * 17:00 : constraints on polytopes
+ * Saturday Mar 4
+
+Math talks
 
  * group cohomology (Aurel/Marc)
  * Barvinok (integer points in polytopes) (Matthias)
@@ -30,7 +49,7 @@ Math
  * combinatorial and geometrical constraints on polytopes (JP)
  * ?
 
-Development/softwares
+Development/softwares talks
 
  * sage sample: how to make a sage package (Matthias)
  * autotools, make, etc (Matthias)
