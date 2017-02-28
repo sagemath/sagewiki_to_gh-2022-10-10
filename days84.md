@@ -71,7 +71,7 @@ You can have a look at our list of [[https://trac.sagemath.org/query?keywords=~d
  * [[http://www.normalesup.org/~page/|Aurel Page (U. Warwick)]] (February 27th - March 3rd)
  * [[http://www.mathematik.tu-darmstadt.de/~paffenholz/|Andreas Paffenholz (Technische U. Darmstadt)]] (March 6th - March 11th)
  * Vincent Klein (Bordeaux, March 3rd - March 10th)
- * ThierryMonteil (February 27th - March 7th)
+ * ThierryMonteil (CNRS, Univ. Paris North, February 27th - March 7th)
  * [[http://users.minet.uni-jena.de/~king/eindex.html|Simon King (FSU Jena)]] (February 27th - March 11th)
 
 == Acknowledgment ==
