@@ -64,6 +64,7 @@ This workshop is also part of a long tradition of [[Workshops|Sage Days]], and [
  * Erik Bray (Laboratoire de Recherche en Informatique, Université Paris Sud; will probably arrive Tuesday and stay through Saturday morning)
  * Alexander Konovalov (St Andrews, semigroups, GAP, ... Monday-Friday)
  * Jean-Pierre Flori (ANSSI, will show up at a couple of random days during the week)
+ * [[http://www-users.math.umn.edu/~tscrimsh/|Travis Scrimshaw]] (University of Minnesota, algebraic combinatorics, geometric/combinatorial group theory, Monday-Saturday)
 
 == Infrastructure ==
 
