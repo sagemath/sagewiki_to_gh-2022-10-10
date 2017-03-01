@@ -25,7 +25,7 @@ Every free slot is made of coding sprint
  * Wednesday Mar 1
    * 10:00 : convex hull howto
    * 14:00 - 18:00 : hiking the volcanoes
-   * 18:00 : Barvinok (integer points in polytopes) (Matthias)
+   * 18:30 : Barvinok (integer points in polytopes) (Matthias)
  * Thursday Mar 2
    * 10:00 : school activity
    * 14:00 : Pexpect (Simon)
