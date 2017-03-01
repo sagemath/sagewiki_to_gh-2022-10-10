@@ -18,11 +18,12 @@ The workshop will be primarily project-focused, though there will be a few talks
 
 == Participants ==
 
+We are in the process of inviting participants. 
+If you would like to attend, feel free to e-mail one of the organizers. 
+There will also be a registration process for graduate students to attend.
+
  * Alyson Deines (Center for Communications Research)
  * Kevin Lui (University of Washington)
  * John Jones (Arizona State University)
  * David Roberts (University of Minnesota, Morris)
  * Julian Rueth (Free Software Foundation Europe)
-
-
-We are in the process of inviting participants.  If you would like to attend, feel free to e-mail one of the organizers.  There will also be a registration process for graduate students to attend.
