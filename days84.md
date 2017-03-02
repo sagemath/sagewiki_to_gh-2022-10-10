@@ -55,6 +55,7 @@ You can have a look at our list of [[https://trac.sagemath.org/query?keywords=~d
  * [[https://trac.sagemath.org/ticket/20875|#20875: Meta-ticket: Polytopes, lattice (integer) point counting / enumeration, and their applications]]
  * [[https://trac.sagemath.org/ticket/20302|#20302: Meta-ticket: Improvements to MixedIntegerLinearProgram etc.]]
  * [[https://trac.sagemath.org/ticket/18703|#18703: oriented matroids]]
+ * [[https://trac.sagemath.org/ticket/22452|#22452: Create a Polymake pexpect interface]]
  * release the [[https://github.com/videlec/e-antic|real embedded number fields library]] (built on top of antic)
  * [[https://trac.sagemath.org/ticket/21950|#21950: Add pulling_triangulation method to polyhedron class and point configuration]]
  * Uniform random generation of integer points in polytopes
