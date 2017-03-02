@@ -29,11 +29,11 @@ Every free slot is made of coding sprint
  * Thursday Mar 2
    * 10:00 : school activity
    * 15:00 : Pexpect (Simon)
-   * 17:00 : max plus semigroup (Vincent)
  * Friday Mar 3
-   * 14:00 : Sage categories (Vincent/Simon)
+   * 14:00 : Sage categories (Vincent D/Simon)
    * 17:00 : combinatorial and geometrical constraints on polytopes (JP)
  * Saturday Mar 4
+   * 17:00 : max plus semigroup (Vincent D)
 
 Unscheduled math topics:
  * ?
