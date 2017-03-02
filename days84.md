@@ -48,7 +48,7 @@ You can have a look at our list of [[https://trac.sagemath.org/query?keywords=~d
 
  * develop interfaces to polytope libraries/softwares (ppl, polymake, etc)
  * moving as independent Python packages the Sage interfaces to cdd, ppl, etc (see e.g. [[https://pypi.python.org/pypi/pplpy/|pplpy]])
- * make a generic number field implementation in C/C++ using normaliz
+ * make a generic number field implementation in C/C++ using [[https://github.com/videlec/e-antic|reantic]] and [[https://www.normaliz.uni-osnabrueck.de/|libnormaliz]]
  * add mutable polytopes in Sage
  * Delaunay/Voronoi polytopes of lattices (-> algorithm for norm form equation)
  * [[https://trac.sagemath.org/ticket/22006|#22006: CBC tries to use system's blas at runtime which creates an error]]
