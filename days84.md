@@ -28,7 +28,7 @@ Every free slot is made of coding sprint
    * 18:30 : Barvinok (integer points in polytopes) (Matthias)
  * Thursday Mar 2
    * 10:00 : school activity
-   * 14:00 : Pexpect (Simon)
+   * 15:00 : Pexpect (Simon)
    * 17:00 : max plus semigroup (Vincent)
  * Friday Mar 3
    * 14:00 : Sage categories (Vincent/Simon)
