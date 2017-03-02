@@ -36,7 +36,7 @@ Every free slot is made of coding sprint
    * 17:00 : max plus semigroup (Vincent D)
 
 Unscheduled math topics:
- * ?
+ * rst2ipynb (by Thierry)
 
 Unscheduled development/softwares topics:
  * sage_input
