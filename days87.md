@@ -24,9 +24,9 @@ There will also be a registration process for graduate students to attend.
 
  * Jonathan Bober (University of Bristol)
  * Alyson Deines (Center for Communications Research)
- * Tristan Vaccon (Univirsité de Limoges)
  * Kevin Lui (University of Washington)
  * John Jones (Arizona State University)
  * Aurel Page (University of Warwick)
  * David Roberts (University of Minnesota, Morris)
  * Julian Rueth (Free Software Foundation Europe)
+ * Tristan Vaccon (Univirsité de Limoges)
