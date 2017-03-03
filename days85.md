@@ -19,11 +19,11 @@ coding sprint, and we are looking forward collaboration opportunities.
 
 If you are interested in participating, please fill/edit the
 [[https://framadate.org/UuaAiTczyBfEoaeu|poll]] with the dates you
-would be coming.
+would be coming. Also fill in the [[https://www.lri.fr/etherpad/p/sage-days85-participants|participants list]]
 
 Notes:
 
- * unlike last year, only one guest house was available for rental; therefore, there will be limited space; late registered may need to sleep in a tent; you are warned :-)
+ * unlike last year, only one guest house was available for rental; overflow will be in a nearby appartment; camping on the spot is possible too.
 
  * The guest house is actually rented Saturday to Saturday; everybody is welcome to stay for the whole time
 
