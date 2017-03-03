@@ -66,6 +66,8 @@ This workshop is also part of a long tradition of [[Workshops|Sage Days]], and [
  * Jean-Pierre Flori (ANSSI, will show up at a couple of random days during the week)
  * [[http://www-users.math.umn.edu/~tscrimsh/|Travis Scrimshaw]] (University of Minnesota, algebraic combinatorics, geometric/combinatorial group theory, Monday-Saturday)
 
+Plus see the poll [[https://framadate.org/UuaAiTczyBfEoaeu|poll]]
+
 == Infrastructure ==
 
 We will tentatively be using the following infrastructure, in
