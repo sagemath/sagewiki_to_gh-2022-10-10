@@ -55,8 +55,9 @@ See the links for activity reports and some photos.
 
 This workshop is also part of a long tradition of [[Workshops|Sage Days]], and [[http://gapdays.de/|GAP Days]].
 
-== [[https://www.lri.fr/etherpad/p/sage-days85-participants|Participants]] ==
+== Participants ==
 
+https://www.lri.fr/etherpad/p/sage-days85-participants
 
 == Infrastructure ==
 
