@@ -6,12 +6,12 @@
 
 At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinatorics2017/index.php/|Algebra and words in combinatorics]] from March to July 2017, a Sage Days will be held at [[http://lacim.uqam.ca/en/|LaCIM]], UQAM.
 
-=== Organizers ===
+== Organizers ==
 
  * Sébastien Labbé (CNRS, LaBRI, Université de Bordeaux)
  * Nicolas M. Thiéry (Université Paris Sud)
 
-=== Themes ===
+== Themes ==
 
 The themes will certainly be influenced by the four main workshops held during the semester:
 
@@ -20,18 +20,22 @@ The themes will certainly be influenced by the four main workshops held during t
  * Algebraic and Geometric Combinatorics of Reflection Groups (May 29 -- June 9 2017)
  * Equivariant Combinatorics (June 12-23 2017)
 
-=== Tentative program ===
+== Tentative program ==
 
 https://semestriel.framapad.org/p/sage-days-86-program
 
-=== Projects ===
+== Projects ==
 
 https://semestriel.framapad.org/p/sage-days-86
 
-=== Participants ===
+== Participants ==
 
 https://semestriel.framapad.org/p/sage-days-86-participants
 
-=== Contact ===
+== Contact ==
 
 Please contact the organizers if you are interested in participating.
+
+== Funding ==
+
+[[http://opendreamkit.org|OpenDreamKit]] will fund a couple invited speakers as well as the participation of OpenDreamKit members.
