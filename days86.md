@@ -21,6 +21,10 @@ At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinato
  * Alexandre Blondin Massé
  * ...
 
+== Where ==
+
+Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]]
+
 == Themes ==
 
 The themes will certainly be influenced by the four main workshops held during the semester:
