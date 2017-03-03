@@ -103,17 +103,13 @@ Your music instruments and scores, card or board games, etc, are also welcome fo
 
 === Meal organisation ===
 
-Meals are cooked in turns by the participants for everyone, so bring along your
-favorite recipes and dishes! All diets, including vegetarian, will be taken into
-account.
-
-The organizers will do some large shopping before coming, and then we
-will complement locally, as needed. Please edit below or send us the
-list of ingredients for the dish(es) you plan to prepare. We will be
-roughtly 10-15 and should plan for roughly 10 meals.
-
- * ...
- * ...
+Meals are cooked in turns by the participants for everyone, so bring
+along your favorite recipes and dishes! All diets (vegetarian, ...)
+will be taken into account. The organizers will do some large shopping
+before coming, and then we will complement locally, as needed. Please
+fill in the [[https://www.lri.fr/etherpad/p/sage-days85-cooking|pad]]
+with the ingredients for the dish(es) you plan to prepare and
+potential diet restrictions.
 
 === Practicalities ===
 
