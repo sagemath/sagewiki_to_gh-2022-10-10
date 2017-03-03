@@ -19,7 +19,8 @@ coding sprint, and we are looking forward collaboration opportunities.
 
 If you are interested in participating, please fill/edit the
 [[https://framadate.org/UuaAiTczyBfEoaeu|poll]] with the dates you
-would be coming. Also fill in the [[https://www.lri.fr/etherpad/p/sage-days85-participants|participants list]]
+would be coming, and fill in the [[https://www.lri.fr/etherpad/p/sage-days85-participants|participants list]].
+See below for the cooking organization.
 
 Notes:
 
