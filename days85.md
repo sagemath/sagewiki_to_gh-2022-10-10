@@ -60,6 +60,7 @@ This workshop is also part of a long tradition of [[Workshops|Sage Days]], and [
  * [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]] (Laboratoire de Recherche en Informatique, Université Paris Sud, algebraic combinatorics, category infrastructure in Sage, ... Sunday evening to Saturday morning)
  * Markus Pfeiffer (St Andrews, semigroups, GAP, ... Monday-Friday)
  * [[http://defeo.lu/|Luca De Feo]] (Laboratoire de Mathématiques de Versailles && Inria Saclay)
+ * Jeroen Demeyer (Ghent University, Monday-Saturday)
  * Julian Rüth (freelance, not exactly sure about my dates yet, most likely Saturday-Friday)
  * Erik Bray (Laboratoire de Recherche en Informatique, Université Paris Sud; will probably arrive Tuesday and stay through Saturday morning)
  * Alexander Konovalov (St Andrews, semigroups, GAP, ... Monday-Friday)
