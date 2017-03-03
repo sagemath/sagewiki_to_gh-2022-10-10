@@ -20,6 +20,10 @@ The themes will certainly be influenced by the four main workshops held during t
  * Algebraic and Geometric Combinatorics of Reflection Groups (May 29 -- June 9 2017)
  * Equivariant Combinatorics (June 12-23 2017)
 
+=== Projects ===
+
+https://semestriel.framapad.org/p/sage-days-86
+
 === Contact ===
 
 Please contact the organizers if you are interested in participating.
