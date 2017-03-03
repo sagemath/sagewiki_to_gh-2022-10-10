@@ -31,12 +31,18 @@ Every free slot is made of coding sprint
    * 15:00 : Pexpect (Simon)
  * Friday Mar 3
    * 14:00 : Sage categories (Vincent D/Simon)
-   * 17:00 : combinatorial and geometrical constraints on polytopes (JP)
  * Saturday Mar 4
-   * 17:00 : max plus semigroup (Vincent D)
+   * 10:00 : Guessing solutions of polynomial systems (Moritz)
+   * PM: Whatever!
+ * Sunday Mar 5
+   * 11:00 : combinatorial and geometrical constraints on polytopes (JP)
+   * 17:00 : Math talk, fun with SCIP
+   * 18:30 : speed dating: rst2ipynb
+ * Monday Mar 6
+   * 11:00 : max plus semigroup (Vincent D)
 
 Unscheduled math topics:
- * rst2ipynb (by Thierry)
+ * Here
 
 Unscheduled development/softwares topics:
  * sage_input
