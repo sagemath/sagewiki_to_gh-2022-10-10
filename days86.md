@@ -48,4 +48,4 @@ Please contact the organizers if you are interested in participating.
 
 == Funding ==
 
-[[http://opendreamkit.org|OpenDreamKit]] will fund a couple invited speakers as well as the participation of OpenDreamKit members.
+[[http://opendreamkit.org|OpenDreamKit]] will fund a couple invited speakers as well as the participation of !OpenDreamKit members.
