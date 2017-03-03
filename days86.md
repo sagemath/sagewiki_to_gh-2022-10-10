@@ -4,7 +4,7 @@
 
 ~-(note that it was originally planned for May 8-12, 2017)-~
 
-At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinatorics2017/index.php/|Algebra and words in combinatorics]] from March to July 2017, a Sage Days will be held at [[http://lacim.uqam.ca/en/|LaCIM]], UQAM.
+At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinatorics2017/index.php/|Algebra and words in combinatorics]] from March to July 2017, a Sage Days will be held at [[http://lacim.uqam.ca/en/|Laboratoire de combinatoire et d'informatique mathématique (LaCIM)]] of [[http://www.uqam.ca/|Université du Québec à Montréal]].
 
 == Invited speakers ==
 
