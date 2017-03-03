@@ -44,7 +44,7 @@ Unscheduled development/softwares topics:
 
 == Projects ==
 
-You can have a look at our list of [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days84&order=priority|Sage tickets with days84 tags]]
+You can have a look at our list of [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days84&order=status|Sage tickets with days84 tags]]
 
  * develop interfaces to polytope libraries/softwares (ppl, polymake, etc)
  * moving as independent Python packages the Sage interfaces to cdd, ppl, etc (see e.g. [[https://pypi.python.org/pypi/pplpy/|pplpy]])
