@@ -6,10 +6,20 @@
 
 At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinatorics2017/index.php/|Algebra and words in combinatorics]] from March to July 2017, a Sage Days will be held at [[http://lacim.uqam.ca/en/|LaCIM]], UQAM.
 
+== Invited speakers ==
+
+ * ...
+
 == Organizers ==
 
  * Sébastien Labbé (CNRS, LaBRI, Université de Bordeaux)
  * Nicolas M. Thiéry (Université Paris Sud)
+
+== Tutorial leaders ==
+
+ * Franco Saliola
+ * Alexandre Blondin Massé
+ * ...
 
 == Themes ==
 
