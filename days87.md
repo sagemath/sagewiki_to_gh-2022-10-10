@@ -14,12 +14,13 @@ Location: University of Vermont, in Burlington, VT.
 == Schedule ==
 
 Activities will begin the morning of Monday, July 17 and end around in the early afternoon on Saturday, July 22.
-The workshop will be primarily project-focused, though there will be a few talks aimed at graduate students.
+The workshop will be primarily project-focused, though there will be a few talks aimed at graduate students.  We
+will be soliciting suggestions for projects from participants before the start of the workshop.
 
 == Participants ==
 
 We are in the process of inviting participants. 
-If you would like to attend, feel free to e-mail one of the organizers. 
+If you would like to attend, feel fill out [[https://goo.gl/forms/TdoRZDpN0zq5kEZy2|this form]] by '''April 28'''. 
 There will also be a registration process for graduate students to attend.
 
  * Jonathan Bober (University of Bristol)
