@@ -41,9 +41,6 @@ Every free slot is made of coding sprint
  * Monday Mar 6
    * 11:00 : max plus semigroup (Vincent D)
 
-Unscheduled math topics:
- * Here
-
 Unscheduled development/softwares topics:
  * sage_input
 
