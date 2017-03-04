@@ -30,4 +30,4 @@ There will also be a registration process for graduate students to attend.
  * Aurel Page (University of Warwick)
  * David Roberts (University of Minnesota, Morris)
  * Julian Rueth (Free Software Foundation Europe)
- * Tristan Vaccon (Univirsité de Limoges)
+ * Tristan Vaccon (Université de Limoges)
