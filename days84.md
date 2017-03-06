@@ -44,9 +44,11 @@ Every free slot is made of coding sprint
    * 22:30 : speed dating: rst2ipynb (Thierry)
    * 22:30 : speed dating : sage_input
  * Tuesday Mar 7
+   * 09:00 : school activity 
    * 10:00 : Polymake tutorial (Andreas)
    * 17:00 : Magma interface (Marc)
  * Wednesday Mar 8
+   * 10:00 : school activity 
    * 14:00 (after lunch): Toric geometry crash course (Andreas)
    * 17:00 : A max-plus challenge (Vincent)
  * Thursday Mar 9
