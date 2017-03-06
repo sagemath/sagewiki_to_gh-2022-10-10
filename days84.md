@@ -54,7 +54,8 @@ Every free slot is made of coding sprint
    * 14:00 : Rice lunch
 
 Unscheduled development/softwares topics:
-* sage_input
+
+ * sage_input
 
 {{{
 sage: x = polygen(ZZ)
