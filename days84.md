@@ -41,7 +41,8 @@ Every free slot is made of coding sprint
    * 11:00 : max plus semigroup (Vincent D)
    * 17:00 : representations of real numbers in Sage (Thierry)
    * 18:30 : second-week scedule
-   * 19:50 : speed dating: rst2ipynb (Thierry)
+   * 22:30 : speed dating: rst2ipynb (Thierry)
+   * 22:30 : speed dating : sage_input
  * Tuesday Mar 7
    * 10:00 : Polymake tutorial (Andreas)
    * 17:00 : Magma interface (Marc)
@@ -53,7 +54,16 @@ Every free slot is made of coding sprint
    * 14:00 : Rice lunch
 
 Unscheduled development/softwares topics:
- * sage_input
+* sage_input
+
+{{{
+sage: x = polygen(ZZ)
+sage: K.<a> = NumberField(x^3-2) ; K
+Number Field in a with defining polynomial x^3 - 2
+sage: sage_input(K)
+ValueError: Can't convert Number Field in a with defining polynomial x^3 - 2 to sage_input form
+}}}
+
 
 
 == Projects ==
