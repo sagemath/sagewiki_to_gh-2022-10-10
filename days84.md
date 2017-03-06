@@ -47,7 +47,7 @@ Every free slot is made of coding sprint
    * 17:00 : Magma interface (Marc)
  * Wednesday Mar 8
    * 14:00 (after lunch): Toric geometry crash course (Andreas)
-   * 17:00 : A max-plus challenge
+   * 17:00 : A max-plus challenge (Vincent)
  * Thursday Mar 9
    * 10:00 : Hike La Fageda 
    * 14:00 : Rice lunch
