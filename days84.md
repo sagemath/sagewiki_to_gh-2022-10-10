@@ -37,9 +37,12 @@ Every free slot is made of coding sprint
  * Sunday Mar 5
    * 11:00 : combinatorial and geometrical constraints on polytopes (JP)
    * 17:00 : Math talk, fun with SCIP
-   * 18:30 : speed dating: rst2ipynb
  * Monday Mar 6
    * 11:00 : max plus semigroup (Vincent D)
+   * 17:00 : representations of real numbers in Sage (Thierry)
+   * 18:30 : second-week scedule
+   * 19:50 : speed dating: rst2ipynb (Thierry)
+
 
 Unscheduled development/softwares topics:
  * sage_input
