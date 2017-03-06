@@ -21,7 +21,6 @@ will be soliciting suggestions for projects from participants before the start o
 
 We are in the process of inviting participants. 
 If you would like to attend, fill out [[https://goo.gl/forms/TdoRZDpN0zq5kEZy2|this form]] by '''April 28'''. 
-There will also be a registration process for graduate students to attend.
 
  * Jonathan Bober (University of Bristol)
  * Alyson Deines (Center for Communications Research)
