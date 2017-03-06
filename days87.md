@@ -24,9 +24,11 @@ If you would like to attend, please fill out [[https://goo.gl/forms/TdoRZDpN0zq5
 
  * Jonathan Bober (University of Bristol)
  * Alyson Deines (Center for Communications Research)
+ * Rob Harron (University of Hawaii)
  * Kevin Lui (University of Washington)
  * John Jones (Arizona State University)
  * Aurel Page (University of Warwick)
  * David Roberts (University of Minnesota, Morris)
  * Julian Rueth (Free Software Foundation Europe)
  * Tristan Vaccon (Université de Limoges)
+ * Gerardo Zelaya (University of Washington)
