@@ -23,6 +23,7 @@ We are in the process of inviting participants.
 If you would like to attend, please fill out [[https://goo.gl/forms/TdoRZDpN0zq5kEZy2|this form]] by '''April 28'''. 
 
  * Jonathan Bober (University of Bristol)
+ * Rachel Davis (University of Wisconsin-Madison)
  * Alyson Deines (Center for Communications Research)
  * Rob Harron (University of Hawaii)
  * Kevin Lui (University of Washington)
