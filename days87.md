@@ -32,4 +32,7 @@ If you would like to attend, please fill out [[https://goo.gl/forms/TdoRZDpN0zq5
  * David Roberts (University of Minnesota, Morris)
  * Julian Rueth (Free Software Foundation Europe)
  * Tristan Vaccon (Université de Limoges)
+ * John Voight* (Dartmouth College)
  * Gerardo Zelaya (University of Washington)
+
+* This participant has indicated that they might be coming.
