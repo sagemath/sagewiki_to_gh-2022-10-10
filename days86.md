@@ -53,3 +53,7 @@ Please contact the organizers if you are interested in participating.
 == Funding ==
 
 [[http://opendreamkit.org|OpenDreamKit]] will fund a couple invited speakers as well as the participation of !OpenDreamKit members.
+
+== Lodging ==
+
+Some [[http://lacim.uqam.ca/en/nous-contacter/#coordonnee|hotels are listed]] on LaCIM webpage.
