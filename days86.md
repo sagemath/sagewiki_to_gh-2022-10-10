@@ -10,7 +10,8 @@ At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinato
 
  * [[http://bergeron.math.uqam.ca/|François Bergeron]] (LaCIM, Université du Québec à Montréal); topic: experimental mathematics
  * [[http://www-groups.mcs.st-andrews.ac.uk/~jamesm|James Mitchell]] (CIRCA, University of St Andrews); topic: [[https://gap-packages.github.io/Semigroups/|GAP's semigroup package]] and the [[https://james-d-mitchell.github.io/libsemigroups/|libsemigroup]] C++ library
- * Thierry Monteil (CNRS, CALIN, Université Paris Nord)
+ * Thierry Monteil (CNRS, CALIN, Université Paris Nord); topic: TBA
+ * ...
 
 == Organizers ==
 
