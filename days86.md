@@ -4,12 +4,12 @@
 
 ~-(originally planned May 8-12, 2017)-~
 
-At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinatorics2017/index.php/|Algebra and words in combinatorics]] from March to July 2017, a Sage Days will be held at [[http://lacim.uqam.ca/en/|Laboratoire de combinatoire et d'informatique mathématique (LaCIM)]] of [[http://www.uqam.ca/|Université du Québec à Montréal]].
+At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinatorics2017/index.php/|Algebra and words in combinatorics]] from March to July 2017, a [[https://wiki.sagemath.org/Workshops|Sage Days]] will be held at [[http://lacim.uqam.ca/en/|Laboratoire de combinatoire et d'informatique mathématique (LaCIM)]] of [[http://www.uqam.ca/|Université du Québec à Montréal]].
 
 == Target audience ==
 
-- Newcomers to advanced users that want to learn more about and get training on the open source mathematical system [[http://sagemath.org|SageMath]] and related software.
-- (would be) developers that want to participate to coding sprints.
+ * Newcomers to advanced users that want to learn more about and get training on the open source mathematical system [[http://sagemath.org|SageMath]] and related software.
+ * (would be) developers that want to participate to coding sprints.
 
 == Confirmed Invited speakers ==
 
