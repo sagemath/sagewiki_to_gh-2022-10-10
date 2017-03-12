@@ -54,7 +54,7 @@ https://semestriel.framapad.org/p/sage-days-86-participants
 
 == Registration ==
 
-Registration is free but mandatory. A form will be setup online shortly for handling registration. For now, you may want to edit the [[https://semestriel.framapad.org/p/sage-days-86-participants|participants list]]
+Registration is free but mandatory. A form will be setup online shortly for handling registration. For now, you may want to edit the [[https://semestriel.framapad.org/p/sage-days-86-participants|participants list]].
 
 == Funding ==
 
