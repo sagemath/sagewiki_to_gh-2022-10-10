@@ -6,9 +6,11 @@
 
 At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinatorics2017/index.php/|Algebra and words in combinatorics]] from March to July 2017, a Sage Days will be held at [[http://lacim.uqam.ca/en/|Laboratoire de combinatoire et d'informatique mathématique (LaCIM)]] of [[http://www.uqam.ca/|Université du Québec à Montréal]].
 
-== Invited speakers ==
+== Confirmed Invited speakers ==
 
- * ...
+ * [[http://bergeron.math.uqam.ca/|François Bergeron]] (LaCIM, Université du Québec à Montréal); topic: experimental mathematics
+ * [[http://www-groups.mcs.st-andrews.ac.uk/~jamesm|James Mitchell]] (CIRCA, University of St Andrews); topic: [[https://gap-packages.github.io/Semigroups/|GAP's semigroup package]] and the [[https://james-d-mitchell.github.io/libsemigroups/|libsemigroup]] C++ library
+ * Thierry Monteil (CNRS, CALIN, Université Paris Nord)
 
 == Organizers ==
 
@@ -17,9 +19,7 @@ At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinato
 
 == Tutorial leaders ==
 
- * Franco Saliola
- * Alexandre Blondin Massé
- * ...
+ * TBA
 
 == Where ==
 
