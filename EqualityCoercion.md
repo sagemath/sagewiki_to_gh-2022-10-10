@@ -94,4 +94,20 @@ would be simply impossible: this would force to systematically coerce
 any symmetric function to some fixed base for computing the hash
 function, and we just can't afford that.
 
+Yet another example (#22594)
+
+::
+
+    sage: bring=ZZ
+    sage: for a in cartesian_product([[bring.one()]]):
+    ....:     print a[0].parent()
+    ....:     
+    Integer Ring
+    sage: bring=QQ
+    sage: for a in cartesian_product([[bring.one()]]):
+    ....:     print a[0].parent()
+    ....:     
+    Integer Ring
+
+
 }}}
