@@ -50,11 +50,16 @@ https://semestriel.framapad.org/p/sage-days-86
 
 == Participants ==
 
-https://semestriel.framapad.org/p/sage-days-86-participants
+ * Sébastien Labbé (CNRS, LaBRI, Université de Bordeaux)
+ * Nicolas M. Thiéry (Université Paris Sud)
+ * Thierry Monteil (CNRS, CALIN, Université Paris Nord)
+ * ...
 
 == Registration ==
 
-Registration is free but mandatory. A form will be setup online shortly for handling registration. For now, you may want to edit the [[https://semestriel.framapad.org/p/sage-days-86-participants|participants list]].
+Registration is free but mandatory. It is available at this url:
+
+    [[Register|https://framaforms.org/sage-days-86-registration-inscription-1489402681]]
 
 == Funding ==
 
