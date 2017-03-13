@@ -59,7 +59,7 @@ https://semestriel.framapad.org/p/sage-days-86
 
 Registration is free but mandatory. It is available at this url:
 
-    [[Register|https://framaforms.org/sage-days-86-registration-inscription-1489402681]]
+    [[https://framaforms.org/sage-days-86-registration-inscription-1489402681|Register]]
 
 == Funding ==
 
