@@ -191,3 +191,114 @@ Rachel
 === Implement plane partitions, descending plane partitions, increasing tableaux ===
 
 Jessica
+
+== Status Reports ==
+
+'''Viviane'''
+ 
+ * gave some presentations: sage intro, how to contribute, how to develop a package
+ * created a bunch of trac accounts
+ * answered many questions about sage, trac, git etc. Helped people with first contributions and first codes
+ * organized this whole week!
+
+'''Jennifer'''
+
+ * Gave a presentation on “introduction to Sage + number theory”
+ * Did 5 built-from-source installations on SMC
+ * Set up git terminals for development on SMC
+ * worked on trac #22178 with Jessica to improve documentation (Sage Developer’s Guide) 
+ * Answered questions about Sage and trac
+ * Helped people push their first contributions to trac (some on local installations, some on SMC)
+ * Edited instructions on wiki on “how to develop Sage on SMC”
+
+'''Marie-Françoise'''
+
+ * unfortunately participated only the two last days of the meeting
+ * made a few computations and pictures using SAGE to include in the paper on the complexity of computing the topology of real algebraic curves she is   currently finalizing with coauthors Daouda Niang Diatta, Seny Diatta, Fabrice Rouillier and Michael Sagraloff
+ * understood how to use inside Sage her current experimental version of the  Maxima software Sarag (Some Algorithms in Real Algebraic Geometry) based on her book Algorithms in Real Algebraic Geometry coauthored with Saugata Basu and Richard Pollack 
+ * gave a presentation to the group of the International Mathematical Union Committee for Women in Mathematics  http://www.mathunion.org/cwm/
+
+'''Turku'''
+
+ * Gave a presentation about “arithmetic via Kummer Surfaces” 
+ * Progressed on coding in Python for the aim of developing Sage.
+ * Understood implementation of classes in Python
+ * Implemented the class of Kummer Surfaces (not generic) 
+ * Implemented some methods in the class which allows arithmetic on Kummer Surfaces
+ * Understood writing documentations/descriptions for classes, methods..  
+ * Progressed on using Sage trac system
+
+'''Alba''' 
+
+ * Gave a presentation about “physical exhibits for mathematical communication”  
+ * Understood how export to `stl` format works so far in Sage.  
+ * Reviewed and validated a ticket related to this subject.  
+ * Started using trac.sagemath.org (two tickets : one defect reported and one review) and the googlegroup sage-devel. 
+ * Started working on a library of plot3d examples from Herwig Hauser’s gallery of singularities.
+
+'''Emily'''
+
+ * Gave a presentation about cluster algebras and frieze patterns.
+ * Set positive review to ticket #22160 (cluster algebra ClusterSeed documentation).
+ * Helped review the documentation for the following tickets:
+   * #20918 (Jessica Striker et al’s new PlanePartition class), 
+   * #22052 (Jessica Striker et al’s new DescendingPlanePartition class),
+   * #21254 (Implement ClusterAlgebra using Parent-Element framework)
+    * #18680 (new Q-systems)
+ * Answered some questions about the workflow of reviewing and editing tickets for SageMath. Gave some suggestions in regards to git and new tickets #22171 (new MotzkinWord class) and #22187 (bounded_affine_permutation in Permutation class).
+ * Continued work on my old ticket #19160 (new class SnakeGraphs).
+ * Acted as a sounding board when Jennifer Balakrishnan was setting up individual git terminals on SMC at the beginning of the week.
+
+'''Evgeniya'''
+
+ * Gave a presentation about “high-speed implementation and analysis of GOST R 34.12-2015”
+ * Progressed on coding in Python for the aim of developing Sage.
+ * Understood implementation of classes in Python
+ * Implemented the class the precomputed tables for Kuznyechik cipher
+ * Implemented some functions which needed to do enciphering by Kuznyechik
+ * Took part in the discussion of the parallelism in the sage
+
+'''Manon'''
+
+ * Gave a short talk on Generalized Pascal triangles and binomial coefficients of words;
+ * Understood the link between Lama Tarsissi’s work and mine;
+ * Worked together with Lama on her project of finding all the paths in the Stern-Brocot tree that minimize a specific sequence (this project required Sage);
+ * Talked with Emily about a possible link between frieze pattern and binomial coefficient of words.
+
+'''Lama'''
+
+ * Gave a talk on the WB about the Christofel words and Stern-brocot tree.
+ * Got interested by the work and the link between my work and Manon Stipulanti’s work which pushes us to have a common project.
+ * Using Sage, we had a step further in our research.
+ * Had lot of discussions with Emily Gunawan who tried to understand our work and find the link to hers.     
+  
+'''Judith'''
+                   
+ * gave a short talk about SYT, orthogonal LR-tableaux and vacillating paths          
+ * learned to use git and trac and how to implement combinatorial classes          
+ * implemented the combinatorial class Motzkin Words (including the iterator) – ticket #22171
+
+
+'''Ekaterina'''
+
+ * Gave presentation: “Algebraic Analysis of the Magma cipher in SageMath”.
+ * Improved my skills on Python programming.
+ * Started using trac.sagemath.org and create account.
+ * Created on trac new branch #22182: Magma encryption algorithm.
+ * Progressed on using and developing in SageMath (trac hub, classes, methods, documentations, testing).
+
+'''Sorina, Elis and Anna'''
+
+ * Gave a presentation about invariants of curves of low genus.
+ * Implemented Shioda invariants in Sage.
+ * Started using trac.sagemath.org and the sage git repository. 
+ * Created new ticket #22173 with our implementation, now in needs_review status pending on the correction of some small details.
+ * Almost  implemented the reconstruction of a genus 3 hyperelliptic curve from  Shioda invariants in Sage. A second ticket for this part is on his way. 
+ * Learned about parallel computing in Sage, ran a few tests and look at the timings to get an idea about parallel efficiency.
+
+'''Christelle'''
+
+ * Gave a presentation on “Perfect sampling for closed queuing networks”
+ * Started to implement a Sage package 
+ * Learned about how to make a Sage package
+ 
