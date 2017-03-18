@@ -823,8 +823,8 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     # print textual info
     #
     print "Position vector defined as r(t)=", position
-    print "Speed is ", N(speed(t=t0), digits=6)
-    print "Curvature is ", N(curvature, digits=6)
+    print "Speed is ", N(speed(t=t0))
+    print "Curvature is ", N(curvature)
     #
     # show accumulated graphical info
     # adjust x-,y- extents to get best plot
@@ -871,19 +871,19 @@ position=vector( (exp(a*t)*cos(t), exp(a*t)*sin(t), exp(c*t)) )
 #
 # graphic of the motion itself
 #
-path = parametric_plot3d( position(t).list(), (t, start, stop), color = "black" )
+path = parametric_plot3d( position.list(), (t, start, stop), color = "black" )
 #
 # derivatives of motion, lengths, unit vectors, etc
 #
-velocity = derivative( position(t), t)
-acceleration = derivative(velocity(t), t)
+velocity = derivative( position, t)
+acceleration = derivative(velocity, t)
 speed = velocity.norm()
 speed_deriv = derivative(speed, t)
 tangent = (1/speed)*velocity
-dT = derivative(tangent(t), t)
+dT = derivative(tangent, t)
 normal = (1/dT.norm())*dT
 binormal = tangent.cross_product(normal)
-## dB = derivative(binormal(t), t)
+## dB = derivative(binormal, t)
 #
 # interact section
 #   slider for parameter, 24 settings
@@ -908,22 +908,22 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     #
     # various scalar quantities at point
     #
-    speed_component = speed(t0)
-    tangent_component = speed_deriv(t0)
-    normal_component = sqrt( acceleration(t0).norm()^2 - tangent_component^2 )
+    speed_component = speed(t=t0)
+    tangent_component = speed_deriv(t=t0)
+    normal_component = sqrt( acceleration(t=t0).norm()^2 - tangent_component^2 )
     curvature = normal_component/speed_component^2
     ## torsion = (1/speed_component)*(dB(t0)).dot_product(normal(t0))
     #
     # various vectors, mostly as arrows from the point
     #
     pos = arrow3d((0,0,0), pos_tzero, rgbcolor=(0,0,0))
-    tan = arrow3d(pos_tzero, pos_tzero + tangent(t0), rgbcolor=(0,1,0) )
-    vel = arrow3d(pos_tzero, pos_tzero + velocity(t0), rgbcolor=(0,0.5,0))
-    nor = arrow3d(pos_tzero, pos_tzero + normal(t0), rgbcolor=(0.5,0,0))
-    bin = arrow3d(pos_tzero, pos_tzero + binormal(t0), rgbcolor=(0,0,0.5))
-    acc = arrow3d(pos_tzero, pos_tzero + acceleration(t0), rgbcolor=(1,0,1))
-    tancomp = arrow3d(pos_tzero, pos_tzero + tangent_component*tangent(t0), rgbcolor=(1,0,1) )
-    norcomp = arrow3d(pos_tzero, pos_tzero + normal_component*normal(t0), rgbcolor=(1,0,1))
+    tan = arrow3d(pos_tzero, pos_tzero + tangent(t=t0), rgbcolor=(0,1,0) )
+    vel = arrow3d(pos_tzero, pos_tzero + velocity(t=t0), rgbcolor=(0,0.5,0))
+    nor = arrow3d(pos_tzero, pos_tzero + normal(t=t0), rgbcolor=(0.5,0,0))
+    bin = arrow3d(pos_tzero, pos_tzero + binormal(t=t0), rgbcolor=(0,0,0.5))
+    acc = arrow3d(pos_tzero, pos_tzero + acceleration(t=t0), rgbcolor=(1,0,1))
+    tancomp = arrow3d(pos_tzero, pos_tzero + tangent_component*tangent(t=t0), rgbcolor=(1,0,1) )
+    norcomp = arrow3d(pos_tzero, pos_tzero + normal_component*normal(t=t0), rgbcolor=(1,0,1))
     #
     # accumulate the graphic based on checkboxes
     #
@@ -948,7 +948,7 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     # print textual info
     #
     print "Position vector: r(t)=", position(t)
-    print "Speed is ", N(speed(t0))
+    print "Speed is ", N(speed(t=t0))
     print "Curvature is ", N(curvature)
     ## print "Torsion is ", N(torsion)
     print
