@@ -122,7 +122,7 @@ def tangent_line(f = input_box(default=sin(x)), xbegin = slider(0,10,1/10,0), xe
     x0i = xbegin + x0*(xend-xbegin)
     var('x')
     df = diff(f)
-    tanf = f(x0i) + df(x0i)*(x-x0i)
+    tanf = f(x=x0i) + df(x=x0i)*(x-x0i)
     fplot = plot(f, prange[0], prange[1])
     print 'Tangent line is y = ' + tanf._repr_()
     tanplot = plot(tanf, prange[0], prange[1], rgbcolor = (1,0,0))
