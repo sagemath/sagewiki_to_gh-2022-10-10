@@ -596,8 +596,8 @@ quadrics = {'Ellipsoid':x^2+y^2+z^2-1,'Elliptic paraboloid':x^2+y^2-z,'Hyperboli
 @interact
 def quads(q = selector(quadrics.keys()), a = slider(0,5,1/2,default = 1)):
     f = quadrics[q].subs({x:x*a^(1/2)})
-    if a==0 or q=='Cone': html('<center>$'+latex(f)+' \ $'+ '(degenerate)</center>')
-    else: html('<center>$'+latex(f)+'$ </center>')
+    if a==0 or q=='Cone': pretty_print(latex(f), "    (degenerate)")
+    else: pretty_print(latex(f))
     p = implicit_plot3d(f,(x,-2,2),(y,-2,2),(z,-2,2), plot_points = 75)
     show(p)
 }}}
