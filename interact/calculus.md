@@ -162,13 +162,7 @@ def midpoint(n = slider(1,100,1,4), f = input_box(default = "x^2", type = str), 
 == Numerical integrals with various rules ==
 by Nick Alexander (based on the work of Marshall Hampton)
 
-{{{#!sagecell
-# by Nick Alexander (based on the work of Marshall Hampton)
-#find_maximum_on_interval and find_minimum_on_interval are deprecated 
-#use find_local_maximum find_local_minimum instead
-#see http://trac.sagemath.org/2607 for details -RRubalcaba
-
-var('x')
+{{{#!sagecellvar('x')
 @interact
 def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
     interval=range_slider(0, 10, 1, default=(0, 4), label="Interval"),
@@ -176,7 +170,7 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
     endpoint_rule = selector(['Midpoint', 'Left', 'Right', 'Upper', 'Lower'], nrows=1, label="Endpoint rule")):
 
     a, b = map(QQ, interval)
-    t = sage.calculus.calculus.var('t')
+    t = var('t')
     func = fast_callable(f(x=t), RDF, vars=[t])
     dx = ZZ(b-a)/ZZ(number_of_subdivisions)
    
@@ -221,17 +215,14 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
     numerical_answer = integral_numerical(func,a,b,max_points = 200)[0]
     estimated_answer = dx * sum([ ys[q] for q in range(number_of_subdivisions)])
 
-    html(r'''
-    <div class="math">
-    \begin{align*}
-      \int_{a}^{b} {f(x) \, dx} & = %s \\\
-      \sum_{i=1}^{%s} {f(x_i) \, \Delta x}
-      & = %s \\\
-      & = %s \\\
-      & = %s .
-    \end{align*}
-    </div>
-    ''' % (numerical_answer, number_of_subdivisions, sum_html, num_html, estimated_answer))
+    pretty_print(html(r'''
+    <div class="math"> 
+    \begin{align*} 
+    \int_{a}^{b} {f(x) \, dx} & = %s \\\ 
+    \sum_{i=1}^{%s} {f(x_i) \, \Delta x} & = %s \\\ 
+    & = %s \\\ 
+    & = %s . \end{align*} </div>''' 
+                      % (numerical_answer, number_of_subdivisions, sum_html, num_html, estimated_answer)))
 }}}
 {{attachment:num_int2.png}}
 
