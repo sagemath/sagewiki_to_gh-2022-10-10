@@ -905,7 +905,7 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     #
     # location of interest
     #
-    pos_tzero = position(t0)
+    pos_tzero = position(t=t0)
     #
     # various scalar quantities at point
     #
@@ -948,7 +948,7 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     #
     # print textual info
     #
-    print "Position vector: r(t)=", position(t)
+    print "Position vector: r(t)=", position
     print "Speed is ", N(speed(t=t0))
     print "Curvature is ", N(curvature)
     ## print "Torsion is ", N(torsion)
