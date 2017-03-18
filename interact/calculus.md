@@ -38,7 +38,7 @@ def _(f = cos(x) - x, a = float(0), b = float(1), eps=(-3,[-16..-1])):
          show(plot(f, a, b, color='red'), xmin=a, xmax=b)
      else:
          print "root =", c
-         print "f(c) = %r"%f(c)
+         print "f(c) = %r"%f(x=c)
          print "iterations =", len(intervals)
          P = plot(f, a, b, color='red')
          h = (P.ymax() - P.ymin())/ (1.5*len(intervals))
