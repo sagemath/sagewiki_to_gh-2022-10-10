@@ -519,9 +519,9 @@ var('x')
 x0  = 0
 f   = sin(x)*e^(-x)
 p   = plot(f,-1,5, thickness=2)
-dot = point((x0,f(x0)),pointsize=80,rgbcolor=(1,0,0))
+dot = point((x0,f(x=x0)),pointsize=80,rgbcolor=(1,0,0))
 @interact
-def _(order=(1..12)):
+def _(order=[1..12]):
     ft = f.taylor(x,x0,order)
     pt = plot(ft,-1, 5, color='green', thickness=2)
     pretty_print(html('$f(x)\;=\;%s$'%latex(f)))
