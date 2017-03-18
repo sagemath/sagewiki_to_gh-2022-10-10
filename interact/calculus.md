@@ -371,7 +371,7 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
 
     theplot = plot( f, xmin, xmax )
     theplot += text( '\n$x_0$', (x0,0), rgbcolor=(1,0,0),
-                     vertical_alignment="bottom" if f(x0) < 0 else "top" )
+                     vertical_alignment="bottom" if f(x=x0) < 0 else "top" )
     theplot += points( [(x0,0)], rgbcolor=(1,0,0) )
 
     Trace = []
@@ -387,8 +387,8 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
     is_inf = False
     xi = x0
     for i in range(N):
-        fi = RR(f(xi))
-        fpi = RR(df(xi))
+        fi = RR(f(x=xi))
+        fpi = RR(df(x=xi))
 
         theplot += points( [(xi,fi)], rgbcolor=(1,0,0) )
         theplot += line( [(xi,0),(xi,fi)], linestyle=':', rgbcolor=(1,0,0) ) # vert dotted line
@@ -423,7 +423,7 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
             yl = -(xip1-xl)*fpi
             yr = (xr-xip1)*fpi
             theplot += text( '\n$x_{%d}$' % (i+1,), (xip1,0), rgbcolor=(1,0,0),
-                             vertical_alignment="bottom" if f(xip1) < 0 else "top" )
+                             vertical_alignment="bottom" if f(x=xip1) < 0 else "top" )
             theplot += points( [(xip1,0)], rgbcolor=(1,0,0) )
 
         theplot += line( [(xl,yl),(xr,yr)], rgbcolor=(1,0,0) )  # tangent
@@ -439,7 +439,7 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
     show( theplot, xmin=xmin, xmax=xmax )
     if show_calcs:
         for t in Trace:
-            html( t )
+            pretty_print(html( t ))
 }}}
 {{attachment:newtraph.png}}
 
