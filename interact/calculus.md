@@ -162,7 +162,8 @@ def midpoint(n = slider(1,100,1,4), f = input_box(default = "x^2", type = str), 
 == Numerical integrals with various rules ==
 by Nick Alexander (based on the work of Marshall Hampton)
 
-{{{#!sagecellvar('x')
+{{{#!sagecell
+var('x')
 @interact
 def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
     interval=range_slider(0, 10, 1, default=(0, 4), label="Interval"),
