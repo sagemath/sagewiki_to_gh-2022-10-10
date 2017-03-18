@@ -546,7 +546,7 @@ pretty_print(html("<li>Modify the value of <i>L</i> to change your guess of the 
 pretty_print(html("<li>Modify the values of <i>δ</i> and <i>ε</i> to modify the rectangle.</li></ul>"))
 pretty_print(html("If the blue curve passes through the pink boxes, your values for <i>δ</i> and/or <i>ε</i> are probably wrong."))
 @interact
-def delta_epsilon(f = input_box(default=(x^2-x)/(x-1)), a=input_box(default=1), L = input_box(default=1), delta=input_box(label="δ",default=0.1), epsilon=input_box(label="ε",default=0.1), xm=input_box(label="<i>x</i><sub>min</sub>",default=-1), xM=input_box(label="<i>x</i><sub>max</sub>",default=4)):
+def delta_epsilon(f = input_box(default=(x^2-x)/(x-1)), a=input_box(default=1), L = input_box(default=1), delta=input_box(label="δ",default=0.1), epsilon=input_box(label="ε",default=0.1), xm=input_box(label=r"$x_{min}$",default=-1), xM=input_box(label=r"$x_{max}$",default=4)):
     f_left_plot = plot(f,xm,a-delta/3,thickness=2)
     f_right_plot = plot(f,a+delta/3,xM,thickness=2)
     epsilon_line_1 = line([(xm,L-epsilon),(xM,L-epsilon)], rgbcolor=(0.5,0.5,0.5),linestyle='--')
