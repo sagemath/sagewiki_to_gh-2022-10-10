@@ -28,7 +28,7 @@ def bisect_method(f, a, b, eps):
         intervals.append((a,b))
 pretty_print(html("<h1>Double Precision Root Finding Using Bisection</h1>"))
 @interact
-def _(f = cos(x) - x, a = float(0), b = float(1), eps=(-3,[-16..-1])):
+def _(f = cos(x) - x, a = float(0), b = float(1), eps=(-3,(-16, -1))):
      eps = 10^eps
      print "eps = %s"%float(eps)
      try:
@@ -76,7 +76,7 @@ def newton_method(f, c, eps, maxiter=100):
 var('x')    
 pretty_print(html("<h1>Double Precision Root Finding Using Newton's Method</h1>"))
 @interact
-def _(f = x^2 - 2, c = float(0.5), eps=(-3,[-16..-1]), interval=float(0.5)):
+def _(f = x^2 - 2, c = float(0.5), eps=(-3,(-16, -1)), interval=float(0.5)):
      eps = 10^(eps)
      print "eps = %s"%float(eps)
      z, iterates = newton_method(f, c, eps)
