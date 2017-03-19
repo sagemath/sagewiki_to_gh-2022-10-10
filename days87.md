@@ -51,8 +51,12 @@ There are two main ways to get to Burlington.
 
  1. Fly into BTV.
  1. Fly to Montreal (YUL), Manchester (MHT) or Boston (BOS) and take [[https://www.greyhound.com/|Greyhound]] to Burlington.
-  * Buses depart from Montreal Berri station at 8:15, 10:45, 16:15 and 23:30 and take about 2:45 to get to Burlington (though this can vary due to US customs).  The city bus (747) from the airport takes 45 minutes to go directly to the Greyhound station and runs every 30 minutes (note that the city bus requires a day pass, which costs $10 and can be purchased inside the terminal).
+  * Buses depart from Montreal Berri station at 8:15, 10:45, 16:15 and 23:30 and take about 2:45 to get to Burlington (though this can vary due to US customs).  The city bus (747) from the airport takes 45 minutes to go directly to the Greyhound station and runs every 30 minutes.  Note that the city bus requires a day pass, which costs $10 and can be purchased inside the terminal.
   * Buses depart from Manchester Airport direct to Burlington -- 0:55-4:00, 11:35-15:20 and 15:05-19:55.
-  * Buses depart Boston South Station, running 7:00-11:55, 10:30-15:20, 14:00-19:55, 23:20-4:00.  The city bus (Silver line) from the airport takes 15 minutes to go directly to the Greyhound station and runs every 12 minutes.
+  * Buses depart Boston South Station, running 7:00-11:55, 10:30-15:20, 14:00-19:55, 23:20-4:00.  The city bus (Silver line) from the airport takes 15 minutes to go directly to the Greyhound station and runs every 12 minutes.  The silver line from the airport is free.
 
 There may also be carpools traveling from Boston and Hanover, NH.  If you're interested in a carpool feel free to edit this wiki page.
+
+== Local Dining Options ==
+
+We will add more details as the workshop approaches, but for now check out the [[https://drive.google.com/open?id=1A2B4-EmWB1cUQat364SzVJV9aD4&usp=sharing|map]] Christelle made!
