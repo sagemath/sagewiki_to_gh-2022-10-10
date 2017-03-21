@@ -40,7 +40,6 @@ If you would like to attend, please fill out [[https://goo.gl/forms/TdoRZDpN0zq5
  * David Roberts (University of Minnesota, Morris)
  * Julian Rueth (Free Software Foundation Europe)
  * Adriana Salerno (Bates College)
- * Ari Shnidman* (Boston College)
  * Ander Steele* (University of California, Santa Cruz)
  * Tristan Vaccon (Université de Limoges)
  * John Voight* (Dartmouth College)
