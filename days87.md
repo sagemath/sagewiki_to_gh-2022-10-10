@@ -54,7 +54,7 @@ We anticipate that most participants will stay in [[https://www.uvm.edu/~arch/?P
 
 == Travel ==
 
-'''If you are a US citizen or permanent resident, please book flights on a US carrier.'''  If you are not a US citizen or permanent resident, this restriction does not apply to you (since we're funding you from a different grant).
+'''If you are a US citizen or permanent resident, please book flights on a US carrier.'''  If you are not a US citizen or permanent resident, this restriction does not apply to you (since we're funding you from a different grant).  Note that the [[Mathematical Congress of the Americas|http://mcofamericas.org/latest-news/mathematical-congress-americas-2017]] is the week after Sage Days 87; if you're interested in attending you may want to plan your travel accordingly.
 
 There are two main ways to get to Burlington.
 
@@ -64,7 +64,7 @@ There are two main ways to get to Burlington.
   * Buses depart from Manchester Airport direct to Burlington -- 0:55-4:00, 11:35-15:20 and 15:05-19:55.
   * Buses depart Boston South Station, running 7:00-11:55, 10:30-15:20, 14:00-19:55, 23:20-4:00.  The city bus (Silver line) from the airport takes 15 minutes to go directly to the Greyhound station and runs every 12 minutes.  The silver line from the airport is free.
 
-There may also be carpools traveling from Boston and Hanover, NH.  If you're interested in a carpool feel free to edit this wiki page.
+There may also be carpools traveling from these Boston, Montreal and Hanover, NH.  If you're interested in a carpool feel free to edit this wiki page.
 
 == Local Dining Options ==
 
