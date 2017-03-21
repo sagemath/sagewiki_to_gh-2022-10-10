@@ -452,6 +452,36 @@ limit maxproc 512 2048
  * QUESTION: With objects {{{a}}} and {{{b}}} and a function {{{f}}}, I accidentally typed {{{f(a) = b}}} instead of {{{f(a) == b}}}.  This returned a {{{TypeError}}} (as expected), but also deleted the object {{{a}}}.  Why?
  * ANSWER: It's because of how functions are  defined in Sage using the {{{f(x) = expr}}} notation using the preparser.  Also notice that if you make this mistake inside of an {{{if}}} statement, you will get a {{{SyntaxError}}} before anything else goes wrong, so in this case, there is no problem.
 
+== Wouldn't it be way better if Sage did not ship as a gigantic bundle? ==
+
+This has been discussed over and over again and it plainly doesn't
+work. The Sage in Debian does not pass doctests, not even close. In
+general the combinatorial explosion of configurations to debug is way
+too large and it is next to impossible to find any distribution where
+the version numbers even remotely match. We updated to GAP 4.4.12 in
+Sage 3.3 and the doctests involving GAP will in certain files be
+broken with any previous GAP release. If you used the Debian packages
+for Singular Sage won't work since we patch NTL and when those NTL
+libs come in conflict either Sage doesn't compile or Singular blows
+up. I can go on and on and on about similar issues and that is only
+the stuff I know about right on top of my head. I have never taken the
+time to go out and do dumb things to break Sage :)
+
+In the near future we plan to upgrade to a svn release of the
+development version of pari and then closely track it as bugs we
+report are often only fixed in pari-2.4.3svn. There is *no* way any
+distribution can track this without potentially breaking other code
+dependent on pari and you will be royally screwed if you want to use
+pari 2.3.4 in Sage (the stable release at this point) since Sage won't
+even build. We will fix all in tree code that gets broken with the new
+pari-svn and push it back upstream, but until that shows up in a
+distribution we will long have shipped Sage 4.0.
+
+The way we do it is the only way and I have doubts that any
+distribution packaged Sage will even be able to keep up with the
+official release given that I (=Michael Abshoff) spend working full time as the Sage
+release manager :)
+
 
 = ToDo =
 
