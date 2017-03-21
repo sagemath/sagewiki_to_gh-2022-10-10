@@ -24,7 +24,7 @@ If you would like to attend, please fill out [[https://goo.gl/forms/TdoRZDpN0zq5
 
  * Samuele Anni (Universität Heidelberg)
  * Jonathan Bober (University of Bristol)
- * Alina Bucur (University of California, San Diego)
+ * Alina Bucur* (University of California, San Diego)
  * Rachel Davis (University of Wisconsin, Madison)
  * Alyson Deines (Center for Communications Research)
  * Jean-Pierre Flori (Agence nationale de la sécurité des systèmes d'information)
