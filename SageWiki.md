@@ -48,6 +48,18 @@ Note: "Contributors" are not necessarily coders/programmers, but "Developers" ''
 || [[DocumentationProject]] || Main page for documentation || 'Should be' a Category || Contributors and users || Add info for all internal and external documents ||
 || [[DsageNg]] || SageMath in a distributed environment || Category || Developers || Update often with Trac ||
 || [[dynamics]] || Implementing various algorithms related to dynamics || Category || Developers || Update with Trac ||
+|| education# || Sage Education Days, where # is digit between 1 and 6 || Category || Low || mrennekamp: rename to scheme "education/#"; keeping for archive ||
+|| [[faq]] || Many FAQ's || Page || Users || Visually clean and add FAQ's from [[https://doc.sagemath.org]] ||
+|| [[feature_request_guidelines]] || Great attempt at rules for requests || Page, but related to [[CodeOfConduct]] || High || Combine all guideline pages....? ||
+|| [[File_formats]] || Types of formats related to Sage || Page || Low || decide if needed ||
+|| [[Foundation]] || There's always been talk of making/joining a foundation. || Page || Mid || Continue updates and archiving ||
+|| [[freebsd]] || The discontinued port to FreeBSD || Category || Mid || Archive ||
+|| [[FromSageToSageMath]] || Highlights the name transition and when to use each || Page || Mid || Reference often ||
+|| [[GrantEurope]] || OpenDreamKit || Page || Low || Remember to express gratitude! ||
+|| [[grants/09]] || Grants from 2009 || Category || Low || ||
+|| [[graph]] || Graph Theory Project || Category || Mid || Bring up to speed from 2009 ||
+|| [[GroupeUtilisateursBordeaux]] || Bordeaux User Groups || Pages || Anyone in France || Also related to [[GroupeUtilisateursParis]] ||
+|| [[GSoC]] || Google Summer of Code, which we often participate in || Category || Contributors || Make a formal Category ||
 
 
 = People =
@@ -148,21 +160,33 @@ Alphabetical listing of things to do (out-of-date and general organise) - mrenne
  * [[bug]] -- add content to describe Bug Days in general
  * [[cando]] documents "What Sage Can Do" -- decide what to do with it. current version is from 2008.
  * (all) Categories - eg [[combinat/categoryframeworkandcleanup]] and [[DsageNg]]
- * [[Chile]] - tiny page for "events in Chile"
+ * [[Chile]] - tiny page for "events in Chile" (update or no?)
  * [[Classify old-style packages]] is a to-do list for the wiki ... I'm (mrennekamp) sure that this is duplicated somewhere
  * [[CodeOfConduct]] not sure why there; would like to see go to official documentation
  * [[CodeSharingWorkflow]] N. Thiery's musings on workflow development. Nothing wrong, but would help to collaborate.
  * [[coercion]]
  * Most [[combinat]] probably
- * [[Comparisons]]
- * Move [[Cryptography]] to [[Code_Theory]]
- * What is [[CUDA]?
+ * [[Comparisons]] .... benchmarks, so will need someone to continue updating or doing, else remove
+ * Move [[Cryptography]] to [[Code_Theory]]...?
+ * What is [[CUDA]]?
  * [[Debate/Collective infrastructure management]] : we have [[Infrastrucure]], so connect these
  * [[DeformationTheory]] -- I don't know status of progress on this feature
  * [[DenseLinearAlgebra]] -- If not on Trac, then probably should go as a milestone....? Don't know progress of this either
  * [[dev1]] and all their subpages list what was done at "developer days 1", which is same as [[days8.5]]
- * [[DevMapNewPeople]] -- is this needed? 
-
+ * [[DevMapNewPeople]] -- is this needed?
+ * [[EasyQuickSageDevelopment]] -- 2011, tiny article on using Sage-NB to contribute. update for SMC?
+ * [[ecc2010]] event page for Workshot on Elliptic Curves and Computation
+ * [[Emacs]] tips, so move to [[Tips]]
+ * figure out what to do with [[EqualityCoercion]]. mostly a bug
+ * another unrelated bug: [[EqualityUnhashable]], where "mathematical equality breaks python"
+ * [[extcode]] has 2010 contents of spkg that was needing to be merged into Sage (extcode-4.6.spkg)
+ * move [[factorization_of_integers_of_special_forms]] to [[Tips]]; but is only mathematical than Sage-specific
+ * [[fast_eval]] is 2008 page for a functionality re-doing
+ * don't know if [[Fight%20spam%20on%20asksage]] is still relevant, otherwise move to [[contribute]]
+ * move [[firefox_trac]] to [[Tips]]
+ * [[Gmane]] is an alternative mailing list; 2012 suggestion?
+ * [[groebner-bases-in-sage-sd2talk]] upload the file from sage.math.washington.edu
+ * 
 
 = About this wiki =
 
