@@ -45,7 +45,7 @@ Go to http://www.sagemath.org/src-old to download the tar archive for any releas
 
 Some OS [[Distribution|distributions]] do this, to varying degrees. However it requires
 continual maintenance and distribution-specific knowledge that the Sage team does not have.
-We are happy to accept reasonable patches that would help make this task easier for them.
+We are happy to accept reasonable patches that would help make this task easier for them. (See a rant from 2009 at the bottom of the page.)
 
 
 === How do I compile the source to Sage? ===
