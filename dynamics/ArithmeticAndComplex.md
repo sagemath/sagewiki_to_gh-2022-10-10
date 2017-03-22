@@ -41,7 +41,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/21118|#21118]]) needs-work: list of degrees of iterates of function - Joseph Silverman
 
- * Eigenvalues (see [[http://trac.sagemath.org/ticket/14990|#14990]] and [[http://trac.sagemath.org/ticket/15390|#15390]]) for an implementation of the algebraic closure of finite field) - Vincent Delecroix , Ben Hutz
 
 == Wishlist ==
 
@@ -74,9 +73,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 
 == Complete ==
- * --([[http://trac.sagemath.org/ticket/22268|#22268]]) -- closed sage 7.6: copy for scheme morphisms points not deep enough - Ben Hutz
+ * --([[http://trac.sagemath.org/ticket/22268|#22268]])-- closed sage 7.6: copy for scheme morphisms points not deep enough - Ben Hutz
 
- * --([[http://trac.sagemath.org/ticket/22265|#22265]]) -- closed sage 7.6: fix dynatomic polynomial - Rebecca Lauren Miller
+ * --([[http://trac.sagemath.org/ticket/22265|#22265]])-- closed sage 7.6: fix dynatomic polynomial - Rebecca Lauren Miller
 
  * --([[http://trac.sagemath.org/ticket/22293|#22293]])-- closed sage 7.6: products and powers of schemes and subschemes - Ben Hutz
 
