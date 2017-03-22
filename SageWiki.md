@@ -60,6 +60,38 @@ Note: "Contributors" are not necessarily coders/programmers, but "Developers" ''
 || [[graph]] || Graph Theory Project || Category || Mid || Bring up to speed from 2009 ||
 || [[GroupeUtilisateursBordeaux]] || Bordeaux User Groups || Pages || Anyone in France || Also related to [[GroupeUtilisateursParis]] ||
 || [[GSoC]] || Google Summer of Code, which we often participate in || Category || Contributors || Make a formal Category ||
+|| [[HowToHostASageDays]] || Tips for hosting events || Page || Anyone planning events...? || ||
+|| [[i18n]] || Internationalizing Sage and SageNB || Category || Contributors || Apply to projects ||
+|| [[Inbound%20Links]] || Tries to list inbound links to sagemath.org || Page || Contributors || If possible, please expand. Otherwise, the page should be removed.||
+|| [[Infrastructure]] || List of what we use to provide services || Page || Developers || Update and promote for mantinence and funding ||
+|| [[InstallingGapPackages]] || Instructions for expanding the included GAP || Page || High || Make sure that information is current ||
+|| [[InstallingSageOnTheCloud]] || Installing Sage on cloud.sagemath.com || Page || Low || What to do? ||
+|| [[interact]] || Interactive examples of SageMath || Category || Promoters, Developers || ||
+|| [[Interfaces]] || Using other software in SageMath || Page || High || ||
+|| [[jobs]] || Possible jobs for working for us! || Page || ? || ||
+|| [[K3D-tools]] || NOT AN SPKG! || Page || Developers || ||
+|| [[Letter_to_Python_GHOP]] || Recommended read from early in Sage. || Article || Contributors || Don't change content of the letter, just introduce it. ||
+|| [[MathsAuLycee]] || French (also original?) Sage for High School || Page || Contributors || ||
+|| [[MercurialQueues]] || Obsolete; we now use Git || Page || Low || Archive ||
+|| [[MirrorNetwork]] || Needs to go to [[Infrastructure]] || || || ||
+|| [[mpir]] || Library || Category (for BuildFarm subpages) || Med || ? ||
+|| [[MPolynomialSystem]] || Class || Page || ? || Figure out who needs this ||
+|| [[msri07]] || Interactive Parallel Computation in Support of Research in Algebra, Geometry and Number Theory || Category || ? ||
+|| [[MSRItemp]] || Temporary stuff for a presentation..? || Many pages, but not quite category || Mid || ||
+|| [[notebook]] || Basically SageNB || Category || Mid || ? ||
+|| [[osx64]] || The completed port to OSX || Category || || Keep for archive purposes ||
+|| [[padics]] || p-adics and local rings || Category || Contributors || Complete and remove as necessary with Trac ; also see [[padicSageDays]]||
+|| [[ParallelMain]] || Distributed Sage || Category || Developers and Users || [[GlennTarbox]] did these small pages in 2009 ||
+|| [[po-polsku]] || Resources in Polish || Page || Users || Expand (or put into a "resources in other languages" - sorry, but internet )||
+|| [[PortingToPython3]] || matplotlib's experience porting to Python 3 || Page || Developers || reference and/or put on trac (see also [[Python3-compatible code]] ||
+|| [[prep]] || 2010 , '11, and '12 MAA PREP Program || Category || Contributors || ? ||
+|| [[ps3]] || Fun project porting Sage onto Sony PS3 || Page || Anyone who wants to || Keep it, for now? ||
+|| [[Publications_using_SageMath]] || How to properly cite SageMath || Page || Academic Researchers / Users || Expand for formats ||
+|| [[quickref]] || Sage Quick Reference Cards || Page (with attatchments) || Users || Move to somewhere not wiki ||
+|| [[ReleaseTours]] || Basically more interesting change logs || Category || Mid || Either use changelogs on sagemath.org or bring up to 8 from 4 ||
+|| [[reu]] || REU's ('07 and '11) || Category || Low || Update or trash ||
+|| review# || Review Days, where # is 1, 2, or 3 || Category || Low || ? ||
+|| [[ReviewChecklist]] || How to author or review a ticket || Page || Contributors || Remove from Developer Guide in documentation ||
 
 
 = People =
@@ -69,18 +101,11 @@ The most up-to date list of Sage developers is on our [[http://trac.sagemath.org
 
 <<Anchor(messagingsites)>>
 = Mailing Lists / Chat Rooms =
- * [[http://groups.google.com/group/sage-support|sage-support]]
- * [[http://groups.google.com/group/sage-devel|sage-devel]]
- * [[http://groups.google.com/group/sage-release|sage-release]]
- * [[http://groups.google.com/group/sage-announce|sage-announcements]]
- * [[http://groups.google.com/group/sage-edu|sage-edu]] for teaching using Sage
- * [[http://groups.google.com/group/sage-dsageng|sage-dsageng]] for Distributed and Parallel Sage
- * [[http://groups.google.com/group/sage-finance|sage-finance]] for finance
- * [[http://groups.google.com/group/sage-coding-theory|sage-coding-theory]] for coding theory
- * [[http://groups.google.com/group/sage-nt|sage-nt]] for number theory
- * [[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]]
- * IRC channel: {{{#sagemath}}} on [[http://freenode.net/|freenode ]] (`chat.freenode.net`)
- * The Sage website contains links to [[http://www.sagemath.org/development-groups.html | other discussion mailing lists]].
+[[http://groups.google.com/group/sage-support|sage-support]], [[http://groups.google.com/group/sage-devel|sage-devel]], [[http://groups.google.com/group/sage-release|sage-release]], [[http://groups.google.com/group/sage-announce|sage-announcements]], [[http://groups.google.com/group/sage-edu|sage-edu]] for teaching using Sage, [[http://groups.google.com/group/sage-dsageng|sage-dsageng]] for Distributed and Parallel Sage, [[http://groups.google.com/group/sage-finance|sage-finance]] for finance, [[http://groups.google.com/group/sage-coding-theory|sage-coding-theory]] for coding theory, [[http://groups.google.com/group/sage-nt|sage-nt]] for number theory, and [[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]].
+
+[[IRC]] channel: {{{#sagemath}}} on [[http://freenode.net/|freenode ]] (`chat.freenode.net`)
+
+The Sage website contains links to [[http://www.sagemath.org/development-groups.html | other discussion mailing lists]].
 
 = Development =
 
@@ -88,7 +113,7 @@ Development is handled using "tickets" on the [[http://trac.sagemath.org/sage_tr
 
 The main developer doc is the [[http://www.sagemath.org/doc/developer/ | Developers' Guide]].
 
-The [[devel | development wiki]] also contain some (currently out-of-date) information on Sage development. See also this recent [[CodeSharingWorkflow|discussion on SageMath development workflow]].
+The [[devel|development wiki]] also contain some (currently out-of-date) information on Sage development. See also this recent [[CodeSharingWorkflow|discussion on SageMath development workflow]].
 
 
 = Special Discussion Pages =
@@ -98,15 +123,14 @@ The [[devel | development wiki]] also contain some (currently out-of-date) infor
  * [[CodeSharingWorkflow|On development models for sharing (experimental) code]]
  * [[Python3-compatible code|Writing Python 3 compatible code]] see also [[PortingToPython3|matplotlib experience Porting to Python 3]]
 
-= Demonstrations of Graphical Capabilities (mostly out-of-date) =
+= Demonstrations of Graphical Capabilities =
  * [[art|Art - posters, banners, etc]]
  * [[interact|Interact Demos]]
- * [[http://tug.ctan.org/pkg/sagetex|SageTeX - Put some sage into your TeX]]
  * [[K3D-tools|K3D-jupyter 3D visualisation in jupyter notebook]]
 
 = Packages =
 
-These lists are possibly out-of-date. Use the listed Sage command for the newest information:
+These lists redirect to [[spkg]]. Use the listed Sage command for the newest information:
 
  * [[standard_packages_available_for_SAGE|Standard packages available for Sage]] (`./sage -standard`)
  * [[optional_packages_available_for_SAGE|Optional packages available for Sage]] (`./sage -optional`)
@@ -186,7 +210,28 @@ Alphabetical listing of things to do (out-of-date and general organise) - mrenne
  * move [[firefox_trac]] to [[Tips]]
  * [[Gmane]] is an alternative mailing list; 2012 suggestion?
  * [[groebner-bases-in-sage-sd2talk]] upload the file from sage.math.washington.edu
- * 
+ * [[hardware]] probably should remove in favor of [[Infrastructure]]
+ * [[healpy]] is it an spkg?
+ * [[HeckeAlgebras]] is related to [[combinat]]
+ * [[IDE]] should go into [[Tips]]
+ * bring [[import]] into a [[guidelines]] page
+ * [[Integral%20Calculus]]
+ * [[interactive_notebook_software]]
+ * [[IpythonNotebook]] -- Missing features for ipython to work within Sage
+ * [[K_math_software_survey]] -- Math software in Kindergarten
+ * [[LanguagesAndTilings]]
+ * [[LanguagesDesign]] -- probably don't need to make a Languages library to compliment a Words library
+ * [[Linear_Algebra]]
+ * [[magma]] compares magma and sage
+ * [[mathbook]] "Mathbook: An XML Application"
+ * [[MultivariateGCDBenchmarks]] -- ???? what's this?
+ * [[Netbeans]] has been largely forgotten as a [[Tips]] page
+ * [[plan/sage-4.0]] release schedule for v 4.0
+ * [[PolynomialAPI]] - supposed to unify multi- and univariate types of polynomials in Sage
+ * [[Polytopes]] - "Polytopes requests"
+ * [[preliminary reading]]
+ * remove [[prerequisitesUbuntu]]?
+ * keep [[RebaseVsMerge]] as a convention / guideline
 
 = About this wiki =
 
