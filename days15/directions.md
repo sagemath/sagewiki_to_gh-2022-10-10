@@ -4,7 +4,6 @@ Google map link to the Collegiana: [[http://maps.google.com/maps?oe=utf-8&client
 
 Google map link to the Stanford Apartments: [[http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=stanford+apartments+seattle&sll=47.658357,-122.314249&sspn=0.094001,0.186596&ie=UTF8&ll=47.658566,-122.314246&spn=0.01136,0.023324&z=16&iwloc=A|Google maps]]
 
-William Stein's Cell Phone Number: 206-419-0925
 
 == Fancy way ==
 
