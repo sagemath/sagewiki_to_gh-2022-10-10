@@ -51,7 +51,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  ||<|1> Products of Projective Spaces || Rational Points on Subschemes || Implement an efficient rational points search on subschemes. Currently it is done by enumeration unless dim is 0 || ||
  ||<|1> Polynomials || specific functionality for regular polynomial endomorphisms of P^N || || ||
  ||<|1> Canonical heights || implement Well's algorithm that does not require factoring the resultant || || ||
- ||<|2> Numerical Precision || implement Algorithm 4 from "Computing algebraic numbers of bounded height" by Doyle-Krumm to use in elements_of_bounded_height for number fields. This is a high priority since currently the precision has an effect on the output. Algorithm 4 is able to take precision into account. || Hard || High ||
+ ||<|1> Numerical Precision
  || use real interval field for floating point computations (in heights and possibly rational preperiodic point functions) || medium || ||
  || Attracting Cycles || Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles || || ||
  || Non-Integral Domains || Make projective space work over non-integral domains. One method would be to make a valid point on which is valid for modulo all maximal ideals || || ||
