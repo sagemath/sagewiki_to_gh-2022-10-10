@@ -63,7 +63,7 @@ cpdef logtraj(double k,long N, double x0):
     return xvals
 }}}
 {{{
-html('<h2>Orbit diagram of the logistic map</h2>')
+pretty_print(html('<h2>Orbit diagram of the logistic map</h2>'))
 @interact
 def logistic_bifs(k_min = slider(0.0,4.0,.001,3.5), k_max = slider(0.0,4.0,.001,4.0)):
     tkmax = max(k_min, k_max)
