@@ -154,7 +154,7 @@ cpdef c_euler_m(double t0, double x10, double x20, double tend, int steps, doubl
 def planarsystem(a11 = slider(srange(-10,10,1/10),default = -1), a12 = slider(srange(-10,10,1/10),default = -1), a21 = slider(srange(-10,10,1/10),default = 1), a22 = slider(srange(-10,10,1/10),default = -1), time_tracked = slider(srange(1,100,1.0),default=10)):
     A = matrix(RDF,[[a11,a12],[a21,a22]])
     eigs = A.eigenvalues()
-    html('<center>$x\' = Ax$ dynamics<BR>$A = '+latex(A)+'$, eigenvalues: $%2.2f + %2.2fI, %2.2f + %2.2fI$</center>'%(eigs[0].real(),eigs[0].imag(),eigs[1].real(),eigs[1].imag()))
+    pretty_print(html('<center>$x\' = Ax$ dynamics<BR>$A = '+latex(A)+'$, eigenvalues: $%2.2f + %2.2fI, %2.2f + %2.2fI$</center>'%(eigs[0].real(),eigs[0].imag(),eigs[1].real(),eigs[1].imag())))
     trajs = Graphics()
     for q in srange(0,2*pi,.15):
         astart = randint(1,10)
