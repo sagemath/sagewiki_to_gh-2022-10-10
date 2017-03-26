@@ -104,7 +104,7 @@ def Dn(D,A,k):
     return ans
 
 @interact
-def f(A = matrix([[0,0,2],[1,0,1],[0,1,-1]]), D = '[[0,0,0],[1,0,0]]', k=[3..15], labels=True):
+def f(A = matrix([[0,0,2],[1,0,1],[0,1,-1]]), D = '[[0,0,0],[1,0,0]]', k=[3..15], labels=False):
     print "Det = ", A.det()
     D = matrix(eval(D)).rows()
     print "D:"
