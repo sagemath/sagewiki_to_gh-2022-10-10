@@ -29,7 +29,7 @@ def muk_plot(m0,k):
         v.append((t+delta,y))
     return v
 
-html("<h1>Mandelbrot's Fractal Binomial Measure</h1>")
+pretty_print(html("<h1>Mandelbrot's Fractal Binomial Measure</h1>"))
 
 @interact
 def _(mu0=slider(0.0001,0.999,default=0.3), k=slider([1..14],default=3), thickness=slider([0.1,0.2,..,1.0],default=1.0)):
