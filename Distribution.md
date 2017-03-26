@@ -43,9 +43,7 @@ are prepared by the release manager, and sometimes by more people.
   * admin: François Boisson
 
 = Anaconda / Conda / Conda Forge =
-
-!SageMath is now available in Anaconda via !CondaForge, see
-[[https://groups.google.com/d/topic/sage-devel/wyaV8x5qolI/discussion|this announcement on sage-devel]].
+  * wiki page: [[Conda]]
 
 = Linux distros =
   * mailing-list: [[https://groups.google.com/forum/#!forum/sage-packaging|sage-packaging]]
