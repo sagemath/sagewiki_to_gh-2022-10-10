@@ -73,7 +73,7 @@ def _(f = input_box(default=y), g=input_box(default=-x*y+x^3-x),
 
     result = vector_field + starting_point + solution
 
-    html(r"$\displaystyle\frac{dx}{dt} = %s$  $ \displaystyle\frac{dy}{dt} = %s$" % (latex(f),latex(g)))
+    pretty_print(html(r"$\displaystyle\frac{dx}{dt} = %s$  $ \displaystyle\frac{dy}{dt} = %s$" % (latex(f),latex(g))))
     result.show(xmin=xmin,xmax=xmax,ymin=ymin,ymax=ymax)
 }}}
 {{attachment:euler.png}}
