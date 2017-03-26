@@ -49,7 +49,7 @@ A = matrix([[1,1],[-1,1]])
 D = [vector([0,0]), vector([1,0])]
 
 @interact
-def f(A = matrix([[1,1],[-1,1]]), D = '[[0,0],[1,0]]', k=(3..17)):
+def f(A = matrix([[1,1],[-1,1]]), D = '[[0,0],[1,0]]', k=[3..17]):
     print "Det = ", A.det()
     D = matrix(eval(D)).rows()
     def Dn(k):
