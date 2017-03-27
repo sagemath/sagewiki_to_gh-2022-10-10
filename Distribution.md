@@ -116,6 +116,7 @@ See [[https://groups.google.com/d/msg/sage-devel/jdLfIKQ1M18/PVQqJUUqAgAJ|this p
   
 == BSD ==
   * pending tickets: [[https://trac.sagemath.org/query?status=!closed&component=porting%3A+BSD|component: "porting: BSD"]]
+  * previous effort: [[https://svnweb.freebsd.org/ports/head/math/sage/|Sage on FreeBSD]]
 
 == Solaris ==
   * pending tickets: [[https://trac.sagemath.org/query?status=!closed&component=porting%3A+Solaris|component: "porting: Solaris"]]
