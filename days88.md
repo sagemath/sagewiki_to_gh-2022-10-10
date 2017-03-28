@@ -40,7 +40,7 @@ Please note only one participant of the coding sprint team needs to fill out the
 
 '''Selection Process'''
 
-Each proposal will be evaluated by the [[|IMA-Sage-Board|scientific board]] according to the following three criteria:
+Each proposal will be evaluated by the [[IMA-Sage-Board|scientific board]] according to the following three criteria:
 
 Effectiveness – does the proposed functionality successfully address an important development opportunity in Sage?
 Feasibility – can sufficient progress be made on the proposed functionality during the coding sprint?
