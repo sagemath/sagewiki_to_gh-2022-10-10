@@ -8,7 +8,7 @@ Themes of the workshop include applied representation theory, optimization, data
 
 In the ensuing year, workshop participants will be invited to return to the IMA in small groups to push the software development even further in coding sprints.
 
-=== More Information at the IMA Webpage: === https://www.ima.umn.edu/2017-2018.2/W8.21-25.17
+'''More Information at the IMA Webpage''': https://www.ima.umn.edu/2017-2018.2/W8.21-25.17
 
 '''Organizers''':
  * Jennifer Balakrishnan (Boston University)
@@ -21,4 +21,4 @@ In the ensuing year, workshop participants will be invited to return to the IMA 
 
 August 21-25, 2017, at the IMA, University of Minnesota, in Minneapolis, MN, USA.
 
-== Year-long Program at the IMA: == https://www.ima.umn.edu/2017-2018.2
+''' Year-long Program at the IMA''': https://www.ima.umn.edu/2017-2018.2
