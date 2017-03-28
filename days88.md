@@ -21,7 +21,7 @@ In the ensuing year, workshop participants will be invited to return to the IMA 
 
 August 21-25, 2017, at the IMA, University of Minnesota, in Minneapolis, MN, USA.
 
-== Year? ==
+== Year-long Program at the IMA ==
 
 == Year-long Program at the IMA == 
 
