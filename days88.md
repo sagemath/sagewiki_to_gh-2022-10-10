@@ -30,7 +30,7 @@ integrate a piece of open source software into the SageMath platform
 develop interactive Sage worksheets for disseminating mathematics or use in mathematics education
 Visitors will receive office space in Lind Hall, access to the computing network, and additional technical support as needed. 
 
-More information and how to apply (https://www.ima.umn.edu/2017-2018.2#full-description):
+'''More information and how to apply (https://www.ima.umn.edu/2017-2018.2#full-description):'''
 
 Coding sprints are designed for teams 2-8 participants to spend 3-5 days at the IMA. Interested applicants should first initiate a trac ticket (or describe an existing one) on the SageMath trac server, explaining the proposed code. (Proof-of-concept code is not necessary at this stage, but welcome.) This will allow developers and users to comment on proposed changes and is the first, important step in the git workflow.
 
