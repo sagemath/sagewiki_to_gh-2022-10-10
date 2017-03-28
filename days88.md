@@ -32,7 +32,7 @@ Visitors will receive office space in Lind Hall, access to the computing network
 
 '''More information and how to apply (https://www.ima.umn.edu/2017-2018.2#full-description):'''
 
-Coding sprints are designed for teams 2-8 participants to spend 3-5 days at the IMA. Interested applicants should first initiate a trac ticket (or describe an existing one) on the SageMath trac server, explaining the proposed code. (Proof-of-concept code is not necessary at this stage, but welcome.) This will allow developers and users to comment on proposed changes and is the first, important step in the git workflow.
+Coding sprints are designed for teams 2-8 participants to spend 3-5 days at the IMA. Interested applicants should first initiate a [[https://trac.sagemath.org|trac ticket]] (or describe an existing one) on the SageMath trac server, explaining the proposed code. (Proof-of-concept code is not necessary at this stage, but welcome.) This will allow developers and users to comment on proposed changes and is the first, important step in the git workflow.
 
 Applicants should then complete a [[https://docs.google.com/a/umn.edu/forms/d/e/1FAIpQLSdpp6jpUJn-tt7I3aZYd5OQJj3T0Qt5yqq684XA4fhOmGzraw/viewform|short online application]] and email a 1-2 page proposal to coding-sprints@ima.umn.edu. The proposal should include a description of the design proposals for any code to be written and how the potential functions of the code or materials to be developed will impact researchers in academia and industry and/or educators. Proposals should discuss prior history of related code in SageMath, or other open-source software, and a brief description of the relevant mathematical and coding background of the proposers.
 
