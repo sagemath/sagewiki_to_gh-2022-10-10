@@ -40,7 +40,7 @@ Applicants should then complete a short online application and email a 1-2 page 
 
 Please note only one participant of the coding sprint team needs to fill out the online application and submit the proposal to coding-sprints@ima.umn.edu. The submitted proposal should include name, affiliation, and email address of all collaborators. 
 
-Selection Process
+'''Selection Process'''
 
 Each proposal will be evaluated by the scientific board according to the following three criteria:
 
@@ -49,7 +49,7 @@ Feasibility – can sufficient progress be made on the proposed functionality du
 Interest from the community – is there a pressing need for the code?
 Deadlines
 
-Applications will be accepted on a rolling basis according to the following schedule:
+'''Applications will be accepted on a rolling basis according to the following schedule:'''
 
 June 1, 2017—Deadline for initial round of decisions (Notification by July 1)
 Sept. 1, 2017—Deadline for second round of decisions, sprints must occur after Nov. 1 (Notification by Oct. 1)
@@ -58,4 +58,3 @@ Feb. 1, 2018—Final deadline for coding sprint applications, sprints to occur a
 Please contact the organizers with additional inquiries.
 
 The goal of this year-long program to continue expanding the developer base of SageMath while fostering connections between mathematics and industry.
-
