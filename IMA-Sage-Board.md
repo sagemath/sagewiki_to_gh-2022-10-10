@@ -1,6 +1,6 @@
 '''IMA SageMath Scientific Board:'''
 
-*Jennifer Balakrishnan	(Boston University)
+ * Jennifer Balakrishnan	(Boston University)
 *Ben Brubaker	(University of Minnesota, Twin Cities)
 
 *Henry Cohn	(Microsoft Research New England)
