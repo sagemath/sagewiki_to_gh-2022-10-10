@@ -1,17 +1,17 @@
-Jennifer Balakrishnan	Boston University
+Jennifer Balakrishnan	(Boston University)
 
-Ben Brubaker	University of Minnesota, Twin Cities
+Ben Brubaker	(University of Minnesota, Twin Cities)
 
-Henry Cohn	Microsoft Research New England
+Henry Cohn	(Microsoft Research New England)
 
-Nathan Dunfield	University of Illinois at Urbana-Champaign
+Nathan Dunfield	(University of Illinois at Urbana-Champaign)
 
-Gregg Musiker	University of Minnesota, Twin Cities
+Gregg Musiker	(University of Minnesota, Twin Cities)
 
-John Palmieri	University of Washington
+John Palmieri	(University of Washington)
 
-Franco Saliola	Université du Québec à Montréal
+Franco Saliola	(Université du Québec à Montréal)
 
-Anne Schilling	University of California, Davis
+Anne Schilling	(University of California, Davis)
 
-William Stein	SageMath
+William Stein	(SageMath)
