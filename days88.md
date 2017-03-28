@@ -8,6 +8,13 @@ Themes of the workshop include applied representation theory, optimization, data
 
 In the ensuing year, workshop participants will be invited to return to the IMA in small groups to push the software development even further in coding sprints.
 
+'''Organizers''':
+ * Jennifer Balakrishnan (Boston University)
+ * Benjamin Brubaker (University of Minnesota)
+ * Matthias Köppe (University of California, Davis)
+ * Gregg Musiker (University of Minnesota)
+
+
 == When and where? ==
 
 August 21-25, 2017, at the IMA, University of Minnesota, in Minneapolis, MN, USA.
