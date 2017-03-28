@@ -42,7 +42,7 @@ Please note only one participant of the coding sprint team needs to fill out the
 
 '''Selection Process'''
 
-Each proposal will be evaluated by the scientific board according to the following three criteria:
+Each proposal will be evaluated by the [[|IMA-Sage-Board|scientific board]] according to the following three criteria:
 
 Effectiveness – does the proposed functionality successfully address an important development opportunity in Sage?
 Feasibility – can sufficient progress be made on the proposed functionality during the coding sprint?
@@ -52,9 +52,13 @@ Deadlines
 '''Applications will be accepted on a rolling basis according to the following schedule:'''
 
 June 1, 2017—Deadline for initial round of decisions (Notification by July 1)
+
 Sept. 1, 2017—Deadline for second round of decisions, sprints must occur after Nov. 1 (Notification by Oct. 1)
+
 Nov. 1, 2017—Deadline for third round of decisions, sprints must occur after Jan. 1 (Notification by Dec. 1)
+
 Feb. 1, 2018—Final deadline for coding sprint applications, sprints to occur after April 1 (Notification by March 1)
+
 Please contact the organizers with additional inquiries.
 
 The goal of this year-long program to continue expanding the developer base of SageMath while fostering connections between mathematics and industry.
