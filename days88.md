@@ -18,13 +18,3 @@ In the ensuing year, workshop participants will be invited to return to the IMA 
 == When and where? ==
 
 August 21-25, 2017, at the IMA, University of Minnesota, in Minneapolis, MN, USA.
-
-== Schedule ==
-
-All talks will be held in Lind 305, and all coffee breaks in Lind Hall 400.
-
-TBA
-
-=== Topics ===
-
-TBA
