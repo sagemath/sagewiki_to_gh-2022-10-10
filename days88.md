@@ -25,9 +25,7 @@ August 21-25, 2017, at the IMA, University of Minnesota, in Minneapolis, MN, USA
 
 https://www.ima.umn.edu/2017-2018.2
 
-The program aims to further develop software that will be of use to academia and industrial scientists, as well as introduce SageMath to graduate students and researchers and train them to become part of the developer community. Activities include an opening workshop and ongoing coding sprints that will allow teams of 2-8 participants to spend 3-5 days at the IMA. Projects must include a coding component using SageMath; for example, coding sprints might propose to:
-
-write new code for research in mathematics, science, or for industrial applications
+The program aims to further develop software that will be of use to academia and industrial scientists, as well as introduce SageMath to graduate students and researchers and train them to become part of the developer community. Activities include an opening workshop and ongoing coding sprints that will allow teams of 2-8 participants to spend 3-5 days at the IMA. Projects must include a coding component using SageMath; for example, coding sprints might propose to write new code for research in mathematics, science, or for industrial applications
 integrate a piece of open source software into the SageMath platform
 develop interactive Sage worksheets for disseminating mathematics or use in mathematics education
 Visitors will receive office space in Lind Hall, access to the computing network, and additional technical support as needed. 
