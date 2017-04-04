@@ -53,7 +53,15 @@ https://semestriel.framapad.org/p/sage-days-86
  * Sébastien Labbé (CNRS, LaBRI, Université de Bordeaux)
  * Nicolas M. Thiéry (Université Paris Sud)
  * Thierry Monteil (CNRS, CALIN, Université Paris Nord)
- * ...
+ * Mélodie Lapointe (Université du Québec à Montréal)
+ * Élise Vandomme (Université du Québec à Montréal)
+ * Lama Tarsissi (Université Savoie Mont Blanc)
+ * Philippe Nadeau (CNRS, Université Lyon 1)
+ * Carole Porrier (UQAM)
+ * Aram Dermenjian (University of Quebec at Montreal)
+ * Emine Yildirim (UQAM)
+ * Émile Nadeau	(Université du Québec à Montréal)
+ * Herman Goulet-Ouellet (UQAM)
 
 == Registration ==
 
