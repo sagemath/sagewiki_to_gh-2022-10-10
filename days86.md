@@ -6,9 +6,7 @@
 
 At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinatorics2017/index.php/|Algebra and words in combinatorics]] from March to July 2017, a [[https://wiki.sagemath.org/Workshops|Sage Days]] will be held at [[http://lacim.uqam.ca/en/|Laboratoire de combinatoire et d'informatique mathématique (LaCIM)]] of [[http://www.uqam.ca/|Université du Québec à Montréal]].
 
-'''Monday April 17th is a holiday and LaCIM will be closed, and we will
-meet somewhere downtown for informal coding sprints (stay tuned). The
-official program will therefore start on Tuesday.'''
+'''Monday April 17th is a holiday and LaCIM will be closed. We will meet somewhere downtown for informal coding sprints (stay tuned). The official program will therefore start on Tuesday.'''
 
 == Target audience ==
 
