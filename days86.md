@@ -1,6 +1,6 @@
 = Sage Days 86 =
 
-'''''April 18-21, 2017, Montreal, Canada'''''
+'''''April 17-21, 2017, Montreal, Canada'''''
 
 ~-(originally planned May 8-12, 2017)-~
 
@@ -28,6 +28,7 @@ At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinato
 == Where ==
 
 Monday: TBA
+
 Tuesday-Friday: Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]]
 
 == Themes ==
