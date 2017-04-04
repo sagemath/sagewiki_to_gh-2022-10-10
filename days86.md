@@ -1,36 +1,36 @@
 = Sage Days 86 =
 
-'''''April 17-21, 2017, Montreal, Canada'''''
+'''''April 18-21, 2017, Montreal, Canada'''''
 
 ~-(originally planned May 8-12, 2017)-~
 
 At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinatorics2017/index.php/|Algebra and words in combinatorics]] from March to July 2017, a [[https://wiki.sagemath.org/Workshops|Sage Days]] will be held at [[http://lacim.uqam.ca/en/|Laboratoire de combinatoire et d'informatique mathématique (LaCIM)]] of [[http://www.uqam.ca/|Université du Québec à Montréal]].
+
+**Monday April 17th is a holiday and LaCIM will be closed, and we will
+meet somewhere downtown for informal coding sprints (stay tuned). The
+official program will therefore start on Tuesday.**
 
 == Target audience ==
 
  * Newcomers to advanced users that want to learn more about and get training on the open source mathematical system [[http://sagemath.org|SageMath]] and related software.
  * (would be) developers that want to participate to coding sprints.
 
-== Confirmed Invited speakers ==
+== Invited speakers ==
 
  * [[http://bergeron.math.uqam.ca/|François Bergeron]] (LaCIM, Université du Québec à Montréal); topic: experimental mathematics
  * [[http://www-groups.mcs.st-andrews.ac.uk/~jamesm|James Mitchell]] (CIRCA, University of St Andrews); topic: [[https://gap-packages.github.io/Semigroups/|GAP's semigroup package]] and the [[https://james-d-mitchell.github.io/libsemigroups/|libsemigroup]] C++ library
  * Thierry Monteil (CNRS, CALIN, Université Paris Nord); topic: TBA
  * [[http://math.bu.edu/people/jbala/|Jennifer S. Balakrishnan]] (Boston University); topic: TBA
- * ...
 
 == Organizers ==
 
  * Sébastien Labbé (CNRS, LaBRI, Université de Bordeaux)
  * Nicolas M. Thiéry (Université Paris Sud)
 
-== Tutorial leaders ==
-
- * TBA
-
 == Where ==
 
-Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]]
+Monday: TBA
+Tuesday-Friday: Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]]
 
 == Themes ==
 
