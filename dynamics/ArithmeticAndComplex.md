@@ -36,8 +36,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/22743|#22743]]) positive-review: little clean up of Wehler K3 - Frederic Chapoton
 
- * ([[http://trac.sagemath.org/ticket/22580|#22580]]) positive-review: Normalize nth iterate in projective morphism - Rebecca Lauren Miller
-
  * ([[http://trac.sagemath.org/ticket/22556|#22556]]) needs-review: implement periodic points for rational maps on projective space - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger
@@ -75,6 +73,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/22580|#22580]])-- closed sage 8.0: Normalize nth iterate in projective morphism - Rebecca Lauren Miller
+
  * --([[http://trac.sagemath.org/ticket/22268|#22268]])-- closed sage 7.6: copy for scheme morphisms points not deep enough - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/22265|#22265]])-- closed sage 7.6: fix dynatomic polynomial - Rebecca Lauren Miller
