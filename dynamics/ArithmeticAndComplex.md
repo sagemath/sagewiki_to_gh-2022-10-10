@@ -34,15 +34,13 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/22743|#22743]]) new: Numerical Precision for Heights in Number Fields - TJ
-
- * ([[http://trac.sagemath.org/ticket/22743|#22743]]) positive-review: little clean up of Wehler K3 - Frederic Chapoton
+ * ([[http://trac.sagemath.org/ticket/22771|#22771]]) new: Numerical Precision for Heights in Number Fields - TJ
 
  * ([[http://trac.sagemath.org/ticket/22556|#22556]]) needs-review: implement periodic points for rational maps on projective space - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger
 
- * ([[http://trac.sagemath.org/ticket/21118|#21118]]) needs-review: list of degrees of iterates of function - Joseph Silverman, Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/21118|#21118]]) positive-review: list of degrees of iterates of function - Joseph Silverman, Ben Hutz
 
 
 == Wishlist ==
@@ -75,6 +73,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/22743|#22743]])-- closed sage 8.0: little clean up of Wehler K3 - Frederic Chapoton
 
  * --([[http://trac.sagemath.org/ticket/22580|#22580]])-- closed sage 8.0: Normalize nth iterate in projective morphism - Rebecca Lauren Miller
 
