@@ -40,8 +40,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger
 
- * ([[http://trac.sagemath.org/ticket/21118|#21118]]) positive-review: list of degrees of iterates of function - Joseph Silverman, Ben Hutz
-
 
 == Wishlist ==
 
@@ -73,6 +71,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/21118|#21118]])-- closed sage 8.0: list of degrees of iterates of function - Joseph Silverman, Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/22743|#22743]])-- closed sage 8.0: little clean up of Wehler K3 - Frederic Chapoton
 
