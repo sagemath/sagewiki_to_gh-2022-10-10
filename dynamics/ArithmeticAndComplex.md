@@ -36,8 +36,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/22771|#22771]]) new: Numerical Precision for Heights in Number Fields - TJ
 
- * ([[http://trac.sagemath.org/ticket/22556|#22556]]) needs-review: implement periodic points for rational maps on projective space - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger
 
 
@@ -71,6 +69,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/22556|#22556]])-- closed sage 8.0: implement periodic points for rational maps on projective space - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/21118|#21118]])-- closed sage 8.0: list of degrees of iterates of function - Joseph Silverman, Ben Hutz
 
