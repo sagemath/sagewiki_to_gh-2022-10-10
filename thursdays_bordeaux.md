@@ -5,7 +5,9 @@ Nous nous réunissons les jeudi entre X et Y au LaBRI salle Z pour programmer au
 
 Prochaine séance le jeudi ?
 
-== Projets ==
+== Projets en cours ==
+
+== Idées ==
 
  * polyomino dirigé convexes
  * arbres non ambigus
