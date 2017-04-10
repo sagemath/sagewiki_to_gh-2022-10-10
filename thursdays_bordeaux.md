@@ -1,4 +1,4 @@
-= Les journées du jeud à Bordeaux =
+= Les jeudi Sage à Bordeaux =
 = (autour de Sage, PARI/GP, et plus) =
 
 Nous nous réunissons les jeudi entre X et Y au LaBRI salle Z pour programmer autour du logiciel Sage. Ces journées ont commencé en avril 2017. Cette page permet de suivre l'activité des rencontres.
