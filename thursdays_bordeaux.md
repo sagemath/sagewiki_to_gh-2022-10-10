@@ -17,5 +17,7 @@ Prochaine séance le jeudi ?
  * systèmes linéaires creux exactes (voir [[http://www.linalg.org/|linbox]] ainsi que [[https://groups.google.com/forum/#!topic/sage-devel/CfWRDIIEKnQ|ce fil sur sage-devel]])
  * amélioration du [[https://github.com/sagemath/sage-patchbot|patchbot]]
  * [[https://github.com/videlec/pplpy|pplpy]]
+ * portage de [[http://perso.ens-lyon.fr/bruno.salvy/software/the-gfun-package/|gfun]]
+ * amélioration de AA et QQbar [[https://trac.sagemath.org/ticket/18333|meta-ticket #18333]]
 
 == Compte-rendus ==
