@@ -14,5 +14,6 @@ Prochaine séance le jeudi ?
  * optimisation non-linéaire (voir [[http://scip.zib.de/|scip]] et le ticket [[https://trac.sagemath.org/ticket/10879||#10879]])
  * systèmes linéaires creux exactes (voir [[http://www.linalg.org/|linbox]] ainsi que [[https://groups.google.com/forum/#!topic/sage-devel/CfWRDIIEKnQ|ce fil sur sage-devel]])
  * amélioration du [[https://github.com/sagemath/sage-patchbot|patchbot]]
+ * [[https://github.com/videlec/pplpy|pplpy]]
 
 == Compte-rendus ==
