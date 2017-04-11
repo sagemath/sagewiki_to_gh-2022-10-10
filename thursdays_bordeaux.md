@@ -3,7 +3,7 @@
 
 ''Prochaine séance le jeudi 13 avril en salle 71 de 9:00 à 13:00 puis en salle 76 de 13:00 à 17:00.''
 
-Nous nous réunissons les jeudi au LaBRI pour programmer autour du logiciel Sage. Ces journées ont commencé en avril 2017. Cette page permet de suivre l'activité des rencontres.
+Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour programmer autour du logiciel Sage. Ces journées ont commencé en avril 2017. Cette page permet de suivre l'activité des rencontres.
 
 == Projets en cours ==
 
