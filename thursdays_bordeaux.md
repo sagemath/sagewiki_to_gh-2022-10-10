@@ -1,9 +1,9 @@
 = Les jeudi Sage à Bordeaux =
 = (autour de Sage, PARI/GP, et plus) =
 
-Nous nous réunissons les jeudi entre X et Y au LaBRI salle Z pour programmer autour du logiciel Sage. Ces journées ont commencé en avril 2017. Cette page permet de suivre l'activité des rencontres.
+''Prochaine séance le jeudi 13 avril en salle 71 de 9:00 à 13:00 puis en salle 76 de 13:00 à 17:00.''
 
-Prochaine séance le jeudi ?
+Nous nous réunissons les jeudi au LaBRI pour programmer autour du logiciel Sage. Ces journées ont commencé en avril 2017. Cette page permet de suivre l'activité des rencontres.
 
 == Projets en cours ==
 
