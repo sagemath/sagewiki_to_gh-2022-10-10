@@ -19,5 +19,6 @@ Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|La
  * [[https://github.com/videlec/pplpy|pplpy]]
  * portage de [[http://perso.ens-lyon.fr/bruno.salvy/software/the-gfun-package/|gfun]]
  * amélioration de AA et QQbar [[https://trac.sagemath.org/ticket/18333|meta-ticket #18333]]
+ * implémenter [[http://math.stackexchange.com/questions/1798383/integer-partition-refinement-in-sage|ce truc sur les partitions]]
 
 == Compte-rendus ==
