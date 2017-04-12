@@ -62,6 +62,21 @@ https://semestriel.framapad.org/p/sage-days-86
  * Emine Yildirim (UQAM)
  * Émile Nadeau	(Université du Québec à Montréal)
  * Herman Goulet-Ouellet (UQAM)
+ * Florence Maas-Gariépy (LaCIM)
+ * Ali Khardani (UQAM)
+ * Masoumeh Sajedi (Université de Montréal)
+ * Fatiha Djermane (LaCIM)
+ * Véronique Bazier-Matte (Université du Québec à Montréal)
+ * Sara Golyari (Université de Montréal)
+ * Robert Bilinski (Collège Montmorency)
+ * Émile Nadeau (UQAM)
+ * Nancy Wallace (LaCIM, UQAM)
+ * François Bergeron (Lacim, UQAM)
+ * Pauline Hubert (UQAM)
+ * Jose Eduardo Blazek (Lacim-UQAM)
+ * Étienne Tétreault (Université du Québec à Montréal)
+ * Nadia Lafrenière (LaCIM, Université du Québec à Montréal)
+ * Guillaume Douville (Université du Québec à Montréal)
 
 == Registration ==
 
