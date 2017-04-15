@@ -44,6 +44,8 @@ https://semestriel.framapad.org/p/sage-days-86-program
 
 == Projects ==
 
+[[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days86&col=id&col=summary&col=status&col=time&col=changetime&col=author&col=reviewer&order=status|trac tickets being worked during days86]].
+
 https://semestriel.framapad.org/p/sage-days-86
 
 == Participants ==
