@@ -19,7 +19,7 @@ for informal coding sprints and tutorials.'''
 
  * [[http://bergeron.math.uqam.ca/|François Bergeron]] (LaCIM, Université du Québec à Montréal); topic: experimental mathematics
  * [[http://www-groups.mcs.st-andrews.ac.uk/~jamesm|James Mitchell]] (CIRCA, University of St Andrews); topic: [[https://gap-packages.github.io/Semigroups/|GAP's semigroup package]] and the [[https://james-d-mitchell.github.io/libsemigroups/|libsemigroup]] C++ library
- * Thierry Monteil (CNRS, CALIN, Université Paris Nord); topic: TBA
+ * ThierryMonteil (CNRS, LIPN, Université Paris Nord); topics: "representations of real and complex numbers in Sage" and "gems of [[https://ask.sagemath.org|ask.sagemath.org]]"
  * [[http://math.bu.edu/people/jbala/|Jennifer S. Balakrishnan]] (Boston University); topic: TBA
 
 == Organizers ==
