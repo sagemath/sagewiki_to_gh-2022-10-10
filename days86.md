@@ -1,8 +1,6 @@
 = Sage Days 86 =
 
-'''''April 17-21, 2017, Montreal, Canada'''''
-
-'''''Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]]'''''
+'''''April 17-21, 2017, Montreal, Canada, Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]]'''''
 
 ~-(originally planned May 8-12, 2017)-~
 
