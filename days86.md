@@ -2,13 +2,15 @@
 
 '''''April 17-21, 2017, Montreal, Canada'''''
 
+'''''Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]]'''''
+
 ~-(originally planned May 8-12, 2017)-~
 
 At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinatorics2017/index.php/|Algebra and words in combinatorics]] from March to July 2017, a [[https://wiki.sagemath.org/Workshops|Sage Days]] will be held at [[http://lacim.uqam.ca/en/|Laboratoire de combinatoire et d'informatique mathématique (LaCIM)]] of [[http://www.uqam.ca/|Université du Québec à Montréal]].
 
-'''Monday April 17th is a holiday. The official program will therefore
-start on Tuesday 18th. Nevertheless, everyone is encouraged to join on
-Monday for informal coding sprints and tutorials.'''
+'''As Monday April 17th is a holiday, the official program starts on
+Tuesday 18th. Nevertheless, everyone is encouraged to join on Monday
+for informal coding sprints and tutorials.'''
 
 == Target audience ==
 
@@ -27,13 +29,11 @@ Monday for informal coding sprints and tutorials.'''
  * Sébastien Labbé (CNRS, LaBRI, Université de Bordeaux)
  * Nicolas M. Thiéry (Université Paris Sud)
 
-== Where ==
-
-Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]]
-
 == Themes ==
 
-The themes will certainly be influenced by the four main workshops held during the semester:
+The themes of the projects and tutorials will be picked by the
+participants, and are likely to relate to the four main workshops held
+during the semester:
 
  * Combinatorics on Words and Tilings (March 27 -- April 7 2017)
  * Bridges between Automatic Sequences, Algebra and Number Theory (April 24 -- May 5 2017) 
@@ -77,6 +77,7 @@ https://semestriel.framapad.org/p/sage-days-86
  * Étienne Tétreault (Université du Québec à Montréal)
  * Nadia Lafrenière (LaCIM, Université du Québec à Montréal)
  * Guillaume Douville (Université du Québec à Montréal)
+ * ...
 
 == Registration ==
 
