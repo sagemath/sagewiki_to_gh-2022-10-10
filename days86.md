@@ -42,15 +42,52 @@ during the semester:
  * Algebraic and Geometric Combinatorics of Reflection Groups (May 29 -- June 9 2017)
  * Equivariant Combinatorics (June 12-23 2017)
 
-== Tentative program ==
-
-https://semestriel.framapad.org/p/sage-days-86-program
-
 == Projects ==
 
 [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days86&col=id&col=summary&col=status&col=time&col=changetime&col=author&col=reviewer&order=status|trac tickets being worked during days86]].
 
 https://semestriel.framapad.org/p/sage-days-86
+
+== Schedule ==
+
+=== Monday 17th ===
+
+ * 10:00- Informal coding sprints and tutorials
+
+=== Tuesday ===
+ * 08:30-9:30: Coffee, Sage installation
+ * 9:30-10:00: Sage presentation
+ * 10:00-11:45: Tutorial: «Introduction to Sage»
+  Goal: by the end of the tutorial, everybody knows how to run sage, browse through the documentation and choose thematic tutorials that match their taste
+ * 11:45-12:00: Going round the table
+ * 13:30-16:00: Tutorials «à la carte»
+ * 16:00-16:15: Coffee break
+ * 16:00-17:00: Project discussion and planning
+
+=== Wednesday ===
+ * 9:00-10:00: Invited talk: James Mitchell: semigroups with GAP and C++
+ * 10:00-10:30: Coffee break
+ * 10:30-12:00: Tutorials «à la carte», coding sprints
+ * 13:30-14:30: François Bergeron: Computer exploration for research
+ * 14:30-17:00: Tutorials «à la carte», coding sprints
+ * 17:00: status report
+
+=== Thursday ===
+ * 9:00-10:00: Invited talk: Jennifer S. Balakrishnan: Number theory with Sage
+ * 10:00-10:30: Coffee break
+ * 10:30-12:00: Tutorials «à la carte», coding sprints
+ * 13:30-17:00: Tutorials «à la carte», coding sprints
+ * 17:00: status report
+
+=== Friday ===
+ * 9:00-10:00: Invited talk: Thierry Monteil: gems of ask.sagemath.org
+ * 10:00-10:30: Coffee break
+ * 10:30-12:00: Tutorials «à la carte», coding sprints
+ * 13:30-17:00: Tutorials «à la carte», coding sprints
+ * 17:00: status report
+
+
+See also: https://semestriel.framapad.org/p/sage-days-86-program
 
 == Participants ==
 
