@@ -1,6 +1,6 @@
 = Sage Days 86 =
 
-'''''April 17-21, 2017, Montreal, Canada, Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]]'''''
+'''''April 17-21, 2017, Montreal, Canada'''''
 
 ~-(originally planned May 8-12, 2017)-~
 
@@ -9,6 +9,10 @@ At the occasion of the thematic semester [[http://www.crm.umontreal.ca/Combinato
 '''As Monday April 17th is a holiday, the official program starts on
 Tuesday 18th. Nevertheless, everyone is encouraged to join on Monday
 for informal coding sprints and tutorials.'''
+
+== Where ==
+
+Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]]
 
 == Target audience ==
 
