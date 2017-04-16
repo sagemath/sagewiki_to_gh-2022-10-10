@@ -12,7 +12,7 @@ for informal coding sprints and tutorials.'''
 
 == Where ==
 
-Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]]
+Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]], 201, av. du Président-Kennedy, Montréal.
 
 == Target audience ==
 
