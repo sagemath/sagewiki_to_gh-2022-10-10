@@ -116,11 +116,14 @@ https://semestriel.framapad.org/p/sage-days-86
  * Étienne Tétreault (Université du Québec à Montréal)
  * Nadia Lafrenière (LaCIM, Université du Québec à Montréal)
  * Guillaume Douville (Université du Québec à Montréal)
+ * Masoumeh Sajedi (Université de Montréal)
+ * Dalila Boussetta (Université du Québec à Montréal)
+ * Olivier Binette (Université du Québec à Montréal)
  * ...
 
 == Registration ==
 
-Registration is free --(but mandatory)--, you can show up at any time. It is available at this url:
+Registration is free, you can show up at any time. It is available at this url:
 
     [[https://framaforms.org/sage-days-86-registration-inscription-1489402681|Register]]
 
