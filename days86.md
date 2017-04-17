@@ -87,8 +87,6 @@ https://semestriel.framapad.org/p/sage-days-86
  * 17:00: status report
 
 
-See also: https://semestriel.framapad.org/p/sage-days-86-program
-
 == Participants ==
 
  * Sébastien Labbé (CNRS, LaBRI, Université de Bordeaux)
