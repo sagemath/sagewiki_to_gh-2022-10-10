@@ -73,14 +73,14 @@ https://semestriel.framapad.org/p/sage-days-86
  * 17:00: status report
 
 === Thursday ===
- * 9:00-10:00: Invited talk: Jennifer S. Balakrishnan: Number theory with Sage
+ * 9:00-10:00: Invited talk: Thierry Monteil: gems of ask.sagemath.org
  * 10:00-10:30: Coffee break
  * 10:30-12:00: Tutorials «à la carte», coding sprints
  * 13:30-17:00: Tutorials «à la carte», coding sprints
  * 17:00: status report
 
 === Friday ===
- * 9:00-10:00: Invited talk: Thierry Monteil: gems of ask.sagemath.org
+ * 9:00-10:00: Invited talk: Jennifer S. Balakrishnan: Number theory with Sage
  * 10:00-10:30: Coffee break
  * 10:30-12:00: Tutorials «à la carte», coding sprints
  * 13:30-17:00: Tutorials «à la carte», coding sprints
