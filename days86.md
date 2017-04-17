@@ -120,7 +120,7 @@ https://semestriel.framapad.org/p/sage-days-86
 
 == Registration ==
 
-Registration is free but mandatory. It is available at this url:
+Registration is free --(but mandatory)--, you can show up at any time. It is available at this url:
 
     [[https://framaforms.org/sage-days-86-registration-inscription-1489402681|Register]]
 
