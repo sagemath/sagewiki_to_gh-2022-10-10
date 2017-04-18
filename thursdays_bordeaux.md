@@ -29,5 +29,6 @@ Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|La
 Finalement, on a plutôt travaillé dans le grand bureau de Vincent K qui offrait du réseau.
 
 Autour de [[https://github.com/aleaxit/gmpy|gmpy2]] et [[https://github.com/videlec/pplpy|pplpy]]
- - petit test d'utilisation de gmpy2 en cython https://github.com/vinklein/testgmpy2 et début d'intégration dans pplpy
- - pull request pour installer les fichier d'en-tête avec gmpy2 https://github.com/aleaxit/gmpy/pull/130
+
+ * petit test d'utilisation de gmpy2 en cython https://github.com/vinklein/testgmpy2 et début d'intégration dans pplpy
+ * pull request pour installer les fichier d'en-tête avec gmpy2 https://github.com/aleaxit/gmpy/pull/130
