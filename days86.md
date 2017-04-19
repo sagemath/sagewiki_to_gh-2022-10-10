@@ -79,7 +79,9 @@ We suggest to use the following source of tutorials:
  * 10:00-10:30: Coffee break
  * 10:30-12:00: Tutorials «à la carte», coding sprints
  * 13:30-14:30: François Bergeron: Computer exploration for research
- * 14:30-17:00: Tutorials «à la carte», coding sprints
+ * 14:30-15:00: Tutorials «à la carte», coding sprints
+ * 15:00-15:30: Café du LaCIM
+ * 15:30-17:00: Tutorials «à la carte», coding sprints
  * 17:00: status report
 
 === Thursday ===
