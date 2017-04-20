@@ -60,7 +60,9 @@ We suggest to use the following source of tutorials:
 
 == Schedule ==
 
-Empty slots are made of Tutorials «à la carte» and coding sprints.
+Empty slots are made of Tutorials in autonomy and coding sprints.
+
+Raw material of most presentations can be found at https://days86.metelu.net/sage/days86/
 
 === Monday 17th ===
 
