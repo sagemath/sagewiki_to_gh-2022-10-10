@@ -60,42 +60,42 @@ We suggest to use the following source of tutorials:
 
 == Schedule ==
 
+Empty slots are made of Tutorials «à la carte» and coding sprints.
+
 === Monday 17th ===
 
  * 10:00- Informal coding sprints and tutorials
 
 === Tuesday ===
  * 08:30-9:30: Coffee, Sage installation
- * 9:30-10:00: Sage presentation
- * 10:00-11:45: Tutorial: «Introduction to Sage»
+ * 9:30: Sage presentation (Sébastien)
+ * 10:30: Tutorial: «Introduction to Sage» (Thierry)
   Goal: by the end of the tutorial, everybody knows how to run sage, browse through the documentation and choose thematic tutorials that match their taste
- * 11:45-12:00: Going round the table
- * 13:30-16:00: Tutorials «à la carte»
- * 16:00-16:15: Coffee break
- * 16:00-17:00: Project discussion and planning
+ * 11:45: Going round the table
+ * 16:00: Coffee break
+ * 17:00: Project discussion and planning
 
 === Wednesday ===
  * 9:00-10:00: Invited talk: James Mitchell: semigroups with GAP and C++
  * 10:00-10:30: Coffee break
- * 10:30-12:00: Tutorials «à la carte», coding sprints
- * 13:30-14:30: François Bergeron: Computer exploration for research
- * 14:30-15:00: Tutorials «à la carte», coding sprints
+ * 10:30: Tutorial: graphs in Sage (Thierry)
+ * 11:30: Tutorial: graph plotting in Sage (Nicolas)
+ * 13:30-14:30: Invited talk: François Bergeron: Computer exploration for research
  * 15:00-15:30: Café du LaCIM
- * 15:30-17:00: Tutorials «à la carte», coding sprints
  * 17:00: status report
 
 === Thursday ===
  * 9:00-10:00: Invited talk: Thierry Monteil: gems of ask.sagemath.org
  * 10:00-10:30: Coffee break
- * 10:30-12:00: Tutorials «à la carte», coding sprints
- * 13:30-17:00: Tutorials «à la carte», coding sprints
+ * 11:00: Tutorial: code profiling (Nicolas)
+ * 13:30: Tutorial: Number theory in Sage (Jennifer Balakrishnan)
+ * 14:30: Tutorial: Sagetex (Nadia Lafrenière)
+ * 15:30: Tutorial: functional programming with Python (Herman Goulet-Ouellet)
  * 17:00: status report
 
 === Friday ===
  * 9:00-10:00: Invited talk: Jennifer S. Balakrishnan: Number theory with Sage
  * 10:00-10:30: Coffee break
- * 10:30-12:00: Tutorials «à la carte», coding sprints
- * 13:30-17:00: Tutorials «à la carte», coding sprints
  * 17:00: status report
 
 
