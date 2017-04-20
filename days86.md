@@ -54,9 +54,10 @@ We suggest to use the following source of tutorials:
 
  * Sage documentation (especially thematic tutorials) : http://doc.sagemath.org/
    * if you want to work on some tutorials from a jupyter notebooks, they are automatically (dirty) exported at https://days86.metelu.net/sage/sage_official_material
- * Sébastien's lecture : http://www.slabbe.org/Enseignements/MATH2010/
+ * Sébastien's lecture : http://www.slabbe.org/Enseignements/MATH2010/notesdecours/
+ * Sébastien's 150 exercises : http://www.slabbe.org/Enseignements/MATH2010/exercices.pdf
  * Thierry's worksheets (updated along the week) : https://days86.metelu.net/
-
+ * Exercises to be done for the April 24-28 School at CRM :
 
 == Schedule ==
 
