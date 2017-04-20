@@ -68,8 +68,8 @@ Empty slots are made of Tutorials «à la carte» and coding sprints.
 
 === Tuesday ===
  * 08:30-9:30: Coffee, Sage installation
- * 9:30: Sage presentation (Sébastien)
- * 10:30: Tutorial: «Introduction to Sage» (Thierry)
+ * 9:30: Sage presentation (Sébastien Labbé)
+ * 10:30: Tutorial: «Introduction to Sage» (Thierry Monteil)
   Goal: by the end of the tutorial, everybody knows how to run sage, browse through the documentation and choose thematic tutorials that match their taste
  * 11:45: Going round the table
  * 16:00: Coffee break
@@ -78,8 +78,8 @@ Empty slots are made of Tutorials «à la carte» and coding sprints.
 === Wednesday ===
  * 9:00-10:00: Invited talk: James Mitchell: semigroups with GAP and C++
  * 10:00-10:30: Coffee break
- * 10:30: Tutorial: graphs in Sage (Thierry)
- * 11:30: Tutorial: graph plotting in Sage (Nicolas)
+ * 10:30: Tutorial: graphs in Sage (Thierry Monteil)
+ * 11:30: Tutorial: graph plotting in Sage (Nicolas Thiéry)
  * 13:30-14:30: Invited talk: François Bergeron: Computer exploration for research
  * 15:00-15:30: Café du LaCIM
  * 17:00: status report
@@ -87,7 +87,7 @@ Empty slots are made of Tutorials «à la carte» and coding sprints.
 === Thursday ===
  * 9:00-10:00: Invited talk: Thierry Monteil: gems of ask.sagemath.org
  * 10:00-10:30: Coffee break
- * 11:00: Tutorial: code profiling (Nicolas)
+ * 11:00: Tutorial: code profiling (Nicolas Thiéry)
  * 13:30: Tutorial: Number theory in Sage (Jennifer Balakrishnan)
  * 14:30: Tutorial: Sagetex (Nadia Lafrenière)
  * 15:30: Tutorial: functional programming with Python (Herman Goulet-Ouellet)
