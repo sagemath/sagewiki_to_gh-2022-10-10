@@ -57,7 +57,7 @@ We suggest to use the following source of tutorials:
  * Sébastien's lecture : http://www.slabbe.org/Enseignements/MATH2010/notesdecours/
  * Sébastien's 150 exercises : http://www.slabbe.org/Enseignements/MATH2010/exercices.pdf
  * Thierry's worksheets (updated along the week) : https://days86.metelu.net/
- * Exercises to be done for the April 24-28 School at CRM :
+ * Exercises to be done for the April 24-28 School at CRM : [[attachment:exercices_school_april24.pdf]]
 
 == Schedule ==
 
