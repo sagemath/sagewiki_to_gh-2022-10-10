@@ -134,7 +134,7 @@ Raw material of most presentations can be found at https://days86.metelu.net/sag
  * Masoumeh Sajedi (Université de Montréal)
  * Dalila Boussetta (Université du Québec à Montréal)
  * Olivier Binette (Université du Québec à Montréal)
- * Jan Vonk (McGill)
+ * Jan Vonk
  * ...
 
 == Registration ==
