@@ -24,7 +24,7 @@ This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software S
 
 
 = Major Wiki Pages =
-Note: "Contributors" are not necessarily coders/programmers, but "Developers" '' are ''.
+Note: "Contributors" are not necessarily coders/programmers, but "Developers" ''are''. Also, a hint: you can browse pages by looking at system pages such as [[TitleIndex]].
 ||'''Title'''||'''Description'''||'''Stand Alone?'''||'''Importance (or to whom)'''||'''How to make page better'''||
 || [[art]] || Visuals made with SageMath || Single page, see also [[interact]] || Low || Adding more pictures / animations ||
 || [[bug]] || Archive of Bug Days || Category || Interested (old and new) Contributors || Maintaining Information ||
