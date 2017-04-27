@@ -53,7 +53,7 @@ We anticipate that most participants will stay in [[https://www.uvm.edu/~arch/?P
 
 == Travel ==
 
-'''If you are a US citizen or permanent resident, please book flights on a US carrier.'''  If you are not a US citizen or permanent resident, this restriction does not apply to you (since we're funding you from a different grant).  Note that the [[Mathematical Congress of the Americas|http://mcofamericas.org/latest-news/mathematical-congress-americas-2017]] is the week after Sage Days 87; if you're interested in attending you may want to plan your travel accordingly.
+'''If you are a US citizen or permanent resident, please book flights on a US carrier.'''  If you are not a US citizen or permanent resident, this restriction does not apply to you (since we're funding you from a different grant).  Note that the [[http://mcofamericas.org/latest-news/mathematical-congress-americas-2017|Mathematical Congress of the Americas]] is the week after Sage Days 87; if you're interested in attending you may want to plan your travel accordingly.
 
 There are two main ways to get to Burlington.
 
