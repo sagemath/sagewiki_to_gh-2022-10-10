@@ -1,7 +1,7 @@
 = Sage Developer Center =
 
 Welcome to the Sage developer center!
-
+Note:  Developers should check trac.sagemath.org at least one per week. That's where development actually happens.
 TODO:
 
 Organize, sage-devel.
@@ -27,8 +27,6 @@ Organize, sage-devel.
  * [[SAGE_in_the_News | Sage in the News]]
  * [[Publications_using_SAGE | Publications using Sage]]
  * [[Talks | Talks and Presentations about Sage]]
-
-
  * [[http://trac.sagemath.org/sage_trac/|See the TRAC Server]]
  * [[TracGuidelines|Trac guidelines]] by Michael Abshoff
  * [[Software|Ideas for Software to Integrate With Sage]]
@@ -36,7 +34,7 @@ Organize, sage-devel.
  * [[release|Release Management]]
  * [[SEP|Sage Enhancement Proposals]]
  * [[Software_surveys]]
- * [[DebianSAGE|Sage in Debian]]
+ * [[debian|Sage in Debian]]
  * [[HowToBeginSageDevelopment|How to begin Sage development]]
  * [[firefox-trac|Cool tricks]] for better Firefox/trac integration
  * [[combinat/HelpOnTheDoc|Docstring Docummentation]] for help on the format (ReSTructured text) used in the docstrings, including special Sage doctest conventions
