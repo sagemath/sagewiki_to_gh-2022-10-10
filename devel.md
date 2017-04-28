@@ -1,7 +1,9 @@
 = Sage Developer Center =
 
 Welcome to the Sage developer center!
+
 Note:  Developers should check trac.sagemath.org at least one per week. That's where development actually happens.
+
 TODO:
 
 Organize, sage-devel.
