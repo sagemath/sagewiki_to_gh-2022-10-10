@@ -1,3 +1,4 @@
+#REDIRECT Community
 = Sage community expectations =
 
 The aim of this page is to build a SHORT document that just say who we are and what we expect?
