@@ -30,12 +30,11 @@ Note: "Contributors" are not necessarily coders/programmers, but "Developers" ''
 || [[bug]] || Archive of Bug Days || Category || Interested (old and new) Contributors || Maintaining Information ||
 || [[buildbot]] || Buildbot and Patchbot || Parent to [[buildbot/owners|owners]] || Contributors || Work with developing Buildbot and Patchbot ||
 || [[cando]] || Features of SageMath || Likely has duplicates || Prospective Users || Add Information and Maintain. New features often. ||
-|| [[CodeOfConduct]] || Moral & Behavior Standards || Stand-Alone || Contributors || Harness to prevent and/or solve conflicts ||
 || [[CodeSharingWorkflow]] || Sharing experimental code || One of many "Conventions" pages || Developers || Merge into a single "Conventions" page or category ||
 || [[Coding_Theory]] || Roadmap and discussions || Stand-Alone || Developers interested in coding theory || Continually update with Trac ||
 || [[coercion]] || Often-referenced topic; deals with integrating set theory || Stand-Alone || Developers ||  ||
 || [[combinat]] || Major group that enhances (SageMath) for algebraic combinatorics || Category || Topic Developers and Researchers || Update and Archive pages ||
-|| [[Community]] || List of SageWiki Users || Stand-Alone || Wiki Contributors || Add all accounts to the page ||
+|| [[Community]] || List of SageWiki Users, Code Of Conduct || Stand-Alone || Wiki Contributors || Add all accounts to the page ||
 || [[Comparisons]] || Compares SageMath to various competitors || Parent Page || Users and Developers || Make a single page and update often ||
 || [[contribute]] || Ideas for ways to start contributing to SageMath || Only [[contribute/AnswerQuestions]] so far || Prospective Contributors || Add ideas ||
 || [[CorporateIdentity]] || Standardize how SageMath is referenced || Stand-Alone || High || Add information, such as source for making the logo ||
@@ -92,7 +91,19 @@ Note: "Contributors" are not necessarily coders/programmers, but "Developers" ''
 || [[reu]] || REU's ('07 and '11) || Category || Low || Update or trash ||
 || review# || Review Days, where # is 1, 2, or 3 || Category || Low || ? ||
 || [[ReviewChecklist]] || How to author or review a ticket || Page || Contributors || Remove from Developer Guide in documentation ||
-
+|| SAGE-intro-Language || Introduces SageMath (in French, German, Italian, Portuguese, and Spanish) || Translated || International Newcomers || Standardize ||
+|| [[sage_mode]] || Historical archive for first Emacs mode || Page || Low || Preserve ||
+|| [[sage_uw]] || UW Sage Mathematics Software Seminar || Sub-pages || Low || Get rid of if not needed, only '06-'07, update links ||
+|| [[SageAppliance]] || Virtual Machine for Sage || Category || HIGH (what we use for Windows distribution) || Coordinate with Trac? ||
+|| [[SageEducatorCenter]] || Similar to [[devel]], but for educators || Page || High || Point educators here ||
+|| [[SageFinance]] || Quantitative Finance in SageMath || Category || Developers || Move to Trac ||
+|| [[SageIndex]] || INDEX OF ALL AVAILABLE SAGE PUBLICATIONS || Page || High || CONTRIBUTE! NEEDS TO GET THROUGH BETA! ||
+|| [[SageMagazine]] || Proposal for a publication || Page || Contributors || Revive if we can find someone to do, but we have planet.sagemath.com for blogs ||
+|| [[SageLiveUSB]] || Inventory of Live USB's (based on various distros) || Page || Mid || Keep with developers ||
+|| [[SageMathLive]] || Instructions for making a live disk image || Page || Developers, Contributors || Have available ||
+|| [[SageModeComparison]] || Compare Emacs modes || Page || Developers || Make sure to take down if not updated (or put in a single comparisons page) ||
+|| [[sagenb]] || Sage Notebook (predecessor to SageMathCloud) || Page || Users/developers? || Update while SageNB is used ||
+|| [[
 
 = People =
 The most up-to date list of Sage developers is on our [[http://trac.sagemath.org/sage_trac/wiki#AccountNamesMappedtoRealNames|list of developers on the Sage trac wiki]].
@@ -232,6 +243,10 @@ Alphabetical listing of things to do (out-of-date and general organise) - mrenne
  * [[preliminary reading]]
  * remove [[prerequisitesUbuntu]]?
  * keep [[RebaseVsMerge]] as a convention / guideline
+ * get rid of [[sage.math]] subpages ([[sage.math/compilers]] and [[sage.math/SageBinaries]])
+ * [[sagebeatsmagma]] should go in [[benchmarks]]
+ * some pages exist with weird name schemes (ex. [[sagedays46]] should be [[days46]] which should in turn be [[days/46]]
+ * [[SageOffice]] 2008 wishlist for full-time "official" SageMath developers (unneeded, but may stay when we start employing more developers)
 
 = About this wiki =
 
