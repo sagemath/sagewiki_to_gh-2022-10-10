@@ -6,7 +6,7 @@
 
 '''Department of Mathematics'''
 
-'''Topics: initiation to sage & development in sage '''
+'''Topics: initiation to Sage & development in Sage '''
 
 Organizers: [[mailto:hacenebelbachir@gmail.com|Hacène Belbachir]], [[mailto:bousbaa.imadeddine@gmail.com|Imad Eddine Bousbaa]],
 [[mailto:boussica@labri.fr|Adrien Boussicault]]. 
