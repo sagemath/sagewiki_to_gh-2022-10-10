@@ -51,7 +51,7 @@ If you have applied for funding, you should hear from us soon.
  * Michael Musty (Dartmouth College)
  * John Jones (Arizona State University)
  * Aurel Page (University of Warwick)
- * GaYee Park (University of Massachusetts, Amherst)
+ * !GaYee Park (University of Massachusetts, Amherst)
  * Sebastian Pauli (University of North Carolina, Greensboro)
  * David Roberts (University of Minnesota, Morris)
  * Julian Rueth (Free Software Foundation Europe)
