@@ -4,7 +4,11 @@ As a follow up to [[days86|Sage Days 86]], and restarting the
 tradition of [[https://wiki.sagemath.org/LaCIMSageFridays|LaCIM's Sage Fridays]],
 there will be a weekly SageMath meeting this Spring in
 Montreal. This will be the occasion to get together, help each other,
-work on our pet Sage projects, share expertise, ... The program will
+work on our pet Sage projects, share expertise, ... Whether you would
+like to discover Sage, get help on specific issues, or participate
+to coding sprints, you are welcome!
+
+The program will
 be informal and improvised at the beginning of each meeting according
 to the participants wishes and needs.
 
