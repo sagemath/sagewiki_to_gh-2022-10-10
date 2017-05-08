@@ -49,7 +49,6 @@ If you would like to attend and have not already applied, please e-mail one of t
  * Ricky Magner (Boston University)
  * Michael Musty (Dartmouth College)
  * John Jones (Arizona State University)
- * Ryan Karpisz (Wesleyan University)
  * Aurel Page (University of Warwick)
  * GaYee Park (University of Massachusetts, Amherst)
  * Sebastian Pauli (University of North Carolina, Greensboro)
