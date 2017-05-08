@@ -20,7 +20,7 @@ will be soliciting suggestions for projects from participants before the start o
 == Participants ==
 
 We are in the process of inviting participants. 
-If you would like to attend, please fill out [[https://goo.gl/forms/TdoRZDpN0zq5kEZy2|this form]] by '''April 28'''. 
+If you would like to attend and have not already applied, please e-mail one of the organizers.  If you have applied for funding, you should hear from us soon. 
 
  * Samuele Anni (Universität Heidelberg)
  * Asra Ali (Google)
