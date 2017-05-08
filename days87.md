@@ -19,8 +19,9 @@ will be soliciting suggestions for projects from participants before the start o
 
 == Participants ==
 
-We are in the process of inviting participants. 
-If you would like to attend and have not already applied, please e-mail one of the organizers.  If you have applied for funding, you should hear from us soon. 
+We are in the process of inviting participants.
+If you would like to register please fill out this form: [[https://goo.gl/forms/hWMcMsxVJGTyUnqn1|this form]].
+If you have applied for funding, you should hear from us soon. 
 
  * Samuele Anni (Universität Heidelberg)
  * Asra Ali (Google)
