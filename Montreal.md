@@ -1,8 +1,8 @@
-# Weekly SageMath user group meeting in Montreal
+= Weekly SageMath user group meeting in Montreal =
 
 As a follow up to [[days86|Sage Days 86]], and restarting the
-tradition of [[https://wiki.sagemath.org/LaCIMSageFridays|LaCIM's Sage
-Fridays]], there will be a weekly SageMath meeting this Spring in
+tradition of [[https://wiki.sagemath.org/LaCIMSageFridays|LaCIM's Sage Fridays]],
+there will be a weekly SageMath meeting this Spring in
 Montreal. This will be the occasion to get together, help each other,
 work on our pet Sage projects, share expertise, ... The program will
 be informal and improvised at the beginning of each meeting according
@@ -10,10 +10,10 @@ to the participants wishes and needs.
 
 The meeting will be hosted alternatively at CRM during the workshops
 of the thematic semester
-[[http://www.crm.umontreal.ca/2017/Suites17/venueCRM_f.php|"algebra
-and words in combinatorics"]] and at
-[[http://lacim.uqam.ca/en/|LaCIM]], [[http://www.uqam.ca/|Université
-du Québec à Montréal]] the other weeks.
+[[http://www.crm.umontreal.ca/2017/Suites17/venueCRM_f.php|"algebra and words in combinatorics"]]
+and at
+[[http://lacim.uqam.ca/en/|LaCIM]],
+[[http://www.uqam.ca/|Université du Québec à Montréal]] the other weeks.
 
 == Wednesday May 17th, 1:30pm-5pm ==
 
