@@ -58,6 +58,7 @@ If you have applied for funding, you should hear from us soon.
  * Adriana Salerno (Bates College)
  * Sam Schiavone (Dartmouth College)
  * Ander Steele (University of California, Santa Cruz)
+ * Claire Tomesch (National Security Agency)
  * Nicholas Triantafillou (MIT)
  * Tristan Vaccon (Université de Limoges)
  * John Voight* (Dartmouth College)
