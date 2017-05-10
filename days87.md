@@ -14,8 +14,9 @@ Location: University of Vermont, in Burlington, VT.
 == Schedule ==
 
 Activities will begin the morning of Monday, July 17 and end around in the early afternoon on Saturday, July 22.
-The workshop will be primarily project-focused, though there will be a few talks aimed at graduate students.  We
-will be soliciting suggestions for projects from participants before the start of the workshop.
+The workshop will be primarily project-focused, though there will be a few talks aimed at graduate students.
+
+== [[/projects|Projects]] ==
 
 == Participants ==
 
