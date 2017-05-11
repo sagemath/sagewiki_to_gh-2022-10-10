@@ -22,9 +22,9 @@ Feel free to add suggestions to our [[/projects|list of projects]]
 
 == Participants ==
 
-We are in the process of inviting participants.
-If you would like to register please fill out this form: [[https://goo.gl/forms/hWMcMsxVJGTyUnqn1|this form]].
-If you have applied for funding, you should hear from us soon. 
+If you have applied for funding, you should have heard from us.
+If you would like to attend and don't need any funding, please fill out this form: [[https://goo.gl/forms/hWMcMsxVJGTyUnqn1|this form]].
+ 
 
  * Samuele Anni (Universität Heidelberg)
  * Asra Ali (Google)
@@ -39,6 +39,7 @@ If you have applied for funding, you should hear from us soon.
  * Kwangho Choiy (Southern Illinois University)
  * Rachel Davis (University of Wisconsin, Madison)
  * Alyson Deines (Center for Communications Research)
+ * Melissa Emory (University of Missouri)
  * Xander Faber (Center for Computing Sciences)
  * Jean-Pierre Flori (Agence nationale de la sécurité des systèmes d'information)
  * Paul Gunnells* (University of Massachusetts, Amherst)
