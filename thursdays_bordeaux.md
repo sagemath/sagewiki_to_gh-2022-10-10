@@ -39,7 +39,7 @@ Sébastien a reviewé:
 
 Vincent D a finalisé (needs review) [[https://trac.sagemath.org/ticket/22970|#22970]]:  use flint fmpq_mat for rational dense matrices
 
-Vincent K a travaillé sur [[https://trac.sagemath.org/ticket/22928|#22928]]
+Vincent K a travaillé sur [[https://trac.sagemath.org/ticket/22928|#22928]]: Conversions/coercions between gmpy2 and Sage
 
 ==== jeudi 13 avril ====
 
