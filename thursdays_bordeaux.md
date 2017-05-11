@@ -8,6 +8,9 @@ Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|La
 == Projets en cours ==
 
  * [[https://github.com/videlec/pplpy|pplpy]]
+ * algèbre linéaire dans Sage ([[http://flintlib.org/|flint]], [[http://www.linalg.org/|LinBox]], [[https://cs.uwaterloo.ca/~astorjoh/iml.html|IML]]) [[https://trac.sagemath.org/ticket/22872|#22872]]
+ * (review) integral point overflow [[https://trac.sagemath.org/ticket/21993|#21993]]
+ * (review) [[https://trac.sagemath.org/ticket/21295|#21295]]
 
 == Idées ==
 
