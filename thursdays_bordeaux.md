@@ -1,4 +1,4 @@
-= Les jeudi Sage à Bordeaux =
+= Les jeudi Sage à Bordeaux (JSB++) =
 = (autour de Sage, PARI/GP, et plus) =
 
 ''Prochaine séance le jeudi 11 mai dans le bureau de Sébastien''
