@@ -1,4 +1,4 @@
-= Les jeudi Sage à Bordeaux (JSB++) =
+= Les jeudi Sage à Bordeaux =
 = (autour de Sage, PARI/GP, et plus) =
 
 ''Prochaine séance le jeudi 18 mai dans la salle XYZ?''
