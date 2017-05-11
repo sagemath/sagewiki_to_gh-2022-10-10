@@ -1,7 +1,7 @@
 = Les jeudi Sage à Bordeaux (JSB++) =
 = (autour de Sage, PARI/GP, et plus) =
 
-''Prochaine séance le jeudi 11 mai dans le bureau de Sébastien''
+''Prochaine séance le jeudi 18 mai dans la salle XYZ?''
 
 Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour programmer autour du logiciel Sage. Ces journées ont commencé le 13 avril 2017. Cette page permet de suivre l'activité des rencontres.
 
@@ -38,6 +38,8 @@ Sébastien a reviewé:
  * (needs work) [[https://trac.sagemath.org/ticket/21295|#21295]]: recognizable series (a base for k-regular sequences)
 
 Vincent D a finalisé (needs review) [[https://trac.sagemath.org/ticket/22970|#22970]]:  use flint fmpq_mat for rational dense matrices
+
+Vincent K a travaillé sur [[https://trac.sagemath.org/ticket/22928|#22928]]
 
 ==== jeudi 13 avril ====
 
