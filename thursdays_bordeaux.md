@@ -31,6 +31,13 @@ keyword Sage: [[https://trac.sagemath.org/query?status=closed&status=needs_info&
 
 == Compte-rendus ==
 
+==== jeudi 11 mai ====
+
+Sébastien a reviewé:
+
+ * (positive review) [[https://trac.sagemath.org/ticket/21993|#21993]]: Polyhedron.integral_points(): OverflowError: value too large to convert to int
+ * (needs work) [[https://trac.sagemath.org/ticket/21295|#21295]]: recognizable series (a base for k-regular sequences)
+
 ==== jeudi 13 avril ====
 
 Finalement, on a plutôt travaillé dans le grand bureau de Vincent K qui offrait du réseau.
