@@ -5,6 +5,9 @@
 
 Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour programmer autour du logiciel Sage. Ces journées ont commencé le 13 avril 2017. Cette page permet de suivre l'activité des rencontres.
 
+keyword Sage: [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~thursdaysbdx&order=priority|thursdaysbdx]]
+
+
 == Projets en cours ==
 
  * [[https://github.com/videlec/pplpy|pplpy]]
