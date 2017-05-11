@@ -35,7 +35,7 @@ keyword Sage: [[https://trac.sagemath.org/query?status=closed&status=needs_info&
 
 Sébastien a reviewé:
 
- * (positive review) [[https://trac.sagemath.org/ticket/21993|#21993]]: Polyhedron.integral_points(): OverflowError: value too large to convert to int
+ * (positive review) [[https://trac.sagemath.org/ticket/21993|#21993]]: Polyhedron.integral_points(): Overflow Error: value too large to convert to int
  * (needs work) [[https://trac.sagemath.org/ticket/21295|#21295]]: recognizable series (a base for k-regular sequences)
 
 ==== jeudi 13 avril ====
