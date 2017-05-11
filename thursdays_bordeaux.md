@@ -37,6 +37,8 @@ Sébastien a reviewé:
  * (positive review) [[https://trac.sagemath.org/ticket/21993|#21993]]: Polyhedron.integral_points(): Overflow Error: value too large to convert to int
  * (needs work) [[https://trac.sagemath.org/ticket/21295|#21295]]: recognizable series (a base for k-regular sequences)
 
+Vincent D a finalisé (needs review) [[https://trac.sagemath.org/ticket/22970|#22970]]
+
 ==== jeudi 13 avril ====
 
 Finalement, on a plutôt travaillé dans le grand bureau de Vincent K qui offrait du réseau.
