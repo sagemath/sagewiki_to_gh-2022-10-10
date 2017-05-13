@@ -91,6 +91,16 @@ There are two main ways to get to Burlington.
 
 There may also be carpools traveling from these Boston, Montreal and Hanover, NH.  If you're interested in a carpool feel free to edit this wiki page.
 
+=== Carpool ===
+
+ * Montreal -> Vermont:
+
+    * Marc M.: my flight arrives too late for the afternoon bus. Would be interested in carpooling after 5pm on Sunday (7/16) or early morning on Monday (7/17).
+
+ * Vermont -> Montreal:
+
+    * Marc M.: Greyhound tickets appear to be sold out on Saturday (7/22). I'd like to get to Montreal airport before 7pm (I have a flight at 8.50pm).
+
 == Local Dining Options ==
 
 We will add more details as the workshop approaches, but for now check out the [[https://drive.google.com/open?id=1A2B4-EmWB1cUQat364SzVJV9aD4&usp=sharing|map]] Christelle made!
