@@ -100,7 +100,7 @@ There may also be carpools traveling from these Boston, Montreal and Hanover, NH
 
  * Vermont -> Montreal:
 
-    * Marc M.: Greyhound tickets appear to be sold out on Saturday (7/22). I'd like to get to Montreal airport before 7pm (I have a flight at 8.50pm).
+    * Marc M.: Greyhound tickets appear to be sold out on Saturday (7/22). I'd like to get to Montreal airport before 7pm (I have a flight at 8.50pm). (Update: they appear as sold out on greyhound.ca, but they are available at greyhound.com --go figure!--).
     * JP Flori: I plan to take the 12:10pm bus (to montreal main bus station) which still seem available, like any other bus on that day.
 
 == Local Dining Options ==
