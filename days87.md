@@ -96,7 +96,7 @@ There may also be carpools traveling from these Boston, Montreal and Hanover, NH
  * Montreal -> Vermont:
 
     * Marc M.: my flight arrives too late for the afternoon bus. Would be interested in carpooling after 5pm on Sunday (7/16) or early morning on Monday (7/17).
-    * JP Flori: Same situation for me (landing from Paris (France) at 3:00pm). I was thinking of taking the 11pm bus, arriving at Burlington (airport...) around 2am. It should be possible to check in at that time according to David. It might be easier to take the monday morning 8:15am bus, arriving at Burlington (transit center, downtown!) before 11am.
+    * JP Flori: Same situation for me (landing from Paris (France) at 3:00pm). I was thinking of taking the 11pm bus, arriving at Burlington (airport... we could share a taxi from there) around 2am. It should be possible to check in at that time according to David. It might be easier to take the monday morning 8:15am bus, arriving at Burlington (transit center, downtown!) before 11am.
 
  * Vermont -> Montreal:
 
