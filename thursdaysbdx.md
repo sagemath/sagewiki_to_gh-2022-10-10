@@ -8,7 +8,7 @@ Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|La
 
 == Projets en cours ==
 
- * [[https://github.com/videlec/pplpy|pplpy]]
+ * [[https://github.com/videlec/pplpy|pplpy]]: interface Pyton à la librairie [[http://bugseng.com/products/ppl/ppl|Parma Polyhedra Library (PPL)]]
  * algèbre linéaire dans Sage ([[http://flintlib.org/|flint]], [[http://www.linalg.org/|LinBox]], [[https://cs.uwaterloo.ca/~astorjoh/iml.html|IML]]) [[https://trac.sagemath.org/ticket/22872|#22872]]
  * gmpy2 et Sage [[https://trac.sagemath.org/ticket/22927|#22927]] and [[https://trac.sagemath.org/ticket/22928|#22928]]
  * (review) integral point overflow [[https://trac.sagemath.org/ticket/21993|#21993]]
