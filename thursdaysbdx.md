@@ -28,6 +28,10 @@ Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|La
  * portage de [[http://perso.ens-lyon.fr/bruno.salvy/software/the-gfun-package/|gfun]]
  * amélioration de AA et QQbar [[https://trac.sagemath.org/ticket/18333|meta-ticket #18333]]
  * implanter [[http://math.stackexchange.com/questions/1798383/integer-partition-refinement-in-sage|ce truc sur les partitions]]
+ * implanter des algorithmes pour des calculs de dimension de Hausdorff et exposants de Lyapunov
+    * https://matheuscmss.wordpress.com/2017/02/04/soft-bounds-on-the-hausdorff-dimension-of-dynamical-cantor-sets/
+    * Hensley "A polynomial time algorithm for the Hausdorff dimension of continued fraction Cantor Sets" (1994)
+    * Pollicott "Maximal Lyapunov exponents for random matrix products" (2010)
 
 == Compte-rendus ==
 
