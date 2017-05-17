@@ -1,7 +1,8 @@
+## page was renamed from thursdays_bordeaux
 = Les jeudi Sage à Bordeaux =
 = (autour de Sage, PARI/GP, et plus) =
 
-''Prochaine séance le jeudi 18 mai dans la salle XYZ?''
+''Prochaine séance le jeudi 18 mai dans la salle 64 du LaBRI à partir de 13h/14h''
 
 Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour programmer autour du logiciel Sage. Ces journées ont commencé le 13 avril 2017. Cette page permet de suivre l'activité des rencontres.
 
