@@ -42,6 +42,11 @@ Sébastien vérifie sur cryptominisat 5 marche bien sur OSX:
  * [[https://trac.sagemath.org/ticket/22817|#22817]]: Package cryptominisat 5
  * [[https://trac.sagemath.org/ticket/22818|#22818]]: Interface cryptominisat 5
 
+Vincent D & K
+
+ * [[https://github.com/aleaxit/gmpy/pull/137|PR #137 pour gmpy2]]
+ * travail sur [[https://github.com/videlec/pplpy/|pplpy]]
+
 ==== jeudi 11 mai ====
 
 Sébastien a reviewé:
