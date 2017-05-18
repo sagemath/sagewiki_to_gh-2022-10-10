@@ -46,6 +46,7 @@ Vincent D & K
 
  * [[https://github.com/aleaxit/gmpy/pull/137|PR #137 pour gmpy2]]
  * travail sur [[https://github.com/videlec/pplpy/|pplpy]]
+ * Ouverture et travail sur le ticket [[https://trac.sagemath.org/ticket/23024|#23024]]
 
 ==== jeudi 11 mai ====
 
