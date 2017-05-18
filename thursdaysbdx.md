@@ -35,6 +35,13 @@ Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|La
 
 == Compte-rendus ==
 
+==== jeudi 18 mai ====
+
+Sébastien vérifie sur cryptominisat 5 marche bien sur OSX:
+
+ * [[https://trac.sagemath.org/ticket/22817|#22817]]: Package cryptominisat 5
+ * [[https://trac.sagemath.org/ticket/22818|#22818]]: Interface cryptominisat 5
+
 ==== jeudi 11 mai ====
 
 Sébastien a reviewé:
