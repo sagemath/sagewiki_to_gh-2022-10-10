@@ -39,7 +39,6 @@ If you would like to attend and don't need any funding, please fill out this for
  * Kwangho Choiy (Southern Illinois University)
  * Rachel Davis (University of Wisconsin, Madison)
  * Alyson Deines (Center for Communications Research)
- * Melissa Emory (University of Missouri)
  * Xander Faber (Center for Computing Sciences)
  * Jean-Pierre Flori (Agence nationale de la sécurité des systèmes d'information)
  * Paul Gunnells* (University of Massachusetts, Amherst)
@@ -67,7 +66,6 @@ If you would like to attend and don't need any funding, please fill out this for
  * Claire Tomesch (National Security Agency)
  * Nicholas Triantafillou (MIT)
  * Tristan Vaccon (Université de Limoges)
- * John Voight* (Dartmouth College)
  * Mckenzie West (Reed College)
  * Gerardo Zelaya (University of Washington)
 
