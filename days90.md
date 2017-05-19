@@ -3,8 +3,10 @@
 #language en
 = Sage Days 90: Women In Sage =
 
-Email: <<MailTo(you AT SPAMFREE example DOT com)>>
-## You can even more obfuscate your email address by adding more uppercase letters followed by a leading and trailing blank.
+===== Oct. 22-25, 2017, Harvey Mudd College, Claremont, CA =====
+
+Organizers: Aly Dienes, Anna Haensch, Bianca Thompson, Ursula Whitcher 
+
 
 ...
 
