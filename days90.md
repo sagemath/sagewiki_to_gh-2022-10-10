@@ -7,7 +7,7 @@
 
 === Organizers: ===
 
- * Aly Deines
+ * Aly Deines (La Jolla, CA)
  * Anna Haensch (Duquesne University)
  * Bianca Thompson (Harvey Mudd College)
  * Ursula Whitcher (AMS Mathematical Reviews)
