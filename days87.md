@@ -61,7 +61,7 @@ If you would like to attend and don't need any funding, please fill out this for
  * Sebastian Pauli (University of North Carolina, Greensboro)
  * David Roberts (University of Minnesota, Morris)
  * Julian Rueth (Free Software Foundation Europe)
- * Malcolm Rupert (University of Idaho)
+ * Malcolm Rupert* (University of Idaho)
  * Adriana Salerno (Bates College)
  * Sam Schiavone (Dartmouth College)
  * Ander Steele (University of California, Santa Cruz)
