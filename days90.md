@@ -5,7 +5,12 @@
 
 ===== Oct. 22-25, 2017, Harvey Mudd College, Claremont, CA =====
 
-Organizers: Aly Dienes, Anna Haensch, Bianca Thompson, Ursula Whitcher 
+=== Organizers: ===
+
+* Aly Dienes
+* Anna Haensch
+* Bianca Thompson
+* Ursula Whitcher 
 
 
 ...
