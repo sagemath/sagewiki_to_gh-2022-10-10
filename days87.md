@@ -27,7 +27,7 @@ If you would like to attend and don't need any funding, please fill out this for
  
 
  * Samuele Anni (Universität Heidelberg)
- * Asra Ali (Google)
+ * Asra Ali* (Google)
  * Vishal Arul (MIT)
  * David Ayotte (Laval University)
  * Angelica Babei (Dartmouth College)
