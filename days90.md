@@ -7,13 +7,12 @@
 
 === Organizers: ===
 
-* Aly Dienes
-* Anna Haensch
-* Bianca Thompson
-* Ursula Whitcher 
+ * Aly Deines
+ * Anna Haensch (Duquesne University)
+ * Bianca Thompson (Harvey Mudd College)
+ * Ursula Whitcher (AMS Mathematical Reviews)
 
 
 ...
 
 ----
-CategoryHomepage
