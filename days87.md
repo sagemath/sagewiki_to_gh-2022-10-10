@@ -76,21 +76,29 @@ If you would like to attend and don't need any funding, please fill out this for
 
 == Lodging ==
 
-We anticipate that most participants will stay in [[https://www.uvm.edu/~arch/?Page=projects/learningcomplex.html&SM=pastprojectsmenu.html|these dorms]], which have air conditioned rooms, private bathrooms and common spaces for work and socializing in the evenings.  They have gotten good reviews from previous conferences, but if you prefer to stay in a hotel and we're funding your lodging, please contact the organizers (we can allocate your lodging amount toward a hotel with enough advance notice).  Similarly, if we're not funding your lodging but you want to stay in the dorms, this may be possible: please contact an organizer as soon as possible.
+We anticipate that most participants will stay in [[https://www.uvm.edu/~arch/?Page=projects/learningcomplex.html&SM=pastprojectsmenu.html|these dorms]], which have air conditioned rooms, private bathrooms and common spaces for work and socializing in the evenings. Participants who are not funded by the conference may stay in the dorms and will pay for the total price of their accommodation by check. Please contact an organizer for more details.
+ * Check in is Sunday July 16 at 4pm and check out is Sunday July 23 at 11am; if you plan on arriving late (outside of normal business hours) an on-call number will be available and will be posted here closer to the start of the workshop. Participants may check in and out anytime between the times posted.
+ * Each dorms room will contain a bed, a dresser, a wardrobe, a desk, a desk chair, a trash can and a recycling bin as well as the following linens: two flat sheets, one blanket, one pillow, one pillowcase, two towels, one washcloth, one plastic cup and one bar of soap. The room will not have an alarm clock or a desk lamp. If you tend to run cold at night, you might want to bring a second blanket.
+ * Refrigerators will be available for participants in a common room. If you require a refrigerator in your room, please let an organizer know; this can be arranged with enough notice.
+ * Parking permits will be provided free of charge to dorm residents. If you require a parking permit, please let an organizer know. Please watch for a parking map to be posted closer to the start of the workshop.
+ * We will pay the cost of the dorm room directly for all funded participants.
+
+If you prefer to stay in a hotel and we're funding your lodging, please contact the organizers (we can allocate your lodging amount toward a hotel with enough advance notice). We did negotiate a special rate at the [[http://hiltongardeninn3.hilton.com/en/hotels/vermont/hilton-garden-inn-burlington-downtown-BTVDWGI/index.html|Hilton Garden Inn Burlington]] of \$164 per night plus tax (approximately \$183 per night) for a room with either one king-sized bed or two queen-sized beds. To benefit from the conference rate, you must reserve by June 16 and use our [[http://hiltongardeninn.hilton.com/en/gi/groups/personalized/B/BTVDWGI-SAGE17-20170716/index.jhtml?WT.mc_id=POG|dedicated registration link]]. Another option is the [[http://www.sheratonburlington.com/|Sheraton Burlington Hotel]] which should be possible to get at a similar price. The Sheraton is not downtown but it is closer to the location of the conference.
 
 == Travel ==
 
-'''If you are a US citizen or permanent resident, please book flights on a US carrier.'''  If you are not a US citizen or permanent resident, this restriction does not apply to you (since we're funding you from a different grant).  Note that the [[http://mcofamericas.org/latest-news/mathematical-congress-americas-2017|Mathematical Congress of the Americas]] is the week after Sage Days 87; if you're interested in attending you may want to plan your travel accordingly.
+'''If you are a US citizen or permanent resident, please book flights on a US carrier.'''  If you are not a US citizen or permanent resident, this restriction does not apply to you (since we're funding you from a different grant).  Note that the [[http://mcofamericas.org/latest-news/mathematical-congress-americas-2017|Mathematical Congress of the Americas]] is the week after Sage Days 87; if you're interested in attending you may want to plan your travel accordingly. If you do combine your travel, you must obtain, at the time you book your travel, a quote for the cost of your travel round-trip to Burlington. You will only be reimbursed the minimum of this quote and your actual travel costs.
 
 There are two main ways to get to Burlington.
 
- 1. Fly into BTV.
+ 1. Fly into BTV. The cost of a cab ride from the airport to the dorms is approximately \$10 (less using Uber) and to downtown approximately \$20.
  1. Fly to Montreal (YUL), Manchester (MHT) or Boston (BOS) and take [[https://www.greyhound.com/|Greyhound]] to Burlington.
   * Buses depart from Montreal Berri station at 8:15, 10:45, 16:15 and 23:30 and take about 2:45 to get to Burlington (though this can vary due to US customs).  The city bus (747) from the airport takes 45 minutes to go directly to the Greyhound station and runs every 30 minutes.  Note that the city bus requires a day pass, which costs $10 and can be purchased inside the terminal.
   * Buses depart from Manchester Airport direct to Burlington -- 0:55-4:00, 11:35-15:20 and 15:05-19:55.
   * Buses depart Boston South Station, running 7:00-11:55, 10:30-15:20, 14:00-19:55, 23:20-4:00.  The city bus (Silver line) from the airport takes 15 minutes to go directly to the Greyhound station and runs every 12 minutes.  The silver line from the airport is free.
+ * From Boston one can also travel on [[https://us.megabus.com/|Megabus]].
 
-There may also be carpools traveling from these Boston, Montreal and Hanover, NH.  If you're interested in a carpool feel free to edit this wiki page.
+There may also be carpools traveling from Boston, Montreal and Hanover, NH.  If you're interested in a carpool feel free to edit this wiki page.
 
 === Carpool ===
 
@@ -104,6 +112,14 @@ There may also be carpools traveling from these Boston, Montreal and Hanover, NH
     * Marc M.: Greyhound tickets appear to be sold out on Saturday (7/22). I'd like to get to Montreal airport before 7pm (I have a flight at 8.50pm). (Update: they appear as sold out on greyhound.ca, but they are available at greyhound.com --go figure!--).
     * JP Flori: I plan to take the 12:10pm bus (to montreal main bus station) which still seem available, like any other bus on that day.
 
-== Local Dining Options ==
+== Internet on campus ==
+
+The University of Vermont offers [[https://www.eduroam.us/|eduroam]] on campus. To access the network at UVM, please take a few minutes to set up your laptop before traveling, while you are on your home university campus. If you do not have eduroam, please contact Christelle Vincent to receive a guest log in for UVM's network.
+
+== Local dining options ==
 
 We will add more details as the workshop approaches, but for now check out the [[https://drive.google.com/open?id=1A2B4-EmWB1cUQat364SzVJV9aD4&usp=sharing|map]] Christelle made!
+
+== To prepare for the workshop ==
+
+On the first day of the workshop, [[http://people.reed.edu/~westm/|Mckenzie West]] will lead some activities to help novices get oriented with Sage. Stay tuned for more details. Before the workshop, we recommend [[http://www.sagemath.org/|downloading and installing]] the latest version of the source code of Sage, opening a [[https://trac.sagemath.org/|Sage trac]] account and completing the [[https://www.codecademy.com/|Code Academy]] modules on Python and Git.
