@@ -13,8 +13,10 @@ Location: University of Vermont, in Burlington, VT.
 
 == Schedule ==
 
-Activities will begin the morning of Monday, July 17 and end around in the early afternoon on Saturday, July 22.
+Activities will begin the morning of Monday, July 17 and end around in the early afternoon on Saturday, July 22. 
 The workshop will be primarily project-focused, though there will be a few talks aimed at graduate students.
+
+On the first day Mckenzie West will lead some activities to help novices get oriented with Sage. If you are a novice and would like more information as well as ways to prepare, please scroll down to [[#To prepare for the workshop|To prepare for the workshop]] below.
 
 == Projects ==
 
