@@ -34,6 +34,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/23047|#23047]]) new: Meta Ticket: Utilize coercion framework for scheme points and morphisms
+
  * ([[http://trac.sagemath.org/ticket/22771|#22771]]) new: Numerical Precision for Heights in Number Fields - TJ
 
  * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger
