@@ -16,6 +16,8 @@ This SageDays/workshop emphasizes on computational arithmetic geometry. So far w
 
 '''3. Riemann surfaces'''
 
+People interested: ...
+
 We have code that implements a "RiemannSurface" class that allows computation of period matrices (currently, Singular is used to compute the basis of differentials). The homology basis is derived from a Voronoi cell decomposition based on the branch locus and monodromy computation uses certified continuation. Integration uses Gauss-Legendre to get accurate integral values.
 
 We compute endomorphism ring generators by using LLL to recognize relations, largely in analogy to what Paul van Wamelen has done for hyperelliptic curves.
@@ -33,6 +35,8 @@ Tasks left:
  a. Find cool examples ...
 
 '''4.P-adic computation in divisor class groups'''
+
+People interested: ...
 
 One idea here is to just use characteristic 0 approaches, with some measures to improve numerical stability a bit. For this, the approach taken by Kamal Khuri-Makdisi is perhaps more attractive, because it only needs linear algebra rather than computing polynomial GCDs. There is some code at [[https://trac.sagemath.org/ticket/15113|#15113]] that is a proof of concept, which can be made to work over p-adics as well. Presently, it leaks precision in a horrible way, but this can likely be improved considerably by using pivoting strategies that take numerical stability into account at least a little bit.
 
