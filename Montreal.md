@@ -19,6 +19,18 @@ and at
 [[http://lacim.uqam.ca/en/|LaCIM]],
 [[http://www.uqam.ca/|Université du Québec à Montréal]] the other weeks.
 
+== May 29th-June 2nd 4pm-5pm everyday? ==
+
+[[http://lacim.uqam.ca/en/|LaCIM]], Room PK-??? of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]], 201,
+av. du Président-Kennedy, Montréal.
+
+== Wednesday May 24th, 1:30pm-5pm ==
+
+[[http://lacim.uqam.ca/en/|LaCIM]], Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]], 201,
+av. du Président-Kennedy, Montréal.
+
+3pm: coffee break (café du LaCIM)
+
 == Wednesday May 17th, 1:30pm-5pm ==
 
 [[http://lacim.uqam.ca/en/|LaCIM]], Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]], 201,
