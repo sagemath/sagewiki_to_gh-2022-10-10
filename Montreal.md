@@ -31,6 +31,8 @@ av. du Président-Kennedy, Montréal.
 
 3pm: coffee break (café du LaCIM)
 
+Themes that have been worked on: contributing to Sage, quivers, semigroups, symmetric functions, proofreading of "Calcul Mathématique avec Sage", ...
+
 == Wednesday May 17th, 1:30pm-5pm ==
 
 [[http://lacim.uqam.ca/en/|LaCIM]], Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]], 201,
