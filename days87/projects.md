@@ -2,6 +2,8 @@
 
  * Add general extensions of p-adic fields in Sage
  * Implementation of Gröbner bases and tropical Gröbner bases algorithm (F4, F5, FGLM), doctest and submission
+  * We might finish reviewing the inclusion of openf4 at [[https://trac.sagemath.org/ticket/18749|#18749]] and patch it to avoid going through strings all the time
+  * And also look at the performance of Singular, polybori, giac, ...
  * For an old list of possible projects, see [[padics]]
 
 == LMFDB projects ==
