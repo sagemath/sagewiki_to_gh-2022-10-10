@@ -165,7 +165,11 @@ Examples:
 
 Features in trac:
 
-Sage development trac can be used to host the features. The ticket for a feature has milestone `sage-feature` and keeps a feature branch that provides a special functionality that can be merged to the Sage core by the user. The ticket is not reviewed (i.e, not goes into `needs review` status) until it is accepted as a standard feature and integrated to Sage. The user can select a set of features at build time and pull the feature branches from trac and start to make in the usual way. A special script "make-sage-with features" might be provided to make this easy. 
+Sage development trac can be used to host the features. The ticket for a feature has milestone `sage-feature`
+and keeps a feature branch that provides a special functionality that can be merged to the Sage core by the user. 
+The ticket is not reviewed (i.e, not goes into `needs review` status) until it is accepted as a standard feature 
+and integrated to Sage. The user can select a set of features at build time and pull the feature branches from trac
+and start to make in the usual way. A special script "make-sage-with features" might be provided to make this easy. 
 
 A feature in trac should provide at least
 
@@ -194,22 +198,22 @@ any more.
 
 Pros:
 
-- Relatively good for objective 1 (except for objective 6)
-- Relatively good for objective 2 (thanks to "sage -combinat install"), except
-  for modularity and requiring some Sage recompilation
-- Objective 8 is straightforward
+ * Relatively good for objective 1 (except for objective 6)
+ * Relatively good for objective 2 (thanks to "sage -combinat install"), except
+ for modularity and requiring some Sage recompilation
+ * Objective 8 is straightforward
 
 Cons:
 
-- Complexity of working at the meta level (version control on the patches)
-- Really bad at objective 6: Horrible maintenance overhead due to syntactic conflicts
-  and lack of automatic merging
-- Introduces a strong bias toward code death, or at least non integration into Sage
-- Monolithic: one could not use several patch queues at once, so this
-  did not support overlaping groups of people working on different
-  topics; this introduced a non-natural barrier between Sage-Combinat
-  and the rest of the world, and prevented rapid reconfiguration of
-  projects around topics and groups of developers
+ * Complexity of working at the meta level (version control on the patches)
+ * Really bad at objective 6: Horrible maintenance overhead due to syntactic conflicts
+ and lack of automatic merging
+ * Introduces a strong bias toward code death, or at least non integration into Sage
+ * Monolithic: one could not use several patch queues at once, so this
+ did not support overlaping groups of people working on different
+ topics; this introduced a non-natural barrier between Sage-Combinat
+ and the rest of the world, and prevented rapid reconfiguration of
+ projects around topics and groups of developers
 
 == Standalone (pip) packages ==
 
@@ -221,61 +225,59 @@ straightforward.
 
 Examples:
 
-- `Template for creating Sage packages <https://github.com/cswiercz/sage_packages>`_
-- `Modular Abelian Varities <https://github.com/williamstein/sage_modabvar>`_
-- `Python implementation of chebfun <https://github.com/cswiercz/pychebfun>`_
-- `Purple Sage <https://github.com/williamstein/psage>`_
-- `slabbe-0.2.spkg <http://www.slabbe.org/blogue/categorie/slabbe-spkg/>`_
-  See also this `blog post <http://www.slabbe.org/blogue/2014/08/releasing-slabbe-my-own-sage-package/>`_
-  Note that this is an spkg, rather than a standard pip-installable package.
+ * [[https://github.com/cswiercz/sage_packages|Template for creating Sage packages]]
+ * [[https://github.com/williamstein/sage_modabvar|Modular Abelian Varities]]
+ * [[https://github.com/cswiercz/pychebfun|Python implementation of chebfun]]
+ * [[https://github.com/williamstein/psage|Purple Sage]]
+ * [[http://www.slabbe.org/blogue/categorie/slabbe-spkg/|slabbe-0.2.spkg]]
+
+ See also this [[http://www.slabbe.org/blogue/2014/08/releasing-slabbe-my-own-sage-package/|blog post]]
+ Note that this is an spkg, rather than a standard pip-installable package.
 
 NON-Examples:
 
-- `SageManifolds <http://sagemanifolds.obspm.fr/>`_
+ * [[http://sagemanifolds.obspm.fr/|SageManifolds]]
 
-  The `install script <http://sagemanifolds.obspm.fr/spkg/sm-install.sh>`_
-  for this does all kinds of copying files directly into the sage
-  install, using sed to modify parts of the sage library, etc.  It's
-  terrifying.  -- William.
+ The [[http://sagemanifolds.obspm.fr/spkg/sm-install.sh|install script]]
+ for this does all kinds of copying files directly into the sage
+ install, using sed to modify parts of the sage library, etc.  It's
+ terrifying.  -- William.
 
-  True but that's only a provisory thing for an easy install by a
-  newbie, until the process of full integration of SageManifolds in
-  Sage, started at `#18528 <http://trac.sagemath.org/ticket/18528>`_,
-  is finished. For a developer, the recommended installation process
-  is via git, not via the above script. Actually, we started
-  SageManifolds as a (new-style) spkg and it was distributed as such
-  until version 0.4. Then, in order to ease the review process, we
-  split it in many tickets (listed at `#18528
-  <http://trac.sagemath.org/ticket/18528>`_) and devise the above
-  script just for end users not familiar with git and make. Really the
-  development workflow of SageManifolds pertains to the category
-  ''Direct integration into Sage'' above, hence it is a Non-Example
-  here -- Eric.
+ True but that's only a provisory thing for an easy install by a
+ newbie, until the process of full integration of SageManifolds in
+ Sage, started at [[http://trac.sagemath.org/ticket/18528|#18528]],
+ is finished. For a developer, the recommended installation process
+ is via git, not via the above script. Actually, we started
+ SageManifolds as a (new-style) spkg and it was distributed as such
+ until version 0.4. Then, in order to ease the review process, we
+ split it in many tickets (listed at [[http://trac.sagemath.org/ticket/18528|#18528]]) and devise the above
+ script just for end users not familiar with git and make. Really the
+ development workflow of SageManifolds pertains to the category
+ ''Direct integration into Sage'' above, hence it is a Non-Example
+ here -- Eric.
 
-  Or maybe to the category "standalone package with an integration
-  mission below". By the way, the usage of scripts could potentially
-  be replaced by the monkey patching approach described below, though
-  I'd need to check the exact use cases. Let's discuss this at some
-  point!  -- Nicolas
+ Or maybe to the category "standalone package with an integration
+ mission below". By the way, the usage of scripts could potentially
+ be replaced by the monkey patching approach described below, though
+ I'd need to check the exact use cases. Let's discuss this at some
+ point!  -- Nicolas
 
-  UPDATE (15 Jan 2017): SageManifolds is now fully integrated in 
-  Sage 7.5. There is therefore no need for an install script, even
-  for a newbie; cf. the new 
-  `download page <http://sagemanifolds.obspm.fr/download.html>`_  
-  -- Eric.
+ UPDATE (15 Jan 2017): SageManifolds is now fully integrated in 
+ Sage 7.5. There is therefore no need for an install script, even
+ for a newbie; cf. the new 
+ [[http://sagemanifolds.obspm.fr/download.html|download page]] -- Eric.
 
-- `CHA <https://bitbucket.org/nborie/cha>`_   "It is recommended to use the more recent implementation from the branch attached to this ticket rather than this library."; I think this is just some code to copy into the sage library or run directly, with no package support at all.
-
+ * [[https://bitbucket.org/nborie/cha|CHA]]   "It is recommended to use the more recent implementation from the branch attached to this ticket rather than this library."; I think this is just some code to copy into the sage library or run directly, with no package support at all.
 
 Pros:
 
-- Good for objectives 1, 2, 4
+ * Good for objectives 1, 2, 4
 
 Cons:
 
-- Handling of compatibility with various versions of the dependencies (in particular Sage)
-- Risk of code rotting (as Sage evolves over time) or death (if it's not maintained)
-- Requires coordination with Sage and related packages to not step on each other
+ * Handling of compatibility with various versions of the dependencies (in particular Sage)
+ * Risk of code rotting (as Sage evolves over time) or death (if it's not maintained)
+ * Requires coordination with Sage and related packages to not step on each other
 
 === Standalone (pip) packages with an integration mission ===
 
@@ -285,47 +287,46 @@ code into Sage.
 
 Specifics:
 
-- Layout the code as in the Sage library, with top module called
-  e.g. ``sage-blah`` instead of ``sage``. For example, to add a method to the
-  Sage class Partition, one would put it in an otherwise empty class
-  ``sage-blah.combinat.partition.Partition``.
+ * Layout the code as in the Sage library, with top module called
+ e.g. ``sage-blah`` instead of ``sage``. For example, to add a method to the
+ Sage class Partition, one would put it in an otherwise empty class
+ ``sage-blah.combinat.partition.Partition``.
 
-- Use recursive monkey patching to insert all the code dynamically in
-  the Sage library, for example by using the
-  `recursive-monkey-patch
-  <https://pypi.python.org/pypi/recursive-monkey-patch>`_ pip package
+ * Use recursive monkey patching to insert all the code dynamically in
+ the Sage library, for example by using the
+ [[https://pypi.python.org/pypi/recursive-monkey-patch|recursive-monkey-patch]] pip package
 
-  The effect is to patch the Sage library, as with branches or patch
-  queues; however this is done semantically at the granularity of
-  methods rather than syntactically at the granularity of lines in the
-  source code.
+ The effect is to patch the Sage library, as with branches or patch
+ queues; however this is done semantically at the granularity of
+ methods rather than syntactically at the granularity of lines in the
+ source code.
 
 Examples:
 
-- `Sage-semigroups <https://github.com/nthiery/sage-semigroups/>`_ (quite preliminary!!!)
+ * [[https://github.com/nthiery/sage-semigroups/|Sage-semigroups]] (quite preliminary!!!)
 
 Pros:
 
-- Same as above
-- Objective 8 is straightforward
-- Lighter maintenance overhead compared to branches or patch queues:
-  one only needs to take care of semantic conflicts, not syntactic
-  ones.
-- The integration of mature code into Sage helps for objective 3 and for the
-  maintenance as well: keeping the library as a "small layer" over
-  Sage reduces the risks of irreversibly drifting away, and reduces
-  the amount of updating.
-- Depending on how strongly one pushes toward the integration of
-  mature code, one can flexibly interpolate between the all-in-one
-  model and the package model
+ * Same as above
+ * Objective 8 is straightforward
+ * Lighter maintenance overhead compared to branches or patch queues:
+ one only needs to take care of semantic conflicts, not syntactic
+ ones.
+ * The integration of mature code into Sage helps for objective 3 and for the
+ maintenance as well: keeping the library as a "small layer" over
+ Sage reduces the risks of irreversibly drifting away, and reduces
+ the amount of updating.
+ * Depending on how strongly one pushes toward the integration of
+ mature code, one can flexibly interpolate between the all-in-one
+ model and the package model
 
 Cons:
 
-- The concept has not yet been really battlefield tested!
-- Moving code into the Sage library is done by copy pasting. This
-  makes for a clean diff showing just the addition of the new methods,
-  but means that one looses the history and author tracking (that's
-  not that different from history squashing as used by many projects)
+ * The concept has not yet been really battlefield tested!
+ * Moving code into the Sage library is done by copy pasting. This
+ makes for a clean diff showing just the addition of the new methods,
+ but means that one looses the history and author tracking (that's
+ not that different from history squashing as used by many projects)
 
 = What is this Sage-Combinat queue madness about??? =
 
@@ -349,7 +350,7 @@ more than 200 are under development.
 == Why do we want to share our experimental code ==
 Here are our goals in using the Sage-Combinat queue for sharing patches:
 
-- Preintegration
+ * Preintegration
 
    It is very common that an advanced feature needs some infrastructure
    support. For example, advanced Hopf algebras or representation theory
@@ -361,33 +362,33 @@ Here are our goals in using the Sage-Combinat queue for sharing patches:
    we end up improving dependant patches with more than four layers of
    dependencies.
 
-- Pair programming (or more than pair!)
+ * Pair programming (or more than pair!)
 
    Many Sage-Combinat patches have several authors. We need an easy way to
    exchange patches (note that this is not specific to the Sage-Combinat
    project).
 
-- Easy review even with many dependencies
+ * Easy review even with many dependencies
 
    As said in preintegration, we can have several layer of dependant
    patches. We need some tool to apply a bunch of patches (not necessarily in
    a stable/needs-review status), experiment with the code and launch the
    tests.
 
-- Maturation
+ * Maturation
 
    Due to the kind of computation we need (gluing algebra and combinatorics
    together), we have to be extra careful on the interface. Therefore, it is
    very common that we wait for a feature to be used several time before
    entering Sage. This is particularly true for infrastructure stuff.
 
-- Overview of what's developed by who
+ * Overview of what's developed by who
 
    Having a centralized place where all development is seen is a good
    tool for team coordination and code management. It also helps early
    detection of patch conflicts.
 
-- Sharing code with beginner colleagues
+ * Sharing code with beginner colleagues
 
    The queue is also an easy way to distribute experimental code to non
    developer colleagues. The two commands::
@@ -397,11 +398,9 @@ Here are our goals in using the Sage-Combinat queue for sharing patches:
 
    need no mercurial or developer skills
 
-
-
 == What are our constraints == 
  * Vital necessity of supporting several versions of Sage at once
- ** For the convenience of the user, it is usually possible to use the sage-combinat patches with older versions of sage. The intent is only to temporarily support one or two older versions of sage (that is about one month old). Typical use case: a developer urgently needs the latest version of a patch for a software demonstration at a conference, but can't instantly upgrade because of a slow internet connection. There is no guarantee whatsoever; on occasion we do not support this when this causes technical difficulties.
+ * For the convenience of the user, it is usually possible to use the sage-combinat patches with older versions of sage. The intent is only to temporarily support one or two older versions of sage (that is about one month old). Typical use case: a developer urgently needs the latest version of a patch for a software demonstration at a conference, but can't instantly upgrade because of a slow internet connection. There is no guarantee whatsoever; on occasion we do not support this when this causes technical difficulties.
  * By nature, our calculations are transversal. Thus it would be hard to split Sage-Combinat in smaller chunks by subareas.
 
 
