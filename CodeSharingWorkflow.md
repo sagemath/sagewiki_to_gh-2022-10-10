@@ -123,9 +123,9 @@ Discussion:
 - Use the @experimental decorator to mitigate the backward compatibility issue while the code is not yet fully mature. The decorator is a bit clumsy to use due to doc-testing in Sphinx (tricks need to be done to avoid printing the experimental warning on each doc-test), see e.g. `AsymptoticRing <http://doc.sagemath.org/html/en/reference/asymptotic/sage/rings/asymptotic/growth_group.html>`_.
 
  
-== Experimental feature branches ==
+== Feature branches ==
 
-In this workflow, experimental feature or feature sets are implemented as
+In this workflow, features or feature sets are implemented as
 branches on the Sage sources.
 
 Pros:
@@ -151,24 +151,35 @@ Cons:
 - Because of the above, this workflow does not work well for objective 4
 - Introduces a bias toward the all-in-one development model
 
-A proposal `Features Trac:`
+Examples:
 
-To promote this work flow, we may have a public ''features trac'' similar to the current development trac. A ticket in the features trac keeps a Git feature branch that provides a feature, that is, special functionality that can be merged to the Sage core at the user's build time. The ticket is not reviewed (in the development trac sense) and its branch is not supposed to be merged to Sage. The user can select a feature set at his/her build time. Then "make-sage-with feature_set" will fetch the feature branches from the features trac and merge them with the master branch of the Sage core and start to make in the usual way. 
+- [[https://trac.sagemath.org/ticket/22982|Global function fields]]
 
-The features trac can provide
+Features in trac:
 
-- Description about the feature
-- Info about authors or maintainers. 
-- Info about the latest Sage release with which the feature works. We may have "feature-bots" for doctesting.
-- Info about dependencies, that is, other features that this feature depends on.
-- Link to the host at which actual development occurs, like Github repos.
-- Branch name in a standardized format. Example: "feature/klee/rings/super_field" where "klee" is the author's id.
+Sage development trac can be used to host the features. The ticket for a feature has milestone `sage-feature` and keeps a feature branch that provides a special functionality that can be merged to the Sage core by the user. The ticket is not reviewed (i.e, not goes into `needs review` status) until it is accepted as a standard feature and integrated to Sage. The user can select a set of features at build time and pull the feature branches from trac and start to make in the usual way. A special script "make-sage-with features" might be provided to make this easy. 
 
-Some remarks:
+A feature in trac should provide at least
 
-* The feature branch should contain source code and documentation. The documentation may have links toward the documentation of the Sage core but not vice versa. After build, the user will have a single documentation as usual.
-* The features in the features trac are either orthogonal or competent to other features in their functionality.
-* Some parts of the present Sage library may be turned into features. For example, we may have "feature/sage/modular/abvar".
+- Description about the feature.
+
+- Info about the author.
+ 
+- Info about the latest Sage release with which the feature works. 
+
+- Info about dependencies, that is, other tickets that this feature depends on.
+
+- Optionally a link to the host at which actual development occurs, like Github repos.
+
+Other remarks:
+
+* The feature branch contain code and documentation. 
+
+* The patchbots test the feature against the latest Sage release regularly.
+
+* The features in trac should be either orthogonal or competent to other features in their functionality.
+
+* Some parts of the present Sage library may be turned into features.
 
 == Patch queue as used by Sage-Combinat between 2009 and 2013 ==
 
