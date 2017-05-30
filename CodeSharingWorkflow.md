@@ -237,35 +237,35 @@ Examples:
 NON-Examples:
 
  * [[http://sagemanifolds.obspm.fr/|SageManifolds]]
+ 
+  The [[http://sagemanifolds.obspm.fr/spkg/sm-install.sh|install script]]
+  for this does all kinds of copying files directly into the sage
+  install, using sed to modify parts of the sage library, etc.  It's
+  terrifying.  -- William.
 
- The [[http://sagemanifolds.obspm.fr/spkg/sm-install.sh|install script]]
- for this does all kinds of copying files directly into the sage
- install, using sed to modify parts of the sage library, etc.  It's
- terrifying.  -- William.
+  True but that's only a provisory thing for an easy install by a newbie, until the process of full integration of SageManifolds in
+  Sage, started at [[http://trac.sagemath.org/ticket/18528|#18528]],
+  is finished. For a developer, the recommended installation process
+  is via git, not via the above script. Actually, we started
+  SageManifolds as a (new-style) spkg and it was distributed as such
+  until version 0.4. Then, in order to ease the review process, we
+  split it in many tickets (listed at [[http://trac.sagemath.org/ticket/18528|#18528]]) and devise the above
+  script just for end users not familiar with git and make. 
 
- True but that's only a provisory thing for an easy install by a
- newbie, until the process of full integration of SageManifolds in
- Sage, started at [[http://trac.sagemath.org/ticket/18528|#18528]],
- is finished. For a developer, the recommended installation process
- is via git, not via the above script. Actually, we started
- SageManifolds as a (new-style) spkg and it was distributed as such
- until version 0.4. Then, in order to ease the review process, we
- split it in many tickets (listed at [[http://trac.sagemath.org/ticket/18528|#18528]]) and devise the above
- script just for end users not familiar with git and make. Really the
- development workflow of SageManifolds pertains to the category
- ''Direct integration into Sage'' above, hence it is a Non-Example
- here -- Eric.
+  Really the development workflow of SageManifolds pertains to the category
+  ''Direct integration into Sage'' above, hence it is a Non-Example
+  here -- Eric.
 
- Or maybe to the category "standalone package with an integration
- mission below". By the way, the usage of scripts could potentially
- be replaced by the monkey patching approach described below, though
- I'd need to check the exact use cases. Let's discuss this at some
- point!  -- Nicolas
+  Or maybe to the category "standalone package with an integration
+  mission below". By the way, the usage of scripts could potentially
+  be replaced by the monkey patching approach described below, though
+  I'd need to check the exact use cases. Let's discuss this at some
+  point!  -- Nicolas
 
- UPDATE (15 Jan 2017): SageManifolds is now fully integrated in 
- Sage 7.5. There is therefore no need for an install script, even
- for a newbie; cf. the new 
- [[http://sagemanifolds.obspm.fr/download.html|download page]] -- Eric.
+  UPDATE (15 Jan 2017): SageManifolds is now fully integrated in 
+  Sage 7.5. There is therefore no need for an install script, even
+  for a newbie; cf. the new 
+  [[http://sagemanifolds.obspm.fr/download.html|download page]] -- Eric.
 
  * [[https://bitbucket.org/nborie/cha|CHA]]   "It is recommended to use the more recent implementation from the branch attached to this ticket rather than this library."; I think this is just some code to copy into the sage library or run directly, with no package support at all.
 
@@ -399,15 +399,19 @@ Here are our goals in using the Sage-Combinat queue for sharing patches:
    need no mercurial or developer skills
 
 == What are our constraints == 
- * Vital necessity of supporting several versions of Sage at once
- * For the convenience of the user, it is usually possible to use the sage-combinat patches with older versions of sage. The intent is only to temporarily support one or two older versions of sage (that is about one month old). Typical use case: a developer urgently needs the latest version of a patch for a software demonstration at a conference, but can't instantly upgrade because of a slow internet connection. There is no guarantee whatsoever; on occasion we do not support this when this causes technical difficulties.
- * By nature, our calculations are transversal. Thus it would be hard to split Sage-Combinat in smaller chunks by subareas.
 
+ * Vital necessity of supporting several versions of Sage at once
+ * For the convenience of the user, it is usually possible to use the sage-combinat patches with older versions of sage. The intent is only to 
+ temporarily support one or two older versions of sage (that is about one month old). Typical use case: a developer urgently needs the latest version of 
+ a patch for a software demonstration at a conference, but can't instantly upgrade because of a slow internet connection. There is no guarantee 
+ whatsoever; on occasion we do not support this when this causes technical difficulties.
+ * By nature, our calculations are transversal. Thus it would be hard to split Sage-Combinat in smaller chunks by subareas.
 
 == Some random questions ==
 
  * linear order versus DAG (directed acyclic graph) of dependencies: what's easier to maintain ?
 
 == Foreseeable future ==
- * More contributers
+
+ * More contributors
  * Less overlap between patches as development goes from core to peripheral features
