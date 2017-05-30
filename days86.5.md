@@ -14,6 +14,28 @@ This SageDays/workshop emphasizes on computational arithmetic geometry. So far w
 
 4. P-adic computation in divisor class groups
 
+'''1. Basic arithmetic in function fields'''
+
+We have code that implements the Montes algorithm and therefore the OM representation of prime ideals in function fields ([[https://arxiv.org/pdf/1005.1156.pdf]|details])
+
+Based on this representation we want to realize the following tasks for function fields:
+
+1.3 Representation of fractional ideals
+
+1.2 P-adic valuation for a prime ideal P of a function field.
+
+1.3 Computation integral basis of fractional ideals.
+
+1.4 Divisor representation.
+
+1.5 Divisor arithmetic.
+
+1.6 Reduction algorithm for lattices over polynomial rings.
+
+1.7 Riemann-Roch and genus computation. 
+
+I am currently working full time on these tasks for global function fields (F/F_q). I will let you know how far I got. Finally we need an implementation for function fields of Q or over number fields.
+
 '''3. Riemann surfaces'''
 
 People interested: ...
