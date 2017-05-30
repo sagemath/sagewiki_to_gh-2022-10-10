@@ -34,6 +34,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/23086|#23086]]) needs-work: Cyclegraph for projective morphisms - Ben Barros
+
  * ([[http://trac.sagemath.org/ticket/23047|#23047]]) new: Meta Ticket: Utilize coercion framework for scheme points and morphisms
 
  * ([[http://trac.sagemath.org/ticket/22771|#22771]]) new: Numerical Precision for Heights in Number Fields - TJ
