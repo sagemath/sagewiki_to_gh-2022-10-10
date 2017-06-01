@@ -37,8 +37,11 @@ Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|La
 
 ==== jeudi 1 juin ====
 
-Adrien is working on ticket #16110 of Parallelogram polyominoes. 
+Adrien is working on ticket [[https://trac.sagemath.org/ticket/16110|#16110]] of Parallelogram polyominoes. 
 
+Vincent K
+
+ * Travail sur l'intégration de pplpy dans sage ([[https://trac.sagemath.org/ticket/23024|#23024]])
 ==== jeudi 18 mai ====
 
 Sébastien is reviewing the following tickets and making sure they work on OSX:
