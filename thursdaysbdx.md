@@ -35,6 +35,10 @@ Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|La
 
 == Compte-rendus ==
 
+==== jeudi 1 juin ====
+
+Adrien is working on ticket #16110 of Parallelogram polyominoes. 
+
 ==== jeudi 18 mai ====
 
 Sébastien is reviewing the following tickets and making sure they work on OSX:
