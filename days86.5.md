@@ -58,7 +58,9 @@ Tasks left:
 
 '''4.P-adic computation in divisor class groups'''
 
-People interested: ...
+People interested: David Roe, David Harvey, Peter Bruin
+
+Relevant Trac tickets: [[https://trac.sagemath.org/ticket/15104|#15104]], [[https://trac.sagemath.org/ticket/15113|#15113]]
 
 One idea here is to just use characteristic 0 approaches, with some measures to improve numerical stability a bit. For this, the approach taken by Kamal Khuri-Makdisi is perhaps more attractive, because it only needs linear algebra rather than computing polynomial GCDs. There is some code at [[https://trac.sagemath.org/ticket/15113|#15113]] that is a proof of concept, which can be made to work over p-adics as well. Presently, it leaks precision in a horrible way, but this can likely be improved considerably by using pivoting strategies that take numerical stability into account at least a little bit.
 
