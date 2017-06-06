@@ -4,6 +4,19 @@ June 5-9, 2017, Simon Fraser University, Burnaby, Canada
 
 http://www.cecm.sfu.ca/~nbruin/WCAG2017/
 
+== Tickets we're working on ==
+
+Add the keyword "sd86.5" to any tickets you are working on so they show in this list: [[https://trac.sagemath.org/query?keywords=~sd86.5&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|sd86.5 Tickets]]
+
+== CoCalc ==
+
+We have a dedicated CoCalc instance at https://k8s.sagemath.org. (Ask somebody if you need the secret token to sign up.)
+
+To SSH into this instance:
+* Add your public key (`~/.ssh/id_rsa.pub`) to (`~/.ssh/authorized_keys`) and then `ssh e18ab8dc695143fdae98229d0178040f@35.185.249.31`.
+
+== Projects ==
+
 This SageDays/workshop emphasizes on computational arithmetic geometry. So far we have 4 programming projects:
 
 1. Basic arithmetic in function fields
@@ -14,7 +27,7 @@ This SageDays/workshop emphasizes on computational arithmetic geometry. So far w
 
 4. P-adic computation in divisor class groups
 
-'''1. Basic arithmetic in function fields'''
+=== 1. Basic arithmetic in function fields ===
 
 We have code that implements the Montes algorithm and therefore the OM representation of prime ideals in function fields ([[https://arxiv.org/pdf/1005.1156.pdf]|details])
 
@@ -36,7 +49,7 @@ Based on this representation we want to realize the following tasks for function
 
 I am currently working full time on these tasks for global function fields (F/F_q). I will let you know how far I got. Finally we need an implementation for function fields of Q or over number fields.
 
-'''3. Riemann surfaces'''
+=== 3. Riemann surfaces ===
 
 People interested: ...
 
@@ -56,7 +69,7 @@ Tasks left:
 
  a. Find cool examples ...
 
-'''4.P-adic computation in divisor class groups'''
+=== 4.P-adic computation in divisor class groups ===
 
 People interested: David Roe, David Harvey, Peter Bruin
 
