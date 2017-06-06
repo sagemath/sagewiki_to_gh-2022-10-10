@@ -12,8 +12,9 @@ Add the keyword "sd86.5" to any tickets you are working on so they show in this 
 
 We have a dedicated CoCalc instance at https://k8s.sagemath.org. (Ask somebody if you need the secret token to sign up.)
 
-To SSH into this instance:
-* Add your public key (`~/.ssh/id_rsa.pub`) to (`~/.ssh/authorized_keys`) and then `ssh e18ab8dc695143fdae98229d0178040f@35.185.249.31`.
+To SSH into this instance: Add your public key (`~/.ssh/id_rsa.pub`) to (`~/.ssh/authorized_keys`) and then `ssh e18ab8dc695143fdae98229d0178040f@35.185.249.31`.
+
+You can use this SSH connection to use your local editor to work on files there through sshfs; ask around if you want to setup something like that.
 
 == Projects ==
 
