@@ -54,7 +54,7 @@ I am currently working full time on these tasks for global function fields (F/F_
 
 People interested: Aly Deines, Alexandre Zotine, Nils Bruin
 
-Relevant tickets: [[https://trac.sagemath.org/ticket/21198|#21198]] [[https://trac.sagemath.org/ticket/23140|#23140]] 
+Relevant tickets: [[https://trac.sagemath.org/ticket/21198|#21198]] [[https://trac.sagemath.org/ticket/23140|#23140]] [[https://trac.sagemath.org/ticket/23175]]
 
 We have code that implements a "RiemannSurface" class that allows computation of period matrices (currently, Singular is used to compute the basis of differentials). The homology basis is derived from a Voronoi cell decomposition based on the branch locus and monodromy computation uses certified continuation. Integration uses Gauss-Legendre to get accurate integral values.
 
