@@ -11,6 +11,7 @@ Sagemath patchbots names and owners:
     edoras            --> ?
     fermat            --> cremona
     findstat          --> stumpc5
+    hades             --> klee
     kepler            --> nilesjohnson
     kevin-Virtualbox  --> kdilks
     geom              --> dimpase
