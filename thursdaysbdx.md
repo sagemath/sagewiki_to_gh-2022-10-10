@@ -2,7 +2,7 @@
 = Les jeudi Sage à Bordeaux =
 = (autour de Sage, PARI/GP, et plus) =
 
-''Prochaine séance le mardi 13 juin en salle 74 (Salle de visio)''
+''Prochaine séance le jeudi 15 juin. Salle 74 (matin) et salle 381 l'après midi ''
 
 Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour programmer autour du logiciel de calcul formel [[http://www.sagemath.org/|Sage]]. Ces journées ont commencé le 13 avril 2017. Cette page permet de suivre l'activité des rencontres.
 
@@ -35,6 +35,11 @@ Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|La
 
 == Compte-rendus ==
 
+==== Mardi 13 juin ====
+
+Vincent K 
+
+ * Travail pplpy. Notamment [[https://github.com/videlec/pplpy/issues/22|issue #22]] 
 ==== jeudi 1 juin ====
 
 Adrien is working on ticket [[https://trac.sagemath.org/ticket/16110|#16110]] of Parallelogram polyominoes. 
