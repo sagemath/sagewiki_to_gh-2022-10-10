@@ -39,7 +39,7 @@ Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|La
 
 Vincent K 
 
- * Travail pplpy. Notamment [[https://github.com/videlec/pplpy/issues/22|issue #22]] 
+ * Travail sur pplpy. Notamment [[https://github.com/videlec/pplpy/issues/22|issue #22]] 
 ==== jeudi 1 juin ====
 
 Adrien is working on ticket [[https://trac.sagemath.org/ticket/16110|#16110]] of Parallelogram polyominoes. 
