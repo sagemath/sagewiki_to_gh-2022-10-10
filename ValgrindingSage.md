@@ -66,7 +66,7 @@ The default settings for callgrind do not interact well with Cython-generated co
 
 More to come at SD6. But: [[attachment:SageDays5_preliminary_valgrind_talk.pdf]]
 
-= Interesting Experimnetal Valgrind Tools/Components =
+= Interesting Experimental Valgrind Tools/Components =
 
  * client requests: see http://valgrind.org/docs/manual/mc-manual.html#mc-manual.clientreqs
  * omega: Is getting integrate as experimental tool into 3.3.0svn
