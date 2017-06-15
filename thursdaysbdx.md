@@ -12,6 +12,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
  * [[https://github.com/videlec/pplpy|pplpy]]: interface Pyton à la librairie [[http://bugseng.com/products/ppl/ppl|Parma Polyhedra Library (PPL)]]
  * algèbre linéaire dans Sage ([[http://flintlib.org/|flint]], [[http://www.linalg.org/|LinBox]], [[https://cs.uwaterloo.ca/~astorjoh/iml.html|IML]]) [[https://trac.sagemath.org/ticket/22872|#22872]]
+ * Integration de pplpy comme package Sage [[https://trac.sagemath.org/ticket/23024|#23024]].
  * gmpy2 et Sage [[https://trac.sagemath.org/ticket/22927|#22927]] and [[https://trac.sagemath.org/ticket/22928|#22928]]
  * polyomino dirigé convexes
  * arbres non ambigus
