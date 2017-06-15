@@ -13,8 +13,7 @@
   * And also look at the performance of Singular, polybori, giac, ...
  * For an old list of possible projects, see [[padics]]
 
-
-== Smallish Sage projects == 
+== Smallish Sage projects ==
 
  * Norms, traces, frobenius, matrix mod pn for relative p-adic extensions
  * Switching to exact defining polynomials for p-adic extensions
