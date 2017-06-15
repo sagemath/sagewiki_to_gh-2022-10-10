@@ -37,6 +37,11 @@ Sébastien L is reviewing:
  * [[https://trac.sagemath.org/ticket/23162|#23162]] (positive_review) Give a warning when using citation.get_systems() without Cython profiling 
  * [[https://trac.sagemath.org/ticket/16110|#16110]] (needs work with 21 comments:) Parallelogram Polyomino 
 
+Vincent K
+
+ * Travail sur pplpy
+ * Travail sur les tickets [[https://trac.sagemath.org/ticket/23024|#23024]] et [[https://trac.sagemath.org/ticket/22928|#22928]]
+ * Ouverture du ticket [[https://trac.sagemath.org/ticket/23246|#23246]]
 ==== Mardi 13 juin ====
 
 Vincent K 
