@@ -43,6 +43,8 @@ Vincent K
  * Travail sur pplpy
  * Travail sur les tickets [[https://trac.sagemath.org/ticket/23024|#23024]] et [[https://trac.sagemath.org/ticket/22928|#22928]]
  * Ouverture du ticket [[https://trac.sagemath.org/ticket/23246|#23246]]
+ * Ouverture du ticket [[https://trac.sagemath.org/ticket/23248|#23248]]
+
 ==== Mardi 13 juin ====
 
 Vincent K 
