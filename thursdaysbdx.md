@@ -35,7 +35,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 Sébastien L is reviewing:
 
  * [[https://trac.sagemath.org/ticket/23162|#23162]] (positive_review) Give a warning when using citation.get_systems() without Cython profiling 
- * [[https://trac.sagemath.org/ticket/16110|#16110]] Parallelogram Polyomino 
+ * [[https://trac.sagemath.org/ticket/16110|#16110]] (needs work with 21 comments:) Parallelogram Polyomino 
 
 ==== Mardi 13 juin ====
 
