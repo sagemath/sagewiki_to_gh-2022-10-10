@@ -35,6 +35,13 @@ Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|La
 
 == Compte-rendus ==
 
+==== Jeudi 15 juin ====
+
+Sébastien L is reviewing:
+
+ * #23162 (positive_review) Give a warning when using citation.get_systems() without Cython profiling 
+ * #16110 Parallelogram Polyomino 
+
 ==== Mardi 13 juin ====
 
 Vincent K 
