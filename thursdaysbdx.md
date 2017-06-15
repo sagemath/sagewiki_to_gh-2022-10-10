@@ -43,13 +43,18 @@ Vincent K
  * Travail sur pplpy
  * Travail sur les tickets [[https://trac.sagemath.org/ticket/23024|#23024]] et [[https://trac.sagemath.org/ticket/22928|#22928]]
  * Ouverture du ticket [[https://trac.sagemath.org/ticket/23246|#23246]]
+
+Vincent D
+
+ * Travil sur pplpy (problème de pickling)
  * Ouverture du ticket [[https://trac.sagemath.org/ticket/23248|#23248]]
 
 ==== Mardi 13 juin ====
 
 Vincent K 
 
- * Travail sur pplpy. Notamment [[https://github.com/videlec/pplpy/issues/22|issue #22]] 
+ * Travail sur pplpy. Notamment [[https://github.com/videlec/pplpy/issues/22|issue #22]]
+
 ==== jeudi 1 juin ====
 
 Adrien is working on ticket [[https://trac.sagemath.org/ticket/16110|#16110]] of Parallelogram polyominoes. 
