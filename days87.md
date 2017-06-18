@@ -59,6 +59,7 @@ If you would like to attend and don't need any funding, please fill out this for
  * Ricky Magner (Boston University)
  * Michael Musty (Dartmouth College)
  * John Jones (Arizona State University)
+ * Salomé Oudet (Lycée Alfred Kastler, France)
  * Aurel Page (University of Warwick)
  * !GaYee Park (University of Massachusetts, Amherst)
  * Sebastian Pauli (University of North Carolina, Greensboro)
