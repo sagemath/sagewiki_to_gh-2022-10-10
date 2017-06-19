@@ -20,7 +20,6 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
  * tableaux boisés
  * polyomino parallelogramme periodique + les bandes 
  * optimisation non-linéaire (voir [[http://scip.zib.de/|scip]] et le ticket [[https://trac.sagemath.org/ticket/10879||#10879]])
- * systèmes linéaires creux exactes (voir [[http://www.linalg.org/|linbox]] ainsi que [[https://groups.google.com/forum/#!topic/sage-devel/CfWRDIIEKnQ|ce fil sur sage-devel]])
  * amélioration du [[https://github.com/sagemath/sage-patchbot|patchbot]]
  * portage de [[http://perso.ens-lyon.fr/bruno.salvy/software/the-gfun-package/|gfun]] (voir le paquet [[http://marc.mezzarobba.net/code/ore_algebra-analytic/|ore_algebra-analytic]] développé par Marc Mezzarobba)
  * amélioration de AA et QQbar [[https://trac.sagemath.org/ticket/18333|meta-ticket #18333]]
