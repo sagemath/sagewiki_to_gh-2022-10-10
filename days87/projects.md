@@ -7,7 +7,7 @@
   * make sure simpler factoring methods are in good shape, like Hensel lifting and Panayi's root finding.
  * Precision models for p-adic matrices, polynomials
  * Power series via p-adic templates
- * Linkage files for p=2 and/or using longs for the case that p^prec < 2^62
+ * Linkage files for p=2 and/or using longs for the case that $p^{\text{prec}} < 2^{62}$
  * Implementation of Gröbner bases and tropical Gröbner bases algorithm (F4, F5, FGLM), doctest and submission
   * We might finish reviewing the inclusion of openf4 at [[https://trac.sagemath.org/ticket/18749|#18749]] and patch it to avoid going through strings all the time
   * And also look at the performance of Singular, polybori, giac, ...
