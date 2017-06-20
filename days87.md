@@ -116,6 +116,10 @@ There may also be carpools traveling from Boston, Montreal and Hanover, NH.  If 
     * Marc M.: Greyhound tickets appear to be sold out on Saturday (7/22). I'd like to get to Montreal airport before 7pm (I have a flight at 8.50pm). (Update: they appear as sold out on greyhound.ca, but they are available at greyhound.com --go figure!--).
     * JP Flori: I plan to take the 12:10pm bus (to montreal main bus station) which still seem available, like any other bus on that day.
 
+== Reimbursements ==
+
+Instructions for reimbursements will be given on the first day of the conference. If you are '''not''' a US citizen or green card holder, please bring your passport and any visa paperwork you have (I-94, visa stamps, etc.) so that we can make scans while you are here.
+
 == Internet on campus ==
 
 The University of Vermont offers [[https://www.eduroam.us/|eduroam]] on campus. To access the network at UVM, please take a few minutes to set up your laptop before traveling, while you are on your home university campus. If you do not have eduroam, please contact Christelle Vincent to receive a guest log in for UVM's network.
