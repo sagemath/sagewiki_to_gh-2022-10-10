@@ -19,6 +19,20 @@ and at
 [[http://lacim.uqam.ca/en/|LaCIM]],
 [[http://www.uqam.ca/|Université du Québec à Montréal]] the other weeks.
 
+== June 28th 1:30pm-5pm ==
+
+[[http://lacim.uqam.ca/en/|LaCIM]], Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy building]], 201,
+av. du Président-Kennedy, Montréal.
+
+3pm: coffee break (café du LaCIM)
+
+
+== June 21st 2pm-4pm ==
+
+[[https://more-sagemath-tutorials.readthedocs.io/en/latest/2017-05-29-CRM/|Computational sessions]] at the [[http://www.crm.umontreal.ca/2017/Equivariant17/|CRM school on equivariant combinatorics]]
+
+CRM, Montréal
+
 == June 12th-16th everyday 4pm-5:30pm ==
 
 [[https://more-sagemath-tutorials.readthedocs.io/en/latest/2017-05-29-CRM/|Computational sessions]] at the [[http://www.crm.umontreal.ca/2017/Equivariant17/|CRM school on equivariant combinatorics]]
