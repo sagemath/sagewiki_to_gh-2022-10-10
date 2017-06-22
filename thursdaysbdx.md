@@ -14,7 +14,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
  * algèbre linéaire dans Sage ([[http://flintlib.org/|flint]], [[http://www.linalg.org/|LinBox]], [[https://cs.uwaterloo.ca/~astorjoh/iml.html|IML]]) [[https://trac.sagemath.org/ticket/22872|#22872]]
  * Integration de pplpy comme package Sage [[https://trac.sagemath.org/ticket/23024|#23024]].
  * gmpy2 et Sage [[https://trac.sagemath.org/ticket/22927|#22927]] and [[https://trac.sagemath.org/ticket/22928|#22928]]
- * interfacer des librairies d'automates comme Vaucanson (bientôt WALI) ou [[http://fado.dcc.fc.up.pt/|Fado]]
+ * interfacer des librairies d'automates: Wali (ancien Vaucanson) ou [[http://fado.dcc.fc.up.pt/|Fado]]
  * polyomino dirigé convexes
  * arbres non ambigus
  * tableaux boisés
