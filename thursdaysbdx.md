@@ -40,6 +40,7 @@ Vincent D.
  * pull requests à gmpy2 [[https://github.com/aleaxit/gmpy/pull/148|#148]] et [[https://github.com/aleaxit/gmpy/pull/149|#149]]
  * [[https://github.com/aleaxit/gmpy/issues/150|issue #150]] dans gmpy2
  * [[https://github.com/sympy/sympy/pull/12784|PR #12784]] in sympy to fix [[https://github.com/sympy/sympy/issues/12753|issue #12753]] and port in Sage with [[https://trac.sagemath.org/ticket/23248|trac ticket #23248]]
+ * works on pypolymake [[https://github.com/videlec/pypolymake/issues/12|issue #12]]
 
 Vincent K.
 Travail sur [[https://trac.sagemath.org/ticket/22928|#22928]] et [[https://trac.sagemath.org/ticket/22927|#22927]]
