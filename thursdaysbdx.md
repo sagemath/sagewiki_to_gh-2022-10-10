@@ -31,6 +31,15 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 22 jui ====
+
+Sylvain S. est venu nous présenter Wali (la suite de Vaucanson)! Intégration dans Sage en prévision... à suivre!
+
+Vincent D.
+- pull requests à gmpy2 [[https://github.com/aleaxit/gmpy/pull/148|#148]] et [[https://github.com/aleaxit/gmpy/pull/149|#149]]
+- [[https://github.com/aleaxit/gmpy/issues/150|issue #150]] dans gmpy2
+- [[https://github.com/sympy/sympy/pull/12784|PR #12784]] in sympy to fix [[https://github.com/sympy/sympy/issues/12753|issue #12753]] and port in Sage with [[https://trac.sagemath.org/ticket/23248|trac ticket #23248]]
+
 ==== Jeudi 15 juin ====
 
 Sébastien L is reviewing:
