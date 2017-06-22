@@ -44,8 +44,8 @@ Vincent D.
  * nouveau [[https://trac.sagemath.org/ticket/23309|ticket #23309]] pour rendre gmpy2 standard
 
 Vincent K.
-Travail sur [[https://trac.sagemath.org/ticket/22928|#22928]] et [[https://trac.sagemath.org/ticket/22927|#22927]]
-integration du type gmpy.mpfr avec les nombres sage.
+ * Travail sur [[https://trac.sagemath.org/ticket/22928|#22928]] et [[https://trac.sagemath.org/ticket/22927|#22927]], integration du type gmpy.mpfr avec les nombres sage.
+ * Ouverture du ticket [[https://trac.sagemath.org/ticket/23308| #23308]]
 
 ==== Jeudi 15 juin ====
 
