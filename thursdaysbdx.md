@@ -41,6 +41,7 @@ Vincent D.
  * [[https://github.com/aleaxit/gmpy/issues/150|issue #150]] dans gmpy2
  * [[https://github.com/sympy/sympy/pull/12784|DI #12784]] dans sympy pour régler [[https://github.com/sympy/sympy/issues/12753|issue #12753]]. Et portage dans Sage avec le [[https://trac.sagemath.org/ticket/23248|ticket #23248]]
  * travail dans pypolymake autour de [[https://github.com/videlec/pypolymake/issues/12|issue #12]]
+ * nouveau [[https://trac.sagemath.org/ticket/23309|ticket #23309]] pour rendre gmpy2 standard
 
 Vincent K.
 Travail sur [[https://trac.sagemath.org/ticket/22928|#22928]] et [[https://trac.sagemath.org/ticket/22927|#22927]]
