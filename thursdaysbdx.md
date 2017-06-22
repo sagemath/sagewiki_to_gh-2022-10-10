@@ -37,10 +37,10 @@ Sylvain S. est venu nous présenter Wali (la suite de Vaucanson)! Intégration d
 
 Vincent D.
 
- * pull requests à gmpy2 [[https://github.com/aleaxit/gmpy/pull/148|#148]] et [[https://github.com/aleaxit/gmpy/pull/149|#149]]
+ * demande d'intégration (traduction approximative de "pull request") à gmpy2 [[https://github.com/aleaxit/gmpy/pull/148|DI #148]] et [[https://github.com/aleaxit/gmpy/pull/149|DI #149]]
  * [[https://github.com/aleaxit/gmpy/issues/150|issue #150]] dans gmpy2
- * [[https://github.com/sympy/sympy/pull/12784|PR #12784]] in sympy to fix [[https://github.com/sympy/sympy/issues/12753|issue #12753]] and port in Sage with [[https://trac.sagemath.org/ticket/23248|trac ticket #23248]]
- * works on pypolymake [[https://github.com/videlec/pypolymake/issues/12|issue #12]]
+ * [[https://github.com/sympy/sympy/pull/12784|DI #12784]] dans sympy pour régler [[https://github.com/sympy/sympy/issues/12753|issue #12753]]. Et portage dans Sage avec le [[https://trac.sagemath.org/ticket/23248|ticket #23248]]
+ * travail dans pypolymake autour de [[https://github.com/videlec/pypolymake/issues/12|issue #12]]
 
 Vincent K.
 Travail sur [[https://trac.sagemath.org/ticket/22928|#22928]] et [[https://trac.sagemath.org/ticket/22927|#22927]]
