@@ -14,7 +14,7 @@ to the participants wishes and needs.
 
 The meeting will be hosted alternatively at CRM during the workshops
 of the thematic semester
-[[http://www.crm.umontreal.ca/2017/Suites17/venueCRM_f.php|"algebra and words in combinatorics"]]
+[[http://www.crm.umontreal.ca/act/theme/theme_2017_1_en/|"algebra and words in combinatorics"]]
 and at
 [[http://lacim.uqam.ca/en/|LaCIM]],
 [[http://www.uqam.ca/|Université du Québec à Montréal]] the other weeks.
