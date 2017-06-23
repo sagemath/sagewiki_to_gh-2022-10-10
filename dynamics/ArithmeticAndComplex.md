@@ -51,7 +51,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Area|| Description || Difficulty || Priority ||
  ||<|1> Products of Projective Spaces || Rational Points on Subschemes || Implement an efficient rational points search on subschemes. Currently it is done by enumeration unless dim is 0 || ||
  ||<|1> Polynomials || specific functionality for regular polynomial endomorphisms of P^N || || ||
- ||<|1> Canonical heights || implement Well's algorithm that does not require factoring the resultant || || ||
  ||<|1> Numerical Precision || use real interval field for floating point computations (in heights and possibly rational preperiodic point functions) || medium || ||
  || Attracting Cycles || Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles || || ||
  || Non-Integral Domains || Make projective space work over non-integral domains. One method would be to make a valid point on which is valid for modulo all maximal ideals || || ||
@@ -67,7 +66,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
  || given a family, which members are pcf|| || ||
  || Berkovich P1 || || ||  ||
- || Improve speed ||sigma_invariants is currently very slow.  (Took several minutes to compute 2-cycle sigma invariants for a cubic.)  If we hope to use this to describe functions in the "Arithmetic Dynamics Database," then computation needs to be much faster. || Need to think about methods.  Will numerical approximations go faster?  Do we need to bound denominators of symmetric functions?  Can we?||  ||
  || reduced form || Implement for higher dimensions. See Stoll 'Reduction Theory Of Point Clusters In Projective Space' || ||
 
 
