@@ -61,7 +61,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || fix inheritance structure in generic/morphism/py. see tracc 14711 || || ||
  || implement more general schemes - charts, morphisms || || ||
  || color code cyclegraph. mark critical points for pcf potrait. perhaps color code points in intermediate fields for finite fields || || ||
- || Coercion || some kind of coercion model: if you have a map defined over QQ should you be able to take the image of a point over CC (i.e. somewhere you have a well defined embedding) without having to `change_ring()`. Something like this works for polynomials. This may or may not be a good idea, but if it can be done in a consistent manner it would improve usability in certain situations. || || ||
  ||<|3> Postcritically finite morphisms || given a number field enumerate pcf maps over that field || || ||
  || given a graph, find a pcf map with that graph (approximate with spider algorithm or exact?) || || ||
  || given a family, which members are pcf|| || ||
