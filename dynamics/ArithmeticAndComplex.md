@@ -34,6 +34,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/23333|#23333]]) new: Improve sigma invariant - Ben Hutz
+
  * ([[http://trac.sagemath.org/ticket/23257|#23257]]) needs-work: Plotting the Mandelbrot set in Sage - Ben Barros
 
  * ([[http://trac.sagemath.org/ticket/23047|#23047]]) new: Meta Ticket: Utilize coercion framework for scheme points and morphisms
