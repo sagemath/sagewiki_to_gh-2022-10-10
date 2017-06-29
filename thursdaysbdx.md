@@ -35,7 +35,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 Vincent K.
 
-* Review du ticket [[https://trac.sagemath.org/ticket/22889|#22889]] (positive_review)
+ * Review du ticket [[https://trac.sagemath.org/ticket/22889|#22889]] (positive_review)
 
 ==== Jeudi 22 juin ====
 
