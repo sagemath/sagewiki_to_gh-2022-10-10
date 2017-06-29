@@ -45,7 +45,6 @@ If you would like to attend and don't need any funding, please fill out this for
  * Alyson Deines (Center for Communications Research)
  * Xander Faber (Center for Computing Sciences)
  * Jean-Pierre Flori (Agence nationale de la sécurité des systèmes d'information)
- * Paul Gunnells* (University of Massachusetts, Amherst)
  * Rob Harron (University of Hawaii)
  * Wade Hindes (The Graduate Center at CUNY)
  * Benjamin Hutz (Saint Louis University)
@@ -64,18 +63,16 @@ If you would like to attend and don't need any funding, please fill out this for
  * Sebastian Pauli (University of North Carolina, Greensboro)
  * David Roberts (University of Minnesota, Morris)
  * Julian Rueth (Free Software Foundation Europe)
- * Malcolm Rupert* (University of Idaho)
+ * Malcolm Rupert (University of Idaho)
  * Adriana Salerno (Bates College)
  * Sam Schiavone (Dartmouth College)
  * Ander Steele (University of California, Santa Cruz)
  * Claire Tomesch (National Security Agency)
- * Gonzalo Tornaria* (Centro de Matemática)
+ * Gonzalo Tornaria (Centro de Matemática)
  * Nicholas Triantafillou (MIT)
  * Tristan Vaccon (Université de Limoges)
  * Mckenzie West (Reed College)
  * Gerardo Zelaya (University of Washington)
-
-* This participant has indicated that they might be coming.
 
 == Lodging ==
 
