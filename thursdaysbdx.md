@@ -31,6 +31,12 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 29 juin ====
+
+Vincent K.
+
+* Review du ticket [[https://trac.sagemath.org/ticket/22889|#22889]] (positive_review)
+
 ==== Jeudi 22 juin ====
 
 Sylvain S. est venu nous présenter Wali (la suite de Vaucanson)! Intégration dans Sage en prévision... à suivre!
