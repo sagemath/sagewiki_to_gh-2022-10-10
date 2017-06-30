@@ -7,6 +7,7 @@ See also [[https://www.google.com/search?q=sagemath+site:linkedin.com|LinkedIn p
 
 == Open offers ==
 
+2017: [[http://www.cybersecurityeducation.org/careers/cryptographer/ Cyber Security]]: How to Become a Cryptographer?
 
 
 == Current projects and past offers ==
