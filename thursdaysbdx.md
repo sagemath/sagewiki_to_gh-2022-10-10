@@ -39,7 +39,7 @@ Vincent K.
 
 ==== Jeudi 22 juin ====
 
-Sylvain S. est venu nous présenter Wali (la suite de Vaucanson)! Intégration dans Sage en prévision... à suivre!
+Sylvain L. est venu nous présenter Wali (la suite de Vaucanson)! Intégration dans Sage en prévision... à suivre!
 
 Vincent D.
 
