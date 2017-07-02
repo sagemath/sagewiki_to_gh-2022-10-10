@@ -68,7 +68,7 @@ If you would like to attend and don't need any funding, please fill out this for
  * Sam Schiavone (Dartmouth College)
  * Ander Steele (University of California, Santa Cruz)
  * Claire Tomesch (National Security Agency)
- * Gonzalo Tornaria (Centro de Matemática)
+ * Gonzalo Tornaria (Universidad de la República, Uruguay)
  * Nicholas Triantafillou (MIT)
  * Tristan Vaccon (Université de Limoges)
  * Mckenzie West (Reed College)
@@ -104,6 +104,7 @@ There may also be carpools traveling from Boston, Montreal and Hanover, NH.  If 
 
  * Montreal -> Vermont:
 
+    * Gonzalo Tornaría: my flight lands on sunday at 14:15 (AA from Miami), not sure I can make it to the 16:15 bus (probably not). Are there no services between 16:15 and 23:30?
     * Marc M.: my flight arrives too late for the afternoon bus. Would be interested in carpooling after 5pm on Sunday (7/16) or early morning on Monday (7/17).
     * JP Flori: Same situation for me (landing from Paris (France) at 3:00pm). I was thinking of taking the 11pm bus, arriving at Burlington (airport... we could share a taxi from there) around 2am. It should be possible to check in at that time according to David. It might be easier to take the monday morning 8:15am bus, arriving at Burlington (transit center, downtown!) before 11am. (Note from Christelle: The transit center downtown is 1.5 miles (2.5km) from University Heights and the airport is 2.5 miles (4km) from University Heights. Depending how much luggage you have, you might need a cab from either location.)
 
@@ -111,6 +112,7 @@ There may also be carpools traveling from Boston, Montreal and Hanover, NH.  If 
 
     * Marc M.: Greyhound tickets appear to be sold out on Saturday (7/22). I'd like to get to Montreal airport before 7pm (I have a flight at 8.50pm). (Update: they appear as sold out on greyhound.ca, but they are available at greyhound.com --go figure!--).
     * JP Flori: I plan to take the 12:10pm bus (to montreal main bus station) which still seem available, like any other bus on that day.
+    * Gonzalo Tornaría: I'm going to Montreal on saturday, staying there for the MCA.
 
 == Reimbursements ==
 
