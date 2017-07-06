@@ -127,3 +127,22 @@ We will add more details as the workshop approaches, but for now check out the [
 == To prepare for the workshop ==
 
 On the first day of the workshop, [[http://people.reed.edu/~westm/|Mckenzie West]] will lead some activities to help novices get oriented with Sage. Stay tuned for more details. Before the workshop, we recommend [[http://www.sagemath.org/|downloading and installing]] the latest version of the source code of Sage, opening a [[https://trac.sagemath.org/|Sage trac]] account and completing the [[https://www.codecademy.com/|Code Academy]] modules on Python and Git.
+
+
+
+If you have never done any LMFDB development work and might want to start -- a workshop is by far the
+best place to get started. A starting point is have a recent
+installation of Sage on your own laptop, on top of which you can run
+the LMFDB website software with a little setting up.
+Here is how to do it: https://github.com/LMFDB/lmfdb/blob/master/GettingStarted.md
+
+For this workshop, we have dedicated server for readonly purposes that simplifies some of the steps. If you add to your LMFDB directory a file called {{{mongoclient.config}}} with the following content:
+{{{
+[db]
+port = 27017
+host = readonly.lmfdb.xyz 
+}}}
+ then you can run the LMFDB as usual by doing:
+{{{
+ sage -python start-lmfdb.py --debug
+}}}
