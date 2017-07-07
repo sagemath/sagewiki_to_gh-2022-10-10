@@ -57,7 +57,7 @@ If you would like to attend and don't need any funding, please fill out this for
  * Michael Musty (Dartmouth College)
  * John Jones (Arizona State University)
  * Salomé Oudet (Lycée Alfred Kastler, France)
- * GaYee Park (University of Massachusetts, Amherst)
+ * !GaYee Park (University of Massachusetts, Amherst)
  * Sebastian Pauli (University of North Carolina, Greensboro)
  * David Roberts (University of Minnesota, Morris)
  * Julian Rueth (Free Software Foundation Europe)
