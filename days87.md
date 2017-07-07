@@ -57,12 +57,13 @@ If you would like to attend and don't need any funding, please fill out this for
  * Michael Musty (Dartmouth College)
  * John Jones (Arizona State University)
  * Salomé Oudet (Lycée Alfred Kastler, France)
- * !GaYee Park (University of Massachusetts, Amherst)
+ * GaYee Park (University of Massachusetts, Amherst)
  * Sebastian Pauli (University of North Carolina, Greensboro)
  * David Roberts (University of Minnesota, Morris)
  * Julian Rueth (Free Software Foundation Europe)
  * Malcolm Rupert (University of Idaho)
  * Adriana Salerno (Bates College)
+ * Jonathan Sands (University of Vermont)
  * Sam Schiavone (Dartmouth College)
  * Ander Steele (University of California, Santa Cruz)
  * Claire Tomesch (National Security Agency)
@@ -75,8 +76,9 @@ If you would like to attend and don't need any funding, please fill out this for
 == Lodging ==
 
 We anticipate that most participants will stay in [[https://www.uvm.edu/~arch/?Page=projects/learningcomplex.html&SM=pastprojectsmenu.html|these dorms]], which have air conditioned rooms, private bathrooms and common spaces for work and socializing in the evenings. Participants who are not funded by the conference may stay in the dorms and will pay for the total price of their accommodation by check. Please contact an organizer for more details.
- * Check in is Sunday July 16 at 4pm and check out is Sunday July 23 at 11am; if you plan on arriving late (outside of normal business hours) an on-call number will be available and will be posted here closer to the start of the workshop. Participants may check in and out anytime between the times posted.
+ * Check in is Sunday July 16 at 4pm and check out is Sunday July 23 at 11am; if you arrive outside of normal business hours, please go to University Heights North front desk and call (802) 656-5550. The employee on duty will come and help you check in. Participants may check in and out anytime between the times posted.
  * Each dorms room will contain a bed, a dresser, a wardrobe, a desk, a desk chair, a trash can and a recycling bin as well as the following linens: two flat sheets, one blanket, one pillow, one pillowcase, two towels, one washcloth, one plastic cup and one bar of soap. The room will not have an alarm clock or a desk lamp. If you tend to run cold at night, you might want to bring a second blanket.
+ * The rooms have ethernet jacks but no cables; if you would like to use a wired internet connection please bring your own ethernet cable.
  * Refrigerators will be available for participants in a common room. If you require a refrigerator in your room, please let an organizer know; this can be arranged with enough notice.
  * Parking permits will be provided free of charge to dorm residents. If you require a parking permit, please let an organizer know. Please watch for a parking map to be posted closer to the start of the workshop.
  * We will pay the cost of the dorm room directly for all funded participants.
