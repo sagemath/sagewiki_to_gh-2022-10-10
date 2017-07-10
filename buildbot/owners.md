@@ -20,6 +20,7 @@ Sagemath patchbots names and owners:
     icj-laptop        --> chapoton
     Martin-Laptop     --> mantepse
     mangouste         --> vdelecroix
+    manifold          --> egourgoulhon
     Mercury           --> kdilks
     pbua              --> novoselt
     pcl337b           --> ?
