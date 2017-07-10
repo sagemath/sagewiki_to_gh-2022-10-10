@@ -14,9 +14,36 @@ Location: University of Vermont, in Burlington, VT.
 == Schedule ==
 
 Activities will begin the morning of Monday, July 17 and end around in the early afternoon on Saturday, July 22. 
-The workshop will be primarily project-focused, though there will be a few talks aimed at graduate students.
+The workshop will be primarily project-focused, though there will be a few talks.
 
 On the first day Mckenzie West will lead some activities to help novices get oriented with Sage. If you are a novice and would like more information as well as ways to prepare, please scroll down to [[#To prepare for the workshop|To prepare for the workshop]] below.
+
+All events below take place in '''University Heights South room 133''', except as noted.
+
+'''Monday, July 17'''
+ * 9:45: Welcome, announcements
+ * 10:00: David Roe, Introduction to p-adics in Sage
+ * 11:00: John Jones, Introduction to the LMFDB
+ * 2:30: Mckenzie West, Get oriented with Sage, University Heights North 119
+
+'''Tuesday, July 18'''
+ * 10:00: William Stein, The modular forms code in Sage
+ * 11:00: Daily general meeting
+
+'''Wednesday, July 19'''
+ * 10:00: Tristan Vaccon: Characteristic polynomials of p-adic matrices
+ * 11:00: Daily general meeting
+
+'''Thursday, July 20'''
+ * 10:00: Talk TBA (please volunteer to give a talk!)
+ * 11:00: Daily general meeting
+
+'''Friday, July 21'''
+ * 10:00: Talk TBA (please volunteer to give a talk!)
+ * 11:00: Daily general meeting
+
+'''Saturday, July 22'''
+ * 11:00: Daily general meeting, wrap up
 
 == Projects ==
 
