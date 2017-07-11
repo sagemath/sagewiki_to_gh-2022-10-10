@@ -12,6 +12,8 @@ what ?
 
  - [[https://trac.sagemath.org/ticket/23362|#23362]]
 
+ - [[https://trac.sagemath.org/ticket/23401|#23401]]
+
 == rst format ==
 
 In the Sage notebook it was possible to load a rst file. With Jupyter one first has to use the script `rst2ipynb` and then load the notebook.
