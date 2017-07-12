@@ -19,11 +19,13 @@
  * Switching to exact defining polynomials for p-adic extensions
  * Add more black-box testing to p-adics, performance benchmarketing
  * nth roots, square roots that create extensions (extend=True as for integers)
- * Artin-Hasse exponentials, p-adic gamma functions
+ * Artin-Hasse exponentials [[https://trac.sagemath.org/ticket/12560|#12560]]
+ * p-adic gamma functions
  * Better coercion/conversion to and from residue fields
  * Optimized implementation of Frobenius automorphism [[https://trac.sagemath.org/ticket/12657|#12657]]
  * p-adic polylogarithms [[https://trac.sagemath.org/ticket/20260|#20260]]
  * bug in matrix of Frobenius when p = 3 [[https://trac.sagemath.org/ticket/11960|#11960]]
+ * Change root_field to return a p-adic field [[https://trac.sagemath.org/ticket/14893|#14893]], [[https://trac.sagemath.org/ticket/20244|#20244]]
  
 == LMFDB projects ==
 
