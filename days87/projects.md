@@ -12,6 +12,7 @@
   * We might finish reviewing the inclusion of openf4 at [[https://trac.sagemath.org/ticket/18749|#18749]] and patch it to avoid going through strings all the time
   * And also look at the performance of Singular, polybori, giac, ...
  * Zeta function tickets [[https://trac.sagemath.org/ticket/20264|#20264]], [[https://trac.sagemath.org/ticket/20265|#20265]]
+ * Roadmap for regular models in Sage using Mac Lane package, [[http://www-personal.umich.edu/~psuchand/projects.html|Suchandan Pal's code]] and Stefan Wewer's work.
  * For an old list of possible projects, see [[padics]]
 
 == Smallish Sage projects ==
