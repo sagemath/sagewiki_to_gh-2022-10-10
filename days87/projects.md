@@ -22,6 +22,8 @@
  * Artin-Hasse exponentials, p-adic gamma functions
  * Better coercion/conversion to and from residue fields
  * Optimized implementation of Frobenius automorphism [[https://trac.sagemath.org/ticket/12657|#12657]]
+ * p-adic polylogarithms [[https://trac.sagemath.org/ticket/20260|#20260]]
+ * bug in matrix of Frobenius when p = 3 [[https://trac.sagemath.org/ticket/11960|#11960]]
  
 == LMFDB projects ==
 
