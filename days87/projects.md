@@ -19,7 +19,7 @@
 
  * Norms, traces, frobenius, matrix mod pn for relative p-adic extensions
  * Add more black-box testing to p-adics, performance benchmarketing
- * nth roots, square roots that create extensions (extend=True as for integers)
+ * nth roots, square roots that create extensions (extend=True as for integers) [[https://trac.sagemath.org/ticket/12567|#12567]]
  * Artin-Hasse exponentials [[https://trac.sagemath.org/ticket/12560|#12560]]
  * p-adic gamma functions
  * Better coercion/conversion to and from residue fields
