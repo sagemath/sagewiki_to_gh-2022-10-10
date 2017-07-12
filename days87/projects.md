@@ -11,12 +11,12 @@
  * Implementation of Gröbner bases and tropical Gröbner bases algorithm (F4, F5, FGLM), doctest and submission
   * We might finish reviewing the inclusion of openf4 at [[https://trac.sagemath.org/ticket/18749|#18749]] and patch it to avoid going through strings all the time
   * And also look at the performance of Singular, polybori, giac, ...
+ * Zeta function tickets [[https://trac.sagemath.org/ticket/20264|#20264]], [[https://trac.sagemath.org/ticket/20265|#20265]]
  * For an old list of possible projects, see [[padics]]
 
 == Smallish Sage projects ==
 
  * Norms, traces, frobenius, matrix mod pn for relative p-adic extensions
- * Switching to exact defining polynomials for p-adic extensions
  * Add more black-box testing to p-adics, performance benchmarketing
  * nth roots, square roots that create extensions (extend=True as for integers)
  * Artin-Hasse exponentials [[https://trac.sagemath.org/ticket/12560|#12560]]
@@ -25,7 +25,14 @@
  * Optimized implementation of Frobenius automorphism [[https://trac.sagemath.org/ticket/12657|#12657]]
  * p-adic polylogarithms [[https://trac.sagemath.org/ticket/20260|#20260]]
  * bug in matrix of Frobenius when p = 3 [[https://trac.sagemath.org/ticket/11960|#11960]]
+ * Switching to exact defining polynomials for p-adic extensions
+ * Change p-adic constructors to not care about the base ring of a defining polynomial [[https://trac.sagemath.org/ticket/18606|#18606]]
+
+== Beginner Sage projects ==
+
  * Change root_field to return a p-adic field [[https://trac.sagemath.org/ticket/14893|#14893]], [[https://trac.sagemath.org/ticket/20244|#20244]]
+ * Update and improve the p-adic tutorial
+ * Add more thematic tutorials in number theory
  
 == LMFDB projects ==
 
