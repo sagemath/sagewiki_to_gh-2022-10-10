@@ -13,6 +13,7 @@
   * And also look at the performance of Singular, polybori, giac, ...
  * Zeta function tickets [[https://trac.sagemath.org/ticket/20264|#20264]], [[https://trac.sagemath.org/ticket/20265|#20265]]
  * Roadmap for regular models in Sage using Mac Lane package, [[http://www-personal.umich.edu/~psuchand/projects.html|Suchandan Pal's code]] and Stefan Wewers' work.
+ * Etale algebras
  * For an old list of possible projects, see [[padics]]
 
 == Smallish Sage projects ==
