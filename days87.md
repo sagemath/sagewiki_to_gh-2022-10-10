@@ -79,7 +79,6 @@ If you would like to attend and don't need any funding, please fill out this for
  * Rob Harron (University of Hawaii)
  * Wade Hindes (The Graduate Center at CUNY)
  * Benjamin Hutz (Saint Louis University)
- * Deven Lahoti (MIT)
  * Samuel Lelièvre (Université Paris-Sud)
  * Freda Li (Wesleyan University)
  * David Lowry-Duda (Brown University)
