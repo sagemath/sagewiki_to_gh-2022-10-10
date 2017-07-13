@@ -35,7 +35,7 @@ All events below take place in '''University Heights South room 133''', except a
  * 11:00: Daily general meeting
 
 '''Thursday, July 20'''
- * 10:00: Talk TBA (please volunteer to give a talk!)
+ * 10:00: Ben Hutz: Dynamical systems in Sage
  * 11:00: Daily general meeting
 
 '''Friday, July 21'''
