@@ -2,7 +2,7 @@
 = Les jeudi Sage à Bordeaux =
 = (autour de Sage, PARI/GP, et plus) =
 
-''Prochaine séance le jeudi 29 de 9:00 à 12:00 salle 64.''
+''Prochaine séance le jeudi XX de XX:XX à XX:XX salle XX.''
 
 Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour programmer autour du logiciel de calcul formel [[http://www.sagemath.org/|Sage]]. Ces journées ont commencé le 13 avril 2017. Cette page permet de suivre l'activité des rencontres.
 
@@ -28,6 +28,8 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
     * https://matheuscmss.wordpress.com/2017/02/04/soft-bounds-on-the-hausdorff-dimension-of-dynamical-cantor-sets/
     * Hensley "A polynomial time algorithm for the Hausdorff dimension of continued fraction Cantor Sets" (1994)
     * Pollicott "Maximal Lyapunov exponents for random matrix products" (2010)
+ * corriger et améliorer les dessins hyperboliques (dim 2)
+    * [[https://trac.sagemath.org/ticket/23427|#23427]]
 
 == Compte-rendus ==
 
