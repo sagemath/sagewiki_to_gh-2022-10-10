@@ -30,6 +30,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
     * Pollicott "Maximal Lyapunov exponents for random matrix products" (2010)
  * corriger et améliorer les dessins hyperboliques (dim 2)
     * [[https://trac.sagemath.org/ticket/23427|#23427]]
+    * supports pour les horocycles et les polygones fait de bords géodésiques et horocycliques
 
 == Compte-rendus ==
 
