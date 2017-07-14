@@ -1,14 +1,5 @@
 = Sage Days 87: p-adics in Sage and the LMFDB (July 17-22, 2017) =
 
-'''Organizers''':
- * Jennifer Balakrishnan (Boston University)
- * Xavier Caruso (Université de Rennes 1)
- * Edgar Costa (Dartmouth College)
- * Taylor Dupuy (University of Vermont)
- * David Roe (University of Pittsburgh)
- * William Stein (University of Washington)
- * Christelle Vincent (University of Vermont)
-
 Location: University of Vermont, in Burlington, VT.
 
 == Schedule ==
@@ -55,56 +46,8 @@ Feel free to add suggestions to our [[/projects|list of projects]]
 
 == Participants ==
 
-If you have applied for funding, you should have heard from us.
+See our [[/participants|list of participants]].
 If you would like to attend and don't need any funding, please fill out this form: [[https://goo.gl/forms/hWMcMsxVJGTyUnqn1|this form]].
- 
-
- * Samuele Anni (Universität Heidelberg)
- * Asra Ali (Google)
- * Vishal Arul (MIT)
- * Mark Auden (University of Rochester)
- * David Ayotte (Laval University)
- * Angelica Babei (Dartmouth College)
- * Alexander Best (Boston University)
- * Jonathan Bober (University of Bristol)
- * Adele Bourgeois (University of Ottawa)
- * Simon Brandhorst (Universität Hannover)
- * Benjamin Breen (Dartmouth College)
- * Sara Chari (Dartmouth College)
- * Kwangho Choiy (Southern Illinois University)
- * Rachel Davis (University of Wisconsin, Madison)
- * Alyson Deines (Center for Communications Research)
- * Xander Faber (Center for Computing Sciences)
- * Jean-Pierre Flori (Agence nationale de la sécurité des systèmes d'information)
- * Rob Harron (University of Hawaii)
- * Wade Hindes (The Graduate Center at CUNY)
- * Benjamin Hutz (Saint Louis University)
- * Samuel Lelièvre (Université Paris-Sud)
- * Freda Li (Wesleyan University)
- * David Lowry-Duda (Brown University)
- * Kevin Lui (University of Washington)
- * Ricky Magner (Boston University)
- * Marc Masdeu (University of Warwick)
- * Michael Musty (Dartmouth College)
- * John Jones (Arizona State University)
- * Salomé Oudet (Lycée Alfred Kastler, France)
- * !GaYee Park (University of Massachusetts, Amherst)
- * Sebastian Pauli (University of North Carolina, Greensboro)
- * David Roberts (University of Minnesota, Morris)
- * Julian Rüth (freelance programmer)
- * Malcolm Rupert (University of Idaho)
- * Adriana Salerno (Bates College)
- * Jonathan Sands (University of Vermont)
- * Sam Schiavone (Dartmouth College)
- * Brian Sinclair (National Security Agency)
- * Padmavathi Srinivasan (Georgia Institute of Technology)
- * Ander Steele (University of California, Santa Cruz)
- * Claire Tomesch (National Security Agency)
- * Gonzalo Tornaria (Universidad de la República, Uruguay)
- * Nicholas Triantafillou (MIT)
- * Tristan Vaccon (Université de Limoges)
- * Mckenzie West (Reed College)
- * Gerardo Zelaya (University of Washington)
 
 == Lodging ==
 
