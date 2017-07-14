@@ -91,7 +91,7 @@ If you would like to attend and don't need any funding, please fill out this for
  * !GaYee Park (University of Massachusetts, Amherst)
  * Sebastian Pauli (University of North Carolina, Greensboro)
  * David Roberts (University of Minnesota, Morris)
- * Julian Rueth (Free Software Foundation Europe)
+ * Julian Rüth (freelance programmer)
  * Malcolm Rupert (University of Idaho)
  * Adriana Salerno (Bates College)
  * Jonathan Sands (University of Vermont)
