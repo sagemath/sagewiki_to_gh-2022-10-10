@@ -46,4 +46,5 @@
  * Finish up: https://github.com/LMFDB/lmfdb-collab/wiki//Warwick-workshop-June-2017
  * Sanitize API interface: https://github.com/LMFDB/lmfdb/issues/2053
  * Prototype a Sage/LMFDB interface. See https://github.com/LMFDB/lmfdb/issues/1360 
- * Display Hecke eigenvalues in terms of an integral basis. See: https://github.com/LMFDB/lmfdb/issues/975
+ * Display Hecke eigenvalues in terms of an integral basis. See: https://github.com/LMFDB/lmfdb/issues/975 (note see also https://github.com/LMFDB/lmfdb/issues/2135 and talk to JJ for how it is related)
+ * Use Monge-reduced polynomials (and ones related to them) for defining polynomials
