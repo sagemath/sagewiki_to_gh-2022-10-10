@@ -31,6 +31,7 @@
  * Change p-adic constructors to not care about the base ring of a defining polynomial [[https://trac.sagemath.org/ticket/18606|#18606]]
  * Investigate slowness in unramified extensions [[https://trac.sagemath.org/ticket/23172|#23172]]
  * Review Xavier's fast exponential code [[https://trac.sagemath.org/ticket/23235|#23235]]
+ * Ray class groups and Hecke characters [[https://trac.sagemath.org/ticket/15829|#15829]]
 
 == Beginner Sage projects ==
 
