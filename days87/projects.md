@@ -49,3 +49,6 @@
  * Prototype a Sage/LMFDB interface. See https://github.com/LMFDB/lmfdb/issues/1360 
  * Display Hecke eigenvalues in terms of an integral basis. See: https://github.com/LMFDB/lmfdb/issues/975 (note see also https://github.com/LMFDB/lmfdb/issues/2135 and talk to JJ for how it is related)
  * Use Monge-reduced polynomials (and ones related to them) for defining polynomials
+ * Hecke algebras: see https://github.com/sanni85/HeckeAlgebras and https://github.com/sanni85/lmfdb/tree/hecke_alg
+ * Dirichlet characters modulo l: see https://github.com/sanni85/Dirichlet_modL
+ * Galois representations modulo l: see https://github.com/sanni85/Mod-l-galois-representations and http://beta.lmfdb.org/Representation/Galois/ModL/ 
