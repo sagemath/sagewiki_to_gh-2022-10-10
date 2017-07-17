@@ -33,7 +33,7 @@ All events below take place in '''University Heights South room 133''', except a
  * 11:00: Daily general meeting
 
 '''Friday, July 21'''
- * 10:00: Talk TBA (please volunteer to give a talk!)
+ * 10:00: Marc Masdeu: Distributing Sage/Python code the right way
  * 11:00: Daily general meeting
 
 '''Saturday, July 22'''
