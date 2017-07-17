@@ -132,6 +132,22 @@ cd ~/Src/
 
 Now `sage-BLAH` is available for you to work on a ticket.  If you think you'll be doing a lot of development, feel free to create your own installation (labeled with your trac username); if you're less experienced you might share one as part of a group.
 
+=== Building and Large output ===
+
+Avoid sending huge amounts of output in a terminal, as this slows the whole project down for everybody (proper output truncation isn’t sufficiently implemented).
+
+Instead, please do
+{{{
+./new_sage -b > output
+}}}
+rather than just sending a large amount of output to your terminal.  You can check on output by typing
+```
+tail output
+```
+
+Alternatively, if you know tmux, do control+b, then c to make a new session, and leave the large-output session in a different window.
+
+
 === Jupyter notebooks ===
 
 [edited by William Stein]
