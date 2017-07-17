@@ -152,7 +152,7 @@ Alternatively, if you know tmux, do control+b, then c to make a new session, and
 
 [edited by William Stein]
 
-Our custom Sages ARE available from Jupyter notebooks.  Just make a copy of ~/.local/share/jupyter/kernels/sageroed (next to it) and edit kernel.json to point to your install.   See https://github.com/sagemathinc/cocalc/issues/2201
+Our custom Sages ARE available from Jupyter notebooks.  Just make a copy of /projects/da1818ed-996d-4de6-acc6-361415b7725d/.local/share/jupyter/kernels/sageroed (next to it) and edit kernel.json to point to your install.   See https://github.com/sagemathinc/cocalc/issues/2201
 
 === Tmux ===
 
