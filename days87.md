@@ -128,7 +128,9 @@ Note that the renaming is very important so that other people can extract from t
 
 === Jupyter notebooks ===
 
-Our custom Sages are not currently available from Jupyter notebooks.  If you'd like to write Jupyter kernels to change this, feel free to do so and add the instructions for using them here.
+[edited by William Stein]
+
+Our custom Sages ARE available from Jupyter notebooks.  Just make a copy of ~/.local/share/jupyter/kernels/sageroed (next to it) and edit kernel.json to point to your install.   See https://github.com/sagemathinc/cocalc/issues/2201
 
 === Tmux ===
 
