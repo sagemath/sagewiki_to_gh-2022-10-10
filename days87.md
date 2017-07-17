@@ -141,11 +141,11 @@ Instead, please do
 ./new_sage -b > output
 }}}
 rather than just sending a large amount of output to your terminal.  You can check on output by typing
-```
+{{{
 tail output
-```
+}}}
 
-Alternatively, if you know tmux, do control+b, then c to make a new session, and leave the large-output session in a different window.
+Alternatively, if you know tmux, do control+b, then c to make a new session, and leave the large-output session in a different session.  You can switch back and forth with control+b then n.
 
 
 === Jupyter notebooks ===
