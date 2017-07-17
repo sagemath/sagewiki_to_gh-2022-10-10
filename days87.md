@@ -133,7 +133,7 @@ The current !CoCalc terminal implementation has some bugs with resizing insertin
 
 == Local dining options ==
 
-We will add more details as the workshop approaches, but for now check out the [[https://drive.google.com/open?id=1A2B4-EmWB1cUQat364SzVJV9aD4&usp=sharing|map]] Christelle made!
+Check out the [[https://drive.google.com/open?id=1A2B4-EmWB1cUQat364SzVJV9aD4&usp=sharing|map]] Christelle made!  Some people will be getting takeout for dinner.
 
 == To prepare for the workshop ==
 
