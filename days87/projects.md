@@ -5,7 +5,7 @@
  * Add general extensions of p-adic fields in Sage [[https://trac.sagemath.org/ticket/23218|#23218]] (David Roe)
  * Add Julian's Mac Lane package which provides a general framework for discrete valuations to Sage [[https://trac.sagemath.org/ticket/21869|#21869]] (Julian)
  * Add Julian's Completion package, for general p-adic extension backed by number fields, to Sage [[https://trac.sagemath.org/ticket/22956|#22956]] (Julian)
- * Polynomial factorization, using Julian's Mac Lane package and/or Brian Sinclair's ticket [[https://trac.sagemath.org/ticket/12561|#12561]] (Brian)
+ * Polynomial factorization, using Julian's Mac Lane package and/or Brian Sinclair's ticket [[https://trac.sagemath.org/ticket/12561|#12561]] (Brian - meeting in UHS 115)
   * make sure simpler factoring methods are in good shape, like Hensel lifting and Panayi's root finding.
  * Precision models for p-adic matrices, polynomials (Xavier)
  * Power series via p-adic templates (Adriana)
