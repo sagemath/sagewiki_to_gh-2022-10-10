@@ -42,12 +42,12 @@
  
 == LMFDB projects ==
 
+ * Display Hecke eigenvalues in terms of an integral basis. See: https://github.com/LMFDB/lmfdb/issues/975 (note see also https://github.com/LMFDB/lmfdb/issues/2135 and talk to JJ for how it is related)
  * Work on the isogeny classes of abelian varieties over finite fields. See http://beta.lmfdb.org/Variety/Abelian/Fq/
  * Work on Hypergeometric Motives over ℚ. See http://beta.lmfdb.org/Motive/Hypergeometric/Q/
- * Finish up: https://github.com/LMFDB/lmfdb-collab/wiki//Warwick-workshop-June-2017
+ * Finish up: https://github.com/LMFDB/lmfdb-collab/wiki//Warwick-workshop-June-2017, precisely: https://github.com/LMFDB/lmfdb/issues/414, https://github.com/LMFDB/lmfdb/issues/418, and https://github.com/LMFDB/lmfdb/issues/396
  * Sanitize API interface: https://github.com/LMFDB/lmfdb/issues/2053
- * Prototype a Sage/LMFDB interface. See https://github.com/LMFDB/lmfdb/issues/1360 
- * Display Hecke eigenvalues in terms of an integral basis. See: https://github.com/LMFDB/lmfdb/issues/975 (note see also https://github.com/LMFDB/lmfdb/issues/2135 and talk to JJ for how it is related)
+ * Prototype a Sage/LMFDB interface. See https://github.com/LMFDB/lmfdb/issues/1360  and https://github.com/LMFDB/lmfdb/issues/2169
  * Use Monge-reduced polynomials (and ones related to them) for defining polynomials
  * Hecke algebras: see https://github.com/sanni85/HeckeAlgebras and https://github.com/sanni85/lmfdb/tree/hecke_alg
  * Dirichlet characters modulo l: see https://github.com/sanni85/Dirichlet_modL
