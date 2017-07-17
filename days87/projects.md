@@ -59,4 +59,4 @@
  * Dirichlet characters modulo l: see https://github.com/sanni85/Dirichlet_modL (Anni)
  * Galois representations modulo l: see https://github.com/sanni85/Mod-l-galois-representations and http://beta.lmfdb.org/Representation/Galois/ModL/ (Anni)
  * Display local algebras (JJ)
- * Better handling of character tables
+ * Better handling of character tables (JJ)
