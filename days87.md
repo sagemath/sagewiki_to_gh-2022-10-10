@@ -127,7 +127,7 @@ You can create a new Sage installation within a couple minutes as follows:
 
 {{{
 cd ~/Src/
-tar xf sage-8.0.rc1.tar
+tar xf sage-8.0.rc2.tar
 mv SageMath sage-BLAH
 cd sage-BLAH
 git remote add trac git://trac.sagemath.org/sage.git
