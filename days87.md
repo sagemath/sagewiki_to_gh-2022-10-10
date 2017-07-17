@@ -138,7 +138,7 @@ Avoid sending huge amounts of output in a terminal, as this slows the whole proj
 
 Instead, please do
 {{{
-./new_sage -b > output
+./sage -b > output
 }}}
 rather than just sending a large amount of output to your terminal.  You can check on output by typing
 {{{
