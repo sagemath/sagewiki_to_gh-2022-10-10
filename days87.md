@@ -57,6 +57,8 @@ We have power strips, blank paper, paper easels and markers available in the com
 
 Feel free to add suggestions to our [[/projects|list of projects]]
 
+Please add "sd87" as a keyword to any tickets you are working in during this week so they show up in this list: [[https://trac.sagemath.org/query?keywords=~sd87&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|sd87 Tickets]]
+
 == Participants ==
 
 See our [[/participants|list of participants]].
