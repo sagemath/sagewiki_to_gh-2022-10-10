@@ -17,7 +17,7 @@ All events below take place in '''University Heights South room 133''', except a
  * 9:45: Welcome, announcements
  * 10:00: David Roe, Introduction to p-adics in Sage
  * 11:00: John Jones, Introduction to the LMFDB
- * 2:30: Daily general meeting
+ * 2:00: Daily general meeting
  * following: Mckenzie West, Get oriented with Sage, University Heights North 119
 
 '''Tuesday, July 18'''
