@@ -1,5 +1,7 @@
 = Sage Days 87: p-adics in Sage and the LMFDB (July 17-22, 2017) =
 
+<<TableOfContents>>
+
 Location: University of Vermont, in Burlington, VT.
 
 == Schedule ==
