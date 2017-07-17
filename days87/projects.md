@@ -13,7 +13,7 @@
  * Implementation of Gröbner bases and tropical Gröbner bases algorithm (F4, F5, FGLM), doctest and submission
   * We might finish reviewing the inclusion of openf4 at [[https://trac.sagemath.org/ticket/18749|#18749]] and patch it to avoid going through strings all the time
   * And also look at the performance of Singular, polybori, giac, ...
- * Zeta function tickets [[https://trac.sagemath.org/ticket/20264|#20264]], [[https://trac.sagemath.org/ticket/20265|#20265]]
+ * Zeta function tickets [[https://trac.sagemath.org/ticket/20264|#20264]], [[https://trac.sagemath.org/ticket/20265|#20265]], [[https://trac.sagemath.org/ticket/19865|#19865]]
  * Roadmap for regular models in Sage using Mac Lane package, [[http://www-personal.umich.edu/~psuchand/projects.html|Suchandan Pal's code]] and Stefan Wewers' work.
  * Etale algebras
  * For an old list of possible projects, see [[padics]]
@@ -35,6 +35,10 @@
  * Review Xavier's fast exponential code [[https://trac.sagemath.org/ticket/23235|#23235]]
  * Ray class groups and Hecke characters [[https://trac.sagemath.org/ticket/15829|#15829]]
  * Add Monge-reduction for Eisenstein polynomials (first over $\mathbb{Q}_p$, then over unramified extensions)
+ * Generic zeta function method for schemes [[https://trac.sagemath.org/ticket/20308|#20308]]
+ * Elliptic curve point counting over F_q using PARI [[https://trac.sagemath.org/ticket/16931|#16931]]
+ * Expose PARI code for Frobenius matrix on hyperelliptic curves [[https://trac.sagemath.org/ticket/20309|#20309]]
+ * Raise coverage of schemes/hyperelliptic_curves/monsky_washnitzer.py to 100% [[https://trac.sagemath.org/ticket/15645|#15645]]
 
 == Beginner Sage projects ==
 
