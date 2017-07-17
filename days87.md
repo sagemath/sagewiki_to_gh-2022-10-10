@@ -21,7 +21,7 @@ All events below take place in '''University Heights South room 133''', except a
  * following: Mckenzie West, Get oriented with Sage, University Heights North 119
 
 '''Tuesday, July 18'''
- * 10:00: William Stein, [State of Sage](https://k8s.sagemath.org/app#projects/da1818ed-996d-4de6-acc6-361415b7725d/files/Talks/william/state-of-sage.ipynb)
+ * 10:00: William Stein, [[https://k8s.sagemath.org/app#projects/da1818ed-996d-4de6-acc6-361415b7725d/files/Talks/william/state-of-sage.ipynb|State of Sage]]
  * 10:20: William Stein, The modular forms code in Sage
  * 11:00: Daily general meeting
 
