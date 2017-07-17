@@ -1,3 +1,5 @@
+<<TableOfContents>>
+
 == Big Sage projects ==
 
  * Add general extensions of p-adic fields in Sage [[https://trac.sagemath.org/ticket/23218|#23218]]
