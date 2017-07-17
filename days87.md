@@ -43,6 +43,15 @@ All events below take place in '''University Heights South room 133''', except a
 
 Here is a [[https://www.uvm.edu/~cvincen1/images/locationmap.pdf|campus map]] with University Heights circled in green. The check in location for the dorms is also indicated by an arrow. Check in is in University Heights North, but all of our dorm rooms as well as the main room in which we will be meeting (University Heights South 133) are in University Heights South.
 
+Our rooms are
+ * University Heights South 133
+ * University Heights North 119
+ * University Heights North 016
+ * Living and Learning Building B B132
+ * Living and Learning Commons 302
+
+We have power strips, blank paper, paper easels and markers available in the common room.
+
 == Projects ==
 
 Feel free to add suggestions to our [[/projects|list of projects]]
