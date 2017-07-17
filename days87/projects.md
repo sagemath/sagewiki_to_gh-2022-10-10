@@ -47,7 +47,7 @@
  * Add more thematic tutorials in number theory (Rob)
 
 == LMFDB projects ==
- * Fix poldredabs related issues https://github.com/LMFDB/lmfdb/issues/2135  (JJ)
+ * Fix polredabs related issues https://github.com/LMFDB/lmfdb/issues/2135  (JJ, Christelle, Rachel, University Heights North 119))
  * Display Hecke eigenvalues in terms of an integral basis. See: https://github.com/LMFDB/lmfdb/issues/975 (note see also https://github.com/LMFDB/lmfdb/issues/2135 and talk to JJ for how it is related) (Edgar)
  * Work on the isogeny classes of abelian varieties over finite fields. See http://beta.lmfdb.org/Variety/Abelian/Fq/ (Christelle)
  * Work on Hypergeometric Motives over ℚ. See http://beta.lmfdb.org/Motive/Hypergeometric/Q/ (Dave Roberts)
