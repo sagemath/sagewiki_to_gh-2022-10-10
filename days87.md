@@ -123,19 +123,14 @@ where `roed` should be replaced by your trac username (if you haven't run `setup
 
 === Sage installations ===
 
-You can create a new Sage installation within a couple minutes as follows:
+You can create a new Sage installation within a couple minutes as follows (replace BLAH with the name of your installation, e.g. your trac username):
 
 {{{
 cd ~/Src/
-tar xf sage-8.0.rc2.tar
-mv SageMath sage-BLAH
-cd sage-BLAH
-git remote add trac git://trac.sagemath.org/sage.git
-git remote set-url --push trac git@trac.sagemath.org:sage.git
-./sage
+./new_sage BLAH
 }}}
 
-Note that the renaming is very important so that other people can extract from the tarball. Now `sage-BLAH` is available for you to work on a ticket.  If you think you'll be doing a lot of development, feel free to create your own installation (labeled with your trac username); if you're less experienced you might share one as part of a group.
+Now `sage-BLAH` is available for you to work on a ticket.  If you think you'll be doing a lot of development, feel free to create your own installation (labeled with your trac username); if you're less experienced you might share one as part of a group.
 
 === Jupyter notebooks ===
 
