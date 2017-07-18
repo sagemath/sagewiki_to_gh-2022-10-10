@@ -24,7 +24,7 @@
  * Add more black-box testing to p-adics, performance benchmarketing (Aly)
  * nth roots, square roots that create extensions (extend=True as for integers) [[https://trac.sagemath.org/ticket/12567|#12567]] (Marc)
  * Artin-Hasse exponentials [[https://trac.sagemath.org/ticket/12560|#12560]] (Xavier)
- * p-adic gamma functions (Adriana)
+ * Gauss sums via the Gross-Koblitz formula, which uses code on p-adic gamma functions (Adriana)
  * Better coercion/conversion to and from residue fields (Aly, Marc)
  * Optimized implementation of Frobenius automorphism [[https://trac.sagemath.org/ticket/12657|#12657]] (Ander)
  * p-adic polylogarithms [[https://trac.sagemath.org/ticket/20260|#20260]] (Jen)
