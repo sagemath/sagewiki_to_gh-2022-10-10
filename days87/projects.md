@@ -1,5 +1,9 @@
 <<TableOfContents>>
 
+A list of tickets we're working on can be found [[https://trac.sagemath.org/query?keywords=~sd87&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|here]].  If you work on a ticket, please add `sd87` to the list of keywords so that it appears!
+
+Most of the code for working with p-adics can be found [[https://git.sagemath.org/sage.git/tree/src/sage/rings/padics|here]] and [[https://git.sagemath.org/sage.git/tree/src/sage/libs/linkages/padics|here]] if you want to browse.
+
 == Big Sage projects ==
 
  * Add general extensions of p-adic fields in Sage [[https://trac.sagemath.org/ticket/23218|#23218]] (David Roe)
