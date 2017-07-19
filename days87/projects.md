@@ -12,6 +12,8 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Polynomial factorization, using Julian's Mac Lane package and/or Brian Sinclair's ticket [[https://trac.sagemath.org/ticket/12561|#12561]] (Brian - meeting in UHS 115)
   * make sure simpler factoring methods are in good shape, like Hensel lifting and Panayi's root finding.
  * Precision models for p-adic matrices, polynomials (Xavier)
+  * implement Smith normal form [[https://trac.sagemath.org/ticket/23450|#23450]] (ticket ready for review), Hermite normal form
+  * implement classes for lattices in p-adic vector spaces
  * Power series via p-adic templates (Adriana)
  * Linkage files for p=2 and/or using longs for the case that $p^{\text{prec}} < 2^{62}$
  * Implementation of Gröbner bases and tropical Gröbner bases algorithm (F4, F5, FGLM), doctest and submission (Tristan)
