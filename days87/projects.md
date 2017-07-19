@@ -45,6 +45,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Elliptic curve point counting over F_q using PARI [[https://trac.sagemath.org/ticket/16931|#16931]] (J-P Flori)
  * Expose PARI code for Frobenius matrix on hyperelliptic curves [[https://trac.sagemath.org/ticket/20309|#20309]] (Marc)
  * Raise coverage of schemes/hyperelliptic_curves/monsky_washnitzer.py to 100% [[https://trac.sagemath.org/ticket/15645|#15645]] (Edgar)
+ * Requested by Anna Haensch: A weak approximation function
 
 == Beginner Sage projects ==
 
