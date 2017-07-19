@@ -55,12 +55,12 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
 
 == LMFDB projects ==
  * Fix polredabs related issues https://github.com/LMFDB/lmfdb/issues/2135  (JJ)
- * Display Hecke eigenvalues in terms of an integral basis. See: https://github.com/LMFDB/lmfdb/issues/975 (note see also https://github.com/LMFDB/lmfdb/issues/2135 and talk to JJ for how it is related) (Edgar)
+ * Display Hecke eigenvalues in terms of an integral basis. See: https://github.com/LMFDB/lmfdb/issues/975 (note see also https://github.com/LMFDB/lmfdb/issues/2135 and talk to JJ for how it is related) (Edgar, Sam Schiavone) 
  * Work on the isogeny classes of abelian varieties over finite fields. See http://beta.lmfdb.org/Variety/Abelian/Fq/ (Christelle)
  * Work on Hypergeometric Motives over ℚ. See http://beta.lmfdb.org/Motive/Hypergeometric/Q/ (Dave Roberts)
  * Finish up: https://github.com/LMFDB/lmfdb-collab/wiki//Warwick-workshop-June-2017, precisely: https://github.com/LMFDB/lmfdb/issues/414, https://github.com/LMFDB/lmfdb/issues/418, and https://github.com/LMFDB/lmfdb/issues/396 (Edgar)
  * --(Sanitize API interface: https://github.com/LMFDB/lmfdb/issues/2053 (Edgar) )--
- * Prototype a Sage/LMFDB interface. See https://github.com/LMFDB/lmfdb/issues/1360  and https://github.com/LMFDB/lmfdb/issues/2169 (Edgar)
+ * Prototype a Sage/LMFDB interface. See https://github.com/LMFDB/lmfdb/issues/1360  and https://github.com/LMFDB/lmfdb/issues/2169 (Edgar, Simon Brandhorst and David Lowry-Duda)
  * Use Monge-reduced polynomials (and ones related to them) for defining polynomials (JJ)
  * Hecke algebras: see https://github.com/sanni85/HeckeAlgebras and https://github.com/sanni85/lmfdb/tree/hecke_alg (Anni)
  * Dirichlet characters modulo l: see https://github.com/sanni85/Dirichlet_modL (Anni)
