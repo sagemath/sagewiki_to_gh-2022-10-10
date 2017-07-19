@@ -19,7 +19,10 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Implementation of Gröbner bases and tropical Gröbner bases algorithm (F4, F5, FGLM), doctest and submission (Tristan)
   * We might finish reviewing the inclusion of openf4 at [[https://trac.sagemath.org/ticket/18749|#18749]] and patch it to avoid going through strings all the time
   * And also look at the performance of Singular, polybori, giac, ...
- * Zeta function tickets [[https://trac.sagemath.org/ticket/20264|#20264]], [[https://trac.sagemath.org/ticket/20265|#20265]], [[https://trac.sagemath.org/ticket/19865|#19865]] (Edgar)
+ * Zeta function tickets 
+  * [[https://trac.sagemath.org/ticket/20264|#20264]] (Edgar, Vishal Aru, Nicholas Triantafillou)
+  * [[https://trac.sagemath.org/ticket/20265|#20265]] (Edgar, JP) 
+  * [[https://trac.sagemath.org/ticket/19865|#19865]] 
  * Roadmap for regular models in Sage using Mac Lane package, [[http://www-personal.umich.edu/~psuchand/projects.html|Suchandan Pal's code]] and Stefan Wewers' work. (Julian)
  * Etale algebras (maybe see also ticket [[https://trac.sagemath.org/ticket/21413|#21413]]) (Ricky)
  * For an old list of possible projects, see [[padics]]
