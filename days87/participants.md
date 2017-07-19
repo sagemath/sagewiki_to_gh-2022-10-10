@@ -6,7 +6,7 @@ The following people will be participating in Sage Days 87.
  * Edgar Costa (Dartmouth College)
  * Taylor Dupuy (University of Vermont)
  * David Roe (University of Pittsburgh)
- * William Stein (SageMath, Inc. and University of Washington)
+ * William Stein (Sagemath, Inc. and University of Washington)
  * Christelle Vincent (University of Vermont)
 
 '''Participants'''
