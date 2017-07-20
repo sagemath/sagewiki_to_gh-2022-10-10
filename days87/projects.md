@@ -47,7 +47,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Ray class groups and Hecke characters [[https://trac.sagemath.org/ticket/15829|#15829]] (Rob)
  * Add Monge-reduction for Eisenstein polynomials (first over $\mathbb{Q}_p$, then over unramified extensions) (Sebastian)
  * Generic zeta function method for schemes [[https://trac.sagemath.org/ticket/20308|#20308]] (Edgar)
- * Elliptic curve point counting over F_q using PARI [[https://trac.sagemath.org/ticket/16931|#16931]] [[https://trac.sagemath.org/ticket/16949|#16949]] (J-P Flori)
+ * Elliptic curve point counting over F_q using PARI [[https://trac.sagemath.org/ticket/16931|#16931]] [[https://trac.sagemath.org/ticket/16949|#16949]] (J-P Flori, Kevin)
  * Expose PARI code for Frobenius matrix on hyperelliptic curves [[https://trac.sagemath.org/ticket/20309|#20309]] (Marc)
  * Raise coverage of schemes/hyperelliptic_curves/monsky_washnitzer.py to 100% [[https://trac.sagemath.org/ticket/15645|#15645]] (Edgar)
  * Requested by Anna Haensch: A weak approximation function
