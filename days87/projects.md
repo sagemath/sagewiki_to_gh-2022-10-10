@@ -78,3 +78,4 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * --(Issue [[https://github.com/LMFDB/lmfdb/issues/1959|#1959]] pull request [[https://github.com/LMFDB/lmfdb/pull/2190 |#2190]])--
  * --(Issue [[https://github.com/LMFDB/lmfdb/issues/2187|#2187]] pull request [[https://github.com/LMFDB/lmfdb/pull/2188 |#2188]])--
  * --(Moving import scripts: pull request [[https://github.com/LMFDB/lmfdb/pull/2186 |#2186]])--
+ * --(Issue [[https://github.com/LMFDB/lmfdb/issues/2172|#2172]] pull request [[https://github.com/LMFDB/lmfdb/pull/2176 |#2176]])--
