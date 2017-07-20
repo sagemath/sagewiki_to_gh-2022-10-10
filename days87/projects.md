@@ -83,7 +83,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Hecke algebras: see https://github.com/sanni85/HeckeAlgebras and https://github.com/sanni85/lmfdb/tree/hecke_alg (Samuele) pull request [[https://github.com/LMFDB/lmfdb/pull/2189|#2189]]
  * Dirichlet characters modulo l: see https://github.com/sanni85/Dirichlet_modL (Samuele)
  * Galois representations modulo l: see https://github.com/sanni85/Mod-l-galois-representations and http://beta.lmfdb.org/Representation/Galois/ModL/ (Samuele)
- * --Display local algebras (JJ)--
+ * --(Display local algebras (JJ))--
  * Better handling of character tables (JJ)
  * Some finished work:
   * --(Sanitize API interface: https://github.com/LMFDB/lmfdb/issues/2053 (Edgar) )--
