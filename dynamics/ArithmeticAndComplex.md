@@ -36,6 +36,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/23457|#23457]]) needs-review: allow infinity to initialize projective point - Ben Hutz
 
+ * ([[http://trac.sagemath.org/ticket/23425|#23425]]) needs-work: Plotting external rays of mandelbrot set - Ben Barros
+
  * ([[http://trac.sagemath.org/ticket/23333|#23234]]) new: move subscheme code - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/23333|#23333]]) positive-review: Improve sigma invariant - Ben Hutz
