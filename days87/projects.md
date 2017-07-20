@@ -67,27 +67,32 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * [[https://trac.sagemath.org/ticket/23484|#23484]] (David A.)
   * [[https://trac.sagemath.org/ticket/23376|#23376]]
   * [[https://trac.sagemath.org/ticket/23479|#23479]] (Sara)
+  * [[https://trac.sagemath.org/ticket/23473|#23473]]
 
 
 
 == LMFDB projects ==
- * Fix polredabs related issues https://github.com/LMFDB/lmfdb/issues/2135  (JJ)
- * Display Hecke eigenvalues in terms of an integral basis. See: https://github.com/LMFDB/lmfdb/issues/975 (note see also https://github.com/LMFDB/lmfdb/issues/2135 and talk to JJ for how it is related) (Edgar, Sam Schiavone) 
- * Work on the isogeny classes of abelian varieties over finite fields. See http://beta.lmfdb.org/Variety/Abelian/Fq/ (Christelle)
- * Work on Hypergeometric Motives over ℚ. See http://beta.lmfdb.org/Motive/Hypergeometric/Q/ (Dave Roberts)
- * Finish up: https://github.com/LMFDB/lmfdb-collab/wiki//Warwick-workshop-June-2017, precisely: https://github.com/LMFDB/lmfdb/issues/414, https://github.com/LMFDB/lmfdb/issues/418, and https://github.com/LMFDB/lmfdb/issues/396 (Edgar)
+ * Fix polredabs related issues [[https://github.com/LMFDB/lmfdb/issues/2135|#2135]]  (JJ)
+ * Display Hecke eigenvalues in terms of an integral basis. See: [[https://github.com/LMFDB/lmfdb/issues/975 | #975]] (note see also https://github.com/LMFDB/lmfdb/issues/2135 and talk to JJ for how it is related) (Edgar, Sam Schiavone) 
+ * Finish up: https://github.com/LMFDB/lmfdb-collab/wiki//Warwick-workshop-June-2017, precisely: 
+  * Compute Elliptic Curves over number fields L-functions [[https://github.com/LMFDB/lmfdb/issues/396 | #396]] (Edgar)
+  * Compute Hilbert Modular Form L-functions [[https://github.com/LMFDB/lmfdb/issues/418 | #418]] (Edgar)
+  * Compute the Asai L-functions [[https://github.com/LMFDB/lmfdb/issues/414 | #414]] 
  * --(Sanitize API interface: https://github.com/LMFDB/lmfdb/issues/2053 (Edgar) )--
- * Prototype a Sage/LMFDB interface. See https://github.com/LMFDB/lmfdb/issues/1360  and https://github.com/LMFDB/lmfdb/issues/2169 (Edgar, Simon Brandhorst and David Lowry-Duda)
- * Use Monge-reduced polynomials (and ones related to them) for defining polynomials (JJ)
+ * --(Prototype a Sage/LMFDB interface. See https://github.com/LMFDB/lmfdb/issues/1360  and https://github.com/LMFDB/lmfdb/issues/2169 (Edgar, Simon Brandhorst and David Lowry-Duda))--
  * Hecke algebras: see https://github.com/sanni85/HeckeAlgebras and https://github.com/sanni85/lmfdb/tree/hecke_alg (Samuele) pull request [[https://github.com/LMFDB/lmfdb/pull/2189|#2189]]
  * Dirichlet characters modulo l: see https://github.com/sanni85/Dirichlet_modL (Samuele)
  * Galois representations modulo l: see https://github.com/sanni85/Mod-l-galois-representations and http://beta.lmfdb.org/Representation/Galois/ModL/ (Samuele)
  * Display local algebras (JJ)
  * Better handling of character tables (JJ)
+ * Some done work:
+  * --(Issue [[https://github.com/LMFDB/lmfdb/issues/1959|#1959]] pull request [[https://github.com/LMFDB/lmfdb/pull/2190 |#2190]])--
+  * --(Issue [[https://github.com/LMFDB/lmfdb/issues/2187|#2187]] pull request [[https://github.com/LMFDB/lmfdb/pull/2188 |#2188]])--
+  * --(Moving import scripts: pull request [[https://github.com/LMFDB/lmfdb/pull/2186 |#2186]])--
+  * --(Issue [[https://github.com/LMFDB/lmfdb/issues/2172|#2172]] pull request [[https://github.com/LMFDB/lmfdb/pull/2176 |#2176]])--
+
+
  * Idle:
   * Work on the isogeny classes of abelian varieties over finite fields. See http://beta.lmfdb.org/Variety/Abelian/Fq/ (Christelle)
   * Work on Hypergeometric Motives over ℚ. See http://beta.lmfdb.org/Motive/Hypergeometric/Q/ (Dave Roberts)
- * --(Issue [[https://github.com/LMFDB/lmfdb/issues/1959|#1959]] pull request [[https://github.com/LMFDB/lmfdb/pull/2190 |#2190]])--
- * --(Issue [[https://github.com/LMFDB/lmfdb/issues/2187|#2187]] pull request [[https://github.com/LMFDB/lmfdb/pull/2188 |#2188]])--
- * --(Moving import scripts: pull request [[https://github.com/LMFDB/lmfdb/pull/2186 |#2186]])--
- * --(Issue [[https://github.com/LMFDB/lmfdb/issues/2172|#2172]] pull request [[https://github.com/LMFDB/lmfdb/pull/2176 |#2176]])--
+  * Use Monge-reduced polynomials (and ones related to them) for defining polynomials (JJ)
