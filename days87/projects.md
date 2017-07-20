@@ -64,7 +64,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * [[https://trac.sagemath.org/ticket/23185|#23185]]
   * [[https://trac.sagemath.org/ticket/23482|#23482]]
   * [[https://trac.sagemath.org/ticket/23483|#23483]]
-  * [[https://trac.sagemath.org/ticket/23484|#23484]]
+  * [[https://trac.sagemath.org/ticket/23484|#23484]] (David A.)
 
 
 == LMFDB projects ==
