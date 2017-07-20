@@ -59,7 +59,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Add more thematic tutorials in number theory (Rob)
  * Here are some tickets that should be easy to review (feel free to add more!):
   * [[https://trac.sagemath.org/ticket/12657|#12657]]
-  * [[https://trac.sagemath.org/ticket/16949|#16949]]
+  * [[https://trac.sagemath.org/ticket/16949|#16949]] (GaYee)
   * [[https://trac.sagemath.org/ticket/23190|#23190]] (Adele)
   * [[https://trac.sagemath.org/ticket/23185|#23185]] (Sara)
   * [[https://trac.sagemath.org/ticket/23482|#23482]]
