@@ -13,7 +13,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  (Brian - meeting in UHS 115)
   * make sure simpler factoring methods are in good shape, like Hensel lifting and Panayi's root finding.
  * Lattice precision for p-adics (in particular p-adic matrices, polynomials) (Xavier)
-  * Smith normal form [[https://trac.sagemath.org/ticket/23450|#23450]], determinant [[https://trac.sagemath.org/ticket/23478|#23478]]
+  * Smith normal form [[https://trac.sagemath.org/ticket/23450|#23450]] (ready for review), determinant [[https://trac.sagemath.org/ticket/23478|#23478]] (ready for review)
   * Hermite normal form [[https://trac.sagemath.org/ticket/23486|#23486]], lattices in p-adic vector spaces
   * Design new parents (ZpLCR, ZpLCA) for p-adics handled with lattice precision
  * Power series via p-adic templates (Adriana)
