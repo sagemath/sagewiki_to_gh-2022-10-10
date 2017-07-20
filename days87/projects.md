@@ -63,7 +63,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * [[https://trac.sagemath.org/ticket/23190|#23190]] (Adele)
   * [[https://trac.sagemath.org/ticket/23185|#23185]] (Sara)
   * [[https://trac.sagemath.org/ticket/23482|#23482]] (Claire)
-  * [[https://trac.sagemath.org/ticket/23483|#23483]] (Adele)
+  * --([[https://trac.sagemath.org/ticket/23483|#23483]] (Adele))--
   * [[https://trac.sagemath.org/ticket/23484|#23484]] (David A.)
   * [[https://trac.sagemath.org/ticket/23376|#23376]]
   * [[https://trac.sagemath.org/ticket/23479|#23479]] (Sara)
