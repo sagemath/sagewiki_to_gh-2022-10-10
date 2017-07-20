@@ -72,3 +72,6 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Galois representations modulo l: see https://github.com/sanni85/Mod-l-galois-representations and http://beta.lmfdb.org/Representation/Galois/ModL/ (Anni)
  * Display local algebras (JJ)
  * Better handling of character tables (JJ)
+ * Idle:
+  * Work on the isogeny classes of abelian varieties over finite fields. See http://beta.lmfdb.org/Variety/Abelian/Fq/ (Christelle)
+  * Work on Hypergeometric Motives over ℚ. See http://beta.lmfdb.org/Motive/Hypergeometric/Q/ (Dave Roberts)
