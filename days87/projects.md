@@ -35,7 +35,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Add more black-box testing to p-adics, performance benchmarketing (Aly)
  * nth roots, square roots that create extensions (extend=True as for integers) [[https://trac.sagemath.org/ticket/12567|#12567]] (Marc, Kevin)
  * Artin-Hasse exponentials [[https://trac.sagemath.org/ticket/12560|#12560]] (Xavier)
- * --(Gauss sums via the Gross-Koblitz formula, which uses code on p-adic gamma functions [[https://trac.sagemath.org/ticket/23456|#23456]] (Adriana and Ander))--
+ * Gauss sums via the Gross-Koblitz formula, which uses code on p-adic gamma functions [[https://trac.sagemath.org/ticket/23456|#23456]] (Adriana and Ander) (Found and fixed a small mistake, still needs review)
  * Better coercion/conversion to and from residue fields (Aly, Marc)
  * --(Optimized implementation of Frobenius automorphism [[https://trac.sagemath.org/ticket/12657|#12657]] (Ander))--
  * p-adic polylogarithms [[https://trac.sagemath.org/ticket/20260|#20260]] (Alex)
@@ -68,7 +68,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * [[https://trac.sagemath.org/ticket/23376|#23376]] 
   * --([[https://trac.sagemath.org/ticket/23479|#23479]] (Sara))--
   * [[https://trac.sagemath.org/ticket/23473|#23473]] (David A.)
-  * --([[https://trac.sagemath.org/ticket/23456|#23456]] (Adele))--
+  * [[https://trac.sagemath.org/ticket/23456|#23456]] (Adele)
   * --([[https://trac.sagemath.org/ticket/23495|#23495]] (Adele))--
 
 
