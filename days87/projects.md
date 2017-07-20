@@ -57,6 +57,15 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Change root_field to return a p-adic field [[https://trac.sagemath.org/ticket/14893|#14893]], --([[https://trac.sagemath.org/ticket/20244|#20244]])-- (Aly)
  * Update and improve the p-adic tutorial (Rob)
  * Add more thematic tutorials in number theory (Rob)
+ * Here are some tickets that should be easy to review (feel free to add more!):
+  * [[https://trac.sagemath.org/ticket/12657|#12657]]
+  * [[https://trac.sagemath.org/ticket/16949|#16949]]
+  * [[https://trac.sagemath.org/ticket/23190|#23190]]
+  * [[https://trac.sagemath.org/ticket/23185|#23185]]
+  * [[https://trac.sagemath.org/ticket/23482|#23482]]
+  * [[https://trac.sagemath.org/ticket/23483|#23483]]
+  * [[https://trac.sagemath.org/ticket/23484|#23484]]
+
 
 == LMFDB projects ==
  * Fix polredabs related issues https://github.com/LMFDB/lmfdb/issues/2135  (JJ)
