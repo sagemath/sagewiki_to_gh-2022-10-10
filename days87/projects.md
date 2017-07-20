@@ -73,7 +73,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
 
 == LMFDB projects ==
  * Fix polredabs related issues [[https://github.com/LMFDB/lmfdb/issues/2135|#2135]]  (JJ)
- * Display Hecke eigenvalues in terms of an integral basis. See: [[https://github.com/LMFDB/lmfdb/issues/975 | #975]] (note see also https://github.com/LMFDB/lmfdb/issues/2135 and talk to JJ for how it is related) (Edgar, Sam Schiavone, Michael Musty) 
+ * Display Hecke eigenvalues in terms of an integral basis. See: [[https://github.com/LMFDB/lmfdb/issues/975 | #975]] (Edgar, Sam Schiavone, Michael Musty) 
  * Finish up: https://github.com/LMFDB/lmfdb-collab/wiki//Warwick-workshop-June-2017, precisely: 
   * Compute Elliptic Curves over number fields L-functions [[https://github.com/LMFDB/lmfdb/issues/396 | #396]] (Edgar)
   * Compute Hilbert Modular Form L-functions [[https://github.com/LMFDB/lmfdb/issues/418 | #418]] (Edgar)
