@@ -60,16 +60,16 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Here are some tickets that should be easy to review (feel free to add more!):
   * --([[https://trac.sagemath.org/ticket/12657|#12657]] (GaYee))--
   * --([[https://trac.sagemath.org/ticket/16949|#16949]] (GaYee))--
-  * [[https://trac.sagemath.org/ticket/23190|#23190]] (Adele)
+  * [[https://trac.sagemath.org/ticket/23190|#23190]] (possible dependencies for global tests -- Adele)
   * [[https://trac.sagemath.org/ticket/23185|#23185]] (Sara)
   * --([[https://trac.sagemath.org/ticket/23482|#23482]] (Claire))--
   * --([[https://trac.sagemath.org/ticket/23483|#23483]] (Adele))--
   * [[https://trac.sagemath.org/ticket/23484|#23484]] (Need to wait until [[https://trac.sagemath.org/ticket/23204|#23204]] is done -- David A.)
-  * [[https://trac.sagemath.org/ticket/23376|#23376]]
+  * [[https://trac.sagemath.org/ticket/23376|#23376]] (Adele)
   * --([[https://trac.sagemath.org/ticket/23479|#23479]] (Sara))--
   * [[https://trac.sagemath.org/ticket/23473|#23473]]
   * --([[https://trac.sagemath.org/ticket/23456|#23456]] (Adele))--
-  * [[https://trac.sagemath.org/ticket/23495|#23495]] (Adele)
+  * [[https://trac.sagemath.org/ticket/23495|#23495]] (possible dependencies for global tests -- Adele)
 
 
 
