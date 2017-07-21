@@ -15,7 +15,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Lattice precision for p-adics (in particular p-adic matrices, polynomials) (Xavier)
   * Smith normal form [[https://trac.sagemath.org/ticket/23450|#23450]] (ready for review), determinant [[https://trac.sagemath.org/ticket/23478|#23478]] (ready for review)
   * Hermite normal form [[https://trac.sagemath.org/ticket/23486|#23486]] (ready for review)
-  * Lattices in p-adic vector spaces: this is handled by the generic code for modules over PID (after the implementation of HNF above and --this simple ticket [[https://trac.sagemath.org/ticket/23503|#23503]]--)
+  * Lattices in p-adic vector spaces: this is handled by the generic code for modules over PID (after the implementation of HNF above and --(this simple ticket [[https://trac.sagemath.org/ticket/23503|#23503]]--))
   * Design a framework for lattice precision [[https://trac.sagemath.org/ticket/23505|#23505]]
  * Power series via p-adic templates (Adriana)
  * Linkage files for p=2 and/or using longs for the case that $p^{\text{prec}} < 2^{62}$
@@ -59,7 +59,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * --([[https://trac.sagemath.org/ticket/23204|#23204]] (Aly) )--
   * [[https://trac.sagemath.org/ticket/23203|#23203]] (Claire)
   * [[https://trac.sagemath.org/ticket/23190|#23190]]
-  * --[[https://trac.sagemath.org/ticket/23484|#23484]]--
+  * --([[https://trac.sagemath.org/ticket/23484|#23484]])--
   * [[https://trac.sagemath.org/ticket/23461|#23461]] 
   * [[https://trac.sagemath.org/ticket/20265|#20265]]
 
