@@ -68,7 +68,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
 == Beginner Sage projects ==
 
  * Change root_field to return a p-adic field [[https://trac.sagemath.org/ticket/14893|#14893]], --([[https://trac.sagemath.org/ticket/20073|#20073]])--,--([[https://trac.sagemath.org/ticket/20244|#20244]])-- (Aly)
- * Add an `exact_ring` method for p-adic rings and fields [[https://trac.sagemath.org/ticket/23507|#23507]] (Adele)
+ * --(Add an `exact_ring` method for p-adic rings and fields [[https://trac.sagemath.org/ticket/23507|#23507]] (Adele))--
  * Update and improve the p-adic tutorial (Rob)
  * Add more thematic tutorials in number theory (Rob)
  * Here are some tickets that should be easy to review (feel free to add more!):
@@ -95,6 +95,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * --([[https://trac.sagemath.org/ticket/20308|#20308]] (David A.))--
   * --([[https://trac.sagemath.org/ticket/23509|#23509]] (Sara))--
   * polylogarithms [[https://trac.sagemath.org/ticket/20260|#20260]]
+  * [[https://trac.sagemath.org/ticket/23507|#23507]]
 
 
 == LMFDB projects ==
