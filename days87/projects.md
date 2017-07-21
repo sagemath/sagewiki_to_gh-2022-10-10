@@ -90,7 +90,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * [[https://trac.sagemath.org/ticket/23235|#23235]] (Ben)
   * --([[https://trac.sagemath.org/ticket/23479|#23479]] (Sara))--
   * --([[https://trac.sagemath.org/ticket/23503|#23503]] (Angie))--
-  * [[https://trac.sagemath.org/ticket/12657|#12657]]
+  * [[https://trac.sagemath.org/ticket/12657|#12657]] (Sara)
   * --([[https://trac.sagemath.org/ticket/20308|#20308]] (David A.))--
   * --([[https://trac.sagemath.org/ticket/23509|#23509]] (Sara))--
   * polylogarithms [[https://trac.sagemath.org/ticket/20260|#20260]]
