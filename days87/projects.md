@@ -82,6 +82,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * [[https://trac.sagemath.org/ticket/23376|#23376]] (Samuel)
   * [[https://trac.sagemath.org/ticket/23479|#23479]] (Sara)
     * This one needs to be re-reviewed due to an update 
+    * Reviewed it again, looks good. 
   * --([[https://trac.sagemath.org/ticket/23473|#23473]] (This tickets now needs a review ! -- David A.) (Freda))--
   * --([[https://trac.sagemath.org/ticket/23456|#23456]] (Adele))--
   * --([[https://trac.sagemath.org/ticket/23495|#23495]] (Adele))--
@@ -95,7 +96,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * --([[https://trac.sagemath.org/ticket/20308|#20308]] (David A.))--
   * --([[https://trac.sagemath.org/ticket/23509|#23509]] (Sara))--
   * polylogarithms [[https://trac.sagemath.org/ticket/20260|#20260]]
-  * [[https://trac.sagemath.org/ticket/23507|#23507]] (Sara)
+  * --([[https://trac.sagemath.org/ticket/23507|#23507]] (Sara))--
   * --([[https://trac.sagemath.org/ticket/23510|#23510]] (Adele))--
 
 == LMFDB projects ==
