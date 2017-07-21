@@ -80,7 +80,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * [[https://trac.sagemath.org/ticket/23484|#23484]] (Need to wait until [[https://trac.sagemath.org/ticket/23204|#23204]] is done -- David A.)
   * [[https://trac.sagemath.org/ticket/23376|#23376]] (Samuel)
   * [[https://trac.sagemath.org/ticket/23479|#23479]] (Sara)
-    * This one needs to be re-reviewed due to an update
+    * This one needs to be re-reviewed due to an update 
   * --([[https://trac.sagemath.org/ticket/23473|#23473]] (This tickets now needs a review ! -- David A.) (Freda))--
   * --([[https://trac.sagemath.org/ticket/23456|#23456]] (Adele))--
   * --([[https://trac.sagemath.org/ticket/23495|#23495]] (Adele))--
@@ -92,6 +92,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * --([[https://trac.sagemath.org/ticket/23503|#23503]] (Angie))--
   * [[https://trac.sagemath.org/ticket/12657|#12657]]
   * [[https://trac.sagemath.org/ticket/20308|#20308]] (David A.)
+  * [[https://trac.sagemath.org/ticket/23509|#23509]] 
 
 
 == LMFDB projects ==
