@@ -55,8 +55,8 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
 
 == Non Beginner Sage tickets needing review ==
 
-  * --([[https://trac.sagemath.org/ticket/23204|#23204]])--
-  * [[https://trac.sagemath.org/ticket/23203|#23203]]
+  * --([[https://trac.sagemath.org/ticket/23204|#23204]] (Aly) )--
+  * [[https://trac.sagemath.org/ticket/23203|#23203]] (Claire)
   * [[https://trac.sagemath.org/ticket/23185|#23185]]
   * [[https://trac.sagemath.org/ticket/23190|#23190]]
   * [[https://trac.sagemath.org/ticket/23484|#23484]]
