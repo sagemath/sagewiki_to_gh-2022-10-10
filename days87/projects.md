@@ -19,7 +19,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * Design a framework for lattice precision [[https://trac.sagemath.org/ticket/23505|#23505]]
  * Power series via p-adic templates (Adriana)
  * Linkage files for p=2 and/or using longs for the case that $p^{\text{prec}} < 2^{62}$
- * Implementation of Gröbner bases and tropical Gröbner bases algorithm (F4, F5, FGLM), doctest and submission (Tristan). A ticket on F5 has been posted (#23461, needs review). A ticket on a Tropical F5 is in progress (#23501).
+ * Implementation of Gröbner bases and tropical Gröbner bases algorithm (F4, F5, FGLM), doctest and submission (Tristan). A ticket on F5 has been posted ([[https://trac.sagemath.org/ticket/23461|#23461]], needs review). A ticket on a Tropical F5 is in progress ([[https://trac.sagemath.org/ticket/23501|#23501]]).
   * We might finish reviewing the inclusion of openf4 at [[https://trac.sagemath.org/ticket/18749|#18749]] and patch it to avoid going through strings all the time
   * And also look at the performance of Singular, polybori, giac, ...
  * Zeta function tickets 
