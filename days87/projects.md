@@ -16,7 +16,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * Smith normal form [[https://trac.sagemath.org/ticket/23450|#23450]] (ready for review), determinant [[https://trac.sagemath.org/ticket/23478|#23478]] (ready for review)
   * Hermite normal form [[https://trac.sagemath.org/ticket/23486|#23486]] (ready for review)
   * Lattices in p-adic vector spaces: this is handled by the generic code for modules over PID (after the implementation of HNF above and this simple ticket [[https://trac.sagemath.org/ticket/23503|#23503]])
-  * Design a framework for lattice precision
+  * Design a framework for lattice precision [[https://trac.sagemath.org/ticket/23505|#23505]]
  * Power series via p-adic templates (Adriana)
  * Linkage files for p=2 and/or using longs for the case that $p^{\text{prec}} < 2^{62}$
  * Implementation of Gröbner bases and tropical Gröbner bases algorithm (F4, F5, FGLM), doctest and submission (Tristan)
