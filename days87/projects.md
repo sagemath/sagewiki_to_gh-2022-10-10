@@ -53,6 +53,10 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Raise coverage of schemes/hyperelliptic_curves/monsky_washnitzer.py to 100% [[https://trac.sagemath.org/ticket/15645|#15645]] (Edgar)
  * Requested by Anna Haensch: A weak approximation function
 
+== Non Beginner Sage tickets needing review ==
+
+  * [[https://trac.sagemath.org/ticket/23204|#23204]]
+
 == Beginner Sage projects ==
 
  * Change root_field to return a p-adic field [[https://trac.sagemath.org/ticket/14893|#14893]], --([[https://trac.sagemath.org/ticket/20073|#20073]])--,--([[https://trac.sagemath.org/ticket/20244|#20244]])-- (Aly)
