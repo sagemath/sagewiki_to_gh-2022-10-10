@@ -39,7 +39,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * --(Gauss sums via the Gross-Koblitz formula, which uses code on p-adic gamma functions [[https://trac.sagemath.org/ticket/23456|#23456]] (Adriana and Ander))-- 
  * Better coercion/conversion to and from residue fields (Aly, Marc)
  * --(Optimized implementation of Frobenius automorphism [[https://trac.sagemath.org/ticket/12657|#12657]] (Ander))--
- * p-adic polylogarithms [[https://trac.sagemath.org/ticket/20260|#20260]] (Alex)
+ * p-adic polylogarithms [[https://trac.sagemath.org/ticket/20260|#20260]] (Alex) Ready for review!
  * --(bug in matrix of Frobenius when p = 3 [[https://trac.sagemath.org/ticket/11960|#11960]] (Jen))--
  * Switching to exact defining polynomials for p-adic extensions [[https://trac.sagemath.org/ticket/23331|#23331]] (David)
  * Change p-adic constructors to not care about the base ring of a defining polynomial [[https://trac.sagemath.org/ticket/18606|#18606]] (David)
@@ -93,6 +93,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * [[https://trac.sagemath.org/ticket/12657|#12657]]
   * --([[https://trac.sagemath.org/ticket/20308|#20308]] (David A.))--
   * --([[https://trac.sagemath.org/ticket/23509|#23509]] (Sara))--
+  * polylogarithms [[https://trac.sagemath.org/ticket/20260|#20260]]
 
 
 == LMFDB projects ==
