@@ -67,6 +67,8 @@ See our [[/participants|list of participants]].
 
 If you still need the info on lodging and travel arrangements, [[/travel|look here]].  Check out is Sunday July 23 at 11am, and the front desk's number is 802-656-5550.
 
+You can use [[https://docs.google.com/spreadsheets/d/1vwwQd-Ig3nZRY-e2jihL72g6hnH0KUfXAoaOeXkccks/edit?usp=sharing|this google doc]] to share taxi rides.
+
 == Reimbursements ==
 
 Instructions for reimbursements will be given on the first day of the conference. If you are '''not''' a US citizen or green card holder, please bring your passport and any visa paperwork you have (I-94, visa stamps, etc.) so that we can make scans while you are here.
