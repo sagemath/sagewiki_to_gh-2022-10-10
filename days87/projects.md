@@ -56,10 +56,6 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
 == Non Beginner Sage tickets needing review ==
 
   * [[https://trac.sagemath.org/ticket/23204|#23204]]
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
   * [[https://trac.sagemath.org/ticket/23203|#23203]]
   * [[https://trac.sagemath.org/ticket/23185|#23185]]
   * [[https://trac.sagemath.org/ticket/23190|#23190]]
@@ -67,7 +63,6 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * [[https://trac.sagemath.org/ticket/23461|#23461]]
   * [[https://trac.sagemath.org/ticket/20265|#20265]]
 
----- /!\ '''End of edit conflict''' ----
 
 == Beginner Sage projects ==
 
