@@ -57,10 +57,28 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
 
   * [[https://trac.sagemath.org/ticket/23204|#23204]]
 
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+  * [[https://trac.sagemath.org/ticket/23203|#23203]]
+  * [[https://trac.sagemath.org/ticket/23185|#23185]]
+  * [[https://trac.sagemath.org/ticket/23190|#23190]]
+  * [[https://trac.sagemath.org/ticket/23484|#23484]]
+  * [[https://trac.sagemath.org/ticket/23461|#23461]]
+  * [[https://trac.sagemath.org/ticket/20265|#20265]]
+
+---- /!\ '''End of edit conflict''' ----
+
 == Beginner Sage projects ==
 
  * Change root_field to return a p-adic field [[https://trac.sagemath.org/ticket/14893|#14893]], --([[https://trac.sagemath.org/ticket/20073|#20073]])--,--([[https://trac.sagemath.org/ticket/20244|#20244]])-- (Aly)
+
+---- /!\ '''Edit conflict - other version:''' ----
  * Add an `exact_ring` method for p-adic rings and fields [[https://trac.sagemath.org/ticket/23507|#23507]]
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
  * Update and improve the p-adic tutorial (Rob)
  * Add more thematic tutorials in number theory (Rob)
  * Here are some tickets that should be easy to review (feel free to add more!):
