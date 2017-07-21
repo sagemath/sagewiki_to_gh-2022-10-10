@@ -92,6 +92,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Hecke algebras: see https://github.com/sanni85/HeckeAlgebras and https://github.com/sanni85/lmfdb/tree/hecke_alg (Samuele) pull request [[https://github.com/LMFDB/lmfdb/pull/2189|#2189]]
  * Dirichlet characters modulo l: see https://github.com/sanni85/Dirichlet_modL (Samuele)
  * Galois representations modulo l: see https://github.com/sanni85/Mod-l-galois-representations and http://beta.lmfdb.org/Representation/Galois/ModL/ (Samuele)
+ * Display Hecke eigenvalues in terms of an integral basis. See: [[https://github.com/LMFDB/lmfdb/issues/975 | #975]], pull request [[https://github.com/LMFDB/lmfdb/pull/2197 | #2197]] (Edgar, Sam Schiavone, Michael Musty)
  * --(Display local algebras (JJ))--
  * Better handling of character tables (JJ)
  * Some finished work:
@@ -102,7 +103,6 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * --(Issue [[https://github.com/LMFDB/lmfdb/issues/2187|#2187]] pull request [[https://github.com/LMFDB/lmfdb/pull/2188 |#2188]])--
   * --(Moving import scripts: pull request [[https://github.com/LMFDB/lmfdb/pull/2186 |#2186]])--
   * --(Issue [[https://github.com/LMFDB/lmfdb/issues/2172|#2172]] pull request [[https://github.com/LMFDB/lmfdb/pull/2176 |#2176]])--
-  * --(Display Hecke eigenvalues in terms of an integral basis. See: [[https://github.com/LMFDB/lmfdb/issues/975 | #975]] (Edgar, Sam Schiavone, Michael Musty))--
 
 
  * Idle:
