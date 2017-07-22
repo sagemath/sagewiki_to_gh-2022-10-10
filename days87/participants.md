@@ -56,3 +56,4 @@ The following people will be participating in Sage Days 87.
  * Tristan Vaccon (Université de Limoges)
  * Mckenzie West (Reed College)
  * Gerardo Zelaya (University of Washington)
+ * Shiva Chidambaram (University of Chicago)
