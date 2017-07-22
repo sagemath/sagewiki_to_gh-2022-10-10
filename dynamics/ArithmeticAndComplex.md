@@ -34,13 +34,15 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/23497|#23497]]) new: relocate dynamics code
+ * ([[http://trac.sagemath.org/ticket/23497|#23497]]) needs-review: relocate dynamics code
 
- * ([[http://trac.sagemath.org/ticket/23457|#23457]]) needs-review: allow infinity to initialize projective point - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/23457|#23457]]) positive-review: allow infinity to initialize projective point - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/23425|#23425]]) needs-work: Plotting external rays of mandelbrot set - Ben Barros
 
- * ([[http://trac.sagemath.org/ticket/23333|#23234]]) new: move subscheme code - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/23234|#23234]]) positive-review: move subscheme code - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/23334|#23334]]) positive-review: Implement Well's canonical height algorithm - Lauren Miller
 
  * ([[http://trac.sagemath.org/ticket/23333|#23333]]) positive-review: Improve sigma invariant - Ben Hutz
 
