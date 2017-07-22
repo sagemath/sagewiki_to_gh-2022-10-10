@@ -23,7 +23,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * We might finish reviewing the inclusion of openf4 at [[https://trac.sagemath.org/ticket/18749|#18749]] and patch it to avoid going through strings all the time
   * And also look at the performance of Singular, polybori, giac, ...
  * Zeta function tickets 
-  * [[https://trac.sagemath.org/ticket/20264|#20264]] (Edgar, Vishal Aru, Nicholas Triantafillou)
+  * [[https://trac.sagemath.org/ticket/20264|#20264]] (Edgar, Vishal Aru, Nicholas Triantafillou, Ricky)
   * [[https://trac.sagemath.org/ticket/20265|#20265]] (Edgar, JP) 
   * [[https://trac.sagemath.org/ticket/19865|#19865]] 
   * [[https://trac.sagemath.org/ticket/20308|#20308]] (Ben, David)
