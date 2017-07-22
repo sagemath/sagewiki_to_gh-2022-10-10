@@ -40,7 +40,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/23425|#23425]]) needs-work: Plotting external rays of mandelbrot set - Ben Barros
 
- * ([[http://trac.sagemath.org/ticket/23234|#23234]]) positive-review: move subscheme code - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/23434|#23434]]) positive-review: move subscheme code - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/23334|#23334]]) positive-review: Implement Well's canonical height algorithm - Lauren Miller
 
