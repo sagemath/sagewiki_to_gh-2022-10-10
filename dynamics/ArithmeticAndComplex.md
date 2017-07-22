@@ -82,7 +82,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
- * --([[http://trac.sagemath.org/ticket/23086|#23086]])-- needs-work: Cyclegraph for projective morphisms - Ben Barros
+ * --([[http://trac.sagemath.org/ticket/23086|#23086]])-- closed sage 8.0: Cyclegraph for projective morphisms - Ben Barros
 
  * --([[http://trac.sagemath.org/ticket/22556|#22556]])-- closed sage 8.0: implement periodic points for rational maps on projective space - Ben Hutz
 
