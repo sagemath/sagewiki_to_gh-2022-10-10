@@ -52,6 +52,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Elliptic curve point counting over F_q using PARI [[https://trac.sagemath.org/ticket/16931|#16931]] [[https://trac.sagemath.org/ticket/16949|#16949]] (J-P Flori, Kevin)
  * Expose PARI code for Frobenius matrix on hyperelliptic curves [[https://trac.sagemath.org/ticket/20309|#20309]] (Marc)
  * Raise coverage of schemes/hyperelliptic_curves/monsky_washnitzer.py to 100% [[https://trac.sagemath.org/ticket/15645|#15645]] (Edgar)
+ * For number fields, extended the range of degrees where is_galois() works, added method is_abelian(), and for abelian number fields added method conductor() (JJ)
  * Requested by Anna Haensch: A weak approximation function
 
 == Non Beginner Sage tickets needing review ==
