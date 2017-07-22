@@ -104,8 +104,6 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * Compute the Asai L-functions [[https://github.com/LMFDB/lmfdb/issues/414 | #414]] 
  * Doc-Testing utilities (David Lowry-Duda)
  * Hecke algebras: see https://github.com/sanni85/HeckeAlgebras and https://github.com/sanni85/lmfdb/tree/hecke_alg (Samuele) pull request [[https://github.com/LMFDB/lmfdb/pull/2189|#2189]]
- * Dirichlet characters modulo l: see https://github.com/sanni85/Dirichlet_modL (Samuele)
- * Galois representations modulo l: see https://github.com/sanni85/Mod-l-galois-representations and http://beta.lmfdb.org/Representation/Galois/ModL/ (Samuele)
  * Display Hecke eigenvalues in terms of an integral basis. See: [[https://github.com/LMFDB/lmfdb/issues/975 | #975]], pull request [[https://github.com/LMFDB/lmfdb/pull/2197 | #2197]] (Edgar, Sam Schiavone, Michael Musty)
  * Compute Galois splitting models (Ben, Angie)
  * --(Display local algebras (JJ))--
@@ -119,9 +117,11 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * --(Moving import scripts: pull request [[https://github.com/LMFDB/lmfdb/pull/2186 |#2186]])--
   * --(Issue [[https://github.com/LMFDB/lmfdb/issues/2172|#2172]] pull request [[https://github.com/LMFDB/lmfdb/pull/2176 |#2176]])--
   * --(Pull request [[https://github.com/LMFDB/lmfdb/pull/2198|#2198]]: Hilbert modular forms search CM and base change, solves issues [[https://github.com/LMFDB/lmfdb/issues/1975|#1975]], [[https://github.com/LMFDB/lmfdb/issues/1972| #1972]])--
- * Yoshida lifts of Hilbert modular forms: adding function to compute, working on displaying the data (Malcolm, Samuele)
+ * Yoshida lifts of Hilbert modular forms: adding function to compute, working on displaying the data (Malcolm, Samuele) https://github.com/sanni85/lmfdb/tree/paramodular_lift
 
  * Idle:
   * Work on the isogeny classes of abelian varieties over finite fields. See http://beta.lmfdb.org/Variety/Abelian/Fq/ (Christelle)
   * Work on Hypergeometric Motives over ℚ. See http://beta.lmfdb.org/Motive/Hypergeometric/Q/ (Dave Roberts)
   * Use Monge-reduced polynomials (and ones related to them) for defining polynomials (JJ)
+  * Dirichlet characters modulo l: see https://github.com/sanni85/Dirichlet_modL (Samuele)
+  * Galois representations modulo l: see https://github.com/sanni85/Mod-l-galois-representations and http://beta.lmfdb.org/Representation/Galois/ModL/ (Samuele)
