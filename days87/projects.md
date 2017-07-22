@@ -117,6 +117,8 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * --(Issue [[https://github.com/LMFDB/lmfdb/issues/2172|#2172]] pull request [[https://github.com/LMFDB/lmfdb/pull/2176 |#2176]])--
   * --(Pull request [[https://github.com/LMFDB/lmfdb/pull/2198|#2198]]: Hilbert modular forms search CM and base change, solves issues [[https://github.com/LMFDB/lmfdb/issues/1975|#1975]], [[https://github.com/LMFDB/lmfdb/issues/1972| #1972]])--
  * Yoshida lifts of Hilbert modular forms: adding function to compute, working on displaying the data (Malcolm, Samuele) https://github.com/sanni85/lmfdb/tree/paramodular_lift and Pull Request https://github.com/LMFDB/lmfdb/pull/2201
+ * Shapes of number fields (Robert, Samuele) pull request [[https://github.com/LMFDB/lmfdb/pull/2205|#2205]]
+
 
  * Idle:
   * Work on the isogeny classes of abelian varieties over finite fields. See http://beta.lmfdb.org/Variety/Abelian/Fq/ (Christelle)
