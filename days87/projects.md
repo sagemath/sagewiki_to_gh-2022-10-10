@@ -94,7 +94,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * polylogarithms [[https://trac.sagemath.org/ticket/20260|#20260]]
   * --([[https://trac.sagemath.org/ticket/23507|#23507]] (Sara))--
   * --([[https://trac.sagemath.org/ticket/23510|#23510]] (Adele))--
-  * [[https://trac.sagemath.org/ticket/23512|#23512]] (really small)
+  * --([[https://trac.sagemath.org/ticket/23512|#23512]] (really small) (Edgar) )--
 
 == LMFDB projects ==
  * Fix polredabs related issues [[https://github.com/LMFDB/lmfdb/issues/2135|#2135]]  (JJ)
