@@ -118,6 +118,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * --(Issue [[https://github.com/LMFDB/lmfdb/issues/2187|#2187]] pull request [[https://github.com/LMFDB/lmfdb/pull/2188 |#2188]])--
   * --(Moving import scripts: pull request [[https://github.com/LMFDB/lmfdb/pull/2186 |#2186]])--
   * --(Issue [[https://github.com/LMFDB/lmfdb/issues/2172|#2172]] pull request [[https://github.com/LMFDB/lmfdb/pull/2176 |#2176]])--
+  * --(Pull request [[https://github.com/LMFDB/lmfdb/pull/2198|#2198]]: Hilbert modular forms search CM and base change, solves issues [[https://github.com/LMFDB/lmfdb/issues/1975|#1975]], [[https://github.com/LMFDB/lmfdb/issues/1972| #1972]])--
  * Yoshida lifts of Hilbert modular forms: adding function to compute, working on displaying the data (Malcolm, Samuele)
 
  * Idle:
