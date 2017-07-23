@@ -46,7 +46,7 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
  * Change p-adic constructors to not care about the base ring of a defining polynomial [[https://trac.sagemath.org/ticket/18606|#18606]] (David)
  * Investigate slowness in unramified extensions [[https://trac.sagemath.org/ticket/23172|#23172]] (Xavier)
  * Review Xavier's fast exponential code [[https://trac.sagemath.org/ticket/23235|#23235]] (Xavier)
- * Ray class groups and Hecke characters [[https://trac.sagemath.org/ticket/15829|#15829]] (Rob)
+ * Ray class groups and Hecke characters [[https://trac.sagemath.org/ticket/15829|#15829]], [[https://trac.sagemath.org/ticket/23518|#23518]] (Rob)
  * Add Monge-reduction for Eisenstein polynomials (first over $\mathbb{Q}_p$, then over unramified extensions) (Sebastian)
  * Generic zeta function method for schemes [[https://trac.sagemath.org/ticket/20308|#20308]] (Edgar)
  * Elliptic curve point counting over F_q using PARI [[https://trac.sagemath.org/ticket/16931|#16931]] [[https://trac.sagemath.org/ticket/16949|#16949]] (J-P Flori, Kevin)
@@ -117,7 +117,8 @@ Most of the code for working with p-adics can be found [[https://git.sagemath.or
   * --(Issue [[https://github.com/LMFDB/lmfdb/issues/2172|#2172]] pull request [[https://github.com/LMFDB/lmfdb/pull/2176 |#2176]])--
   * --(Pull request [[https://github.com/LMFDB/lmfdb/pull/2198|#2198]]: Hilbert modular forms search CM and base change, solves issues [[https://github.com/LMFDB/lmfdb/issues/1975|#1975]], [[https://github.com/LMFDB/lmfdb/issues/1972| #1972]])--
  * Yoshida lifts of Hilbert modular forms: adding function to compute, working on displaying the data (Malcolm, Samuele) https://github.com/sanni85/lmfdb/tree/paramodular_lift and Pull Request https://github.com/LMFDB/lmfdb/pull/2201
- * Shapes of number fields (Robert, Samuele) pull request [[https://github.com/LMFDB/lmfdb/pull/2205|#2205]]
+ * Compute shapes of cubic and quartic number fields (Rob)
+ * Shapes of number fields (Rob, Samuele) pull request [[https://github.com/LMFDB/lmfdb/pull/2205|#2205]]
 
 
  * Idle:
