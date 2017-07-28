@@ -24,6 +24,18 @@ where you should change `x.y.z` to the exact version number you used for your pu
 }
 }}}
 
+=== AMSref ===
+
+{{{
+\bib{sagemath}{manual}{
+      author={Developers, The~Sage},
+       title={{S}agemath, the {S}age {M}athematics {S}oftware {S}ystem
+  ({V}ersion x.y.z)},
+        date={YYYY},
+        note={{\tt http://www.sagemath.org}},
+}
+}}}
+
 '''DOIs'''
 
 Include them as doi = {dx.doi.org/...}
