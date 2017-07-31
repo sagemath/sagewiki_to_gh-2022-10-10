@@ -10,6 +10,28 @@ Prerequisites
 
 Procedure
 
-    $ cd $PARI_ROOT
-    $ source $SAGE_ROOT/build/pkgs/pari/spkg-install
-    
+1. Download the script [[pari_sage.sh]]
+
+2. Do
+{{{
+$ cd $PARI_ROOT
+$ sage -sh                # starts Sage environment
+$ source pari_build.sh    # reading pari_build.sh
+$ pari_apply_patches      # optional patch applications
+$ pari_set_environment    # setting properly environment variables for compilation
+$ pari_build              # building pari
+$ pari_install            # installing pari
+$ sage -f cysignals       # recompile cysignals (to be linked correctly against pari)
+$ sage -f cypari          # recompile cypari2
+$ sage -br                # recompiles what need to be
+}}}
+
+Procedure to undo the experimental PARI
+
+1.
+{{{
+$ sage -f pari
+$ sage -f cysignals
+$ sage -f cypari
+$ sage -br
+}}}
