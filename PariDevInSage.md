@@ -2,19 +2,25 @@
 
 This tutorial explains how to use a PARI/GP development version inside Sage.
 
-Prerequisites
+== Prerequisites ==
 
- 1. We assume that your PARI/GP source code is at $PARI_ROOT
+ 1. We assume that your PARI/GP source code is at `$PARI_ROOT`
 
- 2. You need to use a version of Sage compiled from source located at $SAGE_ROOT
+ 2. You need version of Sage compiled from source that is run with the command `sage`
 
-Procedure
+== Procedure ==
 
  1. Download the script [[attachment:pari_sage.sh]]
 
- 2. Do {{{
+ 2. Start Sage environment {{{
 $ cd $PARI_ROOT
 $ sage -sh                # starts Sage environment
+}}}
+
+ 3. Optional step: apply Sage patches located in `$SAGE_ROOT/build/pkg/pari/patches`.
+
+ 3. Compile pari {{{
+$ cd $PARI_ROOT
 $ source pari_build.sh    # reading pari_build.sh
 $ pari_set_environment    # setting properly environment variables for compilation
 $ pari_build              # building pari
@@ -33,7 +39,7 @@ $ sage -pip install git+https://github.com/defeo/cypari2
 $ sage -br
 }}}
 
-Procedure to restore the standard PARI package in Sage
+== Procedure to restore the standard PARI package in Sage ==
 
  1. {{{
 $ sage -f pari
