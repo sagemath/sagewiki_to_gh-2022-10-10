@@ -10,7 +10,7 @@ Prerequisites
 
 Procedure
 
-1. Download the script [[pari_sage.sh]]
+1. Download the script [[attachment:pari_sage.sh]]
 
 2. Do
 {{{
