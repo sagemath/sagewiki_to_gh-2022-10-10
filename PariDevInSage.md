@@ -21,7 +21,7 @@ $ sage -sh                # starts Sage environment
 
  3. Compile pari {{{
 $ cd $PARI_ROOT
-$ source pari_build.sh    # reading pari_build.sh
+$ source pari_sage.sh    # reading pari_build.sh
 $ pari_set_environment    # setting properly environment variables for compilation
 $ pari_build              # building pari
 $ pari_install            # installing pari
