@@ -17,13 +17,24 @@ Procedure
 $ cd $PARI_ROOT
 $ sage -sh                # starts Sage environment
 $ source pari_build.sh    # reading pari_build.sh
-$ pari_apply_patches      # optional patch applications
 $ pari_set_environment    # setting properly environment variables for compilation
 $ pari_build              # building pari
 $ pari_install            # installing pari
+}}}
+
+ 3. Recompile cysignals
+{{{
 $ sage -f cysignals       # recompile cysignals (to be linked correctly against pari)
-$ sage -f cypari          # recompile cypari2
-$ sage -br                # recompiles what need to be
+}}}
+
+ 4. Compile the last version of cypari
+{{{
+$ sage -pip install git+https://github.com/defeo/cypari2
+}}}
+
+ 5. Recompile what needs to be
+{{{
+$ sage -br
 }}}
 
 Procedure to restore the standard PARI package in Sage
