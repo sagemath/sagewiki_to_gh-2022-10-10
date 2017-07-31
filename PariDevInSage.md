@@ -4,15 +4,15 @@ This tutorial explains how to use a PARI/GP development version inside Sage.
 
 Prerequisites
 
-1. We assume that your PARI/GP source code is at $PARI_ROOT
+ 1. We assume that your PARI/GP source code is at $PARI_ROOT
 
-2. You need to use a version of Sage compiled from source located at $SAGE_ROOT
+ 2. You need to use a version of Sage compiled from source located at $SAGE_ROOT
 
 Procedure
 
-1. Download the script [[attachment:pari_sage.sh]]
+ 1. Download the script [[attachment:pari_sage.sh]]
 
-2. Do
+ 2. Do
 {{{
 $ cd $PARI_ROOT
 $ sage -sh                # starts Sage environment
