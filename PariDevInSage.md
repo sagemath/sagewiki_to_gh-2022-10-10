@@ -26,9 +26,9 @@ $ sage -f cypari          # recompile cypari2
 $ sage -br                # recompiles what need to be
 }}}
 
-Procedure to undo the experimental PARI
+Procedure to restore the standard PARI package in Sage
 
-1.
+ 1.
 {{{
 $ sage -f pari
 $ sage -f cysignals
