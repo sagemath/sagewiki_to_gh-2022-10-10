@@ -21,25 +21,21 @@ $ pari_build              # building pari
 $ pari_install            # installing pari
 }}}
 
- 3. Recompile cysignals
-{{{
+ 3. Recompile cysignals {{{
 $ sage -f cysignals       # recompile cysignals (to be linked correctly against pari)
 }}}
 
- 4. Compile the last version of cypari
-{{{
+ 4. Compile the last version of cypari {{{
 $ sage -pip install git+https://github.com/defeo/cypari2
 }}}
 
- 5. Recompile what needs to be
-{{{
+ 5. Recompile what needs to be {{{
 $ sage -br
 }}}
 
 Procedure to restore the standard PARI package in Sage
 
- 1.
-{{{
+ 1. {{{
 $ sage -f pari
 $ sage -f cysignals
 $ sage -f cypari
