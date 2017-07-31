@@ -12,8 +12,7 @@ Procedure
 
  1. Download the script [[attachment:pari_sage.sh]]
 
- 2. Do
-{{{
+ 2. Do {{{
 $ cd $PARI_ROOT
 $ sage -sh                # starts Sage environment
 $ source pari_build.sh    # reading pari_build.sh
