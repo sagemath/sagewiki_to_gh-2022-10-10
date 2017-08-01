@@ -16,7 +16,9 @@ https://www.universiteitleiden.nl/en/events/2017/07/workshop-on-algorithms-in-nu
 
  * Access new PARI functionality from SageMath
 
- * Review open tickets (https://trac.sagemath.org/)
+ * Review open tickets (https://trac.sagemath.org/):
+
+   * Shioda invariants for hyperelliptic curves with genus 3: https://trac.sagemath.org/ticket/22173
 
  * [[PariDevInSage|How to use PARI/GP development version inside Sage]]
 
