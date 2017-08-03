@@ -1,6 +1,6 @@
 = Step by step tutorial on how to use PARI/GP development version in Sage =
 
-This tutorial explains how to use a PARI/GP development version inside Sage.
+This tutorial explains how to use a PARI/GP development version inside Sage. This is currently a bit hackish and the aim is to have this possibility natively supported (see [[https://groups.google.com/forum/#!topic/sage-devel/nTwhCV89FXE|this thread on sage-devel]].
 
 == Prerequisites ==
 
@@ -32,7 +32,7 @@ $ pari_install            # installing pari
 $ sage -f cysignals       # recompile cysignals (to be linked correctly against pari)
 }}}
 
- 4. Compile the last version of cypari {{{
+ 4. Compile the last version of cypari (this currently breaks, but [[https://github.com/defeo/cypari2/pull/28|this pull request fixes it]] {{{
 $ sage -pip install git+https://github.com/defeo/cypari2
 }}}
 
