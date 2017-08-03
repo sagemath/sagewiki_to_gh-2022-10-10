@@ -32,7 +32,7 @@ $ pari_install            # installing pari
 $ sage -f cysignals       # recompile cysignals (to be linked correctly against pari)
 }}}
 
- 4. Compile the last version of cypari (this currently breaks, but [[https://github.com/defeo/cypari2/pull/28|this pull request fixes it]] {{{
+ 4. Compile the last version of cypari (this currently breaks, but [[https://github.com/defeo/cypari2/pull/28|this pull request fixes it]]) {{{
 $ sage -pip install git+https://github.com/defeo/cypari2
 }}}
 
