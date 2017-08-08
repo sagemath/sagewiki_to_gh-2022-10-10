@@ -36,17 +36,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/23497|#23497]]) needs-review: relocate dynamics code
 
- * ([[http://trac.sagemath.org/ticket/23457|#23457]]) positive-review: allow infinity to initialize projective point - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/23425|#23425]]) needs-work: Plotting external rays of mandelbrot set - Ben Barros
 
  * ([[http://trac.sagemath.org/ticket/23434|#23434]]) positive-review: move subscheme code - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/23334|#23334]]) positive-review: Implement Well's canonical height algorithm - Lauren Miller
-
- * ([[http://trac.sagemath.org/ticket/23333|#23333]]) positive-review: Improve sigma invariant - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/23257|#23257]]) positive-review: Plotting the Mandelbrot set in Sage - Ben Barros
 
  * ([[http://trac.sagemath.org/ticket/23047|#23047]]) new: Meta Ticket: Utilize coercion framework for scheme points and morphisms
 
@@ -81,6 +73,14 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/23457|#23457]])-- closed sage 8.1: allow infinity to initialize projective point - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/23334|#23334]])-- closed sage 8.1: Implement Well's canonical height algorithm - Lauren Miller
+
+ * --([[http://trac.sagemath.org/ticket/23333|#23333]])-- closed sage 8.1: Improve sigma invariant - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/23257|#23257]])-- closed sage 8.1: Plotting the Mandelbrot set in Sage - Ben Barros
 
  * --([[http://trac.sagemath.org/ticket/23086|#23086]])-- closed sage 8.0: Cyclegraph for projective morphisms - Ben Barros
 
