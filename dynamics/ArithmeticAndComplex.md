@@ -34,9 +34,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/23497|#23497]]) needs-review: relocate dynamics code
-
- * ([[http://trac.sagemath.org/ticket/23425|#23425]]) needs-work: Plotting external rays of mandelbrot set - Ben Barros
+ * ([[http://trac.sagemath.org/ticket/23497|#23497]]) needs-review: relocate dynamics code - Ben Hutz, Xander Faber
 
  * ([[http://trac.sagemath.org/ticket/23434|#23434]]) positive-review: move subscheme code - Ben Hutz
 
@@ -45,6 +43,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * ([[http://trac.sagemath.org/ticket/22771|#22771]]) new: Numerical Precision for Heights in Number Fields - TJ
 
  * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger
+
+ * ([[http://trac.sagemath.org/ticket/8423|#8423]]) needs-review: Julia sets - Ben Barros
 
 
 == Wishlist ==
@@ -73,6 +73,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/23425|#23425]])-- closed sage 8.1: Plotting external rays of mandelbrot set - Ben Barros
 
  * --([[http://trac.sagemath.org/ticket/23457|#23457]])-- closed sage 8.1: allow infinity to initialize projective point - Ben Hutz
 
