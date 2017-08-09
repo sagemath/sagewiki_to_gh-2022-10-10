@@ -133,7 +133,7 @@ The [[devel|development wiki]] also contain some (currently out-of-date) informa
  * [[Debate/Collective infrastructure management]]
  * [[CodeSharingWorkflow|On development models for sharing (experimental) code]]
  * [[Python3-compatible code|Writing Python 3 compatible code]] see also [[PortingToPython3|matplotlib experience Porting to Python 3]]
- * [[zulip.sagemath.org]] group chat server for realtime collaboration on Sage
+ * [[zulip.sagemath.org|zulip.sagemath.org]] group chat server for realtime collaboration on Sage
 
 = Demonstrations of Graphical Capabilities =
  * [[art|Art - posters, banners, etc]]
