@@ -183,7 +183,7 @@ These lists redirect to [[spkg]]. Use the listed Sage command for the newest inf
  * [[Social Networks]]
  * [[CommunityManagement|Collection of stories on Open Source community management]]
 
-Alphabetical listing of things to do (out-of-date and general organise) - mrennekamp
+Alphabetical listing of things to do (out-of-date and general organise) - [[mrennekamp]] (as of 2017; see file attatched to see files that I removed)
  * [[aix]] which talks of porting sage to AIX
  * All SEP's (Sage Enhancement Proposal) were / need to be removed, as to keep information on Trac
  * [[ams]] booths at AMS / MAA meetings ('08 and '09) and an '09 special session
