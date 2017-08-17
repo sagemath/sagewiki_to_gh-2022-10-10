@@ -14,6 +14,16 @@ Please add "sd91" as a keyword to any tickets you are working in during this wee
   * add a class for integral lattices [[https://trac.sagemath.org/ticket/23634|#23634]]
   * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]]
   * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]]
+  * implement finite bilinear/quadratic forms and make sure that the discriminant group has one
+  * implement a class for (subgroups of) the orthogonal group of a finite bilinear/quadratic form and an algorithm to compute it
+  * diagonalization and isomorphism testing for finite quadratic/bilinear forms
+  * create a genus from a signature pair and a finite quadratic form
+  * create a finite quadratic form from a genus
+  * a latex representation for the genus using the Conway Sloane genus symbols
+  * a base class for the orthogonal group of a lattice
+  * a method to compute the orthogonal group of a positive definite lattice
+
+
 
 == Tickets needing review ==
 
