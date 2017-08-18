@@ -11,10 +11,10 @@ Location: Banff International Research Station.
 Feel free to add suggestions 
 
 Please add "sd91" as a keyword to any tickets you are working in during this week so they show up in this list: [[https://trac.sagemath.org/query?keywords=~sd91&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=status|sd91 Tickets]]
-  * add a class for integral lattices [[https://trac.sagemath.org/ticket/23634|#23634]]
   * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]]
   * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]]
   * implement finite bilinear/quadratic forms and make sure that the discriminant group has one
+  * implement QQ/ZZ , QQ/2ZZ or QQ/nZZ as abelian groups. This is where finite quadratic/bilinear forms have values
   * implement a class for (subgroups of) the orthogonal group of a finite bilinear/quadratic form and an algorithm to compute it
   * diagonalization and isomorphism testing for finite quadratic/bilinear forms
   * create a genus from a signature pair and a finite quadratic form
@@ -26,6 +26,8 @@ Please add "sd91" as a keyword to any tickets you are working in during this wee
 
 
 == Tickets needing review ==
+
+  * a class for integral lattices [[https://trac.sagemath.org/ticket/23634|#23634]]
 
   * [[https://trac.sagemath.org/ticket/23376|#23376]]
 
