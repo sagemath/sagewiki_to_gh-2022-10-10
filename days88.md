@@ -16,6 +16,9 @@ In the ensuing year, workshop participants will be invited to return to the IMA 
  * Matthias Köppe (University of California, Davis)
  * Gregg Musiker (University of Minnesota)
 
+== Wishlist pad ==
+
+https://hebdo.framapad.org/p/IMA-wishlist
 
 == When and where? ==
 
