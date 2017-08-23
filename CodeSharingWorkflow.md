@@ -10,7 +10,7 @@ them.
 Over the years, many development workflows have been experimented by
 various groups of people to improve Sage in certain areas, like
 Sage-Combinat for (algebraic) combinatorics, Sage-Words for
-combinatorics on words, SageManifolds for differential geometry,
+combinatorics on words, [[http://sagemanifolds.obspm.fr/|SageManifolds]] for differential geometry,
 purple-sage for number theory, ...
 
 The goal of this document is to discuss the different workflows that
