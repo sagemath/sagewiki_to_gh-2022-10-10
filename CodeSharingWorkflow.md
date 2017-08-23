@@ -391,10 +391,10 @@ Here are our goals in using the Sage-Combinat queue for sharing patches:
  * Sharing code with beginner colleagues
 
    The queue is also an easy way to distribute experimental code to non
-   developer colleagues. The two commands::
+   developer colleagues. The two commands
 
-       sage -combinat install 
-       sage -combinat update
+       * sage -combinat install 
+       * sage -combinat update
 
    need no mercurial or developer skills
 
