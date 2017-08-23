@@ -24,6 +24,21 @@ https://hebdo.framapad.org/p/IMA-wishlist
 
 August 21-25, 2017, at the IMA, University of Minnesota, in Minneapolis, MN, USA.
 
+== How to check out an old ticket ==
+
+If you use the standard method `git trac checkout TICKET_NUM`, you will spend a long time rebuilding all of Sage.
+
+Instead, you can do the following:
+
+{{{
+git checkout develop
+git checkout -b t/TICKET_NUM/name
+git trac fetch TICKET_NUM
+git merge FETCH_HEAD
+git trac push
+}}}
+You may need to fix merge problems during the merge, and then finish the merge by `git commit`.
+
 == The k8s server ==
 
 William has kindly provided a server for us to use during the workshop, with 48 CPUs and 256 GB of RAM.  It is running !CoCalc, so you can access it from your browser.
