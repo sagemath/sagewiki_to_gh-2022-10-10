@@ -10,7 +10,7 @@ The aim of this 5-days coding sprint is to finalize the Sage work on '''finite r
 
  * [[http://homepage.univie.ac.at/christian.stump|Christian Stump]], Freie Universität Berlin (organizer)
  * [[http://www.normalesup.org/~vripoll/|Vivien Ripoll]], Universität Wien
- * [[http://math.umn.edu/~tscrimsh/|Travis Scrimshaw]], University of Minnesota
+ * [[https://sites.google.com/view/tscrim/home|Travis Scrimshaw]], University of Minnesota
  * [[http://www-irma.u-strasbg.fr/~chapoton|Frédéric Chapoton]], Université de Strasbourg
  * [[http://Nicolas.Thiery.name/|Nicolas M. Thiéry]], Université Paris Sud
 
