@@ -20,6 +20,72 @@ In the ensuing year, workshop participants will be invited to return to the IMA 
 
 https://hebdo.framapad.org/p/IMA-wishlist
 
+=== Wednesday Brainstorming for 2017-18 Coding Sprints (with contact or interested people listed) ===
+
+Please add your name to the list below to the projects you are interested in or add your own project idea
+
+* Improving review process (possibly two meetings: 1) discussion and prototypes; 2) finishing the build) (David R.)
+
+* Speed Regression Testing Framework (David R.)
+
+* Sage Infrastructure (10-15 people (Vincent): 
+
+  * Improving Sage build process
+
+  * Improving the patchbot
+
+  * Make docbuilds more robust
+
+  * Allow trac, github, google and Zulip accounts talk to each other - same sign-ins
+ 
+  * Improve ability to cite which sage packages are used in a given computation
+
+
+* Interacts and interactive mathematics (Franco)
+
+* Random testing and random generation (Vincent)
+
+
+* Compare benchmarks and functionalities of Magma vs. Sage (David R., Kiran, Aly)
+
+* Function Fields (David R.)
+
+* Orders in quaternion algebras (David R., Aly)
+
+* Modular Forms (Kiran)
+
+* p-adics (David R.)
+
+
+* Macaulay2 interface (Kiran)
+
+* Polyhedral geometry and optimization and link to Sage Days 84 (Jean Philippe)
+
+* Dealing with general schemes (Kiran)
+
+
+
+* Python 3 Compatibility (Franco)
+
+* Representation theory (Travis)
+
+* KLR algebras (Travis)
+
+* Schubert polynomials (Travis)
+
+* Real algebraic geometry (Vincent)
+
+* Geometry of surfaces - link with June 2018 conference in Toronto (Vincent)
+
+* Coxeter group/root systems and braid groups (Travis, Vincent)
+
+
+* Common implementations of different trees of expressions, e.g. for algebraic numbers or symbolic ring.  
+Also for use in pedagogical assessment (Vincent, Duane)
+
+
+
+
 == When and where? ==
 
 August 21-25, 2017, at the IMA, University of Minnesota, in Minneapolis, MN, USA.
