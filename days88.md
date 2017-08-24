@@ -41,7 +41,7 @@ Please add your name in the list below to the projects you are interested in or 
   * Improve ability to cite which sage packages are used in a given computation
 
 
-* Interacts and interactive mathematics (Franco)
+* Interacts and interactive mathematics (Franco, Fowler)
 
 * Random testing and random generation (Vincent)
 
@@ -81,9 +81,9 @@ Please add your name in the list below to the projects you are interested in or 
 
 
 * Common implementations of different trees of expressions, e.g. for algebraic numbers or symbolic ring.  
-Also for use in pedagogical assessment (Vincent, Duane)
+Also for use in pedagogical assessment (Vincent, Duane, Fowler)
 
-
+* Cup product for cohomology (Fowler)
 
 
 == When and where? ==
