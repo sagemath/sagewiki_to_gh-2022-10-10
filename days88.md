@@ -22,7 +22,7 @@ https://hebdo.framapad.org/p/IMA-wishlist
 
 === Wednesday Brainstorming for 2017-18 Coding Sprints (with contact or interested people listed) ===
 
-Please add your name to the list below to the projects you are interested in or add your own project idea
+Please add your name in the list below to the projects you are interested in or add your own project idea
 
 * Improving review process (possibly two meetings: 1) discussion and prototypes; 2) finishing the build) (David R.)
 
