@@ -20,7 +20,7 @@ In the ensuing year, workshop participants will be invited to return to the IMA 
 
 https://hebdo.framapad.org/p/IMA-wishlist
 
-=== Wednesday Brainstorming for 2017-18 Coding Sprints (with contact or interested people listed) ===
+== Wednesday Brainstorming for 2017-18 Coding Sprints (with contact or interested people listed) ==
 
 Please add your name in the list below to the projects you are interested in or add your own project idea
 
