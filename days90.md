@@ -11,7 +11,7 @@ This conference is aimed at women at all career stages who are interested in usi
 
 == Projects ==
  
- *TBD
+ *'''Number Theory and Arithmetic Dynamics'''[[https://www.hmc.edu/mathematics/people/faculty/bianca-thompson/|Bianca Thompson]] (Harvey Mudd College) [[attachment:Number Theory and Arithmetic Dynamics]] 
 
 == Accommodations: ==
  
