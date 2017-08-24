@@ -41,7 +41,7 @@ Please add your name in the list below to the projects you are interested in or 
   * Improve ability to cite which sage packages are used in a given computation
 
 
-* Interacts and interactive mathematics (Franco, Fowler)
+* Interacts and interactive mathematics (Franco, Fowler, Beezer)
 
 * Random testing and random generation (Vincent)
 
