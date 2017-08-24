@@ -23,7 +23,11 @@ This conference is aimed at women at all career stages who are interested in usi
 
 == Schedule: ==
 
- *TBD
+ * Sunday, October 22: Participants arrive in Claremont, CA. 
+ * Monday, October 23:
+ * Tuesday, October 24:
+ * Wednesday, October 25:
+ * Thursday, October 26: Participants depart.  
 
 == Organizers: ==
 
