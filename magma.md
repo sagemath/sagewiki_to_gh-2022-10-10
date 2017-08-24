@@ -241,7 +241,10 @@ http://magma.maths.usyd.edu.au/magma/htmlhelp/text1681.htm
 
 Magma has a wide-ranging package implemented principally by Paul van Wamelen for computing analytic parametrizations of Jacobians of hyperelliptic curves.  Nick Alexander has code for doing some of this and has code for interfacing to Magma's code for doing this buried in his tree; contact him if you're interested in doing more work in this direction.
 
+Alternatively, there is some crude implementaion of Khuri-Makdisi's method working over CC. However, this could also be adapted to work over exact fields, see: https://github.com/edgarcosta/endomorphisms/blob/beb12124563fb2bf448c57e587a3e3f1d6a1d724/newton/PicardGroup.py
+
 http://magma.maths.usyd.edu.au/magma/htmlhelp/text1400.htm
+
 == Quadratic Forms ==
 
 A patch from Alia to help improve the balance [[http://trac.sagemath.org/sage_trac/ticket/6106|trac 6106]].
