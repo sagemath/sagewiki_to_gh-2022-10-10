@@ -80,7 +80,7 @@ Please add your name in the list below to the projects you are interested in or 
 
 * Geometry of surfaces - link with June 2018 conference in Toronto (Vincent)
 
-* Coxeter group/root systems and braid groups (Travis, Vincent)
+* Coxeter group/root systems and braid groups (Travis, Vincent,Jean-Philippe)
 
 
 * Common implementations of different trees of expressions, e.g. for algebraic numbers or symbolic ring.  
