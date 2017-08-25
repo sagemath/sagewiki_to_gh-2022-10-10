@@ -56,6 +56,7 @@ Please add your name in the list below to the projects you are interested in or 
 
 * p-adics (David R.)
 
+* Linear algebra (Edgar, Kiran)
 
 * Macaulay2 interface (Kiran)
 
