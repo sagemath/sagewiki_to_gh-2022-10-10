@@ -24,7 +24,7 @@ This conference is aimed at women at all career stages who are interested in usi
 == Schedule: ==
 
  * Saturday, October 21: Participants arrive in Claremont, CA in the evening.
- * Sunday, October 22: 
+ * Sunday, October 22:Workshop begins in the morning.
  * Monday, October 23:
  * Tuesday, October 24:
  * Wednesday, October 25: Workshop ends in the evening. 
