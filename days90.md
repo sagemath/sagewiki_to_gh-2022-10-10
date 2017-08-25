@@ -21,6 +21,12 @@ This conference is aimed at women at all career stages who are interested in usi
  
  * Hotel accommodations in Claremont will be arranged for non-local participants. All workshop activities will take place on campus at Harvey Mudd College. 
 
+== Travel: ==
+
+ * The closest airport to Claremont is the Ontario International California Airport (ONT).  From here it's a 10 mile taxi ride to Claremont. 
+ * Another option is to fly into Los Angeles International Airport (LAX).  From here you can take a [[https://www.supershuttle.com|SuperShuttle] to Claremont, costing ~$55 each way. 
+ * For other options, see the [[https://www.hmc.edu/about-hmc/visit-campus/|Visit Campus] page of the Harvey Mudd College Website.
+
 == Schedule: ==
 
  * Saturday, October 21: Participants arrive in Claremont, CA in the evening.
