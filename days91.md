@@ -13,7 +13,7 @@ Feel free to add suggestions
 Please add "sd91" as a keyword to any tickets you are working in during this week so they show up in this list: [[https://trac.sagemath.org/query?keywords=~sd91&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=status|sd91 Tickets]]
   * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]]
   * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]]
-  * fix homomorphisms of abelian groups [[https://trac.sagemath.org/ticket/23703|#23703]]
+  * fix intersections of free_quadratic_modules and thus homomorphisms of abelian groups [[https://trac.sagemath.org/ticket/23703|#23703]]
   * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]]
   * implement QQ/ZZ , QQ/2ZZ or QQ/nZZ as abelian groups. This is where finite quadratic/bilinear forms have values
   * implement a class for (subgroups of) the orthogonal group of a finite bilinear/quadratic form and an algorithm to compute it
