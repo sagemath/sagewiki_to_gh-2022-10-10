@@ -15,7 +15,7 @@ This conference is aimed at women at all career stages who are interested in usi
 
  *'''Graph Theory'''[[https://www.carroll.edu/faculty/amanda-francis|Amanda Francis]] (Carroll College) [[attachment:Graph Theory]] 
 
- *'''Algorithms in Number Theory'''[[http://www.mathcs.duq.edu/~haensch/|Anna Haensch]] (Duquesne University) [[attachment:Algorithms]] 
+ *'''Local-to-Global Algorithms in Number Theory'''[[http://www.mathcs.duq.edu/~haensch/|Anna Haensch]] (Duquesne University) [[attachment:Algorithms]] 
 
 == Accommodations: ==
  
@@ -23,7 +23,8 @@ This conference is aimed at women at all career stages who are interested in usi
 
 == Schedule: ==
 
- * Sunday, October 22: Participants arrive in Claremont, CA. 
+ * Saturday, October 21: Participants arrive in Claremont, CA.
+ * Sunday, October 22:  
  * Monday, October 23:
  * Tuesday, October 24:
  * Wednesday, October 25:
