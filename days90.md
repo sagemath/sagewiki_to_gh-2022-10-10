@@ -19,7 +19,7 @@ This conference is aimed at women at all career stages who are interested in usi
 
 == Accommodations: ==
  
- *TBD
+ * Hotel accommodations in Claremont will be arranged for non-local participants. All workshop activities will take place on campus at Harvey Mudd College. 
 
 == Schedule: ==
 
