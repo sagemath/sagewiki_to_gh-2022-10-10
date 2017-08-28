@@ -79,3 +79,14 @@
  * (The source [[attachment:refcard.zip]].)
 
  * (LaTeX style file for quick reference car by Yasuhide NUMATA (May 2012) [[attachment:quickrefcard.sty]])
+
+
+=== Chinese ===
+
+ * Translation of '''Sage Quick Reference''' by William Stein (March 2009) - [[attachment:quickref-zh.pdf]]
+
+ * Translation of '''Sage Elementary Number Theory Quick Reference''' by William Stein (April 2009) - [[attachment:quickref-nt-zh.pdf]]
+
+ * Translation of '''Sage Calculus Quick Reference''' by William Stein (April 2009) - [[attachment:quickref-calc-zh.pdf]]
+
+ * Translation of '''Abstract Algebra''' by B. Balof, T. W. Judson, D. Perkinson, R. Potluri, version 1.0 (June 2012) - [[attachment:quickref-algebra-zh.pdf]]
