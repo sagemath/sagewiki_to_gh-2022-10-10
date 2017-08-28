@@ -83,10 +83,10 @@
 
 === Chinese ===
 
- * Translation of '''Sage Quick Reference''' by William Stein (March 2009) - [[attachment:quickref-zh.pdf]]
+ * '''Sage快速参考'''(Translation of '''Sage Quick Reference''' by William Stein (March 2009)) - [[attachment:quickref-zh.pdf]]
 
- * Translation of '''Sage Elementary Number Theory Quick Reference''' by William Stein (April 2009) - [[attachment:quickref-nt-zh.pdf]]
+ * '''Sage快速参考: 基本数论'''(Translation of '''Sage Elementary Number Theory Quick Reference''' by William Stein (April 2009)) - [[attachment:quickref-nt-zh.pdf]]
 
- * Translation of '''Sage Calculus Quick Reference''' by William Stein (April 2009) - [[attachment:quickref-calc-zh.pdf]]
+ * '''Sage快速参考: 微积分'''(Translation of '''Sage Calculus Quick Reference''' by William Stein (April 2009)) - [[attachment:quickref-calc-zh.pdf]]
 
- * Translation of '''Abstract Algebra''' by B. Balof, T. W. Judson, D. Perkinson, R. Potluri, version 1.0 (June 2012) - [[attachment:quickref-algebra-zh.pdf]]
+ * '''Sage快速参考: 抽象代数'''(Translation of '''Abstract Algebra''' by B. Balof, T. W. Judson, D. Perkinson, R. Potluri, version 1.0 (June 2012)) - [[attachment:quickref-algebra-zh.pdf]]
