@@ -34,9 +34,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/23740|#23740]]) needs-review: Plotting Julia sets for general polynomials - Ben Barros
+ * ([[http://trac.sagemath.org/ticket/23740|#23740]]) new: Plotting Julia sets for general polynomials - Ben Barros
 
- * ([[http://trac.sagemath.org/ticket/23720|#23720]]) needs-review: Plotting Mandelbrot sets for general polynomials - Ben Barros
+ * ([[http://trac.sagemath.org/ticket/23720|#23720]]) needs-work: Plotting Mandelbrot sets for general polynomials - Ben Barros
 
  * ([[http://trac.sagemath.org/ticket/23497|#23497]]) positive-review: relocate dynamics code - Ben Hutz, Xander Faber
 
