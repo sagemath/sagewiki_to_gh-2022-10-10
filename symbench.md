@@ -241,7 +241,7 @@ solve([eqn1,eqn2,a==1/8],b,c,a)
 ///
 []
 }}}
-WRONG and LAME!  This is because of a bug in Maxima.
+This is because of a bug in Maxima.
 
 
 == Problem W2 ==
