@@ -1249,7 +1249,7 @@ def F(x,y):
 plotF = plot3d(F, (0.4, 2), (0.4, 2), adaptive=True, color='blue')
 @interact
 def _(x0=(0.5,1.5), y0=(0.5, 1.5),
-      order=(1..10)):
+      order=[1..10]):
     F0 = float(G.subs(xx=x0).subs(yy=y0))
     P = (x0, y0, F0)
     dot = point3d(P, size=15, color='red')
