@@ -24,7 +24,7 @@
 || $A(x,y > 0); x^{1/n}y^{1/n} - (xy)^{1/n} \rightarrow 0$      ||       ||             ||       ||        ||      ||           || ||
 || $\log(\tan(\frac{1}{2}x + \frac{\pi}{4})) - \sinh^{-1}(\tan(x)) \rightarrow 0$ || || ||       ||        ||      ||           || ||
 || $\log\frac{2\sqrt{r} + 1}{\sqrt{4r + 4\sqrt{r} + 1}} \rightarrow 0$ || ||            ||       ||        ||      ||           || ||
-|| $\frac{\sqrt{xy|z|^2}}{\sqrt{x}|z|} \rightarrow \frac{\sqrt{xy}}{\sqrt{x}} \not\rightarrow \sqrt{y}$ || || || || || ||       || Note $\sqrt{x} = \pm\sqrt{x}$ ||
+|| $\frac{\sqrt{xy|z|^2}}{\sqrt{x}|z|} \rightarrow \frac{\sqrt{xy}}{\sqrt{x}} \not\rightarrow \sqrt{y}$ || || || || || s 2.11 ms ||       || Note $\sqrt{x} = \pm\sqrt{x}$ ||
 || $\frac{x=0}{2}+1 \rightarrow \frac{x}{2}+1=1$                ||       ||             ||       ||        ||      ||           || ||
 || $S(e^{2x} + 2e^x + 1 = z,x)$                                 ||       ||             ||       ||        || s 4.85 ms ||           || ||
 || $S((x+1)(\sin^2x + 1)^2\cos^3(3x)=0,x)$                      ||       ||             ||       ||        ||      ||           || ||
