@@ -15,7 +15,7 @@
 
 || Problem                                                      || Maple || Mathematica || GiNaC || Maxima || Sage || Symbolics || Notes (such as code used/version etc.) ||
 || $\sqrt{2\sqrt{3} + 4} \rightarrow 1 + \sqrt{3}$              ||       ||             ||       ||        ||      ||           || ||
-|| $2\infty - 3 \rightarrow \infty$                             ||       ||             ||       ||        ||      ||           || ||
+|| $2\infty - 3 \rightarrow \infty$                             ||       ||             ||       ||        || s 47.2 µs    ||           || ||
 || $\frac{e^x-1}{e^{x/2}+1} \rightarrow e^{x/2} - 1$            ||       ||             ||       ||        ||      ||           || ||
 || $A(x \geq y, y \geq z, z \geq x); x = z?$                    ||       ||             ||       ||        ||      ||           || ||
 || $A(x > y, y > 0); 2x^2 > 2y^2?$                              ||       ||             ||       ||        ||      ||           || ||
