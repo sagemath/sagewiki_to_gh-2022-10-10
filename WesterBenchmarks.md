@@ -17,7 +17,7 @@
 || $\sqrt{2\sqrt{3} + 4} \rightarrow 1 + \sqrt{3}$              ||       ||             ||       ||        ||  $\times$    ||           || ||
 || $2\infty - 3 \rightarrow \infty$                             ||       ||             ||       ||        || s 47.2 µs    ||           || ||
 || $\frac{e^x-1}{e^{x/2}+1} \rightarrow e^{x/2} - 1$            ||       ||             ||       ||        || s 2.59 ms   ||           || ||
-|| $A(x \geq y, y \geq z, z \geq x); x = z?$                    ||       ||             ||       ||        ||      ||           || ||
+|| $A(x \geq y, y \geq z, z \geq x); x = z?$                    ||       ||             ||       ||        || s  1.57 ms    ||           || ||
 || $A(x > y, y > 0); 2x^2 > 2y^2?$                              ||       ||             ||       ||        ||      ||           || ||
 || $\frac{\cos(3x)}{\cos x} \rightarrow \cos^2 x - 3\sin^2 x$   ||       ||             ||       ||        ||      ||           || ||
 || $\frac{\cos(3x)}{\cos x} \rightarrow 2\cos(2x) - 1$          ||       ||             ||       ||        ||      ||           || ||
