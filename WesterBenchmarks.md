@@ -31,7 +31,7 @@
 || $M^{-1}$, where $M = [[x,1],[y,e^z]]$                        ||       ||             ||       ||        || s  3.93 ms   ||           || ||
 || $\sum_{k=1}^n k^3 \rightarrow \frac{n^2(n+1)^2}{4}$          ||       ||             ||       ||        ||  s  24.6 ms  ||           || ||
 || $\sum_{k=1}^\infty(\frac{1}{k^2} + \frac{1}{k^3}) \rightarrow \frac{\pi^2}{6} + \zeta(3)$ || || || || || || || ||
-|| $\prod_{k=1}^nk \rightarrow n!$                              ||       ||             ||       ||        ||      ||           || ||
+|| $\prod_{k=1}^nk \rightarrow n!$                              ||       ||             ||       ||        ||  s 5.82 ms   ||           || ||
 || $\lim_{n\rightarrow\infty}(1 + \frac{1}{n})^n \rightarrow e$ ||       ||             ||       ||        ||      ||           || ||
 || $\lim_{x\rightarrow 0}\frac{\sin x}{x} \rightarrow 1$        ||       ||             ||       ||        ||      ||           || ||
 || $\lim_{x\rightarrow 0}\frac{1-\cos x}{x^2} \rightarrow \frac{1}{2}$ || ||            ||       ||        ||      ||           || ||
