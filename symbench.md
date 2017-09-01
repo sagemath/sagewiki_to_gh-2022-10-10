@@ -1,6 +1,6 @@
 See also [[WesterBenchmarks| this other page]], which lists some of Wester's benchmarks.
 
-See also [[http://wiki.sympy.org/wiki/Symbench|SymPy's benchmarks]], that do the same as below, but in SymPy.
+See also [[https://github.com/sympy/sympy/wiki/Sage-Symbench|SymPy's benchmarks]], that do the same as below, but in [[www.sympy.org|SymPy]].
 
 See also [[http://axiom.svn.sourceforge.net/viewvc/axiom/trunk/axiom/src/input/kamke0.input.pamphlet|an ODE test suite]].
 
