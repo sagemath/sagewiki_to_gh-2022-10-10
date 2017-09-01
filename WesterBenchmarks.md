@@ -1,5 +1,5 @@
 ## page was renamed from SymbolicBenchmarks
-||<-2> Problem Key                                 ||
+||<-2 rowstyle="background-color: #FFFFE0;">Problem Key                                 ||
 || $\rightarrow$ || simplify                       ||
 || $A(...)$      || assume ...                     ||
 || $S(...,x)$    || solve ... for $x$              ||
@@ -7,14 +7,14 @@
 || (p.v.)        || principal value                ||
 || (div)         || divergent                      ||
 
-||<-2> Performance Key                                           ||
+||<-2 rowstyle="background-color: #FFFFE0;">Performance Key                                           ||
 || $\times$                || wrong answer/cannot do the problem ||
 || $s\ sec/ms/\mu s$       || performs correctly in time $s$     ||
 || $> s\ sec/ms/\mu s$     || does not finish in time $s$        ||
 || >.<,$s$ or >.<,$\times$ || very difficult to convince system to do what you want (regardless of performance) ||
 
-|| Problem                                                      || Maple || Mathematica || GiNaC || Maxima || Sage || Symbolics || Notes (such as code used/version etc.) ||
-|| $\sqrt{2\sqrt{3} + 4} \rightarrow 1 + \sqrt{3}$              ||       ||             ||       ||        ||      ||           || ||
+||<rowstyle="background-color: #FFFFE0;">Problem                                                      || Maple || Mathematica || GiNaC || Maxima || Sage || Symbolics || Notes (such as code used/version etc.) ||
+|| $\sqrt{2\sqrt{3} + 4} \rightarrow 1 + \sqrt{3}$              ||       ||             ||       ||        ||  $\times$    ||           || ||
 || $2\infty - 3 \rightarrow \infty$                             ||       ||             ||       ||        || s 47.2 µs    ||           || ||
 || $\frac{e^x-1}{e^{x/2}+1} \rightarrow e^{x/2} - 1$            ||       ||             ||       ||        || s 2.59 ms   ||           || ||
 || $A(x \geq y, y \geq z, z \geq x); x = z?$                    ||       ||             ||       ||        ||      ||           || ||
