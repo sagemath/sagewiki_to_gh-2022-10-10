@@ -33,7 +33,7 @@ Organize, sage-devel.
  * [[TracGuidelines|Trac guidelines]] by Michael Abshoff
  * [[Software|Ideas for Software to Integrate With Sage]]
  * [[Software_that_may_be_useful]]
- * [[release|Release Management]]
+ * [[devel/ReleaseManagement|Release Management]]
  * [[SEP|Sage Enhancement Proposals]]
  * [[Software_surveys]]
  * [[debian|Sage in Debian]]
