@@ -46,11 +46,11 @@ Please add your name in the list below to the projects you are interested in or 
 * Random testing and random generation (Vincent)
 
 
-* Compare benchmarks and functionalities of Magma vs. Sage (David R., Kiran, Aly)
+* Compare benchmarks and functionalities of Magma vs. Sage (David R., Kiran, Aly, Edgar)
 
-* Function Fields (David R.)
+* Function Fields (David R., Edgar)
 
-* Orders in quaternion algebras (David R., Aly)
+* Orders in quaternion algebras (David R., Aly, Edgar)
 
 * Modular Forms (Kiran)
 
