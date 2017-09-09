@@ -48,7 +48,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/23811|#23811]]) positive-review: fix bug is specialization - Paul Fili
 
- * ([[http://trac.sagemath.org/ticket/23814|#23814]]) positive-review: matrix action on scheme morphism polynomials - Adam Towsley
+ * ([[http://trac.sagemath.org/ticket/23813|#23813]]) positive-review: matrix action on scheme morphism polynomials - Adam Towsley
+
+ * ([[http://trac.sagemath.org/ticket/23814|#23814]]) positive-review: fix is_preperiodic domain check - Paul Fili
 
  * ([[http://trac.sagemath.org/ticket/23740|#23740]]) new: Plotting Julia sets for general polynomials - Ben Barros
 
