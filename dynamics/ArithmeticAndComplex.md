@@ -34,6 +34,22 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/23805|#23805]]) positive-review: implement coercion for scheme points - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/23806|#23806]]) needs-info: don't choose default affine patch on projective point init - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/23807|#23807]]) needs-info: fix issues with identical affine patches - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/23808|#23808]]) positive-review: save embedding in _numberfield_from_algebraics - Paul Fili
+
+ * ([[http://trac.sagemath.org/ticket/23809|#23809]]) positive-review: fix normalization in canonical height - Paul Fili
+
+ * ([[http://trac.sagemath.org/ticket/23810|#23810]]) positive-review: fix typo is critical point portrait - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/23811|#23811]]) positive-review: fix bug is specialization - Paul Fili
+
+ * ([[http://trac.sagemath.org/ticket/23814|#23814]]) positive-review: matrix action on scheme morphism polynomials - Adam Towsley
+
  * ([[http://trac.sagemath.org/ticket/23740|#23740]]) new: Plotting Julia sets for general polynomials - Ben Barros
 
  * ([[http://trac.sagemath.org/ticket/23720|#23720]]) needs-work: Plotting Mandelbrot sets for general polynomials - Ben Barros
