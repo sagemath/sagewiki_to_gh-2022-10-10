@@ -36,6 +36,11 @@ This conference is aimed at women at all career stages who are interested in usi
  * Monday, October 23:
  * Tuesday, October 24:
  * Wednesday, October 25: Workshop ends in the evening. 
+
+== Some Guides For Getting Started With SAGE ==
+
+ * Download [[http://www.sagemath.org/download-source.html|SAGE source code]]. 
+ * Install SAGE from source code using the [[http://doc.sagemath.org/html/en/installation/source.html|SAGE installation guide]] (this may take several hours).
   
 
 == Organizers: ==
