@@ -40,9 +40,9 @@ This conference is aimed at women at all career stages who are interested in usi
 == Some Guides For Getting Started With SAGE ==
 
  * Download [[http://www.sagemath.org/download-source.html|SAGE source code]]. 
- * Install SAGE from source code using the [[http://doc.sagemath.org/html/en/installation/source.html|SAGE installation guide]] (this may take several hours).
+ * Install SAGE from source code using the [[http://doc.sagemath.org/html/en/installation/source.html|SAGE Installation Guide]] (this may take several hours).
  * While you wait for SAGE to build, take a moment to [[http://doc.sagemath.org/html/en/developer/trac.html#section-trac-account|obtain a SAGEtrac account]]. 
- * [[http://doc.sagemath.org/html/en/developer/index.html|Install and configure Git for SAGE development]]. 
+ * Install and configure Git using the [[http://doc.sagemath.org/html/en/developer/index.html|SAGE Developer's Guide]]. 
   
 
 == Organizers: ==
