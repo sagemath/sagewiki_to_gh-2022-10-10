@@ -10,7 +10,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Idées et Projets en cours ==
 
- * relecture de la [[http://www.labri.fr/perso/vdelecro/flatsurf.html|version anglaise du Calcul mathématique avec Sage]]
+ * relecture de la [[https://members.loria.fr/PZimmermann/sagebook/english.html|version anglaise du Calcul mathématique avec Sage]]
  * [[https://github.com/videlec/pplpy|pplpy]]: interface Pyton à la librairie [[http://bugseng.com/products/ppl/ppl|Parma Polyhedra Library (PPL)]]
  * algèbre linéaire dans Sage ([[http://flintlib.org/|flint]], [[http://www.linalg.org/|LinBox]], [[https://cs.uwaterloo.ca/~astorjoh/iml.html|IML]]) [[https://trac.sagemath.org/ticket/22872|#22872]]
  * Integration de pplpy comme package Sage [[https://trac.sagemath.org/ticket/23024|#23024]].
