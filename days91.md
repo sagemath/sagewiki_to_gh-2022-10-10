@@ -23,8 +23,8 @@ Please add "sd91" as a keyword to any tickets you are working on during this wee
   * a latex representation for the genus using the Conway Sloane genus symbols
   * a base class for the orthogonal group of a lattice
   * a method to compute the orthogonal group of a positive definite lattice
-
-
+  * hypergeometric motives [[https://trac.sagemath.org/ticket/23671|#23671]]
+  * get Edgar Costa's code for zeta functions of projective hypersurfaces into Sage [[https://trac.sagemath.org/ticket/23863|#23863]]
 
 == Tickets needing review ==
 
