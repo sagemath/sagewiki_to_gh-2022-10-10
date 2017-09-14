@@ -35,6 +35,13 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 14 septembre ====
+
+Sébastien:
+
+ * Review du ticket [[https://trac.sagemath.org/ticket/23779|#23779]] (positive_review): dev_tools is wrongly using globals()
+ * Review du ticket [[https://trac.sagemath.org/ticket/23849|#23849]] (positive_review): Remove deprecation from optional_packages documentation and friends
+
 ==== Jeudi 29 juin ====
 
 Vincent K.
