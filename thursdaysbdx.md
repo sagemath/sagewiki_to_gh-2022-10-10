@@ -42,6 +42,7 @@ Sébastien:
  * Review du ticket [[https://trac.sagemath.org/ticket/23779|#23779]] (positive_review): dev_tools is wrongly using globals()
  * Review du ticket [[https://trac.sagemath.org/ticket/23849|#23849]] (positive_review): Remove deprecation from optional_packages documentation and friends
  * Review du ticket [[https://trac.sagemath.org/ticket/23851|#23851]] (positive_review): Fix memoryleak introduced in #11670
+ * Review du ticket [[https://trac.sagemath.org/ticket/23860|#23860]] (positive_review): C++ clean up in dancing_links.pyx
 
 ==== Jeudi 29 juin ====
 
