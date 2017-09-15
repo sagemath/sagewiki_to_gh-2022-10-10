@@ -48,6 +48,11 @@ Vincent D:
 
  * s'est battu bat avec GAP [[https://trac.sagemath.org/ticket/23844|#23844]], [[https://trac.sagemath.org/ticket/23853|#23853]], [[https://trac.sagemath.org/ticket/23854|#23854]], les graphes ([[http://pallini.di.uniroma1.it/|nauty]] est génial!) et les polynômes de Laurent [[https://trac.sagemath.org/ticket/23864|#23864]]
 
+Vincent K:
+
+ * Travail sur la generation de tests pour [[https://github.com/defeo/cypari2|cypari2]]
+ * Syntax Highlightning de pari-jupyter : Tentative d'installation du kernel de gap [[https://github.com/gap-packages/jupyter-kernel-gap/issues/43|issue #43]] 
+
 ==== Jeudi 29 juin ====
 
 Vincent K.
