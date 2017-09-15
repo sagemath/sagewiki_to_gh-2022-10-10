@@ -2,7 +2,7 @@
 
 ----
 
-= Supported platforms =
+== Types of support ==
 
 If you try to build Sage on most Linux or OS X systems, you should have few problems and if there are problems, plenty of people will be able to help you. Just ask on [[http://groups.google.com/group/sage-support|sage-support@googlegroups.com]] But some distributions are better supported than others - see below for details. 
 
