@@ -19,8 +19,6 @@ Below are listed the supported platforms, along with the level of support given.
 
 Specific hardware and software for these levels of support are given below.
 
-= Sage 6.1.1 =
-
 == Fully supported ==
 Sage is fully supported on the following platforms. This means '''every''' single '''release''' of Sage is '''always tested''' on all these platforms. The testing is performed in an automated way using Buildbot. (You can see what systems we use at http://build.sagemath.org/#/workers) Failure to build on one of these platforms will stop a release of Sage being made. Any failures to either build or pass tests are considered serious bugs. 
 
