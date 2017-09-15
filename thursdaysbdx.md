@@ -2,7 +2,7 @@
 = Les jeudi Sage à Bordeaux =
 = (autour de Sage, PARI/GP, et plus) =
 
-''Prochaine séance le jeudi 14 septembre salle 74 (Réservée pour la journée).''
+''Prochaine séance le jeudi 21 septembre salle à déterminer.''
 
 Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour programmer autour du logiciel de calcul formel [[http://www.sagemath.org/|Sage]]. Ces journées ont commencé le 13 avril 2017. Cette page permet de suivre l'activité des rencontres.
 
