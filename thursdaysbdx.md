@@ -44,6 +44,10 @@ Sébastien:
  * Review du ticket [[https://trac.sagemath.org/ticket/23851|#23851]] (positive_review): Fix memoryleak introduced in #11670
  * Review du ticket [[https://trac.sagemath.org/ticket/23860|#23860]] (positive_review): C++ clean up in dancing_links.pyx
 
+Vincent D:
+
+ * s'est battu bat avec GAP [[https://trac.sagemath.org/ticket/23844|#23844]], [[https://trac.sagemath.org/ticket/23853|#23853]], [[https://trac.sagemath.org/ticket/23854|#23854]], les graphes ([[http://pallini.di.uniroma1.it/|nauty]] est génial!) et les polynômes de Laurent [[https://trac.sagemath.org/ticket/23864|#23864]]
+
 ==== Jeudi 29 juin ====
 
 Vincent K.
