@@ -62,6 +62,7 @@ In addition to the above systems where Sage will work, Sage will probably work o
 If anyone is able to test on these systems, we would particularly appreciate reports of failures, since Sage really should work on these systems. We expect to set up an automated system where people can mail successful build reports, and to generate a web page showing successful builds. But currently neither are in place. 
 
 === Linux ===
+'''Warning this list was last updated during the release of sage 6.1.1'''
  * Arch on x86 (Both 32-bit and 64-bit).
  * CentOS  on x86 (Both 32-bit and 64-bit).
  * Debian 5.0 or 6.0 on x86 (Both 32-bit and 64-bit).
@@ -75,12 +76,14 @@ If anyone is able to test on these systems, we would particularly appreciate rep
 Other Linux distributions, such as Slackware are never tested, so may or may not work. 
 
 === Mac OS X ===
+'''Warning this list was last updated during the release of sage 6.1.1'''
  * OSX 10.4 (Tiger) on PPC will build except for the rpy2 package; you can build the "Mac App" and it should work as well. The pexpect interfaces tend to be less reliable than other platforms, so you might see some unreproducible doctest failures.
  * OSX 10.5 (Leopard), both PPC and Intel chips.  
  * OSX 10.7 (Lion) and 10.8 (Mountain Lion) provided you use a sufficiently recent version of XCode.
  * OS X 10.10 (Yosemite) is work in progress and should be supported soon.
 
 === Solaris ===
+'''Warning this list was last updated during the release of sage 6.1.1'''
  * Solaris 10 03/2005 or any later Solaris 10 release on x86 processors in 32-bit mode.
  * Solaris 10 on x86 processors in 32-bit mode.
  * Solaris 11 Express on x86 (32-bit has been tested).
@@ -92,13 +95,16 @@ Other Linux distributions, such as Slackware are never tested, so may or may not
 This lists systems on which Sage builds, but there are a few doctest errors.  However, most of the functionality of Sage should work.  If the doctest failures are fixed, these systems will move to the "fully supported" or "expected to work" categories.
 
 === Linux ===
+'''Warning this list was last updated during the release of sage 6.1.1'''
  * ARM processors.  All the issues are numerical, where some computations (in particular of the gamma function) yield results with less numerical precision than expected.  See [[http://trac.sagemath.org/sage_trac/ticket/10285|Trac #10285]].
  * ppc64: The 64-bit PowerPC port can be followed at [[http://trac.sagemath.org/sage_trac/ticket/11705|Trac #11705]]. Tested on [[http://build.sagemath.org/sage/buildslaves/silius-1|silius]]
 
 === FreeBSD ===
+'''Warning this list was last updated during the release of sage 6.1.1'''
  * Sage now works on FreeBSD 8.3 and 9, with only a few doctest errors.  One needs to use the system atlas, and a few other scripts, as well as many patches.   See [[http://www.freebsd.org/cgi/cvsweb.cgi/ports/math/sage/|here for a FreeBSD port]] of Sage, which should include most of this information.  Older information about the status of the FreeBSD port is archived at [[freebsd|Sage port to FreeBSD]].
 
 === Microsoft Windows (Cygwin) ===
+'''Warning this list was last updated during the release of sage 6.1.1'''
  * Microsoft Windows using Cygwin; see [[http://trac.sagemath.org/sage_trac/ticket/13841|the metaticket for this]].  Sage compiles from source and has only a few doctest failures with only some rebasing issues and one or two unusual prerequisites (currently the mpfr-4 and a few lapack Cygwin packages).  Some slightly old information about the status of the Cygwin port can be found at [[http://trac.sagemath.org/sage_trac/wiki/CygwinPort ]] and on the [[http://groups.google.com/group/sage-windows|sage-windows]] mailing list.
 
 === OpenSolaris x86 32-bit ===
