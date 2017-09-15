@@ -22,7 +22,7 @@ Specific hardware and software for these levels of support are given below.
 = Sage 6.1.1 =
 
 == Fully supported ==
-Sage is fully supported on the following platforms. This means '''every''' single '''release''' of Sage is '''always tested''' on all these platforms. The testing is performed in an automated way using Buildbot. (You can see what systems we use at http://build.sagemath.org/sage/buildslaves) Failure to build on one of these platforms will stop a release of Sage being made. Any failures to either build or pass tests are considered serious bugs. 
+Sage is fully supported on the following platforms. This means '''every''' single '''release''' of Sage is '''always tested''' on all these platforms. The testing is performed in an automated way using Buildbot. (You can see what systems we use at http://build.sagemath.org/#/workers) Failure to build on one of these platforms will stop a release of Sage being made. Any failures to either build or pass tests are considered serious bugs. 
 
 Also, we will usually make binaries available for these platforms. 
 
@@ -38,6 +38,7 @@ There are several requirements for Sage to work successfully on these fully supp
  * All instructions must be followed.
 
 === Linux ===
+For the most up to date version see http://build.sagemath.org/#/workers any differences between this list and what is listed below should be reported to [[http://groups.google.com/group/sage-support|sage-support@googlegroups.com]].
  * Debian 7.1 x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/plantain|plantain]]
  * Fedora 16 on x86 (64-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/eno-1|eno]], [[http://build.sagemath.org/sage/buildslaves/flavius-1|flavius]], [[http://build.sagemath.org/sage/buildslaves/lena-1|lena]], [[http://build.sagemath.org/sage/buildslaves/sextus-1|sextus]]
  * Fedora 16 on i686 (32-bit). Tested on [[http://build.sagemath.org/sage/buildslaves/cicero-1|cicero]]
@@ -49,10 +50,12 @@ There are several requirements for Sage to work successfully on these fully supp
  * Ubuntu 14.04 on x86 (64-bit). Make sure that the {{{dpkg-dev}}} package is installed. Tested on [[http://build.sagemath.org/sage/buildslaves/snapperkob|snapperkob]]
 
 === Mac OS X ===
+For the most up to date version see http://build.sagemath.org/#/workers any differences between this list and what is listed below should be reported to [[http://groups.google.com/group/sage-support|sage-support@googlegroups.com]].
  * OSX 10.6 (Snow Leopard) 64-bit, with XCode 3. Tested on [[http://build.sagemath.org/sage/buildslaves/bsd-1|bsd]]
  * OSX 10.9 (Mavericks) 64-bit, wich XCode 5.1.1. Tested on [[http://build.sagemath.org/sage/buildslaves/volker-desktop-osx|volker-osx]]
 
 === Solaris SPARC 32-bit ===
+For the most up to date version see http://build.sagemath.org/#/workers any differences between this list and what is listed below should be reported to [[http://groups.google.com/group/sage-support|sage-support@googlegroups.com]].
  * Solaris 10 on SPARC processors in 32-bit mode. You need to use the '''Solaris linker''' in /usr/ccs/bin/ld (this is normally the default), the GNU linker is not supported. Tested on [[http://build.sagemath.org/sage/buildslaves/mark-1|mark]]
 
 == Expected to work ==
