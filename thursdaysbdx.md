@@ -1,5 +1,5 @@
 ## page was renamed from thursdays_bordeaux
-= Les jeudi Sage à Bordeaux =
+= Les jeudi sages à Bordeaux =
 = (autour de Sage, PARI/GP, et plus) =
 
 ''Prochaine séance le jeudi 21 septembre salle à déterminer.''
