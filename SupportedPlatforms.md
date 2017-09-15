@@ -59,7 +59,7 @@ For the most up to date version see http://build.sagemath.org/#/workers any diff
 == Expected to work ==
 In addition to the above systems where Sage will work, Sage will probably work on the following operating systems, though we can't guarantee that, as it is impractical to test each Sage release on all these systems. Failure to build on these systems will be considered a bug, but we may not have the resources to solve any problems. Sage developers should be able to offer assistance to anyone who can't get Sage to work properly on one of these platforms, but since they might not necessarily have access to the platform, that may be difficult.
 
-If anyone is able to test on these systems, we would particularly appreciate reports of failures, since Sage really should work on these systems. On the [[https://patchbot.sagemath.org/machines|SageMath patchbot]] one can see a list of machines on which sage is regularly tested during the development of sage.
+If anyone is able to test on these systems, we would particularly appreciate reports of failures, since Sage really should work on these systems. Both successful and failed build and test results should be mailed to [[https://groups.google.com/group/sage-release/|sage-release@googlegroups.com]] . On the [[https://patchbot.sagemath.org/machines|SageMath patchbot]] one can see a list of machines on which sage is regularly tested during the development of sage.
 
 === Linux ===
 '''''Warning this list was last updated during the release of sage 6.1.1'''''
