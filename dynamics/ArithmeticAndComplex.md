@@ -54,7 +54,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/23720|#23720]]) needs-work: Plotting Mandelbrot sets for general polynomials - Ben Barros
 
-  * ([[http://trac.sagemath.org/ticket/23434|#23434]]) positive-review: move subscheme code - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/23434|#23434]]) positive-review: move subscheme code - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/23047|#23047]]) new: Meta Ticket: Utilize coercion framework for scheme points and morphisms
 
