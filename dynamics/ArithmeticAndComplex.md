@@ -42,8 +42,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/23808|#23808]]) positive-review: save embedding in _numberfield_from_algebraics - Paul Fili
 
- * ([[http://trac.sagemath.org/ticket/23809|#23809]]) positive-review: fix normalization in canonical height - Paul Fili
-
  * ([[http://trac.sagemath.org/ticket/23810|#23810]]) positive-review: fix typo is critical point portrait - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/23811|#23811]]) positive-review: fix bug is specialization - Paul Fili
@@ -56,9 +54,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/23720|#23720]]) needs-work: Plotting Mandelbrot sets for general polynomials - Ben Barros
 
- * ([[http://trac.sagemath.org/ticket/23497|#23497]]) positive-review: relocate dynamics code - Ben Hutz, Xander Faber
-
- * ([[http://trac.sagemath.org/ticket/23434|#23434]]) positive-review: move subscheme code - Ben Hutz
+  * ([[http://trac.sagemath.org/ticket/23434|#23434]]) positive-review: move subscheme code - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/23047|#23047]]) new: Meta Ticket: Utilize coercion framework for scheme points and morphisms
 
@@ -90,6 +86,10 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Berkovich P1 || || ||  ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/23809|#23809]])-- closed sage-8.1: fix normalization in canonical height - Paul Fili
+
+ * --([[http://trac.sagemath.org/ticket/23497|#23497]])-- closed sage-8.1: relocate dynamics code - Ben Hutz, Xander Faber
 
  * --([[http://trac.sagemath.org/ticket/8423|#8423]])-- closed sage-8.1: Julia sets - Ben Barros
 
