@@ -34,7 +34,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this wee
 
   * a class for integral lattices [[https://trac.sagemath.org/ticket/23634|#23634]]
 
-  * bugfix for Genera equality testing [[https://trac.sagemath.org/ticket/23376|#23376]]
+  * bugfix for genera equality testing [[https://trac.sagemath.org/ticket/23376|#23376]]
 
 == To prepare for the workshop ==
 
