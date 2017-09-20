@@ -40,8 +40,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/23807|#23807]]) needs-info: fix issues with identical affine patches - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/23808|#23808]]) positive-review: save embedding in _numberfield_from_algebraics - Paul Fili
-
  * ([[http://trac.sagemath.org/ticket/23810|#23810]]) positive-review: fix typo is critical point portrait - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/23811|#23811]]) positive-review: fix bug is specialization - Paul Fili
@@ -86,6 +84,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Berkovich P1 || || ||  ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/23808|#23808]])-- closed sage-8.1: save embedding in _numberfield_from_algebraics - Paul Fili
 
  * --([[http://trac.sagemath.org/ticket/23809|#23809]])-- closed sage-8.1: fix normalization in canonical height - Paul Fili
 
