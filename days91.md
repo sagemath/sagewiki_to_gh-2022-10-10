@@ -11,6 +11,8 @@ Location: Banff International Research Station.
 Feel free to add suggestions 
 
 Please add "sd91" as a keyword to any tickets you are working on during this week so they show up in this list: [[https://trac.sagemath.org/query?keywords=~sd91&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=status|sd91 Tickets]]
+
+'''Lattice related projects'''
   * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]]
   * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]]
   * fix intersections of free_quadratic_modules and thus homomorphisms of abelian groups [[https://trac.sagemath.org/ticket/23703|#23703]]
@@ -23,6 +25,8 @@ Please add "sd91" as a keyword to any tickets you are working on during this wee
   * a latex representation for the genus using the Conway Sloane genus symbols
   * a base class for the orthogonal group of a lattice
   * a method to compute the orthogonal group of a positive definite lattice
+
+'''Point counting and zeta function projects'''
   * hypergeometric motives [[https://trac.sagemath.org/ticket/23671|#23671]]
   * get Edgar Costa's code for zeta functions of projective hypersurfaces into Sage [[https://trac.sagemath.org/ticket/23863|#23863]]
 
