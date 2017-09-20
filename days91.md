@@ -38,4 +38,4 @@ Please add "sd91" as a keyword to any tickets you are working on during this wee
 
 == To prepare for the workshop ==
 
-Before the workshop, we recommend [[http://www.sagemath.org/|downloading and installing]] the latest version of the source code of Sage, opening a [[https://trac.sagemath.org/|Sage trac]] account.
+Before the workshop, we recommend [[http://www.sagemath.org/|downloading and installing]] the latest version of the source code of Sage, opening a [[https://trac.sagemath.org/|Sage trac]] account and completing the [[https://www.codecademy.com/|Code Academy]] modules on Python and Git.
