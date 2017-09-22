@@ -22,7 +22,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this wee
   * diagonalization and isomorphism testing for finite quadratic/bilinear forms
   * create a genus from a signature pair and a finite quadratic form
   * create a finite quadratic form from a genus
-  * a latex representation for the genus using the Conway Sloane genus symbols
+  * a latex representation for the genus using the Conway Sloane genus symbols [[https://trac.sagemath.org/ticket/23916|#23916]]
   * a base class for the orthogonal group of a lattice
   * a method to compute the orthogonal group of a positive definite lattice
   * expose more of [[https://github.com/jefferyphein/ternary-birch|Jeffery Hein's lattice code]] than is currently being used for modular forms [[https://trac.sagemath.org/ticket/23342|23342]]
