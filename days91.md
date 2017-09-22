@@ -32,13 +32,15 @@ Please add "sd91" as a keyword to any tickets you are working on during this wee
   * get Edgar Costa's code for zeta functions of projective hypersurfaces into Sage [[https://trac.sagemath.org/ticket/23863|#23863]]
   * package Sebastian Pancratz's code for deformation computation of zeta functions [[https://trac.sagemath.org/ticket/20265|#20265]]
   * implement a (rigorous, sane) test for Weil polynomials. More ambitious: get [[https://github.com/kedlaya/root-unitary|this code]] for exhausting over Weil polynomials into Sage
-  * Add Malcolm Kotok's code for zeta functions using the Sperber-Voight algorithm to Sage: [[https://trac.sagemath.org/ticket/19865]], [[http://hdl.handle.net/1802/30832]]
+  * Add Malcolm Kotok's code for zeta functions using the Sperber-Voight algorithm to Sage: [[https://trac.sagemath.org/ticket/19865|#19865]], [[http://hdl.handle.net/1802/30832]]
 
 == Tickets needing review ==
 
   * a class for integral lattices [[https://trac.sagemath.org/ticket/23634|#23634]]
 
   * bugfix for genera equality testing [[https://trac.sagemath.org/ticket/23376|#23376]]
+
+  * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22391|#22594]]
 
 == To prepare for the workshop ==
 
