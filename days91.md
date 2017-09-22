@@ -15,7 +15,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this wee
 '''Lattice related projects'''
   * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]]
   * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]]
-  * fix intersections of free_quadratic_modules and thus homomorphisms of abelian groups [[https://trac.sagemath.org/ticket/23703|#23703]]
+  * use the inner_product_matrix for module comparison [[https://trac.sagemath.org/ticket/23915|#23915]]
   * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]]
   * implement QQ/ZZ , QQ/2ZZ or QQ/nZZ as abelian groups. This is where finite quadratic/bilinear forms have values
   * implement a class for (subgroups of) the orthogonal group of a finite bilinear/quadratic form and an algorithm to compute it
