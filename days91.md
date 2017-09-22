@@ -31,6 +31,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this wee
   * hypergeometric motives [[https://trac.sagemath.org/ticket/23671|#23671]]
   * get Edgar Costa's code for zeta functions of projective hypersurfaces into Sage [[https://trac.sagemath.org/ticket/23863|#23863]]
   * package Sebastian Pancratz's code for deformation computation of zeta functions [[https://trac.sagemath.org/ticket/20265|#20265]]
+  * implement a (rigorous, sane) test for Weil polynomials
 
 == Tickets needing review ==
 
