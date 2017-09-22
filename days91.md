@@ -45,3 +45,13 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 == To prepare for the workshop ==
 
 Before the workshop, we recommend opening a [[https://trac.sagemath.org/|Sage trac]] account and completing the [[https://www.codecademy.com/|Code Academy]] modules on Python and Git.  If you like you may [[http://www.sagemath.org/|download and install]] the latest version of the source code of Sage, though we hope to arrange installations on a CoCalc server. 
+
+== Possible Interest Groups ==
+
+Lattices: Simon Brandhorst, Amy Feaver, Andreas Malmendier, Ichiro Shimada, Tony Várilly-Alvarado
+
+Zeta functions (Monsky-Washnitzer cohomology): Jen Balakrishnan, Edgar Costa, Kiran Kedlaya
+
+Zeta functions (Dwork cohomology): Anastassia Etropolski, Heidi Goodson, David Roe, Ursula Whitcher
+
+People of many interests: Jen Berg, Renate Scheidler, Mckenzie West, David Zureick-Brown, Lenny Taelman
