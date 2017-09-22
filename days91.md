@@ -10,7 +10,7 @@ Location: Banff International Research Station.
 
 Feel free to add suggestions 
 
-Please add "sd91" as a keyword to any tickets you are working on during this week so they show up in this list: [[https://trac.sagemath.org/query?keywords=~sd91&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=status|sd91 Tickets]]
+Please add "sd91" as a keyword to any tickets you are working on during this Sage Days so they show up in this list: [[https://trac.sagemath.org/query?keywords=~sd91&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=status|sd91 Tickets]]
 
 '''Lattice related projects'''
   * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]]
