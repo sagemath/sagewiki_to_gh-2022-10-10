@@ -25,10 +25,12 @@ Please add "sd91" as a keyword to any tickets you are working on during this wee
   * a latex representation for the genus using the Conway Sloane genus symbols
   * a base class for the orthogonal group of a lattice
   * a method to compute the orthogonal group of a positive definite lattice
+  * expose more of [[https://github.com/jefferyphein/ternary-birch|Jeffery Hein's lattice code]] than is currently being used for modular forms [[https://trac.sagemath.org/ticket/23342|23342]]
 
 '''Point counting and zeta function projects'''
   * hypergeometric motives [[https://trac.sagemath.org/ticket/23671|#23671]]
   * get Edgar Costa's code for zeta functions of projective hypersurfaces into Sage [[https://trac.sagemath.org/ticket/23863|#23863]]
+  * package Sebastian Pancratz's code for deformation computation of zeta functions [[https://trac.sagemath.org/ticket/20265|#20265]]
 
 == Tickets needing review ==
 
