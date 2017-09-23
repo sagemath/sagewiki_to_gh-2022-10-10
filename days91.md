@@ -50,7 +50,7 @@ Before the workshop, we recommend opening a [[https://trac.sagemath.org/|Sage tr
 
 Lattices: Simon Brandhorst, Amy Feaver, Andreas Malmendier, David Roe, Ichiro Shimada
 
-Zeta functions (Monsky-Washnitzer cohomology): Jen Balakrishnan, Edgar Costa, Kiran Kedlaya
+Zeta functions (Monsky-Washnitzer cohomology/deformation): Jen Balakrishnan, Edgar Costa, Kiran Kedlaya
 
 Zeta functions (Dwork cohomology): Anastassia Etropolski, Heidi Goodson, Tony Várilly-Alvarado, Ursula Whitcher
 
