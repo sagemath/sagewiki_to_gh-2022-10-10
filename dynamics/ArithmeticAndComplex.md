@@ -83,6 +83,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * --([[http://trac.sagemath.org/ticket/23811|#23811]])-- closed sage-8.1: fix bug is specialization - Paul Fili
 
+ * --([[http://trac.sagemath.org/ticket/23571|#23571]])-- closed sage-8.1: Implement Veronese Embedding - Grayson Jorgenson
+
  * --([[http://trac.sagemath.org/ticket/23434|#23434]])-- closed sage-8.1: move subscheme code - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/23808|#23808]])-- closed sage-8.1: save embedding in _numberfield_from_algebraics - Paul Fili
