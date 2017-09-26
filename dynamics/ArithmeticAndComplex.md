@@ -40,8 +40,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/23813|#23813]]) positive-review: matrix action on scheme morphism polynomials - Adam Towsley
 
- * ([[http://trac.sagemath.org/ticket/23814|#23814]]) positive-review: fix is_preperiodic domain check - Paul Fili
-
  * ([[http://trac.sagemath.org/ticket/23740|#23740]]) new: Plotting Julia sets for general polynomials - Ben Barros
 
  * ([[http://trac.sagemath.org/ticket/23720|#23720]]) needs-work: Plotting Mandelbrot sets for general polynomials - Ben Barros
@@ -77,11 +75,14 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
- * --([[http://trac.sagemath.org/ticket/23805|#23805]])-- closed sage-8.1: implement coercion for scheme points - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/23814|#23814]])-- closed sage-8.1: fix is_preperiodic domain check - Paul Fili
+
+ * --([[http://trac.sagemath.org/ticket/23811|#23811]])-- closed sage-8.1: fix bug is specialization - Paul Fili
 
  * --([[http://trac.sagemath.org/ticket/23810|#23810]])-- closed sage-8.1: fix typo is critical point portrait - Ben Hutz
 
- * --([[http://trac.sagemath.org/ticket/23811|#23811]])-- closed sage-8.1: fix bug is specialization - Paul Fili
+ * --([[http://trac.sagemath.org/ticket/23805|#23805]])-- closed sage-8.1: implement coercion for scheme points - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/23571|#23571]])-- closed sage-8.1: Implement Veronese Embedding - Grayson Jorgenson
 
