@@ -28,7 +28,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
   * expose more of [[https://github.com/jefferyphein/ternary-birch|Jeffery Hein's lattice code]] than is currently being used for modular forms [[https://trac.sagemath.org/ticket/23342|23342]]
 
 '''Point counting and zeta function projects'''
-  * hypergeometric motives: Euler factors at good primes [[https://trac.sagemath.org/ticket/23671|#23671]], possibly port more of [[https://magma.maths.usyd.edu.au/magma/handbook/hypergeometric_motives Magma's functionality]]
+  * hypergeometric motives: Euler factors at good primes [[https://trac.sagemath.org/ticket/23671|#23671]]; port more of [[https://magma.maths.usyd.edu.au/magma/handbook/hypergeometric_motives|Magma's functionality]]
   * get Edgar Costa's code for zeta functions of projective hypersurfaces into Sage [[https://trac.sagemath.org/ticket/23863|#23863]]
   * package Sebastian Pancratz's code for deformation computation of zeta functions [[https://trac.sagemath.org/ticket/20265|#20265]]
   * implement a (rigorous, sane) test for Weil polynomials. More ambitious: get [[https://github.com/kedlaya/root-unitary|this code]] for exhausting over Weil polynomials into Sage
