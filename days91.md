@@ -102,7 +102,7 @@ in your sage folder will do the redirection for you, as well as automatically us
 
 == Possible Interest Groups ==
 
-Lattices: Simon Brandhorst, Amy Feaver, Andreas Malmendier, David Roe, Ichiro Shimada
+Lattices: Simon Brandhorst, Andreas Malmendier, David Roe, Ichiro Shimada
 
 Zeta functions (Monsky-Washnitzer cohomology/deformation): Jen Balakrishnan, Edgar Costa, Kiran Kedlaya
 
