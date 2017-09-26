@@ -34,15 +34,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/23805|#23805]]) positive-review: implement coercion for scheme points - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/23806|#23806]]) needs-info: don't choose default affine patch on projective point init - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/23807|#23807]]) needs-info: fix issues with identical affine patches - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/23810|#23810]]) positive-review: fix typo is critical point portrait - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/23811|#23811]]) positive-review: fix bug is specialization - Paul Fili
 
  * ([[http://trac.sagemath.org/ticket/23813|#23813]]) positive-review: matrix action on scheme morphism polynomials - Adam Towsley
 
@@ -51,8 +45,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * ([[http://trac.sagemath.org/ticket/23740|#23740]]) new: Plotting Julia sets for general polynomials - Ben Barros
 
  * ([[http://trac.sagemath.org/ticket/23720|#23720]]) needs-work: Plotting Mandelbrot sets for general polynomials - Ben Barros
-
- * ([[http://trac.sagemath.org/ticket/23434|#23434]]) positive-review: move subscheme code - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/23047|#23047]]) new: Meta Ticket: Utilize coercion framework for scheme points and morphisms
 
@@ -84,6 +76,14 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Berkovich P1 || || ||  ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/23805|#23805]])-- closed sage-8.1: implement coercion for scheme points - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/23810|#23810]])-- closed sage-8.1: fix typo is critical point portrait - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/23811|#23811]])-- closed sage-8.1: fix bug is specialization - Paul Fili
+
+ * --([[http://trac.sagemath.org/ticket/23434|#23434]])-- closed sage-8.1: move subscheme code - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/23808|#23808]])-- closed sage-8.1: save embedding in _numberfield_from_algebraics - Paul Fili
 
