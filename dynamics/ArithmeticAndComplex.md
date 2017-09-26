@@ -38,7 +38,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/23807|#23807]]) needs-info: fix issues with identical affine patches - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/23813|#23813]]) positive-review: matrix action on scheme morphism polynomials - Adam Towsley
+ * ([[http://trac.sagemath.org/ticket/23816|#23816]]) needs-review: left matrix action on scheme points - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/23813|#23813]]) needs-review: matrix action on scheme morphism polynomials - Adam Towsley
 
  * ([[http://trac.sagemath.org/ticket/23740|#23740]]) new: Plotting Julia sets for general polynomials - Ben Barros
 
