@@ -126,6 +126,6 @@ Lattices: Simon Brandhorst, Andreas Malmendier, David Roe, Ichiro Shimada
 
 Zeta functions (Monsky-Washnitzer cohomology/deformation): Jen Balakrishnan, Edgar Costa, Kiran Kedlaya
 
-Zeta functions (Dwork cohomology): Anastassia Etropolski, Heidi Goodson, Tony Várilly-Alvarado, Ursula Whitcher
+Zeta functions (Dwork cohomology): Jen Berg, Anastassia Etropolski, Heidi Goodson, Tony Várilly-Alvarado, Ursula Whitcher
 
-People of many interests: Jen Berg, Renate Scheidler, Mckenzie West, David Zureick-Brown, Lenny Taelman
+People of many interests: Renate Scheidler, Mckenzie West, David Zureick-Brown, Lenny Taelman
