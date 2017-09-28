@@ -91,7 +91,7 @@ If you want to be able to push changes to trac, you need to upload your key from
 
 === Sage installations ===
 
-If you provided your trac usernames to Simon, you should have a Sage install in `~/Src`.  If not, you can create a new Sage installation for yourself by running 
+If you provided your trac username to Simon, you should have a Sage install in `~/Src`.  If not, you can create a new Sage installation for yourself by running 
 {{{
 new_sage
 }}}
