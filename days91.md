@@ -32,7 +32,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
     * find (or compute) the list of HGMs which are K3 surfaces
   * get Edgar Costa's code for zeta functions of projective hypersurfaces into Sage [[https://trac.sagemath.org/ticket/23863|#23863]]
   * package Sebastian Pancratz's code for deformation computation of zeta functions [[https://trac.sagemath.org/ticket/20265|#20265]]
-  * implement a (rigorous, sane) test for Weil polynomials: [[https://trac.sagemath.org/ticket/23945|#23945]]. More ambitious: get [[https://github.com/kedlaya/root-unitary|this code]] for exhausting over Weil polynomials into Sage
+  * implement a (rigorous, sane) test for Weil polynomials: [[https://trac.sagemath.org/ticket/23945|#23945]]. More ambitious: get [[https://github.com/kedlaya/root-unitary|this code]] for exhausting over Weil polynomials into Sage: [[https://trac.sagemath.org/ticket/23946|#23946]] 
   * Add Malcolm Kotok's code for zeta functions using the Sperber-Voight algorithm to Sage: [[https://trac.sagemath.org/ticket/19865|#19865]], [[http://hdl.handle.net/1802/30832]]
   * implement the Cayley trick for converting toric complete intersections into toric hypersurfaces
   * Fix the IntegerVectors documentation to point to IntegerListsLex [[https://trac.sagemath.org/ticket/23939|#23939]]
