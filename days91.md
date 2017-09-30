@@ -17,7 +17,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
   * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]]
   * use the inner_product_matrix for module comparison [[https://trac.sagemath.org/ticket/23915|#23915]]
   * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]]
-  * implement QQ/ZZ , QQ/2ZZ or QQ/nZZ as abelian groups. This is where finite quadratic/bilinear forms have values
+  * implement QQ/ZZ , QQ/2ZZ or QQ/nZZ as abelian groups. This is where finite quadratic/bilinear forms have values [[https://trac.sagemath.org/ticket/23944|#23944]]
   * implement a class for (subgroups of) the orthogonal group of a finite bilinear/quadratic form and an algorithm to compute it
   * diagonalization and isomorphism testing for finite quadratic/bilinear forms
   * create a genus from a signature pair and a finite quadratic form
