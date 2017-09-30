@@ -47,7 +47,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 
   * hypergeometric motives: Euler factors at good primes [[https://trac.sagemath.org/ticket/23671|#23671]]
 
-  * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]]
+  * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]] (Simon)
 
 == To prepare for the workshop ==
 
