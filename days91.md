@@ -35,19 +35,21 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
   * implement a (rigorous, sane) test for Weil polynomials: [[https://trac.sagemath.org/ticket/23945|#23945]]. More ambitious: get [[https://github.com/kedlaya/root-unitary|this code]] for exhausting over Weil polynomials into Sage: [[https://trac.sagemath.org/ticket/23946|#23946]] 
   * Add Malcolm Kotok's code for zeta functions using the Sperber-Voight algorithm to Sage: [[https://trac.sagemath.org/ticket/19865|#19865]], [[http://hdl.handle.net/1802/30832]]
   * implement the Cayley trick for converting toric complete intersections into toric hypersurfaces
-  * Fix the IntegerVectors documentation to point to IntegerListsLex [[https://trac.sagemath.org/ticket/23939|#23939]]
+  * Fix the !IntegerVectors documentation to point to !IntegerListsLex [[https://trac.sagemath.org/ticket/23939|#23939]]
 
 == Tickets needing review ==
 
   * a class for integral lattices [[https://trac.sagemath.org/ticket/23634|#23634]]
-
-  * bugfix for genera equality testing [[https://trac.sagemath.org/ticket/23376|#23376]]
 
   * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22391|#22594]]
 
   * hypergeometric motives: Euler factors at good primes [[https://trac.sagemath.org/ticket/23671|#23671]]
 
   * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]] (Simon)
+
+== Positively Reviewed Tickets ==
+
+  * bugfix for genera equality testing [[https://trac.sagemath.org/ticket/23376|#23376]]
 
 == To prepare for the workshop ==
 
