@@ -14,7 +14,6 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 
 '''Lattice related projects'''
   * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]]
-  * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]]
   * use the inner_product_matrix for module comparison [[https://trac.sagemath.org/ticket/23915|#23915]]
   * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]]
   * implement QQ/ZZ , QQ/2ZZ or QQ/nZZ as abelian groups. This is where finite quadratic/bilinear forms have values [[https://trac.sagemath.org/ticket/23944|#23944]]
@@ -47,6 +46,8 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
   * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22391|#22594]]
 
   * hypergeometric motives: Euler factors at good primes [[https://trac.sagemath.org/ticket/23671|#23671]]
+
+  * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]]
 
 == To prepare for the workshop ==
 
