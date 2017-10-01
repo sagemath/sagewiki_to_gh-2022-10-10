@@ -14,7 +14,6 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 
 '''Lattice related projects'''
   * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]]
-  * --(use the inner_product_matrix for module comparison)-- [[https://trac.sagemath.org/ticket/23915|#23915]]
   * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]] (Simon)
   * implement QQ/ZZ , QQ/2ZZ or QQ/nZZ as abelian groups. This is where finite quadratic/bilinear forms have values [[https://trac.sagemath.org/ticket/23944|#23944]]
   * implement a class for (subgroups of) the orthogonal group of a finite bilinear/quadratic form and an algorithm to compute it
@@ -54,7 +53,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 == Positively Reviewed Tickets ==
 
   * bugfix for genera equality testing [[https://trac.sagemath.org/ticket/23376|#23376]]
-
+  * use the inner_product_matrix for module comparison [[https://trac.sagemath.org/ticket/23915|#23915]]
 == To prepare for the workshop ==
 
 Before the workshop, we recommend opening a [[https://trac.sagemath.org/|Sage trac]] account and completing the [[https://www.codecademy.com/|Code Academy]] modules on Python and Git.  If you like you may [[http://www.sagemath.org/|download and install]] the latest version of the source code of Sage, or use the k8s server described below.
