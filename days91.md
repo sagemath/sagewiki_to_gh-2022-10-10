@@ -26,7 +26,8 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 
 '''Point counting and zeta function projects'''
   * hypergeometric motives: 
-    * port more of [[https://magma.maths.usyd.edu.au/magma/handbook/hypergeometric_motives|Magma's functionality]], like Euler factors at tame and wild primes
+    * iterator for hypergeometric motives [[https://trac.sagemath.org/ticket/23953|#23953]]
+    * port more of [[https://magma.maths.usyd.edu.au/magma/handbook/hypergeometric_motives|Magma's functionality]]; see [[https://trac.sagemath.org/ticket/23952|#23952]]
     * find (or compute) the list of HGMs which are K3 surfaces
   * get Edgar Costa's code for zeta functions of projective hypersurfaces into Sage [[https://trac.sagemath.org/ticket/23863|#23863]]
   * package Sebastian Pancratz's code for deformation computation of zeta functions [[https://trac.sagemath.org/ticket/20265|#20265]]
