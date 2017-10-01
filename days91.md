@@ -40,8 +40,6 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 
   * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22391|#22594]]
 
-  * Reciprocal transfrom for polynomials [[https://trac.sagemath.org/ticket/23948|#23947]]
-
   * has_cyclotomic_factor for polynomials [[https://trac.sagemath.org/ticket/23948|#23948]]
 
 == Positively Reviewed Tickets ==
@@ -51,6 +49,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
   * a class for integral lattices [[https://trac.sagemath.org/ticket/23634|#23634]]
   * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]] 
   * hypergeometric motives: Euler factors at good primes [[https://trac.sagemath.org/ticket/23671|#23671]]
+  * Reciprocal transfrom for polynomials [[https://trac.sagemath.org/ticket/23948|#23947]]
 
 == To prepare for the workshop ==
 
