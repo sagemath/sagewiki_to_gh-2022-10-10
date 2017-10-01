@@ -20,7 +20,6 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
   * diagonalization and isomorphism testing for finite quadratic/bilinear forms
   * create a genus from a signature pair and a finite quadratic form
   * create a finite quadratic form from a genus
-  * a latex representation for the genus using the Conway Sloane genus symbols [[https://trac.sagemath.org/ticket/23916|#23916]]
   * a base class for the orthogonal group of a lattice
   * a method to compute the orthogonal group of a positive definite lattice
   * expose more of [[https://github.com/jefferyphein/ternary-birch|Jeffery Hein's lattice code]] than is currently being used for modular forms [[https://trac.sagemath.org/ticket/23342|23342]]
@@ -37,7 +36,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
   * Fix the !IntegerVectors documentation to point to !IntegerListsLex [[https://trac.sagemath.org/ticket/23939|#23939]]
 
 == Tickets needing review ==
-
+  * a latex representation for the genus using the Conway Sloane genus symbols [[https://trac.sagemath.org/ticket/23916|#23916]]
   * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22391|#22594]]
 
   * has_cyclotomic_factor for polynomials [[https://trac.sagemath.org/ticket/23948|#23948]]
