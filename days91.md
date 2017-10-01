@@ -47,6 +47,10 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 
   * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]] (Simon)
 
+  * Reciprocal transfrom for polynomials [[https://trac.sagemath.org/ticket/23948|#23947]]
+
+  * has_cyclotomic_factor for polynomials [[https://trac.sagemath.org/ticket/23948|#23948]]
+
 == Positively Reviewed Tickets ==
 
   * bugfix for genera equality testing [[https://trac.sagemath.org/ticket/23376|#23376]]
