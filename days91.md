@@ -38,8 +38,6 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 
 == Tickets needing review ==
 
-  * --(a class for integral lattices)-- [[https://trac.sagemath.org/ticket/23634|#23634]]
-
   * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22391|#22594]]
 
   * hypergeometric motives: Euler factors at good primes [[https://trac.sagemath.org/ticket/23671|#23671]]
@@ -54,6 +52,8 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 
   * bugfix for genera equality testing [[https://trac.sagemath.org/ticket/23376|#23376]]
   * use the inner_product_matrix for module comparison [[https://trac.sagemath.org/ticket/23915|#23915]]
+  * a class for integral lattices [[https://trac.sagemath.org/ticket/23634|#23634]]
+
 == To prepare for the workshop ==
 
 Before the workshop, we recommend opening a [[https://trac.sagemath.org/|Sage trac]] account and completing the [[https://www.codecademy.com/|Code Academy]] modules on Python and Git.  If you like you may [[http://www.sagemath.org/|download and install]] the latest version of the source code of Sage, or use the k8s server described below.
