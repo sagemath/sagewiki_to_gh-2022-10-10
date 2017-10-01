@@ -14,8 +14,8 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 
 '''Lattice related projects'''
   * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]]
-  * use the inner_product_matrix for module comparison [[https://trac.sagemath.org/ticket/23915|#23915]]
-  * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]]
+  * --(use the inner_product_matrix for module comparison)-- [[https://trac.sagemath.org/ticket/23915|#23915]]
+  * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]] (Simon)
   * implement QQ/ZZ , QQ/2ZZ or QQ/nZZ as abelian groups. This is where finite quadratic/bilinear forms have values [[https://trac.sagemath.org/ticket/23944|#23944]]
   * implement a class for (subgroups of) the orthogonal group of a finite bilinear/quadratic form and an algorithm to compute it
   * diagonalization and isomorphism testing for finite quadratic/bilinear forms
@@ -39,7 +39,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 
 == Tickets needing review ==
 
-  * a class for integral lattices [[https://trac.sagemath.org/ticket/23634|#23634]]
+  * --(a class for integral lattices)-- [[https://trac.sagemath.org/ticket/23634|#23634]]
 
   * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22391|#22594]]
 
