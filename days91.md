@@ -15,6 +15,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 '''Lattice related projects'''
   * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]] (David)
   * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]] (Simon)
+  * allow the inner product of an ambient free ZZ-module to take rational values. [[https://trac.sagemath.org/ticket/23958|#23958]]
   * implement a class for (subgroups of) the orthogonal group of a finite bilinear/quadratic form and an algorithm to compute it
   * diagonalization and isomorphism testing for finite quadratic/bilinear forms
   * create a genus from a signature pair and a finite quadratic form
