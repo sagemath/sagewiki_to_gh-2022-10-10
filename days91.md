@@ -38,7 +38,6 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 == Tickets needing review ==
   * a latex representation for the genus using the Conway Sloane genus symbols [[https://trac.sagemath.org/ticket/23916|#23916]]
   * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22391|#22594]]
-  * implement a (rigorous, sane) test for Weil polynomials: [[https://trac.sagemath.org/ticket/23945|#23945]]
   * iterator for hypergeometric motives [[https://trac.sagemath.org/ticket/23953|#23953]]
 
 == Positively Reviewed Tickets ==
@@ -50,6 +49,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
   * fix .annihilator() for the trivial abelian group [[https://trac.sagemath.org/ticket/22720|#22720]] 
   * hypergeometric motives: Euler factors at good primes [[https://trac.sagemath.org/ticket/23671|#23671]]
   * Reciprocal transfrom for polynomials [[https://trac.sagemath.org/ticket/23947|#23947]]
+  * implement a (rigorous, sane) test for Weil polynomials: [[https://trac.sagemath.org/ticket/23945|#23945]]
 
 == To prepare for the workshop ==
 
