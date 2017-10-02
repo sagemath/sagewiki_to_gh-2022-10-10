@@ -15,7 +15,6 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 '''Lattice related projects'''
   * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]]
   * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]] (Simon)
-  * implement QQ/ZZ , QQ/2ZZ or QQ/nZZ as abelian groups. This is where finite quadratic/bilinear forms have values [[https://trac.sagemath.org/ticket/23944|#23944]]
   * implement a class for (subgroups of) the orthogonal group of a finite bilinear/quadratic form and an algorithm to compute it
   * diagonalization and isomorphism testing for finite quadratic/bilinear forms
   * create a genus from a signature pair and a finite quadratic form
@@ -50,6 +49,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
   * hypergeometric motives: Euler factors at good primes [[https://trac.sagemath.org/ticket/23671|#23671]]
   * Reciprocal transfrom for polynomials [[https://trac.sagemath.org/ticket/23947|#23947]]
   * implement a (rigorous, sane) test for Weil polynomials: [[https://trac.sagemath.org/ticket/23945|#23945]]
+  * implement QQ/ZZ , QQ/2ZZ or QQ/nZZ as abelian groups. This is where finite quadratic/bilinear forms have values [[https://trac.sagemath.org/ticket/23944|#23944]]
 
 == To prepare for the workshop ==
 
