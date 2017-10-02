@@ -36,7 +36,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 
 == Tickets needing review ==
   * a latex representation for the genus using the Conway Sloane genus symbols [[https://trac.sagemath.org/ticket/23916|#23916]]
-  * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22391|#22594]]
+  * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22524|#22524]]
   * iterator for hypergeometric motives [[https://trac.sagemath.org/ticket/23953|#23953]]
 
 == Positively Reviewed Tickets ==
