@@ -41,8 +41,8 @@ Plusieurs absents, pas de journée.
 
 ==== Jeudi 21 septembre ====
 
-* Présentation de Vincent Klein
-* Présentation d'Aurel Page
+ * Présentation de Vincent Klein
+ * Présentation d'Aurel Page
 
 ==== Jeudi 14 septembre ====
 
