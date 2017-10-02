@@ -26,7 +26,6 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 
 '''Point counting and zeta function projects'''
   * hypergeometric motives: 
-    * iterator for hypergeometric motives [[https://trac.sagemath.org/ticket/23953|#23953]]
     * port more of [[https://magma.maths.usyd.edu.au/magma/handbook/hypergeometric_motives|Magma's functionality]]; see [[https://trac.sagemath.org/ticket/23952|#23952]]
     * find (or compute) the list of HGMs which are K3 surfaces
   * get Edgar Costa's code for zeta functions of projective hypersurfaces into Sage [[https://trac.sagemath.org/ticket/23863|#23863]]
@@ -40,7 +39,8 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
   * a latex representation for the genus using the Conway Sloane genus symbols [[https://trac.sagemath.org/ticket/23916|#23916]]
   * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22391|#22594]]
   * has_cyclotomic_factor for polynomials [[https://trac.sagemath.org/ticket/23948|#23948]]
-  * implement a (rigorous, sane) test for Weil polynomials: [[https://trac.sagemath.org/ticket/23945|#23945]].
+  * implement a (rigorous, sane) test for Weil polynomials: [[https://trac.sagemath.org/ticket/23945|#23945]]
+  * iterator for hypergeometric motives [[https://trac.sagemath.org/ticket/23953|#23953]]
 
 == Positively Reviewed Tickets ==
 
