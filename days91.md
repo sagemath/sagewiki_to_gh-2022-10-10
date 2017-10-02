@@ -38,12 +38,12 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 == Tickets needing review ==
   * a latex representation for the genus using the Conway Sloane genus symbols [[https://trac.sagemath.org/ticket/23916|#23916]]
   * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22391|#22594]]
-  * has_cyclotomic_factor for polynomials [[https://trac.sagemath.org/ticket/23948|#23948]]
   * implement a (rigorous, sane) test for Weil polynomials: [[https://trac.sagemath.org/ticket/23945|#23945]]
   * iterator for hypergeometric motives [[https://trac.sagemath.org/ticket/23953|#23953]]
 
 == Positively Reviewed Tickets ==
 
+  * has_cyclotomic_factor for polynomials [[https://trac.sagemath.org/ticket/23948|#23948]]
   * bugfix for genera equality testing [[https://trac.sagemath.org/ticket/23376|#23376]]
   * use the inner_product_matrix for module comparison [[https://trac.sagemath.org/ticket/23915|#23915]]
   * a class for integral lattices [[https://trac.sagemath.org/ticket/23634|#23634]]
