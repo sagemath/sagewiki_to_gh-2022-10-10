@@ -99,9 +99,9 @@ See [[https://groups.google.com/d/msg/sage-devel/jdLfIKQ1M18/PVQqJUUqAgAJ|this p
 = Windows =
 
 == SageMath installer for Windows ==
-  * in alpha stage
-  * requires HAV activation in the BIOS
-  * hosted at: https://github.com/embray/sage-windows/releases
+  * see SageWindows
+  * hosted at: https://github.com/sagemath/sage-windows/releases
+  * based on the Cygwin port of Sage
 
 == Porting to Cygwin ==
   * pending tickets: [[https://trac.sagemath.org/query?status=!closed&component=porting%3A+Cygwin|component: "porting: cygwin"]]
