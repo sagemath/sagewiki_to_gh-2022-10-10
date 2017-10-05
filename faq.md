@@ -70,7 +70,9 @@ See [[VirtualBox|these instructions]].
 
 === How do I run Sage in Windows? ===
 
-Windows is currently supported via the !VirtualBox image, so see the instructions for running [[SageAppliance|the Sage virtual appliance]]. See [[windows]] for information on efforts to make a native port of Sage to Windows.
+As of SageMath 8.0 a [[SageWindows|native Windows binary installer]] is available.  This should work for most users with 64-bit Windows 7 and up.
+
+For older versions of Sage, or for users with needs not met by the current version of the binary installer,  the !VirtualBox appliance images are still available--see the instructions for running [[SageAppliance|the Sage virtual appliance]].
 
 === I installed Sage on a Unix or Linux server where I have an account, but my personal computer runs Windows.  How do I access the Sage notebook? ===
 
