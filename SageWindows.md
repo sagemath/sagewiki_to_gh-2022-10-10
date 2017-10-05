@@ -110,6 +110,8 @@ This fails because SageMath is installed as Administrator, so any attempt to cha
 
 This will allow most `pip install` packages to be installed (however it will do nothing for Sage optional packages since the build toolchain for them is missing).  This usage generally works but is not ''supported'', so use at your own risk.
 
+In the meantime different optional are being explored for better supporting installation of optional packages.
+
 === Hidden files ===
 
 One caveat of both the shell, and other software (such as the Jupyter Notebook file browser) that lists files is that UNIX-based software does not distinguish Windows' notion of "hidden files" from non-hidden files.  In other words, files that are "hidden" in the Windows explorer/DOS are visible by default, which can be surprising.  In particular, the home directory listing (where the default "home" directory is your Windows user directory; e.g. `C:\Users\<Your Name>`) can contain some clutter you wouldn't normally see in Windows:
