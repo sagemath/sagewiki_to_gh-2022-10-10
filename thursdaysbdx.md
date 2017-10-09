@@ -2,7 +2,7 @@
 = Les jeudi sages à Bordeaux =
 = (autour de Sage, PARI/GP, et plus) =
 
-''Prochaine séance le jeudi matin 5 octobre en salle 73 (Réservé de 8h à midi).''
+''Prochaine séance: formation à SageMath le jeudi matin 12 octobre en salle 76 (réservée pour la journée).''
 
 Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour discuter et programmer autour des logiciels de calculs formels. Les journées restent centrées sur [[http://www.sagemath.org/|Sage]] et [[http://pari.math.u-bordeaux.fr/|PARI/GP]] mais elles sont ouvertes à tous/toutes. Ces journées ont commencé le 13 avril 2017. Cette page permet de suivre l'activité des rencontres.
 
