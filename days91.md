@@ -12,7 +12,7 @@ Feel free to add suggestions
 
 Please add "sd91" as a keyword to any tickets you are working on during this Sage Days so they show up in this list: [[https://trac.sagemath.org/query?keywords=~sd91&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=status|sd91 Tickets]]
 
-'''Lattice related projects'''
+'''Lattice related projects - Meta Ticket [[https://trac.sagemath.org/ticket/23968|#23968]]'''
   * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]] (David)
   * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]] (Simon)
   * implement a class for (subgroups of) the orthogonal group of a finite bilinear/quadratic form and an algorithm to compute it
