@@ -13,7 +13,7 @@ Feel free to add suggestions
 Please add "sd91" as a keyword to any tickets you are working on during this Sage Days so they show up in this list: [[https://trac.sagemath.org/query?keywords=~sd91&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=status|sd91 Tickets]]
 
 '''Lattice related projects - Meta Ticket [[https://trac.sagemath.org/ticket/23968|#23968]]'''
-  * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]] (David)
+  * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]]
   * allow inner products of free modules to take values in rings different from the base ring. [[https://trac.sagemath.org/ticket/23958|#23958]]
   * implement a class for (subgroups of) the orthogonal group of a finite bilinear/quadratic form and an algorithm to compute it
   * diagonalization and isomorphism testing for finite quadratic/bilinear forms
@@ -37,7 +37,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 == Tickets needing review ==
   * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22524|#22524]]
   * iterator for hypergeometric motives [[https://trac.sagemath.org/ticket/23953|#23953]]
-  * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]] (Simon)
+  * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]]
 == Positively Reviewed Tickets ==
   * a minor bugfix in the Genus class [[https://trac.sagemath.org/ticket/23955|#23955]]
   * a latex representation for the genus using the Conway Sloane genus symbols [[https://trac.sagemath.org/ticket/23916|#23916]]
