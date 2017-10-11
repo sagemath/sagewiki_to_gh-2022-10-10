@@ -14,7 +14,7 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
 
 '''Lattice related projects - Meta Ticket [[https://trac.sagemath.org/ticket/23968|#23968]]'''
   * fix vector matrix multiplication for free module elements [[https://trac.sagemath.org/ticket/23576|#23576]] (David)
-  * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]] (Simon)
+  * allow inner products of free modules to take values in rings different from the base ring. [[https://trac.sagemath.org/ticket/23958|#23958]]
   * implement a class for (subgroups of) the orthogonal group of a finite bilinear/quadratic form and an algorithm to compute it
   * diagonalization and isomorphism testing for finite quadratic/bilinear forms
   * create a genus from a signature pair and a finite quadratic form
@@ -35,15 +35,12 @@ Please add "sd91" as a keyword to any tickets you are working on during this Sag
   * Fix the !IntegerVectors documentation to point to !IntegerListsLex [[https://trac.sagemath.org/ticket/23939|#23939]]
 
 == Tickets needing review ==
-
-  * allow inner products of free modules to take values in rings different from the base ring. [[https://trac.sagemath.org/ticket/23958|#23958]]
-  * a minor bugfix in the Genus class [[https://trac.sagemath.org/ticket/23955|#23955]]
-  * a latex representation for the genus using the Conway Sloane genus symbols [[https://trac.sagemath.org/ticket/23916|#23916]]
   * Speedups for reflexive polytopes: [[https://trac.sagemath.org/ticket/22391|#22391]], [[https://trac.sagemath.org/ticket/22524|#22524]]
   * iterator for hypergeometric motives [[https://trac.sagemath.org/ticket/23953|#23953]]
-
+  * implement finite bilinear/quadratic forms and make sure that the discriminant group has one [[https://trac.sagemath.org/ticket/23699|#23699]] (Simon)
 == Positively Reviewed Tickets ==
-
+  * a minor bugfix in the Genus class [[https://trac.sagemath.org/ticket/23955|#23955]]
+  * a latex representation for the genus using the Conway Sloane genus symbols [[https://trac.sagemath.org/ticket/23916|#23916]]
   * has_cyclotomic_factor for polynomials [[https://trac.sagemath.org/ticket/23948|#23948]]
   * bugfix for genera equality testing [[https://trac.sagemath.org/ticket/23376|#23376]]
   * use the inner_product_matrix for module comparison [[https://trac.sagemath.org/ticket/23915|#23915]]
