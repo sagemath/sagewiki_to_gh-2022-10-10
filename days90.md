@@ -5,6 +5,8 @@
 
 ===== Oct. 22-25, 2017, Harvey Mudd College, Claremont, CA =====
 
+{{attachment:Sagedays90.jpg}}
+
 == Target Audience ==
 
 This conference is aimed at women at all career stages who are interested in using or developing for Sage.  Undergraduate, graduate, postdoc, and faculty are welcome to apply. We will take time at the workshop to teach the basics of Sage development; it is not required that you are an experienced developer.  We are especially hoping to include women who have never attended Sagedays. Applications are now closed.  
