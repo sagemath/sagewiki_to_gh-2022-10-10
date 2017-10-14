@@ -20,7 +20,7 @@ This conference is aimed at women at all career stages who are interested in usi
 
 == Accommodations: ==
  
- * Hotel or AirBnB accommodations in Claremont will be arranged for non-local participants. All workshop activities will take place on campus at Harvey Mudd College. 
+ * AirBnB accommodations in Claremont will be arranged for non-local participants. All workshop activities will take place on campus at Harvey Mudd College. 
 
 == Travel: ==
 
@@ -32,8 +32,8 @@ This conference is aimed at women at all career stages who are interested in usi
 
  * Saturday, October 21: Participants arrive in Claremont, CA in the evening.
  * Sunday, October 22: Workshop begins in the morning.
- * Monday, October 23:
- * Tuesday, October 24:
+ * Monday, October 23: 
+ * Tuesday, October 24: Afternoon excursion and BBQ at Bianca's house. 
  * Wednesday, October 25: Workshop ends in the evening. 
 
 == The k8s server ==
