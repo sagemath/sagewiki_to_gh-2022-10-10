@@ -42,7 +42,7 @@ William Stein has kindly provided a server for us to use during the workshop, wi
 
 === Creating an Account ===
 
-You should create an account [[https://k8s.sagemath.org/settings|here]].  You will need a secret token, which will be e-mailed to participants (ask an organizer if you can't find it).  Once you have an account, someone will have to add you to the Sage Days 90 project; anyone who is already part of the project can do so from the project settings page.  At that point, you will be able to access the server at [[https://k8s.sagemath.org|k8s.sagemath.org]].
+You should create an account [[https://k8s.sagemath.org/settings|here]].  You will need a secret token, which will be e-mailed to participants (ask an Ursula Whitcher (uaw@umich.edu) if you can't find it).  Once you have an account, someone will have to add you to the Sage Days 90 project; anyone who is already part of the project can do so from the project settings page.  At that point, you will be able to access the server at [[https://k8s.sagemath.org|k8s.sagemath.org]].
 
 === Git ===
 
@@ -76,7 +76,7 @@ If you want to be able to push changes to trac, you need to upload your key from
 
 === Sage installations ===
 
-If you provided your trac username to ORGANIZER, you should have a Sage install in `~/Src`.  If not, you can create a new Sage installation for yourself by running
+If you provided your trac username to Ursula Whitcher (uaw@umich.edu), you should have a Sage install in `~/Src`.  If not, you can create a new Sage installation for yourself by running
 {{{
 new_sage
 }}}
