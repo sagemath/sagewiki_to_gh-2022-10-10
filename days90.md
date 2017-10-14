@@ -5,6 +5,7 @@
 
 ===== Oct. 22-25, 2017, Harvey Mudd College, Claremont, CA =====
 
+{{attachment:Sagedays90.jpg}}
 
 == Target Audience ==
 
