@@ -35,9 +35,9 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
-==== Jeudi 28 septembre ====
+==== Jeudi 12 octobre ====
 
-Plusieurs absents, pas de journée.
+ * (Vincent D) présentation du logiciel Sage (auditeurs: Philippe, Lamine). L'objectif était de montrer comment manipuler des équations (algébriques ou symboliques)
 
 ==== Jeudi 21 septembre ====
 
