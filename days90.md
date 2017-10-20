@@ -6,7 +6,7 @@
 
 == Target Audience ==
 
-This conference is aimed at women at all career stages who are interested in using or developing for Sage.  Undergraduate, graduate, postdoc, and faculty are welcome to apply. We will take time at the workshop to teach the basics of Sage development; it is not required that you are an experienced developer.  We are especially hoping to include women who have never attended Sagedays. Applications are now closed.  
+This conference is aimed at women at all career stages who are interested in using or developing for Sage.  Undergraduate, graduate, postdoc, and faculty are welcome to apply. We will take time at the workshop to teach the basics of Sage development; it is not required that you are an experienced developer.  We are especially hoping to include women who have never attended SageDays. Applications are now closed.  
 
 == Projects ==
  
@@ -42,7 +42,7 @@ William Stein has kindly provided a server for us to use during the workshop, wi
 
 === Creating an Account ===
 
-You should create an account [[https://k8s.sagemath.org/settings|here]].  You will need a secret token, which will be e-mailed to participants (ask an Ursula Whitcher (uaw@umich.edu) if you can't find it).  Once you have an account, someone will have to add you to the Sage Days 90 project; anyone who is already part of the project can do so from the project settings page.  At that point, you will be able to access the server at [[https://k8s.sagemath.org|k8s.sagemath.org]].
+You should create an account [[https://k8s.sagemath.org/settings|here]].  You will need a secret token, which will be e-mailed to participants (ask Ursula Whitcher (uaw@umich.edu) if you can't find it).  Once you have an account, someone will have to add you to the Sage Days 90 project; anyone who is already part of the project can do so from the project settings page.  At that point, you will be able to access the server at [[https://k8s.sagemath.org|k8s.sagemath.org]].
 
 === Git ===
 
