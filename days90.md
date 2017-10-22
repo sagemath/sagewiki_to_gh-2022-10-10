@@ -30,7 +30,7 @@ The schedule with room numbers can be found [[https://docs.google.com/spreadshee
   * Caitlin Lienkaemper
   * Kate Collins
 
-  Wish List:
+ Wish List:
   * wish 1
   * wish 2
 
