@@ -23,6 +23,12 @@ This conference is aimed at women at all career stages who are interested in usi
 
  *'''Local-to-Global Algorithms in Number Theory'''[[http://www.mathcs.duq.edu/~haensch/|Anna Haensch]] (Duquesne University) [[attachment:Algorithms]] 
 
+== Tickets ==
+
+ Please add #sd90 to any tickets you are working on on trac.  If your ticket needs review, added it to the list on the tickets page to advertise.
+
+ [[sd90tickets]]
+
 == Accommodations: ==
  
  * AirBnB accommodations in Claremont will be arranged for non-local participants. All workshop activities will take place on campus at Harvey Mudd College. 
