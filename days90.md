@@ -29,6 +29,7 @@ The schedule with room numbers can be found [[https://docs.google.com/spreadshee
  *'''Graph Theory'''[[https://www.carroll.edu/faculty/amanda-francis|Amanda Francis]] (Carroll College) [[attachment:Graph Theory]] 
   * Caitlin Lienkaemper
   * Kate Collins
+
   Wish List:
   * wish 1
   * wish 2
