@@ -22,18 +22,24 @@ The schedule with room numbers can be found [[https://docs.google.com/spreadshee
 == Projects ==
  
  *'''Number Theory and Arithmetic Dynamics'''[[https://www.hmc.edu/mathematics/people/faculty/bianca-thompson/|Bianca Thompson]] (Harvey Mudd College) [[attachment:Number Theory and Arithmetic Dynamics]] 
-  * Person
+  * Rebecca Lauren Miller
+  * Zoe Bell
+  * Karina Cho
 
  *'''Graph Theory'''[[https://www.carroll.edu/faculty/amanda-francis|Amanda Francis]] (Carroll College) [[attachment:Graph Theory]] 
+  * Caitlin Lienkaemper
+  * Kate Collins
+
 
  *'''Linear Algebra'''[[https://www.math.ucsd.edu/~alina/|Alina Bucur]] (UCSD)
-  * [[https://trac.sagemath.org/ticket/23716|#23716]]
-  * [[https://trac.sagemath.org/ticket/9888|#9888]]
-  * [[https://trac.sagemath.org/ticket/20439|#20439]]
-  * [[https://trac.sagemath.org/ticket/18312|#18312]]
-  * [[https://trac.sagemath.org/ticket/22073|#22073]]
+  * Renata Paramastri
+  * Caitlin Lienkaemper
+  * Manami Roy
 
  *'''Local-to-Global Algorithms in Number Theory'''[[http://www.mathcs.duq.edu/~haensch/|Anna Haensch]] (Duquesne University) [[attachment:Algorithms]] 
+  * Juanita Duque 
+  * Manami Roy 
+  * Sandi Rudzinski 
 
 == Tickets ==
 
