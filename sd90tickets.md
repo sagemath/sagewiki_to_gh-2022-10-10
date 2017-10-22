@@ -6,6 +6,8 @@ Please add your name to tickets you are working on.
 
 === Graph Theory ===
 
+  * [[https://trac.sagemath.org/ticket/24089|#24089]]
+
 === Linear Algebra ===
   
   * [[https://trac.sagemath.org/ticket/23716|#23716]]
