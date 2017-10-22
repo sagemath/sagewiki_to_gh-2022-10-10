@@ -31,11 +31,14 @@ The schedule with room numbers can be found [[https://docs.google.com/spreadshee
   * Kate Collins
 
  Wish List:
-  * Maximum Common Neighbors Matrix/Score(optional: add weighted variants, co-citation/co-reference for digraphs)
+  * Maximum Common Neighbors Matrix/Score
+    - (optional: add weighted variants, co-citation/co-reference for digraphs)
   * Preferential Attachment 
-  * Katz Matrix/Score (optional: Weighted Katz Score)
+  * Katz Matrix/Score 
+    - (optional: Weighted Katz Score)
   * Effective Resistance Matrix/Score
-  * Network Transformations (series, parallel, Delta-Y, Y-Delta, optional: Mesh-Star, Star-Mesh)
+  * Network Transformations: Series, Parallel, Delta-Y, Y-Delta
+    - (optional: Mesh-Star, Star-Mesh)
 
 
  *'''Linear Algebra'''[[https://www.math.ucsd.edu/~alina/|Alina Bucur]] (UCSD)
