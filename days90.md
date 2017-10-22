@@ -36,7 +36,7 @@ The schedule with room numbers can be found [[https://docs.google.com/spreadshee
 
 == Tickets ==
 
- Please add #sd90 to any tickets you are working on on trac.  If your ticket needs review, added it to the list on the tickets page to advertise.
+Please add #sd90 to any tickets you are working on on trac.  If your ticket needs review, added it to the list on the tickets page to advertise.
 
  * [[sd90tickets]]
 
