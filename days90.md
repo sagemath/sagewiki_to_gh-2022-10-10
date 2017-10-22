@@ -15,6 +15,11 @@ This conference is aimed at women at all career stages who are interested in usi
  *'''Graph Theory'''[[https://www.carroll.edu/faculty/amanda-francis|Amanda Francis]] (Carroll College) [[attachment:Graph Theory]] 
 
  *'''Linear Algebra'''[[https://www.math.ucsd.edu/~alina/|Alina Bucur]] (UCSD)
+  * [[https://trac.sagemath.org/ticket/23716|#23716]]
+  * [[https://trac.sagemath.org/ticket/9888|#9888]]
+  * [[https://trac.sagemath.org/ticket/20439|#20439]]
+  * [[https://trac.sagemath.org/ticket/18312|#18312]]
+  * [[https://trac.sagemath.org/ticket/22073|#22073]]
 
  *'''Local-to-Global Algorithms in Number Theory'''[[http://www.mathcs.duq.edu/~haensch/|Anna Haensch]] (Duquesne University) [[attachment:Algorithms]] 
 
