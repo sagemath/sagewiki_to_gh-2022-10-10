@@ -22,7 +22,7 @@ The schedule with room numbers can be found [[https://docs.google.com/spreadshee
 == Projects ==
  
  *'''Number Theory and Arithmetic Dynamics'''[[https://www.hmc.edu/mathematics/people/faculty/bianca-thompson/|Bianca Thompson]] (Harvey Mudd College) [[attachment:Number Theory and Arithmetic Dynamics]] 
-  * Rebecca Lauren Miller
+  * [[https://www.lifebynumber.org |Rebecca Lauren Miller]] 
   * Zoe Bell
   * Karina Cho
 
