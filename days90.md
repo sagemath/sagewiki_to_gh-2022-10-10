@@ -8,6 +8,17 @@
 
 This conference is aimed at women at all career stages who are interested in using or developing for Sage.  Undergraduate, graduate, postdoc, and faculty are welcome to apply. We will take time at the workshop to teach the basics of Sage development; it is not required that you are an experienced developer.  We are especially hoping to include women who have never attended SageDays. Applications are now closed.  
 
+== Schedule: ==
+
+The schedule with room numbers can be found [[https://docs.google.com/spreadsheets/d/1kgkYBd40PuZ6-Rs-50s2nWTkji2AjcUOSOtbtoJC3cE/edit#gid=0| here]].
+
+ * Saturday, October 21: Participants arrive in Claremont, CA in the evening.
+ * Sunday, October 22: Workshop begins in the morning.
+ * Monday, October 23: 
+ * Tuesday, October 24: Afternoon excursion and BBQ at Bianca's house. 
+ * Wednesday, October 25: Workshop ends in the evening. 
+
+
 == Projects ==
  
  *'''Number Theory and Arithmetic Dynamics'''[[https://www.hmc.edu/mathematics/people/faculty/bianca-thompson/|Bianca Thompson]] (Harvey Mudd College) [[attachment:Number Theory and Arithmetic Dynamics]] 
@@ -38,14 +49,6 @@ This conference is aimed at women at all career stages who are interested in usi
  * The closest airport to Claremont is the Ontario International California Airport (ONT).  From here it's a 10 mile taxi ride to Claremont. 
  * Another option is to fly into Los Angeles International Airport (LAX).  From here you can take a [[https://www.supershuttle.com|SuperShuttle]] to Claremont, $55 each way. 
  * For other options, see the [[https://www.hmc.edu/about-hmc/visit-campus/|Visit Campus]] page of the Harvey Mudd College Website.
-
-== Schedule: ==
-
- * Saturday, October 21: Participants arrive in Claremont, CA in the evening.
- * Sunday, October 22: Workshop begins in the morning.
- * Monday, October 23: 
- * Tuesday, October 24: Afternoon excursion and BBQ at Bianca's house. 
- * Wednesday, October 25: Workshop ends in the evening. 
 
 == The k8s server ==
 
