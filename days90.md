@@ -51,18 +51,12 @@ The schedule with room numbers can be found [[https://docs.google.com/spreadshee
   * Manami Roy 
   * Sandi Rudzinski 
 
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
  Wish List:
   * Implement Algorithm 3.4.1 for Q
   * Implement Algorithm 3.4.3 for Q
   * Extend to Number Fields
   * Something about p-adic completions of a number field
 
-
----- /!\ '''End of edit conflict''' ----
 == Tickets ==
 
 Please add #sd90 to any tickets you are working on on trac.  If your ticket needs review, added it to the list on the tickets page to advertise.
