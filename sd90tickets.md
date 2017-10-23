@@ -14,7 +14,7 @@ Please add your name to tickets you are working on.
   * [[https://trac.sagemath.org/ticket/9888|#9888]]
   * [[https://trac.sagemath.org/ticket/20439|#20439]]
   * [[https://trac.sagemath.org/ticket/18312|#18312]]
-  * [[https://trac.sagemath.org/ticket/22073|#22073]]: needs review
+  * [[https://trac.sagemath.org/ticket/22073|#22073]]: needs review Caitlin
 
 === Local to Global Number Theory ===
 
