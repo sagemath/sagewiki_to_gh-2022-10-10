@@ -100,7 +100,9 @@ When you make a git commit, you can specify the commit message on the command li
 To update your version of Sage on k8s, type in your term:
 
 git checkout develop
+
 git pull --ff-only trac develop
+
 make build
 
 === SSH ===
