@@ -95,6 +95,14 @@ You have the option of storing your trac password (in a plain text file on the s
 
 When you make a git commit, you can specify the commit message on the command line with the `-m` flag.  Otherwise, git will open an editor for you to enter the commit message.  The default editor is `vim`.  If you would rather use a different editor (such as `emacs`), you can set your editor by running the `set_editor` script in your terminal.
 
+=== Updating Sage to 8.1.beta9 ===
+
+To update your version of Sage on k8s, type in your term:
+
+git checkout develop
+git pull --ff-only trac develop
+make build
+
 === SSH ===
 
 ==== SSHing into the project ====
