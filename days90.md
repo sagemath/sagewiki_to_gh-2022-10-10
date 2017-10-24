@@ -161,8 +161,8 @@ in your sage folder will do the redirection for you, as well as automatically us
 
 == Mailing Lists and Resources ==
 
-* [[http://www2004.lsoft.se/scripts/wl.exe?SL1=WINN-L&H=LISTS.HAWAII.EDU Women in Numbers]]
-* [[https://groups.google.com/forum/#!forum/sage-diversity sage-diversity mailing list]]  
+ * [[http://www2004.lsoft.se/scripts/wl.exe?SL1=WINN-L&H=LISTS.HAWAII.EDU Women in Numbers]]
+ * [[https://groups.google.com/forum/#!forum/sage-diversity sage-diversity mailing list]]  
 
 == Organizers: ==
 
