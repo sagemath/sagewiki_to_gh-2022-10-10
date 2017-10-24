@@ -22,4 +22,4 @@ Please add your name to tickets you are working on.
 
 Please add your name to tickets you are reviewing.  Cross through when review is done.
 
-  * [[https://trac.sagemath.org/ticket/22073|#22073]]: Caitlin
+  * --([[https://trac.sagemath.org/ticket/22073|#22073]]: Caitlin)--
