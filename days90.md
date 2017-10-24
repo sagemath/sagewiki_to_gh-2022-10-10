@@ -158,6 +158,10 @@ in your sage folder will do the redirection for you, as well as automatically us
  * Install SAGE from source code using the [[http://doc.sagemath.org/html/en/installation/source.html|SAGE Installation Guide]] (this may take several hours).
  * While you wait for SAGE to build, take a moment to [[http://doc.sagemath.org/html/en/developer/trac.html#section-trac-account|obtain a SAGEtrac account]]. 
  * Install and configure Git using the [[http://doc.sagemath.org/html/en/developer/index.html|SAGE Developer's Guide]]. 
+
+== Mailing Lists and Resources ==
+
+[[http://www2004.lsoft.se/scripts/wl.exe?SL1=WINN-L&H=LISTS.HAWAII.EDU Women in Numbers]]
   
 
 == Organizers: ==
