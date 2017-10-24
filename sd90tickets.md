@@ -7,6 +7,8 @@ Please add your name to tickets you are working on.
 === Graph Theory ===
 
   * [[https://trac.sagemath.org/ticket/24089|#24089]]
+  * [[https://trac.sagemath.org/ticket/24094|#24094]]
+  * [[https://trac.sagemath.org/ticket/24100|#24100]]
 
 === Linear Algebra ===
   
