@@ -4,8 +4,6 @@
 
 {{attachment:Sagedays90.jpg}}
 
-{{attachment:SageDays90Photo.jpg}}
-
 == Target Audience ==
 
 This conference is aimed at women at all career stages who are interested in using or developing for Sage.  Undergraduate, graduate, postdoc, and faculty are welcome to apply. We will take time at the workshop to teach the basics of Sage development; it is not required that you are an experienced developer.  We are especially hoping to include women who have never attended SageDays. Applications are now closed.  
@@ -20,6 +18,8 @@ The schedule with room numbers can be found [[https://docs.google.com/spreadshee
  * Tuesday, October 24: Afternoon excursion and BBQ at Bianca's house. 
  * Wednesday, October 25: Workshop ends in the evening. 
 
+
+{{attachment:SageDays90Photo.jpg}}
 
 == Projects ==
  
