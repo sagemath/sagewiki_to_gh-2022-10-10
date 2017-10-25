@@ -42,6 +42,10 @@ The schedule with room numbers can be found [[https://docs.google.com/spreadshee
   * Network Transformations: Series, Parallel, Delta-Y, Y-Delta
     - (optional: Mesh-Star, Star-Mesh)
 
+Amanda worked on implementing common-neighbors and effective resistance methods (). 
+Caitlyn worked on implementing Katz similarity and Katz centrality methods (). 
+Kate worked on implementing network transformations ().  
+Series transformation is nearly done.  The others are still in progress. 
 
  *'''Linear Algebra'''[[https://www.math.ucsd.edu/~alina/|Alina Bucur]] (UCSD)
   * Renata Paramastri
