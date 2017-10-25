@@ -18,7 +18,7 @@ Please add your name to tickets you are working on.
   * [[https://trac.sagemath.org/ticket/18312|#18312]]
   * [[https://trac.sagemath.org/ticket/22073|#22073]]: needs review
 === Local to Global Number Theory ===
-  * [[https://trac.sagemath.org/ticket/24098|#24098]]
+  * [[https://trac.sagemath.org/ticket/24098|#24098]]: needs review
 
 == Tickets Needing Review ==
 
