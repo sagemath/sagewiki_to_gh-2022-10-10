@@ -42,9 +42,9 @@ The schedule with room numbers can be found [[https://docs.google.com/spreadshee
   * Network Transformations: Series, Parallel, Delta-Y, Y-Delta
     - (optional: Mesh-Star, Star-Mesh)
 
- Amanda worked on implementing common-neighbors and effective resistance methods ([[https://trac.sagemath.org/ticket/24089|#24089]] and [[https://trac.sagemath.org/ticket/24094|#24094]], both need_work...). 
- Caitlyn worked on implementing Katz similarity and Katz centrality methods ([[https://trac.sagemath.org/ticket/24101|#24101]]). 
- Kate worked on implementing network transformations ([[https://trac.sagemath.org/ticket/24100|#24100]]).  
+ Amanda worked on implementing common-neighbors and effective resistance methods ([[https://trac.sagemath.org/ticket/24089|#24089]] and [[https://trac.sagemath.org/ticket/24094|#24094]], both need small fixes). 
+ Caitlyn worked on implementing Katz similarity and Katz centrality methods ([[https://trac.sagemath.org/ticket/24101|#24101]], new... still working on it). 
+ Kate worked on implementing network transformations ([[https://trac.sagemath.org/ticket/24100|#24100]] new... still working on it).  
 Series transformation is nearly done.  The others are still in progress. 
 
  *'''Linear Algebra'''[[https://www.math.ucsd.edu/~alina/|Alina Bucur]] (UCSD)
