@@ -9,6 +9,7 @@ Please add your name to tickets you are working on.
   * [[https://trac.sagemath.org/ticket/24089|#24089]]: Amanda 
   * [[https://trac.sagemath.org/ticket/24094|#24094]]: Amanda
   * [[https://trac.sagemath.org/ticket/24100|#24100]]: Kate
+  * [[https://trac.sagemath.org/ticket/24101|#24100]]: Caitlin
 
 === Linear Algebra ===
   
