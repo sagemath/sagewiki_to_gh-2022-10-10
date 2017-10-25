@@ -45,7 +45,7 @@ The schedule with room numbers can be found [[https://docs.google.com/spreadshee
  Amanda worked on implementing common-neighbors and effective resistance methods ([[https://trac.sagemath.org/ticket/24089|#24089]] and [[https://trac.sagemath.org/ticket/24094|#24094]], both need small fixes). 
  Caitlyn worked on implementing Katz similarity and Katz centrality methods ([[https://trac.sagemath.org/ticket/24101|#24101]], new... still working on it). 
  Kate worked on implementing network transformations ([[https://trac.sagemath.org/ticket/24100|#24100]] new... still working on it).  
-Series transformation is nearly done.  The others are still in progress. 
+ Series transformation is nearly done.  The others are still in progress. 
 
  *'''Linear Algebra'''[[https://www.math.ucsd.edu/~alina/|Alina Bucur]] (UCSD)
   * Renata Paramastri
