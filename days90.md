@@ -2,7 +2,7 @@
 #format wiki
 #language en
 
-{{attachment:Sagedays90.jpg}}
+{{attachment:Sagedays90Photo.jpg}}
 
 == Target Audience ==
 
