@@ -35,6 +35,11 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+Jeudi 18 octobre
+
+ * Sebastien nous as présenté son package slabbe
+   Auditeurs : Philippe, José, Vincent K.
+
 ==== Jeudi 12 octobre ====
 
  * (Vincent D) présentation du logiciel Sage (auditeurs: Philippe, Lamine). L'objectif était de montrer comment manipuler des équations (algébriques ou symboliques)
