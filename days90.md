@@ -4,7 +4,7 @@
 
 {{attachment:Sagedays90.jpg}}
 
-{{attachment:Sagedays90Photo.jpg}}
+{{attachment:SageDays90Photo.jpg}}
 
 == Target Audience ==
 
