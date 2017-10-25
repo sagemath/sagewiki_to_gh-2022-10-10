@@ -63,6 +63,14 @@ Series transformation is nearly done.  The others are still in progress.
   * Extend to Number Fields
   * Something about p-adic completions of a number field
 
+
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+ Anna's team opened two tickets ([[https://trac.sagemath.org/ticket/24098|#24098]],[[https://trac.sagemath.org/ticket/24108|#24108]]) the first implementing algorithm 3.4.1, the second implementing 3.4.3, both over the rationals.  Ticket [[https://trac.sagemath.org/ticket/24098|#24098]] needs review.  Team members also reviewed several tickets on trac. 
+
+
+---- /!\ '''End of edit conflict''' ----
 == Tickets ==
 
 Please add #sd90 to any tickets you are working on on trac.  If your ticket needs review, added it to the list on the tickets page to advertise.
