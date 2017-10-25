@@ -4,6 +4,8 @@
 
 {{attachment:Sagedays90.jpg}}
 
+{{attachment:Sagedays90Photo.jpg}}
+
 == Target Audience ==
 
 This conference is aimed at women at all career stages who are interested in using or developing for Sage.  Undergraduate, graduate, postdoc, and faculty are welcome to apply. We will take time at the workshop to teach the basics of Sage development; it is not required that you are an experienced developer.  We are especially hoping to include women who have never attended SageDays. Applications are now closed.  
