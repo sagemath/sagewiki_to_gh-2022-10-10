@@ -52,6 +52,10 @@ The schedule with room numbers can be found [[https://docs.google.com/spreadshee
   * Caitlin Lienkaemper
   * Manami Roy
 
+Renata dealt with two of the tickets, [[https://trac.sagemath.org/ticket/22073|#22073]] and [[https://trac.sagemath.org/ticket/20439|#20439]]. At the moment the first one has a positive review and the second needs_work. 
+Wish list: 
+  * IMA (or other place) workshop to fix linear algebra. For instance I agree with @kedlaya that dealing with [[https://trac.sagemath.org/ticket/9888|#9888]] requires reorganizing the {{{matrix}}} directory. On second thought, a whole workshop might be needed just to fix just linear algebra over Z/NZ. See meta-ticket [[https://trac.sagemath.org/ticket/19076|#19076]]. 
+ 
  *'''Local-to-Global Algorithms in Number Theory'''[[http://www.mathcs.duq.edu/~haensch/|Anna Haensch]] (Duquesne University) [[attachment:Algorithms]] 
   * Juanita Duque 
   * Manami Roy 
