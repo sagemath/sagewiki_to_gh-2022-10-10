@@ -21,19 +21,19 @@ The workshop will include
 
   * training sessions in general productivity tools such as
     * '''[[https://www.gnu.org/software/bash/|GNU Bash]]'''
-    * '''[[https://cocalc.com|CoCalc]]'''
+    * '''[[https://cocalc.com/|CoCalc]]'''
     * '''[[https://git-scm.com/|Git]]'''
     * '''[[https://www.gnu.org/software/make/|GNU Make]]'''
   * introductions and tutorials to various specialised or generalist mathematical software, such as
-    * '''[[http://www.discretezoo.xyz|DiscreteZOO]]'''
-    * '''[[https://gap-system.org|GAP]]'''
+    * '''[[http://www.discretezoo.xyz/|DiscreteZOO]]'''
+    * '''[[https://www.gap-system.org/|GAP]]'''
     * '''[[https://faculty.math.illinois.edu/Macaulay2/|Macaulay2]]''' (to be confirmed)
     * '''[[http://pari.math.u-bordeaux.fr/|PARI/GP]]'''
-    * '''[[http://sagemath.org|SageMath]]'''
-    * '''[[https://github.com/yags/yags|YAGS]]'''
+    * '''[[https://www.sagemath.org/|SageMath]]'''
+    * '''[[https://github.com/yags/yags/|YAGS]]'''
 
 The workshop is also numbered Sage Days 92, which lets us use this very convenient wiki.
-[[http://sagemath.org|SageMath]], also known as Sage, is free software for mathematics.
+[[https://sagemath.org/|SageMath]], also known as Sage, is free software for mathematics.
 
 The focus of this workshop will be on the diversity of the mathematics software ecosystem,
 and on collaboration between the various systems and communities.
