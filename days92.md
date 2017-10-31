@@ -25,12 +25,15 @@ The workshop will include
     * '''[[https://git-scm.com/|Git]]'''
     * '''[[https://www.gnu.org/software/make/|GNU Make]]'''
   * introductions and tutorials to various specialised or generalist mathematical software, such as
-    * '''[[http://www.discretezoo.xyz/|DiscreteZOO]]'''
     * '''[[https://www.gap-system.org/|GAP]]'''
     * '''[[https://faculty.math.illinois.edu/Macaulay2/|Macaulay2]]''' (to be confirmed)
     * '''[[http://pari.math.u-bordeaux.fr/|PARI/GP]]'''
     * '''[[https://www.sagemath.org/|SageMath]]'''
     * '''[[https://github.com/yags/yags/|YAGS]]'''
+  * projects under development, such as
+    * '''[[http://www.discretezoo.xyz/|DiscreteZOO]]'''
+    * '''[[http://www.labri.fr/perso/vdelecro/flatsurf.html|surface-dynamics]]'''
+    * '''[[https://github.com/videlec/sage-flatsurf|sage-flatsurf]]'''
 
 The workshop is also numbered Sage Days 92, which lets us use this very convenient wiki.
 [[https://sagemath.org/|SageMath]], also known as Sage, is free software for mathematics.
