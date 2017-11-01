@@ -27,6 +27,7 @@ The workshop will include training sessions, talks, tutorials, demos, coding spr
     * '''[[https://cocalc.com/|CoCalc]]'''
     * '''[[https://jupyter.org/|Jupyter]]'''
   * mathematical software such as
+    * '''[[https://github.com/mraggi/discreture|Discreture]]'''
     * '''[[https://www.gap-system.org/|GAP]]'''
     * '''[[https://faculty.math.illinois.edu/Macaulay2/|Macaulay2]]''' (to be confirmed)
     * '''[[http://pari.math.u-bordeaux.fr/|PARI/GP]]'''
@@ -52,7 +53,7 @@ We suggest participants plan to arrive on Sunday, 2018-01-21, and to leave on Sa
 It will take place at [[http://www.enesmorelia.unam.mx/|ENES Morelia]],
 on the [[http://www.morelia.unam.mx/campus/|Morelia campus of UNAM]].
 
-'''''Map''''': http://www.openstreetmap.org/#map=17/19.64834/-101.22440
+'''Map''': http://www.openstreetmap.org/#map=17/19.64834/-101.22440
 
 == Themes, project ==
 
