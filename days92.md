@@ -60,32 +60,28 @@ A tentative list of projects is at [[days92/projects]].
 
 == Schedule ==
 
-Here is a provisional tentative schedule, still subject to change!
-
-We plan three morning sessions about GNU Bash, Git, and GNU Make, hopefully by
-Software Carpentry instructors.
-
-Wednesday afternoon will be free to give participants an opportunity to explore
-Morelia and its surroundings (Pátzcuaro, Tzintzuntzan, ...).
-
-The remaining slots are for talks, tutorials, demos, coding sprints...
-to be made more precise nearer the event.
-
-Among the 
-
-Part of the last two days should
-be left very open until halfway through the workshop, and be decided on by
-the participants.
+Here is a provisional tentative schedule, still subject to change! (see comments below schedule)
 
 ||<10%>                 ||<15% #FFFFAA:> Mon 22 Jan 2018 ||<15% #FFFFAA:> Tue 23 Jan 2018 ||<15% #FFFFAA:> Wed 24 Jan 2018 ||<15% #FFFFAA:> Thu 25 Jan 2018 ||<15% #FFFFAA:> Fri 26 Jan 2018 ||
 ||<#FFFFAA> 10:00-11:30 || '''GNU Bash'''                || '''Git'''                     || '''GNU Make'''                || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
 ||<#EEEEFF> 11:30-12:00 ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||
 ||<#FFFFAA> 12:00-13:30 || '''GNU Bash'''                || '''Git'''                     || '''GNU Make'''                || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
-||<#EEEEFF> 13:30-15:00 ||<#EEEEFF:> ''lunch break''     ||<#EEEEFF:> ''lunch break''     ||<#EEEEBB:> ''free afternoon''  ||<#EEEEFF:> ''lunch break''     ||<#EEEEFF:> ''lunch break''     ||
-||<#FFFFAA> 15:00-16:00 || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||<#EEEEBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
-||<#FFFFAA> 16:15-17:15 || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||<#EEEEBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
-||<#FFFFAA> 17:30-18:30 || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||<#EEEEBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
+||<#EEEEFF> 13:30-15:00 ||<#EEEEFF:> ''lunch break''     ||<#EEEEFF:> ''lunch break''     ||<#BBFFBB:> ''free afternoon''  ||<#EEEEFF:> ''lunch break''     ||<#EEEEFF:> ''lunch break''     ||
+||<#FFFFAA> 15:00-16:00 || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||<#BBFFBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
+||<#FFFFAA> 16:15-17:15 || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||<#BBFFBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
+||<#FFFFAA> 17:30-18:30 || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||<#BBFFBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
 
+We plan three morning sessions about GNU Bash, Git, and GNU Make, hopefully by
+[[https://software-carpentry.org/|Software Carpentry]] instructors.
+
+Wednesday afternoon will be free --- an opportunity to explore
+Morelia and its surroundings (Pátzcuaro, Tzintzuntzan, ...).
+
+The remaining slots are for talks, tutorials, demos, coding sprints, about the
+software mentioned above; slots to be made more precise nearer the event.
+
+Part of the last two days should be left very open until halfway through the workshop,
+and be decided on by the participants.
 
 == Participants ==
 
