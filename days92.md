@@ -21,16 +21,18 @@ The workshop will include
 
   * training sessions in general productivity tools such as
     * '''[[https://www.gnu.org/software/bash/|GNU Bash]]'''
-    * '''[[https://cocalc.com/|CoCalc]]'''
     * '''[[https://git-scm.com/|Git]]'''
     * '''[[https://www.gnu.org/software/make/|GNU Make]]'''
-  * introductions and tutorials to various specialised or generalist mathematical software, such as
+  * introductions and tutorials for general tools such as
+    * '''[[https://cocalc.com/|CoCalc]]'''
+    * '''[[https://jupyter.org/|Jupyter]]'''
+  * introductions and tutorials for various specialised or generalist mathematical software, such as
     * '''[[https://www.gap-system.org/|GAP]]'''
     * '''[[https://faculty.math.illinois.edu/Macaulay2/|Macaulay2]]''' (to be confirmed)
     * '''[[http://pari.math.u-bordeaux.fr/|PARI/GP]]'''
     * '''[[https://www.sagemath.org/|SageMath]]'''
     * '''[[https://github.com/yags/yags/|YAGS]]'''
-  * projects under development, such as
+  * presentations of projects under development, such as
     * '''[[http://www.discretezoo.xyz/|DiscreteZOO]]'''
     * '''[[http://www.labri.fr/perso/vdelecro/flatsurf.html|surface-dynamics]]'''
     * '''[[https://github.com/videlec/sage-flatsurf|sage-flatsurf]]'''
@@ -61,10 +63,10 @@ Please tell the organisers about your intention to participate (see "Contact" be
 
 == Contact ==
 
-The email address `aaa-bbb @ ccc.ddd` (where [`aaa`, `bbb`, `ccc`, `ddd`] =
-[`sage-days`, `92-org`, `listes.math`, `cnrs.fr`]) will reach the workshop organisers.
+Email `aa-bb-cc-dd @ ee.ff.gg.hh` (where [aa, bb, cc, dd] = [sage, days, 92, org]
+and [ee, ff, gg, hh] = [listes, math, cnrs, fr]) to reach the organisers.
 
-You can use it to register, to suggest themes for these Sage Days, or any other enquiries.
+Email us to register, to suggest themes for the workshop, or for any enquiry.
 
 == Organisers ==
 
@@ -75,8 +77,8 @@ You can use it to register, to suggest themes for these Sage Days, or any other 
 
 == Support ==
 
-This workshop is supported by
+We acknowledge financial and organisational support from
 
   * [[http://www.enesmorelia.unam.mx/|ENES Morelia]]
   * [[http://matmor.unam.mx/|Centro de Ciencias Matemáticas, UNAM Morelia]]
-  * [[http://opendreamkit.org/|OpenDreamKit]]
+  * [[http://opendreamkit.org/|OpenDreamKit]], the Horizon 2020 European Research Infrastructures project #676541
