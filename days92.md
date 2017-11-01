@@ -17,22 +17,22 @@ The aim is to
   * help people to implement their own projects
   * gather developers to improve these systems
 
-The workshop will include
+The workshop will include training sessions, talks, tutorials, demos, coding sprints about
 
-  * training sessions in general productivity tools such as
+  * general productivity tools such as
     * '''[[https://www.gnu.org/software/bash/|GNU Bash]]'''
     * '''[[https://git-scm.com/|Git]]'''
     * '''[[https://www.gnu.org/software/make/|GNU Make]]'''
-  * introductions and tutorials for general tools such as
+  * general computing and collaboration tools such as
     * '''[[https://cocalc.com/|CoCalc]]'''
     * '''[[https://jupyter.org/|Jupyter]]'''
-  * introductions and tutorials for various specialised or generalist mathematical software, such as
+  * mathematical software such as
     * '''[[https://www.gap-system.org/|GAP]]'''
     * '''[[https://faculty.math.illinois.edu/Macaulay2/|Macaulay2]]''' (to be confirmed)
     * '''[[http://pari.math.u-bordeaux.fr/|PARI/GP]]'''
     * '''[[https://www.sagemath.org/|SageMath]]'''
     * '''[[https://github.com/yags/yags/|YAGS]]'''
-  * presentations of projects under development, such as
+  * mathematical databases or packages under development such as
     * '''[[http://www.discretezoo.xyz/|DiscreteZOO]]'''
     * '''[[http://www.labri.fr/perso/vdelecro/flatsurf.html|surface-dynamics]]'''
     * '''[[https://github.com/videlec/sage-flatsurf|sage-flatsurf]]'''
@@ -47,6 +47,8 @@ and on collaboration between the various systems and communities.
 
 The workshop will start on Monday morning, 2018-01-22 and end on Friday evening, 2018-01-26.
 
+We suggest participants plan to arrive on Sunday, 2018-01-21, and to leave on Saturday, 2018-01-27.
+
 It will take place at [[http://www.enesmorelia.unam.mx/|ENES Morelia]],
 on the [[http://www.morelia.unam.mx/campus/|Morelia campus of UNAM]].
 
@@ -55,6 +57,35 @@ on the [[http://www.morelia.unam.mx/campus/|Morelia campus of UNAM]].
 == Themes, project ==
 
 A tentative list of projects is at [[days92/projects]].
+
+== Schedule ==
+
+Here is a provisional tentative schedule, still subject to change!
+
+We plan three morning sessions about GNU Bash, Git, and GNU Make, hopefully by
+Software Carpentry instructors.
+
+Wednesday afternoon will be free to give participants an opportunity to explore
+Morelia and its surroundings (Pátzcuaro, Tzintzuntzan, ...).
+
+The remaining slots are for talks, tutorials, demos, coding sprints...
+to be made more precise nearer the event.
+
+Among the 
+
+Part of the last two days should
+be left very open until halfway through the workshop, and be decided on by
+the participants.
+
+||<10%>                 ||<15% #FFFFAA:> Mon 22 Jan 2018 ||<15% #FFFFAA:> Tue 23 Jan 2018 ||<15% #FFFFAA:> Wed 24 Jan 2018 ||<15% #FFFFAA:> Thu 25 Jan 2018 ||<15% #FFFFAA:> Fri 26 Jan 2018 ||
+||<#FFFFAA> 10:00-11:30 || '''GNU Bash'''                || '''Git'''                     || '''GNU Make'''                || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
+||<#EEEEFF> 11:30-12:00 ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||
+||<#FFFFAA> 12:00-13:30 || '''GNU Bash'''                || '''Git'''                     || '''GNU Make'''                || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
+||<#EEEEFF> 13:30-15:00 ||<#EEEEFF:> ''lunch break''     ||<#EEEEFF:> ''lunch break''     ||<#EEEEBB:> ''free afternoon''  ||<#EEEEFF:> ''lunch break''     ||<#EEEEFF:> ''lunch break''     ||
+||<#FFFFAA> 15:00-16:00 || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||<#EEEEBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
+||<#FFFFAA> 16:15-17:15 || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||<#EEEEBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
+||<#FFFFAA> 17:30-18:30 || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||<#EEEEBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
+
 
 == Participants ==
 
