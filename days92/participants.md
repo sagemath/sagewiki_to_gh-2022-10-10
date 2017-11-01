@@ -6,7 +6,7 @@ You can email the organisers (see [[days92#Contact]]) with your name and optiona
 You could also add your name and interests here, and just notify the organisers.
 
   * Aarón Aparicio Hernández (UACM, Plantel Centro Histórico, Ciudad de México, Mexico)
-    * GAP, YAGS
+    * [[https://gap-system.org|GAP]], [[https://github.com/yags/yags|YAGS]]
   * Katja Berčič (CCM, UNAM Morelia, Mexico)
     * Graphs, Groups, [[http://www.discretezoo.xyz|DiscreteZOO]]
   * James Edwards (IFM, UMSNH, Morelia, Mexico)
@@ -14,15 +14,15 @@ You could also add your name and interests here, and just notify the organisers.
   * [[slelievre|Samuel Lelièvre]] (LMO, Orsay, France; CNRS; CCM, UNAM Morelia, Mexico)
     * [[https://cocalc.com|CoCalc]], [[https://gap-system.org|GAP]], [[http://sagemath.org|SageMath]], flat surfaces
   * Carlos Montiel Gonzalez (ENES, UNAM Morelia, Mexico)
-    * Bash, Git, [[https://www.gnu.org/software/make/|GNU Make]]
-  * Miguel Pizaña (Departamento de Ingeniería Eléctrica, Metropolitan Autonomous University, Mexico City, Mexico)
+    * GNU Bash, Git, [[https://www.gnu.org/software/make/|GNU Make]]
+  * [[http://xamanek.izt.uam.mx/map/|Miguel Pizaña]] (Departamento de Ingeniería Eléctrica, Metropolitan Autonomous University, Mexico City, Mexico)
     * [[https://gap-system.org|GAP]], [[https://github.com/yags/yags|YAGS]]
   * [[http://www.enesmorelia.unam.mx/index.php/directorio-academico/dr-miguel-raggi/|Miguel Raggi]] (ENES Morelia, UNAM Morelia, Mexico)
-    * [[http://sagemath.org|SageMath]]
+    * [[https://github.com/mraggi/discreture|Discreture]], [[http://sagemath.org|SageMath]]
   * [[http://math.univ-bpclermont.fr/~royer/|Emmanuel Royer]] (Laboratoire de mathématiques Blaise Pascal, Université Clermont-Auvergne, Clermont-Ferrand, France)
     * [[http://pari.math.u-bordeaux.fr/|PARI/GP]]
   * Jessica Sanchez (Mexico)
-    * Git, Graphs, GAP, Python, SageMath
+    * [[https://git-scm.com|Git]], Graphs, [[https://gap-system.org|GAP]], [[https://python.org/|Python]], [[http://sagemath.org|SageMath]]
   * Adrián Ulises Soto Bañuelos (Facultad de Ciencias, UNAM Ciudad Mexico, Mexico)
     * Word morphisms, Rauzy fractals; [[http://sagemath.org|SageMath]]; [[http://texmacs.org|TeXmacs]]; SageMath plugin for TeXmacs; !DrGeo
   * Maria Tsantaki (IRyA, UNAM Morelia, Mexico)
