@@ -12,7 +12,8 @@ It will be a series of short courses on subjects related to Sage development. It
  * Implementation of Parents and elements
  * The category framework
  * Cython
- * Communication with external packages (libraries and pexpect)
+ * Using external C/C++ libraries
+ * Communication with external packages using pexpect
 
 == Speakers (provisional) ==
 
