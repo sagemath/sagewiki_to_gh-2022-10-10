@@ -26,3 +26,7 @@ It will be a series of short courses on subjects related to Sage development. It
 
  * Miguel Marco
  * Enrique Artal
+
+== Contact ==
+
+If you are interested in participating, or have any questions, please send an email to `mmarco <at> unizar <dot> es`
