@@ -14,3 +14,10 @@ If you are interested in attending the workshop, get in contact with the organiz
 
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
  * [[http://mat.uab.cat/~masdeu/|Marc Masdeu]]
+
+== Participants ==
+
+ * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
+ * [[https://www-fourier.ujf-grenoble.fr/~deraux/|Martin Deraux]]
+ * [[http://mat.uab.cat/~masdeu/|Marc Masdeu]]
+ * [[http://www.normalesup.org/~page/|Aurel Page]]
