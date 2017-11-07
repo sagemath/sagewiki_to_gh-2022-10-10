@@ -1,6 +1,6 @@
 = GAP-PARI-Sage days 93: Lattices in Lie groups =
 
-This is the page for a joint GAP-PARI-Sage workshop (number 93 as a Sage days). The theme is about "Lattices in Lie groups". The aim is to bring together experts in the area (Lie groups / algebras, hyperbolic geometry, lattices, Coxeter groups,...) and software developers (GAP, PARI, Sage but also !SnapPy, Magma,...), that can work to improve the functionality of Sage or other open source packages, as well as the interactions among them.
+This is the page for a joint GAP-PARI-Sage workshop (number 93 as a Sage days). The theme is about "Lattices in Lie groups". The aim is to bring together experts in the area (Lie groups / algebras, hyperbolic geometry, lattices, Coxeter groups,...) and software developers (GAP, PARI, Sage but also !SnapPy, Magma,...), that can work to improve the functionality of open source packages as well as the interactions among them.
 
 The workshop will be held at [[http://faberresidency.com/|Faber Residency]] in Olot, Spain (map at https://goo.gl/maps/fBVWA8U2ncr).
 
