@@ -3,7 +3,12 @@
 This is the webpage for a workshop on '''''Software tools for mathematics'''''
 to be held '''''22-26 January 2018''''' in '''''Morelia, Michoacán, Mexico'''''.
 
-All are welcome and encouraged to attend this workshop!
+The workshop has two self-contained parts
+
+  * a two-day [[https://software-carpentry.org/|Software Carpentry]] training about general productivity tools
+  * a three-day part on mathematical software and databases
+
+All are welcome and encouraged to attend either or both parts of this workshop!
 
   * there will be special focus on getting complete beginners started
   * we will help semi-beginners get more proficient
@@ -22,10 +27,12 @@ The workshop will include training sessions, talks, tutorials, demos, coding spr
   * general productivity tools such as
     * '''[[https://www.gnu.org/software/bash/|GNU Bash]]'''
     * '''[[https://git-scm.com/|Git]]'''
-    * '''[[https://www.gnu.org/software/make/|GNU Make]]'''
+    * '''[[https://www.python.org/|Python]]'''
   * general computing and collaboration tools such as
     * '''[[https://cocalc.com/|CoCalc]]'''
     * '''[[https://jupyter.org/|Jupyter]]'''
+  * an editing platform with special features for scientists
+    * '''[[http://texmacs.org/|GNU TeXmacs]]'''
   * mathematical software such as
     * '''[[https://github.com/mraggi/discreture|Discreture]]'''
     * '''[[https://www.gap-system.org/|GAP]]'''
@@ -49,6 +56,7 @@ and on collaboration between the various systems and communities.
 The workshop will start on Monday morning, 2018-01-22 and end on Friday evening, 2018-01-26.
 
 We suggest participants plan to arrive on Sunday, 2018-01-21, and to leave on Saturday, 2018-01-27.
+(Adapt this if you only attend the Software Carpentry training, or if you skip it.)
 
 It will take place at [[http://www.enesmorelia.unam.mx/|ENES Morelia]],
 on the [[http://www.morelia.unam.mx/campus/|Morelia campus of UNAM]].
@@ -72,8 +80,8 @@ Here is a provisional tentative schedule, still subject to change! (see comments
 ||<#EEEEFF> 16:30-17:00 ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#BBFFBB:> ''free afternoon''  ||<#EEEEFF:> ''drinks/snacks''   || '''talk/tutorial/demo'''      ||
 ||<#FFFFAA> 17:00-18:30 || '''SWC: Git'''                || '''SWC: Python'''             ||<#BBFFBB:> ''free afternoon''  || '''math problem session'''    || '''talk/tutorial/demo'''      ||
 
-We plan two days of Software Carpentry training about GNU Bash, Git, and Python,
-delivered by [[https://software-carpentry.org/|Software Carpentry]] instructors.
+We plan two days of [[https://software-carpentry.org/|Software Carpentry]] training
+about GNU Bash, Git, and Python, delivered by Software Carpentry instructors.
 
 Then Wednesday, Thursday and Friday more focus on mathematical software and databases
 with lots of talks, tutorials, demos, coding sprints, about the software mentioned above;
