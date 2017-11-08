@@ -8,6 +8,11 @@ The workshop has two self-contained parts
   * a two-day [[https://software-carpentry.org/|Software Carpentry]] training about general productivity tools
   * a three-day part on mathematical software and databases
 
+The Software Carpentry workshop (Monday-Tuesday) will likely be delivered in Spanish,
+but helpers will be able to help participants in other languages including English.
+
+The rest of the workshop (Wednesday-Friday) should be mostly in English.
+
 All are welcome and encouraged to attend either or both parts of this workshop!
 
   * there will be special focus on getting complete beginners started
