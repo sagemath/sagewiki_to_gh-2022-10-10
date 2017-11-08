@@ -10,7 +10,7 @@ Part of this should take the form of a [[https://software-carpentry.org/|Softwar
 
   * Bash
   * Git
-  * Make
+  * Python
 
 We will also present !CoCalc and Jupyter; depending on the audience, we might insist on
 
@@ -24,6 +24,7 @@ We will also present !CoCalc and Jupyter; depending on the audience, we might in
 
 There will also be presentations of GAP, PARI/GP, SageMath, YAGS
 
+  * Discreture - A modern C++ library for efficiently and easily iterating through common combinatorial objects
   * GAP - Groups, Algorithms, Programming - a System for Computational Discrete Algebra
   * PARI/GP - fast computations in number theory (factorizations, algebraic number theory, elliptic curves...)
   * !SageMath, the Sage mathematics software system, based on Python and shipping a lot of mathematical free software
