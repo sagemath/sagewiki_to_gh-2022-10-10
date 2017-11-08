@@ -64,25 +64,26 @@ A tentative list of projects is at [[days92/projects]].
 Here is a provisional tentative schedule, still subject to change! (see comments below schedule)
 
 ||<10%>                 ||<15% #FFFFAA:> Mon 22 Jan 2018 ||<15% #FFFFAA:> Tue 23 Jan 2018 ||<15% #FFFFAA:> Wed 24 Jan 2018 ||<15% #FFFFAA:> Thu 25 Jan 2018 ||<15% #FFFFAA:> Fri 26 Jan 2018 ||
-||<#FFFFAA> 10:00-11:30 || '''GNU Bash'''                || '''Git'''                     || '''GNU Make'''                || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
+||<#FFFFAA> 10:00-11:30 || '''SWC: GNU Bash'''           || '''SWC: Python'''             || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
 ||<#EEEEFF> 11:30-12:00 ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||
-||<#FFFFAA> 12:00-13:30 || '''GNU Bash'''                || '''Git'''                     || '''GNU Make'''                || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
+||<#FFFFAA> 12:00-13:30 || '''SWC: GNU Bash'''           || '''SWC: Python'''             || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
 ||<#EEEEFF> 13:30-15:00 ||<#EEEEFF:> ''lunch break''     ||<#EEEEFF:> ''lunch break''     ||<#BBFFBB:> ''free afternoon''  ||<#EEEEFF:> ''lunch break''     ||<#EEEEFF:> ''lunch break''     ||
-||<#FFFFAA> 15:00-16:00 || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||<#BBFFBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
-||<#FFFFAA> 16:15-17:15 || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||<#BBFFBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
-||<#FFFFAA> 17:30-18:30 || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||<#BBFFBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
+||<#FFFFAA> 15:00-16:30 || '''SWC: Git'''                || '''SWC: Python'''             ||<#BBFFBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
+||<#EEEEFF> 16:30-17:00 ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#BBFFBB:> ''free afternoon''  ||<#EEEEFF:> ''drinks/snacks''   || '''talk/tutorial/demo'''      ||
+||<#FFFFAA> 17:00-18:30 || '''SWC: Git'''                || '''SWC: Python'''             ||<#BBFFBB:> ''free afternoon''  || '''math problem session'''    || '''talk/tutorial/demo'''      ||
 
-We plan three morning sessions about GNU Bash, Git, and GNU Make, hopefully by
-[[https://software-carpentry.org/|Software Carpentry]] instructors.
+We plan two days of Software Carpentry training about GNU Bash, Git, and Python,
+delivered by [[https://software-carpentry.org/|Software Carpentry]] instructors.
+
+Then Wednesday, Thursday and Friday more focus on mathematical software and databases
+with lots of talks, tutorials, demos, coding sprints, about the software mentioned above;
+slots to be made more precise nearer the event.
 
 Wednesday afternoon will be free --- an opportunity to explore
 Morelia and its surroundings (Pátzcuaro, Tzintzuntzan, ...).
 
-The remaining slots are for talks, tutorials, demos, coding sprints, about the
-software mentioned above; slots to be made more precise nearer the event.
-
-Part of the last two days should be left very open until halfway through the workshop,
-and be decided on by the participants.
+We plan to include a problem session on Thursday afternoon where people can submit
+their math problems whose solution might involve programming, for everyone to think about.
 
 == Participants ==
 
@@ -91,8 +92,11 @@ Please tell the organisers about your intention to participate (see "Contact" be
 
 == Contact ==
 
-Email `aa-bb-cc-dd @ ee.ff.gg.hh` (where [aa, bb, cc, dd] = [sage, days, 92, org]
-and [ee, ff, gg, hh] = [listes, math, cnrs, fr]) to reach the organisers.
+To reach the organisers, solve the following puzzle:
+
+  * the email should be sent to `aa-bb-cc-dd @ ee.ff.gg.hh`, where
+    * [aa, bb, cc, dd] = [sage, days, 92, org]
+    * [ee, ff, gg, hh] = [listes, math, cnrs, fr]
 
 Email us to register, to suggest themes for the workshop, or for any enquiry.
 
