@@ -6,7 +6,6 @@ It will be a series of short courses on subjects related to Sage development. It
 
 == Subjects to cover (provisional) ==
 
-
  * The sage development workflow (Trac, git, doctests...)
  * The coercion model
  * Implementation of Parents and elements
@@ -14,6 +13,9 @@ It will be a series of short courses on subjects related to Sage development. It
  * Cython
  * Using external C/C++ libraries
  * Communication with external packages using pexpect
+
+Besides mini courses on thos subjects, there might be some space for short talks contributed by the participants (they can be quite informal). Please contact the organizers if you are interested ingiving one such talk.
+
 
 == Speakers (provisional) ==
 
@@ -27,6 +29,16 @@ It will be a series of short courses on subjects related to Sage development. It
 
  * Miguel Marco
  * Enrique Artal
+
+== Participants ==
+
+ * Tomer Bauer
+ * Rebecca Miller
+
+== Instructions for participants ==
+
+Since this workshop is focusing in Sage development, it would be better if the participants come with their own laptop, including a Sage install that is well suited for development (don't worry if you can't manage to do so, we can dedicate the first activities of the workshop to help you with that, but it would save time if you do that in advance). Also, please ask in advance for an account in the [[https://trac.sagemath.org/|trac server]]
+ 
 
 == Financial support ==
 
