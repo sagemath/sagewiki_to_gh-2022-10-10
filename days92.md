@@ -82,7 +82,7 @@ Here is a provisional tentative schedule, still subject to change! (see comments
 ||<#FFFFAA> 12:00-13:30 || '''SWC: GNU Bash'''           || '''SWC: Python'''             || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
 ||<#EEEEFF> 13:30-15:00 ||<#EEEEFF:> ''lunch break''     ||<#EEEEFF:> ''lunch break''     ||<#BBFFBB:> ''free afternoon''  ||<#EEEEFF:> ''lunch break''     ||<#EEEEFF:> ''lunch break''     ||
 ||<#FFFFAA> 15:00-16:30 || '''SWC: Git'''                || '''SWC: Python'''             ||<#BBFFBB:> ''free afternoon''  || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
-||<#EEEEFF> 16:30-17:00 ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#BBFFBB:> ''free afternoon''  ||<#EEEEFF:> ''drinks/snacks''   || '''talk/tutorial/demo'''      ||
+||<#EEEEFF> 16:30-17:00 ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#BBFFBB:> ''free afternoon''  ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||
 ||<#FFFFAA> 17:00-18:30 || '''SWC: Git'''                || '''SWC: Python'''             ||<#BBFFBB:> ''free afternoon''  || '''math problem session'''    || '''talk/tutorial/demo'''      ||
 
 We plan two days of [[https://software-carpentry.org/|Software Carpentry]] training
