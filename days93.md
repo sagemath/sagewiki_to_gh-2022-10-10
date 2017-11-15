@@ -21,3 +21,4 @@ If you are interested in attending the workshop, get in contact with the organiz
  * [[https://www-fourier.ujf-grenoble.fr/~deraux/|Martin Deraux]] (Grenoble)
  * [[http://mat.uab.cat/~masdeu/|Marc Masdeu]] (Barcelona)
  * [[http://www.normalesup.org/~page/|Aurel Page]] (Bordeaux)
+ * [[https://math.dartmouth.edu/~jvoight//|John Voight]] (Dartmouth) -- TBC
