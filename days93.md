@@ -1,4 +1,5 @@
 = GAP-PARI-Sage days 93: Subgroups and lattices of Lie groups =
+== 19th february - 4th march 2018 ==
 
 This is the page for a joint GAP-PARI-Sage workshop (number 93 as a Sage days). The theme is about "Subgroups and lattices of Lie groups". The aim is to bring together experts in the area (Lie groups / algebras, (real and complex) hyperbolic geometry, symmetric spaces, lattices, Coxeter groups, ...) and software developers (GAP, PARI/GP, Sage but also !SnapPy, Magma,...) that can work to improve the functionality of open source packages as well as the interactions among them.
 
