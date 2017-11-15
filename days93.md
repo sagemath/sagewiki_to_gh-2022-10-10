@@ -1,6 +1,6 @@
-= GAP-PARI-Sage days 93: Lattices in Lie groups =
+= GAP-PARI-Sage days 93: Subgroups and lattices of Lie groups =
 
-This is the page for a joint GAP-PARI-Sage workshop (number 93 as a Sage days). The theme is about "Lattices in Lie groups". The aim is to bring together experts in the area (Lie groups / algebras, hyperbolic geometry, lattices, Coxeter groups,...) and software developers (GAP, PARI, Sage but also !SnapPy, Magma,...), that can work to improve the functionality of open source packages as well as the interactions among them.
+This is the page for a joint GAP-PARI-Sage workshop (number 93 as a Sage days). The theme is about "Subgroups and lattices of Lie groups". The aim is to bring together experts in the area (Lie groups / algebras, (real and complex) hyperbolic geometry, symmetric spaces, lattices, Coxeter groups, ...) and software developers (GAP, PARI/GP, Sage but also !SnapPy, Magma,...) that can work to improve the functionality of open source packages as well as the interactions among them.
 
 The workshop will be held at [[http://faberresidency.com/|Faber Residency]] in Olot, Catalunya (map at https://goo.gl/maps/fBVWA8U2ncr).
 
@@ -22,3 +22,7 @@ If you are interested in attending the workshop, get in contact with the organiz
  * [[http://mat.uab.cat/~masdeu/|Marc Masdeu]] (Barcelona)
  * [[http://www.normalesup.org/~page/|Aurel Page]] (Bordeaux)
  * [[https://math.dartmouth.edu/~jvoight//|John Voight]] (Dartmouth) -- TBC
+
+== Support ==
+
+This workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]].
