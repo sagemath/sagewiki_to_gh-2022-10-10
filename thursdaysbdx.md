@@ -35,6 +35,11 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 16 Novembre ====
+Vincent K :
+ * gmpy2 résolution [[https://github.com/aleaxit/gmpy/issues/170|issue #170]].
+ * [[https://trac.sagemath.org/ticket/22928|#22928]] conversion entre nombres complexes sage et type gmpy2.
+
 ==== Jeudi 19 octobre ====
 
  * Sebastien nous as présenté son package slabbe
