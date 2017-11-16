@@ -1,7 +1,7 @@
 = Software tools for mathematics --- Morelia, Michoacán, Mexico --- 2018-01-22 -- 2018-01-26 =
 
-This is the webpage for a workshop on '''''Software tools for mathematics'''''
-to be held '''''22-26 January 2018''''' in '''''Morelia, Michoacán, Mexico'''''.
+A workshop on '''''Software tools for mathematics''''' will be held
+'''''22-26 January 2018''''' in '''''Morelia, Michoacán, Mexico'''''.
 
 The workshop has two self-contained parts
 
@@ -41,7 +41,6 @@ The workshop will include training sessions, talks, tutorials, demos, coding spr
   * mathematical software such as
     * '''[[https://github.com/mraggi/discreture|Discreture]]'''
     * '''[[https://www.gap-system.org/|GAP]]'''
-    * '''[[https://faculty.math.illinois.edu/Macaulay2/|Macaulay2]]''' (to be confirmed)
     * '''[[http://pari.math.u-bordeaux.fr/|PARI/GP]]'''
     * '''[[https://www.sagemath.org/|SageMath]]'''
     * '''[[https://github.com/yags/yags/|YAGS]]'''
@@ -68,6 +67,9 @@ on the [[http://www.morelia.unam.mx/campus/|Morelia campus of UNAM]].
 
 '''Map''': http://www.openstreetmap.org/#map=17/19.64834/-101.22440
 
+Funded participants will be hosted at
+[[http://www.hotelcasino.com.mx/|Hotel Casino]] in Morelia's city centre.
+
 == Themes, project ==
 
 A tentative list of projects is at [[days92/projects]].
@@ -88,12 +90,12 @@ Here is a provisional tentative schedule, still subject to change! (see comments
 We plan two days of [[https://software-carpentry.org/|Software Carpentry]] training
 about GNU Bash, Git, and Python, delivered by Software Carpentry instructors.
 
-Then Wednesday, Thursday and Friday more focus on mathematical software and databases
-with lots of talks, tutorials, demos, coding sprints, about the software mentioned above;
-slots to be made more precise nearer the event.
+Wednesday, Thursday and Friday, we will focus on mathematical software and
+databases with lots of talks, tutorials and demos about the software mentioned
+above; we will split the 90-minute sessions into 30-minute slots (to be made
+more precise nearer the event).
 
-Wednesday afternoon will be free --- an opportunity to explore
-Morelia and its surroundings (Pátzcuaro, Tzintzuntzan, ...).
+Wednesday afternoon will be free --- an opportunity to explore Morelia's city centre.
 
 We plan to include a problem session on Thursday afternoon where people can submit
 their math problems whose solution might involve programming, for everyone to think about.
