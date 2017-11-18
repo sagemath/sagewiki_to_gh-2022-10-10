@@ -20,6 +20,8 @@ If you are interested in attending the workshop, get in contact with the organiz
 
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Bordeaux)
  * [[https://www-fourier.ujf-grenoble.fr/~deraux/|Martin Deraux]] (Grenoble)
+ * Charles Fougeron -- TBC
+ * Nick Howell -- TBC
  * [[http://mat.uab.cat/~masdeu/|Marc Masdeu]] (Barcelona)
  * [[http://www.normalesup.org/~page/|Aurel Page]] (Bordeaux)
  * [[https://math.dartmouth.edu/~jvoight//|John Voight]] (Dartmouth) -- TBC
