@@ -7,10 +7,13 @@ You could also add your name and interests here, and just notify the organisers.
 
   * Aarón Aparicio Hernández (UACM, Plantel Centro Histórico, Ciudad de México, Mexico)
     * [[https://gap-system.org|GAP]], [[https://github.com/yags/yags|YAGS]]
+  * Omar Arroyo (Facultad de Ciencias, UNAM, Mexico City, Mexico
   * Katja Berčič (CCM, UNAM Morelia, Mexico)
     * Graphs, Groups, [[http://www.discretezoo.xyz|DiscreteZOO]]
+  * David Damian (UAEH, Mexico)
   * James Edwards (IFM, UMSNH, Morelia, Mexico)
     * Astrophysics
+  * Andres Guevara Fernández (UAEH, Mexico)
   * Alexander Hulpke (Colorado State U, USA)
     * [[https://gap-system.org|GAP]]
   * [[slelievre|Samuel Lelièvre]] (LMO, Orsay, France; CNRS; CCM, UNAM Morelia, Mexico)
@@ -26,6 +29,7 @@ You could also add your name and interests here, and just notify the organisers.
     * [[http://pari.math.u-bordeaux.fr/|PARI/GP]]
   * Jessica Sanchez (Mexico)
     * [[https://git-scm.com|Git]], Graphs, [[https://gap-system.org|GAP]], [[https://python.org/|Python]], [[http://sagemath.org|SageMath]]
+  * Carlos Segovia (Instituto de Matemáticas, UNAM, Oaxaca, Mexico)
   * Adrián Ulises Soto Bañuelos (Facultad de Ciencias, UNAM Ciudad Mexico, Mexico)
     * Word morphisms, Rauzy fractals; [[http://sagemath.org|SageMath]]; [[http://texmacs.org|TeXmacs]]; SageMath plugin for TeXmacs; !DrGeo
   * Maria Tsantaki (IRyA, UNAM Morelia, Mexico)
