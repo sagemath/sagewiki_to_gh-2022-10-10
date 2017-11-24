@@ -2,8 +2,9 @@
 
 This is the list of participants for [[days92|Sage Days 92]], 22-26 Jan 2018, Morelia, Mexico.
 
-You can email the organisers (see [[days92#Contact]]) with your name and ideally your affiliation and interests.
-You could also add your name and interests here, and just notify the organisers.
+To register, click the "Register here" button on the
+[[http://matmor.unam.mx/software-tools-math|workshop webpage]]
+and fill in the registration form.
 
   * Aarón Aparicio Hernández (UACM, Plantel Centro Histórico, Ciudad de México, Mexico)
     * [[https://gap-system.org|GAP]], [[https://github.com/yags/yags|YAGS]]
