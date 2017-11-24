@@ -23,6 +23,7 @@ If you are interested in attending the workshop, get in contact with the organiz
  * [[https://www-fourier.ujf-grenoble.fr/~deraux/|Martin Deraux]] (Grenoble)
  * Charles Fougeron (Москва) -- TBC
  * Nick Howell -- TBC
+ * [[http://page.mi.fu-berlin.de/labbe/|Jean-Philippe Labbé]] -- Feb 26-Mar 3 TBC
  * [[http://mat.uab.cat/~masdeu/|Marc Masdeu]] (Barcelona) -- Feb 20-24 & Feb 27-Mar 2
  * [[http://www.normalesup.org/~page/|Aurel Page]] (Bordeaux) -- Feb 19-Mar 4
  * [[https://math.dartmouth.edu/~jvoight//|John Voight]] (Dartmouth) -- TBC
