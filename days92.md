@@ -3,10 +3,15 @@
 A workshop on '''''Software tools for mathematics''''' will be held
 '''''22-26 January 2018''''' in '''''Morelia, Michoacán, Mexico'''''.
 
+This wiki page gathers the practical information. See the associated
+[[http://matmor.unam.mx/software-tools-math|workshop webpage]]
+for the registration form, the poster in Spanish and in English,
+and some pictures of Morelia.
+
 The workshop has two self-contained parts
 
   * a two-day [[https://software-carpentry.org/|Software Carpentry]] training about general productivity tools
-  * a three-day part on mathematical software and databases
+  * a three-day meeting on mathematical software and databases
 
 The Software Carpentry workshop (Monday-Tuesday) will likely be delivered in Spanish,
 but helpers will be able to help participants in other languages including English.
@@ -49,7 +54,8 @@ The workshop will include training sessions, talks, tutorials, demos, coding spr
     * '''[[http://www.labri.fr/perso/vdelecro/flatsurf.html|surface-dynamics]]'''
     * '''[[https://github.com/videlec/sage-flatsurf|sage-flatsurf]]'''
 
-The workshop is also numbered Sage Days 92, which lets us use this very convenient wiki.
+This workshop can be thought of as a Discreture-DiscreteZoo-GAP-PARI-Sage-TeXmacs-YAGS days.
+In the series of Sage Days, it bears number 92, which lets us use this very convenient wiki.
 [[https://sagemath.org/|SageMath]], also known as Sage, is free software for mathematics.
 
 The focus of this workshop will be on the diversity of the mathematics software ecosystem,
@@ -103,7 +109,8 @@ their math problems whose solution might involve programming, for everyone to th
 == Participants ==
 
 The list of participants is at [[days92/participants]].
-Please tell the organisers about your intention to participate (see "Contact" below).
+To register, visit the workhsop's webpage at [[http:matmor.unam.mx/software-tools-math]]
+and click the "Register here" button.
 
 == Contact ==
 
@@ -113,7 +120,7 @@ To reach the organisers, solve the following puzzle:
     * [aa, bb, cc, dd] = [sage, days, 92, org]
     * [ee, ff, gg, hh] = [listes, math, cnrs, fr]
 
-Email us to register, to suggest themes for the workshop, or for any enquiry.
+Email us for any enquiry about the workshop.
 
 == Organisers ==
 
