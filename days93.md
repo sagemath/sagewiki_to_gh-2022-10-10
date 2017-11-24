@@ -18,7 +18,7 @@ If you are interested in attending the workshop, get in contact with the organiz
 
 == Participants ==
 
- * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Bordeaux)
+ * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Bordeaux) 23/02 - 04/03
  * [[http://homeweb.unifr.ch/drewitzs/Pub/|Simon Drewitz]] (Fribourg)
  * [[https://www-fourier.ujf-grenoble.fr/~deraux/|Martin Deraux]] (Grenoble)
  * Charles Fougeron (Москва) -- TBC
