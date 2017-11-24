@@ -11,6 +11,7 @@ and fill in the registration form.
   * Omar Arroyo (Facultad de Ciencias, UNAM, Mexico City, Mexico
   * Katja Berčič (CCM, UNAM Morelia, Mexico)
     * Graphs, Groups, [[http://www.discretezoo.xyz|DiscreteZOO]]
+  * Adriana Haydeé Contreras Peruyero (UNAM, Mexico)
   * David Damian (UAEH, Mexico)
   * James Edwards (IFM, UMSNH, Morelia, Mexico)
     * Astrophysics
