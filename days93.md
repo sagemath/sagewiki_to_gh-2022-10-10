@@ -20,9 +20,9 @@ If you are interested in attending the workshop, get in contact with the organiz
 
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Bordeaux) Feb 23-Mar 4
  * [[http://homeweb.unifr.ch/drewitzs/Pub/|Simon Drewitz]] (Fribourg)
- * [[https://www-fourier.ujf-grenoble.fr/~deraux/|Martin Deraux]] (Grenoble)
- * Charles Fougeron (Москва) -- TBC
- * Nick Howell -- TBC
+ * [[https://www-fourier.ujf-grenoble.fr/~deraux/|Martin Deraux]] (Grenoble) TBC
+ * Charles Fougeron (Москва) -- Feb 21-Mar 3 TBC
+ * Nick Howell -- Feb 21-Mar 3 TBC
  * [[http://page.mi.fu-berlin.de/labbe/|Jean-Philippe Labbé]] -- Feb 26-Mar 3 TBC
  * [[http://mat.uab.cat/~masdeu/|Marc Masdeu]] (Barcelona) -- Feb 20-24 & Feb 27-Mar 2
  * [[http://www.normalesup.org/~page/|Aurel Page]] (Bordeaux) -- Feb 19-Mar 4
