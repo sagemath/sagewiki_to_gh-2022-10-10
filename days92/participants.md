@@ -1,10 +1,19 @@
 = Participants to Sage Days 92, Jan 2018, Morelia, Mexico =
 
-This is the list of participants for [[days92|Sage Days 92]], 22-26 Jan 2018, Morelia, Mexico.
+This is the preliminary list of participants for [[days92|Sage Days 92]],
+22-26 Jan 2018, Morelia, Mexico.
 
 To register, click the "Register here" button on the
 [[http://matmor.unam.mx/software-tools-math|workshop webpage]]
 and fill in the registration form.
+
+You will receive a confirmation that your registration request has been received.
+This is not a confirmation of acceptance.
+
+Registration is happening at a high rate. Please register soon if you want
+to be considered for participation.
+
+Sadly we will not be able to accept everyone, for lack of space and funding.
 
 == Software Carpentry instructors ==
 
@@ -33,6 +42,8 @@ and fill in the registration form.
     * [[https://gap-system.org|GAP]], [[https://www.gnu.org/software/make/|GNU Make]]
 
 == Participants ==
+
+Preliminary list of participants other than speakers and organisers.
 
   * Aarón Aparicio Hernández (UACM, Plantel Centro Histórico, Ciudad de México, Mexico)
     * [[https://gap-system.org|GAP]], [[https://github.com/yags/yags|YAGS]]
