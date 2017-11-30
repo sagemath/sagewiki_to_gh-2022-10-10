@@ -35,6 +35,11 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 30 Novembre ====
+
+Vincent D
+ * discussion sur la parentalité et les catégories [[https://trac.sagemath.org/ticket/21380]]
+
 ==== Jeudi 16 Novembre ====
 Vincent K :
  * gmpy2 résolution [[https://github.com/aleaxit/gmpy/issues/170|issue #170]].
