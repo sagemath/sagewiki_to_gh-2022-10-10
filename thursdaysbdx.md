@@ -40,6 +40,9 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 Vincent D
  * discussion sur la parentalité et les catégories [[https://trac.sagemath.org/ticket/21380]]
 
+Sébastien et Vincent D:
+ * Génération aléatoire et uniforme d'injections partielles (question de Pascal Weil) [[https://github.com/seblabbe/slabbe/blob/develop/slabbe/partial_injection.py|partial_injection.py]]
+
 ==== Jeudi 16 Novembre ====
 Vincent K :
  * gmpy2 résolution [[https://github.com/aleaxit/gmpy/issues/170|issue #170]].
