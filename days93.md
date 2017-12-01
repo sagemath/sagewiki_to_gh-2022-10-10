@@ -18,15 +18,16 @@ If you are interested in attending the workshop, get in contact with the organiz
 
 == Participants ==
 
- * [[http://bremy.perso.math.cnrs.fr/|Bertrand Rémy]] (Polytechnique) Feb 25-Mar 3 TBC
+ * Chris Brav  ? TBC
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Bordeaux) Feb 23-Mar 4
  * [[http://homeweb.unifr.ch/drewitzs/Pub/|Simon Drewitz]] (Fribourg) - Feb 19-Mar 4
- * Charles Fougeron (Москва) -- Feb 21-Mar 3 TBC
+ * Charles Fougeron (Москва) -- Feb 21-Mar 3
  * Xavier Guitart (Barcelona) -- Feb 20-23
- * Nick Howell -- Feb 21-Mar 3 TBC
+ * Nick Howell -- Feb 21-Mar 3
  * [[http://page.mi.fu-berlin.de/labbe/|Jean-Philippe Labbé]] -- Feb 25-Mar 3
  * [[http://mat.uab.cat/~masdeu/|Marc Masdeu]] (Barcelona) -- Feb 20-24 & Feb 27-Mar 2
  * [[http://www.normalesup.org/~page/|Aurel Page]] (Bordeaux) -- Feb 19-Mar 4
+ * [[http://bremy.perso.math.cnrs.fr/|Bertrand Rémy]] (Polytechnique) Feb 25-Mar 3 TBC
 
 == Support ==
 
