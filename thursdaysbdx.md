@@ -43,6 +43,9 @@ Vincent D
 Sébastien et Vincent D:
  * Génération aléatoire et uniforme d'injections partielles (question de Pascal Weil) [[https://github.com/seblabbe/slabbe/blob/develop/slabbe/partial_injection.py|partial_injection.py]]
 
+Vincent K
+ * Syntax higlihting sur le kernel jupyter de singular [[https://github.com/OpenDreamKit/OpenDreamKit/issues/175|OpenDreamKit #175]], [[https://github.com/sebasguts/jupyter_kernel_singular/pull/7| PR #7]].
+
 ==== Jeudi 16 Novembre ====
 Vincent K :
  * gmpy2 résolution [[https://github.com/aleaxit/gmpy/issues/170|issue #170]].
