@@ -34,10 +34,14 @@ Sadly we will not be able to accept everyone, for lack of space and funding.
     * [[https://github.com/mraggi/discreture|Discreture]], [[http://sagemath.org|SageMath]]
   * [[http://math.univ-bpclermont.fr/~royer/|Emmanuel Royer]] (Laboratoire de mathématiques Blaise Pascal, Université Clermont-Auvergne, Clermont-Ferrand, France)
     * [[http://pari.math.u-bordeaux.fr/|PARI/GP]]
+  * Jessica Sanchez (Universidad de Papaloapan)
+    * [[https://git-scm.com|Git]], Graphs, [[https://gap-system.org|GAP]], [[https://python.org/|Python]], [[http://sagemath.org|SageMath]]
+  * Carlos Segovia (Instituto de Matemáticas, UNAM, Oaxaca, Mexico)
   * Adrián Ulises Soto Bañuelos (Facultad de Ciencias, UNAM Ciudad Mexico, Mexico)
     * Word morphisms, Rauzy fractals; [[http://sagemath.org|SageMath]]; [[http://texmacs.org|TeXmacs]]; SageMath plugin for TeXmacs; !DrGeo
   * [[https://www.fri.uni-lj.si/en/employees/janos-vidali|Janoš Vidali]] (University of Ljubljana)
     * [[https://gap-system.org|GAP]], Graphs, [[http://www.discretezoo.xyz|DiscreteZOO]], [[http://sagemath.org|SageMath]]
+  * Rafael Villarroel Flores
   * [[https://osebje.famnit.upr.si/~russ.woodroofe/|Russ Woodroofe]] (University of Primorska, Koper, Slovenia)
     * [[https://gap-system.org|GAP]], [[https://www.gnu.org/software/make/|GNU Make]]
 
@@ -55,9 +59,6 @@ Preliminary list of participants other than speakers and organisers.
   * Carlos Montiel Gonzalez (ENES, UNAM Morelia, Mexico)
     * GNU Bash, Git, [[https://www.gnu.org/software/make/|GNU Make]]
   * Diego Noguez (UAEH, Mexico)
-  * Jessica Sanchez (Mexico)
-    * [[https://git-scm.com|Git]], Graphs, [[https://gap-system.org|GAP]], [[https://python.org/|Python]], [[http://sagemath.org|SageMath]]
-  * Carlos Segovia (Instituto de Matemáticas, UNAM, Oaxaca, Mexico)
   * Maria Tsantaki (IRyA, UNAM Morelia, Mexico)
     * Astrophysics
   * Thomai Tsiftsi (CCM, UNAM Morelia, Mexico)
