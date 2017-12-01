@@ -18,6 +18,7 @@ If you are interested in attending the workshop, get in contact with the organiz
 
 == Participants ==
 
+ * [[http://bremy.perso.math.cnrs.fr/|Bertrand Rémy]] (Polytechnique) Feb 25-Mar 3 TBC
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (Bordeaux) Feb 23-Mar 4
  * [[http://homeweb.unifr.ch/drewitzs/Pub/|Simon Drewitz]] (Fribourg) - Feb 19-Mar 4
  * Charles Fougeron (Москва) -- Feb 21-Mar 3 TBC
