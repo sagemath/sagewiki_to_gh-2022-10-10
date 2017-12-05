@@ -7,8 +7,9 @@ See also [[https://www.google.com/search?q=sagemath+site:linkedin.com|LinkedIn p
 
 == Open offers ==
 
-2017-11: [[https://groups.google.com/d/topic/sage-combinat-devel/wekWJ4smfDw/discussion|Job offer at Hong Kong Baptist University]],
-with flexible start date in 2018. [ [[attachment:sagemath-hong-kong-coding-job.pdf|Job offer as pdf]] ]
+2018:
+[[https://groups.google.com/d/topic/sage-combinat-devel/wekWJ4smfDw/discussion|Sage coding job on combinatorial Hopf algebras, ~3 months, at Hong Kong Baptist University]],
+flexible start date any time in 2018. [ [[attachment:sagemath-hong-kong-coding-job.pdf|Job offer as pdf]] ]
 
 2017: [[http://www.cybersecurityeducation.org/careers/cryptographer/|Cyber Security]]: How to Become a Cryptographer?
 
