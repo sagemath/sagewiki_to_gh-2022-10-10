@@ -48,8 +48,6 @@ Sadly we will not be able to accept everyone, for lack of space and funding.
 
 Preliminary list of participants other than speakers and organisers.
 
-  * Aarón Aparicio Hernández (UACM, Plantel Centro Histórico, Ciudad de México, Mexico)
-    * [[https://gap-system.org|GAP]], [[https://github.com/yags/yags|YAGS]]
   * Adriana Haydeé Contreras Peruyero (UNAM, Mexico)
   * David Damian (UAEH, Mexico)
   * James Edwards (IFM, UMSNH, Morelia, Mexico)
