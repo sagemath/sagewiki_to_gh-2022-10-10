@@ -23,7 +23,6 @@ Sadly we will not be able to accept everyone, for lack of space and funding.
 
 == Mathematical Software speakers ==
 
-  * Omar Arroyo (Facultad de Ciencias, UNAM, Mexico City, Mexico
   * Alexander Hulpke (Colorado State U, USA)
     * [[https://gap-system.org|GAP]]
   * [[slelievre|Samuel Lelièvre]] (LMO, Orsay, France; CNRS; CCM, UNAM Morelia, Mexico)
