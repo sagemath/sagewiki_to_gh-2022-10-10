@@ -75,7 +75,7 @@ def dualv(a1=slider(srg,default=1),a2=slider(srg,default=2), a3=slider(srg,defau
     p2 = polygon([[0,0],[a1,a3],[a1+a2,a3+a4],[a2,a4],[0,0]],rgbcolor='red', alpha=.5)
     A = matrix([[a1,a2],[a3,a4]])
     pretty_print(html('<h3>The determinant of a matrix is equal to the determinant of the transpose</h3>'))
-    pretty_print(html("$det(%s) = det(%s)=%s$"%(latex(A),latex(A.transpose()),latex(RR(A.determinant())))))
+    pretty_print(html("$\det(%s) = \det(%s)=%s$"%(latex(A),latex(A.transpose()),latex(RR(A.determinant())))))
     show(A1+A2+A3+A4+p1+p2)
 }}}
 {{attachment:Det_transpose.png}}
