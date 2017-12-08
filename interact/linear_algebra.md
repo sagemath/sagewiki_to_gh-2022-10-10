@@ -78,7 +78,7 @@ def dualv(a1=slider(srg,default=1),a2=slider(srg,default=2), a3=slider(srg,defau
     pretty_print(html("$\det(%s) = \det(%s)=%s$"%(latex(A),latex(A.transpose()),latex(RR(A.determinant())))))
     show(A1+A2+A3+A4+p1+p2)
 }}}
-{{attachment:Det_transpose.png}}
+{{attachment:Det_transpose_new.png}}
 
 == Linear transformations ==
 by Jason Grout
