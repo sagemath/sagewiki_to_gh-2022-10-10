@@ -26,6 +26,7 @@ If you are interested in attending the workshop, get in contact with the organiz
  * [[http://page.mi.fu-berlin.de/labbe/|Jean-Philippe Labbé]] -- Feb 25-Mar 3
  * [[http://mat.uab.cat/~masdeu/|Marc Masdeu]] (Barcelona) -- Feb 20-24 & Feb 27-Mar 2
  * [[http://www.normalesup.org/~page/|Aurel Page]] (Bordeaux) -- Feb 19-Mar 4
+ * Irene Pasquinelli (Durham) -- Feb 19-Mar 3
  * [[http://bremy.perso.math.cnrs.fr/|Bertrand Rémy]] (Polytechnique) Feb 26-Mar 3
 
 == Support ==
