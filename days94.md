@@ -18,7 +18,7 @@ Besides mini courses on those subjects, there might be some space for short talk
 
 For the moment, the proposed talks include
 
- * Rebecca Miller
+ * Rebecca Miller - "Applying and Participating in Google Summer of Code"
 
 
 == Speakers (provisional) ==
