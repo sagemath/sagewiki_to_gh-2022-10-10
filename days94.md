@@ -14,7 +14,11 @@ It will be a series of short courses on subjects related to Sage development. It
  * Using external C/C++ libraries
  * Communication with external packages using pexpect
 
-Besides mini courses on thos subjects, there might be some space for short talks contributed by the participants (they can be quite informal). Please contact the organizers if you are interested ingiving one such talk.
+Besides mini courses on those subjects, there might be some space for short talks contributed by the participants (they can be quite informal). Please contact the organizers if you are interested ingiving one such talk.
+
+For the moment, the proposed talks include
+
+ * Rebecca Miller
 
 
 == Speakers (provisional) ==
@@ -34,6 +38,7 @@ Besides mini courses on thos subjects, there might be some space for short talks
 
  * Tomer Bauer
  * Rebecca Miller
+ * Vincent Neiger
 
 == Instructions for participants ==
 
