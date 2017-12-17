@@ -11,6 +11,8 @@ The conditions of the Faber residencies require that the participants propose ac
 
 If you are interested in attending the workshop, get in contact with the organizers. The cost for semi-pension (hotel + breakfast + dinner) is only 40€ per day thanks to Faber. Some fundings is available via the [[http://opendreamkit.org/|OpenDreamKit European grant]] and can be requested to the organizers.
 
+You can find very detailed practical information about how to reach Faber [[http://mat.uab.cat/~masdeu/files/faber_information.pdf|HERE]].
+
 == Organizers ==
 
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
