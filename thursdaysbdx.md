@@ -35,6 +35,15 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 21 décembre ====
+
+ ... todo ...
+
+==== Jeudi 14 décembre ====
+
+Sébastien Labbé et Pascal Weil:
+ * Génération aléatoire de graphes de Stallings, le code est ici: [[https://github.com/seblabbe/slabbe/blob/develop/slabbe/partial_injection.py|partial_injection.py]]
+
 ==== Jeudi 30 Novembre ====
 
 Vincent D
