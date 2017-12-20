@@ -20,6 +20,8 @@ For the moment, the proposed talks include
 
  * Rebecca Miller - "Applying and Participating in Google Summer of Code"
 
+This Sage Days will be a satellite activity of the [[https://eventos.unizar.es/15634/detail/xvi-eaca-encuentro-de-algebra-computacional-y-aplicaciones.html|XVI EACA encounter]]
+
 
 == Speakers (provisional) ==
 
@@ -39,6 +41,7 @@ For the moment, the proposed talks include
  * Tomer Bauer
  * Rebecca Miller
  * Vincent Neiger
+ * Vít Tuček
 
 == Instructions for participants ==
 
