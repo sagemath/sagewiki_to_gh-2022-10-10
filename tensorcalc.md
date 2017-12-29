@@ -1,7 +1,7 @@
 = Tensor Calculus in Sage =
 
 {{{#!wiki red/solid
-'''''NB:''' '''this page is obsolete''': tensor calculus is now fully implemented in Sage, see the [[http://doc.sagemath.org/html/en/reference/manifolds/|Manifolds section]] of the reference manual. Examples of use are [[http://sagemanifolds.obspm.fr/examples.html|here]]; see also the [[http://nbviewer.jupyter.org/github/sagemanifolds/SageManifolds/blob/master/Worksheets/v1.1/SM_tutorial.ipynb|tutorial]].
+'''''NB:''''' '''this page is obsolete''': tensor calculus is now fully implemented in Sage, see the [[http://doc.sagemath.org/html/en/reference/manifolds/|Manifolds section]] of the reference manual. Examples of use are [[http://sagemanifolds.obspm.fr/examples.html|here]]; see also the [[http://nbviewer.jupyter.org/github/sagemanifolds/SageManifolds/blob/master/Worksheets/v1.1/SM_tutorial.ipynb|tutorial]].
 }}}
 
 This page arose out of [[http://groups.google.be/group/sage-devel/browse_thread/thread/2feef1f0be557585/c2b7095747ebe34d|a thread]] at sage-devel on the use of differential forms in Sage.  Differential forms have been mentioned on the mailing list a few times before, and in the current discussion a number of interesting packages for tensor calculus were mentioned, which are listed here.
