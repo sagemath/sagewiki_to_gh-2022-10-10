@@ -18,16 +18,23 @@ are prepared by the release manager, and sometimes by more people.
 
 = Containers =
 
-== Official SageMath Docker images ==
+== Docker images ==
+
+=== Official SageMath Docker images ===
   * url: https://hub.docker.com/u/sagemath/
   * admin: vbraun, sebasguts, nthiery, embray
 
-== Computational topology SageMath Docker image ==
+=== Computational topology Sage Docker image ===
   * ships: !SageMath, !SnapPy, Regina, PHCPack, pandas, pe, gridlink, flipper, curver, heegaard, pygraphviz
   * url: https://hub.docker.com/r/computop/sage/
   * bitbucket repo: https://bitbucket.org/t3m/sagedocker
   * dockerfile: https://bitbucket.org/t3m/sagedocker/src/tip/sage/Dockerfile
   * people: Nathan Dunfield
+
+=== CoCalc Docker image ===
+  * ships !CoCalc, including !SageMath
+  * !GitHub repo: https://github.com/sagemathinc/cocalc-docker
+  * people: wstein
 
 == Virtualbox ==
   * see SageAppliance
