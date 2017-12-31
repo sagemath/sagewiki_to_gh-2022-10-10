@@ -2,7 +2,7 @@
 
 Here are some links and information about distributing Sage.
 
-Related pages: SupportedPlatforms, [[days77/packaging]]
+Related pages: SupportedPlatforms, [[days77/packaging]], [[Infrastructure]]
 
 <<TableOfContents()>>
 
@@ -33,6 +33,7 @@ are prepared by the release manager, and sometimes by more people.
 
 === CoCalc Docker image ===
   * ships !CoCalc, including !SageMath
+  * url: https://hub.docker.com/r/sagemathinc/cocalc/
   * !GitHub repo: https://github.com/sagemathinc/cocalc-docker
   * people: wstein
 
@@ -71,6 +72,7 @@ are prepared by the release manager, and sometimes by more people.
 == Debian ==
   * wiki page: https://wiki.debian.org/DebianScience/Sage
   * packages: https://packages.debian.org/sagemath
+  * package tracker: https://tracker.debian.org/teams/debian-sagemath/
   * build logs: https://buildd.debian.org/status/package.php?p=sagemath including ptestlong results
   * repo: https://anonscm.debian.org/cgit/debian-science/packages/sagemath.git
     * patches: https://anonscm.debian.org/cgit/debian-science/packages/sagemath.git/tree/debian/patches/
