@@ -30,6 +30,8 @@ You can find very detailed practical information about how to reach Faber [[http
  * [[http://www.normalesup.org/~page/|Aurel Page]] (Bordeaux) -- Feb 19-Mar 4
  * Irene Pasquinelli (Durham) -- Feb 19-Mar 3
  * [[http://bremy.perso.math.cnrs.fr/|Bertrand Rémy]] (Polytechnique) Feb 26-Mar 3
+ * Vít Tuček (Zagreb) Feb 19-Mar 4
+
 
 == Support ==
 
