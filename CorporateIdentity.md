@@ -2,6 +2,8 @@
 
 Design material for a SageMath [[http://en.wikipedia.org/wiki/Corporate_identity |Corporate Identity]].
 
+There is also a repository on Github: [[https://github.com/sagemath/artwork | github.com/sagemath/artwork]].
+
 == Logos and icons ==
 
 <<EmbedObject(logo_sagemath.svg, width=40%)>><<EmbedObject(logo_sagemath_opensource.svg, width=40%)>>
