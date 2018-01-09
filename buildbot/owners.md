@@ -10,7 +10,7 @@ Sagemath patchbots names and owners:
     cristal           --> Bouillaguet
     eddy              --> Vincent.Neri (lri, Orsay, Paris sud)
     edoras            --> ?
-    fermat            --> cremona
+    fermat            --> cremona,davidloeffler
     findstat          --> stumpc5
     hades             --> klee
     kepler            --> nilesjohnson
