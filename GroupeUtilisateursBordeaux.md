@@ -3,6 +3,10 @@
 
 Cours, tutoriels, coding sprint sur Sage (et Pari/GP, GAP, Cython, ...) à Bordeaux. Si vous souhaitez recevoir les informations ou en faire parvenir, inscrivez-vous à la [[https://diff.u-bordeaux.fr/sympa/info/sage-bordeaux|liste de discussion]].
 
+== 2017/2018 ==
+
+Commencement des [[thursdaysbdx|jeudi Sage à Bordeaux]].
+
 == Cours 2014 ==
 
 C'est fini pour cette année!
