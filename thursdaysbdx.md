@@ -6,7 +6,7 @@
 
 Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour discuter et programmer autour des logiciels de calculs formels. Les journées restent centrées sur [[http://www.sagemath.org/|Sage]] et [[http://pari.math.u-bordeaux.fr/|PARI/GP]] mais elles sont ouvertes à tous/toutes. Le principe est que si vous avez des questions vous venez les poser et si vous savez des choses vous venez les partager. Certains jeudi seront centrées sur des thématiques sous forme de mini-cours ou démonstration.
 
-Pour être tenu informé vous pouvez vous abonner à la [[https://diff.u-bordeaux.fr/sympa/info/sage-bordeaux|liste de discussion]].
+Pour être tenu informé vous pouvez vous abonner à la [[https://diff.u-bordeaux.fr/sympa/info/sage-bordeaux|liste de diffusion]].
 
 Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~thursdaysbdx&col=id&col=summary&col=status&col=time&col=changetime&col=author&col=reviewer&desc=1&order=status|thursdaysbdx]]
 
