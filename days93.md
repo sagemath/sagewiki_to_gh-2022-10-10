@@ -13,6 +13,8 @@ If you are interested in attending the workshop, get in contact with the organiz
 
 You can find very detailed practical information about how to reach Faber [[http://mat.uab.cat/~masdeu/files/faber_information.pdf|HERE]].
 
+Sage tickets worked on during this workshop can be found via the keyword [[https://trac.sagemath.org/query?status=!closed&keywords=~days93&order=status|days93]] on the Sage trac server.
+
 == Organizers ==
 
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
