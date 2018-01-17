@@ -54,7 +54,7 @@ The workshop will include training sessions, talks, tutorials, demos, coding spr
     * '''[[http://www.labri.fr/perso/vdelecro/flatsurf.html|surface-dynamics]]'''
     * '''[[https://github.com/videlec/sage-flatsurf|sage-flatsurf]]'''
 
-This workshop can be thought of as a Discreture-DiscreteZoo-GAP-PARI-Sage-TeXmacs-YAGS days.
+This workshop can be thought of as a Discreture-!DiscreteZoo-GAP-PARI-Sage-!TeXmacs-YAGS days.
 In the series of Sage Days, it bears number 92, which lets us use this very convenient wiki.
 [[https://sagemath.org/|SageMath]], also known as Sage, is free software for mathematics.
 
@@ -82,10 +82,10 @@ A tentative list of projects is at [[days92/projects]].
 
 == Schedule ==
 
-Here is a provisional tentative schedule, still subject to change! (see comments below schedule)
+Here is the outline of the schedule. See also [[attachment:Software-tools-math-2018-01-22-Morelia-schedule.pdf| more detailed schedule (pdf)]].
 
 ||<10%>                 ||<15% #FFFFAA:> Mon 22 Jan 2018 ||<15% #FFFFAA:> Tue 23 Jan 2018 ||<15% #FFFFAA:> Wed 24 Jan 2018 ||<15% #FFFFAA:> Thu 25 Jan 2018 ||<15% #FFFFAA:> Fri 26 Jan 2018 ||
-||<#FFFFAA> 10:00-11:30 || '''SWC: GNU Bash'''           || '''SWC: Python'''             || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
+||<#FFFFAA> 10:00-11:30 || '''SWC: GNU Bash'''           || '''SWC: Git'''                || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
 ||<#EEEEFF> 11:30-12:00 ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||<#EEEEFF:> ''drinks/snacks''   ||
 ||<#FFFFAA> 12:00-13:30 || '''SWC: GNU Bash'''           || '''SWC: Python'''             || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      || '''talk/tutorial/demo'''      ||
 ||<#EEEEFF> 13:30-15:00 ||<#EEEEFF:> ''lunch break''     ||<#EEEEFF:> ''lunch break''     ||<#BBFFBB:> ''free afternoon''  ||<#EEEEFF:> ''lunch break''     ||<#EEEEFF:> ''lunch break''     ||
