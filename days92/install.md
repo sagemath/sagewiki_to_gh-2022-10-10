@@ -10,7 +10,7 @@ following software. At the very least, please install Bash, Git, Python, and a t
 which will be used in the first two days. Let us know if you run into trouble.
 
   * Bash, Git, Python, and a text editor
-      * See https://swcarpentry.github.io/workshop-template/#setup
+      * See https://thanyta.github.io/2018-01-22-morelia/
   * GAP
       * See https://www.gap-system.org/Releases/index.html
   * PARI/GP
