@@ -3,10 +3,16 @@
 A workshop on '''''Software tools for mathematics''''' will be held
 '''''22-26 January 2018''''' in '''''Morelia, Michoacán, Mexico'''''.
 
-This wiki page gathers the practical information. See the associated
-[[http://matmor.unam.mx/software-tools-math|workshop webpage]]
-for the registration form, the poster in Spanish and in English,
-and some pictures of Morelia.
+This wiki page gathers the practical information.
+
+  * See the associated
+    [[http://matmor.unam.mx/software-tools-math|workshop webpage]]
+    for the registration form, the poster in Spanish and in English,
+    and some pictures of Morelia.
+  * See the specific [[https://thanyta.github.io/2018-01-22-morelia/|Software Carpentry workshop page]]
+    about the first two days of the workshop.
+  * See the [[days92/install|install]] page for installation instructions
+    for the various software that will be used in the workshop.
 
 The workshop has two self-contained parts
 
