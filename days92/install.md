@@ -26,4 +26,15 @@ Let us know if you have any difficulty installing any of the software.
   * Discreture
       * See https://github.com/mraggi/discreture#installation
   * !TeXmacs
-      * See http://www.texmacs.org/tmweb/download/download.en.html
+    * Official page: http://www.texmacs.org/tmweb/download/download.en.html
+    * Better instructions provided by Adrián:
+      * Linux: as Appimage, with dependencies cleared out:
+        https://download.opensuse.org/repositories/home:/slowphil:/texmacs-devel/AppImage/texmacs-latest-x86_64.AppImage
+        (There are also binaries, but you need to install some dependencies, mainly guile)
+      * Windows: the following installer is easier and more robust than the one on the official page:
+        https://github.com/slowphil/mingw-w64-texmacs/releases/download/svn10980%2Bextras/TeXmacs_installer-1.99.6.svn10980.extras.exe
+      * Macintosh: (The main development of TeXmacs is done on a Mac)
+        http://www.texmacs.org/tmweb/download/macosx.en.html
+      * If possible, also install Maxima:
+        Maxima: (This should work very nice in Ubuntu and Mac, and there is a way to make it work in Windows)
+        http://maxima.sourceforge.net/download.html
