@@ -1,0 +1,354 @@
+\documentclass{amsart}
+
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{lipsum}% dummy text
+%% \usepackage[a4paper,margin=0.75in,landscape]{geometry}
+\usepackage[a4paper,margin=0.5in,landscape]{geometry}
+\hoffset=-0.2in
+%% \voffset=-0.2in
+
+%% \nopagenumbers
+
+\setlength{\columnseprule}{0.4pt}
+
+\newcommand{\Section}[1]{\filbreak\par\vspace{5pt}\noindent\textbf{#1}\par\noindent\ignorespaces}
+\newcommand{\us}{\char`\_}  %% underscore
+\newcommand\textnit[1]{\textnormal{\textit{#1}}}
+
+\def\ver{3.0}
+\def\sagever{8.1}
+
+\begin{document}
+
+\begin{multicols}{3}
+\Section{\LARGE{Sage Dynamics Ref Card v\ver}\\
+\normalsize{(for Sage \sagever})}
+
+
+\Section{Rings and Fields}
+\noindent
+\begin{tabular}{@{\ttfamily\enspace}llll}
+ZZ & integer ring & \texttt{Zmod}($m$) & $\mathbb{Z}/m\mathbb{Z}$ \\
+QQ & rational field  & \texttt{QQbar} & alg. clos. of QQ \\
+RR & real field & \texttt{CC} & complex field \\
+Qp($p$) & $p$-adic field & \texttt{Zp($p$)} & $p$-adic integers\\
+QQ[] & polynomials & \texttt{QQ[[]]} & power series\\
+GF($p$) & prime field & \texttt{GF($p^n$,'\textit{v}')}& finite field\\
+\end{tabular}
+\begin{tabular}{@{\ttfamily\enspace}ll}
+CyclotomicField(\textit{n}) & $\mathbb{Q}(\zeta_n)$\\
+FractionField(\textit{ring}) & field of fractions\\
+QuadraticField(d) & $\mathbb{Q}(\sqrt{d})$\\
+NumberField(\textit{poly},'\textit{var}',[\textit{emb}]) & number field\\
+K.absolute\us field() & ---\\
+K.degree() & $[K : \mathbb{Q}]$\\
+K.extension(poly) & fld ext\\
+QQ.range\us by\us height(bd) & iterator\\
+\multicolumn{2}{l}{\texttt{K.elements\us of\us bounded\us height(bd, [params])}}\\
+\multicolumn{2}{l}{\texttt{number\us field\us elements\us from\us algebraics(\textit{pts})}}
+\end{tabular}
+
+\Section{Spaces and Schemes}
+\noindent
+\begin{tabular}{@{\ttfamily\enspace}ll}
+A.<\textit{vars}>=AffineSpace(\textit{ring},\textit{dim}) & $\mathbb{A}^n$\\
+P.<\textit{vars}>=ProjectiveSpace(\textit{ring},\textit{dim}) & $\mathbb{P}^n$\\
+\multicolumn{2}{l}{\texttt{PP.<\textit{vars}>=ProductProjectiveSpaces(\textit{ring},\textit{dims})}}\\ \multicolumn{2}{r}{$\mathbb{P}^n \times \cdots \times \mathbb{P}^m$}\\
+WehlerK3Surface(\textit{polys}) & ---
+\end{tabular}
+\noindent
+\begin{tabular}{@{\ttfamily\enspace}ll}
+S.affine\us patch($i$,[$\mathbb{A}$]) & ---\\
+S.base\us ring() & base ring S\\
+S.change\us ring() & change base ring\\
+S.coordinate\us ring() & coor. ring of S\\
+S.defining\us ideal() & ---\\
+S.defining\us polynomials() & ---\\
+S.dimension() & rel. dim of S\\
+S.gens() & vars of coord. ring\\
+\multicolumn{2}{l}{\texttt{S.point\us transformation\us matrix([pts,pts])}} \\ \multicolumn{2}{r}{find PGL element}\\
+S.projective\us embedding([$i$,$\mathbb{P}$]) & ---\\
+S.projective\us closure([$i$,$\mathbb{P}$])& --- \\
+S.rational\us points([bd,fld]) & ---\\
+S.subscheme(\textit{polys}) & subscheme of S\\
+S.vars() & vars of coord. ring\\
+S.variable\us names() & vars as strings\\
+S.weil\us restriction() & restric. of const.
+\end{tabular}
+
+\Section{Dynamical System Initialization}
+\noindent
+\begin{tabular}{@{\ttfamily\enspace}ll}
+\multicolumn{2}{l}{\texttt{DynamicalSystem(polys, [domain])}}\\
+\multicolumn{2}{r}{projective if no domain}\\
+\multicolumn{2}{l}{\texttt{DynamicalSystem\_affine(polys, [domain])}}\\
+\multicolumn{2}{l}{\texttt{DynamicalSystem\_projective(polys, [domain])}}\\
+f.as\_dynamical\_system() & End $\to$ DS
+\end{tabular}
+
+\Section{Periodic Behavior}
+\noindent
+\begin{tabular}{@{\ttfamily\enspace}ll}
+f.dynatomic\us polynomial([$m$,$n$]) & ---\\
+Q.is\us preperiodic($f$) & ---\\
+Q.multiplier(f,n) & $(f^n)'(Q)$\\
+Q.orbit\us structure($f$) & [tail,period] \\
+\end{tabular}
+\par\noindent
+\begin{tabular}{@{\ttfamily\enspace}ll}
+f.periodic\us points($n$,[params]) & ---\\
+f.rational\us periodic\us points([params]) & ---\\
+f.rational\us periodic\us graph([params]) & ---\\
+f.rational\us preperiodic\us points([params]) & ---\\
+f.rational\us preperiodic\us graph([params]) & ---\\
+\multicolumn{2}{l}{\texttt{f.possible\us periods([params])} \quad via good red.}
+\end{tabular}
+
+%% \columnbreak
+
+\Section{Heights and Measures}
+\noindent
+\begin{tabular}{@{\ttfamily\enspace}ll}
+Q.canonical\us height($f$,[params]) & $\hat{h}_f(Q)$\\
+f.critical\us height() & $\sum_{c \in \text{Crit}} \hat{h}_f(c)$\\
+Q.global\us height([prec]) & $h(Q)$\\
+f.global\us height([prec]) &  ---\\
+Q.green\us function($v$,[prec]) &  at $v$\\
+\multicolumn{2}{l}{\texttt{f.height\us difference\us bound()} \quad $\bigl|h(Q) - \hat{h}_f(Q)\bigr|$}\\
+f.local\us height\us arch($i$,[prec]) & at $\infty$
+\end{tabular}
+
+\Section{Critical Points}
+\noindent
+\begin{tabular}{@{\ttfamily\enspace}ll}
+f.critical\us points() & ---\\
+f.critical\us subscheme() & ---\\
+f.critical\us point\us portrait() & ---\\
+f.critical\us height() & $\sum_{c \in \text{Crit}} \hat{h}_f(c)$\\
+f.is\us postcritically\us finite() & ---\\
+f.wronskian\us ideal() & crit locus
+\end{tabular}
+
+\Section{Cyclic Structures}
+\begin{tabular}{@{\ttfamily\enspace}ll}
+f.all\us rational\us preimages(\textit{points}) & ---\\
+f.cyclegraph() \textnormal{\tiny{\framebox{$\mathbb{F}_q$}}}& digraph \\
+Q.orbit\us structure($f$) \textnormal{\tiny{\framebox{$\mathbb{F}_q$}}}& [tail,per]\\
+Q.rational\us preimages($f$) & --- \\
+Q.rational\us connected\us component(f) & ---
+\end{tabular}
+
+\Section{Rational Functions}
+\begin{tabular}{@{\ttfamily\enspace}ll}
+f.dynamical\_degree() & ---\\
+f.degree\_sequence() & deg. of iterates\\
+f.indeterminacy\_locus() &  ---\\
+f.indeterminancy\us points() & if fin. many
+\end{tabular}
+
+
+\Section{Functions}
+\begin{tabular}{@{\ttfamily\enspace}ll}
+f[i] & $i$th coord\\
+f.automorphism\us group() & $\{\phi : f^{\phi} = f\}$\\
+f.autmorphism\us group() & $\text{Hom}(f,f)$\\
+f.base\us ring() & ---\\
+f.change\us ring() & ---\\
+P.chebyshev\us polynomial($k$,\textit{kind}) & \\
+f.codomain() & ---\\
+f.conjugate($\phi$) & $\phi^{-1} \circ f \circ \phi$\\
+f.conjugating\us set($g$) & $\text{Hom}(f,g)$\\
+f.defining\us polynomials() & ---\\
+f.degree() & ---\\
+f.dehomogenize($k$) & --- \\
+f.domain() & ---\\
+f.homogenize($k$) \\
+f.is\us morphism()  & ---\\
+f.normalize\us coordinates()& remove gcd\\
+f.nth\us iterate($Q$,$n$) & $f^n(Q)$\\
+f.nth\us iterate\us map(n) & $f^n$\\
+P.Lattes(E,m) & create Latt\`es map\\
+f.orbit($Q$,[$m$,$n$]) & $\{f^m(Q),\ldots, f^n(Q)\}$\\
+f.primes\us of\us bad\us reduction() & ---\\
+f.resultant() & ---\\
+f.scale\us by($t$) & $t\cdot f$\\
+f.specialization() & subs value of param
+\end{tabular}
+
+\Section{Points}
+\begin{tabular}{@{\ttfamily\enspace}ll}
+Q[i] & $i$th coord\\
+Q.change\us ring() & ---\\
+Q.clear\us denominator()  & ---\\
+Q.codomain() & ambient space\\
+Q.dehomogenize($i$) & --- \\
+Q.domain() & base ring\\
+Q.homogenize($i$) & --- \\
+Q.normalize\us coordinates() & remove gcd\\
+Q.nth\us iterate($f$,$n$) & $f^n(Q)$\\
+Q.orbit($f$,($m$,$n$)) & $\bigl[f^m(Q),\ldots, f^n(Q)\bigr]$\\
+Q.scale\us by($t$) & $t\cdot Q$
+\end{tabular}
+
+\Section{Iteration}
+\begin{tabular}{@{\ttfamily\enspace}ll}
+f.nth\us iterate($Q$,$n$) & $f^n(Q)$\\
+f.nth\us iterate\us map(n) & $f^n$\\
+f.orbit($Q$,[$m$,$n$]) & $\bigl[f^m(Q),\ldots, f^n(Q)\bigr]$\\
+f.rational\us preimages($Q$,$k$) & $f^{-k}(Q)$
+\end{tabular}
+
+\Section{Moduli Spaces}
+\begin{tabular}{@{\ttfamily\enspace}ll}
+f.is\us polynomial() & has tot. ram. fixed pt.\\
+f.is\us PGL\us minimal() & \\
+f.is\us conjugate($g$) & \smash[t]{$g \stackrel{?}{=}f^{\phi}$}\\
+f.normal\us form() & $x^n + a_{n-2}x^{n-2} + \cdots + a_0$\\
+f.minimal\us model() & min resultant $f^{\phi}$
+\end{tabular}
+\noindent
+\begin{tabular}{@{\ttfamily\enspace}ll}
+f.multiplier\us spectra($n$,[params]) \\
+  \hfill $\{\lambda_f(Q) : Q \in \text{Per}_n\}$ \\
+f.sigma\us invariants($n$,[params]) \\
+   \hfill$\{\sigma_i(\lambda_f(Q)) : Q \in \text{Per}_n\}$
+\end{tabular}
+
+
+\Section{Finite Fields}
+\begin{tabular}{@{\ttfamily\enspace}ll}
+f.cyclegraph() & iteration digraph\\
+Q.orbit\us structure(f) & [tail,period]
+\end{tabular}
+
+\Section{Mandelbrot and Julia Sets}
+\begin{tabular}{@{\ttfamily\enspace}ll}
+external\_ray(v) & list or single angle\\
+mandelbrot\_plot([params]) & for $z^2+c$\\
+julia\_plot([params]) & for $z^2+c$\\
+\end{tabular}
+
+
+
+\Section{Miscellaneous / Help}
+\noindent
+\begin{tabular}{@{\ttfamily\enspace}ll@{\ttfamily\enspace}ll}
+\us  & last output\\
+\%time & execution time\\
+timeit('\textit{cmd}',number=\#) & time multiple iterations\\
+s.<$\textit{tab}$> & show all cmds on $s$\\
+s.\textit{cmd}? & info about cmd on $s$ \\
+set\us verbose(None) & disable warnings\\
+load(``\textit{path to file}'') & load code file\\
+copy(\text{obj}) & ---\\
+latex(\text{obj}) & ---\\
+all(\textit{list of bool}) & ---\\
+any(\textit{list of bool}) & ---\\
+sum(\textit{list}) & ---\\
+max(\textit{list}) & ---\\
+isinstance(f, \textit{type}) & check for type\\
+preparser(\textit{bool}) & on/off notebk preparsing
+\end{tabular}
+
+\Section{Matrices}
+\noindent
+\begin{tabular}{@{\ttfamily\enspace}ll@{\ttfamily\enspace}ll}
+matrix(K,n,m,\textit{list}) & create matrix\\
+matrix(K,\textit{list of lists}) & create matrix\\
+M.charpoly() & ---\\
+M.determinant() & ---\\
+M.height() & global height\\
+M.inverse() & ---\\
+M.LLL([args]) & LLL reduced lattice\\
+M.minors(k) & dets of $k\times k$ minors\\
+M.rank() & ---
+\end{tabular}
+
+\Section{Polynomial Rings}
+\noindent
+\begin{tabular}{@{\ttfamily\enspace}ll@{\ttfamily\enspace}ll}
+R.<a,b>=PolynomialRing(K,2) & poly ring over K\\
+R.<a>=PolynomialRing(K) & univar poly ring\\
+R.<a>=PolynomialRing(K,1) & multivar poly ring\\
+R.gen($k$) & kth variable\\
+R.gens() & all variables\\
+R.hom(\textit{im\us gens},S) & Hom(R,S)\\
+R.ideal(polys) & ---\\
+I.dimension() & krull dim of R/I\\
+I.elimination\us ideal(\textit{vars}) & ---\\
+I.gens() & ---\\
+I.groebner\us basis() & ---\\
+I.is\us prime() & ---\\
+I.is\us maximal() & ---\\
+I.is\us principal() & ---\\
+I.is\us one() & ---\\
+I.primary\us decomposition() & ---\\
+I.radical() & ---\\
+I.ring() & R\\
+I.variety() & rat pts of dim 0 \\
+I.vector\us space\us dimension() & of R/I\\
+F.monomial\us coefficient(\textit{mon}) & base ring element\\
+F.polynomial(x) & make univariate\\
+F.subs(\textit{dict}) & substitution\\
+F(\textit{tuple}) & substitution\\
+\end{tabular}
+\begin{tabular}{@{\ttfamily\enspace}ll@{\ttfamily\enspace}ll}
+F.coefficient(\textit{mon}) & poly element\\
+F.coefficients() & ---\\
+list(F) & list of (coeff,mon)\\
+F[\textit{list}] & coeff of mon with exp \textit{list}\\
+F.dict() & dict of mon:coef via exp\\
+F.lift(I) & coeff of gens of I to get F
+\end{tabular}
+
+\Section{Algebraic Geometry}
+\noindent
+\begin{tabular}{@{\ttfamily\enspace}ll@{\ttfamily\enspace}ll}
+S.Chow\us form() & associated Chow form\\
+S.coordinate\us ring() & ---\\
+S.defining\us ideal() & ---\\
+S.defining\us polynomials() & ---\\
+S.degree() & from lc of hil poly\\
+S.dimension() & relative dimension\\
+S.intersection(T) & ---\\
+S.intersection\us multiplicity(T,Q) & Serre's Tor\\
+S.irreducible\us components() & ---\\
+S.is\us smooth() & ---\\
+S.Jacobian() & Jacobian ideal\\
+S.projective\us closure([$\mathbb{P}$]) & --- \\
+S.rational\us points([bd]) & ---\\
+S.subscheme(\textit{ideal}) & --- \\
+S.veronese\_embedding(d) & ---\\
+S.weil\us restriction() & ---\\
+S*T & $S \times T$\\
+S**n & $S \times \cdots \times S$\\
+I.radical() & radical ideal\\
+%% \end{tabular}
+%% \begin{tabular}{@{\ttfamily\enspace}ll@{\ttfamily\enspace}ll}
+\multicolumn{2}{l}{------------------------------} \\
+PP.components() & ---\\
+PP.dimension\us components() & list of dims\\
+PP.segre\us embedding([\textit{codomain}]) & ---\\
+%% \end{tabular}
+%% \begin{tabular}{@{\ttfamily\enspace}ll@{\ttfamily\enspace}ll}
+\multicolumn{2}{l}{------------------------------} \\
+C.arithmetic\us genus() & ---\\
+C.genus() & ---\\
+C.is\us complete\us intersection() & ---\\
+C.is\us ordinary\us singularity(Q) & ---\\
+C.is\us transverse(D,Q) & ---\\
+C.tangents(Q) & 
+\end{tabular}
+
+
+\vspace{5pt}
+\noindent
+\footnotesize{Copyright \copyright \; 2017 B. Hutz, J. Silverman
+  v\ver. Permission is granted for noncommercial distribution provided
+  the copyright notice and this permission notice are preserved on all
+  copies. Thanks to ICERM for hosting us while version 1.0 was written.}
+\end{multicols}
+\newpage
+
+\end{document}
