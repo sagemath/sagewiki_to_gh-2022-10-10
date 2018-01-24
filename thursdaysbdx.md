@@ -2,7 +2,7 @@
 = Les jeudi sages à Bordeaux =
 = (autour de Sage, PARI/GP, et plus) =
 
-''Prochaine(s) séance(s): le jeudi 18 janvier de 9h00 à 12h30 en salle 73 (LaBRI).''
+''Prochaine(s) séance(s): le jeudi 25 janvier de 9h00 à 12h30 en salle 73 (LaBRI).''
 
 Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour discuter et programmer autour des logiciels de calculs formels. Les journées restent centrées sur [[http://www.sagemath.org/|Sage]] et [[http://pari.math.u-bordeaux.fr/|PARI/GP]] mais elles sont ouvertes à tous/toutes. Le principe est que si vous avez des questions vous venez les poser et si vous savez des choses vous venez les partager. Certains jeudi seront centrés sur des thématiques sous forme de mini-cours ou démonstration.
 
@@ -37,6 +37,15 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
     * supports pour les horocycles et les polygones fait de bords géodésiques et horocycliques
 
 == Compte-rendus ==
+
+==== Jeudi 18 janvier ====
+
+Présents : Pascal Weil, Sebastien Labbé et Vincent Klein
+
+Vincent K.
+ * Echanges avec Pascal Weil
+ * cypari2 : Retours sur la proposition des unittest.
+ * Point d'avancement odk avec Seb.
 
 ==== Jeudi 21 décembre ====
 
