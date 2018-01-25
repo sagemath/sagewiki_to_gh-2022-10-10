@@ -5,10 +5,8 @@ A workshop on '''''Software tools for mathematics''''' will be held
 
 This wiki page gathers the practical information.
 
-  * See the associated
-    [[http://matmor.unam.mx/software-tools-math|workshop webpage]]
-    for the registration form, the poster in Spanish and in English,
-    and some pictures of Morelia.
+  * See the associated [[http://matmor.unam.mx/software-tools-math|workshop webpage]]
+    for registration form, poster in Spanish and in English, pictures of Morelia.
   * See the specific [[https://thanyta.github.io/2018-01-22-morelia/|Software Carpentry workshop page]]
     about the first two days of the workshop.
   * See the [[days92/install|install]] page for installation instructions
@@ -16,7 +14,7 @@ This wiki page gathers the practical information.
 
 '''Pads'''
 
-  * Pads: Mon-Tue (Software Carpentry: Bash, Git, Python)
+  * Mon-Tue (Software Carpentry: Bash, Git, Python)
     http://pad.software-carpentry.org/2018-01-22-morelia
   * Wed-Fri (Math software: Discreture, DiscreteZOO, Emacs, GAP, PARI/GP, !SageMath, !TeXmacs, YAGS, ...)
     https://hebdo.framapad.org/p/L4nD5zWbAC
