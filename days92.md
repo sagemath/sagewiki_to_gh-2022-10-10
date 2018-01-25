@@ -1,4 +1,4 @@
-= Software tools for mathematics --- Morelia, Michoacán, Mexico --- 2018-01-22 -- 2018-01-26 =
+= Software tools for mathematics • Morelia, Michoacán, Mexico • 2018-01-22 -- 2018-01-26 =
 
 A workshop on '''''Software tools for mathematics''''' will be held
 '''''22-26 January 2018''''' in '''''Morelia, Michoacán, Mexico'''''.
@@ -13,6 +13,13 @@ This wiki page gathers the practical information.
     about the first two days of the workshop.
   * See the [[days92/install|install]] page for installation instructions
     for the various software that will be used in the workshop.
+
+'''Pads'''
+
+  * Pads: Mon-Tue (Software Carpentry: Bash, Git, Python)
+    http://pad.software-carpentry.org/2018-01-22-morelia
+  * Wed-Fri (Math software: Discreture, DiscreteZOO, Emacs, GAP, PARI/GP, !SageMath, !TeXmacs, YAGS, ...)
+    https://hebdo.framapad.org/p/L4nD5zWbAC
 
 The workshop has two self-contained parts
 
