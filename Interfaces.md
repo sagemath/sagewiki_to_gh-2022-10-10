@@ -12,8 +12,11 @@
   * MuPAD
 
 === Sage interfaces to free software ===
-  * [[http://www.gap-system.org/ | GAP]]
-  * [[http://www.math.uiuc.edu/Macaulay2/ Macaulay2]]
+
+List of interfaces: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/|interfaces]].
+
+  * [[http://www.gap-system.org/ | GAP]]: 
+  * [[http://www.math.uiuc.edu/Macaulay2/ | Macaulay2]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/macaulay2.html|Sage interface]]
   * [[http://maxima.sourceforge.net/ | Maxima]]
   * [[https://www.gnu.org/software/octave/ | GNU Octave]]
   * [[http://pari.math.u-bordeaux.fr/ | PARI/GP]]
