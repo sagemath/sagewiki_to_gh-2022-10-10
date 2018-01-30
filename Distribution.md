@@ -80,6 +80,7 @@ are prepared by the release manager, and sometimes by more people.
     * earlier discussions happened on the [[https://lists.debian.org/debian-science/|debian-science mailing list]]
     * Sage-side mailing list (dormant): [[https://groups.google.com/forum/#!forum/debian-sage|debian-sage]]
   * status pages: [[http://people.debian.org/~thansen/debian-sage-status.html|master branch]] [[http://people.debian.org/~thansen/debian-sage-dev-status.html|develop branch]] [[http://people.debian.org/~thansen/debian-sage-7.4-status.html|7.4]]
+  * bug tracker: [[https://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=sagemath|Debian bugs: package sagemath]]
   * people: Tobias Hansen, Julien Puydt, Jerome Benoit, Ximin Luo
 
 == Fedora package ==
