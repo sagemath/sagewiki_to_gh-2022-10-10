@@ -124,11 +124,13 @@ See [[https://groups.google.com/d/msg/sage-devel/jdLfIKQ1M18/PVQqJUUqAgAJ|this p
   * pending tickets: [[https://trac.sagemath.org/query?status=!closed&component=porting%3A+Cygwin|component: "porting: cygwin"]]
   * wiki pages on Sage's trac: [[https://trac.sagemath.org/wiki/CygwinPort|Cygwin32]], [[https://trac.sagemath.org/wiki/Cygwin64Port|Cygwin64]]
 
+== Windows subsystem for Linux ==
+  * Under Windows 10, one can run the "Windows Subsystem for Linux" to "run Linux under Windows", and install !SageMath binaries for Linux.
+
 == Discussion ==
   * mailing list (dormant): [[https://groups.google.com/forum/#!forum/sage-windows|sage-windows]]
 
 = Porting to exotic architectures =
-
   * trac-wiki: [[https://trac.sagemath.org/wiki/ExoticPorts|Porting SageMath to Exotic architectures]]
   
 == BSD ==
