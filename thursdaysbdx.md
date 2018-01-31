@@ -42,7 +42,7 @@ Présents : Sebastien Labbé, Milton et Vincent Klein
 
 Vincent K.
  * cysignals : Etude d'une implémentation sous windows.
- * Suivi sur [https://trac.sagemath.org/ticket/22928|#22928]]
+ * Suivi sur [[https://trac.sagemath.org/ticket/22928|#22928]]
 
 ==== Jeudi 18 janvier ====
 
