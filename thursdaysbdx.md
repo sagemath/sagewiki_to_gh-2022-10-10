@@ -37,6 +37,12 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
     * supports pour les horocycles et les polygones fait de bords géodésiques et horocycliques
 
 == Compte-rendus ==
+==== Jeudi 25 janvier ====
+Présents : Sebastien Labbé, Milton et Vincent Klein
+
+Vincent K.
+ * cysignals : Etude d'une implémentation sous windows.
+ * Suivi sur [https://trac.sagemath.org/ticket/22928|#22928]]
 
 ==== Jeudi 18 janvier ====
 
