@@ -16,7 +16,7 @@ was renamed CoCalc, this has no incidence on SageMath, which remains SageMath.
 The name Sage has been used for a lot of things, including several
 software systems, some of which with mathematical capability.
 
-Amazon launched a hosted machine learning platform called [[https://aws.amazon.com/sagemaker|SageMaker]], which has absolutely nothing directly to do with Sage (though it uses similar technologies and even has at least one developer in common).
+Amazon launched a hosted machine learning platform called [[https://aws.amazon.com/sagemaker|SageMaker]], which has absolutely nothing to do with SageMath (though it uses similar technologies and even has at least one developer in common).
 
 See also the Wikipedia disambiguation page
 
