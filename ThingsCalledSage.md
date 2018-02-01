@@ -6,10 +6,10 @@ This wiki is about SageMath, the Sage Mathematics Software System.
 
 Note that after founding SageMath (free software for mathematics) in 2005,
 William Stein later founded a company called [[SageMathInc|SageMath, Inc.]],
-whose goal is to raise money for the development of SageMath (the software).
-The product developed by "!SageMath, Inc." towards this goal is CoCalc,
+whose goal is to make it easier to use open source mathematical software.
+The main product developed so far by "!SageMath, Inc." towards this goal is [[https://cocalc.com|CoCalc]],
 which started out under the name SageMathCloud. Note that while SageMathCloud
-was renamed CoCalc, this has no incidence on SageMath, which remains SageMath.
+was renamed CoCalc, this has no impact on SageMath, which remains SageMath.
 
 == Unrelated projects ==
 
