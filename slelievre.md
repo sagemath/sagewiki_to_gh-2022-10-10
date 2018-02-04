@@ -12,7 +12,7 @@ Usernames: slelievre on Sage's
 [[https://bitbucket.org/slelievre/|slelievre]] on [[https://bitbucket.org/|Bitbucket]].
 
 <<TableOfContents()>>
- 
+
 == Topics of interest in Sage ==
 
   * [[dynamics]] (especially translation surfaces)
@@ -58,6 +58,13 @@ I'm interested in the following pages on !SageMath's wiki.
   * [[https://trac.sagemath.org/query?summary=~forever&desc=1&order=status|summary contains forever]]
   * [[https://trac.sagemath.org/query?summary=~+ages&desc=1&order=status|summary contains ages]]
 
+=== Notebook and worksheets ===
+
+  * [[https://trac.sagemath.org/query?order=id&desc=1&status=!closed&summary=~sagenb|open tickets whose summary contains sagenb]]
+  * [[https://trac.sagemath.org/query?order=id&desc=1&status=!closed&summary=~sws|open tickets whose summary contains sws]]
+  * [[https://trac.sagemath.org/query?order=id&desc=1&status=!closed&summary=~worksheet|open tickets whose summary contains worksheet]]
+  * [[https://trac.sagemath.org/query?order=id&desc=1&status=!closed&summary=~sagenb&summary=~sws&summary=~worksheet|open tickets whose summary contains sagenb or sws or worksheet]]
+
 == Sage days and similar events [a]ttended or [o]rganized ==
 
   * [a] [[http://opendreamkit.org/meetings/2016-06-27-Bremen/|OpenDreamKit annual project meeting, Bremen, 2016-06]]
@@ -71,7 +78,7 @@ I'm interested in the following pages on !SageMath's wiki.
   * [a] [[combinat/SageCombinatDaysCernay2012|combinatdayscernay2012, Cernay, France]]
   * [o] [[days28|days28, Orsay, France, 2011-01]]
   * [a] [[daysmarseille|days20, Marseille, France, 2010-02]]
- 
+
 == Sage user group in Paris ==
 
   * wiki: [[GroupeUtilisateursParis|Sage user group in Paris]]
@@ -85,7 +92,7 @@ I'm interested in the following pages on !SageMath's wiki.
   * [[http://home.mis.u-picardie.fr/~leve/ejc2011/|Young researchers school in math-info, Amiens, France, 2011-04]]
   * Presented Sage at various math conferences: Oberwolfach, Orsay, ...
   * Presented Sage at !PyCon-Fr, Rennes, France, 2010-09 (with Timo Jolivet)
- 
+
 == Sage in teaching ==
 
   * M1-MAO-CF: mathématiques assistées par ordinateur, option Calcul formel; Orsay, 2015--2016
