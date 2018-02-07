@@ -2,7 +2,7 @@
 = Les jeudi sages à Bordeaux =
 = (autour de Sage, PARI/GP, et plus) =
 
-''Prochaine(s) séance(s): le jeudi 1 février de 7h00 à 12h30 en salle 74 (LaBRI - salle de visio).''
+''Prochaine(s) séance(s): le jeudi 8 février de 9h00 à 12h30 en salle 74 (LaBRI - salle de visio).''
 
 Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour discuter et programmer autour des logiciels de calculs formels. Les journées restent centrées sur [[http://www.sagemath.org/|Sage]] et [[http://pari.math.u-bordeaux.fr/|PARI/GP]] mais elles sont ouvertes à tous/toutes. Le principe est que si vous avez des questions vous venez les poser et si vous savez des choses vous venez les partager. Certains jeudi seront centrés sur des thématiques sous forme de mini-cours ou démonstration.
 
@@ -37,6 +37,12 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
     * supports pour les horocycles et les polygones fait de bords géodésiques et horocycliques
 
 == Compte-rendus ==
+
+==== Jeudi 1er Février ===
+
+ * démo par Vincent Delecroix et Bill Allombert du calcul de groupes de Galois
+ * tentative de reproduire les calculs de Shigeki Akiyama sur les polytopes qui minimise l'aire de surface
+
 ==== Jeudi 25 janvier ====
 Présents : Sebastien Labbé, Milton et Vincent Klein
 
