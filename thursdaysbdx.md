@@ -38,6 +38,10 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 8 Février ===
+
+9 participants!
+
 ==== Jeudi 1er Février ===
 
  * démo par Vincent Delecroix et Bill Allombert du calcul de groupes de Galois
