@@ -35,6 +35,14 @@ Sage tickets worked on during this workshop can be found via the keyword [[https
  * Vít Tuček (Zagreb) Feb 19-Mar 4
 
 
+== Projects ==
+
+ * Implement arbitrary precision Riemann theta function in arb (see, https://github.com/fredrik-johansson/arb/issues/201): Vincent
+ * Arithmeticity of finite type subgroups of SL_n(Z) or Sp(2g,z): Vincent
+ * Test for finiteness/infiniteness of the index for a subgroup of SL_n(Z) given by a finite generating set: Vincent
+   (is this even decidable?)
+ * add your work plan ...
+
 == Support ==
 
 This workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]].
