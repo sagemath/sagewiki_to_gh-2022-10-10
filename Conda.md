@@ -27,7 +27,7 @@ There are still some issues with Conda. Not all tests pass and some things don't
  * …
 
 == MacOS ==
-Packages do not exist yet. We are waiting for #12426 to get merged.
+Packages do not exist yet. --(We are waiting for #12426 to get merged.)--
 
 == Windows ==
 There is likely not going to be a working package in the near future, see https://groups.google.com/d/msg/sage-devel/wyaV8x5qolI/jVS4DKBvCAAJ.
