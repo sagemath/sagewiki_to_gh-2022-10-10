@@ -11,7 +11,7 @@ To install sage on your machine (without the need for root permissions):
  * Make sure your locale is UTF-8.
  * Add the `conda-forge` channel: `conda config --add channels conda-forge`
  * Update all packages: `conda update --all` (otherwise you get weird errors due to inconsistencies later)
- * create an environment for sage: `conda create -n sage sagelib future`
+ * create an environment for sage: `conda create -n sage sage`
  * enter your environment: `source activate sage`
  * enjoy: `sage`
 
