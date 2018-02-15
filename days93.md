@@ -45,4 +45,4 @@ Sage tickets worked on during this workshop can be found via the keyword [[https
 
 == Support ==
 
-This workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]].
+This workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]] {{attachment:Flag_of_Europe.png|align="middle"|width=100}}.
