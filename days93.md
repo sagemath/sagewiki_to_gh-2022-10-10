@@ -37,10 +37,8 @@ Sage tickets worked on during this workshop can be found via the keyword [[https
 
 == Projects ==
 
- * Zariski closure of finitely generated subgroups of SL_n(Z): Vincent
- * Test for finiteness/infiniteness of the covolume for a subgroup of SL_n(R) (or Sp(2g,R)) given by a finite generating set: Vincent
-   (is this even decidable?)
- * fundamental domain for finitely generated subgroups of SL_2(R) given by generators: Vincent
+ * Zariski closure of finitely generated subgroups of SL(n,R): Vincent
+ * Test for finiteness of the covolume for a subgroup of SL(n,R) (or Sp(2g,R)) given by a (finite) generating set. In the case of SL(2,R) there is a complete algorithm. While in higher dimensional groups (even rank 1) we are faced to non-geometrically finite groups : Vincent
  * Arbitrary precision Riemann theta function with arb (see, https://github.com/fredrik-johansson/arb/issues/201): Vincent
  * add your work plan ...
 
