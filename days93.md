@@ -37,10 +37,11 @@ Sage tickets worked on during this workshop can be found via the keyword [[https
 
 == Projects ==
 
- * Implement arbitrary precision Riemann theta function in arb (see, https://github.com/fredrik-johansson/arb/issues/201): Vincent
- * Arithmeticity of finite type subgroups of SL_n(Z) or Sp(2g,z): Vincent
- * Test for finiteness/infiniteness of the index for a subgroup of SL_n(Z) given by a finite generating set: Vincent
+ * Zariski closure of finitely generated subgroups of SL_n(Z): Vincent
+ * Test for finiteness/infiniteness of the covolume for a subgroup of SL_n(R) (or Sp(2g,R)) given by a finite generating set: Vincent
    (is this even decidable?)
+ * fundamental domain for finitely generated subgroups of SL_2(R) given by generators: Vincent
+ * Arbitrary precision Riemann theta function with arb (see, https://github.com/fredrik-johansson/arb/issues/201): Vincent
  * add your work plan ...
 
 == Support ==
