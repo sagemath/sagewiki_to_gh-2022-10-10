@@ -28,3 +28,17 @@ CoCalc was initially launched under the name SageMathCloud, and hosted at
 In terms of domain names,  [[https://sagemath.com|sagemath.com]] is for the
 company "!SageMath, Inc.", while [[https://sagemath.org|sagemath.org]] is for
 the SageMath software.
+
+To run an instance of CoCalc on one's own computer, the easiest is to use a
+Docker container.
+
+== GitHub repositories ==
+
+  * [[https://github.com/sagemathinc/cocalc|CoCalc]]
+  * [[https://github.com/sagemathinc/cocalc|CoCalc Docker container]]
+  * [[https://github.com/ktaletsk/CuCalc|CuCalc (= CUDA + CoCalc) Docker container]]
+
+== Docker images on DockerHub ==
+
+  * [[https://hub.docker.com/r/sagemathinc/cocalc/|sagemathinc/cocalc]]
+  * [[https://hub.docker.com/search/?q=cocalc|others]]
