@@ -37,9 +37,13 @@ Sage tickets worked on during this workshop can be found via the keyword [[https
 
 == Projects ==
 
+ * determine the nature (= a fundamental domain) for finite type subgroups of SL(2,R):
+    - test discretness and when discrete build fundamental domain (Gilman-Maskit did it for 2 generators)
+    - do the same in SL(2,Qp) using Bruhat-Tits tree
+    - in case of SL(2,Q), and more generally SL(2,K), one can look into a product
+      SL(2,R) x SL(2,Qp1) x ... x SL(2,Qpk) in which the group is discrete
  * Zariski closure of finitely generated subgroups of SL(n,R): Vincent
  * Test for finiteness of the covolume for a subgroup of SL(n,R) (or Sp(2g,R)) given by a (finite) generating set. In the case of SL(2,R) there is a complete algorithm while in higher dimensional groups (even rank 1) we are faced to non-geometrically finite groups : Vincent
- * Arbitrary precision Riemann theta function with arb (see, https://github.com/fredrik-johansson/arb/issues/201): Vincent
  * add your work plan ...
 
 == Support ==
