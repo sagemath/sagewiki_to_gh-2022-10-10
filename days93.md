@@ -15,6 +15,8 @@ You can find very detailed practical information about how to reach Faber [[http
 
 Sage tickets worked on during this workshop can be found via the keyword [[https://trac.sagemath.org/query?status=!closed&keywords=~days93&order=status|days93]] on the Sage trac server.
 
+{{attachment:my_animation.gif}}
+
 == Organizers ==
 
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
