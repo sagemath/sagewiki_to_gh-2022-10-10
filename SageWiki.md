@@ -24,7 +24,7 @@ This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software S
 
 
 = People =
-The most up-to date list of Sage developers is on our [[http://trac.sagemath.org/sage_trac/wiki#AccountNamesMappedtoRealNames|list of developers on the Sage trac wiki]].
+The most up-to date list of Sage developers is on our [[https://trac.sagemath.org/sage_trac/wiki#AccountNamesMappedtoRealNames|list of developers on the Sage trac wiki]].
 
 [[http://www.sagemath.org/development-map.html|Overview of (many) Sage developers on a world map]]
 
@@ -38,7 +38,7 @@ The Sage website contains links to [[http://www.sagemath.org/development-groups.
 
 = Development =
 
-Development is handled using "tickets" on the [[http://trac.sagemath.org/sage_trac/|trac server]].
+Development is handled using "tickets" on the [[https://trac.sagemath.org/sage_trac/|trac server]].
 
 The main developer doc is the [[http://www.sagemath.org/doc/developer/ | Developers' Guide]].
 
@@ -254,6 +254,6 @@ Note: "Contributors" are not necessarily coders/programmers, but "Developers" ''
 
 = About this wiki =
 
-'''Editing the wiki.''' Page editing uses the MoinMoin syntax. To edit the wiki, log in using your [[http://trac.sagemath.org/sage_trac/|sage-trac]] account. Getting an account involves convincing a human by email that you not a spammer.
+'''Editing the wiki.''' Page editing uses the MoinMoin syntax. To edit the wiki, log in using your [[https://trac.sagemath.org/sage_trac/|sage-trac]] account. Getting an account involves convincing a human by email that you not a spammer.
 
-'''License and Copyright.''' Contributions to the [[http://www.sagemath.org/|Sage]] wiki and to the [[http://doc.sagemath.org|Sage documentation]] are licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]]. By contributing, you agree to place your contribution under that license.
+'''License and Copyright.''' Contributions to the [[http://www.sagemath.org/|Sage]] wiki and to the [[https://doc.sagemath.org|Sage documentation]] are licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]]. By contributing, you agree to place your contribution under that license.
