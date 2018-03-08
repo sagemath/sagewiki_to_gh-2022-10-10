@@ -38,6 +38,14 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 8 Mars ===
+
+Vincent D
+
+ * review [[https://trac.sagemath.org/ticket/24828|#24828 (length-checking iterator)]]
+ * creating [[https://trac.sagemath.org/ticket/24927|#24927 (arb upgrade)]]
+ * improving [[[[https://trac.sagemath.org/ticket/24575|#24575 (make and LD_LIBRARY_PATH mess)]]
+
 ==== Jeudi 8 Février ===
 
 9 participants!
