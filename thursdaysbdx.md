@@ -44,7 +44,7 @@ Vincent D
 
  * review [[https://trac.sagemath.org/ticket/24828|#24828 (length-checking iterator)]]
  * creating [[https://trac.sagemath.org/ticket/24927|#24927 (arb upgrade)]]
- * improving [[https://trac.sagemath.org/ticket/24575|#24575 (make and LD_LIBRARY_PATH mess)]]
+ * improving [[https://trac.sagemath.org/ticket/24575|#24575 (make and LD_LIBRARY_PATH mess)]] (voir aussi [[https://trac.sagemath.org/ticket/24902|#24902]])
 
 ==== Jeudi 8 Février ===
 
