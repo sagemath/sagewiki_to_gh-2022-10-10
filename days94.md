@@ -42,6 +42,7 @@ This Sage Days will be a satellite activity of the [[https://eventos.unizar.es/1
  * Rebecca Miller
  * Vincent Neiger
  * Vít Tuček
+ * Sebastian Oehms
 
 == Instructions for participants ==
 
