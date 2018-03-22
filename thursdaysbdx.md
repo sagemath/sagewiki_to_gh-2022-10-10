@@ -40,16 +40,16 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 ==== Jeudi 22 Mars ====
 
- - Milton nous a fait une démo de son code sur les substitutions géométriques EkEkStar
- - Pascal : Random Stallings graphs
- - Vincent K : 
- - Sébastien : Écriture de la démo de Milton en .rst et .ipynb
+ * Milton nous a fait une démo de son code sur les substitutions géométriques EkEkStar
+ * Pascal : Random Stallings graphs
+ * Vincent K : 
+ * Sébastien : Écriture de la démo de Milton en .rst et .ipynb
 
 ==== Jeudi 15 Mars ====
 
- - Pascal : Random Stallings graphs
- - Vincent K : 
- - Sébastien : Aide et travail sur Wang tilings
+ * Pascal : Random Stallings graphs
+ * Vincent K : 
+ * Sébastien : Aide et travail sur Wang tilings
 
 ==== Jeudi 8 Mars ====
 
