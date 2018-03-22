@@ -40,7 +40,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 ==== Jeudi 22 Mars ====
 
- * Milton nous a fait une démo de son code sur les substitutions géométriques EkEkStar : https://github.com/miltminz/EkEkstar
+ * Milton nous a fait une démo de son code sur les substitutions géométriques : https://github.com/miltminz/EkEkstar
  * Pascal : Random Stallings graphs
  * Vincent K : 
  * Sébastien : Aide et écriture de la démo de Milton en [[https://github.com/seblabbe/EkEkstar/blob/master/demos/2018-03-22-demo.rst|demo.rst]] et [[https://github.com/seblabbe/EkEkstar/blob/master/demos/2018-03-22-demo.ipynb|demo.ipynb]]
