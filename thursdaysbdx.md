@@ -38,7 +38,20 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
-==== Jeudi 8 Mars ===
+==== Jeudi 22 Mars ====
+
+ - Milton nous a fait une démo de son code sur les substitutions géométriques EkEkStar
+ - Pascal : Random Stallings graphs
+ - Vincent K : 
+ - Sébastien : Écriture de la démo de Milton en .rst et .ipynb
+
+==== Jeudi 15 Mars ====
+
+ - Pascal : Random Stallings graphs
+ - Vincent K : 
+ - Sébastien : Aide et travail sur Wang tilings
+
+==== Jeudi 8 Mars ====
 
 Vincent D
 
@@ -46,11 +59,11 @@ Vincent D
  * creating [[https://trac.sagemath.org/ticket/24927|#24927 (arb upgrade)]]
  * improving [[https://trac.sagemath.org/ticket/24575|#24575 (make and LD_LIBRARY_PATH mess)]] (voir aussi [[https://trac.sagemath.org/ticket/24902|#24902]])
 
-==== Jeudi 8 Février ===
+==== Jeudi 8 Février ====
 
 9 participants!
 
-==== Jeudi 1er Février ===
+==== Jeudi 1er Février ====
 
  * démo par Vincent Delecroix et Bill Allombert du calcul de groupes de Galois
  * tentative de reproduire les calculs de Shigeki Akiyama sur les polytopes qui minimise l'aire de surface
