@@ -35,6 +35,7 @@ This Sage Days will be a satellite activity of the [[https://eventos.unizar.es/1
 
  * Miguel Marco
  * Enrique Artal
+ * Adrien Boussicault
 
 == Participants ==
 
@@ -53,7 +54,7 @@ Since this workshop is focusing in Sage development, it would be better if the p
 
 == Financial support ==
 
-The school will be partially funded by the Opendreamkit project. We expect to be able to cover the travel and lodging expenses of the participants and speakers.
+The school will be partially funded by the Opendreamkit project. The LaBRI (University of Bordeaux) and the CNRS co-organize the project via the Opendreamkit Project. We expect to be able to cover the travel and lodging expenses of the participants and speakers.
 
 == Contact ==
 
