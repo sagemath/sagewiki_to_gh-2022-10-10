@@ -35,8 +35,17 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
  * corriger et améliorer les dessins hyperboliques (dim 2)
     * [[https://trac.sagemath.org/ticket/23427|#23427]]
     * supports pour les horocycles et les polygones fait de bords géodésiques et horocycliques
+ * nettoyer le code de Milton sur les substitutions géométriques (Ek star)
 
 == Compte-rendus ==
+
+==== Jeudi 5 avril ====
+
+ * Sébastien a fait la relecture de [[https://trac.sagemath.org/ticket/24880|#24880]]
+
+==== Jeudi 29 Mars ====
+
+Pause, trop d'absent.
 
 ==== Jeudi 22 Mars ====
 
