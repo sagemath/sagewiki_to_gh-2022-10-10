@@ -22,7 +22,7 @@ Room PK-4323 of the [[http://carte.uqam.ca/pavillon-pk|Président-Kennedy buildi
 == Invited speakers ==
 
  * [[http://bergeron.math.uqam.ca/|François Bergeron]] (LaCIM, Université du Québec à Montréal); topic: experimental mathematics
- * [[http://www-groups.mcs.st-andrews.ac.uk/~jamesm|James Mitchell]] (CIRCA, University of St Andrews); topic: [[https://gap-packages.github.io/Semigroups/|GAP's semigroup package]] and the [[https://james-d-mitchell.github.io/libsemigroups/|libsemigroup]] C++ library
+ * [[http://www-groups.mcs.st-andrews.ac.uk/~jamesm|James Mitchell]] (CIRCA, University of St Andrews); topic: [[https://gap-packages.github.io/Semigroups/|GAP's semigroup package]] and the [[https://james-d-mitchell.github.io/libsemigroups/|libsemigroup]] C++ library [[https://goo.gl/NvRrAv|slides]]
  * ThierryMonteil (CNRS, LIPN, Université Paris Nord); topics: "representations of real and complex numbers in Sage" and "gems of [[https://ask.sagemath.org|ask.sagemath.org]]"
  * [[http://math.bu.edu/people/jbala/|Jennifer  Balakrishnan]] (Boston University); topic: Three problems in number theory
 
