@@ -47,6 +47,7 @@ This Sage Days will be a satellite activity of the [[https://eventos.unizar.es/1
  * Friedrich Wiemer
  * Bianca Thompson
  * Rusydi H. Makarim
+ * Peleg Michaeli
 
 == Instructions for participants ==
 
