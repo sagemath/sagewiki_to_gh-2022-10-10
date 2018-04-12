@@ -39,11 +39,20 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+
+==== Jeudi 12 avril ====
+
+Présents : Sebastien Labbé et Vincent Klein
+
+ * Sébastien a fait la relecture de [[https://trac.sagemath.org/ticket/25120|#25120]] et [[https://trac.sagemath.org/ticket/25121|#25121]]
+
+
 ==== Jeudi 5 avril ====
 
 Présents : Sebastien Labbé, Milton et Vincent Klein
 
  * Sébastien a fait la relecture de [[https://trac.sagemath.org/ticket/24880|#24880]]
+ * Milton et Sébastien ont finalisé l'utilisation du Minkowski embedding coder la projection des k-faces dans les substitutions géométriques : https://github.com/miltminz/EkEkstar
  * Vincent K. :
     * #24880: Gestion retours et passage en need_review.
     * #24966: Test sous High Sierra.
