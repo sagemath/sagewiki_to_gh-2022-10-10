@@ -42,6 +42,9 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 ==== Jeudi 5 avril ====
 
  * Sébastien a fait la relecture de [[https://trac.sagemath.org/ticket/24880|#24880]]
+ * Vincent K. :
+    * #24880: Gestion retours et passage en need_review.
+    * #24966: Test sous High Sierra.
 
 ==== Jeudi 29 Mars ====
 
