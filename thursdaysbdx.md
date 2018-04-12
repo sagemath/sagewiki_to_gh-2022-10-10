@@ -54,22 +54,27 @@ Pause, trop d'absent.
 
  * Milton nous a fait une démo de son code sur les substitutions géométriques : https://github.com/miltminz/EkEkstar
  * Pascal : Random Stallings graphs
- * Vincent K : 
+ * Vincent K : cysignals-windows : Rebase et tests.
  * Sébastien : Aide et écriture de la démo de Milton en [[https://github.com/seblabbe/EkEkstar/blob/master/demos/2018-03-22-demo.rst|demo.rst]] et [[https://github.com/seblabbe/EkEkstar/blob/master/demos/2018-03-22-demo.ipynb|demo.ipynb]]
 
 ==== Jeudi 15 Mars ====
 
  * Pascal : Random Stallings graphs
- * Vincent K : 
+ * Vincent K : Ouverture https://github.com/sagemath/cysignals/issues/75 et merge de branches.
  * Sébastien : Aide et travail sur Wang tilings
 
 ==== Jeudi 8 Mars ====
 
-Vincent D
+ * Vincent D
 
- * review [[https://trac.sagemath.org/ticket/24828|#24828 (length-checking iterator)]]
- * creating [[https://trac.sagemath.org/ticket/24927|#24927 (arb upgrade)]]
- * improving [[https://trac.sagemath.org/ticket/24575|#24575 (make and LD_LIBRARY_PATH mess)]] (voir aussi [[https://trac.sagemath.org/ticket/24902|#24902]])
+    * review [[https://trac.sagemath.org/ticket/24828|#24828 (length-checking iterator)]]
+    * creating [[https://trac.sagemath.org/ticket/24927|#24927 (arb upgrade)]]
+    * improving [[https://trac.sagemath.org/ticket/24575|#24575 (make and LD_LIBRARY_PATH mess)]] (voir aussi [[https://trac.sagemath.org/ticket/24902|#24902]])
+
+ * Vincent K
+
+   * Passage en need review [[https://trac.sagemath.org/ticket/23852|#23852 (length-checking iterator)]]. 
+   * cysignals-windows: Fix patch distutils pour python3.4 64 bits. 
 
 ==== Jeudi 8 Février ====
 
