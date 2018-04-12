@@ -41,6 +41,8 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 ==== Jeudi 5 avril ====
 
+Présents : Sebastien Labbé, Milton et Vincent Klein
+
  * Sébastien a fait la relecture de [[https://trac.sagemath.org/ticket/24880|#24880]]
  * Vincent K. :
     * #24880: Gestion retours et passage en need_review.
@@ -51,6 +53,8 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 Pause, trop d'absent.
 
 ==== Jeudi 22 Mars ====
+
+Présents : Sebastien Labbé, Pascal Weil, Milton et Vincent Klein
 
  * Milton nous a fait une démo de son code sur les substitutions géométriques : https://github.com/miltminz/EkEkstar
  * Pascal : Random Stallings graphs
