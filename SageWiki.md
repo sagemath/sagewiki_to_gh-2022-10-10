@@ -52,6 +52,7 @@ The [[devel|development wiki]] also contain some (currently out-of-date) informa
  * [[CodeSharingWorkflow|On development models for sharing (experimental) code]]
  * [[Python3-compatible code|Writing Python 3 compatible code]] see also [[PortingToPython3|matplotlib experience Porting to Python 3]]
  * [[https://zulip.sagemath.org]] group chat server for realtime collaboration on Sage
+ * [[OptiPolyGeom|Optimization and Polyhedral Geometry in Sage]]
 
 = Demonstrations of Graphical Capabilities =
  * [[art|Art - posters, banners, etc]]
