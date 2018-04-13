@@ -45,6 +45,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 Présents : Sebastien Labbé et Vincent Klein
 
  * Sébastien a fait la relecture de [[https://trac.sagemath.org/ticket/25120|#25120]] et [[https://trac.sagemath.org/ticket/25121|#25121]]
+ * Vincent : (cysignals-windows). Dev et test sur le monkey patch des distutils pour cysignals. 
 
 
 ==== Jeudi 5 avril ====
