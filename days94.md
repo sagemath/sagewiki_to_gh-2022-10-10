@@ -30,6 +30,66 @@ This Sage Days will be a satellite activity of the [[https://eventos.unizar.es/1
  * Travis Scrimshaw
  * Jeroen Demeyer
 
+== Program (temptative) ==
+
+
+==== Thursday 28th: ====
+
+ * 10:00-11:00 registration
+ * 11:30-13:30 The Sage development workflow 
+ * 13:30-15:00 lunch break
+ * 15:00-16:00 contributed talks
+ * 16:00-16:30 coffe break
+ * 16:30-18:30 coding sprints
+
+==== Friday 29th: ====
+
+ * 09:00 - 11:00  The category framework in Sage
+ * 11:00 - 11:30 Coffee break
+ * 11:30 - 13:30 The coercion model 
+ * 13:30 - 15:00 Lunch break
+ * 15:00 - 16:00 The sage development workflow (practice)
+ * 16:00 - 16:30 Coffee break
+ * 16:30 - 17:00 Contributed talks
+ * 17:00 - 19:00 coding sprints
+
+==== Saturday 30th: ====
+
+ * 10:00 - 11:30 The category framework in Sage (practice)
+ * 11:30 - 12:00 Coffee break
+ * 12:00 - 13:30 The coercion model (practice)
+
+==== Sunday 1st: ====
+
+ * Excursion
+
+==== Monday 2nd: ====
+
+ * 09:00 - 11:00  Parents and elements
+ * 11:00 - 11:30 Coffee break
+ * 11:30 - 13:30 Cython
+ * 13:30 - 15:00 Lunch break
+ * 15:00 - 16:00 Parents and elements (practice)
+ * 16:00 - 16:30 Coffee break
+ * 16:30 - 17:00 Contributed talks
+ * 17:00 - 19:00 coding sprints
+
+==== Tuesday 3th: ====
+
+ * 09:00 - 11:00  Third party components
+ * 11:00 - 11:30 Coffee break
+ * 11:30 - 13:30 Third party components (practice)
+ * 13:30 - 15:00 Lunch break
+ * 15:00 - 16:00 Contributed talks
+ * 16:00 - 16:30 Coffee break
+ * 16:30 - 18:30 coding sprints
+
+==== Wednsday 4th: ====
+
+ * 09:00 - 11:00 Contributed talks
+ * 11:00 - 11:30 Coffee break
+ * 11:30 - 13:00 Final report and wrapup
+
 
 == Organizers ==
 
