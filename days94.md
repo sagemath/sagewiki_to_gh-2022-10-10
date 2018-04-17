@@ -108,6 +108,8 @@ This Sage Days will be a satellite activity of the [[https://eventos.unizar.es/1
  * Bianca Thompson
  * Rusydi H. Makarim
  * Peleg Michaeli
+ * Pablo Angulo
+ * Antonio Rojas
 
 == Instructions for participants ==
 
