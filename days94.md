@@ -110,6 +110,7 @@ This Sage Days will be a satellite activity of the [[https://eventos.unizar.es/1
  * Peleg Michaeli
  * Pablo Angulo
  * Antonio Rojas
+ * Mckenzie West
 
 == Instructions for participants ==
 
