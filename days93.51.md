@@ -4,7 +4,7 @@
 
 == Topic ==
 
-This is the follow-up coding sprint of [[SageDays80|https://wiki.sagemath.org/days80]]. The aim of this 5-days coding sprint is to continue the Sage work on '''finite reflection groups''' in Sage, based on the '''GAP3 package chevie'''. The topics (and the related trac tickets) can be found at [[http://trac.sagemath.org/ticket/20394]].
+This is the follow-up coding sprint of [[days80|SageDays 80]]. The aim of this 5-days coding sprint is to continue the Sage work on '''finite reflection groups''' in Sage, based on the '''GAP3 package chevie'''. The topics (and the related trac tickets) can be found at [[http://trac.sagemath.org/ticket/20394]].
 
 == Participants ==
 
