@@ -39,6 +39,17 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 26 avril ====
+
+Présents : Vincent K, Sébastien
+
+ * 
+
+==== Jeudi 19 avril ====
+
+Présents : Vincent K, Vincent D, Milton, Pascal
+
+ * Pascal a présenté son projet sur les Stallings graphs
 
 ==== Jeudi 12 avril ====
 
