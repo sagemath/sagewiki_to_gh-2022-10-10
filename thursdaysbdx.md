@@ -45,7 +45,7 @@ Présents : Vincent K, Sébastien, Pascal
 
  * Sébastien a fait la relecture de [[https://trac.sagemath.org/ticket/25218|#25218]]
 
-Je vois des warning associés à gmpy2 quand je compile sage:
+Des warning associés à gmpy2 quand on compile sage:
 
 {{{
 [sagelib-8.2.rc3] make[3] : on entre dans le répertoire « /home/slabbe/GitBox/sage/src »
