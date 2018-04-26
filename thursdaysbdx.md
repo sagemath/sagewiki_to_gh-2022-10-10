@@ -43,6 +43,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 Présents : Vincent K, Sébastien, Pascal
 
+ * Sébastien a fait la relecture de [[https://trac.sagemath.org/ticket/25218|#25218]]
 
 Je vois des warning associés à gmpy2 quand je compile sage:
 
