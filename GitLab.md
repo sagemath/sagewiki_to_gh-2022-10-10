@@ -26,16 +26,7 @@ Currently, Google gives everybody who signs up $300 of credit for 12 months. The
    * NAME=gce-jrueth # a *short* name that contains gce and your username (and only lowercase characters and hyphens)
    * export REGISTER_LOCKED=true
    * PROJECT=tidy-scholar-202621 # the name of the google cloud project (click no "My First Project" to find out)
-   * for region in $REGIONS;do gitlab-runner register --tag-list do,standard-4 --run-untagged --name $NAME-$region --limit 2 --executor docker+machine
- --env "DOCKER_DRIVER=overlay2" --docker-privileged --url https://gitlab.com --
-non-interactive --docker-image docker:latest --docker-volumes "/var/run/docker.
-sock:/var/run/docker.sock" --docker-volumes "/dev/urandom:/dev/random" --docker
--shm-size 2147483648 --machine-machine-driver google --machine-idle-time 600 --
-machine-machine-name "$NAME-%s" --machine-machine-options "google-project=$PROJ
-ECT","google-machine-type=n1-standard-4","google-machine-image=coreos-cloud/glo
-bal/images/family/coreos-stable","google-tags=gitlab-ci-slave","google-preempti
-ble=true","google-zone=$region","google-use-internal-ip=true","google-disk-type
-=pd-standard","google-disk-size=64"; done
+   * for region in $REGIONS;do gitlab-runner register --tag-list do,standard-4 --run-untagged --name $NAME-$region --limit 2 --executor docker+machine --env "DOCKER_DRIVER=overlay2" --docker-privileged --url https://gitlab.com --non-interactive --docker-image docker:latest --docker-volumes "/var/run/docker.sock:/var/run/docker.sock" --docker-volumes "/dev/urandom:/dev/random" --docker-shm-size 2147483648 --machine-machine-driver google --machine-idle-time 600 --machine-machine-name "$NAME-%s" --machine-machine-options "google-project=$PROJECT","google-machine-type=n1-standard-4","google-machine-image=coreos-cloud/global/images/family/coreos-stable","google-tags=gitlab-ci-slave","google-preemptible=true","google-zone=$region","google-use-internal-ip=true","google-disk-type=pd-standard","google-disk-size=64"; done
    * systemctl restart gitlab-runner
    * exit
    * exit
