@@ -23,11 +23,10 @@ Currently, Google gives everybody who signs up $300 of credit for 12 months. The
    * install /tmp/docker-machine /usr/local/bin/docker-machine
    * REGIONS="us-east4-c us-central1-c us-west1-c europe-west4-c europe-west1-c europe-west2-c europe-west3-c asia-east1-c asia-southeast1-a asia-northeast1-c asia-south1-c australia-southeast1-c" # for a maximum of 12*8+2 CPUs
    * export REGISTRATION_TOKEN=TX-uvssj6AeA1xthsqSH
-   * NAME=gce-jrueth}}} # a *short* name that contains gce and your username (and only lowercase characters and hyphens)
+   * NAME=gce-jrueth # a *short* name that contains gce and your username (and only lowercase characters and hyphens)
    * export REGISTER_LOCKED=true
    * PROJECT=tidy-scholar-202621 # the name of the google cloud project (click no "My First Project" to find out)
-   * for region in $REGIONS;do gitlab-runner register --tag-list do,sta
-ndard-4 --run-untagged --name $NAME-$region --limit 2 --executor docker+machine
+   * for region in $REGIONS;do gitlab-runner register --tag-list do,standard-4 --run-untagged --name $NAME-$region --limit 2 --executor docker+machine
  --env "DOCKER_DRIVER=overlay2" --docker-privileged --url https://gitlab.com --
 non-interactive --docker-image docker:latest --docker-volumes "/var/run/docker.
 sock:/var/run/docker.sock" --docker-volumes "/dev/urandom:/dev/random" --docker
