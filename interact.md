@@ -1,6 +1,16 @@
 = Sage Interactions =
 
-This is a collection of pages demonstrating the use of [[http://sagemath.org/doc/reference/sagenb/notebook/interact.html#sagenb.notebook.interact.interact|the interact command]] in Sage. It should be easy to just scroll through and copy/paste examples into Sage notebooks. If you have suggestions on how to improve interact, add them [[interactSuggestions|here]] or email sage-support@googlegroups.com . Of course, your own examples are also welcome!
+This is a collection of pages demonstrating the use of the **interact** command in Sage.
+It should be easy to just scroll through and copy/paste examples into Sage notebooks.
+If you have suggestions on how to improve interact, add them [[interactSuggestions|here]]
+or email sage-support. Of course, your own examples are also welcome!
+
+Documentation links:
+
+  * [[http://doc.sagemath.org/html/en/reference/repl/sage/repl/ipython_kernel/interact.html| interacts in the Jupyter notebook]]
+  * [[http://doc.sagemath.org/html/en/reference/notebook/sagenb/notebook/interact.html|interacts in the legacy SageNB notebook]]
+
+Examples:
 
  * [[interact/algebra|Algebra]]
  * [[interact/bio|Bioinformatics]]
