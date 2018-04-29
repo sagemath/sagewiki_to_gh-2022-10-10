@@ -37,7 +37,7 @@ bal/images/family/coreos-stable","google-tags=gitlab-ci-slave","google-preempti
 ble=true","google-zone=$region","google-use-internal-ip=true","google-disk-type
 =pd-standard","google-disk-size=64"; done}}}
    * {{{systemctl restart gitlab-runner}}}
-   * exit
-   * exit
+   * {{{exit}}}
+   * {{{exit}}}
 
 TODO: There is some room for improvement here. These instances do not support caches (we do not use caching currently) and they always pull the sagemath-dev images from the registry which incurs quite a bit of ingress cost.
