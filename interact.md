@@ -2,8 +2,8 @@
 
 This is a collection of pages demonstrating the use of the **interact** command in Sage.
 It should be easy to just scroll through and copy/paste examples into Sage notebooks.
-If you have suggestions on how to improve interact, add them [[interactSuggestions|here]]
-or email sage-support. Of course, your own examples are also welcome!
+If you have suggestions on how to improve interact, add them [[interact/Suggestions|here]]
+or email the sage-support mailing list. Of course, your own examples are also welcome!
 
 Documentation links:
 
