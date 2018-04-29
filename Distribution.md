@@ -97,6 +97,7 @@ are prepared by the release manager, and sometimes by more people.
 
 == Guix/Nix ==
   * some info: [[days77/packaging]]
+  * NixOS: Sage package: https://github.com/NixOS/nixpkgs/tree/master/pkgs/applications/science/math/sage
 
 == RPM package (Fedora, Mandriva) ==
   * hosted at: http://rpmfind.net/linux/rpm2html/search.php?query=sagemath
