@@ -139,6 +139,7 @@ Alphabetical listing of things to do (out-of-date and general organise) - [[mren
  * [[fast_eval]] is 2008 page for a functionality re-doing
  * don't know if [[Fight%20spam%20on%20asksage]] is still relevant, otherwise move to [[contribute]]
  * move [[firefox_trac]] to [[Tips]]
+ * [[GitLab]]
  * [[Gmane]] is an alternative mailing list; 2012 suggestion?
  * [[groebner-bases-in-sage-sd2talk]] upload the file from sage.math.washington.edu
  * [[hardware]] probably should remove in favor of [[Infrastructure]]
