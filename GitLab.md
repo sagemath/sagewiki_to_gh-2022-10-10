@@ -12,6 +12,7 @@ Currently, Google gives everybody who signs up $300 of credit for 12 months. The
    * Zone "us-east1-b"
    * Machine Type "micro"
    * Boot Disk "Ubuntu 18.04 LTS"
+   * Select "Allow full access to all Cloud APIs"
    * Keep Defaults for everything else, and click "Create"
  1. Wait for your machine to boot and click the "SSH" button to connect.
 {{{
