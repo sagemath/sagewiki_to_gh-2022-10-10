@@ -11,7 +11,7 @@ Currently, Google gives everybody who signs up $300 of credit for 12 months. The
    * Name, e.g., "gitlabci-orchestrator"
    * Zone "us-east1-b"
    * Machine Type "micro"
-   * Boot Disk "Ubuntu 18.04 LTS"
+   * Boot Disk "Debian 9 stretch"
    * Keep Defaults for everything else, and click "Create"
  1. Wait for your machine to boot and click the "SSH" button to connect.
 {{{
