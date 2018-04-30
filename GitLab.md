@@ -16,6 +16,8 @@ Currently, Google gives everybody who signs up $300 of credit for 12 months. The
  1. Wait for your machine to boot and click the "SSH" button to connect.
 {{{
    * sudo su
+   * apt-get update
+   * sudo apt-get install -y apt-transport-https ca-certificates curl gnupg2 software-properties-common
    * curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh | bash
    * curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -
    * add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
