@@ -22,14 +22,14 @@ Currently, Google gives everybody who signs up $300 of credit for 12 months. The
    * base=https://github.com/docker/machine/releases/download/v0.14.0
    * curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine
    * install /tmp/docker-machine /usr/local/bin/docker-machine
-   * REGIONS="us-east4-c us-central1-c us-west1-c europe-west4-c europe-west1-c europe-west2-c europe-west3-c asia-east1-c asia-southeast1-a asia-northeast1-c asia-south1-c australia-southeast1-c" # for a maximum of 12*8+2 CPUs
+   * REGIONS="us-east4-c us-central1-c us-west1-c europe-west4-c europe-west1-c europe-west2-c europe-west3-c asia-east1-c asia-southeast1-a asia-northeast1-c asia-south1-c" # for a maximum of 11*2+1 < 24 CPUs
    * export REGISTRATION_TOKEN=TX-uvssj6AeA1xthsqSH
    * NAME=gce-jrueth # a *short* name that contains gce and your username (and only lowercase characters and hyphens)
    * export REGISTER_LOCKED=false
    * PROJECT=tidy-scholar-202621 # the name of the google cloud project (click no "My First Project" to find out)
-   * for region in $REGIONS;do gitlab-runner register --tag-list do,standard-8 --run-untagged --name $NAME-$region --limit 1 --executor docker+machine --env "DOCKER_DRIVER=overlay2" --docker-privileged --url https://gitlab.com --non-interactive --docker-image docker:latest --docker-volumes "/var/run/docker.sock:/var/run/docker.sock" --docker-volumes "/dev/urandom:/dev/random" --docker-shm-size 2147483648 --machine-machine-driver google --machine-idle-time 600 --machine-machine-name "$NAME-%s" --machine-machine-options "google-project=$PROJECT" --machine-machine-options "google-machine-type=n1-standard-8" --machine-machine-options "google-machine-image=coreos-cloud/global/images/family/coreos-stable" --machine-machine-options "google-tags=gitlab-ci-slave" --machine-machine-options "google-preemptible=true" --machine-machine-options "google-zone=$region" --machine-machine-options "google-use-internal-ip=true" --machine-machine-options "google-disk-type=pd-standard" --machine-machine-options "google-disk-size=128"; done
+   * for region in $REGIONS;do gitlab-runner register --tag-list do,standard-2 --run-untagged --name $NAME-$region --limit 1 --executor docker+machine --env "DOCKER_DRIVER=overlay2" --docker-privileged --url https://gitlab.com --non-interactive --docker-image docker:latest --docker-volumes "/var/run/docker.sock:/var/run/docker.sock" --docker-volumes "/dev/urandom:/dev/random" --docker-shm-size 2147483648 --machine-machine-driver google --machine-idle-time 600 --machine-machine-name "$NAME-%s" --machine-machine-options "google-project=$PROJECT" --machine-machine-options "google-machine-type=n1-standard-2" --machine-machine-options "google-machine-image=coreos-cloud/global/images/family/coreos-stable" --machine-machine-options "google-tags=gitlab-ci-slave" --machine-machine-options "google-preemptible=true" --machine-machine-options "google-zone=$region" --machine-machine-options "google-use-internal-ip=true" --machine-machine-options "google-disk-type=pd-standard" --machine-machine-options "google-disk-size=64"; done
    * vim /etc/gitlab-runner/config.toml
-   * replace concurrent=1 with concurrent=99
+   * replace concurrent=1 with concurrent=11
    * systemctl restart gitlab-runner
    * exit
    * exit
