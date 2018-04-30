@@ -18,7 +18,7 @@ Currently, Google gives everybody who signs up $300 of credit for 12 months. The
 {{{
    * sudo su
    * apt-get update
-   * apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+   * apt-get install -y apt-transport-https ca-certificates curl gnupg2 software-properties-common
    * curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -
    * add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
    * curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh | bash
