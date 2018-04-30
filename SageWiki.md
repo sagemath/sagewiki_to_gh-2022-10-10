@@ -61,12 +61,16 @@ The [[devel|development wiki]] also contain some (currently out-of-date) informa
 
 = Packages =
 
-These lists redirect to [[spkg]]. Use the listed Sage command for the newest information:
+For wiki pages about packages, see [[spkg]] and [[Sage_Spkg_Tracking|SPKG changelog and descriptions]].
 
- * [[standard_packages_available_for_SAGE|Standard packages available for Sage]] (`./sage -standard`)
- * [[optional_packages_available_for_SAGE|Optional packages available for Sage]] (`./sage -optional`)
- * [[experimental_packages_available_for_SAGE|Experimental packages available for Sage]] (`./sage -experimenta`)
- * [[Sage_Spkg_Tracking|SPKG changelog and descriptions]]
+Use the following shell commands below for the newest information:
+
+ * Standard packages: `./sage -standard`
+ * Installed packages: `./sage -installed`
+ * Optional packages available: `./sage -optional`
+ * Experimental packages available: `./sage -experimental`
+
+For some advanced package tools, use `./sage -package`
 
 = ''OUT OF DATE! NEEDS UPDATED!'' =
  * [[Tips]]
