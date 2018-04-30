@@ -15,6 +15,7 @@ Currently, Google gives everybody who signs up $300 of credit for 12 months. The
    * Keep Defaults for everything else, and click "Create"
  1. Wait for your machine to boot and click the "SSH" button to connect.
 {{{
+   * curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh | sudo bash
    * sudo su
    * apt-get update
    * apt-get install -y gitlab-runner docker.io
