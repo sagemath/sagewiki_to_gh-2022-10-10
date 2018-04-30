@@ -50,7 +50,7 @@ The [[devel|development wiki]] also contain some (currently out-of-date) informa
  * [[Coding_Theory|Coding Theory in Sage]]
  * [[Debate/Collective infrastructure management]]
  * [[CodeSharingWorkflow|On development models for sharing (experimental) code]]
- * [[Python3-compatible code|Writing Python 3 compatible code]] see also [[PortingToPython3|matplotlib experience Porting to Python 3]]
+ * [[Python3-compatible code|Writing Python 3 compatible code]]
  * [[https://zulip.sagemath.org]] group chat server for realtime collaboration on Sage
  * [[OptiPolyGeom|Optimization and Polyhedral Geometry in Sage]]
 
