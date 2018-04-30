@@ -7,23 +7,17 @@ Support for GitLab CI was added in https://trac.sagemath.org/ticket/24655.
 Currently, Google gives everybody who signs up $300 of credit for 12 months. They won't charge you unless you explicitly upgrade, and there are a few limitations (e.g, at most 8 CPUs per regions.) Btw., they don't charge you if you upgrade unless you run out of the free credit.
 
  1. Sign up at cloud.google.com (you might want to use an account that you don't use for anything else on cloud.google.com, so your quotas do not interfere with what we are doing here…)
- 1. Create a new project (click on "My first project", then "+") and maybe call it "GitLab CI"
  1. Go to "Compute Engine" → "VM Instance" → "Create Instance".
    * Name, e.g., "gitlabci-orchestrator"
    * Zone "us-east1-b"
    * Machine Type "micro"
-   * Boot Disk "Debian 9 stretch"
+   * Boot Disk "Ubuntu 18.04 LTS"
    * Keep Defaults for everything else, and click "Create"
  1. Wait for your machine to boot and click the "SSH" button to connect.
 {{{
    * sudo su
    * apt-get update
-   * sudo apt-get install -y apt-transport-https ca-certificates curl gnupg2 software-properties-common
-   * curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh | bash
-   * curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -
-   * add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
-   * apt-get update
-   * apt-get install -y gitlab-runner docker-ce
+   * apt-get install -y gitlab-runner docker.io
    * base=https://github.com/docker/machine/releases/download/v0.14.0
    * curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine
    * install /tmp/docker-machine /usr/local/bin/docker-machine
