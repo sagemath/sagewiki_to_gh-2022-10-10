@@ -61,7 +61,7 @@ The [[devel|development wiki]] also contain some (currently out-of-date) informa
 
 = Packages =
 
-For wiki pages about packages, see [[spkg]] and [[Sage_Spkg_Tracking|SPKG changelog and descriptions]].
+For a wiki page about packages, see [[spkg]].
 
 Use the following shell commands below for the newest information:
 
