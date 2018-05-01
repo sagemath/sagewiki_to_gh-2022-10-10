@@ -45,4 +45,7 @@ EOF
    * exit
    * exit
 }}}
+
+Finally, have somebody with Owner access on the gitlab.com/sage group check that your runners are enabled and working.
+
 TODO: There is some room for improvement here. These instances do not support caches (we do not use caching currently) and they always pull the sagemath-dev images from the registry which incurs quite a bit of ingress cost.
