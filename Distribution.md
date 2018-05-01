@@ -31,11 +31,18 @@ are prepared by the release manager, and sometimes by more people.
   * dockerfile: https://bitbucket.org/t3m/sagedocker/src/tip/sage/Dockerfile
   * people: Nathan Dunfield
 
-=== CoCalc Docker image ===
+=== CoCalc Docker images ===
+
+Official !CoCalc Docker image:
+
   * ships !CoCalc, including !SageMath
   * url: https://hub.docker.com/r/sagemathinc/cocalc/
   * !GitHub repo: https://github.com/sagemathinc/cocalc-docker
   * people: wstein
+
+Other !CoCalc Docker images might ship !SageMath too:
+
+  * https://hub.docker.com/search/?q=cocalc
 
 == Virtualbox ==
   * see SageAppliance
@@ -57,17 +64,25 @@ are prepared by the release manager, and sometimes by more people.
   * what: bootable "Linux + math software" environment for French "agrégation" exams
   * admin: François Boisson
 
-= Anaconda / Conda / Conda Forge =
-  * wiki page: [[Conda]]
+= Package managers =
 
-= Linux distros =
-  * mailing-list: [[https://groups.google.com/forum/#!forum/sage-packaging|sage-packaging]]
+This section is about SageMath packages in package managers, which can be
+related to particular Linux distributions, or macOS-specific (like Homebrew),
+or distribution-agnostic, or even OS-agnostic.
+
+  * general SageMath packaging mailing list:
+    [[https://groups.google.com/forum/#!forum/sage-packaging|sage-packaging]]
 
 == Arch-linux ==
   * hosted at: https://www.archlinux.org/packages/community/x86_64/sagemath/
   * wiki page: https://wiki.archlinux.org/index.php/SageMath
   * repo: https://git.archlinux.org/svntogit/community.git/?h=packages/sagemath
+  * to install: ```sudo pacman -S sagemath```
   * maintainer: Antonio Rojas
+
+== Conda / Anaconda / Miniconda / Conda Forge ==
+  * wiki page: [[Conda]]
+  * people: isuruf, saraedum
 
 == Debian ==
   * wiki page: https://wiki.debian.org/DebianScience/Sage
@@ -95,9 +110,22 @@ are prepared by the release manager, and sometimes by more people.
   * Known test failures: https://github.com/cschwan/sage-on-gentoo/wiki/Known-test-failures
   * admin: fbissey, cschwan
 
-== Guix/Nix ==
-  * some info: [[days77/packaging]]
-  * NixOS: Sage package: https://github.com/NixOS/nixpkgs/tree/master/pkgs/applications/science/math/sage
+== Homebrew ==
+
+!SageMath can now be installed on macOS via Homebrew by running
+
+```
+brew cask install sage
+```
+
+This fetches the dmg for the app, and installs the app from that dmg.
+See [[https://groups.google.com/d/msg/sage-devel/jdLfIKQ1M18/PVQqJUUqAgAJ|this post on sage-devel]].
+
+== Nix ==
+  * Sage package: https://github.com/NixOS/nixpkgs/tree/master/pkgs/applications/science/math/sage
+
+    Note: so far (2018-05), the nix pkg just downloads and builds the spkgs from the Sage distribution,
+    not using the standard Nix dependencies.
 
 == RPM package (Fedora, Mandriva) ==
   * hosted at: http://rpmfind.net/linux/rpm2html/search.php?query=sagemath
@@ -107,12 +135,10 @@ are prepared by the release manager, and sometimes by more people.
   * earlier PPA: https://launchpad.net/~aims/+archive/ubuntu/sagemath
     * admin: pipedream
 
-= Mac OS X / OS X / macOS =
-
-== Homebrew ==
-
-!SageMath can now be installed via Homebrew. This fetches the dmg for the app and installs the app.
-See [[https://groups.google.com/d/msg/sage-devel/jdLfIKQ1M18/PVQqJUUqAgAJ|this post on sage-devel]].
+== Other ==
+Please edit this wiki or email slelievre if you know about other package managers
+providing !SageMath... See
+[[https://en.wikipedia.org/wiki/List_of_software_package_management_systems|wikipedia's list of package managers]].
 
 = Windows =
 
@@ -147,6 +173,8 @@ See [[https://groups.google.com/d/msg/sage-devel/jdLfIKQ1M18/PVQqJUUqAgAJ|this p
 = Using SageMath through other software =
 
 Other software, such as Cantor and !TeXmacs, have interfaces to SageMath.
+
+On tablets and mobile phones, Juno provides a good interface to !CoCalc.
 
 See [[https://wiki.sagemath.org/Interfaces#Interfaces_to_SageMath_in_other_software|Interfaces to Sage in other software]].
 
