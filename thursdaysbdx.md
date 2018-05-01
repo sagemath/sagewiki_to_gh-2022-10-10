@@ -44,38 +44,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 Présents : Vincent K, Sébastien, Pascal
 
  * Sébastien a fait la relecture de [[https://trac.sagemath.org/ticket/25218|#25218]]
-
-Des warning associés à gmpy2 quand on compile sage:
-
-{{{
-[sagelib-8.2.rc3] make[3] : on entre dans le répertoire « /home/slabbe/GitBox/sage/src »
-[sagelib-8.2.rc3] cd . && export                                    \
-[sagelib-8.2.rc3]     SAGE_ROOT=/doesnotexist                               \
-[sagelib-8.2.rc3]     SAGE_SRC=/doesnotexist                                \
-[sagelib-8.2.rc3]     SAGE_SRC_ROOT=/doesnotexist                           \
-[sagelib-8.2.rc3]     SAGE_DOC_SRC=/doesnotexist                            \
-[sagelib-8.2.rc3]     SAGE_BUILD_DIR=/doesnotexist                          \
-[sagelib-8.2.rc3]     SAGE_PKGS=/home/slabbe/GitBox/sage/build/pkgs                \
-[sagelib-8.2.rc3] && sage-python23 -u setup.py --no-user-cfg build install
-[sagelib-8.2.rc3] Discovering Python/Cython source code....
-[sagelib-8.2.rc3] Discovered Python/Cython sources, time: 0.04 seconds.
-[sagelib-8.2.rc3] running build
-[sagelib-8.2.rc3] Generating auto-generated sources
-[sagelib-8.2.rc3] Building interpreters for fast_callable
-[sagelib-8.2.rc3] running build_cython
-[sagelib-8.2.rc3] Enabling Cython debugging support
-[sagelib-8.2.rc3] Updating Cython code....
-[sagelib-8.2.rc3] sage/rings/complex_double.pyx: cannot find cimported module 'gmpy2'
-[sagelib-8.2.rc3] sage/rings/complex_number.pyx: cannot find cimported module 'gmpy2'
-[sagelib-8.2.rc3] sage/rings/integer.pyx: cannot find cimported module 'gmpy2'
-[sagelib-8.2.rc3] sage/rings/complex_mpc.pyx: cannot find cimported module 'gmpy2'
-[sagelib-8.2.rc3] sage/rings/rational.pyx: cannot find cimported module 'gmpy2'
-[sagelib-8.2.rc3] sage/rings/real_double.pyx: cannot find cimported module 'gmpy2'
-[sagelib-8.2.rc3] sage/rings/real_mpfr.pyx: cannot find cimported module 'gmpy2'
-[sagelib-8.2.rc3] Compiling sage/rings/number_field/number_field_element.pyx because it changed.
-[sagelib-8.2.rc3] Compiling sage/symbolic/expression.pyx because it changed.
-
-}}}
+ * Discussion sur la création de classes pour les sous-groupes finiment engendrés du groupe libre
 
 ==== Jeudi 19 avril ====
 
