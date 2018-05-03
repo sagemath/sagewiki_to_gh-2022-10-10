@@ -39,6 +39,13 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 3 mai ====
+
+Présents : Sébastien, Pascal, Milton
+
+ * Discussion sur l'égalité et la décomposition en cycles pour les sous-groupes finiment engendrés du groupe libre
+ * Discussion sur les TreePatch et substitutions d'arbres
+
 ==== Jeudi 26 avril ====
 
 Présents : Vincent K, Sébastien, Pascal
