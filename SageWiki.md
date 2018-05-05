@@ -254,7 +254,6 @@ Note: "Contributors" are not necessarily coders/programmers, but "Developers" ''
 || [[SageMathLive]] || Instructions for making a live disk image || Page || Developers, Contributors || Have available ||
 || [[SageModeComparison]] || Compare Emacs modes || Page || Developers || Make sure to take down if not updated (or put in a single comparisons page) ||
 || [[sagenb]] || Sage Notebook (predecessor to SageMathCloud) || Page || Users/developers? || Update while SageNB is used ||
-|| [[
 
 
 
@@ -262,4 +261,4 @@ Note: "Contributors" are not necessarily coders/programmers, but "Developers" ''
 
 '''Editing the wiki.''' Page editing uses the MoinMoin syntax. To edit the wiki, log in using your [[https://trac.sagemath.org/sage_trac/|sage-trac]] account. Getting an account involves convincing a human by email that you not a spammer.
 
-'''License and Copyright.''' Contributions to the [[http://www.sagemath.org/|Sage]] wiki and to the [[https://doc.sagemath.org|Sage documentation]] are licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]]. By contributing, you agree to place your contribution under that license.
+'''License and Copyright.''' Contributions to the [[https://www.sagemath.org/|Sage]] wiki and to the [[https://doc.sagemath.org|Sage documentation]] are licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]]. By contributing, you agree to place your contribution under that license.
