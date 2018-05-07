@@ -111,6 +111,7 @@ This Sage Days will be a satellite activity of the [[https://eventos.unizar.es/1
  * Antonio Rojas
  * Mckenzie West
  * Elisa Palezzato
+ * Francisco Castro
 
 == Instructions for participants ==
 
