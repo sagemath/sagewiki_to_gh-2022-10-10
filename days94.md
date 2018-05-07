@@ -25,7 +25,7 @@ This Sage Days will be a satellite activity of the [[https://eventos.unizar.es/1
 
 == Speakers (provisional) ==
 
- * Simon King
+ * Samuel Lelièvre
  * Travis Scrimshaw
  * Jeroen Demeyer
 
