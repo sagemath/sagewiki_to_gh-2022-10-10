@@ -34,6 +34,7 @@ This Sage Days will be a satellite activity of the
  * Samuel Lelièvre
  * Travis Scrimshaw
  * Jeroen Demeyer
+ * Thierry Monteil
 
 == Program (tentative) ==
 
