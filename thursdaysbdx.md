@@ -39,6 +39,16 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 17 mai ====
+
+ * 10h à 10h10: Yvan Le Borgne, utilisation de Jupyter pour faire des présentations
+ * 10h15 à 10h25: Michael Wallner, utilisation de gfun dans maple
+ * 10h30 à 10h40: S. Labbé, démo de code C, Cython et Python dans SageMath
+
+==== Jeudi 10 mai ====
+
+Congé.
+
 ==== Jeudi 3 mai ====
 
 Présents : Sébastien, Pascal, Milton
