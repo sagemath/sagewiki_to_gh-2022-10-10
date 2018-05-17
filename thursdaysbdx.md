@@ -50,6 +50,13 @@ Vincent D:
  * new ticket [[https://trac.sagemath.org/ticket/25379|#25379]]
  * review [[https://trac.sagemath.org/ticket/25209|#25209]], [[https://trac.sagemath.org/ticket/24783|#24783]], [[https://trac.sagemath.org/ticket/25379|#25379]], [[https://trac.sagemath.org/ticket/25305|#25305]], [[https://trac.sagemath.org/ticket/20181|#20181]], [[https://trac.sagemath.org/ticket/25377|#25362]], [[https://trac.sagemath.org/ticket/25377|#25362]], [[https://trac.sagemath.org/ticket/25370|#25370]].
 
+Sébastien:
+
+ * new ticket [[https://trac.sagemath.org/ticket/25378|#25378]]
+
+Mélodie:
+
+ * new ticket [[https://trac.sagemath.org/ticket/25384|#25384]]
 ==== Jeudi 10 mai ====
 
 Congé.
