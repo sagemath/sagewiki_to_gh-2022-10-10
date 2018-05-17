@@ -47,7 +47,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 Vincent D:
 
- * review [[https://trac.sagemath.org/ticket/25209|#25209]]
+ * review [[https://trac.sagemath.org/ticket/25209|#25209]], [[https://trac.sagemath.org/ticket/24783|#24783]], [[https://trac.sagemath.org/ticket/25379|#25379]]
 
 ==== Jeudi 10 mai ====
 
