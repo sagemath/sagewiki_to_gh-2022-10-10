@@ -45,7 +45,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
  * 10h15 à 10h25: Michael Wallner, utilisation de gfun dans maple, http://perso.ens-lyon.fr/bruno.salvy/software/the-gfun-package/
  * 10h30 à 10h40: S. Labbé, démo de code C, Cython et Python dans SageMath. Voir les fichiers dancing_links.pyx et dancing_links.h dans le [[https://github.com/sagemath/sage/tree/master/src/sage/combinat/matrices|github de SageMath]] qui interfacent en Cython une implémentation C++ de l'algorithme [[https://en.wikipedia.org/wiki/Dancing_Links|Dancing Links]] de [[https://arxiv.org/abs/cs/0011047|Donald Knuth]].
 
-'''Utilisation de code C dans une cellule Jupyter'''
+'''Utilisation de code C dans un fichier externe dans une cellule Jupyter grâce à Cython'''
 
 Contenu du fichier test.c:
 {{{
