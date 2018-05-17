@@ -47,7 +47,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 Vincent D:
 
- * new ticket [[https://trac.sagemath.org/ticket/25379|#25379]]
+ * new ticket [[https://trac.sagemath.org/ticket/25379|#25379]], [[https://trac.sagemath.org/ticket/25385|#25385]]
  * review [[https://trac.sagemath.org/ticket/25209|#25209]], [[https://trac.sagemath.org/ticket/24783|#24783]], [[https://trac.sagemath.org/ticket/25379|#25379]], [[https://trac.sagemath.org/ticket/25305|#25305]], [[https://trac.sagemath.org/ticket/20181|#20181]], [[https://trac.sagemath.org/ticket/25377|#25362]], [[https://trac.sagemath.org/ticket/25377|#25362]], [[https://trac.sagemath.org/ticket/25370|#25370]].
 
 Sébastien:
