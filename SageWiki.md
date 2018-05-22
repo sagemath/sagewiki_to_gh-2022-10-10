@@ -18,7 +18,7 @@ This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software S
 ||'''URL'''||'''Description'''||
 ||[[https://www.sagemath.org/]]||Official homepage of SageMath||
 ||[[https://trac.sagemath.org/]]||Where development happens||
-||[[https://pypi.org/project/sagemath/]]||dummy package on PyPi
+||[[https://pypi.org/project/sagemath/]]||dummy package on PyPi||
 ||[[https://wiki.archlinux.org/index.php/SageMath]]||Arch Linux wiki||
 ||[[https://sagemath.wikispaces.com/]]||(Somebody's?) personal? wiki||
 
