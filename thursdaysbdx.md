@@ -41,6 +41,8 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 ==== Jeudi 24 mai ====
 
+Présents : Sébastien, Pascal, Milton, Vincent K, Andrew
+
  * 10h à 10h10: Andrew, C code to solve system of functional equations for series
 
 Sébastien:
@@ -49,6 +51,8 @@ Sébastien:
  * reviewed [[https://trac.sagemath.org/ticket/10091|#10091]]
 
 ==== Jeudi 17 mai ====
+
+Présents : Sébastien, Pascal, Milton, Vincent K, Vincent D, Mélodie, Nadia, David, Yvan, Michael
 
  * 10h à 10h10: Yvan Le Borgne, utilisation de Jupyter pour faire des présentations https://www.labri.fr/perso/borgne/Jupyter/
  * 10h15 à 10h25: Michael Wallner, utilisation de gfun dans maple, http://perso.ens-lyon.fr/bruno.salvy/software/the-gfun-package/
