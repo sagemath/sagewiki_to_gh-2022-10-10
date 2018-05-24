@@ -17,7 +17,7 @@ Concrete goals include (see also [[http://trac.sagemath.org/ticket/20394|Trac203
  * Discuss what else we can learn from the {{{chevie}}} implementation
 
  * have a look at https://trac.sagemath.org/ticket/13426
-
+ * have a look at the function {{{.reduced_words}}}
 == Participants ==
 
  * [[http://homepage.univie.ac.at/christian.stump|Christian Stump]], Berlin (organizer)
