@@ -39,6 +39,15 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 24 mai ====
+
+ * 10h à 10h10: Andrew, C code to solve system of functional equations for series
+
+Sébastien:
+
+ * fixed issues in [[https://trac.sagemath.org/ticket/25125|#25125]] which needs review
+ * reviewed [[https://trac.sagemath.org/ticket/10091|#10091]]
+
 ==== Jeudi 17 mai ====
 
  * 10h à 10h10: Yvan Le Borgne, utilisation de Jupyter pour faire des présentations https://www.labri.fr/perso/borgne/Jupyter/
