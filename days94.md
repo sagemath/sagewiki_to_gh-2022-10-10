@@ -119,6 +119,7 @@ This Sage Days will be a satellite activity of the
  * Vincent Neiger
  * Vít Tuček
  * Luis Felipe Tabera
+ * Akshar Nair
 
 == Instructions for participants ==
 
