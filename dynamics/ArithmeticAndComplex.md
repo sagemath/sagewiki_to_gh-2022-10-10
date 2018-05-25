@@ -34,6 +34,18 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/25446|#25446]]) new: compute all orbits of minimal models of dynamical systems - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/23627|#23627]]) needs-review: Update points() in projective_homset.py and affine_homset.py to work over CC and CDF - Ben Hutz, Lauren Miller
+
+ * ([[http://trac.sagemath.org/ticket/25239|#25239]]) new: QQbar points of subschemes not valid
+
+ * ([[http://trac.sagemath.org/ticket/25243|#25243]]) needs-review: is postcritically finite failure for extensions - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/25241|#25241]]) needs-review: fix issue with change_ring for polynomials with Maps - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/25237|#25237]]) needs-review: normlize_coordinates for projective morphism not fully normalized - Ben Hutz
+
  * ([[http://trac.sagemath.org/ticket/23806|#23806]]) needs-info: don't choose default affine patch on projective point init - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/23807|#23807]]) needs-info: fix issues with identical affine patches - Ben Hutz
@@ -77,6 +89,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
+ * --([[http://trac.sagemath.org/ticket/25242|#25242]])-- closed sage-8.3: is_polynomial fails when multiple roots - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/25240|#25240]])-- closed sage-8.3: Chebyshev and Lattes maps should be created as dynamical systems - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/23814|#23814]])-- closed sage-8.1: fix is_preperiodic domain check - Paul Fili
 
