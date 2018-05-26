@@ -6,7 +6,9 @@ There is also a repository on Github: [[https://github.com/sagemath/artwork | gi
 
 == Logos and icons ==
 
-<<EmbedObject(logo_sagemath.svg, width=40%)>><<EmbedObject(logo_sagemath_opensource.svg, width=40%)>>
+<<EmbedObject(logo_sagemath.svg, width=40%)>>
+
+<<EmbedObject(logo_sagemath_opensource.svg, width=40%)>><<EmbedObject(logo_sagemath_opensource_fr.svg, width=40%)>>
 
 <<EmbedObject(logo_sagemath_trac.svg, width=40%)>><<EmbedObject(logo_sagemath_wiki.svg, width=40%)>>
 
