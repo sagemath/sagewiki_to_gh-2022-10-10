@@ -16,21 +16,6 @@ This is the follow-up coding sprint of [[days80|SageDays 80]]. The aim of this 5
  * [[http://www-users.math.umn.edu/~douvr001/|Theodosios Douvropoulos]], Paris
  * [[https://page.mi.fu-berlin.de/moritz/|Moritz Firsching]], Berlin (Wed - Fri)
 
-== Topics ==
-
-Concrete goals include (and are tracked at [[http://trac.sagemath.org/ticket/20394|Trac20394]]):
-
- * Copy parts of the hard-coded data from chevie to Sage (Jean + Christian)
- * Implement the module of derivations of a hyperplane arrangement and give its generators in the case of reflection arrangements (Tilman)
- * Improve the implementations for permutahedra and associahedra (JP)
- * Implement reduced words in crg's
- * Get the iteration algorithm for Coxeter groups using coset decomposition working
- * cythonize critical components such as {{{has_descent}}}
- * Discuss what else we can learn from the {{{chevie}}} implementation
-
- * have a look at https://trac.sagemath.org/ticket/13426
- * have a look at the function {{{.reduced_words}}}
-
 == Funding ==
 
 The workshop is funded by the German Research Foundation grants STU 563/2 [[http://gepris.dfg.de/gepris/projekt/236343817?language=en|Coxeter-Catalan combinatorics]] and STU 563/4-1 [[http://gepris.dfg.de/gepris/projekt/375076785?language=en|Noncrossing phenomena in Algebra and Geometry]].
