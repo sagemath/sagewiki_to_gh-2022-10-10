@@ -116,7 +116,6 @@ This Sage Days will be a satellite activity of the
  * Samuel Lelièvre
  * Sebastian Oehms
  * Tomer Bauer
- * Vincent Neiger
  * Vít Tuček
  * Luis Felipe Tabera
  * Akshar Nair
