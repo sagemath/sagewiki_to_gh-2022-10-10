@@ -112,7 +112,6 @@ This Sage Days will be a satellite activity of the
  * Pablo Angulo
  * Peleg Michaeli
  * Rebecca Miller
- * Rusydi H. Makarim
  * Samuel Lelièvre
  * Sebastian Oehms
  * Tomer Bauer
