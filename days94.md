@@ -119,6 +119,13 @@ This Sage Days will be a satellite activity of the
  * Luis Felipe Tabera
  * Akshar Nair
 
+== developments ==
+
+Add here the things you plan to work on during the week.
+
+You can tag the corresponding tickets with [[https://trac.sagemath.org/query?keywords=days94&group=status&col=id&col=summary&col=status&order=priority|days94 keyword]] to that it is easy to list them.
+
+
 == Instructions for participants ==
 
 Since this workshop is focusing in Sage development, it would be
