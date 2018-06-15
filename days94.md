@@ -121,7 +121,11 @@ This Sage Days will be a satellite activity of the
 
 == developments ==
 
-Add here the things you plan to work on during the week.
+Add here the things you plan to work on during the week:
+
+ * (Thierry) Fix oeis internet doctest issues [[https://trac.sagemath.org/ticket/25471|#25471]]
+ * Try to progress in the inclusion of train-tracks in Sage [[https://trac.sagemath.org/ticket/20154|#20154]]
+
 
 You can tag the corresponding tickets with [[https://trac.sagemath.org/query?keywords=days94&group=status&col=id&col=summary&col=status&order=priority|days94 keyword]] to that it is easy to list them.
 
