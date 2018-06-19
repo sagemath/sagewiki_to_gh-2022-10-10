@@ -12,7 +12,7 @@ There is also a repository on Github: [[https://github.com/sagemath/artwork | gi
 
 <<EmbedObject(logo_sagemath_opensource_it.svg, width=40%)>><<EmbedObject(logo_sagemath_opensource_de.svg, width=40%)>>
 
-<<EmbedObject(logo_sagemath_opensource_nl.svg, width=40%)>>
+<<EmbedObject(logo_sagemath_opensource_nl.svg, width=40%)>><<EmbedObject(logo_sagemath_opensource_ru.svg, width=40%)>>
 
 <<EmbedObject(logo_sagemath_trac.svg, width=40%)>><<EmbedObject(logo_sagemath_wiki.svg, width=40%)>>
 
