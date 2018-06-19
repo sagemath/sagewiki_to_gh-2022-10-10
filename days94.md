@@ -25,6 +25,7 @@ organizers if you are interested in giving such a talk.
 For the moment, the proposed talks include
 
  * Rebecca Miller - "Applying and Participating in Google Summer of Code"
+ * Pablo Angulo - "Pytorch, a machine learning framework, and Pyro, a universal probabilistic programming language on top of Pytorch" (subtitle: do they fit in Sage?).
 
 This Sage Days will be a satellite activity of the
 [[https://eventos.unizar.es/15634/detail/xvi-eaca-encuentro-de-algebra-computacional-y-aplicaciones.html|XVI EACA encounter]].
