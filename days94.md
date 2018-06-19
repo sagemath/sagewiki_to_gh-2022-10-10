@@ -27,6 +27,11 @@ For the moment, the proposed talks include
  * Rebecca Miller - "Applying and Participating in Google Summer of Code"
  * Pablo Angulo - "Pytorch, a machine learning framework, and Pyro, a universal probabilistic programming language on top of Pytorch" (subtitle: do they fit in Sage?).
  * Vit Tucek: - " how Sage is helping me with my research"
+ * Sebastian Oehms - "Cubic braid groups"
+ * Peleg Michaeli - "Symbolic random variables"
+ * Thierry Monteil - "the various representations of real and complex numbers"
+
+
 
 
 This Sage Days will be a satellite activity of the
