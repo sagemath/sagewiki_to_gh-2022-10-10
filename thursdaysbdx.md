@@ -45,7 +45,7 @@ Présents: Vincent K, Sébastien, Nicolas, Mélodie, Milton
 
 Sébastien:
 
- * reviewed [[https://trac.sagemath.org/ticket/25525|#25525]]
+ * reviewed [[https://trac.sagemath.org/ticket/25525|#25525]], [[https://trac.sagemath.org/ticket/25526|#25526]]
 
 ==== Jeudi 14 juin ====
 
