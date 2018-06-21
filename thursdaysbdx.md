@@ -39,6 +39,14 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 21 juin ====
+
+Présents: Vincent K, Sébastien, Nicolas, Mélodie, Milton
+
+Sébastien:
+
+ * reviewed [[https://trac.sagemath.org/ticket/25525|#25525]]
+
 ==== Jeudi 14 juin ====
 
 Présents: Pascal, Vincent K.
