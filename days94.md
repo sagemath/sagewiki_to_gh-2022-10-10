@@ -148,6 +148,16 @@ of the workshop to help you with that, but it would save time if
 you do that in advance). Also, please ask in advance for an account
 in the [[https://trac.sagemath.org/|trac server]].
  
+== Lodging ==
+
+We have reserved several appartments in [[www.apartamentoslossitios.com|Apartamentos Los Sitios]]. They are located in the city centre. The reception is open until 22:30.
+
+== Location ==
+
+Talks will take place in the main campus of the Universidad de Zaragoza, in the mathematics building. It is about 25 minutes by walk from the appartments (maybe 15 minutes by public transportation).
+
+You can see the train station, the appartments and the event location in [[https://drive.google.com/open?id=1jEMgFXLy7lM-Fenxs8MxKOUnwIklZdkf&usp=sharing|this map]]
+
 == Financial support ==
 
 The school will be partially funded by the OpenDreamKit project.
