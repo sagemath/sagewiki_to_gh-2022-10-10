@@ -126,6 +126,7 @@ This Sage Days will be a satellite activity of the
  * Vít Tuček
  * Luis Felipe Tabera
  * Akshar Nair
+ * Simón Isaza
 
 == developments ==
 
