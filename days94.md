@@ -170,3 +170,8 @@ the travel and lodging expenses of the participants and speakers.
 
 If you are interested in participating, or have any questions,
 please send an email to `mmarco <at> unizar <dot> es`
+
+
+== Collaborative pad ==
+
+Use [[https://mensuel.framapad.org/p/sagedays94|this one]]
