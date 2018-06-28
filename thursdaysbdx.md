@@ -46,7 +46,7 @@ Présents: Pascal, Milton, Vincent K.
 Milton nous as présenté ses travaux sur les fractions continues multidimensionnelles.
 
 Vincent K. :
- * [[https://trac.sagemath.org/ticket/25661|#25661]]: Implementation et tests.
+ * [[https://trac.sagemath.org/ticket/25661|#25661]]: Implémentation et tests.
  * cysignals-windows: Rebase sur la prochaine version cysignals.
 
 ==== Jeudi 21 juin ====
