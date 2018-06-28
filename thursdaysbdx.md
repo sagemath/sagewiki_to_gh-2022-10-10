@@ -39,6 +39,16 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 28 juin ====
+
+Présents: Pascal, Milton, Vincent K.
+
+Milton nous as présenté ses travaux sur les fractions continues multidimensionnelles.
+
+Vincent K. :
+ * [[https://trac.sagemath.org/ticket/25661|#25661]]: Implementation et tests.
+ * cysignals-windows: Rebase sur la prochaine version cysignals.
+
 ==== Jeudi 21 juin ====
 
 Présents: Vincent K, Sébastien, Nicolas, Mélodie, Milton
