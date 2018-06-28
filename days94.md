@@ -53,8 +53,11 @@ This Sage Days will be a satellite activity of the
 ==== Thursday 28th: ====
 
  * 10:00-11:00 Registration
- * 11:00-13:00 The Sage development workflow 
+ * 11:00-12:00 The Sage development workflow 
+ * 12:00-13:00 Basics of git (1)
  * 13:30-15:00 Lunch break
+ * 15:00-16h00 Basics of git (2)
+ * 16h00-17:30 trac bureaucracy
  * 15:00-16:00 Contributed talks (combinatorics and algebra - Travis)
  * 16:00-16:30 Coffee break
  * 16:30-18:30 Coding sprints
