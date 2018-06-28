@@ -8,6 +8,10 @@ It will be a series of short courses on subjects related to Sage development.
 It is mostly oriented to young researchers that want to make the step from
 writing some code for their own use, to contributing that code to the Sage codebase.
 
+== Collaborative pad ==
+
+Use [[https://annuel.framapad.org/p/sagedays94|this pad]].
+
 == Subjects to cover (provisional) ==
 
  * The Sage development workflow (Trac, Git, doctests...)
@@ -177,8 +181,3 @@ the travel and lodging expenses of the participants and speakers.
 
 If you are interested in participating, or have any questions,
 please send an email to `mmarco <at> unizar <dot> es`
-
-
-== Collaborative pad ==
-
-Use [[https://mensuel.framapad.org/p/sagedays94|this one]]
