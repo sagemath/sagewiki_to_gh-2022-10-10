@@ -63,8 +63,8 @@ This Sage Days will be a satellite activity of the
 
  * 09:00 - 11:00 Category/Parents/Coercion
  * 11:00 - 11:30 Coffee break
- * 11:30 - 13:30 Category/Parents/Coercion 
- * 13:30 - 15:00 Lunch break
+ * 11:30 - 13:00 Category/Parents/Coercion 
+ * 13:00 - 15:00 Lunch break
  * 15:00 - 16:00 The Sage development workflow (practice)
  * 16:00 - 16:30 Coffee break
  * 16:30 - 17:00 Contributed talk: Symbolic discrete random variables
@@ -84,8 +84,8 @@ This Sage Days will be a satellite activity of the
 
  * 09:00 - 11:00 Category/Parents/Coercion
  * 11:00 - 11:30 Coffee break
- * 11:30 - 13:30 Cython
- * 13:30 - 15:00 Lunch break
+ * 11:30 - 13:00 Cython
+ * 13:00 - 15:00 Lunch break
  * 15:00 - 16:00 Parents and elements (practice)
  * 16:00 - 16:30 Coffee break
  * 16:30 - 17:00 Contributed talks
@@ -95,17 +95,16 @@ This Sage Days will be a satellite activity of the
 
  * 09:00 - 11:00 Third-party components
  * 11:00 - 11:30 Coffee break
- * 11:30 - 13:30 Third party components (practice)
- * 13:30 - 15:00 Lunch break
+ * 11:30 - 13:00 Third party components (practice)
+ * 13:00 - 15:00 Lunch break
  * 15:00 - 16:00 Contributed talks
  * 16:00 - 16:30 Coffee break
  * 16:30 - 18:30 Coding sprints
 
 ==== Wednsday 4th: ====
 
- * 09:00 - 11:00 Contributed talks
- * 11:00 - 11:30 Coffee break
- * 11:30 - 13:00 Final report and wrapup
+ * 09:00 - 10:00 Final report and wrapup
+ * 10:30 - EACA talks
 
 == Organizers ==
 
