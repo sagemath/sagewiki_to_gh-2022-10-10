@@ -49,17 +49,17 @@ This Sage Days will be a satellite activity of the
 ==== Thursday 28th: ====
 
  * 10:00-11:00 Registration
- * 11:30-13:30 The Sage development workflow 
+ * 11:00-13:00 The Sage development workflow 
  * 13:30-15:00 Lunch break
- * 15:00-16:00 Contributed talks
+ * 15:00-16:00 Contributed talks (combinatorics and algebra - Travis)
  * 16:00-16:30 Coffee break
  * 16:30-18:30 Coding sprints
 
 ==== Friday 29th: ====
 
- * 09:00 - 11:00 The category framework in Sage
+ * 09:00 - 11:00 Category/Parents/Coercion
  * 11:00 - 11:30 Coffee break
- * 11:30 - 13:30 The coercion model 
+ * 11:30 - 13:30 Category/Parents/Coercion 
  * 13:30 - 15:00 Lunch break
  * 15:00 - 16:00 The Sage development workflow (practice)
  * 16:00 - 16:30 Coffee break
@@ -78,7 +78,7 @@ This Sage Days will be a satellite activity of the
 
 ==== Monday 2nd: ====
 
- * 09:00 - 11:00 Parents and elements
+ * 09:00 - 11:00 Category/Parents/Coercion
  * 11:00 - 11:30 Coffee break
  * 11:30 - 13:30 Cython
  * 13:30 - 15:00 Lunch break
@@ -134,6 +134,13 @@ Add here the things you plan to work on during the week:
 
  * (Thierry) Fix oeis internet doctest issues [[https://trac.sagemath.org/ticket/25471|#25471]]
  * Try to progress in the inclusion of train-tracks in Sage [[https://trac.sagemath.org/ticket/20154|#20154]]
+ * Polynomial division [[https://trac.sagemath.org/ticket/17638|#17638]]
+ * Sage packaging.
+ * Crypto module.
+ * Linear algebra
+ * CoCoa  integration?
+ * #8558
+
 
 
 You can tag the corresponding tickets with [[https://trac.sagemath.org/query?keywords=days94&group=status&col=id&col=summary&col=status&order=priority|days94 keyword]] to that it is easy to list them.
