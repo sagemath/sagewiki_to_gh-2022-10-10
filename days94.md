@@ -144,7 +144,8 @@ Add here the things you plan to work on during the week:
  * Sage packaging.
  * Crypto module.
  * Linear algebra
- * CoCoa  integration?
+ * !CoCoa  integration?
+   * package cocoalib [[https://trac.sagemath.org/ticket/25707|#25707]]
  * #8558
 
 
