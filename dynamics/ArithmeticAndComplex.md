@@ -36,7 +36,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/25446|#25446]]) new: compute all orbits of minimal models of dynamical systems - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/23627|#23627]]) needs-review: Update points() in projective_homset.py and affine_homset.py to work over CC and CDF - Ben Hutz, Lauren Miller
+ * ([[http://trac.sagemath.org/ticket/23627|#23627]]) needs-review: Update points() in projective_homset.py and affine_homset.py to work over CC and CDF - Ben Hutz, Rebecca Lauren Miller
 
  * ([[http://trac.sagemath.org/ticket/25239|#25239]]) new: QQbar points of subschemes not valid
 
