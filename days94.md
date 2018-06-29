@@ -58,13 +58,13 @@ This Sage Days will be a satellite activity of the
  * 13:30-15:00 Lunch break
  * 15:00-16h30 Basics of git (clone/remote/push/pull/branch/checkout - Samuel and Thierry)
  * 16h30-17:30 Trac bureaucracy (account/ssh-keygen/git-trac/develop - Samuel and Thierry)
- * 15:00-16:00 Contributed talks (combinatorics and algebra - Travis)
+ * 15:00-16:00 Contributed talks
  * 16:00-16:30 Coffee break
  * 16:30-18:30 Coding sprints
 
 ==== Friday 29th: ====
 
- * 09:00 - 11:00 Category/Parents/Coercion
+ * 09:00 - 11:00 Category (Travis Scrimshaw [[https://drive.google.com/open?id=1TDd6Ph2RG2WBOA09z8hR0x-v62TOWsJb|ipynb]])
  * 11:00 - 11:30 Coffee break
  * 11:30 - 13:00 Category/Parents/Coercion 
  * 13:00 - 15:00 Lunch break
