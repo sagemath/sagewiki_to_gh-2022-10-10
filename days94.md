@@ -183,3 +183,8 @@ the travel and lodging expenses of the participants and speakers.
 
 If you are interested in participating, or have any questions,
 please send an email to `mmarco <at> unizar <dot> es`
+
+
+== Excursion ==
+
+There will be a visit to [[https://zaragoza.es/ciudad/turismo/en/que-visitar/detalle_Monumento?id=7|Palacio de la Aljaferia]] on Sunday morning. 
