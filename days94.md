@@ -100,7 +100,7 @@ This Sage Days will be a satellite activity of the
  * 11:00 - 11:30 Coffee break
  * 11:30 - 13:00 Third party components (practice)
  * 13:00 - 15:00 Lunch break
- * 15:00 - 16:00 Contributed talks
+ * 15:00 - 16:00 Contributed talks - Miller & West
  * 16:00 - 16:30 Coffee break
  * 16:30 - 18:30 Coding sprints
 
