@@ -1,5 +1,6 @@
 = Sage days 94 -- Sage development days =
 
+
 The Sage days 94 will take place in Zaragoza (Spain),
 from June 28th to July 4th, 2018, as a satellite activity
 of the meeting of the Spanish computer algebra network.
@@ -189,3 +190,5 @@ please send an email to `mmarco <at> unizar <dot> es`
 == Excursion ==
 
 There will be a visit to [[https://zaragoza.es/ciudad/turismo/en/que-visitar/detalle_Monumento?id=7|Palacio de la Aljaferia]] on Sunday morning. 
+
+{{attachment:SageDays94.jpg}}
