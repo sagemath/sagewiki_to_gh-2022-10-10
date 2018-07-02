@@ -119,7 +119,7 @@ This Sage Days will be a satellite activity of the
 == Participants ==
 
  * Antonio Rojas
- * [[https://biancasmath.wordpress.com/|Bianca Thompson]
+ * [[https://biancasmath.wordpress.com/|Bianca Thompson]]
  * Elisa Palezzato
  * Francisco Castro
  * Friedrich Wiemer
