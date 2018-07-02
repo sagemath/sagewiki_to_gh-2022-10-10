@@ -126,7 +126,7 @@ This Sage Days will be a satellite activity of the
  * Mckenzie West
  * Pablo Angulo
  * Peleg Michaeli
- * Rebecca Miller
+ * [[http://www.lifebynumber.org/|Rebecca Lauren Miller]]
  * Samuel Lelièvre
  * Sebastian Oehms
  * Tomer Bauer
