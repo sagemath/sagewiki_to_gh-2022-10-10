@@ -92,7 +92,7 @@ This Sage Days will be a satellite activity of the
  * 13:00 - 15:00 Lunch break
  * 15:00 - 16:00 Parents and elements (practice)
  * 16:00 - 16:30 Coffee break
- * 16:30 - 17:00 Contributed talks
+ * 16:30 - 17:00 Contributed talks - Tucek
  * 17:00 - 19:00 coding sprints
 
 ==== Tuesday 3th: ====
