@@ -148,6 +148,7 @@ Add here the things you plan to work on during the week:
  * !CoCoa  integration?
    * package cocoalib [[https://trac.sagemath.org/ticket/25707|#25707]]
  * #8558
+ * Ticket [[https://trac.sagemath.org/ticket/25745|#25745]]
 
 
 
