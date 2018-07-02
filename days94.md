@@ -65,7 +65,7 @@ This Sage Days will be a satellite activity of the
 
 ==== Friday 29th: ====
 
- * 09:00 - 11:00 Category (Travis Scrimshaw [[https://drive.google.com/open?id=1TDd6Ph2RG2WBOA09z8hR0x-v62TOWsJb|ipynb]])
+ * 09:00 - 11:00 Category (Travis Scrimshaw [[https://drive.google.com/open?id=1TDd6Ph2RG2WBOA09z8hR0x-v62TOWsJb|ipynb]] [[attachment:categories_Zaragoza_Days94.ipynb]])
  * 11:00 - 11:30 Coffee break
  * 11:30 - 13:00 Parent, element, coercion from the user's perspective (Thierry, [[https://tmpsage.metelu.net/days94/parent_element_coercion_user.ipynb|ipynb]])
  * 13:00 - 15:00 Lunch break
@@ -86,7 +86,7 @@ This Sage Days will be a satellite activity of the
 
 ==== Monday 2nd: ====
 
- * 09:00 - 11:00 Category/Parents/Coercion
+ * 09:00 - 11:00 Category/Parents/Coercion [[attachment:parent_examples_travis.sage|Example parent .sage file]]
  * 11:00 - 11:30 Coffee break
  * 11:30 - 13:00 Cython
  * 13:00 - 15:00 Lunch break
