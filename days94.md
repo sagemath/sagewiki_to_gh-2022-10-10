@@ -88,7 +88,7 @@ This Sage Days will be a satellite activity of the
 
  * 09:00 - 11:00 Category/Parents/Coercion [[attachment:parent_examples_travis.sage|Example parent .sage file]]
  * 11:00 - 11:30 Coffee break
- * 11:30 - 13:00 Cython
+ * 11:30 - 13:00 Cython ([[http://sage.ugent.be/www/jdemeyer/Cython.ipynb|ipynb]])
  * 13:00 - 15:00 Lunch break
  * 15:00 - 16:00 Parents and elements (practice)
  * 16:00 - 16:30 Coffee break
