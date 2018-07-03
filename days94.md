@@ -92,22 +92,22 @@ This Sage Days will be a satellite activity of the
  * 13:00 - 15:00 Lunch break
  * 15:00 - 16:00 Parents and elements (practice)
  * 16:00 - 16:30 Coffee break
- * 16:30 - 17:00 Contributed talks - Tucek [[attachment:tucek.pdf]]
+ * 16:30 - 17:00 Contributed talk - Tucek [[attachment:tucek.pdf]]
  * 17:00 - 19:00 coding sprints
 
 ==== Tuesday 3th: ====
 
  * 09:00 - 11:00 Third-party components
  * 11:00 - 11:30 Coffee break
- * 11:30 - 13:00 Contributed talks - Sebastian Oehms - "Cubic braid groups"
+ * 11:30 - 13:00 Contributed talk - Sebastian Oehms: Cubic braid groups - [[https://cocalc.com/share/a3c9835337b41b0c1c7808ac5d793f5dbbef7064/CubicBraidGroup/?viewer=share|shared folder on CoCalc]]
  * 13:00 - 15:00 Lunch break
- * 15:00 - 16:00 Contributed talks - Miller & West
+ * 15:00 - 16:00 Contributed talk - Miller & West
  * 16:00 - 16:30 Coffee break
  * 16:30 - 18:30 Coding sprints
 
 ==== Wednsday 4th: ====
 
- * 09:00 - 10:00 Final report and wrapup
+ * 09:00 - 10:00 Final report and wrap-up
  * 10:30 - EACA talks
 
 == Organizers ==
