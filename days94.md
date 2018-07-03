@@ -13,7 +13,7 @@ writing some code for their own use, to contributing that code to the Sage codeb
 
 Use [[https://annuel.framapad.org/p/sagedays94|this pad]].
 
-== Subjects to cover (provisional) ==
+== Subjects to cover  ==
 
  * The Sage development workflow (Trac, Git, doctests...)
  * The coercion model
@@ -42,14 +42,14 @@ For the moment, the proposed talks include
 This Sage Days will be a satellite activity of the
 [[https://eventos.unizar.es/15634/detail/xvi-eaca-encuentro-de-algebra-computacional-y-aplicaciones.html|XVI EACA encounter]].
 
-== Speakers (provisional) ==
+== Speakers  ==
 
  * Samuel Lelièvre
  * Travis Scrimshaw
  * Jeroen Demeyer
  * Thierry Monteil
 
-== Program (tentative) ==
+== Program  ==
 
 ==== Thursday 28th: ====
 
