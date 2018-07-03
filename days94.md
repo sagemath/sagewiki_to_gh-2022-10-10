@@ -101,7 +101,7 @@ This Sage Days will be a satellite activity of the
  * 11:00 - 11:30 Coffee break
  * 11:30 - 13:00 Contributed talk - Sebastian Oehms: Cubic braid groups - [[https://cocalc.com/share/a3c9835337b41b0c1c7808ac5d793f5dbbef7064/CubicBraidGroup/?viewer=share|shared folder on CoCalc]]
  * 13:00 - 15:00 Lunch break
- * 15:00 - 16:00 Contributed talk - Miller & West
+ * 15:00 - 16:00 Contributed talk - Miller ([[http://lifebynumber.org/sagemath-gsoc-info | Sage GSOC info]]) & West
  * 16:00 - 16:30 Coffee break
  * 16:30 - 18:30 Coding sprints
 
