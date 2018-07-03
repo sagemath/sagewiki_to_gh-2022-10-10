@@ -63,7 +63,7 @@ Dependencies: shell commands '''git'''; '''tar'''; '''wget'''
 
 '''pyflakes''' is not required but will be used if installed.
 
-||<#98FF98> Please register [[buildbot/owners|here]] if you run a patchbot. It is required to know whom to contact.||
+||<#98FF98> Please register [[patchbot/owners|here]] if you run a patchbot. It is required to know whom to contact.||
 
 You can instead use the --owner option.
 
