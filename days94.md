@@ -99,7 +99,7 @@ This Sage Days will be a satellite activity of the
 
  * 09:00 - 11:00 Third-party components
  * 11:00 - 11:30 Coffee break
- * 11:30 - 13:00 Third party components (practice)
+ * 11:30 - 13:00 Contributed talks - Sebastian Oehms - "Cubic braid groups"
  * 13:00 - 15:00 Lunch break
  * 15:00 - 16:00 Contributed talks - Miller & West
  * 16:00 - 16:30 Coffee break
