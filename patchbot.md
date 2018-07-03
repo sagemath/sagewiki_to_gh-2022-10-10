@@ -6,7 +6,7 @@ The patchbot pulls and applies git branches from Trac and can be found at https:
 
 You can help by running your own patchbot. See below for instructions about installation and usage.
 
-See a list of patchbot names and their owners at [[buildbot/owners]].
+See a list of patchbot names and their owners at [[patchbot/owners]].
 
 This is still very much a work in progress. The latest version of the code lives at http://github.com/sagemath/sage-patchbot.
 
