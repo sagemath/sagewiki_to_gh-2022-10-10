@@ -105,7 +105,7 @@ This Sage Days will be a satellite activity of the
  * 16:00 - 16:30 Coffee break
  * 16:30 - 18:30 Coding sprints
 
-==== Wednsday 4th: ====
+==== Wednesday 4th: ====
 
  * 09:00 - 10:00 Final report and wrap-up
  * 10:30 - EACA talks
@@ -167,19 +167,19 @@ in the [[https://trac.sagemath.org/|trac server]].
  
 == Lodging ==
 
-We have reserved several appartments in [[www.apartamentoslossitios.com|Apartamentos Los Sitios]]. They are located in the city centre. The reception is open until 22:30.
+We have reserved several apartments in [[https://www.apartamentoslossitios.com|Apartamentos Los Sitios]]. They are located in the city centre. The reception is open until 22:30.
 
 == Location ==
 
-Talks will take place in the main campus of the Universidad de Zaragoza, in the mathematics building. It is about 25 minutes by walk from the appartments (maybe 15 minutes by public transportation).
+Talks will take place in the main campus of the Universidad de Zaragoza, in the mathematics building. It is about 25 minutes by walk from the apartments (maybe 15 minutes by public transportation).
 
-You can see the train station, the appartments and the event location in [[https://drive.google.com/open?id=1jEMgFXLy7lM-Fenxs8MxKOUnwIklZdkf&usp=sharing|this map]]
+You can see the train station, the apartments and the event location in [[https://drive.google.com/open?id=1jEMgFXLy7lM-Fenxs8MxKOUnwIklZdkf&usp=sharing|this map]]
 
 == Financial support ==
 
-The school will be partially funded by the OpenDreamKit project.
+The school will be partially funded by the [[https://opendreamkit.org|OpenDreamKit]] project.
 The LaBRI (University of Bordeaux) and the CNRS co-organize the
-project via the OpenDreamKit Project. We expect to be able to cover
+project via the !OpenDreamKit project. We expect to be able to cover
 the travel and lodging expenses of the participants and speakers.
 
 == Contact ==
@@ -190,6 +190,6 @@ please send an email to `mmarco <at> unizar <dot> es`
 
 == Excursion ==
 
-There will be a visit to [[https://zaragoza.es/ciudad/turismo/en/que-visitar/detalle_Monumento?id=7|Palacio de la Aljaferia]] on Sunday morning. 
+There was a visit to [[https://zaragoza.es/ciudad/turismo/en/que-visitar/detalle_Monumento?id=7|Palacio de la Aljaferia]] on Sunday morning. 
 
 {{attachment:SageDays94.jpg}}
