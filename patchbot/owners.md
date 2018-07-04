@@ -1,28 +1,29 @@
+## page was renamed from buildbot/owners
 Sagemath patchbots names and owners:
 {{{
+    andromeda         --> jkroeker
     arando            --> jdemeyer
     ark               --> rws
-    andromeda         --> jkroeker
-    Athena            --> kdilks
+    athena            --> kdilks
     btm2x13           --> mderickx
     bunion	      --> etn40ff (this is a laptop so it will be running sporadically)
-    debian_jessie_32  --> tmonteil
     cristal           --> Bouillaguet
+    debian_jessie_32  --> tmonteil
     eddy              --> Vincent.Neri (lri, Orsay, Paris sud)
     edoras            --> ?
     fermat            --> cremona,davidloeffler
     findstat          --> stumpc5
-    hades             --> klee
-    kepler            --> nilesjohnson
-    kevin-Virtualbox  --> kdilks
     geom              --> dimpase
     groebner          --> jkroeker
+    hades             --> klee
     hera-OptiPlex     --> ?
     icj-laptop        --> chapoton
-    Martin-Laptop     --> mantepse
+    kepler            --> nilesjohnson
+    kevin-Virtualbox  --> kdilks
     mangouste         --> vdelecroix
     manifold          --> egourgoulhon
-    Mercury           --> kdilks
+    martin-Laptop     --> mantepse
+    mercury           --> kdilks
     pbua              --> novoselt
     pcl337b           --> ?
     pi                --> ?
@@ -34,7 +35,7 @@ Sagemath patchbots names and owners:
     silence           --> ncohen
     tmonteil-*        --> tmonteil (various VM to test different arch/OS/release). Contact me if you want a 32bit patchbot to test a particular ticket.
     ubuntu_vivid_64   --> tmonteil
-    zorn              --> agd
-    x200t-ThinkPad-*  --> jkroeker
     vogon.jeltz(32Bit)--> jkroeker
+    x200t-ThinkPad-*  --> jkroeker
+    zorn              --> agd
 }}}
