@@ -39,6 +39,13 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== Jeudi 5 juillet ====
+
+Présents: Sébastien, Vincent K.
+
+Sébastien:
+ * [[https://trac.sagemath.org/ticket/25537|#25537]]: needs review
+
 ==== Jeudi 28 juin ====
 
 Présents: Pascal, Milton, Vincent K.
