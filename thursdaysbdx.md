@@ -45,6 +45,7 @@ Présents: Sébastien, Vincent K.
 
 Sébastien:
  * [[https://trac.sagemath.org/ticket/25537|#25537]]: needs review
+ * reviewed: [[https://trac.sagemath.org/ticket/23416|#23416]]
 
 ==== Jeudi 28 juin ====
 
