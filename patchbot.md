@@ -106,6 +106,8 @@ Several other options are available, see '''--help'''
 
 '''--safe-only''' will only test branches that only change files inside the directory "src/sage" (this is the case by default).
 
+'''--skip-doc-clean''' the "make doc-clean" is not run during the patchbot initialization. Useful if your machine does not have enough ram to build the documentation in a single round.
+
 If the patchbot process receives the signal SIGUSR1 (using {{{kill -s SIGUSR1 pid}}}), it will gracefully stop after finishing its job on the ticket it is currently working on.
 
 == Configuration ==
