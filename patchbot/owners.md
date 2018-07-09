@@ -10,13 +10,11 @@ Sagemath patchbots names and owners:
     cristal           --> Bouillaguet
     debian_jessie_32  --> tmonteil
     eddy              --> Vincent.Neri (lri, Orsay, Paris sud)
-    edoras            --> ?
     fermat            --> cremona,davidloeffler
     findstat          --> stumpc5
     geom              --> dimpase
     groebner          --> jkroeker
     hades             --> klee
-    hera-OptiPlex     --> ?
     icj-laptop        --> chapoton
     kepler            --> nilesjohnson
     kevin-Virtualbox  --> kdilks
@@ -25,11 +23,8 @@ Sagemath patchbots names and owners:
     martin-Laptop     --> mantepse
     mercury           --> kdilks
     pbua              --> novoselt
-    pcl337b           --> ?
-    pi                --> ?
     poseidon          --> kdilks
     quasar            --> vdelecroix
-    rp01              --> ?
     sage4             --> jdemeyer
     sardonis          --> jdemeyer
     silence           --> ncohen
