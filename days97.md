@@ -11,16 +11,18 @@ be it to start using mathematics software, to become more proficient users, to
 start developing, to meet other developers... We hope everyone will feel welcome
 and get the most out of this workshop while helping others get the most of it too.
 
-As a Sage Days, the workshop will bear the number 97, but it will by no way be
-only be about Sage -- more of a "GAP + !SageMath + other-software days".
+As a Sage Days, the workshop will bear the number 97. It will not be
+only about Sage though -- more of a "GAP + !Sage + other-software days".
 
 == Dates and location ==
 
 The workshop will start on Monday morning, 2018-09-24, and end on Friday
 evening, 2018-09-28.
 
-We suggest participants plan to arrive on Sunday, 2018-09-23 and to leave on
-Saturday, 2018-09-29.
+We suggest participants plan to arrive on Sunday, 2018-09-23 (or before)
+and leave on Saturday, 2018-09-29 (or after).
+
+There will be an install party on Sunday night for anyone interested.
 
 == Themes, project ==
 
