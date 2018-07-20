@@ -22,7 +22,7 @@ There is also a repository on Github: [[https://github.com/sagemath/artwork | gi
 
 <<EmbedObject(icon_sagemath_round.svg,width=20%)>><<EmbedObject(icon_sagemath_round_v2.svg,width=20%)>>
 
-<<EmbedObject(logo_proposal_version1.svg,width=20%)>>
+<<EmbedObject(logo_proposal_version1.svg,width=20%)>><<EmbedObject(logo_proposal_version2.svg,width=20%)>>
 
 == Color scheme ==
 
