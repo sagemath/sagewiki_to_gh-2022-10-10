@@ -61,7 +61,7 @@ These are the new instructions.
 
 Dependencies: shell commands '''git'''; '''tar'''; '''wget'''
 
-'''pyflakes''' is not required but will be used if installed.
+'''pyflakes''' and ''pycodestyle'' are not required but will be used if installed.
 
 ||<#98FF98> Please register [[patchbot/owners|here]] if you run a patchbot. It is required to know whom to contact.||
 
