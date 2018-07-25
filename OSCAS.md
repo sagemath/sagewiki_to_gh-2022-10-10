@@ -15,7 +15,7 @@ Another list by the AMS [[http://www.mathontheweb.org/mathweb/mi-software.html|h
 || FriCAS || [[http://www.opensource.org/licenses/bsd-license.php|BSD]] || http://fricas.sourceforge.net ||
 || GAP || GPL || http://www.gap-system.org ||
 || GIAC || GPL || http://www-fourier.ujf-grenoble.fr/~parisse/giac.html ||
-|| GINAC || GPL ||  http://www.ginac.de ||
+|| GINAC || GPL ||  https://www.ginac.de ||
 || GTYBALT || GPL || http://wwwthep.physik.uni-mainz.de/~stefanw/gtybalt/ ||
 || JScience || BSD || http://www.jscience.org/ ||
 || LiDIA || "open source" || http://www.cdc.informatik.tu-darmstadt.de/TI/LiDIA/ (broken link)||
