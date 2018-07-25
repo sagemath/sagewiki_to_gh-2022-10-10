@@ -1,4 +1,4 @@
-This is a follow-up workshop
+This is a follow-up workshop to [[days88|Sage Days 88]].
 
 === Location and Time ===
 
