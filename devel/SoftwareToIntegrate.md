@@ -10,7 +10,7 @@ This is a list of programs and packages for mathematics that might possibly be i
  * [[http://servus.math.su.se/bergman/|Bergman]] (non-commutative Groebner bases).
  * [[http://www.mit.edu/~ibaran/kseg.html|kseg]] (dynamic Euclidean geometry, a la Geometer's Sketchpad; relevant for educational users). (This is [[http://packages.debian.org/changelogs/pool/main/k/kseg/kseg_0.4.0.3-2/kseg.copyright|GPLV2+]])
  * [[http://www-swiss.ai.mit.edu/~gjs/6946/linux-install.htm|scmutils]], an MIT-Scheme package for symbolic manipulation, mostly with differential geometry. Created for the [[http://www-swiss.ai.mit.edu/~gjs/6946/sicm-html/index.html|SICM]]: Structure and Interpretation of Classical Mechanics course
- * [[http://www2.lifl.fr/~boulier/BLAD/|blad]]: BLAD is an acronym standing for Bibliothèques Lilloises d'Algèbre Différentielle. BLAD is actually sort of a standalone C analogue of the MAPLE diffalg package. BLAD is LGPL. 
+ * [[http://cristal.univ-lille.fr/~boulier/pmwiki/pmwiki.php/Main/BLAD|blad]]: BLAD is an acronym standing for Bibliothèques Lilloises d'Algèbre Différentielle. BLAD is actually sort of a standalone C analogue of the MAPLE diffalg package. BLAD is LGPL. 
 
 == Software that is free and tries to do what Sage does ==
  * http://www.mathemagix.org/mmxweb/web/welcome.en.html -- Their overall goal is very similar to Sage's.  However, they make different design choices than we have with Sage in almost every way:
