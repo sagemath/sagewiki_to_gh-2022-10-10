@@ -74,6 +74,10 @@ If you have an account on the Sage cluster, ensure that you read the [[devel/Sag
 
 = Sage notebook =
 
+||<#FF6347> The legacy sage notebook is deprecated. ||
+
+||<#98FF98> Please use instead the Jupyter notebook. ||
+
 The Sage notebook provides a graphical user interface to Sage. To help out with developing the Sage notebook, you need to know how to code in !JavaScript. The page on [[devel/JavascriptResources | JavaScript resources]] contains many resources on !JavaScript and !JavaScript libraries. The Sage [[devel/SageNotebook | notebook technical overview]] provides a technical overview of the Sage notebook server, including how it responds to user requests, delegates tasks, etc. See also the page on [[devel/SageUsability | usability improvements]] for a list of development tasks relating to enhancing the notebook and its usability. See the page on [[i18n | Sage notebook internationalization]] for a list of available locales, and instructions on how to make one.
 
 
