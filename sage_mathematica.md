@@ -79,7 +79,6 @@ Unlike in Mathematica, this ''for d in data'' cannot be applied to an arbitrary 
 Mathematica: {{{data /. _?(# < 0&) -> 0}}}
 
 Python: {{{[(0 if d < 0 else d) for d in data]}}}
-= Hints for transitioning from Mathematica to Sage =
 
 == Timing ==
 
