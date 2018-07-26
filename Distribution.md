@@ -123,9 +123,15 @@ See [[https://groups.google.com/d/msg/sage-devel/jdLfIKQ1M18/PVQqJUUqAgAJ|this p
 
 == Nix ==
   * Sage package: https://github.com/NixOS/nixpkgs/tree/master/pkgs/applications/science/math/sage
-
-    Note: so far (2018-05), the nix pkg just downloads and builds the spkgs from the Sage distribution,
-    not using the standard Nix dependencies.
+  * Distribution agnostic, functinal, declarative package managing
+  * Should always have 0 doctest failures. To archive that, [[https://github.com/NixOS/nixpkgs/tree/master/pkgs/applications/science/math/sage/default.nix|some]] dependency versions are pinned. That is not an issue because nix allows multiple versions of a package to be installed at the same time.
+  * Should work on most linux distributions. More precisely any Linux distro where the nix package manager is available, e.g. [[https://aur.archlinux.org/packages/nix|ArchLinux]], Debian, [[https://nixos.org/nix/|others]] -- definitely works on NixOS
+  * Is tested on x86 linux. Probably works on ARM but that is as of yet untested.
+  * Could run on darwin, but currently doesn't since some dependencies don't have darwin-specific patches. If you're a darwin user, help with that would be very much appreaciated.
+  * Could even work with the linxu subsystem for windows, but probably needs some patches. Absolutely untested.
+  * Allows user-installs, given that the nix package manager is already installed
+  * To install: `nix-env -iA nixpkgs.sage` or on NixOS just add sage to your `environment.systemPackages`
+  * Currently (2018-07-26) maintained by timokau. Any help is appreciated. If you are interested (even if you don't know anything about nix yet), [[open a issue||https://github.com/NixOS/nixpkgs/issues/new]] pinging @timokau and I'll help you get started.
 
 == RPM package (Fedora, Mandriva) ==
   * hosted at: http://rpmfind.net/linux/rpm2html/search.php?query=sagemath
