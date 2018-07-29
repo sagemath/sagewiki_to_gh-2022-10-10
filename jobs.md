@@ -7,10 +7,6 @@ See also [[https://www.google.com/search?q=sagemath+site:linkedin.com|LinkedIn p
 
 == Open offers ==
 
-2018-02:
-[[http://opendreamkit.org/2018/02/21/position-paris-sud/|Research Software Engineer position at Université Paris-Sud]],
-Interviews in early Spring 2018 in view of hiring as soon as possible.
-
 2018:
 [[https://groups.google.com/d/topic/sage-combinat-devel/wekWJ4smfDw/discussion|Sage coding job on combinatorial Hopf algebras, ~3 months, at Hong Kong Baptist University]],
 flexible start date any time in 2018. [ [[attachment:sagemath-hong-kong-coding-job.pdf|Job offer as pdf]] ]
@@ -18,6 +14,10 @@ flexible start date any time in 2018. [ [[attachment:sagemath-hong-kong-coding-j
 2017: [[http://www.cybersecurityeducation.org/careers/cryptographer/|Cyber Security]]: How to Become a Cryptographer?
 
 == Current projects and past offers ==
+
+2018-02:
+[[http://opendreamkit.org/2018/02/21/position-paris-sud/|Research Software Engineer position]] at Université Paris-Sud,
+interviews took place in March 2018.
 
 2016: "SageMath, Inc." team expanded. Several people are working full time on CoCalc.
 
