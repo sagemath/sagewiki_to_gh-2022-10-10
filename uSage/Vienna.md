@@ -2,4 +2,4 @@
 
 Contact: Harald Schilly
 
-Meetup.com: http://wiki.sagemath.org/uSage/Vienna
+Meetup.com: https://www.meetup.com/SageMath-Vienna/
