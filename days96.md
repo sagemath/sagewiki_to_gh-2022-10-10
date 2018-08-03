@@ -17,3 +17,7 @@ Lastly, in order to prepare the workshop we ask you to think about the following
  * Have you ever used Sage or other mathematical softwares? In which situations?
  * Do you know some programming languages?
  * Do you have any expectation for this workshop? Some topics you want to learn about? Some projects you want to achieve? 
+
+== Organizers and participants ==
+
+See [[http://www.fields.utoronto.ca/activities/18-19/sage-days|the Fields Institute webpage]].
