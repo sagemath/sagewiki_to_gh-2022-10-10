@@ -8,7 +8,7 @@ In order to assist to the workshop you are asked to come with your laptop (thoug
 
  * Ubuntu (versions >= 18.04) and archlinux: install the packages sagemath and sagemath-jupyter
  * gentoo: you can give a try to [[https://github.com/cschwan/sage-on-gentoo|sage on gentoo]]
- * all other systems (GNU/Linux, OSX, Windows): go to the  [http://www.sagemath.org/|main SageMath website]], go to the download section, choose a download server close to your location and download the Sage binary that corresponds to your operating system.
+ * all other systems (GNU/Linux, OSX, Windows): go to the [[http://www.sagemath.org/|main SageMath website]], go to the download section, choose a download server close to your location and download the Sage binary that corresponds to your operating system.
  * If you run GNU/Linux or OSX you can also try to compile the software from sources. The procedure is described [[http://doc.sagemath.org/html/en/installation/source.html|in the documentation]].
 
 Lastly, in order to prepare the workshop we ask you to think about the following questions and send your answers to both Vincent Delecroix <vincent.delecroix@u-bordeaux.fr> and Anja Randecker <anja@math.toronto.edu>
