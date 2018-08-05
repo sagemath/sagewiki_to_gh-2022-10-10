@@ -1,6 +1,6 @@
 = Free and Practical Software for Algebraic Combinatorics =
 
-International Sage Workshop on '''F'''ree and '''P'''ractical '''S'''oftware for '''A'''lgebraic '''C'''ombinatorics
+International SageMath Workshop on '''F'''ree and '''P'''ractical '''S'''oftware for '''A'''lgebraic '''C'''ombinatorics
 
 Dates: July 8-12, 2019
 
