@@ -85,6 +85,12 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
+ * --([[http://trac.sagemath.org/ticket/25564|#25564]])-- closed sage-8.3: implement __hash__ for affine_point - Raghukul Raman 
+
+ * --([[http://trac.sagemath.org/ticket/25513|#25513]])-- closed sage-8.3: Scheme endomorphism as_dynamical_system() check if already DynamicalSystem - Joseph Lupo
+
+ * --([[http://trac.sagemath.org/ticket/25242|#25242]])-- closed sage-8.3: is_polynomial fails when multiple roots - Ben Hutz
+
  * --([[http://trac.sagemath.org/ticket/25240|#25240]])-- closed sage-8.3: Chebyshev and Lattes maps should be created as dynamical systems - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/23627|#23627]])-- closed sage-8.3: Update points() in projective_homset.py and affine_homset.py to work over CC and CDF - Ben Hutz, Rebecca Lauren Miller
@@ -92,6 +98,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * --([[http://trac.sagemath.org/ticket/25242|#25242]])-- closed sage-8.3: is_polynomial fails when multiple roots - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/25240|#25240]])-- closed sage-8.3: Chebyshev and Lattes maps should be created as dynamical systems - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/24994|#24994]])-- closed sage-8.3: convert mandelbrot/julia interact to jupyter notebook - Frédéric Chapoton, Jeroen Demeyer 
 
  * --([[http://trac.sagemath.org/ticket/22771|#22771]])-- closed sage-8.3: Numerical Precision for Heights in Number Fields - TJ, Raghukul Raman 
 
