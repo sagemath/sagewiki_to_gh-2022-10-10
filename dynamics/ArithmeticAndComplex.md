@@ -34,6 +34,12 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/25745|#25745]]) needs-work: Periodic Proportion Homomorphism over Finite Fields - Rebecca Lauren Miller
+
+ * ([[http://trac.sagemath.org/ticket/25701|#25701]]) needs-work: Implement Sieve algorithm for product_projective space - Raghukul Raman
+
+ * ([[http://trac.sagemath.org/ticket/25523|#25523]]) positive-review: Raise Exception if DynamicalSystem initialized with coeffs not in given domain - Joseph Lupo
+
  * ([[http://trac.sagemath.org/ticket/25237|#25237]]) needs-review: normlize_coordinates for projective morphism not fully normalized - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/25446|#25446]]) positive-review: compute all orbits of minimal models of dynamical systems - Ben Hutz
@@ -84,6 +90,10 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Berkovich P1 || || ||  ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/25697|#25697]])-- closed sage-8.4: Implement enumeration over QQ for product projective schemes - Raghukul Raman 
+
+ * --([[http://trac.sagemath.org/ticket/25592|#25592]])-- closed sage-8.3: enum_affine_rational_field function is missing points - Raghukul Raman 
 
  * --([[http://trac.sagemath.org/ticket/25564|#25564]])-- closed sage-8.3: implement __hash__ for affine_point - Raghukul Raman 
 
