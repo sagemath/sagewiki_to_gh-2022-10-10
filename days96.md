@@ -21,3 +21,7 @@ Lastly, in order to prepare the workshop we ask you to think about the following
 == Organizers and participants ==
 
 See [[http://www.fields.utoronto.ca/activities/18-19/sage-days|the Fields Institute webpage]].
+
+== Link to Pad ==
+
+At [[https://mensuel.framapad.org/p/sagedays96|this pad]], we will coordinate lunch and so on.
