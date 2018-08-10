@@ -34,6 +34,12 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/25952|#25952]]) needs-review: smallest coefficient model for binary forms and dynamical systems - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/25795|#25785]]) positive-review: error in Well's algorithm for canonical height - Ben Hutz
+
+ * ([[http://trac.sagemath.org/ticket/25795|#25785]]) positive-review: Raise Error if Univariate PR used to construct ProjectiveSpace - Joseph Lupo
+
  * ([[http://trac.sagemath.org/ticket/25795|#25785]]) positive-review: minor optimization in comparison between morphisms - Raghukul Raman
 
  * ([[http://trac.sagemath.org/ticket/25745|#25745]]) needs-work: Periodic Proportion Homomorphism over Finite Fields - Rebecca Lauren Miller
@@ -91,11 +97,15 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
+ * --([[http://trac.sagemath.org/ticket/25821|#25821]])-- closed sage-8.4: implement height functions for product points - Raghukul Raman 
+
  * --([[http://trac.sagemath.org/ticket/25792|#25792]])-- closed sage-8.4: add dehomogenize function for product projective point - Raghukul Raman 
 
  * --([[http://trac.sagemath.org/ticket/25781|#25781]])-- closed sage-8.4: add Comparison operator for morphism between product - Raghukul Raman 
 
  * --([[http://trac.sagemath.org/ticket/25697|#25697]])-- closed sage-8.4: Implement enumeration over QQ for product projective schemes - Raghukul Raman 
+
+ * --([[http://trac.sagemath.org/ticket/25780|#25780]])-- closed sage-8.3: Normalize bound checking in points function - Raghukul Raman 
 
  * --([[http://trac.sagemath.org/ticket/25592|#25592]])-- closed sage-8.3: enum_affine_rational_field function is missing points - Raghukul Raman 
 
