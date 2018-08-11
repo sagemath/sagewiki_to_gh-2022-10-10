@@ -32,13 +32,27 @@ These packages are installed through pip. Depending how you did install Sage you
    {{{
    $ sage -pip install flipper --user
    }}}
-   If the above command does not work you are in trouble, see with Vincent. If it does work, go to next step.
+   If the above command does not work you are in trouble, if you are using MAc OS X, see below, otherwise ask Vincent. If it does work, go to next step.
  * To install surface_dynamics and snappy you need a working version of gcc and g++ (that should be the case for most of you). The commands are similar
    {{{
-   $ sage -pip install surface_dynamics --users
+   $ sage -pip install surface_dynamics --user
    $ sage -pip install snappy --user
    }}}
  * Lastly, to install flatsurf, look at the instructions at https://github.com/videlec/sage-flatsurf
+
+If you are using Mac OS X, the computer might complain with `could not fetch URL ...`. In that situation, you can try the two following solutions
+
+ 1. You do have Xcode installed in which case you can recompile the Python shipped with Sage with SSL support with
+ {{{
+ $ sage -i openssl
+ $ sage -f python2 
+ }}}
+
+ 2. The alternative to option 1 is to download each package independently:
+  * [[https://files.pythonhosted.org/packages/52/8d/9d27f127f159ac58f31a318c36a633d992b5f2430f0624a01910e3c1f5b6/surface_dynamics-0.4.0.tar.gz|surface_dynamics-0.4.0.tar.gz]]
+  * 
+ 
+ and need to download each packages independently
 
 == Organizers and participants ==
 
