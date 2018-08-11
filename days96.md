@@ -6,7 +6,7 @@ In order to assist to the workshop you are asked to come with your laptop (thoug
 
 == Worksheets ==
 
- * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=intro.en.ipynb|Introduction]] with the picture [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=S_2_1.svg]] to be downloaded in the same folder (the worksheet is also available as [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=intro.en.rst]] and [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=intro.en.pdf]])
+ * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=intro.en.ipynb|Introduction]] with the picture [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=S_2_1.svg|S_2_1.svg]] to be downloaded in the same folder (the worksheet is also available as [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=intro.en.rst|intro.en.rst]] and [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=intro.en.pdf|intro.en.pdf]])
  * Programming
    * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=chap1-first_steps.ipynb|Chapter 1: First steps]]
    * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=chap2-list_and_for.ipynb|Chapter 2: List and for loops]]
