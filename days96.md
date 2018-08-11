@@ -6,14 +6,14 @@ In order to assist to the workshop you are asked to come with your laptop (thoug
 
 == Worksheets ==
 
- * [[attachment:intro.en.ipynb|Introduction]] with the picture [[attachment:S_2_1.svg]] to be downloaded in the same folder (the worksheet is also available as [[attachment:intro.en.rst]] and [[attachment:intro.en.pdf]])
+ * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=intro.en.ipynb|Introduction]] with the picture [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=S_2_1.svg]] to be downloaded in the same folder (the worksheet is also available as [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=intro.en.rst]] and [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=intro.en.pdf]])
  * Programming
-   * [[attachment:chap1-first_steps.ipynb|Chapter 1: First steps]]
-   * [[attachment:chap2-list_and_for.ipynb|Chapter 2: List and for loops]]
-   * [[attachment:chap3-if.ipynb|Chapter 3: Conditionals if/elif/else]]
-   * [[attachment:chap4-functions.ipynb|Chapter 4: Functions]]
-   * [[attachment:chap5-while.ipynb|Chapter 5: While loops]]
-   * [[attachment:chap6-advanced_exercises.ipynb|Chapter 6: Advanced exercises]]
+   * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=chap1-first_steps.ipynb|Chapter 1: First steps]]
+   * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=chap2-list_and_for.ipynb|Chapter 2: List and for loops]]
+   * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=chap3-if.ipynb|Chapter 3: Conditionals if/elif/else]]
+   * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=chap4-functions.ipynb|Chapter 4: Functions]]
+   * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=chap5-while.ipynb|Chapter 5: While loops]]
+   * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=chap6-advanced_exercises.ipynb|Chapter 6: Advanced exercises]]
 
 == Sage Installation ==
 
