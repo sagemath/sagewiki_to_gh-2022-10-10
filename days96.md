@@ -53,13 +53,13 @@ If you are using Mac OS X, the computer might complain with `could not fetch URL
   * [[https://files.pythonhosted.org/packages/52/8d/9d27f127f159ac58f31a318c36a633d992b5f2430f0624a01910e3c1f5b6/surface_dynamics-0.4.0.tar.gz|surface_dynamics-0.4.0.tar.gz]]
   * [[https://files.pythonhosted.org/packages/69/16/8affdc4731004eee67413a24373544aca43688fae2698719378c9eafd9be/snappy-2.6.tar.gz|snappy-2.6.tar.gz]]
   * [[https://github.com/videlec/sage-flatsurf/archive/master.zip|master.zip]]
-  and then install them via
-  {{{
-  $ sage -pip install flipper-0.12.3.tar.gz
-  $ sage -pip install surface_dynamics-0.4.0.tar.gz
-  $ sage -pip install snappy-2.6.tar.gz
-  $ sage -pip master.zip
-  }}}
+ and then install them via
+ {{{
+ $ sage -pip install flipper-0.12.3.tar.gz
+ $ sage -pip install surface_dynamics-0.4.0.tar.gz
+ $ sage -pip install snappy-2.6.tar.gz
+ $ sage -pip master.zip
+ }}}
 
 == Organizers and participants ==
 
