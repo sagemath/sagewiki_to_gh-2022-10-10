@@ -44,8 +44,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/25745|#25745]]) needs-work: Periodic Proportion Homomorphism over Finite Fields - Rebecca Lauren Miller
 
- * ([[http://trac.sagemath.org/ticket/25523|#25523]]) positive-review: Raise Exception if DynamicalSystem initialized with coeffs not in given domain - Joseph Lupo
-
  * ([[http://trac.sagemath.org/ticket/25237|#25237]]) needs-review: normlize_coordinates for projective morphism not fully normalized - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/25446|#25446]]) positive-review: compute all orbits of minimal models of dynamical systems - Ben Hutz
@@ -104,6 +102,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * --([[http://trac.sagemath.org/ticket/25781|#25781]])-- closed sage-8.4: add Comparison operator for morphism between product - Raghukul Raman 
 
  * --([[http://trac.sagemath.org/ticket/25697|#25697]])-- closed sage-8.4: Implement enumeration over QQ for product projective schemes - Raghukul Raman 
+
+ * --([[http://trac.sagemath.org/ticket/25523|#25523]])-- closed sage-8.4: Raise Exception if DynamicalSystem initialized with coeffs not in given domain - Joseph Lupo
 
  * --([[http://trac.sagemath.org/ticket/25780|#25780]])-- closed sage-8.3: Normalize bound checking in points function - Raghukul Raman 
 
