@@ -49,10 +49,17 @@ If you are using Mac OS X, the computer might complain with `could not fetch URL
  }}}
 
  2. The alternative to option 1 is to download each package independently:
+  * [[https://files.pythonhosted.org/packages/1f/d2/549e874f7a66e03869207cb7e3a9d3d5789c5ee9d18990f1c869963b0a17/flipper-0.12.3.tar.gz|flipper-0.12.3.tar.gz]]
   * [[https://files.pythonhosted.org/packages/52/8d/9d27f127f159ac58f31a318c36a633d992b5f2430f0624a01910e3c1f5b6/surface_dynamics-0.4.0.tar.gz|surface_dynamics-0.4.0.tar.gz]]
-  * 
- 
- and need to download each packages independently
+  * [[https://files.pythonhosted.org/packages/69/16/8affdc4731004eee67413a24373544aca43688fae2698719378c9eafd9be/snappy-2.6.tar.gz|snappy-2.6.tar.gz]]
+  * [[https://github.com/videlec/sage-flatsurf/archive/master.zip|master.zip]]
+  and then install them via
+  {{{
+  $ sage -pip install flipper-0.12.3.tar.gz
+  $ sage -pip install surface_dynamics-0.4.0.tar.gz
+  $ sage -pip install snappy-2.6.tar.gz
+  $ sage -pip master.zip
+  }}}
 
 == Organizers and participants ==
 
