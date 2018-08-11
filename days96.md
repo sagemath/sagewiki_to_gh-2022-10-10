@@ -24,6 +24,22 @@ The installation procedure depends on your operating system:
  * all other systems (GNU/Linux, OSX, Windows): go to the [[http://www.sagemath.org/|main SageMath website]], go to the download section, choose a download server close to your location and download the Sage binary that corresponds to your operating system.
  * If you run GNU/Linux or OSX you can also try to compile the software from sources. The procedure is described [[http://doc.sagemath.org/html/en/installation/source.html|in the documentation]].
 
+=== Installing flipper, snappy, flatsurf and surface_dynamics ===
+
+These packages are installed through pip. Depending how you did install Sage you might run in different kind of complications.
+
+ * To install flipper, it should work out of the box with the command line    (if you do not know how to open a command line, ask one of the organizer)
+   {{{
+   $ sage -pip install flipper --user
+   }}}
+   If the above command does not work you are in trouble, see with Vincent. If it does work, go to next step.
+ * To install surface_dynamics and snappy you need a working version of gcc and g++ (that should be the case for most of you). The commands are similar
+   {{{
+   $ sage -pip install surface_dynamics --users
+   $ sage -pip install snappy --user
+   }}}
+ * Lastly, to install flatsurf, look at the instructions at https://github.com/videlec/sage-flatsurf
+
 == Organizers and participants ==
 
 See [[http://www.fields.utoronto.ca/activities/18-19/sage-days|the Fields Institute webpage]].
