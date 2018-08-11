@@ -6,7 +6,7 @@ In order to assist to the workshop you are asked to come with your laptop (thoug
 
 == Worksheets ==
 
-xxx
+ * [[attachment:intro.en.ipynb|Introduction]], you also need to download [[attachment:S_2_1.svg]] (the worksheet is also available as [[attachment:intro.en.rst]] and [[attachment:intro.en.pdf]])
 
 == Sage Installation ==
 
