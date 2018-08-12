@@ -19,7 +19,7 @@ In order to assist to the workshop you are asked to come with your laptop (thoug
 
 The installation procedure depends on your operating system:
 
- * Debian (versions >= 9.0) and Ubuntu (versions >= 18.04): install the packages `sagemath` and `sagemath-jupyter`
+ * Debian (versions >= 9.0) and Ubuntu (versions >= 18.04): install the packages `sagemath`, `sagemath-doc-en` and `sagemath-jupyter`
  * archlinux: install the packages `sagemath`, `sagemath-doc` and `sagemath-jupyter`
  * gentoo: you can give a try to [[https://github.com/cschwan/sage-on-gentoo|sage on gentoo]]
  * all other systems (GNU/Linux, OSX, Windows): go to the [[http://www.sagemath.org/|main SageMath website]], go to the download section, choose a download server close to your location and download the Sage binary that corresponds to your operating system.
