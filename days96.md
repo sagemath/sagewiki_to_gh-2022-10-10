@@ -28,16 +28,21 @@ The installation procedure depends on your operating system:
 
 These packages are installed through pip. Depending how you did install Sage you might run in different kind of complications.
 
- * To install flipper, it should work out of the box with the command line    (if you do not know how to open a command line, ask one of the organizer)
+==== Generic Installation ====
+
+This installation would work in most situations. Though if you happen to be in one of the specific situations listed below, just jump to that section.
+
+ * To install flipper, it should work out of the box with the following command (if you do not know how to open a command line, ask one of the organizer)
    {{{
    $ sage -pip install flipper --user
    }}}
-   If the above command does not work you are in trouble, if you are using MAc OS X, see below, otherwise ask Vincent. If it does work, go to next step.
- * To install surface_dynamics and snappy you need a working version of gcc and g++ (that should be the case for most of you). The commands are similar
+   If the above command does not work, ask for help. If it does work, go to next step.
+ * To install surface_dynamics and snappy you need a working version of gcc and g++ (that should be the case for most of you). The commands are similar to the one before
    {{{
    $ sage -pip install surface_dynamics --user
    $ sage -pip install snappy --user
    }}}
+   Similarly, report any error or weird behavior.
  * Lastly, to install flatsurf, look at the instructions at https://github.com/videlec/sage-flatsurf
 
 ==== Mac OS X specifics ====
