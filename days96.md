@@ -40,13 +40,16 @@ These packages are installed through pip. Depending how you did install Sage you
    }}}
  * Lastly, to install flatsurf, look at the instructions at https://github.com/videlec/sage-flatsurf
 
-If you are using Mac OS X, the computer might complain with `could not fetch URL ...`. In that situation, you can try the two following solutions
+==== Mac OS X specifics ====
+
+If you are using the binaries for Mac OS X, the computer might complain with `could not fetch URL ...`. In that situation, you can try the two following solutions
 
  1. You do have Xcode installed in which case you can recompile the Python shipped with Sage with SSL support with
  {{{
  $ sage -i openssl
  $ sage -f python2 
  }}}
+ Then go back to the instructions "Installing flipper, snappy, flatsurf and surface_dynamics".
 
  2. The alternative to option 1 is to download each package independently:
   * [[https://files.pythonhosted.org/packages/1f/d2/549e874f7a66e03869207cb7e3a9d3d5789c5ee9d18990f1c869963b0a17/flipper-0.12.3.tar.gz|flipper-0.12.3.tar.gz]]
@@ -60,6 +63,17 @@ If you are using Mac OS X, the computer might complain with `could not fetch URL
  $ sage -pip install snappy-2.6.tar.gz
  $ sage -pip master.zip
  }}}
+
+==== Ubuntu >= 18.04 and Debian >= 8.0 packages ====
+
+If you happen to have installed the packages `sagemath` and `sagemath-jupyter` from your package manager then you would need to do
+{{{
+$ source /usr/share/sagemath/bin/sage-env
+$ pip install flipper --user
+$ pip install surface_dynamics --user
+$ pip install snappy --user
+}}}
+For the installation of flatsurf, follows the instruction at https://github.com/videlec/sage-flatsurf and replace any instance of `sage -pip` by `pip`.
 
 == Organizers and participants ==
 
