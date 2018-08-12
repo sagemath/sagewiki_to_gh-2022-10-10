@@ -71,9 +71,19 @@ If you are using the binaries for Mac OS X, the computer might complain with `co
 
 ==== Ubuntu >= 18.04 and Debian >= 8.0 packages ====
 
-If you happen to have installed the packages `sagemath` and `sagemath-jupyter` from your package manager then you would need to do
+If you happen to have installed the packages `sagemath` and `sagemath-jupyter` from your package manager in Debian/Ubuntu then you would need to do
 {{{
 $ source /usr/share/sagemath/bin/sage-env
+$ pip install flipper --user
+$ pip install surface_dynamics --user
+$ pip install snappy --user
+}}}
+For the installation of flatsurf, follows the instruction at https://github.com/videlec/sage-flatsurf and replace any instance of `sage -pip` by `pip`.
+
+==== Archlinux ===
+
+If you are a Archlinux and are using the packages `sagemath` and `sagemath-jupyter` from the package manager then do
+{{{
 $ pip install flipper --user
 $ pip install surface_dynamics --user
 $ pip install snappy --user
