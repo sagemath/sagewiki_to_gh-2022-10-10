@@ -84,9 +84,9 @@ For the installation of flatsurf, follows the instruction at https://github.com/
 
 If you are a Archlinux and are using the packages `sagemath` and `sagemath-jupyter` from the package manager then do
 {{{
-$ pip install flipper --user
-$ pip install surface_dynamics --user
-$ pip install snappy --user
+$ pip2 install flipper --user
+$ pip2 install surface_dynamics --user
+$ pip2 install snappy --user
 }}}
 For the installation of flatsurf, follows the instruction at https://github.com/videlec/sage-flatsurf and replace any instance of `sage -pip` by `pip`.
 
