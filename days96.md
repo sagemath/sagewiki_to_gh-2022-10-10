@@ -14,6 +14,7 @@ In order to assist to the workshop you are asked to come with your laptop (thoug
    * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=chap4-functions.ipynb|Chapter 4: Functions]]
    * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=chap5-while.ipynb|Chapter 5: While loops]]
    * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=chap6-advanced_exercises.ipynb|Chapter 6: Advanced exercises]]
+ * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=floating_point_and_stability.ipynb|Floating point and stability]]
 
 == Sage Installation ==
 
