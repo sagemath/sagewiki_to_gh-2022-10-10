@@ -80,7 +80,7 @@ $ pip install snappy --user
 }}}
 For the installation of flatsurf, follows the instruction at https://github.com/videlec/sage-flatsurf and replace any instance of `sage -pip` by `pip`.
 
-==== Archlinux ===
+==== Archlinux ====
 
 If you are a Archlinux and are using the packages `sagemath` and `sagemath-jupyter` from the package manager then do
 {{{
