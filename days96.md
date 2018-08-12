@@ -17,6 +17,9 @@ In order to assist to the workshop you are asked to come with your laptop (thoug
  * Thematics tutorials
    * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=floating_point_and_stability.ipynb|Floating point and stability]]
    * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=random_walk.ipynb|Simple random walk on Z]]
+   * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=CollatzConjecture.ipynb|Collatz conjecture]]
+   * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=Dictionaries-GraphTheory.ipynb|Python dictionaries and graph theory]] (you also need to download the images [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=euler.png|euler.png]] and [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=graph0.png|graph0.png]])
+   * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=Strings-BWT.ipynb|The Burrows-Wheeler transform]]
 
 == Sage Installation ==
 
