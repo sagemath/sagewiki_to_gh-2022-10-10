@@ -35,10 +35,10 @@ The installation procedure depends on your operating system:
 
 We will be interested in these Sage days to four Python-Sage modules that provide many tools to work with surfaces and 3-dimensional manifolds
 
-- `flipper <http://flipper.readthedocs.io/en/latest/>`_: mapping classes (homeomorphisms of surfaces)
-- `flatsurf <https://github.com/videlec/sage-flatsurf>`_: translation surfaces (affine transformation, linear flow, etc)
-- `surface_dynamics <http://www.labri.fr/perso/vdelecro/flatsurf_sage.html>`_: interval exchange transformations, origamis and more
-- `snappy <https://www.math.uic.edu/t3m/SnapPy/>`_: 3-d hyperbolic geometry
+- [[<http://flipper.readthedocs.io/en/latest/>|flipper]]: mapping classes (homeomorphisms of surfaces)
+- [[https://github.com/videlec/sage-flatsurf|flatsurf]]: translation surfaces (affine transformation, linear flow, etc)
+- [[http://www.labri.fr/perso/vdelecro/flatsurf_sage.html|surface_dynamics]]: interval exchange transformations, origamis and more
+- [[https://www.math.uic.edu/t3m/SnapPy/|snappy]]: 3-d hyperbolic geometry
 
 These packages are installed through pip. Depending how you did install Sage you might run in different kind of complications.
 
