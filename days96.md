@@ -83,6 +83,18 @@ If you are using the binaries for Mac OS X, the computer might complain with `co
  $ sage -pip master.zip
  }}}
 
+==== Ubuntu 16.04 with ppa ====
+
+If you run Ubuntu 16.04 and you install Sage with the ppa then do
+{{{
+$ sage -sh
+(sage-sh)$ pip install flipper --user
+(sage-sh)$ pip install surface_dynamics --user
+(sage-sh)$ pip install snappy --user
+(sage-sh)$ exit
+}}}
+(The `sage -sh` command brings you to a special environment where you have access to Sage Python)
+
 ==== Ubuntu >= 18.04 and Debian >= 8.0 packages ====
 
 If you happen to have installed the packages `sagemath` and `sagemath-jupyter` from your package manager in Debian/Ubuntu then you would need to do
