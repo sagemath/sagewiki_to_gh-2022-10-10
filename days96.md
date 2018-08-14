@@ -109,8 +109,7 @@ For the installation of flatsurf, follows the instruction at https://github.com/
 
 ==== Archlinux ====
 
-}}}
-Then do
+Do
 {{{
 $ sage -sh
 (sage-sh)$ pip2 install flipper --user
