@@ -64,7 +64,7 @@ This installation would work in most situations. Though if you happen to be in o
 
 If you are using the binaries for Mac OS X, the computer might complain with `could not fetch URL ...`. In that situation, you can try the two following solutions
 
- 1. You do have Xcode installed in which case you can recompile the Python shipped with Sage with SSL support with
+ 1. You do have Xcode installed with the command line tools. In this case you can recompile the Python shipped with Sage with SSL support with
  {{{
  $ sage -i openssl
  $ sage -f python2 
