@@ -21,6 +21,7 @@ In order to assist to the workshop you are asked to come with your laptop (thoug
    * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=Dictionaries-GraphTheory.ipynb|Python dictionaries and graph theory]] (you also need to download the images [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=euler.png|euler.png]] and [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=graph0.png|graph0.png]])
    * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=Strings-BWT.ipynb|The Burrows-Wheeler transform]]
  * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=flipper_tutorial.pdf|flipper tutorial]] (for the last exercises you will need [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=flipper_nf_conversion.py|flipper_nf_conversion.py]])
+ * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=Fields-2018-flatsurf_and_surface_dynamics_demo.ipynb|flatsurf and surface_dynamics demo]].
 
 == Sage Installation ==
 
