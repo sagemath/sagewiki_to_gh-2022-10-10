@@ -121,6 +121,14 @@ $
 }}}
 For the installation of flatsurf, follows the instruction at https://github.com/videlec/sage-flatsurf and replace any instance of `sage -pip` by `pip`.
 
+=== Windows ===
+
+Before following the generic instruction do
+{{{
+(sage-sh) $ apt-cyg install libcrypt-devel
+(sage-sh) $ apt-cyg install liblapack-devel
+}}}
+
 == Organizers and participants ==
 
 See [[http://www.fields.utoronto.ca/activities/18-19/sage-days|the Fields Institute webpage]].
