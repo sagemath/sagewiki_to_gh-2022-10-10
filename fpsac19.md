@@ -2,7 +2,7 @@
 
 International Workshop on '''F'''ree and '''P'''ractical '''S'''oftware for '''A'''lgebraic '''C'''ombinatorics
 
-All software are welcome: GAP, SageMath, Maple, Mathematica, ..., (with a preference for open source).
+Although the organizers are primarily in the SageMath community, all software is welcome: GAP, Maple, Mathematica, ..., with a preference for [[https://en.wikipedia.org/wiki/Free_software|free software]].
 
 Dates: July 8-12, 2019
 
