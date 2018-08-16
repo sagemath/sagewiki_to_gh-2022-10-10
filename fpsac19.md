@@ -1,6 +1,8 @@
 = Free and Practical Software for Algebraic Combinatorics =
 
-International SageMath Workshop on '''F'''ree and '''P'''ractical '''S'''oftware for '''A'''lgebraic '''C'''ombinatorics
+International Workshop on '''F'''ree and '''P'''ractical '''S'''oftware for '''A'''lgebraic '''C'''ombinatorics
+
+All software are welcome: GAP, SageMath, Maple, Mathematica, ..., (with a preference for open source).
 
 Dates: July 8-12, 2019
 
