@@ -17,7 +17,7 @@ A tentative list of projects will be made available soon.
 In the meantime, we would like to know, if you are planning to attend, the following information.
 
     - What tutorials would you like to see presented?
-    - What level of SageMath user are you (beginner, experienced user, developer, etc.)?
+    - What level of user are you (beginner, experienced user, developer, etc.)?
 
 You can put this information on the page [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|here]].
 
