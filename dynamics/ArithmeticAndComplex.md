@@ -36,27 +36,23 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/25952|#25952]]) needs-review: smallest coefficient model for binary forms and dynamical systems - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/25795|#25785]]) positive-review: error in Well's algorithm for canonical height - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/25839|#25839]]) positive-review: Raise Error if Univariate PR used to construct ProjectiveSpace - Joseph Lupo
 
- * ([[http://trac.sagemath.org/ticket/25795|#25785]]) positive-review: Raise Error if Univariate PR used to construct ProjectiveSpace - Joseph Lupo
-
- * ([[http://trac.sagemath.org/ticket/25795|#25785]]) positive-review: minor optimization in comparison between morphisms - Raghukul Raman
+ * ([[http://trac.sagemath.org/ticket/25795|#25795]]) positive-review: minor optimization in comparison between morphisms - Raghukul Raman
 
  * ([[http://trac.sagemath.org/ticket/25745|#25745]]) needs-work: Periodic Proportion Homomorphism over Finite Fields - Rebecca Lauren Miller
 
+ * ([[http://trac.sagemath.org/ticket/25701|#25701]]) needs-work: Implement Sieve algorithm for product_projective space - Raghukul Raman
+
  * ([[http://trac.sagemath.org/ticket/25237|#25237]]) needs-review: normlize_coordinates for projective morphism not fully normalized - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/25446|#25446]]) positive-review: compute all orbits of minimal models of dynamical systems - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/25239|#25239]]) new: QQbar points of subschemes not valid
+ * ([[http://trac.sagemath.org/ticket/25239|#25239]]) new: QQbar points of subschemes not valid - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/25243|#25243]]) needs-review: is postcritically finite failure for extensions - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/25241|#25241]]) positive-review: fix issue with change_ring for polynomials with Maps - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/23806|#23806]]) needs-info: don't choose default affine patch on projective point init - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/23807|#23807]]) needs-info: fix issues with identical affine patches - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/23807|#23807]]) needs-work: fix issues with identical affine patches - Ben Hutz, Peter Bruin, Raghukul Raman
 
  * ([[http://trac.sagemath.org/ticket/23816|#23816]]) needs-review: left matrix action on scheme points - Ben Hutz
 
@@ -95,6 +91,12 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
+ * --([[http://trac.sagemath.org/ticket/25939|#25939]])-- closed sage-8.4: error in Well's algorithm for canonical height - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/25897|#25897]])-- closed sage-8.4: incorrect Comparison of embedding index in projective_embedding - Raghukul Raman
+
+ * --([[http://trac.sagemath.org/ticket/25878|#25878]])-- closed sage-8.4: implement Height function for product morphism - Raghukul Raman
+
  * --([[http://trac.sagemath.org/ticket/25821|#25821]])-- closed sage-8.4: implement height functions for product points - Raghukul Raman 
 
  * --([[http://trac.sagemath.org/ticket/25792|#25792]])-- closed sage-8.4: add dehomogenize function for product projective point - Raghukul Raman 
@@ -104,6 +106,10 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  * --([[http://trac.sagemath.org/ticket/25697|#25697]])-- closed sage-8.4: Implement enumeration over QQ for product projective schemes - Raghukul Raman 
 
  * --([[http://trac.sagemath.org/ticket/25523|#25523]])-- closed sage-8.4: Raise Exception if DynamicalSystem initialized with coeffs not in given domain - Joseph Lupo
+ 
+ * --([[http://trac.sagemath.org/ticket/25446|#25446]])-- closed sage-8.4: compute all orbits of minimal models of dynamical systems - Ben Hutz
+ 
+ * --([[http://trac.sagemath.org/ticket/25241|#25241]])-- closed sage-8.4: fix issue with change_ring for polynomials with Maps - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/25780|#25780]])-- closed sage-8.3: Normalize bound checking in points function - Raghukul Raman 
 
