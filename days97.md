@@ -40,7 +40,7 @@ You can register and see who has already registered on the [[https://conferences
 
 == Contact ==
 
-[[mailto:sage-days-97-org-request@listes.math.cnrs.fr|Email]] the organisers for any enquiry about the workshop.
+[[mailto:sage-days-97-org@listes.math.cnrs.fr|Email]] the organisers for any enquiry about the workshop.
 
 == Organisers ==
 
