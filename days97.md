@@ -29,11 +29,11 @@ There will be an install party on Sunday night for anyone interested.
 To be finalised, taking strong inspiration from the schedule for the
 [[days92|"Software tools for mathematics" workshop in Morelia in January 2018]].
 
-We will start by two days of Software Carpentry training, covering the Unix shell, version control with Git, and programming with Python, delivered by Software Carpentry instructors.
+We will start by two days of Software Carpentry training, covering the [Unix shell](http://swcarpentry.github.io/shell-novice/), version control with [Git](http://swcarpentry.github.io/git-novice/), and programming with [Python](http://swcarpentry.github.io/python-novice-inflammation/), delivered by [Software Carpentry](https://software-carpentry.org/ "Software Carpentry") instructors.
 
-The GAP mini-course on Wednesday will be led by Alexander Konovalov.
+The GAP mini-course on Wednesday will be led by [Alexander Konovalov](https://alex-konovalov.github.io/year-archive/).
 
-The remaining two days will be dedicated to other math-oriented research tools, such as SageMath and CoCalc (Samuel Lelièvre), LaTeX topics for the working mathematician (Nino Bašić) and contributed talks.
+The remaining two days will be dedicated to other math-oriented research tools, such as SageMath and CoCalc ([[slelievre|Samuel Lelièvre]]), LaTeX topics for the working mathematician ([[http://osebje.famnit.upr.si/~nino.basic/|Nino Bašić]]) and contributed talks.
 
 On Thursday afternoon there will be a problem session to give participants an opportunity to submit math problems whose solution might involve programming. There will also be time for discussion about math tools not covered in the workshop.
 
