@@ -36,8 +36,9 @@ On Thursday afternoon there will be a problem session to give participants an op
 
 == Participants ==
 
-The list of participants will be at [[days97/participants]].
-Stay tuned until we put registration in place.
+Registration page: [[https://conferences.famnit.upr.si/indico/event/11/registration/registrants]]
+
+The list of participants is at [[days97/participants]].
 
 == Contact ==
 
