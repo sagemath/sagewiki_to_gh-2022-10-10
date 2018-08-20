@@ -34,11 +34,9 @@ The remaining two days will be dedicated to other math-oriented research tools, 
 
 On Thursday afternoon there will be a problem session to give participants an opportunity to submit math problems whose solution might involve programming. There will also be time for discussion about math tools not covered in the workshop.
 
-== Participants ==
+== Registration and registered participants ==
 
-Registration page: [[https://conferences.famnit.upr.si/indico/event/11/registration/registrants]]
-
-The list of participants is at [[days97/participants]].
+You can register and see who has already registered on the [[https://conferences.famnit.upr.si/indico/event/11/registration/registrants|registration page]].
 
 == Contact ==
 
