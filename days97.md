@@ -26,9 +26,6 @@ There will be an install party on Sunday night for anyone interested.
 
 == Schedule ==
 
-To be finalised, taking strong inspiration from the schedule for the
-[[days92|"Software tools for mathematics" workshop in Morelia in January 2018]].
-
 We will start by two days of Software Carpentry training, covering the [[http://swcarpentry.github.io/shell-novice/|Unix shell]], version control with [[http://swcarpentry.github.io/git-novice/|Git]], and programming with [[http://swcarpentry.github.io/python-novice-inflammation/|Python]], delivered by [[https://software-carpentry.org/|Software Carpentry]] instructors.
 
 The GAP mini-course on Wednesday will be led by [[https://alex-konovalov.github.io/year-archive/|Alexander Konovalov]].
