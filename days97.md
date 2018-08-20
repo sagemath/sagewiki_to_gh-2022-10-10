@@ -55,10 +55,10 @@ Email the organisers for any enquiry about the workshop.
 
 == Organisers ==
 
-  * [[https://www.fmf.uni-lj.si/si/imenik/21911/|Nino Bašič]] (FMF, U Ljubljana, Ljubljana, Slovenia)
+  * [[https://www.fmf.uni-lj.si/si/imenik/21911/|Nino Bašić]] (FMF, University of Primorska, Koper, Slovenia)
   * [[http://katja.not.si/|Katja Berčič]] (CCM, UNAM Morelia, Mexico)
-  * [[http://osebje.famnit.upr.si/~matjaz.krnc/|Matjaž Krnc]] (FAMNIT, U Primorksa, Koper, Slovenia; U Salzburg, Salzburg, Austria)
-  * [[slelievre|Samuel Lelièvre]] (LMO, Orsay, U Paris-Sud, France)
+  * [[http://osebje.famnit.upr.si/~matjaz.krnc/|Matjaž Krnc]] (FAMNIT, University of Primorska, Koper, Slovenia)
+  * [[slelievre|Samuel Lelièvre]] (LMO, Orsay, University of Paris-Sud, France)
 
 == Support ==
 
