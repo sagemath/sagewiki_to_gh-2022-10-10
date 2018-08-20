@@ -65,7 +65,6 @@ Email the organisers for any enquiry about the workshop.
 We acknowledge financial and organisational support from
 
   * [[http://opendreamkit.org/|OpenDreamKit]], the Horizon 2020 European Research Infrastructures project #676541,
-  * [[http://www.famnit.upr.si/|The Faculty of Mathematics, Natural Sciences and Information Technologies (FAMNIT)]],
-  * [[http://www.upr.si/|University of Primorska]],
-  * [[http://www.iam.upr.si/en/|Andrej Marušič Institute]],
+  * [[http://www.famnit.upr.si/|The Faculty of Mathematics, Natural Sciences and Information Technologies (FAMNIT)]], University of Primorska,
+  * [[http://www.iam.upr.si/en/|Andrej Marušič Institute (IAM)]], University of Primorska,
   * [[http://sdams.si/en|Slovenian Discrete and Applied Mathematics Society]].
