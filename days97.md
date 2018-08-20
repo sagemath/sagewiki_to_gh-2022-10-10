@@ -20,29 +20,22 @@ The workshop will start on Monday morning, 2018-09-24, and end on Friday
 evening, 2018-09-28.
 
 We suggest participants plan to arrive on Sunday, 2018-09-23 (or before)
-and leave on Saturday, 2018-09-29 (or after).
+and leave on Saturday, 2018-09-29 (or after).  
 
 There will be an install party on Sunday night for anyone interested.
-
-== Themes, project ==
-
-A tentative list of projects is at [[days97/projects]].
 
 == Schedule ==
 
 To be finalised, taking strong inspiration from the schedule for the
 [[days92|"Software tools for mathematics" workshop in Morelia in January 2018]].
 
-We plan two days of [[https://software-carpentry.org/|Software Carpentry]] training,
-covering "the Unix shell", "version control with Git", and "programming with GAP",
-delivered by Software Carpentry instructors.
+We will start by two days of Software Carpentry training, covering the Unix shell, version control with Git, and programming with Python, delivered by Software Carpentry instructors.
 
-Wednesday, Thursday and Friday, we will focus on mathematical software and
-databases with lots of talks, tutorials and demos about the various software
-including but not restricted to !CoCalc, DiscreteZOO, GAP, Jupyter, LaTeX, !SageMath.
+The GAP mini-course on Wednesday will be led by Alexander Konovalov.
 
-We plan to include a problem session on Thursday afternoon where people can submit
-math problems whose solution might involve programming, for everyone to think about.
+The remaining two days will be dedicated to other math-oriented research tools, such as SageMath and CoCalc (Samuel Lelièvre), LaTeX topics for the working mathematician (Nino Bašić) and contributed talks.
+
+On Thursday afternoon there will be a problem session to give participants an opportunity to submit math problems whose solution might involve programming. There will also be time for discussion about math tools not covered in the workshop.
 
 == Participants ==
 
