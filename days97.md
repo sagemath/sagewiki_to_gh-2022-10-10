@@ -31,7 +31,7 @@ To be finalised, taking strong inspiration from the schedule for the
 
 We will start by two days of Software Carpentry training, covering the [Unix shell](http://swcarpentry.github.io/shell-novice/), version control with [Git](http://swcarpentry.github.io/git-novice/), and programming with [Python](http://swcarpentry.github.io/python-novice-inflammation/), delivered by [Software Carpentry](https://software-carpentry.org/ "Software Carpentry") instructors.
 
-The GAP mini-course on Wednesday will be led by [Alexander Konovalov](https://alex-konovalov.github.io/year-archive/).
+The GAP mini-course on Wednesday will be led by [[https://alex-konovalov.github.io/year-archive/|Alexander Konovalov]].
 
 The remaining two days will be dedicated to other math-oriented research tools, such as SageMath and CoCalc ([[slelievre|Samuel Lelièvre]]), LaTeX topics for the working mathematician ([[http://osebje.famnit.upr.si/~nino.basic/|Nino Bašić]]) and contributed talks.
 
