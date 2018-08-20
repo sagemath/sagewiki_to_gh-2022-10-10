@@ -36,7 +36,7 @@ On Thursday afternoon there will be a problem session to give participants an op
 
 == Registration and registered participants ==
 
-You can register and see who has already registered on the [[https://conferences.famnit.upr.si/indico/event/11/registration/registrants|registration page]].
+You can register and see who has already registered on the [[https://conferences.famnit.upr.si/indico/event/11/|registration page]].
 
 == Contact ==
 
