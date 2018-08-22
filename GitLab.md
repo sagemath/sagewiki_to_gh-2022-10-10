@@ -1,5 +1,5 @@
+{{https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo.png||width=100px}}
 In April 2018 we started to experiment more seriously with GitLab and GitLab CI.
-
 = GitLab CI =
 Support for GitLab CI was added in https://trac.sagemath.org/ticket/24655.
 
