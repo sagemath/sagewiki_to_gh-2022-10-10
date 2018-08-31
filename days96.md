@@ -4,6 +4,10 @@ Sage days 96 to be held at the Fields Institute for the program [[http://www.fie
 
 In order to assist to the workshop you are asked to come with your laptop (though you are also welcome without laptop). It would also be great if you could make sure that Sage is installed on it (see "Sage Installation" below).
 
+Workshop dinner on thursday (Sky Dragon on Dundas and Spadina).
+
+<<TableOfContents()>>
+
 == Worksheets ==
 
  * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=intro.en.ipynb|Introduction]] with the picture [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=S_2_1.svg|S_2_1.svg]] to be downloaded in the same folder (the worksheet is also available as [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=intro.en.rst|intro.en.rst]] and [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=intro.en.pdf|intro.en.pdf]])
@@ -133,6 +137,72 @@ Before following the generic instruction do
 
 See [[http://www.fields.utoronto.ca/activities/18-19/sage-days|the Fields Institute webpage]].
 
+== Questions and answers ==
+
+'''Saul''': Why does snake_case have that name?
+<<BR>>
+'''Vincent''': See the discussion here - https://en.wikipedia.org/wiki/Snake_case.
+
+'''Derrick''': If I'm running Sage on a Windows installation, how to I make Jupyter launch in the correct directory?
+<<BR>>
+'''Derrick''': [question 41348 on ask](https://ask.sagemath.org/question/41348/sagemath-windows-81-launching-jupyter-from-another-directory-or-drive/)
+
+'''Aaron''': Does Python have a built-in way to iterate over the product of two iterators that don't necessarily terminate?
+<<BR>>
+'''Vincent''': No, but Sage does have a [cantor_product](https://doc.sagemath.org/html/en/reference/misc/sage/misc/mrange.html).
+Example:
+{{{#!highlight python
+P = sage.misc.mrange.cantor_product(NN, repeat=2)
+for _ in range(10):
+    print(next(P))
+}}}
+produces (0, 0), (1, 0), (0, 1), (2, 0), (1, 1), (0, 2)... Although the feature isn't documented, iterating up to (0, n) only requires n calls to `NN.next()`.
+
+'''Rex''': Let L be a list. To get a new list K with the elements of L in reverse order, we can write K = L[::-1]
+What is each the colons and the -1 telling Sage to do exactly?
+<<BR>>
+'''Vincent''': These are [Python slices](https://docs.python.org/2.3/whatsnew/section-slices.html)
+
+'''Aaron''': How do we specify a quadratic differential?
+<<BR>>
+'''Vincent''': triangulated surface, where the lengths live in some arithmetic.  (Floating point numbers are not numbers!)
+
+'''Saul''': is there a way to start with floating point surface, and quickly rule out "small" components (eg no short cylinders)?
+
+'''Rex''': I'm running something that's printing a list of integers as it runs. Is there any way to tell Sage to truncate the old output (I'm only interested in seeing how far it has gone along)?
+<<BR>>
+'''Vincent''': If you do
+{{{
+from IPython.display import clear_output
+}}}
+then you can use the function `clear_output()` to remove everything in the output.
+Though this slows down a lot the computation.
+
+The following previous answer does not work (in Jupyter)
+{{{
+from sys import stdout
+from time import sleep
+stdout.write('hello\r')
+sleep(1)   # wait for 1 sec
+stdout.write('bouh \r')
+sleep(1)   # wait for 1 sec
+stdout.write('next \r')
+}}}
+The character '\r' means carriage return and go back the the begining of the line so that you can erase what you just wrote.
+But with this method, it only works with one line being updated.
+
+'''Rex''': Do different packages ever have any dependencies such that uninstalling one package causes problems for others?
+For example, if I uninstall flipper at some later point in time (say to reinstall an updated version), could this cause issues with other packages that might rely on flipper?
+<<BR>>
+'''Saul''': Yes, this could happen.  Package management is tricky.
+
+'''Rex''': Also, is there a simpler way to update a package than uninstalling and reinstalling it?
+<<BR>>
+'''Saul''':Something like 
+{{{
+pip install <PACKAGE> --user --upgrade 
+}}}
+
 == Link to Pad ==
 
-At [[https://mensuel.framapad.org/p/sagedays96|this pad]], we will coordinate lunch and so on.
+We used to coordinate using a pad on https://mensuel.framapad.org/ that is now closed.
