@@ -1,5 +1,7 @@
 = Required packages to build SageMath on Ubuntu =
 
+{{http://loco.ubuntu.com/media/images/cof_orange_hex1.png||width=100px}}
+
 Here is the list of Ubuntu packages to install in order to build SageMath from sources (this is for Ubuntu 18.04):
  * git
  * m4
