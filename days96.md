@@ -245,6 +245,52 @@ For example, if I uninstall flipper at some later point in time (say to reinstal
 pip install <PACKAGE> --user --upgrade 
 }}}
 
+
+== Troubles and bug reports ==
+
+=== SageMath documentation on archlinux ===
+
+operating system: archlinux
+sage version: 8.2
+installation: from the package manager pacman
+problem: the documentation with the question mark is not working properly in the
+console. This has been reported to https://bbs.archlinux.org/viewtopic.php?id=239525
+
+=== Archlinux pip installation problem ===
+
+The local installation (done via "pip install X --user") are different within Sage and within Python
+Namely
+{{{
+$ pip2 install X --user
+$ sage -sh -c "pip2 install X --user"
+}}}
+The reason is that PYTHONUSERBASE is set by sage-env before Sage is launched. A patch
+has been sent to Antonio Rojas (who is the maintainer). And it is now solved!
+
+=== Misleading comment in cygwin version ===
+
+Reported at https://groups.google.com/forum/#!topic/sage-devel/wdjj8ur5m9c
+
+=== Numbering mismatch in surface_dynamics ===
+
+Rex: the labeling of the square tiles in an origami is mismatched with the labelings of the vertices in its associated graph. The squares start with 1,2,3,... but the graph vertices begin with 0,1,2,...
+
+=== Documentation requests ===
+
+The example for Graph.vertex_cover makes it look like the method outputs a plot of the graph with the vertex cover colored.
+https://doc.sagemath.org/html/en/reference/graphs/sage/graphs/graph.html#sage.graphs.graph.Graph.vertex_cover
+
+There's no unambiguous description of what the EllipticCurve constructor does.
+https://doc.sagemath.org/html/en/constructions/elliptic_curves.html
+
+The documentation for installing Sage packages under Windows is very misleading. The page
+    https://wiki.sagemath.org/SageWindows
+opens with the sentence, "The major known caveat to the current version of the SageMath Windows install is that it is not currently possible to install Sage optional packages," with no indication that it is possible to install Sage pip packages. The Windows Sage shell has a similarly misleading warning: "Do not use this for installing Sage packages using 'sage -i' ", with no indication that sage pip is usable.
+
+
+The documentation for flatsurf.TranslationSurface.delaunay_single_join is somewhat lacking.
+
+
 == Link to Pad ==
 
 We used to coordinate using a pad on https://mensuel.framapad.org/ that is now closed.
