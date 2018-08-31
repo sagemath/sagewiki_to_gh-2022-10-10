@@ -27,6 +27,48 @@ Workshop dinner on thursday (Sky Dragon on Dundas and Spadina).
  * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=flipper_tutorial.pdf|flipper tutorial]] (for the last exercises you will need [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=flipper_nf_conversion.py|flipper_nf_conversion.py]])
  * [[https://wiki.sagemath.org/days96?action=AttachFile&do=get&target=Fields-2018-flatsurf_and_surface_dynamics_demo.ipynb|flatsurf and surface_dynamics demo]].
 
+== Participant projects ==
+
+Projects for the week
+
+Projects that were done during the week:
+
+ * Aaron (Toronto)
+  * use flatsurf to improve old code
+  * given a triangulated flat surface and a direction, find a representation as the suspension of an IET
+  * shear coordinates of hyperbolic surfaces
+ * Ali (Teheran)
+  * given a flat surface, compute the algebraic equation of the underlying Riemann surface
+  * given a triangulated quadratic differential, decide if it admits a Strebel direction.
+  * equations for covers of Riemann surfaces (and for quotients!)
+  * rewrite code that was previously done in Mathematica (because Sage is OpenSource)
+ * Anja (Toronto)
+  * study some infinite iet on [0,1] with rational discontinuities
+  * order of certain periodic IET's presented in nice way
+ * Chris (Indiana)
+  * find the Iso-Delaunay decomposition (in L^2) of Teichmüller discs
+  * collect evidence the Iso-Delaunay decomposition (in L^2) of Q(S) - are the "cells" contractible?
+ * Ian (Toronto)
+  * Delaunay problem: Given a triangulated quadratic differential, compute the L^infinity Delaunay triangulation
+  * Build the horocycle automaton. (Saul: Once you have the veering automaton, you just need to find the horocyclic edges....)
+  * Build all of the veering automata for strata of dimension at most four.
+ * Rex (Toronto)
+  * work with homogeneous spaces (integration over H^2 / Gamma and possibly working in higher rank)
+ * Saul (Warwick)
+  * layout problem: given a triangulated quadratic differential, draw it (ie unfold the triangulation in the plane without crashes)
+  * automate producing automata - how can we lay out the graphs in a sensible fashion?  What are their automorphisms?
+ * Ser-Wei
+  * redo some old examples in Sage
+  * Suppose that D is a (Veech!) Teichmuller disk in M_{0,5}.  Fix \tau a track that carries all of the boundary laminations for D.  What is the image of \bdy D in P(\tau) (the polytope of projectivised measured laminations)?  Draw it in Sage!
+ * Vincent (Bordeaux)
+  * given a translation surface, decompose the vertical into components
+  * given a stratum Q(\kappa) find a geometric veering triangulation in it. (aka a seed for the automaton) -> done!!
+  * given a geometric veering triangulation, decide if it is regular or not.
+  * generate cylinder diagrams for quadratic differentials
+  * layout of surface, loaded from flipper
+ * Adriano (Toronto), Christine (New York), Dan (Toronto), Derrick (Toronto), Paul (Oklahoma), Pratyush (Yale), Yvon (Toronto)
+  * worksheets
+
 == Sage Installation ==
 
 The installation procedure depends on your operating system:
