@@ -11,11 +11,11 @@ Here is the list of Ubuntu packages to install in order to build SageMath from s
 
 In addition, it is recommended to install
  * texlive-generic-extra ''(to generate pdf documentation)''
- * texlive-xetex   ''(to convert Jupyter notebooks to pdf)''
+ * texlive-xetex ''(to convert Jupyter notebooks to pdf)''
  * latexmk ''(to generate pdf documentation)''
- * pandoc   ''(to convert Jupyter notebooks to pdf)''
- * ffmpeg
- * libavdevice-dev
+ * pandoc ''(to convert Jupyter notebooks to pdf)''
+ * ffmpeg ''(to produce animations)'' 
+ * libavdevice-dev ''(to produce animations)'' 
 
 
 For more details, see the  [[http://doc.sagemath.org/html/en/installation/source.html#prerequisites|Prerequisites section]] of Sage Installation Guide.
