@@ -139,13 +139,14 @@ See [[https://groups.google.com/d/msg/sage-devel/jdLfIKQ1M18/PVQqJUUqAgAJ|this p
   * Nix package manager: https://nixos.org/nix/
   * Sage package: https://github.com/NixOS/nixpkgs/tree/master/pkgs/applications/science/math/sage
   * Distribution-agnostic, functional, declarative package managing.
-  * Should always have 0 doctest failures. To achieve that, [[https://github.com/NixOS/nixpkgs/tree/master/pkgs/applications/science/math/sage/default.nix|some]] dependency versions are pinned. That is not an issue because Nix allows multiple versions of a package to be installed at the same time.
+  * Should always have 0 doctest failures. To achieve that, [[https://github.com/NixOS/nixpkgs/tree/master/pkgs/applications/science/math/sage/default.nix|some]] dependency versions are pinned. That is not an issue because Nix allows multiple versions of a package to be installed at the same time. However the goal is to minimize the amount of pinned dependencies.
   * Should work on most Linux distributions. More precisely any Linux distro where the Nix package manager is available, e.g. [[https://aur.archlinux.org/packages/nix|ArchLinux]], Debian, [[https://nixos.org/nix/|others]] -- definitely works on [[https://nixos.org/|NixOS]].
   * Tested on x86 Linux. Probably works on ARM but that is as of yet untested.
-  * Could run on Darwin, but currently doesn't since some dependencies don't have Darwin-specific patches. If you're a Darwin user, help with that would be very much appreciated.
+  * Could run on Darwin, but currently doesn't since some dependencies don't have Darwin-specific patches. If you're a Darwin user, help with that would be very much appreciated. This is [[https://github.com/NixOS/nixpkgs/pull/45364|work in progress]].
   * Might even work with the "Windows Subsystem for Linux", but probably needs some patches. Absolutely untested.
   * Allows user-installs, given that the nix package manager is already installed.
   * To install: `nix-env -iA nixpkgs.sage` or on NixOS just add sage to your `environment.systemPackages`
+  * Betas are usually packaged in [[https://github.com/NixOS/nixpkgs/pull/44527|a PR]] until the release is final.
   * Currently (2018-07-26) maintained by timokau. Any help is appreciated. If you are interested (even if you don't know anything about nix yet), [[open an issue||https://github.com/NixOS/nixpkgs/issues/new]] pinging @timokau and I'll help you get started.
 
 == RPM package (Fedora, Mandriva) ==
