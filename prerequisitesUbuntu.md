@@ -14,6 +14,7 @@ In addition, it is recommended to install
  * texlive-xetex ''(to convert Jupyter notebooks to pdf)''
  * latexmk ''(to generate pdf documentation)''
  * pandoc ''(to convert Jupyter notebooks to pdf)''
+ * default-jdk ''(to run the Jmol 3D viewer from the console and generate images for 3D plots in the documentation)''
  * ffmpeg ''(to produce animations)'' 
  * libavdevice-dev ''(to produce animations)'' 
 
