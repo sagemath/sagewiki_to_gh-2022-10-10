@@ -8,6 +8,10 @@ There is already something called [[http://thesagefoundation.org/|The SAGE found
 
 Note that http://www.irs.gov/charities/ lists several charities whose status has recently been revoked which have the same name. (They were from different states though.) Possibly a SAGE Foundation of New Jersey is unique.
 
+Apparently, people can "donate to the SAGE foundation" using this link : https://www.washington.edu/giving/make-a-gift/?page=make&Code=MATSAG
+
+||<#FF6347> Who is in charge ? How much money is collected ? How does this benefit to sage ? ||
+
 == Mission Statement ==
 
  * Here are some questions and answers which hopefully this statement will help answer:
