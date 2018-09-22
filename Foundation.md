@@ -1,5 +1,7 @@
 <<EmbedObject(logo_sagemath_foundation.svg, width=40%)>>
 
+[[https://www.washington.edu/giving/make-a-gift/?page=make&Code=MATSAG| Donate! ]]
+
 == SageMath Foundation ==
 
 SAGE clearly needs a '''SAGE Foundation'''. 
