@@ -1,4 +1,6 @@
-== The SAGE Mathematics Foundation ==
+<<EmbedObject(logo_sagemath_foundation.svg, width=40%)>>
+
+== SageMath Foundation ==
 
 SAGE clearly needs a '''SAGE Foundation'''. 
 
