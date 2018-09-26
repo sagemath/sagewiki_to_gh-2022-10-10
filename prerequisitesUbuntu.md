@@ -8,6 +8,7 @@ Here is the list of Ubuntu packages to install in order to build SageMath from s
  * gfortran
  * libssl-dev
  * python-pip
+ * automake (should no longer be required after [[https://trac.sagemath.org/ticket/26298|#26298]] is merged)
 
 In addition, it is recommended to install
  * texlive-generic-extra ''(to generate pdf documentation)''
