@@ -35,7 +35,4 @@ Another list by the AMS [[http://www.mathontheweb.org/mathweb/mi-software.html|h
 || Yacas ||   GPL || http://yacas.sourceforge.net ||
 Omitted is ''CAFE'' (Computer Algebra and Functional Equations),  a group writing a collection of CAS libraries  (see  [[http://www-sop.inria.fr/cafe/main-e.html|CAFE]]). They appear to be written in Aldor and Maple by (the late) Manuel Bronstein. I (=David Joyner) cannot determine the license (if any)  they are released under. I am also unsure if the  "open source" licenses of LiDIA, MAS, and Scilab are compatible with the above-mentioned open source definition. Several of these are under very active development and some of these are essentially dead. Two other sources of information are the Computer algebra handbook [[[#references|GKW]]] and the internet sites [[[#references|CA]]].
 
-In any case, we see from this table that there are a lot of  open source computer algebra systems out there. Some of these are special purpose (such as Symmetrica) and others are general purpose (such as Axiom). We shall start by surveying Maxima, a general purpose CAS.
-
- * [[Maxima_as_an_OSCAS]]
- * [[Axiom_as_an_OSCAS]]
+In any case, we see from this table that there are a lot of open source computer algebra systems out there. Some of these are special purpose (such as Symmetrica) and others are general purpose (such as Axiom).
