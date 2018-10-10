@@ -39,6 +39,10 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 4 octobre ====
+
+Présents: Pascal, Adrien, Vincent K.
+
 ==== Jeudi 5 juillet ====
 
 Présents: Sébastien, Vincent K.
