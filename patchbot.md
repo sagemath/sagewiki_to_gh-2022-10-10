@@ -53,10 +53,6 @@ The color of the report page icon indicates the status of the ticket. See the re
 
 It is safer to run the patchbot in an unused sage install.
 
-||<style="width: 99%; text-align: center;background-color: #FFCCCC;">WARNING: Install mode has changed a lot with patchbot ≥ 2.6.0||
-
-These are the new instructions.
-
 ||<#FFFF66>① Install the patchbot using '''pip install --user git+https://github.com/sagemath/sage-patchbot.git'''||
 
 Dependencies: shell commands '''git'''; '''tar'''; '''wget'''
