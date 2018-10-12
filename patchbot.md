@@ -202,7 +202,7 @@ then
 {{{
 cd sage-patchbot/
 }}}
-launch ipython and (for patchbot version ≥ 2.6.2)
+launch ipython and
 {{{
 from sage_patchbot.patchbot import Patchbot
 
@@ -215,7 +215,7 @@ P.test_a_ticket(14974)   # just test one ticket and stop
 P.test_some_tickets([14974, 19876, 20202])  # test several tickets in the given order
 }}}
 
-The argument dictionary must contain at least (patchbot version ≥ 2.6.2):
+The argument dictionary must contain at least:
 {{{
 {'sage_root': path to the sage local repository}
 }}}
