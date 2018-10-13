@@ -26,6 +26,10 @@ There is also a repository on Github: [[https://github.com/sagemath/artwork | gi
 
 <<EmbedObject(logo_proposal_version1.svg,width=20%)>><<EmbedObject(logo_proposal_version2.svg,width=20%)>>
 
+== Wallpaper ==
+
+<<EmbedObject(wallpaper_sagemath2.svg, width=60%)>>
+
 == Color scheme ==
 
 ||<style="color: white; background-color:blue">White on blue background||
