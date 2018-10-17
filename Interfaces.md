@@ -83,3 +83,13 @@ Some software systems provide an interface to Sage.
 
   * wiki page here: https://wiki.sagemath.org/TeXmacs
   * wiki page there: http://www.texmacs.org/tmweb/plugins/cas.en.html
+
+=== GAP / homalg ===
+
+The GAP package '''homalg''' is "a homological algebra meta-package for
+computable Abelian categories".
+
+It provides a way to call Sage from GAP.
+
+  * package page: https://www.gap-system.org/Packages/homalg.html
+  * home plage: https://homalg-project.github.io/homalg_project/homalg/
