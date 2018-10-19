@@ -49,15 +49,14 @@ Sébastien: Discussion avec Pascal sur son projet de Stallings graphs. Création
 
 Présents: Pascal, Adrien, Vincent K.
 
-Sébastien (au Québec) a fait la revue de [[https://trac.sagemath.org/ticket/26486|#26486]] (clean distances_all_pairs.pyx) et [[https://trac.sagemath.org/ticket/26348|#26348]] (3 other internet doctests failing in findstat.py)
-Sébastien a bossé sur: [[https://trac.sagemath.org/ticket/26473|#26473]] (py3: fix doctests failures of sage/combinat/words/word_*datatype*)
+Sébastien (au Québec) a fait la revue de [[https://trac.sagemath.org/ticket/26486|#26486]] (clean distances_all_pairs.pyx) et [[https://trac.sagemath.org/ticket/26348|#26348]] (3 other internet doctests failing in findstat.py) et a bossé sur: [[https://trac.sagemath.org/ticket/26473|#26473]] (py3: fix doctests failures of sage/combinat/words/word_*datatype*)
 
 
 ==== jeudi 4 octobre 2018 ====
 
 Présents: Pascal, Adrien, Vincent K.
 
-Sébastien (au Québec): [[https://trac.sagemath.org/ticket/25378|#25378]] I/O operation on closed file when sage -t --optional=sage,external --logfile is_provided.log
+Sébastien (au Québec): [[https://trac.sagemath.org/ticket/25378|#25378]] (I/O operation on closed file when sage -t --optional=sage,external --logfile is_provided.log)
 
 ==== Jeudi 5 juillet 2018 ====
 
