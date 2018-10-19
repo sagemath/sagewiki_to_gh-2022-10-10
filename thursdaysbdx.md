@@ -39,19 +39,19 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
-==== jeudi 18 octobre ====
+==== jeudi 18 octobre 2018 ====
 
 Présents: Pascal, Adrien, Vincent K., Sébastien.
 
 Sébastien: Discussion avec Pascal sur son projet de Stallings graphs. Création de [[https://trac.sagemath.org/ticket/26502|#26502]]
 
-==== jeudi 11 octobre ====
+==== jeudi 11 octobre 2018 ====
 
 Présents: Pascal, Adrien, Vincent K.
 
 Sébastien (au Québec) a fait la revue de [[https://trac.sagemath.org/ticket/26486|#26486]] (clean distances_all_pairs.pyx) et [[https://trac.sagemath.org/ticket/26348|#26348]] (3 other internet doctests failing in findstat.py)
 
-==== jeudi 4 octobre ====
+==== jeudi 4 octobre 2018 ====
 
 Présents: Pascal, Adrien, Vincent K.
 
@@ -65,7 +65,7 @@ Sébastien:
  * [[https://trac.sagemath.org/ticket/25537|#25537]]: needs review
  * reviewed: [[https://trac.sagemath.org/ticket/23416|#23416]]
 
-==== Jeudi 28 juin ====
+==== Jeudi 28 juin 2018 ====
 
 Présents: Pascal, Milton, Vincent K.
 
@@ -75,7 +75,7 @@ Vincent K. :
  * [[https://trac.sagemath.org/ticket/25661|#25661]]: Implémentation et tests.
  * cysignals-windows: Rebase sur la prochaine version cysignals.
 
-==== Jeudi 21 juin ====
+==== Jeudi 21 juin 2018 ====
 
 Présents: Vincent K, Sébastien, Nicolas, Mélodie, Milton
 
@@ -83,19 +83,19 @@ Sébastien:
 
  * reviewed [[https://trac.sagemath.org/ticket/25525|#25525]], [[https://trac.sagemath.org/ticket/25526|#25526]]
 
-==== Jeudi 14 juin ====
+==== Jeudi 14 juin 2018 ====
 
 Présents: Pascal, Vincent K.
 
-==== Jeudi 7 juin ====
+==== Jeudi 7 juin 2018 ====
 
 Présents: Pascal, Sebastien, Vincent D., Vincent K., Elise Vandomme ... (à compléter)
 
-==== Jeudi 31 mai ====
+==== Jeudi 31 mai 2018 ====
 
 Présents : Pascal, Milton, Vincent K
 
-==== Jeudi 24 mai ====
+==== Jeudi 24 mai 2018 ====
 
 Présents : Sébastien, Pascal, Milton, Vincent K, Andrew
 
@@ -106,7 +106,7 @@ Sébastien:
  * fixed issues in [[https://trac.sagemath.org/ticket/25125|#25125]] which needs review
  * reviewed [[https://trac.sagemath.org/ticket/10091|#10091]]
 
-==== Jeudi 17 mai ====
+==== Jeudi 17 mai 2018 ====
 
 Présents : Sébastien, Pascal, Milton, Vincent K, Vincent D, Mélodie, Nadia, David, Yvan, Michael
 
@@ -153,31 +153,31 @@ Sébastien:
 Mélodie:
 
  * new ticket [[https://trac.sagemath.org/ticket/25384|#25384]]
-==== Jeudi 10 mai ====
+==== Jeudi 10 mai 2018 ====
 
 Congé.
 
-==== Jeudi 3 mai ====
+==== Jeudi 3 mai 2018 ====
 
 Présents : Sébastien, Pascal, Milton
 
  * Discussion sur l'égalité et la décomposition en cycles pour les sous-groupes finiment engendrés du groupe libre
  * Discussion sur les Tree Patch et substitutions d'arbres
 
-==== Jeudi 26 avril ====
+==== Jeudi 26 avril 2018 ====
 
 Présents : Vincent K, Sébastien, Pascal
 
  * Sébastien a fait la relecture de [[https://trac.sagemath.org/ticket/25218|#25218]]
  * Discussion sur la création de classes pour les sous-groupes finiment engendrés du groupe libre
 
-==== Jeudi 19 avril ====
+==== Jeudi 19 avril 2018 ====
 
 Présents : Vincent K, Vincent D, Milton, Pascal
 
  * Pascal a présenté son projet sur les Stallings graphs
 
-==== Jeudi 12 avril ====
+==== Jeudi 12 avril 2018 ====
 
 Présents : Sebastien Labbé et Vincent Klein
 
@@ -185,7 +185,7 @@ Présents : Sebastien Labbé et Vincent Klein
  * Vincent : (cysignals-windows). Dev et test sur le monkey patch des distutils pour cysignals. 
 
 
-==== Jeudi 5 avril ====
+==== Jeudi 5 avril 2018 ====
 
 Présents : Sebastien Labbé, Milton et Vincent Klein
 
@@ -195,11 +195,11 @@ Présents : Sebastien Labbé, Milton et Vincent Klein
     * #24880: Gestion retours et passage en need_review.
     * #24966: Test sous High Sierra.
 
-==== Jeudi 29 Mars ====
+==== Jeudi 29 Mars 2018 ====
 
 Pause, trop d'absent.
 
-==== Jeudi 22 Mars ====
+==== Jeudi 22 Mars 2018 ====
 
 Présents : Sebastien Labbé, Pascal Weil, Milton et Vincent Klein
 
@@ -208,13 +208,13 @@ Présents : Sebastien Labbé, Pascal Weil, Milton et Vincent Klein
  * Vincent K : cysignals-windows : Rebase et tests.
  * Sébastien : Aide et écriture de la démo de Milton en [[https://github.com/seblabbe/EkEkstar/blob/master/demos/2018-03-22-demo.rst|demo.rst]] et [[https://github.com/seblabbe/EkEkstar/blob/master/demos/2018-03-22-demo.ipynb|demo.ipynb]]
 
-==== Jeudi 15 Mars ====
+==== Jeudi 15 Mars 2018 ====
 
  * Pascal : Random Stallings graphs
  * Vincent K : Ouverture https://github.com/sagemath/cysignals/issues/75 et merge de branches.
  * Sébastien : Aide et travail sur Wang tilings
 
-==== Jeudi 8 Mars ====
+==== Jeudi 8 Mars 2018 ====
 
  * Vincent D
 
@@ -227,23 +227,23 @@ Présents : Sebastien Labbé, Pascal Weil, Milton et Vincent Klein
    * Passage en need review [[https://trac.sagemath.org/ticket/23852|#23852 (length-checking iterator)]]. 
    * cysignals-windows: Fix patch distutils pour python3.4 64 bits. 
 
-==== Jeudi 8 Février ====
+==== Jeudi 8 Février 2018 ====
 
 9 participants!
 
-==== Jeudi 1er Février ====
+==== Jeudi 1er Février 2018 ====
 
  * démo par Vincent Delecroix et Bill Allombert du calcul de groupes de Galois
  * tentative de reproduire les calculs de Shigeki Akiyama sur les polytopes qui minimise l'aire de surface
 
-==== Jeudi 25 janvier ====
+==== Jeudi 25 janvier 2018 ====
 Présents : Sebastien Labbé, Milton et Vincent Klein
 
 Vincent K.
  * cysignals : Etude d'une implémentation sous windows.
  * Suivi sur [[https://trac.sagemath.org/ticket/22928|#22928]]
 
-==== Jeudi 18 janvier ====
+==== Jeudi 18 janvier 2018 ====
 
 Présents : Pascal Weil, Sebastien Labbé et Vincent Klein
 
@@ -252,16 +252,16 @@ Vincent K.
  * cypari2 : Retours sur la proposition des unittest.
  * Point d'avancement odk avec Seb.
 
-==== Jeudi 21 décembre ====
+==== Jeudi 21 décembre 2017 ====
 
  ... todo ...
 
-==== Jeudi 14 décembre ====
+==== Jeudi 14 décembre 2017 ====
 
 Sébastien Labbé et Pascal Weil:
  * Génération aléatoire de graphes de Stallings, le code est ici: [[https://github.com/seblabbe/slabbe/blob/develop/slabbe/partial_injection.py|partial_injection.py]]
 
-==== Jeudi 30 Novembre ====
+==== Jeudi 30 Novembre 2017 ====
 
 Vincent D
  * discussion sur la parentalité et les catégories [[https://trac.sagemath.org/ticket/21380]]
@@ -272,26 +272,26 @@ Sébastien et Vincent D:
 Vincent K
  * Syntax higlihting sur le kernel jupyter de singular [[https://github.com/OpenDreamKit/OpenDreamKit/issues/175|OpenDreamKit #175]], [[https://github.com/sebasguts/jupyter_kernel_singular/pull/7| PR #7]].
 
-==== Jeudi 16 Novembre ====
+==== Jeudi 16 Novembre 2017 ====
 Vincent K :
  * gmpy2 résolution [[https://github.com/aleaxit/gmpy/issues/170|issue #170]].
  * [[https://trac.sagemath.org/ticket/22928|#22928]] conversion entre nombres complexes sage et type gmpy2.
 
-==== Jeudi 19 octobre ====
+==== Jeudi 19 octobre 2017 ====
 
  * Sebastien nous as présenté son package slabbe
    Auditeurs : Philippe, José, Vincent K.
 
-==== Jeudi 12 octobre ====
+==== Jeudi 12 octobre 2017 ====
 
  * (Vincent D) présentation du logiciel Sage (auditeurs: Philippe, Lamine). L'objectif était de montrer comment manipuler des équations (algébriques ou symboliques)
 
-==== Jeudi 21 septembre ====
+==== Jeudi 21 septembre 2017 ====
 
  * Présentation de Vincent Klein
  * Présentation d'Aurel Page
 
-==== Jeudi 14 septembre ====
+==== Jeudi 14 septembre 2017 ====
 
 Sébastien:
 
@@ -309,13 +309,13 @@ Vincent K:
  * Travail sur la generation de tests pour [[https://github.com/defeo/cypari2|cypari2]]
  * Syntax Highlightning de pari-jupyter : Tentative d'installation du kernel de gap [[https://github.com/gap-packages/jupyter-kernel-gap/issues/43|issue #43]] 
 
-==== Jeudi 29 juin ====
+==== Jeudi 29 juin 2017 ====
 
 Vincent K.
 
  * Review du ticket [[https://trac.sagemath.org/ticket/22889|#22889]] (positive_review)
 
-==== Jeudi 22 juin ====
+==== Jeudi 22 juin 2017 ====
 
 Sylvain L. est venu nous présenter Wali (la suite de Vaucanson)! Intégration dans Sage en prévision... à suivre!
 
@@ -331,7 +331,7 @@ Vincent K.
  * Travail sur [[https://trac.sagemath.org/ticket/22928|#22928]] et [[https://trac.sagemath.org/ticket/22927|#22927]], integration du type gmpy.mpfr avec les nombres sage.
  * Ouverture du ticket [[https://trac.sagemath.org/ticket/23308| #23308]]
 
-==== Jeudi 15 juin ====
+==== Jeudi 15 juin 2017 ====
 
 Sébastien L is reviewing:
 
@@ -349,20 +349,20 @@ Vincent D
  * Travil sur pplpy (problème de pickling)
  * Ouverture du ticket [[https://trac.sagemath.org/ticket/23248|#23248]]
 
-==== Mardi 13 juin ====
+==== Mardi 13 juin 2017 ====
 
 Vincent K 
 
  * Travail sur pplpy. Notamment [[https://github.com/videlec/pplpy/issues/22|issue #22]]
 
-==== jeudi 1 juin ====
+==== jeudi 1 juin 2017 ====
 
 Adrien is working on ticket [[https://trac.sagemath.org/ticket/16110|#16110]] of Parallelogram polyominoes. 
 
 Vincent K
 
  * Travail sur l'intégration de pplpy dans sage ([[https://trac.sagemath.org/ticket/23024|#23024]])
-==== jeudi 18 mai ====
+==== jeudi 18 mai 2017 ====
 
 Sébastien is reviewing the following tickets and making sure they work on OSX:
 
@@ -376,7 +376,7 @@ Vincent D & K
  * travail sur [[https://github.com/videlec/pplpy/|pplpy]]
  * Ouverture et travail sur le ticket [[https://trac.sagemath.org/ticket/23024|#23024]]
 
-==== jeudi 11 mai ====
+==== jeudi 11 mai 2017 ====
 
 Sébastien a reviewé:
 
@@ -387,7 +387,7 @@ Vincent D a finalisé (needs review) [[https://trac.sagemath.org/ticket/22970|#2
 
 Vincent K a travaillé sur [[https://trac.sagemath.org/ticket/22928|#22928]]: Conversions/coercions between gmpy2 and Sage
 
-==== jeudi 13 avril ====
+==== jeudi 13 avril 2017 ====
 
 Finalement, on a plutôt travaillé dans le grand bureau de Vincent K qui offrait du réseau.
 
