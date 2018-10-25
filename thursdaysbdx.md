@@ -39,6 +39,12 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 25 octobre 2018 ====
+
+Présents: Adrien, Vincent K., Sébastien, Andrew.
+
+Sébastien: Création d'un package pour glucose dans Sage: [[https://trac.sagemath.org/ticket/26552|#26552]]
+
 ==== jeudi 18 octobre 2018 ====
 
 Présents: Pascal, Adrien, Vincent K., Sébastien.
