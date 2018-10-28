@@ -1,3 +1,5 @@
+{{https://www.gnu.org/software/emacs/images/emacs.png||width=128px}}
+
 = Sage and Emacs =
 
 The purpose of this page is to collect tips and tricks for Sage users
