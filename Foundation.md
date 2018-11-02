@@ -6,7 +6,7 @@ The !SageMath Foundation aims to collect funds to help the development of !SageM
 
 People that use and enjoy !SageMath are encouraged to make a donation to the !SageMath Foundation. People that have used !SageMath in their research work and have some available money from their grants are also very welcome to give a little back to help.
 
-To make a donation, go [[https://www.washington.edu/giving/make-a-gift/?page=make&Code=MATSAG|here]] (thank you!). This is a nice way to express your appreciation of the work done by the !SageMath developer community.
+To make a donation, go [[https://www.washington.edu/giving/make-a-gift/?page=make&Code=MATSAG|here|class=None]] (thank you!). This is a nice way to express your appreciation of the work done by the !SageMath developer community.
 
 The !SageMath foundation is for the moment just a donation account hosted by the University of Washington. Collected funds are fully available for sustaining !SageMath, and no percentage go to anything else.
 
