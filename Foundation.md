@@ -18,12 +18,14 @@ The people currently in charge of the SageMath Foundation are William Stein and 
 
 For the moment, not much, but this is already useful to support SageMath. Please contribute!
 
+We gratefully acknowledge the support from our past donators.
+
 ||<#CCFF99> How does this benefit to SageMath?||
 
 The money has been used in the past to support workshops closely related to SageMath, in particular some "Women in Sage" workshops. This has also funded the SageMath booth at some mathematical conferences.
 
 In principle, money can be used to support students, visitors, purchase of equipment, workshops.
 
-||<#CCFF99> European side?||
+||<#CCFF99> Is there an European side?||
 
 For the moment, there is no similar donation account in Europe.
