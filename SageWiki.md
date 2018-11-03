@@ -52,6 +52,7 @@ The [[devel|development wiki]] also contain some (currently out-of-date) informa
  * [[Python3-compatible code|Writing Python 3 compatible code]]
  * [[https://zulip.sagemath.org]] group chat server for realtime collaboration on Sage
  * [[OptiPolyGeom|Optimization and Polyhedral Geometry in Sage]]
+ * Supporting the [[Foundation|SageMath Foundation]] 
 
 = Demonstrations of Graphical Capabilities =
  * [[art|Art - posters, banners, etc]]
@@ -201,7 +202,6 @@ Note: "Contributors" are not necessarily coders/programmers, but "Developers" ''
 || [[faq]] || Many FAQ's || Page || Users || Visually clean and add FAQ's from [[https://doc.sagemath.org]] ||
 || [[feature_request_guidelines]] || Great attempt at rules for requests || Page, but related to [[CodeOfConduct]] || High || Combine all guideline pages....? ||
 || [[File_formats]] || Types of formats related to Sage || Page || Low || decide if needed ||
-|| [[Foundation]] || There's always been talk of making/joining a foundation. || Page || Mid || Continue updates and archiving ||
 || [[freebsd]] || The discontinued port to FreeBSD || Category || Mid || Archive ||
 || [[FromSageToSageMath]] || Highlights the name transition and when to use each || Page || Mid || Reference often ||
 || [[GrantEurope]] || OpenDreamKit || Page || Low || Remember to express gratitude! ||
