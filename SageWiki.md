@@ -52,7 +52,9 @@ The [[devel|development wiki]] also contain some (currently out-of-date) informa
  * [[Python3-compatible code|Writing Python 3 compatible code]]
  * [[https://zulip.sagemath.org]] group chat server for realtime collaboration on Sage
  * [[OptiPolyGeom|Optimization and Polyhedral Geometry in Sage]]
+
  * Supporting the [[Foundation|SageMath Foundation]] 
+ * [[GSoC|Google Summer of Code]]
 
 = Demonstrations of Graphical Capabilities =
  * [[art|Art - posters, banners, etc]]
@@ -94,7 +96,6 @@ For some advanced package tools, use `./sage -package`
  * [[Talks| Talks and Presentations about Sage]]
  * [[SageForHighSchool|Sage for High school usage]] (see here for [[HighSchoolDesign|development page]])
  * [[dynamics|Dynamical systems with Sage]]
- * [[GSoC|Google Summer of Code]]
  * [[SageLiveUSB|Inventory Live USB running sage]]
  * [[GrantEurope|asking for a european grant]]
  * [[IpythonNotebook|What is missing to use ipython notebook ?]]
