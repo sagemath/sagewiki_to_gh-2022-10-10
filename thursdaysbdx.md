@@ -39,6 +39,16 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 8 novembre 2018 ====
+
+Présents: Adrien, Vincent K., Sébastien, Pacal, Xavier
+
+Vincent K.: 
+ * Review [[https://trac.sagemath.org/ticket/26651|#26651]] (positive review)
+ * Examen d'une différence py2 - py3 apparue sous root_lattice_realizations.py.
+ * Ouverture [[https://trac.sagemath.org/ticket/26659|#26659]]
+
+
 ==== jeudi 25 octobre 2018 ====
 
 Présents: Adrien, Vincent K., Sébastien, Andrew.
