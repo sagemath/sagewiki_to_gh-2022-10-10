@@ -41,13 +41,22 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 ==== jeudi 8 novembre 2018 ====
 
-Présents: Adrien, Vincent K., Sébastien, Pacal, Xavier
+Présents: Adrien, Vincent K., Sébastien, Pascal, Xavier
+
+Sébastien, Pascal: création d'un package Python sur les Finitely generated subgroups
+
+Adrien: finalisation des corrections sur les polyominos paralélogrammes [[https://trac.sagemath.org/ticket/16110|#16110]]
 
 Vincent K.: 
  * Review [[https://trac.sagemath.org/ticket/26651|#26651]] (positive review)
  * Examen avec Adrien d'une différence py2 - py3 apparue sous root_lattice_realizations.py.
  * Ouverture [[https://trac.sagemath.org/ticket/26659|#26659]]
 
+Xavier: Coder les piecewise affine function dans Sage
+
+==== jeudi 1 novembre 2018 ====
+
+vacances de la Toussaint
 
 ==== jeudi 25 octobre 2018 ====
 
