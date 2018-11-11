@@ -18,11 +18,10 @@ There is also a repository on Github: [[https://github.com/sagemath/artwork | gi
 
 <<EmbedObject(logo_sagemath_git.svg, width=40%)>><<EmbedObject(logo_sagemath_ask.svg, width=40%)>>
 
-<<EmbedObject(logo_sagemath_cell.svg, width=40%)>><<EmbedObject(icon_sagemath.svg,width=20%)>>
+<<EmbedObject(logo_sagemath_cell.svg, width=40%)>>
 
 <<EmbedObject(icon_sagemath_round.svg,width=20%)>><<EmbedObject(icon_sagemath_round_v2.svg,width=20%)>>
 
-<<EmbedObject(logo_proposal_version1.svg,width=20%)>><<EmbedObject(logo_proposal_version2.svg,width=20%)>>
 <<EmbedObject(logo_v3.svg,width=20%)>>
 == Wallpaper ==
 
