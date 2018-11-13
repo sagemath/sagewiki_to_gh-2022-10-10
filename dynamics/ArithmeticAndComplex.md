@@ -4,9 +4,11 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
 == News ==
 
- * [[http://www.nsf.gov/awardsearch/showAward?AWD_ID=1415294 | NSF DMS-1415294]] - Computational Tools for Dynamical Systems 9/2014 - 8/2017 (P.I.: Hutz)
+ * [[https://icerm.brown.edu/summerug/ | Summer@ICERM]] - REU Program on Computational Arithmetic Dynamics - June 10, 2019 - August 2, 2019
 
 == Past News ==
+
+ * [[http://www.nsf.gov/awardsearch/showAward?AWD_ID=1415294 | NSF DMS-1415294]] - Computational Tools for Dynamical Systems 9/2014 - 8/2017 (P.I.: Hutz)
 
  * [[https://icerm.brown.edu/collaborate/ | ICERM@Collaborate]] - Program on Computational Arithmetic Dynamics - July 25, 2016 - July 29, 2016
 
