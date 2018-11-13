@@ -36,15 +36,9 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/25952|#25952]]) needs-review: smallest coefficient model for binary forms and dynamical systems - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/25839|#25839]]) positive-review: Raise Error if Univariate PR used to construct ProjectiveSpace - Joseph Lupo
-
- * ([[http://trac.sagemath.org/ticket/25795|#25795]]) positive-review: minor optimization in comparison between morphisms - Raghukul Raman
-
  * ([[http://trac.sagemath.org/ticket/25745|#25745]]) needs-work: Periodic Proportion Homomorphism over Finite Fields - Rebecca Lauren Miller
 
- * ([[http://trac.sagemath.org/ticket/25701|#25701]]) needs-work: Implement Sieve algorithm for product_projective space - Raghukul Raman
+ * ([[http://trac.sagemath.org/ticket/25701|#25701]]) needs-review: Implement Sieve algorithm for product_projective space - Raghukul Raman
 
  * ([[http://trac.sagemath.org/ticket/25237|#25237]]) needs-review: normlize_coordinates for projective morphism not fully normalized - Ben Hutz
 
@@ -92,6 +86,12 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Berkovich P1 || || ||  ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/25952|#25952]])-- closed sage-8.4: smallest coefficient model for binary forms and dynamical systems - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/25839|#25839]])-- closed sage-8.4: Raise Error if Univariate PR used to construct ProjectiveSpace - Joseph Lupo
+
+ * --([[http://trac.sagemath.org/ticket/25795|#25795]])-- closed sage-8.4: minor optimization in comparison between morphisms - Raghukul Raman
 
  * --([[http://trac.sagemath.org/ticket/25939|#25939]])-- closed sage-8.4: error in Well's algorithm for canonical height - Ben Hutz
 
