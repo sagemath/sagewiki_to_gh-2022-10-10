@@ -39,6 +39,19 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+
+==== jeudi 15 novembre 2018 ====
+
+Présents: Adrien, Vincent K., Sébastien, Pascal, Xavier, Ilya
+
+Avec Ilya, nous avons trouvé trois lignes de code pour que les `.plot()` ouvre des pdf plutôt que des png:
+
+{{{
+sage: from sage.repl.rich_output import get_display_manager
+sage: dm = get_display_manager()
+sage: dm.preferences.graphics = 'vector'  # value must be unset (None) or one of ('disable', 'vector', 'raster')
+}}}
+
 ==== jeudi 8 novembre 2018 ====
 
 Présents: Adrien, Vincent K., Sébastien, Pascal, Xavier
