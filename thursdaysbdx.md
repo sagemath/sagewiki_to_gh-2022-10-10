@@ -58,10 +58,10 @@ Vincent K:
 
 Sortie de la dernière version de gmpy2:
 
-- Tests de gmpy2
-- Mise à jour pplpy [[https://gitlab.com/videlec/pplpy/merge_requests/3|MR3]], [[https://gitlab.com/videlec/pplpy/merge_requests/2|MR2]].
-- Mise à jour et tests du package sage gmpy2 [[https://trac.sagemath.org/ticket/25519|#25519]]
-- Examen avec Adrien des erreurs sage python3 du module modular/hecke
+ * Tests de gmpy2
+ * Mise à jour pplpy [[https://gitlab.com/videlec/pplpy/merge_requests/3|MR3]], [[https://gitlab.com/videlec/pplpy/merge_requests/2|MR2]].
+ * Mise à jour et tests du package sage gmpy2 [[https://trac.sagemath.org/ticket/25519|#25519]]
+ * Examen avec Adrien des erreurs sage python3 du module modular/hecke
 ==== jeudi 8 novembre 2018 ====
 
 Présents: Adrien, Vincent K., Sébastien, Pascal, Xavier
