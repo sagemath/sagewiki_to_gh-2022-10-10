@@ -52,6 +52,8 @@ sage: dm = get_display_manager()
 sage: dm.preferences.graphics = 'vector'  # value must be unset (None) or one of ('disable', 'vector', 'raster')
 }}}
 
+All tests passed in the package of Pascal!
+
 ==== jeudi 8 novembre 2018 ====
 
 Présents: Adrien, Vincent K., Sébastien, Pascal, Xavier
