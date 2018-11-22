@@ -40,6 +40,15 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 == Compte-rendus ==
 
 
+==== jeudi 22 novembre 2018 ====
+
+Présents: Adrien, Vincent K.
+
+Vincent K:
+
+ * Complétion du ticket [[https://trac.sagemath.org/ticket/26704|#26704]].
+ * Review [[https://trac.sagemath.org/ticket/26737|#26737]]. positive review.
+
 ==== jeudi 15 novembre 2018 ====
 
 Présents: Adrien, Vincent K., Sébastien, Pascal, Xavier, Ilya
