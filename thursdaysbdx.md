@@ -39,6 +39,14 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 29 novembre 2018 ====
+
+Présents: Sébastien, Vincent K, Pascal
+
+Sébastien: 
+ 
+ * Review des polyominos paralélogrammes [[https://trac.sagemath.org/ticket/16110|#16110]]
+ * Discussion avec Pascal sur la création de son package, des dépendances, et de l'utilisation de git.
 
 ==== jeudi 22 novembre 2018 ====
 
