@@ -1,3 +1,1 @@
-Here is the first page for something about asking for a european grant to support sage development. Anyone is welcome to add her ideas, whishes,...
-
-See now http://opendreamkit.org/
+See now https://opendreamkit.org/
