@@ -43,7 +43,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 Présents: Sébastien, Vincent K, Pascal, Xavier, Adrien, Florent
 
-10h-10h20: un exposé de Florent Hivert
+10h-10h20: un exposé de Florent Hivert, Expérimentations haute performance en combinatoire algébrique et énumérative 
 
 Sébastien: 
  
