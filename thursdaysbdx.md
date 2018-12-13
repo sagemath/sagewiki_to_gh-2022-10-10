@@ -39,6 +39,18 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 13 décembre 2018 ====
+
+Présents: Sébastien, Vincent K, Pascal, Xavier, Adrien, Florent
+
+10h-10h20: un exposé de Florent Hivert
+
+Sébastien: 
+ 
+ * comparaison des MILP solvers, SAT solvers et dancing links via des pavages par tuiles de Wang, les détails sur ce [[http://www.slabbe.org/blogue/2018/12/comparison-of-wang-tiling-solvers/|blogue]]
+ * reviewé le code de Adrien sur les polyomino parallélogrammes (positive review!!)
+ * (needs review) correction de l'utilisation de Wolfram Alpha [[https://trac.sagemath.org/ticket/25501|#25501]] grâce au code suggéré par Amaury Pouly
+
 ==== jeudi 29 novembre 2018 ====
 
 Présents: Sébastien, Vincent K, Pascal
