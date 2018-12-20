@@ -39,6 +39,16 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+
+==== jeudi 20 décembre 2018 ====
+
+Présents: Sébastien, Vincent K, Pascal, Adrien
+
+Sébastien:
+
+ * [[https://trac.sagemath.org/ticket/26361|#26361]] Glucose SAT solver (needs review)
+ * [[https://trac.sagemath.org/ticket/25501|#25501]] Few failing internet doctests in mma_free_integrator (needs review)
+
 ==== jeudi 13 décembre 2018 ====
 
 Présents: Sébastien, Vincent K, Pascal, Xavier, Adrien, Florent
