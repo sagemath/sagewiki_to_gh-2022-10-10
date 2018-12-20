@@ -48,6 +48,7 @@ Sébastien:
 
  * [[https://trac.sagemath.org/ticket/26361|#26361]] Glucose SAT solver (needs review)
  * [[https://trac.sagemath.org/ticket/25501|#25501]] Few failing internet doctests in mma_free_integrator (needs review)
+ * [[https://trac.sagemath.org/ticket/26920|#26920]] 2 failing doctests in sql_db.py (création du ticket)
 
 ==== jeudi 13 décembre 2018 ====
 
