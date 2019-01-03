@@ -19,7 +19,7 @@ where you should change `x.y.z` to the exact version number you used for your pu
   Key          = {SageMath},
   Author       = {{The Sage Developers}},
   Title        = {{S}ageMath, the {S}age {M}athematics {S}oftware {S}ystem ({V}ersion x.y.z)},
-  note         = {{\tt http://www.sagemath.org}},
+  note         = {{\tt https://www.sagemath.org}},
   Year         = {YYYY},
 }
 }}}
@@ -32,7 +32,7 @@ where you should change `x.y.z` to the exact version number you used for your pu
        title={{S}agemath, the {S}age {M}athematics {S}oftware {S}ystem
   ({V}ersion x.y.z)},
         date={YYYY},
-        note={{\tt http://www.sagemath.org}},
+        note={{\tt https://www.sagemath.org}},
 }
 }}}
 
