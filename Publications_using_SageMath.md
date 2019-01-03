@@ -7,7 +7,7 @@ Please reference SageMath as follows:
 
 {{{
 SageMath, the Sage Mathematics Software System (Version x.y.z),
-   The Sage Developers, YYYY, http://www.sagemath.org.
+   The Sage Developers, YYYY, https://www.sagemath.org.
 }}}
 
 where you should change `x.y.z` to the exact version number you used for your publication. Also change `YYYY` to the year that reflects the version of SageMath you used for the publication. 
