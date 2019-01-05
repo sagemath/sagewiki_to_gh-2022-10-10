@@ -33,3 +33,8 @@ You can put this information on the page [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5t
 We acknowledge financial and organizational support from
 
   * [[http://opendreamkit.org/|OpenDreamKit]], the Horizon 2020 European Research Infrastructures project #676541
+
+== Travel ==
+
+We recommend that you follow the suggested travel guidelines for [[http://fpsac2019.fmf.uni-lj.si|FPSAC'19]] found [[http://fpsac2019.fmf.uni-lj.si/local/|here]].  Participants are encouraged to participate in both
+FPSAC's to optimize value for travel money; especially given the cheap lodging available in Slovenia which makes travel the main cost. 
