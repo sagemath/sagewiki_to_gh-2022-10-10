@@ -39,6 +39,9 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 10 janvier 2019 ====
+
+Présents: Sébastien, Vincent K, Pascal, Xavier
 
 ==== jeudi 20 décembre 2018 ====
 
