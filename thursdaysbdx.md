@@ -45,7 +45,7 @@ Présents: Sébastien, Vincent K, Pascal, Xavier
 
 Sébastien
 
- * [[https://trac.sagemath.org/ticket/25384|#25384] sage --jupyter command line (needs review)
+ * [[https://trac.sagemath.org/ticket/25384|#25384]] sage --jupyter command line (needs review)
 
 ==== jeudi 20 décembre 2018 ====
 
