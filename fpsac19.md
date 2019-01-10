@@ -26,7 +26,7 @@ You can put this information on the page [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5t
   * [[https://sites.google.com/site/meeseongim/|Mee Seong Im]] (United States Military Academy, West Point, New York, USA)
   * [[http://people.cst.cmich.edu/salis1bt/|Ben Salisbury]] (Central Michigan University, Mount Pleasant, Michigan, USA)
   * [[http://nicolas.thiery.name|Nicolas Thiéry]] (Université Paris-Sud, Orsay Cedex, France)
-  * [[mailto:bruce.westbury@gmail.com|Bruce Westbury]]
+  * [[mailto:bruce.westbury@gmail.com|Bruce Westbury]] (University of Texas at Dallas)
 
 == Support ==
 
