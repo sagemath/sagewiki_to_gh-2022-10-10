@@ -43,6 +43,10 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 Présents: Sébastien, Vincent K, Pascal, Xavier
 
+Sébastien
+
+ * [[https://trac.sagemath.org/ticket/25384|#25384] sage --jupyter command line (needs review)
+
 ==== jeudi 20 décembre 2018 ====
 
 Présents: Sébastien, Vincent K, Pascal, Adrien
