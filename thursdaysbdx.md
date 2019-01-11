@@ -39,6 +39,10 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 17 janvier 2019 ====
+
+ * Atelier [[https://pari.math.u-bordeaux.fr/Events/PARI2019/|PARI/GP 2019]]
+
 ==== jeudi 10 janvier 2019 ====
 
 Présents: Sébastien, Vincent K, Pascal, Xavier
