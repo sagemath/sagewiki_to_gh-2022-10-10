@@ -51,6 +51,10 @@ Sébastien
 
  * [[https://trac.sagemath.org/ticket/25384|#25384]] sage --jupyter command line (needs review)
 
+Vincent
+ * review [[https://trac.sagemath.org/ticket/25535|#25535]]
+ * cysignals windows.
+
 ==== jeudi 20 décembre 2018 ====
 
 Présents: Sébastien, Vincent K, Pascal, Adrien
