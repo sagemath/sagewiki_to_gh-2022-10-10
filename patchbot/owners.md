@@ -7,6 +7,7 @@ Sagemath patchbots names and owners:
     athena            --> kdilks
     btm2x13           --> mderickx
     bunion	      --> etn40ff (this is a laptop so it will be running sporadically)
+    cofio             --> gh-kliem
     cristal           --> Bouillaguet
     debian_jessie_32  --> tmonteil
     eddy              --> Vincent.Neri (lri, Orsay, Paris sud)
@@ -32,5 +33,6 @@ Sagemath patchbots names and owners:
     ubuntu_vivid_64   --> tmonteil
     vogon.jeltz(32Bit)--> jkroeker
     x200t-ThinkPad-*  --> jkroeker
+    zancara           --> gh-kliem
     zorn              --> agd
 }}}
