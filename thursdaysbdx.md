@@ -20,7 +20,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
  * gmpy2 et Sage [[https://trac.sagemath.org/ticket/22927|#22927]] and [[https://trac.sagemath.org/ticket/22928|#22928]]
  * interfacer des librairies d'automates: Wali (ancien Vaucanson) ou [[http://fado.dcc.fc.up.pt/|Fado]]
  * polyomino dirigé convexes
- * arbres non ambigus
+ * arbres non ambigus [[https://trac.sagemath.org/ticket/16192|#16192]]
  * tableaux boisés
  * polyomino parallelogramme periodique + les bandes 
  * optimisation non-linéaire (voir [[http://scip.zib.de/|scip]] et le ticket [[https://trac.sagemath.org/ticket/10879||#10879]])
