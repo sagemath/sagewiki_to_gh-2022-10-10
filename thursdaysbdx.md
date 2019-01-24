@@ -43,7 +43,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 Présents: Sébastien, Vincent K, Adrien
 
-Sébastien a compris comment installer et utiliser RISE, une extension du Jupyter Notebook. Il ne suffit pas de l'installer il faut aussi recopier les css au bon endroit. Il suffit de faire:
+Sébastien a compris comment installer et utiliser RISE, une extension du Jupyter Notebook pour faire des présentations éditables. Il ne suffit pas de l'installer il faut aussi recopier les css au bon endroit. Il suffit de faire:
 
 {{{
 sage -pip install rise
