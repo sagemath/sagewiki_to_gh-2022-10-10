@@ -39,6 +39,20 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 24 janvier 2019 ====
+
+Présents: Sébastien, Vincent K, Adrien
+
+Sébastien a compris comment installer et utiliser RISE, une extension du Jupyter Notebook. Il ne suffit pas de l'installer il faut aussi recopier les css au bon endroit. Il suffit de faire:
+
+{{{
+sage -pip install rise
+sage -sh
+jupyter-nbextension install rise --py --sys-prefix
+}}}
+
+Après on peut consulter ce  [[https://rise.readthedocs.io/en/docs_hot_fixes/index.html|démo]] sur youtube et la [[https://rise.readthedocs.io/en/docs_hot_fixes/index.html|doc est ici]].
+
 ==== jeudi 17 janvier 2019 ====
 
  * Atelier [[https://pari.math.u-bordeaux.fr/Events/PARI2019/|PARI/GP 2019]]
