@@ -11,7 +11,7 @@ This is a collection of notes on how the [[http://www.sagemath.org/mirrors.html|
 
 To synchronize with SageMath's master, you can use this command:
 {{{
-rsync -av --delete-after rsync.sagemath.org::sage $TARGET
+rsync -av --checksum --delete-after rsync.sagemath.org::sage $TARGET
 }}}
 where {{{$TARGET}}} should be replaced by your local target directory.
 
@@ -23,6 +23,7 @@ to avoid traffic on the main mirror server. Thank you!
 
  1. {{{-a}}} switches to archive mode (same timestamp, ...)
  1. {{{-v}}} (or {{{-vv}}}, {{{-vvv}}}) verbosity level, for the lovely logs
+ 1. {{{--checksum}}} is an extra check for file integrity
  1. {{{--delete-after}}} tells rsync to delete files that are not on the master ''after'' the synchronization has finished (i.e. old binary files from the last release). There are also other versions of {{{--delete*}}} that can be used to delete older files earlier or during the process, but it's best if files stay on the mirror during sync. '''Do not forget one of the {{{--delete*}}} switches to avoid using up more and more disk space!'''
 
 '''Other Sources''': Since the master is sometimes slow, you can also try to rsync from one of the mirrors:
@@ -30,6 +31,7 @@ to avoid traffic on the main mirror server. Thank you!
   * rsync://rsync.mirrorservice.org/www.sagemath.org/
 
 === rsync master ===
+
 It's dead simple to setup an rsync master server. In Ubuntu/Debian, you have to install rsync and then edit the rsync config file {{{/etc/rsyncd.conf}}}. The inet deamon calls the rsync process if someone wants to connect.
 
 == Periodic Checks ==
@@ -89,7 +91,7 @@ trap "rm -f ${LOCKFILE}; exit" INT TERM EXIT
 echo $$ > ${LOCKFILE}
 
 # actual work
-rsync -av --delete-after --partial sage.math.washington.edu::sage /home/<username>/sage/
+rsync -av --checksum --delete-after --partial rsync.sagemath.org::sage /home/<username>/sage/
 
 rm -f ${LOCKFILE}
 }}}
