@@ -234,7 +234,7 @@ However, as it is put [[https://asmeurer.github.io/blog/posts/scipy-2014/|here]]
 Conda does not make it easier to compile difficult packages. It only makes it so that fewer people have to do it.
 And there is still work to be done before Conda really takes over the world."
 
-Anaconda being mostly oriented towards binary packages, it does very little to help developers handle a modular distribution such as SageMath (it is possible in principle to package sources for Anaconda, though). Some people have explored options to make it easy to compile complex distributions, while (semi-)automatically generating Anaconda packages. Some pointers here :
+Anaconda being mostly oriented towards binary packages, it does very little to help developers handle a modular distribution such as SageMath (it is possible in principle to package sources for Anaconda, though). Some people have explored options to make it easy to compile complex distributions, while (semi-)automatically generating Anaconda packages. Some pointers here :
 
  * [[https://asmeurer.github.io/blog/posts/scipy-2014/]],
  * [[http://technicaldiscovery.blogspot.fr/2013/12/why-i-promote-conda.html]].
@@ -267,7 +267,7 @@ Differences between Guix and Nix:
 
 Some more notes on Nix:
 
- * Sage 6.8 is packaged for NiX (but they are cheating, so the dependencies are not)
+ * Sage is packaged for Nix and passes its testsuite. Due to lack of a darwin maintainer, it is currently only tested on linux.
 
  * Packages can have parameters, so it is conceivable to have a parameter like "use-host" for packages such as python, blas, ... (To do this cleanly, these would probably rely on a tar of the relevant files from the system which then get put into the nix storage) (An example for parameters can be seen here https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/firefox/default.nix )
 
