@@ -6,7 +6,7 @@ The patchbot pulls and applies git branches from Trac and can be found at https:
 
 You can help by running your own patchbot. See below for instructions about installation and usage.
 
-See a list of patchbot names and their owners at [[patchbot/owners]].
+See a list of some patchbot names and their owners at [[patchbot/owners]].
 
 This is still very much a work in progress. The latest version of the code lives at http://github.com/sagemath/sage-patchbot.
 
@@ -59,9 +59,9 @@ Dependencies: shell commands '''git'''; '''tar'''; '''wget'''
 
 '''pyflakes''' and '''pycodestyle''' are not required but will be used if installed (using pip).
 
-||<#98FF98> Please register [[patchbot/owners|here]] if you run a patchbot. It is required to know whom to contact.||
+||<#98FF98> Please set the --owner option if you run a patchbot. It is useful to know whom to contact.||
 
-You can instead use the --owner option.
+You can instead register [[patchbot/owners|here]].
 
 == Installing optional packages ==
 
