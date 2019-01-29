@@ -268,7 +268,7 @@ Differences between Guix and Nix:
 
 Some more notes on Nix:
 
- * Sage is [[packaged|https://github.com/NixOS/nixpkgs/tree/master/pkgs/applications/science/math/sage]] for Nix and passes its testsuite. Due to lack of a darwin maintainer, it is currently only tested on linux.
+ * Sage is [[https://github.com/NixOS/nixpkgs/tree/master/pkgs/applications/science/math/sage|packaged]] for Nix and passes its testsuite. Due to lack of a darwin maintainer, it is currently only tested on linux.
 
  * Packages can have parameters, so it is conceivable to have a parameter like "use-host" for packages such as python, blas, ... (To do this cleanly, these would probably rely on a tar of the relevant files from the system which then get put into the nix storage) (An example for parameters can be seen here https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/networking/browsers/firefox/default.nix )
 
