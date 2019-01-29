@@ -139,6 +139,8 @@ The list of configurable entities are:
 || ''base_branch''           || string          || develop       || the name of the git branch to synchronized with the develop branch on trac        ||
 || ''sage_root''           || string          ||        || the path to the directory containing the sage installation ||
 || ''plugins''               || list of strings || ''see below'' || the plugins to use                                                                ||
+|| ''tested_files''               || string         || "all" || either "py3" or "all"   ; if "py3", only tests files officially good for py3                                                                              ||
+|| ''test_options''               || string         || "" || anything that can be passed to sage -t --optional, for example "sage,external" or "sage,internet"                                            ||
 
 === bonus ===
 
