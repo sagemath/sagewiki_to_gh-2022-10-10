@@ -46,6 +46,6 @@ of Sage you are interested in and what kind of mathematics you do.
 
 '''Funding request''' Do need travel funding to attend the event? (Note that local expenses are covered for all participants)
 
-== Code of conduct ==
+== Community Agreement ==
 
-The participants of this event are asked to agree to our code of conduct (link to be posted)
+The participants of this event are asked to agree to our [[Community Agreement|https://wiki.sagemath.org/days98/communityagreement]]
