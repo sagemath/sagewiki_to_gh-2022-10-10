@@ -48,4 +48,4 @@ of Sage you are interested in and what kind of mathematics you do.
 
 == Community Agreement ==
 
-The participants of this event are asked to agree to our [[Community Agreement|https://wiki.sagemath.org/days98/communityagreement]]
+The participants of this event are asked to agree to our [[https://wiki.sagemath.org/days98/communityagreement|Community Agreement]]
