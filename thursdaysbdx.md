@@ -39,11 +39,17 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 31 janvier 2019 ====
+
+Présents: Sébastien, Vincent K, Adrien, Pascal
+
+ * Sébastien: [[https://trac.sagemath.org/ticket/25535|#25535]] (needs review)
+
 ==== jeudi 24 janvier 2019 ====
 
 Présents: Sébastien, Vincent K, Adrien
 
-Sébastien a compris comment installer et utiliser RISE, une extension du Jupyter Notebook pour faire des présentations éditables. Il ne suffit pas de l'installer il faut aussi recopier les css au bon endroit. Il suffit de faire:
+Comment installer et utiliser RISE, une extension du Jupyter Notebook pour faire des présentations éditables. Il ne suffit pas de l'installer il faut aussi recopier les css au bon endroit. Il suffit de faire:
 
 {{{
 sage -pip install rise
