@@ -43,7 +43,13 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 Présents: Sébastien, Vincent K, Adrien, Pascal
 
- * Sébastien: [[https://trac.sagemath.org/ticket/25535|#25535]] (needs review)
+Sébastien: 
+ * [[https://trac.sagemath.org/ticket/25535|#25535]] (needs review)
+
+Vincent K: 
+ * Review [[https://trac.sagemath.org/ticket/25535|#25535]] (positive review)
+ * Echanges avec Adrien sur l'avenir de la class Derangement [[https://trac.sagemath.org/ticket/26886|#26886]]
+ * pplpy: suivi et tests de solution sur le sujet de la génération de la doc sphinx par sage. [[https://trac.sagemath.org/ticket/23024|#23024]]
 
 ==== jeudi 24 janvier 2019 ====
 
