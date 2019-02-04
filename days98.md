@@ -30,7 +30,7 @@ The workshop will take place in the village of Archanes in Crete. We will share 
 
 Due to the conditions of the workshop, the size of the event is limited. We ask every potential participant to send an application. '''Applications are due Feb 28''', a response will be sent in early March or even earlier if the number of applications is limited.
 
-Please send your application to ''to be announced'' including
+Please send your application to sagedays98@services.cnrs.fr including
 
 '''Name, institution, professional situation''' (student, postdoc, professor, etc.)
 
