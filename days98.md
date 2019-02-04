@@ -6,7 +6,7 @@
 <<TableOfContents()>>
 
 These Sage days are a special event for women* who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introduction presentations, training,  and team work on
-specific projects.
+specific projects. There is no initial knowledge needed, everyone is welcome whether they are new Sage learners or Sage expert. We believe in diversity in backgrounds and experiences.
 
 This event is fully funded by the [[http://opendreamkit.org/|OpenDreamKit]] project.
 
@@ -25,6 +25,12 @@ part of the [[http://opendreamkit.org/|OpenDreamKit]] project and has been using
 '''Local cost (lodging and food) will be provided for all participants'''
 
 The workshop will take place in the village of Archanes in Crete. We will share different lodgings in rented apartments.
+
+== The event ==
+
+The event will be workshop style and most of the schedule will be decided by the participants as needed.
+
+We will start the week by some introduction presentations and tutorials especially targeted at those who don't know much Sage. Then each participant will have an occasion to present their mathematical and / or Sage project to the group. Most of week will be dedicated to coding either individually or in groups. We will plan other presentations and tutorials depending on the needs and wishes of the participants.
 
 == Application ==
 
@@ -45,6 +51,9 @@ of Sage you are interested in and what kind of mathematics you do.
 '''reference letter:''' if you are a student, please attach a reference letter.
 
 '''Funding request''' Do need travel funding to attend the event? (Note that local expenses are covered for all participants)
+
+Note: it is possible to apply with a common project with another participant.
+Other note: if you think you don't know enough Sage to apply, you are wrong!
 
 == Community Agreement ==
 
