@@ -40,6 +40,8 @@ Please add a ticket number if you create one.
     * use `search_src` to find 4 occurrences
     * ticket: 
 
-  * Need more typos? Search for frequent typos such as moprhism, mophism, morpism, homorphism, tulpe, descriprion, ...
+  * Frenchism: "Gougle" for "Google"
+
+Need more typos? Search for frequent typos such as moprhism, mophism, morpism, homorphism, tulpe, descriprion, ...
 
 If typos run out and there is a need for a tutorial on Sage development, email Samuel.
