@@ -14,12 +14,12 @@ This event will follow [[http://fpsac2019.fmf.uni-lj.si|FPSAC'19]].
 
 A tentative list of projects will be made available soon.
 
-'''If you are planning to attend, please "register" by adding your name to the page [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|here]].'''  In the meantime, we would like to know, if you are planning to attend, the following information.
+'''If you are planning to attend, please "register" by adding your name [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|here]].'''  In the meantime, we would like to know, if you are planning to attend, the following information: 
 
-  * What tutorials would you like to see presented?
-  * What level of user are you (beginner, experienced user, developer, etc.)?
+  * what tutorials would you like to see presented?
+  * what level of user are you (beginner, experienced user, developer, etc.)?
 
-You can put this information [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|here]].
+Please put these information [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|here]].
 
 == Organisers ==
 
