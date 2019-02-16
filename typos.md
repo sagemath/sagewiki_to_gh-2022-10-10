@@ -2,6 +2,8 @@ This page lists some typos in the !SageMath repository.
 
 They can serve to create beginner tickets, especially during tutorials on !SageMath development.
 
+||<#FFFF66>TIP: a good way to search for typos is to use: git grep "some_word" src/sage||
+
 Please add a ticket number if you create one.
 
   * Typo: "expericenced" for "experienced"
