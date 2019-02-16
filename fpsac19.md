@@ -14,7 +14,9 @@ This event will follow [[http://fpsac2019.fmf.uni-lj.si|FPSAC'19]].
 
 A tentative list of projects will be made available soon.
 
-'''If you are planning to attend, please "register" by adding your name [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|here]].'''  In the meantime, we would like to know, if you are planning to attend, the following information: 
+'''If you are planning to attend, please "register" by adding your name [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|here]].'''
+
+In the meantime, we would like to know, if you are planning to attend, the following information:
 
   * what tutorials would you like to see presented?
   * what level of user are you (beginner, experienced user, developer, etc.)?
@@ -32,9 +34,9 @@ Please put these information [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|here]].
 
 We acknowledge financial and organizational support from
 
-  * [[http://opendreamkit.org/|OpenDreamKit]], the Horizon 2020 European Research Infrastructures project #676541
+  * [[http://opendreamkit.org/|OpenDreamKit]], the Horizon 2020 European Research Infrastructures project #676541.
 
 == Travel ==
 
 We recommend that you follow the suggested travel guidelines for [[http://fpsac2019.fmf.uni-lj.si|FPSAC'19]] found [[http://fpsac2019.fmf.uni-lj.si/local/|here]].  Participants are encouraged to participate in both
-FPSAC's to optimize value for travel money; especially given the cheap lodging available in Slovenia which makes travel the main cost. 
+FPSAC's to optimize value for travel money, especially given the cheap lodging available in Slovenia which makes travel the main cost. 
