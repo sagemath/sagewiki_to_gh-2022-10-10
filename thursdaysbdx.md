@@ -39,6 +39,28 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 28 février 2019 ====
+
+Présents: Sébastien, Vincent K
+
+Sébastien: 
+
+ * [[https://trac.sagemath.org/ticket/25614|#25614]] (needs review)
+
+==== jeudi 21 février 2019 ====
+
+Pause.
+
+==== jeudi 14 février 2019 ====
+
+Présents: Vincent K, Pascal
+
+CONFERENCE, [[https://opendreamkit.org/2019/02/11/FreeComputationalMathematicsConference/|Free Computational Mathematics]], Calcul mathématique libre, CIRM Luminy, 11 - 15 February 2019
+
+==== jeudi 7 février 2019 ====
+
+Présents: Sébastien, Vincent K
+
 ==== jeudi 31 janvier 2019 ====
 
 Présents: Sébastien, Vincent K, Adrien, Pascal
