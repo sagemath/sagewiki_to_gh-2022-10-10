@@ -85,7 +85,7 @@ sage -sh
 jupyter-nbextension install rise --py --sys-prefix
 }}}
 
-Après on peut consulter ce  [[https://rise.readthedocs.io/en/docs_hot_fixes/index.html|démo]] sur youtube et la [[https://rise.readthedocs.io/en/docs_hot_fixes/index.html|doc est ici]].
+Après on peut consulter ce  [[https://youtu.be/sXyFa_r1nxA|démo]] sur youtube et la [[https://rise.readthedocs.io/en/docs_hot_fixes/index.html|doc est ici]].
 
 ==== jeudi 17 janvier 2019 ====
 
