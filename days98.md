@@ -26,6 +26,8 @@ part of the [[http://opendreamkit.org/|OpenDreamKit]] project and has been using
 
 The workshop will take place in the village of Archanes in Crete. We will share different lodgings in rented apartments.
 
+'''How to come?''' The closest airport is Heraklion airport. From there, you can take a taxi (approx. 30 euros).
+
 == The event ==
 
 The event will be workshop style and most of the schedule will be decided by the participants as needed.
