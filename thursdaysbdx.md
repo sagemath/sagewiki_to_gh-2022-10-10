@@ -43,7 +43,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 Présents: Sébastien, Vincent K
 
-Jeudi sage éclair : Discussion d'une demi-heure environ sur les tickets [[https://trac.sagemath.org/ticket/25614|#25614]] et [[https://trac.sagemath.org/ticket/25614|https://trac.sagemath.org/ticket/25614]]
+Jeudi sage éclair : Discussion d'une demi-heure environ sur les tickets [[https://trac.sagemath.org/ticket/25614|#25614]] et [[https://trac.sagemath.org/ticket/25614|#25614]]
 
 Sébastien: 
 
