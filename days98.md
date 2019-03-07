@@ -19,6 +19,8 @@ part of the [[http://opendreamkit.org/|OpenDreamKit]] project and has been using
 
 [[https://sites.google.com/site/tzanakel/|Eleni Tzanaki]] is a researcher in combinatorics and an educator in mathematics.
 
+Logistical help: Izabela Faguet (Paris-Sud University)
+
 
 == Venue ==
 
