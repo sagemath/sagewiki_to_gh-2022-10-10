@@ -43,7 +43,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 Présents: Sébastien, Vincent K, Pascal, Jean-Philippe Labbé
 
- * Problèm de compilation de la documentation du package stallings_graph de Pascal. Solution: il faut importer tout le cmd_line de sage dans le __init__.py du package pour que Sphinx soit content.
+ * Problèm de compilation de la documentation du package stallings_graph de Pascal. Solution: il faut importer tout le cmd_line de sage dans le fichier {{{__init__.py}}} du package pour que Sphinx soit content.
 
 ==== jeudi 7 mars 2019 ====
 
