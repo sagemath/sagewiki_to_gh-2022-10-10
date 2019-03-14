@@ -39,6 +39,16 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 14 mars 2019 ====
+
+Présents: Sébastien, Vincent K, Pascal, Jean-Philippe Labbé
+
+ * Problèm de compilation de la documentation du package stallings_graph de Pascal. Solution: il faut importer tout le cmd_line de sage dans le __init__.py du package pour que Sphinx soit content.
+
+==== jeudi 7 mars 2019 ====
+
+Présents: Sébastien, Vincent K, Pascal, Adrien
+
 ==== jeudi 28 février 2019 ====
 
 Présents: Sébastien, Vincent K
