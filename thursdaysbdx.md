@@ -45,6 +45,10 @@ Présents: Sébastien, Vincent K, Pascal, Jean-Philippe Labbé
 
  * Problème de compilation de la documentation du package stallings_graph de Pascal. Solution: il faut importer tout le cmd_line de sage dans le fichier {{{__init__.py}}} du package pour que Sphinx soit content.
 
+JP:
+
+ * [[https://trac.sagemath.org/ticket/24905|#24905]] Upgrade polymake to version 3.2r4
+
 ==== jeudi 7 mars 2019 ====
 
 Présents: Sébastien, Vincent K, Pascal, Adrien
