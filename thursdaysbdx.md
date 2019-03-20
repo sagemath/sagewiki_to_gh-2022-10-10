@@ -2,7 +2,7 @@
 = Les jeudi sages à Bordeaux =
 = (autour de Sage, PARI/GP, et plus) =
 
-''Prochaine(s) séance(s): le jeudi 14 mars de 8h30 à 12h30 en salle 73 au LaBRI.''
+''Prochaine(s) séance(s): le jeudi 21 mars de 8h30 à 12h30 en salle 74 (visio) au LaBRI.''
 
 Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour discuter et programmer autour des logiciels de calculs formels. Les journées restent centrées sur [[http://www.sagemath.org/|Sage]] et [[http://pari.math.u-bordeaux.fr/|PARI/GP]] mais elles sont ouvertes à tous/toutes. Le principe est que si vous avez des questions vous venez les poser et si vous savez des choses vous venez les partager. Certains jeudi seront centrés sur des thématiques sous forme de mini-cours ou démonstration.
 
@@ -50,6 +50,10 @@ Pascal et Sébastien:
 JP:
 
  * [[https://trac.sagemath.org/ticket/24905|#24905]] Upgrade polymake to version 3.2r4
+
+Vincent:
+ * sage/polymake: Problèmes de compilation de polymake avec Jean-Philippe Labbé.
+ * gmpy2: Ajout de tests de couverture (opérations binaires).
 
 ==== jeudi 7 mars 2019 ====
 
