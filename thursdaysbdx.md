@@ -46,6 +46,7 @@ Présents: Adrien, Sébastien, Vincent K, Xavier
 Vincent:
 
 gmpy2: Résolution de compilation warnings, et d'erreurs de doctests, ajout d'un flag de doctests pour les cas ou l'on utilise une version de mpc < 1.0.0.
+
 [[https://github.com/aleaxit/gmpy/pull/231|PR #231]].
 
 ==== jeudi 14 mars 2019 ====
