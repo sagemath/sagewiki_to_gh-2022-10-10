@@ -39,14 +39,14 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+
 ==== jeudi 21 mars 2019 ====
 
 Présents: Adrien, Sébastien, Vincent K, Xavier
 
-Vincent:
-
-gmpy2: [[https://github.com/aleaxit/gmpy/pull/231|PR #231]]: Résolution de compilation warnings, et d'erreurs de doctests, ajout d'un flag de doctests pour les cas ou l'on utilise une version de mpc < 1.0.0.
-
+ * Vincent: gmpy2: [[https://github.com/aleaxit/gmpy/pull/231|PR #231]]: Résolution de compilation warnings, et d'erreurs de doctests, ajout d'un flag de doctests pour les cas ou l'on utilise une version de mpc < 1.0.0.
+ * Adrien: split tikz code in polyomino module
+ * Sébastien: correction de failing doctests dans le package slabbe
 
 
 ==== jeudi 14 mars 2019 ====
