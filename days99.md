@@ -70,4 +70,4 @@ a theory of Gr\"obner bases for categories which is developed in work of
 Sam-Snowden. However, no computer implementation exists for doing this, 
 so the goal of this project is to provide one.
 
-== More projects to be posted.  Please feel free to add your own interests or email Gregg (musiker at math dot umn dot edu) or Christine (berkesch at math dot umn dot edu) with them if you do not have direct wiki editing access. ==
+=== More projects to be posted.  Please feel free to add your own interests or email Gregg (musiker at math dot umn dot edu) or Christine (berkesch at math dot umn dot edu) with them if you do not have direct wiki editing access. ===
