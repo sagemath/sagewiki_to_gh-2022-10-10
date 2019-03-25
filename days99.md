@@ -1,4 +1,4 @@
-= Sage Days 99: SageMath and Macaulay2 - An Open Source Initiative
+= Sage Days 99: SageMath and Macaulay2 - An Open Source Initiative =
 
 == General Information ==
 
