@@ -9,9 +9,8 @@ Sage Days 99: SageMath and [[http://www2.macaulay2.com/Macaulay2/|Macaulay2]] - 
 
 July 22-26, 2019, at the IMA, University of Minnesota, in Minneapolis, MN, USA.
 
-== Schedule ==
 
-=== Tentative List of Speakers ===
+== Tentative List of Speakers ==
 
 Yang-Hui He (University of London) (confirmed)
 
@@ -19,7 +18,7 @@ Matthias Koeppe (University of California, Davis) (confirmed)
 
 Michael Stillman (Cornell University) (confirmed)
 
-== Tentative list of Coding Projects ==
+== Tentative list of Coding Projects (Group Leader) ==
 
 === Further development of plane partition class (Jessica Striker) ===
 
