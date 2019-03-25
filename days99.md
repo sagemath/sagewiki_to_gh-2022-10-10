@@ -14,7 +14,9 @@ July 22-26, 2019, at the IMA, University of Minnesota, in Minneapolis, MN, USA.
 === Tentative List of Speakers ===
 
 Yang-Hui He (University of London) (confirmed)
+
 Matthias Koeppe (University of California, Davis) (confirmed)
+
 Michael Stillman (Cornell University) (confirmed)
 
 === Topics ===
