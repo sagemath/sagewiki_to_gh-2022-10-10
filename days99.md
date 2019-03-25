@@ -7,18 +7,16 @@ Sage Days 99: SageMath and [[http://www2.macaulay2.com/Macaulay2/|Macaulay2]] - 
 
 == When and where? ==
 
-July 22-26, 2019, at the IMA, University of Minnesota, in Minneapolis, MN, USA.
+July 22-26, 2019, at the [[| IMA, University of Minnesota]], in Minneapolis, MN, USA.
 
 
-== Tentative List of Speakers ==
+== Tentative list of Speakers and Coding Projects (Group Leader) ==
 
-Yang-Hui He (University of London) (confirmed)
+=== Yang-Hui He ===
 
-Matthias Koeppe (University of California, Davis) (confirmed)
+=== Matthias Köppe ===
 
-Michael Stillman (Cornell University) (confirmed)
-
-== Tentative list of Coding Projects (Group Leader) ==
+=== Michael Stillman ===
 
 === Further development of plane partition class (Jessica Striker) ===
 
@@ -70,4 +68,25 @@ a theory of Gr\"obner bases for categories which is developed in work of
 Sam-Snowden. However, no computer implementation exists for doing this, 
 so the goal of this project is to provide one.
 
-=== More projects to be posted.  Please feel free to add your own interests or email Gregg (musiker at math dot umn dot edu) or Christine (berkesch at math dot umn dot edu) with them if you do not have direct wiki editing access. ===
+=== Maps between toric varieties or between simplicity complexes (Greg Smith) ===
+
+        Option 1) Add new functionality to the NormalToricVarieties package related to toric maps.
+        This likely involves adding a new Type called “ToricMaps”, creating basic constructors
+        (such as the canonical map associated to a blowup) and tests (such as isProper).
+        More ambiguously, it would also create the induced maps on toric divisors, coherent 
+        sheafs, and intersection rings.  One might even hope to compute higher direct images
+        is some cases (although this would likely require new algorithms).  This option only 
+        makes sense if there are enough participants with a sufficiently strong background
+        in toric geometry.  I already have some code to get things started.
+
+
+        Option 2) Add new functionality to the SimplicialComplexes package related to simplicial maps.
+        Again, this likely involves adding a new Type, creating basic constructors, and 
+        appropriate Boolean-valued methods.  Creating the induced maps on Chain Complexes
+        would be a key application—one would like to have all of the elementary operations from
+        algebraic topology.  One would also like to add a database of “classic” examples.  I believe
+        that some first steps in this direction were taken at the 2017 Macaulay2 workshop in 
+        Berkeley, but the changes haven’t yet been incorporated into the distributed version.
+        This project has the advantage having much smaller prerequisites.
+
+=== More projects to be posted.  Please feel free to add your own interests or email Gregg (musiker at math dot umn dot edu) or Christine (cberkesc at math dot umn dot edu) with them if you do not have direct wiki editing access. ===
