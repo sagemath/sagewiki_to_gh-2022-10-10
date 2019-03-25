@@ -21,11 +21,11 @@ Michael Stillman (Cornell University) (confirmed)
 
 == Tentative list of Coding Projects ==
 
-==== Further development of plane partition class (Jessica Striker) ===
+=== Further development of plane partition class (Jessica Striker) ===
 
 Plane partitions have many intriguing combinatorial properties and symmetries, including connections to current research. At SageDays 78, a class for plane partitions in a box was implemented. At this workshop, I would like to add important functionality to this class, including generation of plane partitions summing to n (rather than in a bounding box), symmetry classes, random generation, and maps to fundamental domains. We could also consider coding a connection to Macaulay2, as plane partitions are in bijection with monomial ideals of three variables.
 
-==== A new version of the D-modules package (Laura Matusevich) ===
+=== A new version of the D-modules package (Laura Matusevich) ===
 
 Description: The M2 D-modules package was coded by Anton Leykin and 
 Harrison Tsai almost 20 years ago; the current version 1.4 is about 8 
