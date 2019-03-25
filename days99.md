@@ -58,7 +58,7 @@ this coding project is to implement these rings (and related ones) and
 the system of maps between them.  If time permits, we will implement 
 more from the theory of posets, hyperplane arrangements, and matroids.
 
-=== Gr\"obner bases for FI-modules (Steven Sam) ===
+=== Groebner bases for FI-modules (Steven Sam) ===
 
 The application of FI-modules to examples in topology, 
 commutative algebra, combinatorics, etc. has seen an explosion of 
