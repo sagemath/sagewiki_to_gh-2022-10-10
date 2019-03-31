@@ -18,7 +18,7 @@ Another list by the AMS [[http://www.mathontheweb.org/mathweb/mi-software.html|h
 || GINAC || GPL ||  https://www.ginac.de ||
 || GTYBALT || GPL || http://wwwthep.physik.uni-mainz.de/~stefanw/gtybalt/ ||
 || JScience || BSD || http://www.jscience.org/ ||
-|| LiDIA || "open source" || https://archive.softwareheritage.org/browse/origin/https://github.com/mkoeppe/LiDIA/directory/ ||
+|| LiDIA || "open source" || https://github.com/mkoeppe/LiDIA/ ||
 || Macaulay2 ||  GPL ||  http://www.math.uiuc.edu/Macaulay2/ ||
 || Magnus ||   GPL ||   http://sourceforge.net/projects/magnus/ ||
 || MAS || "open source" || http://krum.rz.uni-mannheim.de/mas/ ||
