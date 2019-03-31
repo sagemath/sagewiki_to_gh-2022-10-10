@@ -10,11 +10,11 @@ Another list by the AMS [[http://www.mathontheweb.org/mathweb/mi-software.html|h
 
 == The terrain ==
 || Axiom || [[http://www.opensource.org/licenses/bsd-license.php|BSD]] || http://axiom-developer.org ||
-|| CADABRA || GPL || http://cadabra.phi-sci.com/ ||
+|| CADABRA || GPL || https://cadabra.phi-sci.com/ ||
 || DoCon || open source || http://homepages.inf.ed.ac.uk/wadler/realworld/docon2.html||
 || FriCAS || [[http://www.opensource.org/licenses/bsd-license.php|BSD]] || http://fricas.sourceforge.net ||
-|| GAP || GPL || http://www.gap-system.org ||
-|| GIAC || GPL || http://www-fourier.ujf-grenoble.fr/~parisse/giac.html ||
+|| GAP || GPL || https://www.gap-system.org ||
+|| GIAC || GPL || https://www-fourier.ujf-grenoble.fr/~parisse/giac.html ||
 || GINAC || GPL ||  https://www.ginac.de ||
 || GTYBALT || GPL || http://wwwthep.physik.uni-mainz.de/~stefanw/gtybalt/ ||
 || JScience || BSD || http://www.jscience.org/ ||
@@ -23,13 +23,13 @@ Another list by the AMS [[http://www.mathontheweb.org/mathweb/mi-software.html|h
 || Magnus ||   GPL ||   http://sourceforge.net/projects/magnus/ ||
 || MAS || "open source" || http://krum.rz.uni-mannheim.de/mas/ ||
 || Mathemagix ||  GPL? || http://www.mathemagix.org/ ||
-|| Mathomatic ||  LGPL || http://launchpad.net/mathomatic||
+|| Mathomatic ||  LGPL || https://launchpad.net/mathomatic||
 || Maxima ||   GPL || http://maxima.sourceforge.net ||
-|| NTL ||  GPL || http://www.shoup.net/ntl/ ||
-|| Pari || GPL || http://pari.math.u-bordeaux.fr ||
-|| SageMath ||  GPL || http://www.sagemath.org/ ||
-|| Scilab ||  "open source" || http://www.scilab.org ||
-|| Singular ||  GPL || http://www.singular.uni-kl.de ||
+|| NTL ||  GPL || https://www.shoup.net/ntl/ ||
+|| Pari || GPL || https://pari.math.u-bordeaux.fr ||
+|| SageMath ||  GPL || https://www.sagemath.org/ ||
+|| Scilab ||  "open source" || https://www.scilab.org ||
+|| Singular ||  GPL || https://www.singular.uni-kl.de ||
 || Symmetrica ||  public domain || http://www.mathe2.uni-bayreuth.de/axel/symneu_engl.html ||
 || !SymPy || BSD || https://www.sympy.org/ ||
 || Yacas ||   GPL || http://yacas.sourceforge.net ||
