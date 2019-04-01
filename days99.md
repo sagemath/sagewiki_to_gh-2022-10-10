@@ -83,4 +83,24 @@ so the goal of this project is to provide one.
         Berkeley, but the changes haven’t yet been incorporated into the distributed version.
         This project has the advantage having much smaller prerequisites.
 
+=== Cluster algebra combinatorics in SageMath (Emily Gunawan) ===
+
+We propose reviewing tickets and implementing changes related to cluster algebra theory. Currently there are two cluster algebra packages (combinat:ClusterSeed and algebras:ClusterAlgebra) implemented in SageMath.  Options for specific projects during this workshop include:
+
+1. Modifying an existing Python implementation: The clusters of a type A cluster algebra are naturally in bijection with certain Catalan objects such as polygon triangulations and Conway-Coxeter frieze patterns. We propose to implement a constructor for this in Sage, and write methods to go between Conway-Coxeter frieze patterns and some of the Catalan objects already implemented in Sage (for example, binary trees). 
+
+2. Writing new code for SageMath: Given an arbitrary cluster algebra of rank n, an (integral) frieze is a ring homomorphism from the cluster algebra to an integral domain (the integers). A frieze vector is an n-tuple which uniquely determines a frieze. We propose adding a method which allows the user to print the frieze values. Furthermore, in type A, the positive frieze vectors are in bijection with the Catalan objects (for example, the Conway-Coxeter frieze patterns), so we propose writing methods for going between the type A positive frieze vectors and other Catalan objects. The (finite) number of positive frieze vectors is also known for type E6 and type D and there is an algorithm for producing them. 
+
+3. Cleaning up an existing implementation (ticket #16310): Given a cluster algebra from a surface, the snake graph formula is a way to compute cluster algebra elements coming from generalized arcs and bracelets. We propose integrating an existing implementation into SageMath. The code is functional, but it still requires integration with the most recent version of SageMath.
+
+4. Improving functionality of an existing implementation (ticket #19160): We propose creating SnakeGraph as its own object, allowing it to take as input continued fractions and binary sequences (also called sign functions), and producing TikZ graphics as output. 
+
+5. We propose reviewing and cleaning up the ClusterSeed and ClusterQuiver classes needed to deal with principal coefficients or frozen vertices when the user tries to use their own variable labels. This was started at Sage Days 64.5.
+
+=== Primary Decomposition (Justin Chen) ===
+
+Primary decomposition is one of the most fundamental representations of an ideal in a polynomial ring. However, the computational task of computing primary decompositions is difficult in general. The current algorithm used in Macaulay2 (Shimoyama-Yokoyama) leaves room for improvement, and although other algorithms (Gianni-Trager-Zacharias) have been introduced in the MinimalPrimes package, these still need revision. This project aims to improve primary decomposition in Macaulay2, a large part of which will be performing the necessary work to make MinimalPrimes a stable package.
+
+
+
 === More projects to be posted.  Please feel free to add your own interests or email Gregg (musiker at math dot umn dot edu) or Christine (cberkesc at math dot umn dot edu) with them if you do not have direct wiki editing access. ===
