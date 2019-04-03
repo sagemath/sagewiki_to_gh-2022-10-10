@@ -35,17 +35,18 @@ Examples:
 This is the code and a mockup animation of the interact command. It defines a slider, seen on top, that can be dragged. Once dragged, it changes the value of the variable "order" and the whole block of code gets evaluated. This principle can be seen in various examples presented on the pages above!
 
 {{{#!sagecell
-var('x')
+x   = SR.var('x')
 x0  = 0
-f   = sin(x)*e^(-x)
-p   = plot(f,-1,5, thickness=2)
-dot = point((x0,f(x=x0)),pointsize=80,rgbcolor=(1,0,0))
+f   = sin(x) * e^(-x)
+p   = plot(f, -1, 5, thickness=2)
+dot = point((x0, f(x=x0)), pointsize=80, rgbcolor=(1, 0, 0))
+
 @interact
-def _(order=[1..12]):
-  ft = f.taylor(x,x0,order)
-  pt = plot(ft,-1, 5, color='green', thickness=2)
-  pretty_print(html('$f(x)\;=\;%s$'%latex(f)))
-  pretty_print(html('$\hat{f}(x;%s)\;=\;%s+\mathcal{O}(x^{%s})$'%(x0,latex(ft),order+1)))
-  show(dot + p + pt, ymin = -.5, ymax = 1)
+def _(order=slider([1 .. 12])):
+  ft = f.taylor(x, x0, order)
+  pt = plot(ft, -1, 5, color='green', thickness=2)
+  pretty_print(html('$f(x)\;=\;%s$' % latex(f)))
+  pretty_print(html('$\hat{f}(x;%s)\;=\;%s+\mathcal{O}(x^{%s})$' % (x0, latex(ft), order+1)))
+  show(dot + p + pt, ymin=-.5, ymax=1)
 }}}
 {{attachment:taylor_series_animated.gif}}
