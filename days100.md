@@ -1,4 +1,4 @@
-== Sage days 100 ==
+= Sage days 100 =
 == June or July 2019 ==
 
 The workshop will take place at [[https://www.mpim-bonn.mpg.de/|Max-Planck Institut for Mathematics in Bonn, Gernany]].
