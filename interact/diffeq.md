@@ -447,7 +447,7 @@ def _(f=input_box(default=x*exp(-x^2),label='f(x)'), longitud=input_box(default=
 
     s=k*(tiempo/tsteps) /dx^2
     if s>0.5:
-        print 's=%f > 1/2!!!  The method is not stable'%s
+        print('s=%f > 1/2!!!  The method is not stable' % s)
 
     ut=calor_cython(u0,dx,k,tiempo,tsteps)
     show( line2d(zip(xs, u0)) + line2d(zip(xs, ut), rgbcolor='green') )
