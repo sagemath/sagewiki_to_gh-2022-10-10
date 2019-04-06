@@ -11,7 +11,7 @@ by David Horgan.
 
 Moduli Space of Shapes of a Tetrahedron with Faces of Equal Area
 
-The space of shapes of a tetrahedron with fixed face areas is naturally a symplectic manifold of real dimension two. This symplectic manifold turns out to be a Kahler manifold and can be 
+The space of shapes of a tetrahedron with fixed face areas is naturally a symplectic manifold of real dimension two. This symplectic manifold turns out to be a Kähler manifold and can be 
 
 parametrized by a single complex coordinate Z given by the cross ratio of four complex numbers obtained by stereographically projecting the unit face normals onto the complex plane. 
 
@@ -92,21 +92,21 @@ d3 =(((1 - p2**2)/(2*(1 + p1)))**(1/4), (1/2)*(p2 - 1)*((2*(1 + p1))/(1 - p2**2)
 d=[d1,d2,d3]
 
 #printresults
-print 'a1=', a1
-print 'a2=', a2
-print 'a3=', a3
+print('a1={}'.format(a1))
+print('a2={}'.format(a2))
+print('a3={}'.format(a3))
 
-print 'b1=', b1
-print 'b2=', b2
-print 'b3=', b3
+print('b1={}'.format(b1))
+print('b2={}'.format(b2))
+print('b3={}'.format(b3))
 
-print 'c1=', c1
-print 'c2=', c2
-print 'c3=', c3
+print('c1={}'.format(c1))
+print('c2={}'.format(c2))
+print('c3={}'.format(c3))
 
-print 'd1=', d1
-print 'd2=', d2
-print 'd3=', d3
+print('d1={}'.format(d1))
+print('d2={}'.format(d2))
+print('d3={}'.format(d3))
 
 
 
@@ -204,33 +204,25 @@ def _(j1 = input_box(6.0, 'J1'),
         d8a=numerical_approx(d8, digits=4)
         angle = numerical_approx(d8*180/pi, digits=4)
         if angle != NaN:
-             print 'angle between faces 1 and 2 in quantum tetrahedron = ',d8a, 'radians'
-             print 'angle between faces 1 and 2 in quantum tetrahedron = ',angle,'degrees'        
+             print('angle between faces 1 and 2 in quantum tetrahedron = {} radians'.format(d8a))
+             print('angle between faces 1 and 2 in quantum tetrahedron = {} degrees'.format(angle))
 
         html('<h3>main sequence Area eigenvalues</h3>')
         lp=1.61619926*10^-35
         main1=numerical_approx(sqrt(j1*(j1+1)),digits=4)
         areamain1 =0.5*lp^2*main1
-        print 'Area of face 1=', areamain1, 'm2' 
+        print('Area of face 1=', areamain1, 'm2')
         main2=numerical_approx(sqrt(j2*(j2+1)),digits=4)
         areamain2 =0.5*lp^2*main2
-        print 'Area of face 2=', areamain2, 'm2' 
+        print('Area of face 2=', areamain2, 'm2')
         main3=numerical_approx(sqrt(j3*(j3+1)),digits=4)
         areamain3 =0.5*lp^2*main3
-        print 'Area of face 3=', areamain3, 'm2' 
+        print('Area of face 3=', areamain3, 'm2')
         main4=numerical_approx(sqrt(j4*(j4+1)),digits=4)
         areamain4 =0.5*lp^2*main4
-        print 'Area of face 4=', areamain4, 'm2' 
+        print('Area of face 4=', areamain4, 'm2')
         area = areamain1 + areamain3 +areamain3+areamain4
-        print 'Total area of quantum tetrahedron =', area, 'm2'
-
-
-
-
-
-
-
-
+        print('Total area of quantum tetrahedron =', area, 'm2')
 
         html('<h3>Values of Volume Eigenvalue</h3>')
         kmin = int(max(abs(j1-j2),abs(j3 -j4)))
@@ -251,25 +243,21 @@ def _(j1 = input_box(6.0, 'J1'),
             c8 = wigner_6j(j3,1,j3,k,j4,k-1)
             a = c1*c2*c3*c4*c5*c6*c7*c8
             r.append(a)
-            q=numerical_approx(a, digits=10)
-            #print r
+            q = numerical_approx(a, digits=10)
         for j in range(d-1):
             kmatrix[[j],[j+1]]=r[j+1]
             kmatrix[[j+1],[j]]=-r[j+1]
-            #print kmatrix
     
         M = (2/9)*kmatrix
-        #print M
-        s=M.eigenvalues()
-        #print s    
+        s = M.eigenvalues()
         lp3=6*10^-104
         for j in range(d):
-            e= sqrt(s[j])
+            e = sqrt(s[j])
             vol = lp3*e
             volume = numerical_approx(vol, digits=2)
             if e.imag() ==0:
-                print "volume eigenvalue =",(e)
-                print "volume of tetrahedron =", volume, 'm3'
+                print("volume eigenvalue =", e)
+                print("volume of tetrahedron =", volume, 'm3')
                 
 
 }}}
@@ -320,7 +308,7 @@ def _(j1 = input_box(6.0, 'J1'),
         d6=2*sqrt(d3*d4)
         d7=d5/d6
         d8=arccos(d7)
-        print "Angle eigenvalue in radians=",(d8)
+        print("Angle eigenvalue in radians=", d8)
 
 
         html('<h3>Values of Volume Eigenvalue</h3>')
@@ -343,24 +331,20 @@ def _(j1 = input_box(6.0, 'J1'),
             a = c1*c2*c3*c4*c5*c6*c7*c8
             r.append(a)
             q=numerical_approx(a, digits=10)
-            #print r
         for j in range(d-1):
             kmatrix[[j],[j+1]]=r[j+1]
             kmatrix[[j+1],[j]]=-r[j+1]
-            #print kmatrix
     
         M = (2/9)*kmatrix
-        #print M
-        s=M.eigenvalues()
-        #print s    
+        s = M.eigenvalues()
         lp3=6*10^-104
         for j in range(d):
             e= sqrt(s[j])
             vol = lp3*e
             volume = numerical_approx(vol, digits=2)
             if e.imag() ==0:
-                print "volume eigenvalue =",(e)
-                print "volume of tetrahedron in m3 =", volume
+                print("volume eigenvalue =", e)
+                print("volume of tetrahedron in m3 =", volume)
                 
 
 }}}
