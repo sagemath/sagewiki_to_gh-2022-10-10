@@ -30,16 +30,16 @@ pretty_print(html("<h1>Double Precision Root Finding Using Bisection</h1>"))
 @interact
 def _(f = cos(x) - x, a = float(0), b = float(1), eps=(-3,(-16, -1))):
      eps = 10^eps
-     print "eps = %s"%float(eps)
+     print("eps = %s" % float(eps))
      try:
          c, intervals = bisect_method(f, a, b, eps)
      except ValueError:
-         print "f must have opposite sign at the endpoints of the interval"
+         print("f must have opposite sign at the endpoints of the interval")
          show(plot(f, a, b, color='red'), xmin=a, xmax=b)
      else:
-         print "root =", c
-         print "f(c) = %r"%f(x=c)
-         print "iterations =", len(intervals)
+         print("root =", c)
+         print("f(c) = %r" % f(x=c))
+         print("iterations =", len(intervals))
          P = plot(f, a, b, color='red')
          h = (P.ymax() - P.ymin())/ (1.5*len(intervals))
          L = sum(line([(c,h*i), (d,h*i)]) for i, (c,d) in enumerate(intervals) )
@@ -78,12 +78,12 @@ pretty_print(html("<h1>Double Precision Root Finding Using Newton's Method</h1>"
 @interact
 def _(f = x^2 - 2, c = float(0.5), eps=(-3,(-16, -1)), interval=float(0.5)):
      eps = 10^(eps)
-     print "eps = %s"%float(eps)
+     print("eps = %s"%float(eps))
      z, iterates = newton_method(f, c, eps)
-     print "root =", z
-     print "f(c) = %r"%f(x=z)
+     print("root = {}".format(z))
+     print("f(c) = %r" % f(x=z))
      n = len(iterates)
-     print "iterations =", n
+     print("iterations = {}".format(n))
      pretty_print(html(iterates))
      P = plot(f, (x,z-interval, z+interval), rgbcolor='blue')
      h = P.ymax(); j = P.ymin()
@@ -124,7 +124,7 @@ def tangent_line(f = input_box(default=sin(x)), xbegin = slider(0,10,1/10,0), xe
     df = diff(f)
     tanf = f(x=x0i) + df(x=x0i)*(x-x0i)
     fplot = plot(f, prange[0], prange[1])
-    print 'Tangent line is y = ' + tanf._repr_()
+    print('Tangent line is y = ' + tanf._repr_())
     tanplot = plot(tanf, prange[0], prange[1], rgbcolor = (1,0,0))
     fmax = f.find_local_maximum(prange[0], prange[1])[0]
     fmin = f.find_local_minimum(prange[0], prange[1])[0]
@@ -153,8 +153,8 @@ def midpoint(n = slider(1,100,1,4), f = input_box(default = "x^2", type = str), 
     max_y = max(0, find_local_maximum(func,a,b)[0])
     pretty_print(html('<h3>Numerical integrals with the midpoint rule</h3>'))
     pretty_print(html('$\int_{a}^{b}{f(x) dx} {\\approx} \sum_i{f(x_i) \Delta x}$'))
-    print "\n\nSage numerical answer: " + str(integral_numerical(func,a,b,max_points = 200)[0])
-    print "Midpoint estimated answer: " + str(RDF(dx*sum([midys[q] for q in range(n)])))
+    print("\n\nSage numerical answer: " + str(integral_numerical(func,a,b,max_points = 200)[0]))
+    print("Midpoint estimated answer: " + str(RDF(dx*sum([midys[q] for q in range(n)]))))
     show(plot(func,a,b) + rects, xmin = a, xmax = b, ymin = min_y, ymax = max_y)
 }}}
 {{attachment:num_int.png}}
@@ -254,9 +254,9 @@ def _(f=sin(x), g=cos(x), xrange=input_box((0,1)), yrange='auto', a=1,
       do_plot = ("Draw Plots", True)):
     try:
         f = SR(f); g = SR(g); a = SR(a)
-    except TypeError, msg:
-        print msg[-200:]
-        print "Unable to make sense of f,g, or a as symbolic expressions."
+    except TypeError as msg:
+        print(msg[-200:])
+        print("Unable to make sense of f,g, or a as symbolic expressions.")
         return
     if not (isinstance(xrange, tuple) and len(xrange) == 2):
           xrange = (0,1)
@@ -715,7 +715,7 @@ def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x),type=S
     pretty_print(html("$$\sum_{i=1}^{i=%s}w_i\left(%s\\right)= %s\\approx %s =\int_{-1}^{1}%s \,dx$$"%(n,
         latex(f), approximation, integral, latex(scaled_func))))
     error_data = [trapezoid, simpson, integral-approximation,integral_error]
-    print "Trapezoid: %s, Simpson: %s, \nMethod: %s, Real: %s"%tuple(error_data)
+    print("Trapezoid: %s, Simpson: %s, \nMethod: %s, Real: %s" % tuple(error_data))
     show(bar_chart(error_data,width=1),ymin=min(error_data), ymax=max(error_data))
 }}}
 {{attachment:quadrature1.png}}
@@ -822,9 +822,9 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     #
     # print textual info
     #
-    print "Position vector defined as r(t)=", position
-    print "Speed is ", N(speed(t=t0))
-    print "Curvature is ", N(curvature)
+    print("Position vector defined as r(t)={}".format(position))
+    print("Speed is {}".format(N(speed(t=t0))))
+    print("Curvature is {}".format(N(curvature)))
     #
     # show accumulated graphical info
     # adjust x-,y- extents to get best plot
@@ -948,13 +948,13 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     #
     # print textual info
     #
-    print "Position vector: r(t)=", position
-    print "Speed is ", N(speed(t=t0))
-    print "Curvature is ", N(curvature)
-    ## print "Torsion is ", N(torsion)
-    print
-    print "Right-click on graphic to zoom to 400%"
-    print "Drag graphic to rotate"
+    print("Position vector: r(t)=", position)
+    print("Speed is ", N(speed(t=t0)))
+    print("Curvature is ", N(curvature))
+    ## print("Torsion is ", N(torsion))
+    print()
+    print("Right-click on graphic to zoom to 400%")
+    print("Drag graphic to rotate")
     #
     # show accumulated graphical info
     #
