@@ -50,7 +50,7 @@ D = [vector([0,0]), vector([1,0])]
 
 @interact
 def f(A = matrix([[1,1],[-1,1]]), D = '[[0,0],[1,0]]', k=[3..17]):
-    print "Det = ", A.det()
+    print("Det = {}".format(A.det()))
     D = matrix(eval(D)).rows()
     def Dn(k):
         ans = []
@@ -73,7 +73,7 @@ D = [vector([0,0]), vector([1,0])]
 
 @interact
 def f(A = matrix([[1,1],[-1,1]]), D = '[[0,0],[1,0]]', k=[3..17]):
-    print "Det = ", A.det()
+    print("Det = {}".format(A.det()))
     D = matrix(eval(D)).rows()
     def Dn(k):
         ans = []
@@ -105,10 +105,10 @@ def Dn(D,A,k):
 
 @interact
 def f(A = matrix([[0,0,2],[1,0,1],[0,1,-1]]), D = '[[0,0,0],[1,0,0]]', k=[3..15], labels=False):
-    print "Det = ", A.det()
+    print("Det = {}".format(A.det()))
     D = matrix(eval(D)).rows()
-    print "D:"
-    print D
+    print("D:")
+    print(D)
     G = point3d([v.list() for v in Dn(D,A,k)], size=8)#, opacity=.85)
     if labels:
         G += sum([text3d(str(v),v) for v in Dn(D,A,k)])
@@ -225,7 +225,7 @@ def mandel_plot(expo = slider(-10,10,0.1,2), \
          if abs(z) > 2:
             return z
       return z
-    print 'z <- z^%s + c' % expo
+    print('z <- z^%s + c' % expo)
 
     # calling ff three times, otherwise it fast_callable exceeds a recursion limit
     if formula is 'ff':
@@ -258,7 +258,7 @@ def julia_plot(expo = slider(-10,10,0.1,2), \
          if abs(z) > 2:
             return z
       return z
-    print 'z <- z^%s + (%s+%s*I)' % (expo, c_real, c_imag)
+    print('z <- z^%s + (%s+%s*I)' % (expo, c_real, c_imag))
 
     complex_plot(julia, zoom_x,zoom_y, plot_points=200, dpi=150).show(frame=True, aspect_ratio=1)
 }}}
