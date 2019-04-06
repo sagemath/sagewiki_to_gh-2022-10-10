@@ -46,9 +46,9 @@ def render3d(a_gf, color_fan = True, verbose = False, highlights = 'all'):
     cone_info = [ieq_to_vert(q,linearities=[[1,-1,-1,-1,-1]]) for q in g_cones_ieqs]
     if verbose:
         for x in cone_info:
-            print x.ieqs() + [[1,1,0,0,0],[1,0,1,0,0],[1,0,0,1,0],[1,0,0,0,1]]
-            print x.linearities()
-            print ""
+            print(x.ieqs() + [[1,1,0,0,0],[1,0,1,0,0],[1,0,0,1,0],[1,0,0,0,1]])
+            print(x.linearities())
+            print("")
     cone_info = [Polyhedron(ieqs = x.ieqs() + [[1,1,0,0,0],[1,0,1,0,0],[1,0,0,1,0],[1,0,0,0,1]], linearities = x.linearities()) for x in cone_info]
 
     if color_fan == True:
@@ -76,7 +76,7 @@ def render3d(a_gf, color_fan = True, verbose = False, highlights = 'all'):
                     faces.append(render_solid(Polyhedron(vertices = cone_verts), color = color_list[i]))
                 i = i + 1
         except:
-            print cone_data._rays
+            print(cone_data._rays)
             raise RuntimeError
         for a_line in cone_lines:
             all_lines.append(a_line)
@@ -96,7 +96,7 @@ def Groebner_fan_browser(bsel = slider(0,100,.1,0,label='Individual basis select
     R4.<w,x,y,z> = PolynomialRing(QQ,4)
     if ideal_gens not in gbdict:
         id_gens = R4.ideal(list(ideal_gens.split(',')))
-        print id_gens
+        print(id_gens)
         gf4 = id_gens.groebner_fan()
         gf4rbs = gf4.reduced_groebner_bases()
         gbdict[ideal_gens] = (gf4,gf4rbs)
