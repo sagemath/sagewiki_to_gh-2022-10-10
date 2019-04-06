@@ -195,7 +195,7 @@ by William Stein (there is no way yet to make the text box big):
 {{{#!sagecell
 @interact
 def _(system=selector([('sage0', 'Sage'), ('gp', 'PARI'), ('magma', 'Magma')]), code='2+2'):
-    print globals()[system].eval(code)
+    print(globals()[system].eval(code))
 }}}
 
 {{attachment:evalsys.png}}
@@ -206,7 +206,7 @@ by Marshall Hampton
 {{{#!sagecell
 def minkdemo(list1,list2):
     '''
-    Returns the Minkowski sum of two lists.
+    Return the Minkowski sum of two lists.
     '''
     output = []
     for stuff1 in list1:
@@ -335,12 +335,12 @@ def _(T=slider([0..100],default=100,label='People surveyed'),X=slider([0..100],d
     G += text(XYZ, (0,0), rgbcolor='black')
    
     # Indicate number not in X, in Y, or in Z
-    C=T-XX-YY-ZZ-ZX-ZY-YX-XYZ
+    C = T-XX-YY-ZZ-ZX-ZY-YX-XYZ
     G += text(C,(3,-3),rgbcolor='black')
     
     # Check reasonableness before displaying result
     if XYZ>XY or XYZ>XZ or XYZ>YZ or XY>X or XY>Y or XZ>X or XZ>Z or YZ>Y or YZ>Z or C<0 or XYZ<0 or XZ<0 or YZ<0 or XY<0 or X<0 or Y<0 or Z<0:
-        print 'This situation is impossible! (Why?)'
+        print('This situation is impossible! (Why?)')
     else:
         G.show(aspect_ratio=1, axes=False)
 }}}
