@@ -227,7 +227,7 @@ def minksumvis(x1tri=slider(-1,1,1/10,0, label='Triangle point x coord.'), yb=sl
     p12poly = Polyhedron(p12)
     edge_lines = Graphics()
     verts = p12poly.vertices()
-    for v0, v1 in p12poly.graph().edges():
+    for v0, v1 in p12poly.graph().edges(False):
        edge_lines += line([v0, v1])
     triangle_sum = Graphics()
     for vert in kite_list:
