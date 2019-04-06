@@ -112,7 +112,7 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
         elif x<=0 and y>=x and y<=-x: return 4*x^2 - x + (start) -y
         elif y>=0 and -y+1 <= x and y-1 >= x: return 4*y^2 -y + start -x
         elif y<0 and -x >= y and y<x: return 4*(y+1)^2 -11*(y+1) + (start+7) +x
-        else: print 'NaN'
+        else: print('NaN')
 
     #Takes in an n and the start value of the spiral and gives its (x,y) coordinate
     def find_xy(num, start):
@@ -137,8 +137,8 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
         y = Integer(y)
         return (x,y)
 
-    if start < 1 or end <=start: print "invalid start or end value"
-    if n > end: print "WARNING: n is larger than the end value"
+    if start < 1 or end <=start: print("invalid start or end value")
+    if n > end: print("WARNING: n is larger than the end value")
 
     #Changes the entry of a matrix by taking the old matrix and the (x,y) coordinate (in matrix coordinates) and returns the changed matrix
     def matrix_morph(M, x, y, set):
@@ -169,7 +169,6 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
     else: M = matrix(GF(2), size+1) # Restricts the entries to 0 or 1
 
     main_list = set()
-    #print x_cord, y_cord
     if show_lines:
         for t in [(-size-1)..size+1]:
             m= SW_NE(t, xt, yt, start)
@@ -180,7 +179,6 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
 
     #This for loop changes the matrix by spiraling out from the center and changing each entry as it goes. It is faster than the find_xy function above.
     for num in [start..end]:
-        #print x, "=x  y=", y, " num =", num
         if countx < overcount:
             if overcount % 2 == 1: x+=1
             else: x-=1
@@ -206,19 +204,18 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
             else: M = matrix_morph(M, x, y, 1)
 
     if n != 0:
-        print '(to go from x,y coords to an n, reset by setting n=0)'
+        print('(to go from x,y coords to an n, reset by setting n=0)')
         (x_cord, y_cord) = find_xy(n, start)
-        #print 'if n =', n, 'then (x,y) =', (x_cord, y_cord)
 
-    print '(x,y) =', (x_cord, y_cord), '<=> n =', find_n(x_cord, y_cord, start)
-    print ' '
-    print "SW/NE line"
-    if -y_cord<x_cord: print '4*t^2 + 2*t +', -x_cord+y_cord+start
-    else: print '4*t^2 + 2*t +', +x_cord-y_cord+start
+    print('(x,y) =', (x_cord, y_cord), '<=> n =', find_n(x_cord, y_cord, start))
+    print(' ')
+    print("SW/NE line")
+    if -y_cord<x_cord: print('4*t^2 + 2*t +', -x_cord+y_cord+start)
+    else: print('4*t^2 + 2*t +', +x_cord-y_cord+start)
 
-    print "NW/SE line"
-    if x_cord<y_cord: print '4*t^2 +', -x_cord-y_cord+start
-    else: print '4*t^2 + 4*t +', +x_cord+y_cord+start
+    print("NW/SE line")
+    if x_cord<y_cord: print('4*t^2 +', -x_cord-y_cord+start)
+    else: print('4*t^2 + 4*t +', +x_cord+y_cord+start)
 
     if size <= size_limit: show(M) #Displays the matrix with integer entries
     else:
@@ -236,8 +233,8 @@ def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes
 
     #For more information about the factors in the spiral, visit http://www.dcs.gla.ac.uk/~jhw/spirals/index.html by John Williamson.
 
-    if start < 1 or end <=start: print "invalid start or end value"
-    if n > end: print "WARNING: n is greater than end value"
+    if start < 1 or end <=start: print("invalid start or end value")
+    if n > end: print("WARNING: n is greater than end value")
     def f(n):
         return (sqrt(n)*cos(2*pi*sqrt(n)), sqrt(n)*sin(2*pi*sqrt(n)))
 
@@ -259,7 +256,7 @@ def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes
         R=points(list2, hue = .1, pointsize = p_size)
 
     if n > 0:
-        print 'n =', factor(n)
+        print('n = {}'.format(factor(n)))
 
         p = 1
     #The X which marks the given n
@@ -281,8 +278,8 @@ def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes
             else:
                 c = -((ceil(sqrt(n)))^2 - n)
                 c2= -((floor(sqrt(n)))^2 + floor(sqrt(n)) - n)
-            print 'Pink Curve:  n^2 +', c
-            print 'Green Curve: n^2 + n +', c2
+            print('Pink Curve:  n^2 +', c)
+            print('Green Curve: n^2 + n +', c2)
             def g(m): return (a*m^2+b*m+c);
             def r(m) : return sqrt(g(m))
             def theta(m) : return r(m)- m*sqrt(a)
@@ -309,15 +306,16 @@ by William Stein
 def _(N=[1..100], k=selector([2,4,..,12],nrows=1), prec=(3..40),
       group=[(Gamma0, 'Gamma0'), (Gamma1, 'Gamma1')]):
     M = CuspForms(group(N),k)
-    print M; print '\n'*3
-    print "Computing basis...\n\n"
+    print(M)
+    print('\n' * 3)
+    print("Computing basis...\n\n")
     if M.dimension() == 0:
-         print "Space has dimension 0"
+         print("Space has dimension 0")
     else:
-        prec = max(prec, M.dimension()+1)
+        prec = max(prec, M.dimension() + 1)
         for f in M.basis():
              view(f.q_expansion(prec))
-    print "\n\n\nDone computing basis."
+    print("\n\n\nDone computing basis.")
 }}}
 
 {{attachment:modformbasis.png}}
@@ -330,7 +328,7 @@ html('<h1>Cuspidal Subgroups of Modular Jacobians J0(N)</h1>')
 @interact
 def _(N=selector([1..8*13], ncols=8, width=10, default=10)):
     A = J0(N)
-    print A.cuspidal_subgroup()
+    print(A.cuspidal_subgroup())
 }}}
 
 {{attachment:cuspgroup.png}}
@@ -751,8 +749,8 @@ E = EllipticCurve('37a')
 @interact
 def _(p=slider(prime_range(1000), default=389)):
     show(E)
-    print "p = %s"%p
-    show(E.change_ring(GF(p)).plot(),xmin=0,ymin=0)
+    print("p = %s" % p)
+    show(E.change_ring(GF(p)).plot(), xmin=0, ymin=0)
 }}}
 
 {{attachment:ellffplot.png}}
@@ -814,7 +812,7 @@ by William Stein
 {{{#!sagecell
 @interact
 def _(number=e, ymax=selector([5,20,..,400],nrows=2), clr=Color('purple'), prec=[500,1000,..,5000]):
-    c = list(continued_fraction(RealField(prec)(number))); print c
+    c = list(continued_fraction(RealField(prec)(number))); print(c)
     show(line([(i,z) for i, z in enumerate(c)],rgbcolor=clr),ymax=ymax,figsize=[10,2])
 }}}
 {{attachment:contfracplot.png}}
@@ -932,7 +930,7 @@ def _( weight=(5,(2..100))):
   u=zeta(a)
   RIF=RealIntervalField(int(3.321928*D))
   u=u/1
-  print u
+  print(u)
 }}}
 {{attachment:akhi1.png}}
 === Composition Input ===
@@ -1001,19 +999,19 @@ def _( Depth=(5,(2..100))):
   u=zeta(a)
   RIF=RealIntervalField(int(3.321928*D))
   u=u/1
-  print u
+  print(u)
 }}}
 {{attachment:akhi5.png}}
 == Program to Compute Integer Relation between Multiple Zeta Values ==
 {{{#!sagecell
 from mpmath import *
-print "Enter the number of composition"
+print("Enter the number of composition")
 @interact
 def _( n=(5,(2..100))):
  a=[]
  for i in range(n):
         a.append([i+2,1])
- print "In each box Enter composition as an array"
+ print("In each box Enter composition as an array")
  @interact
  def _(v=('Compositions', input_box( default=a, to_value=lambda x: vector(flatten(x)))), accuracy=(100..100000)):
   D=accuracy
@@ -1076,10 +1074,10 @@ def _( n=(5,(2..100))):
   mp.dps=D
   for i in range(n):
         zet[i]=zet[i]/1
-        print "zeta(",a[i],")=",zet[i]
+        print("zeta(", a[i], ")=", zet[i])
   u=pslq(zet,tol=10**-D,maxcoeff=100,maxsteps=10000)
-  print "the Intger Relation between the above zeta values given by the vector"
-  print u
+  print("the Intger Relation between the above zeta values given by the vector")
+  print(u)
 }}}
 {{attachment:akhi10.png}}
 == Word to composition ==
@@ -1102,7 +1100,7 @@ def _( weight=(7,(2..100))):
 			b.append(count)
 			count=1	
 	return(b)
-  print "Composition is ",bintocomp(a)
+  print("Composition is {}".format(bintocomp(a)))
 }}}
 
 {{attachment:akhi2.png}}
@@ -1123,7 +1121,7 @@ def _( Depth=(7,(1..100))):
 		word=word+[0]*(a[i]-1)+[1]
 	return(word)
 
-  print "Word is  ",comptobin(a)
+  print("Word is {}".format(comptobin(a)))
 }}}
 
 {{attachment:akhi3.png}}
@@ -1145,7 +1143,7 @@ def _( weight=(7,(2..100))):
 		b[i]=1-b[i]			
 	return(b)
 
-  print "Dual word is ",dual(a)
+  print("Dual word is {}"?format(dual(a)))
 }}}
 
 {{attachment:akhi4.png}}
@@ -1232,8 +1230,8 @@ def _( w1=(2,(2..100)), w2=(2,(2..100))):
         return(a4)
   c=shuffle(a,b)
   for i in range(len(c[0])-1):
-    print c[1][i],"*",c[0][i] ,"+ ",
-  print c[1][len(c[0])-1],"*",c[0][len(c[0])-1]
+    print(c[1][i],"*",c[0][i] ,"+ ")
+  print(c[1][len(c[0])-1],"*",c[0][len(c[0])-1])
 
 
 }}}
@@ -1381,12 +1379,12 @@ def _( w=(2,(2..100))):
                         rg[0].append(r[0][i])
                         rg[1].append(r[1][i])   
         return(rg)
-  c=Regshuf0(a)
+  c = Regshuf0(a)
   for i in range(len(c[0])-1):
     if(c[1][i] != 0):
-      print c[1][i],"*",c[0][i] ,"+ ",
+      print(c[1][i],"*",c[0][i] ,"+ ")
   if(c[1][len(c[0])-1] != 0):
-    print c[1][len(c[0])-1],"*",c[0][len(c[0])-1]
+    print(c[1][len(c[0])-1],"*",c[0][len(c[0])-1])
 
 
 }}}
@@ -1534,12 +1532,12 @@ def _( w=(2,(2..20))):
 			rg[0].append(r[0][i])
 			rg[1].append(r[1][i])	
 	return(rg)
-  c=Regshuf1(a)
+  c = Regshuf1(a)
   for i in range(len(c[0])-1):
     if(c[1][i] != 0):
-      print c[1][i],"*",c[0][i] ,"+ ",
+      print(c[1][i],"*",c[0][i] ,"+ ")
   if(c[1][len(c[0])-1] != 0):
-    print c[1][len(c[0])-1],"*",c[0][len(c[0])-1]
+    print(c[1][len(c[0])-1],"*",c[0][len(c[0])-1])
 
 
 }}}
