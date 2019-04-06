@@ -204,19 +204,19 @@ def _(system=selector([('sage0', 'Sage'), ('gp', 'PARI'), ('magma', 'Magma')]), 
 == Minkowski Sum ==
 by Marshall Hampton
 {{{#!sagecell
-def minkdemo(list1,list2):
+def minkdemo(list1, list2):
     '''
     Return the Minkowski sum of two lists.
     '''
     output = []
     for stuff1 in list1:
         for stuff2 in list2:
-            temp = [stuff1[i] + stuff2[i] for i in range(len(stuff1))]
-            output.append(temp)
+            output.append([a + b for a, b in zip(stuff1, stuff2)])
     return output
+
 @interact
-def minksumvis(x1tri = slider(-1,1,1/10,0, label = 'Triangle point x coord.'), yb = slider(1,4,1/10,2, label = 'Blue point y coord.')):
-    t_list = [[1,0],[x1tri,1],[0,0]]
+def minksumvis(x1tri=slider(-1,1,1/10,0, label='Triangle point x coord.'), yb=slider(1,4,1/10,2, label='Blue point y coord.')):
+    t_list = [[1,0], [x1tri,1], [0,0]]
     kite_list = [[3, 0], [1, 0], [0, 1], [1, yb]]
     triangle = polygon([[q[0]-6,q[1]] for q in t_list], alpha = .5, rgbcolor = (1,0,0))
     t_vert = point([x1tri-6,1], rgbcolor = (1,0,0))
@@ -227,9 +227,9 @@ def minksumvis(x1tri = slider(-1,1,1/10,0, label = 'Triangle point x coord.'), y
     p12poly = Polyhedron(p12)
     edge_lines = Graphics()
     verts = p12poly.vertices()
-    for an_edge in p12poly.vertex_adjacencies():
-        edge_lines += line([verts[an_edge[0]], verts[an_edge[1][0]]])
-        edge_lines += line([verts[an_edge[0]], verts[an_edge[1][1]]])
+#    for an_edge in p12poly.vertex_adjacencies():
+ #       edge_lines += line([verts[an_edge[0]], verts[an_edge[1][0]]])
+  #      edge_lines += line([verts[an_edge[0]], verts[an_edge[1][1]]])
     triangle_sum = Graphics()
     for vert in kite_list:
         temp_list = []
