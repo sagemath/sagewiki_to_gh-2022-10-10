@@ -67,7 +67,7 @@ def _(x = cos(4*pi*t), y = 1 + sin(2*pi*t) + sin(4*pi*t),
                 right2left.append((x(t0), y(t0)))
                 wn += 1
 
-    print 'Winding number = (# of red points) - (# of green points): ', wn
+    print('Winding number = (# of red points) - (# of green points): {}'.format(wn))
 
     p = (parametric_plot((x,y),(t,0,1)) +
          arrow((x(0),y(0)), (x(0) + xp1(0), y(0) + yp1(0))) +
