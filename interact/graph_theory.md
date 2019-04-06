@@ -30,12 +30,12 @@ def graph_browser(graph_name = selector(grs, label = "Graph type:"), newargs = i
     doc_ex_loc = docs.find('EXAMPLE')
     if docs.find('PLOTTING') != -1:
         doc_ex_loc = min(doc_ex_loc, docs.find('PLOTTING'))
-    print docs[0:doc_ex_loc].replace('\n        ','\n')
+    print(docs[0:doc_ex_loc].replace('\n        ','\n'))
     if newargs != '':
         try:
             t_graph = eval(base_g_str + newargs)
         except:
-            print "Invalid arguments, using default"
+            print("Invalid arguments, using default")
             t_graph = eval(examples[graph_name])
     else: 
         t_graph = eval(examples[graph_name])
@@ -52,21 +52,21 @@ by William Stein:
 @interact
 def _(graph=['CycleGraph', 'CubeGraph', 'RandomGNP'],
       n=selector([1..10],nrows=1), p=selector([10,20,..,100],nrows=1)):
-    print graph
+    print(graph)
     if graph == 'CycleGraph':
-       print "n = %s (number of vertices)"%n
+       print("n = %s (number of vertices)" % n)
        G = graphs.CycleGraph(n)
     elif graph == 'CubeGraph':
        if n > 8:
-           print "n reduced to 8"
+           print("n reduced to 8")
            n = 8
-       print "n = %s (dimension)"%n
+       print("n = %s (dimension)" % n)
        G = graphs.CubeGraph(n)
     elif graph == 'RandomGNP':
-       print "n = %s (number of vertices)"%n
-       print "p = %s%% (edge probability)"%p
-       G = graphs.RandomGNP(n, p/100.0)
-    print G.automorphism_group()
+       print("n = %s (number of vertices)" % n)
+       print("p = %s%% (edge probability)" % p)
+       G = graphs.RandomGNP(n, p / 100.0)
+    print(G.automorphism_group())
     show(plot(G))
 }}}
 
