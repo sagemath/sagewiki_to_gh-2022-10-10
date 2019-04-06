@@ -56,8 +56,8 @@ def coal_plot(some_data):
 d_field = RealField(10)
 @interact
 def coalescents(pop_size = slider(2,100,1,15,'Population size'), selection = slider(-1,1,.1,0, 'Selection for first taxon'), s = selector(['Again!'], label='Refresh', buttons=True)):
-    print 'Population size: ' + str(pop_size)
-    print 'Selection coefficient for first taxon: ' + str(d_field(selection))
+    print('Population size: ' + str(pop_size))
+    print('Selection coefficient for first taxon: ' + str(d_field(selection)))
     start = [i for i in range(pop_size)]
     gens = [start]
     inds = []
@@ -67,7 +67,7 @@ def coalescents(pop_size = slider(2,100,1,15,'Population size'), selection = sli
         gens.append(n_gen[0])
         inds.append(n_gen[1])
         coal_data1 = [gens,inds]
-    print 'Generations until coalescence: ' + str(len(gens))
-    show(coal_plot(coal_data1), axes = False, figsize = [8,4.0*len(gens)/pop_size], ymax = len(gens)-1)
+    print('Generations until coalescence: ' + str(len(gens)))
+    show(coal_plot(coal_data1), axes = False, figsize = [8, 4.0*len(gens)/pop_size], ymax = len(gens)-1)
 }}}
 {{attachment:coalescent.png}}
