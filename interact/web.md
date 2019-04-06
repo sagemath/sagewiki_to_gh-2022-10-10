@@ -237,7 +237,7 @@ def gChart(title="Google Chart API plots Pie Charts!", color1=Color('purple'), c
     url += '&chco=%s'%(','.join([color1.html_color()[1:],color2.html_color()[1:],color3.html_color()[1:]]))
     url += '&chl=%s'%label.replace(" ","|")
     url += '&chd=t:%s'%(','.join(map(str,[val1,val2,val3])))
-    print url
+    print(url)
     html('<div style="border:3px dashed;text-align:center;padding:50px 0 50px 0"><img src="%s"></div>'%url)
 }}}
 {{attachment:interact_with_google_chart_api.png}}
