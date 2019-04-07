@@ -94,7 +94,7 @@ def _(queen=input_box(default=(0,0)), opcion=selector(opciones, buttons=True), a
             if i!=0: board[x+i,y-i]=1+(x+y)%2*5
     for x,y in queens:
         if ( board[x,y]==1 or board[x,y]==6 ):
-            print 'Queen at (%d,%d) is threatened by another queen'%(x,y)
+            print('Queen at (%d,%d) is threatened by another queen' % (x, y))
             board[x,y]=4  
         else:
             board[x,y]=3
@@ -138,36 +138,36 @@ def _(heap=selector(range(len(nim)), buttons=True),
       auto_update=False):
     global nim
     if max(nim)==0:
-        print 'You have lost'
+        print('You have lost')
         return
     else:
-        print 'Try to take the last item'
+        print('Try to take the last item')
     if heap>=0 and 0<amount<=nim[heap]:
-        print 'Previous situation:'
-        print game_repr(nim)
+        print('Previous situation:')
+        print(game_repr(nim))
         
         nim[heap]-=amount
-        print 'Your move:'
-        print game_repr(nim)
+        print('Your move:')
+        print(game_repr(nim))
         if max(nim)==0:
-            print 'You win'
+            print('You win')
             return
         
-        print 'My move:'
+        print('My move:')
         try:
-            myheap,myamount=move_nim(nim)
+            myheap, myamount = move_nim(nim)
         except:
             #cannot win, choose arbitrarily
-            myheap=min(heap_number for heap_number, heap_size in enumerate(nim) if heap_size>0)
+            myheap=min(heap_number for heap_number, heap_size in enumerate(nim) if heap_size > 0)
             myamount=1
         nim[myheap]-=myamount
-        print game_repr(nim)
+        print(game_repr(nim))
         if max(nim)==0:
-            print 'I win'
+            print('I win')
         else:
-            print 'Please move again'
+            print('Please move again')
     else:
-        print 'Choose a heap and the amount to substract from that heap'
-        print game_repr(nim)
+        print('Choose a heap and the amount to substract from that heap')
+        print(game_repr(nim))
 }}}
 {{attachment:nim.png}}
