@@ -101,6 +101,10 @@ We propose reviewing tickets and implementing changes related to cluster algebra
 
 Primary decomposition is one of the most fundamental representations of an ideal in a polynomial ring. However, the computational task of computing primary decompositions is difficult in general. The current algorithm used in Macaulay2 (Shimoyama-Yokoyama) leaves room for improvement, and although other algorithms (Gianni-Trager-Zacharias) have been introduced in the MinimalPrimes package, these still need revision. This project aims to improve primary decomposition in Macaulay2, a large part of which will be performing the necessary work to make MinimalPrimes a stable package.
 
+=== Polytope algebras and tropical geometry (Josephine Yu) ===
+
+I am interested in computation with polytopes inspired by tropical geometry.  McMullen’s polytope algebra is isomorphic to the algebra of tropical cycles (balanced fans).  For a fixed polytope, the algebra of tropical cycles supported on its normal fan coincides with the Chow ring of the toric variety of the polytope.  I would like to implement some computations with these objects in Sage and/or M2.  This is also related to the Geometry of Matroid project.  I would also like to think about how to compute real tropicalizations of semialgebraic sets.
+
 
 
 === More projects to be posted.  Please feel free to add your own interests or email Gregg (musiker at math dot umn dot edu) or Christine (cberkesc at math dot umn dot edu) with them if you do not have direct wiki editing access. ===
