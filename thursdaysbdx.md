@@ -39,6 +39,15 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 11 avril 2019 ====
+
+Présents: Pascal, Vincent K
+
+Vincent K:
+ * gmpy2 : Permettre au mpq d'être initialisée avec des entiers sage : [[https://github.com/aleaxit/gmpy/issues/237|issue #237]], [[https://github.com/aleaxit/gmpy/pull/240|PR #240]]
+ * gmpy2 : Modifications pour ne pas appeler mpc_cmp_abs pour les anciennes version de mpc : [[https://github.com/aleaxit/gmpy/issues/238|issue #238]], [[https://github.com/aleaxit/gmpy/pull/239|PR #239]]
+ * Discussion avec Pascal sur le passage à python3 des packages.
+
 ==== jeudi 4 avril 2019 ====
 
 Présents: Adrien, Pascal, Vincent K
