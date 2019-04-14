@@ -53,11 +53,11 @@ The color of the report page icon indicates the status of the ticket. See the re
 
 It is safer to run the patchbot in an unused sage install.
 
-||<#FFFF66>① Install the patchbot using '''pip install --user git+https://github.com/sagemath/sage-patchbot.git'''||
+||<#FFFF66>① Install the patchbot using '''pip3 install --user git+https://github.com/sagemath/sage-patchbot.git'''||
 
 Dependencies: shell commands '''git'''; '''tar'''; '''wget'''
 
-'''pyflakes''' and '''pycodestyle''' are not required but will be used if installed (using pip).
+'''pyflakes''' and '''pycodestyle''' will be installed by pip if not already installed.
 
 ||<#98FF98> Please set the --owner option if you run a patchbot. It is useful to know whom to contact.||
 
@@ -82,9 +82,9 @@ Before running the patchbot make sure that the following two commands produce no
     ./sage -t --all --long
 }}}
 
-||<#FFFF66>② Run the patchbot using '''python -m sage_patchbot.patchbot --sage-root=XXXX'''||
+||<#FFFF66>② Run the patchbot using '''python3 -m sage_patchbot.patchbot --sage-root=XXXX'''||
 
-The patchbot should now run just the same with '''pip3''' and '''python3''' instead. Please report any problem.
+The patchbot should be run with '''pip3''' and '''python3'''. Compatibility with '''python2''' is no longer maintained.
 
 The '''--sage-root''' parameter is required.
 
