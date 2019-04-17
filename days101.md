@@ -82,31 +82,22 @@ The workshop takes place in a guest house which has comfortable working spaces,
 a cooking and dining area, and a few bedrooms. This favors an intense workshop,
 with everything taking place in the same location.
 
-Technically speaking, the guest house is rented from Saturday to Saturday.
-
-We will set up a wired internet connection and an open wifi.
-
 The guest house includes "The Tower" which can accommodate 10 people and
 the "Grenier Royal" which can accommodate 7 people. In addition it's possible
-to setup tens in the garden (which will be nice in June!)
+to setup tens in the garden (which will be very nice in June!)
+
+Internet: wired internet connection and open wifi.
+
+Linen are provided. Please bring towels, etc.
 
 The surrounding area offers nice hiking possibilities -- bring hiking/climbing shoes.
-
 Your music instruments and scores, card or board games, etc, are also welcome for the breaks.
 
 === Meal organisation ===
 
-Meals are cooked in turns by the participants for everyone, so bring
+Meals are cooked in turn by the participants for everyone, so bring
 along your favorite recipes and dishes! All diets (vegetarian, ...)
-will be taken into account. The organizers will do some large shopping
-before coming, and then we will complement locally, as needed. Please
-fill in the [[https://hackmd.io/j5FzB173Q4uaExUw-6Glpg#|pad]]
-with the ingredients for the dish(es) you plan to prepare and
-potential diet restrictions.
-
-=== Practicalities ===
-
-Linen are provided. Please bring towels, ...
+will be taken into account. Please check and edit the [[https://hackmd.io/j5FzB173Q4uaExUw-6Glpg#|pad]].
 
 === From Paris to Cernay ===
 
