@@ -1,4 +1,4 @@
-= Sage/GAP Days 101 --- June 17-21, 2017, Cernay =
+= Sage-GAP Days 101 --- June 17-21, 2017, Cernay =
 
 '''''Sage/GAP developers days on packaging, portability, documentation tools'''''
 
