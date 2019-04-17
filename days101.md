@@ -8,23 +8,22 @@
 
 == Announcement ==
 
-In 2016 and 2017, we ran a one-week long
-[[https://wiki.sagemath.org/days77|Sage developers days]] in
+In 2016, 2017 and 2018, we ran week long
+[[https://wiki.sagemath.org/days77|developers days]] in
 a [[http://www.cernayvacances.com/en/stay/de-toren/|cosy guest house]]
 in Cernay, just short of an hour from Paris by public transport,
-on *packaging, portability, and documentation tools for
+on *packaging, portability, interfaces, and documentation tools for
 Sage and GAP*. It was fun and productive and we are organizing a follow up:
 same location, same themes.
 
 If you are interested in participating, please fill/edit the
 [[https://framadate.org/hhzG3ZtTQEi1HG2V|poll]] with the
-tentative meals and nights you will be there, and fill in the participant list
-on the [[https://hackmd.io/j5FzB173Q4uaExUw-6Glpg#|pad]].
-See below for the cooking organization.
+tentative meals and nights you will be there, and fill in the participants,
+arrivals, and cooking sections on the [[https://hackmd.io/j5FzB173Q4uaExUw-6Glpg#|pad]].
 
 Notes:
 
- * The guest house is actually rented Saturday to Saturday; everybody is welcome to stay for the whole time.
+ * The guest house is actually rented Saturday to Saturday; everybody is welcome to stay for the whole duration.
 
 == Funding ==
 
