@@ -57,7 +57,7 @@ This workshop is also part of a long tradition of [[Workshops|Sage Days]], and [
 
 == Participants ==
 
-https://www.lri.fr/etherpad/p/sage-days85-participants
+See the [[https://hackmd.io/j5FzB173Q4uaExUw-6Glpg#|pad]].
 
 == Infrastructure ==
 
