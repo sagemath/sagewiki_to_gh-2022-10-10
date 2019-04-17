@@ -22,7 +22,7 @@ tentative meals and nights you will be there, and fill in the participants,
 arrivals, and cooking sections on the [[https://hackmd.io/j5FzB173Q4uaExUw-6Glpg#|pad]].
 
 Notes:
-
+ * Other themes around Sage, GAP, ... are welcome; feel free to join and work with us.
  * The guest house is actually rented Saturday to Saturday; everybody is welcome to stay for the whole duration.
 
 == Funding ==
