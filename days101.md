@@ -67,7 +67,7 @@ particular for remote participation.
  * Video: https://hubl.in/sage-days101
  * Pad: https://hackmd.io/j5FzB173Q4uaExUw-6Glpg#
  * Chat (if that integrated in the pad/video is not good enough): https://gitter.im/sagemath/sage-days85
- * [[http://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days101&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Sage trac tickets worked on at Sage Days 85]]
+ * [[http://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~days101&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Sage trac tickets worked on at Sage-GAP Days 101]]
 
 == Programme and topics ==
 
