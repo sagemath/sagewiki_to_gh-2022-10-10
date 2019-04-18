@@ -24,8 +24,10 @@ Sagemath patchbots names and owners:
     martin-Laptop     --> mantepse
     mercury           --> kdilks
     pbua              --> novoselt
+    pc72-math         --> dkrenn (and behackl and cheuberg)
     poseidon          --> kdilks
     quasar            --> vdelecroix
+    rk02-math         --> cheuberg (and dkrenn)
     sage4             --> jdemeyer
     sardonis          --> jdemeyer
     silence           --> ncohen
