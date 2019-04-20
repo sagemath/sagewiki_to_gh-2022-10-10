@@ -1,14 +1,12 @@
-= Sage days 100 =
-
 <<TableOfContents()>>
 
-The workshop will take place at [[https://www.mpim-bonn.mpg.de/|Max-Planck Institut for Mathematics in Bonn, Gernany]] in June or July 2019.
+The Sage days 100 workshop will take place at [[https://www.mpim-bonn.mpg.de/|Max-Planck Institut for Mathematics in Bonn, Gernany]] in June or July 2019.
 
 Poll https://framadate.org/8A4lZfyAMYhhPQOr
 
-== Thematics ==
+= Thematics =
 
-=== Mathematical thematics ===
+== Mathematical thematics ==
 
 Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is a non-exhaustive list
 
@@ -16,7 +14,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * enumerative geometry, integral points in polytopes and (quasi-)modular forms
  * geometry and dynamics of flat and hyperbolic surfaces
 
-=== Relevant Sage packages ===
+== Relevant Sage packages ==
 
  * [[https://gitlab.com/jo314schmitt/admcycles|admcycles]]: tautological ring on M_{g,n}
  * [[https://bitbucket.org/t3m/snappy|snappy]]: 3-dim hyperbolic manifolds
@@ -25,13 +23,13 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * [[https://bitbucket.org/Mark_Bell/flipper|flipper]]: mapping class group (via flips in triangulation)
  * [[https://github.com/MarkCBell/curver|curver]]: mapping class group (via curve complex)
 
-== Organization ==
+= Organization =
 
-=== Funding ===
+== Funding ==
 
 The workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]],
 with material help from the Laboratoire Bordelais de Recherche en Informatique.
 
-=== Organizer ===
+== Organizer ==
 
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
