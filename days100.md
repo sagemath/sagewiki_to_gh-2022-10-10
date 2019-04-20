@@ -1,7 +1,9 @@
 = Sage days 100 =
-== June or July 2019 ==
 
-The workshop will take place at [[https://www.mpim-bonn.mpg.de/|Max-Planck Institut for Mathematics in Bonn, Gernany]].
+<<TableOfContents()>>
+
+The workshop will take place at [[https://www.mpim-bonn.mpg.de/|Max-Planck Institut for Mathematics in Bonn, Gernany]]
+in June or July 2019.
 
 Poll https://framadate.org/8A4lZfyAMYhhPQOr
 
@@ -21,6 +23,11 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * [[https://gitlab.com/videlec/surface_dynamics|surface_dynamics]]: translation surfaces
  * [[https://bitbucket.org/Mark_Bell/flipper|flipper]]: mapping class group (via flips in triangulation)
  * [[https://github.com/MarkCBell/curver|curver]]: mapping class group (via curve complex)
+
+=== Funding ===
+
+The workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]],
+with material help from the Laboratoire Bordelais de Recherche en Informatique.
 
 === Organizer ===
 
