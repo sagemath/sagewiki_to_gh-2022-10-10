@@ -105,6 +105,10 @@ Primary decomposition is one of the most fundamental representations of an ideal
 
 I am interested in computation with polytopes inspired by tropical geometry.  McMullen’s polytope algebra is isomorphic to the algebra of tropical cycles (balanced fans).  For a fixed polytope, the algebra of tropical cycles supported on its normal fan coincides with the Chow ring of the toric variety of the polytope.  I would like to implement some computations with these objects in Sage and/or M2.  This is also related to the Geometry of Matroid project.  I would also like to think about how to compute real tropicalizations of semialgebraic sets.
 
+=== Simplicial and Cellular Resolutions (Jay Yang) ===
 
+The goal of this project would be to improve the code that exists for labeled simplicial complexes, and add code for labeled cell complexes.
+
+There is some code currently in SimplicialComplexes that can manipulate a labeled simplicial complex, A first task would be to either extract this code and improve it, or write helper functions to manipulate labeled simplicial complexes. Including code to extract the labels in a clean format, and to check conditions such as acyclicity, and minimality. Second, we can add code to allow for arbitrary monomial ideal labels instead of just monomial labels. Third, we can implement this for cell complexes. This would require creating a type of labeled cell complexes and would be more involved.
 
 === More projects to be posted.  Please feel free to add your own interests or email Gregg (musiker at math dot umn dot edu) or Christine (cberkesc at math dot umn dot edu) with them if you do not have direct wiki editing access. ===
