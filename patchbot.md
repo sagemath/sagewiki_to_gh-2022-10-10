@@ -222,16 +222,16 @@ The argument dictionary must contain at least:
 {'sage_root': path to the sage local repository}
 }}}
 
-=== Example Configuration and Run-Scripts ===
+== Example Configuration and Run-Scripts ==
 
-==== A Python 2 Patchbot ====
+=== A Python 2 Patchbot ===
 
 Installation via
 {{{
 pip3 install --user git+https://github.com/sagemath/sage-patchbot.git
 }}}
 
-config.json
+Configuration {{{config.json}}}:
 {{{
 {
     "bonus": {"me": 100},
@@ -241,20 +241,20 @@ config.json
 }
 }}}
 
-bin/run-patchbot
+Script {{{bin/run-patchbot}}}:
 {{{
 #!/bin/bash
 LANG=C python3 -m sage_patchbot.patchbot --config=/local/sage-patchbot/config.json
 }}}
 
-==== A Python 3 Patchbot ====
+=== A Python 3 Patchbot ===
 
 Installation via
 {{{
 git clone https://github.com/sagemath/sage-patchbot.git
 }}}
 
-config.json:
+Configuration {{{config.json}}}:
 {{{
 {
     "bonus": {"me": 100},
@@ -265,7 +265,7 @@ config.json:
 }
 }}}
 
-bin/run-patchbot script
+Script {{{bin/run-patchbot}}}:
 {{{
 #!/bin/bash
 cd /local/sage-patchbot/sage-patchbot  # "installed" via git clone (not pip), remove if used pip
