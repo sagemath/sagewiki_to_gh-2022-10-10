@@ -253,6 +253,7 @@ Installation via
 {{{
 git clone https://github.com/sagemath/sage-patchbot.git
 }}}
+(but pip-installation also possible).
 
 Configuration {{{config.json}}}:
 {{{
