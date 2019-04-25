@@ -221,3 +221,54 @@ The argument dictionary must contain at least:
 {{{
 {'sage_root': path to the sage local repository}
 }}}
+
+= Example Configuration and Run-Scripts =
+
+== A Python 2 Patchbot ==
+
+Installation via
+{{{
+pip3 install --user git+https://github.com/sagemath/sage-patchbot.git
+}}}
+
+config.json
+{{{
+{
+    "bonus": {"me": 100},
+    "parallelism": 2,
+    "sage_root": "/local/sage-patchbot/sage",
+    "owner": "This Is Me <this.is@me.org>"
+}
+}}}
+
+bin/run-patchbot
+{{{
+#!/bin/bash
+LANG=C python3 -m sage_patchbot.patchbot --config=/local/sage-patchbot/config.json
+}}}
+
+== A Python 3 Patchbot ==
+
+Installation via
+{{{
+git clone https://github.com/sagemath/sage-patchbot.git
+}}}
+
+config.json:
+{{{
+{
+    "bonus": {"me": 100},
+    "parallelism": 2,
+    "sage_root": "/local/sage-patchbot/sage",
+    "tested_files": "py3",
+    "owner": "This Is Me <this.is@me.org>"
+}
+}}}
+
+bin/run-patchbot script
+{{{
+#!/bin/bash
+cd /local/sage-patchbot/sage-patchbot  # "installed" via git clone (not pip), remove if used pip
+export PREREQ_OPTIONS="--with-python=3"
+LANG=C.UTF-8 python3 -m sage_patchbot.patchbot --config=/local/sage-patchbot/config.json
+}}}
