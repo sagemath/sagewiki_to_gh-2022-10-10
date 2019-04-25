@@ -222,9 +222,9 @@ The argument dictionary must contain at least:
 {'sage_root': path to the sage local repository}
 }}}
 
-= Example Configuration and Run-Scripts =
+=== Example Configuration and Run-Scripts ===
 
-== A Python 2 Patchbot ==
+==== A Python 2 Patchbot ====
 
 Installation via
 {{{
@@ -247,7 +247,7 @@ bin/run-patchbot
 LANG=C python3 -m sage_patchbot.patchbot --config=/local/sage-patchbot/config.json
 }}}
 
-== A Python 3 Patchbot ==
+==== A Python 3 Patchbot ====
 
 Installation via
 {{{
