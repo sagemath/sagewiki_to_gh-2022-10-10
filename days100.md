@@ -29,7 +29,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
 
 == Funding ==
 
-The workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]],
+The workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]] {{attachment:Flag_of_Europe.png|align="middle"|width=100}}.
 with material help from the Laboratoire Bordelais de Recherche en Informatique.
 
 == Organizer ==
