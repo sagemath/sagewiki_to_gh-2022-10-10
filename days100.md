@@ -35,4 +35,4 @@ With material help from the Laboratoire Bordelais de Recherche en Informatique.
 
 == Organizer ==
 
- * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]], [[https://www.mpim-bonn.mpg.de/|Max-Planck (Bonn)]] and [[https://www.u-bordeaux.fr/|Université de Bordeaux]]
+ * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] ([[https://www.mpim-bonn.mpg.de/|Max-Planck (Bonn)]] and [[https://www.u-bordeaux.fr/|Université de Bordeaux]])
