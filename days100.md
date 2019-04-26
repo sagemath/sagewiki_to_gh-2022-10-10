@@ -26,8 +26,8 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
 
 == Participants ==
 
-- Vincent Delecroix
-- [[https://www.uni-frankfurt.de/50278800/Zachhuber|Jonathan Zachhuber]] (Frankfurt, Deutschland)
+ * Vincent Delecroix
+ * [[https://www.uni-frankfurt.de/50278800/Zachhuber|Jonathan Zachhuber]] (Frankfurt, Deutschland)
 
 == Funding ==
 
