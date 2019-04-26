@@ -1,6 +1,8 @@
 <<TableOfContents()>>
 
-The Sage days 100 workshop will take place at [[https://www.mpim-bonn.mpg.de/|Max-Planck Institut for Mathematics in Bonn, Gernany]] in June or July 2019.
+The Sage days 100 workshop will take place in Bonn Germany, July 22nd - July 26th.
+
+
 
 Poll https://framadate.org/8A4lZfyAMYhhPQOr
 
@@ -32,4 +34,4 @@ with material help from the Laboratoire Bordelais de Recherche en Informatique.
 
 == Organizer ==
 
- * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
+ * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]], [[https://www.mpim-bonn.mpg.de/|Max-Planck (Bonn)]] and [[https://www.u-bordeaux.fr/|Université de Bordeaux]]
