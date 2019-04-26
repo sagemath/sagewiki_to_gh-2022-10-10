@@ -15,6 +15,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * moduli space of curves, differentials, spin structures
  * enumerative geometry, integral points in polytopes and (quasi-)modular forms
  * geometry and dynamics of flat and hyperbolic surfaces
+ * braid groups, mapping class groups
 
 == Relevant Sage packages ==
 
