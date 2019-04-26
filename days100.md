@@ -2,10 +2,6 @@
 
 The Sage days 100 workshop will take place in Bonn Germany, July 22nd - July 26th.
 
-
-
-Poll https://framadate.org/8A4lZfyAMYhhPQOr
-
 = Thematics =
 
 == Mathematical thematics ==
