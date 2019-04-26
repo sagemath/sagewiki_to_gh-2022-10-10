@@ -224,7 +224,7 @@ The argument dictionary must contain at least:
 
 == Example Configuration and Run-Scripts ==
 
-=== A Python 2 Patchbot ===
+=== A Patchbot testing Python2 Sage ===
 
 Installation via
 {{{
@@ -247,7 +247,7 @@ Script {{{bin/run-patchbot}}}:
 LANG=C python3 -m sage_patchbot.patchbot --config=/local/sage-patchbot/config.json
 }}}
 
-=== A Python 3 Patchbot ===
+=== A Patchbot testing Python 3 sage ===
 
 Installation via
 {{{
