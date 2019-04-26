@@ -24,6 +24,11 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
 
 = Organization =
 
+== Participants ==
+
+- Vincent Delecroix
+- [[https://www.uni-frankfurt.de/50278800/Zachhuber|Jonathan Zachhuber]] (Frankfurt, Deutschland)
+
 == Funding ==
 
 The workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]] {{attachment:Flag_of_Europe.png|align="middle"|width=100}}
