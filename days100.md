@@ -29,6 +29,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * Vincent Delecroix
  * [[https://www.uni-frankfurt.de/50278800/Zachhuber|Jonathan Zachhuber]] (Frankfurt, Deutschland)
  * [[https://users.fmi.uni-jena.de/~king/eindex.html|Simon King]] (Jena, Germany)
+ * Mark Bell
 
 == Funding ==
 
