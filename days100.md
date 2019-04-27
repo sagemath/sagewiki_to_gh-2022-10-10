@@ -4,16 +4,18 @@ The Sage days 100 workshop will take place in Bonn Germany, July 22nd - July 26t
 
 There will be one day in the week dedicated to present Sage at Bonn University or Max-Planck Institut (for students, PhD students, Postdocs and professors). If you intend to come to this workshop, you are welcome to be involved in this.
 
-== Dates and location ==
+= Practical information =
+
+== Location ==
 
 Precision about the location will come soon.
+
+== Dates ==
 
  * Expected arrival of participants: sunday 21st
  * Expected deprature: Friday 26th, saturday 27th or sunday 28th
 
 It is of course possible to attend the workshop for less than the full week.
-
-= Thematics =
 
 == Broad mathematical thematics ==
 
