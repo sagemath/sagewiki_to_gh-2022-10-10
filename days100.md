@@ -42,7 +42,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * [[https://users.fmi.uni-jena.de/~king/eindex.html|Simon King]] (Jena, Germany)
  * Mark Bell
  * Luke Jeffreys (Glasgow)
- * Johannes Schmitt (Zurich)
+ * [[https://people.math.ethz.ch/~schmittj/|Johannes Schmitt]] (Zurich)
 
 == Funding ==
 
