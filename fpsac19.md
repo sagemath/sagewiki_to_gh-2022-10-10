@@ -23,6 +23,8 @@ In the meantime, we would like to know, if you are planning to attend, the follo
 
 Please put these information [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|here]].
 
+There will be no registration fee. OpenDreamKit will fund meals and nights taken at the local Youth Hostel. Details for reserving those will be provided soon here.
+
 == Organisers ==
 
   * [[https://sites.google.com/site/meeseongim/|Mee Seong Im]] (United States Military Academy, West Point, New York, USA)
