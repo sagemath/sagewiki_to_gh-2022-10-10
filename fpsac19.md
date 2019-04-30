@@ -6,7 +6,7 @@ Although the organizers are primarily in the SageMath community and promote [[ht
 
 Dates: July 8-12, 2019
 
-Location: University of Ljubljana, Slovenia
+Location: University of Ljubljana, Slovenia (Faculty of mathematics and physics, Jadranska ulica 21, second floor).
 
 This event will follow [[http://fpsac2019.fmf.uni-lj.si|FPSAC'19]].
 
@@ -23,7 +23,9 @@ In the meantime, we would like to know, if you are planning to attend, the follo
 
 Please put these information [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|here]].
 
-There will be no registration fee. OpenDreamKit will fund meals and nights taken at the local Youth Hostel. Details for reserving those will be provided soon here and by e-mail to the registered participants.
+== Local information ==
+
+There will be no registration fee. OpenDreamKit will fund meals and nights taken by the participants at the local Youth Hostel (Dijaski dom Vic, Gerbičeva ulica 51a, Ljubljana). Details for reserving those will be provided soon here and by e-mail to the registered participants. For other lodging, food, and activity information, see [[http://fpsac2019.fmf.uni-lj.si/local/|FPSAC'19 web page]]. 
 
 == Organisers ==
 
