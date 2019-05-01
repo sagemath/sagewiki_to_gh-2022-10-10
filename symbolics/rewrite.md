@@ -13,8 +13,8 @@ sage: rewrite((e^x)^2-e^(-2*x)+e^(-4*x)+(e^x)^4, 'exp2sinhcosh')
 2*sinh(2*x) + 2*cosh(4*x)
 }}}
 
-This isn't a Sage kernel function.
-You must load the attached file "rewrite.sage" below if you want to use this function.
+This is not a Sage kernel function.
+You must load the attached file "rewrite.sage" if you want to use this function.
 
 You can add inline comments, by using the `{i}` tag.
  {i} burcin: Some comment.
@@ -96,6 +96,5 @@ pow2exp        : a^b => exp(ln(a)*b)
 ==== Notes ====
 
 Add general comments about the design here. 
-
 
  * burcin: looking forward to getting this in
