@@ -39,6 +39,12 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 2 mai 2019 ====
+
+Présents: Sébastien, Vincent K, Xavier
+
+Sébastien: amélioration de la documentation et du README de slabbe pour corriger le bug d'affichage sur PyPI. Il y a une nouvelle ligne `long_description_content_type` à mettre dans le fichier setup. Voir ici: [[https://packaging.python.org/guides/making-a-pypi-friendly-readme/|making a PyPI friendly README]].
+
 ==== jeudi 11 avril 2019 ====
 
 Présents: Pascal, Vincent K
