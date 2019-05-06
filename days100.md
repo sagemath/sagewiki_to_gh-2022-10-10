@@ -43,6 +43,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * Mark Bell
  * Luke Jeffreys (Glasgow)
  * [[https://people.math.ethz.ch/~schmittj/|Johannes Schmitt]] (Zurich)
+ * [[https://www.math.u-psud.fr/~lelievre/|Samuel Lelièvre]] (Paris)
 
 == Funding ==
 
