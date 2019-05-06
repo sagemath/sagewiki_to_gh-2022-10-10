@@ -37,14 +37,14 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
 
 == Participants ==
 
- * Vincent Delecroix
+ * Vincent Delecroix (Bordeaux, France - Bonn, Germany)
  * [[https://www.uni-frankfurt.de/50278800/Zachhuber|Jonathan Zachhuber]] (Frankfurt, Deutschland)
  * [[https://users.fmi.uni-jena.de/~king/eindex.html|Simon King]] (Jena, Germany)
  * Mark Bell
- * Luke Jeffreys (Glasgow)
- * [[https://people.math.ethz.ch/~schmittj/|Johannes Schmitt]] (Zurich)
- * [[https://www.math.u-psud.fr/~lelievre/|Samuel Lelièvre]] (Paris)
- * [[https://irma.math.unistra.fr/~chapoton/|Frédéric Chapoton]]
+ * Luke Jeffreys (Glasgow, Scotland)
+ * [[https://people.math.ethz.ch/~schmittj/|Johannes Schmitt]] (Zurich, Switzerland)
+ * [[https://www.math.u-psud.fr/~lelievre/|Samuel Lelièvre]] (Paris, France)
+ * [[https://irma.math.unistra.fr/~chapoton/|Frédéric Chapoton]] (Strasbourg, France)
 
 == Funding ==
 
