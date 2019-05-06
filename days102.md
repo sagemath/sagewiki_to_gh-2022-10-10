@@ -25,13 +25,13 @@ Logistical help: Izabela Faguet (Paris-Sud University)
 
 '''TODO: Please put more information about yourselves here if you wish.'''
 
- * Deborah O. Ajayi, Univ. of Ibadan
+ * Deborah O. Ajayi, Acting Head of Department and Reader  (Associate Professor) of Mathematics, University of Ibadan, Ibadan.
 
- * Ini Adinya, Univ. of Ibadan
+ * Ini Adinya, Lecturer in Mathematics, University of Ibadan
 
 == Venue ==
 
-'''TBD'''
+Department of Mathematics, University of Ibadan, Ibadan, NIGERIA
 
 == The event ==
 
