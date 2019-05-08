@@ -23,8 +23,6 @@ Logistical help: Izabela Faguet (Paris-Sud University)
 
 === Local Organizers ===
 
-'''TODO: Please put more information about yourselves here if you wish.'''
-
  * Deborah O. Ajayi, Acting Head of Department and Reader  (Associate Professor) of Mathematics, University of Ibadan, Ibadan.
 
  * Ini Adinya, Lecturer in Mathematics, University of Ibadan
@@ -39,9 +37,8 @@ Department of Mathematics, University of Ibadan, Ibadan, NIGERIA
 
 The event will be workshop style and most of the schedule will be decided by the participants as needed.
 
-The first two days (?) may consist of a [[https://software-carpentry.org/|Software Carpentry]] style workshop, especially targeted to those who are new to scientific and mathematical computing with open source tools including basic skills in learning the command-line shell, the [[https://jupyter.org/|Jupyter Notebook]], the [[https://www.python.org/|Python]] programming language (the implementation language of SageMath, and one of the leaders in open science), and version control using the [[https://git-scm.com/|git]] version control system and source code hosting/collaboration sites like [[https://github.com/|GitHub]].  '''TBD: Maybe some R as well, if there is interest?  One of our potential instructors teaches it.'''
+The first two days may consist of a [[https://software-carpentry.org/|Software Carpentry]] style workshop, especially targeted to those who are new to scientific and mathematical computing with open source tools including basic skills in learning the command-line shell, the [[https://jupyter.org/|Jupyter Notebook]], the [[https://www.python.org/|Python]] programming language (the implementation language of SageMath, and one of the leaders in open science), and version control using the [[https://git-scm.com/|git]] version control system and source code hosting/collaboration sites like [[https://github.com/|GitHub]].  '''TBD: Maybe some R as well, if there is interest?  One of our potential instructors teaches it.'''
 
-'''TBD: Some of this is boilerplate I modified from other Sage Days workshops; it is a good start but feel free to update with specific topics that we might focus on'''
 
 We will continue then with introductory presentations and tutorials especially targeted at those who don't know much Sage. Participants will also have an occasion to present their mathematical and/or Sage-related projects to the group.  The rest of week will be dedicated to coding either individually or in groups, and onboarding newcomers to the process of doing development for Sage and the technologies involved. We will plan other presentations and tutorials depending on the needs and wishes of the participants.
 
@@ -62,7 +59,7 @@ of Sage you are interested in and what kind of mathematics you do.
 
 '''reference letter:''' if you are a student, please attach a reference letter.
 
-'''Funding request''' Do need travel funding to attend the event? (Note that local expenses are covered for all participants)
+'''Funding request''' Do need travel funding to attend the event?
 
 Note: it is possible to apply with a common project with another participant.
 Other note: if you think you don't know enough Sage to apply, you are wrong!
