@@ -67,8 +67,9 @@ of Sage you are interested in and what kind of mathematics you do.
 
 Applications close on 31 May, 2019.
 
-Note: 1. It is possible to apply with a common project with another participant.
- 2. If you think you don't know enough Sage to apply, you are wrong!
+Note: It is possible to apply with a common project with another participant.
+
+If you think you don't know enough Sage to apply, you are wrong!
 
 == Community Agreement ==
 
