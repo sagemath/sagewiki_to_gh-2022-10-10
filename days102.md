@@ -65,7 +65,9 @@ of Sage you are interested in and what kind of mathematics you do.
 
 '''Funding request''' Do need travel funding to attend the event?
 
-Applications close on '''31 May, 2019.'''
+Applications are due on '''31 May, 2019.'''
+
+Applicants should get a response by mid June. 
 
 Note: It is possible to apply with a common project with another participant.
 
