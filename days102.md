@@ -44,7 +44,7 @@ We will continue then with introductory presentations and tutorials especially t
 
 Funding
 
-The workshop is funded by (OpenDreamKit)
+The workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]] 
 
 == Application ==
 
