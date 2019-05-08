@@ -45,7 +45,7 @@ We will continue then with introductory presentations and tutorials especially t
 == Application ==
 
 
-Please send your application to '''TBD''' including
+Please send your application to sagedaysui@gmail.com including
 
 '''Name, institution, professional situation''' (student, postdoc, professor, etc.)
 
@@ -60,6 +60,8 @@ of Sage you are interested in and what kind of mathematics you do.
 '''reference letter:''' if you are a student, please attach a reference letter.
 
 '''Funding request''' Do need travel funding to attend the event?
+
+Applications close on 31 May, 2019.
 
 Note: it is possible to apply with a common project with another participant.
 Other note: if you think you don't know enough Sage to apply, you are wrong!
