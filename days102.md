@@ -42,6 +42,9 @@ The first two days may consist of a [[https://software-carpentry.org/|Software C
 
 We will continue then with introductory presentations and tutorials especially targeted at those who don't know much Sage. Participants will also have an occasion to present their mathematical and/or Sage-related projects to the group.  The rest of week will be dedicated to coding either individually or in groups, and onboarding newcomers to the process of doing development for Sage and the technologies involved. We will plan other presentations and tutorials depending on the needs and wishes of the participants.
 
+Funding
+The workshop is funded by OpenDreamKit align="middle"
+
 == Application ==
 
 
@@ -63,8 +66,8 @@ of Sage you are interested in and what kind of mathematics you do.
 
 Applications close on 31 May, 2019.
 
-Note: it is possible to apply with a common project with another participant.
-Other note: if you think you don't know enough Sage to apply, you are wrong!
+Note: 1. It is possible to apply with a common project with another participant.
+ 2. If you think you don't know enough Sage to apply, you are wrong!
 
 == Community Agreement ==
 
