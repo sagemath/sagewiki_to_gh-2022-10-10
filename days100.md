@@ -32,6 +32,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * [[https://gitlab.com/videlec/surface_dynamics|surface_dynamics]]: translation surfaces
  * [[https://github.com/MarkCBell/flipper|flipper]]: mapping class group (via flips in triangulation)
  * [[https://github.com/MarkCBell/curver|curver]]: mapping class group (via curve complex)
+ * [[https://github.com/coulbois/sage-train-track|sage-train-track]]: free group automorphisms
 
 = Organization =
 
@@ -45,6 +46,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * [[https://people.math.ethz.ch/~schmittj/|Johannes Schmitt]] (Zurich, Switzerland)
  * [[https://www.math.u-psud.fr/~lelievre/|Samuel Lelièvre]] (Paris, France)
  * [[https://irma.math.unistra.fr/~chapoton/|Frédéric Chapoton]] (Strasbourg, France)
+ * [[https://www.i2m.univ-amu.fr/perso/thierry.coulbois/|Thierry Coulbois]] (Marseille, France)
 
 == Funding ==
 
