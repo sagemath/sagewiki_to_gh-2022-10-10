@@ -41,13 +41,14 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * Vincent Delecroix (Bordeaux, France - Bonn, Germany)
  * [[https://www.uni-frankfurt.de/50278800/Zachhuber|Jonathan Zachhuber]] (Frankfurt, Deutschland)
  * [[https://users.fmi.uni-jena.de/~king/eindex.html|Simon King]] (Jena, Germany)
- * Mark Bell
+ * Mark Bell (England)
  * Luke Jeffreys (Glasgow, Scotland)
  * [[https://people.math.ethz.ch/~schmittj/|Johannes Schmitt]] (Zurich, Switzerland)
  * [[https://www.math.u-psud.fr/~lelievre/|Samuel Lelièvre]] (Paris, France)
  * [[https://irma.math.unistra.fr/~chapoton/|Frédéric Chapoton]] (Strasbourg, France)
  * [[https://www.i2m.univ-amu.fr/perso/thierry.coulbois/|Thierry Coulbois]] (Marseille, France)
  * [[http://page.mi.fu-berlin.de/labbe|Jean-Philippe Labbé]] (Berlin, Deutschland)
+ * [[https://www.mi.fu-berlin.de/math/groups/ag-diskret-algebra-geom/members/Wimi/sophia_elia.html|Sophia Elia]] (Berlin, Deutschland)
 
 == Funding ==
 
