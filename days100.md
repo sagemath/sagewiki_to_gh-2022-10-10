@@ -47,6 +47,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * [[https://www.math.u-psud.fr/~lelievre/|Samuel Lelièvre]] (Paris, France)
  * [[https://irma.math.unistra.fr/~chapoton/|Frédéric Chapoton]] (Strasbourg, France)
  * [[https://www.i2m.univ-amu.fr/perso/thierry.coulbois/|Thierry Coulbois]] (Marseille, France)
+ * [[http://page.mi.fu-berlin.de/labbe|Jean-Philippe Labbé]] (Berlin, Deutschland)
 
 == Funding ==
 
