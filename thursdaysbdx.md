@@ -39,6 +39,15 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 9 mai 2019 ====
+
+Présents: Sébastien, Vincent K, Pascal
+
+Sébastien: 
+ * posé une question au sujet des tag build et dochtml sur [[https://groups.google.com/d/msg/sage-devel/h9AzZ4jfSRU/Cl9NTaaIAgAJ|sage-devel]]
+ * discuté avec Pascal sur l'utilisation du package traintrack
+ * [[https://trac.sagemath.org/ticket/27781|#27781]] needs review et création de #27782 et #27783
+
 ==== jeudi 2 mai 2019 ====
 
 Présents: Sébastien, Vincent K, Xavier
