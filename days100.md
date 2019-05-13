@@ -49,7 +49,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * [[https://www.i2m.univ-amu.fr/perso/thierry.coulbois/|Thierry Coulbois]] (Marseille, France)
  * [[http://page.mi.fu-berlin.de/labbe|Jean-Philippe Labbé]] (Berlin, Deutschland)
  * [[https://www.mi.fu-berlin.de/math/groups/ag-diskret-algebra-geom/members/Wimi/sophia_elia.html|Sophia Elia]] (Berlin, Deutschland)
- * Sebastian Oehms
+ * Sebastian Oehms (Stuttgart, Germany)
  * [[https://www.mi.fu-berlin.de/math/groups/discgeom/members/rastanawi.html|Laith Rastanawi]] (Berlin, Deutschland)
 
 == Funding ==
