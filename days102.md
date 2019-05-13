@@ -49,7 +49,7 @@ The workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]]
 == Application ==
 
 
-Please send your application to sagedaysui@gmail.com including
+Please send your application to sagedaysui@gmail.com including:
 
 '''Name, institution, professional situation''' (student, postdoc, professor, etc.)
 
