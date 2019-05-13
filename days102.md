@@ -5,7 +5,7 @@
 
 <<TableOfContents()>>
 
-These Sage days are for locals to Nigeria and the neighboring region (as well as any Sage developers who wish to attend) who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introductory training, presentations, and break-out sessions for specific areas of interest as directed by the attendees. There is no initial knowledge needed, everyone is welcome whether they are new Sage learners or Sage expert. We believe in diversity in backgrounds and experiences.
+These Sage days are for participants from Nigeria and the neighboring region (as well as any Sage developers who wish to attend) who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introductory training, presentations, and break-out sessions for specific areas of interest as directed by the attendees. There is no initial knowledge needed, everyone is welcome whether they are new Sage learners or Sage expert. We believe in diversity in backgrounds and experiences.
 
 Travel for some participants coming from outside Nigeria can be covered [[http://opendreamkit.org/|OpenDreamKit]] project.
 
