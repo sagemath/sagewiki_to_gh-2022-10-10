@@ -61,7 +61,7 @@ of Sage you are interested in and what kind of mathematics you do.
 
 '''Motivation:''' please explain what motivates you to participate to this event.
 
-'''reference letter:''' if you are a student, please attach a reference letter.
+'''Reference letter:''' if you are a student, please attach a reference letter.
 
 '''Funding request''' Do need travel funding to attend the event?
 
