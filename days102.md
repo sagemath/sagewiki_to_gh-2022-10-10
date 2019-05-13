@@ -13,7 +13,7 @@ Travel for some participants coming from outside Nigeria can be covered [[http:/
 == Organizers ==
 
 === External Organizers ===
- * [[https://www.lri.fr/~pons/|Viviane Pons]] is a researcher in combinatorics and a ''Maîtresse de conférences'' (associate professor) in Paris-Sud University (Orsay) (not attending, but helping organize)
+ * [[https://www.lri.fr/~pons/|Viviane Pons]] is a researcher in combinatorics and a ''Maîtresse de conférences'' (associate professor) in Paris-Sud University (Orsay) 
 
  * [[https://www.math.u-psud.fr/~lelievre/|Samuel Lelièvre]] Laboratoire de mathématique d'Orsay, Université Paris-Sud
 
