@@ -63,7 +63,7 @@ of Sage you are interested in and what kind of mathematics you do.
 
 '''Reference letter:''' if you are a student, please attach a reference letter.
 
-'''Funding request''' Do need travel funding to attend the event?
+'''Funding request:''' Do need travel funding to attend the event?
 
 Applications are due on '''05 June 2019. 
 Applicants should get a response by mid June. 
