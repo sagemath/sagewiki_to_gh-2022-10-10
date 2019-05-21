@@ -50,7 +50,7 @@ The workshop will take place in St. Louis, MO at [[https://www.fontbonne.edu|Fon
 
 Lodging will be shared Air BNBs or Dorms.
 
-'''How to come?''' The closest airport is St. Louis Lambert International Airport. From there, you can take a taxi.
+'''How to come?''' The closest airport is St. Louis Lambert International Airport. From there, you can take a Lyft.
 
 == The event ==
 
