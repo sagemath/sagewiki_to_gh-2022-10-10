@@ -32,7 +32,15 @@ specific projects. There is no initial knowledge needed, everyone is welcome whe
 
 == Project Leaders and Projects ==
 
-TBA
+Rachel Davis
+
+Ozlem Ejder
+
+Amy Feaver
+
+Heidi Goodson
+
+Christelle Vincent
 
 
 == Venue ==
@@ -54,7 +62,13 @@ We will start the week by some introduction presentations and tutorials especial
 == Application ==
 
 [[https://docs.google.com/forms/d/e/1FAIpQLSdy3xS8xidWvxsJj0xEvZ4cqRU71DuNwYgcb8wJRu3ux4IqBg/viewform?usp=sf_link|Apply Here!]]
+
+---- /!\ '''Edit conflict - other version:''' ----
 Due June 15th. People will be notified by June 30th on acceptance. 
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
 == Schedule ==
 TBA
 
