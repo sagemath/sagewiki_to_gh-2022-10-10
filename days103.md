@@ -55,6 +55,13 @@ We will start the week by some introduction presentations and tutorials especial
 
 TBA
 
+== Schedule ==
+TBA
+
+== Tickets ==
+Please add #sd103 to any tickets you are working on on trac.  If your ticket needs review, added it to the list on the tickets page to advertise.
+
+
 ##Due to the conditions of the workshop, the size of the event is limited. We ask every potential participant to send an application. '''Applications are due Feb 28''', a response will be sent in early March or even earlier if the number of applications is limited.
 
 ##Please send your application to sagedays98@services.cnrs.fr including
