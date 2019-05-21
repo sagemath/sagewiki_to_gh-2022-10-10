@@ -41,7 +41,7 @@ TBA
 
 The workshop will take place in St. Louis, MO at [[https://www.fontbonne.edu|Fontbonne University]]. 
 
-Lodginf will be shared Air BNBs or Dorms.
+Lodging will be shared Air BNBs or Dorms.
 
 '''How to come?''' The closest airport is Heraklion airport. From there, you can take a taxi (approx. 30 euros).
 
