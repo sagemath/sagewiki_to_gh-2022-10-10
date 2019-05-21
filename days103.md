@@ -28,7 +28,7 @@ specific projects. There is no initial knowledge needed, everyone is welcome whe
 
 [[https://biancasmath.wordpress.com/|Bianca Thompson]]
 
-McKenzie West
+[[https://people.kzoo.edu/mwest/|McKenzie West]]
 
 == Project Leaders and Projects ==
 
