@@ -53,8 +53,7 @@ We will start the week by some introduction presentations and tutorials especial
 
 == Application ==
 
-TBA
-
+[[https://docs.google.com/forms/d/e/1FAIpQLSdy3xS8xidWvxsJj0xEvZ4cqRU71DuNwYgcb8wJRu3ux4IqBg/viewform?usp=sf_link]]
 == Schedule ==
 TBA
 
