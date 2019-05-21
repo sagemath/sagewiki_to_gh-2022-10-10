@@ -15,8 +15,7 @@
 
 <<TableOfContents()>>
 
-These Sage days are a special event for women* who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introduction presentations, training,  and team work on
-specific projects. There is no initial knowledge needed, everyone is welcome whether they are new Sage learners or Sage expert. We believe in diversity in backgrounds and experiences.
+These Sage days are a special event for women* who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introduction presentations, training,  and team work on specific projects. There is no initial knowledge needed, everyone is welcome whether they are new Sage learners or Sage expert. We believe in diversity in backgrounds and experiences.
 
 ##This event is fully funded by the [[http://opendreamkit.org/|OpenDreamKit]] project.
 
