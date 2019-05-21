@@ -54,9 +54,9 @@ Lodging will be shared Air BNBs or Dorms.
 
 == The event ==
 
-The event will be workshop style and most of the schedule will be decided by the participants as needed.
+The event will be workshop style.
 
-We will start the week by some introduction presentations and tutorials especially targeted at those who don't know much Sage. Then each participant will have an occasion to present their mathematical and / or Sage project to the group. Most of week will be dedicated to coding either individually or in groups. We will plan other presentations and tutorials depending on the needs and wishes of the participants.
+We will start the week by some introduction presentations and tutorials especially targeted at those who don't know much Sage. Then each project leader will present their mathematical and / or Sage project to the group. After that we will split into groups and work together on our projects. Groups can then share what they've accomplished and their next goals at the end of each day. 
 
 == Application ==
 
