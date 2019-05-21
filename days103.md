@@ -31,15 +31,15 @@ These Sage days are a special event for women* who develop in [[http://www.sagem
 
 == Project Leaders and Projects ==
 
-Rachel Davis
+[[https://www.math.wisc.edu/~rdavis/|Rachel Davis]]
 
-Ozlem Ejder
+[[https://sites.google.com/site/ozheidi/|Ozlem Ejder]]
 
-Amy Feaver
+[[https://www.kingsu.ca/about-us/staff-directory/contact_id/3716|Amy Feaver]]
 
-Heidi Goodson
+[[https://sites.google.com/site/heidigoodson/|Heidi Goodson]]
 
-Christelle Vincent
+[[https://www.uvm.edu/~cvincen1/|Christelle Vincent]]
 
 
 == Venue ==
