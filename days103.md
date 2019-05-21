@@ -63,12 +63,9 @@ We will start the week by some introduction presentations and tutorials especial
 
 [[https://docs.google.com/forms/d/e/1FAIpQLSdy3xS8xidWvxsJj0xEvZ4cqRU71DuNwYgcb8wJRu3ux4IqBg/viewform?usp=sf_link|Apply Here!]]
 
----- /!\ '''Edit conflict - other version:''' ----
 Due June 15th. People will be notified by June 30th on acceptance. 
 
----- /!\ '''Edit conflict - your version:''' ----
 
----- /!\ '''End of edit conflict''' ----
 == Schedule ==
 TBA
 
