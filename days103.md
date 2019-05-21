@@ -26,7 +26,7 @@ specific projects. There is no initial knowledge needed, everyone is welcome whe
 
 [[https://www.lifebynumber.org/|R. Lauren Miller]] is an adjunct at Fontbonne University. She has been working in sage since 2016.
 
-Bianca Thompson
+[[https://biancasmath.wordpress.com/|Bianca Thompson]]
 
 McKenzie West
 
