@@ -39,6 +39,10 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 16 mai 2019 ====
+
+Présents: Sébastien, Vincent K, Pascal, Adrien
+
 ==== jeudi 9 mai 2019 ====
 
 Présents: Sébastien, Vincent K, Pascal
