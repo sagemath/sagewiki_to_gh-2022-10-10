@@ -1,8 +1,8 @@
 <<TableOfContents()>>
 
-The Sage days 100 workshop will take place in Bonn Germany, July 22nd - July 26th. It welcomes anyone who wishes to work with SageMath, from complete beginners to advanced developers.
+The Sage days 100 workshop will take place in Bonn Germany, July 22nd - July 26th. It welcomes anyone who wishes to work with !SageMath, from complete beginners to advanced developers.
 
-The afternoon of Wednesday 24th will be dedicated to present SageMath at Max-Planck Institut (for students, PhD students, postdocs and professors). If you intend to come to this workshop, you are welcome to be involved in this event.
+The afternoon of Wednesday 24th will be dedicated to present !SageMath at Max-Planck Institut (for students, PhD students, postdocs and professors). If you intend to come to this workshop, you are welcome to be involved in this event.
 
 = Practical information =
 
