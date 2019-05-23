@@ -18,7 +18,7 @@ Bonn
 
 Special Wednesday afternoon event
 {{{
-Seminarraum (third floor)
+Lecture Hall (third floor)
 Max-Planck Institut
 Vivatsgasse 7
 Bonn
