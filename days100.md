@@ -8,7 +8,21 @@ The afternoon of Wednesday 24th will be dedicated to present Sage at Max-Planck 
 
 == Location ==
 
-Precision about the location will come soon.
+All week
+{{{
+Room 0.016 (ground floor, left of the main entrance)
+Institut für Informatik
+Endenicher Allee 19A
+Bonn
+}}}
+
+Special Wednesday afternoon event
+{{{
+Seminarraum (third floor)
+Max-Planck Institut
+Vivatsgasse 7
+Bonn
+}}}
 
 == Dates ==
 
