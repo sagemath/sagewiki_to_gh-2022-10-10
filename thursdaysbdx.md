@@ -45,6 +45,7 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 Présents: Sébastien, Vincent K, Pascal
 
 Sébastien: création d'un fichier de test (en rst) contenant le code contenu dans l'article http://arxiv.org/abs/1802.03265 pour assurer la reproducibilité des résultats à long terme.
+
 Vincent K: 
  * Complétion de #27777 [[https://trac.sagemath.org/ticket/27777|#27777]]
  * Échanges avec Sébastien sur les intégrales monte carlo.
