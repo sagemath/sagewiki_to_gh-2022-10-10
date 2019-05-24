@@ -52,7 +52,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
 
 == Participants ==
 
- * Vincent Delecroix (CNRS Bordeaux, France - MPIM Bonn, Germany)
+ * Vincent Delecroix (CNRS, LaBRI Bordeaux, France - MPIM Bonn, Germany)
  * [[https://www.uni-frankfurt.de/50278800/Zachhuber|Jonathan Zachhuber]] (Frankfurt, Deutschland)
  * [[https://users.fmi.uni-jena.de/~king/eindex.html|Simon King]] (Jena, Germany)
  * Mark Bell (England)
@@ -74,4 +74,4 @@ With material help from the Laboratoire Bordelais de Recherche en Informatique.
 
 == Organizer ==
 
- * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] ([[https://www.mpim-bonn.mpg.de/|Max-Planck (Bonn)]] and [[https://www.u-bordeaux.fr/|Université de Bordeaux]])
+ * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]] (CNRS, LaBRI Bordeaux, France - MPIM Bonn, Germany)
