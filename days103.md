@@ -33,8 +33,6 @@ These Sage days are a special event for women* who develop in [[http://www.sagem
 
 [[https://www.math.wisc.edu/~rdavis/|Rachel Davis]]
 
-[[https://sites.google.com/site/ozheidi/|Ozlem Ejder]]
-
 [[https://www.kingsu.ca/about-us/staff-directory/contact_id/3716|Amy Feaver]]
 
 [[https://sites.google.com/site/heidigoodson/|Heidi Goodson]]
