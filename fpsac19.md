@@ -27,6 +27,8 @@ Please put these information [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|here]].
 
 There will be no registration fee. OpenDreamKit will fund meals and nights taken by the participants at the local Youth Hostel (Dijaski dom Vic, Gerbičeva ulica 51a, Ljubljana). Details for reserving those will be provided here, and by e-mail to the registered participants. For other lodging, food, and activity information, see [[http://fpsac2019.fmf.uni-lj.si/local/|FPSAC'19 web page]]. 
 
+A survey has gone out regarding accommodation and meals. If you are registering after June 1, 2019, please contact the organizers for an access to the survey.
+
 == Organisers ==
 
   * [[https://sites.google.com/site/meeseongim/|Mee Seong Im]] (United States Military Academy, West Point, New York, USA)
