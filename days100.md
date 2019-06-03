@@ -31,8 +31,7 @@ Bonn
     * 10:00 - 10:30 A SageMath panorama (by V. Delecroix)
     * 10:30 - 11:30 Participant presentations and schedule organization
 
- * Expected arrival of participants: sunday 21st
- * Expected departure: friday 26th, saturday 27th or sunday 28th
+ * End of the workshop: friday 26th, 18:00
 
 == Broad mathematical thematics ==
 
