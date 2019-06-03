@@ -77,9 +77,9 @@ See the [[https://hackmd.io/j5FzB173Q4uaExUw-6Glpg#|pad]].
 
 === Registration ===
 
-- Edit the [[https://hackmd.io/j5FzB173Q4uaExUw-6Glpg#Participants|Participant list]] with your name and info.
-- Edit the [[https://hackmd.io/RDK2QSeSTXOnbinU-pq9lA|Arrivals page]] with your info.
-- Edit the [[https://hackmd.io/MehgK8q8T5-Q68hB_u0mLA|Meal preparation page]].
+ * Edit the [[https://hackmd.io/j5FzB173Q4uaExUw-6Glpg#Participants|Participant list]] with your name and info.
+ * Edit the [[https://hackmd.io/RDK2QSeSTXOnbinU-pq9lA|Arrivals page]] with your info.
+ * Edit the [[https://hackmd.io/MehgK8q8T5-Q68hB_u0mLA|Meal preparation page]].
 
 === Venue ===
 
