@@ -26,6 +26,11 @@ Bonn
 
 == Dates ==
 
+ * Begining of the workshop Monday 22nd
+    *  9:30 - 10:00 welcome coffee
+    * 10:00 - 10:30 A SageMath panorama (by V. Delecroix)
+    * 10:30 - 11:30 Participant presentations and schedule organization
+
  * Expected arrival of participants: sunday 21st
  * Expected departure: friday 26th, saturday 27th or sunday 28th
 
