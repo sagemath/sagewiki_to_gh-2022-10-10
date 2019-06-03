@@ -37,7 +37,7 @@ To reserve accommodation and meals, please fill out [[https://docs.google.com/fo
   * [[http://nicolas.thiery.name|Nicolas Thiéry]] (Université Paris-Sud, Orsay Cedex, France)
   * [[mailto:bruce.westbury@gmail.com|Bruce Westbury]] (University of Texas at Dallas, Dallas, Texas, USA)
 
-With lot's of local support from FPSAC's organizer Matjaz Konvalinka.
+With lots of local support from FPSAC's organizer Matjaz Konvalinka.
 
 == Support ==
 
