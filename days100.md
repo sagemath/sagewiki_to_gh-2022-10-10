@@ -69,6 +69,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * [[https://www.mi.fu-berlin.de/math/groups/ag-diskret-algebra-geom/members/Wimi/sophia_elia.html|Sophia Elia]] (Berlin, Deutschland)
  * Sebastian Oehms (Stuttgart, Germany)
  * [[https://www.mi.fu-berlin.de/math/groups/discgeom/members/rastanawi.html|Laith Rastanawi]] (Berlin, Deutschland)
+ * Vanessa Paluch (Bonn)
 
 == Funding ==
 
