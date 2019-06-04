@@ -70,6 +70,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * Sebastian Oehms (Stuttgart, Germany)
  * [[https://www.mi.fu-berlin.de/math/groups/discgeom/members/rastanawi.html|Laith Rastanawi]] (Berlin, Deutschland)
  * Vanessa Paluch (Bonn)
+ * Shreya Kapoor (Bonn)
 
 == Funding ==
 
