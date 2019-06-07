@@ -71,6 +71,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * [[https://www.mi.fu-berlin.de/math/groups/discgeom/members/rastanawi.html|Laith Rastanawi]] (Berlin, Deutschland)
  * Vanessa Paluch (Bonn)
  * Shreya Kapoor (Bonn)
+ * Julian Ritter (LIX Paris)
 
 == Funding ==
 
