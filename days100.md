@@ -1,6 +1,6 @@
 <<TableOfContents()>>
 
-Following a [[https://wiki.sagemath.org/Workshops|long tradition of similar workshops]], the Sage days 100 workshop will take place in Bonn Germany, July 22nd - July 26th. It welcomes anyone who wishes to work with !SageMath, from complete beginners to advanced developers. It will consist of tutorials, participant presentations and mostly free time to let participants work on their mathematical programming projects and get helped from more advanced users. The precise schedule of the workshop will be decided at the begining of the workshop and adapted according to the participant needs.
+Following a [[https://wiki.sagemath.org/Workshops|long tradition of similar workshops]], the Sage days 100 workshop will take place in Bonn Germany, July 22nd - July 27th. It welcomes anyone who wishes to work with !SageMath, from complete beginners to advanced developers. It will consist of tutorials, participant presentations and mostly free time to let participants work on their mathematical programming projects and get helped from more advanced users. The precise schedule of the workshop will be decided at the begining of the workshop and adapted according to the participant needs.
 
 The afternoon of Wednesday 24th will be dedicated to a [[https://www.mpim-bonn.mpg.de/de/node/9501|SageMath presentation at Max-Planck Institut]] (for students, PhD students, postdocs and professors). If you wish to be involved in this presentation, contact the organizer.
 
@@ -31,7 +31,7 @@ Bonn
     * 10:00 - 10:30 A !SageMath panorama (by V. Delecroix)
     * 10:30 - 11:30 Participant presentations and schedule organization
 
- * End of the workshop: friday 26th, 18:00
+ * End of the workshop: saturday 27th, 14:00
 
 == Broad mathematical thematics ==
 
