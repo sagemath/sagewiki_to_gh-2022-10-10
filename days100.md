@@ -77,7 +77,7 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
 
 The workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]] {{attachment:Flag_of_Europe.png|align="middle"|width=100}}
 
-With material help from the Laboratoire Bordelais de Recherche en Informatique.
+With material help from the Laboratoire Bordelais de Recherche en Informatique (France) and the Computer Science Department at Bonn University (Germany).
 
 == Organizer ==
 
