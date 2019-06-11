@@ -110,10 +110,9 @@ will be taken into account. Please check and edit the [[https://hackmd.io/j5FzB1
  * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
 
  * Bus options:
-    * from St Rémy les Chevreuse (RER station), bus 39-03 or 39-103
+    * from St Rémy les Chevreuse (RER station), bus [[https://www.savac-transports.fr/uploads/media/lines/0001/02/d208e441ed370c5cf72185fa0e5060b0e8246bee.pdf|39-003]] or [[https://www.savac-transports.fr/uploads/media/lines/0001/02/d5ca3c2df22dcb21ecd85592a0d764c0167d66a3.pdf|39-103]]
     * from Rambouillet (SNCF station) line 39-03 and 39-203
     * Busses are run by [[http://www.savac.fr/transports/lignes-regulieres/votre-ligne-reguliere|SAVAC]]
-    * [[http://www.savac.fr/fr/transports/horaires_content/horaire/hiveryv141.pdf|Bus schedules (PDF)]].
     * Beware that there are no buses at all to Cernay on sunday and that there are big gaps in the day with no buses!
     * Of the two bus stops in Cernay, Grand'Place is closest to the guest house.
 
