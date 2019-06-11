@@ -119,6 +119,6 @@ will be taken into account. Please check and edit the [[https://hackmd.io/j5FzB1
  * Check travel itineraries on [[http://www.vianavigo.com/|ViaNavigo]] (includes trains, RER, buses).
    Or [[http://ratp.fr|ratp]] but only for travel up to Saint-Rémy-les-Chevreuse.
 
- * We will run some car shuttles from Saint-Rémy-les-Chevreuse, to be planned later.
+ * We will run car shuttles from Saint-Rémy-les-Chevreuse, based on the [[https://hackmd.io/RDK2QSeSTXOnbinU-pq9lA|arrivals page]].
 
  * [[http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=Cernay+la+ville&sll=47.15984,2.988281&sspn=17.161007,44.516602&ie=UTF8&ll=48.675731,1.971735&spn=0.004066,0.010868&z=17|Map and aerial photo]]
