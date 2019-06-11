@@ -111,7 +111,7 @@ will be taken into account. Please check and edit the [[https://hackmd.io/j5FzB1
 
  * Bus options:
     * from St Rémy les Chevreuse (RER station), bus [[https://www.savac-transports.fr/uploads/media/lines/0001/02/d208e441ed370c5cf72185fa0e5060b0e8246bee.pdf|39-003]] or [[https://www.savac-transports.fr/uploads/media/lines/0001/02/d5ca3c2df22dcb21ecd85592a0d764c0167d66a3.pdf|39-103]]
-    * from Rambouillet (SNCF station) line 39-03 and 39-203
+    * from Rambouillet (SNCF station) line [[https://www.savac-transports.fr/uploads/media/lines/0001/02/d208e441ed370c5cf72185fa0e5060b0e8246bee.pdf|39-03]] and [[https://www.savac-transports.fr/uploads/media/lines/0001/02/4fa71ae77b7aa2c53c3759e569aa7821ea8f6b1e.pdf|39-203]]
     * Busses are run by [[https://www.savac-transports.fr/toutes-vos-lignes|SAVAC]]
     * Beware that there are no buses at all to Cernay on sunday and that there are big gaps in the day with no buses!
     * Of the two bus stops in Cernay, Grand'Place is closest to the guest house.
