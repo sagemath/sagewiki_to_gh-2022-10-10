@@ -106,7 +106,7 @@ will be taken into account. Please check and edit the [[https://hackmd.io/j5FzB1
 
 === From Paris to Cernay ===
 
- * From centre of Paris: 40 minutes RER B to Saint-Rémy-les-Chevreuse + 30 minutes bus to Cernay-la-Ville
+ * From centre of Paris: 40 minutes RER B to Saint-Rémy-les-Chevreuse + 20 or 30 minutes bus to Cernay-la-Ville (depending on time of day)
  * From Gare Montparnasse: 35 minutes train to Rambouillet + 15 minutes bus to Cernay-la-Ville
 
  * Bus options:
