@@ -89,7 +89,7 @@ with everything taking place in the same location.
 
 The guest house includes "The Tower" which can accommodate 10 people and
 the "Grenier Royal" which can accommodate 7 people. In addition it's possible
-to setup tens in the garden (which will be very nice in June!)
+to setup tents in the garden (which will be very nice in June!)
 
 Internet: wired internet connection and open wifi.
 
