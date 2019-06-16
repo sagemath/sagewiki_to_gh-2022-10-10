@@ -55,7 +55,7 @@ See the links for activity reports and some pictures.
 
 This workshop is also part of a long tradition of [[Workshops|Sage Days]], and [[http://gapdays.de/|GAP Days]].
 
-== [[https://hackmd.io/j5FzB173Q4uaExUw-6Glpg#Participants|Participants]] ==
+== Participants ==
 
 See the [[https://hackmd.io/j5FzB173Q4uaExUw-6Glpg#Participants|pad]].
 
