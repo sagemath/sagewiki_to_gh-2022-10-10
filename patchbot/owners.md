@@ -47,6 +47,7 @@ vogon.jeltz(32Bit)      jkroeker
 x200t-ThinkPad-*        jkroeker
 zancara                 gh-kliem
 zorn                    agd
+44e979ad077a            UNKNOWN AND BROKEN !
 }}}
 
 Instructions for running a patchbot are on the [[patchbot]] page of this wiki.
