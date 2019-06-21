@@ -15,9 +15,11 @@ Travel for some participants coming from outside Nigeria can be covered [[http:/
 === External Organizers ===
  * [[https://www.lri.fr/~pons/|Viviane Pons]] is a researcher in combinatorics and a ''Maîtresse de conférences'' (associate professor) in Paris-Sud University (Orsay) 
 
- * [[https://www.math.u-psud.fr/~lelievre/|Samuel Lelièvre]] Laboratoire de mathématique d'Orsay, Université Paris-Sud
-
  * [[http://iguananaut.net/pages/about.html|Erik Madison Bray]] Laboratoire de recherche en informatique, Université Paris-Sud (OpenDreamKit)
+
+ * Evans Doe Ocansey, Johannes Kepler University
+
+ * Yaé Ulrich Gaba, North West University
 
 Logistical help: Izabela Faguet (Paris-Sud University)
 
@@ -33,18 +35,24 @@ Department of Mathematics, University of Ibadan, Ibadan, NIGERIA
 
 == The event ==
 
-'''SOME DETAILS TBD'''
-
 The event will be workshop style and most of the schedule will be decided by the participants as needed.
 
 The first two days may consist of a [[https://software-carpentry.org/|Software Carpentry]] style workshop, especially targeted to those who are new to scientific and mathematical computing with open source tools including basic skills in learning the command-line shell, the [[https://jupyter.org/|Jupyter Notebook]], the [[https://www.python.org/|Python]] programming language (the implementation language of SageMath, and one of the leaders in open science), and version control using the [[https://git-scm.com/|git]] version control system and source code hosting/collaboration sites like [[https://github.com/|GitHub]].  '''TBD: Maybe some R as well, if there is interest?  One of our potential instructors teaches it.'''
 
-
 We will continue then with introductory presentations and tutorials especially targeted at those who don't know much Sage. Participants will also have an occasion to present their mathematical and/or Sage-related projects to the group.  The rest of week will be dedicated to coding either individually or in groups, and onboarding newcomers to the process of doing development for Sage and the technologies involved. We will plan other presentations and tutorials depending on the needs and wishes of the participants.
 
-'''Funding'''
+=== Schedule ===
 
-The workshop is funded by [[http://opendreamkit.org/|OpenDreamKit]] 
+A tentative '''sketch of the schedule''' is on [[https://pad.carpentries.org/Nigeria2019-Schedule|this etherpad]].
+
+=== Attendees ===
+
+If you are attending the workshop please add your name, any contact information you wish to give, your home institution, and list any research interests you have or topics you hope to learn about at the workshop on this page (anybody can edit it): [[https://pad.carpentries.org/Nigeria2019-Attendees|Attendees]]
+
+
+=== Funding ===
+
+The workshop is funded in part by [[http://opendreamkit.org/|OpenDreamKit]] with local help by the University of Ibadan Department of Mathematics.
 
 == Application ==
 
