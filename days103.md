@@ -27,7 +27,7 @@ These Sage days are a special event for women* who develop in [[http://www.sagem
 
 [[https://biancasmath.wordpress.com/|Bianca Thompson]]
 
-[[https://people.kzoo.edu/mwest/|Mckenzie West]]
+[[https://people.kzoo.edu/mwest/|Mckenzie West]] is starting as an assistant professor at the University of Wisconsin - Eau Claire this Fall.
 
 == Project Leaders and Projects ==
 
@@ -67,33 +67,13 @@ Due June 15th. People will be notified by June 30th on acceptance.
 TBA
 
 == Participants ==
-* Marie Jameson
-* Sara Lapan
+Marie Jameson
+
+Sara Lapan
 
 == Tickets ==
 Please add #sd103 to any tickets you are working on on trac.  If your ticket needs review, added it to the list on the tickets page to advertise.
 
-
-##Due to the conditions of the workshop, the size of the event is limited. We ask every potential participant to send an application. '''Applications are due Feb 28''', a response will be sent in early March or even earlier if the number of applications is limited.
-
-##Please send your application to sagedays98@services.cnrs.fr including
-
-##'''Name, institution, professional situation''' (student, postdoc, professor, etc.)
-
-##'''Previous programming experience:''' describe your programming experience either with Sage or any other language. Please note '''that previous
-experience is not necessary''' to participate to the event!
-
-##'''Mathematical / Sage project:''' If you have a specific project in mind to work on during the week, please describe it. Otherwise, tell us what part
-of Sage you are interested in and what kind of mathematics you do.
-
-##'''Motivation:''' please explain what motivates you to participate to this event.
-
-##'''reference letter:''' if you are a student, please attach a reference letter.
-
-##'''Funding request''' Do need travel funding to attend the event? (Note that local expenses are covered for all participants)
-
-##Note: it is possible to apply with a common project with another participant.
-##Other note: if you think you don't know enough Sage to apply, you are wrong!
 
 ##== Community Agreement ==
 
