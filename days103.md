@@ -66,7 +66,7 @@ Due June 15th. People will be notified by June 30th on acceptance.
 == Schedule ==
 TBA
 
-== Participants ==
+== Confirmed Participants ==
 Marie Jameson
 
 Sara Lapan
