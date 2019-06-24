@@ -35,6 +35,8 @@ These Sage days are a special event for women* who develop in [[http://www.sagem
 
 [[https://www.kingsu.ca/about-us/staff-directory/contact_id/3716|Amy Feaver]]
 
+Project: Improving the cryptography functionality and documentation.
+
 [[https://sites.google.com/site/heidigoodson/|Heidi Goodson]]
 
 [[https://www.uvm.edu/~cvincen1/|Christelle Vincent]]
