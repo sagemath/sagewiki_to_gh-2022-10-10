@@ -66,6 +66,10 @@ Due June 15th. People will be notified by June 30th on acceptance.
 == Schedule ==
 TBA
 
+== Participants ==
+* Marie Jameson
+* Sara Lapan
+
 == Tickets ==
 Please add #sd103 to any tickets you are working on on trac.  If your ticket needs review, added it to the list on the tickets page to advertise.
 
