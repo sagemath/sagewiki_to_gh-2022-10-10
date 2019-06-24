@@ -27,7 +27,7 @@ These Sage days are a special event for women* who develop in [[http://www.sagem
 
 [[https://biancasmath.wordpress.com/|Bianca Thompson]]
 
-[[https://people.kzoo.edu/mwest/|Mckenzie West]] is starting as an assistant professor at the University of Wisconsin - Eau Claire this Fall.
+[[https://people.kzoo.edu/mwest/|Mckenzie West]]
 
 == Project Leaders and Projects ==
 
