@@ -69,9 +69,19 @@ Due June 15th. People will be notified by June 30th on acceptance.
 TBA
 
 == Confirmed Participants ==
+Sumita Garai
+
+Eva Goedhart 
+
 Marie Jameson
 
 Sara Lapan
+
+Alexis Newton
+
+Holly Paige Chaos
+
+Nandita Sahajpal
 
 == Tickets ==
 Please add #sd103 to any tickets you are working on on trac.  If your ticket needs review, added it to the list on the tickets page to advertise.
