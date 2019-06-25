@@ -72,6 +72,9 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * Vanessa Paluch (Bonn)
  * Shreya Kapoor (Bonn)
  * Julian Ritter (LIX Paris)
+ * Ingrid Irmer (MPIM, Bonn)
+ * Hankyung Ko (MPIM, Bonn)
+ * Saul Schleimer (Warwick, England)
 
 == Funding ==
 
