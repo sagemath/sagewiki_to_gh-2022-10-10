@@ -69,6 +69,10 @@ Due June 15th. People will be notified by June 30th on acceptance.
 TBA
 
 == Confirmed Participants ==
+Jen Berg
+
+Fatma Cicek
+
 Sumita Garai
 
 Eva Goedhart 
