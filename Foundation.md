@@ -11,9 +11,9 @@ People that use and enjoy !SageMath are encouraged to make a donation to the !Sa
 ||<#ff6347> Making a donation is currently not possible (June 2019). ||
 ||<#ff6347> ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━||
 
-This is a nice way to express your appreciation of the work done by the !SageMath developer community.
+The !SageMath foundation was until June 2019 a donation account hosted by the University of Washington.
 
-The !SageMath foundation is for the moment just a donation account hosted by the University of Washington. Collected funds are fully available for sustaining !SageMath, and no percentage go to anything else.
+Making a donation is a nice way to express your appreciation of the work done by the !SageMath developer community. Collected funds are fully available for sustaining !SageMath, and no percentage go to anything else.
 
 ||<#CCFF99> Who is in charge?||
 
