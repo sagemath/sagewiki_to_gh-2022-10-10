@@ -37,10 +37,9 @@ These Sage days are a special event for women* who develop in [[http://www.sagem
 
 Project: Improving the cryptography functionality and documentation.
 
-[[https://sites.google.com/site/heidigoodson/|Heidi Goodson]]
+[[https://sites.google.com/site/heidigoodson/|Heidi Goodson]] and [[https://www.uvm.edu/~cvincen1/|Christelle Vincent]]
 
-[[https://www.uvm.edu/~cvincen1/|Christelle Vincent]]
-
+Project: Believe the Hype! (Computing the identity components of Sato-Tate groups for trinomial hyperelliptic curves)
 
 == Venue ==
 
