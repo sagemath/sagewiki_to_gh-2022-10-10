@@ -69,14 +69,23 @@ TBA
 
 == Confirmed Participants ==
 Sarah Arpin
+
 Jen Berg
+
 Fatma Cicek
+
 Sumita Garai
+
 Eva Goedhart 
+
 Marie Jameson
+
 Sara Lapan
+
 Alexis Newton
+
 Holly Paige Chaos
+
 Nandita Sahajpal
 
 == Tickets ==
