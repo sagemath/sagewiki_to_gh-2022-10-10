@@ -68,22 +68,15 @@ Due June 15th. People will be notified by June 30th on acceptance.
 TBA
 
 == Confirmed Participants ==
+Sarah Arpin
 Jen Berg
-
 Fatma Cicek
-
 Sumita Garai
-
 Eva Goedhart 
-
 Marie Jameson
-
 Sara Lapan
-
 Alexis Newton
-
 Holly Paige Chaos
-
 Nandita Sahajpal
 
 == Tickets ==
