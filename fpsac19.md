@@ -6,7 +6,7 @@ Although the organizers are primarily in the SageMath community and promote [[ht
 
 Dates: July 8-12, 2019
 
-Location: University of Ljubljana, Slovenia (Faculty of mathematics and physics, Jadranska ulica 21, second floor).
+Location: University of Ljubljana, Slovenia (Faculty of mathematics and physics, [[https://www.google.com/search?client=firefox-b-1-d&ei=0iQWXaq2H5O4tQaFvarIBQ&q=Jadranska+ulica+21%2C+University+of+Ljubljana&oq=Jadranska+ulica+21%2C+University+of+Ljubljana&gs_l=psy-ab.3..35i39.75098.77549..77810...0.0..0.110.413.1j3......0....1..gws-wiz.......0i71j35i304i39.sLVSgsLarBA|Jadranska ulica 21]], second floor).
 
 This event will follow [[http://fpsac2019.fmf.uni-lj.si|FPSAC'19]].
 
