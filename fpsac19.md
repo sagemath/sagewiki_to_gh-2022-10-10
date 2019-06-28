@@ -26,7 +26,7 @@ Please put these information [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|here]].
 == Local information ==
 
 There will be no registration fee. OpenDreamKit will fund meals and nights taken by the participants at the local Youth Hostel ([[https://www.google.com/search?client=firefox-b-1-d&q=Youth+Hostel%2C+Dijaski+Dom+Vic%2C+Gerbi%C4%8Deva+ulica+51a%2C+Ljubljana|Dijaski dom Vic, Gerbičeva ulica 51a, Ljubljana]]). 
-Note that this is '''not''' the same Youth Hostel than for FPSAC. This one is close by the Sage Days premisses. For other lodging, food, and activity information, see [[http://fpsac2019.fmf.uni-lj.si/local/|FPSAC'19 web page]]. 
+Note that this is '''not''' the same Youth Hostel as the one for FPSAC. This one is close by the Sage Days premisses. For other lodging, food, and activity information, see [[http://fpsac2019.fmf.uni-lj.si/local/|FPSAC'19 web page]]. 
 
 To reserve accommodation and meals, please fill out [[https://docs.google.com/forms/d/e/1FAIpQLSe3MVFirLN3W69KXJhUTT9Juoi6Rd5CKvTKzz8OPNkzkGLpnA/viewform?vc=0&amp;c=0&amp;w=1&amp;usp=mail_form_link|this survey]] as soon as possible. See the [[https://hackmd.io/QyNLu7VhTAKAE1CaLQAigA|menu]]. Sadly, vegetarian option will not be available for dinner, and breakfast is self-service.
 
