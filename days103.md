@@ -72,7 +72,11 @@ Sarah Arpin
 
 Jen Berg
 
+Catalina Camacho-Navarro
+
 Fatma Cicek
+
+Holley Friedlander
 
 Sumita Garai
 
