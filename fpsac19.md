@@ -36,7 +36,7 @@ To reserve accommodation and meals, please fill out [[https://docs.google.com/fo
   * [[https://www.fmf.uni-lj.si/~konvalinka/|Matjaz Konvalinka]] (University of Ljubljana, Ljubljana, Slovenia); '''local organizer'''
   * [[http://people.cst.cmich.edu/salis1bt/|Ben Salisbury]] (Central Michigan University, Mount Pleasant, Michigan, USA)
   * [[http://nicolas.thiery.name|Nicolas Thiéry]] (Université Paris-Sud, Orsay Cedex, France)
-  * [[mailto:bruce.westbury@gmail.com|Bruce Westbury]] (University of Texas at Dallas, Dallas, Texas, USA)
+  * [[https://utd.edu/math/4571/westbury-bruce/|Bruce Westbury]] (University of Texas at Dallas, Dallas, Texas, USA)
 
 == Support ==
 
