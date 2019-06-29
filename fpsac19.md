@@ -30,10 +30,10 @@ Note that this is '''not''' the same Youth Hostel as the one for FPSAC. This one
 
 To reserve accommodation and meals, please fill out [[https://docs.google.com/forms/d/e/1FAIpQLSe3MVFirLN3W69KXJhUTT9Juoi6Rd5CKvTKzz8OPNkzkGLpnA/viewform?vc=0&amp;c=0&amp;w=1&amp;usp=mail_form_link|this survey]] as soon as possible. See the [[https://hackmd.io/QyNLu7VhTAKAE1CaLQAigA|menu]]. Sadly, vegetarian option will not be available for dinner, and breakfast is self-service.
 
-== Organisers ==
+== Organizers ==
 
   * [[https://sites.google.com/site/meeseongim/|Mee Seong Im]] (United States Military Academy, West Point, New York, USA)
-  * [[https://www.fmf.uni-lj.si/~konvalinka/|Matjaz Konvalinka]] (University of Ljubljana, Ljubljana, Slovenia; local organizer)
+  * [[https://www.fmf.uni-lj.si/~konvalinka/|Matjaz Konvalinka]] (University of Ljubljana, Ljubljana, Slovenia); local organizer
   * [[http://people.cst.cmich.edu/salis1bt/|Ben Salisbury]] (Central Michigan University, Mount Pleasant, Michigan, USA)
   * [[http://nicolas.thiery.name|Nicolas Thiéry]] (Université Paris-Sud, Orsay Cedex, France)
   * [[mailto:bruce.westbury@gmail.com|Bruce Westbury]] (University of Texas at Dallas, Dallas, Texas, USA)
