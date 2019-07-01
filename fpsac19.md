@@ -12,7 +12,7 @@ This event will follow [[http://fpsac2019.fmf.uni-lj.si|FPSAC'19]].
 
 == Speakers, Participants, and Projects ==
 
-[Schedule and tentative list of projects](https://hackmd.io/KpcHa3KKSzi20fywXrnhsA)
+[[https://hackmd.io/KpcHa3KKSzi20fywXrnhsA|Schedule and tentative list of projects]]
 
 == Registration ==
 
