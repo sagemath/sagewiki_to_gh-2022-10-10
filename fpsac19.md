@@ -12,7 +12,9 @@ This event will follow [[http://fpsac2019.fmf.uni-lj.si|FPSAC'19]].
 
 == Speakers, Participants, and Projects ==
 
-A tentative list of projects will be made available soon, and SageDays schedule will be posted in the coming days.
+[Schedule and tentative list of projects](https://hackmd.io/KpcHa3KKSzi20fywXrnhsA)
+
+== Registration ==
 
 '''If you are planning to attend, please "register" by adding your name [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|here]].'''
 
