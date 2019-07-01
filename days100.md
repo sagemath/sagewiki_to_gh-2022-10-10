@@ -59,8 +59,8 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * Vincent Delecroix (CNRS, LaBRI Bordeaux, France - MPIM Bonn, Germany)
  * [[https://www.uni-frankfurt.de/50278800/Zachhuber|Jonathan Zachhuber]] (Frankfurt, Deutschland)
  * [[https://users.fmi.uni-jena.de/~king/eindex.html|Simon King]] (Jena, Germany)
- * Mark Bell (England)
- * Luke Jeffreys (Glasgow, Scotland)
+ * Mark Bell (UK)
+ * Luke Jeffreys (Glasgow, UK)
  * [[https://people.math.ethz.ch/~schmittj/|Johannes Schmitt]] (Zurich, Switzerland)
  * [[https://www.math.u-psud.fr/~lelievre/|Samuel Lelièvre]] (Paris, France)
  * [[https://irma.math.unistra.fr/~chapoton/|Frédéric Chapoton]] (Strasbourg, France)
@@ -74,7 +74,8 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
  * Julian Ritter (LIX Paris)
  * Ingrid Irmer (MPIM, Bonn)
  * Hankyung Ko (MPIM, Bonn)
- * Saul Schleimer (Warwick, England)
+ * Saul Schleimer (Warwick, UK)
+ * Brian Winn (Loughborough University, UK)
 
 == Funding ==
 
