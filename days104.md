@@ -16,7 +16,7 @@ This event is funded by NSF-DMS grant 1906266.
 
 [[https://math.okstate.edu/people/fili/|Paul Fili]]
 
-[[https://mathstat.slu.edu/~hutzba/|Benjamin Hutz]
+[[https://mathstat.slu.edu/~hutzba/|Benjamin Hutz]]
 
 [[https://sites.google.com/site/atowsley42/home/|Adam Towsley]]
 
@@ -24,13 +24,13 @@ This event is funded by NSF-DMS grant 1906266.
 
 See the [[https://wiki.sagemath.org/dynamics/ArithmeticAndComplex|dynamics wiki]] page for information on the current status of Dynamical Systems in Sage. The list of topics for the workshop will be decided during the first day of the conference based on the interested an areas of expertise of the participants. The following are possibilities:
 
-- Fix bugs
-- Improve documentation and tutorials
-- Implement new functionality
- - Potentially Good and Critically Good Reduction
-- Database of dynamical systems
- - Improve the search interface
- - Add new data
+ * Fix bugs
+ * Improve documentation and tutorials
+ * Implement new functionality
+   * Potentially Good and Critically Good Reduction
+ * Database of dynamical systems
+   * Improve the search interface
+   * Add new data
 
 
 == Venue ==
@@ -48,43 +48,43 @@ Registration is free and please notify one of the organizers if you plan on atte
 == Schedule ==
 The workshop will consist of tutorials and talks in the mornings and working groups in the afternoons. The following is a tentative schedule
 
-- Saturday November 16, 2019
- - Arrival and check-in to accommodations
-- Sunday November 17, 2019
- - Registration and Welcome
- - Installation Assistance
- - Talk: Dynamical Systems in Sage
- - Lunch break
- - Open problem discussion to establish workshop goals
- - Tutorial on contributing to Sage I
- - Full group status update on daily progress
-- Monday November 18, 2019
- - Talk: TBD
- - Break
- - Tutorial on contributing to Sage II
- - Lunch break
- - Coding sprints
- - Full group status update on daily progress
-- Tuesday November 19, 2019
- - Talk: TBD
- - Break
- - Coding sprints
- - Lunch break
- - Coding sprints
- - Full group status update on daily progress
-- Wednesady November 20, 2019
- - Talk: TBD
- - Break
- - Coding sprints
- - Lunch break
- - Coding sprints
- - Final status update
+ * Saturday November 16, 2019
+   * Arrival and check-in to accommodations
+ * Sunday November 17, 2019
+   * Registration and Welcome
+   * Installation Assistance
+   * Talk: Dynamical Systems in Sage
+   * Lunch break
+   * Open problem discussion to establish workshop goals
+   * Tutorial on contributing to Sage I
+   * Full group status update on daily progress
+ * Monday November 18, 2019
+   * Talk: TBD
+   * Break
+   * Tutorial on contributing to Sage II
+   * Lunch break
+   * Coding sprints
+   * Full group status update on daily progress
+ * Tuesday November 19, 2019
+   * Talk: TBD
+   * Break
+   * Coding sprints
+   * Lunch break
+   * Coding sprints
+   * Full group status update on daily progress
+ * Wednesady November 20, 2019
+   * Talk: TBD
+   * Break
+   * Coding sprints
+   * Lunch break
+   * Coding sprints
+   * Final status update
 
 == Preworkshop Preparation == 
 
-- Obtain a github account
-- Install the latest beta version of SAGE from source code using GIT: [[http://doc.sagemath.org/html/en/developer/index.html|Sage Developer's Guide]] (this may take several hours)
-- Review the dynamical systems [[https://wiki.sagemath.org/quickref/ | Reference Card]]
+ * Obtain a github account
+ * Install the latest beta version of SAGE from source code using GIT: [[http://doc.sagemath.org/html/en/developer/index.html|Sage Developer's Guide]] (this may take several hours)
+ * Review the dynamical systems [[https://wiki.sagemath.org/quickref/ | Reference Card]]
 
 Please contact one of the organizers if you are having trouble with the preworkshop steps. It will be possible to do these on the first day of the workshop, but building Sage from soure code takes many hours on most computers and needs to be completed before any work can be done.
 
