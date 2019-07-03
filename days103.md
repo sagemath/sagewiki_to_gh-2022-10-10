@@ -31,7 +31,9 @@ These Sage days are a special event for women* who develop in [[http://www.sagem
 
 == Project Leaders and Projects ==
 
-[[https://www.math.wisc.edu/~rdavis/|Rachel Davis]]
+[[https://www.math.wisc.edu/~rdavis/|Rachel Davis]] and [[https://sites.google.com/view/jenberg/home|Jen Berg]]
+
+Project: Brauer Groups and degree 1 del Pezzos, can we port Magma code from Andrea C. Carter?
 
 [[https://www.kingsu.ca/about-us/staff-directory/contact_id/3716|Amy Feaver]]
 
@@ -69,8 +71,6 @@ TBA
 
 == Confirmed Participants ==
 Sarah Arpin
-
-Jen Berg
 
 Catalina Camacho-Navarro
 
