@@ -14,11 +14,11 @@ This event is funded by NSF-DMS grant 1906266.
 
 == Organizers ==
 
-[[https://math.okstate.edu/people/fili/|Paul Fili]]
+[[https://math.okstate.edu/people/fili/|Paul Fili]], Oklahoma State University
 
-[[https://mathstat.slu.edu/~hutzba/|Benjamin Hutz]]
+[[https://mathstat.slu.edu/~hutzba/|Benjamin Hutz]], Saint Louis University
 
-[[https://sites.google.com/site/atowsley42/home/|Adam Towsley]]
+[[https://sites.google.com/site/atowsley42/home/|Adam Towsley]], Rochester Institute of Technology
 
 == Projects ==
 
