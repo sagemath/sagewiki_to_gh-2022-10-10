@@ -10,7 +10,7 @@
 
 This 4-day workshop includes a combination of mathematical talks, Sage tutorials, and Sage development. The main goal is to promote and improve the dynamical systems functionality in Sage and to expand the scope of the database of dynamical systems. Users new to Sage and Sage development are welcome. There is no initial knowledge needed, everyone is welcome whether they are new Sage learners or Sage expert. We believe in diversity in backgrounds and experiences.
 
-This event is funded by NSF-DMS grant 1906266.
+This event is funded by NSF-DMS grant [[https://www.nsf.gov/awardsearch/showAward?AWD_ID=1906266|1906266]].
 
 == Organizers ==
 
