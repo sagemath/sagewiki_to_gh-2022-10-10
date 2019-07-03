@@ -20,6 +20,19 @@ This event is funded by NSF-DMS grant 1906266.
 
 [[https://sites.google.com/site/atowsley42/home/|Adam Towsley]], Rochester Institute of Technology
 
+== Venue ==
+
+The workshop will take place at Saint Louis University in St. Louis, MO. Participants are encouraged to utilize [[https://www.hotelignaciostl.com/| Hotel Ignacio]] which is adjacent to campus.
+
+'''How to come?''' The closest airport is St. Louis Lambert International Airport. From there, you can either take the [[https://www.metrostlouis.org/|Saint Louis Metro Link]] to campus or your favorite ride sharing company.
+
+== Funding and Registration ==
+
+We have funding for travel and lodging for a limited number of participants through the Computational Mathematics program via NSF grant 1906266. Please apply by September 17th if you are requesting funding. (Google form to be added soon!)
+
+Registration is free. (registration form coming soon!)
+
+
 == Projects ==
 
 See the [[https://wiki.sagemath.org/dynamics/ArithmeticAndComplex|dynamics wiki]] page for information on the current status of Dynamical Systems in Sage. The list of topics for the workshop will be decided during the first day of the conference based on the interested an areas of expertise of the participants. The following are possibilities:
@@ -35,18 +48,6 @@ See the [[https://wiki.sagemath.org/dynamics/ArithmeticAndComplex|dynamics wiki]
    * Improve the search interface
    * Add new data
 
-
-== Venue ==
-
-The workshop will take place at Saint Louis University in St. Louis, MO. Participants are encouraged to utilize [[https://www.hotelignaciostl.com/| Hotel Ignacio]] which is adjacent to campus.
-
-'''How to come?''' The closest airport is St. Louis Lambert International Airport. From there, you can either take the [[https://www.metrostlouis.org/|Saint Louis Metro Link]] to campus or your favorite ride sharing company.
-
-== Funding and Registration ==
-
-We have funding for travel and lodging for a limited number of participants through the Computational Mathematics program via NSF grant 1906266. Please apply by September 17th if you are requesting funding. (Google form to be added soon!)
-
-Registration is free. (registration form coming soon!)
 
 == Schedule ==
 The workshop will consist of tutorials and talks in the mornings and working groups in the afternoons. The following is a tentative schedule
