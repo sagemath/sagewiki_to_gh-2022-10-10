@@ -28,6 +28,9 @@ See the [[https://wiki.sagemath.org/dynamics/ArithmeticAndComplex|dynamics wiki]
  * Improve documentation and tutorials
  * Implement new functionality
    * Potentially Good and Critically Good Reduction
+   * Normal forms for maps
+   * Reduced form for morphisms in dimension greater than 1
+   * critical point for endomorphisms of subvarieties
  * Database of dynamical systems
    * Improve the search interface
    * Add new data
