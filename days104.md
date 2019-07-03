@@ -39,7 +39,7 @@ The workshop will take place at Saint Louis University in St. Louis, MO. Partici
 
 '''How to come?''' The closest airport is St. Louis Lambert International Airport. From there, you can either take the [[https://www.metrostlouis.org/|Saint Louis Metro Link]] to campus or your favorite ride sharing company.
 
-== Funding/Application ==
+== Funding and Registration ==
 
 We have funding for travel and lodging for a limited number of participants through the Computational Mathematics program via NSF grant 1906266. Please apply by September 17th if you are requesting funding. (Google form to be added soon!)
 
