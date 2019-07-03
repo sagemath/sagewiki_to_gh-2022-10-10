@@ -22,7 +22,7 @@ This event is funded by NSF-DMS grant 1906266.
 
 == Venue ==
 
-The workshop will take place at Saint Louis University in St. Louis, MO. Participants are encouraged to utilize [[https://www.hotelignaciostl.com/| Hotel Ignacio]] which is adjacent to campus.
+The workshop will take place at [[https://www.slu.edu/|Saint Louis University]] in St. Louis, MO. Participants are encouraged to utilize [[https://www.hotelignaciostl.com/| Hotel Ignacio]] which is adjacent to campus.
 
 '''How to come?''' The closest airport is St. Louis Lambert International Airport. From there, you can either take the [[https://www.metrostlouis.org/|Saint Louis Metro Link]] to campus or your favorite ride sharing company.
 
