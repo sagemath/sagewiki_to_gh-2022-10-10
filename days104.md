@@ -44,6 +44,7 @@ See the [[https://wiki.sagemath.org/dynamics/ArithmeticAndComplex|dynamics wiki]
    * Normal forms for maps
    * Reduced form for morphisms in dimension greater than 1
    * critical point for endomorphisms of subvarieties
+   * height pairings
  * [[https://mathstat.slu.edu/~hutzba/search.php | Database of dynamical systems]]
    * Improve the search interface
    * Add new data
