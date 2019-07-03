@@ -28,7 +28,7 @@ The workshop will take place at [[https://www.slu.edu/|Saint Louis University]] 
 
 == Funding and Registration ==
 
-We have funding for travel and lodging for a limited number of participants through the Computational Mathematics program via NSF grant 1906266. Please apply by September 17th if you are requesting funding. (Google form to be added soon!)
+We have funding for travel and lodging for a limited number of participants through the Computational Mathematics and CDS&E programs via NSF grant 1906266. Please apply by September 17th if you are requesting funding. (Google form to be added soon!)
 
 Registration is free. (registration form coming soon!)
 
