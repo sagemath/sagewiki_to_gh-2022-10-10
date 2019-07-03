@@ -43,7 +43,7 @@ The workshop will take place at Saint Louis University in St. Louis, MO. Partici
 
 We have funding for travel and lodging for a limited number of participants through the Computational Mathematics program via NSF grant 1906266. Please apply by September 17th if you are requesting funding. (Google form to be added soon!)
 
-Registration is free and please notify one of the organizers if you plan on attending to aid in planning purposes.
+Registration is free. (registration form coming soon!)
 
 == Schedule ==
 The workshop will consist of tutorials and talks in the mornings and working groups in the afternoons. The following is a tentative schedule
