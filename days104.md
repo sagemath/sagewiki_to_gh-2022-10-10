@@ -80,7 +80,7 @@ The workshop will consist of tutorials and talks in the mornings and working gro
    * Coding sprints
    * Final status update
 
-== Preworkshop Preparation == 
+== Preworkshop Preparation ==
 
  * Obtain a github account
  * Install the latest beta version of SAGE from source code using GIT: [[http://doc.sagemath.org/html/en/developer/index.html|Sage Developer's Guide]] (this may take several hours)
