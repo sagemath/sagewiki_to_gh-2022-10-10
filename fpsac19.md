@@ -12,10 +12,10 @@ This event will follow [[http://fpsac2019.fmf.uni-lj.si|FPSAC'19]].
 
 == Participants, Schedule, Projects ==
 
-- [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|Participants]]
-- [[https://hackmd.io/KpcHa3KKSzi20fywXrnhsA|Schedule]]
-- [[https://hackmd.io/Ift3F-ZtRCmVS7T5OCE6Ew|Demos and tutorials]]
-- [[https://hackmd.io/Ift3F-ZtRCmVS7T5OCE6Ew|Coding sprint projects]]
+* [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|Participants]]
+* [[https://hackmd.io/KpcHa3KKSzi20fywXrnhsA|Schedule]]
+* [[https://hackmd.io/Ift3F-ZtRCmVS7T5OCE6Ew|Demos and tutorials]]
+* [[https://hackmd.io/Ift3F-ZtRCmVS7T5OCE6Ew|Coding sprint projects]]
 
 == Registration ==
 
