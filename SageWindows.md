@@ -148,3 +148,36 @@ $ ls
 Examples of this include the `AppData` folder, and the `NTUSER.DAT` files.
 
 We would like to include an alternative `ls` that keeps such files hidden by default, but for now it's best just to ignore this and work around it.
+
+
+== Other options for running SageMath on Windows ==
+
+The Sage for Windows installer is probably the easiest, most user-friendly way to get Sage running as a native(-ish) Windows application (the "-ish" part is because it relies on the Cygwin POSIX emulation system to work, which adds additional overhead and slight instability compared to a non-Cygwin application, but for most users on modern systems it will work just fine).
+
+As noted, however, there are other ways to run Sage on Windows which may be appropriate either if you have trouble getting the installer working, or if you have other needs (e.g. performance-tuned builds, or development) that are not well met by the installer.  Here are a few ideas:
+
+=== Build Sage from source in Cygwin ===
+
+The Sage for Windows installer comes with its own custom distribution of Cygwin, hand-picked to meet Sage's runtime requirements.  However, you may also manually install a generic Cygwin installation, and use it to build and run Sage from source.  There are comprehensive instructions for [[https://trac.sagemath.org/wiki/Cygwin64Port|building Sage on Cygwin]] over at Sage's development Trac site.
+
+=== Running the VirtualBox appliance ===
+
+As previously noted, an older way Sage was made available "for Windows" is as a VirtualBox appliance: [[SageAppliance|VirtualBox appliance]].  This makes it relatively easy to install and run a Linux VM that has been custom-built for running and working with Sage.  However, depending on your system, getting things like filesystem and network sharing can be a challenge (issues general to configuring a VM to run on your system, and not particular to Sage or the Sage VirtualBox Appliance).
+
+=== Running a different Linux VM ===
+
+In addition to the VirtualBox appliance, there is a [[https://sagedebianlive.metelu.net/ SageMath Live]] Linux image based on Debian Live, which is designed to be flashed onto a USB drive, which can be used to boot directly into a working Debian-based Linux distribution built to run Sage.  You can download the `.img` file and run it in a VM as with the appliance.  Alternatively, if you are having trouble running VMs, or other things just aren't working on your system (we have seen many personal laptops that are too corrupted to even run a VM successfully in Windows) and just want to give Sage a try, one possibility is to actually use the SageMath Live USB as intended: Flash the downloaded image onto a USB drive, plug it into your computer, and try booting your computer from it.  This may require entering your computer's BIOS settings at boot time (this usually requires pressing a special key which depends on the computer, often `esc`, `f8`, `f12`, or some other function key) and changing the boot settings to allow booting the computer from a USB drive.  This will work on most systems that don't have outright hardware damage, and can at least give you a partially working system that you can use Sage on for the duration of a workshop, for example.
+
+==== AIMS Desktop ====
+
+AIMS (the African Institute for Mathematical Sciences) also maintains a product similar to the SageMath Live distribution called [[https://desktop.aims.ac.za/|AIMS Desktop]].  It is similarly a Debian Live-based distribution pre-loaded with open source mathematics software such as Sage.  It uses the official Debian package for Sage, so the version included in the current version is a little old, but good enough for evaluation.  It can be run in a VM, or from a bootable USB drive.  It is also designed to be installable to your hard disk either as a primary OS, or side-by-side with your existing Windows installation, and is well battle-tested across Africa and elsewhere.  It also has all you need to install and run newer versions of Sage, either using the [[https://doc.sagemath.org/html/en/installation/binary.html#linux|pre-built binaries for Linx]], or building from source.
+
+=== Docker ===
+
+We maintain regularly updated [[https://hub.docker.com/r/sagemath/sagemath|Docker images for SageMath]] (if you see a label on there that says "maintained: no!" please ignore it; that label is auto-generated and likely out-of-date, and we are working to fix it).  [[https://docs.docker.com/docker-for-windows/install/|Docker for Windows]] works better and is easier to install than ever.  However, it still requires a recent version of Windows that has Hyper-V support (see the [[https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled|troubleshooting notes]].  For novices, or users with older computers, this may be slightly challenging to set up.  Hyper-V is Windows' built-in virtual machine hypervisor, and enabling it means that you ''will not'' be able to use other VM software such as VirtualBox, until and unless Hyper-V is disabled (Hyper-V can also be used as a replacement for VirtualBox, however).
+
+That said, once Docker for Windows is installed, starting and running the `sagemath` Docker image is relatively easy, by following the same instructions [[https://hub.docker.com/r/sagemath/sagemath|on Docker Hub]] as you would use for any other OS.  Though if you've never used Docker before it does have a learning curve, whether on Windows or any other OS.  But there is a decent [[https://docs.docker.com/docker-for-windows/|Get started with Docker for Windows]] tutorial that should give you a feel for basic tasks like running and stopping containers, mapping network ports (useful if you want to run a Jupyter Notebook server, for example), and also mounting files and folders on your local machine into Docker containers as "volumes".  Docker is an incredibly useful tool for reproducible scientific programming in general, and so is worth getting to know, both as a means of running Sage and otherwise.
+
+=== Windows Subsystem for Linux ===
+
+(In progress; check back later.)
