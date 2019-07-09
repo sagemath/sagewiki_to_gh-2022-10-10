@@ -12,6 +12,8 @@ This event will follow [[http://fpsac2019.fmf.uni-lj.si|FPSAC'19]].
 
 [[https://drive.google.com/file/d/1i_KtLNx3acuBFOVRQQd1-Y74wr93Fm05/view?usp=sharing|Group photo]].
 
+[[https://drive.google.com/file/d/1h7azTlsFi_rD40PMqnwlFvLQt8KeV8C8/view?usp=sharing|Silly photo]].
+
 == Participants, Schedule, Projects ==
 
  * [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|Participants]]
