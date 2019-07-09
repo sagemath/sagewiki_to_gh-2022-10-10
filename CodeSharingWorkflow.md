@@ -53,33 +53,21 @@ of a development workflow can typically be to:
 
 3.  Foster high quality code by promoting documentation, tests, code reviews.
 
-4.  Foster intrinsic high quality code by providing an *ecosystem*
-    where (experimental) code can live, compete with other
-    implementations, mature and be selected or die, all at a fine
-    granularity.
+4.  Foster intrinsic high quality code by providing an *ecosystem* where (experimental) code can live, compete with other implementations, mature and be selected or die, all at a fine granularity.
 
 5.  Strike a balance between centralized and decentralized.
 
-    In particular mitigate the risks of code-bloat of the Sage library
-    versus the risks of death of code lying out somewhere on the web.
+    In particular mitigate the risks of code-bloat of the Sage library versus the risks of death of code lying out somewhere on the web.
 
 6.  Minimize *maintenance* overhead, and in particular code rotting.
 
-7.  Remain flexible between the all-in-one versus packages development models
-    (simplifying things out: between Sage's model and GAP's model).
+7.  Remain flexible between the all-in-one versus packages development models (simplifying things out: between Sage's model and GAP's model).
 
 8.  Promote extending existing Sage classes and modules with additional features.
 
-    This eases dynamic feature discovery by users (once installed,
-    features can be found at their expected location) and enable
-    transparent migration of code inside the Sage library if and when
-    desired (no need to change the code itself, nor code using
-    it). This also promotes coherent coding standards.
+    This eases dynamic feature discovery by users (once installed, features can be found at their expected location) and enable transparent migration of code inside the Sage library if and when desired (no need to change the code itself, nor code using it). This also promotes coherent coding standards.
 
-    Note: subclassing is not always an option to extend a class,
-    e.g. when a feature is to be added to an abstract base class of
-    many concrete classes (subclassing each and every concrete class
-    would be a pain).
+    Note: subclassing is not always an option to extend a class, e.g. when a feature is to be added to an abstract base class of many concrete classes (subclassing each and every concrete class would be a pain).
 
     See also:
 
@@ -104,13 +92,10 @@ Pros:
 Cons:
 
  * Limited support for objective 2
- * Slows down the development: once a feature is in Sage, any change
- needs to be reviewed, refactoring of the public API requires taking
- care of backward compatibility. No good for objective 4
+ * Slows down the development: once a feature is in Sage, any change needs to be reviewed, refactoring of the public API requires taking care of backward compatibility. No good for objective 4
  * Getting the latest feature forces updating to the latest version of Sage
  * Introduces a bias toward code bloat (in doubt, features tend to be added to Sage)
- * When development is faster than reviews, the maintenance effort in having many open tickets 
- gets heavy when minor changes to an early ticket has to be merged into all later ones. 
+ * When development is faster than reviews, the maintenance effort in having many open tickets gets heavy when minor changes to an early ticket has to be merged into all later ones. 
 
 Examples: 
 
