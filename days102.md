@@ -82,4 +82,4 @@ If you think you don't know enough Sage to apply, you are wrong!
 
 == Community Agreement ==
 
-The participants of this event are asked to agree to our [[https://wiki.sagemath.org/days98/communityagreement|Community Agreement]]
+The participants of this event are asked to agree to our [[https://wiki.sagemath.org/days102/communityagreement|Community Agreement]]
