@@ -181,3 +181,8 @@ That said, once Docker for Windows is installed, starting and running the `sagem
 === Windows Subsystem for Linux ===
 
 (In progress; check back later.)
+
+
+=== CoCalc ===
+
+(In progress; check back later.)
