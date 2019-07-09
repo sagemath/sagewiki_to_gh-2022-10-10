@@ -33,8 +33,7 @@ See also:
 Of course the milleage will vary from project to project, but the objectives
 of a development workflow can typically be to:
 
-1.  Support ''fast paced development'' within a group of users working on
-    the same topic, or needing similar features.
+1.  Support ''fast paced development'' within a group of users working on the same topic, or needing similar features.
 
 2.  Support ''rapid dissemination of experimental features''.
 
