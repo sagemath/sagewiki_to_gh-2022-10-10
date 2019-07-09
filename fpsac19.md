@@ -10,6 +10,8 @@ Location: University of Ljubljana, Slovenia (Faculty of Mathematics and Physics,
 
 This event will follow [[http://fpsac2019.fmf.uni-lj.si|FPSAC'19]].
 
+[[https://drive.google.com/file/d/1i_KtLNx3acuBFOVRQQd1-Y74wr93Fm05/view?usp=sharing|Group photo]].
+
 == Participants, Schedule, Projects ==
 
  * [[https://hackmd.io/gGaEZ5MsRgmd8aJaz5tdCQ|Participants]]
