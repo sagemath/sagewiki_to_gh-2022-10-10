@@ -24,7 +24,7 @@ Vivatsgasse 7
 Bonn
 }}}
 
-== Dates ==
+== Schedule ==
 
  * Begining of the workshop Monday 22nd
     *  9:30 - 10:00 welcome coffee
