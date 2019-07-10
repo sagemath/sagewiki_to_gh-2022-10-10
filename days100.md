@@ -26,7 +26,7 @@ Bonn
 
 == Pad == 
 
-* [[https://hackmd.io/EvP0nhWsTc-1Ja0BY1wbvw|Pad to report bugs]]
+ * [[https://hackmd.io/EvP0nhWsTc-1Ja0BY1wbvw|Pad to report bugs]]
 
 == Schedule ==
 
