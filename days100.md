@@ -32,7 +32,7 @@ Bonn
     * 10:30 - 11:30 Participant presentations and schedule organization
 
  * Other days
-||<#AAAAFF> 9:00 - 10:30      ||<#F0F0AA> 10:30 - 11:00 ||<#AAAAFF> 11:00 - 12:30     ||<#F0F0AA> 12:30 - 14:00 ||<#AAAAFF> 14:00 - 16:00 || <#F0F0AA> 15:30 - 16:00 ||<#AAAAFF> 16:00 - 17:30 || <#AAFFAA> 16:00 - 17:30 ||
+||<#AAAAFF> 9:00 - 10:30      ||<#F0F0AA> 10:30 - 11:00 ||<#AAAAFF> 11:00 - 12:30     ||<#F0F0AA> 12:30 - 14:00 ||<#AAAAFF> 14:00 - 16:00 ||<#F0F0AA> 15:30 - 16:00 ||<#AAAAFF> 16:00 - 17:30 ||<#AAFFAA> 16:00 - 17:30 ||
 ||<#AAAAFF> morning session 1 ||<#F0F0AA> coffe break   ||<#AAAAFF> morning session 2 ||<#F0F0AA> lunch break   ||<#AAAAFF> afternoon session 1 ||<#F0F0AA> coffe break ||<#AAAAFF> afternoon session 2||<#AAFFAA> status report||
 
     * morning session 1 9:00 - 10:30
