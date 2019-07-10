@@ -312,7 +312,7 @@ Cons:
  but means that one looses the history and author tracking (that's
  not that different from history squashing as used by many projects)
 
-= What is this Sage-Combinat queue madness about??? =
+= Historical: what was this Sage-Combinat queue madness about??? =
 
 Sage-Combinat is a software project whose mission is: "to improve the
 open source mathematical system Sage as an extensible toolbox for
@@ -320,7 +320,7 @@ computer exploration in (algebraic) combinatorics, and foster code
 sharing between researchers in this area".
 
 In practice it's a community of a dozen regular contributors, 20
-occasional ones and, maybe, 30 users. They collaborate together on a
+occasional ones and, maybe, 30 users. They originally collaborated together on a
 collection of experimental patches (i.e. extensions) on top of
 Sage. Each one describes a relatively atomic modification which may
 span several files; it may fix a bug, implement a new feature, improve
