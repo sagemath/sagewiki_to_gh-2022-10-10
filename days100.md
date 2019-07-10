@@ -25,9 +25,10 @@ Bonn
 }}}
 
 
-== Pads ==
+== Links ==
 
- * [[https://hackmd.io/EvP0nhWsTc-1Ja0BY1wbvw|Pad to report bugs]]
+ * [[https://hackmd.io/EvP0nhWsTc-1Ja0BY1wbvw|pad to report bugs]]
+ * [[https://trac.sagemath.org/query?keywords=~days100&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&desc=1&order=status|trac tickets with days100 keyword]]
 
 
 == Schedule ==
