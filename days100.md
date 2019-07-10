@@ -44,13 +44,19 @@ Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is 
 
 == Relevant Sage packages ==
 
- * [[https://gitlab.com/jo314schmitt/admcycles|admcycles]]: tautological ring on M_{g,n}
- * [[https://bitbucket.org/t3m/snappy|snappy]]: 3-dim hyperbolic manifolds
- * [[https://gitlab.com/videlec/veerer/|veerer]]: train-tracks and veering triangulations
- * [[https://gitlab.com/videlec/surface_dynamics|surface_dynamics]]: translation surfaces
- * [[https://github.com/MarkCBell/flipper|flipper]]: mapping class group (via flips in triangulation)
- * [[https://github.com/MarkCBell/curver|curver]]: mapping class group (via curve complex)
- * [[https://github.com/coulbois/sage-train-track|sage-train-track]]: free group automorphisms
+ * [[https://gitlab.com/jo314schmitt/admcycles|admcycles]]: tautological ring on M_{g,n} (Aaron Pixton, Johannes Schmitt, Jason van Zelm)
+ * [[https://bitbucket.org/t3m/snappy|snappy]]: 3-dim hyperbolic manifolds (Marc Culler, Nathan Dunfield, and Matthias Goerner)
+ * [[https://gitlab.com/videlec/veerer/|veerer]]: train-tracks and veering triangulations (Vincent Delecroix)
+ * [[https://gitlab.com/videlec/surface_dynamics|surface_dynamics]]: translation surfaces (Vincent Delecroix)
+ * [[https://github.com/MarkCBell/flipper|flipper]]: mapping class group (via flips in triangulation) (Mark Bell)
+ * [[https://github.com/MarkCBell/curver|curver]]: mapping class group (via curve complex) (Mark Bell)
+ * [[https://github.com/coulbois/sage-train-track|sage-train-track]]: free group automorphisms (Thierry Coulbois)
+
+We will have 20 min presentations of each package emphasizing:
+ * What the package is useful for?
+ * What should I do if I want to use the package? ie, installation and first steps tutorials
+ * What is currently under active development?
+ * Wishlist features / possible research experimentations (with the hope that more people get involved)
 
 = Organization =
 
