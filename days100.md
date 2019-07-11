@@ -92,6 +92,8 @@ We will have 20 min presentations of each package emphasizing:
  * Saul Schleimer (Warwick, UK)
  * Brian Winn (Loughborough University, UK)
  * Hisatoshi Kodani (MPIM, Bonn)
+ * [[https://sites.google.com/site/tutamnguyenphan/|Tam Nguyen-Phan]] (MPIM, Bonn)
+ * [[http://people.mpim-bonn.mpg.de/stavros/| Stavros Garoufalidis]] (MPIM, Bonn)
 
 == Funding ==
 
