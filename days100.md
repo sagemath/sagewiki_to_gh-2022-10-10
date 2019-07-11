@@ -35,7 +35,7 @@ Bonn
 
  * Begining of the workshop Monday 22nd
     *  9:30 - 10:00 welcome coffee
-    * 10:00 - 10:30 A !SageMath panorama (by V. Delecroix)
+    * 10:00 - 10:30 A !SageMath and sage days panorama (by V. Delecroix)
     * 10:30 - 11:30 Participant presentations and schedule organization
 
  * Other days (Tuesday 23rd - Friday 26th)
