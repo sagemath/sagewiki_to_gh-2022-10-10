@@ -1,4 +1,4 @@
-= Sage Days 105 --Free and Practical Software for Algebraic Combinatorics 2019 =
+= Sage Days 105 -- Free and Practical Software for Algebraic Combinatorics 2019 =
 
 International Workshop on '''F'''ree and '''P'''ractical '''S'''oftware for '''A'''lgebraic '''C'''ombinatorics
 
