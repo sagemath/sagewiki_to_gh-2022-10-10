@@ -91,6 +91,7 @@ We will have 20 min presentations of each package emphasizing:
  * Hankyung Ko (MPIM, Bonn)
  * Saul Schleimer (Warwick, UK)
  * Brian Winn (Loughborough University, UK)
+ * Hisatoshi Kodani (MPIM, Bonn)
 
 == Funding ==
 
