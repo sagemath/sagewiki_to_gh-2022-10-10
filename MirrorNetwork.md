@@ -15,11 +15,11 @@ rsync -av --checksum --delete-after rsync.sagemath.org::sage $TARGET
 }}}
 where {{{$TARGET}}} should be replaced by your local target directory.
 
-'''NOTE:''' If you are a new mirror or re-syncing everything, please use
+'''NOTE:''' If you are a new mirror or re-syncing everything, maybe try to use
 {{{
 rsync://rsync.mirrorservice.org/www.sagemath.org/
 }}}
-to avoid traffic on the main mirror server. Thank you!
+to avoid traffic on the main mirror server. Then switch to use the master. Thank you!
 
  1. {{{-a}}} switches to archive mode (same timestamp, ...)
  1. {{{-v}}} (or {{{-vv}}}, {{{-vvv}}}) verbosity level, for the lovely logs
