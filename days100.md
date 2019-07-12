@@ -33,14 +33,28 @@ Bonn
 
 == Schedule ==
 
- * Begining of the workshop Monday 22nd
-    *  9:30 - 10:00 welcome coffee
-    * 10:00 - 10:30 A !SageMath and sage days panorama (by V. Delecroix)
-    * 10:30 - 11:30 Participant presentations and schedule organization
+Begining of the workshop Monday 22nd
+  *  9:30 - 10:00 welcome coffee
+  * 10:00 - 10:30 A !SageMath and sage days panorama (by V. Delecroix)
+  * 10:30 - 11:30 Participant presentations and schedule organization
 
- * Other days (Tuesday 23rd - Friday 26th)
-||<#AAAAFF> 9:00 - 10:30      ||<#F0F0AA> 10:30 - 11:00 ||<#AAAAFF> 11:00 - 12:30     ||<#F0F0AA> 12:30 - 14:00 ||<#AAAAFF> 14:00 - 15:30 ||<#F0F0AA> 15:30 - 16:00 ||<#AAAAFF> 16:00 - 17:30 ||<#AAFFAA> 17:30 - 18:00 ||
-||<#AAAAFF> morning session 1 ||<#F0F0AA> coffe break   ||<#AAAAFF> morning session 2 ||<#F0F0AA> lunch break   ||<#AAAAFF> afternoon session 1 ||<#F0F0AA> coffe break ||<#AAAAFF> afternoon session 2||<#AAFFAA> status report||
+For all other days (Tuesday 23rd - Friday 26th)
+||<#AADAFF> 9:00 - 10:30      ||<#F0F0AA> 10:30 - 11:00 ||<#FACACA> 11:00 - 12:30     ||<#F0F0AA> 12:30 - 14:00 ||<#DAAAFF> 14:00 - 15:30 ||<#F0F0AA> 15:30 - 16:00 ||<#FACACA> 16:00 - 17:30 ||<#AAFFAA> 17:30 - 18:00 ||
+||<#AADAFF> morning session (M) ||<#F0F0AA> coffe break   ||<#FACACA> morning hacking session ||<#F0F0AA> lunch break ||<#DAAAFF> afternoon session (A) ||<#F0F0AA> coffe break ||<#FACACA> afternoon hacking session||<#AAFFAA> status report ||
+
+The hacking session are here to let people work on their own projects while having SageMath experts helping/answering. The tutorial sessions will consist of
+
+||<#EEEEEE> Monday    ||<#AADAFF> welcome                 ||<#DAAAFF> get started with SageMath ||
+||<#EEEEEE> Tuesday   ||<#AADAFF> package presentations   ||<#DAAAFF> ? ||
+||<#EEEEEE> Wednesday ||<#AADAFF> ? ||<#DAAAFF> (optional) [[https://www.mpim-bonn.mpg.de/de/node/9501|Max-Planck afternoon]] ||
+||<#EEEEEE> Thursday  ||<#AADAFF> ? ||<#DAAAFF> Cython ||
+||<#EEEEEE> Friday    ||<#AADAFF> ? ||<#DAAAFF> ?||
+
+Remaining tutorial sessions to be organized:
+ * git + create a SageMath/Python module + automated testing
+ * debugging and profiling
+ * SageMath development
+ * databases
 
 == Broad mathematical thematics ==
 
