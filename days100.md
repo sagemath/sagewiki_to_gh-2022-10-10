@@ -47,7 +47,7 @@ The hacking session are here to let people work on their own projects while havi
 ||<#EEEEEE> Monday    ||<#AADAFF> welcome                 ||<#DAAAFF> get started with SageMath ||
 ||<#EEEEEE> Tuesday   ||<#AADAFF> package presentations   ||<#DAAAFF> ? ||
 ||<#EEEEEE> Wednesday ||<#AADAFF> ? ||<#DAAAFF> (optional) [[https://www.mpim-bonn.mpg.de/de/node/9501|Max-Planck afternoon]] ||
-||<#EEEEEE> Thursday  ||<#AADAFF> ? ||<#DAAAFF> Cython ||
+||<#EEEEEE> Thursday  ||<#AADAFF> ? ||<#DAAAFF> ? ||
 ||<#EEEEEE> Friday    ||<#AADAFF> ? ||<#DAAAFF> ?||
 
 Remaining tutorial sessions to be organized:
@@ -55,6 +55,7 @@ Remaining tutorial sessions to be organized:
  * debugging and profiling
  * SageMath development
  * databases
+ * Cython
 
 == Broad mathematical thematics ==
 
