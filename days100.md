@@ -109,6 +109,7 @@ We will have 20 min presentations of each package emphasizing:
  * Hisatoshi Kodani (MPIM, Bonn)
  * [[https://sites.google.com/site/tutamnguyenphan/|Tam Nguyen-Phan]] (MPIM, Bonn)
  * [[http://people.mpim-bonn.mpg.de/stavros/| Stavros Garoufalidis]] (MPIM, Bonn)
+ * [[http://cg.cs.uni-bonn.de/de/mitarbeiter/dipl-inform-christoph-lueders/|Christoph Lüders]] (Bonn University)
 
 == Funding ==
 
