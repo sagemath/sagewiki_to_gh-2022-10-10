@@ -35,9 +35,11 @@ These Sage days are a special event for women* who develop in [[http://www.sagem
 
 Project: Brauer Groups and degree 1 del Pezzos, can we port Magma code from Andrea C. Carter?
 
-[[https://www.kingsu.ca/about-us/staff-directory/contact_id/3716|Amy Feaver]]
+[[http://cs.kingsu.ca/~afeaver/|Amy Feaver]]
 
 Project: Improving the cryptography functionality and documentation.
+
+We will be editing [[https://wiki.sagemath.org/interact/cryptography|this]] page on the Wiki, amongst other things. Feel free to start contributing to the page before you arrive at Sage Days (or even if you're not coming but you have something you are interested in contributing. This page is linked to from the Sage Interactions page: https://wiki.sagemath.org/interact/
 
 [[https://sites.google.com/site/heidigoodson/|Heidi Goodson]] and [[https://www.uvm.edu/~cvincen1/|Christelle Vincent]]
 
