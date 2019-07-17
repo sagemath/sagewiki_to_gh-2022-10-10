@@ -16,6 +16,10 @@ July 22-26, 2019, at the [[https://www.ima.umn.edu/2018-2019/SW7.22-26.19|IMA, U
 
 Plane partitions have many intriguing combinatorial properties and symmetries, including connections to current research. At SageDays 78, a class for plane partitions in a box was implemented. At this workshop, I would like to add important functionality to this class, including generation of plane partitions summing to n (rather than in a bounding box), symmetry classes, random generation, and maps to fundamental domains. We could also consider coding a connection to Macaulay2, as plane partitions are in bijection with monomial ideals of three variables.
 
+Interested Participants:
+
+Jessica Striker
+
 === A new version of the D-modules package (Laura Matusevich) ===
 
 Description: The M2 D-modules package was coded by Anton Leykin and 
@@ -25,6 +29,10 @@ TLC. No specific expertise in D-modules is required: I will bring you up
 to speed on the basic theory, and go through the algorithms that form the 
 core of the package. The main objective is to optimize the main functions 
 and make them more user friendly.
+
+Interested Participants:
+
+Laura Matusevich
 
 === Geometry of matroids (Jacob Matherne) ===
 
@@ -49,6 +57,10 @@ this coding project is to implement these rings (and related ones) and
 the system of maps between them.  If time permits, we will implement 
 more from the theory of posets, hyperplane arrangements, and matroids.
 
+Interested Participants:
+
+Jacob Matherne
+
 === Groebner bases for FI-modules (Steven Sam) ===
 
 The application of FI-modules to examples in topology, 
@@ -61,6 +73,10 @@ occur in examples. Explicit computation with FI-modules can be done via
 a theory of Gr\"obner bases for categories which is developed in work of 
 Sam-Snowden. However, no computer implementation exists for doing this, 
 so the goal of this project is to provide one.
+
+Interested Participants:
+
+Steven Sam
 
 === Maps between toric varieties or between simplicity complexes (Greg Smith) ===
 
@@ -83,6 +99,10 @@ so the goal of this project is to provide one.
         Berkeley, but the changes haven’t yet been incorporated into the distributed version.
         This project has the advantage having much smaller prerequisites.
 
+Interested Participants:
+
+Greg Smith
+
 === Cluster algebra combinatorics in SageMath (Emily Gunawan) ===
 
 We propose reviewing tickets and implementing changes related to cluster algebra theory. Currently there are two cluster algebra packages (combinat:ClusterSeed and algebras:ClusterAlgebra) implemented in SageMath.  Options for specific projects during this workshop include:
@@ -97,18 +117,34 @@ We propose reviewing tickets and implementing changes related to cluster algebra
 
 5. We propose reviewing and cleaning up the ClusterSeed and ClusterQuiver classes needed to deal with principal coefficients or frozen vertices when the user tries to use their own variable labels. This was started at Sage Days 64.5.
 
+Interested Participants:
+
+Emily Gunawan
+
 === Primary Decomposition (Justin Chen) ===
 
 Primary decomposition is one of the most fundamental representations of an ideal in a polynomial ring. However, the computational task of computing primary decompositions is difficult in general. The current algorithm used in Macaulay2 (Shimoyama-Yokoyama) leaves room for improvement, and although other algorithms (Gianni-Trager-Zacharias) have been introduced in the MinimalPrimes package, these still need revision. This project aims to improve primary decomposition in Macaulay2, a large part of which will be performing the necessary work to make MinimalPrimes a stable package.
 
+Interested Participants:
+
+Justin Chen
+
 === Polytope algebras and tropical geometry (Josephine Yu) ===
 
 I am interested in computation with polytopes inspired by tropical geometry.  McMullen’s polytope algebra is isomorphic to the algebra of tropical cycles (balanced fans).  For a fixed polytope, the algebra of tropical cycles supported on its normal fan coincides with the Chow ring of the toric variety of the polytope.  I would like to implement some computations with these objects in Sage and/or M2.  This is also related to the Geometry of Matroid project.  I would also like to think about how to compute real tropicalizations of semialgebraic sets.
+
+Interested Participants:
+
+Josephine Yu
 
 === Simplicial and Cellular Resolutions (Jay Yang) ===
 
 The goal of this project would be to improve the code that exists for labeled simplicial complexes, and add code for labeled cell complexes.
 
 There is some code currently in SimplicialComplexes that can manipulate a labeled simplicial complex, A first task would be to either extract this code and improve it, or write helper functions to manipulate labeled simplicial complexes. Including code to extract the labels in a clean format, and to check conditions such as acyclicity, and minimality. Second, we can add code to allow for arbitrary monomial ideal labels instead of just monomial labels. Third, we can implement this for cell complexes. This would require creating a type of labeled cell complexes and would be more involved.
+
+Interested Participants:
+
+Jay Yang
 
 === More projects to be posted.  Please feel free to add your own interests or email Gregg (musiker at math dot umn dot edu) or Christine (cberkesc at math dot umn dot edu) with them if you do not have direct wiki editing access. ===
