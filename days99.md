@@ -32,7 +32,8 @@ and make them more user friendly.
 
 Interested Participants:
 
-Laura Matusevich
+Laura Matusevich, 
+Aleksandra Sobieska
 
 === Geometry of matroids (Jacob Matherne) ===
 
@@ -145,6 +146,7 @@ There is some code currently in SimplicialComplexes that can manipulate a labele
 
 Interested Participants:
 
-Jay Yang
+Jay Yang, 
+Aleksandra Sobieska
 
 === More projects to be posted.  Please feel free to add your own interests or email Gregg (musiker at math dot umn dot edu) or Christine (cberkesc at math dot umn dot edu) with them if you do not have direct wiki editing access. ===
