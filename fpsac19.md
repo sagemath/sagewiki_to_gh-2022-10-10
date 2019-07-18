@@ -1,6 +1,6 @@
 = Sage Days 105 -- Free and Practical Software for Algebraic Combinatorics 2019 =
 
-== International Workshop on '''F'''ree and '''P'''ractical '''S'''oftware for '''A'''lgebraic '''C'''ombinatorics ==
+'''International Workshop''' on '''F'''ree and '''P'''ractical '''S'''oftware for '''A'''lgebraic '''C'''ombinatorics
 
 Although the organizers are primarily in the SageMath community and promote [[https://gnu.org/philosophy/free-sw.html|Free software]], all software is welcome, free or not: GAP, Maple, Magma, Mathematica, sage, Macaulay2, ... The interaction will make the richness of the workshop!
 
