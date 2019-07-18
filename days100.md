@@ -82,6 +82,11 @@ We will have 20 min presentations of each package emphasizing:
  * What is currently under active development?
  * Wishlist features / possible research experimentations (with the hope that more people get involved)
 
+== Worksheets ==
+
+  * [[attachment:Computing modular group cohomology.ipynb]]: Computation of modular cohomology rings of finite groups with Sage
+  * [[attachment:How_to_implement_new_algebraic_structures.ipynb]]: A tutorial on parents, elements, categories and coercion
+
 = Organization =
 
 == Participants ==
