@@ -24,12 +24,10 @@ Vivatsgasse 7
 Bonn
 }}}
 
-
 == Links ==
 
  * [[https://hackmd.io/EvP0nhWsTc-1Ja0BY1wbvw|pad to report bugs / error in a worksheet / general question about SageMath]]
  * [[https://trac.sagemath.org/query?keywords=~days100&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&desc=1&order=status|trac tickets with days100 keyword]]
-
 
 == Schedule ==
 
@@ -58,16 +56,7 @@ Remaining tutorial sessions to be organized:
  * databases
  * Cython
 
-== Broad mathematical thematics ==
-
-Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is a non-exhaustive list
-
- * moduli space of curves, differentials, spin structures
- * enumerative geometry, integral points in polytopes and (quasi-)modular forms
- * geometry and dynamics of flat and hyperbolic surfaces
- * braid groups, mapping class groups
-
-== Relevant Sage packages ==
+== Sage packages ==
 
  * [[https://gitlab.com/jo314schmitt/admcycles|admcycles]]: tautological ring on M_{g,n} (Aaron Pixton, Johannes Schmitt, Jason van Zelm)
  * [[https://bitbucket.org/t3m/snappy|snappy]]: 3-dim hyperbolic manifolds (Marc Culler, Nathan Dunfield, and Matthias Goerner)
@@ -94,6 +83,10 @@ We will have 20 min presentations of each package emphasizing:
     * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap6-advanced_exercises.ipynb|chap6-advanced_exercises.ipynb]]
   * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=Computing+modular+group+cohomology.ipynb|Computing modular group cohomology.ipynb]]: Computation of modular cohomology rings of finite groups with Sage 
   * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=How_to_implement_new_algebraic_structures.ipynb|How_to_implement_new_algebraic_structures.ipynb]]: A tutorial on parents, elements, categories and coercion
+
+== Euler project challenges ==
+
+  * [organization pad](https://hackmd.io/C11DpDKwTaaB5RkoyuosUw)
 
 = Organization =
 
@@ -124,6 +117,15 @@ We will have 20 min presentations of each package emphasizing:
  * [[http://people.mpim-bonn.mpg.de/stavros/| Stavros Garoufalidis]] (MPIM, Bonn)
  * [[http://cg.cs.uni-bonn.de/de/mitarbeiter/dipl-inform-christoph-lueders/|Christoph Lüders]] (Bonn University)
  * Sophia Krix (Bonn University)
+
+== Broad mathematical thematics ==
+
+Combinatorics, geometry and dynamics on real surfaces (complex curves). Here is a non-exhaustive list
+
+ * moduli space of curves, differentials, spin structures
+ * enumerative geometry, integral points in polytopes and (quasi-)modular forms
+ * geometry and dynamics of flat and hyperbolic surfaces
+ * braid groups, mapping class groups
 
 == Funding ==
 
