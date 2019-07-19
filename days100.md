@@ -26,6 +26,7 @@ Bonn
 
 == Links ==
 
+ * [[https://hackmd.io/C11DpDKwTaaB5RkoyuosUw|Sage days 100 Euler challenge organization pad]]
  * [[https://hackmd.io/EvP0nhWsTc-1Ja0BY1wbvw|pad to report bugs / error in a worksheet / general question about SageMath]]
  * [[https://trac.sagemath.org/query?keywords=~days100&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&desc=1&order=status|trac tickets with days100 keyword]]
 
@@ -83,10 +84,6 @@ We will have 20 min presentations of each package emphasizing:
     * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap6-advanced_exercises.ipynb|chap6-advanced_exercises.ipynb]]
   * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=Computing+modular+group+cohomology.ipynb|Computing modular group cohomology.ipynb]]: Computation of modular cohomology rings of finite groups with Sage 
   * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=How_to_implement_new_algebraic_structures.ipynb|How_to_implement_new_algebraic_structures.ipynb]]: A tutorial on parents, elements, categories and coercion
-
-== Euler project challenges ==
-
-  * [organization pad](https://hackmd.io/C11DpDKwTaaB5RkoyuosUw)
 
 = Organization =
 
