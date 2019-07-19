@@ -36,7 +36,7 @@ Bonn
 Begining of the workshop Monday 22nd
   *  9:30 - 10:00 welcome coffee
   * 10:00 - 10:30 A !SageMath and sage days panorama (by V. Delecroix)
-  * 10:30 - 11:30 Participant presentations and schedule organization
+  * 10:30 - 12:30 Participant presentations + schedule organization + get started with Sage
   * lunch and afternoon: as all other days
 
 For all other days (Tuesday 22nd afternoon - Friday 26th afternoon)
