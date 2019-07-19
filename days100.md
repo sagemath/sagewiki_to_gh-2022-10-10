@@ -85,7 +85,7 @@ We will have 20 min presentations of each package emphasizing:
 
 == Worksheets ==
 
-  * [[attachment:Computing modular group cohomology.ipynb]]: Computation of modular cohomology rings of finite groups with Sage
+  * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=Computing+modular+group+cohomology.ipynb|Computing modular group cohomology.ipynb]]
   * [[attachment:How_to_implement_new_algebraic_structures.ipynb]]: A tutorial on parents, elements, categories and coercion
 
 = Organization =
