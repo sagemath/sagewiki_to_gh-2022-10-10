@@ -85,6 +85,13 @@ We will have 20 min presentations of each package emphasizing:
 
 == Worksheets ==
 
+  * step-by-step programming
+    * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap1-first_steps.ipynb|chap1-first_steps.ipynb]]
+    * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap2-list_and_for.ipynb|chap2-list_and_for.ipynb]]
+    * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap3-if.ipynb|chap3-if.ipynb]]
+    * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap4-functions.ipynb|chap4-functions.ipynb]]
+    * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap5-while.ipynb|chap5-while.ipynb]]
+    * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap6-advanced_exercises.ipynb|chap6-advanced_exercises.ipynb]]
   * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=Computing+modular+group+cohomology.ipynb|Computing modular group cohomology.ipynb]]: Computation of modular cohomology rings of finite groups with Sage 
   * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=How_to_implement_new_algebraic_structures.ipynb|How_to_implement_new_algebraic_structures.ipynb]]: A tutorial on parents, elements, categories and coercion
 
