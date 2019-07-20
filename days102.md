@@ -21,6 +21,9 @@ Travel for some participants coming from outside Nigeria can be covered [[http:/
 
  * Yaé Ulrich Gaba, North West University
 
+ * Chimere Stanley Anabanti <chimere.anabanti@unn.edu.ng>, University of Nigeria, Nsukka (UNN)
+
+
 Logistical help: Izabela Faguet (Paris-Sud University)
 
 === Local Organizers ===
