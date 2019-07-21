@@ -35,28 +35,18 @@ Interested Participants:
 Laura Matusevich, 
 Aleksandra Sobieska
 
-=== Geometry of matroids (Jacob Matherne) ===
+=== Geometry and combinatorics of matroids (Jacob Matherne) ===
 
-The goal of this coding project is to implement several combinatorial 
-and geometric objects recently arising in matroid theory.  Two places to 
-start are Kazhdan-Lusztig (KL) polynomials and Chow rings of matroids.  
-KL polynomials were defined via a recursive algorithm by Elias, 
-Proudfoot, and Wakefield in 2014. These polynomials carry both 
-combinatorial and algebro-geometric information about the matroid but 
-their recursive implementation is prohibitively slow for larger rank 
-matroids.  By now there are explicit formulas for KL polynomials of 
-several classes of matroids---one goal of this coding project will be to 
-implement code which uses these quicker formulas when they exist.
+The goal of this coding project is to implement several combinatorial and geometric objects recently arising in matroid theory and related areas.
 
-The Chow ring of a matroid was the object of recent intense study by 
-Adiprasito, Huh, and Katz---these rings, for representable matroids, are 
-the cohomology rings of a certain variety associated to the 
-corresponding hyperplane arrangement.  Chow rings of matroids admit a 
-variety of maps to Chow rings of related matroids (mirroring maps that 
-exist between cohomology rings in algebraic topology).  Another goal of 
-this coding project is to implement these rings (and related ones) and 
-the system of maps between them.  If time permits, we will implement 
-more from the theory of posets, hyperplane arrangements, and matroids.
+1. Lorentzian polynomials, defined by Petter Branden and June Huh this February, connect discrete convex analysis with many log-concavity phenomena in combinatorics.  Since their invention a few months ago, there have been many applications: mostly for proving various polynomials (many of them associated to matroids) in algebraic combinatorics have some log-concavity properties.  The goal of this project is to implement a test for the Lorentzian property of a multivariate homogeneous polynomial.
+
+2. Kazhdan-Lusztig (KL) polynomials of matroids were defined via a recursive algorithm by Elias, 
+Proudfoot, and Wakefield in 2014. These polynomials carry both combinatorial and algebro-geometric information about the matroid but their recursive implementation is prohibitively slow for larger rank matroids.  By now there are explicit formulas for KL polynomials of several classes of matroids---the goal of this coding project will be to implement code which uses these quicker formulas when they exist.
+
+3. (unrelated but should be in Sage) Counting linear extensions of posets is a notoriously difficult problem (it's #P-complete by a result of Brightwell and Winkler in 1991).  However, for posets whose Hasse diagram is a tree, there is a polynomial time algorithm due to Atkinson in 1990.  This is an O(n^2) algorithm, where n is the number of elements of the poset.  The goal of this project is to implement Atkinson's algorithm for counting the number of linear extensions of tree posets.
+
+4. (if time permits) The Chow ring of a matroid was the object of recent intense study by Adiprasito, Huh, and Katz---these rings, for representable matroids, are the cohomology rings of a certain variety associated to the corresponding hyperplane arrangement.  Chow rings of matroids admit a variety of maps to Chow rings of related matroids (mirroring maps that exist between cohomology rings in algebraic topology).  Another goal of this coding project is to implement these rings (and related ones) and the system of maps between them.
 
 Interested Participants:
 
