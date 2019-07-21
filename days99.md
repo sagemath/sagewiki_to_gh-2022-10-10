@@ -46,7 +46,7 @@ Proudfoot, and Wakefield in 2014. These polynomials carry both combinatorial and
 
 3. (unrelated but should be in Sage) Counting linear extensions of posets is a notoriously difficult problem (it's #P-complete by a result of Brightwell and Winkler in 1991).  However, for posets whose Hasse diagram is a tree, there is a polynomial time algorithm due to Atkinson in 1990.  This is an O(n^2) algorithm, where n is the number of elements of the poset.  The goal of this project is to implement Atkinson's algorithm for counting the number of linear extensions of tree posets.
 
-4. (if time permits) The Chow ring of a matroid was the object of recent intense study by Adiprasito, Huh, and Katz---these rings, for representable matroids, are the cohomology rings of a certain variety associated to the corresponding hyperplane arrangement.  Chow rings of matroids admit a variety of maps to Chow rings of related matroids (mirroring maps that exist between cohomology rings in algebraic topology).  Another goal of this coding project is to implement these rings (and related ones) and the system of maps between them.
+4. (if time permits) The Chow ring of a matroid was the object of recent intense study by Adiprasito, Huh, and Katz---these rings, for representable matroids, are the cohomology rings of a certain variety associated to the corresponding hyperplane arrangement.  Chow rings of matroids admit a variety of maps to Chow rings of related matroids (mirroring maps that exist between cohomology rings in algebraic topology).  The goal of this coding project is to implement these rings (and related ones) as well as the system of maps between them.
 
 Interested Participants:
 
