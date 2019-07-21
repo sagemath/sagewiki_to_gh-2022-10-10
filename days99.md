@@ -99,6 +99,8 @@ Greg Smith
 
 We propose reviewing tickets and implementing changes related to cluster algebra theory. Currently there are two cluster algebra packages (combinat:ClusterSeed and algebras:ClusterAlgebra) implemented in SageMath.  Options for specific projects during this workshop include:
 
+0. Learn about creating Python packages for SageMath. See a tutorial: [[https://hackmd.io/8E5Tky5cSsq1tD73QTVfcQ#Sharing-code-as-packages|Sharing code as packages]] and a sample package: [[https://github.com/sagemath/sage_sample|sage_sample]]. 
+
 1. Modifying an existing Python implementation: The clusters of a type A cluster algebra are naturally in bijection with certain Catalan objects such as polygon triangulations and Conway-Coxeter frieze patterns. We propose to implement a constructor for this in Sage, and write methods to go between Conway-Coxeter frieze patterns and some of the Catalan objects already implemented in Sage (for example, binary trees). 
 
 2. Writing new code for SageMath: Given an arbitrary cluster algebra of rank n, an (integral) frieze is a ring homomorphism from the cluster algebra to an integral domain (the integers). A frieze vector is an n-tuple which uniquely determines a frieze. We propose adding a method which allows the user to print the frieze values. Furthermore, in type A, the positive frieze vectors are in bijection with the Catalan objects (for example, the Conway-Coxeter frieze patterns), so we propose writing methods for going between the type A positive frieze vectors and other Catalan objects. The (finite) number of positive frieze vectors is also known for type E6 and type D and there is an algorithm for producing them. 
