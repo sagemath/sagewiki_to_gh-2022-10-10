@@ -75,6 +75,7 @@ We will have 20 min presentations of each package emphasizing:
 
 == Worksheets ==
 
+  * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=intro.en.ipynb|introduction to Sage]]
   * step-by-step programming
     * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap1-first_steps.ipynb|chap1-first_steps.ipynb]]
     * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap2-list_and_for.ipynb|chap2-list_and_for.ipynb]]
