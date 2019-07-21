@@ -76,13 +76,17 @@ We will have 20 min presentations of each package emphasizing:
 == Worksheets ==
 
   * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=intro.en.ipynb|introduction to Sage]]
-  * step-by-step programming
+  * step-by-step programming (more Pythonic)
     * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap1-first_steps.ipynb|chap1-first_steps.ipynb]]
     * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap2-list_and_for.ipynb|chap2-list_and_for.ipynb]]
     * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap3-if.ipynb|chap3-if.ipynb]]
     * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap4-functions.ipynb|chap4-functions.ipynb]]
     * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap5-while.ipynb|chap5-while.ipynb]]
     * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=chap6-advanced_exercises.ipynb|chap6-advanced_exercises.ipynb]]
+  * Some math oriented worksheets
+    * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=CollatzConjecture.ipynb|Collatz conjecture]]
+    * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=Dictionaries-GraphTheory.ipynb|Graph theory and Python dictionaries]] (don't forget to also downloads [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=euler.png|euler.png]] and [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=graph0.png|graph0.png]]
+    * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=Strings-BWT.ipynb|Strings and the Burrows-Wheeler-Transformation]]
   * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=Computing+modular+group+cohomology.ipynb|Computing modular group cohomology.ipynb]]: Computation of modular cohomology rings of finite groups with Sage 
   * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=How_to_implement_new_algebraic_structures.ipynb|How_to_implement_new_algebraic_structures.ipynb]]: A tutorial on parents, elements, categories and coercion
 
