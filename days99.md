@@ -138,6 +138,7 @@ Interested Participants:
  * Gregg Musiker
  * Jacob Matherne
  * Harrison Smith
+ * Elizabeth Kelley
 
 === Cluster algebras as algebras (Gregg Musiker) ===
 
