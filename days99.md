@@ -41,6 +41,7 @@ Interested Participants:
  * Laura Matusevich
  * Aleksandra Sobieska
  * Patricia Klein
+ * Avi Steiner
 
 === Geometry and combinatorics of matroids (Jacob Matherne) ===
 
@@ -109,6 +110,7 @@ Interested Participants:
  * Patricia Klein
  * Elise Walker
  * Julie Rana (project 1)
+ * Avi Steiner
 
 
 === Cluster algebra combinatorics in SageMath (Emily Gunawan) ===
@@ -163,6 +165,7 @@ Interested Participants:
 
  * Josephine Yu
  * Julie Rana
+ * Avi Steiner
 
 
 === Simplicial and Cellular Resolutions (Jay Yang) ===
