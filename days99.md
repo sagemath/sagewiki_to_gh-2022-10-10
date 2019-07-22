@@ -124,6 +124,15 @@ Interested Participants:
 
  * Emily Gunawan
 
+=== Cluster algebras as algebras (Gregg Musiker) ===
+
+As part of the previous working group or separately, using M2 and Sage together to study algebraic aspects of cluster algebras such as their upper bounds and writing elements in terms of bases.
+
+Interested Participants:
+
+ * Gregg Musiker
+
+
 === Primary Decomposition (Justin Chen) ===
 
 Primary decomposition is one of the most fundamental representations of an ideal in a polynomial ring. However, the computational task of computing primary decompositions is difficult in general. The current algorithm used in Macaulay2 (Shimoyama-Yokoyama) leaves room for improvement, and although other algorithms (Gianni-Trager-Zacharias) have been introduced in the MinimalPrimes package, these still need revision. This project aims to improve primary decomposition in Macaulay2, a large part of which will be performing the necessary work to make MinimalPrimes a stable package.
