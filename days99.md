@@ -142,4 +142,50 @@ Interested Participants:
 Jay Yang, 
 Aleksandra Sobieska
 
+
+===  Use Macaulay2 as an optional backend to compute non-commutative Grobner bases in Sage (Franco Saliola) ===
+
+(Projected suggested by Mike Zabrocki.)
+
+Current state of affairs:
+
+ * computation of ideals in the polynomial ring is an option through algorithm='macaulay2:gb' but Grobner bases of the Free algebra are computed by singular and then only if you use the "letterplace" implementation (see "FreeAlgebra?" to see the comment). Example:
+    {{{
+sage: FA=FreeAlgebra(QQ,implementation='letterplace',names=['x1','x2','x3'])
+sage: (x1,x2,x3)=FA.gens()
+sage: I = FA.ideal([x1+x2+x3,x1^2+x2^2+x3^2,x1^3+x2^3+x3^3])
+sage: I.grobner_basis??
+    }}}
+ * Note that there is not even a {{{grobner_basis}}} method if you delete {{{implementation='letterplace'}}} above.
+ * Calling {{{grobner_basis}}} with anything larger than the smallest examples crashed Sage for me (killed the kernel with no error message).
+ * Here seems to be a package to do it in Macaulay2: [[https://faculty.math.illinois.edu/Macaulay2/doc/Macaulay2-1.13/share/doc/Macaulay2/NCAlgebra/html/index.html]]
+
+Interested Participants:
+
+ * Franco Saliola
+
+
+=== Polynomial rings with commuting and anticommuting sets of variables (Franco Saliola) ===
+
+(Projected suggested by Mike Zabrocki.)
+
+Be able to create polynomial rings with commuting and anticommuting sets of variables, and compute Grobner bases therein (the idea again is to use Macaulay2 as the backend).
+
+The reason this came up was because of this paper (and I have since had people contacting me for help using the code for making similar conjectures): [[https://arxiv.org/pdf/1902.08966.pdf]]
+
+Current state of affairs (as far as I can tell):
+
+ * in Sage, polynomial rings cannot be constructed with anticommuting variables (the way Macaulay2 does)
+
+ * Mike had two ways of doing this:
+
+  * construct the Free algebra and quotient by the ideal generated xi xj - xj xi for the commuting variables and xi xj + xj xi for the anticommuting variables (this is what inspired the topic for the previous coding sprint);
+
+  * or just use Sage to make calls directly to Macaulay2 (Mike provided example code, and would love for this to be improved).
+
+Interested Participants:
+
+ * Franco Saliola
+
+
 === More projects to be posted.  Please feel free to add your own interests or email Gregg (musiker at math dot umn dot edu) or Christine (cberkesc at math dot umn dot edu) with them if you do not have direct wiki editing access. ===
