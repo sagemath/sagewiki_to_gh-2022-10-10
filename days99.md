@@ -60,7 +60,14 @@ Interested Participants:
  * Jacob Matherne
  * Kevin Dilks (3)
  * Galen Dorpalen-Barry
+ * Julie Rana (project 4)
+
+---- /!\ '''Edit conflict - other version:''' ----
  * Bryan Gillespie
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
 
 === Groebner bases for FI-modules (Steven Sam) ===
 
@@ -108,6 +115,14 @@ Interested Participants:
  * Patricia Klein
  * Elise Walker
 
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+ * Julie Rana (project 1)
+
+
+---- /!\ '''End of edit conflict''' ----
+
 === Cluster algebra combinatorics in SageMath (Emily Gunawan) ===
 
 We propose reviewing tickets and implementing changes related to cluster algebra theory. Currently there are two cluster algebra packages (combinat:ClusterSeed and algebras:ClusterAlgebra) implemented in SageMath.  Options for specific projects during this workshop include:
@@ -150,6 +165,14 @@ Interested Participants:
  * Fred Galetto
  * Elise Walker
 
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+ * Julie Rana
+
+
+---- /!\ '''End of edit conflict''' ----
+
 === Polytope algebras and tropical geometry (Josephine Yu) ===
 
 I am interested in computation with polytopes inspired by tropical geometry.  McMullen’s polytope algebra is isomorphic to the algebra of tropical cycles (balanced fans).  For a fixed polytope, the algebra of tropical cycles supported on its normal fan coincides with the Chow ring of the toric variety of the polytope.  I would like to implement some computations with these objects in Sage and/or M2.  This is also related to the Geometry of Matroid project.  I would also like to think about how to compute real tropicalizations of semialgebraic sets.
@@ -157,6 +180,14 @@ I am interested in computation with polytopes inspired by tropical geometry.  Mc
 Interested Participants:
 
  * Josephine Yu
+
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+ * Julie Rana
+
+
+---- /!\ '''End of edit conflict''' ----
 
 === Simplicial and Cellular Resolutions (Jay Yang) ===
 
