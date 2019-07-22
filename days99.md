@@ -145,6 +145,7 @@ Interested Participants:
 
  * Justin Chen
  * Patricia Klein
+ * Fred Galetto
 
 === Polytope algebras and tropical geometry (Josephine Yu) ===
 
