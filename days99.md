@@ -105,7 +105,13 @@ Interested Participants:
 
  * Greg Smith
  * Patricia Klein
+
+---- /!\ '''Edit conflict - other version:''' ----
  * Elise Walker
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
 
 === Cluster algebra combinatorics in SageMath (Emily Gunawan) ===
 
@@ -147,7 +153,13 @@ Interested Participants:
  * Justin Chen
  * Patricia Klein
  * Fred Galetto
+
+---- /!\ '''Edit conflict - other version:''' ----
  * Elise Walker
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
 
 === Polytope algebras and tropical geometry (Josephine Yu) ===
 
@@ -214,6 +226,13 @@ Interested Participants:
 
  * Franco Saliola
  * Gregg Musiker
+
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+ * Galen Dorpalen-Barry
+
+---- /!\ '''End of edit conflict''' ----
 
 
 === More projects to be posted.  Please feel free to add your own interests or email Gregg (musiker at math dot umn dot edu) or Christine (cberkesc at math dot umn dot edu) with them if you do not have direct wiki editing access. ===
