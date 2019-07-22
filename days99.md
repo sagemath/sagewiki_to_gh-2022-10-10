@@ -123,6 +123,7 @@ We propose reviewing tickets and implementing changes related to cluster algebra
 Interested Participants:
 
  * Emily Gunawan
+ * Gregg Musiker
 
 === Cluster algebras as algebras (Gregg Musiker) ===
 
