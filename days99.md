@@ -22,6 +22,8 @@ Interested Participants:
 
  * Jessica Striker
  * Kevin Dilks
+ * Dylan Heuer
+ * Joe Bernstein
 
 === A new version of the D-modules package (Laura Matusevich) ===
 
