@@ -25,6 +25,7 @@ Interested Participants:
  * Dylan Heuer
  * Joe Bernstein
  * Jang Soo Kim
+ * Erika Pirnes
 
 (Room 302)
 
