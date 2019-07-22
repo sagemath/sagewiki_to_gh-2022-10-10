@@ -14,7 +14,7 @@ July 22-26, 2019, at the [[https://www.ima.umn.edu/2018-2019/SW7.22-26.19|IMA, U
 
 === Further development of plane partition class (Jessica Striker) ===
 
-[[Opening Talk|https://cocalc.com/1ad1829c-a5dd-41b5-ba5b-967da593d19f/raw/ASM_demo.sagews
+[[https://cocalc.com/1ad1829c-a5dd-41b5-ba5b-967da593d19f/raw/ASM_demo.sagews|Opening Talk]]
 
 Plane partitions have many intriguing combinatorial properties and symmetries, including connections to current research. At SageDays 78, a class for plane partitions in a box was implemented. At this workshop, I would like to add important functionality to this class, including generation of plane partitions summing to n (rather than in a bounding box), symmetry classes, random generation, and maps to fundamental domains. We could also consider coding a connection to Macaulay2, as plane partitions are in bijection with monomial ideals of three variables.
 
