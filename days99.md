@@ -53,7 +53,7 @@ Proudfoot, and Wakefield in 2014. These polynomials carry both combinatorial and
 
 Interested Participants:
 
-Jacob Matherne
+ * Jacob Matherne
 
 === Groebner bases for FI-modules (Steven Sam) ===
 
