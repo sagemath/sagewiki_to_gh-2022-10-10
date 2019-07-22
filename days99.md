@@ -112,7 +112,7 @@ Interested Participants:
  * Elise Walker
  * Julie Rana (project 1)
  * Avi Steiner
-
+ * Thomas Yahl
 
 === Cluster algebra combinatorics in SageMath (Emily Gunawan) ===
 
@@ -157,6 +157,7 @@ Interested Participants:
  * Fred Galetto
  * Elise Walker
  * Julie Rana
+ * Thomas Yahl
 
 
 === Polytope algebras and tropical geometry (Josephine Yu) ===
