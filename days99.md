@@ -105,13 +105,7 @@ Interested Participants:
 
  * Greg Smith
  * Patricia Klein
-
----- /!\ '''Edit conflict - other version:''' ----
  * Elise Walker
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
 
 === Cluster algebra combinatorics in SageMath (Emily Gunawan) ===
 
