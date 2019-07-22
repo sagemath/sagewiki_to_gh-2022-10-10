@@ -162,6 +162,7 @@ Interested Participants:
 
  * Jay Yang
  * Aleksandra Sobieska
+ * Patricia Klein
 
 
 ===  Use Macaulay2 as an optional backend to compute non-commutative Grobner bases in Sage (Franco Saliola) ===
