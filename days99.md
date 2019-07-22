@@ -108,14 +108,8 @@ Interested Participants:
  * Greg Smith
  * Patricia Klein
  * Elise Walker
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
  * Julie Rana (project 1)
 
-
----- /!\ '''End of edit conflict''' ----
 
 === Cluster algebra combinatorics in SageMath (Emily Gunawan) ===
 
@@ -158,14 +152,8 @@ Interested Participants:
  * Patricia Klein
  * Fred Galetto
  * Elise Walker
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
  * Julie Rana
 
-
----- /!\ '''End of edit conflict''' ----
 
 === Polytope algebras and tropical geometry (Josephine Yu) ===
 
@@ -174,14 +162,8 @@ I am interested in computation with polytopes inspired by tropical geometry.  Mc
 Interested Participants:
 
  * Josephine Yu
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
  * Julie Rana
 
-
----- /!\ '''End of edit conflict''' ----
 
 === Simplicial and Cellular Resolutions (Jay Yang) ===
 
