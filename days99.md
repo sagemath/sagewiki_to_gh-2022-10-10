@@ -225,13 +225,7 @@ Interested Participants:
 
  * Franco Saliola
  * Gregg Musiker
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
  * Galen Dorpalen-Barry
-
----- /!\ '''End of edit conflict''' ----
 
 
 === More projects to be posted.  Please feel free to add your own interests or email Gregg (musiker at math dot umn dot edu) or Christine (cberkesc at math dot umn dot edu) with them if you do not have direct wiki editing access. ===
