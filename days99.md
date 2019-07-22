@@ -61,13 +61,7 @@ Interested Participants:
  * Kevin Dilks (3)
  * Galen Dorpalen-Barry
  * Julie Rana (project 4)
-
----- /!\ '''Edit conflict - other version:''' ----
  * Bryan Gillespie
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
 
 === Groebner bases for FI-modules (Steven Sam) ===
 
