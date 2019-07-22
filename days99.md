@@ -155,13 +155,7 @@ Interested Participants:
  * Justin Chen
  * Patricia Klein
  * Fred Galetto
-
----- /!\ '''Edit conflict - other version:''' ----
  * Elise Walker
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
 
 === Polytope algebras and tropical geometry (Josephine Yu) ===
 
