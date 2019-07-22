@@ -134,6 +134,7 @@ Interested Participants:
  * Emily Gunawan
  * Gregg Musiker
  * Jacob Matherne
+ * Harrison Smith
 
 === Cluster algebras as algebras (Gregg Musiker) ===
 
