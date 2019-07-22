@@ -40,6 +40,7 @@ Interested Participants:
 
  * Laura Matusevich
  * Aleksandra Sobieska
+ * Patricia Klein
 
 === Geometry and combinatorics of matroids (Jacob Matherne) ===
 
