@@ -179,7 +179,7 @@ Interested Participants:
 
 Be able to create polynomial rings with commuting and anticommuting sets of variables, and compute Grobner bases therein (the idea again is to use Macaulay2 as the backend).
 
-The reason this came up was because of this paper (and I have since had people contacting me for help using the code for making similar conjectures): [[https://arxiv.org/pdf/1902.08966.pdf]]
+The reason this came up was because of this paper (and Mike has since had people contacting me for help using the code for making similar conjectures): [[https://arxiv.org/pdf/1902.08966.pdf]]
 
 Current state of affairs (as far as I can tell):
 
