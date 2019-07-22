@@ -20,8 +20,8 @@ Plane partitions have many intriguing combinatorial properties and symmetries, i
 
 Interested Participants:
 
-Jessica Striker,
-Kevin Dilks
+ * Jessica Striker
+ * Kevin Dilks
 
 === A new version of the D-modules package (Laura Matusevich) ===
 
@@ -35,8 +35,8 @@ and make them more user friendly.
 
 Interested Participants:
 
-Laura Matusevich, 
-Aleksandra Sobieska
+ * Laura Matusevich
+ * Aleksandra Sobieska
 
 === Geometry and combinatorics of matroids (Jacob Matherne) ===
 
