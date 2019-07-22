@@ -98,7 +98,7 @@ Interested Participants:
 
 Interested Participants:
 
-Greg Smith
+ * Greg Smith
 
 === Cluster algebra combinatorics in SageMath (Emily Gunawan) ===
 
