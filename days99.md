@@ -124,6 +124,7 @@ Interested Participants:
 
  * Emily Gunawan
  * Gregg Musiker
+ * Jacob Matherne
 
 === Cluster algebras as algebras (Gregg Musiker) ===
 
@@ -132,7 +133,7 @@ As part of the previous working group or separately, using M2 and Sage together 
 Interested Participants:
 
  * Gregg Musiker
-
+ * Jacob Matherne
 
 === Primary Decomposition (Justin Chen) ===
 
