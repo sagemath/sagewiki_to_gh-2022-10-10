@@ -118,7 +118,7 @@ We propose reviewing tickets and implementing changes related to cluster algebra
 
 Interested Participants:
 
-Emily Gunawan
+ * Emily Gunawan
 
 === Primary Decomposition (Justin Chen) ===
 
@@ -126,7 +126,7 @@ Primary decomposition is one of the most fundamental representations of an ideal
 
 Interested Participants:
 
-Justin Chen
+ * Justin Chen
 
 === Polytope algebras and tropical geometry (Josephine Yu) ===
 
@@ -134,7 +134,7 @@ I am interested in computation with polytopes inspired by tropical geometry.  Mc
 
 Interested Participants:
 
-Josephine Yu
+ * Josephine Yu
 
 === Simplicial and Cellular Resolutions (Jay Yang) ===
 
@@ -144,8 +144,8 @@ There is some code currently in SimplicialComplexes that can manipulate a labele
 
 Interested Participants:
 
-Jay Yang, 
-Aleksandra Sobieska
+ * Jay Yang
+ * Aleksandra Sobieska
 
 
 ===  Use Macaulay2 as an optional backend to compute non-commutative Grobner bases in Sage (Franco Saliola) ===
