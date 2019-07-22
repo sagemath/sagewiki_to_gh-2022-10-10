@@ -143,6 +143,7 @@ Primary decomposition is one of the most fundamental representations of an ideal
 Interested Participants:
 
  * Justin Chen
+ * Patricia Klein
 
 === Polytope algebras and tropical geometry (Josephine Yu) ===
 
