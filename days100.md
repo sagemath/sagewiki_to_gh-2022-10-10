@@ -44,14 +44,14 @@ For all other days (Tuesday 22nd afternoon - Friday 26th afternoon)
 
 The hacking session are here to let people work on their own projects while having SageMath experts helping/answering. The tutorial sessions will consist of
 
-||<#EEEEEE> Monday    ||<#AADAFF> welcome                 ||<#DAAAFF> get started with SageMath ||
+||<#EEEEEE> Monday    ||<#AADAFF> welcome                 ||<#DAAAFF> get started + packaging ||
 ||<#EEEEEE> Tuesday   ||<#AADAFF> package presentations   ||<#DAAAFF> ? ||
 ||<#EEEEEE> Wednesday ||<#AADAFF> ? ||<#DAAAFF> (optional) [[https://www.mpim-bonn.mpg.de/de/node/9501|Max-Planck afternoon]] ||
 ||<#EEEEEE> Thursday  ||<#AADAFF> ? ||<#DAAAFF> ? ||
 ||<#EEEEEE> Friday    ||<#AADAFF> ? ||<#DAAAFF> ?||
 
 Remaining tutorial sessions to be organized:
- * git + create a SageMath/Python module + automated testing
+ * git
  * debugging and profiling
  * SageMath development
  * databases
