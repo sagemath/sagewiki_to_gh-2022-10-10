@@ -38,7 +38,7 @@ Aleksandra Sobieska
 
 === Geometry and combinatorics of matroids (Jacob Matherne) ===
 
-The goal of this coding project is to implement several combinatorial and geometric objects recently arising in matroid theory and related areas.
+The goal of this coding project is to implement several combinatorial and geometric objects recently arising in matroid theory and related areas.  Projects 2 and especially 4 are related to the Polytope algebras and tropical geometry project.
 
 1. Lorentzian polynomials, defined by Petter Branden and June Huh this February, connect discrete convex analysis with many log-concavity phenomena in combinatorics.  Since their invention a few months ago, there have been many applications: mostly for proving various polynomials (many of them associated to matroids) in algebraic combinatorics have some log-concavity properties.  The goal of this project is to implement a test for the Lorentzian property of a multivariate homogeneous polynomial.
 
