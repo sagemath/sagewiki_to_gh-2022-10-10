@@ -68,7 +68,8 @@ so the goal of this project is to provide one.
 
 Interested Participants:
 
-Steven Sam
+ * Steven Sam
+ * Franco Saliola
 
 === Maps between toric varieties or between simplicity complexes (Greg Smith) ===
 
