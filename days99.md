@@ -26,6 +26,8 @@ Interested Participants:
  * Joe Bernstein
  * Jang Soo Kim
 
+(Room 302)
+
 === A new version of the D-modules package (Laura Matusevich) ===
 
 Description: The M2 D-modules package was coded by Anton Leykin and 
