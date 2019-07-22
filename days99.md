@@ -20,7 +20,7 @@ Plane partitions have many intriguing combinatorial properties and symmetries, i
 
 Interested Participants:
 
-Jessica Striker
+Jessica Striker,
 Kevin Dilks
 
 === A new version of the D-modules package (Laura Matusevich) ===
