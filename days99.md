@@ -105,6 +105,7 @@ Interested Participants:
 
  * Greg Smith
  * Patricia Klein
+ * Elise Walker
 
 === Cluster algebra combinatorics in SageMath (Emily Gunawan) ===
 
@@ -146,6 +147,7 @@ Interested Participants:
  * Justin Chen
  * Patricia Klein
  * Fred Galetto
+ * Elise Walker
 
 === Polytope algebras and tropical geometry (Josephine Yu) ===
 
