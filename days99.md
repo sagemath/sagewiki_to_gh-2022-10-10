@@ -57,6 +57,7 @@ Interested Participants:
 
  * Jacob Matherne
  * Kevin Dilks (3)
+ * Galen Dorpalen-Barry
 
 === Groebner bases for FI-modules (Steven Sam) ===
 
