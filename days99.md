@@ -182,7 +182,7 @@ sage: I.grobner_basis??
 Interested Participants:
 
  * Franco Saliola
-
+ * Gregg Musiker
 
 === Polynomial rings with commuting and anticommuting sets of variables (Franco Saliola) ===
 
@@ -205,6 +205,7 @@ Current state of affairs (as far as I can tell):
 Interested Participants:
 
  * Franco Saliola
+ * Gregg Musiker
 
 
 === More projects to be posted.  Please feel free to add your own interests or email Gregg (musiker at math dot umn dot edu) or Christine (cberkesc at math dot umn dot edu) with them if you do not have direct wiki editing access. ===
