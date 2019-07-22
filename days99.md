@@ -24,6 +24,7 @@ Interested Participants:
  * Kevin Dilks
  * Dylan Heuer
  * Joe Bernstein
+ * Jang Soo Kim
 
 === A new version of the D-modules package (Laura Matusevich) ===
 
