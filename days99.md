@@ -104,6 +104,7 @@ Interested Participants:
 Interested Participants:
 
  * Greg Smith
+ * Patricia Klein
 
 === Cluster algebra combinatorics in SageMath (Emily Gunawan) ===
 
