@@ -63,6 +63,7 @@ Interested Participants:
  * Galen Dorpalen-Barry
  * Julie Rana (project 4)
  * Bryan Gillespie
+ * Josephine Yu
 
 === Groebner bases for FI-modules (Steven Sam) ===
 
