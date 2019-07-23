@@ -127,6 +127,7 @@ Interested Participants:
  * Avi Steiner
  * Thomas Yahl
  * Weikun Wang
+ * Mike Loper (project 1)
 
 === Cluster algebra combinatorics in SageMath (Emily Gunawan) ===
 
