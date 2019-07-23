@@ -18,7 +18,7 @@ https://github.com/Macaulay2/Workshop-2019-Minneapolis/wiki
 
  * [[https://gist.github.com/bgillesp/d11c52318a56324046c7225062899f2e|Quick Start Guide (courtesy of Bryan Gillespe)]] 
 
- * [[https://saliola.github.io/contributing-to-sage/|A quick guide to getting started with Sage development]]
+ * [[https://saliola.github.io/contributing-to-sage/|Another quick start guide to Sage development]]
 
  * [[http://doc.sagemath.org/html/en/developer/|SageMath Documentation]]
 
