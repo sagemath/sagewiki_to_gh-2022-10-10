@@ -91,7 +91,7 @@ We will have 20 min presentations of each package emphasizing:
     * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=Dictionaries-GraphTheory.ipynb|Graph theory and Python dictionaries]] (don't forget to also downloads [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=euler.png|euler.png]] and [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=graph0.png|graph0.png]]
     * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=Strings-BWT.ipynb|Strings and the Burrows-Wheeler-Transformation]]
     * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=introduction_polytopes.ipynb|Introduction to Polytopes in Sage]]
-  * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=Computing+modular+group+cohomology.ipynb|Computing modular group cohomology.ipynb]]: Computation of modular cohomology rings of finite groups with Sage 
+  * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=Computing+modular+group+cohomology.ipynb|Computing modular group cohomology.ipynb]]: Computation of modular cohomology rings of finite groups with Sage; [[attachment:ModularCohomology.pdf]] Slides for presentation at MPI.
   * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=How_to_implement_new_algebraic_structures.ipynb|How_to_implement_new_algebraic_structures.ipynb]]: A tutorial on parents, elements, categories and coercion
 
 = Organization =
