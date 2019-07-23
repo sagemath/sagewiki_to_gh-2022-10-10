@@ -67,6 +67,7 @@ Remaining tutorial sessions to be organized:
  * [[https://github.com/MarkCBell/flipper|flipper]]: mapping class group (via flips in triangulation) (Mark Bell)
  * [[https://github.com/MarkCBell/curver|curver]]: mapping class group (via curve complex) (Mark Bell)
  * [[https://github.com/coulbois/sage-train-track|sage-train-track]]: free group automorphisms (Thierry Coulbois)
+ * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=snappy_intro.ipynb|snappy presentation]] (Saul Schleimer)
 
 We will have 20 min presentations of each package emphasizing:
  * What the package is useful for?
