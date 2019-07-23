@@ -49,8 +49,8 @@ Monday 22 July 2019 afternoon to Friday 26 July 2019 afternoon share a common sc
 Hacking sessions aim to let people work on their own projects with experts helping/answering. The tutorial sessions will consist of
 
 ||<#EEEEEE> Monday    ||<#AADAFF> welcome                 ||<#DAAAFF> get started + packaging ||
-||<#EEEEEE> Tuesday   ||<#AADAFF> package presentations (M.,V.,S.,J.)   ||<#DAAAFF> git (Samuel) ||
-||<#EEEEEE> Wednesday ||<#AADAFF> debugging/profiling ||<#DAAAFF> (optional) [[https://www.mpim-bonn.mpg.de/de/node/9501|Max-Planck afternoon]] ||
+||<#EEEEEE> Tuesday   ||<#AADAFF> package presentations (M.,V.,S.,J.)   ||<#DAAAFF> git (Vincent) ||
+||<#EEEEEE> Wednesday ||<#AADAFF> debugging, profiling, testing ||<#DAAAFF> (optional) [[https://www.mpim-bonn.mpg.de/de/node/9501|Max-Planck afternoon]] ||
 ||<#EEEEEE> Thursday  ||<#AADAFF> Cython ||<#DAAAFF> SageMath development ||
 ||<#EEEEEE> Friday    ||<#AADAFF> ? ||<#DAAAFF> ?||
 
