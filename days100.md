@@ -41,7 +41,7 @@ Begining of the workshop Monday 22nd
   * lunch and afternoon: as all other days
 
 For all other days (Tuesday 22nd afternoon - Friday 26th afternoon)
-||<#AADAFF> 9:00 - 10:30      ||<#F0F0AA> 10:30 - 11:00 ||<#FACACA> 11:00 - 12:30     ||<#F0F0AA> 12:30 - 14:00 ||<#DAAAFF> 14:00 - 15:30 ||<#F0F0AA> 15:30 - 16:00 ||<#FACACA> 16:00 - 17:30 ||<#AAFFAA> 17:30 - 18:00 ||
+||<#AADAFF> 9:00 - 10:30      ||<#F0F0AA> 10:30 - 11:00 ||<#FACACA> 11:00 - 12:30     ||<#F0F0AA> 12:30 - 14:00 ||<#DAAAFF> 14:00 - 15:30 ||<#F0F0AA> 15:30 - 16:00 ||<#FACACA> 16:00 - 17:00 ||<#AAFFAA> 17:00 - 17:30 ||
 ||<#AADAFF> morning session ||<#F0F0AA> coffe break   ||<#FACACA> hacking ||<#F0F0AA> lunch break ||<#DAAAFF> afternoon session ||<#F0F0AA> coffe break ||<#FACACA> hacking||<#AAFFAA> status report ||
 
 The hacking session are here to let people work on their own projects while having SageMath experts helping/answering. The tutorial sessions will consist of
