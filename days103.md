@@ -98,6 +98,10 @@ Nandita Sahajpal
 Please add #sd103 to any tickets you are working on on trac.  If your ticket needs review, added it to the list on the tickets page to advertise.
 
 
+== Reimbursement info ==
+You can find the form to fill out here: [[attachment:Sage 103 reimbursement form.pdf]]
+Please email the form to Pam Kelley Ellend at pke2@uw.edu no later than September 9, 2019. You can also mail it to her; the address is on the form.
+
 ##== Community Agreement ==
 
 ##The participants of this event are asked to agree to our [[https://wiki.sagemath.org/days98/communityagreement|Community Agreement]]
