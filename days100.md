@@ -47,21 +47,18 @@ For all other days (Tuesday 22nd afternoon - Friday 26th afternoon)
 The hacking session are here to let people work on their own projects while having SageMath experts helping/answering. The tutorial sessions will consist of
 
 ||<#EEEEEE> Monday    ||<#AADAFF> welcome                 ||<#DAAAFF> get started + packaging ||
-||<#EEEEEE> Tuesday   ||<#AADAFF> package presentations   ||<#DAAAFF> ? ||
-||<#EEEEEE> Wednesday ||<#AADAFF> ? ||<#DAAAFF> (optional) [[https://www.mpim-bonn.mpg.de/de/node/9501|Max-Planck afternoon]] ||
-||<#EEEEEE> Thursday  ||<#AADAFF> ? ||<#DAAAFF> ? ||
+||<#EEEEEE> Tuesday   ||<#AADAFF> package presentations (M.,V.,S.,J.)   ||<#DAAAFF> git (Samuel) ||
+||<#EEEEEE> Wednesday ||<#AADAFF> debugging/profiling ||<#DAAAFF> (optional) [[https://www.mpim-bonn.mpg.de/de/node/9501|Max-Planck afternoon]] ||
+||<#EEEEEE> Thursday  ||<#AADAFF> Cython ||<#DAAAFF> SageMath development ||
 ||<#EEEEEE> Friday    ||<#AADAFF> ? ||<#DAAAFF> ?||
 
 Remaining tutorial sessions to be organized:
- * git
- * debugging and profiling
- * SageMath development
  * databases
- * Cython
 
 == Sage packages ==
 
  * [[https://gitlab.com/jo314schmitt/admcycles|admcycles]]: tautological ring on M_{g,n} (Aaron Pixton, Johannes Schmitt, Jason van Zelm)
+   (
  * [[https://bitbucket.org/t3m/snappy|snappy]]: 3-dim hyperbolic manifolds (Marc Culler, Nathan Dunfield, and Matthias Goerner)
  * [[https://gitlab.com/videlec/veerer/|veerer]]: train-tracks and veering triangulations (Vincent Delecroix)
  * [[https://gitlab.com/videlec/surface_dynamics|surface_dynamics]]: translation surfaces (Vincent Delecroix)
