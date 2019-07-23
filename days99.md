@@ -57,6 +57,9 @@ Interested Participants:
  * Aleksandra Sobieska
  * Patricia Klein
  * Avi Steiner
+ * Mahrud Sayrafi
+
+
 
 === Geometry and combinatorics of matroids (Jacob Matherne) ===
 
