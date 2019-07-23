@@ -27,7 +27,6 @@ Interested Participants:
  * Jang Soo Kim
  * Erika Pirnes
 
-(Room 302)
 
 === A new version of the D-modules package (Laura Matusevich) ===
 
@@ -117,6 +116,7 @@ Interested Participants:
  * Julie Rana (project 1)
  * Avi Steiner
  * Thomas Yahl
+ * Weikun Wang
 
 === Cluster algebra combinatorics in SageMath (Emily Gunawan) ===
 
