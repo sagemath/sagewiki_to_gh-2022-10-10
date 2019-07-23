@@ -58,7 +58,6 @@ Remaining tutorial sessions to be organized:
 == Sage packages ==
 
  * [[https://gitlab.com/jo314schmitt/admcycles|admcycles]]: tautological ring on M_{g,n} (Aaron Pixton, Johannes Schmitt, Jason van Zelm)
-   (
  * [[https://bitbucket.org/t3m/snappy|snappy]]: 3-dim hyperbolic manifolds (Marc Culler, Nathan Dunfield, and Matthias Goerner)
  * [[https://gitlab.com/videlec/veerer/|veerer]]: train-tracks and veering triangulations (Vincent Delecroix)
  * [[https://gitlab.com/videlec/surface_dynamics|surface_dynamics]]: translation surfaces (Vincent Delecroix)
