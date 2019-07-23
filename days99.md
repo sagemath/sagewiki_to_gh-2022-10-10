@@ -16,9 +16,9 @@ https://github.com/Macaulay2/Workshop-2019-Minneapolis/wiki
 
 == SageMath Developer Guides ==
 
-* Quick Start Guide (courtesy of Bryan Gillespe): https://gist.github.com/bgillesp/d11c52318a56324046c7225062899f2e
+* [[https://gist.github.com/bgillesp/d11c52318a56324046c7225062899f2e|Quick Start Guide (courtesy of Bryan Gillespe)]] 
 
-* SageMath Documentation: http://doc.sagemath.org/html/en/developer/
+* [[http://doc.sagemath.org/html/en/developer/|SageMath Documentation]]
 
 == Tentative list of Coding Projects (Group Leader) ==
 
