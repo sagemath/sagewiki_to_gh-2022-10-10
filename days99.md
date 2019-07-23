@@ -96,6 +96,7 @@ Interested Participants:
  * Steven Sam
  * Tom Grubb
  * Franco Saliola
+ * Erica Musgrave
 
 === Maps between toric varieties or between simplicity complexes (Greg Smith) ===
 
