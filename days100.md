@@ -62,12 +62,13 @@ Remaining tutorial sessions to be organized:
  * [[https://gitlab.com/jo314schmitt/admcycles|admcycles]]: tautological ring on M_{g,n} (Aaron Pixton, Johannes Schmitt, Jason van Zelm)
    (Tuesday presentation [[https://people.math.ethz.ch/~schmittj/admcycles_Bonn.pdf|admcycles_Bonn.pdf]])
  * [[https://bitbucket.org/t3m/snappy|snappy]]: 3-dim hyperbolic manifolds (Marc Culler, Nathan Dunfield, and Matthias Goerner)
+   (presentation by S. Schleimer: [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=snappy_intro.ipynb|snappy_intro.ipynb]])
  * [[https://gitlab.com/videlec/veerer/|veerer]]: train-tracks and veering triangulations (Vincent Delecroix)
  * [[https://gitlab.com/videlec/surface_dynamics|surface_dynamics]]: translation surfaces (Vincent Delecroix)
  * [[https://github.com/MarkCBell/flipper|flipper]]: mapping class group (via flips in triangulation) (Mark Bell)
  * [[https://github.com/MarkCBell/curver|curver]]: mapping class group (via curve complex) (Mark Bell)
  * [[https://github.com/coulbois/sage-train-track|sage-train-track]]: free group automorphisms (Thierry Coulbois)
- * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=snappy_intro.ipynb|snappy presentation]] (Saul Schleimer)
+
 
 We will have 20 min presentations of each package emphasizing:
  * What the package is useful for?
