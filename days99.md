@@ -14,6 +14,12 @@ July 22-26, 2019, at the [[https://www.ima.umn.edu/2018-2019/SW7.22-26.19|IMA, U
 
 https://github.com/Macaulay2/Workshop-2019-Minneapolis/wiki
 
+== SageMath Developer Guides ==
+
+* Quick Start Guide (courtesy of Bryan Gillespe): https://gist.github.com/bgillesp/d11c52318a56324046c7225062899f2e
+
+* SageMath Documentation: http://doc.sagemath.org/html/en/developer/
+
 == Tentative list of Coding Projects (Group Leader) ==
 
 === Further development of plane partition class (Jessica Striker) ===
