@@ -29,8 +29,8 @@ Bonn
  * [[https://hackmd.io/C11DpDKwTaaB5RkoyuosUw|Euler challenge organization pad]]
  * [[https://hackmd.io/EvP0nhWsTc-1Ja0BY1wbvw|pad to report bugs / error in a worksheet / general question about SageMath]]
  * [[https://trac.sagemath.org/query?keywords=~days100&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&desc=1&order=status|trac tickets with days100 keyword]]
- * [https://gitlab.com/videlec/python_module_sample demo about packaging (Git repo on GitLab)]
- * [https://gitlab.com/videlec/git-tutorial-days-100 Git tutorial (Git repo on GitLab)]
+ * [[https://gitlab.com/videlec/python_module_sample|demo about packaging (Git repo on GitLab)]]
+ * [[https://gitlab.com/videlec/git-tutorial-days-100|Git tutorial (Git repo on GitLab)]]
 
 == Schedule ==
 
