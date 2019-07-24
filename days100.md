@@ -27,7 +27,7 @@ Bonn
 == Links ==
 
  * [[http://www.labri.fr/perso/vdelecro/presentations/presentation_sagemath_mpi_2019.pdf|beamer presentation MPI (presentation_sagemath_mpi_2019.pdf)]]
- * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=Introduction-SageMath-MPIM-2019.ipynb|worksheet presentation MPI (Introduction-SageMath-MPIM-2019.ipynb)]
+ * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=Introduction-SageMath-MPIM-2019.ipynb|worksheet presentation MPI (Introduction-SageMath-MPIM-2019.ipynb)]]
 
  * [[https://hackmd.io/C11DpDKwTaaB5RkoyuosUw|Euler challenge organization pad]]
  * [[https://hackmd.io/EvP0nhWsTc-1Ja0BY1wbvw|pad to report bugs / error in a worksheet / general question about SageMath]]
