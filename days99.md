@@ -23,6 +23,11 @@ https://github.com/Macaulay2/Workshop-2019-Minneapolis/wiki
  * [[http://doc.sagemath.org/html/en/developer/|SageMath Documentation]]
 
 
+== Exploring the Macaulay2 interface ==
+
+Here is the worksheet that was used during the "exploring the M2 interface", with notes added. 
+
+
 == Tentative list of Coding Projects (Group Leader) ==
 
 === Further development of plane partition class (Jessica Striker) ===
