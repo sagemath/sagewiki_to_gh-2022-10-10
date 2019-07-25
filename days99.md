@@ -25,7 +25,7 @@ https://github.com/Macaulay2/Workshop-2019-Minneapolis/wiki
 
 == Exploring the Macaulay2 interface ==
 
-Here is the worksheet that was used during the "exploring the M2 interface", with notes added. 
+Here is the worksheet that was used during the "exploring the M2 interface" (with some notes added): [[attachment:exploring-m2-interface.ipynb]]
 
 
 == Tentative list of Coding Projects (Group Leader) ==
