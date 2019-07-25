@@ -62,6 +62,9 @@ Hacking sessions aim to let people work on their own projects with experts helpi
 Remaining tutorial sessions to be organized:
  * databases
 
+Documents
+ * [[https://wiki.sagemath.org/days100?action=AttachFile&do=get&target=cython_demo_days100.ipynb|cython_demo_days100.ipynb]]
+
 == Sage packages ==
 
  * [[https://gitlab.com/jo314schmitt/admcycles|admcycles]]: tautological ring on M_{g,n} (Aaron Pixton, Johannes Schmitt, Jason van Zelm)
