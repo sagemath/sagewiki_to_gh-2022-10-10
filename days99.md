@@ -28,6 +28,20 @@ https://github.com/Macaulay2/Workshop-2019-Minneapolis/wiki
 
 Here is the worksheet that was used during the "exploring the M2 interface" (with some notes added): [[attachment:exploring-m2-interface.ipynb]]
 
+== Apply for a 2019-2020 IMA Coding Sprint!! ==
+
+Details near the bottom of [[https://www.ima.umn.edu/2018-2019/SW7.22-26.19|IMA Workshop Website]]
+
+Rolling Deadlines for 2019-2020:
+
+September 1st, 2019 for Coding Sprints after October 1st, 2019
+
+December 1st, 2019 for Coding Sprints after February 1st, 2020
+
+March 1st, 2020 for Coding Sprints after May 1st, 2020
+
+May 1st, 2020 for Coding Sprints after July 1st, 2020 (if funding is still available)
+
 
 == Tentative list of Coding Projects (Group Leader) ==
 
