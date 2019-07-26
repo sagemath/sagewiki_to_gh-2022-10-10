@@ -24,7 +24,7 @@ https://github.com/Macaulay2/Workshop-2019-Minneapolis/wiki
 
  * Here is a link to the trac ticket that we created and contributed to during the "Contributing to SageMath" session: [[https://trac.sagemath.org/ticket/28261]]
 
-== Exploring the Macaulay2 interface ==
+== Exploring the Macaulay2 interface in SageMath ==
 
 Here is the worksheet that was used during the "exploring the M2 interface" (with some notes added): [[attachment:exploring-m2-interface.ipynb]]
 
