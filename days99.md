@@ -30,7 +30,7 @@ Here is the worksheet that was used during the "exploring the M2 interface" (wit
 
 == Apply for a 2019-2020 IMA Coding Sprint!! ==
 
-Details near the bottom of [[https://www.ima.umn.edu/2018-2019/SW7.22-26.19|IMA Workshop Website]]
+Details on applying near the bottom of [[https://www.ima.umn.edu/2018-2019/SW7.22-26.19|IMA Workshop Website]]
 
 Rolling Deadlines for 2019-2020:
 
@@ -42,6 +42,11 @@ March 1st, 2020 for Coding Sprints after May 1st, 2020
 
 May 1st, 2020 for Coding Sprints after July 1st, 2020 (if funding is still available)
 
+== Housekeeping ==
+
+For SageMath Trac Tickets, please include 'days99' and 'IMA Coding Sprints' in the 'keywords' field.
+
+For M2 github contributions, please include it in the Workshop-Minneapolis-2019 folder or mention your project in the readme therein.
 
 == Tentative list of Coding Projects (Group Leader) ==
 
