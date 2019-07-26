@@ -16,7 +16,7 @@ https://github.com/Macaulay2/Workshop-2019-Minneapolis/wiki
 
 == SageMath Developer Guides ==
 
- * [[https://gist.github.com/bgillesp/d11c52318a56324046c7225062899f2e|Quick Start Guide (courtesy of Bryan Gillespe)]] 
+ * [[https://gist.github.com/bgillesp/d11c52318a56324046c7225062899f2e|Sage Development Quick Start Guide]] (courtesy of Bryan Gillespie)
 
  * [[https://saliola.github.io/contributing-to-sage/|Another quick start guide to Sage development]] (courtesy of Franco Saliola)
 
@@ -104,12 +104,18 @@ Proudfoot, and Wakefield in 2014. These polynomials carry both combinatorial and
 Interested Participants:
 
  * Jacob Matherne
- * Kevin Dilks (3)
+ * Kevin Dilks (project 3)
  * Galen Dorpalen-Barry
  * Julie Rana (project 4)
  * Bryan Gillespie
  * Josephine Yu
  * Thomas McConville
+
+Tickets:
+
+ * https://trac.sagemath.org/ticket/28252 (Project 1)
+ * https://trac.sagemath.org/ticket/28237 (Project 3)
+
 
 === Groebner bases for FI-modules (Steven Sam) ===
 
