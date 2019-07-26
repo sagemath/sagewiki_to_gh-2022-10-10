@@ -110,7 +110,7 @@ We will have 20 min presentations of each package emphasizing:
  * Vincent Delecroix (CNRS, LaBRI Bordeaux, France - MPIM Bonn, Germany)
  * [[https://www.uni-frankfurt.de/50278800/Zachhuber|Jonathan Zachhuber]] (Frankfurt, Deutschland)
  * [[https://users.fmi.uni-jena.de/~king/eindex.html|Simon King]] (Jena, Germany)
- * Mark Bell (UK)
+ * [[https://markcbell.github.io|Mark Bell]] (UK)
  * Luke Jeffreys (Glasgow, UK)
  * [[https://people.math.ethz.ch/~schmittj/|Johannes Schmitt]] (Zurich, Switzerland)
  * [[https://www.math.u-psud.fr/~lelievre/|Samuel Lelièvre]] (Paris, France)
