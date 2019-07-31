@@ -96,7 +96,7 @@ Nandita Sahajpal
 
 == Tickets ==
 Please add #sd103 to any tickets you are working on on trac.  If your ticket needs review, add it to the list on the tickets page to advertise.
-
+ * [[sd103tickets]]
 
 == Reimbursement info ==
 You can find the form to fill out here: [[attachment:Sage 103 reimbursement form.pdf]]
