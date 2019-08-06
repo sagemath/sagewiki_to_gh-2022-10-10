@@ -34,7 +34,7 @@ EOF
    * curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine
    * install /tmp/docker-machine /usr/local/bin/docker-machine
    * REGIONS="us-east4-c us-central1-c us-west1-c europe-west4-c europe-west1-c europe-west2-c europe-west3-c asia-east1-c asia-southeast1-a australia-southeast1-c asia-south1-c" # for a maximum of 11*2+1 < 24 CPUs, the free tier limit
-   * export REGISTRATION_TOKEN=mTtHSpYUitgJFjsSuzXL
+   * export REGISTRATION_TOKEN=hKHxdxJxFb74ywXXXCSu
    * NAME=gce-jrueth # a *short* name that contains gce and your username (and only lowercase characters and hyphens)
    * export REGISTER_LOCKED=false
    * PROJECT=tidy-scholar-202621 # the name of the google cloud project (click on "My First Project" to find out)
