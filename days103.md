@@ -49,7 +49,7 @@ Project: Believe the Hype! (Computing the identity components of Sato-Tate group
 
 ##'''Local cost (lodging and food) will be provided for all participants'''
 
-The workshop will take place in St. Louis, MO at [[https://www.fontbonne.edu|Fontbonne University]]. 
+The workshop will take place in St. Louis, MO. 
 
 Lodging will be shared Air BNBs or Dorms.
 
