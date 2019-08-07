@@ -66,7 +66,7 @@ by Sarah Arpin, Alexis Newton
 print "Put your message in between the provided quotes (with no additional quotes or apostrophes!), and select your desired a,b: "
 print "This cipher will encipher the letters m of your message as a*m + b"
 @interact
-def affine_cipher(message = input_box(default='"secrets"', width = 50), a=[1,3,4..12,14,15..25], b =[0..25]):
+def affine_cipher(message = input_box(default='"secrets"', width = 50), a=[1,3,5,7,9,11,15,17,19,21,23], b =[0..25]):
     A = AlphabeticStrings()
     S = AffineCryptosystem(A)
     message = S.encoding(message)
