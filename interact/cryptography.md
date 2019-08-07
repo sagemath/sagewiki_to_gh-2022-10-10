@@ -72,6 +72,21 @@ A simple cipher to encrypt messages in which each letter is assigned to another 
 
 }}}
 
+=== Playfair Cipher ===
+
+A special type of substitution cipher in which the plaintext is broken up into two-letter digraphs with some restrictions. Those digraphs are encrypted using a Polybius square, (i.e. a 5x5 grid in which each letter of the alphabet is its own entry with the exception of ij which are placed together). The positions of the letters in the digraph determine how the digraph is encrypted.
+
+
+{{{#!sagecell
+
+}}}
+
+== Frequency Analysis Decryption Tool ==
+
+{{{#!sagecell
+
+}}}
+
 == Vigenère Cipher ==
 by Holly Paige Chaos, Rebecca Lauren Miller, and Kate Stange
 
@@ -108,3 +123,22 @@ def vigenere_cipher(message = input_box(default ="'UEVTEMUHB'", width = 50), cod
     print "Deciphered message:"
     print ciphertext
 }}}
+
+== Hill Cipher ==
+by Holly Paige Chaos and Rebecca Lauren Miller
+
+
+
+{{{#!sagecell
+
+}}}
+
+== RSA ==
+
+Named for the authors Rivest, Shamir, Aldeman, RSA uses exponentiation and modular arithmetic to encrypt and decrypt messages between two parties. Each of those parties has their own secret and public key. To see how it works, following along while Alicia and Bernadette share a message. -EG
+
+{{{#!sagecell
+
+}}}
+
+== One-time Pad ==
