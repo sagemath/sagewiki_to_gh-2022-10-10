@@ -10,3 +10,19 @@ If you have cryptography related interactions that you are interested in adding 
 goto [[interact|interact main page]]
 
 <<TableOfContents>>
+
+== Shift Cipher ==
+by Sarah Arpin, Alexis Newton
+
+{{{#!sagecell
+print "Put your message in quotes, and your desired shift: "
+@interact
+def shift_cipher(message = input_box(default="'secrets hi'", width = 50), shift=slider(0,25,1,3)):
+    
+    A = AlphabeticStrings()
+    S = ShiftCryptosystem(A)
+    message = S.encoding(message)
+    C = S.enciphering(shift, message)
+    print "Enciphered message:"
+    print C
+}}}
