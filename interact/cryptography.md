@@ -36,7 +36,7 @@ def shift_cipher(message = input_box(default='"secrets"', width = 50), shift=sli
 
 === Shift Cipher Decryption ===
 
-If you know that your encrypted message is a shift cipher, you can use the known encryption to decrypt. If this is not known, brute force can be used to get possible decrypted messages. 
+If you know that your message was encrypted using a shift cipher, you can use the known shift value to decrypt. If this is not known, brute force can be used to get possible decrypted messages. 
 
 {{{#!sagecell
 #Last edited 8/7/19 2:56pm
