@@ -64,6 +64,7 @@ by Sarah Arpin, Alexis Newton
 {{{#!sagecell
 # Last edited 8/7/2019 2:01pm
 print "Put your message in between the provided quotes (with no additional quotes or apostrophes!), and select your desired a,b: "
+print "Notice that the only choices for a can be numbers that are relatively prime to 26
 print "This cipher will encipher the letters m of your message as a*m + b"
 @interact
 def affine_cipher(message = input_box(default='"secrets"', width = 50), a=[1,3,5,7,9,11,15,17,19,21,23], b =[0..25]):
