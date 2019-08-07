@@ -17,7 +17,7 @@ goto [[interact|interact main page]]
 == Shift Cipher ==
 by Sarah Arpin, Alexis Newton
 
-A classical cryptosystem that takes your plaintext and shifts it through the alphabet by a given number of letters.  -EG
+The shift cipher is a classical cryptosystem that takes plaintext and shifts it through the alphabet by a given number of letters.  -EG
 
 === Shift Cipher Encryption ===
 
