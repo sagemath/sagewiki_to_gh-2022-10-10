@@ -2,9 +2,9 @@
 
 
 
-This page was be created at Sage Days, 7-10 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal.
+This page was be created at Sage Days 103 , 7-10 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal.
 
-If you have cryptography related interactions that you are interested in adding to this page, please do so. You can also contact Amy Feaver at firstname.lastname@kingsu.ca (insert my name in 'firstname' and 'lastname') if you have interactions that you are interested in having us add to the page during Sage Days. We will consider them and add them in if we can! 
+If you have cryptography related interactions that you are interested in adding to this page, please do so. You can also contact Amy Feaver at firstname.lastname@kingsu.ca  if you have interactions that you are interested in having us add to the page during Sage Days. We will consider them and add them in if we can! 
 
 goto [[interact|interact main page]]
 
