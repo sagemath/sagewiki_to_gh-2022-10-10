@@ -62,6 +62,7 @@ def shift_decrypt(text = input_box('"KL"'), shift_by = input_box(0)):
 == Affine Cipher ==
 by Sarah Arpin, Alexis Newton
 
+An affine cipher combines the idea of a shift cipher with a multiplicative cipher.
 
 {{{#!sagecell
 # Last edited 8/7/2019 2:01pm
