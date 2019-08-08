@@ -93,7 +93,10 @@ A simple cipher to encrypt messages in which each letter is assigned to another 
 A special type of substitution cipher in which the plaintext is broken up into two-letter digraphs with some restrictions. Those digraphs are encrypted using a Polybius square, (i.e. a 5x5 grid in which each letter of the alphabet is its own entry with the exception of ij which are placed together). The positions of the letters in the digraph determine how the digraph is encrypted.
 
 
-== Frequency Analysis Tool ==
+== Frequency Analysis Tools ==
+
+Frequency analysis is a technique for breaking a substitution cipher that is based on the frequencies that letters appear (in large chunks of text) in the English language. For example, E is the most common letter in the English language, so if a piece of encrypted text had many instances of the letter Q, you would guess that Q had been substituted in for E. 
+
 
 === Letter Frequency Counter ===
 
