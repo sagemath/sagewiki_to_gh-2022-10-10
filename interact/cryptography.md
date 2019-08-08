@@ -18,7 +18,8 @@ goto [[interact|interact main page]]
 by Sarah Arpin, Alexis Newton
 
 The shift cipher is a classical cryptosystem that takes plaintext and shifts it through the alphabet by a given number of letters.  -EG 
-For example, a shift of 2 would replace all A's with C's, all B's with D's and so on. When you reach the last letters of the alphabet, they are shifted cyclically back to the beginning, so a shift of 2 would send Y to A and Z to B.
+
+For example, a shift of 2 would replace all A's with C's, all B's with D's, etc. When you reach the end of the alphabet, the letters are shifted cyclically back to the beginning. Thus, a shift of 2 would replace Y's with A's and Z's with B's. -AF
 
 === Shift Cipher Encryption ===
 
