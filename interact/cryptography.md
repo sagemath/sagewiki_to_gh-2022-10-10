@@ -126,7 +126,7 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
     plt.yticks(ys)
     plt.xlabel('Letters (Some may be missing)')
     plt.ylabel('Frequency')
-    plt.savefig('netscore.png')
+    plt.show()
 
 }}}
 
