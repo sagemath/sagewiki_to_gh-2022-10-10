@@ -62,7 +62,7 @@ def shift_decrypt(text = input_box('"KL"'), shift_by = input_box(0)):
 == Affine Cipher ==
 by Sarah Arpin, Alexis Newton
 
-An affine cipher combines the idea of a shift cipher with a multiplicative cipher.
+An affine cipher combines the idea of a shift cipher with a multiplicative cipher. In this particular example, we map consecutive letters of the alphabet to consecutive numbers, starting with A=0 (you can also do this cipher differently, and starting with A=1). The user selects two values, a and b. The value a is the multiplier and must be relatively prime to 26 in order to guarantee that each letter is encoded uniquely. The value b is the addend. Each letter's value is multiplied by a, and the product is added to b. This is then replaced with a new letter, corresponding to the result modulo 26. -AF
 
 {{{#!sagecell
 # Last edited 8/7/2019 2:01pm
