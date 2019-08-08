@@ -134,7 +134,7 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 }}}
 
 
-=== Decryption Guesser ===
+=== Frequency Analysis Decryption Guesser ===
 
 Code by Rebecca LaurenMiller, Kate Stange
 
