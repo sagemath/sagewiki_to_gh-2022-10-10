@@ -4,7 +4,7 @@
 
 This page was first created at Sage Days 103, 7-10 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal.
 
-We would also like to acknowledge Katherine Stange, who allowed us to use some of the code from her cryptography course as a starting point for many of these interacts. Dr. Stange's original code can be found at http://crypto.katestange.net/
+We would also like to acknowledge Katherine Stange, who allowed us to use code from her cryptography course as a starting point for many of these interacts. Dr. Stange's original code and course page can be found at http://crypto.katestange.net/
 
 If you have cryptography-related interactions that you are interested in adding to this page, please do so. You can also contact Amy Feaver at firstname.lastname@kingsu.ca  
 
