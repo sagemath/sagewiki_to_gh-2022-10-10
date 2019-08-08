@@ -95,14 +95,14 @@ A special type of substitution cipher in which the plaintext is broken up into t
 
 == Frequency Analysis Tools ==
 
-Frequency analysis is a technique for breaking a substitution cipher that is based on the frequencies that letters appear (in large chunks of text) in the English language. For example, E is the most common letter in the English language, so if a piece of encrypted text had many instances of the letter Q, you would guess that Q had been substituted in for E. 
+Frequency analysis is a technique for breaking a substitution cipher that is based on the frequencies that letters appear (in large chunks of text) in the English language. For example, E is the most common letter in the English language, so if a piece of encrypted text had many instances of the letter Q, you would guess that Q had been substituted in for E. The next two interacts create a couple of basic tools that could be useful in cracking a substitution cipher. -AF
 
 
 === Letter Frequency Counter ===
 
 by Rebecca Lauren Miller, Katherine Stange
 
-#Text From Amy Feaver. 
+This tool looks at the percentage of appearances of each letter in the input text, and plots these percentages. The encrypted input text is a bit strange, but was constructed by Amy Feaver to give a short block text that matched the frequencies of letters in English relatively well, to make this message easier to decrypt. -AF  
 
 {{{#!sagecell
 #Last Edited 8/8/19 at 2:36pm
