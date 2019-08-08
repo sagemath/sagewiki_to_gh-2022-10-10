@@ -202,11 +202,173 @@ def vigenere_cipher(message = input_box(default ="'UEVTEMUHB'", width = 50), cod
 }}}
 
 == Hill Cipher ==
-by Holly Paige Chaos, Rebecca Lauren Miller
+by Holly Paige Chaos, Alexis Newton
+
+{{{#!sagecell
+#Last edited 8/8/19 at 1:47pm
+
+pretty_print(html('<h2>Hill Cipher Encryptor</h2>'))
+print "Please input the size of your key:"
+@interact
+def hill_cipher(Size=['2','3','4']):
+    if Size=='2':
+        print "Please input your message (in quotes) and numbers for your key:"
+        @interact
+        def two_matrix(message=input_box(default='"Alexis smells"'), a=input_box(default=1), b=input_box(default=3), c=input_box(default=3), d=input_box(default=4)):
+            S = AlphabeticStrings()
+            E = HillCryptosystem(S,Size)
+            R = IntegerModRing(26)
+            M = MatrixSpace(R,Size,Size)
+            A = M([[a,b],[c,d]])
+            print "This is your key:"
+            print A
+            invertible = A.is_invertible()
+            if invertible==false:
+                print "WARNING! You will not be able to decrypt this message because your matrix is not invertible."
+            e = E(A)
+            message=E.encoding(message)
+            print "This is your encrypted message:"
+            print e(S(message))
+    if Size=='3':
+        print "Please input your message (in quotes) and the numbers in your square matrix key:"
+        @interact
+        def three_matrix(message=input_box(default='"Alexis smells"'), a=input_box(default=1), b=input_box(default=2), c=input_box(default=3), d=input_box(default=5), e=input_box(default=2), f=input_box(default=6), g=input_box(default=7), h=input_box(default=9), i=input_box(default=9)):
+            S = AlphabeticStrings()
+            E = HillCryptosystem(S,3)
+            R = IntegerModRing(26)
+            M = MatrixSpace(R,3,3)
+            A = M([[a,b,c],[d,e,f],[g,h,i]])
+            print "This is your key:"
+            print A
+            invertible = A.is_invertible()
+            if invertible==false:
+                print "WARNING! You will not be able to decrypt this message because your matrix is not invertible."
+            e = E(A)
+            message=E.encoding(message)
+            print "This is your encrypted message:"
+            print e(S(message))
+    if Size=='4':
+        print "Please input your message (in quotes) and the numbers in your square matrix key:"
+        @interact
+        def four_matrix(message=input_box(default='"Alexis smells"'), a=input_box(default=17), b=input_box(default=8), c=input_box(default=7), d=input_box(default=10), e=input_box(default=0), f=input_box(default=17), g=input_box(default=5), h=input_box(default=8), i=input_box(default=18), j=input_box(default=12), k=input_box(default=6), l=input_box(default=17), m=input_box(default=0), n=input_box(default=15), o=input_box(default=0), p=input_box(default=17)):
+            S = AlphabeticStrings()
+            E = HillCryptosystem(S,4)
+            R = IntegerModRing(26)
+            M = MatrixSpace(R,4,4)
+            A = M([[a,b,c,d],[e,f,g,h],[i,j,k,l],[m,n,o,p]])
+            print "This is your key:"
+            print A
+            invertible = A.is_invertible()
+            if invertible==false:
+                print "WARNING! You will not be able to decrypt this message because your matrix is not invertible."
+            e = E(A)
+            message=E.encoding(message)
+            print "This is your encrypted message:"
+            print e(S(message))
+}}}
 
 
 
 {{{#!sagecell
+#Last edited 8/8/19 at 1:47pm
+pretty_print(html('<h2>Hill Cipher Decryptor</h2>'))
+dictt = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':7,'h':8,
+    'i':9,'j':10,'k':11,'l':12,'m':13,'n':14,'o':15,'p':16,'q':17,
+    'r':18,'s':19,'t':20,'u':21,'v':22,'w':23,'x':24,'y':25,'z':26
+    }
+print "Please select the size of your key:"
+@interact
+def decrypt_hill(size=['2','3','4']):
+    if size=='2':
+        print "Please input your encrypted message and your key:"
+        @interact
+        def two_decrypt(coded_text=input_box(default='"HSVAKSCYLENB"'), a=input_box(default=1), b=input_box(default=3), c=input_box(default=3), d=input_box(default=4)):
+            R = IntegerModRing(26)
+            M = MatrixSpace(R,2,2)
+            a = M([[a,b],[c,d]])
+            print "The key:"
+            print a
+            message = []
+            for char in coded_text:
+                if char.isalpha():
+                    message.append(char.lower())
+            cipher_text = []
+            for i in range(len(message)):
+                cipher_text.append(dictt[message[i]]-1)
+            new_text = []
+            for i in range(len(cipher_text)-1):
+                b = matrix(Integers(26),1,2,[cipher_text[i],cipher_text[i+1]])
+                if i%2 ==0:
+                    x = b*a.inverse()
+                    x.column(0)
+                    for i in x[:][0]:
+                        new_text.append(i)
+            final_text = ""
+            for i in range(len(new_text)):
+                new_text[i]=Integer(new_text[i])
+                final_text += chr(97+new_text[i])
+            print "The decrypted text:"
+            print final_text
+    if size=='3':
+        print "Please input your encrypted message and your key:"
+        @interact
+        def three_decrypt(coded_text=input_box(default='"FGYHQTCSGKYB"'), a=input_box(default=1), b=input_box(default=2), c=input_box(default=3), d=input_box(default=5), e=input_box(default=2), f=input_box(default=6), g=input_box(default=7), h=input_box(default=9), i=input_box(default=9)):
+            R = IntegerModRing(26)
+            M = MatrixSpace(R,3,3)
+            a = M([[a,b,c],[d,e,f],[g,h,i]])
+            print "The key:"
+            print a
+            message = []
+            for char in coded_text:
+                if char.isalpha():
+                    message.append(char.lower())
+            cipher_text = []
+            for i in range(len(message)):
+                cipher_text.append(dictt[message[i]]-1)
+            new_text = []
+            for i in range(len(cipher_text)-2):
+                b = matrix(Integers(26),1,3,[cipher_text[i],cipher_text[i+1],cipher_text[i+2]])
+                if i%3 ==0:
+                    x = b*a.inverse()
+                    x.column(0)
+                    for i in x[:][0]:
+                        new_text.append(i)
+            final_text = ""
+            for i in range(len(new_text)):
+                new_text[i]=Integer(new_text[i])
+                final_text += chr(97+new_text[i])
+            print "The decrypted text:"
+            print final_text
+    if size=='4':
+            print "Please input your encrypted message (In quotes) and your key:"
+            @interact
+            def four_decrypt(coded_text=input_box(default='"UIBBSMUGGXTX"'), a=input_box(default=17), b=input_box(default=8), c=input_box(default=7), d=input_box(default=10), e=input_box(default=0), f=input_box(default=17), g=input_box(default=5), h=input_box(default=8), i=input_box(default=18), j=input_box(default=12), k=input_box(default=6), l=input_box(default=17), m=input_box(default=0), n=input_box(default=15), o=input_box(default=0), p=input_box(default=17)):
+                R = IntegerModRing(26)
+                M = MatrixSpace(R,4,4)
+                a = M([[a,b,c,d],[e,f,g,h],[i,j,k,l],[m,n,o,p]])
+                print "The key:"
+                print a
+                message = []
+                for char in coded_text:
+                    if char.isalpha():
+                        message.append(char.lower())
+                cipher_text = []
+                for i in range(len(message)):
+                    cipher_text.append(dictt[message[i]]-1)
+                new_text = []
+                for i in range(len(cipher_text)-3):
+                    b = matrix(Integers(26),1,4,[cipher_text[i],cipher_text[i+1],cipher_text[i+2],cipher_text[i+3]])
+                    if i%4 ==0:
+                        x = b*a.inverse()
+                        x.column(0)
+                        for i in x[:][0]:
+                            new_text.append(i)
+                final_text = ""
+                for i in range(len(new_text)):
+                    new_text[i]=Integer(new_text[i])
+                    final_text += chr(97+new_text[i])
+                print "The decrypted text:"
+                print final_text
 
 }}}
 
