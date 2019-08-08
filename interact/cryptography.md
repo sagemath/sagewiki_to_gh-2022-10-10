@@ -157,10 +157,11 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
     for i in range(0, len(L1)):
         translator.update({str(L1[i][0]):alphafreq[i]})
         answer=""
+    print "\nThe suggested substitutions, based on letter frequency are:"
     print translator
     for char in englishText:
         answer+= translator[str(char)]
-    print "The suggested translation is:", answer
+    print "\nThe suggested translation is:\n", answer
 }}}
 
 == Vigenère Cipher ==
