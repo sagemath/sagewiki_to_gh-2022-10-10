@@ -93,11 +93,40 @@ A simple cipher to encrypt messages in which each letter is assigned to another 
 A special type of substitution cipher in which the plaintext is broken up into two-letter digraphs with some restrictions. Those digraphs are encrypted using a Polybius square, (i.e. a 5x5 grid in which each letter of the alphabet is its own entry with the exception of ij which are placed together). The positions of the letters in the digraph determine how the digraph is encrypted.
 
 
+== Frequency Analysis Decryption Tool ==
+
+by Rebecca LaurenMiller and Kate Stange. Created as part of Sage Days 103.
+
+#Text From Amy Feaver. 
+
 {{{#!sagecell
+#Last Edited 8/8/19 at 2:36pm
+
+
+print "This interact prints a bar graph of the distribution of the letters in the input text. Warning: the smaller the input text the less accurate the distribution will be. Letters that do not occur will not appear in the graph."
+# Initial text is "Greetiiiings my name is Weeegbert Deuce the True Eater of the Toupee. Hear ye, hear ye! Dee dee dee. A head of these liger cubs carrying the trippy tomahawks are coming fo' thee. Take shelters in the tombs. Tammy ran to the other townspeople and aardvarks. What is her ETA? Her ETA please! Toil, bring your food cups and oil and be swift. The women and the child Occotion CIII should pick bamboo at Atitisoting. See? Nanna Wu Shacah's inner noodle cups: not nuutty sesame notions."
+@interact
+def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl aol Aybl Lhaly vm aol Avbwll. Olhy fl, olhy fl! Kll kll kll. H olhk vm aolzl spnly jbiz jhyyfpun aol aypwwf avthohdrz hyl jvtpun mv aoll. Ahrl zolsalyz pu aol avtiz. Ahttf yhu av aol vaoly avduzwlvwsl huk hhykchyrz. Doha pz oly LAH? Oly LAH wslhzl! Avps, iypun fvby mvvk jbwz huk vps huk il zdpma. Aol dvtlu huk aol jopsk Vjjvapvu JPPP zovbsk wpjr ihtivv ha Hapapzvapun. Zll.Uhuuh Db Zohjho z puuly uvvksl jbwz: uva ubbaaf zlzhtl uvapvuz."', width = 150)):
+    alphabet = AlphabeticStrings()
+    englishText = alphabet.encoding(text)
+    distribution = englishText.frequency_distribution()
+    L1 = englishText.frequency_distribution().function()
+    L1=[x for x in L1.items()]
+    L1.sort(key=lambda x:x[0])
+    labels, ys = zip(*L1)
+    import numpy as np
+    import math 
+    from matplotlib import pyplot as plt
+    xs = np.arange(len(labels)) 
+    plt.bar(xs, ys,  align='center')
+    plt.xticks(xs, labels) #Replace default x-ticks with xs, then replace xs with labels
+    plt.ylim(0,.2)
+    plt.yticks(ys)
+    plt.xlabel('Letters (Some may be missing)')
+    plt.ylabel('Frequency')
+    plt.savefig('netscore.png')
 
 }}}
-
-== Frequency Analysis Decryption Tool ==
 
 {{{#!sagecell
 
