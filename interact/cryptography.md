@@ -2,7 +2,7 @@
 
 
 
-This page was be created at Sage Days 103, 7-10 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal.
+This page was first created at Sage Days 103, 7-10 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal.
 
 We would also like to acknowledge Katherine Stange, who allowed us to use some of the code from her cryptography course as a starting point for many of these interacts. Dr. Stange's original code can be found at http://crypto.katestange.net/
 
@@ -135,14 +135,14 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 }}}
 
 == Vigenère Cipher ==
-by Holly Paige Chaos, Rebecca Lauren Miller, and Kate Stange
+by Holly Paige Chaos, Rebecca Lauren Miller, and Katherine Stange
 
 Using a secret code word, encrypt each letter by shifting it the corresponding letter in the code word. -EG
 
 === Vigenère Cipher Encryption ===
 
 {{{#!sagecell
-#This encrypts your message: Final 8/7/19. Written by Rebecca Lauren Miller, Holly Paige Chaos, Kate Strange.
+#This encrypts your message: Final 8/7/19. Written by Rebecca Lauren Miller, Holly Paige Chaos, Katherine Stange.
 print "Put your message and codeword in quotes: "
 @interact 
 def vigenere_cipher(message = input_box(default ="'secrets hi'", width = 50), code_word = input_box(default="'cat'", width = 50)):
@@ -158,7 +158,7 @@ def vigenere_cipher(message = input_box(default ="'secrets hi'", width = 50), co
 === Vigenère Cipher Decryption ===
 
 {{{#!sagecell
-#This decrypts your message: Final 8/7/19. Written by Rebecca Lauren Miller, Holly Paige Chaos, Kate Strange.
+#This decrypts your message: Final 8/7/19. Written by Rebecca Lauren Miller, Holly Paige Chaos, Katherine Stange.
 print "Put your message and codeword in quotes: "
 @interact 
 def vigenere_cipher(message = input_box(default ="'UEVTEMUHB'", width = 50), code_word = input_box(default="'cat'", width = 50)):
