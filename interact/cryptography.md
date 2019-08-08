@@ -97,7 +97,7 @@ A special type of substitution cipher in which the plaintext is broken up into t
 
 === Letter Frequency Counter ===
 
-by Rebecca Lauren Miller and Katherine Stange. Created as part of Sage Days 103.
+by Rebecca Lauren Miller, Katherine Stange
 
 #Text From Amy Feaver. 
 
@@ -135,7 +135,7 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 }}}
 
 == Vigenère Cipher ==
-by Holly Paige Chaos, Rebecca Lauren Miller, and Katherine Stange
+by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange
 
 Using a secret code word, encrypt each letter by shifting it the corresponding letter in the code word. -EG
 
@@ -172,7 +172,7 @@ def vigenere_cipher(message = input_box(default ="'UEVTEMUHB'", width = 50), cod
 }}}
 
 == Hill Cipher ==
-by Holly Paige Chaos and Rebecca Lauren Miller
+by Holly Paige Chaos, Rebecca Lauren Miller
 
 
 
