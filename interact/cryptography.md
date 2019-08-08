@@ -133,8 +133,34 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 
 }}}
 
-{{{#!sagecell
 
+=== Decryption Guesser ===
+
+Code by Rebecca LaurenMiller, Kate Stange
+
+This interact prints suggested translation of the input text, by matching frequencies of letters in the input to letter frequencies in the English language. With the output you will see that some letters were substituted in correctly, and others were not. Usually frequency analysis requires additional work and some trial and error to discover the original message, especially if the input text is not long enough. 
+
+{{{#!sagecell
+#Last edited 8/8/19 at 2:54pm
+
+print "Warning: the shorter the input text the less accuate the distribution will be."
+@interact 
+# Initial text is "Greetiiiings my name is Weeegbert Deuce the True Eater of the Toupee. Hear ye, hear ye! Dee dee dee. A head of these liger cubs carrying the trippy tomahawks are coming fo' thee. Take shelters in the tombs. Tammy ran to the other townspeople and aardvarks. What is her ETA? Her ETA please! Toil, bring your food cups and oil and be swift. The women and the child Occotion CIII should pick bamboo at Atitisoting. See? Nanna Wu Shacah's inner noodle cups: not nuutty sesame notions."
+def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl aol Aybl Lhaly vm aol Avbwll. Olhy fl, olhy fl! Kll kll kll. H olhk vm aolzl spnly jbiz jhyyfpun aol aypwwf avthohdrz hyl jvtpun mv aoll. Ahrl zolsalyz pu aol avtiz. Ahttf yhu av aol vaoly avduzwlvwsl huk hhykchyrz. Doha pz oly LAH? Oly LAH wslhzl! Avps, iypun fvby mvvk jbwz huk vps huk il zdpma. Aol dvtlu huk aol jopsk Vjjvapvu JPPP zovbsk wpjr ihtivv ha Hapapzvapun. Zll.Uhuuh Db Zohjho z puuly uvvksl jbwz: uva ubbaaf zlzhtl uvapvuz."', width = 150)):
+    alphabet= AlphabeticStrings()
+    englishText =alphabet.encoding(text)
+    L1 = englishText.frequency_distribution().function()
+    L1=[x for x in L1.items()] 
+    L1.sort(key=lambda x:x[1],reverse=True)
+    alphafreq = ['E','T','A','O','I','N','S','H','R','D','L','U','C','M','F','W','Y','P','V','B','G','K','J','Q','X','Z']
+    translator={}
+    for i in range(0, len(L1)):
+        translator.update({str(L1[i][0]):alphafreq[i]})
+        answer=""
+    print translator
+    for char in englishText:
+        answer+= translator[str(char)]
+    print "The suggested translation is:", answer
 }}}
 
 == Vigenère Cipher ==
