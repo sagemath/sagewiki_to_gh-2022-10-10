@@ -379,7 +379,7 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 === Frequency Analysis Decryption Guesser ===
 by Rebecca Lauren Miller, Katherine Stange
 
-This interact prints a suggested translation of the input text by matching frequencies of letters in the input to frequencies of letters in the English language. With the output you will see that some letters were substituted in correctly, and others were not. Usually frequency analysis requires additional work and some trial and error to discover the original message, especially if the input text is not long enough.
+This interact prints a suggested translation of the input text by matching frequencies of letters in the input to frequencies of letters in the English language. With the output you will see that some letters were substituted incorrectly, and others were not. Usually frequency analysis requires additional work and some trial and error to discover the original message, especially if the input text is not long enough.
 
 {{{#!sagecell
 #Last edited 8/8/19 at 2:54pm
@@ -501,7 +501,8 @@ by Holly Paige Chaos, Alexis Newton
 
 {{{#!sagecell
 #Last edited 8/8/19 at 1:47pm
-print "Please input the size of your key:"
+pretty_print(html("<h1>Hill Cipher Encryptor</h1>"))
+print "Please select the size of your key:"
 @interact
 def hill_cipher(Size=['2','3','4']):
     if Size=='2':
