@@ -497,10 +497,10 @@ def one_time_pad(plain_text = input_box("'message'",label="Plain Text:")):
 
 The Hill cipher requires some basic knowledge of Linear Algebra. In this encryption method, an invertible n x n matrix of integers modulo 26 is used as the key. The message is first converted to numbers and spit into chunks size n. These chunks are then converted to n x 1 vectors and multiplied by the key modulo 26 to produce 1 x n vectors. The integers from these vectors are converted back letters to produce the encrypted text.
 
-
 === Hill Cipher Encryption ===
 by Holly Paige Chaos, Alexis Newton
 
+Use this interact to encrypt a message with the Hill cipher. Be sure to use an invertible matrix so that your message can be decrypted!
 
 {{{#!sagecell
 #Last edited 8/8/19 at 1:47pm
@@ -567,6 +567,8 @@ def hill_cipher(Size=['2','3','4']):
 
 === Hill Cipher Decryption ===
 by Holly Paige Chaos, Alexis Newton
+
+Use this interact to decrypt messages encrypted by the Hill cipher. Remember that this only works if the message was encrypted using an invertible matrix as the key!
 
 {{{#!sagecell
 #Last edited 8/8/19 at 1:47pm
