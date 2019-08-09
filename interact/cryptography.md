@@ -829,6 +829,7 @@ This section gives visual representations of the modular arithmetic necessary fo
 
 by Rebecca Lauren Miller, Kate Stange
 
+Given a positive integer n, this prints the multiplication mod n. Each entry in this table corresponds to the product of the row number by the column number, modulo n.
 
 {{{#!sagecell
 #Last edited 8/9/19 at 12:30pm
@@ -845,6 +846,7 @@ def modular_multiplication_tables(n = input_box(default = 7, width = 25)):
 === Modular Exponentiation ===
 
 by Rebecca Lauren Miller, Kate Stange
+
 
 
 {{{#!sagecell
