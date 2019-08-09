@@ -36,6 +36,7 @@ def shift_cipher(message = input_box(default='"secrets"', width = 50), shift=sli
     print C
 }}}
 
+
 === Shift Cipher Decryption ===
 
 If you know that your message was encrypted using a shift cipher, you can use the known shift value to decrypt. If this is not known, brute force can be used to get 26 possible decrypted messages. 
@@ -113,10 +114,99 @@ A simple cipher to encrypt messages in which each letter is assigned to another 
 
 }}}
 
-=== Playfair Cipher ===
+== Playfair Cipher ==
 
-A special type of substitution cipher in which the plaintext is broken up into two-letter digraphs with some restrictions. Those digraphs are encrypted using a Polybius square, (i.e. a 5x5 grid in which each letter of the alphabet is its own entry with the exception of ij which are placed together). The positions of the letters in the digraph determine how the digraph is encrypted.
+by Catalina Camacho-Navarro
 
+Based on code from Alasdair McAndrew  at //trac.sagemath.org/ticket/8559
+
+A special type of substitution cipher in which the plaintext is broken up into two-letter digraphs with some restrictions. Those digraphs are encrypted using a Polybius square, (i.e. a 5x5 grid in which each letter of the alphabet is its own entry with the exception of ij which are placed together). The positions of the letters in the digraph determine how the digraph is encrypted. -EF
+
+{{{#!sagecell
+##PLAYFAIR CIPHER
+
+def change_to_plain_text(pl):
+    plaintext=''
+    for ch in pl:
+        if ch.isalpha():
+            plaintext+=ch.upper()
+    return plaintext
+
+def makePF(word1): #creates 5 x 5 Playfair array beginning with "word"
+    word=change_to_plain_text(word1)
+    alph='ABCDEFGHIKLMNOPQRSTUVWXYZ'
+    pf=''
+    for ch in word:
+        if (ch<>"J") & (pf.find(ch)==-1):  # ensures no letter is repeated
+            pf+=ch
+    for ch in alph:
+        if pf.find(ch)==-1:  #only uses unused letters from alph
+            pf+=ch
+    PF=[[pf[5*i+j] for j in range(5)] for i in range(5)]
+    return PF
+
+def pf_encrypt(di,PF): # encrypts a digraph di with a Playfair array PF
+    for i in range(5):
+        for j in range(5):
+            if PF[i][j]==di[0]:
+                i0=i
+                j0=j
+            if PF[i][j]==di[1]:
+                i1=i
+                j1=j
+    if (i0<>i1) & (j0<>j1):
+        return PF[i0][j1]+PF[i1][j0]
+    if (i0==i1) & (j0<>j1):
+        return PF[i0][(j0+1)%5]+PF[i1][(j1+1)%5]
+    if (i0<>i1) & (j0==j1):
+        return PF[(i0+1)%5][j0]+PF[(i1+1)%5][j1]
+
+def insert(ch,str,j):  # a helper function: inserts a character "ch" into
+    tmp=''             # a string "str" at position j
+    for i in range(j):
+        tmp+=str[i]
+    tmp+=ch
+    for i in range(len(str)-j):
+        tmp+=str[i+j]
+    return tmp
+
+
+def playfair(pl1,word): # encrypts a plaintext "pl" with a Playfair cipher 
+    pl=change_to_plain_text(pl1)
+    PF=makePF(word)    # using a keyword "word"
+    pl2=makeDG(pl)
+    tmp=''
+    for i in range(len(pl2)//2):
+        tmp+=pf_encrypt(pl2[2*i]+pl2[2*i+1],PF)
+    return tmp
+
+def makeDG(str): # creates digraphs with different values from a string "str"
+    tmp=str.replace('J','I')  # replace all 'J's with 'I's
+    c=len(tmp)
+    i=0
+    while (c>0) & (2*i+1<len(tmp)):
+        if tmp[2*i]==tmp[2*i+1]:
+            tmp=insert("X",tmp,2*i+1)
+            c-=1
+            i+=1
+        else:
+            c-=2
+            i+=1
+    if len(tmp)%2==1:
+        tmp+='X'
+    return tmp
+
+print('Enter your message and the key to construct you polybius square. Warning: both the message and the key must be in quotes.')
+@interact
+def _(Message=input_box(default="'message'"),Key=input_box(default="'key'"),showmatrix=checkbox(True, label='Show polybius square')):
+    
+    if showmatrix:
+        poly=makePF(Key)
+        for i in range(5):
+            print(poly[i])
+    
+    print '\nCiphertext:',playfair(Message,Key)
+}}}
 
 == Frequency Analysis Tools ==
 
