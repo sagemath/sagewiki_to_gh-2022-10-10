@@ -1,1 +1,1 @@
-[[https://wiki.sagemath.org/interact/cryptography|this]]
+[[https://wiki.sagemath.org/interact/cryptography|New interactive crypto page]]
