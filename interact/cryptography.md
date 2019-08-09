@@ -541,6 +541,7 @@ Babette has sent Alice an encrypted message. You , as Alice, will provide inform
 {{{#!sagecell
 #Last edited 8/8/19 at 11:42am
 print "Hi, Alice! Let's set up RSA together."
+@interact
 go = True
 while go:
     p = ZZ(raw_input("Provide a SECRET decently large prime (>10): "))
@@ -570,7 +571,6 @@ while go:
     e = ZZ(raw_input("Provide a PUBLIC exponent that is relatively prime to phi(N):"))
     if gcd(e,phi) == 1:
         go = False
-@interact
 def rsa():
     N = p*q
     R = IntegerModRing(phi)
