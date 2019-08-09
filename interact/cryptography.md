@@ -120,7 +120,153 @@ by Catalina Camacho-Navarro
 A substitution cipher encrypts messages by assigning each letter of the alphabet to another letter. For instance, if A is assigned to F, then all A's in the original message will be substituted with F's in the encrypted message. Brute force or frequency analysis can be used to decrypt a message encrypted with a substitution cipher.
 
 {{{#!sagecell
+pretty_print(html('<h1> Substitution Cipher'))
+print "Enter your message inside the quotes and select your substitution."
+from string import ascii_uppercase
+left_over_letters=[0] +[let for let in ascii_uppercase]
+@interact
+def _(text=input_box(default="'MESSAGE'",label="Message"),A =selector(left_over_letters, default=0)):
+    if A!=0:
+        left_over_letters.remove(A)
+ #       print left_over_letters
+    
+        @interact
+        def _(B =selector(left_over_letters, default=0)):
+            if B!=0:
+                left_over_letters.remove(B)
+ #               print left_over_letters
+        
+                @interact
+                def _(C =selector(left_over_letters, default=0)):
+                    if C!=0:
+                        left_over_letters.remove(C)
+                        @interact
+                        def _(D =selector(left_over_letters, default=0)):
+                            if D!=0:
+                                left_over_letters.remove(D)
+                                @interact
+                                def _(E =selector(left_over_letters, default=0)):
+                                    if E!=0:
+                                        left_over_letters.remove(E)
 
+                                        @interact
+                                        def _(F =selector(left_over_letters, default=0)):
+                                            if F!=0:
+                                                left_over_letters.remove(F)
+
+                                                @interact
+                                                def _(G =selector(left_over_letters, default=0)):
+                                                    if G!=0:
+                                                        left_over_letters.remove(G)
+
+                                                        @interact
+                                                        def _(H =selector(left_over_letters, default=0)):
+                                                            if H!=0:
+                                                                left_over_letters.remove(H)
+
+                                                                @interact
+                                                                def _(I =selector(left_over_letters, default=0)):
+                                                                    if I!=0:
+                                                                        left_over_letters.remove(I)
+
+                                                                        @interact
+                                                                        def _(J =selector(left_over_letters, default=0)):
+                                                                            if J!=0:
+                                                                                left_over_letters.remove(J)
+
+                                                                                @interact
+                                                                                def _(K =selector(left_over_letters, default=0)):
+                                                                                    if K!=0:
+                                                                                        left_over_letters.remove(K)
+                                                                                        @interact
+                                                                                        def _(L =selector(left_over_letters, default=0)):
+                                                                                            if L!=0:
+                                                                                                left_over_letters.remove(L)
+
+                                                                                                @interact
+                                                                                                def _(M =selector(left_over_letters, default=0)):
+                                                                                                    if M!=0:
+                                                                                                        left_over_letters.remove(M)
+
+                                                                                                        @interact
+                                                                                                        def _(N =selector(left_over_letters, default=0)):
+                                                                                                            if N!=0:
+                                                                                                                left_over_letters.remove(N)
+
+                                                                                                                @interact
+                                                                                                                def _(O =selector(left_over_letters, default=0)):
+                                                                                                                    if O!=0:
+                                                                                                                        left_over_letters.remove(O)
+
+                                                                                                                        @interact
+                                                                                                                        def _(P =selector(left_over_letters, default=0)):
+                                                                                                                            if P!=0:
+                                                                                                                                left_over_letters.remove(P)
+
+                                                                                                                                @interact
+                                                                                                                                def _(Q =selector(left_over_letters, default=0)):
+                                                                                                                                    if Q!=0:
+                                                                                                                                        left_over_letters.remove(Q)
+
+
+                                                                                                                                        @interact
+                                                                                                                                        def _(R =selector(left_over_letters, default=0)):
+                                                                                                                                            if R!=0:
+                                                                                                                                                left_over_letters.remove(R)
+
+                                                                                                                                                @interact
+                                                                                                                                                def _(S =selector(left_over_letters, default=0)):
+                                                                                                                                                    if S!=0:
+                                                                                                                                                        left_over_letters.remove(S)
+
+                                                                                                                                                        @interact
+                                                                                                                                                        def _(T =selector(left_over_letters, default=0)):
+                                                                                                                                                            if T!=0:
+                                                                                                                                                                left_over_letters.remove(T)
+
+                                                                                                                                                                @interact
+                                                                                                                                                                def _(U =selector(left_over_letters, default=0)):
+                                                                                                                                                                    if U!=0:
+                                                                                                                                                                        left_over_letters.remove(U)
+
+                                                                                                                                                                        @interact
+                                                                                                                                                                        def _(V =selector(left_over_letters, default=0)):
+                                                                                                                                                                            if V!=0:
+                                                                                                                                                                                left_over_letters.remove(V)
+
+                                                                                                                                                                                @interact
+                                                                                                                                                                                def _(W =selector(left_over_letters, default=0)):
+                                                                                                                                                                                    if W!=0:
+                                                                                                                                                                                        left_over_letters.remove(W)
+
+                                                                                                                                                                                        @interact
+                                                                                                                                                                                        def _(X =selector(left_over_letters, default=0)):
+                                                                                                                                                                                            if X!=0:
+                                                                                                                                                                                                left_over_letters.remove(X)
+
+                                                                                                                                                                                                @interact
+                                                                                                                                                                                                def _(Y =selector(left_over_letters, default=0)):
+                                                                                                                                                                                                    if Y!=0:
+                                                                                                                                                                                                        left_over_letters.remove(Y)
+
+                                                                                                                                                                                                        @interact
+                                                                                                                                                                                                        def _(Z =selector(left_over_letters, default=0)):
+                                                                                                                                                                                                            if Z!=0:
+                                                                                                                                                                                                                left_over_letters.remove(Z)
+
+
+
+
+                                                                                                                
+                                                                                                                                                                                                                new_ordering=[A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z];
+                                                                                                                                                                                                                new_key=[ord(new_ordering[i])-65 for i in range(26)]
+                                                                                                                                                                                                                alphabet=AlphabeticStrings()
+                                                                                                                                                                                                                Es=SubstitutionCryptosystem(alphabet)
+                                                                                                                                                                                                                Key = alphabet(new_key)
+                                                                                                                                                                                                                e = Es(Key)
+                                                                                                                                                                                                                TEXT0=text
+                                                                                                                                                                                                                TEXT=alphabet.encoding(TEXT0)
+                                                                                                                                                                                                                print "Ciphertext:", e(TEXT)
 
 }}}
 
