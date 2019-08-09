@@ -654,6 +654,7 @@ Use this interact to encrypt a message with the Hill cipher. Be sure to use an i
 #Last edited 8/8/19 at 1:47pm
 pretty_print(html("<h1>Hill Cipher Encryptor</h1>"))
 print "Please select the size of your key:"
+print "       "
 @interact
 def hill_cipher(Size=['2','3','4']):
     if Size=='2':
@@ -725,6 +726,7 @@ dictt = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':7,'h':8,
     'r':18,'s':19,'t':20,'u':21,'v':22,'w':23,'x':24,'y':25,'z':26
     }
 print "Please select the size of your key:"
+print "       "
 @interact
 def decrypt_hill(size=['2','3','4']):
     if size=='2':
