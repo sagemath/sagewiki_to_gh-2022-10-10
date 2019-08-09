@@ -945,6 +945,7 @@ Babette sent Alice an encrypted message. You, as Alice, will provide information
 
 {{{#!sagecell
 #Last edited 8/9/19 at 1:53pm
+pretty_print(html("<h1>RSA, From Alice's Perspective</h1>"))
 print "Hi, Alice! Let's set up RSA together."
 print ""
 print "1. Input two PRIVATE distinct primes, p and q, that are each greater than 10."
@@ -1022,6 +1023,7 @@ by Sarah Arpin, Eva Goedhart
 
 {{{#!sagecell
 #Last edited 8/9/19 2:40pm
+pretty_print(html("<h1>RSA, From Babette's Perspective</h1>"))
 print "Hi, Babette! Let's send a message to Alice using her PUBLIC key (N, e) with RSA."
 print ""
 print "1. Input Babette's secret message for Alice in between the quotation marks below."
