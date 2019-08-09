@@ -413,10 +413,11 @@ A Vigenère cipher is an example of a polyalphabetic cipher. Using a secret code
 === Vigenère Cipher Encryption ===
 by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange
 
+Use this interact to encrypt a message using the Vigenère Cipher.
+
 {{{#!sagecell
 #This encrypts your message: Final 8/7/19. Written by Rebecca Lauren Miller, Holly Paige Chaos, Katherine Stange.
 
-Use this interact to encrypt a message using the Vigenère Cipher.
 
 pretty_print(html("<h1>Vigenère Cipher Encryptor</h1>"))
 print "Put your message and codeword inside the quotes: "
