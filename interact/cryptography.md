@@ -2,7 +2,7 @@
 
 
 
-This page was first created at Sage Days 103, 7-10 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal. Text edited by Amy Feaver, Eva Goedhart, and Alexis Newton. This project was led by Amy Feaver.
+This page was first created at Sage Days 103, 7-10 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal. Text edited by Holly Paige Chaos, Amy Feaver, Eva Goedhart, and Alexis Newton. This project was led by Amy Feaver.
 
 We acknowledge Katherine Stange, who allowed us to use code from her cryptography course as a starting point for many of these interacts. Dr. Stange's original code and course page can be found at http://crypto.katestange.net/
 
@@ -21,10 +21,11 @@ The shift cipher is a classical cryptosystem that takes plaintext and shifts it 
 === Shift Cipher Encryption ===
 by Sarah Arpin, Alexis Newton
 
-You can use this interact to encrypt a message with the a shift cipher.
+You can use this interact to encrypt a message with a shift cipher.
 
 {{{#!sagecell
 #Last edited 8/7/19 2:45pm
+pretty_print(html("<h1>Shift Cipher Encryptor</h1>"))
 print "Put your message inside the provided quotes (with no additional quotes or apostrophes!), and select your desired shift: "
 @interact
 def shift_cipher(message = input_box(default='"secrets"', width = 50), shift=slider(0,25,1,3)):
@@ -45,6 +46,7 @@ If you know that your message was encrypted using a shift cipher, you can use th
 {{{#!sagecell
 #Last edited 8/7/19 2:56pm
 
+pretty_print(html("<h1>Shift Cipher Decryptor</h1>"))
 print "Enter the encrypted text in quotes, and enter a guess for the shift amount:"
 @interact
 def shift_decrypt(text = input_box('"KL"'), shift_by = input_box(0)):
@@ -73,6 +75,8 @@ You can use this interact to encrypt a message with the affine cipher. Notice th
 
 {{{#!sagecell
 # Last edited 8/7/2019 2:01pm
+
+pretty_print(html("<h1>Affine Cipher Encryptor</h1>"))
 print "Put your message in between the provided quotes (with no additional quotes or apostrophes!), and select your desired a and b: "
 @interact
 def affine_cipher(message = input_box(default='"secrets"', width = 50), a=[1,3,5,7,9,11,15,17,19,21,23], b =[0..25]):
@@ -92,6 +96,7 @@ If you know that your message was encrypted using an affine cipher, you can use 
 
 {{{#!sagecell
 #Last edited 8/7/2019 3:01pm
+pretty_print(html("<h1>Affine Cipher Decryptor</h1>"))
 print "Enter the encrypted text in quotes, and enter a guess for the a and b:"
 @interact
 def shift_decrypt(text = input_box('"XNSILPCVA"'), a=[1,3,5,7,9,11,15,17,19,21,23,25], b =[0..25]):
@@ -123,9 +128,9 @@ A substitution cipher encrypts messages by assigning each letter of the alphabet
 
 by Catalina Camacho-Navarro
 
-Based on code from Alasdair McAndrew at trac.sagemath.org/ticket/8559
+Based on code from Alasdair McAndrew at trac.sagemath.org/ticket/8559.
 
-A special type of substitution cipher in which the plaintext is broken up into two-letter digraphs with some restrictions. Those digraphs are encrypted using a Polybius square, (i.e. a 5x5 grid in which each letter of the alphabet is its own entry with the exception of ij which are placed together). The positions of the letters in the digraph determine how the digraph is encrypted. -EF
+A playfair cipher is a special type of substitution cipher in which the plaintext is broken up into two-letter digraphs with some restrictions. Those digraphs are encrypted using a Polybius square, (i.e. a 5x5 grid in which each letter of the alphabet is its own entry with the exception of ij which are placed together). The positions of the letters in the digraph determine how the digraph is encrypted.
 
 {{{#!sagecell
 ##PLAYFAIR CIPHER
@@ -201,6 +206,7 @@ def makeDG(str): # creates digraphs with different values from a string "str"
         tmp+='X'
     return tmp
 
+pretty_print(html("<h1>Playfair Cipher Encryptor</h1>"))
 print('Enter your message and the key to construct you polybius square. Warning: both the message and the key must be in quotes.')
 @interact
 def _(Message=input_box(default="'message'"),Key=input_box(default="'key'"),showmatrix=checkbox(True, label='Show polybius square')):
@@ -215,20 +221,21 @@ def _(Message=input_box(default="'message'"),Key=input_box(default="'key'"),show
 
 == Frequency Analysis Tools ==
 
-Frequency analysis is a technique for breaking a substitution cipher that is based on the frequencies that letters appear (in large chunks of text) in the English language. For example, E is the most common letter in the English language, so if a piece of encrypted text had many instances of the letter Q, you would guess that Q had been substituted in for E. The next two interacts create a couple of basic tools that could be useful in cracking a substitution cipher. -AF
+Frequency analysis is a technique for breaking a substitution cipher that is based on the frequencies that letters appear in the English language. For example, E is the most common letter in the English language, so if a piece of encrypted text had many instances of the letter Q, you would guess that Q had been substituted in for E. The next two interacts create a couple of basic tools that could be useful in cracking a substitution cipher. 
 
 
 === Letter Frequency Counter ===
 by Rebecca Lauren Miller, Katherine Stange
 
-This tool looks at the percentage of appearances of each letter in the input text, and plots these percentages. The encrypted input text is a bit strange, but was constructed by Amy Feaver to give a short block text that matched the frequencies of letters in English relatively well, to make this message easier to decrypt. -AF  
+This tool looks at the percentage of appearances of each letter in the input text and plots these percentages. The encrypted input text is a bit strange, but was constructed by Amy Feaver to give a short block text that matched the frequencies of letters in the English language relatively well, to make this message easier to decrypt.
 
 {{{#!sagecell
 #Last Edited 8/8/19 at 2:36pm
 
-
+pretty_print(html("<h1>Frequency Analysis Distribution</h1>"))
 print "This interact prints a bar graph of the distribution of the letters in the input text. Warning: the smaller the input text the less accurate the distribution will be. Letters that do not occur will not appear in the graph."
 # Initial text is "Greetiiiings my name is Weeegbert Deuce the True Eater of the Toupee. Hear ye, hear ye! Dee dee dee. A head of these liger cubs carrying the trippy tomahawks are coming fo' thee. Take shelters in the tombs. Tammy ran to the other townspeople and aardvarks. What is her ETA? Her ETA please! Toil, bring your food cups and oil and be swift. The women and the child Occotion CIII should pick bamboo at Atitisoting. See? Nanna Wu Shacah's inner noodle cups: not nuutty sesame notions."
+
 @interact
 def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl aol Aybl Lhaly vm aol Avbwll. Olhy fl, olhy fl! Kll kll kll. H olhk vm aolzl spnly jbiz jhyyfpun aol aypwwf avthohdrz hyl jvtpun mv aoll. Ahrl zolsalyz pu aol avtiz. Ahttf yhu av aol vaoly avduzwlvwsl huk hhykchyrz. Doha pz oly LAH? Oly LAH wslhzl! Avps, iypun fvby mvvk jbwz huk vps huk il zdpma. Aol dvtlu huk aol jopsk Vjjvapvu JPPP zovbsk wpjr ihtivv ha Hapapzvapun. Zll.Uhuuh Db Zohjho z puuly uvvksl jbwz: uva ubbaaf zlzhtl uvapvuz."', width = 150)):
     alphabet = AlphabeticStrings()
@@ -256,12 +263,13 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 === Frequency Analysis Decryption Guesser ===
 by Rebecca Lauren Miller, Katherine Stange
 
-This interact prints suggested translation of the input text, by matching frequencies of letters in the input to letter frequencies in the English language. With the output you will see that some letters were substituted in correctly, and others were not. Usually frequency analysis requires additional work and some trial and error to discover the original message, especially if the input text is not long enough. -AF 
+This interact prints a suggested translation of the input text by matching frequencies of letters in the input to letter frequencies in the English language. With the output you will see that some letters were substituted in correctly, and others were not. Usually frequency analysis requires additional work and some trial and error to discover the original message, especially if the input text is not long enough.
 
 {{{#!sagecell
 #Last edited 8/8/19 at 2:54pm
 
-print "Warning: the shorter the input text the less accuate the distribution will be."
+pretty_print(html("<h1>Frequency Analysis Decryption Guesser</h1>"))
+print "Warning: the shorter the input text is, the less accuate the distribution will be."
 @interact 
 # Initial text is "Greetiiiings my name is Weeegbert Deuce the True Eater of the Toupee. Hear ye, hear ye! Dee dee dee. A head of these liger cubs carrying the trippy tomahawks are coming fo' thee. Take shelters in the tombs. Tammy ran to the other townspeople and aardvarks. What is her ETA? Her ETA please! Toil, bring your food cups and oil and be swift. The women and the child Occotion CIII should pick bamboo at Atitisoting. See? Nanna Wu Shacah's inner noodle cups: not nuutty sesame notions."
 def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl aol Aybl Lhaly vm aol Avbwll. Olhy fl, olhy fl! Kll kll kll. H olhk vm aolzl spnly jbiz jhyyfpun aol aypwwf avthohdrz hyl jvtpun mv aoll. Ahrl zolsalyz pu aol avtiz. Ahttf yhu av aol vaoly avduzwlvwsl huk hhykchyrz. Doha pz oly LAH? Oly LAH wslhzl! Avps, iypun fvby mvvk jbwz huk vps huk il zdpma. Aol dvtlu huk aol jopsk Vjjvapvu JPPP zovbsk wpjr ihtivv ha Hapapzvapun. Zll.Uhuuh Db Zohjho z puuly uvvksl jbwz: uva ubbaaf zlzhtl uvapvuz."', width = 150)):
@@ -284,11 +292,11 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 
 == Vigenère Cipher ==
 
- A Vigenère cipher is an example of a polyalpha- betic cipher. Using a secret code word, encrypt each letter by shifting it the corresponding letter in the code word.
+A Vigenère cipher is an example of a polyalphabetic cipher. Using a secret code word, encrypt each letter by shifting it the corresponding letter in the code word.
 
- For our default text ‘ SECRETS HI’ we use the code word ‘CAT’.    
+For our default text ‘ SECRETS HI’ we use the code word ‘CAT’.    
 
-We will breaks up the message  into three-letter chunks, because our codeword is three letters.  So SEC RET SHI.
+We will breaks up the message into three-letter chunks, because our codeword is three letters.  So SEC RET SHI.
 
 The standard is that a=0 b=1, c=2,…etc. So S shift by C=2 letters to U. E will shift by  A= 0 letters and remain at E. C will shift by T=19 letters to V, and so on.
 
