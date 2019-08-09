@@ -77,7 +77,7 @@ You can use this interact to encrypt a message with the affine cipher. Notice th
 # Last edited 8/7/2019 2:01pm
 
 pretty_print(html("<h1>Affine Cipher Encryptor</h1>"))
-print "Put your message in between the provided quotes (with no additional quotes or apostrophes!), and select your desired a and b: "
+pretty_print(html("<h>Put your message in between the provided quotes (with no additional quotes or apostrophes!), and select your desired a and b:<h>"))
 @interact
 def affine_cipher(message = input_box(default='"secrets"', label="Message:"), a=[1,3,5,7,9,11,15,17,19,21,23], b =[0..25]):
     A = AlphabeticStrings()
@@ -97,7 +97,7 @@ If you know that your message was encrypted using an affine cipher, you can use 
 {{{#!sagecell
 #Last edited 8/7/2019 3:01pm
 pretty_print(html("<h1>Affine Cipher Decryptor</h1>"))
-print "Enter the encrypted text in quotes, and enter a guess for the a and b:"
+pretty_print(html("<h>Enter the encrypted text in quotes, and enter a guess for the a and b:<h>"))
 @interact
 def shift_decrypt(text = input_box('"XNSILPCVA"', label="Message:"), a=[1,3,5,7,9,11,15,17,19,21,23,25], b =[0..25]):
     S = AffineCryptosystem(AlphabeticStrings())
@@ -121,7 +121,7 @@ A substitution cipher encrypts messages by assigning each letter of the alphabet
 
 {{{#!sagecell
 pretty_print(html('<h1> Substitution Cipher'))
-print "Select your letter substitutions and enter your message in quotes."
+pretty_print(html("<h>Select your letter substitutions and enter your message inside the quotes.<h>"))
 from string import ascii_uppercase
 left_over_letters=[0] +[let for let in ascii_uppercase]
 @interact
@@ -356,7 +356,7 @@ def makeDG(str): # creates digraphs with different values from a string "str"
     return tmp
 
 pretty_print(html("<h1>Playfair Cipher Encryptor</h1>"))
-print('Enter your message and the key to construct you polybius square. Warning: both the message and the key must be in quotes.')
+pretty_print(html("<h>Enter your message and the key to construct you polybius square. Warning: both the message and the key must be in quotes.<h>"))
 @interact
 def _(Message=input_box(default='"message"', label="Message:"),Key=input_box(default='"key"', label="Key:"),showmatrix=checkbox(True, label='Show polybius square:')):
     
@@ -470,8 +470,7 @@ def playfair_decrypt_options(pl): ##Modifies the output of the playfair_decrypt 
     return([pl,pl_noI,pl_noX,pl_no_last_X])    
 
 pretty_print(html("<h1>Playfair Cipher Decryptor</h1>"))
-print 'Enter your ciphertext and a guess for the key to construct you polybius square.'
-print 'Warning: both the message and the key must be in quotes.'
+pretty_print(html("<h>Enter your ciphertext and a guess for the key to construct you polybius square. Warning: both the message and the key must be in quotes.<h>"))
 @interact
 def _(Ciphertext=input_box(default='"LYXAXGDA"', label="Message:"),Key=input_box(default='"key"', label='Guess key:'),showmatrix=checkbox(True, label='Show polybius square:')):
     print 'These are some of the possibilities for the plaintext:'
@@ -497,11 +496,11 @@ This tool looks at the percentage of appearances of each letter in the input tex
 #Last Edited 8/8/19 at 2:36pm
 
 pretty_print(html("<h1>Letter Frequency Counter</h1>"))
-print "This interact prints a bar graph showing the distribution of letters in the input text. Warning: the smaller the input text the less accurate the distribution will be. Letters that do not occur will not appear in the graph."
+pretty_print(html("<h>This interact prints a bar graph showing the distribution of letters in the input text. Warning: the smaller the input text the less accurate the distribution will be. Letters that do not occur will not appear in the graph.<h>"))
 # Initial text is "Greetiiiings my name is Weeegbert Deuce the True Eater of the Toupee. Hear ye, hear ye! Dee dee dee. A head of these liger cubs carrying the trippy tomahawks are coming fo' thee. Take shelters in the tombs. Tammy ran to the other townspeople and aardvarks. What is her ETA? Her ETA please! Toil, bring your food cups and oil and be swift. The women and the child Occotion CIII should pick bamboo at Atitisoting. See? Nanna Wu Shacah's inner noodle cups: not nuutty sesame notions."
 
 @interact
-def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl aol Aybl Lhaly vm aol Avbwll. Olhy fl, olhy fl! Kll kll kll. H olhk vm aolzl spnly jbiz jhyyfpun aol aypwwf avthohdrz hyl jvtpun mv aoll. Ahrl zolsalyz pu aol avtiz. Ahttf yhu av aol vaoly avduzwlvwsl huk hhykchyrz. Doha pz oly LAH? Oly LAH wslhzl! Avps, iypun fvby mvvk jbwz huk vps huk il zdpma. Aol dvtlu huk aol jopsk Vjjvapvu JPPP zovbsk wpjr ihtivv ha Hapapzvapun. Zll.Uhuuh Db Zohjho z puuly uvvksl jbwz: uva ubbaaf zlzhtl uvapvuz."', width = 150)):
+def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl aol Aybl Lhaly vm aol Avbwll. Olhy fl, olhy fl! Kll kll kll. H olhk vm aolzl spnly jbiz jhyyfpun aol aypwwf avthohdrz hyl jvtpun mv aoll. Ahrl zolsalyz pu aol avtiz. Ahttf yhu av aol vaoly avduzwlvwsl huk hhykchyrz. Doha pz oly LAH? Oly LAH wslhzl! Avps, iypun fvby mvvk jbwz huk vps huk il zdpma. Aol dvtlu huk aol jopsk Vjjvapvu JPPP zovbsk wpjr ihtivv ha Hapapzvapun. Zll.Uhuuh Db Zohjho z puuly uvvksl jbwz: uva ubbaaf zlzhtl uvapvuz."', width = 150,label = "Message:")):
     alphabet = AlphabeticStrings()
     englishText = alphabet.encoding(text)
     distribution = englishText.frequency_distribution()
@@ -533,7 +532,7 @@ This interact prints a suggested translation of the input text by matching frequ
 #Last edited 8/8/19 at 2:54pm
 
 pretty_print(html("<h1>Frequency Analysis Decryption Guesser</h1>"))
-print "Warning: the shorter the input text is, the less accurate the distribution will be."
+pretty_print(html("<h>Warning: the shorter the input text is, the less accurate the distribution will be.<h>"))
 @interact 
 # Initial text is "Greetiiiings my name is Weeegbert Deuce the True Eater of the Toupee. Hear ye, hear ye! Dee dee dee. A head of these liger cubs carrying the trippy tomahawks are coming fo' thee. Take shelters in the tombs. Tammy ran to the other townspeople and aardvarks. What is her ETA? Her ETA please! Toil, bring your food cups and oil and be swift. The women and the child Occotion CIII should pick bamboo at Atitisoting. See? Nanna Wu Shacah's inner noodle cups: not nuutty sesame notions."
 def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl aol Aybl Lhaly vm aol Avbwll. Olhy fl, olhy fl! Kll kll kll. H olhk vm aolzl spnly jbiz jhyyfpun aol aypwwf avthohdrz hyl jvtpun mv aoll. Ahrl zolsalyz pu aol avtiz. Ahttf yhu av aol vaoly avduzwlvwsl huk hhykchyrz. Doha pz oly LAH? Oly LAH wslhzl! Avps, iypun fvby mvvk jbwz huk vps huk il zdpma. Aol dvtlu huk aol jopsk Vjjvapvu JPPP zovbsk wpjr ihtivv ha Hapapzvapun. Zll.Uhuuh Db Zohjho z puuly uvvksl jbwz: uva ubbaaf zlzhtl uvapvuz."', width = 150)):
@@ -568,9 +567,9 @@ Use this interact to encrypt a message using the Vigenère Cipher.
 
 
 pretty_print(html("<h1>Vigenère Cipher Encryptor</h1>"))
-print "Put your message and codeword inside the quotes: "
+pretty_print(html("<h>"Put your message and codeword inside the quotes:<h>"))
 @interact 
-def vigenere_cipher(message = input_box(default ="'secrets hi'", width = 50), code_word = input_box(default="'cat'", width = 50)):
+def vigenere_cipher(message = input_box(default ="'secrets hi'",label="Message:"), code_word = input_box(default="'cat'",label="Key:")):
     A = AlphabeticStrings()
     message2 = A.encoding(message) 
     code_word2 = A.encoding(code_word) 
@@ -589,9 +588,9 @@ If you used the Vigenère Cipher to encrypt a message, you can use this interact
 #Last edited 8/7/19 at 12:00pm
 
 pretty_print(html("<h1>Vigenère Cipher Decryptor</h1>"))
-print "Put your encrypted message and codeword inside the quotes: "
+pretty_print(html("<h>Put your encrypted message and codeword inside the quotes:<h>"))
 @interact 
-def vigenere_cipher(message = input_box(default ="'UEVTEMUHB'", width = 50), code_word = input_box(default="'cat'", width = 50)):
+def vigenere_cipher(message = input_box(default ="'UEVTEMUHB'",label = "Message:"), code_word = input_box(default="'cat'", label = "Key:")):
     A = AlphabeticStrings()
     message2 = A.encoding(message) 
     code_word2 = A.encoding(code_word) 
@@ -616,9 +615,9 @@ dictt = {'a':0,'b':1,'c':2,'d':3,'e':4,'f':5,'g':6,'h':7,
     'r':17,'s':18,'t':19,'u':20,'v':21,'w':22,'x':23,'y':24,'z':25
     }
 pretty_print(html("<h1>One-Time Pad Encryptor</h1>"))
-print "Enter your message to be encrypted via one-time pad in the Plain Text box below:"
+pretty_print(html("<h>Enter your message to be encrypted via one-time pad in the Plain Text box below:<h>"))
 @interact
-def one_time_pad(plain_text = input_box("'message'",label="Plain Text:")):
+def one_time_pad(plain_text = input_box("'message'",label="Message:")):
     #This code takes in a plain text, converts all of the letters to numbers, and then creates a one-time pad for encryption
     message = []
     for char in plain_text:
@@ -653,14 +652,13 @@ Use this interact to encrypt a message with the Hill cipher. Be sure to use an i
 {{{#!sagecell
 #Last edited 8/8/19 at 1:47pm
 pretty_print(html("<h1>Hill Cipher Encryptor</h1>"))
-print "Please select the size of your key:"
-print "       "
+pretty_print(html("<h>Please select the size of your key:<h>"))
 @interact
 def hill_cipher(Size=['2','3','4']):
     if Size=='2':
         print "Please input your message (in quotes) and numbers for your key:"
         @interact
-        def two_matrix(message=input_box(default='"Alexis smells"'), a=input_box(default=1), b=input_box(default=3), c=input_box(default=3), d=input_box(default=4)):
+        def two_matrix(message=input_box(default='"Alexis smells"',label = "Message:"), a=input_box(default=1), b=input_box(default=3), c=input_box(default=3), d=input_box(default=4)):
             S = AlphabeticStrings()
             E = HillCryptosystem(S,Size)
             R = IntegerModRing(26)
@@ -676,9 +674,9 @@ def hill_cipher(Size=['2','3','4']):
             print "This is your encrypted message:"
             print e(S(message))
     if Size=='3':
-        print "Please input your message (in quotes) and the numbers in your square matrix key:"
+        pretty_print(html("<h>Please input your message (in quotes) and the numbers in your square matrix key:<h>"))
         @interact
-        def three_matrix(message=input_box(default='"Alexis smells"'), a=input_box(default=1), b=input_box(default=2), c=input_box(default=3), d=input_box(default=5), e=input_box(default=2), f=input_box(default=6), g=input_box(default=7), h=input_box(default=9), i=input_box(default=9)):
+        def three_matrix(message=input_box(default='"Alexis smells"',label = "Message:"), a=input_box(default=1), b=input_box(default=2), c=input_box(default=3), d=input_box(default=5), e=input_box(default=2), f=input_box(default=6), g=input_box(default=7), h=input_box(default=9), i=input_box(default=9)):
             S = AlphabeticStrings()
             E = HillCryptosystem(S,3)
             R = IntegerModRing(26)
@@ -694,9 +692,9 @@ def hill_cipher(Size=['2','3','4']):
             print "This is your encrypted message:"
             print e(S(message))
     if Size=='4':
-        print "Please input your message (in quotes) and the numbers in your square matrix key:"
+        pretty_print(html("<h>Please input your message (in quotes) and the numbers in your square matrix key:<h>"))
         @interact
-        def four_matrix(message=input_box(default='"Alexis smells"'), a=input_box(default=17), b=input_box(default=8), c=input_box(default=7), d=input_box(default=10), e=input_box(default=0), f=input_box(default=17), g=input_box(default=5), h=input_box(default=8), i=input_box(default=18), j=input_box(default=12), k=input_box(default=6), l=input_box(default=17), m=input_box(default=0), n=input_box(default=15), o=input_box(default=0), p=input_box(default=17)):
+        def four_matrix(message=input_box(default='"Alexis smells"',label="Message:"), a=input_box(default=17), b=input_box(default=8), c=input_box(default=7), d=input_box(default=10), e=input_box(default=0), f=input_box(default=17), g=input_box(default=5), h=input_box(default=8), i=input_box(default=18), j=input_box(default=12), k=input_box(default=6), l=input_box(default=17), m=input_box(default=0), n=input_box(default=15), o=input_box(default=0), p=input_box(default=17)):
             S = AlphabeticStrings()
             E = HillCryptosystem(S,4)
             R = IntegerModRing(26)
@@ -725,14 +723,13 @@ dictt = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':7,'h':8,
     'i':9,'j':10,'k':11,'l':12,'m':13,'n':14,'o':15,'p':16,'q':17,
     'r':18,'s':19,'t':20,'u':21,'v':22,'w':23,'x':24,'y':25,'z':26
     }
-print "Please select the size of your key:"
-print "       "
+pretty_print(html("<h>Please select the size of your key:<h>"))      "
 @interact
 def decrypt_hill(size=['2','3','4']):
     if size=='2':
         print "Please input your encrypted message and your key:"
         @interact
-        def two_decrypt(coded_text=input_box(default='"HSVAKSCYLENB"'), a=input_box(default=1), b=input_box(default=3), c=input_box(default=3), d=input_box(default=4)):
+        def two_decrypt(coded_text=input_box(default='"HSVAKSCYLENB"',label="Message:"), a=input_box(default=1), b=input_box(default=3), c=input_box(default=3), d=input_box(default=4)):
             R = IntegerModRing(26)
             M = MatrixSpace(R,2,2)
             a = M([[a,b],[c,d]])
@@ -760,9 +757,9 @@ def decrypt_hill(size=['2','3','4']):
             print "The decrypted text:"
             print final_text
     if size=='3':
-        print "Please input your encrypted message and your key:"
+        pretty_print(html("<h>Please input your encrypted message and your key:<h>"))
         @interact
-        def three_decrypt(coded_text=input_box(default='"FGYHQTCSGKYB"'), a=input_box(default=1), b=input_box(default=2), c=input_box(default=3), d=input_box(default=5), e=input_box(default=2), f=input_box(default=6), g=input_box(default=7), h=input_box(default=9), i=input_box(default=9)):
+        def three_decrypt(coded_text=input_box(default='"FGYHQTCSGKYB"',label = "Message:"), a=input_box(default=1), b=input_box(default=2), c=input_box(default=3), d=input_box(default=5), e=input_box(default=2), f=input_box(default=6), g=input_box(default=7), h=input_box(default=9), i=input_box(default=9)):
             R = IntegerModRing(26)
             M = MatrixSpace(R,3,3)
             a = M([[a,b,c],[d,e,f],[g,h,i]])
@@ -790,9 +787,9 @@ def decrypt_hill(size=['2','3','4']):
             print "The decrypted text:"
             print final_text
     if size=='4':
-            print "Please input your encrypted message (In quotes) and your key:"
+            pretty_print(html("<h>Please input your encrypted message (In quotes) and your key:<h>"))
             @interact
-            def four_decrypt(coded_text=input_box(default='"UIBBSMUGGXTX"'), a=input_box(default=17), b=input_box(default=8), c=input_box(default=7), d=input_box(default=10), e=input_box(default=0), f=input_box(default=17), g=input_box(default=5), h=input_box(default=8), i=input_box(default=18), j=input_box(default=12), k=input_box(default=6), l=input_box(default=17), m=input_box(default=0), n=input_box(default=15), o=input_box(default=0), p=input_box(default=17)):
+            def four_decrypt(coded_text=input_box(default='"UIBBSMUGGXTX"',label="Message:"), a=input_box(default=17), b=input_box(default=8), c=input_box(default=7), d=input_box(default=10), e=input_box(default=0), f=input_box(default=17), g=input_box(default=5), h=input_box(default=8), i=input_box(default=18), j=input_box(default=12), k=input_box(default=6), l=input_box(default=17), m=input_box(default=0), n=input_box(default=15), o=input_box(default=0), p=input_box(default=17)):
                 R = IntegerModRing(26)
                 M = MatrixSpace(R,4,4)
                 a = M([[a,b,c,d],[e,f,g,h],[i,j,k,l],[m,n,o,p]])
@@ -836,7 +833,7 @@ Given a positive integer n, this prints the multiplication mod n. Each entry in 
 {{{#!sagecell
 #Last edited 8/9/19 at 12:30pm
 pretty_print(html("<h1>Multiplication Table modulo n</h1>"))
-print "This tool creates a multiplication table modulo 𝑛."
+pretty_print(html("<h>This tool creates a multiplication table modulo 𝑛.<h>"))
 @interact
 def modular_multiplication_tables(n = input_box(default = 7, width = 25)):
     R = IntegerModRing(n)
@@ -854,7 +851,7 @@ Given a modulus n and a nonnegative exponent a, this displays a graph where each
 {{{#!sagecell
 #Last edited 8/9/19 at 2:46pm
 pretty_print(html("<h1>Arrow Diagram modulo n</h1>"))
-print "Input your modulus, 𝑛, and an integer, 𝑎. The output will be an arrow diagram picture of 𝑥↦𝑎𝑥 on the ring ℤ/𝑛ℤ, i.e. the elements modulo 𝑛."
+pretty_print(html("<h>Input your modulus, 𝑛, and an integer, 𝑎. The output will be an arrow diagram picture of 𝑥↦𝑎𝑥 on the ring ℤ/𝑛ℤ, i.e. the elements modulo 𝑛.<h>"))
 @interact
 def modular_multiplication_graph(n = input_box(default = 7, width = 25), a = input_box(default = 2, width = 25)):
     R = IntegerModRing(n)
@@ -883,7 +880,7 @@ Interact to find x when a, b, and m are known:
 
 {{{#!sagecell
 pretty_print(html("<h1>Solving for x</h1>"))
-print('This will evaluate x=a^b (mod m). Choose your base (a), exponent (b), and modulus (m). These should all be positive integers.')
+pretty_print(html("<h>This will evaluate x=a^b (mod m). Choose your base (a), exponent (b), and modulus (m). These should all be positive integers.<h>'))
 @interact
 def DLP_solve(a=input_box(default=5),b=input_box(default=25),m=input_box(default=47)):
     if (not a in ZZ) or (not b in ZZ) or (not m in ZZ) or (a<=0) or (b<=0) or (m<=0):
@@ -945,7 +942,7 @@ Interact to find b when a, x, and m are known:
 
 {{{#!sagecell
 pretty_print(html("<h1>Solving for b</h1>"))
-print('This will solve for the exponent, b, in x=a^b (mod m) assuming an integer solution exists. Choose your base (a), modulus (m), and solution (x). These should all be positive integers.')
+pretty_print(html("<h>This will solve for the exponent, b, in x=a^b (mod m) assuming an integer solution exists. Choose your base (a), modulus (m), and solution (x). These should all be positive integers.<h>"))
 @interact
 def DLP_break(a=input_box(default=5),x=input_box(default=22),m=input_box(default=47)):
     if (not a in ZZ) or (not x in ZZ) or (not m in ZZ) or (a<=0) or (x<0) or (m<=0):
@@ -963,12 +960,13 @@ def DLP_break(a=input_box(default=5),x=input_box(default=22),m=input_box(default
             temp = a^i %m
             if temp==x:
                 ind=1
-                print "This process took",i,"steps to determine that","b="+str(i)
-                break
+                print "This process took",i+1,"steps to determine that b="+str(i),"by evaluating",str(a)+"^i for i=0,...,"+str(i)+"."
+                print
+                print "NOTE: Without restricting the size of b, there is not a unique solution for b. However, the solution above is the small possible solution."
             else:
                 temp
         if ind==0:
-            print "*********** ERROR: No integer solution for b.***********"
+            print "*********** ERROR: This process took",m,"steps to determine that there is no integer solution for b.***********"
 
 }}}
 
