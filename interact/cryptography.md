@@ -535,7 +535,7 @@ pretty_print(html("<h1>Frequency Analysis Decryption Guesser</h1>"))
 pretty_print(html("<h>Warning: the shorter the input text is, the less accurate the distribution will be.<h>"))
 @interact 
 # Initial text is "Greetiiiings my name is Weeegbert Deuce the True Eater of the Toupee. Hear ye, hear ye! Dee dee dee. A head of these liger cubs carrying the trippy tomahawks are coming fo' thee. Take shelters in the tombs. Tammy ran to the other townspeople and aardvarks. What is her ETA? Her ETA please! Toil, bring your food cups and oil and be swift. The women and the child Occotion CIII should pick bamboo at Atitisoting. See? Nanna Wu Shacah's inner noodle cups: not nuutty sesame notions."
-def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl aol Aybl Lhaly vm aol Avbwll. Olhy fl, olhy fl! Kll kll kll. H olhk vm aolzl spnly jbiz jhyyfpun aol aypwwf avthohdrz hyl jvtpun mv aoll. Ahrl zolsalyz pu aol avtiz. Ahttf yhu av aol vaoly avduzwlvwsl huk hhykchyrz. Doha pz oly LAH? Oly LAH wslhzl! Avps, iypun fvby mvvk jbwz huk vps huk il zdpma. Aol dvtlu huk aol jopsk Vjjvapvu JPPP zovbsk wpjr ihtivv ha Hapapzvapun. Zll.Uhuuh Db Zohjho z puuly uvvksl jbwz: uva ubbaaf zlzhtl uvapvuz."', width = 150)):
+def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl aol Aybl Lhaly vm aol Avbwll. Olhy fl, olhy fl! Kll kll kll. H olhk vm aolzl spnly jbiz jhyyfpun aol aypwwf avthohdrz hyl jvtpun mv aoll. Ahrl zolsalyz pu aol avtiz. Ahttf yhu av aol vaoly avduzwlvwsl huk hhykchyrz. Doha pz oly LAH? Oly LAH wslhzl! Avps, iypun fvby mvvk jbwz huk vps huk il zdpma. Aol dvtlu huk aol jopsk Vjjvapvu JPPP zovbsk wpjr ihtivv ha Hapapzvapun. Zll.Uhuuh Db Zohjho z puuly uvvksl jbwz: uva ubbaaf zlzhtl uvapvuz."', label = "Message:",width = 150)):
     alphabet= AlphabeticStrings()
     englishText =alphabet.encoding(text)
     L1 = englishText.frequency_distribution().function()
@@ -615,9 +615,9 @@ dictt = {'a':0,'b':1,'c':2,'d':3,'e':4,'f':5,'g':6,'h':7,
     'r':17,'s':18,'t':19,'u':20,'v':21,'w':22,'x':23,'y':24,'z':25
     }
 pretty_print(html("<h1>One-Time Pad Encryptor</h1>"))
-pretty_print(html("<h>Enter your message to be encrypted via one-time pad in the Plain Text box below:<h>"))
+pretty_print(html("<h>Enter your message to be encrypted via one-time pad in the message box below:<h>"))
 @interact
-def one_time_pad(plain_text = input_box("'message'",label="Message:")):
+def one_time_pad(plain_text = input_box('"message"',label="Message:")):
     #This code takes in a plain text, converts all of the letters to numbers, and then creates a one-time pad for encryption
     message = []
     for char in plain_text:
@@ -723,7 +723,7 @@ dictt = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':7,'h':8,
     'i':9,'j':10,'k':11,'l':12,'m':13,'n':14,'o':15,'p':16,'q':17,
     'r':18,'s':19,'t':20,'u':21,'v':22,'w':23,'x':24,'y':25,'z':26
     }
-pretty_print(html("<h>Please select the size of your key:<h>"))      "
+pretty_print(html("<h>Please select the size of your key:<h>"))
 @interact
 def decrypt_hill(size=['2','3','4']):
     if size=='2':
@@ -880,7 +880,7 @@ Interact to find x when a, b, and m are known:
 
 {{{#!sagecell
 pretty_print(html("<h1>Solving for x</h1>"))
-pretty_print(html("<h>This will evaluate x=a^b (mod m). Choose your base (a), exponent (b), and modulus (m). These should all be positive integers.<h>'))
+pretty_print(html("<h>This will evaluate x=a^b (mod m). Choose your base (a), exponent (b), and modulus (m). These should all be positive integers.<h>"))
 @interact
 def DLP_solve(a=input_box(default=5),b=input_box(default=25),m=input_box(default=47)):
     if (not a in ZZ) or (not b in ZZ) or (not m in ZZ) or (a<=0) or (b<=0) or (m<=0):
