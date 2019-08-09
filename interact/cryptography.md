@@ -642,4 +642,70 @@ def rsa():
 }}}
 
 
+=== RSA With Digital Signatures ===
+
+by Sarah Arpin, Eva Goedhart
+
+{{{#!sagecell
+#Last edited 8/8/19 at 1:30pm
+print "Hi, Alice! Let's set up RSA with a digital signature to Babette."
+
+go = True
+while go:
+    p = ZZ(raw_input("Provide a SECRET decently large prime (>10): "))
+    if p.is_prime() and p>10:
+        go = False
+    elif p<=10:
+        print "Larger prime, please."
+    elif not p.is_prime():
+        print "Prime, please."
+go = True
+while go:
+    q = ZZ(raw_input("Provide a SECRET different decently large prime (>10): "))
+    if q.is_prime() and p!=q and q>10:
+        go = False
+    elif p<=10:
+        print "Larger prime, please."
+    elif not p.is_prime():
+        print "Prime, please."
+    elif p == q:
+        print "Different prime, please."
+phi = (p-1)*(q-1)
+print "So far, you can compute:"
+print "N = pq =",p*q
+print "phi(N) = (p-1)(q-1) =",phi.factor()
+go = True
+while go:
+    e = ZZ(raw_input("Provide a PUBLIC exponent that is relatively prime to phi(N):"))
+    if gcd(e,phi) == 1:
+        go = False
+@interact
+def rsa():
+    N = p*q
+    R = IntegerModRing(phi)
+    d = (e^(R(e).multiplicative_order()-1)).mod(phi)
+    print "Alice's public key is: N = pq =",N,", e =",e,"."
+    print "Alice's private key is: p =",p,", q = ",q,", d = ",d,", where the decryption key d is the inverse of e modulo phi(N)."
+    secret_message_from_babette = "Hi Dr. Strange!"
+    ascii_secret = []
+    for char in secret_message_from_babette:
+        ascii_secret.append(ord(char))
+    encrypted_ascii = []
+    for ascii in ascii_secret:
+        encrypted_ascii.append(power_mod(ascii,e,N))
+    decrypted_ascii = []
+    for ascii in encrypted_ascii:
+        decrypted_ascii.append(power_mod(ascii,d,N))
+    print "Babette's encrypted message to you is: ", encrypted_ascii
+    print ""
+    print "To decrypt, we raise each one of these to the ",d,", modulo ",N,":"
+    print decrypted_ascii
+    print ""
+    decrypted_secret = ""
+    for ascii in decrypted_ascii:
+        decrypted_secret += chr(ascii)
+    print "Going from ascii to letters, we figure out the secret is: "
+    print decrypted_secret
+}}}
+
 == Diffe-Hellman Key Exchange ==
