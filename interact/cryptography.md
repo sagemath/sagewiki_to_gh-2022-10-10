@@ -962,7 +962,7 @@ def DLP_break(a=input_box(default=5),x=input_box(default=22),m=input_box(default
                 ind=1
                 print "This process took",i+1,"steps to determine that b="+str(i),"by evaluating",str(a)+"^i for i=0,...,"+str(i)+"."
                 print
-                print "NOTE: Without restricting the size of b, there is not a unique solution for b. However, the solution above is the small possible solution."
+                print "NOTE: Without restricting the size of b, there is not a unique solution for b. However, the solution above is the smallest possible solution."
             else:
                 temp
         if ind==0:
