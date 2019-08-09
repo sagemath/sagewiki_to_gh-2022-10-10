@@ -2,7 +2,7 @@
 
 
 
-This page was first created at Sage Days 103, 7-10 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal. This project was led by Amy Feaver.
+This page was first created at Sage Days 103, 7-10 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal. Text edited by Amy Feaver, Eva Goedhart, and Alexis Newton. This project was led by Amy Feaver.
 
 We acknowledge Katherine Stange, who allowed us to use code from her cryptography course as a starting point for many of these interacts. Dr. Stange's original code and course page can be found at http://crypto.katestange.net/
 
@@ -16,9 +16,7 @@ goto [[interact|interact main page]]
 
 == Shift Cipher ==
 
-The shift cipher is a classical cryptosystem that takes plaintext and shifts it through the alphabet by a given number of letters.  -EG 
-
-For example, a shift of 2 would replace all A's with C's, all B's with D's, etc. When you reach the end of the alphabet, the letters are shifted cyclically back to the beginning. Thus, a shift of 2 would replace Y's with A's and Z's with B's. -AF
+The shift cipher is a classical cryptosystem that takes plaintext and shifts it through the alphabet by a given number of letters. For example, a shift of 2 would replace all A's with C's, all B's with D's, etc. When the end of the alphabet is reached, the letters are shifted cyclically back to the beginning. Thus, a shift of 2 would replace Y's with A's and Z's with B's.
 
 === Shift Cipher Encryption ===
 by Sarah Arpin, Alexis Newton
@@ -40,7 +38,7 @@ def shift_cipher(message = input_box(default='"secrets"', width = 50), shift=sli
 === Shift Cipher Decryption ===
 by Sarah Arpin, Alexis Newton
 
-If you know that your message was encrypted using a shift cipher, you can use the known shift value to decrypt. If this is not known, brute force can be used to get 26 possible decrypted messages. The chi-squared function ranks the results by likelihood according to letter frequency.
+If you know that your message was encrypted using a shift cipher, you can use the known shift value to decrypt. If this is not known, brute force can be used to get 26 possible decrypted messages. The chi-squared function ranks the brute force results by likelihood according to letter frequency.
 
 {{{#!sagecell
 #Last edited 8/7/19 2:56pm
