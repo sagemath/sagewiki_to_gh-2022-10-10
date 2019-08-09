@@ -33,7 +33,7 @@ def shift_cipher(message = input_box(default='"secrets"',label="Message:"), shif
     S = ShiftCryptosystem(A)
     message = S.encoding(message)
     C = S.enciphering(shift, message)
-    print "This is your encrypted text shifted by ",shift,":"
+    print "This is your encrypted text shifted by",shift,":"
     print C
 }}}
 
@@ -79,7 +79,7 @@ You can use this interact to encrypt a message with the affine cipher. Notice th
 pretty_print(html("<h1>Affine Cipher Encryptor</h1>"))
 print "Put your message in between the provided quotes (with no additional quotes or apostrophes!), and select your desired a and b: "
 @interact
-def affine_cipher(message = input_box(default='"secrets"', width = 50), a=[1,3,5,7,9,11,15,17,19,21,23], b =[0..25]):
+def affine_cipher(message = input_box(default='"secrets"', label="Message:"), a=[1,3,5,7,9,11,15,17,19,21,23], b =[0..25]):
     A = AlphabeticStrings()
     S = AffineCryptosystem(A)
     message = S.encoding(message)
@@ -99,7 +99,7 @@ If you know that your message was encrypted using an affine cipher, you can use 
 pretty_print(html("<h1>Affine Cipher Decryptor</h1>"))
 print "Enter the encrypted text in quotes, and enter a guess for the a and b:"
 @interact
-def shift_decrypt(text = input_box('"XNSILPCVA"'), a=[1,3,5,7,9,11,15,17,19,21,23,25], b =[0..25]):
+def shift_decrypt(text = input_box('"XNSILPCVA"', label="Message:"), a=[1,3,5,7,9,11,15,17,19,21,23,25], b =[0..25]):
     S = AffineCryptosystem(AlphabeticStrings())
     ciphertext = S.encoding(text)
     decrypt = S.deciphering(a,b,ciphertext)
@@ -258,7 +258,7 @@ def _(A =selector(left_over_letters, default=0)):
 
 
                                                                                                                                                                                                                 @interact 
-                                                                                                                                                                                                                def _(text=input_box(default="'MESSAGE'",label="Message")):
+                                                                                                                                                                                                                def _(text=input_box(default='"MESSAGE"',label="Message:")):
                                                                                                                                                                                                                     new_ordering=[A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z];
                                                                                                                                                                                                                     new_key=[ord(new_ordering[i])-65 for i in range(26)]
                                                                                                                                                                                                                     alphabet=AlphabeticStrings()
@@ -358,7 +358,7 @@ def makeDG(str): # creates digraphs with different values from a string "str"
 pretty_print(html("<h1>Playfair Cipher Encryptor</h1>"))
 print('Enter your message and the key to construct you polybius square. Warning: both the message and the key must be in quotes.')
 @interact
-def _(Message=input_box(default='"message"'),Key=input_box(default='"key"'),showmatrix=checkbox(True, label='Show polybius square')):
+def _(Message=input_box(default='"message"', label="Message:"),Key=input_box(default='"key"', label="Key:"),showmatrix=checkbox(True, label='Show polybius square:')):
     
     if showmatrix:
         poly=makePF(Key)
@@ -473,7 +473,7 @@ pretty_print(html("<h1>Playfair Cipher Decryptor</h1>"))
 print 'Enter your ciphertext and a guess for the key to construct you polybius square.'
 print 'Warning: both the message and the key must be in quotes.'
 @interact
-def _(Ciphertext=input_box(default='"LYXAXGDA"'),Key=input_box(default='"key"', label='Guess key'),showmatrix=checkbox(True, label='Show polybius square')):
+def _(Ciphertext=input_box(default='"LYXAXGDA"', label="Message:"),Key=input_box(default='"key"', label='Guess key:'),showmatrix=checkbox(True, label='Show polybius square:')):
     print 'These are some of the possibilities for the plaintext:'
     print playfair_decrypt_options(playfair_decrypt(Ciphertext,Key))
     if showmatrix:
