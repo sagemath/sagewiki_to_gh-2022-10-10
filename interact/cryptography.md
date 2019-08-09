@@ -218,6 +218,121 @@ def _(Message=input_box(default="'message'"),Key=input_box(default="'key'"),show
     print '\nCiphertext:',playfair(Message,Key)
 }}}
 
+=== Playfair Decryption ===
+
+##Playfair decryption
+##PLAYFAIR CIPHER 
+## CATALINA CAMACHO-NAVARRO
+##Based on code from Alasdair McAndrew  at //trac.sagemath.org/ticket/8559
+##Last edited 8/9/19 at 1:55pm
+
+{{{#!sagecell
+def change_to_plain_text(pl):
+    plaintext=''
+    for ch in pl:
+        if ch.isalpha():
+            plaintext+=ch.upper()
+    return plaintext
+
+def makePF(word1): #creates 5 x 5 Playfair array beginning with "word"
+    word=change_to_plain_text(word1)
+    alph='ABCDEFGHIKLMNOPQRSTUVWXYZ'
+    pf=''
+    for ch in word:
+        if (ch<>"J") & (pf.find(ch)==-1):  # ensures no letter is repeated
+            pf+=ch
+    for ch in alph:
+        if pf.find(ch)==-1:  #only uses unused letters from alph
+            pf+=ch
+    PF=[[pf[5*i+j] for j in range(5)] for i in range(5)]
+    return PF
+
+def pf_decrypt(di,PF): # encrypts a digraph di with a Playfair array PF
+    for i in range(5):
+        for j in range(5):
+            if PF[i][j]==di[0]:#locate the first letter of di in PF
+                i0=i
+                j0=j
+            if PF[i][j]==di[1]:
+                i1=i
+                j1=j
+    if (i0<>i1) & (j0<>j1):## if di[0] and di[1] are not in the same column or row, switch to corners in the same row
+        return PF[i0][j1]+PF[i1][j0]
+    if (i0==i1) & (j0<>j1):## if di[0] and di[1] are in the same row, then switch left  
+        return PF[i0][(j0-1)%5]+PF[i1][(j1-1)%5]
+    if (i0<>i1) & (j0==j1):## if di[0] and di[1] are in the same column, then switch up 
+        return PF[(i0-1)%5][j0]+PF[(i1-1)%5][j1]
+
+def insert(ch,str,j):  # a helper function: inserts a character "ch" into
+    tmp=''             # a string "str" at position j
+    for i in range(j):
+        tmp+=str[i]
+    tmp+=ch
+    for i in range(len(str)-j):
+        tmp+=str[i+j]
+    return tmp
+
+
+def playfair_decrypt(pl1,word): # decrypts a plaintext "pl" with a Playfair cipher 
+    pl=change_to_plain_text(pl1)
+    if len(pl1)%2<>0:
+        raise TypeError('The lenght of the ciphertext is not even')
+    pl2=makeDG(pl)
+    if pl2<>pl:
+        if 'J' in pl: 
+            raise TypeError('The ciphertext contains a J')
+        if len(pl2)<>len(pl):
+            raise TypeError('The ciphertext contains digraphs with repeated letters')
+            
+    PF=makePF(word)    # using a keyword "word"
+    
+    tmp=''
+    for i in range(len(pl2)//2):
+        tmp+=pf_decrypt(pl2[2*i]+pl2[2*i+1],PF)
+    return tmp
+
+def makeDG(str): # creates digraphs with different values from a string "str"
+    tmp=str.replace('J','I')  # replace all 'J's with 'I's
+    c=len(tmp)
+    i=0
+    while (c>0) & (2*i+1<len(tmp)):
+        if tmp[2*i]==tmp[2*i+1]:
+            tmp=insert("X",tmp,2*i+1)
+            c-=1
+            i+=1
+        else:
+            c-=2
+            i+=1
+    if len(tmp)%2==1:
+        tmp+='X'
+    return tmp
+
+def playfair_decrypt_options(pl): ##Modifies the output of the playfair_decrypt by erasing replacing I's or deleting X
+    pl_noI=pl.replace('I','J')
+    if pl.endswith('X'): 
+        pl_no_last_X=pl[:-1]
+    else: pl_no_last_X=pl
+    pl_noX=pl
+    for ch in pl_noX:
+        if (ch=='X') & (pl.find(ch)<>0):
+            if  pl_noX[pl_noX.find(ch)-1]==pl_noX[pl_noX.find(ch)+1]:
+                pl_noX=pl_noX.replace('X','')
+    return([pl,pl_noI,pl_noX,pl_no_last_X])    
+
+print 'Playfair cipher decryption'
+print 'Enter your ciphertext and a guess for the key to construct you polybius square.'
+print 'Warning: both the message and the key must be in quotes.'
+@interact
+def _(Ciphertext=input_box(default="'Ciphertext'"),Key=input_box(default="'key'", label='Guess key'),showmatrix=checkbox(True, label='Show polybius square')):
+    print 'These are some of the possibilities for the plaintext:'
+    print playfair_decrypt_options(playfair_decrypt(Ciphertext,Key))
+    if showmatrix:
+        poly=makePF(Key)
+        print '----------------------'
+        for i in range(5):
+            print(poly[i])
+}}}
+
 == Frequency Analysis Tools ==
 
 Frequency analysis is a technique for breaking a substitution cipher that utilizes the frequencies of letters appearing in the English language. For example, E is the most common letter in the English language, so if a piece of encrypted text had many instances of the letter Q, you would guess that Q had been substituted in for E. The next two interacts create a couple of basic tools that could be useful in cracking a substitution cipher. 
@@ -577,26 +692,46 @@ by Sarah Arpin, Eva Goedhart
 Babette  sent Alice an encrypted message. You , as Alice, will provide information so that you can read Babette's message.  
 
 {{{#!sagecell
-#Last edited 8/9/19 at 11:16am
+#Last edited 8/9/19 at 1:53pm
 print "Hi, Alice! Let's set up RSA together."
+print ""
+print "1. Input two PRIVATE distinct primes, p and q, that are each greater than 10."
+print "   The size of the primes depends on the size of Babette's message. Her message requires p,q > 10. A longer and stronger encrypted message requires larger primes."
+print ""
+print "2. Input a PUBLIC integer, e, which needs to be relatively prime to the the Euler phi function of the product pq, φ(pq)."
+print "   If e is not relativley prime to φ(pq), then we can not decrypt the message."
 @interact
-def rsa(p = input_box(default = 11,label = "p (>10): "), q = input_box(default = 23,label = "q (>10): "),e = input_box(default = 7,label = "e:")):
-    print "************************************************************************************************"
-    print "WARNINGS: p and q should be different primes, both larger than 10."
-    print "e should be relatively prime to phi(pq). To check this, see the factorization of phi(pq) below."
-    print "************************************************************************************************"
-    print ""
+def rsa(p = input_box(default = 11,label = "p: "), q = input_box(default = 23,label = "q: "),e = input_box(default = 7,label = "e:")):
     p = ZZ(p)
     q = ZZ(q)
     e = ZZ(e)
+    #print "************************************************************************************************"
+    #print "WARNINGS: p and q should be different primes, both larger than 10."
+    #print "e should be relatively prime to φ(pq). To check this, see the factorization of φ(pq) below."
+    #print "************************************************************************************************"
+    #print ""
+    if p == q:
+        print "*********** Make sure p and q are different.***********"
+    if p < 10:
+        print "*********** Make p larger. ***********"
+    if q < 10:
+        print "*********** Make q larger. ***********"
+    if not p.is_prime():
+        print "*********** p needs to be prime. ***********"
+    if not q.is_prime():
+        print "*********** q needs to be prime. ***********"
     phi = (p-1)*(q-1)
-    print "phi(pq) = ",phi.factor()
+    if not gcd(e,phi) == 1:
+        print "*********** e must be replatively prime to φ(pq) - see factorization below. ***********"
+    print ""
+    print "φ(pq) = ",phi.factor()
     print ""
     N = p*q
     R = IntegerModRing(phi)
     d = (e^(R(e).multiplicative_order()-1)).mod(phi)
-    print "Alice's public key is: N = pq =",N,", e =",e,"."
-    print "Alice's private key is: p =",p,", q = ",q,", d = ",d,", where the decryption key d is the inverse of e modulo phi(N)."
+    print "Alice's PUBLIC key is: N =",N,", e =",e," where N = pq and the factorization of N is kept secret."
+    print ""
+    print "Alice's PRIVATE key is: p =",p,", q = ",q,", d = ",d,", where the decryption key d is the inverse of e modulo φ(N), i.e., de = 1 (mod N)."
     secret_message_from_babette = "Hi Dr. Strange!"
     ascii_secret = []
     for char in secret_message_from_babette:
@@ -607,16 +742,28 @@ def rsa(p = input_box(default = 11,label = "p (>10): "), q = input_box(default =
     decrypted_ascii = []
     for ascii in encrypted_ascii:
         decrypted_ascii.append(power_mod(ascii,d,N))
-    print "Babette's encrypted message to you is: ", encrypted_ascii
     print ""
-    print "To decrypt, we raise each one of these to the ",d,", modulo ",N,":"
-    print decrypted_ascii
+    print "3. Babette took her plaintext message and converted into integers using ASCII. Then she encrypted it by raising each integer to the e-th power modulo N and sent the result to Alice:"
+    print ""
+    print "   ", encrypted_ascii
+    print ""
+    print "4. To decrypt, we raise each integer of the lisy above to the d =",d,", modulo N =",N,":"
+    print ""
+    print "   ",decrypted_ascii
     print ""
     decrypted_secret = ""
     for ascii in decrypted_ascii:
         decrypted_secret += chr(ascii)
-    print "Going from ascii to letters, we figure out the secret is: "
-    print decrypted_secret
+    print "5. Going from the integers in ASCII to the plaintext in letters, we figure out the secret is: "
+    print ""
+    print "   ",decrypted_secret
+    print ""
+    print "************************************************************************************************"
+    print "REMARK: Babette encrypted her message one character at a time."
+    print "Usual protocal dictates that the entire message is concatenated with leading zeros removed."
+    print "This will require that N = pq is larger than the integer value of the full message."
+    print "************************************************************************************************"
+   
 
 }}}
 
