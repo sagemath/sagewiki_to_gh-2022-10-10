@@ -137,7 +137,7 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 
 === Frequency Analysis Decryption Guesser ===
 
-Code by Rebecca LaurenMiller, Kate Stange
+by Rebecca LaurenMiller, Kate Stange
 
 This interact prints suggested translation of the input text, by matching frequencies of letters in the input to letter frequencies in the English language. With the output you will see that some letters were substituted in correctly, and others were not. Usually frequency analysis requires additional work and some trial and error to discover the original message, especially if the input text is not long enough. -AF 
 
@@ -203,7 +203,7 @@ def vigenere_cipher(message = input_box(default ="'UEVTEMUHB'", width = 50), cod
 }}}
 
 
-== One-time Pad ==
+== One-Time Pad ==
 
 by Sarah Arpin, Alexis Newton
 
