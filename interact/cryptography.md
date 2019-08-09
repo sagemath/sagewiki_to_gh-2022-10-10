@@ -507,7 +507,7 @@ by Holly Paige Chaos, Alexis Newton
 pretty_print(html("<h1>Hill Cipher Encryptor</h1>"))
 print "Please select the size of your key:"
 @interact
-def hill_cipher(Size=['2','3','4'])):
+def hill_cipher(Size=['2','3','4']):
     if Size=='2':
         print "Please input your message (in quotes) and numbers for your key:"
         @interact
@@ -576,7 +576,7 @@ dictt = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':7,'h':8,
     }
 print "Please select the size of your key:"
 @interact
-def decrypt_hill(size=['2','3','4'])):
+def decrypt_hill(size=['2','3','4']):
     if size=='2':
         print "Please input your encrypted message and your key:"
         @interact
