@@ -8,6 +8,11 @@
 ##master-date:Unknown-Date
 #format wiki
 #language en
+
+
+{{attachment:WIS11.jpg}}
+
+
 = Sage Days 103 : Women in sage (2019) =
 
 '''''August 7-9, 2019'''''
