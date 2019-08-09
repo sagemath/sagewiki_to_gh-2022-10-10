@@ -36,21 +36,25 @@ These Sage days are a special event for women* who develop in [[http://www.sagem
 
 [[https://people.kzoo.edu/mwest/|Mckenzie West]]
 
-== Project Leaders and Projects ==
+== Project Leaders ==
 
-[[https://www.math.wisc.edu/~rdavis/|Rachel Davis]] and [[https://sites.google.com/view/jenberg/home|Jen Berg]]
+ * [[https://www.math.wisc.edu/~rdavis/|Rachel Davis]] and [[https://sites.google.com/view/jenberg/home|Jen Berg]]
+ * [[http://cs.kingsu.ca/~afeaver/|Amy Feaver]]
+ * [[https://sites.google.com/site/heidigoodson/|Heidi Goodson]] and [[https://www.uvm.edu/~cvincen1/|Christelle Vincent]]
 
-Project: Brauer Groups and degree 1 del Pezzos, can we port Magma code from Andrea C. Carter?
 
-[[http://cs.kingsu.ca/~afeaver/|Amy Feaver]]
+== Projects and Progress ==
 
-Project: Improving the cryptography functionality and documentation.
 
-We will be editing [[https://wiki.sagemath.org/interact/cryptography|this]] page on the Wiki, amongst other things. Feel free to start contributing to the page before you arrive at Sage Days (or even if you're not coming but you have something you are interested in contributing. This page is linked to from the Sage Interactions page: https://wiki.sagemath.org/interact/
 
-[[https://sites.google.com/site/heidigoodson/|Heidi Goodson]] and [[https://www.uvm.edu/~cvincen1/|Christelle Vincent]]
 
-Project: Believe the Hype! (Computing the identity components of Sato-Tate groups for trinomial hyperelliptic curves)
+
+ * [[Curves group]]: Brauer Groups and degree 1 del Pezzos, can we port Magma code from Andrea C. Carter?
+
+ * [[Crypto Group]]: Improving the cryptography functionality and documentation. We will be editing [[https://wiki.sagemath.org/interact/cryptography|this]] page on the Wiki, amongst other things. Feel free to start contributing to the page before you arrive at Sage Days (or even if you're not coming but you have something you are interested in contributing. This page is linked to from the Sage Interactions page: https://wiki.sagemath.org/interact/
+
+
+ *[[Team Believe the Hype!]]: (Computing the identity components of Sato-Tate groups for trinomial hyperelliptic curves)
 
 == Venue ==
 
@@ -103,10 +107,6 @@ Nandita Sahajpal
 Please add #sagedays103 to any tickets you are working on on trac.  If your ticket needs review, add it to the list on the tickets page to advertise.
  * [[sd103tickets]]
 
-== Group progress ==
- * [[Crypto Group]]
- * [[Curves group]]
- *[[Team Believe the Hype]]
 
 == Reimbursement info ==
 You can find the form to fill out here: [[attachment:Sage 103 reimbursement form.pdf]]
