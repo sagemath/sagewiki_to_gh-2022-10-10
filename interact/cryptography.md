@@ -873,7 +873,7 @@ def modular_multiplication_graph(n = input_box(default = 7, width = 25), a = inp
 === Discrete Log Problem ===
 by Sara Lapan
 
-The discrete logarithm, log(x) with base a, is an integer b such that a^(b) = x. Computing logarithms is computationally difficult, and there are no efficient algorithms known for the worst case scenarios. However, the discrete exponentiation is comparatively simple (for instance, it can be done efficiently using squaring). This asymmetry in complexity has been exploited in constructing cryptographic systems. Typically, it is much easier to solve for x in x=a^(b) (mod m) when a,b,m are known, than it is to solve for b when x,a,m are known. Interact to find x given a,b,m:
+The discrete logarithm, log(x) with base a, is an integer b such that a^b^ = x. Computing logarithms is computationally difficult, and there are no efficient algorithms known for the worst case scenarios. However, the discrete exponentiation is comparatively simple (for instance, it can be done efficiently using squaring). This asymmetry in complexity has been exploited in constructing cryptographic systems. Typically, it is much easier to solve for x in x=a^b^ (mod m) when a,b,m are known, than it is to solve for b when x,a,m are known. Interact to find x given a,b,m:
 
 {{{#!sagecell
 
