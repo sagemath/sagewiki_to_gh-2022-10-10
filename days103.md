@@ -45,11 +45,7 @@ These Sage days are a special event for women* who develop in [[http://www.sagem
 
 == Projects and Progress ==
 
-
-
-
-
- * [[Curves group]]: Brauer Groups and degree 1 del Pezzos, can we port Magma code from Andrea C. Carter?
+ * [[Surfaces group]]: Lines on degree 3 del Pezzo surfaces.  Can we find them?  Code exists that will, given time, find the lines on a given cubic.
 
  * [[Crypto Group]]: Improving the cryptography functionality and documentation. We will be editing [[https://wiki.sagemath.org/interact/cryptography|this]] page on the Wiki, amongst other things. Feel free to start contributing to the page before you arrive at Sage Days (or even if you're not coming but you have something you are interested in contributing. This page is linked to from the Sage Interactions page: https://wiki.sagemath.org/interact/
 
@@ -85,6 +81,8 @@ Sarah Arpin
 
 Catalina Camacho-Navarro
 
+Holly Paige Chaos
+
 Fatma Cicek
 
 Holley Friedlander
@@ -98,8 +96,6 @@ Marie Jameson
 Sara Lapan
 
 Alexis Newton
-
-Holly Paige Chaos
 
 Nandita Sahajpal
 
