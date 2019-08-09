@@ -822,15 +822,17 @@ def decrypt_hill(size=['2','3','4']):
 
 == Modular Arithmetic (Preliminaries for RSA, Diffie-Hellman, El Gamal) ==
 
-
+This section gives visual representations of the modular arithmetic necessary for RSA, Diffie-Hellman, and El Gamal. 
 
 
 === Modular Arithmetic Multiplication Table ===
 
 by Rebecca Lauren Miller, Kate Stange
 
+
 {{{#!sagecell
 #Last edited 8/9/19 at 12:30pm
+pretty_print(html("<h1>Multiplication Table modulo n</h1>"))
 print "This tool creates a multiplication table modulo 𝑛."
 @interact
 def modular_multiplication_tables(n = input_box(default = 7, width = 25)):
@@ -844,9 +846,11 @@ def modular_multiplication_tables(n = input_box(default = 7, width = 25)):
 
 by Rebecca Lauren Miller, Kate Stange
 
+
 {{{#!sagecell
 #Last edited 8/9/19 at 2:46pm
-print "Input your 𝑛, modulus, and 𝑎, an integer. The output will be an arrow diagram picture of 𝑥↦𝑎𝑥  on the ring ℤ/𝑛ℤ, i.e. the elements modulo 𝑛."
+pretty_print(html("<h1>Arrow Diagram modulo n</h1>"))
+print "Input your modulus, 𝑛, and an integer, 𝑎. The output will be an arrow diagram picture of 𝑥↦𝑎𝑥 on the ring ℤ/𝑛ℤ, i.e. the elements modulo 𝑛."
 @interact
 def modular_multiplication_graph(n = input_box(default = 7, width = 25), a = input_box(default = 2, width = 25)):
     R = IntegerModRing(n)
@@ -865,19 +869,20 @@ def modular_multiplication_graph(n = input_box(default = 7, width = 25), a = inp
 
 == RSA ==
 
-Named for the authors Rivest, Shamir, Aldeman, RSA uses exponentiation and modular arithmetic to encrypt and decrypt messages between two parties. Each of those parties has their own secret and public key. To see how it works, following along while Alice and Babette share a message. -EG
+Named for the authors Rivest, Shamir, and Aldeman, RSA uses exponentiation and modular arithmetic to encrypt and decrypt messages between two parties. Each of those parties has their own secret and public key. To see how it works, following along while Alice and Babette share a message.
 
 === RSA, From Alice's Perspective ===
 by Sarah Arpin, Eva Goedhart
 
-Babette  sent Alice an encrypted message. You , as Alice, will provide information so that you can read Babette's message.  
+Babette sent Alice an encrypted message. You, as Alice, will provide information so that you can read Babette's message.  
 
 {{{#!sagecell
 #Last edited 8/9/19 at 1:53pm
 print "Hi, Alice! Let's set up RSA together."
 print ""
 print "1. Input two PRIVATE distinct primes, p and q, that are each greater than 10."
-print "   The size of the primes depends on the size of Babette's message. Her message requires p,q > 10. A longer and stronger encrypted message requires larger primes."
+print "   The size of the primes depends on the size of Babette's message. Her message requires p,q > 10. A longer and stronger encrypted" 
+print "   message requires larger primes."
 print ""
 print "2. Input a PUBLIC integer, e, which needs to be relatively prime to the the Euler phi function of the product pq, φ(pq)."
 print "   If e is not relativley prime to φ(pq), then we can not decrypt the message."
