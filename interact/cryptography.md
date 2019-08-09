@@ -543,7 +543,26 @@ def decrypt_hill(size=['2','3','4']):
                     final_text += chr(97+new_text[i])
                 print "The decrypted text:"
                 print final_text
+}}}
 
+
+== Modular Arithmetic (Preliminaries for RSA, Diffie-Hellman, El Gamal) ==
+
+
+
+
+=== Modular Arithmetic Multiplication Table ===
+
+by Rebecca Lauren Miller, Kate Stange
+
+{{{#!sagecell
+#Last edited 8/9/19 at 12:30pm
+print "This tool creates a multiplication table modulo 𝑛."
+@interact
+def modular_multiplication_tables(n = input_box(default = 7, width = 25)):
+    R = IntegerModRing(n)
+    rows = [['*']+[str(r) for r in R]]+[[i]+[i*r for r in R] for i in R]
+    print table(rows, frame=True)
 }}}
 
 == RSA ==
