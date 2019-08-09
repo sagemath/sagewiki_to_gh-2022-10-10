@@ -2,7 +2,7 @@
 
 
 
-This page was first created at Sage Days 103, 7-9 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Sara Lapan, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal. Text edited by Holly Paige Chaos, Amy Feaver, Eva Goedhart, Sara Lapan and Alexis Newton. This project was led by Amy Feaver Eva Goedhart.
+This page was first created at Sage Days 103, 7-9 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Sara Lapan, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal. Text edited by Holly Paige Chaos, Amy Feaver, Eva Goedhart, and Alexis Newton. This project was led by Amy Feaver and Eva Goedhart.
 
 We acknowledge Katherine Stange, who allowed us to use code from her cryptography course as a starting point for many of these interacts. Dr. Stange's original code and course page can be found at http://crypto.katestange.net/
 
@@ -847,7 +847,7 @@ def modular_multiplication_tables(n = input_box(default = 7, width = 25)):
 
 by Rebecca Lauren Miller, Kate Stange
 
-Given a modulus n and a nonnegative exponent a this displays a graph where each integer between 0 and n-1 is mapped to its a-th power, mod n.
+Given a modulus n and a nonnegative exponent a, this displays a graph where each integer between 0 and n-1 is mapped to its a-th power, mod n.
 
 {{{#!sagecell
 #Last edited 8/9/19 at 2:46pm
