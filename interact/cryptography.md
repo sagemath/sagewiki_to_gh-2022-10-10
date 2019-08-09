@@ -121,7 +121,7 @@ A substitution cipher encrypts messages by assigning each letter of the alphabet
 
 {{{#!sagecell
 pretty_print(html('<h1> Substitution Cipher'))
-print "Enter your message in quotes and select your substitution."
+print "Select your letter substitutions and enter your message in quotes."
 from string import ascii_uppercase
 left_over_letters=[0] +[let for let in ascii_uppercase]
 @interact
