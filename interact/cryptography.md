@@ -961,7 +961,7 @@ def DLP_break(a=input_box(default=5),x=input_box(default=22),m=input_box(default
             temp = a^i %m
             if temp==x:
                 ind=1
-                print "This process took",i,"steps to determine that","b="+str(i)"
+                print "This process took",i,"steps to determine that","b="+str(i)
                 break
             else:
                 temp
