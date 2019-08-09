@@ -340,7 +340,7 @@ def vigenere_cipher(message = input_box(default ="'UEVTEMUHB'", width = 50), cod
 
 by Sarah Arpin, Alexis Newton
 
-One-time pad is an encryption method that cannot be cracked, but requires a single-use shared key (known as a one-time pad) the length of the message or longer. In this method, every letter in the message is converted to numbers using the standard A=0, B=1, etc., and 
+One-time pad is an encryption method that cannot be cracked, but requires a single-use shared key (known as a one-time pad) the length of the message or longer. In this method, every letter in the message is first converted to numbers using the standard A=0, B=1, C=2, etc. Then each character in the message is multiplied modulo 26 by the number in the corresponding position in the key. This is then converted back to letters to produce the encrypted text.
 
 {{{#!sagecell
 #Last edited 8/7/2019 5:12pm
