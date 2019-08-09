@@ -75,8 +75,6 @@ We will start the week by some introduction presentations and tutorials especial
 Due June 15th. People will be notified by June 30th on acceptance. 
 
 
-== Schedule ==
-TBA
 
 == Confirmed Participants ==
 Sarah Arpin
