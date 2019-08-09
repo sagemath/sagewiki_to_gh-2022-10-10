@@ -26,7 +26,7 @@ You can use this interact to encrypt a message with a shift cipher.
 {{{#!sagecell
 #Last edited 8/7/19 2:45pm
 pretty_print(html("<h1>Shift Cipher Encryptor</h1>"))
-pretty_print(html("<h3>Put your message inside the provided quotes (with no additional quotes or apostrophes!), and select your desired shift:</h3>"))
+pretty_print(html("<h>Put your message inside the provided quotes (with no additional quotes or apostrophes!), and select your desired shift:</h>"))
 @interact
 def shift_cipher(message = input_box(default='"secrets"',label="Message:"), shift=slider(0,25,1,3,label="Shift by:")):
     A = AlphabeticStrings()
@@ -47,7 +47,7 @@ If you know that your message was encrypted using a shift cipher, you can use th
 #Last edited 8/7/19 2:56pm
 
 pretty_print(html("<h1>Shift Cipher Decryptor</h1>"))
-pretty_print(html("<h3>Enter the encrypted text in quotes, and enter a guess for the shift amount:<h3>"))
+pretty_print(html("<h>Enter the encrypted text in quotes, and enter a guess for the shift amount:<h>"))
 @interact
 def shift_decrypt(text = input_box(default='"KL"',label="Message:"), shift_by = input_box(default = 0, label="Shift by:")):
     S = ShiftCryptosystem(AlphabeticStrings())
