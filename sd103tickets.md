@@ -1,8 +1,8 @@
-=Tickets from sagedays 103=
+= Tickets from sagedays 103 =
 
 [[https://trac.sagemath.org/search?q=sagedays103]]
 
 
-==Tickets that need review==
+== Tickets that need review ==
 
 [[https://trac.sagemath.org/ticket/28316|28316]]
