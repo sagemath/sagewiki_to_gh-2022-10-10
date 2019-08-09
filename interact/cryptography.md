@@ -25,7 +25,7 @@ by Sarah Arpin, Alexis Newton
 
 {{{#!sagecell
 #Last edited 8/7/19 2:45pm
-print "Put your message in between the provided quotes (with no additional quotes or apostrophes!), and select your desired shift: "
+print "Put your message inside the provided quotes (with no additional quotes or apostrophes!), and select your desired shift: "
 @interact
 def shift_cipher(message = input_box(default='"secrets"', width = 50), shift=slider(0,25,1,3)):
     A = AlphabeticStrings()
@@ -40,7 +40,7 @@ def shift_cipher(message = input_box(default='"secrets"', width = 50), shift=sli
 === Shift Cipher Decryption ===
 by Sarah Arpin, Alexis Newton
 
-If you know that your message was encrypted using a shift cipher, you can use the known shift value to decrypt. If this is not known, brute force can be used to get 26 possible decrypted messages. 
+If you know that your message was encrypted using a shift cipher, you can use the known shift value to decrypt. If this is not known, brute force can be used to get 26 possible decrypted messages. The chi-squared function ranks the results by likelihood according to letter frequency.
 
 {{{#!sagecell
 #Last edited 8/7/19 2:56pm
@@ -87,6 +87,8 @@ def affine_cipher(message = input_box(default='"secrets"', width = 50), a=[1,3,5
 
 === Affine Cipher Decryption ===
 by Sarah Arpin, Alexis Newton
+
+If you know that your message was encrypted using an affine cipher, you can use the known a and b values to decrypt. If this is not known, brute force can be used to get possible decrypted messages. The chi-squared function ranks the results by likelihood according to letter frequency.
 
 {{{#!sagecell
 #Last edited 8/7/2019 3:01pm
@@ -542,6 +544,19 @@ Babette has sent Alice an encrypted message. You , as Alice, will provide inform
 #Last edited 8/8/19 at 11:42am
 print "Hi, Alice! Let's set up RSA together."
 go = True
+
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''Edit conflict - other version:''' ----
+@interact
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''End of edit conflict''' ----
+
+---- /!\ '''End of edit conflict''' ----
 while go:
     p = ZZ(raw_input("Provide a SECRET decently large prime (>10): "))
     if p.is_prime() and p>10:
@@ -570,6 +585,19 @@ while go:
     e = ZZ(raw_input("Provide a PUBLIC exponent that is relatively prime to phi(N):"))
     if gcd(e,phi) == 1:
         go = False
+
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+
+---- /!\ '''Edit conflict - other version:''' ----
+
+---- /!\ '''Edit conflict - your version:''' ----
+@interact
+
+---- /!\ '''End of edit conflict''' ----
+
+---- /!\ '''End of edit conflict''' ----
 def rsa():
     N = p*q
     R = IntegerModRing(phi)
