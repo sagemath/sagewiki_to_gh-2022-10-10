@@ -121,11 +121,11 @@ A substitution cipher encrypts messages by assigning each letter of the alphabet
 
 {{{#!sagecell
 pretty_print(html('<h1> Substitution Cipher'))
-print "Enter your message inside the quotes and select your substitution."
+print "Enter your message in quotes and select your substitution."
 from string import ascii_uppercase
 left_over_letters=[0] +[let for let in ascii_uppercase]
 @interact
-def _(text=input_box(default="'MESSAGE'",label="Message"),A =selector(left_over_letters, default=0)):
+def _(A =selector(left_over_letters, default=0)):
     if A!=0:
         left_over_letters.remove(A)
  #       print left_over_letters
@@ -257,17 +257,17 @@ def _(text=input_box(default="'MESSAGE'",label="Message"),A =selector(left_over_
 
 
 
-                                                                                                                
-                                                                                                                                                                                                                new_ordering=[A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z];
-                                                                                                                                                                                                                new_key=[ord(new_ordering[i])-65 for i in range(26)]
-                                                                                                                                                                                                                alphabet=AlphabeticStrings()
-                                                                                                                                                                                                                Es=SubstitutionCryptosystem(alphabet)
-                                                                                                                                                                                                                Key = alphabet(new_key)
-                                                                                                                                                                                                                e = Es(Key)
-                                                                                                                                                                                                                TEXT0=text
-                                                                                                                                                                                                                TEXT=alphabet.encoding(TEXT0)
-                                                                                                                                                                                                                print "Ciphertext:", e(TEXT)
-
+                                                                                                                                                                                                                @interact 
+                                                                                                                                                                                                                def _(text=input_box(default="'MESSAGE'",label="Message")):
+                                                                                                                                                                                                                    new_ordering=[A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z];
+                                                                                                                                                                                                                    new_key=[ord(new_ordering[i])-65 for i in range(26)]
+                                                                                                                                                                                                                    alphabet=AlphabeticStrings()
+                                                                                                                                                                                                                    Es=SubstitutionCryptosystem(alphabet)
+                                                                                                                                                                                                                    Key = alphabet(new_key)
+                                                                                                                                                                                                                    e = Es(Key)
+                                                                                                                                                                                                                    TEXT0=text
+                                                                                                                                                                                                                    TEXT=alphabet.encoding(TEXT0)
+                                                                                                                                                                                                                    print "Ciphertext:", e(TEXT)
 }}}
 
 == Playfair Cipher ==
