@@ -495,16 +495,19 @@ def one_time_pad(plain_text = input_box("'message'",label="Plain Text:")):
 
 == Hill Cipher ==
 
+The Hill cipher requires some basic knowledge of Linear Algebra. In this encryption method, an invertible n x n matrix of integers modulo 26 is used as the key. The message is first converted to numbers and spit into chunks size n. These chunks are then converted to n x 1 vectors and multiplied by the key modulo 26 to produce 1 x n vectors. The integers from these vectors are converted back letters to produce the encrypted text.
+
 
 === Hill Cipher Encryption ===
 by Holly Paige Chaos, Alexis Newton
+
 
 {{{#!sagecell
 #Last edited 8/8/19 at 1:47pm
 pretty_print(html("<h1>Hill Cipher Encryptor</h1>"))
 print "Please select the size of your key:"
 @interact
-def hill_cipher(Size=['2','3','4']):
+def hill_cipher(Size=['2','3','4'])):
     if Size=='2':
         print "Please input your message (in quotes) and numbers for your key:"
         @interact
@@ -573,7 +576,7 @@ dictt = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':7,'h':8,
     }
 print "Please select the size of your key:"
 @interact
-def decrypt_hill(size=['2','3','4']):
+def decrypt_hill(size=['2','3','4'])):
     if size=='2':
         print "Please input your encrypted message and your key:"
         @interact
