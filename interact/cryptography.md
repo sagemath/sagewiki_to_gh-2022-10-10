@@ -931,7 +931,7 @@ def DLP_solve(a=input_box(default=5),b=input_box(default=25),m=input_box(default
         STR_eval_num = STR_eval_num%47
         print "Step",L+1,":",str(a)+"^"+str(b),"=",STR,"=",STR_eval,"=",STR_eval_num,"mod",m
         print
-        print "  Since, as a sum of powers of 2,",str(25)+" is "+expansion+"."
+        print "  Since, as a sum of powers of 2,",str(b)+" is "+expansion+"."
         print
         print "CONCLUSION: "+str(STR_eval_num)+" = "+str(a)+"^"+str(b)+" mod",m,". It takes",L+1,"steps to calculate x with this method."
 
