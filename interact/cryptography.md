@@ -358,7 +358,7 @@ def makeDG(str): # creates digraphs with different values from a string "str"
 pretty_print(html("<h1>Playfair Cipher Encryptor</h1>"))
 print('Enter your message and the key to construct you polybius square. Warning: both the message and the key must be in quotes.')
 @interact
-def _(Message=input_box(default="message"'),Key=input_box(default='"key"'),showmatrix=checkbox(True, label='Show polybius square')):
+def _(Message=input_box(default='"message"'),Key=input_box(default='"key"'),showmatrix=checkbox(True, label='Show polybius square')):
     
     if showmatrix:
         poly=makePF(Key)
