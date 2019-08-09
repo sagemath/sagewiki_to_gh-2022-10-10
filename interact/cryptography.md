@@ -321,11 +321,11 @@ def playfair_decrypt_options(pl): ##Modifies the output of the playfair_decrypt 
                 pl_noX=pl_noX.replace('X','')
     return([pl,pl_noI,pl_noX,pl_no_last_X])    
 
-print 'Playfair cipher decryption'
+pretty_print(html("<h1>Playfair Cipher Decryptor</h1>"))
 print 'Enter your ciphertext and a guess for the key to construct you polybius square.'
 print 'Warning: both the message and the key must be in quotes.'
 @interact
-def _(Ciphertext=input_box(default="'Ciphertext'"),Key=input_box(default="'key'", label='Guess key'),showmatrix=checkbox(True, label='Show polybius square')):
+def _(Ciphertext=input_box(default="'LYXAXGDA'"),Key=input_box(default="'key'", label='Guess key'),showmatrix=checkbox(True, label='Show polybius square')):
     print 'These are some of the possibilities for the plaintext:'
     print playfair_decrypt_options(playfair_decrypt(Ciphertext,Key))
     if showmatrix:
