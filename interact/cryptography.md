@@ -569,7 +569,7 @@ Use this interact to encrypt a message using the Vigenère Cipher.
 pretty_print(html("<h1>Vigenère Cipher Encryptor</h1>"))
 pretty_print(html("<h>Put your message and codeword inside the quotes:<h>"))
 @interact 
-def vigenere_cipher(message = input_box(default ="'secrets hi'",label="Message:"), code_word = input_box(default="'cat'",label="Key:")):
+def vigenere_cipher(message = input_box(default ='"secrets hi"',label="Message:"), code_word = input_box(default='"cat"',label="Key:")):
     A = AlphabeticStrings()
     message2 = A.encoding(message) 
     code_word2 = A.encoding(code_word) 
@@ -590,7 +590,7 @@ If you used the Vigenère Cipher to encrypt a message, you can use this interact
 pretty_print(html("<h1>Vigenère Cipher Decryptor</h1>"))
 pretty_print(html("<h>Put your encrypted message and codeword inside the quotes:<h>"))
 @interact 
-def vigenere_cipher(message = input_box(default ="'UEVTEMUHB'",label = "Message:"), code_word = input_box(default="'cat'", label = "Key:")):
+def vigenere_cipher(message = input_box(default ='"UEVTEMUHB"',label = "Message:"), code_word = input_box(default='"cat"', label = "Key:")):
     A = AlphabeticStrings()
     message2 = A.encoding(message) 
     code_word2 = A.encoding(code_word) 
