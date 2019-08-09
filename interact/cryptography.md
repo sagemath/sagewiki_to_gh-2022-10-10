@@ -536,67 +536,24 @@ Named for the authors Rivest, Shamir, Aldeman, RSA uses exponentiation and modul
 === RSA, From Alice's Perspective ===
 by Sarah Arpin, Eva Goedhart
 
-Babette has sent Alice an encrypted message. You , as Alice, will provide information so that you can read Babette's message.  
+Babette  sent Alice an encrypted message. You , as Alice, will provide information so that you can read Babette's message.  
 
 {{{#!sagecell
-#Last edited 8/8/19 at 11:42am
+#Last edited 8/9/19 at 11:16am
 print "Hi, Alice! Let's set up RSA together."
-go = True
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''Edit conflict - other version:''' ----
 @interact
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''End of edit conflict''' ----
-
----- /!\ '''End of edit conflict''' ----
-while go:
-    p = ZZ(raw_input("Provide a SECRET decently large prime (>10): "))
-    if p.is_prime() and p>10:
-        go = False
-    elif p<=10:
-        print "Larger prime, please."
-    elif not p.is_prime():
-        print "Prime, please."
-go = True
-while go:
-    q = ZZ(raw_input("Provide a SECRET different decently large prime (>10): "))
-    if q.is_prime() and p!=q and q>10:
-        go = False
-    elif p<=10:
-        print "Larger prime, please."
-    elif not p.is_prime():
-        print "Prime, please."
-    elif p == q:
-        print "Different prime, please."
-phi = (p-1)*(q-1)
-print "So far, you can compute:"
-print "N = pq =",p*q
-print "phi(N) = (p-1)(q-1) =",phi.factor()
-go = True
-while go:
-    e = ZZ(raw_input("Provide a PUBLIC exponent that is relatively prime to phi(N):"))
-    if gcd(e,phi) == 1:
-        go = False
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
-
----- /!\ '''Edit conflict - other version:''' ----
-
----- /!\ '''Edit conflict - your version:''' ----
-@interact
-
----- /!\ '''End of edit conflict''' ----
-
----- /!\ '''End of edit conflict''' ----
-def rsa():
+def rsa(p = input_box(default = 11,label = "p (>10): "), q = input_box(default = 23,label = "q (>10): "),e = input_box(default = 7,label = "e:")):
+    print "************************************************************************************************"
+    print "WARNINGS: p and q should be different primes, both larger than 10."
+    print "e should be relatively prime to phi(pq). To check this, see the factorization of phi(pq) below."
+    print "************************************************************************************************"
+    print ""
+    p = ZZ(p)
+    q = ZZ(q)
+    e = ZZ(e)
+    phi = (p-1)*(q-1)
+    print "phi(pq) = ",phi.factor()
+    print ""
     N = p*q
     R = IntegerModRing(phi)
     d = (e^(R(e).multiplicative_order()-1)).mod(phi)
