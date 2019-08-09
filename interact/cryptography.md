@@ -131,6 +131,8 @@ Based on code from Alasdair McAndrew at trac.sagemath.org/ticket/8559.
 
 A playfair cipher is a special type of substitution cipher in which the plaintext is broken up into two-letter digraphs with some restrictions. Those digraphs are encrypted using a Polybius square, (i.e. a 5x5 grid in which each letter of the alphabet is its own entry with the exception of ij which are placed together). The positions of the letters in the digraph determine how the digraph is encrypted.
 
+=== Playfair Encryption ===
+
 {{{#!sagecell
 ##PLAYFAIR CIPHER
 
