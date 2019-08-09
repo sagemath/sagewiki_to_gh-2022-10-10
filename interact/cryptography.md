@@ -358,7 +358,7 @@ def makeDG(str): # creates digraphs with different values from a string "str"
 pretty_print(html("<h1>Playfair Cipher Encryptor</h1>"))
 print('Enter your message and the key to construct you polybius square. Warning: both the message and the key must be in quotes.')
 @interact
-def _(Message=input_box(default="'message'"),Key=input_box(default="'key'"),showmatrix=checkbox(True, label='Show polybius square')):
+def _(Message=input_box(default="message"'),Key=input_box(default='"key"'),showmatrix=checkbox(True, label='Show polybius square')):
     
     if showmatrix:
         poly=makePF(Key)
@@ -473,7 +473,7 @@ pretty_print(html("<h1>Playfair Cipher Decryptor</h1>"))
 print 'Enter your ciphertext and a guess for the key to construct you polybius square.'
 print 'Warning: both the message and the key must be in quotes.'
 @interact
-def _(Ciphertext=input_box(default="'LYXAXGDA'"),Key=input_box(default="'key'", label='Guess key'),showmatrix=checkbox(True, label='Show polybius square')):
+def _(Ciphertext=input_box(default='"LYXAXGDA"'),Key=input_box(default='"key"', label='Guess key'),showmatrix=checkbox(True, label='Show polybius square')):
     print 'These are some of the possibilities for the plaintext:'
     print playfair_decrypt_options(playfair_decrypt(Ciphertext,Key))
     if showmatrix:
@@ -1027,7 +1027,7 @@ print ""
 print "1. Input Babette's secret message for Alice in between the quotation marks below."
 print "   Make sure that there are no apostrophes or extra quotation marks in your message."
 @interact
-def rsa(message = input_box(default = "'Secrets for Alice'",label="Message:")):
+def rsa(message = input_box(default = '"Secrets for Alice"',label="Message:")):
     p = next_prime(100)
     q = next_prime(p)
     phi = (p-1)*(q-1)
