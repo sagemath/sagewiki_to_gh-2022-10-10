@@ -847,7 +847,7 @@ def modular_multiplication_tables(n = input_box(default = 7, width = 25)):
 
 by Rebecca Lauren Miller, Kate Stange
 
-Given a modulus n and a nonnegative exponent a this displays a graph where each integer between 0 and n-1 is mapped to its ath power, mod n.
+Given a modulus n and a nonnegative exponent a this displays a graph where each integer between 0 and n-1 is mapped to its a-th power, mod n.
 
 {{{#!sagecell
 #Last edited 8/9/19 at 2:46pm
@@ -873,7 +873,7 @@ def modular_multiplication_graph(n = input_box(default = 7, width = 25), a = inp
 === Discrete Log Problem ===
 by Sara Lapan
 
-The discrete logarithm, log(x) with base a, is an integer b such that a^b^ = x. Computing logarithms is computationally difficult, and there are no efficient algorithms known for the worst case scenarios. However, the discrete exponentiation is comparatively simple (for instance, it can be done efficiently using squaring). This asymmetry in complexity has been exploited in constructing cryptographic systems. Typically, it is much easier to solve for x in x=a^b^ (mod m) when a,b,m are known, than it is to solve for b when x,a,m are known. Interact to find x given a,b,m:
+The discrete logarithm, log(x) with base a, is an integer b such that a^b^ = x. Computing logarithms is computationally difficult, and there are no efficient algorithms known for the worst case scenarios. However, the discrete exponentiation is comparatively simple (for instance, it can be done efficiently using squaring). This asymmetry in complexity has been exploited in constructing cryptographic systems. Typically, it is much easier to solve for x in x = a^b^ (mod m) when a, b, and m are known, than it is to solve for b when x, a, and m are known. Interact to find x given a, b, and m:
 
 {{{#!sagecell
 
