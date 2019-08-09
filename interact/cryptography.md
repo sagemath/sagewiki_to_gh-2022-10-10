@@ -220,7 +220,7 @@ def _(Message=input_box(default="'message'"),Key=input_box(default="'key'"),show
 
 == Frequency Analysis Tools ==
 
-Frequency analysis is a technique for breaking a substitution cipher that utilizes the frequencies that letters appear in the English language. For example, E is the most common letter in the English language, so if a piece of encrypted text had many instances of the letter Q, you would guess that Q had been substituted in for E. The next two interacts create a couple of basic tools that could be useful in cracking a substitution cipher. 
+Frequency analysis is a technique for breaking a substitution cipher that utilizes the frequencies of letters appearing in the English language. For example, E is the most common letter in the English language, so if a piece of encrypted text had many instances of the letter Q, you would guess that Q had been substituted in for E. The next two interacts create a couple of basic tools that could be useful in cracking a substitution cipher. 
 
 
 === Letter Frequency Counter ===
