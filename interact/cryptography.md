@@ -602,42 +602,6 @@ def rsa():
 by Sarah Arpin, Eva Goedhart
 
 {{{#!sagecell
-#Last edited 8/8/19 at 12:30pm
-print "Hi, Babette! Let's send a message to Alice using RSA."
-p = next_prime(100)
-q = next_prime(p)
-phi = (p-1)*(q-1)
-e = 13
-N = p*q
-R = IntegerModRing(phi)
-d = (e^(R(e).multiplicative_order()-1)).mod(phi)
-print "Alice's public key is: N =",N,", e =",e,"."
-message = raw_input("Type a message for Alice:")
-ascii_secret = []
-for char in message:
-    ascii_secret.append(ord(char))
-print "We turn these characters into ascii:"
-print ascii_secret
-print ""
-print "Then we encode them by raising each ascii number to the e-th power modulo N."
-encrypted_ascii = []
-for ascii in ascii_secret:
-    encrypted_ascii.append(power_mod(ascii,e,N))
-print encrypted_ascii
-print ""
-@interact
-def rsa():
-    print "Alice receives our secret and uses her private key to decrypt the message."
-    decrypted_ascii = []
-    for ascii in encrypted_ascii:
-        decrypted_ascii.append(power_mod(ascii,d,N))
-    print decrypted_ascii
-    print ""
-    decrypted_secret = ""
-    for ascii in decrypted_ascii:
-        decrypted_secret += chr(ascii)
-    print "Going from ascii to letters, she figures out your message was: "
-    print decrypted_secret
 
 }}}
 
