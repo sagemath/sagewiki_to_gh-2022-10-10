@@ -2,7 +2,7 @@
 
 
 
-This page was first created at Sage Days 103, 7-10 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal. Text edited by Holly Paige Chaos, Amy Feaver, Eva Goedhart, and Alexis Newton. This project was led by Amy Feaver.
+This page was first created at Sage Days 103, 7-9 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal. Text edited by Holly Paige Chaos, Amy Feaver, Eva Goedhart, and Alexis Newton. This project was led by Amy Feaver.
 
 We acknowledge Katherine Stange, who allowed us to use code from her cryptography course as a starting point for many of these interacts. Dr. Stange's original code and course page can be found at http://crypto.katestange.net/
 
@@ -125,7 +125,6 @@ A substitution cipher encrypts messages by assigning each letter of the alphabet
 }}}
 
 == Playfair Cipher ==
-
 by Catalina Camacho-Navarro
 
 Based on code from Alasdair McAndrew at trac.sagemath.org/ticket/8559.
@@ -221,19 +220,19 @@ def _(Message=input_box(default="'message'"),Key=input_box(default="'key'"),show
 
 == Frequency Analysis Tools ==
 
-Frequency analysis is a technique for breaking a substitution cipher that is based on the frequencies that letters appear in the English language. For example, E is the most common letter in the English language, so if a piece of encrypted text had many instances of the letter Q, you would guess that Q had been substituted in for E. The next two interacts create a couple of basic tools that could be useful in cracking a substitution cipher. 
+Frequency analysis is a technique for breaking a substitution cipher that utilizes the frequencies that letters appear in the English language. For example, E is the most common letter in the English language, so if a piece of encrypted text had many instances of the letter Q, you would guess that Q had been substituted in for E. The next two interacts create a couple of basic tools that could be useful in cracking a substitution cipher. 
 
 
 === Letter Frequency Counter ===
 by Rebecca Lauren Miller, Katherine Stange
 
-This tool looks at the percentage of appearances of each letter in the input text and plots these percentages. The encrypted input text is a bit strange, but was constructed by Amy Feaver to give a short block text that matched the frequencies of letters in the English language relatively well, to make this message easier to decrypt.
+This tool looks at the percentage of appearances of each letter in the input text and plots these percentages. The encrypted input text is a bit strange, but was constructed by Amy Feaver to give a short block of text that matched the frequencies of letters in the English language relatively well, to make this message easier to decrypt.
 
 {{{#!sagecell
 #Last Edited 8/8/19 at 2:36pm
 
-pretty_print(html("<h1>Frequency Analysis Distribution</h1>"))
-print "This interact prints a bar graph of the distribution of the letters in the input text. Warning: the smaller the input text the less accurate the distribution will be. Letters that do not occur will not appear in the graph."
+pretty_print(html("<h1>Letter Frequency Counter</h1>"))
+print "This interact prints a bar graph showing the distribution of letters in the input text. Warning: the smaller the input text the less accurate the distribution will be. Letters that do not occur will not appear in the graph."
 # Initial text is "Greetiiiings my name is Weeegbert Deuce the True Eater of the Toupee. Hear ye, hear ye! Dee dee dee. A head of these liger cubs carrying the trippy tomahawks are coming fo' thee. Take shelters in the tombs. Tammy ran to the other townspeople and aardvarks. What is her ETA? Her ETA please! Toil, bring your food cups and oil and be swift. The women and the child Occotion CIII should pick bamboo at Atitisoting. See? Nanna Wu Shacah's inner noodle cups: not nuutty sesame notions."
 
 @interact
@@ -263,7 +262,7 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 === Frequency Analysis Decryption Guesser ===
 by Rebecca Lauren Miller, Katherine Stange
 
-This interact prints a suggested translation of the input text by matching frequencies of letters in the input to letter frequencies in the English language. With the output you will see that some letters were substituted in correctly, and others were not. Usually frequency analysis requires additional work and some trial and error to discover the original message, especially if the input text is not long enough.
+This interact prints a suggested translation of the input text by matching frequencies of letters in the input to frequencies of letters in the English language. With the output you will see that some letters were substituted in correctly, and others were not. Usually frequency analysis requires additional work and some trial and error to discover the original message, especially if the input text is not long enough.
 
 {{{#!sagecell
 #Last edited 8/8/19 at 2:54pm
@@ -292,22 +291,15 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 
 == Vigenère Cipher ==
 
-A Vigenère cipher is an example of a polyalphabetic cipher. Using a secret code word, encrypt each letter by shifting it the corresponding letter in the code word.
-
-For our default text ‘ SECRETS HI’ we use the code word ‘CAT’.    
-
-We will breaks up the message into three-letter chunks, because our codeword is three letters.  So SEC RET SHI.
-
-The standard is that a=0 b=1, c=2,…etc. So S shift by C=2 letters to U. E will shift by  A= 0 letters and remain at E. C will shift by T=19 letters to V, and so on.
-
- 
-To decrypt the message, simply undo the encryption process. The keyword must be known.  Cryptography by Simon Rubinstein-Salzedo used as reference.- RLM
+A Vigenère cipher is an example of a polyalphabetic cipher. Using a secret codeword as the key, the Vigenère encrypts each letter of a message by shifting it according to the corresponding letter in the key. For example, we will use the key "CAT" to encrypt our default text "SECRETS HI". To do this the message is first broken up into three-letter chunks, because the key is three letters long, and each letter of the chunk is shifted by the value of the corresponding letter in the key. The standard shifts are A=0, B=1, C=2, etc. So in our example, S shifts by C=2 letters to U, E shifts by A=0 letters and remains at E, and C shifts by T=19 letters to V, and so on. Thus "SECRETS HI" becomes SEC RET SHI when encrypted. To decrypt the message, simply use the keyword to undo the encryption process. Cryptography by Simon Rubinstein-Salzedo was used as reference for this interact.
 
 === Vigenère Cipher Encryption ===
 by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange
 
 {{{#!sagecell
 #This encrypts your message: Final 8/7/19. Written by Rebecca Lauren Miller, Holly Paige Chaos, Katherine Stange.
+
+pretty_print(html("<h1>Vigenère Cipher Encryptor</h1>"))
 print "Put your message and codeword in quotes: "
 @interact 
 def vigenere_cipher(message = input_box(default ="'secrets hi'", width = 50), code_word = input_box(default="'cat'", width = 50)):
@@ -325,7 +317,9 @@ by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange
 
 {{{#!sagecell
 #Last edited 8/7/19 at 12:00pm
-print "Put your message and codeword in quotes: "
+
+pretty_print(html("<h1>Vigenère Cipher Decryptor</h1>"))
+print "Put your message and codeword inside the quotes: "
 @interact 
 def vigenere_cipher(message = input_box(default ="'UEVTEMUHB'", width = 50), code_word = input_box(default="'cat'", width = 50)):
     A = AlphabeticStrings()
