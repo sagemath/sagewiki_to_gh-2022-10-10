@@ -251,7 +251,7 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 
 === Frequency Analysis Decryption Guesser ===
 
-by Rebecca LaurenMiller, Kate Stange
+by Rebecca Lauren Miller, Katherine Stange
 
 This interact prints suggested translation of the input text, by matching frequencies of letters in the input to letter frequencies in the English language. With the output you will see that some letters were substituted in correctly, and others were not. Usually frequency analysis requires additional work and some trial and error to discover the original message, especially if the input text is not long enough. -AF 
 
@@ -357,10 +357,10 @@ def one_time_pad(plain_text = input_box("'message'",label="Plain Text:")):
 == Hill Cipher ==
 by Holly Paige Chaos, Alexis Newton
 
+=== Hill Cipher Encryption ===
+
 {{{#!sagecell
 #Last edited 8/8/19 at 1:47pm
-
-pretty_print(html('<h2>Hill Cipher Encryptor</h2>'))
 print "Please input the size of your key:"
 @interact
 def hill_cipher(Size=['2','3','4']):
@@ -421,11 +421,10 @@ def hill_cipher(Size=['2','3','4']):
 }}}
 
 
-
+=== Hill Cipher Decryption ===
 
 {{{#!sagecell
 #Last edited 8/8/19 at 1:47pm
-pretty_print(html('<h2>Hill Cipher Decryptor</h2>'))
 dictt = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':7,'h':8,
     'i':9,'j':10,'k':11,'l':12,'m':13,'n':14,'o':15,'p':16,'q':17,
     'r':18,'s':19,'t':20,'u':21,'v':22,'w':23,'x':24,'y':25,'z':26
