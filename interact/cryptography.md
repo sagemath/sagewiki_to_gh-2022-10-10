@@ -21,6 +21,8 @@ The shift cipher is a classical cryptosystem that takes plaintext and shifts it 
 === Shift Cipher Encryption ===
 by Sarah Arpin, Alexis Newton
 
+You can use this interact to encrypt a message with the a shift cipher.
+
 {{{#!sagecell
 #Last edited 8/7/19 2:45pm
 print "Put your message inside the provided quotes (with no additional quotes or apostrophes!), and select your desired shift: "
@@ -62,18 +64,16 @@ def shift_decrypt(text = input_box('"KL"'), shift_by = input_box(0)):
 == Affine Cipher ==
 
 
-An affine cipher combines the idea of a shift cipher with a multiplicative cipher. In this particular example, we map consecutive letters of the alphabet to consecutive numbers, starting with A=0 (you can also do this cipher differently, and starting with A=1). The user selects two values, a and b. The value a is the multiplier and must be relatively prime to 26 in order to guarantee that each letter is encoded uniquely. The value b is the addend. Each letter's value is multiplied by a, and the product is added to b. This is then replaced with a new letter, corresponding to the result modulo 26. -AF
+An affine cipher combines the idea of a shift cipher with a multiplicative cipher. In this particular example, we map consecutive letters of the alphabet to consecutive numbers, starting with A=0 (you can also do this cipher differently, and starting with A=1). The user selects two values, a and b. The value a is the multiplier and must be relatively prime to 26 in order to guarantee that each letter is encoded uniquely. The value b is the addend. Each letter's value is multiplied by a, and the product is added to b. This is then replaced with a new letter, corresponding to the result modulo 26. 
 
 === Affine Cipher Encryption ===
 by Sarah Arpin, Alexis Newton
 
-You can use this interact to encrypt a message with the affine cipher.
+You can use this interact to encrypt a message with the affine cipher. Notice that the only choices for a can be numbers that are relatively prime to 26. This cipher will encipher a letter m of your message as a*m + b.
 
 {{{#!sagecell
 # Last edited 8/7/2019 2:01pm
 print "Put your message in between the provided quotes (with no additional quotes or apostrophes!), and select your desired a and b: "
-print "Notice that the only choices for a can be numbers that are relatively prime to 26."
-print "This cipher will encipher the letters m of your message as a*m + b."
 @interact
 def affine_cipher(message = input_box(default='"secrets"', width = 50), a=[1,3,5,7,9,11,15,17,19,21,23], b =[0..25]):
     A = AlphabeticStrings()
@@ -88,11 +88,11 @@ def affine_cipher(message = input_box(default='"secrets"', width = 50), a=[1,3,5
 === Affine Cipher Decryption ===
 by Sarah Arpin, Alexis Newton
 
-If you know that your message was encrypted using an affine cipher, you can use the known a and b values to decrypt. If this is not known, brute force can be used to get possible decrypted messages. The chi-squared function ranks the results by likelihood according to letter frequency.
+If you know that your message was encrypted using an affine cipher, you can use the known a and b values to decrypt. If these are not known, brute force can be used to get a list of possible decrypted messages. The chi-squared function ranks these results by likelihood according to letter frequency.
 
 {{{#!sagecell
 #Last edited 8/7/2019 3:01pm
-print "Enter the encrypted text in quotes, and enter a guess for the a and the b:"
+print "Enter the encrypted text in quotes, and enter a guess for the a and b:"
 @interact
 def shift_decrypt(text = input_box('"XNSILPCVA"'), a=[1,3,5,7,9,11,15,17,19,21,23,25], b =[0..25]):
     S = AffineCryptosystem(AlphabeticStrings())
@@ -112,7 +112,7 @@ def shift_decrypt(text = input_box('"XNSILPCVA"'), a=[1,3,5,7,9,11,15,17,19,21,2
 == Substitution Cipher ==
 by Catalina Camacho-Navarro
 
-A simple cipher to encrypt messages in which each letter is assigned to another letter. Brute force or frequency analysis can be used to decrypt. -EG
+A substitution cipher encrypts messages by assigning each letter of the alphabet to another letter. For instance, if A is assigned to F, then all A's in the original message will be substituted with F's in the encrypted message. Brute force or frequency analysis can be used to decrypt a message encrypted with a substitution cipher.
 
 {{{#!sagecell
 
