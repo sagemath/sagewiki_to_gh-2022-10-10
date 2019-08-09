@@ -282,7 +282,16 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 
 == Vigenère Cipher ==
 
-Using a secret code word, encrypt each letter by shifting it the corresponding letter in the code word. -EG
+ A Vigenère cipher is an example of a polyalpha- betic cipher. Using a secret code word, encrypt each letter by shifting it the corresponding letter in the code word.
+
+ For our default text ‘ SECRETS HI’ we use the code word ‘CAT’.    
+
+We will breaks up the message  into three-letter chunks, because our codeword is three letters.  So SEC RET SHI.
+
+The standard is that a=0 b=1, c=2,…etc. So S shift by C=2 letters to U. E will shift by  A= 0 letters and remain at E. C will shift by T=19 letters to V, and so on.
+
+ 
+To decrypt the message, simply undo the encryption process. The keyword must be known.  Cryptography by Simon Rubinstein-Salzedo used as reference.- RLM
 
 === Vigenère Cipher Encryption ===
 by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange
