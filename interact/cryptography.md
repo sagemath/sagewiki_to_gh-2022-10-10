@@ -531,10 +531,12 @@ def decrypt_hill(size=['2','3','4']):
 
 == RSA ==
 
-Named for the authors Rivest, Shamir, Aldeman, RSA uses exponentiation and modular arithmetic to encrypt and decrypt messages between two parties. Each of those parties has their own secret and public key. To see how it works, following along while Alicia and Bernadette share a message. -EG
+Named for the authors Rivest, Shamir, Aldeman, RSA uses exponentiation and modular arithmetic to encrypt and decrypt messages between two parties. Each of those parties has their own secret and public key. To see how it works, following along while Alice and Babette share a message. -EG
 
 === RSA, From Alice's Perspective ===
 by Sarah Arpin, Eva Goedhart
+
+Babette has sent Alice an encrypted message. You , as Alice, will provide information so that you can read Babette's message.  
 
 {{{#!sagecell
 #Last edited 8/8/19 at 11:42am
