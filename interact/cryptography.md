@@ -28,7 +28,7 @@ You can use this interact to encrypt a message with a shift cipher.
 pretty_print(html("<h1>Shift Cipher Encryptor</h1>"))
 print "Put your message inside the provided quotes (with no additional quotes or apostrophes!), and select your desired shift: "
 @interact
-def shift_cipher(message = input_box(default='"secrets"', width = 50), shift=slider(0,25,1,3)):
+def shift_cipher(message = input_box(default='"secrets"',label="Message:"), shift=slider(0,25,1,3,label="Shift by:")):
     A = AlphabeticStrings()
     S = ShiftCryptosystem(A)
     message = S.encoding(message)
@@ -49,17 +49,17 @@ If you know that your message was encrypted using a shift cipher, you can use th
 pretty_print(html("<h1>Shift Cipher Decryptor</h1>"))
 print "Enter the encrypted text in quotes, and enter a guess for the shift amount:"
 @interact
-def shift_decrypt(text = input_box('"KL"'), shift_by = input_box(0)):
+def shift_decrypt(text = input_box(default='"KL"',label="Message:"), shift_by = input_box(default = 0, label="Shift by:")):
     S = ShiftCryptosystem(AlphabeticStrings())
     ciphertext = S.encoding(text)
     decrypt = S.deciphering(shift_by%26,ciphertext)
     print "If the shift was by", shift_by,", then the original message was:"
     print decrypt
     decrypt = S.brute_force(ciphertext)
-    print "These are the possibilities for the plaintext:"
+    print "\nThese are the possibilities for the plaintext:"
     print decrypt
     decrypt = S.brute_force(ciphertext,ranking = "chisquare")
-    print "These are the possibilities ranked by likelihood with the chi-squared function:"
+    print "\nThese are the possibilities ranked by likelihood with the chi-squared function:"
     print decrypt
 }}}
 
