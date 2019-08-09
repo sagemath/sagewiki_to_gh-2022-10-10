@@ -10,7 +10,6 @@
 #language en
 
 
-{{attachment:WIS11.jpg}}
 
 
 = Sage Days 103 : Women in sage (2019) =
@@ -19,6 +18,9 @@
 '''''St. Louis, MO'''''
 
 <<TableOfContents()>>
+
+
+{{attachment:WIS11.jpg}}
 
 These Sage days are a special event for women* who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introduction presentations, training,  and team work on specific projects. There is no initial knowledge needed, everyone is welcome whether they are new Sage learners or Sage expert. We believe in diversity in backgrounds and experiences.
 
