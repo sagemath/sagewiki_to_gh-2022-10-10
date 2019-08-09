@@ -133,6 +133,8 @@ A playfair cipher is a special type of substitution cipher in which the plaintex
 
 === Playfair Encryption ===
 
+Use this interact to encrypt a message using the playfair cipher.
+
 {{{#!sagecell
 ##PLAYFAIR CIPHER
 
