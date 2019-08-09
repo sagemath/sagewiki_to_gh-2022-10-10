@@ -2,7 +2,7 @@
 
 
 
-This page was first created at Sage Days 103, 7-9 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal. Text edited by Holly Paige Chaos, Amy Feaver, Eva Goedhart, Sara Lapan and Alexis Newton. This project was led by Amy Feaver.
+This page was first created at Sage Days 103, 7-9 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Sara Lapan, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal. Text edited by Holly Paige Chaos, Amy Feaver, Eva Goedhart, Sara Lapan and Alexis Newton. This project was led by Amy Feaver Eva Goedhart.
 
 We acknowledge Katherine Stange, who allowed us to use code from her cryptography course as a starting point for many of these interacts. Dr. Stange's original code and course page can be found at http://crypto.katestange.net/
 
