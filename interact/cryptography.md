@@ -268,7 +268,7 @@ This interact prints a suggested translation of the input text by matching frequ
 #Last edited 8/8/19 at 2:54pm
 
 pretty_print(html("<h1>Frequency Analysis Decryption Guesser</h1>"))
-print "Warning: the shorter the input text is, the less accuate the distribution will be."
+print "Warning: the shorter the input text is, the less accurate the distribution will be."
 @interact 
 # Initial text is "Greetiiiings my name is Weeegbert Deuce the True Eater of the Toupee. Hear ye, hear ye! Dee dee dee. A head of these liger cubs carrying the trippy tomahawks are coming fo' thee. Take shelters in the tombs. Tammy ran to the other townspeople and aardvarks. What is her ETA? Her ETA please! Toil, bring your food cups and oil and be swift. The women and the child Occotion CIII should pick bamboo at Atitisoting. See? Nanna Wu Shacah's inner noodle cups: not nuutty sesame notions."
 def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl aol Aybl Lhaly vm aol Avbwll. Olhy fl, olhy fl! Kll kll kll. H olhk vm aolzl spnly jbiz jhyyfpun aol aypwwf avthohdrz hyl jvtpun mv aoll. Ahrl zolsalyz pu aol avtiz. Ahttf yhu av aol vaoly avduzwlvwsl huk hhykchyrz. Doha pz oly LAH? Oly LAH wslhzl! Avps, iypun fvby mvvk jbwz huk vps huk il zdpma. Aol dvtlu huk aol jopsk Vjjvapvu JPPP zovbsk wpjr ihtivv ha Hapapzvapun. Zll.Uhuuh Db Zohjho z puuly uvvksl jbwz: uva ubbaaf zlzhtl uvapvuz."', width = 150)):
@@ -291,7 +291,7 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 
 == Vigenère Cipher ==
 
-A Vigenère cipher is an example of a polyalphabetic cipher. Using a secret codeword as the key, the Vigenère encrypts each letter of a message by shifting it according to the corresponding letter in the key. For example, we will use the key "CAT" to encrypt our default text "SECRETS HI". To do this the message is first broken up into three-letter chunks, because the key is three letters long, and each letter of the chunk is shifted by the value of the corresponding letter in the key. The standard shifts are A=0, B=1, C=2, etc. So in our example, S shifts by C=2 letters to U, E shifts by A=0 letters and remains at E, and C shifts by T=19 letters to V. Thus "SECRETS HI" becomes UEVTEMUHB when encrypted. To decrypt the message, simply use the keyword to undo the encryption process. Cryptography by Simon Rubinstein-Salzedo was used as reference for this interact.
+A Vigenère cipher is an example of a polyalphabetic cipher. Using a secret codeword as the key, the Vigenère encrypts each letter of a message by shifting it according to the corresponding letter in the key. For example, we will use the key "CAT" to encrypt our default text "secrets hi". To do this the message is first broken up into three-letter chunks, because the key is three letters long, and each letter of the chunk is shifted by the value of the corresponding letter in the key. The standard shifts are A=0, B=1, C=2, etc. So in our example, S shifts by C=2 letters to U, E shifts by A=0 letters and remains at E, and C shifts by T=19 letters to V. Thus "SECRETSHI" becomes UEVTEMUHB when encrypted. To decrypt the message, simply use the keyword to undo the encryption process. Cryptography by Simon Rubinstein-Salzedo was used as reference for this interact.
 
 === Vigenère Cipher Encryption ===
 by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange
@@ -348,6 +348,7 @@ dictt = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':7,'h':8,
     'i':9,'j':10,'k':11,'l':12,'m':13,'n':14,'o':15,'p':16,'q':17,
     'r':18,'s':19,'t':20,'u':21,'v':22,'w':23,'x':24,'y':25,'z':26
     }
+pretty_print(html("<h1>One-Time Pad Encryptor</h1>"))
 print "Enter your message to be encrypted via one-time pad in the Plain Text box below:"
 @interact
 def one_time_pad(plain_text = input_box("'message'",label="Plain Text:")):
