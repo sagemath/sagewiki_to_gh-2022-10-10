@@ -64,6 +64,8 @@ by Sarah Arpin, Alexis Newton
 
 An affine cipher combines the idea of a shift cipher with a multiplicative cipher. In this particular example, we map consecutive letters of the alphabet to consecutive numbers, starting with A=0 (you can also do this cipher differently, and starting with A=1). The user selects two values, a and b. The value a is the multiplier and must be relatively prime to 26 in order to guarantee that each letter is encoded uniquely. The value b is the addend. Each letter's value is multiplied by a, and the product is added to b. This is then replaced with a new letter, corresponding to the result modulo 26. -AF
 
+=== Affine Cipher Encryption ===
+
 {{{#!sagecell
 # Last edited 8/7/2019 2:01pm
 print "Put your message in between the provided quotes (with no additional quotes or apostrophes!), and select your desired a,b: "
@@ -78,6 +80,28 @@ def affine_cipher(message = input_box(default='"secrets"', width = 50), a=[1,3,5
     print "This is your encrypted text:"
     print C
 }}}
+
+
+=== Affine Cipher Decryption ===
+
+{{{#!sagecell
+#Last edited 8/7/2019 3:01pm
+print "Enter the encrypted text in quotes, and enter a guess for the a and the b:"
+@interact
+def shift_decrypt(text = input_box('"XNSILPCVA"'), a=[1,3,5,7,9,11,15,17,19,21,23,25], b =[0..25]):
+    S = AffineCryptosystem(AlphabeticStrings())
+    ciphertext = S.encoding(text)
+    decrypt = S.deciphering(a,b,ciphertext)
+    print "If the a =", a, "and the b =",b, ", then the original message was:"
+    print decrypt
+    decrypt = S.brute_force(ciphertext,ranking="none")
+    print "\nThese are the possibilities for the plaintext:"
+    print decrypt
+    decrypt = S.brute_force(ciphertext,ranking = "chisquare")[:10]
+    print "\nThese are the top 10 possibilities ranked by likelihood with the chi-squared function:"
+    print decrypt
+}}}
+
 
 == Substitution Cipher ==
 by Catalina Camacho-Navarro
