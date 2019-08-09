@@ -299,8 +299,10 @@ by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange
 {{{#!sagecell
 #This encrypts your message: Final 8/7/19. Written by Rebecca Lauren Miller, Holly Paige Chaos, Katherine Stange.
 
+Use this interact to encrypt a message using the Vigenère Cipher.
+
 pretty_print(html("<h1>Vigenère Cipher Encryptor</h1>"))
-print "Put your message and codeword in quotes: "
+print "Put your message and codeword inside the quotes: "
 @interact 
 def vigenere_cipher(message = input_box(default ="'secrets hi'", width = 50), code_word = input_box(default="'cat'", width = 50)):
     A = AlphabeticStrings()
@@ -315,11 +317,13 @@ def vigenere_cipher(message = input_box(default ="'secrets hi'", width = 50), co
 === Vigenère Cipher Decryption ===
 by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange
 
+If you used the Vigenère Cipher to encrypt a message, you can use this interact to decrypt by inputting your key and encrypted text.
+
 {{{#!sagecell
 #Last edited 8/7/19 at 12:00pm
 
 pretty_print(html("<h1>Vigenère Cipher Decryptor</h1>"))
-print "Put your message and codeword inside the quotes: "
+print "Put your encrypted message and codeword inside the quotes: "
 @interact 
 def vigenere_cipher(message = input_box(default ="'UEVTEMUHB'", width = 50), code_word = input_box(default="'cat'", width = 50)):
     A = AlphabeticStrings()
