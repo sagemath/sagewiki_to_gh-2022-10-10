@@ -202,6 +202,44 @@ def vigenere_cipher(message = input_box(default ="'UEVTEMUHB'", width = 50), cod
     print ciphertext
 }}}
 
+
+== One-time Pad ==
+
+by Sarah Arpin, Alexis Newton
+
+
+{{{#!sagecell
+#Last edited 8/7/2019 5:12pm
+from random import randrange
+dictt = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':7,'h':8,
+    'i':9,'j':10,'k':11,'l':12,'m':13,'n':14,'o':15,'p':16,'q':17,
+    'r':18,'s':19,'t':20,'u':21,'v':22,'w':23,'x':24,'y':25,'z':26
+    }
+print "Enter your message to be encrypted via one-time pad in the Plain Text box below:"
+@interact
+def one_time_pad(plain_text = input_box("'message'",label="Plain Text:")):
+    #This code takes in a plain text, converts all of the letters to numbers, and then creates a one-time pad for encryption
+    message = []
+    for char in plain_text:
+        if char.isalpha():
+            message.append(char.lower())
+    size = len(message)
+    one_time_pad = []
+    for i in range(size):
+        one_time_pad.append(randrange(26))
+    cipher_text = []
+    for i in range(size):
+        cipher_text.append(1+(dictt[message[i]] + one_time_pad[i]).mod(26))
+    letter_cipher_text=""
+    for i in cipher_text:
+        letter_cipher_text += (chr(i+96))
+    print "Your one-time pad is:"
+    print one_time_pad
+    print ""
+    print "Your encrypted message is:"
+    print letter_cipher_text
+}}}
+
 == Hill Cipher ==
 by Holly Paige Chaos, Alexis Newton
 
@@ -269,43 +307,6 @@ def hill_cipher(Size=['2','3','4']):
 }}}
 
 
-== One-time Pad ==
-
-by Sarah Arpin, Alexis Newton
-
-
-
-{{{#!sagecell
-#Last edited 8/7/2019 5:12pm
-from random import randrange
-dictt = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':7,'h':8,
-    'i':9,'j':10,'k':11,'l':12,'m':13,'n':14,'o':15,'p':16,'q':17,
-    'r':18,'s':19,'t':20,'u':21,'v':22,'w':23,'x':24,'y':25,'z':26
-    }
-print "Enter your message to be encrypted via one-time pad in the Plain Text box below:"
-@interact
-def one_time_pad(plain_text = input_box("'message'",label="Plain Text:")):
-    #This code takes in a plain text, converts all of the letters to numbers, and then creates a one-time pad for encryption
-    message = []
-    for char in plain_text:
-        if char.isalpha():
-            message.append(char.lower())
-    size = len(message)
-    one_time_pad = []
-    for i in range(size):
-        one_time_pad.append(randrange(26))
-    cipher_text = []
-    for i in range(size):
-        cipher_text.append(1+(dictt[message[i]] + one_time_pad[i]).mod(26))
-    letter_cipher_text=""
-    for i in cipher_text:
-        letter_cipher_text += (chr(i+96))
-    print "Your one-time pad is:"
-    print one_time_pad
-    print ""
-    print "Your encrypted message is:"
-    print letter_cipher_text
-}}}
 
 
 {{{#!sagecell
