@@ -877,7 +877,7 @@ The discrete logarithm, log(x) with base a, is an integer b such that a^b^ = x. 
 
 ==== Solving for x ====
 
-Interact to find x given a, b, and m:
+Interact to find x when a, b, and m are known:
 
 {{{#!sagecell
 pretty_print(html("<h1>Solving for x</h1>"))
@@ -939,7 +939,7 @@ def DLP_solve(a=input_box(default=5),b=input_box(default=25),m=input_box(default
 
 ==== Solving for b ====
 
-Interact to find b given a, x, and m:
+Interact to find b when a, x, and m are known:
 
 {{{#!sagecell
 pretty_print(html("<h1>Solving for b</h1>"))
