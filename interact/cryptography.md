@@ -542,7 +542,6 @@ Babette has sent Alice an encrypted message. You , as Alice, will provide inform
 #Last edited 8/8/19 at 11:42am
 print "Hi, Alice! Let's set up RSA together."
 go = True
-@interact
 while go:
     p = ZZ(raw_input("Provide a SECRET decently large prime (>10): "))
     if p.is_prime() and p>10:
