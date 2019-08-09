@@ -873,11 +873,14 @@ def modular_multiplication_graph(n = input_box(default = 7, width = 25), a = inp
 === Discrete Log Problem ===
 by Sara Lapan
 
-The discrete logarithm, log(x) with base a, is an integer b such that a^b^ = x. Computing logarithms is computationally difficult, and there are no efficient algorithms known for the worst case scenarios. However, the discrete exponentiation is comparatively simple (for instance, it can be done efficiently using squaring). This asymmetry in complexity has been exploited in constructing cryptographic systems. Typically, it is much easier to solve for x in x = a^b^ (mod m) when a, b, and m are known, than it is to solve for b when x, a, and m are known. Interact to find x given a, b, and m:
+The discrete logarithm, log(x) with base a, is an integer b such that a^b^ = x. Computing logarithms is computationally difficult, and there are no efficient algorithms known for the worst case scenarios. However, the discrete exponentiation is comparatively simple (for instance, it can be done efficiently using squaring). This asymmetry in complexity has been exploited in constructing cryptographic systems. Typically, it is much easier to solve for x in x = a^b^ (mod m) when a, b, and m are known, than it is to solve for b when x, a, and m are known. 
+
+== Solving for x ==
+
+Interact to find x given a, b, and m:
 
 {{{#!sagecell
-
-pretty_print(html("<h1>Discrete Log Problem</h1>"))
+pretty_print(html("<h1>Solving for x</h1>"))
 print('This will evaluate x=a^b (mod m). Choose your base (a), exponent (b), and modulus (m). These should all be positive integers.')
 @interact
 def DLP_solve(a=input_box(default=5),b=input_box(default=25),m=input_box(default=47)):
@@ -931,6 +934,39 @@ def DLP_solve(a=input_box(default=5),b=input_box(default=25),m=input_box(default
         print "  Since, as a sum of powers of 2,",str(25)+" is "+expansion+"."
         print
         print "CONCLUSION: "+str(STR_eval_num)+" = "+str(a)+"^"+str(b)+" mod",m,". It takes",L+1,"steps to calculate x with this method."
+
+}}}
+
+== Solving for b == 
+
+Interact to find b given a, x, and m:
+
+{{{#!sagecell
+pretty_print(html("<h1>Solving for b</h1>"))
+print('This will solve for the exponent, b, in x=a^b (mod m) assuming an integer solution exists. Choose your base (a), modulus (m), and solution (x). These should all be positive integers.')
+@interact
+def DLP_break(a=input_box(default=5),x=input_box(default=22),m=input_box(default=47)):
+    if (not a in ZZ) or (not x in ZZ) or (not m in ZZ) or (a<=0) or (x<0) or (m<=0):
+        print "*********** ERROR: a,m,x should all be integers with a,m>0. ***********"
+        print
+# Note: presumably there isn't always a solution? If so, add another error message
+    elif x==1:
+        print "b=0"
+    else:
+        a=Integer(a)
+        x=Integer(x)
+        m=Integer(m)
+        ind=0
+        for i in [1..m]: 
+            temp = a^i %m
+            if temp==x:
+                ind=1
+                print "This process took",i,"steps to determine that","b="+str(i)
+                break
+            else:
+                temp
+        if ind==0:
+            print "*********** ERROR: No integer solution for b.***********"
 
 }}}
 
@@ -1076,5 +1112,3 @@ by Sarah Arpin, Eva Goedhart
 {{{#!sagecell
 
 }}}
-
-#== Diffe-Hellman Key Exchange ==
