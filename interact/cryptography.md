@@ -869,6 +869,71 @@ def modular_multiplication_graph(n = input_box(default = 7, width = 25), a = inp
     show(G.plot(pos=pos))
 }}}
 
+
+=== Discrete Log Problem ===
+by Sara Lapan
+
+The discrete logarithm, log(x) with base a, is an integer b such that a^(b) = x. Computing logarithms is computationally difficult, and there are no efficient algorithms known for the worst case scenarios. However, the discrete exponentiation is comparatively simple (for instance, it can be done efficiently using squaring). This asymmetry in complexity has been exploited in constructing cryptographic systems. Typically, it is much easier to solve for x in x=a^(b) (mod m) when a,b,m are known, than it is to solve for b when x,a,m are known. Interact to find x given a,b,m:
+
+{{{#!sagecell
+
+pretty_print(html("<h1>Discrete Log Problem</h1>"))
+print('This will evaluate x=a^b (mod m). Choose your base (a), exponent (b), and modulus (m). These should all be positive integers.')
+@interact
+def DLP_solve(a=input_box(default=5),b=input_box(default=25),m=input_box(default=47)):
+    if (not a in ZZ) or (not b in ZZ) or (not m in ZZ) or (a<=0) or (b<=0) or (m<=0):
+        print "*********** ERROR: a,b,m should all be positive integers. ***********"
+        print
+    else:
+        a=Integer(a)
+        b=Integer(b)
+        m=Integer(m)
+        print('This is the evaluation process using squares:')
+        print('')
+        C=b.str(base=2)
+        L=len(C)
+        S=[]
+        T=[]   
+    #    print "The base 2 expansion of",b,"is",C
+        ans=str(a)
+        ans_num=a
+        for i in range(L):
+            pow=L-i-1
+            #print C[pow],"copy(ies) of",2,"^",i,"=",2^i
+            # Convert to integer: 
+            # Integer(C[i],base=2)
+            S+=[(2^pow)]
+            print "Step",i+1,":",str(a)+"^"+str(2^i),"=",ans,"=",ans_num,"mod",m
+            #ans_num= a^(i+1) %m
+            ans=str(ans_num)+"^"+str(2)
+            ans_num= (ans_num)^2%m
+            if C[pow]=="1":
+                T+=[2^i]
+            else:
+                T
+        expansion = ""
+        STR=""
+        STR_eval=""
+        STR_eval_num=1
+        while len(T)>1:
+            expansion += str(T[-1])+"+"
+            STR += "("+str(a)+"^"+str(T[-1])+")"
+            STR_eval += "("+str(a^(T[-1])%47)+")"
+            STR_eval_num = STR_eval_num*(a^(T[-1])%47)
+            T.remove(T[-1])
+        expansion+=str(T[0])
+        STR += "("+str(a)+"^"+str(T[0])+")"
+        STR_eval += "("+str(a^(T[0])%47)+")"
+        STR_eval_num = STR_eval_num*(a^(T[0])%47)
+        STR_eval_num = STR_eval_num%47
+        print "Step",L+1,":",str(a)+"^"+str(b),"=",STR,"=",STR_eval,"=",STR_eval_num,"mod",m
+        print
+        print "  Since, as a sum of powers of 2,",str(25)+" is "+expansion+"."
+        print
+        print "CONCLUSION: "+str(STR_eval_num)+" = "+str(a)+"^"+str(b)+" mod",m,". It takes ",L+1,"steps to calculate with this method."
+
+}}}
+
 == RSA ==
 
 Named for the authors Rivest, Shamir, and Aldeman, RSA uses exponentiation and modular arithmetic to encrypt and decrypt messages between two parties. Each of those parties has their own secret and public key. To see how it works, following along while Alice and Babette share a message.
@@ -893,11 +958,6 @@ def rsa(p = input_box(default = 11,label = "p: "), q = input_box(default = 23,la
     p = ZZ(p)
     q = ZZ(q)
     e = ZZ(e)
-    #print "************************************************************************************************"
-    #print "WARNINGS: p and q should be different primes, both larger than 10."
-    #print "e should be relatively prime to φ(pq). To check this, see the factorization of φ(pq) below."
-    #print "************************************************************************************************"
-    #print ""
     if p == q:
         print "*********** Make sure p and q are different.***********"
     if p < 10:
