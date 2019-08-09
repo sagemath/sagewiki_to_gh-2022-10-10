@@ -534,7 +534,7 @@ Named for the authors Rivest, Shamir, Aldeman, RSA uses exponentiation and modul
 by Sarah Arpin, Eva Goedhart
 
 {{{#!sagecell
-
+#Last edited 8/8/19 at 11:42am
 print "Hi, Alice! Let's set up RSA together."
 go = True
 while go:
@@ -602,7 +602,7 @@ def rsa():
 by Sarah Arpin, Eva Goedhart
 
 {{{#!sagecell
-
+#Last edited 8/8/19 at 12:30pm
 print "Hi, Babette! Let's send a message to Alice using RSA."
 p = next_prime(100)
 q = next_prime(p)
