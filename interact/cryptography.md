@@ -937,7 +937,7 @@ def DLP_solve(a=input_box(default=5),b=input_box(default=25),m=input_box(default
 
 }}}
 
-== Solving for b == 
+=== Solving for b ===
 
 Interact to find b given a, x, and m:
 
