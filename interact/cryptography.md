@@ -847,7 +847,7 @@ def modular_multiplication_tables(n = input_box(default = 7, width = 25)):
 
 by Rebecca Lauren Miller, Kate Stange
 
-
+Given a modulus n and a nonnegative exponent a this displays a graph where each integer between 0 and n-1 is mapped to its ath power, mod n.
 
 {{{#!sagecell
 #Last edited 8/9/19 at 2:46pm
