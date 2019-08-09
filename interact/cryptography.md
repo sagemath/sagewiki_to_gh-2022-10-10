@@ -839,6 +839,30 @@ def modular_multiplication_tables(n = input_box(default = 7, width = 25)):
     print table(rows, frame=True)
 }}}
 
+
+=== Modular Exponentiation ===
+
+by Rebecca Lauren Miller, Kate Stange
+
+{{{#!sagecell
+#Last edited 8/9/19 at 2:46pm
+print "Input your 𝑛, modulus, and 𝑎, an integer. The output will be an arrow diagram picture of 𝑥↦𝑎𝑥  on the ring ℤ/𝑛ℤ, i.e. the elements modulo 𝑛."
+@interact
+def modular_multiplication_graph(n = input_box(default = 7, width = 25), a = input_box(default = 2, width = 25)):
+    R = IntegerModRing(n)
+    left=[' '+str(r)+' ' for r in R]
+    right=['  '+str(r)+'  ' for r in R]
+    pre_pos=graphs.CompleteBipartiteGraph(len(left),len(right)).get_pos()
+    G = DiGraph()
+    pos={}
+    for (i,v) in enumerate(left+right):
+        G.add_vertex(v)
+        pos[v]=pre_pos[i]
+    for l in range(n):
+        G.add_edge(left[l],right[lift(R(a*l))])
+    show(G.plot(pos=pos))
+}}}
+
 == RSA ==
 
 Named for the authors Rivest, Shamir, Aldeman, RSA uses exponentiation and modular arithmetic to encrypt and decrypt messages between two parties. Each of those parties has their own secret and public key. To see how it works, following along while Alice and Babette share a message. -EG
