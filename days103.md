@@ -105,7 +105,9 @@ Please add #sagedays103 to any tickets you are working on on trac.  If your tick
 
 == Group progress ==
 * [[Crypto Group]]
+
 * [[Curves group]]
+
 *[[Team Believe the Hype]]
 
 == Reimbursement info ==
