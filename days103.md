@@ -20,7 +20,7 @@
 <<TableOfContents()>>
 
 
-#{{attachment:WIS11.jpg|100px|Image:200 pixels}}
+##{{attachment:WIS11.jpg|100px|Image:200 pixels}}
 
 These Sage days are a special event for women* who develop in [[http://www.sagemath.org/|SageMath]] or wish to learn Sage. They will include introduction presentations, training,  and team work on specific projects. There is no initial knowledge needed, everyone is welcome whether they are new Sage learners or Sage expert. We believe in diversity in backgrounds and experiences.
 
