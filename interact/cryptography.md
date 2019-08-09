@@ -15,13 +15,13 @@ goto [[interact|interact main page]]
 
 
 == Shift Cipher ==
-by Sarah Arpin, Alexis Newton
 
 The shift cipher is a classical cryptosystem that takes plaintext and shifts it through the alphabet by a given number of letters.  -EG 
 
 For example, a shift of 2 would replace all A's with C's, all B's with D's, etc. When you reach the end of the alphabet, the letters are shifted cyclically back to the beginning. Thus, a shift of 2 would replace Y's with A's and Z's with B's. -AF
 
 === Shift Cipher Encryption ===
+by Sarah Arpin, Alexis Newton
 
 {{{#!sagecell
 #Last edited 8/7/19 2:45pm
@@ -38,6 +38,7 @@ def shift_cipher(message = input_box(default='"secrets"', width = 50), shift=sli
 
 
 === Shift Cipher Decryption ===
+by Sarah Arpin, Alexis Newton
 
 If you know that your message was encrypted using a shift cipher, you can use the known shift value to decrypt. If this is not known, brute force can be used to get 26 possible decrypted messages. 
 
@@ -61,11 +62,12 @@ def shift_decrypt(text = input_box('"KL"'), shift_by = input_box(0)):
 }}}
 
 == Affine Cipher ==
-by Sarah Arpin, Alexis Newton
+
 
 An affine cipher combines the idea of a shift cipher with a multiplicative cipher. In this particular example, we map consecutive letters of the alphabet to consecutive numbers, starting with A=0 (you can also do this cipher differently, and starting with A=1). The user selects two values, a and b. The value a is the multiplier and must be relatively prime to 26 in order to guarantee that each letter is encoded uniquely. The value b is the addend. Each letter's value is multiplied by a, and the product is added to b. This is then replaced with a new letter, corresponding to the result modulo 26. -AF
 
 === Affine Cipher Encryption ===
+by Sarah Arpin, Alexis Newton
 
 {{{#!sagecell
 # Last edited 8/7/2019 2:01pm
@@ -84,6 +86,7 @@ def affine_cipher(message = input_box(default='"secrets"', width = 50), a=[1,3,5
 
 
 === Affine Cipher Decryption ===
+by Sarah Arpin, Alexis Newton
 
 {{{#!sagecell
 #Last edited 8/7/2019 3:01pm
@@ -214,7 +217,6 @@ Frequency analysis is a technique for breaking a substitution cipher that is bas
 
 
 === Letter Frequency Counter ===
-
 by Rebecca Lauren Miller, Katherine Stange
 
 This tool looks at the percentage of appearances of each letter in the input text, and plots these percentages. The encrypted input text is a bit strange, but was constructed by Amy Feaver to give a short block text that matched the frequencies of letters in English relatively well, to make this message easier to decrypt. -AF  
@@ -250,7 +252,6 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 
 
 === Frequency Analysis Decryption Guesser ===
-
 by Rebecca Lauren Miller, Katherine Stange
 
 This interact prints suggested translation of the input text, by matching frequencies of letters in the input to letter frequencies in the English language. With the output you will see that some letters were substituted in correctly, and others were not. Usually frequency analysis requires additional work and some trial and error to discover the original message, especially if the input text is not long enough. -AF 
@@ -280,11 +281,11 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
 }}}
 
 == Vigenère Cipher ==
-by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange
 
 Using a secret code word, encrypt each letter by shifting it the corresponding letter in the code word. -EG
 
 === Vigenère Cipher Encryption ===
+by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange
 
 {{{#!sagecell
 #This encrypts your message: Final 8/7/19. Written by Rebecca Lauren Miller, Holly Paige Chaos, Katherine Stange.
@@ -301,9 +302,10 @@ def vigenere_cipher(message = input_box(default ="'secrets hi'", width = 50), co
 }}}
 
 === Vigenère Cipher Decryption ===
+by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange
 
 {{{#!sagecell
-#This decrypts your message: Final 8/7/19. Written by Rebecca Lauren Miller, Holly Paige Chaos, Katherine Stange.
+#Last edited 8/7/19 at 12:00pm
 print "Put your message and codeword in quotes: "
 @interact 
 def vigenere_cipher(message = input_box(default ="'UEVTEMUHB'", width = 50), code_word = input_box(default="'cat'", width = 50)):
@@ -355,9 +357,10 @@ def one_time_pad(plain_text = input_box("'message'",label="Plain Text:")):
 }}}
 
 == Hill Cipher ==
-by Holly Paige Chaos, Alexis Newton
+
 
 === Hill Cipher Encryption ===
+by Holly Paige Chaos, Alexis Newton
 
 {{{#!sagecell
 #Last edited 8/8/19 at 1:47pm
@@ -422,6 +425,7 @@ def hill_cipher(Size=['2','3','4']):
 
 
 === Hill Cipher Decryption ===
+by Holly Paige Chaos, Alexis Newton
 
 {{{#!sagecell
 #Last edited 8/8/19 at 1:47pm
@@ -530,7 +534,6 @@ def decrypt_hill(size=['2','3','4']):
 Named for the authors Rivest, Shamir, Aldeman, RSA uses exponentiation and modular arithmetic to encrypt and decrypt messages between two parties. Each of those parties has their own secret and public key. To see how it works, following along while Alicia and Bernadette share a message. -EG
 
 === RSA, From Alice's Perspective ===
-
 by Sarah Arpin, Eva Goedhart
 
 {{{#!sagecell
@@ -598,7 +601,6 @@ def rsa():
 
 
 === RSA, From Babette's Perspective ===
-
 by Sarah Arpin, Eva Goedhart
 
 {{{#!sagecell
@@ -643,7 +645,6 @@ def rsa():
 
 
 === RSA With Digital Signatures ===
-
 by Sarah Arpin, Eva Goedhart
 
 {{{#!sagecell
