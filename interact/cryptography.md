@@ -28,7 +28,7 @@ You can use this interact to encrypt a message with a shift cipher.
 pretty_print(html("<h1>Shift Cipher Encryptor</h1>"))
 pretty_print(html("<h>Put your message inside the provided quotes (with no additional quotes or apostrophes!), and select your desired shift:<h>"))
 @interact
-def shift_cipher(message = input_box(default='"secrets"',label="Message:"), shift=slider(0,25,1,3,label="Shift by:")):
+def shift_cipher(message = input_box(default='secrets',type=str,label="Message:"), shift=slider(0,25,1,3,label="Shift by:")):
     A = AlphabeticStrings()
     S = ShiftCryptosystem(A)
     message = S.encoding(message)
@@ -789,7 +789,7 @@ def decrypt_hill(size=['2','3','4']):
     if size=='4':
             pretty_print(html("<h>Please input your encrypted message (In quotes) and your key:<h>"))
             @interact
-            def four_decrypt(coded_text=input_box(default='"UIBBSMUGGXTX"',label="Message:"), a=input_box(default=17), b=input_box(default=8), c=input_box(default=7), d=input_box(default=10), e=input_box(default=0), f=input_box(default=17), g=input_box(default=5), h=input_box(default=8), i=input_box(default=18), j=input_box(default=12), k=input_box(default=6), l=input_box(default=17), m=input_box(default=0), n=input_box(default=15), o=input_box(default=0), p=input_box(default=17)):
+            def four_decrypt(coded_text=input_box(default='UIBBSMUGGXTX',type=str,label="Message:"), a=input_box(default=17), b=input_box(default=8), c=input_box(default=7), d=input_box(default=10), e=input_box(default=0), f=input_box(default=17), g=input_box(default=5), h=input_box(default=8), i=input_box(default=18), j=input_box(default=12), k=input_box(default=6), l=input_box(default=17), m=input_box(default=0), n=input_box(default=15), o=input_box(default=0), p=input_box(default=17)):
                 R = IntegerModRing(26)
                 M = MatrixSpace(R,4,4)
                 a = M([[a,b,c,d],[e,f,g,h],[i,j,k,l],[m,n,o,p]])
@@ -896,17 +896,12 @@ def DLP_solve(a=input_box(default=5),b=input_box(default=25),m=input_box(default
         L=len(C)
         S=[]
         T=[]   
-    #    print "The base 2 expansion of",b,"is",C
         ans=str(a)
         ans_num=a
         for i in range(L):
             pow=L-i-1
-            #print C[pow],"copy(ies) of",2,"^",i,"=",2^i
-            # Convert to integer: 
-            # Integer(C[i],base=2)
             S+=[(2^pow)]
             print "Step",i+1,":",str(a)+"^"+str(2^i),"=",ans,"=",ans_num,"mod",m
-            #ans_num= a^(i+1) %m
             ans=str(ans_num)+"^"+str(2)
             ans_num= (ans_num)^2%m
             if C[pow]=="1":
@@ -948,7 +943,6 @@ def DLP_break(a=input_box(default=5),x=input_box(default=22),m=input_box(default
     if (not a in ZZ) or (not x in ZZ) or (not m in ZZ) or (a<=0) or (x<0) or (m<=0):
         print "*********** ERROR: a,m,x should all be integers with a,m>0. ***********"
         print
-# Note: presumably there isn't always a solution? If so, add another error message
     elif x==1:
         print "b=0"
     else:
@@ -989,7 +983,7 @@ print "   The size of the primes depends on the size of Babette's message. Her m
 print "   message requires larger primes."
 print ""
 print "2. Input a PUBLIC integer, e, which needs to be relatively prime to the the Euler phi function of the product pq, φ(pq)."
-print "   If e is not relativley prime to φ(pq), then we can not decrypt the message."
+print "   If e is not relatively prime to φ(pq), then we can not decrypt the message."
 @interact
 def rsa(p = input_box(default = 11,label = "p: "), q = input_box(default = 23,label = "q: "),e = input_box(default = 7,label = "e:")):
     p = ZZ(p)
@@ -1007,7 +1001,7 @@ def rsa(p = input_box(default = 11,label = "p: "), q = input_box(default = 23,la
         print "*********** q needs to be prime. ***********"
     phi = (p-1)*(q-1)
     if not gcd(e,phi) == 1:
-        print "*********** e must be replatively prime to φ(pq) - see factorization below. ***********"
+        print "*********** e must be relatively prime to φ(pq) - see factorization below. ***********"
     print ""
     print "φ(pq) = ",phi.factor()
     print ""
@@ -1062,10 +1056,10 @@ by Sarah Arpin, Eva Goedhart
 pretty_print(html("<h1>RSA, From Babette's Perspective</h1>"))
 print "Hi, Babette! Let's send a message to Alice using her PUBLIC key (N, e) with RSA."
 print ""
-print "1. Input Babette's secret message for Alice in between the quotation marks below."
+print "1. Input Babette's secret message for Alice below."
 print "   Make sure that there are no apostrophes or extra quotation marks in your message."
 @interact
-def rsa(message = input_box(default = '"Secrets for Alice"',label="Message:")):
+def rsa(message = input_box(default = 'Secrets for Alice', type=str,label="Message:")):
     p = next_prime(100)
     q = next_prime(p)
     phi = (p-1)*(q-1)
@@ -1116,7 +1110,7 @@ print "Hi, Alice! Let's send a message to Babette with your digital signature so
 print ""
 print "1. Make Alice's PRIVATE key: Input two distinct primes, p and q, that are each greater than 10, and an integer, e, that is relatively prime to the the Euler φ-function of the product pq."
 @interact
-def rsa(message_to_babette = input_box(default = "'Hi'",label="message:"),p_a = input_box(default = 503,label = "p: "), q_a = input_box(default = 499,label = "q: "),e_a = input_box(default = 5,label = "e:")):
+def rsa(message_to_babette = input_box(default = 'Hi',type=str,label="message:"),p_a = input_box(default = 503,label = "p: "), q_a = input_box(default = 499,label = "q: "),e_a = input_box(default = 5,label = "e:")):
     p_a = ZZ(p_a)
     q_a = ZZ(q_a)
     e_a = ZZ(e_a)
