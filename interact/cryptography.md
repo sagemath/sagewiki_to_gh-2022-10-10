@@ -1111,4 +1111,89 @@ by Sarah Arpin, Eva Goedhart
 
 {{{#!sagecell
 
+#Last edited 8/9/19 at 3:52pm
+print "Hi, Alice! Let's send a message to Babette with your digital signature so that Babette knows that it is really Alice."
+print ""
+print "1. Make Alice's PRIVATE key: Input two distinct primes, p and q, that are each greater than 10, and an integer, e, that is relatively prime to the the Euler φ-function of the product pq."
+@interact
+def rsa(message_to_babette = input_box(default = "'Hi'",label="message:"),p_a = input_box(default = 503,label = "p: "), q_a = input_box(default = 499,label = "q: "),e_a = input_box(default = 5,label = "e:")):
+    p_a = ZZ(p_a)
+    q_a = ZZ(q_a)
+    e_a = ZZ(e_a)
+    p_b = 1123
+    q_b = 4999
+    e_b = 5
+    if p_a < 10:
+        print "*********** Make p larger. ***********"
+        return " "
+    if q_a < 10:
+        print "*********** Make q larger. ***********"
+        return " "
+    if not p_a.is_prime():
+        print "*********** p needs to be prime. ***********"
+        return " "
+    if not q_a.is_prime():
+        print "*********** q needs to be prime. ***********"
+        return " "
+    phi_a = (p_a-1)*(q_a-1)
+    phi_b = (p_b-1)*(q_b-1)
+    if not gcd(e_a,phi_a) == 1:
+        print "*********** e must be replatively prime to φ(pq) - see factorization below. ***********"
+        print ""
+        print "φ(pq) = ",phi_a.factor()
+        return " "
+    print ""
+    print "φ(pq) = ",phi_a.factor()
+    print ""
+    N_a = p_a*q_a
+    N_b = p_b*q_b
+    if N_b < N_a:
+        print "Choose primes for p or q so that their product",N_a ,"is smaller than ",N_b,"."
+        print "   This is not needed for general digital signatures, but is necessary for this program to decrypt the message correctly."
+        return " "
+    R = IntegerModRing(phi_a)
+    d_a = (e_a^(R(e_a).multiplicative_order()-1)).mod(phi_a)
+    S = IntegerModRing(phi_b)
+    d_b = (e_b^(S(e_b).multiplicative_order()-1)).mod(phi_b)
+    print "2. Alice's PRIVATE key is (p,q,d) =(",p_a,",",q_a,",",d_a,"), where the decryption key d is the inverse of e modulo φ(N)."
+    print ""
+    print "   Alice's PUBLIC key is (N,e) =(",N_a,",",e_a,")."
+    print ""
+    print "We are given Babette's PUBLIC key of (N_b,e_b) = (",N_b,",",e_b,")."
+    print ""
+    ascii_secret = []
+    for char in message_to_babette:
+        ascii_secret.append(ord(char))
+    encrypted_ascii = []
+    for ascii in ascii_secret:
+        ascii = ZZ(ascii)
+        signed = (ascii^d_a).mod(N_a)
+        encrypted_ascii.append((signed^e_b).mod(N_b))
+    decrypted_ascii = []
+    for ascii in encrypted_ascii:
+        ascii = ZZ(ascii)
+        unencrypt = (ascii^d_b).mod(N_b)
+        unsign = (unencrypt^e_a).mod(N_a)
+        decrypted_ascii.append(unsign)
+    print "3. Use ASCII to convert the plaintext message to integers."
+    print ""
+    print "   ",ascii
+    print ""
+    print "4. Sign the message using Alice's PRIVATE key by raising each integer in the list to the d-th power modulo N."
+    print ""
+    print "   ",signed
+    print ""
+    print "5. Finally, to encrypt the signed message, use Babette's PUBLIC key by raising every integer to the e_b-th power modulo N_b."
+    print ""
+    print "   ",encrypted_ascii
+    print ""
+    print "6. To decrypt the signed encrypted message, Babette will use Alice's PUBLIC key (",N_a,",",e_a,") AND Babette's PRIVATE key (",p_b,",",q_b,",", d_b,"), as given here by the program."
+    print ""
+    print "   ",decrypted_ascii
+    print ""
+    decrypted_secret = ""
+    for ascii in decrypted_ascii:
+        decrypted_secret += chr(ascii)
+    print "7. Using the ASCII code to convert the intgers back to letters, we find out the signed secret message was from Alice and read "
+    print "   ",decrypted_secret
 }}}
