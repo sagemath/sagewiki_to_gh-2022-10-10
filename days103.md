@@ -39,7 +39,7 @@ These Sage days are a special event for women* who develop in [[http://www.sagem
 == Project Leaders ==
 
  * [[https://www.math.wisc.edu/~rdavis/|Rachel Davis]] and [[https://sites.google.com/view/jenberg/home|Jen Berg]]
- * [[http://cs.kingsu.ca/~afeaver/|Amy Feaver]]
+ * [[http://cs.kingsu.ca/~afeaver/|Amy Feaver]] and [[https://www.evagoedhartphd.com/|Eva Goedhart]] 
  * [[https://sites.google.com/site/heidigoodson/|Heidi Goodson]] and [[https://www.uvm.edu/~cvincen1/|Christelle Vincent]]
 
 
@@ -88,8 +88,6 @@ Fatma Cicek
 Holley Friedlander
 
 Sumita Garai
-
-Eva Goedhart 
 
 Marie Jameson
 
