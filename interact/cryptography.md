@@ -28,7 +28,7 @@ You can use this interact to encrypt a message with a shift cipher.
 pretty_print(html("<h1>Shift Cipher Encryptor</h1>"))
 pretty_print(html("<h>Put your message inside the provided quotes (with no additional quotes or apostrophes!), and select your desired shift:<h>"))
 @interact
-def shift_cipher(message = input_box(default='"=secrets',type=str, label="Message:"), shift=slider(0,25,1,3, label="Shift by:")):
+def shift_cipher(message = input_box(default='"=secrets"', label="Message:"), shift=slider(0,25,1,3, label="Shift by:")):
     A = AlphabeticStrings()
     S = ShiftCryptosystem(A)
     message = S.encoding(message)
