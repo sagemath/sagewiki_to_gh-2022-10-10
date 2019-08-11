@@ -647,7 +647,7 @@ The Hill cipher requires some basic knowledge of Linear Algebra. In this encrypt
 === Hill Cipher Encryption ===
 by Holly Paige Chaos, Alexis Newton
 
-Use this interact to encrypt a message with the Hill cipher. Be sure to use an invertible matrix so that your message can be decrypted!
+Use this interact to encrypt a message with the Hill cipher. If your message is not a multiple of n, then it will be padded with z's. Be sure to use an invertible matrix so that your message can be decrypted!
 
 {{{#!sagecell
 #Last edited 8/8/19 at 1:47pm
@@ -670,7 +670,13 @@ def hill_cipher(Size=['2','3','4']):
             if invertible==false:
                 print "WARNING! You will not be able to decrypt this message because your matrix is not invertible."
             e = E(A)
-            message=E.encoding(message)
+            newmessage = ""
+            for char in message:
+                if char.isalpha():
+                    newmessage+=char.lower()
+            if len(newmessage) % 2 == 1:
+                newmessage+="z"
+            message=E.encoding(newmessage)
             print "This is your encrypted message:"
             print e(S(message))
     if Size=='3':
@@ -688,7 +694,15 @@ def hill_cipher(Size=['2','3','4']):
             if invertible==false:
                 print "WARNING! You will not be able to decrypt this message because your matrix is not invertible."
             e = E(A)
-            message=E.encoding(message)
+            newmessage = ""
+            for char in message:
+                if char.isalpha():
+                    newmessage+=char.lower()
+            if len(newmessage) % 3 == 2:
+                newmessage+="z"
+            elif len(newmessage) % 3 == 1:
+                newmessage+="zz"
+            message=E.encoding(newmessage)
             print "This is your encrypted message:"
             print e(S(message))
     if Size=='4':
@@ -706,7 +720,17 @@ def hill_cipher(Size=['2','3','4']):
             if invertible==false:
                 print "WARNING! You will not be able to decrypt this message because your matrix is not invertible."
             e = E(A)
-            message=E.encoding(message)
+            newmessage = ""
+            for char in message:
+                if char.isalpha():
+                    newmessage+=char.lower()
+            if len(newmessage) % 4 == 3:
+                newmessage+="z"
+            elif len(newmessage) % 4 == 2:
+                newmessage+="zz"
+            elif len(newmessage) % 4 == 1:
+                newmessage+="zzz"
+            message=E.encoding(newmessage)
             print "This is your encrypted message:"
             print e(S(message))
 }}}
