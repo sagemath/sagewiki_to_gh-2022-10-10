@@ -6,9 +6,9 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
  * [[https://wiki.sagemath.org/days104 | Sage Days 104]] - Sage Days on Arithmetic Dynamics - November 17, 2019 - November 20, 2019, Saint Louis University
 
- * [[https://icerm.brown.edu/summerug/ | Summer@ICERM]] - REU Program on Computational Arithmetic Dynamics - June 10, 2019 - August 2, 2019
-
 == Past News ==
+
+ * [[https://icerm.brown.edu/summerug/ | Summer@ICERM]] - REU Program on Computational Arithmetic Dynamics - June 10, 2019 - August 2, 2019
 
  * [[http://www.nsf.gov/awardsearch/showAward?AWD_ID=1415294 | NSF DMS-1415294]] - Computational Tools for Dynamical Systems 9/2014 - 8/2017 (P.I.: Hutz)
 
