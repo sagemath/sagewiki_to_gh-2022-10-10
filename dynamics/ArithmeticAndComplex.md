@@ -38,6 +38,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/28107|#28107]]) needs-work: allowing invariant_generators() to take arbitrary character - Brandon Gontmacher, Ben Hutz
+
  * ([[http://trac.sagemath.org/ticket/25745|#25745]]) needs-work: Periodic Proportion Homomorphism over Finite Fields - Rebecca Lauren Miller
 
  * ([[http://trac.sagemath.org/ticket/25701|#25701]]) needs-review: Implement Sieve algorithm for product_projective space - Raghukul Raman
@@ -50,7 +52,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/23740|#23740]]) new: Plotting Julia sets for general polynomials - Ben Barros
 
- * ([[http://trac.sagemath.org/ticket/23720|#23720]]) needs-work: Plotting Mandelbrot sets for general polynomials - Ben Barros, Colby Kellen
+ * ([[http://trac.sagemath.org/ticket/23720|#23720]]) needs-work: Plotting Mandelbrot sets for general polynomials - Ben Barros, Colby Kelln
 
  * ([[http://trac.sagemath.org/ticket/23047|#23047]]) new: Meta Ticket: Utilize coercion framework for scheme points and morphisms
 
@@ -80,6 +82,24 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Berkovich P1 || || ||  ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/28169|#28169]])-- closed sage-8.9: Option for adjugate in conjugation function with normalize_coordinates - Meghan Grip, Emily Rachfal, Talia Blum, John Doyle
+
+ * --([[http://trac.sagemath.org/ticket/28161|#28161]])-- closed sage-8.9: Make _number_field_from_algebraics() return a dynamical system - Jasmine Camero, Olivia Schwager
+
+ * --([[http://trac.sagemath.org/ticket/28148|#28148]])-- closed sage-8.9: sigma_invariants() bug over FunctionFields - Joey Lupo
+
+ * --([[http://trac.sagemath.org/ticket/28109|#28109]])-- closed sage-8.9: Renaming and improvement of periodic point methods - Erich Zhu, Alex Galarrage, Biance Thompson
+
+ * --([[http://trac.sagemath.org/ticket/28071|#28071]])-- closed sage-8.9: Enhance global_height functionality for other fields - Talia Blum, Trevor Hyde, Joey Lupo, Matt Torrence
+
+ * --([[http://trac.sagemath.org/ticket/28070|#28070]])-- closed sage-8.9: is_conjugate bug fix and enhancements - Colby Kelln, Leopold Mayer, Wayne Peng, Srinjoy Srimani, Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/28065|#28065]])-- closed sage-8.9: Rational Preimages of Non-endomorphisms - Anna Chlopecki
+
+ * --([[http://trac.sagemath.org/ticket/28032|#28032]])-- closed sage-8.9: Automorphism group for some degree 1 maps - Shuofeng Xu, Max Weinreich, Brandon Gontmacher, Heidi Benham
+
+ * --([[http://trac.sagemath.org/ticket/28028|#28028]])-- closed sage-8.9: Enhance change_ring method on morphisms to use canonical embedding when possible, give clearer error in other cases - Henry Talbot
 
  * --([[http://trac.sagemath.org/ticket/28027|#28027]])-- closed sage-8.9: Adding cyclegraph functionality to product projective dynamical systems - Alex Galarrage, Alex Shearer, Eric Zhu
 
