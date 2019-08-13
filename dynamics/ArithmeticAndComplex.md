@@ -46,19 +46,15 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/25239|#25239]]) new: QQbar points of subschemes not valid - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/25243|#25243]]) needs-review: is postcritically finite failure for extensions - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/23806|#23806]]) needs-info: don't choose default affine patch on projective point init - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/23807|#23807]]) needs-work: fix issues with identical affine patches - Ben Hutz, Peter Bruin, Raghukul Raman
 
  * ([[http://trac.sagemath.org/ticket/23816|#23816]]) needs-review: left matrix action on scheme points - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/23813|#23813]]) needs-review: matrix action on scheme morphism polynomials - Adam Towsley
-
  * ([[http://trac.sagemath.org/ticket/23740|#23740]]) new: Plotting Julia sets for general polynomials - Ben Barros
 
- * ([[http://trac.sagemath.org/ticket/23720|#23720]]) needs-work: Plotting Mandelbrot sets for general polynomials - Ben Barros
+ * ([[http://trac.sagemath.org/ticket/23720|#23720]]) needs-work: Plotting Mandelbrot sets for general polynomials - Ben Barros, Colby Kellen
 
  * ([[http://trac.sagemath.org/ticket/23047|#23047]]) new: Meta Ticket: Utilize coercion framework for scheme points and morphisms
 
@@ -88,6 +84,12 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Berkovich P1 || || ||  ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/25243|#25243]])-- closed sage-8.9: is postcritically finite failure for extensions - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/23813|#23813]])-- closed sage-8.9: matrix action on scheme morphism polynomials - Adam Towsley
+
+ * --([[http://trac.sagemath.org/ticket/27900|#27900]])-- closed sage-8.8: removed deprecated dynamics code from schemes - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/25952|#25952]])-- closed sage-8.4: smallest coefficient model for binary forms and dynamical systems - Ben Hutz
 
