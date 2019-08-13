@@ -42,10 +42,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/25701|#25701]]) needs-review: Implement Sieve algorithm for product_projective space - Raghukul Raman
 
- * ([[http://trac.sagemath.org/ticket/25237|#25237]]) needs-review: normlize_coordinates for projective morphism not fully normalized - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/25239|#25239]]) new: QQbar points of subschemes not valid - Ben Hutz
-
  * ([[http://trac.sagemath.org/ticket/23806|#23806]]) needs-info: don't choose default affine patch on projective point init - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/23807|#23807]]) needs-work: fix issues with identical affine patches - Ben Hutz, Peter Bruin, Raghukul Raman
@@ -85,7 +81,31 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
+ * --([[http://trac.sagemath.org/ticket/28027|#28027]])-- closed sage-8.9: Adding cyclegraph functionality to product projective dynamical systems - Alex Galarrage, Alex Shearer, Eric Zhu
+
+ * --([[http://trac.sagemath.org/ticket/28026|#28026]])-- closed sage-8.9: missing parameter in critical_point_portrait for dynamical systems - Brandon Gontmacher, Max Weinreich, Juliano Leveier
+
+ * --([[http://trac.sagemath.org/ticket/28024|#28024]])-- closed sage-8.9: Add FractionField support to specialization - Matt Torrence
+
+ * --([[http://trac.sagemath.org/ticket/27995|#27995]])-- closed sage-8.9: normal_form should Return the Embedding when working over a Finite Field - Meghan Grip, Julia Cai, Srinjoy Srimani, Grayson Jorgenson
+
+ * --([[http://trac.sagemath.org/ticket/27994|#27994]])-- closed sage-8.9: Name mismatch on affine space and projective space constructors - Matt Torrence, Olivia Schwager, Shuofeng Xu
+
+ * --([[http://trac.sagemath.org/ticket/27992|#27992]])-- closed sage-8.9: sanity check parameter added to prime_list in minimal_model - Talia Blum, Jasmine Camero, Joey Lupo
+
+ * --([[http://trac.sagemath.org/ticket/27985|#27985]])-- closed sage-8.9: Make dynatomic polynomial coerce base ring - Henry Talbot
+
+ * --([[http://trac.sagemath.org/ticket/27984|#27984]])-- closed sage-8.9: Coercion of inputs of orbit into projective space - Emily Rachfal
+
+ * --([[http://trac.sagemath.org/ticket/27983|#27983]])-- closed sage-8.9: Add monic=True option for chebyshev creator - Leo Mayer
+
+ * --([[http://trac.sagemath.org/ticket/27982|#27982]])-- closed sage-8.9: Make Lattes map for projective space coerce base ring - Ben Hutz
+
  * --([[http://trac.sagemath.org/ticket/25243|#25243]])-- closed sage-8.9: is postcritically finite failure for extensions - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/25239|#25239]])-- closed sage-8.9: QQbar points of subschemes not valid - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/25237|#25237]])-- closed sage-8.9: normlize_coordinates for projective morphism not fully normalized - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/23813|#23813]])-- closed sage-8.9: matrix action on scheme morphism polynomials - Adam Towsley
 
