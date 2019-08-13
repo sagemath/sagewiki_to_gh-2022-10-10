@@ -38,6 +38,22 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
+ * ([[http://trac.sagemath.org/ticket/28316|#28316]]) needs-review: Making an is_dynamical_belyi_map() function - Bianca Thompson, John Doyle, Adam Towsley 
+
+ * ([[http://trac.sagemath.org/ticket/28292|#28292]]) needs-review: Implemented is_chebyshev and is_lattes for one dimensional projective dynamical systems - Trevor Hyde, Fiona Lu, Alex Shearer 
+
+ * ([[http://trac.sagemath.org/ticket/28263|#28263]]) needs-work: Degree for Affine Morphism or Affine Dynamical System - Anna Chlopecki, Juliano Levier-Gomes 
+
+ * ([[http://trac.sagemath.org/ticket/28214|#28214]]) needs-review: Compute and display graph of nth-preimage tree - Brandon Gontmacher, Joey Lupo, Wayne Peng
+
+ * ([[http://trac.sagemath.org/ticket/28213|#28213]]) needs-review: Renaming rational_preperiodic_points() to all_preperiodic_points() - Eric Zhu, Alex Galarraga, Bianca Thompson
+
+ * ([[http://trac.sagemath.org/ticket/28212|#28212]]) needs-review: Optimizing all_periodic_points() for small periods - Eric Zhu, Alex Galarraga, Bianca Thompson
+
+ * ([[http://trac.sagemath.org/ticket/28173|#28173]]) needs-review: Implemented Is_Newton for Dynamical Systems - Anna Chlopecki, Simon Xu, Juliano Levier-Gomes, Grayson Jorgenson 
+
+ * ([[http://trac.sagemath.org/ticket/28170|#28170]]) needs-work: enhance is_postcritically_finite, critical_point_portrait, and multiplier_spectra to work over number fields and finite fields - Heidi Benham, Julia Cai, Leopold Mayer 
+
  * ([[http://trac.sagemath.org/ticket/28107|#28107]]) needs-work: allowing invariant_generators() to take arbitrary character - Brandon Gontmacher, Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/25745|#25745]]) needs-work: Periodic Proportion Homomorphism over Finite Fields - Rebecca Lauren Miller
@@ -82,6 +98,10 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Berkovich P1 || || ||  ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/28200|#28200]])-- closed sage-8.9: reduce base field for scheme morphisms - Ben Hutz
+
+ * --([[http://trac.sagemath.org/ticket/28174|#28174]])-- closed sage-8.9: Fixed typo for dehomogenization of non-endomorphisms - Matt Torrence, Henry Talbott 
 
  * --([[http://trac.sagemath.org/ticket/28169|#28169]])-- closed sage-8.9: Option for adjugate in conjugation function with normalize_coordinates - Meghan Grip, Emily Rachfal, Talia Blum, John Doyle
 
