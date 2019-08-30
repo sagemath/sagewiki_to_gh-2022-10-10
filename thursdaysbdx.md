@@ -39,6 +39,9 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== 31 octobre au 3 novembre 2019 ====
+
+Conférence PyCON à Bordeaux: https://www.pycon.fr/2019/
 
 ==== jeudi 23 mai 2019 ====
 
