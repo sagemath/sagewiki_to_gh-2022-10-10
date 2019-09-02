@@ -23,7 +23,7 @@ We booked the guest house
 [[http://www.cernayvacances.com/en/stay/le-grenier-royal/|Le grenier royal]]),
 a very nice and cosy "gîte", just short of an hour from Paris by public transport.
 
-This follows a tradition of coding workshops in Cernay:
+This follows a tradition of [[Cernay|coding workshops in Cernay]]:
 [[days57|2014]],
 [[combinat/SageCombinatDaysCernay2012|2012]],
 [[combinat/SageCombinatChevieWorkshopOrsay2010|2010]],
