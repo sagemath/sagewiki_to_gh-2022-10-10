@@ -42,7 +42,7 @@ workshop. Please get in touch!
 
 == Previous workshops ==
 
-This follows a tradition of coding workshops in Cernay:
+This follows a tradition of [[https://wiki.sagemath.org/Cernay|coding workshops in Cernay]]:
 [[https://github.com/OpenDreamKit/OpenDreamKit/issues/251|2018]],
 [[days85|2017]],
 [[days77|2016]],
