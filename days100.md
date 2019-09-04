@@ -32,7 +32,8 @@ Bonn
  * [[https://hackmd.io/C11DpDKwTaaB5RkoyuosUw|Euler challenge organization pad]]
  * [[https://hackmd.io/EvP0nhWsTc-1Ja0BY1wbvw|pad to report bugs / error in a worksheet / general question about SageMath]]
  * [[https://trac.sagemath.org/query?keywords=~days100&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&desc=1&order=status|trac tickets with days100 keyword]]
- * Git projects on gitlab under the [[https://gitlab.com/sage-days-100|group sage-days-100]]:
+ * GitLab group and repositories (for participants only):
+   * [[https://gitlab.com/sage-days-100|group sage-days-100]]
    * [[https://gitlab.com/sage-days-100/python_module_sample|demo about packaging (Vincent presentation on Monday)]]
    * [[https://gitlab.com/sage-days-100/git-tutorial-days-100|Git tutorial (Vincent presentation on Tuesday)]]
    * [[https://gitlab.com/sage-days-100/testing-project|testing your code (Mark presentation on Wednesday)]]
