@@ -31,6 +31,8 @@ The most up-to date list of Sage developers is on our [[https://trac.sagemath.or
 = Mailing Lists / Chat Rooms =
 [[http://groups.google.com/group/sage-support|sage-support]], [[http://groups.google.com/group/sage-devel|sage-devel]], [[http://groups.google.com/group/sage-release|sage-release]], [[http://groups.google.com/group/sage-announce|sage-announcements]], [[http://groups.google.com/group/sage-edu|sage-edu]] for teaching using Sage, [[http://groups.google.com/group/sage-finance|sage-finance]] for finance, [[http://groups.google.com/group/sage-coding-theory|sage-coding-theory]] for coding theory, [[http://groups.google.com/group/sage-nt|sage-nt]] for number theory, and [[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]].
 
+[[https://zulip.sagemath.org | Zulip]] group chat server for realtime collaboration on Sage (like Slack).  Fairly low-activity but more than IRC.
+
 [[IRC]] channel: {{{#sagemath}}} on [[http://freenode.net/|freenode ]] (`chat.freenode.net`)
 
 The Sage website contains links to [[http://www.sagemath.org/development-groups.html | other discussion mailing lists]].
@@ -50,7 +52,6 @@ The [[devel|development wiki]] also contain some (currently out-of-date) informa
  * [[Debate/Collective infrastructure management]]
  * [[CodeSharingWorkflow|On development models for sharing (experimental) code]]
  * [[Python3-compatible code|Writing Python 3 compatible code]]
- * [[https://zulip.sagemath.org]] group chat server for realtime collaboration on Sage
  * [[OptiPolyGeom|Optimization and Polyhedral Geometry in Sage]]
 
  * Supporting the [[Foundation|SageMath Foundation]] 
