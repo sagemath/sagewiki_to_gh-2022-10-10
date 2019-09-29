@@ -14,7 +14,7 @@ The goal of sage-dynamics is to improve the open source mathematical software Sa
 
  * [[https://icerm.brown.edu/collaborate/ | ICERM@Collaborate]] - Program on Computational Arithmetic Dynamics - July 25, 2016 - July 29, 2016
 
- * [[http://wiki.sagemath.org/sagedaysACD | Sage Days]] Held Sage Days 55 (November 7-10, 2013) at Florida Institute of Technology.
+ * [[https://wiki.sagemath.org/sagedaysACD | Sage Days]] Held Sage Days 55 (November 7-10, 2013) at Florida Institute of Technology.
 
  * January 30, 2012 - May 4, 2012 [[http://icerm.brown.edu/sp-s12 | ICERM semeser program on Complex and Arithmetic Dynamics]]
 
