@@ -1,45 +1,45 @@
 = Sage-Combinat: enhancing Sage as a toolbox for computer exploration in algebraic combinatorics =
 
-Sage-Combinat is a software project whose mission is: '''to improve the open source mathematical system [[http://www.sagemath.org/|Sage]] as an extensible toolbox for computer exploration in (algebraic) combinatorics, and foster code sharing between researchers in this area'''.
+Sage-Combinat is a software project whose mission is: '''to improve the open source mathematical system [[https://www.sagemath.org/|Sage]] as an extensible toolbox for computer exploration in (algebraic) combinatorics, and foster code sharing between researchers in this area'''.
 
-In practice, Sage-combinat is a collection of branches on top of [[http://www.sagemath.org/|Sage]], developed by a community of researchers. The intent is that most of those branches get eventually integrated into Sage as soon as they are mature enough, with a typical short life-cycle of a few weeks. In other words: just install Sage, and you will benefit from all the Sage-combinat development, except for the latest bleeding edge features.
+In practice, Sage-combinat is a collection of branches on top of [[https://www.sagemath.org/|Sage]], developed by a community of researchers. The intent is that most of those branches get eventually integrated into Sage as soon as they are mature enough, with a typical short life-cycle of a few weeks. In other words: just install Sage, and you will benefit from all the Sage-combinat development, except for the latest bleeding edge features.
 
 ----
 
 == NEWS ==
 
- * [[http://trac.sagemath.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
+ * [[https://trac.sagemath.org/sage_trac/wiki/SageCombinatRoadMap|Road map and current status]]
 
  * [[https://combinat.sagemath.org:8080|Experimental Sage notebook with the Sage-Combinat patches applied]]
 
- * A new [[http://combinat.sagemath.org/misc/raw-file/tip/articles/2013-01-17-Poster/main2014.pdf|poster]] for Sage-Combinat!
+ * A new [[https://combinat.sagemath.org/misc/raw-file/tip/articles/2013-01-17-Poster/main2014.pdf|poster]] for Sage-Combinat!
 
- * [[http://wiki.sagemath.org/TentativeConventions|Help for new Git workflow]]
+ * [[https://wiki.sagemath.org/TentativeConventions|Help for new Git workflow]]
 
 == Past news ==
 
  * June 8-12, 2015 [[http://gauss.math.luc.edu/sagedays/|Sage Days 65]], Loyola University Chicago, USA
    Organized by Mark V. Albert, Aaron Lauve, Peter Tingley
 
- * April 13-16, 2015 [[http://wiki.sagemath.org/days67|Sage Days 67]], UQAM, Canada
+ * April 13-16, 2015 [[https://wiki.sagemath.org/days67|Sage Days 67]], UQAM, Canada
    Organized by Mathieu Guay-Paquet, Viviane Pons, Franco Saliola
 
- * March 17-20, 2015 [[http://wiki.sagemath.org/days64|Sage Days 64]], University of California at Davis, USA
+ * March 17-20, 2015 [[https://wiki.sagemath.org/days64|Sage Days 64]], University of California at Davis, USA
    Organized by Dan Bump, Anne Schilling and Travis Scrimshaw
 
- * August 14-17, 2014 [[http://wiki.sagemath.org/days60|Sage Days 60]], Chennai, India
+ * August 14-17, 2014 [[https://wiki.sagemath.org/days60|Sage Days 60]], Chennai, India
 
- * April 7-11, 2014 [[http://wiki.sagemath.org/days57|Sage(-Combinat) Days 57]], Cernay, France
+ * April 7-11, 2014 [[https://wiki.sagemath.org/days57|Sage(-Combinat) Days 57]], Cernay, France
 
- * November 4-8, 2013 [[http://wiki.sagemath.org/days54|Sage(-Combinat) Days 54]], University of California at Davis, USA
+ * November 4-8, 2013 [[https://wiki.sagemath.org/days54|Sage(-Combinat) Days 54]], University of California at Davis, USA
    Organized by Dan Bump, Anne Schilling and Travis Scrimshaw
 
- * June 17-21, 2013 [[combinat/FPSAC13|Sage(-Combinat) days 49]], in Orsay as satellite event to [[http://www.liafa.jussieu.fr/fpsac13/|FPSAC'13]]
+ * June 17-21, 2013 [[combinat/FPSAC13|Sage(-Combinat) days 49]], in Orsay as satellite event to [[https://www.liafa.jussieu.fr/fpsac13/|FPSAC'13]]
    Organized by Alejandro Morales, Anne Schilling, Nicolas M. Thiery
 
- * January 28 - May 3, 2013: [[http://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]], with a strong Sage and Sage-Combinat component, ICERM, Brown, USA
+ * January 28 - May 3, 2013: [[https://icerm.brown.edu/sp-s13/|ICERM Semester Program on "Automorphic Forms, Combinatorial Representation Theory and Multiple Dirichlet Series"]], with a strong Sage and Sage-Combinat component, ICERM, Brown, USA
 
- * February 11-15, 2013 [[http://icerm.brown.edu/sp-s13/|Sage Days: Multiple Dirichlet Series, Combinatorics, and Representation Theory]], ICERM, Brown, USA
+ * February 11-15, 2013 [[https://icerm.brown.edu/sp-s13/|Sage Days: Multiple Dirichlet Series, Combinatorics, and Representation Theory]], ICERM, Brown, USA
    Organized by Franco Saliola, Anne Schilling, Nicolas M. Thiery
 
  * January 21-25, 2013 [[http://www.aimath.org/ARCC/workshops/onlinedata.html|Online Databases:from L-functions to combinatorics]], Edinburgh
@@ -50,9 +50,9 @@ In practice, Sage-combinat is a collection of branches on top of [[http://www.sa
  * July 9-13 2012: [[http://www.ima.umn.edu/2011-2012/SW7.9-13.12/|Sage(-Combinat) Days 40]]: Algebraic Combinatorics, IMA, Minneapolis, USA
    Organized by Gregg Musiker, Franco Saliola, Anne Schilling, Nicolas M. Thiery.
 
- * May 7-11 2012: [[http://wiki.sagemath.org/days38|Sage(-Combinat) Days 38]]: algebraic combinatorics and the representation theory of algebras, Centre de recherches mathématiques, Montréal, Canada
+ * May 7-11 2012: [[https://wiki.sagemath.org/days38|Sage(-Combinat) Days 38]]: algebraic combinatorics and the representation theory of algebras, Centre de recherches mathématiques, Montréal, Canada
 
- * April 18-th 2012: Coxeter/Cluster algebra afternoon at the [[http://wiki.sagemath.org/GroupeUtilisateursParis|Paris Sage User Group meeting]]
+ * April 18-th 2012: Coxeter/Cluster algebra afternoon at the [[https://wiki.sagemath.org/GroupeUtilisateursParis|Paris Sage User Group meeting]]
 
  * February 8-10 2012: [[combinat/ClusterPackageDaysHannover|Sage and cluster algebra workshop, University of Hannover]]
 
@@ -60,10 +60,10 @@ In practice, Sage-combinat is a collection of branches on top of [[http://www.sa
 
  * March 19-23 2012: [[combinat/EjcGdrIm2012|EJC du GDR-im]] a Rennes [[http://ejcim2012.irisa.fr/index.html|site officiel]]
 
- * May 2-6, 2011: [[http://wiki.sagemath.org/days30| Sage Days 30]]: Combinatorics (Schubert calculus, cluster algebras) and Number theory (integer vectors, multidimensional digit representations) in Acadia University, Wolfville, Nova Scotia, Canada
+ * May 2-6, 2011: [[https://wiki.sagemath.org/days30| Sage Days 30]]: Combinatorics (Schubert calculus, cluster algebras) and Number theory (integer vectors, multidimensional digit representations) in Acadia University, Wolfville, Nova Scotia, Canada
    Organized by Eva Curry and Hugh Thomas.
 
- * January 17-19, 2011: [[http://wiki.sagemath.org/days28|Sage days 28]]: dynamics, geometry, and analytic combinatorics in Orsay
+ * January 17-19, 2011: [[https://wiki.sagemath.org/days28|Sage days 28]]: dynamics, geometry, and analytic combinatorics in Orsay
 
  * July 10, 2010: First release of [[http://sagebook.gforge.inria.fr/|Calcul Mathématique avec Sage]]
    A 315 pages open source french introductory book on computational mathematics, illustrated in Sage, and including a 35 pages chapter on combinatorics (and soon one on graph theory).
@@ -78,7 +78,7 @@ In practice, Sage-combinat is a collection of branches on top of [[http://www.sa
    Organized by Nantel Bergeron, FrancoSaliola and Mike Zabrocki,
    again with a serious algebraic combinatorics slant
 
- * February 22-26, 2010: [[http://wiki.sagemath.org/daysmarseille|Sage days 20]]
+ * February 22-26, 2010: [[https://wiki.sagemath.org/daysmarseille|Sage days 20]]
    The thematic month [[https://www.lirmm.fr/arith/wiki/MathInfo2010/MathInfo2010|MathInfo 2010]] at CIRM, Marseille included a Sage days week. FlorentHivert, NicolasThiéry, and FrancoSaliola were among the organizers and there was a serious combinatorics slant.
 
  * July 25-29, 2009: [[combinat/FPSAC09|*-Combinat 2009]]
@@ -148,7 +148,7 @@ the extensions as git branches. Here are some useful links:
 
  * [[http://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=positive_review&component=combinatorics&or&status=needs_info&status=needs_review&status=needs_work&status=positive_review&cc=~sage-combinat&col=id&col=summary&col=component&col=status&col=type&col=priority&col=milestone&order=priority|In-progress tickets related to combinatorics]]
 
- * [[http://wiki.sagemath.org/TentativeConventions|Some conventions and help with the new git]]
+ * [[https://wiki.sagemath.org/TentativeConventions|Some conventions and help with the new git]]
 
 
 The Sage-Combinat extensions used to be managed as a collection of
