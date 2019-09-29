@@ -11,8 +11,8 @@ The first one takes a phrase to search for, and searches on trac for it. The sec
 
 You can copy the following bits of text into your browser address bar to have Firefox automatically download and install the search plugins:
 
- * `javascript:window.external.AddSearchProvider("http://wiki.sagemath.org/firefox-trac?action=AttachFile&do=get&target=trac.xml")`
- * `javascript:window.external.AddSearchProvider("http://wiki.sagemath.org/firefox-trac?action=AttachFile&do=get&target=speed-trac.xml")`
+ * `javascript:window.external.AddSearchProvider("https://wiki.sagemath.org/firefox-trac?action=AttachFile&do=get&target=trac.xml")`
+ * `javascript:window.external.AddSearchProvider("https://wiki.sagemath.org/firefox-trac?action=AttachFile&do=get&target=speed-trac.xml")`
 
 Or, if you want to download the plugins and install manually, see below for directions.
 
