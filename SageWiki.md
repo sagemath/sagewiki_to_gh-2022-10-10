@@ -1,6 +1,6 @@
 = Sage Wiki =
 
-This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software System]] project. This is mainly used by developers for organization of e.g. SageDays and discussion of long-term projects. Since it ''is'' a wiki, pages should be made to last over many, and frequent, changes. If an external link is made, please attach relevant files/content to avoid broken links.
+This is the wiki for the [[https://www.sagemath.org|Sage - Mathematics Software System]] project. This is mainly used by developers for organization of e.g. SageDays and discussion of long-term projects. Since it ''is'' a wiki, pages should be made to last over many, and frequent, changes. If an external link is made, please attach relevant files/content to avoid broken links.
 
 <<TableOfContents>>
 
@@ -25,23 +25,23 @@ This is the wiki for the [[http://www.sagemath.org|Sage - Mathematics Software S
 = People =
 The most up-to date list of Sage developers is on our [[https://trac.sagemath.org/sage_trac/wiki#AccountNamesMappedtoRealNames|list of developers on the Sage trac wiki]].
 
-[[http://www.sagemath.org/development-map.html|Overview of (many) Sage developers on a world map]]
+[[https://www.sagemath.org/development-map.html|Overview of (many) Sage developers on a world map]]
 
 <<Anchor(messagingsites)>>
 = Mailing Lists / Chat Rooms =
-[[http://groups.google.com/group/sage-support|sage-support]], [[http://groups.google.com/group/sage-devel|sage-devel]], [[http://groups.google.com/group/sage-release|sage-release]], [[http://groups.google.com/group/sage-announce|sage-announcements]], [[http://groups.google.com/group/sage-edu|sage-edu]] for teaching using Sage, [[http://groups.google.com/group/sage-finance|sage-finance]] for finance, [[http://groups.google.com/group/sage-coding-theory|sage-coding-theory]] for coding theory, [[http://groups.google.com/group/sage-nt|sage-nt]] for number theory, and [[http://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]].
+[[https://groups.google.com/group/sage-support|sage-support]], [[https://groups.google.com/group/sage-devel|sage-devel]], [[https://groups.google.com/group/sage-release|sage-release]], [[https://groups.google.com/group/sage-announce|sage-announcements]], [[https://groups.google.com/group/sage-edu|sage-edu]] for teaching using Sage, [[https://groups.google.com/group/sage-finance|sage-finance]] for finance, [[https://groups.google.com/group/sage-coding-theory|sage-coding-theory]] for coding theory, [[https://groups.google.com/group/sage-nt|sage-nt]] for number theory, and [[https://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]].
 
 [[https://zulip.sagemath.org | Zulip]] group chat server for realtime collaboration on Sage (like Slack).  Fairly low-activity but more than IRC.
 
-[[IRC]] channel: {{{#sagemath}}} on [[http://freenode.net/|freenode ]] (`chat.freenode.net`)
+[[IRC]] channel: {{{#sagemath}}} on [[https://freenode.net/|freenode ]] (`chat.freenode.net`)
 
-The Sage website contains links to [[http://www.sagemath.org/development-groups.html | other discussion mailing lists]].
+The Sage website contains links to [[https://www.sagemath.org/development-groups.html | other discussion mailing lists]].
 
 = Development =
 
 Development is handled using "tickets" on the [[https://trac.sagemath.org/sage_trac/|trac server]].
 
-The main developer doc is the [[http://www.sagemath.org/doc/developer/ | Developers' Guide]].
+The main developer doc is the [[https://www.sagemath.org/doc/developer/ | Developers' Guide]].
 
 The [[devel|development wiki]] also contain some (currently out-of-date) information on Sage development. See also this recent [[CodeSharingWorkflow|discussion on SageMath development workflow]].
 
@@ -262,4 +262,4 @@ Note: "Contributors" are not necessarily coders/programmers, but "Developers" ''
 
 '''Editing the wiki.''' Page editing uses the MoinMoin syntax. To edit the wiki, log in using your [[https://trac.sagemath.org/sage_trac/|sage-trac]] account. Getting an account involves convincing a human by email that you not a spammer.
 
-'''License and Copyright.''' Contributions to the [[https://www.sagemath.org/|Sage]] wiki and to the [[https://doc.sagemath.org|Sage documentation]] are licensed under the [[http://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]]. By contributing, you agree to place your contribution under that license.
+'''License and Copyright.''' Contributions to the [[https://www.sagemath.org/|Sage]] wiki and to the [[https://doc.sagemath.org|Sage documentation]] are licensed under the [[https://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]]. By contributing, you agree to place your contribution under that license.
