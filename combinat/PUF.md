@@ -2,7 +2,7 @@ Preparation of the Partner University Fund application
 
 Last year, we applied with Anne Schilling for a PUF grant around Sage-Combinat:
 
-       http://face-foundation.org/partner-university-fund/index.html
+       https://face-foundation.org/partner-university-fund/
 
 The application failed, but the organizers warmly recommended to apply
 again this year. This is a three years grant that can fund travel,
