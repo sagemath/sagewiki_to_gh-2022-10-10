@@ -28,6 +28,7 @@ There is also a repository on Github: [[https://github.com/sagemath/artwork | gi
 [[attachment:icon_sagemath_round.svg|{{attachment:icon_sagemath_round.svg||width=20%}}]]
 [[attachment:icon_sagemath_round_v2.svg|{{attachment:icon_sagemath_round_v2.svg||width=20%}}]]
 [[attachment:logo_v3.svg|{{attachment:logo_v3.svg||width=20%}}]]
+[[attachment:sticker_sage.svg|{{attachment:sticker_sage.svg||width=20%}}]]
 
 == Wallpaper ==
 
