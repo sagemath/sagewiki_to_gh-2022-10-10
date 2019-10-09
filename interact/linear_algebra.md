@@ -348,3 +348,5 @@ def SEL(A='[(0,1,-1,2),(-1,0,2,4), (0,-1,1,-2)]',
     ))
     pretty_print( HtmlFragment('Dimension is %d'%len(free_variables)))
 }}}
+{{attachment:HSEL_1.png}}
+{{attachment:HSEL_2.png}}
