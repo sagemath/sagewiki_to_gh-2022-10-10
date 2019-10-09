@@ -254,3 +254,97 @@ def _(M=input_grid(D,D, default = example,
 {{attachment:gauss-jordan.png}}
 
 ...(goes all the way to invert the matrix)
+
+== Solution of an homogeneous system of linear equations ==
+by Pablo Angulo 
+
+Coefficients are introduced as a matrix in a single text box.
+The number of equations and unknowns are arbitrary.
+
+{{{#!sagecell
+from sage.misc.html import HtmlFragment
+
+def HSLE_as_latex(A, variables):
+    nvars = A.ncols()
+    pretty_print(HtmlFragment( 
+    r'$$\left\{\begin{array}{%s}'%('r'*(nvars+1))+
+    r'\\'.join('%s=&0'%( 
+        ' & '.join((r'%s%s\cdot %s'%('+' if c>0 else '',c,v) if c else '') for c,v in zip(row, variables))
+        if not row.is_zero() else '&'*(nvars-1)+'0' 
+               ) for row in A)+
+    r'\end{array}\right.$$'))
+
+@interact
+def SEL(A='[(0,1,-1,2),(-1,0,2,4), (0,-1,1,-2)]',
+        auto_update=False
+    ):
+    M = A = matrix(eval(A))
+    neqs = M.nrows()
+    nvars = M.ncols()
+    var_names = ','.join('x%d'%j for j in [1..nvars])
+    variables = var(var_names)
+
+    HSLE_as_latex(M, variables)
+    pretty_print(HtmlFragment( 'SEL in matrix form'))
+    show(M)
+
+    pivot = {}
+    ibound_variables = []
+    for m,row in enumerate(M):
+        for k in range(m,nvars):
+            lista = [(abs(M[j,k]),j) for j in range(m,neqs)]
+            maxi, c = max(lista)
+            if maxi > 0:
+                ibound_variables.append(k)
+                if M[m,k]==0:
+                    M[c,:],M[m,:]=M[m,:],M[c,:]
+                    pretty_print( HtmlFragment('We permute rows %d and %d'%(m+1,c+1)))
+                    show(M)
+                pivot[m] = k
+                break
+
+        a=M[m,k]
+        for n in range(m+1,neqs):
+            if M[n,k]!=0:
+                pretty_print( HtmlFragment("We add %s times row %d to row %d"%(-M[n,k]/a, m+1, n+1)))
+                M=M.with_added_multiple_of_row(n,m,-M[n,k]/a)
+                show(M)
+
+    pretty_print( HtmlFragment('Equivalent system of equations'))
+    HSLE_as_latex(M, variables)
+    SEL_type = 'compatible'
+    null_rows = None
+    for k,row in enumerate(M):
+        if row.is_zero():
+            pretty_print( HtmlFragment('We remove trivial 0=0 equations'))
+            M = M[:k,:]
+            HSLE_as_latex(M, variables)
+                
+    ifree_variables = [k for k in range(nvars) if k not in ibound_variables]
+    bound_variables = [variables[k] for k in ibound_variables]
+    free_variables = [variables[k] for k in ifree_variables]
+    pretty_print( HtmlFragment('Free variables: %s'% free_variables))
+    pretty_print( HtmlFragment('Bound variables: %s'% bound_variables))
+    reduced_eqs = [
+        sum(c*v for c,v in zip(row, variables))==0
+        for row in M
+    ]
+    xvector = vector(variables)
+    if len(bound_variables)==1:
+        soldict = solve(reduced_eqs, bound_variables[0], solution_dict=True)[0]
+    else:
+        soldict = solve(reduced_eqs, bound_variables, solution_dict=True)[0]
+
+    pretty_print( HtmlFragment('Solution in parametric form'))
+    parametric_sol = matrix(
+        xvector.apply_map(lambda s:s.subs(soldict))
+    ).transpose()
+    show(parametric_sol)
+    pretty_print( HtmlFragment('Generators'))
+    pretty_print( HtmlFragment(
+        r'$$\langle %s\rangle$$'%','.join(latex(
+            parametric_sol.subs(dict((variables[k],1 if j==k else 0) for k in ifree_variables))
+        ) for j in ifree_variables)
+    ))
+    pretty_print( HtmlFragment('Dimension is %d'%len(free_variables)))
+}}}
