@@ -472,12 +472,11 @@ for t in range(N):
 point(puntos,pointsize=1)
 }}}
 
-{{attachment:feigenbaum.png}}
-
+[[attachment:feigenbaum.png|{{attachment:feigenbaum.png||width=400}}]] 
 
 == Sierpinski triangle ==
 
- * This was a black+white Sierpinski triangle coded by Marshall Hampton, with some slight tweeking by David Joyner to add colors:
+ * This was a black and white Sierpinski triangle coded by Marshall Hampton, with some slight tweeking by David Joyner to add colors:
 
 {{{#!python numbers=none
 def sierpinski_seasons_greetings():
@@ -506,14 +505,9 @@ def sierpinski_seasons_greetings():
     show(q2+q1, figsize = [6,6*nsq], axes = False)
 }}}
 
-GIMP was used to add a Season's greetings message:
 
-{{http://sage.math.washington.edu/home/wdj/art/sierpinski-seasons-greetings-from-sage.png}}
+[[attachment:Sierpinski_wiki.png|{{attachment:Sierpinski_wiki.png||width=400}}]] 
 
-Also (thanks to Rob Beezer) available in poster form in pdf format:
-http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage.pdf,
-and in A4 size:
-http://sage.math.washington.edu/home/wdj/art/seasons-greetings-sage-a4.pdf.
 
 == Integral Curvature Apollonian Circle Packing ==
 by Marshall Hampton and Carl Witty
