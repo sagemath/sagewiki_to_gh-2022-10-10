@@ -334,7 +334,7 @@ for i in srange(-5,1.5,0.1):
 t.show()
 }}}
 
-{{http://sage.math.washington.edu/home/wdj/art/boothby-tachyon2.png|cool pic 3}}
+[[attachment:Twisted_cubic_tachyon_wiki.png|{{attachment:Twisted_cubic_tachyon_wiki.png||width=400}}]] 
 
 == Reflections from four spheres in tachyon ==
 {{{#!python numbers=none
