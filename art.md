@@ -288,8 +288,8 @@ t.sphere((2,1,1), 0.5, 'mirror')
 show(t)
 }}}
 
+[[attachment:Spheres_tachyon_wiki.png|{{attachment:Spheres_tachyon_wiki.png||width=400}}]] 
 
-{{http://sage.math.washington.edu/home/wdj/art/balls-mirrored-sage-tachyon1a.png|cool ray tracing pic}}
 
 == Math art by Tom Boothby ==
 {{{#!python numbers=none
