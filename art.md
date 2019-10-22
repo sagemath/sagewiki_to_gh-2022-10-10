@@ -258,7 +258,7 @@ a.show(delay=10)
 }}}
 = Pictures drawn by Sage =
 
-These pictures and images were drawn by [[http://www.sagemath.org|Sage]].
+These pictures and images were drawn by [[https://www.sagemath.org|Sage]].
 
 == Everywhere continuous, nowhere differentiable function ==
  * Everywhere continuous, nowhere differentiable function (in the infinite limit, anyway):
@@ -271,7 +271,7 @@ for n in range(1,20):
 p.show(xmin=0, ymin=0,dpi=250)
 }}}
 
-{{http://sage.math.washington.edu/home/wdj/art/cool-sage-pic-small1.png|cool pic 1}}
+[[attachment:Fourier_series_wiki.png|{{attachment:Fourier_series_wiki.png||width=400}}]] 
 
 == Mirrored balls in tachyon ==
 
