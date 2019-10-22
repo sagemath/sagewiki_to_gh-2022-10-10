@@ -634,7 +634,8 @@ g = particiones.grafo()
 g.show(edge_labels=True, figsize=(6,6), vertex_size=500, color_by_label=True)
 }}}
 
-.
+[[attachment:Graph_call_wiki.png|{{attachment:Graph_call_wiki.png||width=400}}]]
+
 {{{
 #D3js interactive version (just a screenshot here)
 edge_partition = [
@@ -653,6 +654,7 @@ g.show(method='js',
 
 {{attachment:call_graph_partitions_js_2.png}}
 {{attachment:call_graph_partitions.png}}
+
 = Sage plotting =
 
 Here are some python plotting engines/libraries:
