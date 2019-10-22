@@ -637,9 +637,9 @@ g.show(edge_labels=True, figsize=(6,6), vertex_size=500, color_by_label=True)
 [[attachment:Graph_call_wiki.png|{{attachment:Graph_call_wiki.png||width=400}}]]
 
 {{{
-#D3js interactive version (just a screenshot here)
+# D3js interactive version
 edge_partition = [
-    [edge for edge in g.edges() if edge[-1]==el]
+    [edge for edge in g.edges() if edge[-1] == el]
     for el in set(g.edge_labels())
     ]
 g.show(method='js',
@@ -651,9 +651,6 @@ g.show(method='js',
        force_spring_layout=True,
        edge_partition=edge_partition)
 }}}
-
-{{attachment:call_graph_partitions_js_2.png}}
-{{attachment:call_graph_partitions.png}}
 
 = Sage plotting =
 
@@ -673,7 +670,7 @@ Here are some python plotting engines/libraries:
        * Jmol: http://jmol.sourceforge.net/
 
 Sage's plotting functionality is built on top of matplotlib, which is a
-very extensive plotting library with a user interface that is very similiar to Matlab's plotting.
+very extensive plotting library with a user interface that is very similar to Matlab's plotting.
 The interface that Sage provides to matplotlib is very Mathematica like.
 
-There are also several links to plotting/graphics/data visualization programs at the scipy [[http://www.scipy.org/Topical_Software#head-b98ffdb309ccce4e4504a25ea75b5c806e4897b6|wiki]].
+There are also several links to plotting/graphics/data visualization programs at the scipy [[https://www.scipy.org/Topical_Software#head-b98ffdb309ccce4e4504a25ea75b5c806e4897b6|wiki]].
