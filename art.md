@@ -351,6 +351,8 @@ t6.plane((0,0,-1.9259),(0,0,1),'p')
 t6.show()
 }}}
 
+[[attachment:Blue_fractal_tachyon_wiki.png|{{attachment:Blue_fractal_tachyon_wiki.png||width=400}}]] 
+
 {{attachment:fourspheres.png}}
 
 == A cone inside a sphere ==
