@@ -163,30 +163,31 @@ by Pablo Angulo
 
 {{{#!python numbers=off
 def plot_towers(towers):
-    '''Returns a plot of the towers of Hanoi
-    
-    Uses matrix_plot
-    '''
-    K=max(max(l) for l in towers if l)+1
-    M=matrix(ZZ,K,6*K+7)
-    #first tower
+    """
+    Return a plot of the towers of Hanoi.
+
+    This uses matrix_plot.
+    """
+    K = max(max(l) for l in towers if l) + 1
+    M = matrix(ZZ, K, 6 * K + 7)
+    # first tower
     for t in range(len(towers[0])):
         j = t
-        k=towers[0][t]-1
+        k = towers[0][t] - 1
         for l in range(K+1-k,K+2+k):
-            M[K-1-j,l]=1
-    #second tower
+            M[K-1-j,l] = 1
+    # second tower
     for t in range(len(towers[1])):
         j = t
-        k=towers[1][t]-1
+        k = towers[1][t] - 1
         for l in range(3*K+3-k,3*K+4+k):
-            M[K-1-j,l]=1
-    #third tower
+            M[K-1-j,l] = 1
+    # third tower
     for t in range(len(towers[2])):
         j = t
-        k=towers[2][t]-1
+        k = towers[2][t]-1
         for l in range(5*K+5-k,5*K+6+k):
-            M[K-1-j,l]=1
+            M[K-1-j,l] = 1
 
     return matrix_plot(M, axes=False)
 
