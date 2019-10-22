@@ -440,8 +440,7 @@ def butterfly3d():
     g.show(dpi=100, axes=False)
 
 }}}
-
-{{http://sage.math.washington.edu/home/wdj/art/butterfly2d.png}}
+[[attachment:Butterfly_2d_wiki.png|{{attachment:Butterfly_2d_wiki.png||width=400}}]] 
 
 {{http://sage.math.washington.edu/home/wdj/art/butterfly3d.png}}
 
