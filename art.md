@@ -393,14 +393,15 @@ sage: (P1+P2+P3+P4).show(axes=False)
 
 {{{#!python numbers=off
 """
-Draws Loretz butterfly using matplotlib (2d) or jmol (3d).
+Draws Lorentz butterfly using matplotlib (2d) or jmol (3d).
 Written by Matthew Miller and William Stein.
 
 """
 
 def butterfly2d():
     """"
-    EXAMPLE:
+    EXAMPLES::
+
         sage: butterfly2d()
     """
     g = Graphics()
@@ -420,7 +421,8 @@ def butterfly2d():
 
 def butterfly3d():
     """"
-    EXAMPLE:
+    EXAMPLES::
+
         sage: butterfly3d()
     """
     g = point3d((0,0,0))
@@ -586,7 +588,7 @@ circs.save('./Apollonian3.png',axes = False, figsize = [12,12], xmin = \
 -1/2, xmax = 1/2, ymin = -1/2, ymax = 1/2)
 }}}
 
-{{attachment:Apollonian.png}}
+[[attachment:Appolonian_wiki.png|{{attachment:Appolonian_wiki.png||width=400}}]] 
 
 == Call graph of a recursive function ==
 {{{
