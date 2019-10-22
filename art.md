@@ -316,7 +316,8 @@ for i in srange(-pi*10,0,.01):
 t.show(verbose=1)
 }}}
 
-{{http://sage.math.washington.edu/home/wdj/art/boothby-tachyon1.png|cool pic 2}}
+[[attachment:Spirals_tachyon_wiki.png|{{attachment:Spirals_tachyon_wiki.png||width=400}}]] 
+
 
 == Twisted cubic in tachyon ==
 {{{#!python numbers=none
