@@ -353,8 +353,6 @@ t6.show()
 
 [[attachment:Blue_fractal_tachyon_wiki.png|{{attachment:Blue_fractal_tachyon_wiki.png||width=400}}]] 
 
-{{attachment:fourspheres.png}}
-
 == A cone inside a sphere ==
 {{{#!python numbers=none
 sage: u,v = var("u,v")
