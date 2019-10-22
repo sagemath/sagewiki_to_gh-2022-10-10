@@ -377,9 +377,9 @@ sage: show(p1+p2)
 
  * I know this is early, but thanks to Robert Bradshaw's p-adic plot function, here is a p-adic Seasons Greetings:
 
-{{http://sage.math.washington.edu/home/wdj/art/padic-seasons-greetings.png}}
+[[attachment:Blue_fractal_tachyon_wiki.png|{{attachment:Greetings_wiki.png||width=400}}]] 
 
-This is the code:
+Here is the code:
 
 {{{#!python numbers=none
 sage: P1 = Zp(3).plot(rgbcolor=(0,1,0))
