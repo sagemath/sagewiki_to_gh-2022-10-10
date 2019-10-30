@@ -2,7 +2,7 @@
 
 This is the wiki for the [[https://www.sagemath.org|Sage - Mathematics Software System]] project. This is mainly used by developers for organization of e.g. SageDays and discussion of long-term projects. Since it ''is'' a wiki, pages should be made to last over many, and frequent, changes. If an external link is made, please attach relevant files/content to avoid broken links.
 
-||<#FF6347>Warning: || Starting from version 9.0,  the default distributed version of Sage is using Python 3. See [[Python3-Switch]] for more information.||
+||<#FF6347>Warning: || Starting from version 9.0,  the default distributed version of Sage is using '''Python 3'''. See [[Python3-Switch]] for more information.||
 
 <<TableOfContents>>
 
