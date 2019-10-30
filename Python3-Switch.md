@@ -4,7 +4,7 @@
 
 Starting from version 9.0 (to be released later in 2019 or early 2020), !SageMath will be running on top of '''Python 3'''.
 
-The change from Python2 to Python3 has already been made by all major scientific software based on Python, including !NumPy, !SciPy and Jupyter. It becomes more and more common for scientific Python software to work only under Python3. Moreover, the official end of life for Python 2 is the end of 2019 (see the [[https://pythonclock.org/|countdown]])
+The change from Python 2 to Python 3 has already been made by all major scientific software based on Python, including !NumPy, !SciPy and Jupyter. It becomes more and more common for scientific Python software to work only under Python 3. Moreover, the official end of life for Python 2 is the end of 2019 (see the [[https://pythonclock.org/|countdown]])
 
 For all these reasons, it is necessary for !SageMath to switch to Python 3. After a lot of work and a lot of time, this is now possible and will be done in the 9.0 version.
 
@@ -22,7 +22,7 @@ All people that still have old-style notebooks are urged to migrate them to Jupy
 
 == Compiling with Python 2 ==
 
-After version 9.0, you can still build and use !SageMath with '''Python2''', as follows.
+After version 9.0, you can still build and use !SageMath with '''Python 2''', as follows.
 {{{
 make configure
 ./configure --with-python=2
