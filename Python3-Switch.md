@@ -1,0 +1,21 @@
+== Summary of the Python 3 switch ==
+
+!SageMath has been running under '''Python 2''' since the beginning, until version 8.9.
+
+Starting from version 9.0 (to be released later in 2019), !SageMath will be running on top of '''Python 3'''.
+
+The change from Python2 to Python3 has already been made by all major scientific software based on Python, including !NumPy, !SciPy and !Jupyter. It becomes more and more common for scientific Python software to work only under Python3. Moreover, the official end of life for Python2 is the end of 2019.
+
+For all these reasons, it is necessary for Sagemath to switch to Python 3. After a lot of work and a lot of time, this is now possible and will be done in the 9.0 version.
+
+This will not be without pain for the users of sage. Python 3 has some major backward incompatibilities with Python2, and adapting the code takes some care and some work.
+
+Some basic instructions can be found in [[Python3-compatible??]]
+
+Some more specific details follow.
+
+=== Old notebooks ===
+
+The "legacy Sage notebook", which was used by Sage for a long time, has been replaced by the Jupyter notebook XXX years ago. Because the legacy notebook is no longer maintained, it is not compatible with Python 3 and will not be available in versions 9.0 and higher of SageMath.
+
+All people that still have old-style notebooks are urged to migrate them to Jupyter notebooks now.
