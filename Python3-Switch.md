@@ -22,7 +22,7 @@ All people that still have old-style notebooks are urged to migrate them to Jupy
 
 == Compiling with Python 2 ==
 
-* After version 9.0, you can still build and use !SageMath with '''Python2''', as follows.
+After version 9.0, you can still build and use !SageMath with '''Python2''', as follows.
 {{{
 make configure
 ./configure --with-python=2
