@@ -10,7 +10,9 @@ For all these reasons, it is necessary for !SageMath to switch to Python 3. Afte
 
 This will not be without pain for the users of !SageMath. Python 3 has some major backward incompatibilities with Python2, and adapting the code takes some care and some work.
 
-Some basic instructions for doing that can be found in the page [[Python3-compatible code]].
+Some basic instructions for doing that can be found in our wiki page [[Python3-compatible code]].
+
+More instructions for porting code can be found in the official [[https://docs.python.org/dev/howto/pyporting.html|Python documentation]].
 
 Some more specific details follow.
 
