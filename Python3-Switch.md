@@ -14,7 +14,7 @@ Some basic instructions for doing that can be found in the page [[Python3-compat
 
 Some more specific details follow.
 
-=== Old notebooks ===
+== Old notebooks ==
 
 The "legacy Sage notebook", which was used by Sage for a long time, has been replaced by the Jupyter notebook XXX years ago. Because the legacy notebook is no longer maintained, it is not compatible with Python 3 and will not be available in versions 9.0 and higher of !SageMath.
 
