@@ -8,18 +8,18 @@ In Python `range` is a function that return a list.
 {{{#!highlight python
 sage-8.9: range(5)
 [0, 1, 2, 3, 4]
-sage: type(range(5))
+sage-8.9: type(range(5))
 <type 'list'>
 }}}
 In Python 3, `range` is an object that somehow behave as a list (ie elements can still be acessed with square bracket, it has a length, etc) but it is not a list.
-{{{
+{{{#!highlight python
 sage-9.0: range(5)
 range(0, 5)
 sage-9.0: range(5)[2]
 2
-sage: range(5)[1::2]
+sage-9.0: range(5)[1::2]
 range(1, 5, 2)
-sage: type(range(5))
+sage-9.0: type(range(5))
 <class 'range'>
 }}}
 
