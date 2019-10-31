@@ -23,4 +23,4 @@ sage-9.0: type(range(5))
 <class 'range'>
 }}}
 
-The iterator `xrange` is no longer valid in Python 3.
+The iterator `xrange` is no longer valid in Python 3 simply use `range` instead.
