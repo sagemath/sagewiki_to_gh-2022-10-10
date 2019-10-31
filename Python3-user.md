@@ -4,7 +4,7 @@
 
 == range and xrange ==
 
-In Python `range` is a function that return a list.
+In Python `range` is a function that returns a list.
 {{{#!highlight python
 sage-8.9: range(5)
 [0, 1, 2, 3, 4]
