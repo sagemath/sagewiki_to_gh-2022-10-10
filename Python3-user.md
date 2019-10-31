@@ -18,7 +18,7 @@ sage-9.0: print("hello", 1, 2)
 hello 1 2
 }}}
 Writing a print statement without the parenthesis results in a `SyntaxError`
-{{{#highlight python
+{{{#!highlight python
 sage: print "hello", 1, 2
   File "<ipython-input-9-e91077222f2e>", line 1
     print "hello", Integer(1), Integer(2)
