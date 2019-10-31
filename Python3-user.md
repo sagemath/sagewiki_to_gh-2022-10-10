@@ -13,7 +13,7 @@ hello 1 2
 }}}
 
 In Python 3, `print` becomes a function
-{{{#highlight python
+{{{#!highlight python
 sage-9.0: print("hello", 1, 2)
 hello 1 2
 }}}
@@ -26,7 +26,7 @@ sage: print "hello", 1, 2
 SyntaxError: invalid syntax
 }}}
 One cool thing about this `print` function is that it takes various arguments (you can write in files or use a different separator).
-{{{#highlight python
+{{{#!highlight python
 sage-9.0: print("The", "number", 3, "is", "prime", sep=' XX ')
 The XX number XX 3 XX is XX prime
 }}}
