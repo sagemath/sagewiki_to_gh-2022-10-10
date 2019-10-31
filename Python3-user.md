@@ -1,7 +1,9 @@
 ||<#FF6347>Warning: || Starting from version 9.0,  the default distributed version of Sage is using Python 3. See [[Python3-Switch]] for more information.||
 
-= Main caveat =
+= Main caveat from writing Python 3 Sagemath code when you are used to Python 2 =
 
+We list the most visible changes that any user would certainly run into the first time she uses a Python 3 based version when she used to run a Python 2 based one. This page is not intended to be a complete manual of the differences but a short page of what you need to know to get started. The [[https://docs.python.org/3/whatsnew/3.0.html|What's new page of the Python official website]] provides more technical details.
+ 
 == 1. print ==
 
 In Python 2, `print` is a keyword (as `for`, `if`, etc)
@@ -15,13 +17,17 @@ In Python 3, `print` becomes a function
 sage-9.0: print("hello", 1, 2)
 hello 1 2
 }}}
-Writing a print statement without the parenthesis will result in a `SyntaxError`
+Writing a print statement without the parenthesis results in a `SyntaxError`
 {{{#highlight python
 sage: print "hello", 1, 2
   File "<ipython-input-9-e91077222f2e>", line 1
     print "hello", Integer(1), Integer(2)
                 ^
 SyntaxError: invalid syntax
+}}}
+One cool thing about this `print` function is that it takes argument
+{{{#highlight python
+
 }}}
 
 == 2. range and xrange ==
