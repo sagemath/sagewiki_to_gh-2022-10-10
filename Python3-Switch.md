@@ -6,13 +6,12 @@ Starting from version 9.0 (to be released later in 2019 or early 2020), !SageMat
 
 The change from Python 2 to Python 3 has already been made by all major scientific software based on Python, including !NumPy, !SciPy and Jupyter. It becomes more and more common for scientific Python software to work only under Python 3. Moreover, the official end of life for Python 2 is the end of 2019 (see the [[https://pythonclock.org/|countdown]])
 
-For all these reasons, it is necessary for !SageMath to switch to Python 3. After a lot of work and a lot of time, this is now possible and will be done in the 9.0 version.
+Python 3 has some major backward incompatibilities with Python2, and adapting !SageMath code from Python 2 to Python 3 takes some care and some work. Some basic instructions for doing that can be found in the following wiki pages
 
-This will not be without pain for the users of !SageMath. Python 3 has some major backward incompatibilities with Python2, and adapting the code takes some care and some work.
+ * [[Python3-compatible write Python 3 compatible code]] (for developers)
+ * [[Python3-user basic of Python 2 and Python3] (for users)
 
-Some basic instructions for doing that can be found in our wiki page [[Python3-compatible code]].
-
-More instructions for porting code can be found in the official [[https://docs.python.org/dev/howto/pyporting.html|Python documentation]].
+More complete instructions for porting code can be found in the official [[https://docs.python.org/dev/howto/pyporting.html|Python documentation]].
 
 Some more specific details follow.
 
