@@ -8,7 +8,7 @@ The change from Python 2 to Python 3 has already been made by all major scientif
 
 Python 3 has some major backward incompatibilities with Python2, and adapting !SageMath code from Python 2 to Python 3 takes some care and some work. Some basic instructions for doing that can be found in the following wiki pages
 
- * [[Python3-compatible-code]] (for developers)
+ * [[Python3-compatible code]] (for developers)
  * [[Python3-user]] (for users)
 
 More complete instructions for porting code can be found in the official [[https://docs.python.org/dev/howto/pyporting.html|Python documentation]].
