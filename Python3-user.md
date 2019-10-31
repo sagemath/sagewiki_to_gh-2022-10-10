@@ -1,0 +1,26 @@
+||<#FF6347>Warning: || Starting from version 9.0,  the default distributed version of Sage is using Python 3. See [[Python3-Switch]] for more information.||
+
+= Main caveat =
+
+== range and xrange ==
+
+In Python `range` is a function that return a list.
+{{{#!highlight python
+sage-8.9: range(5)
+[0, 1, 2, 3, 4]
+sage: type(range(5))
+<type 'list'>
+}}}
+In Python 3, `range` is an object that somehow behave as a list (ie elements can still be acessed with square bracket, it has a length, etc) but it is not a list.
+{{{
+sage-9.0: range(5)
+range(0, 5)
+sage-9.0: range(5)[2]
+2
+sage: range(5)[1::2]
+range(1, 5, 2)
+sage: type(range(5))
+<class 'range'>
+}}}
+
+The iterator `xrange` is no longer valid in Python 3.
