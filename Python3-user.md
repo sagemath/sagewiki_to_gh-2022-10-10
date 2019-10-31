@@ -25,10 +25,12 @@ sage: print "hello", 1, 2
                 ^
 SyntaxError: invalid syntax
 }}}
-One cool thing about this `print` function is that it takes argument
+One cool thing about this `print` function is that it takes various arguments (you can write in files or use a different separator).
 {{{#highlight python
-
+sage-9.0: print("The", "number", 3, "is", "prime", sep=' XX ')
+The XX number XX 3 XX is XX prime
 }}}
+
 
 == 2. range and xrange ==
 
@@ -50,6 +52,8 @@ range(1, 5, 2)
 sage-9.0: type(range(5))
 <class 'range'>
 }}}
+The main advantage of this range object in Python 3 is when you perform a simple iteratation `for i in range(1000)`. In Python 2 this would have created a list of 1000 elements and then iterated through it. In Python 3, there is no list creation and hence no memory allocation for these 1000 elements.
+
 
 The iterator `xrange` is no longer valid in Python 3 simply use `range` instead.
 
