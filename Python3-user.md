@@ -24,3 +24,9 @@ sage-9.0: type(range(5))
 }}}
 
 The iterator `xrange` is no longer valid in Python 3 simply use `range` instead.
+
+== strings, unicode and bytes ==
+
+In Python 2 a chain of characters between simple, double or triple quotes creates an ascii string. To create a unicode string one has to use the prefix `u` (which remains valid in Python 3).
+
+In Python 3, a chain of characters between quote will gives rise to a unicode string. To create specifically an ascii string one has to use the prefix `b` (which is already valid in Python 2).
