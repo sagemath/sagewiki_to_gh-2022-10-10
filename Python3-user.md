@@ -2,7 +2,29 @@
 
 = Main caveat =
 
-== range and xrange ==
+== 1. print ==
+
+In Python 2, `print` is a keyword (as `for`, `if`, etc)
+{{{#!highlight python
+sage-8.9: print "hello", 1, 2
+hello 1 2
+}}}
+
+In Python 3, `print` becomes a function
+{{{#highlight python
+sage-9.0: print("hello", 1, 2)
+hello 1 2
+}}}
+Writing a print statement without the parenthesis will result in a `SyntaxError`
+{{{#highlight python
+sage: print "hello", 1, 2
+  File "<ipython-input-9-e91077222f2e>", line 1
+    print "hello", Integer(1), Integer(2)
+                ^
+SyntaxError: invalid syntax
+}}}
+
+== 2. range and xrange ==
 
 In Python `range` is a function that returns a list.
 {{{#!highlight python
@@ -25,7 +47,7 @@ sage-9.0: type(range(5))
 
 The iterator `xrange` is no longer valid in Python 3 simply use `range` instead.
 
-== strings, unicode and bytes ==
+== 3. strings, unicode and bytes ==
 
 In Python 2 a chain of characters between simple, double or triple quotes creates an ascii string. To create a unicode string one has to use the prefix `u` (which remains valid in Python 3).
 
