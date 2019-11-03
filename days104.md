@@ -95,4 +95,36 @@ Please contact one of the organizers if you are having trouble with the preworks
 
 
 == Confirmed Participants ==
-TBD
+
+ * Birch Bryant  - Oklahoma State University
+
+ * John Michael Clark - Oklahoma State University
+
+ * Alexis Suki Dasher - University of Minnesota, Twin Cities
+
+ * John Doyle - Louisiana Tech University
+
+ * Paul Fili - Oklahoma State University
+
+ * Benjamin Hutz - Saint Louis University
+
+ * Jamie Juul - University of British Columbia
+
+ * Yuan Kong - Oklahoma State University
+
+ * Benjamin Krakoff - University of Michigan
+
+ * Krystal Maughan - University of Vermont
+
+ * Rebecca Lauren Miller - Saint Louis University
+
+ * Andrew Odesky - University of Michigan
+
+ * Biana Thompson - Westminster College
+
+ * Adam Towsley - Rochester Institute of Technology
+
+ * Mingming Zhang - Oklahoma State University
+
+
+ * Bella Tobin - Oklahoma State University
