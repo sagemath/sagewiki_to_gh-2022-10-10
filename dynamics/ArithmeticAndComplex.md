@@ -62,8 +62,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/23806|#23806]]) needs-info: don't choose default affine patch on projective point init - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/23807|#23807]]) needs-work: fix issues with identical affine patches - Ben Hutz, Peter Bruin, Raghukul Raman
-
  * ([[http://trac.sagemath.org/ticket/23816|#23816]]) needs-review: left matrix action on scheme points - Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/23740|#23740]]) new: Plotting Julia sets for general polynomials - Ben Barros
@@ -98,6 +96,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Berkovich P1 || || ||  ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/23807|#23807]])-- closed sage-8.9: fix issues with identical affine patches - Ben Hutz, Peter Bruin, Raghukul Raman
 
  * --([[http://trac.sagemath.org/ticket/28200|#28200]])-- closed sage-8.9: reduce base field for scheme morphisms - Ben Hutz
 
