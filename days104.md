@@ -51,39 +51,37 @@ See the [[https://wiki.sagemath.org/dynamics/ArithmeticAndComplex|dynamics wiki]
 
 
 == Schedule ==
-The workshop will consist of tutorials and talks in the mornings and working groups in the afternoons. The following is a tentative schedule
+The workshop will consist of tutorials and talks in the mornings and working groups in the afternoons. '''All events will take place in the Busch Student Center Room 254'''. The following is a tentative schedule
 
  * Saturday November 16, 2019
    * Arrival and check-in to accommodations
  * Sunday November 17, 2019
-   * Registration and Welcome
+   * 9:30am  - Registration and Welcome
    * Installation Assistance
-   * Talk: Dynamical Systems in Sage
+   * 10:00-11:00am - Talk: Dynamical Systems in Sage - Hutz
    * Lunch break
-   * Open problem discussion to establish workshop goals
-   * Tutorial on contributing to Sage I
-   * Full group status update on daily progress
+   * 1:30pm-2:30pm - Open problem discussion to establish workshop goals
+   * 3:00-4:00pm Tutorial on contributing to Sage I
+   * 5:00pm Full group status update on daily progress
  * Monday November 18, 2019
-   * Talk: TBD
+   * 9:30am-10:30am - Talk: TBD
    * Break
-   * Tutorial on contributing to Sage II
+   * 11:00am-12:00 - Tutorial on contributing to Sage II
    * Lunch break
    * Coding sprints
-   * Full group status update on daily progress
+   * 5:00pm Full group status update on daily progress
  * Tuesday November 19, 2019
-   * Talk: TBD
-   * Break
+   * 9:30am-10:30am - Talk: TBD
    * Coding sprints
    * Lunch break
    * Coding sprints
-   * Full group status update on daily progress
+   * 5:00pm - Full group status update on daily progress
  * Wednesady November 20, 2019
-   * Talk: TBD
-   * Break
+   * 9:30am-10:30am - Talk: TBD
    * Coding sprints
    * Lunch break
    * Coding sprints
-   * Final status update
+   * 5:00pm - Final status update
 
 == Preworkshop Preparation ==
 
