@@ -296,7 +296,7 @@ def makePF(word1): #creates 5 x 5 Playfair array beginning with "word"
     alph='ABCDEFGHIKLMNOPQRSTUVWXYZ'
     pf=''
     for ch in word:
-        if (ch<>"J") & (pf.find(ch)==-1):  # ensures no letter is repeated
+        if (ch!="J") & (pf.find(ch)==-1):  # ensures no letter is repeated
             pf+=ch
     for ch in alph:
         if pf.find(ch)==-1:  #only uses unused letters from alph
@@ -313,11 +313,11 @@ def pf_encrypt(di,PF): # encrypts a digraph di with a Playfair array PF
             if PF[i][j]==di[1]:
                 i1=i
                 j1=j
-    if (i0<>i1) & (j0<>j1):
+    if (i0!=i1) & (j0!=j1):
         return PF[i0][j1]+PF[i1][j0]
-    if (i0==i1) & (j0<>j1):
+    if (i0==i1) & (j0!=j1):
         return PF[i0][(j0+1)%5]+PF[i1][(j1+1)%5]
-    if (i0<>i1) & (j0==j1):
+    if (i0!=i1) & (j0==j1):
         return PF[(i0+1)%5][j0]+PF[(i1+1)%5][j1]
 
 def insert(ch,str,j):  # a helper function: inserts a character "ch" into
@@ -389,7 +389,7 @@ def makePF(word1): #creates 5 x 5 Playfair array beginning with "word"
     alph='ABCDEFGHIKLMNOPQRSTUVWXYZ'
     pf=''
     for ch in word:
-        if (ch<>"J") & (pf.find(ch)==-1):  # ensures no letter is repeated
+        if (ch!="J") & (pf.find(ch)==-1):  # ensures no letter is repeated
             pf+=ch
     for ch in alph:
         if pf.find(ch)==-1:  #only uses unused letters from alph
@@ -406,11 +406,11 @@ def pf_decrypt(di,PF): # encrypts a digraph di with a Playfair array PF
             if PF[i][j]==di[1]:
                 i1=i
                 j1=j
-    if (i0<>i1) & (j0<>j1):## if di[0] and di[1] are not in the same column or row, switch to corners in the same row
+    if (i0!=i1) & (j0!=j1):## if di[0] and di[1] are not in the same column or row, switch to corners in the same row
         return PF[i0][j1]+PF[i1][j0]
-    if (i0==i1) & (j0<>j1):## if di[0] and di[1] are in the same row, then switch left  
+    if (i0==i1) & (j0!=j1):## if di[0] and di[1] are in the same row, then switch left  
         return PF[i0][(j0-1)%5]+PF[i1][(j1-1)%5]
-    if (i0<>i1) & (j0==j1):## if di[0] and di[1] are in the same column, then switch up 
+    if (i0!=i1) & (j0==j1):## if di[0] and di[1] are in the same column, then switch up 
         return PF[(i0-1)%5][j0]+PF[(i1-1)%5][j1]
 
 def insert(ch,str,j):  # a helper function: inserts a character "ch" into
@@ -425,13 +425,13 @@ def insert(ch,str,j):  # a helper function: inserts a character "ch" into
 
 def playfair_decrypt(pl1,word): # decrypts a plaintext "pl" with a Playfair cipher 
     pl=change_to_plain_text(pl1)
-    if len(pl1)%2<>0:
+    if len(pl1)%2:
         raise TypeError('The lenght of the ciphertext is not even')
     pl2=makeDG(pl)
-    if pl2<>pl:
+    if pl2!=pl:
         if 'J' in pl: 
             raise TypeError('The ciphertext contains a J')
-        if len(pl2)<>len(pl):
+        if len(pl2)!=len(pl):
             raise TypeError('The ciphertext contains digraphs with repeated letters')
             
     PF=makePF(word)    # using a keyword "word"
@@ -464,7 +464,7 @@ def playfair_decrypt_options(pl): ##Modifies the output of the playfair_decrypt 
     else: pl_no_last_X=pl
     pl_noX=pl
     for ch in pl_noX:
-        if (ch=='X') & (pl.find(ch)<>0):
+        if (ch=='X') & (pl.find(ch)!=0):
             if  pl_noX[pl_noX.find(ch)-1]==pl_noX[pl_noX.find(ch)+1]:
                 pl_noX=pl_noX.replace('X','')
     return([pl,pl_noI,pl_noX,pl_no_last_X])    
@@ -473,11 +473,11 @@ pretty_print(html("<h1>Playfair Cipher Decryptor</h1>"))
 pretty_print(html("<h>Enter your ciphertext and a guess for the key to construct you polybius square. Warning: both the message and the key must be in quotes.<h>"))
 @interact
 def _(Ciphertext=input_box(default='"LYXAXGDA"', label="Message:"),Key=input_box(default='"key"', label='Guess key:'),showmatrix=checkbox(True, label='Show polybius square:')):
-    print 'These are some of the possibilities for the plaintext:'
-    print playfair_decrypt_options(playfair_decrypt(Ciphertext,Key))
+    print('These are some of the possibilities for the plaintext:')
+    print(playfair_decrypt_options(playfair_decrypt(Ciphertext,Key)))
     if showmatrix:
         poly=makePF(Key)
-        print '----------------------'
+        print('----------------------')
         for i in range(5):
             print(poly[i])
 }}}
