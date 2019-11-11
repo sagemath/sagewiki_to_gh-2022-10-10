@@ -965,10 +965,10 @@ pretty_print(html("<h>This will solve for the exponent, b, in x=a^b (mod m) assu
 @interact
 def DLP_break(a=input_box(default=5),x=input_box(default=22),m=input_box(default=47)):
     if (not a in ZZ) or (not x in ZZ) or (not m in ZZ) or (a<=0) or (x<0) or (m<=0):
-        print "*********** ERROR: a,m,x should all be integers with a,m>0. ***********"
-        print
+        print("*********** ERROR: a,m,x should all be integers with a,m>0. ***********")
+        print()
     elif x==1:
-        print "b=0"
+        print("b=0")
     else:
         a=Integer(a)
         x=Integer(x)
@@ -978,13 +978,13 @@ def DLP_break(a=input_box(default=5),x=input_box(default=22),m=input_box(default
             temp = a^i %m
             if temp==x:
                 ind=1
-                print "This process took",i+1,"steps to determine that b="+str(i),"by evaluating",str(a)+"^i for i=0,...,"+str(i)+"."
-                print
-                print "NOTE: Without restricting the size of b, there is not a unique solution for b. However, the solution above is the smallest possible solution."
+                print("This process took",i+1,"steps to determine that b="+str(i),"by evaluating",str(a)+"^i for i=0,...,"+str(i)+".")
+                print()
+                print("NOTE: Without restricting the size of b, there is not a unique solution for b. However, the solution above is the smallest possible solution.")
             else:
                 temp
         if ind==0:
-            print "*********** ERROR: This process took",m,"steps to determine that there is no integer solution for b.***********"
+            print("*********** ERROR: This process took",m,"steps to determine that there is no integer solution for b.***********")
 
 }}}
 
