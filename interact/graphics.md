@@ -104,7 +104,7 @@ def _(example=selector(plots, buttons=True, nrows=2),
         fz = -tanh((2/3)*(u-pi))*sin(v)
         P = parametric_plot3d([fx, fy, fz], (u, 0, 2*pi), (v, 0, 2*pi), frame=False, color="red",opacity=opacity)
     else:
-        print "Bug selecting plot?"
+        print("Bug selecting plot?")
         return
 
 
@@ -179,7 +179,7 @@ def color_experimenter(expression=input_box('', 'Expression', str), color=Color(
         try:
             plot(SR(expression), rgbcolor=color).show()
         except TypeError:
-            print "There's a problem with your expression."
+            print("There's a problem with your expression.")
 }}}
 {{attachment:color_of_plot_changer.png}} 
 
@@ -187,7 +187,7 @@ def color_experimenter(expression=input_box('', 'Expression', str), color=Color(
 by Timothy Clemans
 {{{#!sagecell
 def error_msg(msg):
-    print '<html><p style="font-family:Arial, sans-serif;color:#000"><span style="color:red;font-weight:bold">Error</span>: %s</p></html>' % msg
+    print('<html><p style="font-family:Arial, sans-serif;color:#000"><span style="color:red;font-weight:bold">Error</span>: %s</p></html>' % msg)
 
 @interact
 def interactive_2d_plotter(expression=input_box('sin(x)', 'Expression', str), x_range=range_slider(-10,10,1,(0,10), label='X Range'), square=checkbox(True, 'Square'), axes=checkbox(False, 'Show Axes')):
@@ -195,24 +195,24 @@ def interactive_2d_plotter(expression=input_box('sin(x)', 'Expression', str), x_
         try:
             expression = SR(expression) # turn string into a Sage expression
         except TypeError:
-            print error_msg('This is not an expression.')
+            print(error_msg('This is not an expression.'))
             return
         try:
                 xmin, xmax = x_range
                 if square or not axes:
-                    print "var('%s')\nplot(%s).show(%s%s%s)" % (expression.variables()[0], repr(expression), 'aspect_ratio=1' if square else '', ', ' if square and not axes else '', 'axes=False' if not axes else '')
+                    print("var('%s')\nplot(%s).show(%s%s%s)" % (expression.variables()[0], repr(expression), 'aspect_ratio=1' if square else '', ', ' if square and not axes else '', 'axes=False' if not axes else ''))
                     if square:
                         plot(expression, xmin, xmax).show(aspect_ratio=1, axes=axes)
                     else:
                         plot(expression, xmin, xmax).show(axes=axes)
                 else:
-                    print "var('%s')\nplot(%s)" % (expression.variables()[0], repr(expression))
+                    print("var('%s')\nplot(%s)" % (expression.variables()[0], repr(expression)))
                     plot(expression, xmin, xmax).show(axes=axes)
         except ValueError:
-            print error_msg('This expression has more than one variable.')
+            print(error_msg('This expression has more than one variable.'))
             return
         except TypeError:
-            print error_msg("This expression contains an unknown function.")
+            print(error_msg("This expression contains an unknown function."))
             return
 }}}
 {{attachment:interactive_2d_plotting.png}}
@@ -270,11 +270,11 @@ frames=100,
 cir_bool=checkbox(True, "Show circles?"),
 auto_update=false):
     draw=True
-    if h=='hypotrochoid' and (b>=1 or b<=0):
-        print "In a hypotrochoid, radius must be between 0 and 1."
-        draw=False
-    if h=='epitrochoid' and b<=0:
-        print "In a epitrochoid, radius must be positive"
+    if h == 'hypotrochoid' and (b >= 1 or b <= 0):
+        print("In a hypotrochoid, radius must be between 0 and 1.")
+        draw = False
+    if h == 'epitrochoid' and b <= 0:
+        print("In a epitrochoid, radius must be positive")
         draw=False
     if draw==True:
         if h=='hypotrochoid': b=-b 
