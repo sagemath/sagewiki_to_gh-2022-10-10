@@ -33,8 +33,8 @@ def shift_cipher(message = input_box(default='"secrets"', label="Message:"), shi
     S = ShiftCryptosystem(A)
     message = S.encoding(message)
     C = S.enciphering(shift, message)
-    print "This is your encrypted text shifted by",shift,":"
-    print C
+    print("This is your encrypted text shifted by",shift,":")
+    print(C)
 }}}
 
 
@@ -53,14 +53,14 @@ def shift_decrypt(text = input_box(default='"KL"',label="Message:"), shift_by = 
     S = ShiftCryptosystem(AlphabeticStrings())
     ciphertext = S.encoding(text)
     decrypt = S.deciphering(shift_by%26,ciphertext)
-    print "If the shift was by", shift_by,", then the original message was:"
-    print decrypt
+    print("If the shift was by", shift_by,", then the original message was:")
+    print(decrypt)
     decrypt = S.brute_force(ciphertext)
-    print "\nThese are the possibilities for the plaintext:"
-    print decrypt
+    print("\nThese are the possibilities for the plaintext:")
+    print(decrypt)
     decrypt = S.brute_force(ciphertext,ranking = "chisquare")
-    print "\nThese are the possibilities ranked by likelihood with the chi-squared function:"
-    print decrypt
+    print("\nThese are the possibilities ranked by likelihood with the chi-squared function:")
+    print(decrypt)
 }}}
 
 == Affine Cipher ==
@@ -84,8 +84,8 @@ def affine_cipher(message = input_box(default='"secrets"', label="Message:"), a=
     S = AffineCryptosystem(A)
     message = S.encoding(message)
     C = S.enciphering(a,b, message)
-    print "This is your encrypted text:"
-    print C
+    print("This is your encrypted text:")
+    print(C)
 }}}
 
 
@@ -103,14 +103,14 @@ def shift_decrypt(text = input_box('"XNSILPCVA"', label="Message:"), a=[1,3,5,7,
     S = AffineCryptosystem(AlphabeticStrings())
     ciphertext = S.encoding(text)
     decrypt = S.deciphering(a,b,ciphertext)
-    print "If the a =", a, "and the b =",b, ", then the original message was:"
-    print decrypt
+    print("If the a =", a, "and the b =",b, ", then the original message was:")
+    print(decrypt)
     decrypt = S.brute_force(ciphertext,ranking="none")
-    print "\nThese are the possibilities for the plaintext:"
-    print decrypt
+    print("\nThese are the possibilities for the plaintext:")
+    print(decrypt)
     decrypt = S.brute_force(ciphertext,ranking = "chisquare")[:10]
-    print "\nThese are the top 10 possibilities ranked by likelihood with the chi-squared function:"
-    print decrypt
+    print("\nThese are the top 10 possibilities ranked by likelihood with the chi-squared function:")
+    print(decrypt)
 }}}
 
 
