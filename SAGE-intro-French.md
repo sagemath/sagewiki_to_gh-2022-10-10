@@ -31,9 +31,9 @@ Les buts à long terme principaux et les principes de base de Sage :
 
 Télécharger Sage, un guide d'installation et un tutoriel, sur sa page Web 
 
-http://sagemath.org/. 
+https://www.sagemath.org/
 
-Bien que Sage emploie Python et PARI et d'autres paquets, il n'est pas nécessaire d'avoir ces logiciels pré-installés sur l'ordinateur. L'installation de Sage est vraiment conçue pour être relativement facile, mais s'il y a des problèmes, demandez (la page Web a des liens aux listes de diffusion pour le support de Sage). Il y a des instructions d'installation ici : http://www.sagemath.org/doc/installation/index.html. Par ailleurs, si Sage est installée une fois, l'évolution vers une nouvelle version est particulièrement facile avec l'option {{{sage -upgrade}}} de « mise à niveau » (ceci est décrit sur le site Web donné ci-dessus et suppose un raccordement à Internet). 
+Bien que Sage emploie Python et PARI et d'autres paquets, il n'est pas nécessaire d'avoir ces logiciels pré-installés sur l'ordinateur. L'installation de Sage est vraiment conçue pour être relativement facile, mais s'il y a des problèmes, demandez (la page Web a des liens aux listes de diffusion pour le support de Sage). Il y a des instructions d'installation ici : https://www.sagemath.org/doc/installation/index.html. Par ailleurs, si Sage est installée une fois, l'évolution vers une nouvelle version est particulièrement facile avec l'option {{{sage -upgrade}}} de « mise à niveau » (ceci est décrit sur le site Web donné ci-dessus et suppose un raccordement à Internet). 
 
 Une fois que Sage est installé dans un répertoire tel que "sage-x.y.z", entrez dans ce répertoire en utilisant un terminal et tapez au clavier la commande "./sage" pour lancer Sage. Le message d'invite « sage: » s'affiche dans le terminal. Vous pouvez alors utiliser Sage. Une autre manière est de taper ensuite la commande « notebook() » qui 
 
@@ -45,16 +45,12 @@ Au message d'invite "sage:", tapez « factor(100) » (puis Entrée). Pour quitte
 
 Il y a d'autres d'exemples, dans les tutoriels et les manuels de référence, disponibles sur la page Web de Sage. Allez-les voir !
 
-Un petit résumé en une page des commandes de base est disponible [[http://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=sage-quickref_fr.pdf|ici]] 
+Un petit résumé en une page des commandes de base est disponible [[https://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=sage-quickref_fr.pdf|ici]] 
 
 
 Sage est toujours en développement actif, mais est déjà parfaitement utilisable. Il y a un forum de discussion, un traqueur de bugs et une liste de souhaits. Visitez
 
-http://sagemath.org/
-
-ou 
-
-http://echidna.maths.usyd.edu.au/sage/ 
+https://www.sagemath.org/
 
 pour plus d'information. Surtout, amusez-vous avec Sage !
 
