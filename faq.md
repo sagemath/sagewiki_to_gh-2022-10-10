@@ -7,7 +7,7 @@
 
 === What is Sage? ===
 
-Sage is a comprehensive open-source mathematics software suite that has the mission statement "Creating a viable free open source alternative to Magma, Maple, Mathematica, and Matlab."  See http://www.sagemath.org/ for more details.
+Sage is a comprehensive open-source mathematics software suite that has the mission statement "Creating a viable free open source alternative to Magma, Maple, Mathematica, and Matlab."  See https://www.sagemath.org/ for more details.
 
 
 === Does it run on my computer? ===
@@ -25,17 +25,17 @@ Yes!  Go to https://cloud.sagemath.com/ and set up a free account.  If you log i
 
 === How do I get a Sage program I can run immediately? ===
 
-Go to http://www.sagemath.org/download.html and click on the link for the binary for your operating system.
+Go to https://www.sagemath.org/download.html and click on the link for the binary for your operating system.
 
 
 === How do I get the Sage source code? ===
 
-Go to http://www.sagemath.org/download-source.html to download the tar archive for any release of Sage.
+Go to https://www.sagemath.org/download-source.html to download the tar archive for any release of Sage.
 
 
 === How do I get a previous release of Sage? ===
 
-Go to http://www.sagemath.org/src-old to download the tar archive for any release of Sage.
+Go to https://www.sagemath.org/src-old to download the tar archive for any release of Sage.
 
 
 == Installing and running Sage ==
@@ -194,13 +194,13 @@ IOError: [Errno 13] Permission denied: '/usr/local/sage-4.0.2/local/lib/sage-fla
 it probably means that you compiled/installed sage as one user, but haven't run it to let it
 generate the `sage-flags.txt` file. Just run `sage` one time as whatever user installed it, and 
 this problem should go away. This would also be easy to fix by having sage run once as part of
-the install process; see [[http://trac.sagemath.org/sage_trac/ticket/6375|trac #6375]] for 
+the install process; see [[https://trac.sagemath.org/sage_trac/ticket/6375|trac #6375]] for 
 this fix.
 
 
 === I used Debian/Ubuntu to install Sage 3.0.5 and that version is giving lots of errors. What can I do? ===
 
-The version of Sage, i.e. Sage version 3.0.5, that's available through apt-get in Debian and Ubuntu is very old. No-one has yet found time to update the Debian/Ubuntu version of Sage. Help wanted! You should download the latest version of Sage from the [[http://www.sagemath.org/download.html|download page]]. If you would like to help with updating the Debian/Ubuntu version of Sage, please email the [[http://groups.google.com/group/sage-devel|sage-devel]] mailing list.
+The version of Sage, i.e. Sage version 3.0.5, that's available through apt-get in Debian and Ubuntu is very old. No-one has yet found time to update the Debian/Ubuntu version of Sage. Help wanted! You should download the latest version of Sage from the [[https://www.sagemath.org/download.html|download page]]. If you would like to help with updating the Debian/Ubuntu version of Sage, please email the [[https://groups.google.com/group/sage-devel|sage-devel]] mailing list.
 
 === Can I see a calculation step-by-step? ===
 
@@ -228,7 +228,7 @@ Note that there is an apparent bug in GNU make, so that you cannot leave a space
 === What exactly does Sage do when I type 0.6**2? ===
 
  * QUESTION: When I type 0.6**2 in Python, it returns 0.35999999999999999.  When I do the same in Sage it returns 0.360000000000000.  Why?
- * ANSWER: See [[http://docs.python.org/tutorial/floatingpoint.html|the Python tutorial]] to understand why Python does what it does.    What Sage does is "preparse" the input and transforms it like this:
+ * ANSWER: See [[https://docs.python.org/tutorial/floatingpoint.html|the Python tutorial]] to understand why Python does what it does.    What Sage does is "preparse" the input and transforms it like this:
 {{{
 sage: preparse('0.6**2')
 "RealNumber('0.6')**Integer(2)"
@@ -266,7 +266,7 @@ sage: b*s*s
 [b*a*b + b^2*a   b*a^2 + b^3]
 }}}
 
-For matrices in particular, see [[http://groups.google.com/group/sage-devel/browse_thread/thread/cafb486c79a2eb3c/d0bb78d09a4fb52a]]
+For matrices in particular, see [[https://groups.google.com/group/sage-devel/browse_thread/thread/cafb486c79a2eb3c/d0bb78d09a4fb52a]]
 
 === How do I save an object so I don't have to compute it each time I open a worksheet? ===
 
@@ -278,17 +278,17 @@ The {{{save}}} and {{{load}}} commands will save and load an object, respectivel
 
 === How do I get help? ===
 
-There is a website for asking help: http://ask.sagemath.org.
+There is a website for asking help: https://ask.sagemath.org.
 
 Sage has two very active email lists: 
 
-* For developers of sage: http://groups.google.com/group/sage-devel
+* For developers of sage: https://groups.google.com/group/sage-devel
 
-* For users of sage: http://groups.google.com/group/sage-support.
+* For users of sage: https://groups.google.com/group/sage-support.
 
 There are also two very active IRC channels: #sage-devel and #sage-support on freenode.
 
-Many developers also actively blog and also post other Sage-related tutorials and talks.  See http://www.sagemath.org/help.html for a listing of these resources.
+Many developers also actively blog and also post other Sage-related tutorials and talks.  See https://www.sagemath.org/help.html for a listing of these resources.
 
 == Other questions ==
 
@@ -356,7 +356,7 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
  * ANSWER: The most likely cause is enabled power management. Disabling it should fix the problem. Depending on your flavor of distribution, this might either be possible with some nice GUI tool or not. On the command line do the following as {{{root}}} for each CPU you have: {{{/usr/bin/cpufreq-selector -g performance -c #number CPU}}}. On Ubuntu try disabling "Power Manager" via "System --> Preferences --> Sessions" under the "Startup Programs" or using {{{cpufreq-set}}} via command line.
 ----------
  * QUESTION: Sage fails with the error message {{{restore segment prot after reloc: Permission denied}}}. What is wrong?
- * ANSWER: The problem is related to SELinux: http://www.ittvis.com/services/techtip.asp?ttid=3092. We are currently tracking this issue at http://trac.sagemath.org/sage_trac/ticket/480.
+ * ANSWER: The problem is related to SELinux: http://www.ittvis.com/services/techtip.asp?ttid=3092. We are currently tracking this issue at https://trac.sagemath.org/sage_trac/ticket/480.
 ----------
  * QUESTION: When I start Sage, SELinux complains that '/path/to/libpari-gmp.so.2' requires text-relocation.  How can I fix it?
  * ANSWER: The problem can be fixed by running the following command "chcon -t textrel_shlib_t /path/to/libpari-gmp.so.2"
@@ -365,10 +365,10 @@ python(4563) malloc: *** set a breakpoint in szone_error to debug
  * ANSWER: You can type {{{sage: banner()}}} to see the real version. You have to to type {{{make build}}} to re-build sage and get the correct banner.
 ----------
  * QUESTION: How do I run sage in daemon mode, i.e. as a service?
- * ANSWER: We currently do not have a ready-to-go solution. There are several possibilities: Use screen, nohup or disown. We are tracking the issue at http://trac.sagemath.org/sage_trac/ticket/381 - so stay tuned.
+ * ANSWER: We currently do not have a ready-to-go solution. There are several possibilities: Use screen, nohup or disown. We are tracking the issue at https://trac.sagemath.org/sage_trac/ticket/381 - so stay tuned.
 ----------
  * QUESTION: I just downloaded version 2.8.15 for Mac OSX and tried to run notebook() and dyld is unable to load libintl.3.dylib.  I don't have a libintl.3.dylib in {{{usr/local/lib}}} and I didn't find it in {{{$SAGE_ROOT/local/lib}}}. Is there a workaround?
- * ANSWER:  Yes, put the libintl3.dylib from http://sagemath.org/SAGEbin/apple_osx/intel/10.4-extra_files/ {{{in SAGE_ROOT/local/lib/}}}. Sage 2.8.15 and later contain a copy of the library, so please let us know if you experience the problem with any later release.
+ * ANSWER:  Yes, put the libintl3.dylib from https://www.sagemath.org/SAGEbin/apple_osx/intel/10.4-extra_files/ {{{in SAGE_ROOT/local/lib/}}}. Sage 2.8.15 and later contain a copy of the library, so please let us know if you experience the problem with any later release.
 ----------
  * QUESTION: I am using Mac OSX. Where do I put the jsMath "font" directory to eliminate the red box?
  * ANSWER: See http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html where it says "For Mac OS X users: download and unpack the archive, then drag the fonts to your Library/Fonts folder (or to the FontBook, or just double-click them and press the "install" button).".
@@ -491,5 +491,5 @@ release manager :)
  * ANSWER: Most likely resource issue.
  * QUESTION: Notebook doesn't work
  * ANSWER: networking issues, firewall blocking, proxy setting screwed up
- * Individual FAQ entries should be referable by a URL, possibly http://wiki.sagemath.org/faq?someid=something
- * You can do that with page anchors: http://wiki.sagemath.org/faq?#something. Moin``Moin [[http://moinmo.in/HelpOnLinking|can insert page anchors]] but it doesn't seem like that facility is turned on for this installation. If we could get that enabled, we could insert anchors for all the questions on this page.
+ * Individual FAQ entries should be referable by a URL, possibly https://wiki.sagemath.org/faq?someid=something
+ * You can do that with page anchors: https://wiki.sagemath.org/faq?#something. Moin``Moin [[http://moinmo.in/HelpOnLinking|can insert page anchors]] but it doesn't seem like that facility is turned on for this installation. If we could get that enabled, we could insert anchors for all the questions on this page.
