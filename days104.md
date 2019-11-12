@@ -61,27 +61,27 @@ The workshop will consist of tutorials and talks in the mornings and working gro
    * 10:00-11:00am - Talk: Dynamical Systems in Sage - Hutz
    * Lunch break
    * 1:30pm-2:30pm - Open problem discussion to establish workshop goals
-   * 3:00-4:00pm Tutorial on contributing to Sage I
-   * 5:00pm Full group status update on daily progress
+   * 2:45-3:45pm Tutorial on contributing to Sage I
+   * 4:45pm Full group status update on daily progress
  * Monday November 18, 2019
    * 9:30am-10:30am - Talk: TBD
    * Break
    * 11:00am-12:00 - Tutorial on contributing to Sage II
    * Lunch break
    * Coding sprints
-   * 5:00pm Full group status update on daily progress
+   * 4:45pm Full group status update on daily progress
  * Tuesday November 19, 2019
    * 9:30am-10:30am - Talk: TBD
    * Coding sprints
    * Lunch break
    * Coding sprints
-   * 5:00pm - Full group status update on daily progress
+   * 4:45pm - Full group status update on daily progress
  * Wednesady November 20, 2019
    * 9:30am-10:30am - Talk: TBD
    * Coding sprints
    * Lunch break
    * Coding sprints
-   * 5:00pm - Final status update
+   * 4:45pm - Final status update
 
 == Preworkshop Preparation ==
 
