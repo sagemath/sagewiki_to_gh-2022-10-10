@@ -1,6 +1,5 @@
 ## page was renamed from thursdays_bordeaux
-= Les jeudi sages à Bordeaux =
-= (autour de Sage, PARI/GP, et plus) =
+= Les jeudi sages à Bordeaux (autour de Sage, PARI/GP, et plus) =
 
 ''les jeudis 10h à 12h en salle 74 VISIO du LaBRI.''
 
