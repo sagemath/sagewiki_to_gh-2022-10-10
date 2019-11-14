@@ -1,3 +1,4 @@
+## page was renamed from sage-4.0.1
 = Sage 4.0.1 Release Tour =
 
 Sage 4.0.1 was released on June 06, 2009. For the official, comprehensive release note, please refer to [[http://www.sagemath.org/src/announce/sage-4.0.1.txt|sage-4.0.1.txt]]. A nicely formatted version of this release tour can be found at [[http://mvngu.wordpress.com/2009/06/10/sage-4-0-1-released|Wordpress]]. The following points are some of the foci of this release:
@@ -76,18 +77,18 @@ sage: timeit("R.lagrange_polynomial([(a^2+a,a),(a,1),(a^2,a^2+a+1)])")
 625 loops, best of 3: 229 µs per loop
 sage:
 sage: R = PolynomialRing(QQ, 'x')
-sage: points = [(random(), random()) for i in xrange(100)]
+sage: points = [(random(), random()) for i in range(100)]
 sage: time R.lagrange_polynomial(points);
 CPU times: user 1.21 s, sys: 0.00 s, total: 1.21 s
 Wall time: 1.21 s
 sage: # add three more points
-sage: for i in xrange(3): points.append((random(), random()))
+sage: for i in range(3): points.append((random(), random()))
 ....: 
 sage: time R.lagrange_polynomial(points);
 CPU times: user 1.28 s, sys: 0.01 s, total: 1.29 s
 Wall time: 1.29 s
 sage: # add another 100 points
-sage: for i in xrange(100): points.append((random(), random()))
+sage: for i in range(100): points.append((random(), random()))
 ....: 
 sage: time R.lagrange_polynomial(points);
 CPU times: user 5.87 s, sys: 0.02 s, total: 5.89 s
@@ -131,14 +132,14 @@ CPU times: user 1.26 s, sys: 0.00 s, total: 1.26 s
 Wall time: 1.26 s
 sage: p = R.lagrange_polynomial(points, neville=True);
 sage: # add three more points
-sage: for i in xrange(3): points.append((random(), random()))
+sage: for i in range(3): points.append((random(), random()))
 ....: 
 sage: time R.lagrange_polynomial(points, neville=True, previous_row=p);
 CPU times: user 0.09 s, sys: 0.00 s, total: 0.09 s
 Wall time: 0.08 s
 sage: p = R.lagrange_polynomial(points, neville=True, previous_row=p)
 sage: # add another 100 points
-sage: for i in xrange(100): points.append((random(), random()))
+sage: for i in range(100): points.append((random(), random()))
 ....: 
 sage: time R.lagrange_polynomial(points, neville=True, previous_row=p);
 CPU times: user 4.62 s, sys: 0.00 s, total: 4.62 s
@@ -162,7 +163,7 @@ sage: m = 33
 sage: %timeit n.exact_log(m)
 10000 loops, best of 3: 29.6 µs per loop
 sage: def zlog(m, n, k):
-....:     for i in xrange(0, m/1000):
+....:     for i in range(0, m/1000):
 ....:         a = ZZ.random_element(n) + 2
 ....:         b = ZZ.random_element(k)
 ....:         c = a^b
@@ -188,7 +189,7 @@ sage: m = 33
 sage: %timeit n.exact_log(m)
 1000000 loops, best of 3: 526 ns per loop
 sage: def zlog(m, n, k):
-....:     for i in xrange(0, m/1000):
+....:     for i in range(0, m/1000):
 ....:         a = ZZ.random_element(n) + 2
 ....:         b = ZZ.random_element(k)
 ....:         c = a^b
@@ -363,7 +364,7 @@ Wall time: 2.08 s
 sage: G = SymmetricGroup(7)
 sage: g = G._gap_()
 sage: l = g.Elements()
-sage: time L = [gap.eval(l.name() + '[%d]^2' % (i)) for i in xrange(1, 7.factorial() + 1)]
+sage: time L = [gap.eval(l.name() + '[%d]^2' % (i)) for i in range(1, 7.factorial() + 1)]
 CPU times: user 1.07 s, sys: 0.22 s, total: 1.29 s
 Wall time: 1.31 s
  }}}
