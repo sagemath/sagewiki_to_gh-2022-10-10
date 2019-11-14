@@ -49,7 +49,7 @@ Discussion sur le passage à Python 3. Voir ce [[https://www.artima.com/weblogs/
 
 Présents: Sébastien, Casey, Jennifer, Sebastian, Pascal, Julien Leroy
 
-Pascal nous a présenté son [[https://www.labri.fr/perso/weil/software/|message]]
+Pascal nous a présenté son [[https://www.labri.fr/perso/weil/software/|package stallings_graphs]]
 
 ==== 31 octobre au 3 novembre 2019 ====
 
