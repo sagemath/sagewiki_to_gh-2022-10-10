@@ -8,6 +8,13 @@ Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|La
 
 Pour être tenu informé vous pouvez vous abonner à la [[https://diff.u-bordeaux.fr/sympa/info/sage-bordeaux|liste de diffusion]].
 
+== Débutants ==
+
+- Pour apprendre Python, on recommande la lecture de [[http://openbookproject.net/thinkcs/python/english3e/|How to Think Like a Computer Scientist]]
+- Pour apprendre SageMath, on recommande la lecture de [[http://sagebook.gforge.inria.fr/|Calcul mathématique avec Sage]] (aussi traduit en anglais et allemand) et bien sûr de participer aux séances SageMath
+
+== Développeurs ==
+
 Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~thursdaysbdx&col=id&col=summary&col=status&col=time&col=changetime&col=author&col=reviewer&desc=1&order=status|thursdaysbdx]]
 
 == Idées et Projets en cours ==
