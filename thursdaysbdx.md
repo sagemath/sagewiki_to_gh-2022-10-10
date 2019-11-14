@@ -43,13 +43,13 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 Présents: Sébastien, Jennifer, Pascal
  
-Discussion sur le passage à Python 3. Voir ce [[message|https://www.artima.com/weblogs/viewpost.jsp?thread=98196]] de mars 2005 de Guido van Rossum au sujet de map, filter, lambda, reduce.
+Discussion sur le passage à Python 3. Voir ce [[https://www.artima.com/weblogs/viewpost.jsp?thread=98196|message]] de mars 2005 de Guido van Rossum au sujet de map, filter, lambda, reduce.
 
 ==== jeudi 7 nov 2019 ====
 
 Présents: Sébastien, Casey, Jennifer, Sebastian, Pascal, Julien Leroy
 
-Pascal nous a présenté son package https://www.labri.fr/perso/weil/software/
+Pascal nous a présenté son [[https://www.labri.fr/perso/weil/software/|message]]
 
 ==== 31 octobre au 3 novembre 2019 ====
 
