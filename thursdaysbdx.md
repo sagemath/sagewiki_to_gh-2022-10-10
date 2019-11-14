@@ -51,7 +51,7 @@ Présents: Sébastien, Jennifer, Pascal
  
 Passage à Python 3: voir ce [[https://www.artima.com/weblogs/viewpost.jsp?thread=98196|message]] de mars 2005 de Guido van Rossum au sujet de map, filter, lambda, reduce.
 
-Le nouveau comportement du hash en Python 3 est expliqué ci-bas:
+Sébastien corrige les problèmes associé à la méthode hash dans son package slabbe. En effet, le nouveau comportement de hash en Python 3 est expliqué ci-bas:
 
 {{{
 fichier.py content:
