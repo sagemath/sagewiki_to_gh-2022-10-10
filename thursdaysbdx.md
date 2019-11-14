@@ -39,6 +39,18 @@ Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs
 
 == Compte-rendus ==
 
+==== jeudi 14 nov 2019 ====
+
+Présents: Sébastien, Jennifer, Pascal
+ 
+Discussion sur le passage à Python 3. Voir ce [[message|https://www.artima.com/weblogs/viewpost.jsp?thread=98196]] de mars 2005 de Guido van Rossum au sujet de map, filter, lambda, reduce.
+
+==== jeudi 7 nov 2019 ====
+
+Présents: Sébastien, Casey, Jennifer, Sebastian, Pascal, Julien Leroy
+
+Pascal nous a présenté son package https://www.labri.fr/perso/weil/software/
+
 ==== 31 octobre au 3 novembre 2019 ====
 
 Conférence PyCON à Bordeaux: https://www.pycon.fr/2019/
