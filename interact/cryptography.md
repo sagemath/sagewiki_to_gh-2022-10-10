@@ -128,13 +128,11 @@ left_over_letters=[0] +[let for let in ascii_uppercase]
 def _(A =selector(left_over_letters, default=0)):
     if A!=0:
         left_over_letters.remove(A)
- #       print left_over_letters
     
         @interact
         def _(B =selector(left_over_letters, default=0)):
             if B!=0:
                 left_over_letters.remove(B)
- #               print left_over_letters
         
                 @interact
                 def _(C =selector(left_over_letters, default=0)):
@@ -267,7 +265,7 @@ def _(A =selector(left_over_letters, default=0)):
                                                                                                                                                                                                                     e = Es(Key)
                                                                                                                                                                                                                     TEXT0=text
                                                                                                                                                                                                                     TEXT=alphabet.encoding(TEXT0)
-                                                                                                                                                                                                                    print "Ciphertext:", e(TEXT)
+                                                                                                                                                                                                                    print("Ciphertext:", e(TEXT))
 }}}
 
 == Playfair Cipher ==
@@ -361,11 +359,11 @@ pretty_print(html("<h>Enter your message and the key to construct you polybius s
 def _(Message=input_box(default='"message"', label="Message:"),Key=input_box(default='"key"', label="Key:"),showmatrix=checkbox(True, label='Show polybius square:')):
     
     if showmatrix:
-        poly=makePF(Key)
+        poly = makePF(Key)
         for i in range(5):
             print(poly[i])
     
-    print '\nCiphertext:',playfair(Message,Key)
+    print('\nCiphertext:', playfair(Message, Key))
 }}}
 
 === Playfair Decryption ===
@@ -546,11 +544,11 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
     for i in range(0, len(L1)):
         translator.update({str(L1[i][0]):alphafreq[i]})
         answer=""
-    print "\nThe suggested substitutions, based on letter frequency are:"
-    print translator
+    print("\nThe suggested substitutions, based on letter frequency are:")
+    print(translator)
     for char in englishText:
-        answer+= translator[str(char)]
-    print "\nThe suggested translation is:\n", answer
+        answer += translator[str(char)]
+    print("\nThe suggested translation is:\n", answer)
 }}}
 
 == Vigenère Cipher ==
@@ -575,8 +573,8 @@ def vigenere_cipher(message = input_box(default ='"secrets hi"',label="Message:"
     code_word2 = A.encoding(code_word) 
     system = VigenereCryptosystem(A,len(code_word2)) 
     ciphertext = system.enciphering(code_word2,message2) 
-    print "Enciphered message:"
-    print ciphertext
+    print("Enciphered message:")
+    print(ciphertext)
 }}}
 
 === Vigenère Cipher Decryption ===
@@ -596,8 +594,8 @@ def vigenere_cipher(message = input_box(default ='"UEVTEMUHB"',label = "Message:
     code_word2 = A.encoding(code_word) 
     system = VigenereCryptosystem(A,len(code_word2)) 
     ciphertext = system.deciphering(code_word2,message2) 
-    print "Deciphered message:"
-    print ciphertext
+    print("Deciphered message:")
+    print(ciphertext)
 }}}
 
 
@@ -633,11 +631,11 @@ def one_time_pad(plain_text = input_box('"message"',label="Message:")):
     letter_cipher_text=""
     for i in cipher_text:
         letter_cipher_text += (chr(i+97))
-    print "Your one-time pad is:"
-    print one_time_pad
-    print ""
-    print "Your encrypted message is:"
-    print letter_cipher_text
+    print("Your one-time pad is:")
+    print(one_time_pad)
+    print("")
+    print("Your encrypted message is:")
+    print(letter_cipher_text)
 }}}
 
 == Hill Cipher ==
@@ -655,8 +653,8 @@ pretty_print(html("<h1>Hill Cipher Encryptor</h1>"))
 pretty_print(html("<h>Please select the size of your key:<h>"))
 @interact
 def hill_cipher(Size=['2','3','4']):
-    if Size=='2':
-        print "Please input your message (in quotes) and numbers for your key:"
+    if Size == '2':
+        print("Please input your message (in quotes) and numbers for your key:")
         @interact
         def two_matrix(message=input_box(default='"Alexis smells"',label = "Message:"), a=input_box(default=1), b=input_box(default=3), c=input_box(default=3), d=input_box(default=4)):
             S = AlphabeticStrings()
@@ -664,11 +662,11 @@ def hill_cipher(Size=['2','3','4']):
             R = IntegerModRing(26)
             M = MatrixSpace(R,Size,Size)
             A = M([[a,b],[c,d]])
-            print "This is your key:"
-            print A
+            print("This is your key:")
+            print(A)
             invertible = A.is_invertible()
-            if invertible==false:
-                print "WARNING! You will not be able to decrypt this message because your matrix is not invertible."
+            if not invertible:
+                print("WARNING! You will not be able to decrypt this message because your matrix is not invertible.")
             e = E(A)
             newmessage = ""
             for char in message:
@@ -677,8 +675,8 @@ def hill_cipher(Size=['2','3','4']):
             if len(newmessage) % 2 == 1:
                 newmessage+="z"
             message=E.encoding(newmessage)
-            print "This is your encrypted message:"
-            print e(S(message))
+            print("This is your encrypted message:")
+            print(e(S(message)))
     if Size=='3':
         pretty_print(html("<h>Please input your message (in quotes) and the numbers in your square matrix key:<h>"))
         @interact
@@ -688,11 +686,11 @@ def hill_cipher(Size=['2','3','4']):
             R = IntegerModRing(26)
             M = MatrixSpace(R,3,3)
             A = M([[a,b,c],[d,e,f],[g,h,i]])
-            print "This is your key:"
-            print A
+            print("This is your key:")
+            print(A)
             invertible = A.is_invertible()
-            if invertible==false:
-                print "WARNING! You will not be able to decrypt this message because your matrix is not invertible."
+            if not invertible:
+                print("WARNING! You will not be able to decrypt this message because your matrix is not invertible.")
             e = E(A)
             newmessage = ""
             for char in message:
@@ -703,9 +701,9 @@ def hill_cipher(Size=['2','3','4']):
             elif len(newmessage) % 3 == 1:
                 newmessage+="zz"
             message=E.encoding(newmessage)
-            print "This is your encrypted message:"
-            print e(S(message))
-    if Size=='4':
+            print("This is your encrypted message:")
+            print(e(S(message)))
+    if Size == '4':
         pretty_print(html("<h>Please input your message (in quotes) and the numbers in your square matrix key:<h>"))
         @interact
         def four_matrix(message=input_box(default='"Alexis smells"',label="Message:"), a=input_box(default=17), b=input_box(default=8), c=input_box(default=7), d=input_box(default=10), e=input_box(default=0), f=input_box(default=17), g=input_box(default=5), h=input_box(default=8), i=input_box(default=18), j=input_box(default=12), k=input_box(default=6), l=input_box(default=17), m=input_box(default=0), n=input_box(default=15), o=input_box(default=0), p=input_box(default=17)):
@@ -714,11 +712,11 @@ def hill_cipher(Size=['2','3','4']):
             R = IntegerModRing(26)
             M = MatrixSpace(R,4,4)
             A = M([[a,b,c,d],[e,f,g,h],[i,j,k,l],[m,n,o,p]])
-            print "This is your key:"
-            print A
+            print("This is your key:")
+            print(A)
             invertible = A.is_invertible()
-            if invertible==false:
-                print "WARNING! You will not be able to decrypt this message because your matrix is not invertible."
+            if not invertible:
+                print("WARNING! You will not be able to decrypt this message because your matrix is not invertible.")
             e = E(A)
             newmessage = ""
             for char in message:
@@ -731,8 +729,8 @@ def hill_cipher(Size=['2','3','4']):
             elif len(newmessage) % 4 == 1:
                 newmessage+="zzz"
             message=E.encoding(newmessage)
-            print "This is your encrypted message:"
-            print e(S(message))
+            print("This is your encrypted message:")
+            print(e(S(message)))
 }}}
 
 
@@ -751,14 +749,14 @@ pretty_print(html("<h>Please select the size of your key:<h>"))
 @interact
 def decrypt_hill(size=['2','3','4']):
     if size=='2':
-        print "Please input your encrypted message and your key:"
+        print("Please input your encrypted message and your key:")
         @interact
         def two_decrypt(coded_text=input_box(default='"HSVAKSCYLENB"',label="Message:"), a=input_box(default=1), b=input_box(default=3), c=input_box(default=3), d=input_box(default=4)):
             R = IntegerModRing(26)
             M = MatrixSpace(R,2,2)
             a = M([[a,b],[c,d]])
-            print "The key:"
-            print a
+            print("The key:")
+            print(a)
             message = []
             for char in coded_text:
                 if char.isalpha():
@@ -778,8 +776,8 @@ def decrypt_hill(size=['2','3','4']):
             for i in range(len(new_text)):
                 new_text[i]=Integer(new_text[i])
                 final_text += chr(97+new_text[i])
-            print "The decrypted text:"
-            print final_text
+            print("The decrypted text:")
+            print(final_text)
     if size=='3':
         pretty_print(html("<h>Please input your encrypted message and your key:<h>"))
         @interact
@@ -787,8 +785,8 @@ def decrypt_hill(size=['2','3','4']):
             R = IntegerModRing(26)
             M = MatrixSpace(R,3,3)
             a = M([[a,b,c],[d,e,f],[g,h,i]])
-            print "The key:"
-            print a
+            print("The key:")
+            print(a)
             message = []
             for char in coded_text:
                 if char.isalpha():
@@ -808,8 +806,8 @@ def decrypt_hill(size=['2','3','4']):
             for i in range(len(new_text)):
                 new_text[i]=Integer(new_text[i])
                 final_text += chr(97+new_text[i])
-            print "The decrypted text:"
-            print final_text
+            print("The decrypted text:")
+            print(final_text)
     if size=='4':
             pretty_print(html("<h>Please input your encrypted message (In quotes) and your key:<h>"))
             @interact
@@ -817,8 +815,8 @@ def decrypt_hill(size=['2','3','4']):
                 R = IntegerModRing(26)
                 M = MatrixSpace(R,4,4)
                 a = M([[a,b,c,d],[e,f,g,h],[i,j,k,l],[m,n,o,p]])
-                print "The key:"
-                print a
+                print("The key:")
+                print(a)
                 message = []
                 for char in coded_text:
                     if char.isalpha():
@@ -838,8 +836,8 @@ def decrypt_hill(size=['2','3','4']):
                 for i in range(len(new_text)):
                     new_text[i]=Integer(new_text[i])
                     final_text += chr(97+new_text[i])
-                print "The decrypted text:"
-                print final_text
+                print("The decrypted text:")
+                print(final_text)
 }}}
 
 
@@ -862,7 +860,7 @@ pretty_print(html("<h>This tool creates a multiplication table modulo 𝑛.<h>")
 def modular_multiplication_tables(n = input_box(default = 7, width = 25)):
     R = IntegerModRing(n)
     rows = [['*']+[str(r) for r in R]]+[[i]+[i*r for r in R] for i in R]
-    print table(rows, frame=True)
+    print(table(rows, frame=True))
 }}}
 
 
@@ -908,8 +906,8 @@ pretty_print(html("<h>This will evaluate x=a^b (mod m). Choose your base (a), ex
 @interact
 def DLP_solve(a=input_box(default=5),b=input_box(default=25),m=input_box(default=47)):
     if (not a in ZZ) or (not b in ZZ) or (not m in ZZ) or (a<=0) or (b<=0) or (m<=0):
-        print "*********** ERROR: a,b,m should all be positive integers. ***********"
-        print
+        print("*********** ERROR: a,b,m should all be positive integers. ***********")
+        print()
     else:
         a=Integer(a)
         b=Integer(b)
@@ -925,7 +923,7 @@ def DLP_solve(a=input_box(default=5),b=input_box(default=25),m=input_box(default
         for i in range(L):
             pow=L-i-1
             S+=[(2^pow)]
-            print "Step",i+1,":",str(a)+"^"+str(2^i),"=",ans,"=",ans_num,"mod",m
+            print("Step",i+1,":",str(a)+"^"+str(2^i),"=",ans,"=",ans_num,"mod",m)
             ans=str(ans_num)+"^"+str(2)
             ans_num= (ans_num)^2%m
             if C[pow]=="1":
@@ -947,11 +945,11 @@ def DLP_solve(a=input_box(default=5),b=input_box(default=25),m=input_box(default
         STR_eval += "("+str(a^(T[0])%47)+")"
         STR_eval_num = STR_eval_num*(a^(T[0])%47)
         STR_eval_num = STR_eval_num%47
-        print "Step",L+1,":",str(a)+"^"+str(b),"=",STR,"=",STR_eval,"=",STR_eval_num,"mod",m
-        print
-        print "  Since, as a sum of powers of 2,",str(b)+" is "+expansion+"."
-        print
-        print "CONCLUSION: "+str(STR_eval_num)+" = "+str(a)+"^"+str(b)+" mod",m,". It takes",L+1,"steps to calculate x with this method."
+        print("Step",L+1,":",str(a)+"^"+str(b),"=",STR,"=",STR_eval,"=",STR_eval_num,"mod",m)
+        print()
+        print("  Since, as a sum of powers of 2,",str(b)+" is "+expansion+".")
+        print()
+        print("CONCLUSION: "+str(STR_eval_num)+" = "+str(a)+"^"+str(b)+" mod",m,". It takes",L+1,"steps to calculate x with this method.")
 
 }}}
 
@@ -1000,41 +998,41 @@ Babette sent Alice an encrypted message. You, as Alice, will provide information
 {{{#!sagecell
 #Last edited 8/9/19 at 1:53pm
 pretty_print(html("<h1>RSA, From Alice's Perspective</h1>"))
-print "Hi, Alice! Let's set up RSA together."
-print ""
-print "1. Input two PRIVATE distinct primes, p and q, that are each greater than 10."
-print "   The size of the primes depends on the size of Babette's message. Her message requires p,q > 10. A longer and stronger encrypted" 
-print "   message requires larger primes."
-print ""
-print "2. Input a PUBLIC integer, e, which needs to be relatively prime to the the Euler phi function of the product pq, φ(pq)."
-print "   If e is not relatively prime to φ(pq), then we can not decrypt the message."
+print("Hi, Alice! Let's set up RSA together.")
+print("")
+print("1. Input two PRIVATE distinct primes, p and q, that are each greater than 10.")
+print("   The size of the primes depends on the size of Babette's message. Her message requires p,q > 10. A longer and stronger encrypted" )
+print("   message requires larger primes.")
+print("")
+print("2. Input a PUBLIC integer, e, which needs to be relatively prime to the the Euler phi function of the product pq, φ(pq).")
+print("   If e is not relatively prime to φ(pq), then we can not decrypt the message.")
 @interact
 def rsa(p = input_box(default = 11,label = "p: "), q = input_box(default = 23,label = "q: "),e = input_box(default = 7,label = "e:")):
     p = ZZ(p)
     q = ZZ(q)
     e = ZZ(e)
     if p == q:
-        print "*********** Make sure p and q are different.***********"
+        print("*********** Make sure p and q are different.***********")
     if p < 10:
-        print "*********** Make p larger. ***********"
+        print("*********** Make p larger. ***********")
     if q < 10:
-        print "*********** Make q larger. ***********"
+        print("*********** Make q larger. ***********")
     if not p.is_prime():
-        print "*********** p needs to be prime. ***********"
+        print("*********** p needs to be prime. ***********")
     if not q.is_prime():
-        print "*********** q needs to be prime. ***********"
+        print("*********** q needs to be prime. ***********")
     phi = (p-1)*(q-1)
     if not gcd(e,phi) == 1:
-        print "*********** e must be relatively prime to φ(pq) - see factorization below. ***********"
-    print ""
-    print "φ(pq) = ",phi.factor()
-    print ""
+        print("*********** e must be relatively prime to φ(pq) - see factorization below. ***********")
+    print("")
+    print("φ(pq) = ", phi.factor())
+    print("")
     N = p*q
     R = IntegerModRing(phi)
     d = (e^(R(e).multiplicative_order()-1)).mod(phi)
-    print "Alice's PUBLIC key is: N =",N,", e =",e," where N = pq and the factorization of N is kept secret."
-    print ""
-    print "Alice's PRIVATE key is: p =",p,", q = ",q,", d = ",d,", where the decryption key d is the inverse of e modulo φ(N), i.e., de = 1 (mod N)."
+    print("Alice's PUBLIC key is: N =",N,", e =",e," where N = pq and the factorization of N is kept secret.")
+    print("")
+    print("Alice's PRIVATE key is: p =",p,", q = ",q,", d = ",d,", where the decryption key d is the inverse of e modulo φ(N), i.e., de = 1 (mod N).")
     secret_message_from_babette = "Hi Dr. Strange!"
     ascii_secret = []
     for char in secret_message_from_babette:
@@ -1045,27 +1043,27 @@ def rsa(p = input_box(default = 11,label = "p: "), q = input_box(default = 23,la
     decrypted_ascii = []
     for ascii in encrypted_ascii:
         decrypted_ascii.append(power_mod(ascii,d,N))
-    print ""
-    print "3. Babette took her plaintext message and converted into integers using ASCII. Then she encrypted it by raising each integer to the e-th power modulo N and sent the result to Alice:"
-    print ""
-    print "   ", encrypted_ascii
-    print ""
-    print "4. To decrypt, we raise each integer of the lisy above to the d =",d,", modulo N =",N,":"
-    print ""
-    print "   ",decrypted_ascii
-    print ""
+    print("")
+    print("3. Babette took her plaintext message and converted into integers using ASCII. Then she encrypted it by raising each integer to the e-th power modulo N and sent the result to Alice:")
+    print("")
+    print("   ", encrypted_ascii)
+    print("")
+    print("4. To decrypt, we raise each integer of the lisy above to the d =",d,", modulo N =",N,":")
+    print("")
+    print("   ",decrypted_ascii)
+    print("")
     decrypted_secret = ""
     for ascii in decrypted_ascii:
         decrypted_secret += chr(ascii)
-    print "5. Going from the integers in ASCII to the plaintext in letters, we figure out the secret is: "
-    print ""
-    print "   ",decrypted_secret
-    print ""
-    print "************************************************************************************************"
-    print "REMARK: Babette encrypted her message one character at a time."
-    print "Usual protocal dictates that the entire message is concatenated with leading zeros removed."
-    print "This will require that N = pq is larger than the integer value of the full message."
-    print "************************************************************************************************"
+    print("5. Going from the integers in ASCII to the plaintext in letters, we figure out the secret is: ")
+    print("")
+    print("   ",decrypted_secret)
+    print("")
+    print("************************************************************************************************")
+    print("REMARK: Babette encrypted her message one character at a time.")
+    print("Usual protocal dictates that the entire message is concatenated with leading zeros removed.")
+    print("This will require that N = pq is larger than the integer value of the full message.")
+    print("************************************************************************************************")
    
 
 }}}
@@ -1078,10 +1076,10 @@ by Sarah Arpin, Eva Goedhart
 {{{#!sagecell
 #Last edited 8/9/19 2:40pm
 pretty_print(html("<h1>RSA, From Babette's Perspective</h1>"))
-print "Hi, Babette! Let's send a message to Alice using her PUBLIC key (N, e) with RSA."
-print ""
-print "1. Input Babette's secret message for Alice below."
-print "   Make sure that there are no apostrophes or extra quotation marks in your message."
+print("Hi, Babette! Let's send a message to Alice using her PUBLIC key (N, e) with RSA.")
+print("")
+print("1. Input Babette's secret message for Alice below.")
+print("   Make sure that there are no apostrophes or extra quotation marks in your message.")
 @interact
 def rsa(message = input_box(default = 'Secrets for Alice', type=str,label="Message:")):
     p = next_prime(100)
@@ -1094,32 +1092,32 @@ def rsa(message = input_box(default = 'Secrets for Alice', type=str,label="Messa
     ascii_secret = []
     for char in message:
         ascii_secret.append(ord(char))
-    print "2. Using ASCII, we take the characters in our message and convert each of them into integers."
-    print ""
-    print "   ",ascii_secret
-    print ""
-    print "Alice's PUBLIC key is given to be (N, e) = (",N,",",e,")."
-    print ""
-    print "4. We encode the list of numbers by raising each integer to the e-th power modulo N. Recall that e is called the encryption key. This is what get's sent to Alice:"
+    print("2. Using ASCII, we take the characters in our message and convert each of them into integers.")
+    print("")
+    print("   ",ascii_secret)
+    print("")
+    print("Alice's PUBLIC key is given to be (N, e) = (",N,",",e,").")
+    print("")
+    print("4. We encode the list of numbers by raising each integer to the e-th power modulo N. Recall that e is called the encryption key. This is what get's sent to Alice:")
     encrypted_ascii = []
     for ascii in ascii_secret:
         encrypted_ascii.append(power_mod(ascii,e,N))
-    print ""    
-    print "   ",encrypted_ascii
-    print ""
-    print "5. To decrypt, Alice raises each integer to the d-th power modulo N, where d is Alice's PRIVATE decryption key."
+    print(""    )
+    print("   ",encrypted_ascii)
+    print("")
+    print("5. To decrypt, Alice raises each integer to the d-th power modulo N, where d is Alice's PRIVATE decryption key.")
     decrypted_ascii = []
     for ascii in encrypted_ascii:
         decrypted_ascii.append(power_mod(ascii,d,N))
-    print ""    
-    print "   ", decrypted_ascii
-    print ""
+    print(""    )
+    print("   ", decrypted_ascii)
+    print("")
     decrypted_secret = ""
     for ascii in decrypted_ascii:
         decrypted_secret += chr(ascii)
-    print "6. Going from the integers to letters using ASCII, we find that Babette's message was "
-    print ""
-    print "   ",decrypted_secret
+    print("6. Going from the integers to letters using ASCII, we find that Babette's message was ")
+    print("")
+    print("   ",decrypted_secret)
 
 }}}
 
@@ -1130,9 +1128,9 @@ by Sarah Arpin, Eva Goedhart
 {{{#!sagecell
 
 #Last edited 8/9/19 at 3:52pm
-print "Hi, Alice! Let's send a message to Babette with your digital signature so that Babette knows that it is really Alice."
-print ""
-print "1. Make Alice's PRIVATE key: Input two distinct primes, p and q, that are each greater than 10, and an integer, e, that is relatively prime to the the Euler φ-function of the product pq."
+print("Hi, Alice! Let's send a message to Babette with your digital signature so that Babette knows that it is really Alice.")
+print("")
+print("1. Make Alice's PRIVATE key: Input two distinct primes, p and q, that are each greater than 10, and an integer, e, that is relatively prime to the the Euler φ-function of the product pq.")
 @interact
 def rsa(message_to_babette = input_box(default = 'Hi',type=str,label="message:"),p_a = input_box(default = 503,label = "p: "), q_a = input_box(default = 499,label = "q: "),e_a = input_box(default = 5,label = "e:")):
     p_a = ZZ(p_a)
@@ -1142,43 +1140,43 @@ def rsa(message_to_babette = input_box(default = 'Hi',type=str,label="message:")
     q_b = 4999
     e_b = 5
     if p_a < 10:
-        print "*********** Make p larger. ***********"
+        print("*********** Make p larger. ***********")
         return " "
     if q_a < 10:
-        print "*********** Make q larger. ***********"
+        print("*********** Make q larger. ***********")
         return " "
     if not p_a.is_prime():
-        print "*********** p needs to be prime. ***********"
+        print("*********** p needs to be prime. ***********")
         return " "
     if not q_a.is_prime():
-        print "*********** q needs to be prime. ***********"
+        print("*********** q needs to be prime. ***********")
         return " "
     phi_a = (p_a-1)*(q_a-1)
     phi_b = (p_b-1)*(q_b-1)
     if not gcd(e_a,phi_a) == 1:
-        print "*********** e must be replatively prime to φ(pq) - see factorization below. ***********"
-        print ""
-        print "φ(pq) = ",phi_a.factor()
+        print("*********** e must be replatively prime to φ(pq) - see factorization below. ***********")
+        print("")
+        print("φ(pq) = ", phi_a.factor())
         return " "
-    print ""
-    print "φ(pq) = ",phi_a.factor()
-    print ""
+    print("")
+    print("φ(pq) = ",phi_a.factor())
+    print("")
     N_a = p_a*q_a
     N_b = p_b*q_b
     if N_b < N_a:
-        print "Choose primes for p or q so that their product",N_a ,"is smaller than ",N_b,"."
-        print "   This is not needed for general digital signatures, but is necessary for this program to decrypt the message correctly."
+        print("Choose primes for p or q so that their product",N_a ,"is smaller than ",N_b,".")
+        print("   This is not needed for general digital signatures, but is necessary for this program to decrypt the message correctly.")
         return " "
     R = IntegerModRing(phi_a)
     d_a = (e_a^(R(e_a).multiplicative_order()-1)).mod(phi_a)
     S = IntegerModRing(phi_b)
     d_b = (e_b^(S(e_b).multiplicative_order()-1)).mod(phi_b)
-    print "2. Alice's PRIVATE key is (p,q,d) =(",p_a,",",q_a,",",d_a,"), where the decryption key d is the inverse of e modulo φ(N)."
-    print ""
-    print "   Alice's PUBLIC key is (N,e) =(",N_a,",",e_a,")."
-    print ""
-    print "We are given Babette's PUBLIC key of (N_b,e_b) = (",N_b,",",e_b,")."
-    print ""
+    print("2. Alice's PRIVATE key is (p,q,d) =(",p_a,",",q_a,",",d_a,"), where the decryption key d is the inverse of e modulo φ(N).")
+    print("")
+    print("   Alice's PUBLIC key is (N,e) =(",N_a,",",e_a,").")
+    print("")
+    print("We are given Babette's PUBLIC key of (N_b,e_b) = (",N_b,",",e_b,").")
+    print("")
     ascii_secret = []
     for char in message_to_babette:
         ascii_secret.append(ord(char))
@@ -1193,25 +1191,25 @@ def rsa(message_to_babette = input_box(default = 'Hi',type=str,label="message:")
         unencrypt = (ascii^d_b).mod(N_b)
         unsign = (unencrypt^e_a).mod(N_a)
         decrypted_ascii.append(unsign)
-    print "3. Use ASCII to convert the plaintext message to integers."
-    print ""
-    print "   ",ascii
-    print ""
-    print "4. Sign the message using Alice's PRIVATE key by raising each integer in the list to the d-th power modulo N."
-    print ""
-    print "   ",signed
-    print ""
-    print "5. Finally, to encrypt the signed message, use Babette's PUBLIC key by raising every integer to the e_b-th power modulo N_b."
-    print ""
-    print "   ",encrypted_ascii
-    print ""
-    print "6. To decrypt the signed encrypted message, Babette will use Alice's PUBLIC key (",N_a,",",e_a,") AND Babette's PRIVATE key (",p_b,",",q_b,",", d_b,"), as given here by the program."
-    print ""
-    print "   ",decrypted_ascii
-    print ""
+    print("3. Use ASCII to convert the plaintext message to integers.")
+    print("")
+    print("   ",ascii)
+    print("")
+    print("4. Sign the message using Alice's PRIVATE key by raising each integer in the list to the d-th power modulo N.")
+    print("")
+    print("   ",signed)
+    print("")
+    print("5. Finally, to encrypt the signed message, use Babette's PUBLIC key by raising every integer to the e_b-th power modulo N_b.")
+    print("")
+    print("   ",encrypted_ascii)
+    print("")
+    print("6. To decrypt the signed encrypted message, Babette will use Alice's PUBLIC key (",N_a,",",e_a,") AND Babette's PRIVATE key (",p_b,",",q_b,",", d_b,"), as given here by the program.")
+    print("")
+    print("   ",decrypted_ascii)
+    print("")
     decrypted_secret = ""
     for ascii in decrypted_ascii:
         decrypted_secret += chr(ascii)
-    print "7. Using the ASCII code to convert the intgers back to letters, we find out the signed secret message was from Alice and read "
-    print "   ",decrypted_secret
+    print("7. Using the ASCII code to convert the intgers back to letters, we find out the signed secret message was from Alice and read ")
+    print("   ",decrypted_secret)
 }}}
