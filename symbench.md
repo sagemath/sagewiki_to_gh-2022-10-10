@@ -159,7 +159,7 @@ Time: CPU 0.08 s, Wall: 0.08 s
 == Problem R6 ==
 
 {{{
-time sum(((x+sin(i))/x+(x-sin(i))/x).rational_simplify() for i in xrange(100))
+time sum(((x+sin(i))/x+(x-sin(i))/x).rational_simplify() for i in range(100))
 ///
 200
 CPU time: 1.39 s,  Wall time: 8.65 s
@@ -169,7 +169,7 @@ CPU time: 1.39 s,  Wall time: 8.65 s
 {{{
 var('x')
 f = x^24+34*x^12+45*x^3+9*x^18 +34*x^10+ 32*x^21
-time a = [f(random()) for _ in xrange(10^4)]
+time a = [f(random()) for _ in range(10^4)]
 ///
 Time: CPU 11.92 s, Wall: 12.73 s
 }}}
@@ -177,12 +177,14 @@ Time: CPU 11.92 s, Wall: 12.73 s
 
 == Problem R8 ==
 {{{
-def right(f,a,b,n):
-   Deltax = (b-a)/n; c=a; est=0
+def right(f, a, b, n):
+   Deltax = (b - a) / n
+   c = a
+   est = 0
    for i in range(n):
        c += Deltax
        est += f(c)
-   return est*Deltax
+   return est * Deltax
 
 var('x')
 time right(x^2,0,5,10^4)
