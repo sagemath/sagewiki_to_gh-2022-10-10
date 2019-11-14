@@ -11,7 +11,7 @@ Pour être tenu informé vous pouvez vous abonner à la [[https://diff.u-bordeau
 == Débutants ==
 
  * Pour apprendre Python, on recommande la lecture de [[http://openbookproject.net/thinkcs/python/english3e/|How to Think Like a Computer Scientist]]
- * Pour apprendre SageMath, on recommande la lecture de [[http://sagebook.gforge.inria.fr/|Calcul mathématique avec Sage]] (aussi traduit en anglais et allemand) et bien sûr de participer aux séances SageMath
+ * Pour apprendre !SageMath, on recommande la lecture de [[http://sagebook.gforge.inria.fr/|Calcul mathématique avec Sage]] (aussi traduit en anglais et allemand) et bien sûr de participer aux séances SageMath
 
 == Développeurs ==
 
