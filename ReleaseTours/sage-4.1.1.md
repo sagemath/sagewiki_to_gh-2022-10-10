@@ -1,3 +1,4 @@
+## page was renamed from sage-4.1.1
 = Sage 4.1.1 Release Tour =
 
 
@@ -53,7 +54,7 @@ sage: z.imag_part()
  * Efficient summing using balanced sum (Jason Grout, Mike Hansen) [[http://trac.sagemath.org/sage_trac/ticket/2737|#2737]] --- New function {{{balanced_sum()}}} in the module {{{sage/misc/misc_c.pyx}}} for summing the elements in a list. In some cases, {{{balanced_sum()}}} is more efficient than the built-in Python {{{sum()}}} function, where the efficiency can range from 26x up to 1410x faster than {{{sum()}}}. The following timing statistics were obtained using the machine sage.math:
  {{{#!python numbers=off
 sage: R.<x,y> = QQ["x,y"]
-sage: L = [x^i for i in xrange(1000)]
+sage: L = [x^i for i in range(1000)]
 sage: %time sum(L);
 CPU times: user 0.01 s, sys: 0.00 s, total: 0.01 s
 Wall time: 0.01 s
@@ -65,7 +66,7 @@ sage: %timeit sum(L);
 sage: %timeit balanced_sum(L);
 1000 loops, best of 3: 324 µs per loop
 sage: 
-sage: L = [[i] for i in xrange(10e4)]
+sage: L = [[i] for i in range(10e4)]
 sage: %time sum(L, []);
 CPU times: user 84.61 s, sys: 0.00 s, total: 84.61 s
 Wall time: 84.61 s
