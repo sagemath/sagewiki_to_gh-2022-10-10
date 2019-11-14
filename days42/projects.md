@@ -108,11 +108,11 @@ def per_pts(list, m, c):
 
 for c in (0..2):
     for d in (2..11):
-        print "m = ", m, "c = ", c
+        print("m = ", m, "c = ", c)
         for n in (1..10):
             F.<a> = GF(3^n)
-            print len(per_pts(F, m, c))/3^n.n()
-        print "***************************"
+            print(len(per_pts(F, m, c))/3^n.n())
+        print("***************************")
 
  *[[http://trac.sagemath.org/sage_trac/ticket/13130|Link to Ben Hutz's patch for ProjSpace ]]
 
@@ -120,28 +120,28 @@ Adriana, Lola, and Bianca's code for "square-and-multiply"-type (fast?) iteratio
 
 These functions take a polynomial and an integer n and uses a "square-and-multiply" algorithm to find the n-th iterate of f. You have to initialize a polynomial ring first. "iteratelist" outputs the vector with the "squares".
 
-def iteratelist(f,n):
-    v=[]
-    s=n.bits()
-    F=f
-    for n in xrange(len(s)):
-        if Integer(s[n])==1:
+def iteratelist(f, n):
+    v = []
+    s = n.bits()
+    F = f
+    for n in range(len(s)):
+        if Integer(s[n]) == 1:
             v.append(F)
-        if n!=len(s)-1:
-            F=F(F)
-    return(v)
+        if n != len(s) - 1:
+            F = F(F)
+    return v
 
-def iterate(f,n):
-    v=iteratelist(f,n)
-    g=v[0]
-    for n in xrange(1, len(v)):
-        g=v[n](v[n-1])
-    return(g)
+def iterate(f, n):
+    v = iteratelist(f, n)
+    g = v[0]
+    for n in range(1, len(v)):
+        g = v[n](v[n - 1])
+    return g
 
 This function evaluates the iterate at a particular point. The benefits of this type of algorithm are much clearer when one uses a finite field, as with the usual fast powering algorithms.
 
-def iterate2(f,n,a):
-    w=iterate(f,n)
+def iterate2(f, n, a):
+    w = iterate(f, n)
     return w(a)
 
 Adriana and Lola's Sage worksheet for the fast iteration function:
