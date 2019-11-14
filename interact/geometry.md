@@ -308,7 +308,7 @@ def interseccion_cr(curva, t0, t1, recta, partes=50):
     paso = (t1 - t0)/partes
     puntos = [(x(t=tr), y(t=tr)) for tr in srange(t0, t1 + paso, paso)]
     intersecciones = (interseccion_sr(puntos[j], puntos[j+1], recta)
-                      for j in xrange(partes-1))
+                      for j in range(partes - 1))
     return [p for p in intersecciones if p ]
     
 def crofton_aprox(curva, t0, t1, L, M):
@@ -416,8 +416,8 @@ def banchoff_pohl(curve, L, M):
     return ln_d, pp
 
 def print_stats(d):
-    print 'Number of lines with linking number k:'
-    print ', '.join('%d:%d'%(k,v) for k,v in d.iteritems())
+    print('Number of lines with linking number k:')
+    print(', '.join('%d:%d' % kv for kv in d.items()))
 
 @interact
 def bp_interact( u1 = text_control('x, y, z coordinates of a closed space curve in [0,2*pi]'),
