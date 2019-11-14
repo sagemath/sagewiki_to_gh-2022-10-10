@@ -49,7 +49,61 @@ Idées et Projets en cours:
 
 Présents: Sébastien, Jennifer, Pascal
  
-Discussion sur le passage à Python 3. Voir ce [[https://www.artima.com/weblogs/viewpost.jsp?thread=98196|message]] de mars 2005 de Guido van Rossum au sujet de map, filter, lambda, reduce.
+Passage à Python 3: voir ce [[https://www.artima.com/weblogs/viewpost.jsp?thread=98196|message]] de mars 2005 de Guido van Rossum au sujet de map, filter, lambda, reduce.
+
+Le nouveau comportement du hash en Python 3 est expliqué ci-bas:
+
+{{{
+fichier.py content:
+r"""
+New Hash behavior in Python 3
+
+This works in python2::
+
+    $ python2 fichier.py
+    8743430846773
+    20
+    25
+
+But it does not work in Python3::
+
+    $ python3 fichier.py
+    8759442356870
+    20
+    Traceback (most recent call last):
+    File "fichier.py", line 16, in <module>
+	print(hash(Fraise(25)))
+    TypeError: unhashable type: 'Fraise'
+
+The reason is to keep the principle "if A = B implies hash(A) == hash(B)"
+valid. In Python 3, the default is that objects are hashable by their id
+(class Vegetable in the example below).  But as soon as the equality
+`__eq__` is defined (class Fruit in the example below), one must define the
+`__hash__` method. And this is the case even if it is defined in the parent
+(class Fruit in the example below).
+
+"""
+
+class Vegetable(object):
+    def __init__(self, a):
+        self._a = a
+
+class Fruit(object):
+    def __init__(self, a):
+        self._a = a
+    def __hash__(self):
+        return hash(self._a)
+
+class Fraise(Fruit):
+    def __eq__(self, other):
+        return self._a == other._a
+
+print(hash(Vegetable(10)))
+
+print(hash(Fruit(20)))
+
+print(hash(Fraise(25)))
+}}}
 
 ==== jeudi 7 nov 2019 ====
 
