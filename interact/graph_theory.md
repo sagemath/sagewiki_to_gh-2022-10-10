@@ -196,8 +196,8 @@ def animate_minor(g, m, frames = 12, pause = 50, step_time = 100):
     
     #Second: contract edges
     for color, vs in g_colors.items():
-        while len(vs)>1:
-            for j in xrange(1,len(vs)):
+        while len(vs) > 1:
+            for j in range(1, len(vs)):
                 if gg.has_edge(vs[0], vs[j]):
                     break
             pics.extend(animate_contraction(gg, (vs[0], vs[j]), frames,
