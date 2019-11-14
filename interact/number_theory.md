@@ -841,9 +841,9 @@ def _(m=selector([1..15],nrows=2), n=(7,(3..10))):
 == Fundamental Domains of SL_2(ZZ) ==
 by Robert Miller
 {{{#!sagecell
-L = [[-0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in xrange(1000, -1, -1)]
-R = [[0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in xrange(1000)]
-xes = [x/1000.0 for x in xrange(-500,501,1)]
+L = [[-0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in range(1000, -1, -1)]
+R = [[0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in range(1000)]
+xes = [x/1000.0 for x in range(-500,501,1)]
 M = [[x,abs(sqrt(x^2-1))] for x in xes]
 fundamental_domain = L+M+R
 fundamental_domain = [[x-1,y] for x,y in fundamental_domain]
