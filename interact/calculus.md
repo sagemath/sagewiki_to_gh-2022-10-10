@@ -66,7 +66,7 @@ def newton_method(f, c, eps, maxiter=100):
     except AttributeError:
         g = f; gprime = fprime
     iterates = [c]
-    for i in xrange(maxiter):
+    for i in range(maxiter):
        fc = g(c)
        if abs(fc) < eps: return c, iterates
        c = c - fc/gprime(c)
