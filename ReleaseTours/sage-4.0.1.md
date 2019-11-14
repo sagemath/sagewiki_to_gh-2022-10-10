@@ -126,7 +126,7 @@ sage: timeit("R.lagrange_polynomial([(a^2+a,a),(a,1),(a^2,a^2+a+1)], neville=Tru
 625 loops, best of 3: 131 µs per loop
 sage:
 sage: R = PolynomialRing(QQ, 'x')
-sage: points = [(random(), random()) for i in xrange(100)]
+sage: points = [(random(), random()) for i in range(100)]
 sage: time R.lagrange_polynomial(points, neville=True);
 CPU times: user 1.26 s, sys: 0.00 s, total: 1.26 s
 Wall time: 1.26 s
@@ -167,7 +167,7 @@ sage: def zlog(m, n, k):
 ....:         a = ZZ.random_element(n) + 2
 ....:         b = ZZ.random_element(k)
 ....:         c = a^b
-....:         for i in xrange (0, 1000):
+....:         for i in range(1000):
 ....:             c.exact_log(a)
 ....:             
 sage: time zlog(100000, 2^100, 100)
@@ -193,7 +193,7 @@ sage: def zlog(m, n, k):
 ....:         a = ZZ.random_element(n) + 2
 ....:         b = ZZ.random_element(k)
 ....:         c = a^b
-....:         for i in xrange (0, 1000):
+....:         for i in range(1000):
 ....:             c.exact_log(a)
 ....:             
 sage: time zlog(100000, 2^100, 100)
@@ -354,7 +354,7 @@ sage: region_plot(x^2 + y^2 < 1, (x,-1,1), (y,-1,1)).show(aspect_ratio=1)
 sage: G = SymmetricGroup(7)
 sage: g = G._gap_()
 sage: l = g.Elements()
-sage: time L = [gap.eval(l.name() + '[%d]^2' % (i)) for i in xrange(1, 7.factorial() + 1)]
+sage: time L = [gap.eval(l.name() + '[%d]^2' % (i)) for i in range(1, 7.factorial() + 1)]
 CPU times: user 1.90 s, sys: 0.16 s, total: 2.06 s
 Wall time: 2.08 s
 
