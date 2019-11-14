@@ -10,14 +10,14 @@ Pour être tenu informé vous pouvez vous abonner à la [[https://diff.u-bordeau
 
 == Débutants ==
 
-- Pour apprendre Python, on recommande la lecture de [[http://openbookproject.net/thinkcs/python/english3e/|How to Think Like a Computer Scientist]]
-- Pour apprendre SageMath, on recommande la lecture de [[http://sagebook.gforge.inria.fr/|Calcul mathématique avec Sage]] (aussi traduit en anglais et allemand) et bien sûr de participer aux séances SageMath
+ * Pour apprendre Python, on recommande la lecture de [[http://openbookproject.net/thinkcs/python/english3e/|How to Think Like a Computer Scientist]]
+ * Pour apprendre SageMath, on recommande la lecture de [[http://sagebook.gforge.inria.fr/|Calcul mathématique avec Sage]] (aussi traduit en anglais et allemand) et bien sûr de participer aux séances SageMath
 
 == Développeurs ==
 
 Mot clé pour trac: [[https://trac.sagemath.org/query?status=closed&status=needs_info&status=needs_review&status=needs_work&status=new&status=positive_review&keywords=~thursdaysbdx&col=id&col=summary&col=status&col=time&col=changetime&col=author&col=reviewer&desc=1&order=status|thursdaysbdx]]
 
-== Idées et Projets en cours ==
+Idées et Projets en cours:
 
  * les nombres réels [[https://trac.sagemath.org/ticket/17713|#17713]]
  * relecture de la [[https://members.loria.fr/PZimmermann/sagebook/english.html|version anglaise du Calcul mathématique avec Sage]]
