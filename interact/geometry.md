@@ -327,8 +327,8 @@ def crofton_aprox(curva, t0, t1, L, M):
     return cortesd, pp
 
 def print_stats(d):
-    print 'Number of lines with k intersection points:'
-    print ', '.join('%d:%d'%(k,v) for k,v in d.iteritems())
+    print('Number of lines with k intersection points:')
+    print(', '.join('%d:%d' % kv for kv in d.items()))
     
 @interact
 def crofton_interact(u1 = text_control('x and y coordinates of curve'),
