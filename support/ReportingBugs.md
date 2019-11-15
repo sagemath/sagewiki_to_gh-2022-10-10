@@ -1,1 +1,1 @@
-See http://doc.sagemath.org/html/en/developer/trac.html#reporting-bugs 
+See https://doc.sagemath.org/html/en/developer/trac.html#reporting-bugs 
