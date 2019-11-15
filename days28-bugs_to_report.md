@@ -7,7 +7,7 @@
 
 
 == Creer un compte sur le serveur trac ==
-[[http://trac.sagemath.org/sage_trac/]] (lien Register en haut à droite).
+[[https://trac.sagemath.org/]] (lien Register en haut à droite).
 
 Remarque:
   * l'username que vous voulez, habituellement, username = première lettre du prénom + nom (exemple nborie, slabbe, nthiery, vdelecroix, hivert, ncohen, tmonteil (cherchez l'erreur))
