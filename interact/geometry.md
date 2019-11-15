@@ -207,35 +207,35 @@ def render(Display=selector(['2D Perspective', '2D Spring-layout', '3D']), Dimen
         
         if Dimension==0:
             g=graphs.GridGraph([1])
-            print 'Vertices:', len(g.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(g.edges()), ('(%s*(%s/2))' %(len(g.vertices()), Dimension) if Calculations else '')
+            print('Vertices:', len(g.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(g.edges()), ('(%s*(%s/2))' %(len(g.vertices()), Dimension) if Calculations else ''))
             g.show(figsize=[Size,Size], vertex_size=30, vertex_labels=False, transparent=True, vertex_colors='black')
             
         else:
             g=graphs.CubeGraph(Dimension)
-            print 'Vertices:', len(g.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(g.edges()), ('(%s*(%s/2))' %(len(g.vertices()), Dimension) if Calculations else '')
+            print('Vertices:', len(g.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(g.edges()), ('(%s*(%s/2))' %(len(g.vertices()), Dimension) if Calculations else ''))
             g.show(figsize=[Size,Size], vertex_size=(20 if Vertices else 0), vertex_labels=False, transparent=True, vertex_colors='black')
             
     if Display=='2D Spring-layout':
         
         if Dimension==0:
             s=graphs.GridGraph([1])
-            print 'Vertices:', len(s.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(s.edges()), ('(%s*(%s/2))' %(len(s.vertices()), Dimension) if Calculations else '')
+            print('Vertices:', len(s.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(s.edges()), ('(%s*(%s/2))' %(len(s.vertices()), Dimension) if Calculations else ''))
             s.show(figsize=[Size,Size], vertex_size=30, vertex_labels=False, transparent=True, vertex_colors='black')
             
         else:
             s=graphs.GridGraph([2]*Dimension)
-            print 'Vertices:', len(s.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(s.edges()), ('(%s*(%s/2))' %(len(s.vertices()), Dimension) if Calculations else '')
+            print('Vertices:', len(s.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(s.edges()), ('(%s*(%s/2))' %(len(s.vertices()), Dimension) if Calculations else ''))
             s.show(figsize=[Size,Size], vertex_size=(20 if Vertices else 0), vertex_labels=False, transparent=True, vertex_colors='black')
             
     if Display=='3D':
         if Dimension==0:
             d=graphs.GridGraph([1])
-            print 'Vertices:', len(d.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(d.edges()), ('(%s*(%s/2))' %(len(d.vertices()), Dimension) if Calculations else '')
+            print('Vertices:', len(d.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(d.edges()), ('(%s*(%s/2))' %(len(d.vertices()), Dimension) if Calculations else ''))
             d.show3d(figsize=[Size/2,Size/2], vertex_size=0.001)
 
         else:
             d=graphs.CubeGraph(Dimension)
-            print 'Vertices:', len(d.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(d.edges()), ('(%s*(%s/2))' %(len(d.vertices()), Dimension) if Calculations else '')
+            print('Vertices:', len(d.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(d.edges()), ('(%s*(%s/2))' %(len(d.vertices()), Dimension) if Calculations else ''))
             d.show3d(figsize=[Size,Size], vertex_size=(0.03 if Vertices else 0.001))
 }}}
 {{attachment:dimensions.png}}
@@ -349,10 +349,10 @@ def crofton_interact(u1 = text_control('x and y coordinates of curve'),
     else:
         cortesd, p = crofton_aprox((curvax, curvay), t0, t1, L, M)
     p.show(aspect_ratio=1, xmin=-2, xmax=2, ymin=-2,ymax=2)
-    print 'A curve of lenght %f'%longitud((curvax, curvay), t0, t1)
+    print('A curve of lenght %f'%longitud((curvax, curvay), t0, t1))
     print_stats(cortesd)
     cortes_tot = sum(k*v for k,v in cortesd.iteritems())
-    print 'Approx length using Crofton\'s formula: %f'%((cortes_tot/L)*(pi*M))
+    print('Approx length using Crofton\'s formula: %f'%((cortes_tot/L)*(pi*M)))
 }}}
 {{attachment:crofton4.png}}
 
@@ -431,7 +431,7 @@ def bp_interact( u1 = text_control('x, y, z coordinates of a closed space curve 
     ln_d, p = banchoff_pohl(vector((curvax, curvay, curvaz)), L, M)
     p.show(aspect_ratio=1, xmin=-2, xmax=2, ymin=-2,ymax=2)
     bp_area_aprox = (sum(k^2*v for k,v in ln_d.iteritems())/L)*2*pi*M^2
-    print 'Bahnchoff-Pohl area of the curve(aprox): %f'%bp_area_aprox
+    print('Bahnchoff-Pohl area of the curve(aprox): %f' % bp_area_aprox)
     print_stats(ln_d)
 }}}
 
