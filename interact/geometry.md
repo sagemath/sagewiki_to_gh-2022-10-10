@@ -349,7 +349,7 @@ def crofton_interact(u1 = text_control('x and y coordinates of curve'),
     else:
         cortesd, p = crofton_aprox((curvax, curvay), t0, t1, L, M)
     p.show(aspect_ratio=1, xmin=-2, xmax=2, ymin=-2,ymax=2)
-    print('A curve of lenght %f'%longitud((curvax, curvay), t0, t1))
+    print('A curve of length %f'%longitud((curvax, curvay), t0, t1))
     print_stats(cortesd)
     cortes_tot = sum(k*v for k,v in cortesd.iteritems())
     print('Approx length using Crofton\'s formula: %f'%((cortes_tot/L)*(pi*M)))
