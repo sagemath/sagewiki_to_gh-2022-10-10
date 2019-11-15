@@ -594,7 +594,7 @@ by Marshall Hampton.  This is pretty simple, so I encourage people to spruce it 
 var('x,y,z')
 quadrics = {'Ellipsoid':x^2+y^2+z^2-1,'Elliptic paraboloid':x^2+y^2-z,'Hyperbolic paraboloid':x^2-y^2-z, '1-Sheeted Hyperboloid':x^2+y^2-z^2-1,'2-Sheeted Hyperboloid':x^2-y^2-z^2-1, 'Cone':x^2+y^2-z^2}
 @interact
-def quads(q = selector(quadrics.keys()), a = slider(0,5,1/2,default = 1)):
+def quads(q = selector(list(quadrics)), a = slider(0,5,1/2,default = 1)):
     f = quadrics[q].subs({x:x*a^(1/2)})
     if a==0 or q=='Cone': pretty_print(latex(f), "    (degenerate)")
     else: pretty_print(latex(f))
