@@ -30,7 +30,7 @@ Remarques:
 
 
 == Exemple de workflow ==
-[[http://trac.sagemath.org/sage_trac/ticket/10063]]
+[[https://trac.sagemath.org/ticket/10063]]
 
 
 == Exercice sans filet ==
