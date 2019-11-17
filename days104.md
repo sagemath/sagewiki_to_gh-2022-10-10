@@ -118,7 +118,7 @@ Please contact one of the organizers if you are having trouble with the preworks
 
  * Andrew Odesky - University of Michigan
 
- * Biana Thompson - Westminster College
+ * [[https://biancasmath.wordpress.com/|Bianca Thompson]] - Westminster College
 
  * Adam Towsley - Rochester Institute of Technology
 
