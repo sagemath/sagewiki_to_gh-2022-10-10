@@ -132,3 +132,5 @@ Please contact one of the organizers if you are having trouble with the preworks
  * intro to dynamical systems functionality talk: [[attachment:intro_talk.pdf]] [[https://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=intro_talk.pdf|download]]
 
  * to do list: [[attachment:todo.pdf]] [[https://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=todo.pdf|download]]
+
+ * ticket review steps: [[attachment:review_steps.pdf]] [[https://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=review_steps.pdf|download]]
