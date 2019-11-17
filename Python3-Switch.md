@@ -19,7 +19,10 @@ Some more specific details follow.
 
 The "legacy notebook", which was used by !SageMath for a long time, has been replaced by the Jupyter notebook since 2015. Because the legacy notebook is no longer maintained, it is not compatible with Python 3 and will not be available in versions 9.0 and higher of !SageMath.
 
-All people that still have old-style notebooks are urged to migrate them to Jupyter notebooks now.
+All people that still have old-style notebooks are urged to migrate them to Jupyter notebooks now, by running the command
+{{{
+sage -n export
+}}}
 
 == Compiling with Python 2 ==
 
