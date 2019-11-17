@@ -124,5 +124,9 @@ Please contact one of the organizers if you are having trouble with the preworks
 
  * Mingming Zhang - Oklahoma State University
 
-
  * Bella Tobin - Oklahoma State University
+
+
+== Files ==
+
+ * intro to dynamical systems functionality talk: [[attachment:intro_talk.pdf]] [[https://wiki.sagemath.org/quickref?action=AttachFile&do=get&target=intro_talk.pdf|download]]
