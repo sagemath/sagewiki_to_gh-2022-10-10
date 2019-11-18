@@ -44,12 +44,12 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/28263|#28263]]) needs-work: Degree for Affine Morphism or Affine Dynamical System - Anna Chlopecki, Juliano Levier-Gomes 
 
- * ([[http://trac.sagemath.org/ticket/28214|#28214]]) needs-review: Compute and display graph of nth-preimage tree - Brandon Gontmacher, Joey Lupo, Wayne Peng--This broke sage, beware!
+ * ([[http://trac.sagemath.org/ticket/28214|#28214]]) needs-review: Compute and display graph of nth-preimage tree - Brandon Gontmacher, Joey Lupo, Wayne Peng
 
- * --([[http://trac.sagemath.org/ticket/28213|#28213]]) needs-review:-- closed sage 9.0 Renaming rational_preperiodic_points() to all_preperiodic_points() - Eric Zhu, Alex Galarraga, Bianca Thompson
+ * ([[http://trac.sagemath.org/ticket/28213|#28213]]) needs-review: closed sage 9.0 Renaming rational_preperiodic_points() to all_preperiodic_points() - Eric Zhu, Alex Galarraga, Bianca Thompson
 
 
- * --([[http://trac.sagemath.org/ticket/28212|#28212]]) needs-review:-- closed sage 9.0 Optimizing all_periodic_points() for small periods - Eric Zhu, Alex Galarraga, Bianca Thompson
+ * ([[http://trac.sagemath.org/ticket/28212|#28212]]) needs-review: closed sage 9.0 Optimizing all_periodic_points() for small periods - Eric Zhu, Alex Galarraga, Bianca Thompson
 
  * ([[http://trac.sagemath.org/ticket/28173|#28173]]) needs-review: Implemented Is_Newton for Dynamical Systems - Anna Chlopecki, Simon Xu, Juliano Levier-Gomes, Grayson Jorgenson 
 
