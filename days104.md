@@ -76,7 +76,7 @@ The workshop will consist of tutorials and talks in the mornings and working gro
    * Lunch break
    * Coding sprints
    * 4:45pm - Full group status update on daily progress
- * Wednesady November 20, 2019
+ * Wednesday November 20, 2019
    * 9:30am-10:30am - Talk: TBD
    * Coding sprints
    * Lunch break
