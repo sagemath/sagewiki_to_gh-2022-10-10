@@ -66,18 +66,17 @@ The workshop will consist of tutorials and talks in the mornings and working gro
  * Monday November 18, 2019
    * 9:30am-10:30am - Talk: Introduction to Heights in Sage - Fili 
    * Break
-   * 11:00am-12:00 - Tutorial on contributing to Sage II
+   * 11:00am-12:00 - Tutorial on contributing to Sage II - Towsley
    * Lunch break
    * Coding sprints
    * 4:45pm Full group status update on daily progress
  * Tuesday November 19, 2019
-   * 9:30am-10:30am - Talk: TBD
+   * 9:30am-10:30am - Talk: Database of Dyamical Systems - Hutz
    * Coding sprints
    * Lunch break
    * Coding sprints
    * 4:45pm - Full group status update on daily progress
  * Wednesday November 20, 2019
-   * 9:30am-10:30am - Talk: TBD
    * Coding sprints
    * Lunch break
    * Coding sprints
