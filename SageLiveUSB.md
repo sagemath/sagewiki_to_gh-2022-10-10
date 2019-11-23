@@ -7,8 +7,7 @@ This page aims at inventorying Live USB running sage. It is a working page to se
 === Links ===
 
  * Homepage : https://sagedebianlive.metelu.net/
- * Download page (Sage mirrors) : https://sagemath.org/download-liveusb.html
- * Sources to build your own : https://sagedebianlive.metelu.net/sources/sagedebianlive/
+ * Download page (Sage mirrors) : https://www.sagemath.org/download-liveusb.html
 
 === Data ===
 
