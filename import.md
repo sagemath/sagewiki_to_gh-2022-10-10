@@ -117,6 +117,6 @@ To be provided
 To be provided
 
 = Links/Resources =
- * [[http://wiki.python.org/moin/PythonSpeed/PerformanceTips#Import_Statement_Overhead ]]
- * [[http://docs.python.org/tutorial/modules.html#intra-package-references]]
+ * [[https://wiki.python.org/moin/PythonSpeed/PerformanceTips#Import_Statement_Overhead ]]
+ * [[https://docs.python.org/tutorial/modules.html#intra-package-references]]
  * [[http://effbot.org/zone/import-confusion.htm]]
