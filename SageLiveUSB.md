@@ -13,7 +13,7 @@ This page aims at inventorying Live USB running sage. It is a working page to se
 === Data ===
 
  * Main Author : ThierryMonteil
- * Base Distro : Debian jessie (using https://live.debian.net/)
+ * Base Distro : Debian jessie (using http://live.debian.net/)
  * Current sage version : 6.7
  * Current kernel : Linux 3.16.0 , 32 bits (compilation for other platforms is possible)
  * Size : 3.1 GB
