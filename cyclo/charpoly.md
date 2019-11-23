@@ -2,7 +2,7 @@
 
 
 UPDATE: A first real version of this is now done.  See the first two patches at 
-    http://trac.sagemath.org/sage_trac/ticket/3042
+    https://trac.sagemath.org/ticket/3042
 The timings for this new code on sage.math are given in the table below under "Sage Multimod". 
 Also a theoretical thing to do is give an a priori provable bound on the number of primes needed 
 to get the charpoly via CRT.
@@ -17,7 +17,7 @@ coefficients in the charpoly. I came up with a pretty trivial seeming
 bound (what I would now call a "Hadamard-type" bound), so I looked it
 up. I found this paper:
 
- http://arxiv.org/abs/cs.SC/0610136
+ https://arxiv.org/abs/cs/0610136
 
 I don't know anything about the people in the world of computational
 linear algebra, but this guy has written papers with Clement, and the
