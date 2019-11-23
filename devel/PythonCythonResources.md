@@ -35,10 +35,10 @@
  * [[http://mercurial.selenic.com/wiki/ | Mercurial / hg]] - Source control manager - [[http://hgbook.red-bean.com/read/ | book]], [[http://mercurial.selenic.com/wiki/UsingExtensions | extensions]].
  * [[http://moinmo.in/ | MoinMoin]] - Wiki engine - [[http://moinmo.in/MoinMoinExtensions | extensions]].
  * [[http://networkx.lanl.gov/ | NetworkX]] - Complex networks and graphs - [[http://networkx.lanl.gov/contents.html | docs]].
- * [[http://numpy.scipy.org/ | NumPy]] - N-dimensional arrays and routines - [[http://docs.scipy.org/doc/ | docs]].
+ * [[https://numpy.org/ | NumPy]] - N-dimensional arrays and routines - [[http://docs.scipy.org/doc/ | docs]].
  * [[http://pexpect.sourceforge.net/pexpect.html | Pexpect]] - Spawn and control processes.
  * [[http://www.amk.ca/python/code/crypto.html | PyCrypto]] - Cryptographic algorithms and protocols - [[http://www.dlitz.net/software/pycrypto/ | current]].
- * [[http://pygments.org/ | Pygments]]  - Syntax highlighter - [[http://pygments.org/docs/ | docs]].
+ * [[https://pygments.org/ | Pygments]]  - Syntax highlighter - [[https://pygments.org/docs/ | docs]].
  * [[http://pynac.org/ | Pynac]] - Symbolic manipulation - [[http://www.ginac.de/ | GiNaC]].
  * [[http://www.pythonware.com/products/pil/ | Python Imaging Library / PIL]] - Image processing - [[http://www.pythonware.com/library/pil/handbook/index.htm | docs]].
  * [[http://rpy.sourceforge.net/ | RPy]] - Statistical computing - [[http://rpy.sourceforge.net/documentation.html | docs]].
