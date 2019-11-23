@@ -2,7 +2,7 @@
 
 This wiki page is about implementing optimized algorithms for linear algebra over cyclotomic fields.
 
-This [[http://trac.sagemath.org/sage_trac/ticket/3042|trac ticket]] has relevant code. 
+This [[https://trac.sagemath.org/ticket/3042|trac ticket]] has relevant code. 
 
 [[attachment:jen.pdf|This short PDF paper by Jen Balakrishnan and William Stein describes the basic idea behind reducing and lifting from mod p to characteristic 0]]
 
