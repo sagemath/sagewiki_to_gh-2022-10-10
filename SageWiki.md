@@ -89,7 +89,7 @@ For some advanced package tools, use `./sage -package`
  * [[sagenb|List of institutions and projects using Sage]]
  * [[OSCAS]]s
  * [[SAGE_Reviews|Sage Reviews]]
- * [[Teaching_using_SAGE|Teaching using Sage]]
+ * [[Teaching_using_SageMath|Teaching using Sage]]
  * [[Teaching_with_SAGE|Teaching with Sage]]
  * [[quickref|Sage Quick Reference Cards]]
  * [[DocumentationProject|Documentation Project]]
