@@ -74,7 +74,7 @@ If you have an account on the Sage cluster, ensure that you read the [[devel/Sag
 
 = Sage notebook =
 
-||<#FF6347> The legacy sage notebook is deprecated. ||
+||<#FF6347> The legacy sage notebook is deprecated and not available under Python 3. ||
 
 ||<#98FF98> Please use instead the Jupyter notebook. ||
 
