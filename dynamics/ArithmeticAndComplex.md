@@ -40,6 +40,16 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/28779|#28779]]) positive-review:  Error in "primes_of_bad_reduction" for DynamicalSystem - Paul Fili
 
+ * ([[http://trac.sagemath.org/ticket/28773|#28773]]) new: Implementing is_chebyshev over finite fields
+
+ * ([[http://trac.sagemath.org/ticket/28772|#28772]]) positive-review: Kneading sequences for the doubling map - John Doyle
+
+ * ([[http://trac.sagemath.org/ticket/28771|#28771]]) new: Improve computation of canonical height for dynamical systems
+
+ * ([[http://trac.sagemath.org/ticket/28753|#28753]]) positive-review: Ramification Type for Rational Maps - Andrew O'Desky
+
+ * ([[http://trac.sagemath.org/ticket/28316|#28316]]) positive-reiew: Making an is_dynamical_belyi_map() function - Bella Tobin, Jamie Juul
+
  * ([[http://trac.sagemath.org/ticket/28292|#28292]]) positive-review: Implemented is_chebyshev and is_lattes for one dimensional projective dynamical systems - Trevor Hyde, Fiona Lu, Alex Shearer 
 
  * ([[http://trac.sagemath.org/ticket/28263|#28263]]) positive-work: Degree for Affine Morphism or Affine Dynamical System - Anna Chlopecki, Juliano Levier-Gomes 
