@@ -38,38 +38,29 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/28316|#28316]]) needs-review: Making an is_dynamical_belyi_map() function - Bianca Thompson, John Doyle, Adam Towsley 
+ * ([[http://trac.sagemath.org/ticket/28779|#28779]]) positive-review:  Error in "primes_of_bad_reduction" for DynamicalSystem - Paul Fili
 
- * ([[http://trac.sagemath.org/ticket/28292|#28292]]) needs-review: Implemented is_chebyshev and is_lattes for one dimensional projective dynamical systems - Trevor Hyde, Fiona Lu, Alex Shearer 
+ * ([[http://trac.sagemath.org/ticket/28292|#28292]]) positive-review: Implemented is_chebyshev and is_lattes for one dimensional projective dynamical systems - Trevor Hyde, Fiona Lu, Alex Shearer 
 
- * ([[http://trac.sagemath.org/ticket/28263|#28263]]) needs-work: Degree for Affine Morphism or Affine Dynamical System - Anna Chlopecki, Juliano Levier-Gomes 
+ * ([[http://trac.sagemath.org/ticket/28263|#28263]]) positive-work: Degree for Affine Morphism or Affine Dynamical System - Anna Chlopecki, Juliano Levier-Gomes 
 
- * ([[http://trac.sagemath.org/ticket/28214|#28214]]) needs-review: Compute and display graph of nth-preimage tree - Brandon Gontmacher, Joey Lupo, Wayne Peng
+ * ([[http://trac.sagemath.org/ticket/28173|#28173]]) positive-review: Implemented Is_Newton for Dynamical Systems - Anna Chlopecki, Simon Xu, Juliano Levier-Gomes, Grayson Jorgenson 
 
- * ([[http://trac.sagemath.org/ticket/28213|#28213]]) needs-review: closed sage 9.0 Renaming rational_preperiodic_points() to all_preperiodic_points() - Eric Zhu, Alex Galarraga, Bianca Thompson
-
-
- * ([[http://trac.sagemath.org/ticket/28212|#28212]]) needs-review: closed sage 9.0 Optimizing all_periodic_points() for small periods - Eric Zhu, Alex Galarraga, Bianca Thompson
-
- * ([[http://trac.sagemath.org/ticket/28173|#28173]]) needs-review: Implemented Is_Newton for Dynamical Systems - Anna Chlopecki, Simon Xu, Juliano Levier-Gomes, Grayson Jorgenson 
-
- * ([[http://trac.sagemath.org/ticket/28170|#28170]]) needs-work: enhance is_postcritically_finite, critical_point_portrait, and multiplier_spectra to work over number fields and finite fields - Heidi Benham, Julia Cai, Leopold Mayer 
+ * ([[http://trac.sagemath.org/ticket/28170|#28170]]) positive-work: enhance is_postcritically_finite, critical_point_portrait, and multiplier_spectra to work over number fields and finite fields - Heidi Benham, Julia Cai, Leopold Mayer 
 
  * ([[http://trac.sagemath.org/ticket/28107|#28107]]) needs-work: allowing invariant_generators() to take arbitrary character - Brandon Gontmacher, Ben Hutz
 
  * ([[http://trac.sagemath.org/ticket/25745|#25745]]) needs-work: Periodic Proportion Homomorphism over Finite Fields - Rebecca Lauren Miller
 
- * ([[http://trac.sagemath.org/ticket/25701|#25701]]) needs-review: Implement Sieve algorithm for product_projective space - Raghukul Raman
+ * ([[http://trac.sagemath.org/ticket/25701|#25701]]) positive-review: Implement Sieve algorithm for product_projective space - Raghukul Raman
 
  * ([[http://trac.sagemath.org/ticket/23806|#23806]]) needs-info: don't choose default affine patch on projective point init - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/23816|#23816]]) needs-review: left matrix action on scheme points - Ben Hutz
+ * ([[http://trac.sagemath.org/ticket/23740|#23740]]) positive-review: Plotting Julia sets for general polynomials - Ben Barros
 
- * ([[http://trac.sagemath.org/ticket/23740|#23740]]) new: Plotting Julia sets for general polynomials - Ben Barros
+ * ([[http://trac.sagemath.org/ticket/23720|#23720]]) positive-review: Plotting Mandelbrot sets for general polynomials - Ben Barros, Colby Kelln
 
- * ([[http://trac.sagemath.org/ticket/23720|#23720]]) needs-work: Plotting Mandelbrot sets for general polynomials - Ben Barros, Colby Kelln
-
- * ([[http://trac.sagemath.org/ticket/23047|#23047]]) new: Meta Ticket: Utilize coercion framework for scheme points and morphisms
+ * ([[http://trac.sagemath.org/ticket/23047|#23047]]) positive-review: Meta Ticket: Utilize coercion framework for scheme points and morphisms
 
  * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger\
 
@@ -80,7 +71,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  ||||||||'''Wishlist'''||
  || Area|| Description || Difficulty || Priority ||
- ||<|1> Products of Projective Spaces || Rational Points on Subschemes || Implement an efficient rational points search on subschemes. Currently it is done by enumeration unless dim is 0 || ||
  ||<|1> Polynomials || specific functionality for regular polynomial endomorphisms of P^N || || ||
  || Attracting Cycles || Check if for a given algebraic parameter c the map z -> z^2 + c is hyperbolic... and more generally for rational maps of P1 determine the existence (and list) of attracting cycles || || ||
  || Non-Integral Domains || Make projective space work over non-integral domains. One method would be to make a valid point on which is valid for modulo all maximal ideals || || ||
@@ -97,6 +87,16 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Berkovich P1 || || ||  ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/28316|#28316]])-- closed sage-9.0: Making an is_dynamical_belyi_map() function - Bianca Thompson, John Doyle, Adam Towsley 
+
+ * --([[http://trac.sagemath.org/ticket/28214|#28214]])-- closed sage-9.0: Compute and display graph of nth-preimage tree - Brandon Gontmacher, Joey Lupo, Wayne Peng
+
+ * --([[http://trac.sagemath.org/ticket/28213|#28213]])-- closed sage-9.0: Renaming rational_preperiodic_points() to all_preperiodic_points() - Eric Zhu, Alex Galarraga, Bianca Thompson
+
+ * --([[http://trac.sagemath.org/ticket/28212|#28212]])-- closed sage-9.0: Optimizing all_periodic_points() for small periods - Eric Zhu, Alex Galarraga, Bianca Thompson
+
+ * --([[http://trac.sagemath.org/ticket/23816|#23816]])-- closed sage-9.0: left matrix action on scheme points - Ben Hutz
 
  * --([[http://trac.sagemath.org/ticket/23807|#23807]])-- closed sage-8.9: fix issues with identical affine patches - Ben Hutz, Peter Bruin, Raghukul Raman
 
