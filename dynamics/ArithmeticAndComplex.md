@@ -62,13 +62,7 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
  * ([[http://trac.sagemath.org/ticket/25745|#25745]]) needs-work: Periodic Proportion Homomorphism over Finite Fields - Rebecca Lauren Miller
 
- * ([[http://trac.sagemath.org/ticket/25701|#25701]]) positive-review: Implement Sieve algorithm for product_projective space - Raghukul Raman
-
  * ([[http://trac.sagemath.org/ticket/23806|#23806]]) needs-info: don't choose default affine patch on projective point init - Ben Hutz
-
- * ([[http://trac.sagemath.org/ticket/23740|#23740]]) positive-review: Plotting Julia sets for general polynomials - Ben Barros
-
- * ([[http://trac.sagemath.org/ticket/23720|#23720]]) positive-review: Plotting Mandelbrot sets for general polynomials - Ben Barros, Colby Kelln
 
  * ([[http://trac.sagemath.org/ticket/23047|#23047]]) positive-review: Meta Ticket: Utilize coercion framework for scheme points and morphisms
 
@@ -97,6 +91,12 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Berkovich P1 || || ||  ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/25701|#25701]])-- closed sage-9.0: Implement Sieve algorithm for product_projective space - Raghukul Raman
+
+ * --([[http://trac.sagemath.org/ticket/23740|#23740]])-- closed sage-9.0: Plotting Julia sets for general polynomials - Ben Barros
+
+ * --([[http://trac.sagemath.org/ticket/23720|#23720]])-- closed sage-9.0: Plotting Mandelbrot sets for general polynomials - Ben Barros, Colby Kelln 
 
  * --([[http://trac.sagemath.org/ticket/28316|#28316]])-- closed sage-9.0: Making an is_dynamical_belyi_map() function - Bianca Thompson, John Doyle, Adam Towsley 
 
