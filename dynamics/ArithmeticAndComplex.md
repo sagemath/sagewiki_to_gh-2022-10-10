@@ -38,8 +38,6 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/28779|#28779]]) positive-review:  Error in "primes_of_bad_reduction" for DynamicalSystem - Paul Fili
-
  * ([[http://trac.sagemath.org/ticket/28773|#28773]]) new: Implementing is_chebyshev over finite fields
 
  * ([[http://trac.sagemath.org/ticket/28772|#28772]]) positive-review: Kneading sequences for the doubling map - John Doyle
@@ -91,6 +89,8 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
  || Berkovich P1 || || ||  ||
 
 == Complete ==
+
+ * --([[http://trac.sagemath.org/ticket/28779|#28779]])-- closed sage-9.0:  Error in "primes_of_bad_reduction" for DynamicalSystem - Paul Fili
 
  * --([[http://trac.sagemath.org/ticket/25701|#25701]])-- closed sage-9.0: Implement Sieve algorithm for product_projective space - Raghukul Raman
 
