@@ -38,33 +38,33 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == In Progress ==
 
- * ([[http://trac.sagemath.org/ticket/28773|#28773]]) new: Implementing is_chebyshev over finite fields
+ * ([[https://trac.sagemath.org/ticket/28773|#28773]]) new: Implementing is_chebyshev over finite fields
 
- * ([[http://trac.sagemath.org/ticket/28772|#28772]]) positive-review: Kneading sequences for the doubling map - John Doyle
+ * ([[https://trac.sagemath.org/ticket/28772|#28772]]) positive-review: Kneading sequences for the doubling map - John Doyle
 
- * ([[http://trac.sagemath.org/ticket/28771|#28771]]) new: Improve computation of canonical height for dynamical systems
+ * ([[https://trac.sagemath.org/ticket/28771|#28771]]) new: Improve computation of canonical height for dynamical systems
 
- * ([[http://trac.sagemath.org/ticket/28753|#28753]]) positive-review: Ramification Type for Rational Maps - Andrew O'Desky
+ * ([[https://trac.sagemath.org/ticket/28753|#28753]]) positive-review: Ramification Type for Rational Maps - Andrew O'Desky
 
- * ([[http://trac.sagemath.org/ticket/28316|#28316]]) positive-reiew: Making an is_dynamical_belyi_map() function - Bella Tobin, Jamie Juul
+ * ([[https://trac.sagemath.org/ticket/28316|#28316]]) positive-reiew: Making an is_dynamical_belyi_map() function - Bella Tobin, Jamie Juul
 
- * ([[http://trac.sagemath.org/ticket/28292|#28292]]) positive-review: Implemented is_chebyshev and is_lattes for one dimensional projective dynamical systems - Trevor Hyde, Fiona Lu, Alex Shearer 
+ * ([[https://trac.sagemath.org/ticket/28292|#28292]]) positive-review: Implemented is_chebyshev and is_lattes for one dimensional projective dynamical systems - Trevor Hyde, Fiona Lu, Alex Shearer 
 
- * ([[http://trac.sagemath.org/ticket/28263|#28263]]) positive-work: Degree for Affine Morphism or Affine Dynamical System - Anna Chlopecki, Juliano Levier-Gomes 
+ * ([[https://trac.sagemath.org/ticket/28263|#28263]]) positive-work: Degree for Affine Morphism or Affine Dynamical System - Anna Chlopecki, Juliano Levier-Gomes 
 
- * ([[http://trac.sagemath.org/ticket/28173|#28173]]) positive-review: Implemented Is_Newton for Dynamical Systems - Anna Chlopecki, Simon Xu, Juliano Levier-Gomes, Grayson Jorgenson 
+ * ([[https://trac.sagemath.org/ticket/28173|#28173]]) positive-review: Implemented Is_Newton for Dynamical Systems - Anna Chlopecki, Simon Xu, Juliano Levier-Gomes, Grayson Jorgenson 
 
- * ([[http://trac.sagemath.org/ticket/28170|#28170]]) positive-work: enhance is_postcritically_finite, critical_point_portrait, and multiplier_spectra to work over number fields and finite fields - Heidi Benham, Julia Cai, Leopold Mayer 
+ * ([[https://trac.sagemath.org/ticket/28170|#28170]]) positive-work: enhance is_postcritically_finite, critical_point_portrait, and multiplier_spectra to work over number fields and finite fields - Heidi Benham, Julia Cai, Leopold Mayer 
 
- * ([[http://trac.sagemath.org/ticket/28107|#28107]]) needs-work: allowing invariant_generators() to take arbitrary character - Brandon Gontmacher, Ben Hutz
+ * ([[https://trac.sagemath.org/ticket/28107|#28107]]) needs-work: allowing invariant_generators() to take arbitrary character - Brandon Gontmacher, Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/25745|#25745]]) needs-work: Periodic Proportion Homomorphism over Finite Fields - Rebecca Lauren Miller
+ * ([[https://trac.sagemath.org/ticket/25745|#25745]]) needs-work: Periodic Proportion Homomorphism over Finite Fields - Rebecca Lauren Miller
 
- * ([[http://trac.sagemath.org/ticket/23806|#23806]]) needs-info: don't choose default affine patch on projective point init - Ben Hutz
+ * ([[https://trac.sagemath.org/ticket/23806|#23806]]) needs-info: don't choose default affine patch on projective point init - Ben Hutz
 
- * ([[http://trac.sagemath.org/ticket/23047|#23047]]) positive-review: Meta Ticket: Utilize coercion framework for scheme points and morphisms
+ * ([[https://trac.sagemath.org/ticket/23047|#23047]]) positive-review: Meta Ticket: Utilize coercion framework for scheme points and morphisms
 
- * ([[http://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger\
+ * ([[https://trac.sagemath.org/ticket/21129|#21129]]) needs-review: implementation of Arakelov-Zhang pairing for rational maps - Paul Fili, Holly Krieger\
 
 
 == Wishlist ==
@@ -90,65 +90,65 @@ The arithmetic and complex dynamics functionality in Sage is currently in its in
 
 == Complete ==
 
- * --([[http://trac.sagemath.org/ticket/28779|#28779]])-- closed sage-9.0:  Error in "primes_of_bad_reduction" for DynamicalSystem - Paul Fili
+ * --([[https://trac.sagemath.org/ticket/28779|#28779]])-- closed sage-9.0:  Error in "primes_of_bad_reduction" for DynamicalSystem - Paul Fili
 
- * --([[http://trac.sagemath.org/ticket/25701|#25701]])-- closed sage-9.0: Implement Sieve algorithm for product_projective space - Raghukul Raman
+ * --([[https://trac.sagemath.org/ticket/25701|#25701]])-- closed sage-9.0: Implement Sieve algorithm for product_projective space - Raghukul Raman
 
- * --([[http://trac.sagemath.org/ticket/23740|#23740]])-- closed sage-9.0: Plotting Julia sets for general polynomials - Ben Barros
+ * --([[https://trac.sagemath.org/ticket/23740|#23740]])-- closed sage-9.0: Plotting Julia sets for general polynomials - Ben Barros
 
- * --([[http://trac.sagemath.org/ticket/23720|#23720]])-- closed sage-9.0: Plotting Mandelbrot sets for general polynomials - Ben Barros, Colby Kelln 
+ * --([[https://trac.sagemath.org/ticket/23720|#23720]])-- closed sage-9.0: Plotting Mandelbrot sets for general polynomials - Ben Barros, Colby Kelln 
 
- * --([[http://trac.sagemath.org/ticket/28316|#28316]])-- closed sage-9.0: Making an is_dynamical_belyi_map() function - Bianca Thompson, John Doyle, Adam Towsley 
+ * --([[https://trac.sagemath.org/ticket/28316|#28316]])-- closed sage-9.0: Making an is_dynamical_belyi_map() function - Bianca Thompson, John Doyle, Adam Towsley 
 
- * --([[http://trac.sagemath.org/ticket/28214|#28214]])-- closed sage-9.0: Compute and display graph of nth-preimage tree - Brandon Gontmacher, Joey Lupo, Wayne Peng
+ * --([[https://trac.sagemath.org/ticket/28214|#28214]])-- closed sage-9.0: Compute and display graph of nth-preimage tree - Brandon Gontmacher, Joey Lupo, Wayne Peng
 
- * --([[http://trac.sagemath.org/ticket/28213|#28213]])-- closed sage-9.0: Renaming rational_preperiodic_points() to all_preperiodic_points() - Eric Zhu, Alex Galarraga, Bianca Thompson
+ * --([[https://trac.sagemath.org/ticket/28213|#28213]])-- closed sage-9.0: Renaming rational_preperiodic_points() to all_preperiodic_points() - Eric Zhu, Alex Galarraga, Bianca Thompson
 
- * --([[http://trac.sagemath.org/ticket/28212|#28212]])-- closed sage-9.0: Optimizing all_periodic_points() for small periods - Eric Zhu, Alex Galarraga, Bianca Thompson
+ * --([[https://trac.sagemath.org/ticket/28212|#28212]])-- closed sage-9.0: Optimizing all_periodic_points() for small periods - Eric Zhu, Alex Galarraga, Bianca Thompson
 
- * --([[http://trac.sagemath.org/ticket/23816|#23816]])-- closed sage-9.0: left matrix action on scheme points - Ben Hutz
+ * --([[https://trac.sagemath.org/ticket/23816|#23816]])-- closed sage-9.0: left matrix action on scheme points - Ben Hutz
 
- * --([[http://trac.sagemath.org/ticket/23807|#23807]])-- closed sage-8.9: fix issues with identical affine patches - Ben Hutz, Peter Bruin, Raghukul Raman
+ * --([[https://trac.sagemath.org/ticket/23807|#23807]])-- closed sage-8.9: fix issues with identical affine patches - Ben Hutz, Peter Bruin, Raghukul Raman
 
- * --([[http://trac.sagemath.org/ticket/28200|#28200]])-- closed sage-8.9: reduce base field for scheme morphisms - Ben Hutz
+ * --([[https://trac.sagemath.org/ticket/28200|#28200]])-- closed sage-8.9: reduce base field for scheme morphisms - Ben Hutz
 
- * --([[http://trac.sagemath.org/ticket/28174|#28174]])-- closed sage-8.9: Fixed typo for dehomogenization of non-endomorphisms - Matt Torrence, Henry Talbott 
+ * --([[https://trac.sagemath.org/ticket/28174|#28174]])-- closed sage-8.9: Fixed typo for dehomogenization of non-endomorphisms - Matt Torrence, Henry Talbott 
 
- * --([[http://trac.sagemath.org/ticket/28169|#28169]])-- closed sage-8.9: Option for adjugate in conjugation function with normalize_coordinates - Meghan Grip, Emily Rachfal, Talia Blum, John Doyle
+ * --([[https://trac.sagemath.org/ticket/28169|#28169]])-- closed sage-8.9: Option for adjugate in conjugation function with normalize_coordinates - Meghan Grip, Emily Rachfal, Talia Blum, John Doyle
 
- * --([[http://trac.sagemath.org/ticket/28161|#28161]])-- closed sage-8.9: Make _number_field_from_algebraics() return a dynamical system - Jasmine Camero, Olivia Schwager
+ * --([[https://trac.sagemath.org/ticket/28161|#28161]])-- closed sage-8.9: Make _number_field_from_algebraics() return a dynamical system - Jasmine Camero, Olivia Schwager
 
- * --([[http://trac.sagemath.org/ticket/28148|#28148]])-- closed sage-8.9: sigma_invariants() bug over FunctionFields - Joey Lupo
+ * --([[https://trac.sagemath.org/ticket/28148|#28148]])-- closed sage-8.9: sigma_invariants() bug over FunctionFields - Joey Lupo
 
- * --([[http://trac.sagemath.org/ticket/28109|#28109]])-- closed sage-8.9: Renaming and improvement of periodic point methods - Erich Zhu, Alex Galarrage, Biance Thompson
+ * --([[https://trac.sagemath.org/ticket/28109|#28109]])-- closed sage-8.9: Renaming and improvement of periodic point methods - Erich Zhu, Alex Galarrage, Biance Thompson
 
- * --([[http://trac.sagemath.org/ticket/28071|#28071]])-- closed sage-8.9: Enhance global_height functionality for other fields - Talia Blum, Trevor Hyde, Joey Lupo, Matt Torrence
+ * --([[https://trac.sagemath.org/ticket/28071|#28071]])-- closed sage-8.9: Enhance global_height functionality for other fields - Talia Blum, Trevor Hyde, Joey Lupo, Matt Torrence
 
- * --([[http://trac.sagemath.org/ticket/28070|#28070]])-- closed sage-8.9: is_conjugate bug fix and enhancements - Colby Kelln, Leopold Mayer, Wayne Peng, Srinjoy Srimani, Ben Hutz
+ * --([[https://trac.sagemath.org/ticket/28070|#28070]])-- closed sage-8.9: is_conjugate bug fix and enhancements - Colby Kelln, Leopold Mayer, Wayne Peng, Srinjoy Srimani, Ben Hutz
 
- * --([[http://trac.sagemath.org/ticket/28065|#28065]])-- closed sage-8.9: Rational Preimages of Non-endomorphisms - Anna Chlopecki
+ * --([[https://trac.sagemath.org/ticket/28065|#28065]])-- closed sage-8.9: Rational Preimages of Non-endomorphisms - Anna Chlopecki
 
- * --([[http://trac.sagemath.org/ticket/28032|#28032]])-- closed sage-8.9: Automorphism group for some degree 1 maps - Shuofeng Xu, Max Weinreich, Brandon Gontmacher, Heidi Benham
+ * --([[https://trac.sagemath.org/ticket/28032|#28032]])-- closed sage-8.9: Automorphism group for some degree 1 maps - Shuofeng Xu, Max Weinreich, Brandon Gontmacher, Heidi Benham
 
- * --([[http://trac.sagemath.org/ticket/28028|#28028]])-- closed sage-8.9: Enhance change_ring method on morphisms to use canonical embedding when possible, give clearer error in other cases - Henry Talbot
+ * --([[https://trac.sagemath.org/ticket/28028|#28028]])-- closed sage-8.9: Enhance change_ring method on morphisms to use canonical embedding when possible, give clearer error in other cases - Henry Talbot
 
- * --([[http://trac.sagemath.org/ticket/28027|#28027]])-- closed sage-8.9: Adding cyclegraph functionality to product projective dynamical systems - Alex Galarrage, Alex Shearer, Eric Zhu
+ * --([[https://trac.sagemath.org/ticket/28027|#28027]])-- closed sage-8.9: Adding cyclegraph functionality to product projective dynamical systems - Alex Galarrage, Alex Shearer, Eric Zhu
 
- * --([[http://trac.sagemath.org/ticket/28026|#28026]])-- closed sage-8.9: missing parameter in critical_point_portrait for dynamical systems - Brandon Gontmacher, Max Weinreich, Juliano Leveier
+ * --([[https://trac.sagemath.org/ticket/28026|#28026]])-- closed sage-8.9: missing parameter in critical_point_portrait for dynamical systems - Brandon Gontmacher, Max Weinreich, Juliano Leveier
 
- * --([[http://trac.sagemath.org/ticket/28024|#28024]])-- closed sage-8.9: Add FractionField support to specialization - Matt Torrence
+ * --([[https://trac.sagemath.org/ticket/28024|#28024]])-- closed sage-8.9: Add FractionField support to specialization - Matt Torrence
 
- * --([[http://trac.sagemath.org/ticket/27995|#27995]])-- closed sage-8.9: normal_form should Return the Embedding when working over a Finite Field - Meghan Grip, Julia Cai, Srinjoy Srimani, Grayson Jorgenson
+ * --([[https://trac.sagemath.org/ticket/27995|#27995]])-- closed sage-8.9: normal_form should Return the Embedding when working over a Finite Field - Meghan Grip, Julia Cai, Srinjoy Srimani, Grayson Jorgenson
 
- * --([[http://trac.sagemath.org/ticket/27994|#27994]])-- closed sage-8.9: Name mismatch on affine space and projective space constructors - Matt Torrence, Olivia Schwager, Shuofeng Xu
+ * --([[https://trac.sagemath.org/ticket/27994|#27994]])-- closed sage-8.9: Name mismatch on affine space and projective space constructors - Matt Torrence, Olivia Schwager, Shuofeng Xu
 
- * --([[http://trac.sagemath.org/ticket/27992|#27992]])-- closed sage-8.9: sanity check parameter added to prime_list in minimal_model - Talia Blum, Jasmine Camero, Joey Lupo
+ * --([[https://trac.sagemath.org/ticket/27992|#27992]])-- closed sage-8.9: sanity check parameter added to prime_list in minimal_model - Talia Blum, Jasmine Camero, Joey Lupo
 
- * --([[http://trac.sagemath.org/ticket/27985|#27985]])-- closed sage-8.9: Make dynatomic polynomial coerce base ring - Henry Talbot
+ * --([[https://trac.sagemath.org/ticket/27985|#27985]])-- closed sage-8.9: Make dynatomic polynomial coerce base ring - Henry Talbot
 
- * --([[http://trac.sagemath.org/ticket/27984|#27984]])-- closed sage-8.9: Coercion of inputs of orbit into projective space - Emily Rachfal
+ * --([[https://trac.sagemath.org/ticket/27984|#27984]])-- closed sage-8.9: Coercion of inputs of orbit into projective space - Emily Rachfal
 
- * --([[http://trac.sagemath.org/ticket/27983|#27983]])-- closed sage-8.9: Add monic=True option for chebyshev creator - Leo Mayer
+ * --([[https://trac.sagemath.org/ticket/27983|#27983]])-- closed sage-8.9: Add monic=True option for chebyshev creator - Leo Mayer
 
  * --([[http://trac.sagemath.org/ticket/27982|#27982]])-- closed sage-8.9: Make Lattes map for projective space coerce base ring - Ben Hutz
 
