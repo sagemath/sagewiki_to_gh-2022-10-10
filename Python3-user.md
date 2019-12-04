@@ -52,7 +52,7 @@ range(1, 5, 2)
 sage-9.0: type(range(5))
 <class 'range'>
 }}}
-The main advantage of this range object in Python 3 is when you perform a simple iteratation `for i in range(1000)`. In Python 2 this would have created a list of 1000 elements and then iterated through it. In Python 3, there is no list creation and hence no memory allocation for these 1000 elements.
+The main advantage of this range object in Python 3 is when you perform a simple iteration `for i in range(1000)`. In Python 2 this would have created a list of 1000 elements and then iterated through it. In Python 3, there is no list creation and hence no memory allocation for these 1000 elements.
 
 
 The iterator `xrange` is no longer valid in Python 3 simply use `range` instead.
