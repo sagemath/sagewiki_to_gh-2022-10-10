@@ -11,6 +11,19 @@ software people are interested in.
 Start the year learning, working on projects, contributing.
 
 
+== Participants ==
+
+Confirmed participants
+
+  * Aaron Fenyes (IHES, Bures sur Yvette, France)
+  * Alba Marina Málaga Sabogal (Brown University, Providence, USA)
+  * Charles Fougeron (IRIF, Paris, France)
+  * Samuel Lelièvre (LMO, Orsay, France)
+
+Add yourself and/or email the organisers to attend.
+See "registration" below.
+
+
 == Themes ==
 
 So far there is interest in the following (please add your themes):
@@ -91,7 +104,8 @@ Participation is free, everyone is welcome.
 
 It's fine to come for only part of these Sage Days.
 
-Please contact the organisers if you plan to join.
+The organisers will be happy to know you plan to join,
+send them an email if you can.
 
   * [[https://albamath.com|Alba Málaga]]
   * [[https://www.math.u-psud.fr/~lelievre|Samuel Lelièvre]]
@@ -116,6 +130,7 @@ Anyone can offer or request a talk or presentation.
 
   * Thu 02 Jan 2020 to Mon 06 Jan 2020
 
-    * 10:00: Welcome, tutorial, help, work in groups
+    * 10:00: Welcome, tutorial, help, work on projects
     * 12:30: Discuss afternoon plans over lunch
+    * 13:30: Welcome, tutorial, help, work on projects
     * 16:30: Status report and demos
