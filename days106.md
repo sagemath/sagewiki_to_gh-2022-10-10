@@ -1,8 +1,8 @@
 = Journées Sage 106 -- Sage Days 106 =
 
-Les journées Sage 106 se tiendront à  Orsay du 2 au 6 janvier 2020.
+Les journées Sage 106 auront lieu à Orsay 2 au 6 janvier 2020.
 
-Sage Days 106 will meet in Orsay, 02--06 Jan 2020.
+Sage Days 106 will meet at in Orsay, 02--06 Jan 2020.
 
 
 == Aperçu -- Overview ==
@@ -16,6 +16,19 @@ des projets avec ces logiciels, ou en y contribuant.
 Informal gathering around !SageMath -- and any other math
 software people are interested in. Start the year learning,
 working on projects, contributing.
+
+
+== Lieu -- Venue ==
+
+Laboratoire de mathématique d'Orsay, bâtiment 307,
+rue Michel Magat, campus de la Faculté des sciences d'Orsay.
+
+Salle à préciser.
+
+Orsay Mathematics Laboratory, building 307,
+rue Michel Magat, Orsay faculty of science campus.
+
+Room to be announced.
 
 
 == Participants ==
