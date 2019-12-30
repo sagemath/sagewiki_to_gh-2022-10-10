@@ -38,7 +38,9 @@ Participant-es confimé-es -- Confirmed participants
   * Aaron Fenyes (IHES, Bures-sur-Yvette, France)
   * Alba Marina Málaga Sabogal (Brown University, Providence, USA)
   * Charles Fougeron (IRIF, Paris, France)
+  * Nicolas M. Thiéry (LRI, Orsay, France)
   * Samuel Lelièvre (LMO, Orsay, France)
+  * Viviana del Barco (LMO, Orsay, France)
 
 Vous pouvez ajouter votre nom, ou écrire aux organisateur-es,
 voir la rubrique "Inscription" plus bas.
