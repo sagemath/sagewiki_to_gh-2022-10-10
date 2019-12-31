@@ -20,15 +20,16 @@ working on projects, contributing.
 
 == Lieu -- Venue ==
 
-Laboratoire de mathématique d'Orsay, bâtiment 307,
-rue Michel Magat, campus de la Faculté des sciences d'Orsay.
+Laboratoire de mathématique d'Orsay
+Bâtiment 307, rue Michel Magat
+campus de la Faculté des sciences d'Orsay.
 
-Salle à préciser.
+Salle 1F12 (salle du conseil).
 
 Orsay Mathematics Laboratory, building 307,
 rue Michel Magat, Orsay faculty of science campus.
 
-Room to be announced.
+Room 1F12 (salle du conseil).
 
 
 == Participants ==
