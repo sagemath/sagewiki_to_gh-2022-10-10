@@ -31,8 +31,7 @@ rue Michel Magat, Orsay faculty of science campus.
 
 Room 1F12 (salle du conseil).
 
-
-== Participants ==
+== Participant-es -- Participants ==
 
 Participant-es confimé-es -- Confirmed participants
 
@@ -152,3 +151,57 @@ or working on a project.
     * 12:30: Discuss afternoon plans over lunch
     * 13:30: Welcome, tutorial, help, work on projects
     * 16:30: Status report and demos
+
+
+== Événements voisins - Neighbouring events ==
+
+Signalons ces événements "voisins":
+
+  * Exposition Ludomaths -- explorer, construire et jouer en faisant des maths
+
+    * L'association [[http://paestel.fr/Paestel]] en partenariat
+    avec la [[https://www.ville-massy.fr/|ville de Massy]]
+    ont invité cette exposition créée par l'association
+    [[https://scienceouverte.fr|Science ouverte]].
+
+    * du 12 décembre 2019 au 25 janvier 2020
+    * à l'Opéra de Massy
+    * https://www.ville-massy.fr/evenements/ludomaths/
+    * http://paestel.fr/ludomathsmassy
+
+  * Soutenance de thèse de Camille Labourie
+
+    * lundi 6 janvier 2020 à 15:00
+    * amphithéâtre Jean-Christophe Yoccoz, Institut de mathématiques d'Orsay
+
+  * Atelier de développement des widgets Jupyter
+
+    * Quoi: sprint e développement des widgets Jupyter
+    * Date: 06-10 janvier 2020, 09:30--18:00
+    * Lieu: CFM, 23 rue de l'Université, 75007 Paris
+    * https://github.com/jupyter-widgets/ipywidgets/issues/2641
+
+Let us mention these neighbouring events:
+
+  * Ludomaths exhibition -- explore, build and play doing math
+
+    * The association [[http://paestel.fr/Paestel]] partnered
+    with the [[https://www.ville-massy.fr/|city of Massy]]
+    to invite this exhibition created by the association
+    [[https://scienceouverte.fr|Science ouverte]].
+
+    * 12 Dec 2019 to 25 Jan 2020
+    * at Opéra de Massy
+    * https://www.ville-massy.fr/evenements/ludomaths/
+    * http://paestel.fr/ludomathsmassy
+
+  * PhD defense of Camille Labourie
+
+    * Mon 06 Jan 2020, 15:00
+    * amphitheater Jean-Christophe Yoccoz, Orsay Mathematics Institute
+
+  * Jupyter widgets code developer sprint
+
+    * Date: 06-10 Jan 2020, 09:30--18:00
+    * Location: CFM, 23 rue de l'Université, 75007 Paris
+    * https://github.com/jupyter-widgets/ipywidgets/issues/2641
