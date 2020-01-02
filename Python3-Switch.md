@@ -4,7 +4,7 @@
 
 Starting from version 9.0 (released in January 2020), !SageMath is running on top of '''Python 3'''.
 
-The change from Python 2 to Python 3 has already been made by all major scientific software based on Python, including !NumPy, !SciPy and Jupyter. It becomes more and more common for scientific Python software to work only under Python 3. Moreover, the official end of life for Python 2 is the end of 2019 (see the [[https://pythonclock.org/|countdown]])
+The change from Python 2 to Python 3 has already been made by all major scientific software based on Python, including !NumPy, !SciPy and Jupyter. It becomes more and more common for scientific Python software to work only under Python 3. Moreover, the official end of life for Python 2 was the end of 2019.
 
 Python 3 has some major backward incompatibilities with Python2, and adapting !SageMath code from Python 2 to Python 3 takes some care and some work. Some basic instructions for doing that can be found in the following wiki pages
 
