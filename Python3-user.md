@@ -41,7 +41,7 @@ sage-8.9: range(5)
 sage-8.9: type(range(5))
 <type 'list'>
 }}}
-In Python 3, `range` is an object that somehow behave as a list (ie elements can still be acessed with square bracket, it has a length, etc) but it is not a list.
+In Python 3, `range` is an object that somehow behave as a list (ie elements can still be accessed with square bracket, it has a length, etc) but it is not a list.
 {{{#!highlight python
 sage-9.0: range(5)
 range(0, 5)
