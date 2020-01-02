@@ -4,7 +4,28 @@ Cette page recense les projets proposés. Ajoutez-vous ou ajoutez-en.
 
 This page lists proposed projects. Add yourself or add projects.
 
-== Blender and !SageMath ==
+== Introduction to Sage
+
+Alba, Christian, Viviana
+
+  * follow the tutorials from Sage Days 93.5 (Saint-Flour) and Sage Days 93.52 (Grenoble)
+
+== Lie algebras ==
+
+Viviana
+
+  * learn about Lie algebras in Sage
+  * translate some Lie algebra code from Maple
+  * geometry of Lie groups
+
+== Combinatorics ==
+
+Christian
+
+  * Grammars for sets of lattice paths
+  * Permutations with patterns
+
+== Blender and SageMath ==
 
 Alba, Samuel
 
