@@ -34,4 +34,4 @@ make build
 }}}
 Beware that you will need to call the second line again if you ever call "make distclean".
 
-This will work until version 9.1 at least. Then the backward compatibility with Python 2 will no longer be ensured.
+This will work with version 9.0. Then the backward compatibility with Python 2 will no longer be ensured.
