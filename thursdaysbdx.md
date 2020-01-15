@@ -45,6 +45,17 @@ Idées et Projets en cours:
 
 == Compte-rendus ==
 
+==== jeudi 16 janvier 2020 ====
+
+Selon [[https://ask.sagemath.org/question/42876/other-than-jupyter-notebook-is-there-any-other-way-to-use-sage/|ask]], voici les commandes à faire sur mac quand on installe Sage avant de pouvoir utiliser pip et installer un package comme jupyterlab:
+
+{{{
+cd $SAGE_ROOT
+./sage -i openssl && ./sage -f python3 && make ssl
+sage –pip install jupyterlab
+}}}
+
+
 ==== jeudi 14 nov 2019 ====
 
 Présents: Sébastien, Jennifer, Pascal
