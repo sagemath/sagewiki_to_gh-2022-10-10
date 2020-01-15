@@ -47,7 +47,7 @@ Idées et Projets en cours:
 
 ==== jeudi 16 janvier 2020 ====
 
-Selon [[https://ask.sagemath.org/question/42876/other-than-jupyter-notebook-is-there-any-other-way-to-use-sage/|ask]], voici les commandes à faire sur mac quand on installe Sage avant de pouvoir utiliser pip et installer un package comme jupyterlab:
+Selon [[https://ask.sagemath.org/question/42876/other-than-jupyter-notebook-is-there-any-other-way-to-use-sage/|ask]], voici les commandes à faire quand on installe une version binaire de !SageMath avant de pouvoir utiliser pip et installer un package comme jupyterlab:
 
 {{{
 cd $SAGE_ROOT
