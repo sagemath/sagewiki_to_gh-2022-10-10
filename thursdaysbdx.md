@@ -49,13 +49,13 @@ Idées et Projets en cours:
 
 Présents: Sébastien, Jennifer, Pascal, Casey
 
-Aujourd'hui, on a revu les différence en Python2 et Python3. On trouvera ici un résumé des changements dans le passage à Python 3:
+Aujourd'hui, on a revu les différences en Python2 et Python3. On trouvera ici un résumé des changements dans le passage à Python 3:
 
 https://docs.python.org/3.0/whatsnew/3.0.html
 
 https://stackoverflow.com/questions/5031625/python-3-syntax-changes
 
-On a aidé Pascal à faire fonctionner sage-9.0 sur OSX. Les nouvelles versions de OSX ont des contraintes de sécurité contraignante empêchant d'ouvrir Sage comme répondu ici par Sylvain:
+On a aidé Pascal à faire fonctionner sage-9.0 sur OSX. Les nouvelles versions de OSX ont des contraintes de sécurité contraignantes empêchant d'ouvrir Sage comme répondu ici par Sylvain:
 
 https://ask.sagemath.org/question/49572/sage-90-installation-issues-on-macos-10152-catalina/
 
