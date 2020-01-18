@@ -65,6 +65,12 @@ Finalement, Casey et Jennifer ont testé la nouvelle interface jupyterlab que l'
 sage –pip install jupyterlab
 }}}
 
+et ouvrir comme suit:
+
+{{{
+sage –n jupyterlab
+}}}
+
 Tel que rappelé ici sur [[https://ask.sagemath.org/question/42876/other-than-jupyter-notebook-is-there-any-other-way-to-use-sage/|ask]], rappelons que quelques commandes sont nécessaires après l'installation d'une version brute de !SageMath avant de pouvoir utiliser pip et installer un package comme jupyterlab:
 
 {{{
