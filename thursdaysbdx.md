@@ -47,7 +47,23 @@ Idées et Projets en cours:
 
 ==== jeudi 16 janvier 2020 ====
 
-Selon [[https://ask.sagemath.org/question/42876/other-than-jupyter-notebook-is-there-any-other-way-to-use-sage/|ask]], voici les commandes à faire quand on installe une version binaire de !SageMath avant de pouvoir utiliser pip et installer un package comme jupyterlab:
+Aujourd'hui, on a revu les différence en Python2 et Python3. On trouvera ici un résumé des changements dans le passage à Python 3:
+
+https://docs.python.org/3.0/whatsnew/3.0.html
+
+https://stackoverflow.com/questions/5031625/python-3-syntax-changes
+
+On a aidé Pascal à faire fonctionner sage-9.0 sur OSX. Les nouvelles versions de OSX ont des contraintes de sécurité contraignante empêchant d'ouvrir Sage comme répondu ici par Sylvain:
+
+https://ask.sagemath.org/question/49572/sage-90-installation-issues-on-macos-10152-catalina/
+
+Finalement, Casey et Jennifer ont testé la nouvelle interface jupyterlab que l'on peut installer comme suit:
+
+{{{
+sage –pip install jupyterlab
+}}}
+
+Tel que rappelé ici sur [[https://ask.sagemath.org/question/42876/other-than-jupyter-notebook-is-there-any-other-way-to-use-sage/|ask]], rappelons que quelques commandes sont nécessaires après l'installation d'une version brute de !SageMath avant de pouvoir utiliser pip et installer un package comme jupyterlab:
 
 {{{
 cd $SAGE_ROOT
@@ -66,12 +82,6 @@ SageMath vient de passer à Python 3, version 3.7.3:
 └────────────────────────────────────────────────────────────────────┘
 sage:
 }}}
-
-Dans tous les cas, on trouvera ici un résumé des changements dans le passage à Python 3:
-
-https://docs.python.org/3.0/whatsnew/3.0.html
-
-https://stackoverflow.com/questions/5031625/python-3-syntax-changes
 
 ==== jeudi 14 nov 2019 ====
 
