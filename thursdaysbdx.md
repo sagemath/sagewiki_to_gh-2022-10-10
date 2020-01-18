@@ -55,6 +55,23 @@ cd $SAGE_ROOT
 sage –pip install jupyterlab
 }}}
 
+==== jeudi 9 janvier 2020 ====
+
+SageMath vient de passer à Python 3, version 3.7.3:
+
+{{{
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 9.0, Release Date: 2020-01-01                     │
+│ Using Python 3.7.3. Type "help()" for help.                        │
+└────────────────────────────────────────────────────────────────────┘
+sage:
+}}}
+
+Dans tous les cas, on trouvera ici un résumé des changements dans le passage à Python 3:
+
+https://docs.python.org/3.0/whatsnew/3.0.html
+
+https://stackoverflow.com/questions/5031625/python-3-syntax-changes
 
 ==== jeudi 14 nov 2019 ====
 
