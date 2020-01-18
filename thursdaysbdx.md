@@ -47,6 +47,8 @@ Idées et Projets en cours:
 
 ==== jeudi 16 janvier 2020 ====
 
+Présents: Sébastien, Jennifer, Pascal, Casey
+
 Aujourd'hui, on a revu les différence en Python2 et Python3. On trouvera ici un résumé des changements dans le passage à Python 3:
 
 https://docs.python.org/3.0/whatsnew/3.0.html
@@ -86,6 +88,8 @@ sage:
 ==== jeudi 14 nov 2019 ====
 
 Présents: Sébastien, Jennifer, Pascal
+
+On a parlé de mutabilité, de fonctions de hash et structures de données en Python.
  
 Passage à Python 3: voir ce [[https://www.artima.com/weblogs/viewpost.jsp?thread=98196|message]] de mars 2005 de Guido van Rossum au sujet de map, filter, lambda, reduce.
 
