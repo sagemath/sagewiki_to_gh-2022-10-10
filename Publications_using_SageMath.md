@@ -1,5 +1,5 @@
 ## page was renamed from Publications_using_SAGE
-== Technical/Scholarly Publications Citing SageMath ==
+== Citing SageMath in Technical/Scholarly Publications ==
 
 If you use !SageMath in a book, paper, website, etc., please [[https://www.sagemath.org/contact.html | contact us]] about details of the publication, e.g. where is it published, provide a link to your publication. Alternatively, send us a [[ https://github.com/sagemath/publications/ | pull request ]].
 
