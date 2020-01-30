@@ -1,8 +1,8 @@
 = Journées Sage 107 -- Sage Days 107 =
 
-Les journées Sage 107 auront lieu à Paris ou Orsay, du 17 au 21 février 2020.
+Les journées Sage 107 auront lieu à Orsay, du 17 au 21 février 2020.
 
-Sage Days 107 will take place in Paris or Orsay, 17--21 Feb 2020.
+Sage Days 107 will take place in Orsay, 17--21 Feb 2020.
 
 
 == Aperçu -- Overview ==
@@ -17,7 +17,7 @@ La rencontre s'adresse aux débutant-es, l'objectif premier est
 
  * la découverte et l'initiation
 
-On proposera aussi s'intéresser aussi à l'illustration mathématique:
+On proposera aussi s'intéresser à l'illustration mathématique:
 
  * illustrer des notes de cours ou des articles de recherche
  * créer des modèles pour l'impression 3d, la découpe et la gravure laser, etc.
@@ -30,7 +30,7 @@ The target audience is beginners, with a primary focus on
 
  * discovery and initiation
 
-Optionally there will be an opportunity to focus on illustrating mathematics:
+There will also be a focus on illustrating mathematics:
 
  * illustrating lecture notes or research articles
  * create models for 3d-printing, laser engraving and cutting, etc.
@@ -38,9 +38,15 @@ Optionally there will be an opportunity to focus on illustrating mathematics:
 
 == Lieu -- Venue ==
 
-Paris ou Orsay.
+Les journées Sage auront lieu à Orsay, plus précisément:
 
-Paris or Orsay.
+ * Institut de mathématique d'Orsay, bâtiment 307, campus Orsay-vallée.
+ * Accès par la station RER B "Orsay-ville".
+
+These Sage days will take place in Orsay, more precisely:
+
+ * Orsay Mathematics Institute, building 307, Orsay valley campus.
+ * Access via the "Orsay-ville" RER B station.
 
 
 == Participant-es -- Participants ==
