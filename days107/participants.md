@@ -18,3 +18,4 @@ This list will be updated as participants register.
  * Eric Gourgoulhon (Laboratoire Univers et théorie, CNRS et Observatoire de Paris, France)
  * Samuel Lelièvre (LMO, Université Paris-Saclay, France)
  * Camille Labourie (LMO, Université Paris-Saclay, France)
+ * François Gaudel (Sciences Ouvertes)
