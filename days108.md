@@ -8,7 +8,7 @@ The workshop will focus on introducing the [[https://gnu.org/philosophy/free-sw.
 
 Date: 12 July 2020, the Sunday preceding [[https://fpsac2020.math.biu.ac.il/|FPSAC 2020]].
 
-Location: [[https://www1.biu.ac.il/indexE.php|Bar-Ilan University]], Ramat-Gan, Isreal.
+Location: [[https://www1.biu.ac.il/indexE.php|Bar-Ilan University]], Ramat-Gan, Israel.
 
 == Registration ==
 
