@@ -6,8 +6,34 @@ The workshop will focus on introducing the [[https://gnu.org/philosophy/free-sw.
 
 == Date and venue ==
 
-Date: 12 July 2020, the Sunday before [[https://fpsac2020.math.biu.ac.il/|FPSAC 2020]].
+Date: 12 July 2020, the Sunday preceding [[https://fpsac2020.math.biu.ac.il/|FPSAC 2020]].
 
-Location: Bar-Ilan University, Ramat-Gan, Isreal.
+Location: [[https://www1.biu.ac.il/indexE.php|Bar-Ilan University]], Ramat-Gan, Isreal.
+
+== Registration ==
+
+To be updated.
+
+== Installing SageMath ==
+
+As this is a one-day event, it will be ''very useful'' to have SageMath pre-installed on your computer before the workshop. Any of the following is good:
+
+ * Install from [[https://doc.sagemath.org/html/en/installation/binary.html|pre-build binaries]]. This is the easy and fast way. Either go to the [[https://www.sagemath.org/download.html|Download section]] of the SageMath website, or use a package manager on Linux.
+
+ * Install from [[https://doc.sagemath.org/html/en/installation/source.html|source code]]. This takes longer, but will allow you to install the latest development version. To develop code for SageMath, this is the way to go.
+
+ * Open an account on [[https://cocalc.com|CoCalc]]. This allow you to use SageMath in the browser without installing anything, but requires internet connection.
 
 == Local Information ==
+
+Highlights from the [[http://math-wiki.com/index.php?title=Visitors|visitors page]] of the Department of Mathematics:
+
+ * [[https://en.wikivoyage.org/wiki/Public_transit_in_Israel|Public transportation in Israel]] requires the ownership of a [[https://ravkavonline.co.il/en|Rav-Kav]] card. If you plan to use buses in Israel, make sure to get one at the airport. The [[https://moovitapp.com/|Moovit]] app is popular to find routes.
+
+ * The local currency is [[https://en.wikipedia.org/wiki/Israeli_new_shekel|New Israeli Shekel]], abbreviated NIS or ILS.
+
+ * On the [[https://www.biu.ac.il/Tour/campus-map.pdf|campus map (PDF)]] you can find the main pedestrain gate #2 in a red triangle. Gate #40 is closest to many bus stations. You will be asked to present a '''photo ID''' when entering the university.
+
+ * [[https://www.power-plugs-sockets.com/israel|Power plugs and electricity in Israel]]: For a computer charger you might need an adapter for the [[https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets#Israel_SI32_(Type_H)|type H socket]]. Appliances like a phone charger using Type C plugs (most of Europe) are compatible with it.
+
+ * The campus has eduroam and an open Wi``Fi network.
