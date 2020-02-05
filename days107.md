@@ -1,8 +1,10 @@
-= Outils logiciels pour les mathématiques et l'illustration = 
+= Outils logiciels pour les mathématiques et l'illustration =
+
+== Journées Sage 107 ==
 
 = Software tools for mathematics and illustration =
 
-== Journées Sage 107 -- Sage Days 107 ==
+== Sage Days 107 ==
 
 Une rencontre «Outils logiciels pour les mathématiques et l'illustration»
 aura lieu à Orsay, du 17 au 21 février 2020.
