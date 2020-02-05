@@ -1,9 +1,20 @@
-= Journées Sage 107 -- Sage Days 107 =
+= Outils logiciels pour les mathématiques et l'illustration = 
 
-Les journées Sage 107 auront lieu à Orsay, du 17 au 21 février 2020.
+= Software tools for mathematics and illustration =
 
-Sage Days 107 will take place in Orsay, 17--21 Feb 2020.
+== Journées Sage 107 -- Sage Days 107 ==
 
+Une rencontre «Outils logiciels pour les mathématiques et l'illustration»
+aura lieu à Orsay, du 17 au 21 février 2020.
+
+Entre autres logiciels, on y parlera de Sage, et à ce titre la rencontre est
+répertoriée parmi les «journées Sage» et porte le numéro 107 dans cette série.
+
+A conference on Software tools for mathematics and illustration
+will take place in Orsay, 17--21 Feb 2020.
+
+Among other software, there will be presentations about Sage, and we thus
+include this conference in the "Sage Days" series, with the number 107.
 
 == Aperçu -- Overview ==
 
@@ -15,7 +26,7 @@ les autres logiciels de mathématiques étant les bienvenus aussi.
 
 La rencontre s'adresse aux débutant-es, l'objectif premier est
 
- * la découverte et l'initiation
+ * découverte et initiation, avec beaucoup de tutoriels
 
 On proposera aussi s'intéresser à l'illustration mathématique:
 
@@ -28,7 +39,7 @@ and especially mathematical and modelling software, with an emphasis on
 
 The target audience is beginners, with a primary focus on
 
- * discovery and initiation
+ * discovery and initiation, with lots of tutorials
 
 There will also be a focus on illustrating mathematics:
 
@@ -40,11 +51,13 @@ There will also be a focus on illustrating mathematics:
 
 Les journées Sage auront lieu à Orsay, plus précisément:
 
- * Institut de mathématique d'Orsay, bâtiment 307, campus Orsay-vallée.
+ * Salle du conseil (salle 1F12), premier étage.
+ * Institut de mathématique d'Orsay, bâtiment 307, rue Michel Magat.
  * Accès par la station RER B "Orsay-ville".
 
 These Sage days will take place in Orsay, more precisely:
 
+ * Salle du conseil (room 1F12), first floor.
  * Orsay Mathematics Institute, building 307, Orsay valley campus.
  * Access via the "Orsay-ville" RER B station.
 
@@ -106,9 +119,13 @@ plus spécifiquement consacrés aux logiciels de mathématiques.
  * lundi et mardi: formation "Software Carpentry"
  * mercredi, jeudi, vendredi: logiciels de mathématiques
 
+Les horaires chaque jour seront 09:00--17:30.
+
 We will spend two days on general computer tools (the Unix shell,
 version control with Git, and programming with Python), and follow
 with three days on mathematical software.
 
  * Monday, Tuesday: "Software Carpentry" training
  * Wednesday, Thursday, Friday: mathematical software
+
+The activities each day will be from 09:00 to 17:30.
