@@ -95,11 +95,13 @@ Please check traffic conditions for public transport:
 
 == Inscription -- Registration ==
 
-Un formulaire d'inscription sera bientôt disponible.
-Écrire à Samuel Lelièvre pour recevoir un lien par courriel.
+Pour participer, merci de remplir le formulaire d'inscription:
 
-A registration form will be available shortly.
-Email Samuel Lelièvre to be notified when it is.
+ * https://framaforms.org/outils-logiciels-orsay-2020-02-1580929351
+
+To participate, please fill in the registration form:
+
+ * https://framaforms.org/outils-logiciels-orsay-2020-02-1580929351
 
 
 == Financement -- Funding ==
@@ -107,8 +109,7 @@ Email Samuel Lelièvre to be notified when it is.
 Si vous avez besoin de financement pour assister à ces journées,
 indiquez-le dans le formulaire d'inscription.
 
-Fill in the corresponding part of the registration form
-if you need funding.
+If you need funding to attend, please say so in the registration form.
 
 
 == Programme -- Schedule ==
