@@ -320,7 +320,7 @@ def EulerMaruyamaExample(mu = slider(srange(0,10,.1),default=2.0),
                         clear_plot = checkbox(True), 
                         auto_update=False):
     html('<center>Example of the Euler-Maruyama method applied to<br>the stochastic differential equation for geometric Brownian motion</center>')
-    html('<center>$S = S_0 + \int_0^t \mu S dt + \int_0^t \sigma S dW$</center>')
+    html(r'<center>$S = S_0 + \int_0^t \mu S dt + \int_0^t \sigma S dW$</center>')
     emplot = list_plot(EulerMaruyama(0,1,1,number_of_steps,lambda x: mu*x,lambda x:sigma*x),plotjoined=True)
     for i in range(1,plots_at_a_time):
         emplot = emplot + list_plot(EulerMaruyama(0,1,1,100,lambda x: mu*x,lambda x:sigma*x),plotjoined=True)
