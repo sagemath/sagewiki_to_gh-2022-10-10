@@ -24,7 +24,7 @@ def bisect_method(f, a, b, eps):
         elif fc*fb < 0:
             a, b = c, b
         else:
-            raise ValueError, "f must have a sign change in the interval (%s,%s)"%(a,b)
+            raise ValueError("f must have a sign change in the interval (%s,%s)"%(a,b))
         intervals.append((a,b))
 pretty_print(html("<h1>Double Precision Root Finding Using Bisection</h1>"))
 @interact
