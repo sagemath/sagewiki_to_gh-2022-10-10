@@ -45,7 +45,7 @@ def _(x = cos(4*pi*t), y = 1 + sin(2*pi*t) + sin(4*pi*t),
       a = 0, b = 1):
     x = x.function(t); y = y.function(t); 
     if abs(x(a)-x(b)) + abs(y(a)-y(b)) > epsilon:
-        raise ValueError, "Curve is not closed!"
+        raise ValueError("Curve is not closed!")
     
     xp = x.derivative(t)
     yp = y.derivative(t)
