@@ -463,7 +463,7 @@ The following interact demo looks at the DE+BC y'+y=0, y(0)=a, y(b)=c, and has a
 var('x')
 @interact
 def BCs(b=input_box(1,label='BC at far endpoint'), c = slider(1,5,step_size = .01), a = 1): 
-    P1 = text("$y''+y=0,\ y(0) = a,\ y(b) = c$",(4,-1/(c-3.14152)))
+    P1 = text(r"$y''+y=0,\ y(0) = a,\ y(b) = c$",(4,-1/(c-3.14152)))
     P2 = plot(a*cos(x)+(b-a*cos(c))*sin(x)/sin(c),x,0,5)
     (P1+P2).show()
 }}}
