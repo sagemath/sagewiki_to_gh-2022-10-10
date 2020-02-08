@@ -235,9 +235,9 @@ def euler_method(q = range_slider(0,10,.1,(0,6),'x range'), y_exact_in = input_b
     imp_plot = line(sol2, rgbcolor = (1,0,1))
     show(slopes +exact_plot + euler_plot + imp_plot+ rk4_plot,xmin=start,xmax = stop, ymax = sol_max, ymin = sol_min)
     if nsteps < steps_shown:
-        table_range = range(len(sol))
+        table_range = list(range(len(sol)))
     else:
-        table_range = range(0,floor(steps_shown/2)) + range(len(sol)-floor(steps_shown/2),len(sol))
+        table_range = list(range(floor(steps_shown/2))) + list(range(len(sol)-floor(steps_shown/2),len(sol)))
     html(tab_list([[i,xvals[i],sol[i],sol2[i][1],sol3[i][1],y_exact(xvals[i])] for i in table_range], headers = ['step','x','<font color="#0000FF">Euler</font>','<font color="#FF00FF">Imp. Euler</font>', '<font color="#0000bb">RK4</font>','<font color="#FF0000">Exact</font>']))
 }}}
 {{attachment:rk4.png}}
