@@ -254,12 +254,13 @@ These two interacts involve some Cython code or other scipy imports, so I've pos
 by Marshall Hampton and David Joyner
 {{{#!sagecell
 def picard_iteration(f, a, c, iterations):
-    '''
+    r'''
     Computes the N-th Picard iterate for the IVP  
 
         x' = f(t,x), x(a) = c.
 
-    EXAMPLES:
+    EXAMPLES::
+
         sage: var('x t s')
         (x, t, s)
         sage: a = 0; c = 2
@@ -272,7 +273,6 @@ def picard_iteration(f, a, c, iterations):
         t^2/2 - t + 2
         sage: picard_iteration(f, a, c, 3)
         -t^3/6 + t^2/2 - t + 2
-
     '''
     if iterations == 0:
         return c
@@ -288,9 +288,9 @@ def picard_iteration(f, a, c, iterations):
 def picarder(n_iterations = slider(0,20,1,default = 2)):
     var('x,t,s')
     f = lambda t,x:x
-    html("Exact solution to $x' = x$, $x(0) = 1$ is $x = \exp(t)$<br>")
+    html(r"Exact solution to $x' = x$, $x(0) = 1$ is $x = \exp(t)$<br>")
     pic = picard_iteration(f,0,1,n_iterations)
-    html('The Picard iteration approximatio after ' + str(n_iterations) + ' iterations is:<br>')
+    html('The Picard iteration approximation after ' + str(n_iterations) + ' iterations is:<br>')
     html('$'+latex(pic)+'$')
     exact = plot(exp(t),(t,0,2))
     pic_plot = plot(pic,(t,0,2), rgbcolor = (1,0,0))
