@@ -7,16 +7,15 @@ goto [[interact|interact main page]]
 by Marshall Hampton (tested by William Stein)
 [sagecell-issues]
 {{{#!sagecell
-import urllib2 as U
+from six.moves.urllib.request import urlopen
 @interact
 def protein_browser(GenBank_ID = input_box('165940577', type = str), file_type = selector([(1,'fasta'),(2,'GenPept')])):
     if file_type == 2:
         gen_str = 'http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=protein&sendto=t&id='
     else:
         gen_str = 'http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=protein&sendto=t&dopt=fasta&id='
-    f = U.urlopen(gen_str + GenBank_ID)        
-    g = f.read()
-    f.close()
+    with urlopen(gen_str + GenBank_ID) as f:
+        g = f.read()
     html(g)
 }}}
 {{attachment:biobrowse.png}}
