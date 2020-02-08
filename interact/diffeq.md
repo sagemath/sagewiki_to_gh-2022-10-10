@@ -182,7 +182,7 @@ def ImpEulerMethod(xstart, ystart, xfinish, nsteps, f):
         k2 = f(xvals[-1] + h,sol[-1] + k1*h)
         sol.append(sol[-1] + h*(k1+k2)/2)
         xvals.append(xvals[-1] + h)
-    return zip(xvals,sol)
+    return list(zip(xvals,sol))
 def RK4Method(xstart, ystart, xfinish, nsteps, f):
     sol = [ystart]
     xvals = [xstart]
@@ -194,7 +194,7 @@ def RK4Method(xstart, ystart, xfinish, nsteps, f):
         k4 = f(xvals[-1] + h,sol[-1] + k3*h)
         sol.append(sol[-1] + h*(k1+2*k2+2*k3+k4)/6)
         xvals.append(xvals[-1] + h)
-    return zip(xvals,sol)
+    return list(zip(xvals,sol))
 def tab_list(y, headers = None):
     '''
     Converts a list into an html table with borders.
@@ -308,7 +308,7 @@ def EulerMaruyama(xstart, ystart, xfinish, nsteps, f1, f2):
     for step in range(nsteps): 
         sol.append(sol[-1] + h*f1(sol[-1]) + h^(.5)*f2(sol[-1])*normalvariate(0,1)) 
         xvals.append(xvals[-1] + h) 
-    return zip(xvals,sol)
+    return list(zip(xvals,sol))
     
 out = Graphics()
 save(out,'temp')
@@ -450,7 +450,7 @@ def _(f=input_box(default=x*exp(-x^2),label='f(x)'), longitud=input_box(default=
         print('s=%f > 1/2!!!  The method is not stable' % s)
 
     ut=calor_cython(u0,dx,k,tiempo,tsteps)
-    show( line2d(zip(xs, u0)) + line2d(zip(xs, ut), rgbcolor='green') )
+    show( line2d(list(zip(xs, u0))) + line2d(list(zip(xs, ut)), rgbcolor='green') )
 }}}
 
 {{attachment:heat_findif.png}}
