@@ -2,7 +2,7 @@
 def animate_contraction(g, e, frames = 12, **kwds):
     v1, v2 = e
     if not g.has_edge(v1,v2):
-        raise ValueError, "Given edge not found on Graph"
+        raise ValueError("Given edge not found on Graph")
     ls = []
     posd = g.get_pos()
     for j in range(frames):
