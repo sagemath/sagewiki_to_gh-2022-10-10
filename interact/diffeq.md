@@ -226,8 +226,8 @@ def euler_method(q = range_slider(0,10,.1,(0,6),'x range'), y_exact_in = input_b
     for step in range(nsteps):
         sol.append(sol[-1] + stepsize*y_prime(xvals[-1],sol[-1]))
         xvals.append(xvals[-1] + stepsize)
-    sol_max = max(sol + [find_maximum_on_interval(y_exact,start,stop)[0]])
-    sol_min = min(sol + [find_minimum_on_interval(y_exact,start,stop)[0]])
+    sol_max = max(sol + [find_local_maximum(y_exact,start,stop)[0]])
+    sol_min = min(sol + [find_local_minimum(y_exact,start,stop)[0]])
     slopes = plot_slope_field(y_prime(x=x,y=y), (start,stop), (sol_min, sol_max))
     exact_plot = plot(y_exact(x),start,stop,rgbcolor=(1,0,0))
     euler_plot = line([[xvals[index],sol[index]] for index in range(len(sol))])
