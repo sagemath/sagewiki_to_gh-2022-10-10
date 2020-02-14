@@ -35,6 +35,8 @@ On proposera aussi s'intéresser à l'illustration mathématique:
  * illustrer des notes de cours ou des articles de recherche
  * créer des modèles pour l'impression 3d, la découpe et la gravure laser, etc.
 
+Programme: [[days107/schedule]]
+
 These days aim to help researchers in mathematics better use their computers
 and especially mathematical and modelling software, with an emphasis on
 [[https://www.sagemath.org/|SageMath]], other math software being welcome too.
@@ -47,6 +49,8 @@ There will also be a focus on illustrating mathematics:
 
  * illustrating lecture notes or research articles
  * create models for 3d-printing, laser engraving and cutting, etc.
+
+Schedule: [[days107/schedule]]
 
 
 == Lieu -- Venue ==
