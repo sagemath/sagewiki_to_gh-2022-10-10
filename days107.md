@@ -122,7 +122,7 @@ plus spécifiquement consacrés aux logiciels de mathématiques.
  * lundi et mardi: formation "Software Carpentry"
  * mercredi, jeudi, vendredi: logiciels de mathématiques
 
-Les horaires chaque jour seront 09:00--17:30.
+Programme détaillé:  [[days107/schedule]]
 
 We will spend two days on general computer tools (the Unix shell,
 version control with Git, and programming with Python), and follow
@@ -131,4 +131,4 @@ with three days on mathematical software.
  * Monday, Tuesday: "Software Carpentry" training
  * Wednesday, Thursday, Friday: mathematical software
 
-The activities each day will be from 09:00 to 17:30.
+Detailed schedule:  [[days107/schedule]]
