@@ -39,7 +39,7 @@
 || 10:30 - 11:00 |||| coffee break ||
 || 11:00 - 12:30 |||| ''projects, tutorials'' ||
 || 12:30 - 14:00 |||| lunch ||
-|| 14:00 - 14:30 || PO || ''TBA'' ||
+|| 14:00 - 14:30 || Pauline Olivier || ''TBA'' ||
 || 14:30 - 15:00 || François Gaudel  || ''TBA'' ||
 || 15:00 - 15:30 || Zakaria Meliani || ''!ParaView'' ||
 || 15:30 - 16:00 |||| coffee break ||
