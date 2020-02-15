@@ -102,17 +102,17 @@ Perform various check, mainly about blocks in the documentation.
 
 4) no {{{::}}} after {{{REFERENCE}}} blocks, only a single colon
     
-5) no {{{ :}}} at the end of lines, as the colon should not be preceded by a space
+5) no {{{ :}}} at the end of lines, namely the colon should not be preceded by a space
     
 6) no {{{Returns}}} at the start of lines, but {{{Return}}} for the first line (short summary) or {{{This returns}}} otherwise
 
 == triple_colon ==
 
-Look for the presence of triple colons {{{:::}}} or {{{: ::}}}.
+Look for the presence of triple colons {{{:::}}} or {{{: ::}}}
 
 == trac_links ==
 
-Look for the presence of badly formatted trac roles {{{:trac:}}}.
+Look for the presence of badly formatted trac roles {{{:trac:}}}
 
 The correct syntax is {{{:trac:`23456`}}}
 
