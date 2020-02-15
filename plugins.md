@@ -16,13 +16,37 @@ This detects the presence of the encoding line at the top of files.
 
 == doctest_continuation ==
 
+Check that doctest continuation use the correct syntax, namely `....:`
+
 == foreign_latex ==
+
+Check that some bad latex code does not appear.
+
+This means '\choose', '\over', '\atop', '\above', '\overwithdelims', '\atopwithdelims', '\abovewithdelims'.
 
 == oldstyle_print ==
 
+Check that print is using python 3 syntax. (TO BE REMOVED)
+
 == python3_py ==
 
+Look for some wrong patterns in python or rst files.
+
+0) xrange
+
+1) .iterkeys, .itervalues, .iteritems
+
+2) basestring
+
+3) __nonzero__
+
+These are not allowed in python 3. (TO DE REMOVED)
+
 == python3_pyx ==
+
+Look for some wrong patterns in cython files.
+
+0) "import six" and "from six import"
 
 == python3 ==
 
