@@ -78,7 +78,7 @@ Check that some python3 incompatible code does not appear. (TO BE REMOVED)
 
 Run `pyflakes` on the modified `.py` files.
 
-This typically reports about unused variables or imports.
+This typically reports about unused variables or imports, that you should remove.
 
 Sometimes it gives false-positive warnings.
 
@@ -92,7 +92,7 @@ See [[http://pycodestyle.pycqa.org/en/latest/intro.html#error-codes|pycodestyle 
 
 == blocks ==
 
-Perform various check, mainly about blocks in the documentation.
+Perform various checks, mainly about blocks in the documentation.
 
 1) correct syntax is {{{.. SEEALSO::}}}
 
