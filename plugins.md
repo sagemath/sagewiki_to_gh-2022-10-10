@@ -2,9 +2,17 @@
 
 == commit_messages ==
 
+Check for the existence of a commit message for every commit.
+
 == coverage ==
 
+Try to check that coverage did increase.
+
 == non_ascii ==
+
+Look for the presence of non-ascii characters in python and cython files.
+
+This detects the presence of the encoding line at the top of files.
 
 == doctest_continuation ==
 
