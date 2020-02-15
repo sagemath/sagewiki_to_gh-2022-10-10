@@ -130,6 +130,8 @@ Count modules imported at startup, and compare to stored data to see if this has
 
 Build the html documentation.
 
+This is mandatory. Any failure will prevent the ticket to be merged.
+
 == docbuild_pdf ==
 
 Build the pdf documentation.
