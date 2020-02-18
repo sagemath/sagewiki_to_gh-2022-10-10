@@ -55,18 +55,28 @@ Schedule: [[days107/schedule]]
 
 == Lieu -- Venue ==
 
-Les journées Sage auront lieu à Orsay, plus précisément:
+Les journées Sage auront lieu à Orsay du lundi au jeudi, plus précisément:
 
  * Salle du conseil (salle 1F12), premier étage.
  * Institut de mathématique d'Orsay, bâtiment 307, rue Michel Magat.
  * Accès par la station RER B "Orsay-ville".
 
-These Sage days will take place in Orsay, more precisely:
+Le vendredi, nous serons à l'Inria de Saclay, Digiteo, plus précisement:
+
+ * Salle 1018
+ * Accès par l'arrêt de bus Moulon, lignes 91.06, 91.10, 9, ou 1
+
+These Sage days will take place in Orsay from Monday until Thursday, more precisely:
 
  * Salle du conseil (room 1F12), first floor.
  * Orsay Mathematics Institute, building 307, Orsay valley campus.
  * Access via the "Orsay-ville" RER B station.
 
+
+Friday, we will be at Inria de Saclay, Digiteo:
+
+ * Salle 1018
+ * bus stop Moulon, lines 91.06, 91.10, 9, or 1
 
 == Participant-es -- Participants ==
 
