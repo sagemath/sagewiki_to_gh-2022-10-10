@@ -29,8 +29,7 @@
 || 12:30 - 14:00 |||| lunch ||
 || 14:00 - 14:30 || Patrick Massot || ''Tores avec Sympy, Cairo et Blender'' ||
 || 14:30 - 15:00 || Pierre-Antoine Guiheneuf || ''Animations pour Images des Maths avec Geogebra'' ||
-|| 15:00 - 15:30 || Odile Bénassy || ''Visualisation interactive d'objets mathématiques avec ipywidgets et
-construction d'applications en quelques lignes de code.'' ||
+|| 15:00 - 15:30 || Odile Bénassy || ''Visualisation interactive d'objets mathématiques avec ipywidgets et construction d'applications en quelques lignes de code.'' ||
 || 15:30 - 16:00 |||| coffee break ||
 || 16:00 - 17:30 |||| ''projects, tutorials'' ||
 |||||| '''Thursday 20 February''' ||
