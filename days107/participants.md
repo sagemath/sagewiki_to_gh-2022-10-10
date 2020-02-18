@@ -29,3 +29,4 @@ This list will be updated as participants register.
  * Jad DOGHMAN (Ecole Centralesupelec, France)
  * Quangtuan Dang (Université Paris Saclay, France)
  * othmane jerhaoui (IPP ENSTA PARIS)
+ * Nicolas M. Thiéry (LRI, Université Paris Saclay)
