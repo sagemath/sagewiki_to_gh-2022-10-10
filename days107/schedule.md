@@ -45,11 +45,11 @@
 || 15:30 - 16:00 |||| coffee break ||
 || 16:00 - 17:30 |||| ''projects, tutorials'' ||
 |||||| '''Friday 21 February''' ||
-|| 9:00 - 9:30 || Alba Málaga || '' SageMath/Python'' ||
+|| 9:00 - 9:30 || TBD || ''TBA'' ||
 || 9:30 - 10:00 || TBD || ''TBA'' ||
 || 10:00 - 12:30 |||| visit of Fablab Digiscope ||
 || 12:30 - 14:00 |||| lunch ||
-|| 14:00 - 14:30 || Nicolas M. Thiéry || ''TBA'' ||
+|| 14:00 - 14:30 || Alba Málaga || ''SageMath/Blender'' ||
 || 14:30 - 15:00 || Yves Coudene || ''Dynamique avec Julia'' ||
 || 15:00 - 15:30 || Viviane Pons || ''TBA'' ||
 || 15:30 - 16:00 |||| coffee break ||
