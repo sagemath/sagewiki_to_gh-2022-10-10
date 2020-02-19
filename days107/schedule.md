@@ -23,7 +23,7 @@
 |||||| '''Wednesday 19 February''' ||
 || 9:00 - 9:30 || Samuel Lelièvre || ''!CoCalc, !SageMath'' ||
 || 9:30 - 10:00 || Camille Labourie || ''Surface Evolver'' ||
-|| 10:00 - 10:30 || Nicolas M. Thiéry  || [[https://nthiery.github.io/FabLab/AlcoveArt/|Alcove art in olive wood]] ||
+|| 10:00 - 10:30 || Nicolas M. Thiéry  || [[https://nbviewer.jupyter.org/format/slides/github/nthiery/shared-sage-notebooks/blob/master/2020-02-19-AlcoveArt.ipynb|Alcove art in olive wood]] ||
 || 10:30 - 11:00 |||| coffee break ||
 || 11:00 - 12:30 |||| ''projects, tutorials'' ||
 || 12:30 - 14:00 |||| lunch ||
