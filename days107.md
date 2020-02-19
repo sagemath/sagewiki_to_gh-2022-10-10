@@ -58,25 +58,31 @@ Schedule: [[days107/schedule]]
 Les journées Sage auront lieu à Orsay du lundi au jeudi, plus précisément:
 
  * Salle du conseil (salle 1F12), premier étage.
- * Institut de mathématique d'Orsay, bâtiment 307, rue Michel Magat.
+ * Institut de mathématique d'Orsay, 307 rue Michel Magat, 91400 Orsay, France.
+ * Carte: https://www.imo.universite-paris-saclay.fr/Acces-130?lang=fr
  * Accès par la station RER B "Orsay-ville".
 
-Le vendredi, nous serons à l'Inria de Saclay, Digiteo, plus précisement:
+Le vendredi, nous serons sur la partie du campus située sur le plateau:
 
- * Salle 1018
+ * Salle 1018, bâtiment Claude Shannon (bâtiment 660)
+ * Inria Saclay, Digiteo Labs Moulon, 660 rue Noetzlin, 91190 Gif-sur-Yvette, France.
+ * Carte: https://fablabdigiscope.gitlab.io/page/where/
  * Accès par l'arrêt de bus Moulon, lignes 91.06, 91.10, 9, ou 1
 
 These Sage days will take place in Orsay from Monday until Thursday, more precisely:
 
  * Salle du conseil (room 1F12), first floor.
- * Orsay Mathematics Institute, building 307, Orsay valley campus.
+ * Orsay Mathematics Institute, 307 rue Michel Magat, 91400 Orsay, France.
+ * Map: https://www.imo.universite-paris-saclay.fr/Acces-130?lang=en
  * Access via the "Orsay-ville" RER B station.
 
+On Friday, we will be on the upper part of the campus, on the plateau:
 
-Friday, we will be at Inria de Saclay, Digiteo:
+ * Room 1018, Claude Shannon building (building 660)
+ * Inria Saclay, Digiteo Labs Moulon, 660 rue Noetzlin, 91190 Gif-sur-Yvette, France.
+ * Map: https://fablabdigiscope.gitlab.io/page/where/
+ * Bus stop Moulon, lines 91.06, 91.10, 9, or 1
 
- * Salle 1018
- * bus stop Moulon, lines 91.06, 91.10, 9, or 1
 
 == Participant-es -- Participants ==
 
