@@ -146,3 +146,16 @@ with three days on mathematical software.
  * Wednesday, Thursday, Friday: mathematical software
 
 Detailed schedule:  [[days107/schedule]]
+
+
+== Remerciements -- Acknowledgments ==
+
+Cette rencontre a pu avoir lieu grâce au soutien:
+
+ * du Laboratoire de mathématiques d'Orsay
+ * du Fablab Digiscope
+
+This workshop could be held thanks to the support of:
+
+  * Laboratoire de mathématiques d'Orsay
+  * Fablab Digiscope
