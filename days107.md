@@ -67,7 +67,7 @@ Le vendredi, nous serons sur la partie du campus située sur le plateau:
  * Salle 1018, bâtiment Claude Shannon (bâtiment 660)
  * Inria Saclay, Digiteo Labs Moulon, 660 rue Noetzlin, 91190 Gif-sur-Yvette, France.
  * Carte: https://fablabdigiscope.gitlab.io/page/where/
- * Accès par l'arrêt de bus Moulon, lignes 91.06, 91.10, 9, ou 11
+ * Accès par l'arrêt de bus Moulon, lignes 91.06, 91.10, ou 9
 
 These Sage days will take place in Orsay from Monday until Thursday, more precisely:
 
@@ -81,7 +81,7 @@ On Friday, we will be on the upper part of the campus, on the plateau:
  * Room 1018, Claude Shannon building (building 660)
  * Inria Saclay, Digiteo Labs Moulon, 660 rue Noetzlin, 91190 Gif-sur-Yvette, France.
  * Map: https://fablabdigiscope.gitlab.io/page/where/
- * Bus stop Moulon, lines 91.06, 91.10, 9, or 11
+ * Bus stop Moulon, lines 91.06, 91.10, or 9
 
 
 == Participant-es -- Participants ==
