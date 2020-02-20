@@ -156,12 +156,11 @@ Detailed schedule:  [[days107/schedule]]
 
 == Remerciements -- Acknowledgments ==
 
-Cette rencontre a pu avoir lieu grâce au soutien:
-
- * du Laboratoire de mathématiques d'Orsay
- * du Fablab Digiscope
-
-This workshop could be held thanks to the support of:
+Le comité d'organisation remercie pour leur soutien à cette
+rencontre -- This workshop could be held thanks to the support of
 
   * Laboratoire de mathématiques d'Orsay
+    {{attachment:logo-labo-math-orsay.png||height="80"}}
+
   * Fablab Digiscope
+    {{attachment:logo-fablab-digiscope-small.png||height="80"}}
