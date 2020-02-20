@@ -34,13 +34,12 @@
 || 11:00 - 12:30 |||| ''projects, tutorials'' ||
 || 12:30 - 14:00 |||| lunch ||
 || 14:00 - 14:30 || Pauline Olivier || ''Dynamic Sketches: Coarse to fine modeling of 3D shapes in motion'' ||
-|| 14:30 - 15:00 || François Gaudel  || ''FractInt et FDesign'' ||
+|| 14:30 - 15:00 || François Gaudel  || ''!FractInt et FDesign'' ||
 || 15:00 - 15:30 || Zakaria Meliani || ''!ParaView'' ||
 || 15:30 - 16:00 |||| coffee break ||
 || 16:00 - 17:30 |||| ''projects, tutorials'' ||
 |||||| '''Friday 21 February 2020''' ||
-|| 9:00 - 9:30 || TBD || ''TBA'' ||
-|| 9:30 - 10:00 || TBD || ''TBA'' ||
+|| 9:00 - 10:00 |||| Discussion libre +préparation de fichiers impression 3D & découpe laser (INRIA, bât. 660, salle 1018) ||
 || 10:00 - 12:30 |||| visit of Fablab Digiscope ||
 || 12:30 - 14:00 |||| lunch ||
 || 14:00 - 14:30 || Alba Málaga || ''SageMath/Blender'' ||
