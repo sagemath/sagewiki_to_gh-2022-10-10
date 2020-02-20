@@ -45,5 +45,6 @@
 || 14:00 - 14:30 || Alba Málaga || ''SageMath/Blender'' ||
 || 14:30 - 15:00 || Yves Coudene || ''Dynamique avec Julia'' ||
 || 15:00 - 15:30 || Viviane Pons || ''TBA'' ||
-|| 15:30 - 16:00 |||| coffee break ||
+|| 15:30 - 15:40 || Balthazar Charles || "TBA" ||
+|| 15:40 - 16:00 |||| coffee break ||
 || 16:00 - 17:30 |||| ''projects, tutorials'' ||
