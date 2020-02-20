@@ -35,7 +35,7 @@
 || 12:30 - 14:00 |||| lunch ||
 || 14:00 - 14:30 || Pauline Olivier || ''Dynamic Sketches: Coarse to fine modeling of 3D shapes in motion'' ||
 || 14:30 - 15:00 || François Gaudel  || ''!FractInt et FDesign'' ||
-|| 15:00 - 15:30 || Zakaria Meliani || ''!ParaView'' ||
+|| 15:00 - 15:30 || Zakaria Meliani || ''[[https://cocalc.com/share/9e6633bc8f10532a8aff79e3528768f2732c439e/Presentations/Paraview_use_Sage2020.pdf?viewer=share|ParaView]]'' ||
 || 15:30 - 16:00 |||| coffee break ||
 || 16:00 - 17:30 |||| ''projects, tutorials'' ||
 |||||| '''Friday 21 February 2020''' ||
