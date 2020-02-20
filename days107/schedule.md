@@ -39,7 +39,7 @@
 || 15:30 - 16:00 |||| coffee break ||
 || 16:00 - 17:30 |||| ''projects, tutorials'' ||
 |||||| '''Friday 21 February 2020''' ||
-|| 9:00 - 10:00 |||| Discussion libre +préparation de fichiers impression 3D & découpe laser (INRIA, bât. 660, salle 1018) ||
+|| 9:00 - 10:00 |||| Discussion libre + préparation de fichiers pour impression 3D et découpe laser (INRIA, bât. 660, salle 1018) ||
 || 10:00 - 12:30 |||| visit of Fablab Digiscope ||
 || 12:30 - 14:00 |||| lunch ||
 || 14:00 - 14:30 || Alba Málaga || ''SageMath/Blender'' ||
