@@ -33,7 +33,7 @@
 || 10:30 - 11:00 |||| coffee break ||
 || 11:00 - 12:30 |||| ''projects, tutorials'' ||
 || 12:30 - 14:00 |||| lunch ||
-|| 14:00 - 14:30 || Pauline Olivier || ''Dynamic Sketches: Coarse to fine modeling of 3D shapes in motion'' ||
+|| 14:00 - 14:30 || Pauline Olivier || ''[[Dynamic Sketches: Coarse to fine modeling of 3D shapes in motion|https://cocalc.com/share/0175ee0bf5d0f1faf950587fe65f404271c07f6b/Presentations/Pauline_Olivier.pdf?viewer=share]]'' ||
 || 14:30 - 15:00 || François Gaudel  || ''[[https://fractint.org/|FractInt]] et FDesign'' ||
 || 15:00 - 15:30 || Zakaria Meliani || ''[[https://cocalc.com/share/9e6633bc8f10532a8aff79e3528768f2732c439e/Presentations/Paraview_use_Sage2020.pdf?viewer=share|ParaView]]'' ||
 || 15:30 - 16:00 |||| coffee break ||
