@@ -6,7 +6,7 @@ Sage day 109 is a "nettoyage de Printemps" (spring cleaning). The aim is to thro
  * provide code
  * make reviews
 
-Some of us will gather informally in Bordeaux (possibly making some advertisement for Sage at the university).
+You can attend remotely on [[https://zulip.sagemath.org/|zulip]] and some of us will gather informally in Bordeaux. If you are interested in coming to Bordeaux, contact one of the locals (Sébastien Labbé, Vincent Delecroix or Xavier Caruso).
 
 == Useful links ==
 
