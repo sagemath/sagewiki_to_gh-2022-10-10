@@ -50,6 +50,8 @@ Look for some wrong patterns in cython files.
 
 0) {{{import six}}} and {{{from six import}}}
 
+Never ever import anything from "six" in a Cython file.
+
 == python3 ==
 
 Check that some python3 incompatible code does not appear. (TO BE REMOVED)
