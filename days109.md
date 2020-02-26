@@ -1,8 +1,8 @@
 = Sage de Printemps / days 109 =
 
-Sage day 109 is a "nettoyage de Printemps" (spring cleaning). The aim is to through the already existing trac ticket and
+Sage day 109 is a "nettoyage de Printemps" (spring cleaning). The aim is to go through the already existing trac tickets and
 
- * confirm if bug still present on recent development version
+ * confirm if the bug is still present on recent development versions
  * provide code
  * make reviews
 
