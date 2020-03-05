@@ -2,7 +2,7 @@
 
 {{http://loco.ubuntu.com/media/images/cof_orange_hex1.png||width=100px}}
 
-Here is the list of Ubuntu packages to install in order to build SageMath from sources (this is for Ubuntu 18.04):
+Here is the minimal list of Ubuntu packages to install in order to build SageMath from sources (this is for Ubuntu 18.04):
  * git
  * m4
  * gfortran
@@ -20,5 +20,6 @@ In addition, it is recommended to install
  * ffmpeg ''(to produce animations)'' 
  * libavdevice-dev ''(to produce animations)'' 
 
+Besides, to make SageMath use a maximum of system (Ubuntu) packages instead of building its own versions, see [[https://groups.google.com/d/msg/sage-devel/ZGEeuoTtbh4/bvSrf1jHCgAJ|here]].
 
 For more details, see the  [[http://doc.sagemath.org/html/en/installation/source.html#prerequisites|Prerequisites section]] of Sage Installation Guide.
