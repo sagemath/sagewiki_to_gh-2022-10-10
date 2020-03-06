@@ -27,7 +27,7 @@
 || 15:30 - 16:00 |||| coffee break ||
 || 16:00 - 17:30 |||| ''projects, tutorials'' ||
 |||||| '''Thursday 20 February 2020''' ||
-|| 9:00 - 9:30 || Éric Gourgoulhon || ''[[https://nbviewer.jupyter.org/github/sagemanifolds/SageManifolds/blob/master/Notebooks/sphere_plots.ipynb|Manifold graphics in SageMath]]'' ||
+|| 9:00 - 9:30 || Éric Gourgoulhon || ''[[https://nbviewer.jupyter.org/github/sagemanifolds/SageManifolds/blob/master/Notebooks/SM_plot_tutorial.ipynb|Manifold graphics in SageMath]]'' ||
 || 9:30 - 10:00 || Jonah Marrs || ''[[https://www.instructables.com/id/Clickspace/|L’Alchimie informatique avec instruments préparés.]]'' ||
 || 10:00 - 10:30 || Thierry Dassé || ''Create mathematical models in a Fab Lab'' ||
 || 10:30 - 11:00 |||| coffee break ||
