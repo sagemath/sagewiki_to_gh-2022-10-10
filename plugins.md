@@ -8,6 +8,8 @@ Check for the existence of a commit message for every commit.
 
 Try to check that coverage did increase.
 
+The coverage is the percent of functions that are doctested. This must be 100%.
+
 == non_ascii ==
 
 Look for the presence of non-ascii characters in python and cython files.
