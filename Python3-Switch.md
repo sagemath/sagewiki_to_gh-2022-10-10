@@ -26,7 +26,7 @@ sage -n export
 
 == Compiling with Python 2 ==
 
-For '''version 9.0''', if you really want so, you can still build and use !SageMath with '''Python 2''', as follows.
+For '''version 9.0''' and the upcoming '''version 9.1''', if you really want so, you can still build and use !SageMath with '''Python 2''', as follows.
 {{{
 make configure
 ./configure --with-python=2
@@ -34,4 +34,4 @@ make build
 }}}
 Beware that you will need to call the second line again if you ever call "make distclean".
 
-Starting from '''version 9.1''', the compatibility with Python 2 will no longer be ensured.
+In the development versions after version 9.1 leading to '''version 9.2''', the compatibility with Python 2 will no longer be ensured.
