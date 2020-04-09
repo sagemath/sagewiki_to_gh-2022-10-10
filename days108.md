@@ -4,6 +4,12 @@
 
 The workshop will focus on introducing the [[https://gnu.org/philosophy/free-sw.html|free]] mathematical software system [[https://www.sagemath.org|SageMath]] to students and researchers, with emphasis on algebraic combinatorics. All are invited to participate, regardless of their initial software skills - from beginners to experienced developers.
 
+== Coronavirus update ==
+
+The [[https://fpsac2020.math.biu.ac.il/|FPSAC 2020]] organizers have wrote: "It is possible that FPSAC 2020 will be postponed because of the world-wide Coronavirus epidemic. We are deliberating our options. We will reach and publicize a decision by April 30. Please do not make any financial commitments beforehand."
+
+We will update the status of Sage Day 108 following that decision.
+
 == Date and venue ==
 
 Date: 12 July 2020, the Sunday preceding [[https://fpsac2020.math.biu.ac.il/|FPSAC 2020]].
