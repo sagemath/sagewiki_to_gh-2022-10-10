@@ -2,7 +2,7 @@
 
 Here are some links and information about distributing Sage.
 
-Related pages: SupportedPlatforms, [[days77/packaging]], [[Infrastructure]]
+Related pages: [[days77/packaging]], [[Infrastructure]]
 
 <<TableOfContents()>>
 
@@ -188,7 +188,8 @@ providing !SageMath... See
 = Porting to exotic architectures =
 
   * trac-wiki: [[https://trac.sagemath.org/wiki/ExoticPorts|Porting SageMath to Exotic architectures]]
-  
+  * outdated: SupportedPlatforms
+
 == BSD ==
 
   * pending tickets: [[https://trac.sagemath.org/query?status=!closed&component=porting%3A+BSD|component: "porting: BSD"]]
