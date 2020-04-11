@@ -1,3 +1,7 @@
+'''This page is outdated and is preserved for archival purposes only. See the [[http://doc.sagemath.org/html/en/installation/ SageMath Installation Guide]] instead.'''
+
+----
+
 <<TableOfContents>>
 
 ----
