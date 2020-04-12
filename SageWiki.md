@@ -45,14 +45,13 @@ Development is handled using "tickets" on the [[https://trac.sagemath.org/sage_t
 
 The main developer doc is the [[https://www.sagemath.org/doc/developer/ | Developers' Guide]].
 
-The [[devel|development wiki]] also contain some (currently out-of-date) information on Sage development. See also this recent [[CodeSharingWorkflow|discussion on SageMath development workflow]].
+Release notes (higher level than change logs) are collaboratively prepared at [[ReleaseTours]].
 
 
 = Special Discussion Pages =
 
  * [[Coding_Theory|Coding Theory in Sage]]
  * [[Debate/Collective infrastructure management]]
- * [[CodeSharingWorkflow|On development models for sharing (experimental) code]]
  * [[Python3-compatible code|Writing Python 3 compatible code]]
  * [[OptiPolyGeom|Optimization and Polyhedral Geometry in Sage]]
 
@@ -76,6 +75,11 @@ Use the following shell commands below for the newest information:
  * Experimental packages available: `./sage -experimental`
 
 For some advanced package tools, use `./sage -package`
+
+== External packages ==
+
+ * SageMathExternalPackages
+ * [[CodeSharingWorkflow|On development models for sharing (experimental) code]]
 
 = About this wiki =
 
