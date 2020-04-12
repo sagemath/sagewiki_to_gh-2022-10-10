@@ -21,3 +21,5 @@ See [[Python3-Switch]] for more details
 * [[https://trac.sagemath.org/query?milestone=sage-9.0&groupdesc=1&group=status&max=1500&col=id&col=summary&col=author&col=reviewer&col=time&col=changetime&col=component&col=keywords&order=component|Trac tickets with milestone 9.0]]
 
 * [[https://sagemanifolds.obspm.fr/changelog.html|Changes in the manifold part]]
+
+* New plotting capabilities: [[https://doc.sagemath.org/html/en/reference/plotting/sage/plot/plot.html#sage.plot.plot.multi_graphics|multi-graphics]] and [[https://doc.sagemath.org/html/en/reference/plotting/sage/plot/graphics.html#sage.plot.graphics.Graphics.inset|graphic insets]]
