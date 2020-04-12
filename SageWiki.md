@@ -65,14 +65,23 @@ Release notes (higher level than change logs) are collaboratively prepared at [[
 
 = Packages =
 
-For a wiki page about packages, see [[spkg]].
+== New-style SPKGs ==
 
-Use the following shell commands below for the newest information:
+There is a single authoritative place to learn about the 
+specific set of packages (new-style SPKGs) that Sage uses: The 
+[[https://git.sagemath.org/sage.git/tree/build/pkgs|SAGE_ROOT/build/pkgs/]] directory
+in the Sage distribution.  Each SPKG is represented by a subdirectory. The structure
+of these subdirectories is explained in 
+the [[https://doc.sagemath.org/html/en/developer/packaging.html|Developer's Guide|]].
+
+Use the following shell commands below to access the information from the `SAGE_ROOT/build/pkgs`
+directory of your copy of Sage:
 
  * Standard packages: `./sage -standard`
  * Installed packages: `./sage -installed`
  * Optional packages available: `./sage -optional`
  * Experimental packages available: `./sage -experimental`
+ * Details about an SPKG: `./sage -info <SPKG>`
 
 For some advanced package tools, use `./sage -package`
 
@@ -80,6 +89,12 @@ For some advanced package tools, use `./sage -package`
 
  * SageMathExternalPackages
  * [[CodeSharingWorkflow|On development models for sharing (experimental) code]]
+
+== Obsolete, duplicate, outdated ==
+
+ * [[spkg|SageWiki page "spkg"]] - incomplete, outdated
+ * [[http://www.sagemath.org/links-components.html|sagemath.org page "Components"]] - generated from [[https://github.com/sagemath/website/blob/master/conf/packages.yaml|a YAML file that duplicates SAGE_ROOT/build/pkgs information]], incomplete
+ * everything about old-style SPKGs - outdated, do not use
 
 = About this wiki =
 
