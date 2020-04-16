@@ -75,9 +75,19 @@ A 2-dimensional polyhedron in QQ^2 defined as the convex hull of 1 vertex and 2 
 
 There are also some bug fixes and other improvements. For more details see the [[https://trac.sagemath.org/wiki/SagePolyhedralGeometry#release_9.0|release notes for optimization and polyhedral geometry softwares interactions in Sage]].
 
-== More details ==
+== Availability of Sage 9.0 and installation help ==
 
 * Release announcements: See https://groups.google.com/forum/#!forum/sage-release
+
+=== Availability in distributions ===
+
+(TBD)
+
+=== Installation FAQ ===
+
+See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]], [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]].
+
+== More details ==
 
 * [[https://trac.sagemath.org/query?milestone=sage-9.0&groupdesc=1&group=status&max=1500&col=id&col=summary&col=author&col=reviewer&col=time&col=changetime&col=component&col=keywords&order=component|Trac tickets with milestone 9.0]]
 
