@@ -14,6 +14,12 @@ See [[Python3-Switch]] for more details
 
 [[https://doc.sagemath.org/html/en/reference/plot3d/threejs.html|Three.js]] has become the default viewer for 3D plots, in replacement of Jmol. Note that Jmol is still available, via the option ''viewer='jmol' '' in the plot functions. 
 
+== New plotting capabilities ==
+
+* [[https://doc.sagemath.org/html/en/reference/plotting/sage/plot/plot.html#sage.plot.plot.multi_graphics|multi-graphics]]
+
+* [[https://doc.sagemath.org/html/en/reference/plotting/sage/plot/graphics.html#sage.plot.graphics.Graphics.inset|graphic insets]]
+
 == Polyhedral Geometry ==
 
 Sage uses a new algorithm to obtain the f-vector for polyhedra. This is the only memory efficient implementation for the f-vector at the time of writing and it is as fast or faster as other implementations:
@@ -75,6 +81,10 @@ A 2-dimensional polyhedron in QQ^2 defined as the convex hull of 1 vertex and 2 
 
 There are also some bug fixes and other improvements. For more details see the [[https://trac.sagemath.org/wiki/SagePolyhedralGeometry#release_9.0|release notes for optimization and polyhedral geometry softwares interactions in Sage]].
 
+== Manifolds ==
+
+* [[https://sagemanifolds.obspm.fr/changelog.html|Changes in the manifold part]]
+
 == Availability of Sage 9.0 and installation help ==
 
 * Release announcements: See https://groups.google.com/forum/#!forum/sage-release
@@ -90,7 +100,3 @@ See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]], [[htt
 == More details ==
 
 * [[https://trac.sagemath.org/query?milestone=sage-9.0&groupdesc=1&group=status&max=1500&col=id&col=summary&col=author&col=reviewer&col=time&col=changetime&col=component&col=keywords&order=component|Trac tickets with milestone 9.0]]
-
-* [[https://sagemanifolds.obspm.fr/changelog.html|Changes in the manifold part]]
-
-* New plotting capabilities: [[https://doc.sagemath.org/html/en/reference/plotting/sage/plot/plot.html#sage.plot.plot.multi_graphics|multi-graphics]] and [[https://doc.sagemath.org/html/en/reference/plotting/sage/plot/graphics.html#sage.plot.graphics.Graphics.inset|graphic insets]]
