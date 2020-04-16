@@ -95,7 +95,7 @@ There are also some bug fixes and other improvements. For more details see the [
 
 === Installation FAQ ===
 
-See [[https://groups.google.com/forum/#!forum/sage-support|sage-suppport]], [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]].
+See [[https://groups.google.com/forum/#!forum/sage-support|sage-support]], [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]].
 
 == More details ==
 
