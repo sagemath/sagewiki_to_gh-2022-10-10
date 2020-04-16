@@ -6,12 +6,16 @@ This is the wiki for the [[https://www.sagemath.org|Sage - Mathematics Software 
 
 <<TableOfContents>>
 
-= SageDays and Sage Workshops =
+= SageDays, Sage Workshops, other activities =
 <<Anchor(sagedays)>>
 == Past and future Workshops ==
  * Upcoming Workshops
  <<Include(Workshops, , from="^##start-include$", to="^----$")>>
  * [[Workshops | All Workshops]], including past and future Sage Days, Bug Days, Doc Days, Review Days, Education Days, and some other Sage-related events.
+
+== Google Summer of Code ==
+
+ * [[GSoC|Google Summer of Code]]
 
 == Hosting a workshop ==
  * [[HowToHostASageDays|How To Host A Sage Days]] --- Advice to future hosts
@@ -54,9 +58,6 @@ Release notes (higher level than change logs) are collaboratively prepared at [[
  * [[Debate/Collective infrastructure management]]
  * [[Python3-compatible code|Writing Python 3 compatible code]]
  * [[OptiPolyGeom|Optimization and Polyhedral Geometry in Sage]]
-
- * Supporting the [[Foundation|SageMath Foundation]] 
- * [[GSoC|Google Summer of Code]]
 
 = Demonstrations of Graphical Capabilities =
  * [[art|Art - posters, banners, etc]]
