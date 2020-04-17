@@ -85,6 +85,40 @@ There are also some bug fixes and other improvements. For more details see the [
 
 * [[https://sagemanifolds.obspm.fr/changelog.html|Changes in the manifold part]]
 
+
+== EdgesView for graphs ==
+
+An `EdgesView` is a read-only iterable container of edges enabling operations like `for e in E` and `e in E`. An `EdgesView` can be iterated multiple times, and checking membership is done in constant time. It avoids the construction of edge lists and so consumes little memory. It is updated as the graph is updated. Hence, the graph should not be updated while iterating through an `EdgesView`.
+
+{{{
+sage: G = Graph([(0, 1, 'C'), (0, 2, 'A'), (1, 2, 'B')])
+sage: E = G.edges()
+sage: E
+[(0, 1, 'C'), (0, 2, 'A'), (1, 2, 'B')]
+sage: type(E)
+<class 'sage.graphs.views.EdgesView'>
+sage: (0, 2) in E
+False
+sage: (0, 2, 'A') in E
+True
+sage: for e in E:
+....:     for ee in E:
+....:         print(e, ee)
+....:         
+(0, 1, 'C') (0, 1, 'C')
+(0, 1, 'C') (0, 2, 'A')
+(0, 1, 'C') (1, 2, 'B')
+(0, 2, 'A') (0, 1, 'C')
+(0, 2, 'A') (0, 2, 'A')
+(0, 2, 'A') (1, 2, 'B')
+(1, 2, 'B') (0, 1, 'C')
+(1, 2, 'B') (0, 2, 'A')
+(1, 2, 'B') (1, 2, 'B')
+}}}
+
+See http://doc.sagemath.org/html/en/reference/graphs/sage/graphs/views.html for more details.
+
+
 == Availability of Sage 9.0 and installation help ==
 
 * Release announcements: See https://groups.google.com/forum/#!forum/sage-release
