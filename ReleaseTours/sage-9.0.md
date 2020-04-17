@@ -101,6 +101,8 @@ sage: (0, 2) in E
 False
 sage: (0, 2, 'A') in E
 True
+sage: (2, 0, 'A') in E
+True
 sage: for e in E:
 ....:     for ee in E:
 ....:         print(e, ee)
