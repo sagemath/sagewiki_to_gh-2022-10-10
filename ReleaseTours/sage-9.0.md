@@ -131,7 +131,10 @@ See [[https://repology.org/project/sagemath/versions|repology.org: sagemath]]
 
 === Installation FAQ ===
 
-See [[https://groups.google.com/forum/#!forum/sage-support|sage-support]], [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]].
+* See [[https://groups.google.com/forum/#!forum/sage-support|sage-support]], [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]].
+
+* Debian/Ubuntu: [[https://wiki.sagemath.org/prerequisitesUbuntu|Installation prerequisites]], [[https://groups.google.com/forum/#!msg/sage-devel/ZGEeuoTtbh4/bvSrf1jHCgAJ|Recommended installation]]
+
 
 == More details ==
 
