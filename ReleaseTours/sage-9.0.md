@@ -91,7 +91,7 @@ There are also some bug fixes and other improvements. For more details see the [
 
 === Availability in distributions ===
 
-(TBD)
+See [[https://repology.org/project/sagemath/versions|repology.org: sagemath]]
 
 === Installation FAQ ===
 
