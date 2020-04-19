@@ -12,6 +12,7 @@ Sage 9.2 will remove support for Python 2.
 
 See [[Python3-Switch]] for more details
 
+[[https://trac.sagemath.org/ticket/29141|Meta-ticket #29141: Upgrades and other changes that require dropping py2 support]]
 
 == Configuration and build changes ==
 
