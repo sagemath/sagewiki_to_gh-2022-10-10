@@ -18,6 +18,8 @@ See [[Python3-Switch]] for more details
 
 * [[https://groups.google.com/d/msg/sage-devel/9gOkmF6rSjY/wEV4WBQABwAJ|sage-devel: require "./configure" before "make"]], [[https://trac.sagemath.org/ticket/29316|Trac #29316]]
 
+* [[https://trac.sagemath.org/ticket/21507|Meta-ticket #21507: Make sagelib a pip-installable Python source package, listed on PyPI]]
+
 == Tickets ==
 
  * [[https://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=new&summary=~Meta&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Open Meta-Tickets]]
