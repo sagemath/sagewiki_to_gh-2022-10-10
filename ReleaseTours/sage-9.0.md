@@ -16,9 +16,9 @@ See [[Python3-Switch]] for more details
 
 == New plotting capabilities ==
 
-* [[https://doc.sagemath.org/html/en/reference/plotting/sage/plot/plot.html#sage.plot.plot.multi_graphics|multi-graphics]]
+ * [[https://doc.sagemath.org/html/en/reference/plotting/sage/plot/plot.html#sage.plot.plot.multi_graphics|multi-graphics]]
 
-* [[https://doc.sagemath.org/html/en/reference/plotting/sage/plot/graphics.html#sage.plot.graphics.Graphics.inset|graphic insets]]
+ * [[https://doc.sagemath.org/html/en/reference/plotting/sage/plot/graphics.html#sage.plot.graphics.Graphics.inset|graphic insets]]
 
 == Polyhedral Geometry ==
 
@@ -83,7 +83,7 @@ There are also some bug fixes and other improvements. For more details see the [
 
 == Manifolds ==
 
-* [[https://sagemanifolds.obspm.fr/changelog.html|Changes in the manifold part]]
+ * [[https://sagemanifolds.obspm.fr/changelog.html|Changes in the manifold part]]
 
 
 == EdgesView for graphs ==
@@ -131,11 +131,11 @@ See http://doc.sagemath.org/html/en/reference/graphs/sage/graphs/views.html for 
 
 === Installation FAQ ===
 
-* See [[https://groups.google.com/forum/#!forum/sage-support|sage-support]], [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]].
+ * See [[https://groups.google.com/forum/#!forum/sage-support|sage-support]], [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]].
 
-* Debian/Ubuntu: [[https://wiki.sagemath.org/prerequisitesUbuntu|Installation prerequisites]], [[https://groups.google.com/forum/#!msg/sage-devel/ZGEeuoTtbh4/bvSrf1jHCgAJ|Recommended installation]]
+ * Debian/Ubuntu: [[https://wiki.sagemath.org/prerequisitesUbuntu|Installation prerequisites]], [[https://groups.google.com/forum/#!msg/sage-devel/ZGEeuoTtbh4/bvSrf1jHCgAJ|Recommended installation]]
 
 
 == More details ==
 
-* [[https://trac.sagemath.org/query?milestone=sage-9.0&groupdesc=1&group=status&max=1500&col=id&col=summary&col=author&col=reviewer&col=time&col=changetime&col=component&col=keywords&order=component|Trac tickets with milestone 9.0]]
+ * [[https://trac.sagemath.org/query?milestone=sage-9.0&groupdesc=1&group=status&max=1500&col=id&col=summary&col=author&col=reviewer&col=time&col=changetime&col=component&col=keywords&order=component|Trac tickets with milestone 9.0]]
