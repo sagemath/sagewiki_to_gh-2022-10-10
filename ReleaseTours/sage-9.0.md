@@ -123,7 +123,7 @@ See http://doc.sagemath.org/html/en/reference/graphs/sage/graphs/views.html for 
 
 == Availability of Sage 9.0 and installation help ==
 
- * Release announcements: See https://groups.google.com/forum/#!forum/sage-release
+ * Release announcements: See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]], [[https://groups.google.com/forum/#!forum/sage-announce|sage-announce]]
 
  * Availability in distributions: see [[https://repology.org/project/sagemath/versions|repology.org: sagemath]]
 
