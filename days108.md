@@ -1,16 +1,16 @@
-= Sage Day 108 -- Free and Practical Software for Algebraic Combinatorics 2020 =
+= Sage Day 108: Free and Practical Software for Algebraic Combinatorics 2020 =
 
 '''International Workshop''' on '''F'''ree and '''P'''ractical '''S'''oftware for '''A'''lgebraic '''C'''ombinatorics
 
 The workshop will focus on introducing the [[https://gnu.org/philosophy/free-sw.html|free]] mathematical software system [[https://www.sagemath.org|SageMath]] to students and researchers, with emphasis on algebraic combinatorics. All are invited to participate, regardless of their initial software skills - from beginners to experienced developers.
 
-== Coronavirus update ==
+== Coronavirus Update ==
 
 The [[https://fpsac2020.math.biu.ac.il/|FPSAC 2020]] organizers have wrote: "It is possible that FPSAC 2020 will be postponed because of the world-wide Coronavirus epidemic. We are deliberating our options. We will reach and publicize a decision by April 30. Please do not make any financial commitments beforehand."
 
-We will update the status of Sage Day 108 following that decision.
+The organizers have decided to cancel this international meeting. 
 
-== Date and venue ==
+== Date and Venue ==
 
 Date: 12 July 2020, the Sunday preceding [[https://fpsac2020.math.biu.ac.il/|FPSAC 2020]].
 
@@ -43,3 +43,17 @@ Highlights from the [[http://math-wiki.com/index.php?title=Visitors|visitors pag
  * [[https://www.power-plugs-sockets.com/israel|Power plugs and electricity in Israel]]: For a computer charger you might need an adapter for the [[https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets#Israel_SI32_(Type_H)|type H socket]]. Appliances like a phone charger using Type C plugs (most of Europe) are compatible with it.
 
  * The campus has eduroam and an open Wi``Fi network.
+
+
+== Financial Support ==
+
+This event is supported by [[https://opendreamkit.org/|OpenDreamKit]], the Horizon 2020 European Research Infrastructures project #676541. 
+
+
+== Organizers ==
+
+Tomer Bauer (Bar-Ilan University, '''local organizer''') 
+
+Mee Seong Im (United States Military Academy, Army Research Laboratory, and United States Naval Academy)
+
+Travis Scrimshaw (University of Queensland) 
