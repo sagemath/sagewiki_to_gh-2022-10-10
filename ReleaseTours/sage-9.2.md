@@ -14,11 +14,15 @@ See [[Python3-Switch]] for more details
 
 [[https://trac.sagemath.org/ticket/29141|Meta-ticket #29141: Upgrades and other changes that require dropping py2 support]]
 
+== Deprecating, removing components ==
+
+ * [[https://groups.google.com/d/msg/sage-devel/dg9qDUVU3qs/e-WptfUjBQAJ|Deprecate all of sage.finance, sage.media, sage.stats]]
+
 == Configuration and build changes ==
 
-* [[https://groups.google.com/d/msg/sage-devel/9gOkmF6rSjY/wEV4WBQABwAJ|sage-devel: require "./configure" before "make"]], [[https://trac.sagemath.org/ticket/29316|Trac #29316]]
+ * [[https://groups.google.com/d/msg/sage-devel/9gOkmF6rSjY/wEV4WBQABwAJ|sage-devel: require "./configure" before "make"]], [[https://trac.sagemath.org/ticket/29316|Trac #29316]]
 
-* [[https://trac.sagemath.org/ticket/21507|Meta-ticket #21507: Make sagelib a pip-installable Python source package, listed on PyPI]]
+ * [[https://trac.sagemath.org/ticket/21507|Meta-ticket #21507: Make sagelib a pip-installable Python source package, listed on PyPI]]
 
 == Tickets ==
 
