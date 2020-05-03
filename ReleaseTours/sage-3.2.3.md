@@ -1,6 +1,7 @@
+## page was renamed from sage-3.2.3
 = Sage 3.2.3 Release Tour =
 
-Sage 3.2.3 was released on January 5th, 2009. For the official, comprehensive release note, see [[http://www.sagemath.org/src/announce/sage-3.2.3.txt|sage-3.2.3.txt]]. The following points are some of the foci of this release: 
+Sage 3.2.3 was released on January 5th, 2009. For the official, comprehensive release note, see [[http://www.sagemath.org/changelogs/sage-3.2.3.txt|sage-3.2.3.txt]]; see also [[https://trac.sagemath.org/query?milestone=sage-3.2.3|Trac tickets for milestone 3.2.3]]. The following points are some of the foci of this release: 
 
  * Fixed performance regression in {{{eisenstein_submodule.py}}} introduced in Sage 3.2.2.
  * Fixed readline build troubles on OpenSUSE 11.1.
