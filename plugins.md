@@ -1,3 +1,10 @@
+{{{
+┌─┬──────┐
+│░│ ⊙  ʘ │
+│░│      │
+│░│ ──── │
+╘═╧══════╛
+}}}
 = explanations on the patchbot plugins =
 
 == commit_messages ==
