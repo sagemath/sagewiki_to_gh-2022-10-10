@@ -59,7 +59,12 @@ Release notes (higher level than change logs) are collaboratively prepared at [[
  * [[Python3-compatible code|Writing Python 3 compatible code]]
  * [[OptiPolyGeom|Optimization and Polyhedral Geometry in Sage]]
 
-= Demonstrations of Graphical Capabilities =
+= Features =
+
+ * [[http://www.sagemath.org/tour.html|sagemath.org: SageMath Feature Tour]]
+ * [[Interfaces|Sage wiki: SageMath interfaces to and from other software]]
+
+== Demonstrations of Graphical Capabilities ==
  * [[art|Art - posters, banners, etc]]
  * [[interact|Interact Demos]]
  * [[K3D-tools|K3D-jupyter 3D visualisation in jupyter notebook]]
