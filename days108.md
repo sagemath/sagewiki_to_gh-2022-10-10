@@ -1,4 +1,4 @@
-= Sage Day 108: Free and Practical Software for Algebraic Combinatorics 2020 =
+= Sage Day 108: Free and Practical Software for Algebraic Combinatorics 2020 (canceled) =
 
 '''International Workshop''' on '''F'''ree and '''P'''ractical '''S'''oftware for '''A'''lgebraic '''C'''ombinatorics
 
@@ -6,19 +6,15 @@ The workshop will focus on introducing the [[https://gnu.org/philosophy/free-sw.
 
 == Coronavirus Update ==
 
-The [[https://fpsac2020.math.biu.ac.il/|FPSAC 2020]] organizers have wrote: "It is possible that FPSAC 2020 will be postponed because of the world-wide Coronavirus epidemic. We are deliberating our options. We will reach and publicize a decision by April 30. Please do not make any financial commitments beforehand."
+The [[https://fpsac2020.math.biu.ac.il/|FPSAC 2020]] organizers have wrote: "The ongoing Coronavirus epidemic forces significant changes in all areas of life, including international events. FPSAC is no exception. After thorough deliberation with the executive committee, it was decided that FPSAC will not take place this year as a physical meeting."
 
-The organizers have decided to '''cancel''' this international meeting. 
+The organizers have decided to '''cancel''' this international workshop as well.
 
 == Date and Venue ==
 
 Date: 12 July 2020, the Sunday preceding [[https://fpsac2020.math.biu.ac.il/|FPSAC 2020]].
 
 Location: [[https://www1.biu.ac.il/indexE.php|Bar-Ilan University]], Ramat-Gan, Israel.
-
-== Registration ==
-
-To be updated.
 
 == Installing SageMath ==
 
