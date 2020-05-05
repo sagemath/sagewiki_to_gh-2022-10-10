@@ -1,3 +1,5 @@
+{{https://www.python.org/static/community_logos/python-powered-w-100x40.png||width=100px}}
+
 == Summary of the Python 3 switch ==
 
 !SageMath has been running on top of '''Python 2''' since the beginning, until version 8.9, released in September 2019.
