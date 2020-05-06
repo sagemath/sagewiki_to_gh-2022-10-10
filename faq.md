@@ -1,5 +1,5 @@
 #pragma section-numbers 2
-= Sage FAQ: Frequently Asked Questions =
+= Sage FAQ: Frequently Asked Questions (historical archive) =
 <<TableOfContents>>
 
 '''Outdated, preserved for historical context only. Do not update.'''
