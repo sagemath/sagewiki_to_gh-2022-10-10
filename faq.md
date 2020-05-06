@@ -2,6 +2,8 @@
 = Sage FAQ: Frequently Asked Questions =
 <<TableOfContents>>
 
+'''Outdated, preserved for historical context only. Do not update.'''
+
 == Introduction ==
 
 
