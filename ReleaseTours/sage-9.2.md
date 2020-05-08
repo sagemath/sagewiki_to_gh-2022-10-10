@@ -20,7 +20,7 @@ The removal of support for Python 2 will enable major package upgrades.
 
 == Deprecating, removing components ==
 
- * [[https://groups.google.com/d/msg/sage-devel/dg9qDUVU3qs/e-WptfUjBQAJ|Deprecate all of sage.finance, sage.media, sage.stats]]
+ * [[https://groups.google.com/d/msg/sage-devel/dg9qDUVU3qs/e-WptfUjBQAJ|Deprecate all of sage.finance, sage.media, sage.stats]], [[https://trac.sagemath.org/ticket/29662|Trac #29662]], [[https://trac.sagemath.org/ticket/29663|Trac #29663]]
 
 == Configuration and build changes ==
 
