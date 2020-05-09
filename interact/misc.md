@@ -163,12 +163,12 @@ by Igor Tolkov
 {{{#!sagecell
 @interact
 def _(h=(20,(1,36,1))):
-    print (lambda f:f(0,f))(
+    print9(lambda f:f(0,f))(
         lambda n,f:'%s\n%s'%(
             ('*'*(2*n+1)).join([' '*(h-n-1)]*2),
             ((n<h-1 and f(n+1,f)) or '')
         )
-    )
+    ))
 }}}
 {{attachment:unreadable.png}}
 
