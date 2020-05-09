@@ -34,6 +34,11 @@ The removal of support for Python 2 will enable major package upgrades.
 
  * [[https://trac.sagemath.org/query?milestone=sage-9.2&groupdesc=1&group=status&max=1500&col=id&col=summary&col=author&col=reviewer&col=time&col=changetime&col=component&col=keywords&order=component|Trac tickets with milestone 9.2]]
 
+== Cleaning ==
+
+ * [[https://trac.sagemath.org/ticket/29636|Trac #29636: Delete changelog sections from all SPKG information files]]; they were deprecated in favor of using Trac years ago. The contributions of Sage developers maintaining SPKGs are documented by our [[http://www.sagemath.org/changelogs/index.html|historical changelogs]].
+
+
 == Availability of Sage 9.2 and installation help ==
 
 The Sage 9.2 series has not been started yet.  
