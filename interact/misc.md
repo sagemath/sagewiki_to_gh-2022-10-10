@@ -120,10 +120,10 @@ def _(X='1,2,3,a', Y='2,a,3,4,apple', Z='a,b,10,apple'):
     YZ = Y & Z
     XYZ = XY & Z
     html('<center>')
-    html("$X \cap Y$ = %s"%f(XY))
-    html("$X \cap Z$ = %s"%f(XZ))
-    html("$Y \cap Z$ = %s"%f(YZ))
-    html("$X \cap Y \cap Z$ = %s"%f(XYZ))
+    html("$X \\cap Y$ = {}".format(f(XY)))
+    html("$X \\cap Z$ = {}".format(f(XZ)))
+    html("$Y \\cap Z$ = {}".format(f(YZ)))
+    html("$X \\cap Y \\cap Z$ = {}".format(f(XYZ)))
     html('</center>')
     centers = [(cos(n*2*pi/3), sin(n*2*pi/3)) for n in [0,1,2]]
     scale = 1.7
