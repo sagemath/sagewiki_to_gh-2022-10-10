@@ -83,8 +83,30 @@ There are also some bug fixes and other improvements. For more details see the [
 
 == Manifolds ==
 
- * [[https://sagemanifolds.obspm.fr/changelog.html|Changes in the manifold part]]
-
+The main novelty is the introduction of vector bundles (ticket [[https://trac.sagemath.org/ticket/28159|#28159]]):
+{{{
+sage: M = Manifold(2, 'M')
+sage: X.<x,y> = M.chart()
+sage: TM = M.tangent_bundle(); TM
+Tangent bundle TM over the 2-dimensional differentiable manifold M
+sage: TM.trivialization?
+sage: v = TM.section([-y, x], name='v'); v
+Vector field v on the 2-dimensional differentiable manifold M
+sage: v.display()
+v = -y d/dx + x d/dy
+sage: p = M((2,3), name='p'); p
+Point p on the 2-dimensional differentiable manifold M
+sage: TM.fiber(p)
+Tangent space at Point p on the 2-dimensional differentiable manifold M
+sage: v.at(p) in TM.fiber(p)
+True
+}}}
+Other new features are
+ * characteristic classes (ticket [[https://trac.sagemath.org/ticket/#27784|#27784]])
+ * the construction of a vector frame from a family of predefined vector fields (ticket [[https://trac.sagemath.org/ticket/#28716|#28716]])
+ * the handling of multiple symmetries and multiple contractions with index notation (ticket [[https://trac.sagemath.org/ticket/#28784|#28784]])
+ * more control on the numerical ODE solver for integrated curves and geodesics (ticket [[https://trac.sagemath.org/ticket/#28707|#28707]])
+See the [[https://sagemanifolds.obspm.fr/changelog.html|full changelog]] for details.
 
 == EdgesView for graphs ==
 
