@@ -83,7 +83,7 @@ There are also some bug fixes and other improvements. For more details see the [
 
 == Manifolds ==
 
-The main novelty is the introduction of vector bundles (ticket [[https://trac.sagemath.org/ticket/28159|#28159]]):
+The main novelty is the introduction of vector bundles (ticket [[https://trac.sagemath.org/ticket/28159|#28159]]). For instance:
 {{{
 sage: M = Manifold(2, 'M')
 sage: X.<x,y> = M.chart()
@@ -105,7 +105,7 @@ Other new features are
  * the construction of a vector frame from a family of predefined vector fields (ticket [[https://trac.sagemath.org/ticket/#28716|#28716]])
  * the handling of multiple symmetries and multiple contractions with index notation (ticket [[https://trac.sagemath.org/ticket/#28784|#28784]])
  * more control on the numerical ODE solver for integrated curves and geodesics (ticket [[https://trac.sagemath.org/ticket/#28707|#28707]])
-See the [[https://sagemanifolds.obspm.fr/changelog.html|full changelog]] for details.
+See the [[https://sagemanifolds.obspm.fr/changelog.html|full changelog]] for details, as well as the list of improvements and bug fixes in this release.
 
 == EdgesView for graphs ==
 
