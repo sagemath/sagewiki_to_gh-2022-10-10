@@ -89,7 +89,6 @@ sage: M = Manifold(2, 'M')
 sage: X.<x,y> = M.chart()
 sage: TM = M.tangent_bundle(); TM
 Tangent bundle TM over the 2-dimensional differentiable manifold M
-sage: TM.trivialization?
 sage: v = TM.section([-y, x], name='v'); v
 Vector field v on the 2-dimensional differentiable manifold M
 sage: v.display()
