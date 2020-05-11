@@ -1,4 +1,4 @@
-= Sage Day 108: Free and Practical Software for Algebraic Combinatorics 2020 (canceled) =
+= Sage Day 108: Free and Practical Software for Algebraic Combinatorics 2020 [canceled] =
 
 '''International Workshop''' on '''F'''ree and '''P'''ractical '''S'''oftware for '''A'''lgebraic '''C'''ombinatorics
 
