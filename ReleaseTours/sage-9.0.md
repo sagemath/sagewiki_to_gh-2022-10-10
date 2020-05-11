@@ -99,6 +99,8 @@ sage: TM.fiber(p)
 Tangent space at Point p on the 2-dimensional differentiable manifold M
 sage: v.at(p) in TM.fiber(p)
 True
+sage: v.at(p).display()
+v = -3 d/dx + 2 d/dy
 }}}
 Other new features are
  * characteristic classes (ticket [[https://trac.sagemath.org/ticket/#27784|#27784]])
