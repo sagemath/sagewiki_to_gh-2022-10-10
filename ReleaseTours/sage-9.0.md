@@ -103,10 +103,10 @@ sage: v.at(p).display()
 v = -3 d/dx + 2 d/dy
 }}}
 Other new features are
- * characteristic classes (ticket [[https://trac.sagemath.org/ticket/#27784|#27784]])
- * the construction of a vector frame from a family of predefined vector fields (ticket [[https://trac.sagemath.org/ticket/#28716|#28716]])
- * the handling of multiple symmetries and multiple contractions with index notation (ticket [[https://trac.sagemath.org/ticket/#28784|#28784]])
- * more control on the numerical ODE solver for integrated curves and geodesics (ticket [[https://trac.sagemath.org/ticket/#28707|#28707]])
+ * characteristic classes (ticket [[https://trac.sagemath.org/ticket/27784|#27784]])
+ * the construction of a vector frame from a family of predefined vector fields (ticket [[https://trac.sagemath.org/ticket/28716|#28716]])
+ * the handling of multiple symmetries and multiple contractions with index notation (ticket [[https://trac.sagemath.org/ticket/28784|#28784]])
+ * more control on the numerical ODE solver for integrated curves and geodesics (ticket [[https://trac.sagemath.org/ticket/28707|#28707]])
 See the [[https://sagemanifolds.obspm.fr/changelog.html|full changelog]] for details, as well as the list of improvements and bug fixes in this release.
 
 == EdgesView for graphs ==
