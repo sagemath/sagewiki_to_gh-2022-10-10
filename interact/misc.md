@@ -265,10 +265,10 @@ def cellular(rule, N, initial='Single-cell'):
     if initial=='Single-cell':
         M[0,N]=1
     else:
-        M[0]=[randint(0,1) for a in range(0,2*N+2)]
+        M[0]=[randint(0,1) for a in range(2*N+2)]
     
     for j in range(1,N):
-        for k in range(0,2*N):
+        for k in range(2*N):
             l = 4*M[j-1,k-1] + 2*M[j-1,k] + M[j-1,k+1]
             M[j,k]=rule[ l ]
     return M[:,:-1]
