@@ -158,7 +158,9 @@ See http://doc.sagemath.org/html/en/reference/graphs/sage/graphs/views.html for 
 
  * Debian/Ubuntu: [[https://wiki.sagemath.org/prerequisites/Ubuntu|Installation prerequisites]], [[https://groups.google.com/forum/#!msg/sage-devel/ZGEeuoTtbh4/bvSrf1jHCgAJ|Recommended installation]]
 
- * Sage 9.0 may not compile from source on some cutting edge Linux distributions such as Ubuntu 20.04 LTS ([[https://groups.google.com/d/msg/sage-devel/gUMOFL7eY1M/Rqz_FMICAQAJ|workaround]]) and Fedora 32.  Use either a distribution package of Sage if that is available in your distribution, a binary distribution of 9.0, or compile a development version of Sage leading to the Sage 9.1 release.
+ * Sage 9.0 (and earlier) does not support compilation within a conda environment. Deactivate conda before building Sage.
+
+ * Sage 9.0 (and earlier) may not compile from source on some cutting edge Linux distributions such as Ubuntu 20.04 LTS ([[https://groups.google.com/d/msg/sage-devel/gUMOFL7eY1M/Rqz_FMICAQAJ|workaround]]) and Fedora 32.  Use either a distribution package of Sage if that is available in your distribution, a binary distribution of 9.0, or compile a development version of Sage leading to the [[ReleaseTours/sage-9.1|Sage 9.1 release]].
 
 == More details ==
 
