@@ -160,7 +160,7 @@ and the one related to other bot reports:
 
 The defaults are
 {{{
- bonus = {
+ "bonus": {
      "blocker"        : 100,
      "critical"       : 60,
      "major"          : 10,
@@ -176,7 +176,7 @@ The defaults are
 }}}
 But you could add
 {{{
- bonus = {
+ "bonus": {
      "vbraun": 10,
      "inconito": -5,
      "linear programming": 200,
