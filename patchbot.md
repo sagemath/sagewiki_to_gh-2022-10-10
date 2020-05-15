@@ -168,7 +168,7 @@ The defaults are
      "needs_review"   : 1000,
      "positive_review": 500,
      "needs_info"     : 0,
-     "needs_work"     : 0
+     "needs_work"     : 0,
      "unique"         : 40,
      "applies"        : 20,
      "behind"         : 1
@@ -180,7 +180,7 @@ But you could add
      "vbraun": 10,
      "inconito": -5,
      "linear programming": 200,
-     "finance": -200
+     "finance": -200,
      "14382": 100,
      "15777": 100
      }
