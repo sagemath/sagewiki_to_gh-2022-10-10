@@ -1,6 +1,6 @@
 = Sage 9.2 Release Tour =
 
-in planning (2020)
+in progress (2020)
 
 <<TableOfContents>>
 
@@ -39,6 +39,7 @@ The removal of support for Python 2 will enable major package upgrades.
 
 == Availability of Sage 9.2 and installation help ==
 
-The Sage 9.2 series has not been started yet.  
+Sage 9.2 has not been released yet.  See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]] for announcements of beta versions and release candidates.
+
 
  * See [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]] for development discussions.
