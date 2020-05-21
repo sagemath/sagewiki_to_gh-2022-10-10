@@ -25,6 +25,8 @@ and/or post a message in the zulip stream #sd109
 
 === Presentations: What's New in Sage 9.1 ===
 
+Organizer: Matthias Köppe
+
 
 === Big-picture Development Discussions ===
 
