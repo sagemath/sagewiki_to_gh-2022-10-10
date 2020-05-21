@@ -312,6 +312,24 @@ Cons:
  but means that one looses the history and author tracking (that's
  not that different from history squashing as used by many projects)
 
+=== Standalone (pip) packages that provide native namespace packages ==
+
+This is another variant, enabled by the transition to Python 3.
+
+See https://trac.sagemath.org/ticket/28925
+
+Specifics:
+
+ * Transform packages in the Sage library to native namespace packages
+   by removing ``__init__.py``
+
+ * In the standalone pacakge, lay out the code in a source tree parallel to
+   that of the Sage library.
+
+Examples:
+
+ * https://github.com/mkoeppe/sage-numerical-backends-namespace
+
 = Historical: what was this Sage-Combinat queue madness about??? =
 
 Sage-Combinat is a software project whose mission is: "to improve the
