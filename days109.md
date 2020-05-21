@@ -37,6 +37,7 @@ Organizer: Matthias Köppe
 
 === Big-picture Development Discussions ===
 
+ * Modularization of Sage, integration with the Python community
 
 === Nettoyage de Printemps (Spring Cleaning) ===
 
