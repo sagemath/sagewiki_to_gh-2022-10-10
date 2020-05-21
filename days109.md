@@ -2,15 +2,19 @@
 
 on the occasion of the [[https://wiki.sagemath.org/ReleaseTours/sage-9.1|release of Sage 9.1]]
 
-held on '''Thursday, May 28, 2020''' (any timezone in the world) 
+held on '''Thursday, May 28, 2020''' ([[https://en.wikipedia.org/wiki/List_of_UTC_time_offsets|any timezone in the world]]) 
 
-a 47-hour fully virtual event
+ * Beginning: May 28, 2020, 00:00 Kiribati time (UTC+14) 
+
+ * End: May 28, 2020, 23:59:59 Baker Island time (UTC-12)
+
+a 50-hour fully virtual event
 
 == How to participate ==
 
-* [[https://zulip.sagemath.org/#narrow/stream/126-sd109|zulip #sd109]]
+ * [[https://zulip.sagemath.org/#narrow/stream/126-sd109|zulip #sd109]]
 
-* Video conferencing (details and schedule to be announced)
+ * Video conferencing (details and schedule to be announced)
 
 == Activities ==
 
