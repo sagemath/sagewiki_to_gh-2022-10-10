@@ -312,7 +312,7 @@ Cons:
  but means that one looses the history and author tracking (that's
  not that different from history squashing as used by many projects)
 
-=== Standalone (pip) packages that provide native namespace packages ==
+=== Standalone (pip) packages that provide native namespace packages ===
 
 This is another variant, enabled by the transition to Python 3.
 
