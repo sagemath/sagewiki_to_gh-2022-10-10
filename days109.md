@@ -76,6 +76,6 @@ The aim is to go through the already existing trac tickets and
  * [[https://trac.sagemath.org/report/58|trac tickets sorted by time (oldest first)]]
  * [[https://trac.sagemath.org/report/79|trac tickets reported as "defect" (as opposed to enhancement) (oldest first)]]
 
-==== Organizers ====
+== Organizers of SageDays 109 ==
 
 This is a community-organized event.
