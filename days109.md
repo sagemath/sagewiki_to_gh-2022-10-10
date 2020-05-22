@@ -12,9 +12,11 @@ a 50-hour fully virtual event. [[https://framagenda.org/apps/calendar/p/WicjPweW
 
 == How to participate ==
 
- * [[https://zulip.sagemath.org/#narrow/stream/126-sd109|zulip #sd109]]
+ * '''Please register (ASAP) if you intend to participate''': https://zulip.sagemath.org/#narrow/stream/126-sd109/topic/Registration.20for.20Global.20Virtual.20SageDays.20109
 
- * Video conferencing (details and schedule to be announced)
+ * Join our [[https://zulip.sagemath.org/#narrow/stream/126-sd109|zulip #sd109]] messaging stream. This stream drives the SageDays event.  All activities are announced there.
+
+ * Video conferencing (details and schedule to be announced on the Zulip stream)
 
 == Activities ==
 
@@ -23,21 +25,41 @@ and/or post a message in the zulip stream #sd109
 
 === Introduction to Sage ===
 
+Details TBA
 
 === Installfest ===
 
+We give step-by-step instructions on how to install Sage 9.1 from source.
+
+Experienced developers will help if any problems appear.
+
+Spontaneous celebrations on completed installations are encouraged.
+
+=== Sage User Forum ===
+
+We would love to hear from users of SageMath how they use Sage... in research, in education, in applications, ...
+
+Share your Sage wishlist 
+
+Format TBA
 
 === Introduction to Sage Development ===
 
+For Sage users who wish to take the first (or the next) steps in Sage development.
 
 === Presentations: What's New in Sage 9.1 ===
 
 Organizer: Matthias Köppe
 
+Following https://wiki.sagemath.org/ReleaseTours/sage-9.1
 
 === Big-picture Development Discussions ===
 
- * Modularization of Sage, integration with the Python community
+ * Modularization of Sage
+
+ * Integration with the Python community
+
+ * The next 10 years of Sage development
 
 === Nettoyage de Printemps (Spring Cleaning) ===
 
@@ -53,3 +75,7 @@ The aim is to go through the already existing trac tickets and
 
  * [[https://trac.sagemath.org/report/58|trac tickets sorted by time (oldest first)]]
  * [[https://trac.sagemath.org/report/79|trac tickets reported as "defect" (as opposed to enhancement) (oldest first)]]
+
+==== Organizers ====
+
+This is a community-organized event.
