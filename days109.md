@@ -53,6 +53,10 @@ Organizer: Matthias Köppe
 
 Following https://wiki.sagemath.org/ReleaseTours/sage-9.1
 
+=== SageMath, Mathematical Libraries, and the Landscape of Computer Algebra Software ===
+
+TBA
+
 === Big-picture Development Discussions ===
 
  * Modularization of Sage
