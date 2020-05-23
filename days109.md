@@ -23,6 +23,13 @@ a 50-hour fully virtual event. [[https://framagenda.org/apps/calendar/p/WicjPweW
 To offer or request presentations on specific topics, please edit https://trac.sagemath.org/wiki/SagePresentationsMarketplace
 and/or post a message in the zulip stream #sd109  
 
+== Confirmed Speakers ==
+
+ * Kiran Kedlaya, UC San Diego, USA
+ * Matthias Köppe, UC Davis, USA
+ * Bill Hart, TU Kaiserslautern, Germany
+ * Haroldo G. Santos, Universidade Federal de Ouro Preto, Brazil
+
 === Introduction to Sage ===
 
 Details TBA
