@@ -25,10 +25,11 @@ and/or post a message in the zulip stream #sd109
 
 == Confirmed Speakers ==
 
- * Bill Hart, TU Kaiserslautern, Germany
- * Kiran Kedlaya, UC San Diego, USA
+ * [[https://www.mathematik.uni-kl.de/agag/personen/dozenten/|Bill Hart]], TU Kaiserslautern, Germany
+ * [[https://kskedlaya.org/|Kiran Kedlaya]], UC San Diego, USA
  * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis, USA
- * Haroldo G. Santos, Universidade Federal de Ouro Preto, Brazil
+ * [[http://www.decom.ufop.br/haroldo/|Haroldo G. Santos]], Universidade Federal de Ouro Preto, Brazil
+ * [[https://www.math.ucdavis.edu/~anne/|Anne Schilling]], UC Davis, USA
 
 === Introduction to Sage ===
 
