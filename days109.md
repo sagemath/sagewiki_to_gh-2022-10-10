@@ -1,6 +1,6 @@
 = Global Virtual SageDays 109 =
 
-on the occasion of the [[https://wiki.sagemath.org/ReleaseTours/sage-9.1|release of SageMath 9.1]]
+an event for the SageMath user and developer community on the occasion of the [[https://wiki.sagemath.org/ReleaseTours/sage-9.1|release of SageMath 9.1]]
 
 held on '''Thursday, May 28, 2020''' ([[https://en.wikipedia.org/wiki/List_of_UTC_time_offsets|any timezone in the world]]) 
 
