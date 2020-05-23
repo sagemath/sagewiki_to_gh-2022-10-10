@@ -43,6 +43,10 @@ Share your Sage wishlist
 
 Format TBA
 
+=== Creating external packages ===
+
+First steps and best practices in creating packages and Continuous Integration  
+
 === Introduction to Sage Development ===
 
 For Sage users who wish to take the first (or the next) steps in Sage development.
