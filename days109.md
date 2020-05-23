@@ -25,7 +25,7 @@ a '''50-hour fully virtual event.''' [[https://framagenda.org/apps/calendar/p/Wi
 To offer or request presentations on specific topics, please edit https://trac.sagemath.org/wiki/SagePresentationsMarketplace
 and/or post a message in the zulip stream #sd109  
 
-== Confirmed Speakers ==
+=== Confirmed Speakers ===
 
  * [[https://www.mathematik.uni-kl.de/agag/personen/dozenten/|Bill Hart]], TU Kaiserslautern, Germany
  * [[https://kskedlaya.org/|Kiran Kedlaya]], UC San Diego, USA
