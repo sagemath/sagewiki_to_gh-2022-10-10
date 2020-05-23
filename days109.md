@@ -14,7 +14,7 @@ a '''50-hour fully virtual event.''' [[https://framagenda.org/apps/calendar/p/Wi
 
 [[https://www.sagemath.org/|Sage]] is a mature, comprehensive, free (open-source) mathematics software system based on Python, licensed under the GNU General Public License, that integrates computer algebra facilities and general computational packages. 
 
-Sage, first released in 2005, in over a decade of incubation in the  [[https://github.com/sagemath/sage/tree/develop/build/pkgs|SageMath distribution, comprising 293 software packages]], has grown its own library of 1000 Cython and over 4400 Python modules, [[https://github.com/sagemath/sage/tree/develop/src/sage|ranging from sage.algebras.* over sage.geometry.* to sage.tensor.* ], with a total of over 2.2 million lines of code.  [[https://wiki.sagemath.org/ReleaseTours/sage-9.0|SageMath 9.0]], released in January 2020, completed the transition of the Sage library to Python 3.
+Sage, first released in 2005, in over a decade of incubation in the  [[https://github.com/sagemath/sage/tree/develop/build/pkgs|SageMath distribution, comprising 293 software packages]], has grown its own [[https://github.com/sagemath/sage/tree/develop/src/sage|library of 1000 Cython and over 4400 Python modules]], ranging from `sage.algebras.*` over `sage.geometry.*` to `sage.tensor.*`, with a total of over 2.2 million lines of code.  [[https://wiki.sagemath.org/ReleaseTours/sage-9.0|SageMath 9.0]], released in January 2020, completed the transition of the Sage library to Python 3.
 
 == How to participate ==
 
