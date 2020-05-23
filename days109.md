@@ -1,6 +1,6 @@
 = Global Virtual SageDays 109 =
 
-on the occasion of the [[https://wiki.sagemath.org/ReleaseTours/sage-9.1|release of Sage 9.1]]
+on the occasion of the [[https://wiki.sagemath.org/ReleaseTours/sage-9.1|release of SageMath 9.1]]
 
 held on '''Thursday, May 28, 2020''' ([[https://en.wikipedia.org/wiki/List_of_UTC_time_offsets|any timezone in the world]]) 
 
@@ -9,6 +9,12 @@ held on '''Thursday, May 28, 2020''' ([[https://en.wikipedia.org/wiki/List_of_UT
  * End: May 28, 2020, 23:59:59 Baker Island time (UTC-12)
 
 a '''50-hour fully virtual event.''' [[https://framagenda.org/apps/calendar/p/WicjPweWZtNCQ8QM/timeGridWeek/2020-05-28|Calendar]], [[https://framagenda.org/remote.php/dav/public-calendars/WicjPweWZtNCQ8QM?export|subscription link]]
+
+== About SageMath ==
+
+[[https://www.sagemath.org/|Sage]] is a mature, comprehensive, free (open-source) mathematics software system based on Python, licensed under the GNU General Public License, that integrates computer algebra facilities and general computational packages. 
+
+Sage, first released in 2005, in over a decade of incubation in the  [[https://github.com/sagemath/sage/tree/develop/build/pkgs|SageMath distribution, comprising 293 software packages]], has grown its own library of 1000 Cython and over 4400 Python modules, [[https://github.com/sagemath/sage/tree/develop/src/sage|ranging from sage.algebras.* over sage.geometry.* to sage.tensor.*`], with a total of over 2.2 million lines of code.  [[https://wiki.sagemath.org/ReleaseTours/sage-9.0|SageMath 9.0]], released in January 2020, completed the transition of the Sage library to Python 3.
 
 == How to participate ==
 
