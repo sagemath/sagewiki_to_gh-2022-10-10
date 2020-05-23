@@ -25,9 +25,9 @@ and/or post a message in the zulip stream #sd109
 
 == Confirmed Speakers ==
 
- * Kiran Kedlaya, UC San Diego, USA
- * Matthias Köppe, UC Davis, USA
  * Bill Hart, TU Kaiserslautern, Germany
+ * Kiran Kedlaya, UC San Diego, USA
+ * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis, USA
  * Haroldo G. Santos, Universidade Federal de Ouro Preto, Brazil
 
 === Introduction to Sage ===
@@ -49,6 +49,8 @@ We would love to hear from users of SageMath how they use Sage... in research, i
 Share your Sage wishlist 
 
 Format TBA
+
+Organizer: [[http://www.ms.uky.edu/~yzh392/|Yuan Zhou]], University of Kentucky, USA
 
 === Creating external packages ===
 
