@@ -55,6 +55,10 @@ Format TBA
 
 Organizer: [[http://www.ms.uky.edu/~yzh392/|Yuan Zhou]], University of Kentucky, USA
 
+=== Sage in Education ===
+
+
+
 === Creating external packages ===
 
 First steps and best practices in creating packages and Continuous Integration  
