@@ -45,6 +45,7 @@ and/or post a message in the zulip stream #sd109
  * [[http://www.decom.ufop.br/haroldo/|Haroldo G. Santos]], Universidade Federal de Ouro Preto, Brazil
  * [[https://www.math.ucdavis.edu/~anne/|Anne Schilling]], UC Davis, USA
  * [[http://www3.decom.ufop.br/toffolo/en/|Túlio Toffolo]], Universidade Federal de Ouro Preto, Brazil
+ * more to be confirmed
 
 === Introduction to Sage ===
 
