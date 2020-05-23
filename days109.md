@@ -35,6 +35,7 @@ and/or post a message in the zulip stream #sd109
 
 === Confirmed Speakers ===
 
+ * [[http://krystalguo.com/|Krystal Guo]], Université de Montréal, Canada
  * [[https://www.mathematik.uni-kl.de/agag/personen/dozenten/|Bill Hart]], TU Kaiserslautern, Germany
  * [[https://kskedlaya.org/|Kiran Kedlaya]], UC San Diego, USA
  * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis, USA
