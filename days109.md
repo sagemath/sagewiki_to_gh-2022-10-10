@@ -8,7 +8,7 @@ held on '''Thursday, May 28, 2020''' ([[https://en.wikipedia.org/wiki/List_of_UT
 
  * End: May 28, 2020, 23:59:59 Baker Island time (UTC-12)
 
-a 50-hour fully virtual event. [[https://framagenda.org/apps/calendar/p/WicjPweWZtNCQ8QM/timeGridWeek/2020-05-28|Calendar]], [[https://framagenda.org/remote.php/dav/public-calendars/WicjPweWZtNCQ8QM?export|subscription link]]
+a '''50-hour fully virtual event.''' [[https://framagenda.org/apps/calendar/p/WicjPweWZtNCQ8QM/timeGridWeek/2020-05-28|Calendar]], [[https://framagenda.org/remote.php/dav/public-calendars/WicjPweWZtNCQ8QM?export|subscription link]]
 
 == How to participate ==
 
@@ -16,7 +16,9 @@ a 50-hour fully virtual event. [[https://framagenda.org/apps/calendar/p/WicjPweW
 
  * Join our [[https://zulip.sagemath.org/#narrow/stream/126-sd109|zulip #sd109]] messaging stream. This stream drives the SageDays event.  All activities are announced there.
 
- * Video conferencing (details and schedule to be announced on the Zulip stream)
+ * '''Video conferencing'''. We will be using a free (open source) software solution for videoconferencing: Discussions and talks will happen via [[https://bigbluebutton.org/|BigBlueButton]] (BBB; see [[https://en.wikipedia.org/wiki/BigBlueButton|Wikipedia page]]; [[https://bigbluebutton.org/open-source-license/|license]]).  We will use the BBB servers at Orsay and/or other French institutions.  
+
+   * Details, schedule, how to access: will be announced on the Zulip stream.
 
 == Activities ==
 
