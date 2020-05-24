@@ -81,6 +81,8 @@ Organizer: [[http://www.ms.uky.edu/~yzh392/|Yuan Zhou]], University of Kentucky,
 
 First steps and best practices in creating packages and Continuous Integration  
 
+https://wiki.sagemath.org/SageMathExternalPackages
+
 Organizer: [[https://www.imo.universite-paris-saclay.fr/~lelievre/|Samuel Lelièvre]], Université Paris-Saclay
 
 === Introduction to Sage Development ===
