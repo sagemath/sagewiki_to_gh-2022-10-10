@@ -12,6 +12,8 @@ a '''50-hour fully virtual event.''' [[https://framagenda.org/apps/calendar/p/Wi
 
 [[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the current global health crisis, we organize SageDays 109 as the first fully virtual event in the series.
 
+<<TableOfContents>>
+
 == About SageMath ==
 
 [[https://www.sagemath.org/|Sage]] is a mature, comprehensive, free (open-source) mathematics software system based on Python, licensed under the GNU General Public License, that integrates computer algebra facilities and general computational packages. 
