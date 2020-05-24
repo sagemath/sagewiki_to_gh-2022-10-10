@@ -45,6 +45,7 @@ and/or post a message in the zulip stream #sd109
  * [[http://code.chosun.ac.kr/~kwankyu/homepage/|Kwankyu Lee]], 조선대학교 (Chosun University), South Korea
  * [[http://www.decom.ufop.br/haroldo/|Haroldo G. Santos]], Universidade Federal de Ouro Preto, Brazil
  * [[https://www.math.ucdavis.edu/~anne/|Anne Schilling]], UC Davis, USA
+ * [[https://people.smp.uq.edu.au/TravisScrimshaw/|Travis Scrimshaw]], University of Queensland, Australia
  * [[http://www3.decom.ufop.br/toffolo/en/|Túlio Toffolo]], Universidade Federal de Ouro Preto, Brazil
  * more to be confirmed
 
@@ -78,15 +79,17 @@ Organizer: [[http://www.ms.uky.edu/~yzh392/|Yuan Zhou]], University of Kentucky,
 
 First steps and best practices in creating packages and Continuous Integration  
 
+Organizer: [[https://www.imo.universite-paris-saclay.fr/~lelievre/|Samuel Lelièvre]], Université Paris-Saclay
+
 === Introduction to Sage Development ===
 
 For Sage users who wish to take the first (or the next) steps in Sage development.
 
 === Presentations: What's New in Sage 9.1 ===
 
-Organizer: Matthias Köppe
-
 Following https://wiki.sagemath.org/ReleaseTours/sage-9.1
+
+Organizer: [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis, USA
 
 === SageMath, Mathematical Libraries, and the Landscape of Computer Algebra Software ===
 
