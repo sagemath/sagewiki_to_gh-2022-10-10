@@ -100,6 +100,8 @@ Organizer: [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis,
 
 TBA
 
+=== Farewell to Python 2 ===
+
 === Big-picture Development Discussions ===
 
  * Modularization of Sage
