@@ -57,6 +57,7 @@ and/or post a message in the zulip stream #sd109
  * [[http://www.decom.ufop.br/haroldo/|Haroldo G. Santos]], Universidade Federal de Ouro Preto, Brazil
  * [[https://www.math.ucdavis.edu/~anne/|Anne Schilling]], UC Davis, USA
  * [[https://people.smp.uq.edu.au/TravisScrimshaw/|Travis Scrimshaw]], University of Queensland, Australia
+ * [[https://www.nottingham.ac.uk/mathematics/people/fredrik.stromberg|Fredrik Strömberg]], University of Nottingham, UK
  * [[http://www3.decom.ufop.br/toffolo/en/|Túlio Toffolo]], Universidade Federal de Ouro Preto, Brazil
  * more to be confirmed
 
