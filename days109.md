@@ -104,7 +104,11 @@ Organizer: [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis,
 
 TBA
 
-=== Farewell to Python 2 ===
+=== Farewell to Python 2 and six ===
+
+{{{
+print "Goodbye"
+}}}
 
 === Big-picture Development Discussions ===
 
