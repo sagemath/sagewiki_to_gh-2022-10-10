@@ -49,8 +49,11 @@ and/or post a message in the zulip stream #sd109
  * [[http://krystalguo.com/|Krystal Guo]], Université de Montréal, Canada
  * [[https://www.mathematik.uni-kl.de/agag/personen/dozenten/|Bill Hart]], TU Kaiserslautern, Germany
  * [[https://kskedlaya.org/|Kiran Kedlaya]], UC San Diego, USA
+ * [[https://www.mi.fu-berlin.de/en/math/groups/discgeom/members/kliem.html|Jonathan Kliem]], Freie Universität Berlin, Germany
  * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis, USA
+ * [[https://www.mi.fu-berlin.de/en/math/groups/discgeom/members/labbe.html|Jean-Philippe Labbé]], Freie Universität Berlin, Germany
  * [[http://code.chosun.ac.kr/~kwankyu/homepage/|Kwankyu Lee]], Chosun University, South Korea
+ * [[https://github.com/saraedum|Julian Rüth]], Free Software enthusiast
  * [[http://www.decom.ufop.br/haroldo/|Haroldo G. Santos]], Universidade Federal de Ouro Preto, Brazil
  * [[https://www.math.ucdavis.edu/~anne/|Anne Schilling]], UC Davis, USA
  * [[https://people.smp.uq.edu.au/TravisScrimshaw/|Travis Scrimshaw]], University of Queensland, Australia
