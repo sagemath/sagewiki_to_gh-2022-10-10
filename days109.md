@@ -2,11 +2,15 @@
 
 an event for the SageMath user and developer community on the occasion of the [[https://wiki.sagemath.org/ReleaseTours/sage-9.1|release of SageMath 9.1]]
 
-held on '''Thursday, May 28, 2020''' ([[https://en.wikipedia.org/wiki/List_of_UTC_time_offsets|any timezone in the world]]) 
+held on '''Thursday, May 28, 2020''' ([when it is that date in [https://en.wikipedia.org/wiki/List_of_UTC_time_offsets|some timezone in the world]]) 
 
- * Beginning: May 28, 2020, 00:00 Kiribati time (UTC+14) 
+ * '''Beginning: Wednesday, May 27, 2020, 10:00 GMT''',
 
- * End: May 28, 2020, 23:59:59 Baker Island time (UTC-12)
+   ... which is May 28, 2020, 00:00 Kiribati time (UTC+14),
+
+ * '''End: Friday, May 29, 2020, 12:00 GMT''', 
+
+   ... which is May 28, 2020, 23:59:59 Baker Island time (UTC-12),
 
 a '''50-hour fully virtual event.''' [[https://framagenda.org/apps/calendar/p/WicjPweWZtNCQ8QM/timeGridWeek/2020-05-28|Calendar]], [[https://framagenda.org/remote.php/dav/public-calendars/WicjPweWZtNCQ8QM?export|subscription link]]
 
