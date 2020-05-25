@@ -6,11 +6,11 @@ held on '''Thursday, May 28, 2020''' (when it is that date in [[https://en.wikip
 
  * '''Beginning: Wednesday, May 27, 2020, 10:00 (morning) GMT''',
 
-   ... which is May 28, 2020, 00:00 Kiribati time (UTC+14),
+   .... which is May 28, 2020, 00:00 Kiribati time (UTC+14),
 
  * '''End: Friday, May 29, 2020, 12:00 (noon) GMT''', 
 
-   ... which is May 28, 2020, 23:59:59 Baker Island time (UTC-12),
+   .... which is May 28, 2020, 23:59:59 Baker Island time (UTC-12),
 
 a '''50-hour fully virtual event.''' [[https://framagenda.org/apps/calendar/p/WicjPweWZtNCQ8QM/timeGridWeek/2020-05-28|Calendar]], [[https://framagenda.org/remote.php/dav/public-calendars/WicjPweWZtNCQ8QM?export|subscription link]]
 
