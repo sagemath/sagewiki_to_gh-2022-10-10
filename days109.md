@@ -39,6 +39,7 @@ and/or post a message in the zulip stream #sd109
 
 === Confirmed Speakers ===
 
+ * [[http://alexjbest.github.io/|Alex J. Best]], Boston University, USA
  * [[http://www.ams.jhu.edu/~egnang/|Edinah K. Gnang]], Johns Hopkins University, USA
  * [[http://krystalguo.com/|Krystal Guo]], Université de Montréal, Canada
  * [[https://www.mathematik.uni-kl.de/agag/personen/dozenten/|Bill Hart]], TU Kaiserslautern, Germany
