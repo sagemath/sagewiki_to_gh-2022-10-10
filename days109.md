@@ -4,11 +4,11 @@ an event for the SageMath user and developer community on the occasion of the [[
 
 held on '''Thursday, May 28, 2020''' (when it is that date in [[https://en.wikipedia.org/wiki/List_of_UTC_time_offsets|some timezone in the world]]) 
 
- * '''Beginning: Wednesday, May 27, 2020, 10:00 (morning) GMT''',
+ * '''Beginning: Wednesday, May 27, 2020, 10:00:00 (morning) GMT''',
 
    .... which is May 28, 2020, 00:00 Kiribati time (UTC+14),
 
- * '''End: Friday, May 29, 2020, 12:00 (noon) GMT''', 
+ * '''End: Friday, May 29, 2020, 11:59:59 (noon) GMT''', 
 
    .... which is May 28, 2020, 23:59:59 Baker Island time (UTC-12),
 
