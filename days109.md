@@ -123,6 +123,11 @@ print "Goodbye"
 
  * The next 10 years of Sage development
 
+Panel:
+
+ * [[https://math.washington.edu/people/john-palmieri|John Palmieri]], University of Washington, USA
+ * TBA
+
 === Nettoyage de Printemps (Spring Cleaning) ===
 
 Organizers: Sébastien Labbé, Vincent Delecroix, Xavier Caruso
