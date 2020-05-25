@@ -32,7 +32,7 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
  * Join our [[https://zulip.sagemath.org/#narrow/stream/126-sd109|zulip #sd109]] messaging stream. This stream drives the SageDays event.  All activities are announced there.
 
- * '''Video conferencing'''. We will be using a free (open source) software solution for videoconferencing: Discussions and talks will happen via [[https://bigbluebutton.org/|BigBlueButton]] (BBB; see [[https://en.wikipedia.org/wiki/BigBlueButton|Wikipedia page]]; [[https://bigbluebutton.org/open-source-license/|license]]).  We will use the BBB servers at Orsay and/or other French institutions.  
+ * '''Video conferencing'''. We will mainly be using a free (open source) software solution for videoconferencing: Discussions and talks will happen via [[https://bigbluebutton.org/|BigBlueButton]] (BBB; see [[https://en.wikipedia.org/wiki/BigBlueButton|Wikipedia page]]; [[https://bigbluebutton.org/open-source-license/|license]]).  We will use the BBB servers at Orsay and/or other French institutions.  For the convenience of presenters, we may also use Zoom or Google Meet.
 
    * Details, schedule, how to access: will be announced on the Zulip stream.
 
