@@ -146,4 +146,4 @@ The aim is to go through the already existing trac tickets and
 
 == Organizers of SageDays 109 ==
 
-This is a community-organized event.
+This is a community-organized event.  Join the Organization thread on Zulip #sd109 to join the organization team.
