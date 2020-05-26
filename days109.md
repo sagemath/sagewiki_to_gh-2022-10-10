@@ -85,10 +85,9 @@ Format TBA
 
 Organizer: [[http://www.ms.uky.edu/~yzh392/|Yuan Zhou]], University of Kentucky, USA
 
-=== Sage in Education ===
+=== Sage in Education Discussion ===
 
-
-Organizer: [[http://www.math.gordon.edu/~kcrisman|Karl-Dieter Crisman]], Gordon College, USA
+Moderator: [[http://www.math.gordon.edu/~kcrisman|Karl-Dieter Crisman]], Gordon College, USA
 
 === Creating external packages ===
 
