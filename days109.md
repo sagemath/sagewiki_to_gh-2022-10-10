@@ -112,7 +112,7 @@ Organizer: [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis,
 
 === SageMath, Mathematical Libraries, and the Landscape of Computer Algebra Software ===
 
-TBA
+SageMath builds upon many state-of-the-art mathematical libraries. In this iteration of the SageDays, we focus on [[http://www.flintlib.org/|FLINT: Fast Library for Number Theory]] on the occasion of the long-anticipated upcoming release 2.5.  FLINT maintainer William Hart (TU Kaiserslautern) will give two presentations.
 
 === Farewell to Python 2 and six ===
 
