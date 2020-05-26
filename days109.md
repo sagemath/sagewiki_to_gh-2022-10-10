@@ -12,11 +12,13 @@ held on '''Thursday, May 28, 2020''' (when it is that date in [[https://en.wikip
 
    .... which is May 28, 2020, 23:59:59 Baker Island time (UTC-12),
 
-a '''50-hour fully virtual event.''' [[https://framagenda.org/apps/calendar/p/WicjPweWZtNCQ8QM/timeGridWeek/2020-05-28|Calendar]], [[https://framagenda.org/remote.php/dav/public-calendars/WicjPweWZtNCQ8QM?export|subscription link]]
+a '''50-hour fully virtual event.''' [[https://researchseminars.org/seminar/SageDays109|Schedule at researchseminars.org]]
 
 [[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the current global health crisis, we organize SageDays 109 as the first fully virtual event in the series.
 
 <<TableOfContents>>
+
+
 
 == About SageMath ==
 
