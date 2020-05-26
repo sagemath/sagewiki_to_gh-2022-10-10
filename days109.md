@@ -128,17 +128,18 @@ print "Goodbye"
 Panel:
 
  * [[https://math.washington.edu/people/john-palmieri|John Palmieri]], University of Washington, USA
+ * [[http://nicolas.thiery.name/|Nicolas M. Thiéry]], Université Paris Sud, France
  * TBA
 
 === Nettoyage de Printemps (Spring Cleaning) ===
-
-Organizers: Sébastien Labbé, Vincent Delecroix, Xavier Caruso
 
 The aim is to go through the already existing trac tickets and
 
  * confirm if the bug is still present on recent development versions
  * provide code
  * make reviews
+
+Organizers: Sébastien Labbé, Vincent Delecroix, Xavier Caruso
 
 ==== Useful links ====
 
