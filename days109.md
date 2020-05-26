@@ -40,8 +40,10 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 == Activities ==
 
-To offer or request presentations on specific topics, please edit https://trac.sagemath.org/wiki/SagePresentationsMarketplace
-and/or post a message in the zulip stream #sd109  
+[[https://researchseminars.org/seminar/SageDays109|Schedule at researchseminars.org]]
+
+To offer or request additional presentations on specific topics, please edit https://trac.sagemath.org/wiki/SagePresentationsMarketplace
+and/or post a message in the zulip stream #sd109.
 
 === Confirmed Speakers ===
 
