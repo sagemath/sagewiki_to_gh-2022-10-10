@@ -55,7 +55,7 @@ and/or post a message in the zulip stream #sd109.
  * [[https://kskedlaya.org/|Kiran Kedlaya]], UC San Diego, USA
  * [[https://www.mi.fu-berlin.de/en/math/groups/discgeom/members/kliem.html|Jonathan Kliem]], Freie Universität Berlin, Germany
  * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis, USA
- * [[https://www.mi.fu-berlin.de/en/math/groups/discgeom/members/labbe.html|Jean-Philippe Labbé]], Freie Universität Berlin, Germany
+ * [[https://www.mi.fu-berlin.de/en/math/groups/discgeom/members/labbe.html|Jean-Philippe Labbé]], Freie Universität Berlin, Germany  [[https://github.com/jplab/SageDays109|Material for the talk]]
  * [[http://code.chosun.ac.kr/~kwankyu/homepage/|Kwankyu Lee]], Chosun University, South Korea
  * [[https://github.com/saraedum|Julian Rüth]], Free Software enthusiast
  * [[http://www.decom.ufop.br/haroldo/|Haroldo G. Santos]], Universidade Federal de Ouro Preto, Brazil
