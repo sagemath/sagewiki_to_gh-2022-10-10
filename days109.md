@@ -151,4 +151,4 @@ Organizers: Sébastien Labbé, Vincent Delecroix, Xavier Caruso
 
 == Organizers of SageDays 109 ==
 
-This is a community-organized event.  Join the Organization thread on Zulip #sd109 to join the organization team.
+This is a community-organized event.  Join the [[https://zulip.sagemath.org/#narrow/stream/126-sd109/topic/Organization.20of.20Global.20Virtual.20SageDays.20109|Organization topic]] on Zulip #sd109 to join the organization team.
