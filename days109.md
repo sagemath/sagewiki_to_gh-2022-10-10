@@ -84,7 +84,7 @@ We would love to hear from users of SageMath how they use Sage... in research, i
 
 Share your Sage wishlist 
 
-Format TBA
+Format: on Zulip https://zulip.sagemath.org/#narrow/stream/126-sd109/topic/Sage.20User.20Forum
 
 Organizer: [[http://www.ms.uky.edu/~yzh392/|Yuan Zhou]], University of Kentucky, USA
 
