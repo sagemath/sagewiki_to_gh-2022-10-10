@@ -109,3 +109,7 @@ For some advanced package tools, use `./sage -package`
 '''SageWiki maintenance.''' The [[SageWikiMaintenance page]] attempts to reorganize the wiki, which has accumulated many outdated pages.
 
 '''License and Copyright.''' Contributions to the [[https://www.sagemath.org/|Sage]] wiki and to the [[https://doc.sagemath.org|Sage documentation]] are licensed under the [[https://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]]. By contributing, you agree to place your contribution under that license.
+
+= Other
+
+ * [[asksage retagging]]
