@@ -2,10 +2,10 @@ Asksage has tons of tags, so that when selecting one of them, the pages tagged w
 
 One example of choice to be made:
 
-* EllipticCurve
-* elliptic-curves
-* elliptic-curve
-* elliptic_curve
-* elliptic_curves
+ * `EllipticCurve`
+ * `elliptic-curves`
+ * `elliptic-curve`
+ * `elliptic_curve`
+ * ̀`elliptic_curves`
 
 So should we rather use singular or plural ? underscore or dash ? CamelCase for existing classes and functions ?
