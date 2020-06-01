@@ -130,14 +130,15 @@ def data(symbol = symbols, other_symbol='', spline_samples=(8,[0..15])):
 == CO2 data plot, fetched from NOAA ==
 by Marshall Hampton
 
-While support for R is rapidly improving, scipy.stats has a lot of useful stuff too.  This only scratches the surface.
+One can do many things with scipy.stats.  This only scratches the surface.
 {{{#!sagecell
 from scipy.optimize import leastsq
-import urllib2 as U
+import urllib.request as U
 import scipy.stats as Stat
 import time
 current_year = time.localtime().tm_year
 co2data = U.urlopen('ftp://ftp.cmdl.noaa.gov/ccg/co2/trends/co2_mm_mlo.txt').readlines()
+co2data = [d.decode() for d in co2bytedata]
 datalines = []
 for a_line in co2data:
     if a_line.find('Creation:') != -1:
