@@ -74,4 +74,8 @@ And here is another one:
 ⇒ mac-OS*.*
 
 
-So should we rather use singular or plural ? underscore or dash ? CamelCase for existing classes and functions ?
+= Proposal for general principles =
+
+ * use '''singular''' rather than plural
+ * use '''underscore''' rather than dash
+ * use '''CamelCase''' for existing classes and functions
