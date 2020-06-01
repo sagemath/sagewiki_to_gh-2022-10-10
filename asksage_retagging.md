@@ -10,7 +10,7 @@ Concerning the tag redirections and replacements, here is one example of choice 
 Another one:
 
  * abelian_group × 9
- * coxetergroup × 8
+ * coxetergroup × 8  ⇒ CoxeterGroup
  * finite_group × 6
  * fpGroup × 1
 
