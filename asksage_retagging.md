@@ -5,9 +5,7 @@ A first good clean-up task would be to remove all unused tags, those that only a
 Concerning the tag redirections and replacements, here is one example of choice to be made:
 
  * `EllipticCurve` (124  questions)
- * `Elliptic-curves` (20 questions)
-
-⇒ EllipticCurve
+ * `Elliptic-curves` (20 questions) ⇒ EllipticCurve
 
 Another one:
 
@@ -16,41 +14,35 @@ Another one:
  * finite_group × 6
  * fpGroup × 1
 
- * freeGroup × 4
- * free_group × 1
-
-⇒ FreeGroup
+ * freeGroup × 4 ⇒ FreeGroup
+ * free_group × 1 ⇒ FreeGroup
 
  * galois_group × 6
  * group_presentation × 3
  * group_theory × 33
- * groups × 11
+
+ * groups × 11  ⇒ Group
  * Group × 49
+
  * `MatrixGroup` × 4
  * modular_group × 3
  * normal_subgroup × 2
  * permutation_group × 23
  * subgroup × 7
  * symmetric_group × 14
- * weyl-group × 6
+ * weyl-group × 6 ⇒ WeylGroup
 
 
 And here is another example:
 
- * number_fields × 39
+ * number_fields × 39 ⇒ NumberField
  * NumberField × 21
 
-⇒ NumberField
-
  * number × 17
- * numbers × 8
+ * numbers × 8 ⇒ number
 
-⇒ number
-
- * number-theory × 7
+ * number-theory × 7 ⇒ number_theory
  * number_theory × 17
-
-⇒ number_theory
 
  * algebraic_number × 14
  * numberfieldtower × 2
