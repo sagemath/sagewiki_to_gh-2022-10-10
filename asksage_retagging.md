@@ -14,8 +14,7 @@ Another one:
  * finite_group × 6
  * fpGroup × 1
 
- * freeGroup × 4 ⇒ FreeGroup
- * free_group × 1 ⇒ FreeGroup
+ * freeGroup × 5 ⇒ FreeGroup
 
  * galois_group × 6
  * group_presentation × 3
