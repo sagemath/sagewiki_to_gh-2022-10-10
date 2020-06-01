@@ -7,6 +7,7 @@ Concerning the tag redirections and replacements, here is one example of choice 
  * `EllipticCurve` (124  questions)
  * `Elliptic-curves` (20 questions)
 
+⇒ EllipticCurve
 
 Another one:
 
@@ -14,8 +15,12 @@ Another one:
  * coxetergroup × 8
  * finite_group × 6
  * fpGroup × 1
+
  * freeGroup × 4
  * free_group × 1
+
+⇒ FreeGroup
+
  * galois_group × 6
  * group_presentation × 3
  * group_theory × 33
@@ -35,11 +40,20 @@ And here is another example:
 
  * number_fields × 39
  * NumberField × 21
+
+⇒ NumberField
+
  * number × 17
- * number_theory × 17
- * algebraic_number × 14
  * numbers × 8
+
+⇒ number
+
  * number-theory × 7
+ * number_theory × 17
+
+⇒ number_theory
+
+ * algebraic_number × 14
  * numberfieldtower × 2
  * number-field-ext × 2
 
@@ -57,6 +71,8 @@ And here is another one:
  * Mac-OS10.10 × 5
  * mac-OS10.12 × 1
  * mac-os10.5 × 1
+
+⇒ mac-OS*.*
 
 
 So should we rather use singular or plural ? underscore or dash ? CamelCase for existing classes and functions ?
