@@ -54,7 +54,7 @@ def _(x = cos(4*pi*t), y = 1 + sin(2*pi*t) + sin(4*pi*t),
     xp1 = xp/(xp^2 + yp^2)
     yp1 = yp/(xp^2 + yp^2)
 
-    pretty_print(r'$\int \frac{1}{x^2 + y^2}(xdy-ydx)=%d$'%winding_number_integral(x,y,a,b))
+    pretty_print(html(r'$\int \frac{1}{x^2 + y^2}(xdy-ydx)=%d$'%winding_number_integral(x,y,a,b)))
 
     zeros = all_the_zeros(x, a, b)
     wn = 0
