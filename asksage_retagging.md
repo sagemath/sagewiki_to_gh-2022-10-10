@@ -31,7 +31,6 @@ Another one:
  * normal_subgroup × 2
  * permutation_group × 23
  * subgroup × 7
- * Subgroups × 1
  * symmetric_group × 14
  * weyl-group × 6
 
