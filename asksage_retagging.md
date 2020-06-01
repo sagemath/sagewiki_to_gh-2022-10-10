@@ -31,6 +31,36 @@ Another one:
  * symmetric_group × 14
  * weyl-group × 6 ⇒ WeylGroup
 
+Another one
+
+ * algebra × 136
+
+ * linear-algebra × 45 ⇒ linear_algebra
+ * linearalgebra × 39 ⇒ linear_algebra
+ * linear_algebra × 7
+
+ * AlgebraicGeometry×38
+ * algebraic×15
+ * algebraic_number×14
+ * FreeAlgebra×14
+ * liealgebra × 14 ⇒ Lie_algebra
+ * Lie_algebra × 5
+ * CommutativeAlg...×8
+ * algebraic_exte...×7
+
+ * graded_algebra × 4
+ * gradedalgebra × 3 ⇒ graded_algebra
+
+ * semi-algebraic×4
+ * ExteriorAlgebra×3
+ * FreeAlgebraQuo...×2
+ * infinitdimalgebra×2
+ * clifford-algebra×2
+ * Virasoroalgebra×2
+ * g-algebra×2
+ * quaternion-alg...×2
+ * universal-algebra×1
+
 
 And here is another example:
 
