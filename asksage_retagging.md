@@ -71,7 +71,7 @@ And here is another one:
  * mac-OS10.12 × 1
  * mac-os10.5 × 1
 
-⇒ mac-OS*.*
+⇒ mac-OS*.* or better macOS*.*
 
 
 = Proposal for general principles =
