@@ -108,8 +108,7 @@ by Harald Schilly
 
 {{{#!sagecell
 # Google Chart API: http://code.google.com/apis/chart
-import urllib2 as inet
-from pylab import imshow
+# Google Chart API: http://code.google.com/apis/chart
 @interact
 def gChart(title="Google Chart API plots Pie Charts!", color1=Color('purple'), color2=Color('black'), color3=Color('yellow'), val1=slider(0,1,.05,.5), val2=slider(0,1,.05,.3), val3=slider(0,1,.05,0.1), label=("Maths Physics Chemistry")):
     url = "http://chart.apis.google.com/chart?cht=p3&chs=600x300"
@@ -118,7 +117,7 @@ def gChart(title="Google Chart API plots Pie Charts!", color1=Color('purple'), c
     url += '&chl=%s'%label.replace(" ","|")
     url += '&chd=t:%s'%(','.join(map(str,[val1,val2,val3])))
     print(url)
-    html('<div style="border:3px dashed;text-align:center;padding:50px 0 50px 0"><img src="%s"></div>'%url)
+    pretty_print(html('<div style="border:3px dashed;text-align:center;padding:50px 0 50px 0"><img src="%s"></div>'%url))
 }}}
 {{attachment:interact_with_google_chart_api.png}}
 
