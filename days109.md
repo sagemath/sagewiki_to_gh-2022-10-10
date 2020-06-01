@@ -137,6 +137,10 @@ Panel:
  * [[http://nicolas.thiery.name/|Nicolas M. Thiéry]], Université Paris Sud, France
  * TBA
 
+=== Development ===
+
+[[https://trac.sagemath.org/query?status=!closed&keywords=~sd109|Trac tickets tagged with keyword sd109]]
+
 == Organizers of SageDays 109 ==
 
  * Matthias Köppe
