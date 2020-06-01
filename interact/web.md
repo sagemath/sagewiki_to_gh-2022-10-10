@@ -66,17 +66,18 @@ def mauna_loa_co2(start_date = slider(1958,current_year,1,1958), end_date = slid
 by Marshall Hampton
 
 {{{#!sagecell
-import urllib2, csv
+import urllib.request, csv, io
 months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 longmonths = ['January','February','March','April','May','June','July','August','September','October','November','December']
+L = list(zip(range(1,13),longmonths))
 @interact
-def iceplotter(month = selector(zip(range(1,13),longmonths),default = (4, 'April'),label="Month")):
-    month_str = months[month-1] + '/N_%02d_area.txt'%(month)
+def iceplotter(month = selector(L, default = 4, label="Month")):
+    month_str = '/north/monthly/data/N_%02d_extent_v3.0.csv'%(month)
     dialect=csv.excel
     dialect.skipinitialspace = True
-    icedata_f = urllib2.urlopen('ftp://sidads.colorado.edu/DATASETS/NOAA/G02135/%s'%month_str)
-    cr = csv.reader(icedata_f,delimiter=' ', dialect=dialect)
-    icedata = list(cr)
+    icedata_f = urllib.request.urlopen('ftp://sidads.colorado.edu/DATASETS/NOAA/G02135%s'%month_str)
+    cr = csv.reader(io.StringIO(icedata_f.read().decode()), delimiter=',', dialect=dialect)
+    icedata = [row for row in cr]
     icedata = [x for x in icedata[1:] if len(x)==6 and N(x[5])>0]
     
     lp = list_plot([[N(x[0]),N(x[4])] for x in icedata])
@@ -96,8 +97,8 @@ def iceplotter(month = selector(zip(range(1,13),longmonths),default = (4, 'April
     ice = [N(x[4]) for x in icedata]
     slope, inter = lin_regress(years,ice)
     reg = plot(lambda x:slope*x+inter,(min(years),max(years)))
-    html('<h3>Extent of Arctic sea ice coverage in %s, %d - %d</h3>'%(longmonths[month-1],min(years),max(years)))
-    html('Data from the <a href="http://nsidc.org/">National Snow and Ice Data Center</a>')
+    pretty_print(html('<h3>Extent of Arctic sea ice coverage in %s, %d - %d</h3>'%(longmonths[month-1],min(years),max(years))))
+    pretty_print(html('Data from the <a href="http://nsidc.org/">National Snow and Ice Data Center</a>'))
     show(lp+reg, figsize = [7,4])
 }}}
 {{attachment:seaice.png}}
