@@ -3,7 +3,7 @@ goto [[interact|interact main page]]
 
 <<TableOfContents>>
 
-
+Warning: Web apps can break frequently due to websites or services changing locations or formats!
 
 == CO2 data plot, fetched from NOAA ==
 by Marshall Hampton
