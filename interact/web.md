@@ -137,7 +137,7 @@ import urllib.request as U
 import scipy.stats as Stat
 import time
 current_year = time.localtime().tm_year
-co2data = U.urlopen('ftp://ftp.cmdl.noaa.gov/ccg/co2/trends/co2_mm_mlo.txt').readlines()
+co2bytedata = U.urlopen('ftp://ftp.cmdl.noaa.gov/ccg/co2/trends/co2_mm_mlo.txt').readlines()
 co2data = [d.decode() for d in co2bytedata]
 datalines = []
 for a_line in co2data:
