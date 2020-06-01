@@ -40,7 +40,11 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 == Activities ==
 
-[[https://researchseminars.org/seminar/SageDays109|Schedule at researchseminars.org]]
+
+[[https://researchseminars.org/seminar/SageDays109|Schedule at researchseminars.org]] 
+ * '''Update: Videos and materials available'''
+
+
 
 To offer or request additional presentations on specific topics, please edit https://trac.sagemath.org/wiki/SagePresentationsMarketplace
 and/or post a message in the zulip stream #sd109.
@@ -134,21 +138,10 @@ Panel:
  * [[http://nicolas.thiery.name/|Nicolas M. Thiéry]], Université Paris Sud, France
  * TBA
 
-=== Nettoyage de Printemps (Spring Cleaning) ===
-
-The aim is to go through the already existing trac tickets and
-
- * confirm if the bug is still present on recent development versions
- * provide code
- * make reviews
-
-Organizers: Sébastien Labbé, Vincent Delecroix, Xavier Caruso
-
-==== Useful links ====
-
- * [[https://trac.sagemath.org/report/58|trac tickets sorted by time (oldest first)]]
- * [[https://trac.sagemath.org/report/79|trac tickets reported as "defect" (as opposed to enhancement) (oldest first)]]
-
 == Organizers of SageDays 109 ==
 
-This is a community-organized event.  Join the [[https://zulip.sagemath.org/#narrow/stream/126-sd109/topic/Organization.20of.20Global.20Virtual.20SageDays.20109|Organization topic]] on Zulip #sd109 to join the organization team.
+ * Matthias Köppe
+ * Samuel Lelièvre
+ * Dima Pasechnik
+ * Yuan Zhou
+... with contributions from other members of the Sage community
