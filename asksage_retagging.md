@@ -10,27 +10,25 @@ Concerning the tag redirections and replacements, here is one example of choice 
 
 Another one:
 
- * abelian_group×9
- * coxetergroup×8
- * finite_group×6
- * fpGroup×1
- * freeGroup×4
- * free_group×1
- * galois_group×6
- * group_presenta...×3
- * group_theory×33
- * groups×11
- * Group×49
- * grouptheory×2
- * MatrixGroup×4
- * modular_group×3
- * newsgroups×1
- * normal_subgroup×2
- * permutation_group×23
- * subgroup×7
- * Subgroups×1
- * symmetric_group×14
- * weyl-group×6
+ * abelian_group × 9
+ * coxetergroup × 8
+ * finite_group × 6
+ * fpGroup × 1
+ * freeGroup × 4
+ * free_group × 1
+ * galois_group × 6
+ * group_presentation × 3
+ * group_theory × 33
+ * groups × 11
+ * Group × 49
+ * `MatrixGroup` × 4
+ * modular_group × 3
+ * normal_subgroup × 2
+ * permutation_group × 23
+ * subgroup × 7
+ * Subgroups × 1
+ * symmetric_group × 14
+ * weyl-group × 6
 
 
 And here is another example:
