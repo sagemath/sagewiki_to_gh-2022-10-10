@@ -7,8 +7,10 @@ or email the sage-support mailing list. Of course, your own examples are also we
 
 Documentation links:
 
-  * [[http://doc.sagemath.org/html/en/reference/repl/sage/repl/ipython_kernel/interact.html| interacts in the Jupyter notebook]]
-  * [[http://doc.sagemath.org/html/en/reference/notebook/sagenb/notebook/interact.html|interacts in the legacy SageNB notebook]]
+  * [[http://doc.sagemath.org/html/en/reference/repl/sage/repl/ipython_kernel/interact.html| interacts in the Jupyter notebook]] (see this page and the two following ones)
+  * [[http://doc.sagemath.org/html/en/reference/notebook/sagenb/notebook/interact.html|interacts in the legacy SageNB notebook]] (many helpful examples)
+  * Sage Cell Serve implementation (needs link)
+  * CoCalc Sage worksheet implementation (needs link)
 
 Examples:
 
