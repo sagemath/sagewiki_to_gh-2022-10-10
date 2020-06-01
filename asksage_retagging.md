@@ -55,7 +55,6 @@ And here is another example:
 
  * algebraic_number × 14
  * numberfieldtower × 2
- * number-field-ext × 2
 
 And here is another one:
 
