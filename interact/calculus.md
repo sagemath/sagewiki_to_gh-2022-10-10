@@ -1041,7 +1041,6 @@ def _(f=input_box((x^2-y^2)/(x^2+y^2),width=30,label='$f(x)$'),
 
 
 {{{#!sagecell
-
 ##  An interactive way to demonstrate limits of multivariate functions of the form z = f(x,y)
 ##  This one uses contour plots and so will work with functions that have asymptotic behavior.
 ##
@@ -1067,7 +1066,7 @@ def _(f=input_box(default=(x*y^2)/(x^2+y^4),width=30,label='$f(x)$'),
         x0=input_box(0,width=10,label='$x_0$'),
         y0=input_box(0,width=10,label='$y_0$')):
 
-    pretty_print(html('Enter $(x_0 ,y_0 )$ above and see what happens as the number of contour levels $\\rightarrow \infty $.'))
+    pretty_print(html(r'Enter $(x_0 ,y_0 )$ above and see what happens as the number of contour levels $\rightarrow \infty $.'))
     pretty_print(html('A surface will have a limit in the center of this graph provided there is not a sudden change in color there.'))
 
 #   Need to make certain the min and max contour lines are not huge due to asymptotes.  If so, clip and start contours at some reasonable
@@ -1080,7 +1079,7 @@ def _(f=input_box(default=(x*y^2)/(x^2+y^4),width=30,label='$f(x)$'),
 #    surface += parametric_plot([u^2,u],[u,-1,1],color='black')    
     limit_point = point((x0,y0),color='red',size=30)
 #    show(limit_point+surface)
-    pretty_print(table([[surface],['hi']]))
+    show(surface)
 }}}
 {{attachment:3D_Limit_Defn_Contours.png}}
 
