@@ -443,7 +443,7 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
 }}}
 {{attachment:newtraph.png}}
 
-== Coordinate Transformations (FIXME in Jupyter) ==
+== Coordinate Transformations ==
 by Jason Grout
 
 
