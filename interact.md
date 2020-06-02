@@ -10,7 +10,7 @@ Documentation links:
   * [[http://doc.sagemath.org/html/en/reference/repl/sage/repl/ipython_kernel/interact.html| interacts in the Jupyter notebook]] (see this page and the two following ones)
   * [[https://github.com/sagemath/sagenb/blob/master/sagenb/notebook/interact.py|interacts in the legacy SageNB notebook]] (many helpful examples)
   * [[https://github.com/sagemath/sagecell/blob/master/interact_compatibility.py|Sage Cell Server implementation]]
-  * CoCalc Sage worksheet implementation (needs link)
+  * [[https://github.com/sagemathinc/cocalc/blob/master/src/smc_sagews/smc_sagews/sage_salvus.py#L348|CoCalc Sage worksheet implementation]]
 
 Examples:
 
