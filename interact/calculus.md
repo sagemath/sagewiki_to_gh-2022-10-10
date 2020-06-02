@@ -1380,11 +1380,13 @@ def _(f=input_box(default=(1/3)*x^2 + (1/4)*y^2 + 5,label='$f(x)=$'),
 }}}
 {{attachment:3D_Irregular_Volume.png}}
 
-== Lateral Surface Area (FIXME in Jupyter) ==
+== Lateral Surface Area ==
 
 by John Travis
 
 http://sagenb.mc.edu/home/pub/89/
+
+Note that this works in Sage cell, but causes a zip file error in Jupyter
 
 {{{#!sagecell
 ##  Display and compute the area of the lateral surface between two surfaces
@@ -1452,8 +1454,10 @@ def _(f=input_box(default=6-4*x^2-y^2*2/5,label='Top = $f(x,y) = $',width=30),
 {{attachment:Lateral_Surface.png}}
 
 
-== Parametric surface example (FIXME in Jupyter) ==
+== Parametric surface example ==
 by Marshall Hampton
+
+Note that this works in Sage cell, but causes a zip file error in Jupyter.
 {{{#!sagecell
 var('u,v')
 npi = RDF(pi)
@@ -1502,6 +1506,9 @@ def _(M=input_box(default=x*y*z,label="$M(x,y,z)$"),
         in_3d=checkbox(true)):
 
 #   setup the parts and then compute the line integral
+    u(t) = u
+    v(t) = v
+    w(t) = w
     dr = [derivative(u(t),t),derivative(v(t),t),derivative(w(t),t)]
     A = (M(x=u(t),y=v(t),z=w(t))*dr[0]
         +N(x=u(t),y=v(t),z=w(t))*dr[1]
