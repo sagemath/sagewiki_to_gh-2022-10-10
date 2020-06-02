@@ -152,7 +152,7 @@ def midpoint(n = slider(1,100,1,4), f = input_box(default = "x^2", type = str), 
     min_y = min(0, find_local_minimum(func,a,b)[0])
     max_y = max(0, find_local_maximum(func,a,b)[0])
     pretty_print(html('<h3>Numerical integrals with the midpoint rule</h3>'))
-    pretty_print(html('$\int_{a}^{b}{f(x) dx} {\\approx} \sum_i{f(x_i) \Delta x}$'))
+    pretty_print(html(r'$\int_{a}^{b}{f(x) dx} {\approx} \sum_i{f(x_i) \Delta x}$'))
     print("\n\nSage numerical answer: " + str(integral_numerical(func,a,b,max_points = 200)[0]))
     print("Midpoint estimated answer: " + str(RDF(dx*sum([midys[q] for q in range(n)]))))
     show(plot(func,a,b) + rects, xmin = a, xmax = b, ymin = min_y, ymax = max_y)
