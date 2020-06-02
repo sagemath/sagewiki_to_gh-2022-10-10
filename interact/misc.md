@@ -14,7 +14,7 @@ class SoundFile:
    def  __init__(self, signal,lab=''):
        self.file = wave.open('./test' + lab + '.wav', 'wb')
        self.signal = signal
-       self.sr = 44100
+       self.sr = int(4100)
 
    def write(self):
        self.file.setparams((1, 2, self.sr, 44100*4, 'NONE', 'noncompressed'))
@@ -28,18 +28,18 @@ from math import sin
 def sinsound(freq_ratio =  slider(1/144,1,1/144,1/12)):
     hz1 = 440.0
     hz2 = float(440.0*2^freq_ratio)
-    html('$\cos(\omega t) - \cos(\omega_0 t) = 2 \sin(\\frac{\omega + \omega_0}{2}t) \sin(\\frac{\omega - \omega_0}{2}t)$')
+    html(r'$\cos(\omega t) - \cos(\omega_0 t) = 2 \sin(\\frac{\omega + \omega_0}{2}t) \sin(\frac{\omega - \omega_0}{2}t)$')
     s2 = [sin(hz1*x*mypi*2)+sin(hz2*x*mypi*2) for x in srange(0,4,1/44100.0)]
     s2m = max(s2)
     s2f = [16384*x/s2m for x in s2]
-    s2str = ''.join(wave.struct.pack('h',x) for x in s2f)
+    s2str = b''.join(wave.struct.pack('f',x) for x in s2f)
     lab="%1.2f"%float(freq_ratio)
     f = SoundFile(s2str,lab=lab)
     f.write()
     pnum = 1500+int(500/freq_ratio)
     show(list_plot(s2[0:pnum],plotjoined=True))
-    html('<embed src="cell://test'+ lab +'.wav" width="200" height="100"></embed>')
-    html('Frequencies: '+ '$\omega_0 = ' + str(hz1) + ' $, $\omega = '+latex(hz2) + '$')
+    pretty_print(html(r'<embed src="cell://test'+ lab +'.wav" width="200" height="100"></embed>'))
+    pretty_print(html(r'Frequencies: $\omega_0 = {} $, $\omega = {}$'.format(str(hz1),latex(hz2))))
 }}}
 {{attachment:sinsound.png}}
 
