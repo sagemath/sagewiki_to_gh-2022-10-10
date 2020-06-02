@@ -657,7 +657,7 @@ import numpy
 from scipy.special.orthogonal import p_roots, t_roots, u_roots
 from scipy.integrate import quad, trapz, simps
 from sage.ext.fast_eval import fast_float
-from numpy import linspace
+from numpy import linspace, asanyarray, diff
 show_weight_graph=False
 #  'Hermite': {'w': e**(-x**2), 'xmin': -numpy.inf, 'xmax': numpy.inf, 'func': h_roots},
 #  'Laguerre': {'w': e**(-x), 'xmin': 0, 'xmax': numpy.inf, 'func': l_roots},
@@ -709,10 +709,10 @@ def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x),type=S
     approximation = sum([w*ff(x) for x,w in coords])
     integral,integral_error = scipy.integrate.quad(scaled_ff, xmin, xmax)
     x_val = linspace(min(xcoords), max(xcoords),n)
-    y_val = map(scaled_ff,x_val)
+    y_val = [*map(scaled_ff,x_val)]
     trapezoid = integral-trapz(y_val, x_val)
     simpson = integral-simps(y_val, x_val)
-    pretty_print(html("$$\sum_{i=1}^{i=%s}w_i\left(%s\\right)= %s\\approx %s =\int_{-1}^{1}%s \,dx$$"%(n,
+    pretty_print(html(r"$$\sum_{i=1}^{i=%s}w_i\left(%s\right)= %s\approx %s =\int_{-1}^{1}%s \,dx$$"%(n,
         latex(f), approximation, integral, latex(scaled_func))))
     error_data = [trapezoid, simpson, integral-approximation,integral_error]
     print("Trapezoid: %s, Simpson: %s, \nMethod: %s, Real: %s" % tuple(error_data))
