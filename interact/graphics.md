@@ -108,10 +108,10 @@ def _(example=selector(plots, buttons=True, nrows=2),
         return
 
 
-    html('<h2>%s</h2>'%example)
+    pretty_print(html('<h2>%s</h2>'%example))
     if url:
-        html('<h3><a target="_new" href="%s">%s</a></h3>'%(url,url))
-    show(P, viewer='tachyon' if tachyon else 'jmol', frame=frame)
+        pretty_print(html('<h3><a target="_new" href="%s">%s</a></h3>'%(url,url)))
+    show(P, viewer='tachyon' if tachyon else 'threejs', frame=frame)
 }}}
 
 {{attachment:parametricplot3d.png}}
@@ -142,7 +142,7 @@ def example(clr=Color('orange'), f=4*x*exp(-x^2-y^2), xrange='(-2, 2)', yrange='
     html('<h1>Plot of $f(x,y) = %s$</h1>'%latex(f))
     aspect_ratio = [1,1,1] if square_aspect else [1,1,1/2]
     show(P.rotate((0,0,1), -zrot).rotate((1,0,0),xrot), 
-         viewer='tachyon' if tachyon else 'jmol', 
+         viewer='tachyon' if tachyon else 'threejs', 
          figsize=6, zoom=zoom, frame=False,
          frame_aspect_ratio=aspect_ratio)
 }}}
@@ -174,12 +174,14 @@ def _(band_number = selector(range(1,5)), current_color = Color('red'), auto_upd
 by Timothy Clemans
 {{{#!sagecell
 @interact
-def color_experimenter(expression=input_box('', 'Expression', str), color=Color('red')):
+def color_experimenter(expression=input_box('x^2', 'Expression', str), color=Color('red')):
     if expression:
         try:
             plot(SR(expression), rgbcolor=color).show()
         except TypeError:
             print("There's a problem with your expression.")
+    else:
+        print("Be sure to enter a plottable expression")
 }}}
 {{attachment:color_of_plot_changer.png}} 
 
@@ -187,7 +189,7 @@ def color_experimenter(expression=input_box('', 'Expression', str), color=Color(
 by Timothy Clemans
 {{{#!sagecell
 def error_msg(msg):
-    print('<html><p style="font-family:Arial, sans-serif;color:#000"><span style="color:red;font-weight:bold">Error</span>: %s</p></html>' % msg)
+    pretty_print(html('<p style="font-family:Arial, sans-serif;color:#000"><span style="color:red;font-weight:bold">Error</span>: %s</p>' % msg))
 
 @interact
 def interactive_2d_plotter(expression=input_box('sin(x)', 'Expression', str), x_range=range_slider(-10,10,1,(0,10), label='X Range'), square=checkbox(True, 'Square'), axes=checkbox(False, 'Show Axes')):
