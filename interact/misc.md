@@ -170,7 +170,7 @@ def _(h=(20,(1,36,1))):
 
 == Profile a snippet of code ==
 {{{#!sagecell
-html('<h2>Profile the given input</h2>')
+pretty_print(html('<h2>Profile the given input</h2>'))
 import cProfile; import profile
 @interact
 def _(cmd = ("Statement", '2 + 2'), 
