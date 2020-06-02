@@ -463,8 +463,8 @@ from functools import partial
 @interact
 def trans(x=input_box(x, label="x",type=SR),
          y=input_box(y, label="y",type=SR),
-         u_percent=slider(0,1,0.05,label="<font color='red'>u</font>", default=.7),
-         v_percent=slider(0,1,0.05,label="<font color='blue'>v</font>", default=.7),
+         u_percent=slider(0,1,0.05,label="u", default=.7),
+         v_percent=slider(0,1,0.05,label="v", default=.7),
          t_val=slider(0,10,0.2,6, label="Length"),
          u_range=input_box(u_range, label="u lines"),
          v_range=input_box(v_range, label="v lines")):
@@ -494,7 +494,7 @@ def trans(x=input_box(x, label="x",type=SR),
     xyplot+=sum([parametric_plot((partial(xvu,i),partial(yvu,i)), (u,t_min,t_max), color='blue') for i in v_range])
     xyplot+=parametric_plot((partial(xuv,u_val),partial(yuv,u_val)),(v,t_min,t_max),color='red', linestyle='-',thickness=thickness)
     xyplot+=parametric_plot((partial(xvu,v_val),partial(yvu,v_val)), (u,t_min,t_max), color='blue', linestyle='-',thickness=thickness)
-    jacobian=abs(T.diff().det()).simplify_full()
+    jacobian(u,v)=abs(T.diff().det()).simplify_full()
     t_vals=[0..1,step=t_val*.01]
     vertices=[(x(*c),y(*c)) for c in [pt+t*dv for t in t_vals]]
     vertices+=[(x(*c),y(*c)) for c in [pt+dv+t*du for t in t_vals]]
@@ -505,7 +505,7 @@ def trans(x=input_box(x, label="x",type=SR),
     pretty_print(html("$T(u,v)=%s$"%(latex(T(u,v)))))
     pretty_print(html("Jacobian: $%s$"%latex(jacobian(u,v))))
     pretty_print(html("A very small region in $xy$ plane is approximately %0.4g times the size of the corresponding region in the $uv$ plane"%jacobian(u_val,v_val).n()))
-    pretty_print(table([[uvplot,xyplot]]))
+    show(graphics_array([uvplot,xyplot]))
 }}}
 
 
