@@ -568,12 +568,12 @@ by Wai Yan Pong
 x=var('x')
 @interact
 def _(x = slider(-7/10,7/10,1/20,1/2)):
-    pretty_print(html('<h3>A graphical illustration of $\lim_{x -> 0} \sin(x)/x =1$</h3>'))
-    pretty_print(html('Below is the unit circle, so the length of the <font color=red>red line</font> is |sin(x)|'))
-    pretty_print(html('and the length of the <font color=blue>blue line</font> is |tan(x)| where x is the length of the arc.'))
-    pretty_print(html('From the picture, we see that |sin(x)| $\le$ |x| $\le$ |tan(x)|.'))
-    pretty_print(html('It follows easily from this that cos(x) $\le$ sin(x)/x $\le$ 1 when x is near 0.'))
-    pretty_print(html('As $\lim_{x ->0} \cos(x) =1$, we conclude that $\lim_{x -> 0} \sin(x)/x =1$.'))
+    pretty_print(html(r'<h3>A graphical illustration of $\lim_{x -> 0} \sin(x)/x =1$</h3>'))
+    pretty_print(html(r'Below is the unit circle, so the length of the <font color=red>red line</font> is |sin(x)|'))
+    pretty_print(html(r'and the length of the <font color=blue>blue line</font> is |tan(x)| where x is the length of the arc.'))
+    pretty_print(html(r'From the picture, we see that |sin(x)| $\le$ |x| $\le$ |tan(x)|.'))
+    pretty_print(html(r'It follows easily from this that cos(x) $\le$ sin(x)/x $\le$ 1 when x is near 0.'))
+    pretty_print(html(r'As $\lim_{x ->0} \cos(x) =1$, we conclude that $\lim_{x -> 0} \sin(x)/x =1$.'))
     if not (x == 0):
         pretty_print("sin(x)/x = "+str(sin(float(x))/float(x)))
     elif x == 0:
