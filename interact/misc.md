@@ -53,7 +53,7 @@ class SoundFile:
    def  __init__(self, signal,lab=''):
        self.file = wave.open('./test' + lab + '.wav', 'wb')
        self.signal = signal
-       self.sr = 44100
+       self.sr = int(44100)
 
    def write(self):
        self.file.setparams((1, 2, self.sr, 44100*4, 'NONE', 'noncompressed'))
@@ -87,17 +87,17 @@ def sinsound(delay = slider([int(2^i) for i in range(2,10)], default=100, label=
     s2f = ks(delay,int(44100*(1/2)),blend=blend,stretch=stretch)
     for i in range(12):
         s2f = s2f + ks(int(2^((12+i)/12.0)*delay),int(44100*(1/2)),blend=blend, stretch=stretch)
-    html("Karplus-Strong algorithm with blending and delay stretching")
-    html("<br>K. Karplus and A. Strong, <em>Digital synthesis of plucked string and drum timbres</em>, \nComputer Music Journal 7 (2) (1983), 43–55.<br>")
-    html("Initial waveform:")
+    pretty_print(html("Karplus-Strong algorithm with blending and delay stretching"))
+    pretty_print(html("<br>K. Karplus and A. Strong, <em>Digital synthesis of plucked string and drum timbres</em>, \nComputer Music Journal 7 (2) (1983), 43–55.<br>"))
+    pretty_print(html("Initial waveform:"))
     show(list_plot(s2f[0:2000],plotjoined=True), figsize = [7,3.5])
-    html("Waveform after stabilization:")
+    pretty_print(html("Waveform after stabilization:"))
     show(list_plot(s2f[20000:22000],plotjoined=True), figsize = [7,3.5])
-    s2str = ''.join(wave.struct.pack('h',x) for x in s2f)
+    s2str = b''.join(wave.struct.pack('f',x) for x in s2f)
     lab=""
     f = SoundFile(s2str,lab=lab)
     f.write()
-    html('<embed src="cell://test'+ lab +'.wav" width="200" height="100"></embed>')
+    pretty_print(html('<embed src="cell://test'+ lab +'.wav" width="200" height="100"></embed>'))
 }}}
 
 {{attachment:KarplusStrong.png}}
