@@ -250,7 +250,7 @@ def plot_norm(loc=(0,(0,10)), scale=(1,(1,10))):
 
 #introduction
 
-html('<h1><center>Spirograph</center></h1>')
+pretty_print(html('<h1><center>Spirograph</center></h1>'))
 text1='Spirograph is a tool for drawing hypotrochoids and epitrochoids.'
 text2='Assume that a A is a point attached to a circle. A can be attached to the boundary of the circle or to any exterior or interior place. If the circle rolls around the outside of a fixed circle, the curve traced by the point A is called an epitrochoid. In case the circle rolls around the inside of a fixed circle, the curve is an hypotrochoid.'
 text3='If the quotient between the radii of the circles is a rational number, then the curves are periodic.'
