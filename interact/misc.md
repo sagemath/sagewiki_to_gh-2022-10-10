@@ -119,12 +119,7 @@ def _(X='1,2,3,a', Y='2,a,3,4,apple', Z='a,b,10,apple'):
     XZ = X & Z
     YZ = Y & Z
     XYZ = XY & Z
-    html('<center>')
-    html("$X \\cap Y$ = {}".format(f(XY)))
-    html("$X \\cap Z$ = {}".format(f(XZ)))
-    html("$Y \\cap Z$ = {}".format(f(YZ)))
-    html("$X \\cap Y \\cap Z$ = {}".format(f(XYZ)))
-    html('</center>')
+    pretty_print(html("<center><p>$X \\cap Y$ = {}</p><p> $X \\cap Z$ = {}</p><p> $Y \\cap Z$ = {}</p><p> $X \\cap Y \\cap Z$ = {}<center>".format(f(XY),f(XZ),f(YZ),f(XYZ))))
     centers = [(cos(n*2*pi/3), sin(n*2*pi/3)) for n in [0,1,2]]
     scale = 1.7
     clr = ['yellow', 'blue', 'green']
