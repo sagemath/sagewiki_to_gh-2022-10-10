@@ -1030,7 +1030,7 @@ def _(f=input_box((x^2-y^2)/(x^2+y^2),width=30,label='$f(x)$'),
     
         pretty_print(html('The red curves represent a couple of trajectories on the surface.  If they do not meet, then'))
         pretty_print(html('there is also no limit.  (If computer hangs up, likely the computer can not do these limits.)'))
-        pretty_print(html('\n<center><font color="red">$\lim_{(x,?)\\rightarrow(x_0,y_0)} f(x,y) =%s$</font>'%str(limit_x)+'  and <font color="red">$\lim_{(?,y)\\rightarrow(x_0,y_0)} f(x,y) =%s$</font></center>'%str(limit_y)))
+        pretty_print(html(r'<center><font color="red">$\lim_{(x,?)\rightarrow(x_0,y_0)} f(x,y) =%s$</font>'%str(limit_x)+r'  and <font color="red">$\lim_{(?,y)\rightarrow(x_0,y_0)} f(x,y) =%s$</font></center>'%str(limit_y)))
         
     if in_3d:
         show(G,stereo="redcyan",viewer=view_method)
