@@ -778,7 +778,7 @@ def diffie_hellman(bits=slider(8, 513, 4, 8, 'Number of bits', False),
     a = ZZ.random_element(10, maxp)
     b = ZZ.random_element(10, maxp)
 
-    html("""
+    pretty_print(html("""
 <style>
 .gamodp, .gbmodp {
 color:#000;
@@ -804,7 +804,7 @@ font-weight:bold
 <li>Bob computes (<span class="gamodp">g<sup>a</sup> mod p</span>)<sup>b</sup> mod p:<br/>%s<sup>%s</sup> mod %s = <span class="dhsame">%s</span>.</li>
 </ol>
     """ % (bits, p, g, a, g, a, p, (g^a), b, g, b, p, (g^b), (g^b), a, p,
-       (g^ b)^a, g^a, b, p, (g^a)^b))
+       (g^ b)^a, g^a, b, p, (g^a)^b)))
 }}}
 
 
@@ -814,6 +814,8 @@ font-weight:bold
 
 == Continued Fraction Plotter ==
 by William Stein
+
+crows not working
 {{{#!sagecell
 @interact
 def _(number=e, ymax=selector([5,20,..,400],nrows=2), clr=Color('purple'), prec=[500,1000,..,5000]):
@@ -826,18 +828,18 @@ def _(number=e, ymax=selector([5,20,..,400],nrows=2), clr=Color('purple'), prec=
 by William Stein (Sage-2.10.3)
 {{{#!sagecell
 @interact
-def _(m=selector([1..15],nrows=2), n=(7,(3..10))):
+def _(m=selector([1..15],nrows=2), n=(7,[3..10])):
     G = DirichletGroup(m)
-    s = "<h3>First n=%s Bernoulli numbers attached to characters with modulus m=%s</h3>"%(n,m)
-    s += '<table border=1>'
-    s += '<tr bgcolor="#edcc9c"><td align=center>$\\chi$</td><td>Conductor</td>' + \
-           ''.join('<td>$B_{%s,\chi}$</td>'%k for k in [1..n]) + '</tr>'
+    s = r"<h3>First n=%s Bernoulli numbers attached to characters with modulus m=%s</h3>"%(n,m)
+    s += r'<table border=1>'
+    s += r'<tr bgcolor="#edcc9c"><td align=center>$\chi$</td><td>Conductor</td>' + \
+           ''.join(r'<td>$B_{%s,\chi}$</td>'%k for k in [1..n]) + '</tr>'
     for eps in G.list():
         v = ''.join(['<td align=center bgcolor="#efe5cd">$%s$</td>'%latex(eps.bernoulli(k)) for k in [1..n]])
         s += '<tr><td bgcolor="#edcc9c">%s</td><td bgcolor="#efe5cd" align=center>%s</td>%s</tr>\n'%(
              eps, eps.conductor(), v)
     s += '</table>'
-    html(s)
+    pretty_print(html(s))
 }}}
 
 {{attachment:bernoulli.png}}
