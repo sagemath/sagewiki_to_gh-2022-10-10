@@ -76,7 +76,7 @@ def _(r=selector(range(0,10000,1000), label='range', buttons=True), n=slider(0,1
         n = 2
     s = '$%d = %s$' % (r + n, factor(r + n))
     s = s.replace('*', '\\times')
-    html(s)
+    pretty_print(html(s))
 }}}
 
 = Prime Numbers =
@@ -86,7 +86,7 @@ by William Stein
 {{{#!sagecell
 @interact
 def _(N=(100,(2..2000))):
-    html("<font color='red'>$\pi(x)$</font> and <font color='blue'>$x/(\log(x)-1)$</font> for $x < %s$"%N)
+    pretty_print(html("<font color='red'>$\pi(x)$</font> and <font color='blue'>$x/(\log(x)-1)$</font> for $x < %s$"%N))
     show(plot(prime_pi, 0, N, rgbcolor='red') + plot(x/(log(x)-1), 5, N, rgbcolor='blue'))
 }}}
 {{attachment:primes.png}}
@@ -227,6 +227,8 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
 
 == Prime Spiral - Polar ==
 by David Runde
+
+Needs fix for show_factors
 {{{#!sagecell
 @interact
 def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes = false, show_curves=true, n = 0):
@@ -323,8 +325,10 @@ def _(N=[1..100], k=selector([2,4,..,12],nrows=1), prec=(3..40),
 
 == Computing the cuspidal subgroup ==
 by William Stein
+
+ncols not working
 {{{#!sagecell
-html('<h1>Cuspidal Subgroups of Modular Jacobians J0(N)</h1>')
+pretty_print(html('<h1>Cuspidal Subgroups of Modular Jacobians J0(N)</h1>'))
 @interact
 def _(N=selector([1..8*13], ncols=8, width=10, default=10)):
     A = J0(N)
@@ -470,9 +474,9 @@ def cubic_sym(n=(10..35),display_size=[7..15]):
         MP += line([(i,0),(i,r)], rgbcolor='black')
         for j in range(r):
             if m[i][j] == -2:
-                MP += text('$\omega^2$',(i+.5,r-j-.5),rgbcolor='black')
+                MP += text(r'$\omega^2$',(i+.5,r-j-.5),rgbcolor='black')
             if m[i][j] == -1:
-                MP += text('$\omega $',(i+.5,r-j-.5),rgbcolor='black')
+                MP += text(r'$\omega $',(i+.5,r-j-.5),rgbcolor='black')
             if m[i][j] == 0:
                 MP += text('0',(i+.5,r-j-.5),rgbcolor='black')
             if m[i][j] == 1:
@@ -481,11 +485,11 @@ def cubic_sym(n=(10..35),display_size=[7..15]):
     MP += line([(r,0),(r,r)], rgbcolor='black')
     MP += line([(0,0),(r,0)], rgbcolor='black')
     MP += line([(0,0),(0,r)], rgbcolor='black')
-    MP += text('$ \pi_1$',(r/2,r+2), rgbcolor='black', fontsize=25)
-    MP += text('$ \pi_2$',(-2.5,r/2), rgbcolor='black', fontsize=25)
+    MP += text(r'$ \pi_1$',(r/2,r+2), rgbcolor='black', fontsize=25)
+    MP += text(r'$ \pi_2$',(-2.5,r/2), rgbcolor='black', fontsize=25)
 
-    html('Symmetry of Primary Cubic Residues mod ' \
-          + '%d primary primes in $ \mathbf Z[\omega]$.'%r)
+    pretty_print(html('Symmetry of Primary Cubic Residues mod ' \
+          + r'%d primary primes in $ \mathbf Z[\omega]$.'%r))
     MP.show(axes=False, figsize=[display_size,display_size])
 }}}
 
@@ -639,7 +643,7 @@ def jacobi_plot(p, e_index, f_index, with_text=True):
         S += text('$J(%s,%s) = %s$'%(latex2(e),latex2(f),latex(js)),
             (3,2.5),fontsize=15, rgbcolor='black')
     else:
-        html('$$J(%s,%s) = %s$$'%(latex2(e),latex2(f),latex(js)))
+        pretty_print(html('$$J(%s,%s) = %s$$'%(latex2(e),latex2(f),latex(js))))
 
     return S
 
@@ -659,7 +663,8 @@ def exhaustive_jacobi_plot(p=prime_range(3,8)):
         s+='<tr><td align="center"><img src="cell://j%d.png"></td>'%(2*i)
         s+='<td align="center"><img src="cell://j%d.png"></td></tr>'%(2*i+1)
     s+='</table>'
-    html(s)}}}
+    pretty_print(html(s))
+}}}
 
 {{attachment:jacobiexh.png}}
 
