@@ -6,7 +6,7 @@ in progress (2020)
 
 == Python 3 transition ==
 
-SageMath 9.0 was the first version of Sage running on Python 3 by default. Sage 9.1 continues to support Python 2.  
+[[ReleaseTours/sage-9.0|SageMath 9.0]] was the first version of Sage running on Python 3 by default. [[ReleaseTours/sage-9.1|SageMath 9.1]] continues to support Python 2.  
 
 '''Sage 9.2 will remove support for Python 2.'''
 
