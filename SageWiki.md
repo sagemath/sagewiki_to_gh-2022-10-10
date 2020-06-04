@@ -51,6 +51,7 @@ The main developer doc is the [[https://www.sagemath.org/doc/developer/ | Develo
 
 Release notes (higher level than change logs) are collaboratively prepared at [[ReleaseTours]].
 
+[[Infrastructure|Development/project infrastructure]]
 
 = Special Discussion Pages =
 
