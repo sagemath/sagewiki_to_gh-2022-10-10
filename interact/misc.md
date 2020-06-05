@@ -333,7 +333,7 @@ def _(T=slider([0..100],default=100,label='People surveyed'),X=slider([0..100],d
     G += text(C,(3,-3),rgbcolor='black')
     
     # Check reasonableness before displaying result
-    if XYZ>XY or XYZ>XZ or XYZ>YZ or XY>X or XY>Y or XZ>X or XZ>Z or YZ>Y or YZ>Z or C<0 or XYZ<0 or XZ<0 or YZ<0 or XY<0 or X<0 or Y<0 or Z<0:
+    if XYZ>XY or XYZ>XZ or XYZ>YZ or XY>X or XY>Y or XZ>X or XZ>Z or YZ>Y or YZ>Z or C<0 or XYZ<0 or XZ<0 or YZ<0 or XY<0 or X<0 or Y<0 or Z<0 or XX<0 or YY<0 or ZZ<0:
         print('This situation is impossible! (Why?)')
     else:
         G.show(aspect_ratio=1, axes=False)
