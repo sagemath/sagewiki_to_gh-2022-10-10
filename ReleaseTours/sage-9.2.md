@@ -10,6 +10,8 @@ in progress (2020)
 
 '''Sage 9.2 will remove support for Python 2.'''
 
+ * [[https://trac.sagemath.org/query?keywords=~python3&milestone=sage-9.2&or&component=python3&milestone=sage-9.2&or&keywords=~py3&milestone=sage-9.2&groupdesc=1&group=status&max=1500&col=id&col=summary&col=keywords&col=component&col=time&col=changetime&col=author&col=reviewer&order=component|Trac tickets with keyword/component python3 in milestone 9.2]]
+
 See [[Python3-Switch]] for more details
 
 == Package upgrades ==
