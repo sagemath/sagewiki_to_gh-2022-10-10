@@ -4,7 +4,7 @@ an event for the SageMath user and developer community
 
 details TBA
 
-[[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the current global health crisis, we organize SageDays 109 as the first fully virtual event in the series.
+[[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the current global health crisis, we organized [[days109|SageDays 109]] in May 2020 as the first fully virtual event in the series.  SageDays 110 will follow later in 2020.
 
 <<TableOfContents>>
 
