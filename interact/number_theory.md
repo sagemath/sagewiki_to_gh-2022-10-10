@@ -85,9 +85,9 @@ def _(r=selector(range(0,10000,1000), label='range', buttons=True), n=slider(0,1
 by William Stein
 {{{#!sagecell
 @interact
-def _(N=(100,(2..2000))):
-    pretty_print(html("<font color='red'>$\pi(x)$</font> and <font color='blue'>$x/(\log(x)-1)$</font> for $x < %s$"%N))
-    show(plot(prime_pi, 0, N, rgbcolor='red') + plot(x/(log(x)-1), 5, N, rgbcolor='blue'))
+def _(N=(100,list(range(2,2000)))):
+    pretty_print(html(r"<font color='red'>$\pi(x)$</font> and <font color='blue'>$x/(\log(x)-1)$</font> for $x < %s$"%N))
+    show(plot(prime_pi, 0, N, color='red') + plot(x/(log(x)-1), 5, N, color='blue'))
 }}}
 {{attachment:primes.png}}
 
