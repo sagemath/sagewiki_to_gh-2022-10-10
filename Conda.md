@@ -8,11 +8,10 @@ In short: Install `sage` from conda-forge.
 
 To install sage on your machine (without the need for root permissions):
 
- * Install [[https://conda.io/miniconda.html|Miniconda for Python 3]] (Python 2 version fails to copy "Hängematte" which comes with rw)
+ * Install [[https://conda.io/miniconda.html|Miniconda for Python 3]]
  * export your `PATH` (and `hash -r` or `rehash`)
  * Make sure your locale is UTF-8.
- * Add the `conda-forge` channel: `conda config --add channels conda-forge`
- * Update all packages: `conda update --all` (otherwise you get weird errors due to inconsistencies later)
+ * Use conda-forge packages: `conda config --add channels conda-forge; conda config --set channel_priority strict`
  * create an environment for sage: `conda create -n sage sage`
  * enter your environment: `source activate sage`
  * enjoy: `sage`
