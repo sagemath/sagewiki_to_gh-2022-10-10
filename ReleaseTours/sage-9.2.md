@@ -15,6 +15,11 @@ in progress (2020)
 See [[Python3-Switch]] for more details
 
 
+=== Unicode identifiers ===
+
+https://trac.sagemath.org/ticket/30111
+
+
 === Support for system Python 3.6 added ===
 
 == Package upgrades ==
