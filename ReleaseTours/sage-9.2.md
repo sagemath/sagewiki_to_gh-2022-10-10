@@ -14,15 +14,37 @@ in progress (2020)
 
 See [[Python3-Switch]] for more details
 
+
+=== Support for system Python 3.6 added ===
+
 == Package upgrades ==
 
 The removal of support for Python 2 will enable major package upgrades.
 
 [[https://trac.sagemath.org/ticket/29141|Meta-ticket #29141: Upgrades and other changes that require dropping py2 support]]
 
+Major user-visible package upgrades below...
+
+=== matplotlib === 
+
+2.2.5 -> 3.2.1
+
+=== rpy2 ===
+
+2.8.2 -> 3.3.5
+
+=== sphinx ===
+
+1.8.5 -> 3.1.2
+
+=== ipython ===
+
+5.8.0 -> 7.13.0
+
+
 == Deprecating, removing components ==
 
- * [[https://groups.google.com/d/msg/sage-devel/dg9qDUVU3qs/e-WptfUjBQAJ|Deprecate all of sage.finance, sage.media, sage.stats]], [[https://trac.sagemath.org/ticket/29662|Trac #29662]], [[https://trac.sagemath.org/ticket/29663|Trac #29663]]
+
 
 == Configuration and build changes ==
 
