@@ -25,13 +25,19 @@ SyntaxError: invalid character in identifier
 However, we can use letters from various alphabets:
 {{{
 sage: μ, ν, ξ = 1, 2, 3
-sage: var('α')
+sage: var('α', domain='real')
 α
 sage: ГельфандЦетлинPattern = GelʹfandCetlinPattern = GelfandTsetlinPattern 
 sage: ГельфандЦетлинPattern([[3, 2, 1], [2, 1], [1]]).pp()
   3     2     1
      2     1
         1
+}}}
+Also note that Python normalizes identifiers:
+{{{
+sage: Q = 42
+sage: ℚ
+42
 }}}
 See [[https://trac.sagemath.org/ticket/30111|Meta-ticket #30111: Unicode support]] for more information.
 
