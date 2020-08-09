@@ -46,9 +46,55 @@ Major user-visible package upgrades below...
 
 5.8.0 -> 7.13.0
 
+== Polyhedral geometry ==
+
+=== New features ===
+It is now possible to choose which backend to use to compute regions of hyperplane arrangements
+[[https://trac.sagemath.org/ticket/29506|29506]]:
+{{{
+sage: R.<sqrt5> = QuadraticField(5)
+sage: H = HyperplaneArrangements(R, names='xyz')
+sage: x,y,z = H.gens()
+sage: A = H(sqrt5*x+2*y+3*z, backend='normaliz')
+sage: A.backend()
+'normaliz'
+sage: A.regions()[0].backend()  # optional - pynormaliz
+'normaliz'
+}}} 
+
+It is now possible to compute the slack matrix of a polyhedron [[https://trac.sagemath.org/ticket/29838|29838]]:
+
+{{{
+sage: P = polytopes.cube(intervals='zero_one')
+sage: P.slack_matrix()
+[0 1 1 1 0 0]
+[0 0 1 1 0 1]
+[0 0 0 1 1 1]
+[0 1 0 1 1 0]
+[1 1 0 0 1 0]
+[1 1 1 0 0 0]
+[1 0 1 0 0 1]
+[1 0 0 0 1 1]
+}}}
+
+=== Implementation improvements ===
+
+ * It is now possible to set up polyhedra with both Vrep and Hrep in the following constructions:
+
+   * Linear transformation [[https://trac.sagemath.org/ticket/29843|29843]]
+   * Polar [[https://trac.sagemath.org/ticket/29569|29569]]
+   * Product [[https://trac.sagemath.org/ticket/29583|29583]]
+
+ * The generation of regions of hyperplane arrangement has been improved [[https://trac.sagemath.org/ticket/29661|29661]]
+
+ * Ehrhart related functions are now cached [[https://trac.sagemath.org/ticket/29196|29196]]
+
+ * The testing framework using TestSuites is getting improved. 
+   See the Task [[https://trac.sagemath.org/ticket/29842|29842: Meta-ticket: Run a more stable test suite on polyhedra]]
+
+There are also some bug fixes and other improvements. For more details see the [[https://trac.sagemath.org/wiki/SagePolyhedralGeometry#release_9.2|release notes for optimization and polyhedral geometry software interactions in Sage]].
 
 == Deprecating, removing components ==
-
 
 
 == Configuration and build changes ==
