@@ -32,6 +32,9 @@ sage: ГельфандЦетлинPattern([[3, 2, 1], [2, 1], [1]]).pp()
   3     2     1
      2     1
         1
+sage: 四次方(x) = x^4
+sage: 四次方(3)
+81
 }}}
 We can use math accents:
 {{{
