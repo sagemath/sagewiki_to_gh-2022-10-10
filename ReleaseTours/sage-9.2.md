@@ -17,8 +17,23 @@ See [[Python3-Switch]] for more details
 
 === Unicode identifiers ===
 
-https://trac.sagemath.org/ticket/30111
-
+Python 3 made much improved support for Unicode available, and Sage 9.2 has merged several Unicode improvements. Note that Python does not allow ''arbitrary'' Unicode characters in identifiers but only [[https://docs.python.org/3/reference/lexical_analysis.html#identifiers|word constituents]]. So before you get excited about using emojis... note that they cannot be used:
+{{{
+sage: K.<🍎,🥝> = QQ[]
+SyntaxError: invalid character in identifier
+}}}
+However, we can use letters from various alphabets:
+{{{
+sage: μ, ν, ξ = 1, 2, 3
+sage: var('α')
+α
+sage: ГельфандЦетлинPattern = GelʹfandCetlinPattern = GelfandTsetlinPattern 
+sage: ГельфандЦетлинPattern([[3, 2, 1], [2, 1], [1]]).pp()
+  3     2     1
+     2     1
+        1
+}}}
+See [[https://trac.sagemath.org/ticket/30111|Meta-ticket #30111: Unicode support]] for more information.
 
 === Support for system Python 3.6 added ===
 
