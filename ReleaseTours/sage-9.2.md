@@ -38,6 +38,9 @@ Also note that Python normalizes identifiers:
 sage: Q = 42
 sage: ℚ
 42
+sage: F = 1
+sage: 𝐹, 𝐅, 𝓕, 𝔽, 𝕱, 𝗙, 𝘍, 𝙁, 𝙵
+(1, 1, 1, 1, 1, 1, 1, 1, 1)
 }}}
 See [[https://trac.sagemath.org/ticket/30111|Meta-ticket #30111: Unicode support]] for more information.
 
