@@ -29,6 +29,8 @@ sage: SR('λ + 2λ')
 3*λ
 sage: var('α', domain='real')
 α
+sage: Ш = EllipticCurve('389a').sha(); Ш
+Tate-Shafarevich group for the Elliptic Curve defined by y^2 + y = x^3 + x^2 - 2*x over Rational Field
 sage: ГельфандЦетлинPattern = GelʹfandCetlinPattern = GelfandTsetlinPattern 
 sage: ГельфандЦетлинPattern([[3, 2, 1], [2, 1], [1]]).pp()
   3     2     1
