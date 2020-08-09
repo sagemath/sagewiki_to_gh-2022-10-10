@@ -33,7 +33,15 @@ sage: ГельфандЦетлинPattern([[3, 2, 1], [2, 1], [1]]).pp()
      2     1
         1
 }}}
-Also note that Python normalizes identifiers:
+We can use math accents:
+{{{
+sage: a = 1
+sage: â = 2
+sage: ā = 3
+sage: a, â, ā
+(1, 2, 3)
+}}}
+But note that Python normalizes identifiers, so the following are not distinguished:
 {{{
 sage: Q = 42
 sage: ℚ
