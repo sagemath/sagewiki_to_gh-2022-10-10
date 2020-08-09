@@ -25,6 +25,8 @@ SyntaxError: invalid character in identifier
 However, we can use letters from various alphabets:
 {{{
 sage: μ, ν, ξ = 1, 2, 3
+sage: SR('λ + 2λ')
+3*λ
 sage: var('α', domain='real')
 α
 sage: ГельфандЦетлинPattern = GelʹfandCetlinPattern = GelfandTsetlinPattern 
