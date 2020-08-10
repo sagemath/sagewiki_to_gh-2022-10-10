@@ -145,7 +145,7 @@ Sage 9.1 introduced [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#Portabilit
 
 === For developers ===
 
-Let's talk about `src/setup.py`. The build system of the Sage library is based on `distutils` (not `setuptools`), which is implemented in the package `sage_setup`.
+Let's talk about `src/setup.py`. The build system of the Sage library is based on `distutils` (not `setuptools`); it is implemented in the package `sage_setup`.
 In particular, it implements its own version of source code discovery methods similar to [[https://setuptools.readthedocs.io/en/latest/setuptools.html#using-find-packages|setuptools.find_packages]]: `sage_setup.find.find_python_sources`. Because of source discovery, developers can add new Python modules and packages under `src/sage/` simply by creating files and directories; it is not necessary to edit `setup.py`.
 
 Prior to Sage 9.2, the situation was different for Cython extensions. They had to be listed in `src/module_list.py`, either one by one, or using glob patterns such as `*` and `**`.
