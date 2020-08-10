@@ -8,12 +8,15 @@ in progress (2020)
 
 [[ReleaseTours/sage-9.0|SageMath 9.0]] was the first version of Sage running on Python 3 by default. [[ReleaseTours/sage-9.1|SageMath 9.1]] continues to support Python 2.  
 
-'''Sage 9.2 will remove support for Python 2.'''
+'''Sage 9.2 removes support for Python 2.'''
 
  * [[https://trac.sagemath.org/query?keywords=~python3&milestone=sage-9.2&or&component=python3&milestone=sage-9.2&or&keywords=~py3&milestone=sage-9.2&groupdesc=1&group=status&max=1500&col=id&col=summary&col=keywords&col=component&col=time&col=changetime&col=author&col=reviewer&order=component|Trac tickets with keyword/component python3 in milestone 9.2]]
 
 See [[Python3-Switch]] for more details
 
+=== Support for system Python 3.6 added ===
+
+This allows Sage to use the system Python on some older Linux distributions that are still in widespread use in scientific computing, including `centos-8` and `fedora-{26,27,28}` (although Python 3.7.x packages are also available for these). See [[https://trac.sagemath.org/ticket/29033|#29033]] for more details.
 
 === Unicode identifiers ===
 
@@ -58,8 +61,6 @@ sage: 𝐹, 𝐅, 𝓕, 𝔽, 𝕱, 𝗙, 𝘍, 𝙁, 𝙵
 (1, 1, 1, 1, 1, 1, 1, 1, 1)
 }}}
 See [[https://trac.sagemath.org/ticket/30111|Meta-ticket #30111: Unicode support]] for more information.
-
-=== Support for system Python 3.6 added ===
 
 == Package upgrades ==
 
