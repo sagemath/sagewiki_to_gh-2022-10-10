@@ -202,7 +202,7 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
     min_y = min(0, find_local_minimum(func,a,b)[0])
     max_y = max(0, find_local_maximum(func,a,b)[0])
 
-    pretty_print(html('<h3>Numerical integrals with the midpoint rule</h3>'))
+    pretty_print(html('<h3>Numerical integral with the {} rule</h3>'.format(endpoint_rule)))
     show(plot(func,a,b) + rects, xmin = a, xmax = b, ymin = min_y, ymax = max_y)
     
     def cap(x):
