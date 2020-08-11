@@ -130,6 +130,8 @@ sage: P.slack_matrix()
 
  * Ehrhart related functions are now cached [[https://trac.sagemath.org/ticket/29196|29196]]
 
+ * Obtaining incidence matrix and combinatorial polyhedron is much faster for integer and rational polyhedra [[https://trac.sagemath.org/ticket/29837|29837]], [[https://trac.sagemath.org/ticket/29841|29841]]
+
  * The testing framework using TestSuites is getting improved. 
    See the Task [[https://trac.sagemath.org/ticket/29842|29842: Meta-ticket: Run a more stable test suite on polyhedra]]
 
