@@ -202,7 +202,7 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
     min_y = min(0, find_local_minimum(func,a,b)[0])
     max_y = max(0, find_local_maximum(func,a,b)[0])
 
-    # html('<h3>Numerical integrals with the midpoint rule</h3>')
+    pretty_print(html('<h3>Numerical integrals with the midpoint rule</h3>'))
     show(plot(func,a,b) + rects, xmin = a, xmax = b, ymin = min_y, ymax = max_y)
     
     def cap(x):
@@ -210,8 +210,8 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
         if x < 1e-4:
             return 0
         return RealField(20)(x)
-    sum_html = "%s \cdot \\left[ %s \\right]" % (dx, ' + '.join([ "f(%s)" % cap(i) for i in xs ]))
-    num_html = "%s \cdot \\left[ %s \\right]" % (dx, ' + '.join([ str(cap(i)) for i in ys ]))
+    sum_html = "%s \\cdot \\left[ %s \\right]" % (dx, ' + '.join([ "f(%s)" % cap(i) for i in xs ]))
+    num_html = "%s \\cdot \\left[ %s \\right]" % (dx, ' + '.join([ str(cap(i)) for i in ys ]))
     
     numerical_answer = integral_numerical(func,a,b,max_points = 200)[0]
     estimated_answer = dx * sum([ ys[q] for q in range(number_of_subdivisions)])
