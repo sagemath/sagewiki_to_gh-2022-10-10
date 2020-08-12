@@ -91,6 +91,18 @@ The SageMath developers are eager to learn from users how they use the SageMath-
 
 5.8.0 -> 7.13.0
 
+=== For developers ===
+
+Upgrading Python packages in the Sage distribution from PyPI has again become easier, thanks to [[https://trac.sagemath.org/ticket/20104|Trac #20104]]. You can now do:
+{{{
+$ sage --package update-latest matplotlib
+Updating matplotlib: 1.5.0 -> 1.5.1
+Downloading tarball to ...matplotlib-1.5.1.tar.bz2
+[......................................................................]
+}}}
+When you do this, please remember to check that the `checksums.ini` file has an `upstream_url` in the format
+`upstream_url=https://pypi.io/packages/source/m/matplotlib/matplotlib-VERSION.tar.gz`. (This is not needed for `updated-latest` to work, but helps with automated tests of the upgrade ticket -- see [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#For_developers-1|Sage 9.1 release tour]] on this topic.)
+
 == Polyhedral geometry ==
 
 === New features ===
