@@ -184,6 +184,9 @@ Sage 9.2 has also changed the mechanism for conditionalizing a Cython extension 
 
  * [[https://trac.sagemath.org/ticket/29636|Trac #29636: Delete changelog sections from all SPKG information files]]; they were deprecated in favor of using Trac years ago. The contributions of Sage developers maintaining SPKGs are documented by our [[http://www.sagemath.org/changelogs/index.html|historical changelogs]].
 
+ * Removing support for Python 2 allowed us to remove several backport packages in [[https://trac.sagemath.org/ticket/29754|Trac #29754]]
+
+ * We also removed the deprecated SageNB (superseded a long time ago by the Jupyter notebook) in [[https://trac.sagemath.org/ticket/29754|Trac #29754]] and several of its dependencies.
 
 == Availability of Sage 9.2 and installation help ==
 
