@@ -75,9 +75,13 @@ Major user-visible package upgrades below...
 Dropping Python 2 support allowed us to make a major jump from matplotlib 2.2.5 to 3.2.1. See matplotlib's [[https://matplotlib.org/3.3.0/users/prev_whats_new/whats_new_3.0.html|release notes for 3.0]], [[https://matplotlib.org/3.3.0/users/prev_whats_new/whats_new_3.1.0.html|3.1]], [[https://matplotlib.org/3.3.0/users/prev_whats_new/whats_new_3.2.0.html|3.2]].
 In addition to improved output, this update will likely enable Sage developers to implement new features for plotting and graphics.
 
-=== rpy2 ===
+=== rpy2 and R ===
 
-2.8.2 -> 3.3.5
+The [[https://pypi.org/project/rpy2/|rpy2 Python package]] is the foundation for [[https://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/r.html|SageMath's interface]] to [[https://www.r-project.org/|R]]. Dropping Python 2 support allowed us to make the major upgrade from 2.8.2 to 3.3.5 in [[https://trac.sagemath.org/ticket/29441|Trac #29441]; see the [[https://rpy2.github.io/doc/latest/html/changes.html#release-3-3-1|release notes]] for details.
+
+We only did a minor upgrade of R itself in the Sage distribution, to 3.6.3, the latest in the 3.6.x series. Of course, if R 4.0.x is installed in the system, Sage will use it instead of building its own copy.
+
+The SageMath developers are eager to learn from users how they use the SageMath-R interface, and what needs to be added to it to become more powerful.  Let us know at [[https://groups.google.com/d/msg/sage-devel|sage-devel]].
 
 === sphinx ===
 
