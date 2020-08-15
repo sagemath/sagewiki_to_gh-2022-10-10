@@ -35,6 +35,10 @@ This means {{{\choose, \over, \atop, \above, \overwithdelims, \atopwithdelims, \
 
 All these commands are obsolete in latex.
 
+== deprecation_number ==
+
+Check that new deprecations use the correct ticket number.
+
 == oldstyle_print ==
 
 Check that print is using python 3 syntax. (TO BE REMOVED)
