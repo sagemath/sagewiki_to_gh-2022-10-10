@@ -29,22 +29,22 @@ SyntaxError: invalid character in identifier
 However, we can use letters from various alphabets.  The updated IPython allows us to type them using [[https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.completer.html|latex and unicode tab completion]]:
 {{{
 #!python
-sage: μ, ν, ξ = 1, 2, 3          # type \mu<TAB>, 
-                                 #      \nu<TAB>, ...
+sage: μ, ν, ξ = 1, 2, 3       # type \mu<TAB>, 
+                              #      \nu<TAB>, ...
 sage: SR('λ + 2λ')
 3*λ
 sage: var('α', domain='real')
 α
 sage: Ш = EllipticCurve('389a').sha()   
-                                 # type \CYR<TAB> CAP<TAB>
-                                 #      LET<TAB> SHA<TAB><ENTER>
+                              # type \CYR<TAB> CAP<TAB>
+                              #      LET<TAB> SHA<TAB><ENTER>
 sage: Ш
 Tate-Shafarevich group for the Elliptic Curve
 defined by y^2 + y = x^3 + x^2 - 2*x over Rational Field
 sage: GelʹfandT͡setlinPattern = GelfandTsetlinPattern
-                                 # type \MODIFIER LETTER 
-                                 #      PRIME<TAB><ENTER>
-                                 # for the romanized soft mark
+                              # type \MODIFIER LETTER 
+                              #      PRIME<TAB><ENTER>
+                              # for the romanized soft mark
 sage: ГельфандЦетлинPattern = GelʹfandT͡setlinPattern
 sage: ГельфандЦетлинPattern([[3, 2, 1], [2, 1], [1]]).pp()
   3     2     1
@@ -58,47 +58,54 @@ We can use math accents...
 {{{
 #!python
 sage: a = 1
-sage: â = 2                      # type a\hat<TAB><ENTER>
-sage: ā = 3                      # type a\bar<TAB><ENTER>
+sage: â = 2                   # type a\hat<TAB><ENTER>
+sage: ā = 3                   # type a\bar<TAB><ENTER>
 sage: a, â, ā
 (1, 2, 3)
 sage: s(t) = t^3; s
 t |--> t^3
-sage: ṡ = diff(s, t); ṡ          # type s\dot<TAB><ENTER>                                                                                
+sage: ṡ = diff(s, t); ṡ       # type s\dot<TAB><ENTER>                                                                                
 t |--> 3*t^2
-sage: s̈ = diff(ṡ, t); s̈          # type s\ddot<TAB><ENTER>                                                                                                   
+sage: s̈ = diff(ṡ, t); s̈       # type s\ddot<TAB><ENTER>                                                                                                   
 t |--> 6*t
 }}}
 ... and have fun with modifier letters:
 {{{
 #!python
-sage: ℚ̄ = QQbar                  # type \bbQ<TAB>\bar<TAB>
+sage: ℚ̄ = QQbar               # type \bbQ<TAB>\bar<TAB>
 sage: %display unicode_art
 sage: A = matrix(ℚ̄, [[1, 2*I], [3*I, 4]]); A
 ⎛  1 2*I⎞
 ⎝3*I   4⎠
-sage: Aᵀ = A.transpose()         # type \^T<TAB><ENTER>
+sage: Aᵀ = A.transpose()      # type A\^T<TAB><ENTER>
 sage: Aᵀ                                                                                                                     
 ⎛  1 3*I⎞
 ⎝2*I   4⎠
 sage: Aᴴ = A.conjugate_transpose()
-                                 # type \^H<TAB><ENTER>
+                              # type A\^H<TAB><ENTER>
 sage: Aᴴ
 ⎛   1 -3*I⎞
 ⎝-2*I    4⎠
+sage: C = Cone([[1, 1], [0, 1]])                                                                           
+sage: Cᵒ = C.dual(); Cᵒ       # type C\^o<TAB><ENTER>
+2-d cone in 2-d lattice M                                                                                        
 }}}
 But note that Python normalizes identifiers, so the following variants are ''not'' distinguished:
 {{{
 #!python
-sage: ℚ = QQ                     # type \bbQ<TAB><ENTER>
+sage: AT == Aᵀ, AH == Aᴴ, Co == Cᵒ                                                                                                   
+(True, True, True)
+sage: ℚ = QQ                  # type \bbQ<TAB><ENTER>
 sage: ℚ
 Rational Field
 sage: Q = 42
 sage: ℚ
 42
 sage: F = 1
-sage: 𝐹, 𝐅, 𝓕, 𝔽, 𝕱, 𝗙, 𝘍, 𝙁, 𝙵
-(1, 1, 1, 1, 1, 1, 1, 1, 1)
+sage: 𝐹, 𝐅, 𝓕, 𝕱, 𝗙, 𝘍, 𝙁, 𝙵 # type \itF<TAB>, \bfF<TAB>,
+                              #      \scrF<TAB>, \frakF<TAB>,
+                              #      \sansF<TAB>, ...
+(1, 1, 1, 1, 1, 1, 1, 1)
 }}}
 See [[https://trac.sagemath.org/ticket/30111|Meta-ticket #30111: Unicode support]] for more information.
 
