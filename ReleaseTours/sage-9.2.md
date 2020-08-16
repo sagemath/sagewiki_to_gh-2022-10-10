@@ -22,19 +22,29 @@ This allows Sage to use the system Python on some older Linux distributions that
 
 Python 3 made much improved support for Unicode available, and Sage 9.2 has merged several Unicode improvements. Note that Python does not allow ''arbitrary'' Unicode characters in identifiers but only [[https://docs.python.org/3/reference/lexical_analysis.html#identifiers|word constituents]]. So before you get excited about using emojis... note that they cannot be used:
 {{{
+#!python
 sage: K.<🍎,🥝> = QQ[]
 SyntaxError: invalid character in identifier
 }}}
-However, we can use letters from various alphabets:
+However, we can use letters from various alphabets.  The updated IPython allows us to type them using [[https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.completer.html|latex and unicode tab completion]]:
 {{{
-sage: μ, ν, ξ = 1, 2, 3
+#!python
+sage: μ, ν, ξ = 1, 2, 3          # type \mu<TAB><ENTER>,
+                                 #      \nu<TAB><ENTER>, ...
 sage: SR('λ + 2λ')
 3*λ
 sage: var('α', domain='real')
 α
-sage: Ш = EllipticCurve('389a').sha(); Ш
-Tate-Shafarevich group for the Elliptic Curve defined by y^2 + y = x^3 + x^2 - 2*x over Rational Field
-sage: ГельфандЦетлинPattern = GelʹfandT͡setlinPattern = GelfandTsetlinPattern 
+sage: Ш = EllipticCurve('389a').sha()   
+                                 # type \CYR<TAB> CAP<TAB>
+                                 #      LET<TAB> SHA<TAB><ENTER>
+sage: Ш
+Tate-Shafarevich group for the Elliptic Curve
+defined by y^2 + y = x^3 + x^2 - 2*x over Rational Field
+sage: ГельфандЦетлинPattern = GelʹfandT͡setlinPattern = GelfandTsetlinPattern
+                                 # type \MODIFIER LETTER 
+                                 #      PRIME<TAB><ENTER>
+                                 # for the romanized soft mark
 sage: ГельфандЦетлинPattern([[3, 2, 1], [2, 1], [1]]).pp()
   3     2     1
      2     1
@@ -45,15 +55,17 @@ sage: 四次方(3)
 }}}
 We can use math accents:
 {{{
+#!python
 sage: a = 1
-sage: â = 2
-sage: ā = 3
+sage: â = 2                      # type a\hat<TAB><ENTER>
+sage: ā = 3                      # type a\bar<TAB><ENTER>
 sage: a, â, ā
 (1, 2, 3)
 }}}
 But note that Python normalizes identifiers, so the following are not distinguished:
 {{{
-sage: ℚ = QQ
+#!python
+sage: ℚ = QQ                     # type \bbQ<TAB><ENTER>
 sage: ℚ
 Rational Field
 sage: Q = 42
@@ -116,6 +128,7 @@ When you do this, please remember to check that the `checksums.ini` file has an 
 It is now possible to choose which backend to use to compute regions of hyperplane arrangements
 [[https://trac.sagemath.org/ticket/29506|29506]]:
 {{{
+#!python
 sage: R.<sqrt5> = QuadraticField(5)
 sage: H = HyperplaneArrangements(R, names='xyz')
 sage: x,y,z = H.gens()
@@ -129,6 +142,7 @@ sage: A.regions()[0].backend()  # optional - pynormaliz
 It is now possible to compute the slack matrix of a polyhedron [[https://trac.sagemath.org/ticket/29838|29838]]:
 
 {{{
+#!python
 sage: P = polytopes.cube(intervals='zero_one')
 sage: P.slack_matrix()
 [0 1 1 1 0 0]
