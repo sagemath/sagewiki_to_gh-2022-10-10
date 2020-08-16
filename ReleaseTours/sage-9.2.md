@@ -41,10 +41,11 @@ sage: Ш = EllipticCurve('389a').sha()
 sage: Ш
 Tate-Shafarevich group for the Elliptic Curve
 defined by y^2 + y = x^3 + x^2 - 2*x over Rational Field
-sage: ГельфандЦетлинPattern = GelʹfandT͡setlinPattern = GelfandTsetlinPattern
+sage: GelʹfandT͡setlinPattern = GelfandTsetlinPattern
                                  # type \MODIFIER LETTER 
                                  #      PRIME<TAB><ENTER>
                                  # for the romanized soft mark
+sage: ГельфандЦетлинPattern = GelʹfandT͡setlinPattern
 sage: ГельфандЦетлинPattern([[3, 2, 1], [2, 1], [1]]).pp()
   3     2     1
      2     1
