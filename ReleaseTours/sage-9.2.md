@@ -53,6 +53,9 @@ sage: a, â, ā
 }}}
 But note that Python normalizes identifiers, so the following are not distinguished:
 {{{
+sage: ℚ = QQ
+sage: ℚ
+Rational Field
 sage: Q = 42
 sage: ℚ
 42
