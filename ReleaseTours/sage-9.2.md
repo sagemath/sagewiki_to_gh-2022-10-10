@@ -62,6 +62,10 @@ sage: 𝐹, 𝐅, 𝓕, 𝔽, 𝕱, 𝗙, 𝘍, 𝙁, 𝙵
 }}}
 See [[https://trac.sagemath.org/ticket/30111|Meta-ticket #30111: Unicode support]] for more information.
 
+=== Using Python 3.6+ language and library features in sagelib ===
+
+[[https://trac.sagemath.org/ticket/29756|Meta-ticket #29756]] provides a starting point for a discussion of new features of the Python language and standard library to bring them to systematic use in sagelib.
+
 == Package upgrades ==
 
 The removal of support for Python 2 will enable major package upgrades.
