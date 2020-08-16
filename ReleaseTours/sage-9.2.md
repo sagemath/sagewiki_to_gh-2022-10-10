@@ -29,8 +29,8 @@ SyntaxError: invalid character in identifier
 However, we can use letters from various alphabets.  The updated IPython allows us to type them using [[https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.completer.html|latex and unicode tab completion]]:
 {{{
 #!python
-sage: μ, ν, ξ = 1, 2, 3          # type \mu<TAB><ENTER>,
-                                 #      \nu<TAB><ENTER>, ...
+sage: μ, ν, ξ = 1, 2, 3          # type \mu<TAB>, 
+                                 #      \nu<TAB>, ...
 sage: SR('λ + 2λ')
 3*λ
 sage: var('α', domain='real')
@@ -53,6 +53,19 @@ sage: ГельфандЦетлинPattern([[3, 2, 1], [2, 1], [1]]).pp()
 sage: 四次方(x) = x^4
 sage: 四次方(3)
 81
+sage: ℚ̄ = QQbar                  # type \bbQ<TAB>\bar<TAB>
+sage: A = matrix(ℚ̄, [[1, 2*I], [3*I, 4]]); A
+[  1 2*I]
+[3*I   4]
+sage: Aᵀ = A.transpose()         # type \^T<TAB><ENTER>
+sage: Aᵀ                                                                                                                     
+[  1 3*I]
+[2*I   4]
+sage: Aᴴ = A.conjugate_transpose()
+                                 # type \^H<TAB><ENTER>
+sage: Aᴴ
+[   1 -3*I]
+[-2*I    4]
 }}}
 We can use math accents:
 {{{
