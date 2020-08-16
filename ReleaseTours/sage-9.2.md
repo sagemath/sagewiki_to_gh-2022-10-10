@@ -53,6 +53,25 @@ sage: ГельфандЦетлинPattern([[3, 2, 1], [2, 1], [1]]).pp()
 sage: 四次方(x) = x^4
 sage: 四次方(3)
 81
+}}}
+We can use math accents...
+{{{
+#!python
+sage: a = 1
+sage: â = 2                      # type a\hat<TAB><ENTER>
+sage: ā = 3                      # type a\bar<TAB><ENTER>
+sage: a, â, ā
+(1, 2, 3)
+sage: s(t) = t^3; s
+t |--> t^3
+sage: ṡ = diff(s, t); ṡ          # type s\dot<TAB><ENTER>                                                                                
+t |--> 3*t^2
+sage: s̈ = diff(ṡ, t); s̈          # type s\ddot<TAB><ENTER>                                                                                                   
+t |--> 6*t
+}}}
+... and have fun with modifier letters:
+{{{
+#!python
 sage: ℚ̄ = QQbar                  # type \bbQ<TAB>\bar<TAB>
 sage: A = matrix(ℚ̄, [[1, 2*I], [3*I, 4]]); A
 [  1 2*I]
@@ -67,16 +86,7 @@ sage: Aᴴ
 [   1 -3*I]
 [-2*I    4]
 }}}
-We can use math accents:
-{{{
-#!python
-sage: a = 1
-sage: â = 2                      # type a\hat<TAB><ENTER>
-sage: ā = 3                      # type a\bar<TAB><ENTER>
-sage: a, â, ā
-(1, 2, 3)
-}}}
-But note that Python normalizes identifiers, so the following are not distinguished:
+But note that Python normalizes identifiers, so the following variants are ''not'' distinguished:
 {{{
 #!python
 sage: ℚ = QQ                     # type \bbQ<TAB><ENTER>
