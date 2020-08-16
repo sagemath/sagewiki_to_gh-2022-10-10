@@ -73,18 +73,19 @@ t |--> 6*t
 {{{
 #!python
 sage: ℚ̄ = QQbar                  # type \bbQ<TAB>\bar<TAB>
+sage: %display unicode_art
 sage: A = matrix(ℚ̄, [[1, 2*I], [3*I, 4]]); A
-[  1 2*I]
-[3*I   4]
+⎛  1 2*I⎞
+⎝3*I   4⎠
 sage: Aᵀ = A.transpose()         # type \^T<TAB><ENTER>
 sage: Aᵀ                                                                                                                     
-[  1 3*I]
-[2*I   4]
+⎛  1 3*I⎞
+⎝2*I   4⎠
 sage: Aᴴ = A.conjugate_transpose()
                                  # type \^H<TAB><ENTER>
 sage: Aᴴ
-[   1 -3*I]
-[-2*I    4]
+⎛   1 -3*I⎞
+⎝-2*I    4⎠
 }}}
 But note that Python normalizes identifiers, so the following variants are ''not'' distinguished:
 {{{
