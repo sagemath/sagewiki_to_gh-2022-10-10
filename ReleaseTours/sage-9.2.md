@@ -199,6 +199,23 @@ sage: P.slack_matrix()
 
 There are also some bug fixes and other improvements. For more details see the [[https://trac.sagemath.org/wiki/SagePolyhedralGeometry#release_9.2|release notes for optimization and polyhedral geometry software interactions in Sage]].
 
+== Commutative algebra ==
+
+Rings of Laurent polynomials now support ideal creation and manipulation [[https://trac.sagemath.org/ticket/29512|29512]]:
+
+{{{
+sage: L.<x,y,z> = LaurentPolynomialRing(QQ, 3)                                                
+sage: I = L.ideal([(x+y+z)^3+x*y, x^2+y^2+z^2])                                               
+sage: I.groebner_basis()                                                                      
+(y^4 + 4*x*y*z^2 + y^2*z^2 + 2*x*z^3 + 2*y*z^3 - z^4 + 3/2*x*y*z + 1/4*x*z^2 + 1/4*y*z^2 - 1/4*z^3 + 1/8*x*y,
+ x*y^2 - y^3 + 3*x*y*z + x*z^2 - z^3 + 1/2*x*y,
+ x^2 + y^2 + z^2)
+sage: (x^3+y^3+z^3) in I                                                                      
+False
+sage: x + x^-1*y^2 + x^-1*z^2 in I                                                            
+True
+}}}
+
 == Deprecating, removing components ==
 
 
