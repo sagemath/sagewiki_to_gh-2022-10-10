@@ -138,7 +138,7 @@ The SageMath developers are eager to learn from users how they use the SageMath-
 
 === ipython ===
 
-5.8.0 -> 7.13.0
+Dropping support for Python 2 allowed us to upgrade IPython from 5.8.0 to 7.13.0. See the [[https://ipython.readthedocs.io/en/stable/whatsnew/version6.html|release notes for the 6.x]] and [[https://ipython.readthedocs.io/en/stable/whatsnew/version7.html|7.x series]].
 
 === Other package updates ===
 
