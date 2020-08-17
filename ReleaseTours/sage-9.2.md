@@ -115,9 +115,7 @@ See [[https://trac.sagemath.org/ticket/30111|Meta-ticket #30111: Unicode support
 
 == Package upgrades ==
 
-The removal of support for Python 2 will enable major package upgrades.
-
-[[https://trac.sagemath.org/ticket/29141|Meta-ticket #29141: Upgrades and other changes that require dropping py2 support]]
+The removal of support for Python 2 has enabled major package upgrades.
 
 Major user-visible package upgrades below...
 
@@ -141,6 +139,11 @@ The SageMath developers are eager to learn from users how they use the SageMath-
 === ipython ===
 
 5.8.0 -> 7.13.0
+
+=== Other package updates ===
+
+[[https://trac.sagemath.org/ticket/29141|Meta-ticket #29141: Upgrades and other changes that require dropping py2 support]]
+
 
 === For developers: Upgrading packages ===
 
