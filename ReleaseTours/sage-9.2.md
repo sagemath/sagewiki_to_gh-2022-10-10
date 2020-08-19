@@ -338,6 +338,8 @@ sage: G
 
 [[Image(G.png)]]
 
+{{attachment:G.png}}
+
 
 == Commutative algebra ==
 
