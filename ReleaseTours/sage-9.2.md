@@ -315,7 +315,7 @@ sage: d.one_solution_using_milp_solver('Gurobi')
 
 === Polyomino tilings ===
 
-It is now possible to find a surrounding of a polyomino with copies of itself. This is based on the dancing links solver in Sage. This is motivated by the [[Heesch's problem|https://en.wikipedia.org/wiki/Heesch%27s_problem]]. An example is below:
+It is now possible to find a surrounding of a polyomino with copies of itself, see [[https://trac.sagemath.org/ticket/29160|29160]]. This is based on the dancing links solver in Sage. This is motivated by the [[https://en.wikipedia.org/wiki/Heesch%27s_problem|Heesch's problem]]. An example is below:
 
 {{{
 sage: from sage.combinat.tiling import Polyomino
