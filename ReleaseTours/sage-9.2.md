@@ -251,6 +251,7 @@ sage: P.slack_matrix()
 It is now possible to apply an affine transformation on a polyhedron [[https://trac.sagemath.org/ticket/30327|30327]]:
 
 {{{
+#!python
 sage: M = random_matrix(QQ,3,3) 
 sage: v = vector(QQ,(1,2,3)) 
 sage: F = AffineGroup(3, QQ) 
@@ -260,6 +261,8 @@ x |-> [  0   1   0] x + [2]
       [ -1  -1 1/2]     [3]
 sage: cube = polytopes.cube() 
 sage: f * cube                                                            
+A 3-dimensional polyhedron in QQ^3 defined as the convex hull of 8 vertices
+sage: f(cube)                     # also works                                                        
 A 3-dimensional polyhedron in QQ^3 defined as the convex hull of 8 vertices
 }}}
 
@@ -282,6 +285,31 @@ A 3-dimensional polyhedron in QQ^3 defined as the convex hull of 8 vertices
    See the Task [[https://trac.sagemath.org/ticket/29842|29842: Meta-ticket: Run a more stable test suite on polyhedra]]
 
 There are also some bug fixes and other improvements. For more details see the [[https://trac.sagemath.org/wiki/SagePolyhedralGeometry#release_9.2|release notes for optimization and polyhedral geometry software interactions in Sage]].
+
+== Combinatorics ==
+
+It is now possible to solve an instance of an [[https://en.wikipedia.org/wiki/Exact_cover|exact cover problem]] using a reduction from a dancing links instance to SAT [[https://trac.sagemath.org/ticket/29338|29338]] or MILP [[https://trac.sagemath.org/ticket/29955|29955]]:
+
+{{{
+#!python
+sage: from sage.combinat.matrices.dancing_links import dlx_solver
+sage: rows = [[0,1,2], [3,4,5], [0,1], [2,3,4,5], [0], [1,2,3,4,5]]
+sage: d = dlx_solver(rows)
+sage: d.one_solution()
+[1, 0]
+sage: d.one_solution_using_sat_solver('cryptominisat')
+[2, 3]
+sage: d.one_solution_using_sat_solver('glucose')
+[2, 3]
+sage: d.one_solution_using_sat_solver('glucose-syrup')
+[2, 3]
+sage: d.one_solution_using_sat_solver('picosat')
+[4, 5]
+sage: d.one_solution_using_milp_solver()
+[0, 1]
+sage: d.one_solution_using_milp_solver('Gurobi')
+[0, 1]
+}}}
 
 == Commutative algebra ==
 
