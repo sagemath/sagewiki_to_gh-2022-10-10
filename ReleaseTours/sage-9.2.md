@@ -171,6 +171,46 @@ Downloading tarball to ...matplotlib-3.3.1.tar.bz2
 When you do this, please remember to check that the `checksums.ini` file has an `upstream_url` in the format
 `upstream_url=https://pypi.io/packages/source/m/matplotlib/matplotlib-VERSION.tar.gz`. (This is not needed for `updated-latest` to work, but helps with automated tests of the upgrade ticket -- see [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#For_developers-1|Sage 9.1 release tour]] on this topic.)
 
+== Graphics ==
+
+=== New features ===
+
+ * Specify the rectangle in which to draw a matrix using the new `xrange` and `yrange` options of `matrix_plot`. For example, to draw a matrix in [0,1]×[0,1] instead of the default [-0.5,4.5]×[-0.5,4.5]: `matrix_plot(identity_matrix(5), xrange=(0, 1), yrange=(0, 1))`. [[https://trac.sagemath.org/ticket/27895|27895]] (Markus Wageringel)
+
+ * Set the initial camera orientation in Three.js plots using the new `viewpoint` option. Pass it a list/tuple of the form `[[x,y,z],angle]`, such as that provided by the existing `Get Viewpoint` option accessible from the menu button in the lower-right corner of a Three.js plot. [[https://trac.sagemath.org/ticket/29192|29192]] (Paul Masson)
+
+ * Save a 3D graphics object directly to an HTML file that uses the Three.js viewer, similar to how you would save a PNG image: `G.save('plot.html')`. [[https://trac.sagemath.org/ticket/29194|29194]] (Joshua Campbell)
+
+ * Produce an interactive 3D animation that you can pan, rotate, and zoom while the animation is playing using the Three.js viewer. A slider and buttons for controlling playback are included on the page by default. To use this new feature construct an animation as you normally would, passing a list of still frames to the `animate` function, then call the `interactive` method. For example:
+ 
+   {{{
+   def build_frame(t):
+       """Build a single frame of animation at time t."""
+       e = parametric_plot3d([sin(x-t), 0, x], (x, 0, 2*pi), color='red')
+       b = parametric_plot3d([0, -sin(x-t), x], (x, 0, 2*pi), color='green')
+       return e + b
+   frames = [build_frame(t) for t in (0, pi/32, pi/16, .., 2*pi)]
+   animate(frames, delay=5).interactive(projection='orthographic')
+   }}}
+   
+   [[https://trac.sagemath.org/ticket/29194|29194]] (Joshua Campbell)
+
+=== Implementation improvements ===
+
+ * Points are now sampled exponentially when `scale='semilogx'` or `scale='loglog'` is specified. This decreases the number of points necessary for an accurate plot (and also increases the chance that the default number of points will produce an acceptable plot). [[https://trac.sagemath.org/ticket/29523|29523] (Blair Mason)
+ 
+ * Points and lines are now ignored in STL 3D export. [[https://trac.sagemath.org/ticket/29732|29732]] (Frédéric Chapoton)
+
+ * Three.js has been upgraded to version r117. [[https://trac.sagemath.org/ticket/29809|29809]] (Paul Masson)
+
+ * Long text is no longer clipped in Three.js plots. Multi-line text is not yet supported but is in the works. [[https://trac.sagemath.org/ticket/29758|29758]] (Joshua Campbell)
+ 
+ * JSmol's telemetry functionality has been disabled. It will no longer phone home when, for example, using `viewer='jmol'` in a Jupyter notebook. [[https://trac.sagemath.org/ticket/30030|30030]] (Joshua Campbell)
+
+=== For developers ===
+
+ * Clarified that example Three.js plots in the documentation should use the `online=True` viewing option. [[https://trac.sagemath.org/ticket/30136|30136]] (Paul Masson)
+
 == Polyhedral geometry ==
 
 === New features ===
