@@ -326,7 +326,7 @@ sage: H = Polyomino([(-1, 1), (-1, 4), (-1, 7), (0, 0), (0, 1), (0, 2),
 sage: H.show2d()
 }}}
 
-[[Image(H.png)]]
+{{attachment:H.png}}
 
 {{{
 sage: %time solution = H.self_surrounding(10, ncpus=8)
@@ -336,7 +336,6 @@ sage: G = sum([p.show2d() for p in solution], Graphics())
 sage: G
 }}}
 
-[[Image(G.png)]]
 
 {{attachment:G.png}}
 
