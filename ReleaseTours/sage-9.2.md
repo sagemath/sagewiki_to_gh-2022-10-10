@@ -375,12 +375,6 @@ Some Cython modules need specific compiler and linker flags. Sage 9.2 has moved 
 Sage 9.2 has also changed the mechanism for conditionalizing a Cython extension module on the presence of a Sage package.  Consider the module [[https://git.sagemath.org/sage.git/tree/src/sage/graphs/graph_decompositions/tdlib.pyx?id=55c3fbc565fd7884f3df9555de83dd326ace276e|sage.graphs.graph_decompositions.tdlib]] as an example. Prior to Sage 9.2, this module was declared as an `OptionalExtension`, conditional on the SPKG `tdlib`, in `src/module_list.py`. The new mechanism is as follows. [[https://git.sagemath.org/sage.git/tree/src/setup.py?id=55c3fbc565fd7884f3df9555de83dd326ace276e#n53|src/setup.py]] maps the SPKG name `tdlib` to the "distribution name" `sage-tdlib`. At the top of the Cython source file [[https://git.sagemath.org/sage.git/tree/src/sage/graphs/graph_decompositions/tdlib.pyx?id=55c3fbc565fd7884f3df9555de83dd326ace276e|src/sage/graphs/graph_decompositions/tdlib.pyx]], there is a new directive `sage_setup: distribution = sage-tdlib`. Now the source discovery in [[https://git.sagemath.org/sage.git/tree/src/sage_setup/find.py?id=55c3fbc565fd7884f3df9555de83dd326ace276e#n61|sage_setup.find.find_python_sources]] includes this Cython module only if the SPKG `tdlib` is installed and current.
 
 
-== Tickets ==
-
- * [[https://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=new&summary=~Meta&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Open Meta-Tickets]]
-
- * [[https://trac.sagemath.org/query?milestone=sage-9.2&groupdesc=1&group=status&max=1500&col=id&col=summary&col=author&col=reviewer&col=time&col=changetime&col=component&col=keywords&order=component|Trac tickets with milestone 9.2]]
-
 == Cleaning ==
 
  * [[https://trac.sagemath.org/ticket/29636|Trac #29636: Delete changelog sections from all SPKG information files]]; they were deprecated in favor of using Trac years ago. The contributions of Sage developers maintaining SPKGs are documented by our [[http://www.sagemath.org/changelogs/index.html|historical changelogs]].
@@ -397,3 +391,9 @@ Sage 9.2 has not been released yet.  See [[https://groups.google.com/forum/#!for
 
 
  * See [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]] for development discussions.
+
+== More details ==
+
+ * [[https://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=new&summary=~Meta&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Open Meta-Tickets]]
+
+ * [[https://trac.sagemath.org/query?milestone=sage-9.2&groupdesc=1&group=status&max=1500&col=id&col=summary&col=author&col=reviewer&col=time&col=changetime&col=component&col=keywords&order=component|Trac tickets with milestone 9.2]]
