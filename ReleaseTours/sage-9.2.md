@@ -148,14 +148,16 @@ The SageMath developers are eager to learn from users how they use the SageMath-
 
 1.8.5 -> 3.1.2
 
-=== ipython ===
+=== IPython and Jupyter notebook ===
 
-Dropping support for Python 2 allowed us to upgrade IPython from 5.8.0 to 7.13.0. See the [[https://ipython.readthedocs.io/en/stable/whatsnew/version6.html|release notes for the 6.x]] and [[https://ipython.readthedocs.io/en/stable/whatsnew/version7.html|7.x series]].
+Dropping support for Python 2 allowed us to upgrade IPython from 5.8.0 to 7.13.0 in [[https://trac.sagemath.org/ticket/28197|Trac #28197]]. See the [[https://ipython.readthedocs.io/en/stable/whatsnew/version6.html|release notes for the 6.x]] and [[https://ipython.readthedocs.io/en/stable/whatsnew/version7.html|7.x series]].
+
+We have also upgraded the Jupyter notebook from 5.7.6 to 6.1.1 in [[https://trac.sagemath.org/ticket/26919|Trac #26919]]; see the [[https://jupyter-notebook.readthedocs.io/en/stable/changelog.html|notebook changelog]] for more information.
 
 === Other package updates ===
 
-[[https://trac.sagemath.org/ticket/29141|Meta-ticket #29141: Upgrades and other changes that require dropping py2 support]]
-
+ * [[https://trac.sagemath.org/ticket/29141|Meta-ticket #29141: Upgrades and other changes that require dropping py2 support]]
+ * [[https://trac.sagemath.org/query?summary=~update&milestone=sage-9.2&or&milestone=sage-9.2&summary=~upgrade&groupdesc=1&group=status&max=1500&col=id&col=summary&col=component&col=time&col=changetime&col=author&col=reviewer&col=keywords&order=component|Upgrade tickets, milestone 9.2]]
 
 === For developers: Upgrading packages ===
 
