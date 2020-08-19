@@ -107,6 +107,18 @@ sage: 𝐹, 𝐅, 𝓕, 𝕱, 𝗙, 𝘍, 𝙁, 𝙵 # type \itF<TAB>, \bfF<TAB>
                               #      \sansF<TAB>, ...
 (1, 1, 1, 1, 1, 1, 1, 1)
 }}}
+We have also added a few Unicode aliases for global constants and functions.
+{{{
+#!python
+sage: π
+pi
+sage: _.n()
+3.14159265358979
+sage: Γ(5/2)                                                                                                                    
+3/4*sqrt(pi)
+sage: ζ(-1)
+-1/12
+}}}
 See [[https://trac.sagemath.org/ticket/30111|Meta-ticket #30111: Unicode support]] for more information.
 
 === For developers: Using Python 3.6+ features in sagelib ===
