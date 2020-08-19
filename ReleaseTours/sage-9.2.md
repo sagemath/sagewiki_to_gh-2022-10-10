@@ -182,22 +182,26 @@ When you do this, please remember to check that the `checksums.ini` file has an 
  * Save a 3D graphics object directly to an HTML file that uses the Three.js viewer, similar to how you would save a PNG image: `G.save('plot.html')`. [[https://trac.sagemath.org/ticket/29194|29194]] (Joshua Campbell)
 
  * Produce an interactive 3D animation that you can pan, rotate, and zoom while the animation is playing using the Three.js viewer. A slider and buttons for controlling playback are included on the page by default. To use this new feature construct an animation as you normally would, passing a list of still frames to the `animate` function, then call the `interactive` method. For example:
- 
-   {{{
-   def build_frame(t):
-       """Build a single frame of animation at time t."""
-       e = parametric_plot3d([sin(x-t), 0, x], (x, 0, 2*pi), color='red')
-       b = parametric_plot3d([0, -sin(x-t), x], (x, 0, 2*pi), color='green')
-       return e + b
-   frames = [build_frame(t) for t in (0, pi/32, pi/16, .., 2*pi)]
-   animate(frames, delay=5).interactive(projection='orthographic')
-   }}}
-   
-   [[https://trac.sagemath.org/ticket/29194|29194]] (Joshua Campbell)
+  {{{
+#!python
+def build_frame(t):
+    """Build a single frame of animation at time t."""
+    e = parametric_plot3d([sin(x-t), 0, x],
+                          (x, 0, 2*pi), color='red')
+    b = parametric_plot3d([0, -sin(x-t), x], 
+                          (x, 0, 2*pi), color='green')
+    return e + b
+
+frames = [build_frame(t) 
+          for t in (0, pi/32, pi/16, .., 2*pi)]
+animate(frames, delay=5).interactive(
+    projection='orthographic')
+  }}}
+  [[https://trac.sagemath.org/ticket/29194|29194]] (Joshua Campbell)
 
 === Implementation improvements ===
 
- * Points are now sampled exponentially when `scale='semilogx'` or `scale='loglog'` is specified. This decreases the number of points necessary for an accurate plot (and also increases the chance that the default number of points will produce an acceptable plot). [[https://trac.sagemath.org/ticket/29523|29523] (Blair Mason)
+ * Points are now sampled exponentially when `scale='semilogx'` or `scale='loglog'` is specified. This decreases the number of points necessary for an accurate plot (and also increases the chance that the default number of points will produce an acceptable plot). [[https://trac.sagemath.org/ticket/29523|29523]] (Blair Mason)
  
  * Points and lines are now ignored in STL 3D export. [[https://trac.sagemath.org/ticket/29732|29732]] (Frédéric Chapoton)
 
