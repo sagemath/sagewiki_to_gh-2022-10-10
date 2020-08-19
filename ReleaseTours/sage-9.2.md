@@ -248,6 +248,22 @@ sage: P.slack_matrix()
 [1 0 0 0 1 1]
 }}}
 
+It is now possible to apply an affine transformation on a polyhedron [[https://trac.sagemath.org/ticket/30327|30327]]:
+
+{{{
+sage: M = random_matrix(QQ,3,3) 
+sage: v = vector(QQ,(1,2,3)) 
+sage: F = AffineGroup(3, QQ) 
+sage: f = F(M, v); f                                                                    
+      [  0   0  -2]     [1]
+x |-> [  0   1   0] x + [2]
+      [ -1  -1 1/2]     [3]
+sage: cube = polytopes.cube() 
+sage: f * cube                                                            
+A 3-dimensional polyhedron in QQ^3 defined as the convex hull of 8 vertices
+}}}
+
+
 === Implementation improvements ===
 
  * It is now possible to set up polyhedra with both Vrep and Hrep in the following constructions:
