@@ -288,6 +288,8 @@ There are also some bug fixes and other improvements. For more details see the [
 
 == Combinatorics ==
 
+=== Reduction from Dancing links to SAT or MILP ===
+
 It is now possible to solve an instance of an [[https://en.wikipedia.org/wiki/Exact_cover|exact cover problem]] using a reduction from a dancing links instance to SAT [[https://trac.sagemath.org/ticket/29338|29338]] or MILP [[https://trac.sagemath.org/ticket/29955|29955]]:
 
 {{{
@@ -310,6 +312,32 @@ sage: d.one_solution_using_milp_solver()
 sage: d.one_solution_using_milp_solver('Gurobi')
 [0, 1]
 }}}
+
+=== Polyomino tilings ===
+
+It is now possible to find a surrounding of a polyomino with copies of itself. This is based on the dancing links solver in Sage. This is motivated by the [[Heesch's problem|https://en.wikipedia.org/wiki/Heesch%27s_problem]]. An example is below:
+
+{{{
+sage: from sage.combinat.tiling import Polyomino
+sage: H = Polyomino([(-1, 1), (-1, 4), (-1, 7), (0, 0), (0, 1), (0, 2),
+....: (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (1, 1), (1, 2),
+....: (1, 3), (1, 4), (1, 5), (1, 6), (1, 7), (1, 8), (2, 0), (2, 2),
+....: (2, 3), (2, 5), (2, 6), (2, 8)])
+sage: H.show2d()
+}}}
+
+[[Image(H.png)]]
+
+{{{
+sage: %time solution = H.self_surrounding(10, ncpus=8)
+CPU times: user 1.69 s, sys: 1.08 s, total: 2.77 s
+Wall time: 3.85 s
+sage: G = sum([p.show2d() for p in solution], Graphics())
+sage: G
+}}}
+
+[[Image(G.png)]]
+
 
 == Commutative algebra ==
 
