@@ -211,6 +211,8 @@ animate(frames, delay=5).interactive(
  
  * JSmol's telemetry functionality has been disabled. It will no longer phone home when, for example, using `viewer='jmol'` in a Jupyter notebook. [[https://trac.sagemath.org/ticket/30030|30030]] (Joshua Campbell)
 
+* Enhanced export for 3D surfaces in the STL file format, now available for disjoint unions.
+
 === For developers ===
 
  * Clarified that example Three.js plots in the documentation should use the `online=True` viewing option. [[https://trac.sagemath.org/ticket/30136|30136]] (Paul Masson)
