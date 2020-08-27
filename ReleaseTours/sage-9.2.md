@@ -342,6 +342,8 @@ sage: G
 
 == Commutative algebra ==
 
+=== Laurent polynomials ===
+
 Rings of Laurent polynomials now support ideal creation and manipulation [[https://trac.sagemath.org/ticket/29512|29512]]:
 
 {{{
@@ -354,6 +356,17 @@ sage: I.groebner_basis()
 sage: (x^3+y^3+z^3) in I                                                                      
 False
 sage: x + x^-1*y^2 + x^-1*z^2 in I                                                            
+True
+}}}
+
+=== Motivic multiple zetas ===
+
+The ring of motivic multiple zeta values has been implemented, using algorithms of Francis Brown. It allows to compute at least up to weight 12.
+
+{{{
+sage: Multizeta(1,2)**2                                                         
+12*ζ(1,1,1,3) + 6*ζ(1,1,2,2) + 2*ζ(1,2,1,2)
+sage: Multizeta(1,2)==Multizeta(3)                                              
 True
 }}}
 
