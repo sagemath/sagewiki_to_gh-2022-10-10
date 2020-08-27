@@ -365,7 +365,7 @@ True
 
 === Motivic multiple zetas ===
 
-The ring of motivic multiple zeta values has been implemented, using algorithms of Francis Brown. It allows to compute at least up to weight 12.
+The ring of motivic multiple zeta values has been implemented, using algorithms of Francis Brown. It allows to compute at least up to weight 12 [[https://trac.sagemath.org/ticket/22713|22713]].
 
 {{{
 sage: Multizeta(1,2)**2                                                         
@@ -377,6 +377,25 @@ sage: Multizeta(2,3,4).n(100)
 }}}
 
 The numerical evaluation is based on PARI implementation.
+
+=== Power series ===
+
+There is new method to compute the coefficients in the Jacobi continued fraction expansion of a power series [[https://trac.sagemath.org/ticket/29789|29789]].
+
+{{{
+sage: t = QQ[['t']].0                                                             
+sage: f = sum(factorial(n)*t**n for n in range(20)).O(20)                         
+sage: f.jacobi_continued_fraction()                                             
+((-1, -1),
+ (-3, -4),
+ (-5, -9),
+ (-7, -16),
+ (-9, -25),
+ (-11, -36),
+ (-13, -49),
+ (-15, -64),
+ (-17, -81))
+}}}
 
 == Configuration and build changes ==
 
