@@ -368,6 +368,8 @@ sage: Multizeta(1,2)**2
 12*ζ(1,1,1,3) + 6*ζ(1,1,2,2) + 2*ζ(1,2,1,2)
 sage: Multizeta(1,2)==Multizeta(3)                                              
 True
+sage: Multizeta(2,3,4).n(100)                                                   
+0.0029375850405618494701189454256
 }}}
 
 == Configuration and build changes ==
