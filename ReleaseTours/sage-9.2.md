@@ -203,7 +203,7 @@ animate(frames, delay=5).interactive(
 
  * Points are now sampled exponentially when `scale='semilogx'` or `scale='loglog'` is specified. This decreases the number of points necessary for an accurate plot (and also increases the chance that the default number of points will produce an acceptable plot). [[https://trac.sagemath.org/ticket/29523|29523]] (Blair Mason)
  
- * Points and lines are now ignored in STL 3D export. [[https://trac.sagemath.org/ticket/29732|29732]] (Frédéric Chapoton)
+ * Points and lines are now ignored in STL 3D export. Moreover disjoint union of surfaces can be saved. [[https://trac.sagemath.org/ticket/29732|29732]] (Frédéric Chapoton)
 
  * Three.js has been upgraded to version r117. [[https://trac.sagemath.org/ticket/29809|29809]] (Paul Masson)
 
@@ -211,7 +211,9 @@ animate(frames, delay=5).interactive(
  
  * JSmol's telemetry functionality has been disabled. It will no longer phone home when, for example, using `viewer='jmol'` in a Jupyter notebook. [[https://trac.sagemath.org/ticket/30030|30030]] (Joshua Campbell)
 
-* Enhanced export for 3D surfaces in the STL file format, now available for disjoint unions.
+ * SVG export has been added to the javascript graph display tool: 
+   {{{G.show(method='js')}}}
+   [[https://trac.sagemath.org/ticket/29807|29807]]
 
 === For developers ===
 
