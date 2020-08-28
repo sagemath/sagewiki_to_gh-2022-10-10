@@ -509,7 +509,7 @@ It is now possible to define an orientation [[https://doc.sagemath.org/html/en/r
 
 === Euclidean spaces as metric spaces ===
 
-Euclidean spaces have been endowed with a distance function and have been set to the category of complete metric spaces ([[https://trac.sagemath.org/ticket/30062|#30062]]):
+Euclidean spaces have been endowed with a distance function and have been set in the category of complete metric spaces ([[https://trac.sagemath.org/ticket/30062|#30062]]):
 
 {{{
 sage: E.<x,y> = EuclideanSpace()
