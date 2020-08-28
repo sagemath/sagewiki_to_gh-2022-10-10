@@ -219,6 +219,11 @@ animate(frames, delay=5).interactive(
 
  * Clarified that example Three.js plots in the documentation should use the `online=True` viewing option. [[https://trac.sagemath.org/ticket/30136|30136]] (Paul Masson)
 
+== Linear and multilinear algebra ==
+
+Sage has several specialized implementation classes for free modules and vector spaces. In Sage 9.2, the existing factory functions `FreeModule` and `VectorSpace` have been extended so that they cover two more cases.
+
+
 == Polyhedral geometry ==
 
 === New features ===
