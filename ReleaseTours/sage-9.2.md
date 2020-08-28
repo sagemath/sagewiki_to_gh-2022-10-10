@@ -435,6 +435,10 @@ sage: t['^μ_μ'] == t.trace()
 True
 }}}
 
+=== Orientability of manifolds and vector bundles ===
+
+It is now possible to define an orientation [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/manifold.html#sage.manifolds.differentiable.manifold.DifferentiableManifold.orientation|on a differentiable manifold]] and
+[[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/vector_bundle.html#sage.manifolds.vector_bundle.TopologicalVectorBundle.orientation|on a vector bundle]] ([[https://trac.sagemath.org/ticket/30178|#30178]]). [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/manifold.html#sage.manifolds.manifold.TopologicalManifold.orientation|Orientations of topological manifolds]] have also been introduced, according to [[http://www.map.mpim-bonn.mpg.de/Orientation_of_manifolds|this definition]].
 
 === Euclidean spaces as metric spaces ===
 
