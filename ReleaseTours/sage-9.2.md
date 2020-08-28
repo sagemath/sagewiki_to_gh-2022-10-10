@@ -444,8 +444,11 @@ sage: E.<x,y,z> = EuclideanSpace()
 sage: R.<s> = RealLine()
 sage: C = E.curve((2*cos(s/3), 2*sin(s/3), sqrt(5)*s/3), (s, -oo, +oo),
 ....:             name='C')
+sage: C.display()                                                               
+C: R --> E^3
+   s |--> (x, y, z) = (2*cos(1/3*s), 2*sin(1/3*s), 1/3*sqrt(5)*s)
 }}}
-The tangent vector field has a unit norm since the parameter ''s'' is the arc length:
+The tangent vector field ''T'' has a unit norm since the parameter ''s'' is the arc length:
 {{{
 sage: T = C.tangent_vector_field()
 sage: T.display()
