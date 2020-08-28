@@ -528,9 +528,9 @@ Join of Category of smooth manifolds over Real Field with 53 bits of precision a
 
 Bundle connections have been improved ([[https://trac.sagemath.org/ticket/30208|#30208]]) and their action on vector fields and sections has been implemented ([[https://trac.sagemath.org/ticket/30209|#30209]]).
 
-=== Internal code improvements ===
+=== Internal code improvements and bug fixes ===
 
-Many improvements/refactoring in the code have been performed in this release: 
+Many improvements/refactoring of the code have been performed in this release: 
 
  * [[https://doc.sagemath.org/html/en/reference/tensor_free_modules/|algebraic part]]: [[https://trac.sagemath.org/ticket/30094|#30094]], [[https://trac.sagemath.org/ticket/30169|#30169]], [[https://trac.sagemath.org/ticket/30179|#30179]], [[https://trac.sagemath.org/ticket/30181|#30181]], [[https://trac.sagemath.org/ticket/30194|#30194]], [[https://trac.sagemath.org/ticket/30250|#30250]], [[https://trac.sagemath.org/ticket/30251|#30251]], [[https://trac.sagemath.org/ticket/30254|#30254]], [[https://trac.sagemath.org/ticket/30255|#30255]], [[https://trac.sagemath.org/ticket/30287|#30287]]
 
