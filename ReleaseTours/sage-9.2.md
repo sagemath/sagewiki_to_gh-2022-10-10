@@ -435,6 +435,70 @@ sage: t['^μ_μ'] == t.trace()
 True
 }}}
 
+=== Dot and cross products of vector fields along a curve ===
+
+The methods '''dot_product()''', '''cross_product()''' and '''norm()''' can be now be used for vector fields defined along a differentiable map, the codomain of which is a Riemannian manifold ([[https://trac.sagemath.org/ticket/30318|#30318]]). Previously, these methods worked only for vector fields ''on'' a Riemannian manifold, i.e. along the identity map. An important subcase is of course that of a curve in a Riemannian manifold. For instance, let us consider
+a helix ''C'' in the Euclidean space E^3^ parametrized by its arc length ''s'':
+{{{
+sage: E.<x,y,z> = EuclideanSpace()
+sage: R.<s> = RealLine()
+sage: C = E.curve((2*cos(s/3), 2*sin(s/3), sqrt(5)*s/3), (s, -oo, +oo),
+....:             name='C')
+}}}
+The tangent vector field has a unit norm since the parameter ''s'' is the arc length:
+{{{
+sage: T = C.tangent_vector_field()
+sage: T.display()
+C' = -2/3*sin(1/3*s) e_x + 2/3*cos(1/3*s) e_y + 1/3*sqrt(5) e_z
+sage: norm(T)
+Scalar field |C'| on the Real interval (0, 6*pi)
+sage: norm(T).expr()
+1
+}}}
+We introduce the unit normal vector ''N'' via the derivative of ''T'':
+{{{
+sage: T_prime = R.vector_field([diff(T[i], s) for i in E.irange()], dest_map=C,
+....:                          name="T'")
+sage: N = T_prime / norm(T_prime) 
+sage: N.display()                                                               
+-cos(1/3*s) e_x - sin(1/3*s) e_y
+}}}
+and we get the binormal vector ''B'' as the cross product of ''T'' and ''N'':
+{{{
+sage: B = T.cross_product(N)
+sage: B
+Vector field along the Real number line R with values on the Euclidean space E^3
+sage: B.display()                                                               
+1/3*sqrt(5)*sin(1/3*s) e_x - 1/3*sqrt(5)*cos(1/3*s) e_y + 2/3 e_z
+}}}
+We can then form the '''Frenet-Serret''' frame:
+{{{
+sage: FS = R.vector_frame(('T', 'N', 'B'), (T, N, B),
+....:                     symbol_dual=('t', 'n', 'b'))
+sage: FS
+Vector frame (R, (T,N,B)) with values on the Euclidean space E^3
+}}}
+and check that it is orthonormal:
+{{{
+sage: matrix([[u.dot(v).expr() for v in FS] for u in FS])                       
+[1 0 0]
+[0 1 0]
+[0 0 1]
+}}}
+The Frenet-Serret formulas, expressing the '''curvature''' and '''torsion''' of ''C'', are obtained as:
+{{{
+sage: N_prime = R.vector_field([diff(N[i], s) for i in E.irange()],
+....:                          dest_map=C, name="N'")
+sage: B_prime = R.vector_field([diff(B[i], s) for i in E.irange()],
+....:                          dest_map=C, name="B'")
+sage: for v in (T_prime, N_prime, B_prime): 
+....:     v.display(FS) 
+....:                                                                           
+T' = 2/9 N
+N' = -2/9 T + 1/9*sqrt(5) B
+B' = -1/9*sqrt(5) N
+}}}
+
 === Orientability of manifolds and vector bundles ===
 
 It is now possible to define an orientation [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/manifold.html#sage.manifolds.differentiable.manifold.DifferentiableManifold.orientation|on a differentiable manifold]] and
