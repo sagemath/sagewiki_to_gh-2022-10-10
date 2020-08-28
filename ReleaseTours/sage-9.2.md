@@ -528,6 +528,18 @@ Join of Category of smooth manifolds over Real Field with 53 bits of precision a
 
 Bundle connections have been improved ([[https://trac.sagemath.org/ticket/30208|#30208]]) and their action on vector fields and sections has been implemented ([[https://trac.sagemath.org/ticket/30209|#30209]]).
 
+=== Internal code improvements ===
+
+Many improvements/refactoring in the code have been performed in this release: 
+
+ * [[https://doc.sagemath.org/html/en/reference/tensor_free_modules/|algebraic part]]: [[https://trac.sagemath.org/ticket/30094|#30094]], [[https://trac.sagemath.org/ticket/30169|#30169]], [[https://trac.sagemath.org/ticket/30179|#30179]], [[https://trac.sagemath.org/ticket/30181|#30181]], [[https://trac.sagemath.org/ticket/30194|#30194]], [[https://trac.sagemath.org/ticket/30250|#30250]], [[https://trac.sagemath.org/ticket/30251|#30251]], [[https://trac.sagemath.org/ticket/30254|#30254]], [[https://trac.sagemath.org/ticket/30255|#30255]], [[https://trac.sagemath.org/ticket/30287|#30287]]
+
+ * [[https://doc.sagemath.org/html/en/reference/manifolds/manifold.html|topological part]]: [[https://trac.sagemath.org/ticket/30266|#30266]], [[https://trac.sagemath.org/ticket/30267|#30267]], [[https://trac.sagemath.org/ticket/30291|#30291]]
+
+ * [[https://doc.sagemath.org/html/en/reference/manifolds/diff_manifold.html|differentiable part]]: [[https://trac.sagemath.org/ticket/30228|#30228]], [[https://trac.sagemath.org/ticket/30274|#30274]], [[https://trac.sagemath.org/ticket/30280|#30280]], [[https://trac.sagemath.org/ticket/30285|#30285]], [[https://trac.sagemath.org/ticket/30288|#30288]]
+
+In addition, various bugs have been fixed: [[https://trac.sagemath.org/ticket/30094|#30094]], [[https://trac.sagemath.org/ticket/30108|#30108]], [[https://trac.sagemath.org/ticket/30112|#30112]], [[https://trac.sagemath.org/ticket/30191|#30191]], [[https://trac.sagemath.org/ticket/30289|#30289]].
+
 == Configuration and build changes ==
 
 Sage 9.1 introduced [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#Portability_improvements.2C_increased_use_of_system_packages|informational messages at the end of a ./configure run]] regarding system packages.  To make sure that these messages are not overlooked, Sage 9.2 no longer invokes `./configure` when you type `make` in an unconfigured source tree. See [[https://groups.google.com/d/msg/sage-devel/9gOkmF6rSjY/wEV4WBQABwAJ|sage-devel: require "./configure" before "make"]], [[https://trac.sagemath.org/ticket/29316|Trac #29316]].
