@@ -422,6 +422,20 @@ sage: diff(a).display()
 da = 2 dx/\dy
 }}}
 
+=== Unicode characters allowed in index notations ===
+
+Greek letters (and more generally any Unicode non-digit word-constituent character) are now allowed in index notation for tensors ([[https://trac.sagemath.org/ticket/29248|#29248]]). For instance, taking the trace of a type-(1,1) tensor field:
+
+{{{
+sage: E.<x,y> = EuclideanSpace()                                                
+sage: t = E.tensor_field(1, 1, [[x, 1], [0, y]])                                
+sage: t['^μ_μ']                                                                 
+Scalar field on the Euclidean plane E^2
+sage: t['^μ_μ'] == t.trace()                                                    
+True
+}}}
+
+
 === Euclidean spaces as metric spaces ===
 
 A distance function has been added to Euclidean spaces, which have been added to the category of complete metric spaces ([[https://trac.sagemath.org/ticket/30062|#30062]]):
