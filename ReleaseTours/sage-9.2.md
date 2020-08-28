@@ -457,6 +457,10 @@ sage: E.category()
 Join of Category of smooth manifolds over Real Field with 53 bits of precision and Category of complete metric spaces
 }}}
 
+=== Bundle connections ===
+
+Bundle connections have been improved ([[https://trac.sagemath.org/ticket/30208|#30208]]) and their action on vector fields and sections has been implemented ([[https://trac.sagemath.org/ticket/30209|#30209]]).
+
 == Configuration and build changes ==
 
 Sage 9.1 introduced [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#Portability_improvements.2C_increased_use_of_system_packages|informational messages at the end of a ./configure run]] regarding system packages.  To make sure that these messages are not overlooked, Sage 9.2 no longer invokes `./configure` when you type `make` in an unconfigured source tree. See [[https://groups.google.com/d/msg/sage-devel/9gOkmF6rSjY/wEV4WBQABwAJ|sage-devel: require "./configure" before "make"]], [[https://trac.sagemath.org/ticket/29316|Trac #29316]].
