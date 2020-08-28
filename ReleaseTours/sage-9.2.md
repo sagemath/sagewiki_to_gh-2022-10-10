@@ -397,6 +397,48 @@ sage: f.jacobi_continued_fraction()
  (-17, -81))
 }}}
 
+
+== Manifolds ==
+
+=== diff function for exterior derivatives ===
+
+It is now possible to invoke '''diff''' to compute the differential (exterior derivative) of a differentiable form ([[https://trac.sagemath.org/ticket/29953|#29953]]). For instance, for a scalar field:
+{{{
+sage: M = Manifold(2, 'M')
+sage: X.<x,y> = M.chart()
+sage: f = M.scalar_field(x^2*y, name='f')
+sage: diff(f)
+1-form df on the 2-dimensional differentiable manifold M
+sage: diff(f).display()
+df = 2*x*y dx + x^2 dy
+}}}
+and for a 1-form:
+{{{
+sage: a = M.one_form(-y, x, name='a'); a.display()
+a = -y dx + x dy
+sage: diff(a)
+2-form da on the 2-dimensional differentiable manifold M
+sage: diff(a).display()
+da = 2 dx/\dy
+}}}
+
+=== Euclidean spaces as metric spaces ===
+
+A distance function has been added to Euclidean spaces, which have been added to the category of complete metric spaces ([[https://trac.sagemath.org/ticket/30062|#30062]]):
+
+{{{
+sage: E.<x,y> = EuclideanSpace()
+sage: p = E((1,0))  # the point of coordinates (1,0)
+sage: q = E((0,2))  # the point of coordinates (0,2)
+sage: d = E.dist  # the distance function
+sage: d(p,q)
+sqrt(5)
+sage: p.dist(q)
+sqrt(5)
+sage: E.category()
+Join of Category of smooth manifolds over Real Field with 53 bits of precision and Category of complete metric spaces
+}}}
+
 == Configuration and build changes ==
 
 Sage 9.1 introduced [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#Portability_improvements.2C_increased_use_of_system_packages|informational messages at the end of a ./configure run]] regarding system packages.  To make sure that these messages are not overlooked, Sage 9.2 no longer invokes `./configure` when you type `make` in an unconfigured source tree. See [[https://groups.google.com/d/msg/sage-devel/9gOkmF6rSjY/wEV4WBQABwAJ|sage-devel: require "./configure" before "make"]], [[https://trac.sagemath.org/ticket/29316|Trac #29316]].
