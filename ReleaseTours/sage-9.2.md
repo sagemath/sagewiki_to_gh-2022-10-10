@@ -315,14 +315,14 @@ It is now possible to compute the slack matrix of a polyhedron [[https://trac.sa
 #!python
 sage: P = polytopes.cube(intervals='zero_one')
 sage: P.slack_matrix()
-[0 1 1 1 0 0]
-[0 0 1 1 0 1]
-[0 0 0 1 1 1]
-[0 1 0 1 1 0]
-[1 1 0 0 1 0]
-[1 1 1 0 0 0]
-[1 0 1 0 0 1]
-[1 0 0 0 1 1]
+⎛0 1 1 1 0 0⎞
+⎜0 0 1 1 0 1⎟
+⎜0 0 0 1 1 1⎟
+⎜0 1 0 1 1 0⎟
+⎜1 1 0 0 1 0⎟
+⎜1 1 1 0 0 0⎟
+⎜1 0 1 0 0 1⎟
+⎝1 0 0 0 1 1⎠
 }}}
 
 It is now possible to apply an affine transformation on a polyhedron [[https://trac.sagemath.org/ticket/30327|30327]]:
@@ -358,8 +358,7 @@ A 3-dimensional polyhedron in QQ^3 defined as the convex hull of 8 vertices
 
  * Obtaining incidence matrix and combinatorial polyhedron is much faster for integer and rational polyhedra [[https://trac.sagemath.org/ticket/29837|29837]], [[https://trac.sagemath.org/ticket/29841|29841]]
 
- * The testing framework using TestSuites is getting improved. 
-   See the Task [[https://trac.sagemath.org/ticket/29842|29842: Meta-ticket: Run a more stable test suite on polyhedra]]
+ * The test coverage for the [[http://match.stanford.edu/reference/discrete_geometry/index.html#backends-for-polyhedra|various backends for polyhedral computations]] has been improved by using `_test_...` methods to the abstract base class `Polyhedron_base`, in addition to doctests. See [[https://trac.sagemath.org/ticket/29842|Meta-ticket #29842 Run a more stable test suite on polyhedra]].
 
 There are also some bug fixes and other improvements. For more details see the [[https://trac.sagemath.org/wiki/SagePolyhedralGeometry#release_9.2|release notes for optimization and polyhedral geometry software interactions in Sage]].
 
