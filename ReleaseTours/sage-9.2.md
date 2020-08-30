@@ -8,11 +8,11 @@ in progress (2020)
 
 [[ReleaseTours/sage-9.0|SageMath 9.0]] was the first version of Sage running on Python 3 by default. [[ReleaseTours/sage-9.1|SageMath 9.1]] continued to support Python 2.  
 
-'''Sage 9.2 has removed support for Python 2.'''
+=== Support for Python 2 removed ===
 
- * [[https://trac.sagemath.org/query?keywords=~python3&milestone=sage-9.2&or&component=python3&milestone=sage-9.2&or&keywords=~py3&milestone=sage-9.2&groupdesc=1&group=status&max=1500&col=id&col=summary&col=keywords&col=component&col=time&col=changetime&col=author&col=reviewer&order=component|Trac tickets with keyword/component python3 in milestone 9.2]]
+Sage 9.2 has removed support for Python 2.  The Sage library now makes use of Python language and library features that are only available in Python 3.6 or newer; and large amounts of compatibility code have been removed.
 
-See [[Python3-Switch]] for more details
+However, note that this is unrelated to the minimal requirements for a source installation of the Sage distribution: Sage 9.2 is still able to build on a system that only provides Python 2.x or Python 3.5 or older. In this case, the SageMath distribution builds its own copy of Python 3.
 
 === Support for system Python 3.6 added ===
 
@@ -22,6 +22,12 @@ This allows Sage to use the system Python on some older Linux distributions that
 === For developers: Using Python 3.6+ features in sagelib ===
 
 [[https://trac.sagemath.org/ticket/29756|Meta-ticket #29756]] provides a starting point for a discussion of new features of the Python language and standard library to bring them to systematic use in sagelib.
+
+=== More details ===
+
+ * [[https://trac.sagemath.org/query?keywords=~python3&milestone=sage-9.2&or&component=python3&milestone=sage-9.2&or&keywords=~py3&milestone=sage-9.2&groupdesc=1&group=status&max=1500&col=id&col=summary&col=keywords&col=component&col=time&col=changetime&col=author&col=reviewer&order=component|Trac tickets with keyword/component python3 in milestone 9.2]]
+
+ * See [[Python3-Switch]] for more details.
 
 == Package upgrades ==
 
