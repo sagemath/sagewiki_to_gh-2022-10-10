@@ -18,108 +18,6 @@ See [[Python3-Switch]] for more details
 
 This allows Sage to use the system Python on some older Linux distributions that are still in widespread use in scientific computing, including `centos-8` and `fedora-{26,27,28}` (although Python 3.7.x packages are also available for these). See [[https://trac.sagemath.org/ticket/29033|#29033]] for more details.
 
-=== Unicode identifiers ===
-
-Python 3 made much improved support for Unicode available, and Sage 9.2 has merged several Unicode improvements. Note that Python does not allow ''arbitrary'' Unicode characters in identifiers but only [[https://docs.python.org/3/reference/lexical_analysis.html#identifiers|word constituents]]. So before you get excited about using emojis... note that they cannot be used:
-{{{
-#!python
-sage: K.<🍎,🥝> = QQ[]
-SyntaxError: invalid character in identifier
-}}}
-However, we can use letters from various alphabets.  The updated IPython allows us to type them using [[https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.completer.html|latex and unicode tab completion]]:
-{{{
-#!python
-sage: μ, ν, ξ = 1, 2, 3       # type \mu<TAB>, 
-                              #      \nu<TAB>, ...
-sage: SR('λ + 2λ')
-3*λ
-sage: var('α', domain='real')
-α
-sage: Ш = EllipticCurve('389a').sha()   
-                              # type \CYR<TAB> CAP<TAB>
-                              #      LET<TAB> SHA<TAB><ENTER>
-sage: Ш
-Tate-Shafarevich group for the Elliptic Curve
-defined by y^2 + y = x^3 + x^2 - 2*x over Rational Field
-sage: GelʹfandT͡setlinPattern = GelfandTsetlinPattern
-                              # type \MODIFIER LETTER 
-                              #      PRIME<TAB><ENTER>
-                              # for the romanized soft mark
-sage: ГельфандЦетлинPattern = GelʹfandT͡setlinPattern
-sage: ГельфандЦетлинPattern([[3, 2, 1], [2, 1], [1]]).pp()
-  3     2     1
-     2     1
-        1
-sage: 四次方(x) = x^4
-sage: 四次方(3)
-81
-}}}
-We can use math accents...
-{{{
-#!python
-sage: a = 1
-sage: â = 2                   # type a\hat<TAB><ENTER>
-sage: ā = 3                   # type a\bar<TAB><ENTER>
-sage: a, â, ā
-(1, 2, 3)
-sage: s(t) = t^3; s
-t |--> t^3
-sage: ṡ = diff(s, t); ṡ       # type s\dot<TAB><ENTER>                                                                                
-t |--> 3*t^2
-sage: s̈ = diff(ṡ, t); s̈       # type s\ddot<TAB><ENTER>                                                                                                   
-t |--> 6*t
-}}}
-... and have fun with modifier letters:
-{{{
-#!python
-sage: ℚ̄ = QQbar               # type \bbQ<TAB>\bar<TAB>
-sage: %display unicode_art
-sage: A = matrix(ℚ̄, [[1, 2*I], [3*I, 4]]); A
-⎛  1 2*I⎞
-⎝3*I   4⎠
-sage: Aᵀ = A.transpose()      # type A\^T<TAB><ENTER>
-sage: Aᵀ                                                                                                                     
-⎛  1 3*I⎞
-⎝2*I   4⎠
-sage: Aᴴ = A.conjugate_transpose()
-                              # type A\^H<TAB><ENTER>
-sage: Aᴴ
-⎛   1 -3*I⎞
-⎝-2*I    4⎠
-sage: C = Cone([[1, 1], [0, 1]])                                                                           
-sage: Cᵒ = C.dual(); Cᵒ       # type C\^o<TAB><ENTER>
-2-d cone in 2-d lattice M                                                                                        
-}}}
-But note that Python normalizes identifiers, so the following variants are ''not'' distinguished:
-{{{
-#!python
-sage: AT == Aᵀ, AH == Aᴴ, Co == Cᵒ                                                                                                   
-(True, True, True)
-sage: ℚ = QQ                  # type \bbQ<TAB><ENTER>
-sage: ℚ
-Rational Field
-sage: Q = 42
-sage: ℚ
-42
-sage: F = 1
-sage: 𝐹, 𝐅, 𝓕, 𝕱, 𝗙, 𝘍, 𝙁, 𝙵 # type \itF<TAB>, \bfF<TAB>,
-                              #      \scrF<TAB>, \frakF<TAB>,
-                              #      \sansF<TAB>, ...
-(1, 1, 1, 1, 1, 1, 1, 1)
-}}}
-We have also added a few Unicode aliases for global constants and functions.
-{{{
-#!python
-sage: π
-pi
-sage: _.n()
-3.14159265358979
-sage: Γ(5/2)                                                                                                                    
-3/4*sqrt(pi)
-sage: ζ(-1)
--1/12
-}}}
-See [[https://trac.sagemath.org/ticket/30111|Meta-ticket #30111: Unicode support]] for more information.
 
 === For developers: Using Python 3.6+ features in sagelib ===
 
@@ -610,36 +508,112 @@ Many improvements/refactoring of the code have been performed in this release:
 
 In addition, various bugs have been fixed: [[https://trac.sagemath.org/ticket/30108|#30108]], [[https://trac.sagemath.org/ticket/30112|#30112]], [[https://trac.sagemath.org/ticket/30191|#30191]], [[https://trac.sagemath.org/ticket/30289|#30289]].
 
-== Configuration and build changes ==
+== Improved Unicode support ==
 
-Sage 9.1 introduced [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#Portability_improvements.2C_increased_use_of_system_packages|informational messages at the end of a ./configure run]] regarding system packages.  To make sure that these messages are not overlooked, Sage 9.2 no longer invokes `./configure` when you type `make` in an unconfigured source tree. See [[https://groups.google.com/d/msg/sage-devel/9gOkmF6rSjY/wEV4WBQABwAJ|sage-devel: require "./configure" before "make"]], [[https://trac.sagemath.org/ticket/29316|Trac #29316]].
+=== Unicode identifiers ===
 
-All standard Sage packages have been upgraded in Sage 9.2 so that they build correctly using gcc/gfortran 10.x. The Sage `./configure` script therefore now accepts these compiler versions.
+Python 3 made much improved support for Unicode available, and Sage 9.2 has merged several Unicode improvements. Note that Python does not allow ''arbitrary'' Unicode characters in identifiers but only [[https://docs.python.org/3/reference/lexical_analysis.html#identifiers|word constituents]]. So before you get excited about using emojis... note that they cannot be used:
+{{{
+#!python
+sage: K.<🍎,🥝> = QQ[]
+SyntaxError: invalid character in identifier
+}}}
+However, we can use letters from various alphabets.  The updated IPython allows us to type them using [[https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.completer.html|latex and unicode tab completion]]:
+{{{
+#!python
+sage: μ, ν, ξ = 1, 2, 3       # type \mu<TAB>, 
+                              #      \nu<TAB>, ...
+sage: SR('λ + 2λ')
+3*λ
+sage: var('α', domain='real')
+α
+sage: Ш = EllipticCurve('389a').sha()   
+                              # type \CYR<TAB> CAP<TAB>
+                              #      LET<TAB> SHA<TAB><ENTER>
+sage: Ш
+Tate-Shafarevich group for the Elliptic Curve
+defined by y^2 + y = x^3 + x^2 - 2*x over Rational Field
+sage: GelʹfandT͡setlinPattern = GelfandTsetlinPattern
+                              # type \MODIFIER LETTER 
+                              #      PRIME<TAB><ENTER>
+                              # for the romanized soft mark
+sage: ГельфандЦетлинPattern = GelʹfandT͡setlinPattern
+sage: ГельфандЦетлинPattern([[3, 2, 1], [2, 1], [1]]).pp()
+  3     2     1
+     2     1
+        1
+sage: 四次方(x) = x^4
+sage: 四次方(3)
+81
+}}}
+We can use math accents...
+{{{
+#!python
+sage: a = 1
+sage: â = 2                   # type a\hat<TAB><ENTER>
+sage: ā = 3                   # type a\bar<TAB><ENTER>
+sage: a, â, ā
+(1, 2, 3)
+sage: s(t) = t^3; s
+t |--> t^3
+sage: ṡ = diff(s, t); ṡ       # type s\dot<TAB><ENTER>                                                                                
+t |--> 3*t^2
+sage: s̈ = diff(ṡ, t); s̈       # type s\ddot<TAB><ENTER>                                                                                                   
+t |--> 6*t
+}}}
+... and have fun with modifier letters:
+{{{
+#!python
+sage: ℚ̄ = QQbar               # type \bbQ<TAB>\bar<TAB>
+sage: %display unicode_art
+sage: A = matrix(ℚ̄, [[1, 2*I], [3*I, 4]]); A
+⎛  1 2*I⎞
+⎝3*I   4⎠
+sage: Aᵀ = A.transpose()      # type A\^T<TAB><ENTER>
+sage: Aᵀ                                                                                                                     
+⎛  1 3*I⎞
+⎝2*I   4⎠
+sage: Aᴴ = A.conjugate_transpose()
+                              # type A\^H<TAB><ENTER>
+sage: Aᴴ
+⎛   1 -3*I⎞
+⎝-2*I    4⎠
+sage: C = Cone([[1, 1], [0, 1]])                                                                           
+sage: Cᵒ = C.dual(); Cᵒ       # type C\^o<TAB><ENTER>
+2-d cone in 2-d lattice M                                                                                        
+}}}
+But note that Python normalizes identifiers, so the following variants are ''not'' distinguished:
+{{{
+#!python
+sage: AT == Aᵀ, AH == Aᴴ, Co == Cᵒ                                                                                                   
+(True, True, True)
+sage: ℚ = QQ                  # type \bbQ<TAB><ENTER>
+sage: ℚ
+Rational Field
+sage: Q = 42
+sage: ℚ
+42
+sage: F = 1
+sage: 𝐹, 𝐅, 𝓕, 𝕱, 𝗙, 𝘍, 𝙁, 𝙵 # type \itF<TAB>, \bfF<TAB>,
+                              #      \scrF<TAB>, \frakF<TAB>,
+                              #      \sansF<TAB>, ...
+(1, 1, 1, 1, 1, 1, 1, 1)
+}}}
+We have also added a few Unicode aliases for global constants and functions.
+{{{
+#!python
+sage: π
+pi
+sage: _.n()
+3.14159265358979
+sage: Γ(5/2)                                                                                                                    
+3/4*sqrt(pi)
+sage: ζ(-1)
+-1/12
+}}}
+See [[https://trac.sagemath.org/ticket/30111|Meta-ticket #30111: Unicode support]] for more information.
 
-=== For developers: Changes to the build system of sagelib ===
-
-Let's talk about `src/setup.py`. The build system of the Sage library is based on `distutils` (not `setuptools`); it is implemented in the package `sage_setup`.
-In particular, it implements its own version of source code discovery methods similar to [[https://setuptools.readthedocs.io/en/latest/setuptools.html#using-find-packages|setuptools.find_packages]]: `sage_setup.find.find_python_sources`. Because of source discovery, developers can add new Python modules and packages under `src/sage/` simply by creating files and directories; it is not necessary to edit `setup.py`.
-
-Prior to Sage 9.2, the situation was different for Cython extensions. They had to be listed in `src/module_list.py`, either one by one, or using glob patterns such as `*` and `**`.
-Sage 9.2 has eliminated the need for `src/module_list.py` by extending `sage_setup.find.find_python_sources`; it now also finds Cython modules in the source tree (Trac [[https://trac.sagemath.org/ticket/29701|#29701]]).
-
-Some Cython modules need specific compiler and linker flags. Sage 9.2 has moved all of these flags from `Extension` options in `src/module_list.py` to `distutils:` directives in the individual `.pyx` source files, see [[https://trac.sagemath.org/ticket/29706|Trac #29706]] and [[https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html#compiler-directives|Cython documentation]].
-
-Sage 9.2 has also changed the mechanism for conditionalizing a Cython extension module on the presence of a Sage package.  Consider the module [[https://git.sagemath.org/sage.git/tree/src/sage/graphs/graph_decompositions/tdlib.pyx?id=55c3fbc565fd7884f3df9555de83dd326ace276e|sage.graphs.graph_decompositions.tdlib]] as an example. Prior to Sage 9.2, this module was declared as an `OptionalExtension`, conditional on the SPKG `tdlib`, in `src/module_list.py`. The new mechanism is as follows. [[https://git.sagemath.org/sage.git/tree/src/setup.py?id=55c3fbc565fd7884f3df9555de83dd326ace276e#n53|src/setup.py]] maps the SPKG name `tdlib` to the "distribution name" `sage-tdlib`. At the top of the Cython source file [[https://git.sagemath.org/sage.git/tree/src/sage/graphs/graph_decompositions/tdlib.pyx?id=55c3fbc565fd7884f3df9555de83dd326ace276e|src/sage/graphs/graph_decompositions/tdlib.pyx]], there is a new directive `sage_setup: distribution = sage-tdlib`. Now the source discovery in [[https://git.sagemath.org/sage.git/tree/src/sage_setup/find.py?id=55c3fbc565fd7884f3df9555de83dd326ace276e#n61|sage_setup.find.find_python_sources]] includes this Cython module only if the SPKG `tdlib` is installed and current.
-
-
-== Cleaning ==
-
- * [[https://trac.sagemath.org/ticket/29636|Trac #29636: Delete changelog sections from all SPKG information files]]; they were deprecated in favor of using Trac years ago. The contributions of Sage developers maintaining SPKGs are documented by our [[http://www.sagemath.org/changelogs/index.html|historical changelogs]].
-
- * Removing support for Python 2 allowed us to remove several backport packages in [[https://trac.sagemath.org/ticket/29754|Trac #29754]]
-
- * We also removed the deprecated SageNB (superseded a long time ago by the Jupyter notebook) in [[https://trac.sagemath.org/ticket/29754|Trac #29754]] and several of its dependencies.
-
- * Support for installing "old-style Sage packages" (`.spkg` files), [[https://trac.sagemath.org/ticket/19158|deprecated in Sage 6.9]], has been removed in [[https://trac.sagemath.org/ticket/29289|Trac #29289]], after making the last two missing packages, `cunningham_tables` and `polytopes_db_4d`, available as normal optional Sage packages. Users who wish to package their own Sage code for distribution may find a [[https://wiki.sagemath.org/SageMathExternalPackages|list of external packages]] helpful, many of which follow best practices in packaging.
-
-== Unicode Art ==
+=== Unicode art ===
 
  * [[https://trac.sagemath.org/ticket/30119|Trac #30119]] Implemented a general function for writing integers as unicode sub/superscripts.
 
@@ -694,6 +668,37 @@ sage: TL_diagram_ascii_art(TL, use_unicode=True)
 ╭─╮ │ ╭─╮ │ ╭─╮ │ │ │ │ ╭─╮ │ 
 ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬
    }}}
+
+
+== Configuration and build changes ==
+
+Sage 9.1 introduced [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#Portability_improvements.2C_increased_use_of_system_packages|informational messages at the end of a ./configure run]] regarding system packages.  To make sure that these messages are not overlooked, Sage 9.2 no longer invokes `./configure` when you type `make` in an unconfigured source tree. See [[https://groups.google.com/d/msg/sage-devel/9gOkmF6rSjY/wEV4WBQABwAJ|sage-devel: require "./configure" before "make"]], [[https://trac.sagemath.org/ticket/29316|Trac #29316]].
+
+All standard Sage packages have been upgraded in Sage 9.2 so that they build correctly using gcc/gfortran 10.x. The Sage `./configure` script therefore now accepts these compiler versions.
+
+=== For developers: Changes to the build system of sagelib ===
+
+Let's talk about `src/setup.py`. The build system of the Sage library is based on `distutils` (not `setuptools`); it is implemented in the package `sage_setup`.
+In particular, it implements its own version of source code discovery methods similar to [[https://setuptools.readthedocs.io/en/latest/setuptools.html#using-find-packages|setuptools.find_packages]]: `sage_setup.find.find_python_sources`. Because of source discovery, developers can add new Python modules and packages under `src/sage/` simply by creating files and directories; it is not necessary to edit `setup.py`.
+
+Prior to Sage 9.2, the situation was different for Cython extensions. They had to be listed in `src/module_list.py`, either one by one, or using glob patterns such as `*` and `**`.
+Sage 9.2 has eliminated the need for `src/module_list.py` by extending `sage_setup.find.find_python_sources`; it now also finds Cython modules in the source tree (Trac [[https://trac.sagemath.org/ticket/29701|#29701]]).
+
+Some Cython modules need specific compiler and linker flags. Sage 9.2 has moved all of these flags from `Extension` options in `src/module_list.py` to `distutils:` directives in the individual `.pyx` source files, see [[https://trac.sagemath.org/ticket/29706|Trac #29706]] and [[https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html#compiler-directives|Cython documentation]].
+
+Sage 9.2 has also changed the mechanism for conditionalizing a Cython extension module on the presence of a Sage package.  Consider the module [[https://git.sagemath.org/sage.git/tree/src/sage/graphs/graph_decompositions/tdlib.pyx?id=55c3fbc565fd7884f3df9555de83dd326ace276e|sage.graphs.graph_decompositions.tdlib]] as an example. Prior to Sage 9.2, this module was declared as an `OptionalExtension`, conditional on the SPKG `tdlib`, in `src/module_list.py`. The new mechanism is as follows. [[https://git.sagemath.org/sage.git/tree/src/setup.py?id=55c3fbc565fd7884f3df9555de83dd326ace276e#n53|src/setup.py]] maps the SPKG name `tdlib` to the "distribution name" `sage-tdlib`. At the top of the Cython source file [[https://git.sagemath.org/sage.git/tree/src/sage/graphs/graph_decompositions/tdlib.pyx?id=55c3fbc565fd7884f3df9555de83dd326ace276e|src/sage/graphs/graph_decompositions/tdlib.pyx]], there is a new directive `sage_setup: distribution = sage-tdlib`. Now the source discovery in [[https://git.sagemath.org/sage.git/tree/src/sage_setup/find.py?id=55c3fbc565fd7884f3df9555de83dd326ace276e#n61|sage_setup.find.find_python_sources]] includes this Cython module only if the SPKG `tdlib` is installed and current.
+
+
+== Cleaning ==
+
+ * [[https://trac.sagemath.org/ticket/29636|Trac #29636: Delete changelog sections from all SPKG information files]]; they were deprecated in favor of using Trac years ago. The contributions of Sage developers maintaining SPKGs are documented by our [[http://www.sagemath.org/changelogs/index.html|historical changelogs]].
+
+ * Removing support for Python 2 allowed us to remove several backport packages in [[https://trac.sagemath.org/ticket/29754|Trac #29754]]
+
+ * We also removed the deprecated SageNB (superseded a long time ago by the Jupyter notebook) in [[https://trac.sagemath.org/ticket/29754|Trac #29754]] and several of its dependencies.
+
+ * Support for installing "old-style Sage packages" (`.spkg` files), [[https://trac.sagemath.org/ticket/19158|deprecated in Sage 6.9]], has been removed in [[https://trac.sagemath.org/ticket/29289|Trac #29289]], after making the last two missing packages, `cunningham_tables` and `polytopes_db_4d`, available as normal optional Sage packages. Users who wish to package their own Sage code for distribution may find a [[https://wiki.sagemath.org/SageMathExternalPackages|list of external packages]] helpful, many of which follow best practices in packaging.
+
 
 == Availability of Sage 9.2 and installation help ==
 
