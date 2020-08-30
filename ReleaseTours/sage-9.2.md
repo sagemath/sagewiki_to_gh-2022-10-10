@@ -42,7 +42,7 @@ In addition to improved output, this update will likely enable Sage developers t
 
 === rpy2 and R ===
 
-The [[https://pypi.org/project/rpy2/|rpy2 Python package]] is the foundation for [[https://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/r.html|SageMath's interface]] to [[https://www.r-project.org/|R]]. Dropping Python 2 support allowed us to make the major upgrade from 2.8.2 to 3.3.5 in [[https://trac.sagemath.org/ticket/29441|Trac #29441]]; see the [[https://rpy2.github.io/doc/latest/html/changes.html#release-3-3-1|release notes]] for details.
+The [[https://pypi.org/project/rpy2/|rpy2 Python package]] is the foundation for [[https://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/r.html|SageMath's interface]] to [[https://www.r-project.org/|R]]. Dropping Python 2 support allowed us to make the major upgrade from 2.8.2 to 3.3.5 in [[https://trac.sagemath.org/ticket/29441|#29441]]; see the [[https://rpy2.github.io/doc/latest/html/changes.html#release-3-3-1|release notes]] for details.
 
 We only did a minor upgrade of R itself in the Sage distribution, to 3.6.3, the latest in the 3.6.x series. Of course, if R 4.0.x is installed in the system, Sage will use it instead of building its own copy.
 
@@ -54,9 +54,9 @@ The SageMath developers are eager to learn from users how they use the SageMath-
 
 === IPython and Jupyter notebook ===
 
-Dropping support for Python 2 allowed us to upgrade IPython from 5.8.0 to 7.13.0 in [[https://trac.sagemath.org/ticket/28197|Trac #28197]]. See the [[https://ipython.readthedocs.io/en/stable/whatsnew/version6.html|release notes for the 6.x]] and [[https://ipython.readthedocs.io/en/stable/whatsnew/version7.html|7.x series]].
+Dropping support for Python 2 allowed us to upgrade IPython from 5.8.0 to 7.13.0 in [[https://trac.sagemath.org/ticket/28197|#28197]]. See the [[https://ipython.readthedocs.io/en/stable/whatsnew/version6.html|release notes for the 6.x]] and [[https://ipython.readthedocs.io/en/stable/whatsnew/version7.html|7.x series]].
 
-We have also upgraded the Jupyter notebook from 5.7.6 to 6.1.1 in [[https://trac.sagemath.org/ticket/26919|Trac #26919]]; see the [[https://jupyter-notebook.readthedocs.io/en/stable/changelog.html|notebook changelog]] for more information.
+We have also upgraded the Jupyter notebook from 5.7.6 to 6.1.1 in [[https://trac.sagemath.org/ticket/26919|#26919]]; see the [[https://jupyter-notebook.readthedocs.io/en/stable/changelog.html|notebook changelog]] for more information.
 
 === Other package updates ===
 
@@ -65,7 +65,7 @@ We have also upgraded the Jupyter notebook from 5.7.6 to 6.1.1 in [[https://trac
 
 === For developers: Upgrading packages ===
 
-Upgrading Python packages in the Sage distribution from PyPI has again become easier, thanks to [[https://trac.sagemath.org/ticket/20104|Trac #20104]]. You can now do:
+Upgrading Python packages in the Sage distribution from PyPI has again become easier, thanks to [[https://trac.sagemath.org/ticket/20104|#20104]]. You can now do:
 {{{
 $ sage --package update-latest matplotlib
 Updating matplotlib: 3.3.0 -> 3.3.1
@@ -140,7 +140,7 @@ True
 }}}
 The free modules (vector spaces) created here have a distinguished standard basis indexed by `range(rank)`.
 
-In Sage 9.2, these factory functions have been extended in [[https://trac.sagemath.org/ticket/30194|Trac #30194]] so that they cover two more cases:
+In Sage 9.2, these factory functions have been extended in [[https://trac.sagemath.org/ticket/30194|#30194]] so that they cover two more cases:
 
 1. If a sequence or family of indices is passed instead of the rank (dimension), then a [[https://doc.sagemath.org/html/en/reference/combinat/sage/combinat/free_module.html#sage.combinat.free_module.CombinatorialFreeModule|CombinatorialFreeModule]] is created instead. These modules underly SageMath's facilities for [[https://doc.sagemath.org/html/en/reference/combinat/sage/combinat/__init__.html|algebraic combinatorics]].
 {{{
@@ -174,7 +174,7 @@ These modules are the foundation for the multilinear algebra developed by the !S
 
 === Connecting FiniteRankFreeModule and free modules with distinguished basis ===
 
-Given a basis of a `FiniteRankFreeModule`, the new method `isomorphism_with_fixed_basis` ([[https://trac.sagemath.org/ticket/30094|Trac #30094]]) constructs an isomorphism from the `FiniteRankFreeModule` to a free module in the category `ModulesWithBasis`. By default, it uses a `CombinatorialFreeModule`:
+Given a basis of a `FiniteRankFreeModule`, the new method `isomorphism_with_fixed_basis` ([[https://trac.sagemath.org/ticket/30094|#30094]]) constructs an isomorphism from the `FiniteRankFreeModule` to a free module in the category `ModulesWithBasis`. By default, it uses a `CombinatorialFreeModule`:
 {{{
 #!python
 sage: V = FiniteRankFreeModule(QQ, 3, start_index=1); V
@@ -688,9 +688,9 @@ See [[https://trac.sagemath.org/ticket/30111|Meta-ticket #30111: Unicode support
 
 === Unicode art ===
 
- * [[https://trac.sagemath.org/ticket/30119|Trac #30119]] Implemented a general function for writing integers as unicode sub/superscripts.
+ * [[https://trac.sagemath.org/ticket/30119|#30119]] Implemented a general function for writing integers as unicode sub/superscripts.
 
- * In [[https://trac.sagemath.org/ticket/29205|Trac #29205]], some Lie algebra elements now have better unicode support:
+ * In [[https://trac.sagemath.org/ticket/29205|#29205]], some Lie algebra elements now have better unicode support:
    {{{
 sage: L = LieAlgebra(QQ, cartan_type="A2", representation='matrix')                                                            
 sage: unicode_art(L.an_element())                                                                                              
@@ -716,7 +716,7 @@ sage: unicode_art(L.an_element())
 ⎝i - 1 i - 1  -2*i⎠
    }}}
 
- * As part of [[https://trac.sagemath.org/ticket/29696|Trac #29696]], Temperley-Lieb diagrams now have unicode (and ascii) art:
+ * As part of [[https://trac.sagemath.org/ticket/29696|#29696]], Temperley-Lieb diagrams now have unicode (and ascii) art:
    {{{
 sage: from sage.combinat.diagram_algebras import TL_diagram_ascii_art
 sage: TL = [(-15,-12), (-14,-13), (-11,15), (-10,14), (-9,-6),
@@ -745,7 +745,7 @@ sage: TL_diagram_ascii_art(TL, use_unicode=True)
 
 == Configuration and build changes ==
 
-Sage 9.1 introduced [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#Portability_improvements.2C_increased_use_of_system_packages|informational messages at the end of a ./configure run]] regarding system packages.  To make sure that these messages are not overlooked, Sage 9.2 no longer invokes `./configure` when you type `make` in an unconfigured source tree. See [[https://groups.google.com/d/msg/sage-devel/9gOkmF6rSjY/wEV4WBQABwAJ|sage-devel: require "./configure" before "make"]], [[https://trac.sagemath.org/ticket/29316|Trac #29316]].
+Sage 9.1 introduced [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#Portability_improvements.2C_increased_use_of_system_packages|informational messages at the end of a ./configure run]] regarding system packages.  To make sure that these messages are not overlooked, Sage 9.2 no longer invokes `./configure` when you type `make` in an unconfigured source tree. See [[https://groups.google.com/d/msg/sage-devel/9gOkmF6rSjY/wEV4WBQABwAJ|sage-devel: require "./configure" before "make"]], [[https://trac.sagemath.org/ticket/29316|#29316]].
 
 All standard Sage packages have been upgraded in Sage 9.2 so that they build correctly using gcc/gfortran 10.x. The Sage `./configure` script therefore now accepts these compiler versions.
 
@@ -757,20 +757,20 @@ In particular, it implements its own version of source code discovery methods si
 Prior to Sage 9.2, the situation was different for Cython extensions. They had to be listed in `src/module_list.py`, either one by one, or using glob patterns such as `*` and `**`.
 Sage 9.2 has eliminated the need for `src/module_list.py` by extending `sage_setup.find.find_python_sources`; it now also finds Cython modules in the source tree (Trac [[https://trac.sagemath.org/ticket/29701|#29701]]).
 
-Some Cython modules need specific compiler and linker flags. Sage 9.2 has moved all of these flags from `Extension` options in `src/module_list.py` to `distutils:` directives in the individual `.pyx` source files, see [[https://trac.sagemath.org/ticket/29706|Trac #29706]] and [[https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html#compiler-directives|Cython documentation]].
+Some Cython modules need specific compiler and linker flags. Sage 9.2 has moved all of these flags from `Extension` options in `src/module_list.py` to `distutils:` directives in the individual `.pyx` source files, see [[https://trac.sagemath.org/ticket/29706|#29706]] and [[https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html#compiler-directives|Cython documentation]].
 
 Sage 9.2 has also changed the mechanism for conditionalizing a Cython extension module on the presence of a Sage package.  Consider the module [[https://git.sagemath.org/sage.git/tree/src/sage/graphs/graph_decompositions/tdlib.pyx?id=55c3fbc565fd7884f3df9555de83dd326ace276e|sage.graphs.graph_decompositions.tdlib]] as an example. Prior to Sage 9.2, this module was declared as an `OptionalExtension`, conditional on the SPKG `tdlib`, in `src/module_list.py`. The new mechanism is as follows. [[https://git.sagemath.org/sage.git/tree/src/setup.py?id=55c3fbc565fd7884f3df9555de83dd326ace276e#n53|src/setup.py]] maps the SPKG name `tdlib` to the "distribution name" `sage-tdlib`. At the top of the Cython source file [[https://git.sagemath.org/sage.git/tree/src/sage/graphs/graph_decompositions/tdlib.pyx?id=55c3fbc565fd7884f3df9555de83dd326ace276e|src/sage/graphs/graph_decompositions/tdlib.pyx]], there is a new directive `sage_setup: distribution = sage-tdlib`. Now the source discovery in [[https://git.sagemath.org/sage.git/tree/src/sage_setup/find.py?id=55c3fbc565fd7884f3df9555de83dd326ace276e#n61|sage_setup.find.find_python_sources]] includes this Cython module only if the SPKG `tdlib` is installed and current.
 
 
 == Cleaning ==
 
- * [[https://trac.sagemath.org/ticket/29636|Trac #29636: Delete changelog sections from all SPKG information files]]; they were deprecated in favor of using Trac years ago. The contributions of Sage developers maintaining SPKGs are documented by our [[http://www.sagemath.org/changelogs/index.html|historical changelogs]].
+ * [[https://trac.sagemath.org/ticket/29636|#29636: Delete changelog sections from all SPKG information files]]; they were deprecated in favor of using Trac years ago. The contributions of Sage developers maintaining SPKGs are documented by our [[http://www.sagemath.org/changelogs/index.html|historical changelogs]].
 
- * Removing support for Python 2 allowed us to remove several backport packages in [[https://trac.sagemath.org/ticket/29754|Trac #29754]]
+ * Removing support for Python 2 allowed us to remove several backport packages in [[https://trac.sagemath.org/ticket/29754|#29754]]
 
- * We also removed the deprecated SageNB (superseded a long time ago by the Jupyter notebook) in [[https://trac.sagemath.org/ticket/29754|Trac #29754]] and several of its dependencies.
+ * We also removed the deprecated SageNB (superseded a long time ago by the Jupyter notebook) in [[https://trac.sagemath.org/ticket/29754|#29754]] and several of its dependencies.
 
- * Support for installing "old-style Sage packages" (`.spkg` files), [[https://trac.sagemath.org/ticket/19158|deprecated in Sage 6.9]], has been removed in [[https://trac.sagemath.org/ticket/29289|Trac #29289]], after making the last two missing packages, `cunningham_tables` and `polytopes_db_4d`, available as normal optional Sage packages. Users who wish to package their own Sage code for distribution may find a [[https://wiki.sagemath.org/SageMathExternalPackages|list of external packages]] helpful, many of which follow best practices in packaging.
+ * Support for installing "old-style Sage packages" (`.spkg` files), [[https://trac.sagemath.org/ticket/19158|deprecated in Sage 6.9]], has been removed in [[https://trac.sagemath.org/ticket/29289|#29289]], after making the last two missing packages, `cunningham_tables` and `polytopes_db_4d`, available as normal optional Sage packages. Users who wish to package their own Sage code for distribution may find a [[https://wiki.sagemath.org/SageMathExternalPackages|list of external packages]] helpful, many of which follow best practices in packaging.
 
 
 == Availability of Sage 9.2 and installation help ==
