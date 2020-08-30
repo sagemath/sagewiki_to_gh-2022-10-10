@@ -639,6 +639,62 @@ Sage 9.2 has also changed the mechanism for conditionalizing a Cython extension 
 
  * Support for installing "old-style Sage packages" (`.spkg` files), [[https://trac.sagemath.org/ticket/19158|deprecated in Sage 6.9]], has been removed in [[https://trac.sagemath.org/ticket/29289|Trac #29289]], after making the last two missing packages, `cunningham_tables` and `polytopes_db_4d`, available as normal optional Sage packages. Users who wish to package their own Sage code for distribution may find a [[https://wiki.sagemath.org/SageMathExternalPackages|list of external packages]] helpful, many of which follow best practices in packaging.
 
+== Unicode Art ==
+
+ * [[https://trac.sagemath.org/ticket/30119|Trac #30119]] Implemented a general function for writing integers as unicode sub/superscripts.
+
+ * In [[https://trac.sagemath.org/ticket/29205|Trac #29205]], some Lie algebra elements now have better unicode support:
+   {{{
+sage: L = LieAlgebra(QQ, cartan_type="A2", representation='matrix')                                                            
+sage: unicode_art(L.an_element())                                                                                              
+⎛ 1  1  0⎞
+⎜ 1  0  1⎟
+⎝ 0  1 -1⎠
+sage: L = lie_algebras.Heisenberg(QQ, 2)                                                                                       
+sage: unicode_art(sum(L.basis()))                                                                                              
+p₁ + p₂ + q₁ + q₂ + z
+sage: L = lie_algebras.VirasoroAlgebra(QQ)                                                                                     
+sage: unicode_art(L.an_element())                                                                                              
+d₋₁ + d₀ - 1/2 + c
+sage: L = LieAlgebra(QQ, cartan_type=['A',1,1])                                                                                
+sage: unicode_art(L.an_element())                                                                                              
+( alpha[1] + alphacheck[1] + -alpha[1] )⊗t⁰ + ( -alpha[1] )⊗t¹ + ( alpha[1] )⊗t⁻¹ + c + d
+sage: L.<x,y> = LieAlgebra(QQ)                                                                                                 
+sage: unicode_art(x.bracket(y))                                                                                                
+[x, y]
+sage: L = LieAlgebra(QQ, cartan_type=['A',2], representation="compact real")                                                   
+sage: unicode_art(L.an_element())                                                                                              
+⎛    i i + 1 i + 1⎞
+⎜i - 1     i i + 1⎟
+⎝i - 1 i - 1  -2*i⎠
+   }}}
+
+ * As part of [[https://trac.sagemath.org/ticket/29696|Trac #29696]], Temperley-Lieb diagrams now have unicode (and ascii) art:
+   {{{
+sage: from sage.combinat.diagram_algebras import TL_diagram_ascii_art
+sage: TL = [(-15,-12), (-14,-13), (-11,15), (-10,14), (-9,-6),
+....:       (-8,-7), (-5,-4), (-3,1), (-2,-1), (2,3), (4,5),
+....:       (6,11), (7, 8), (9,10), (12,13)]
+sage: TL_diagram_ascii_art(TL, use_unicode=False)
+o o o o o o o o o o o o o o o
+| `-` `-` | `-` `-` | `-` | | 
+|         `---------`     | | 
+|                 .-------` | 
+`---.             | .-------`
+    |     .-----. | | .-----.
+.-. | .-. | .-. | | | | .-. | 
+o o o o o o o o o o o o o o o
+sage: TL_diagram_ascii_art(TL, use_unicode=True)
+⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬
+│ ╰─╯ ╰─╯ │ ╰─╯ ╰─╯ │ ╰─╯ │ │ 
+│         ╰─────────╯     │ │ 
+│                 ╭───────╯ │ 
+╰───╮             │ ╭───────╯
+    │     ╭─────╮ │ │ ╭─────╮
+╭─╮ │ ╭─╮ │ ╭─╮ │ │ │ │ ╭─╮ │ 
+⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬ ⚬
+   }}}
+
 == Availability of Sage 9.2 and installation help ==
 
 Sage 9.2 has not been released yet.  See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]] for announcements of beta versions and release candidates.
