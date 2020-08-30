@@ -16,7 +16,6 @@ ark                     rws
 athena                  kdilks
 btm2x13                 mderickx
 bunion                  etn40ff (this is a laptop so it will be running sporadically)
-cofio                   gh-kliem
 cristal                 Bouillaguet
 debian_jessie_32        tmonteil
 eddy                    Vincent.Neri (LRI, Orsay, Paris-Sud)
@@ -32,6 +31,7 @@ mangouste               vdelecroix
 manifold                egourgoulhon
 martin-Laptop           mantepse
 mercury                 kdilks
+panke                   gh-kliem
 pascaline               slelievre
 pbua                    novoselt
 pc72-math               dkrenn (and behackl and cheuberg)
@@ -45,7 +45,6 @@ tmonteil-*              tmonteil (various arch/OS/releases; contact me to run a 
 ubuntu_vivid_64         tmonteil
 vogon.jeltz(32Bit)      jkroeker
 x200t-ThinkPad-*        jkroeker
-zancara                 gh-kliem
 zorn                    agd
 44e979ad077a            embray (docker installation)
 }}}
