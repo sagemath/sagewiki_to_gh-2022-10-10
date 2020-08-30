@@ -64,7 +64,7 @@ Upgrading Python packages in the Sage distribution from PyPI has again become ea
 $ sage --package update-latest matplotlib
 Updating matplotlib: 3.3.0 -> 3.3.1
 Downloading tarball to ...matplotlib-3.3.1.tar.bz2
-[......................................................................]
+[...............................................................]
 }}}
 When you do this, please remember to check that the `checksums.ini` file has an `upstream_url` in the format
 `upstream_url=https://pypi.io/packages/source/m/matplotlib/matplotlib-VERSION.tar.gz`. (This is not needed for `updated-latest` to work, but helps with automated tests of the upgrade ticket -- see [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#For_developers-1|Sage 9.1 release tour]] on this topic.)
@@ -320,7 +320,8 @@ Methods to compute *star operations* and plot the *heaps* of such elements are a
 
 {{{
 #!python
-sage: FCA3 = CoxeterGroup(['A', 3]).fully_commutative_elements()
+sage: A3 = CoxeterGroup(['A', 3])
+sage: FCA3 = A3.fully_commutative_elements()
 sage: FCA3.category()
 Category of finite enumerated sets
 sage: FCA3.list()
@@ -331,10 +332,12 @@ sage: FCA3.list()
  [1, 3, 2],
  [1, 2, 3],
  [2, 1, 3, 2]]
-sage: FCB8 = CoxeterGroup(['B', 8]).fully_commutative_elements()
+sage: B8 = CoxeterGroup(['B', 8])
+sage: FCB8 = B8.fully_commutative_elements()
 sage: len(FCB8)    # long time (7 seconds)
 14299
-sage: FCB6 = CoxeterGroup(['B', 6]).fully_commutative_elements()
+sage: B6 = CoxeterGroup(['B', 6])
+sage: FCB6 = B6.fully_commutative_elements()
 sage: w = FCB6([1, 6, 2, 5, 4, 6, 5])
 sage: w.coset_decomposition({5, 6})
 ([6, 5, 6], [1, 2, 4, 5])
@@ -343,7 +346,6 @@ sage: w.star_operation({5,6}, 'lower')
 sage: FCB6([3, 2, 4, 3, 1]).plot_heap()
 }}}
 {{attachment:heap.png}}
-
 
 
 == Commutative algebra ==
