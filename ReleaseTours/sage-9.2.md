@@ -541,6 +541,40 @@ Many improvements/refactoring of the code have been performed in this release:
 
 In addition, various bugs have been fixed: [[https://trac.sagemath.org/ticket/30108|#30108]], [[https://trac.sagemath.org/ticket/30112|#30112]], [[https://trac.sagemath.org/ticket/30191|#30191]], [[https://trac.sagemath.org/ticket/30289|#30289]].
 
+== Algebra ==
+
+=== Lie Conformal Algebras ===
+
+Implemented Lie conformal algebras and superalgebras. Here are some examples of their usage:
+
+{{{
+sage: V = lie_conformal_algebras.Virasoro(QQ); V
+The Virasoro Lie conformal algebra over Rational Field
+sage: V.inject_variables()
+Defining L, C
+sage: L.bracket(L)
+{0: TL, 1: 2*L, 3: 1/2*C}
+sage: L.T(2).bracket(L)
+{2: 2*TL, 3: 12*L, 5: 10*C}
+
+sage: V = lie_conformal_algebras.NeveuSchwarz(QQ)
+sage: V.some_elements()
+[L, G, C, TG, TG + 4*T^(2)G, 4*T^(2)G]
+
+sage: W = lie_conformal_algebras.FreeFermions(QQbar, 2); W
+The free Fermions super Lie conformal algebra with generators (psi_0, psi_1, K) over Algebraic Field
+sage: W.inject_variables()
+Defining psi_0, psi_1, K
+sage: psi_0.bracket(psi_1.T())
+{}
+sage: psi_0.bracket(psi_0.T())
+{1: K}
+sage: psi_0.is_even_odd()
+1
+}}}
+For documentation on implemented features see [[https://doc.sagemath.org/html/en/reference/algebras/sage/algebras/lie_conformal_algebras/lie_conformal_algebra.html|Lie Conformal Algebra]]. For a list of
+implemented examples see [[https://doc.sagemath.org/html/en/reference/algebras/sage/algebras/lie_conformal_algebras/examples.html|Lie Conformal Algebra Examples]].
+
 == Improved Unicode support ==
 
 === Unicode identifiers ===
