@@ -313,6 +313,38 @@ sage: G
 
 {{attachment:G.png}}
 
+=== Fully commutative elements of Coxeter groups ===
+
+It is now possible by [[https://trac.sagemath.org/ticket/30243]](30243) to enumerate and work with the fully commutative elements of a Coxeter group.
+Methods to compute *star operations* and plot the *heaps* of such elements are also included.
+
+{{{
+#!python
+sage: FCA3 = CoxeterGroup(['A', 3]).fully_commutative_elements()
+sage: FCA3.category()
+Category of finite enumerated sets
+sage: FCA3.list()
+[[],
+ [1],
+ [2],
+ ...
+ [1, 3, 2],
+ [1, 2, 3],
+ [2, 1, 3, 2]]
+sage: FCB8 = CoxeterGroup(['B', 8]).fully_commutative_elements()
+sage: len(FCB8)    # long time (7 seconds)
+14299
+sage: FCB6 = CoxeterGroup(['B', 6]).fully_commutative_elements()
+sage: w = FCB6([1, 6, 2, 5, 4, 6, 5])
+sage: w.coset_decomposition({5, 6})
+([6, 5, 6], [1, 2, 4, 5])
+sage: w.star_operation({5,6}, 'lower')
+[1, 5, 2, 4, 6, 5]
+sage: FCB6([3, 2, 4, 3, 1]).plot_heap()
+}}}
+{{attachment:heap.png}}
+
+
 
 == Commutative algebra ==
 
@@ -366,7 +398,6 @@ sage: f.jacobi_continued_fraction()
  (-15, -64),
  (-17, -81))
 }}}
-
 
 == Manifolds ==
 
