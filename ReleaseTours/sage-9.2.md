@@ -60,7 +60,7 @@ We have also upgraded the Jupyter notebook from 5.7.6 to 6.1.1 in [[https://trac
 
 JupyterLab is now fully supported as an optional, alternative interface [[https://trac.sagemath.org/ticket/30246|#30246]], including [[https://doc.sagemath.org/html/en/prep/Quickstarts/Interact.html|interacts]]. To use it, install it first, using the command `sage -i jupyterlab_widgets`. Then you can start it using `./sage -n jupyterlab`.
 
-=== For developers ===
+=== For packagers ===
 
 The packages `giacpy_sage` and `sage_brial` have been merged into sagelib.
 
