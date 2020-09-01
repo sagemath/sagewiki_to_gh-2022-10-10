@@ -321,7 +321,7 @@ sage: G
 
 === Fully commutative elements of Coxeter groups ===
 
-It is now possible by [[https://trac.sagemath.org/ticket/30243]](30243) to enumerate and work with the fully commutative elements of a Coxeter group.
+It is now possible by [[https://trac.sagemath.org/ticket/30243|30243]] to enumerate and work with the fully commutative elements of a Coxeter group.
 Methods to compute *star operations* and plot the *heaps* of such elements are also included.
 
 {{{
