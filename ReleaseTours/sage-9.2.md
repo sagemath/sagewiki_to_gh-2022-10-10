@@ -37,7 +37,7 @@ Major user-visible package upgrades below...
 
 === matplotlib ===
 
-Dropping Python 2 support allowed us to make a major jump from matplotlib 2.2.5 to 3.2.1. See matplotlib's [[https://matplotlib.org/3.3.0/users/prev_whats_new/whats_new_3.0.html|release notes for 3.0]], [[https://matplotlib.org/3.3.0/users/prev_whats_new/whats_new_3.1.0.html|3.1]], [[https://matplotlib.org/3.3.0/users/prev_whats_new/whats_new_3.2.0.html|3.2]].
+Dropping Python 2 support allowed us to make a major jump from matplotlib 2.2.5 to 3.3.1. See matplotlib's [[https://matplotlib.org/3.3.0/users/prev_whats_new/whats_new_3.0.html|release notes for 3.0]], [[https://matplotlib.org/3.3.0/users/prev_whats_new/whats_new_3.1.0.html|3.1]], [[https://matplotlib.org/3.3.0/users/prev_whats_new/whats_new_3.2.0.html|3.2]],[[https://matplotlib.org/3.3.0/users/prev_whats_new/whats_new_3.3.0.html|3.3]].
 In addition to improved output, this update will likely enable Sage developers to implement new features for plotting and graphics.
 
 === rpy2 and R ===
