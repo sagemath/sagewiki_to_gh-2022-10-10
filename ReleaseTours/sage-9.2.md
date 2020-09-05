@@ -60,10 +60,6 @@ We have also upgraded the Jupyter notebook from 5.7.6 to 6.1.1 in [[https://trac
 
 JupyterLab is now fully supported as an optional, alternative interface [[https://trac.sagemath.org/ticket/30246|#30246]], including [[https://doc.sagemath.org/html/en/prep/Quickstarts/Interact.html|interacts]]. To use it, install it first, using the command `sage -i jupyterlab_widgets`. Then you can start it using `./sage -n jupyterlab`.
 
-=== For packagers ===
-
-The packages `giacpy_sage` and `sage_brial` have been merged into sagelib.
-
 === Other package updates ===
 
  * [[https://trac.sagemath.org/ticket/29141|Meta-ticket #29141: Upgrades and other changes that require dropping py2 support]]
@@ -80,6 +76,17 @@ Downloading tarball to ...matplotlib-3.3.1.tar.bz2
 }}}
 When you do this, please remember to check that the `checksums.ini` file has an `upstream_url` in the format
 `upstream_url=https://pypi.io/packages/source/m/matplotlib/matplotlib-VERSION.tar.gz`. (This is not needed for `updated-latest` to work, but helps with automated tests of the upgrade ticket -- see [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#For_developers-1|Sage 9.1 release tour]] on this topic.)
+
+=== For packagers: Changes to packages ===
+
+The packages `giacpy_sage` and `sage_brial` have been merged into `sagelib` as `sage.libs.giac` and `sage.rings.polynomial.pbori`.
+
+The Sage library is now built out of the directory `build/pkgs/sagelib/src/`.  A pip-installable source distribution (sdist) can be built using the script `build/pkgs/sagelib/spkg-src`.
+
+The scripts in `src/bin/` are now installed by sagelib's `setup.py` ([[https://trac.sagemath.org/ticket/21559|#21559]]). Also several scripts have been moved to `build/bin/`, and some obsolete scripts have been removed ([[https://trac.sagemath.org/ticket/29825|#29825]],
+[[https://trac.sagemath.org/ticket/27171|#27171]]).
+
+Many build-related functions of the main Sage script, `src/bin/sage` (installed as `sage`), have been moved to a script `build/bin/sage-site` (not installed) in [[https://trac.sagemath.org/ticket/29111|#29111]]. It is hoped that downstream distribution packaging is able to use this cleaned up script instead of replacing it with an ad-hoc distribution-specific script.  Contributions of further clean ups and refactoring of the script are welcome.
 
 == Graphics ==
 
