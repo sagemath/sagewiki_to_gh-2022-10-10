@@ -50,7 +50,11 @@ The SageMath developers are eager to learn from users how they use the SageMath-
 
 === sphinx ===
 
-1.8.5 -> 3.1.2
+Sage uses [[https://www.sphinx-doc.org/en/master/|Sphinx]] to build its [[https://doc.sagemath.org/html/en/index.html|documentation]].  Sage 9.2 has updated Sphinx from 1.8.5 to 3.1.2; see [[https://www.sphinx-doc.org/en/master/changes.html#release-3-1-2-released-jul-05-2020|Sphinx release notes]] for more information.
+
+=== SymPy ===
+
+[[https://www.sympy.org/en/index.html|SymPy]] has been updated from 1.5 to 1.6 in [[https://trac.sagemath.org/ticket/29730|#29730]].  See the [[https://github.com/sympy/sympy/wiki/Release-Notes-for-1.6|Release notes for version 1.6]].
 
 === IPython, Jupyter notebook, JupyterLab ===
 
@@ -58,7 +62,7 @@ Dropping support for Python 2 allowed us to upgrade IPython from 5.8.0 to 7.13.0
 
 We have also upgraded the Jupyter notebook from 5.7.6 to 6.1.1 in [[https://trac.sagemath.org/ticket/26919|#26919]]; see the [[https://jupyter-notebook.readthedocs.io/en/stable/changelog.html|notebook changelog]] for more information.
 
-JupyterLab is now fully supported as an optional, alternative interface [[https://trac.sagemath.org/ticket/30246|#30246]], including [[https://doc.sagemath.org/html/en/prep/Quickstarts/Interact.html|interacts]]. To use it, install it first, using the command `sage -i jupyterlab_widgets`. Then you can start it using `./sage -n jupyterlab`.
+!JupyterLab is now fully supported as an optional, alternative interface [[https://trac.sagemath.org/ticket/30246|#30246]], including [[https://doc.sagemath.org/html/en/prep/Quickstarts/Interact.html|interacts]]. To use it, install it first, using the command `sage -i jupyterlab_widgets`. Then you can start it using `./sage -n jupyterlab`.
 
 === Other package updates ===
 
