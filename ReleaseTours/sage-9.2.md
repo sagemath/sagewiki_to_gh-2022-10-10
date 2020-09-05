@@ -437,19 +437,6 @@ sage: diff(a).display()
 da = 2 dx/\dy
 }}}
 
-=== Unicode characters allowed in index notations ===
-
-Greek letters (and more generally any Unicode non-digit word-constituent character) are now allowed in index notation for tensors ([[https://trac.sagemath.org/ticket/29248|#29248]]). For instance, taking the trace of a type-(1,1) tensor field:
-
-{{{
-sage: E.<x,y> = EuclideanSpace()                                                
-sage: t = E.tensor_field(1, 1, [[x, 1], [0, y]])                                
-sage: t['^μ_μ']                                                                 
-Scalar field on the Euclidean plane E^2
-sage: t['^μ_μ'] == t.trace()                                                    
-True
-}}}
-
 === Dot and cross products of vector fields along a curve ===
 
 The methods '''dot_product()''', '''cross_product()''' and '''norm()''' can be now be used for vector fields defined along a differentiable map, the codomain of which is a Riemannian manifold ([[https://trac.sagemath.org/ticket/30318|#30318]]). Previously, these methods worked only for vector fields ''on'' a Riemannian manifold, i.e. along the identity map. An important subcase is of course that of a curve in a Riemannian manifold. For instance, let us consider
@@ -691,6 +678,19 @@ sage: ζ(-1)
 -1/12
 }}}
 See [[https://trac.sagemath.org/ticket/30111|Meta-ticket #30111: Unicode support]] for more information.
+
+=== Unicode characters allowed in index notations ===
+
+Greek letters (and more generally any Unicode non-digit word-constituent character) are now allowed in index notation for tensors ([[https://trac.sagemath.org/ticket/29248|#29248]]). For instance, taking the trace of a type-(1,1) tensor field:
+
+{{{
+sage: E.<x,y> = EuclideanSpace()                                                
+sage: t = E.tensor_field(1, 1, [[x, 1], [0, y]])                                
+sage: t['^μ_μ']                                                                 
+Scalar field on the Euclidean plane E^2
+sage: t['^μ_μ'] == t.trace()                                                    
+True
+}}}
 
 === Unicode art ===
 
