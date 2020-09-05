@@ -679,7 +679,7 @@ sage: ζ(-1)
 }}}
 See [[https://trac.sagemath.org/ticket/30111|Meta-ticket #30111: Unicode support]] for more information.
 
-=== Unicode characters allowed in index notations ===
+=== Unicode characters allowed in tensor index notation ===
 
 Greek letters (and more generally any Unicode non-digit word-constituent character) are now allowed in index notation for tensors ([[https://trac.sagemath.org/ticket/29248|#29248]]). For instance, taking the trace of a type-(1,1) tensor field:
 
