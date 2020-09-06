@@ -659,7 +659,7 @@ sage: C = Cone([[1, 1], [0, 1]])
 sage: Cᵒ = C.dual(); Cᵒ       # type C\^o<TAB><ENTER>
 2-d cone in 2-d lattice M                                                                                        
 }}}
-But note that Python normalizes identifiers, so the following variants are ''not'' distinguished:
+But note that Python [[https://stackoverflow.com/questions/34097193/identifier-normalization-why-is-the-micro-sign-converted-into-the-greek-letter|normalizes identifiers]], so the following variants are ''not'' distinguished:
 {{{
 #!python
 sage: AT == Aᵀ, AH == Aᴴ, Co == Cᵒ                                                                                                   
