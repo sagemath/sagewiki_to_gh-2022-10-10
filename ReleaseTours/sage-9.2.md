@@ -775,7 +775,11 @@ sage: TL_diagram_ascii_art(TL, use_unicode=True)
 
 == Configuration and build changes ==
 
+=== Initial configuration with ./configure required ===
+
 Sage 9.1 introduced [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#Portability_improvements.2C_increased_use_of_system_packages|informational messages at the end of a ./configure run]] regarding system packages.  To make sure that these messages are not overlooked, Sage 9.2 no longer invokes `./configure` when you type `make` in an unconfigured source tree. See [[https://groups.google.com/d/msg/sage-devel/9gOkmF6rSjY/wEV4WBQABwAJ|sage-devel: require "./configure" before "make"]], [[https://trac.sagemath.org/ticket/29316|#29316]].
+
+=== Support for gcc/gfortran 10.x added ===
 
 All standard Sage packages have been upgraded in Sage 9.2 so that they build correctly using gcc/gfortran 10.x. The Sage `./configure` script therefore now accepts these compiler versions.
 
