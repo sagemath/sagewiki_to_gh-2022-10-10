@@ -20,11 +20,13 @@ Sage 9.2 has added support for Python 3.8 in [[https://trac.sagemath.org/ticket/
 
 Sage 9.2 has also added support for Python 3.6. This allows Sage to use the system Python on some older Linux distributions that are still in widespread use in scientific computing, including `centos-8` and `fedora-{26,27,28}` (although Python 3.7.x packages are also available for these). See [[https://trac.sagemath.org/ticket/29033|#29033]] for more details.
 
+Hence, Sage 9.2 conforms to (and exceeds) [[https://numpy.org/neps/nep-0029-deprecation_policy.html|NumPy Enhancement Proposal 29]] regarding Python version support policies.
+
 If no suitable system Python, version 3.6, 3.7, or 3.8 is found, Sage installs its own copy of Python 3 from source. The version of Python shipped with the Sage distribution has been upgraded from 3.7.3 to 3.8.5.
 
 === For developers: Using Python 3.6+ features in sagelib ===
 
-[[https://trac.sagemath.org/ticket/29756|Meta-ticket #29756]] provides a starting point for a discussion of new features of the Python language and standard library to bring them to systematic use in sagelib.
+[[https://trac.sagemath.org/ticket/29756|Meta-ticket #29756]] provides a starting point for a discussion of new features of the Python language and standard library to bring them to systematic use in sagelib.  All features provided by Python 3.6 can be used immediately; features introduced in Python 3.7 or later will require backporting or a decision to drop support Python 3.6.
 
 === More details ===
 
