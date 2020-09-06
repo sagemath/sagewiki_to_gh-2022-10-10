@@ -69,6 +69,14 @@ We have also upgraded the Jupyter notebook from 5.7.6 to 6.1.1 in [[https://trac
 
 !JupyterLab is now fully supported as an optional, alternative interface [[https://trac.sagemath.org/ticket/30246|#30246]], including [[https://doc.sagemath.org/html/en/prep/Quickstarts/Interact.html|interacts]]. To use it, install it first, using the command `sage -i jupyterlab_widgets`. Then you can start it using `./sage -n jupyterlab`.
 
+=== Normaliz ===
+
+The optional package [[https://www.normaliz.uni-osnabrueck.de/|Normaliz]], a tool for computations in affine monoids, vector configurations, lattice polytopes, rational cones, and algebraic polyhedra has been upgraded from 3.7.2 to 3.8.8, and !PyNormaliz to version 2.12. 
+
+The upgrade [[https://github.com/Normaliz/Normaliz/releases|adds]] support for incremental ("dynamic") computations, the computation of automorphism groups and refined triangulations of cones and polyhedra, and limited support for semiopen cones and polyhedra. 
+
+To install Normaliz and !PyNormaliz, use `sage -i pynormaliz`.
+
 === Other package updates ===
 
  * [[https://trac.sagemath.org/ticket/29141|Meta-ticket #29141: Upgrades and other changes that require dropping py2 support]]
