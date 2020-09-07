@@ -562,7 +562,7 @@ Many improvements/refactoring of the code have been performed in this release:
 
  * [[https://doc.sagemath.org/html/en/reference/manifolds/diff_manifold.html|differentiable part]]: [[https://trac.sagemath.org/ticket/30228|#30228]], [[https://trac.sagemath.org/ticket/30274|#30274]], [[https://trac.sagemath.org/ticket/30280|#30280]], [[https://trac.sagemath.org/ticket/30285|#30285]], [[https://trac.sagemath.org/ticket/30288|#30288]]
 
-In addition, various bugs have been fixed: [[https://trac.sagemath.org/ticket/30108|#30108]], [[https://trac.sagemath.org/ticket/30112|#30112]], [[https://trac.sagemath.org/ticket/30191|#30191]], [[https://trac.sagemath.org/ticket/30289|#30289]].
+In addition, various bugs have been fixed: [[https://trac.sagemath.org/ticket/30108|#30108]], [[https://trac.sagemath.org/ticket/30112|#30112]], [[https://trac.sagemath.org/ticket/30191|#30191]], [[https://trac.sagemath.org/ticket/30289|#30289]], [[https://trac.sagemath.org/ticket/30401|#30401]].
 
 == Algebra ==
 
