@@ -186,6 +186,7 @@ Recent versions of Windows 10 include a feature that can be enabled in developme
 
 It is known to be possible to build and run Sage in both WSL and WSL 2 (though the latter likely works even better).  Anyone who has experience working on Sage in WSL is invited to update this section with their experiences.
 
+If you just want to ''use'' Sage on Windows using WSL, install Ubuntu 20.04 LTS using [[https://docs.microsoft.com/en-us/windows/wsl/wsl2-install|WSL 2]] and then run (from within Ubuntu 20.04) `sudo apt update; sudo apt install sagemath` to install the version of Sage hosted in the Ubuntu 20.04 repositories (version 9.0 as of this writing).
 
 === CoCalc ===
 
