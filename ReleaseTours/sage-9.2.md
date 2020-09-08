@@ -294,6 +294,8 @@ A 3-dimensional polyhedron in QQ^3 defined as the convex hull of 8 vertices
 
  * The test coverage for the [[http://match.stanford.edu/reference/discrete_geometry/index.html#backends-for-polyhedra|various backends for polyhedral computations]] has been improved by using `_test_...` methods to the abstract base class `Polyhedron_base`, in addition to doctests. See [[https://trac.sagemath.org/ticket/29842|Meta-ticket #29842 Run a more stable test suite on polyhedra]].
 
+ * The face lattice can be obtained in reasonable time and no longer leaks memory [[https://trac.sagemath.org/ticket/28982|28982]]
+
 There are also some bug fixes and other improvements. For more details see the [[https://trac.sagemath.org/wiki/SagePolyhedralGeometry#release_9.2|release notes for optimization and polyhedral geometry software interactions in Sage]].
 
 == Combinatorics ==
