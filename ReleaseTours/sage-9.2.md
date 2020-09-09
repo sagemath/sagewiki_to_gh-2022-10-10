@@ -66,6 +66,7 @@ Sage uses [[https://www.sphinx-doc.org/en/master/|Sphinx]] to build its [[https:
 Dropping support for Python 2 allowed us to upgrade IPython from 5.8.0 to 7.13.0 in [[https://trac.sagemath.org/ticket/28197|#28197]]. See the [[https://ipython.readthedocs.io/en/stable/whatsnew/version6.html|release notes for the 6.x]] and [[https://ipython.readthedocs.io/en/stable/whatsnew/version7.html|7.x series]].
 
 We have also upgraded the Jupyter notebook from 5.7.6 to 6.1.1 in [[https://trac.sagemath.org/ticket/26919|#26919]]; see the [[https://jupyter-notebook.readthedocs.io/en/stable/changelog.html|notebook changelog]] for more information.
+Besides, the pdf export of Jupyter notebooks has been fixed, so that LaTeX-typeset outputs are now rendered in the pdf file ([[https://trac.sagemath.org/ticket/23330|#23330]]).
 
 [[https://jupyterlab.readthedocs.io/en/stable/|JupyterLab]] is now fully supported as an optional, alternative interface [[https://trac.sagemath.org/ticket/30246|#30246]], including [[https://doc.sagemath.org/html/en/prep/Quickstarts/Interact.html|interacts]]. To use it, install it first, using the command `sage -i jupyterlab_widgets`. Then you can start it using `./sage -n jupyterlab`.
 
