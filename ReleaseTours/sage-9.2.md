@@ -221,6 +221,37 @@ sage: phi_e(e[1] + 2 * e[2])
 e[1] + 2*e[2]
 }}}
 
+=== Eigenvalues and eigenvectors ===
+
+ * Experimental functions for computing eigenvalues and eigenvectors in arbitrary precision (via [[http://arblib.org/acb_mat.html#eigenvalues-and-eigenvectors|Arb]]) including error bounds have been added. [[https://trac.sagemath.org/ticket/30393|#30393]]
+
+   {{{
+   sage: from sage.matrix.benchmark import hilbert_matrix
+   sage: mat = hilbert_matrix(3).change_ring(CBF)
+   sage: mat.eigenvalues()
+   [[1.40831892712365 +/- 7.16e-15] + [+/- 2.02e-15]*I,
+    [0.12232706585391 +/- 6.49e-15] + [+/- 2.02e-15]*I,
+    [0.00268734035577 +/- 5.60e-15] + [+/- 2.02e-15]*I]
+   }}}
+
+ * Solving [[https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix#Generalized_eigenvalue_problem|generalized eigenvalue problems]] `Av = λBv` for two square matrices `A`, `B` over `RDF` or `CDF` is now supported (via [[https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.eig.html|SciPy]]) [[https://trac.sagemath.org/ticket/29243|#29243]]. A generalized eigenvalue `λ` is defined to be a root of the polynomial `det(A - λ B)` if this polynomial is not constantly zero.
+
+   {{{
+   sage: A = matrix.identity(RDF, 2)
+   sage: B = matrix(RDF, [[3, 5], [6, 10]])
+   sage: D, V = A.eigenmatrix_right(B); D   # tol 1e-14
+   [0.07692307692307694                 0.0]
+   [                0.0           +infinity]
+
+   sage: λ = D[0, 0]
+   sage: v = V[:, 0]
+   sage: (A * v  - B * v * λ).norm() < 1e-14
+   True
+
+   sage: A.eigenvalues(B, homogeneous=True)
+   [(0.9999999999999999, 13.000000000000002), (0.9999999999999999, 0.0)]
+   }}}
+
 === Other improvements ===
 
 Sage 9.2 has also merged a number of improvements to `sage.tensor.modules`: [[https://trac.sagemath.org/ticket/30094|#30094]], [[https://trac.sagemath.org/ticket/30169|#30169]], [[https://trac.sagemath.org/ticket/30179|#30179]], [[https://trac.sagemath.org/ticket/30181|#30181]], [[https://trac.sagemath.org/ticket/30194|#30194]], [[https://trac.sagemath.org/ticket/30250|#30250]], [[https://trac.sagemath.org/ticket/30251|#30251]], [[https://trac.sagemath.org/ticket/30254|#30254]], [[https://trac.sagemath.org/ticket/30255|#30255]], [[https://trac.sagemath.org/ticket/30287|#30287]]
