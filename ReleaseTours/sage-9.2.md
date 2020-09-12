@@ -635,6 +635,19 @@ sage: psi_0.is_even_odd()
 For documentation on implemented features see [[https://doc.sagemath.org/html/en/reference/algebras/sage/algebras/lie_conformal_algebras/lie_conformal_algebra.html|Lie Conformal Algebra]]. For a list of
 implemented examples see [[https://doc.sagemath.org/html/en/reference/algebras/sage/algebras/lie_conformal_algebras/examples.html|Lie Conformal Algebra Examples]].
 
+=== Differential Weyl algebra ===
+
+The action of differential operators from the Weyl algebra on polynomials has been implemented [[https://trac.sagemath.org/ticket/29928|#29928]]:
+
+{{{
+sage: W.<x,y> = DifferentialWeylAlgebra(QQ)
+sage: dx, dy = W.differentials()
+sage: dx.diff(x^3)
+3*x^2
+sage: (x*dx + dy + 1).diff(x^4*y^4 + 1)
+5*x^4*y^4 + 4*x^4*y^3 + 1
+}}}
+
 == Improved Unicode support ==
 
 === Unicode identifiers ===
