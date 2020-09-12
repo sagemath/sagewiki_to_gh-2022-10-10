@@ -440,6 +440,40 @@ sage: f.jacobi_continued_fraction()
  (-17, -81))
 }}}
 
+=== Ring homomorphisms ===
+
+For many polynomial ring homomorphisms, the methods `inverse`, `is_invertible`, `is_injective`, `is_surjective`, `kernel` and `inverse_image` have been implemented. This covers not only polynomial rings, but also quotient rings, number fields and Galois fields. [[https://trac.sagemath.org/ticket/9792|#9792]] [[https://trac.sagemath.org/ticket/29723|#29723]]
+
+{{{
+sage: R.<x,y,z> = QQ[]
+sage: sigma = R.hom([x - 2*y*(z*x+y^2) - z*(z*x+y^2)^2, y + z*(z*x+y^2),
+z], R)
+sage: tau = sigma.inverse(); tau
+Ring endomorphism of Multivariate Polynomial Ring in x, y, z over
+Rational Field
+  Defn: x |--> -y^4*z - 2*x*y^2*z^2 - x^2*z^3 + 2*y^3 + 2*x*y*z + x
+        y |--> -y^2*z - x*z^2 + y
+        z |--> z
+sage: (tau * sigma).is_identity()
+True
+}}}
+
+The method `inverse_image` can be used to test whether an element is contained in a subalgebra:
+
+{{{
+sage: R.<s,t> = PolynomialRing(QQ)
+sage: S.<x,y,z,w> = PolynomialRing(QQ)
+sage: f = S.hom([s^4, s^3*t, s*t^3, t^4], R)
+sage: f.inverse_image(R.ideal(0))
+Ideal (y*z - x*w, z^3 - y*w^2, x*z^2 - y^2*w, y^3 - x^2*z) of
+Multivariate Polynomial Ring in x, y, z, w over Rational Field
+sage: f.inverse_image(s^3*t^4*(s+t))
+x*w + y*w
+sage: f.inverse_image(s^2*t^2)
+...
+ValueError: element s^2*t^2 does not have preimage
+}}}
+
 == Manifolds ==
 
 === diff function for exterior derivatives ===
