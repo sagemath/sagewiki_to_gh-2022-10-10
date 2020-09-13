@@ -864,6 +864,10 @@ Sage 9.1 introduced [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#Portabilit
 
 All standard Sage packages have been upgraded in Sage 9.2 so that they build correctly using gcc/gfortran 10.x. The Sage `./configure` script therefore now accepts these compiler versions.
 
+=== System package information for more distributions ===
+
+System package information has been added for [[https://www.gentoo.org/|Gentoo Linux]], [[https://www.freebsd.org/|FreeBSD]], [[https://voidlinux.org/|Void Linux]], and [[https://nixos.org/|NixOS]].
+
 === For developers: Changes to the build system of sagelib ===
 
 Let's talk about `src/setup.py`. The build system of the Sage library is based on `distutils` (not `setuptools`); it is implemented in the package `sage_setup`.
