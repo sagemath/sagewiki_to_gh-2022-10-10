@@ -99,6 +99,8 @@ When you do this, please remember to check that the `checksums.ini` file has an 
 
 The packages `giacpy_sage` and `sage_brial` have been merged into `sagelib` as `sage.libs.giac` and `sage.rings.polynomial.pbori`.
 
+The directory `build/pkgs/sage_sws2rst/src` contains a new pip-installable package, providing the script `sage-sws2rst`.
+
 The Sage library is now built out of the directory `build/pkgs/sagelib/src/`.  A pip-installable source distribution (sdist) can be built using the script `build/pkgs/sagelib/spkg-src` ([[https://trac.sagemath.org/ticket/29411|#29411]], [[https://trac.sagemath.org/ticket/29950|#29950]]).
 
 The scripts in `src/bin/` are now installed by sagelib's `setup.py` ([[https://trac.sagemath.org/ticket/21559|#21559]]). Also several scripts have been moved to `build/bin/`, and some obsolete scripts have been removed ([[https://trac.sagemath.org/ticket/29825|#29825]],
