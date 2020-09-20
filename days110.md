@@ -1,10 +1,10 @@
 = Global Virtual SageDays 110 =
 
-an event for the SageMath user and developer community
+An event for the SageMath user and developer community
 
-details TBA
+Talks will take place October 29-30 in various time zones. The schedule will be released soon.
 
-[[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the current global health crisis, we organized [[days109|SageDays 109]] in May 2020 as the first fully virtual event in the series.  SageDays 110 will follow later in 2020.
+[[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the current global health crisis, SageDays110 will be a fully virtual event following [[days109|SageDays 109]].
 
 <<TableOfContents>>
 
@@ -16,8 +16,27 @@ details TBA
 
 Sage, first released in 2005, in over a decade of incubation in the  [[https://github.com/sagemath/sage/tree/develop/build/pkgs|SageMath distribution, comprising 293 software packages]], has grown its own [[https://github.com/sagemath/sage/tree/develop/src/sage|library of 1000 Cython and over 4400 Python modules]], ranging from `sage.algebras.*` over `sage.geometry.*` to `sage.tensor.*`, with a total of over 2.2 million lines of code.  
 
-[[https://wiki.sagemath.org/ReleaseTours/sage-9.0|SageMath 9.0]], released in January 2020, completed the transition of the Sage library to Python 3.
 
-== Organizers of SageDays 110 ==
+== How to register and participate ==
 
-This is a community-organized event; lead contact: Travis Scrimshaw.  Join the [[https://zulip.sagemath.org/#narrow/stream/128-sd110/topic/Organization.20SageDays.20110|Organization topic]] on Zulip #sd110 to join the organization team.
+ * '''Registration''': If you intend to participate, please register here: https://zulip.sagemath.org/#narrow/stream/128-sd110/topic/Registration
+
+ * Join our [[https://zulip.sagemath.org/#narrow/stream/128-sd110|zulip #sd110]] messaging stream. This stream will contain all of the information regarding the talks and evens for SageDays110.
+
+ * '''Video conferencing''': We will primarily be using Zoom and [[https://bigbluebutton.org/|BigBlueButton]] (BBB; see [[https://en.wikipedia.org/wiki/BigBlueButton|Wikipedia page]]; [[https://bigbluebutton.org/open-source-license/|license]]) (with BBB servers at Orsay and/or other French institutions). However, other software such as Google Meet can also be used.
+
+   * Details, schedule, how to access: will be announced on the Zulip stream.
+
+== Speakers ==
+
+Speakers will be added once they are confirmed.
+
+== Organizers ==
+
+ * Tomer Bauer
+ * Samuel Leliévre
+ * Julian Rüth
+ * [[https://people.smp.uq.edu.au/TravisScrimshaw/|Travis Scrimshaw]] (lead contact; tcscrims at gmail {.com})
+ * Yuan Zhou
+
+You can also join the [[https://zulip.sagemath.org/#narrow/stream/128-sd110/topic/Organization.20SageDays.20110|Zulip #sd110 organization topic]] to contact the organization team.
