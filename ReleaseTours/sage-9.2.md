@@ -880,6 +880,38 @@ Some Cython modules need specific compiler and linker flags. Sage 9.2 has moved 
 
 Sage 9.2 has also changed the mechanism for conditionalizing a Cython extension module on the presence of a Sage package.  Consider the module [[https://git.sagemath.org/sage.git/tree/src/sage/graphs/graph_decompositions/tdlib.pyx?id=55c3fbc565fd7884f3df9555de83dd326ace276e|sage.graphs.graph_decompositions.tdlib]] as an example. Prior to Sage 9.2, this module was declared as an `OptionalExtension`, conditional on the SPKG `tdlib`, in `src/module_list.py`. The new mechanism is as follows. [[https://git.sagemath.org/sage.git/tree/src/setup.py?id=55c3fbc565fd7884f3df9555de83dd326ace276e#n53|src/setup.py]] maps the SPKG name `tdlib` to the "distribution name" `sage-tdlib`. At the top of the Cython source file [[https://git.sagemath.org/sage.git/tree/src/sage/graphs/graph_decompositions/tdlib.pyx?id=55c3fbc565fd7884f3df9555de83dd326ace276e|src/sage/graphs/graph_decompositions/tdlib.pyx]], there is a new directive `sage_setup: distribution = sage-tdlib`. Now the source discovery in [[https://git.sagemath.org/sage.git/tree/src/sage_setup/find.py?id=55c3fbc565fd7884f3df9555de83dd326ace276e#n61|sage_setup.find.find_python_sources]] includes this Cython module only if the SPKG `tdlib` is installed and current.
 
+== New development tools ==
+
+[[https://tox.readthedocs.io/en/latest/|tox]] is a popular package that is used by a large number of Python projects as the standard entry point for testing and linting.
+
+Sage 9.1 started to use tox for [[https://doc.sagemath.org/html/en/developer/portability_testing.html#automatic-docker-based-build-testing-using-tox|portability testing of the Sage distribution]], which requires an installation of tox in the system python.
+
+Sage 9.2 has added a tox configuration (`src/tox.ini`) for the (more typical) use of tox for testing and linting of the Sage library [[https://trac.sagemath.org/ticket/30453|#30453]]. This provides an entry point for various testing/linting methods that is more idiomatic from the viewpoint of the Python community.
+
+The commands `sage -t`, `sage -coverage`, `sage -coverageall`, and `sage -startuptime` are repackaged as `sage --tox`, as the following output from `sage -advanced` indicates:
+{{{
+  --tox [options] <files|dirs> -- general entry point for testing
+                                  and linting of the Sage library
+     -e <envlist>     -- run specific test environments (default: run all)
+        doctest          -- run the Sage doctester 
+                            (same as "sage -t")
+        coverage         -- information about doctest coverage of files 
+                            (same as "sage --coverage[all]")
+        startuptime      -- display how long each component of Sage 
+                            takes to start up 
+                            (same as "sage --startuptime")
+}}}
+
+Three new linting methods are added:
+
+{{{
+        pycodestyle      -- check against the Python style conventions of PEP8
+        relint           -- check whether some forbidden patterns appear 
+                            (includes all patchbot pattern-exclusion plugins)
+        codespell        -- check for misspelled words in source code
+}}}
+
+This functionality is available after installing the optional `tox` package using `sage -i tox` (or having tox available in the system).
 
 == Cleaning ==
 
