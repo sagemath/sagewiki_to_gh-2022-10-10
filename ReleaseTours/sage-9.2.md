@@ -57,7 +57,7 @@ Sage uses [[https://www.sphinx-doc.org/en/master/|Sphinx]] to build its [[https:
 
 === SymPy ===
 
-[[https://www.sympy.org/en/index.html|SymPy]] has been updated from 1.5 to 1.6 in [[https://trac.sagemath.org/ticket/29730|#29730]].  See the [[https://github.com/sympy/sympy/wiki/Release-Notes-for-1.6|Release notes for version 1.6]].
+[[https://www.sympy.org/en/index.html|SymPy]] has been updated from 1.5 to 1.6.2 in [[https://trac.sagemath.org/ticket/29730|#29730]], [[https://trac.sagemath.org/ticket/30425|#30425]].  See the [[https://github.com/sympy/sympy/wiki/Release-Notes|Release notes]].
 
 === IPython, Jupyter notebook, JupyterLab ===
 
