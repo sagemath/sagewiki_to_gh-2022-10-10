@@ -1,10 +1,10 @@
-= Global Virtual SageDays 110 =
+= Global Virtual Sage Days 110 =
 
 An event for the SageMath user and developer community
 
 Talks will take place October 29-30 in various time zones. The schedule will be released soon.
 
-[[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the current global health crisis, SageDays110 will be a fully virtual event following [[days109|SageDays 109]].
+[[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the current global health crisis, Sage Days110 will be a fully virtual event following [[days109|SageDays 109]].
 
 <<TableOfContents>>
 
@@ -21,7 +21,7 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
  * '''Registration''': If you intend to participate, please register here: https://zulip.sagemath.org/#narrow/stream/128-sd110/topic/Registration
 
- * Join our [[https://zulip.sagemath.org/#narrow/stream/128-sd110|zulip #sd110]] messaging stream. This stream will contain all of the information regarding the talks and evens for SageDays110.
+ * Join our [[https://zulip.sagemath.org/#narrow/stream/128-sd110|zulip #sd110]] messaging stream. This stream will contain all of the information regarding the talks and events for Sage Days 110.
 
  * '''Video conferencing''': We will primarily be using Zoom and [[https://bigbluebutton.org/|BigBlueButton]] (BBB; see [[https://en.wikipedia.org/wiki/BigBlueButton|Wikipedia page]]; [[https://bigbluebutton.org/open-source-license/|license]]) (with BBB servers at Orsay and/or other French institutions). However, other software such as Google Meet can also be used.
 
