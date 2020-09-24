@@ -1,21 +1,18 @@
 = Global Virtual Sage Days 110 =
 
-An event for the SageMath user and developer community
+An event for the !SageMath user and developer community
 
-Talks will take place October 29-30 in various time zones. The schedule will be released soon.
+Talks will take place October 29-30, 2020, in various time zones. The schedule will be released soon.
 
-[[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the current global health crisis, Sage Days110 will be a fully virtual event following [[days109|SageDays 109]].
+[[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in !SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the current global health crisis, Sage Days 110 will be a fully virtual event following [[days109|Sage Days 109]].
 
 <<TableOfContents>>
 
-
-
 == About SageMath ==
 
-[[https://www.sagemath.org/|Sage]] is a mature, comprehensive, free (open-source) mathematics software system based on Python, licensed under the GNU General Public License, that integrates computer algebra facilities and general computational packages. 
+[[https://www.sagemath.org/|SageMath]], or Sage for short, is a mature, comprehensive, free (open-source) mathematics software system based on Python, licensed under the GNU General Public License, that integrates computer algebra facilities and general computational packages. 
 
 Sage, first released in 2005, in over a decade of incubation in the  [[https://github.com/sagemath/sage/tree/develop/build/pkgs|SageMath distribution, comprising 293 software packages]], has grown its own [[https://github.com/sagemath/sage/tree/develop/src/sage|library of 1000 Cython and over 4400 Python modules]], ranging from `sage.algebras.*` over `sage.geometry.*` to `sage.tensor.*`, with a total of over 2.2 million lines of code.  
-
 
 == How to register and participate ==
 
@@ -34,7 +31,7 @@ Speakers will be added once they are confirmed.
 == Organizers ==
 
  * Tomer Bauer
- * Samuel Leliévre
+ * [[slelievre|Samuel Lelièvre]]
  * Julian Rüth
  * [[https://people.smp.uq.edu.au/TravisScrimshaw/|Travis Scrimshaw]] (lead contact; tcscrims at gmail {.com})
  * Yuan Zhou
