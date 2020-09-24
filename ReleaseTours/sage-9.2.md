@@ -890,6 +890,11 @@ Sage 9.2 has added a tox configuration (`src/tox.ini`) for the (more typical) us
 
 The commands `sage -t`, `sage -coverage`, `sage -coverageall`, and `sage -startuptime` are repackaged as `sage --tox`, as the following output from `sage -advanced` indicates:
 {{{
+$ ./sage -advanced
+SageMath version 9.2
+...
+Testing files:
+...
   --tox [options] <files|dirs> -- general entry point for testing
                                   and linting of the Sage library
      -e <envlist>     -- run specific test environments (default: run all)
