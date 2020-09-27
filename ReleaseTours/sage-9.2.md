@@ -884,6 +884,8 @@ Sage 9.2 has also changed the mechanism for conditionalizing a Cython extension 
 
 == New development tools ==
 
+=== Testing and linting with tox ===
+
 [[https://tox.readthedocs.io/en/latest/|tox]] is a popular package that is used by a large number of Python projects as the standard entry point for testing and linting.
 
 Sage 9.1 started to use tox for [[https://doc.sagemath.org/html/en/developer/portability_testing.html#automatic-docker-based-build-testing-using-tox|portability testing of the Sage distribution]], which requires an installation of tox in the system python.
@@ -919,6 +921,20 @@ Three new linting methods are added:
 }}}
 
 This functionality is available after installing the optional `tox` package using `sage -i tox` (or having tox available in the system).
+
+=== Reusable wheels for the Python packages built by the Sage distribution ===
+
+Sage 9.2 has changed the build process of all Python packages in the Sage distribution so that [[https://realpython.com/python-wheels/|wheels]] are built and stored in `$SAGE_LOCAL/var/lib/sage/wheels/` [[https://trac.sagemath.org/ticket/29500|#29500]].
+
+Users can install these wheels into virtual environments that use the same base python version,  using standard tools such as `pip install --find-links`.  Example:
+{{{
+$ python3 -m venv some-venv
+$ cd some-venv/
+$ bin/pip3 install -v --no-index --find-links=../local/var/lib/sage/wheels/ Pillow    
+}}}
+The installation is very fast because it does not involve compilation.
+
+Note: Many of these wheels include extension modules that refer to libraries in the Sage installation in `$SAGE_LOCAL` with hard-coded paths. Therefore the wheels are [[https://realpython.com/python-wheels/#bundling-shared-libraries|not immediately]] suitable for distribution.
 
 == Cleaning ==
 
