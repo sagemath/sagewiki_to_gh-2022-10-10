@@ -866,6 +866,13 @@ Sage 9.1 introduced [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#Portabilit
 
 All standard Sage packages have been upgraded in Sage 9.2 so that they build correctly using gcc/gfortran 10.x. The Sage `./configure` script therefore now accepts these compiler versions.
 
+=== Selecting a system Python to use for Sage's venv ===
+
+The `configure` script in Sage 9.2 has been changed so it only looks for a binary named `python3` in your `PATH`. If Sage cannot find a suitable `python3` in your `PATH`, it will build its own copy of Python 3.8.5. Sage no longer looks for versioned Python binaries such as `python3.7`, [[https://trac.sagemath.org/ticket/30546|#30546]].
+
+To configure Sage to use a specific Python installation, you can use `./configure --with-python=/path/to/python3`.  The `configure` script will test whether this installation is suitable for Sage and will exit with an error otherwise.
+
+
 === System package information for more distributions ===
 
 System package information has been added for [[https://www.gentoo.org/|Gentoo Linux]], [[https://www.freebsd.org/|FreeBSD]], [[https://voidlinux.org/|Void Linux]], and [[https://nixos.org/|NixOS]].
