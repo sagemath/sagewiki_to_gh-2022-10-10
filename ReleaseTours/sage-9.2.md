@@ -879,7 +879,7 @@ System package information has been added for [[https://www.gentoo.org/|Gentoo L
 
 === For developers: Changes to the build system of sagelib ===
 
-Let's talk about `src/setup.py`. The build system of the Sage library is based on `distutils` (not `setuptools`); it is implemented in the package `sage_setup`.
+Let's talk about `setup.py`. The build system of the Sage library, in `build/pkgs/sagelib/src/setup.py`, is based on `distutils` (not `setuptools`); it is implemented in the package `sage_setup`.
 In particular, it implements its own version of source code discovery methods similar to [[https://setuptools.readthedocs.io/en/latest/setuptools.html#using-find-packages|setuptools.find_packages]]: `sage_setup.find.find_python_sources`. Because of source discovery, developers can add new Python modules and packages under `src/sage/` simply by creating files and directories; it is not necessary to edit `setup.py`.
 
 Prior to Sage 9.2, the situation was different for Cython extensions. They had to be listed in `src/module_list.py`, either one by one, or using glob patterns such as `*` and `**`.
