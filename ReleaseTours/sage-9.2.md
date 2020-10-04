@@ -629,9 +629,9 @@ Bundle connections have been improved ([[https://trac.sagemath.org/ticket/30208|
 
 Many improvements/refactoring of the code have been performed in this release: 
 
- * [[https://doc.sagemath.org/html/en/reference/manifolds/manifold.html|topological part]]: [[https://trac.sagemath.org/ticket/30266|#30266]], [[https://trac.sagemath.org/ticket/30267|#30267]], [[https://trac.sagemath.org/ticket/30291|#30291]]
+ * [[https://doc.sagemath.org/html/en/reference/manifolds/manifold.html|topological part]]: [[https://trac.sagemath.org/ticket/30266|#30266]], [[https://trac.sagemath.org/ticket/30267|#30267]], [[https://trac.sagemath.org/ticket/30291|#30291]].
 
- * [[https://doc.sagemath.org/html/en/reference/manifolds/diff_manifold.html|differentiable part]]: [[https://trac.sagemath.org/ticket/30228|#30228]], [[https://trac.sagemath.org/ticket/30274|#30274]], [[https://trac.sagemath.org/ticket/30280|#30280]], [[https://trac.sagemath.org/ticket/30285|#30285]], [[https://trac.sagemath.org/ticket/30288|#30288]]
+ * [[https://doc.sagemath.org/html/en/reference/manifolds/diff_manifold.html|differentiable part]]: [[https://trac.sagemath.org/ticket/30228|#30228]], [[https://trac.sagemath.org/ticket/30274|#30274]], [[https://trac.sagemath.org/ticket/30280|#30280]], [[https://trac.sagemath.org/ticket/30285|#30285]], [[https://trac.sagemath.org/ticket/30288|#30288]], [[https://trac.sagemath.org/ticket/30538|#30538]].
 
 In addition, various bugs have been fixed: [[https://trac.sagemath.org/ticket/30108|#30108]], [[https://trac.sagemath.org/ticket/30112|#30112]], [[https://trac.sagemath.org/ticket/30191|#30191]], [[https://trac.sagemath.org/ticket/30275|#30275]], [[https://trac.sagemath.org/ticket/30289|#30289]], [[https://trac.sagemath.org/ticket/30320|#30320]], [[https://trac.sagemath.org/ticket/30401|#30401]], [[https://trac.sagemath.org/ticket/30519|#30519]].
 
