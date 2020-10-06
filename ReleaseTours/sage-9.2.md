@@ -960,6 +960,7 @@ Note: Many of these wheels include extension modules that refer to libraries in 
 
  * Support for installing "old-style Sage packages" (`.spkg` files), [[https://trac.sagemath.org/ticket/19158|deprecated in Sage 6.9]], has been removed in [[https://trac.sagemath.org/ticket/29289|#29289]], after making the last two missing packages, `cunningham_tables` and `polytopes_db_4d`, available as normal optional Sage packages. Users who wish to package their own Sage code for distribution may find a [[https://wiki.sagemath.org/SageMathExternalPackages|list of external packages]] helpful, many of which follow best practices in packaging.
 
+ * The use of `sage.misc.package` has been essentially eliminated from the Sage library by transitioning to  `sage.feature`; see [[https://trac.sagemath.org/ticket/30607|#30607]], [[https://trac.sagemath.org/ticket/30616|#30616]].
 
 == Availability of Sage 9.2 and installation help ==
 
