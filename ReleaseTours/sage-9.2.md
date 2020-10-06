@@ -878,6 +878,12 @@ To configure Sage to use a specific Python installation, you can use `./configur
 
 System package information has been added for [[https://www.gentoo.org/|Gentoo Linux]], [[https://www.freebsd.org/|FreeBSD]], [[https://voidlinux.org/|Void Linux]], and [[https://nixos.org/|NixOS]].
 
+=== System package information for optional packages at runtime ===
+
+When a user tries to use a feature depending on an optional package is not installed, Sage now issues advice regarding the packages that should be installed to provide the feature -- using either the system package manager, `pip`, or (in the Sage distribution) `sage -i` [[https://trac.sagemath.org/ticket/30606|#30606]].
+
+(For packagers: For this to work, either `SAGE_ROOT/build/pkgs/*/distros/` and `SAGE_ROOT/build/bin/{sage-get-system-packages, sage-guess-package-system, sage-print-system-package-command}` need to be installed, or alternative implementations of these scripts need to be provided.)
+
 === For developers: Changes to the build system of sagelib ===
 
 Let's talk about `setup.py`. The build system of the Sage library, in `build/pkgs/sagelib/src/setup.py`, is based on `distutils` (not `setuptools`); it is implemented in the package `sage_setup`.
