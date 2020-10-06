@@ -117,6 +117,14 @@ Many build-related functions of the main Sage script, `src/bin/sage` (installed 
 
  * Set the initial camera orientation in Three.js plots using the new `viewpoint` option. Pass it a list/tuple of the form `[[x,y,z],angle]`, such as that provided by the existing `Get Viewpoint` option accessible from the menu button in the lower-right corner of a Three.js plot. [[https://trac.sagemath.org/ticket/29192|29192]] (Paul Masson)
 
+ * Change the size, font, and opacity of text displayed in the Three.js viewer. For example:
+   {{{
+#!python
+text3d("Hello world!", (0, 0, 0), fontfamily='Times New Roman', fontsize=20,
+       fontweight='bold', fontstyle='italic', opacity=0.5)
+   }}}
+   [[https://trac.sagemath.org/ticket/30614|30614]] (Joshua Campbell)
+
  * Save a 3D graphics object directly to an HTML file that uses the Three.js viewer, similar to how you would save a PNG image: `G.save('plot.html')`. [[https://trac.sagemath.org/ticket/29194|29194]] (Joshua Campbell)
 
  * Produce an interactive 3D animation that you can pan, rotate, and zoom while the animation is playing using the Three.js viewer. A slider and buttons for controlling playback are included on the page by default. To use this new feature construct an animation as you normally would, passing a list of still frames to the `animate` function, then call the `interactive` method. For example:
