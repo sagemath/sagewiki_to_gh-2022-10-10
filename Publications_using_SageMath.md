@@ -38,12 +38,14 @@ where you should change `x.y.z` to the exact version number you used for your pu
 
 '''DOIs'''
 
-Include them as doi = {dx.doi.org/...}
+Include them as doi = {doi.org/...}
 
- * 6.6: https://dx.doi.org/10.5281/zenodo.17093
- * 6.7: https://dx.doi.org/10.5281/zenodo.28513
- * 6.8: https://dx.doi.org/10.5281/zenodo.28514
- * 7.6: https://dx.doi.org/10.5281/zenodo.820864
+ * current: https://doi.org/10.5281/zenodo.593563
+ * Particular versions:
+ * 6.6: https://doi.org/10.5281/zenodo.17093
+ * 6.7: https://doi.org/10.5281/zenodo.28513
+ * 6.8: https://doi.org/10.5281/zenodo.28514
+ * 7.6: https://doi.org/10.5281/zenodo.820864
  * 9.1: https://doi.org/10.5281/zenodo.4066866
 
 === TeX ===
