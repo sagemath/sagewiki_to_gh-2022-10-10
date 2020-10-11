@@ -950,7 +950,7 @@ Sage 9.2 has changed the build process of all Python packages in the Sage distri
 
 Users can install these wheels into virtual environments that use the same base python version,  using standard tools such as `pip install --find-links`.  Example:
 {{{
-$ python3 -m venv some-venv
+$ local/bin/python3 -m venv some-venv
 $ cd some-venv/
 $ bin/pip3 install -v --no-index --find-links=../local/var/lib/sage/wheels/ Pillow    
 }}}
