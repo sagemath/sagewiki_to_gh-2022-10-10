@@ -429,6 +429,77 @@ sage: FCB6([3, 2, 4, 3, 1]).plot_heap()
 {{attachment:heap.png}}
 
 
+== Graph theory ==
+
+=== Distance regular graphs generators ===
+
+'''TO BE FILLED'''
+
+
+=== Diameter, radius, eccentricities ===
+
+State-of-the-art algorithms for computing the diameter, the radius and the eccentricities of (directed) (weighted) graphs are now available [[https://trac.sagemath.org/ticket/29657|29657]].
+{{{
+sage: G = graphs.RandomBarabasiAlbert(10000, 2)
+sage: %time G.diameter(algorithm='DHV')  # Default for undirected unweighted graphs
+CPU times: user 74.4 ms, sys: 2.81 ms, total: 77.2 ms
+Wall time: 75.8 ms
+9
+sage: %time G.diameter(algorithm='BFS')
+CPU times: user 573 ms, sys: 4.04 ms, total: 577 ms
+Wall time: 576 ms
+9
+}}}
+
+=== More iterators ===
+
+Some methods have been turned to iterators to avoid returning long lists [[https://trac.sagemath.org/ticket/23002| 23002]], [[https://trac.sagemath.org/ticket/30470|30470]].
+
+{{{
+sage: G = graphs.Grid2dGraph(3, 3)
+sage: cpt = 0
+sage: for _ in G.spanning_trees():
+....:     cpt += 1
+sage: cpt
+192
+sage: G.spanning_trees_count()
+192
+sage: S = G.spanning_trees()
+sage: next(S)
+Graph on 9 vertices
+sage: next(S)
+Graph on 9 vertices
+}}}
+
+{{{
+sage: g = graphs.PathGraph(5)
+sage: bridges = g.bridges()
+sage: next(bridges)
+(3, 4, None)
+sage: next(bridges)
+(2, 3, None)
+sage: next(bridges)
+(1, 2, None)
+sage: next(bridges)
+(0, 1, None)
+sage: next(bridges)
+---------------------------------------------------------------------------
+StopIteration                             Traceback (most recent call last)
+<ipython-input-38-cf858e1a0a30> in <module>
+----> 1 next(bridges)
+
+StopIteration: 
+}}}
+
+=== Implementation improvements ===
+
+ * Truly linear time implementation of lex_BFS [[https://trac.sagemath.org/ticket/11736|11736]]
+
+ * Faster and memory efficient implementation for computing the distances distribution, Wiener index and Szeged index. These new implementations have linear memory consumption rather than quadratic.
+
+ * We started improving the backends to speed up basic operations (edge and vertex iterations, subgraph, etc.). More to come for next release [[https://trac.sagemath.org/ticket/28895|28895]].
+
+
 == Commutative algebra ==
 
 === Laurent polynomials ===
@@ -738,9 +809,9 @@ sage: a, â, ā
 (1, 2, 3)
 sage: s(t) = t^3; s
 t |--> t^3
-sage: ṡ = diff(s, t); ṡ       # type s\dot<TAB><ENTER>                                                                                
+sage: ṡ = diff(s, t); ṡ       # type s\dot<TAB><ENTER>                                                                                
 t |--> 3*t^2
-sage: s̈ = diff(ṡ, t); s̈       # type s\ddot<TAB><ENTER>                                                                                                   
+sage: s̈ = diff(ṡ, t); s̈       # type s\ddot<TAB><ENTER>                                                                                                   
 t |--> 6*t
 }}}
 ... and have fun with modifier letters:
