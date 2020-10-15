@@ -13,6 +13,10 @@ This is the wiki for the [[https://www.sagemath.org|Sage - Mathematics Software 
  <<Include(Workshops, , from="^##start-include$", to="^----$")>>
  * [[Workshops | All Workshops]], including past and future Sage Days, Bug Days, Doc Days, Review Days, Education Days, and some other Sage-related events.
 
+== Sage Release Tours (version 9.0 and later) ==
+
+ * [[ReleaseTours]]
+
 == Google Summer of Code ==
 
  * [[GSoC|Google Summer of Code]]
