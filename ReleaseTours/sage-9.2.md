@@ -79,6 +79,10 @@ The upgrade [[https://github.com/Normaliz/Normaliz/releases|adds]] support for i
 
 To install Normaliz and !PyNormaliz, use `sage -i pynormaliz`.
 
+=== SageTeX ===
+
+[[https://trac.sagemath.org/ticket/30342|Updated to version 3.5]], improving Python 3 compatibility, also updated to version 3.5 on [[https://ctan.org|CTAN]].
+
 === Other package updates ===
 
  * [[https://trac.sagemath.org/ticket/29141|Meta-ticket #29141: Upgrades and other changes that require dropping py2 support]]
