@@ -432,13 +432,32 @@ sage: FCB6([3, 2, 4, 3, 1]).plot_heap()
 }}}
 {{attachment:heap.png}}
 
+=== BIBDs with lambda>1 ===
+
+Sage can now construct a number of balanced incomplete block designs (BIBDs) with 
+lambda>1, in particular, all the known biplanes (i.e. symmetric BIBDs with lambda=2).
+
+=== Finite generalized polygons ===
+
+Sage can now construct generalized quadrangles, hexagons, and octagons, and
+generalized quadrangles with a spread. 
 
 == Graph theory ==
 
 === Distance regular graphs generators ===
 
-'''TO BE FILLED'''
+A small database of constructions for distance regular graphs is now available. 15 sporadic distance regular graphs and 8 infinite families can now be constructed.
+Now Sage is capable of constructing all known families of distance-regular graphs with unbounded diameter.
 
+Some code examples:
+
+{{{
+sage: graphs.vanLintSchrijverGraph().is_distance_regular(parameters=True)
+([6, 5, 5, 4, None], [None, 1, 1, 2, 6])
+graphs.DoubleOddGraph(5).is_distance_regular(parameters=True)
+([6, 5, 5, 4, 4, 3, 3, 2, 2, 1, 1, None],
+ [None, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6])
+}}}
 
 === Diameter, radius, eccentricities ===
 
