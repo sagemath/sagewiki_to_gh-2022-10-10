@@ -474,6 +474,10 @@ Wall time: 576 ms
 9
 }}}
 
+=== More constructions ===
+
+linear codes got a function to compute its coset graph; undirected graphs got a method to quickly compute their antipodal quotients.
+
 === More iterators ===
 
 Some methods have been turned to iterators to avoid returning long lists [[https://trac.sagemath.org/ticket/23002| 23002]], [[https://trac.sagemath.org/ticket/30470|30470]].
