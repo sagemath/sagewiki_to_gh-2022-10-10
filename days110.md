@@ -49,6 +49,7 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
  * [[http://www.maths.nuigalway.ie/~rossmann/|Tobias Rossmann]], NUI Galway, Ireland
  * [[https://www.dmg.tuwien.ac.at/rubey/|Martin Rubey]], TU Wien, Austria
  * [[https://www.ndsu.edu/pubweb/~striker/|Jessica Striker]], North Dakota State University, USA
+ * TBD, https://mathics.org/
 
 == Organizers ==
 
