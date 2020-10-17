@@ -466,7 +466,7 @@ State-of-the-art algorithms for computing the diameter, the radius and the eccen
 {{{
 #!python
 sage: G = graphs.RandomBarabasiAlbert(10000, 2)
-sage: %time G.diameter(algorithm='DHV')  # Default for undirected unweighted graphs
+sage: %time G.diameter(algorithm='DHV')  # now default for undirected unweighted graphs
 CPU times: user 74.4 ms, sys: 2.81 ms, total: 77.2 ms
 Wall time: 75.8 ms
 9
