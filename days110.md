@@ -26,7 +26,29 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 == Speakers ==
 
-Speakers will be added once they are confirmed.
+ * [[https://kwarc.info/people/kbercic/|Katja Berčič]], KWARC, Friedrich-Alexander Universität Erlangen, Germany
+ * [[https://rekhabiswal.github.io/index.html|Rekha Biswal]], Max Planck Institute, Germany
+ * Guy Blachar, Bar-Ilan University, Israel
+ * [[https://www.lri.fr/membre_en.php?mb=2165|Erik Bray], LRI, Université Paris-Saclay, France
+ * [[http://www-sop.inria.fr/members/David.Coudert/index.shtml|David Coudert]], Inria and COATI, France
+ * [[Éric Gourgoulhon|https://luth.obspm.fr/~luthier/gourgoulhon/en/]], CNRS, France
+ * [[http://w3.impa.br/~heluani/|Reimundo Heluani]], Instituto de Matemática Pura e Aplicada, Brazil
+ * [[https://mathstat.slu.edu/people/hutz|Ben Hutz], Saint Louis University, USA
+ * [[https://mjungmath.github.io/|Michael Jung]], Vrije Universiteit Amsterdam, Netherlands
+ * [[https://users.fmi.uni-jena.de/~king/eindex.html|Simon King]],  Friedrich-Schiller-Universität Jena, Germany
+ * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis, USA
+ * [[https://albamath.com/|Alba Málaga]], alba@albamath.com
+ * [[https://riemann.unizar.es/~mmarco/|Miguel Marco-Buzunariz]], Universidad de Zaragoza, Spain
+ * [[https://sites.google.com/view/jianping-pan|Jianping Pan]], UC Davis, USA
+ * [[https://www.cs.ox.ac.uk/people/dmitrii.pasechnik/|Dima Pasechnik]], University of Oxford, UK
+ * Wencin Poh, UC Davis, USA
+ * [[https://www.lri.fr/~pons/en/|Viviane Pons]], Paris-Saclay University, France
+ * [[https://www.imsc.res.in/~amri/|Amri Prasad]], Instiute of Mathematical Sciences, India
+ * [[https://smp.uq.edu.au/profile/8305/anna-puskas|Anna Puskas]], University of Queensland, Australia
+ * [[http://www2.math.uconn.edu/~troby/|Tom Roby]], University of Connecticut, USA
+ * [[http://www.maths.nuigalway.ie/~rossmann/|Tobias Rossmann]], NUI Galway, Ireland
+ * [[https://www.dmg.tuwien.ac.at/rubey/|Martin Rubey]], TU Wien, Austria
+ * [[https://www.ndsu.edu/pubweb/~striker/|Jessica Striker]], North Dakota State University, USA
 
 == Organizers ==
 
@@ -34,6 +56,6 @@ Speakers will be added once they are confirmed.
  * [[slelievre|Samuel Lelièvre]]
  * Julian Rüth
  * [[https://people.smp.uq.edu.au/TravisScrimshaw/|Travis Scrimshaw]] (lead contact; tcscrims at gmail {.com})
- * Yuan Zhou
+ * [[https://math.as.uky.edu/users/yzh392|Yuan Zhou]]
 
 You can also join the [[https://zulip.sagemath.org/#narrow/stream/128-sd110/topic/Organization.20SageDays.20110|Zulip #sd110 organization topic]] to contact the organization team.
