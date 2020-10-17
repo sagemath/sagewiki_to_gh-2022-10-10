@@ -452,9 +452,10 @@ Now Sage is capable of constructing all known families of distance-regular graph
 Some code examples:
 
 {{{
+#!python
 sage: graphs.vanLintSchrijverGraph().is_distance_regular(parameters=True)
 ([6, 5, 5, 4, None], [None, 1, 1, 2, 6])
-graphs.DoubleOddGraph(5).is_distance_regular(parameters=True)
+sage: graphs.DoubleOddGraph(5).is_distance_regular(parameters=True)
 ([6, 5, 5, 4, 4, 3, 3, 2, 2, 1, 1, None],
  [None, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6])
 }}}
@@ -463,6 +464,7 @@ graphs.DoubleOddGraph(5).is_distance_regular(parameters=True)
 
 State-of-the-art algorithms for computing the diameter, the radius and the eccentricities of (directed) (weighted) graphs are now available [[https://trac.sagemath.org/ticket/29657|29657]].
 {{{
+#!python
 sage: G = graphs.RandomBarabasiAlbert(10000, 2)
 sage: %time G.diameter(algorithm='DHV')  # Default for undirected unweighted graphs
 CPU times: user 74.4 ms, sys: 2.81 ms, total: 77.2 ms
@@ -483,6 +485,7 @@ linear codes got a function to compute its coset graph; undirected graphs got a 
 Some methods have been turned to iterators to avoid returning long lists [[https://trac.sagemath.org/ticket/23002| 23002]], [[https://trac.sagemath.org/ticket/30470|30470]].
 
 {{{
+#!python
 sage: G = graphs.Grid2dGraph(3, 3)
 sage: cpt = 0
 sage: for _ in G.spanning_trees():
@@ -499,6 +502,7 @@ Graph on 9 vertices
 }}}
 
 {{{
+#!python
 sage: g = graphs.PathGraph(5)
 sage: bridges = g.bridges()
 sage: next(bridges)
