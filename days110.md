@@ -29,11 +29,11 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
  * [[https://kwarc.info/people/kbercic/|Katja Berčič]], KWARC, Friedrich-Alexander Universität Erlangen, Germany
  * [[https://rekhabiswal.github.io/index.html|Rekha Biswal]], Max Planck Institute, Germany
  * Guy Blachar, Bar-Ilan University, Israel
- * [[https://www.lri.fr/membre_en.php?mb=2165|Erik Bray], LRI, Université Paris-Saclay, France
+ * [[https://www.lri.fr/membre_en.php?mb=2165|Erik Bray]], LRI, Université Paris-Saclay, France
  * [[http://www-sop.inria.fr/members/David.Coudert/index.shtml|David Coudert]], Inria and COATI, France
- * [[Éric Gourgoulhon|https://luth.obspm.fr/~luthier/gourgoulhon/en/]], CNRS, France
+ * [[https://luth.obspm.fr/~luthier/gourgoulhon/en/|Éric Gourgoulhon]], CNRS, France
  * [[http://w3.impa.br/~heluani/|Reimundo Heluani]], Instituto de Matemática Pura e Aplicada, Brazil
- * [[https://mathstat.slu.edu/people/hutz|Ben Hutz], Saint Louis University, USA
+ * [[https://mathstat.slu.edu/people/hutz|Ben Hutz]], Saint Louis University, USA
  * [[https://mjungmath.github.io/|Michael Jung]], Vrije Universiteit Amsterdam, Netherlands
  * [[https://users.fmi.uni-jena.de/~king/eindex.html|Simon King]],  Friedrich-Schiller-Universität Jena, Germany
  * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis, USA
