@@ -567,7 +567,7 @@ The numerical evaluation is based on PARI implementation.
 
 === Power series ===
 
-There is new method to compute the coefficients in the Jacobi continued fraction expansion of a power series [[https://trac.sagemath.org/ticket/29789|29789]].
+There is a new method to compute the coefficients in the Jacobi continued fraction expansion of a power series [[https://trac.sagemath.org/ticket/29789|29789]].
 
 {{{
 sage: t = QQ[['t']].0                                                             
