@@ -26,7 +26,7 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 == Speakers ==
 
- * [[https://kwarc.info/people/kbercic/|Katja Berčič]], KWARC, Friedrich-Alexander Universität Erlangen, Germany
+ * [[http://katja.not.si/|Katja Berčič]], KWARC, University of Ljubljana, Slovenia
  * [[https://rekhabiswal.github.io/index.html|Rekha Biswal]], Max Planck Institute, Germany
  * Guy Blachar, Bar-Ilan University, Israel
  * [[https://www.lri.fr/membre_en.php?mb=2165|Erik Bray]], LRI, Université Paris-Saclay, France
