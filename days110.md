@@ -31,6 +31,7 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
  * Guy Blachar, Bar-Ilan University, Israel
  * [[https://www.lri.fr/membre_en.php?mb=2165|Erik Bray]], LRI, Université Paris-Saclay, France
  * [[http://www-sop.inria.fr/members/David.Coudert/index.shtml|David Coudert]], Inria and COATI, France
+ * [[https://github.com/isuruf|Isuru Fernando]], University of Illinois, USA
  * [[https://luth.obspm.fr/~luthier/gourgoulhon/en/|Éric Gourgoulhon]], CNRS, France
  * [[http://w3.impa.br/~heluani/|Reimundo Heluani]], Instituto de Matemática Pura e Aplicada, Brazil
  * [[https://mathstat.slu.edu/people/hutz|Ben Hutz]], Saint Louis University, USA
