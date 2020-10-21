@@ -1074,7 +1074,7 @@ Note: Many of these wheels include extension modules that refer to libraries in 
 
 == Availability of Sage 9.2 and installation help ==
 
-Sage 9.2 has not been released yet.  The first release candidate, 9.2.rc0, has been tagged on 2020-10-05. See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]] for announcements of beta versions and release candidates.
+Sage 9.2 has not been released yet.  The first release candidate, 9.2.rc0, has been tagged on 2020-10-05. See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]] for announcements of beta versions and release candidates.  We hope that Sage 9.2 will be ready before the [[https://wiki.sagemath.org/days110|Global Virtual Sage Days 110]], October 29-30, 2020.
 
 
  * See [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]] for development discussions.
