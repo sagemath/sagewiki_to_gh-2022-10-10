@@ -1,6 +1,6 @@
 = Sage 9.2 Release Tour =
 
-in progress (2020)
+released October 24, 2020
 
 <<TableOfContents>>
 
@@ -1074,10 +1074,35 @@ Note: Many of these wheels include extension modules that refer to libraries in 
 
 == Availability of Sage 9.2 and installation help ==
 
-Sage release 9.2 was tagged on 2020-10-24.  See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]] for announcements of beta versions and release candidates.  We hope that Sage 9.2 will be ready before the [[https://wiki.sagemath.org/days110|Global Virtual Sage Days 110]], October 29-30, 2020.
+!SageMath 9.2 was released on 2020-10-24; it is available in the [[https://github.com/sagemath/sage/tree/9.1|sage git repository]], and the self-contained [[http://www.sagemath.org/download-source.html|source tarballs are available]] for download. 
 
+Sage 9.2 has been [[https://github.com/sagemath/sage/actions/runs/326227813|tested to compile from source on a wide variety of platforms]], including:
 
- * See [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]] for development discussions.
+ * Linux 64-bit (x86_64)
+   * ubuntu-{trusty,xenial,bionic,eoan,focal,groovy}, 
+   * debian-{jessie,stretch,buster,bullseye,sid}, 
+   * linuxmint-{17,18,19,19.3},
+   * fedora-{26,27,28,29,30,31,32,33},
+   * centos-{7,8},
+   * archlinux,
+   * slackware-14.2,
+   * conda-forge
+
+ * Linux 32-bit (i386)
+   * debian-buster
+   * ubuntu-eoan
+
+ * macOS 
+   * macOS Catalina and older (macOS 10.x, with Xcode 11.x or Xcode 12)
+   * optionally, using Homebrew
+   * optionally, using conda-forge
+   * note that macOS 11 beta ("Big Sur") is ''not'' supported
+
+ * Windows (Cygwin-64).
+
+=== Binaries ===
+
+ * TBA
 
 == More details ==
 
