@@ -1104,6 +1104,17 @@ Sage 9.2 has been [[https://github.com/sagemath/sage/actions/runs/326227813|test
 
  * TBA
 
+=== Availability in distributions ===
+
+See [[https://repology.org/project/sagemath/versions|repology.org: sagemath]]
+
+=== Installation FAQ ===
+
+See [[https://github.com/sagemath/sage/blob/9.2/README.md|README.md]] in the source distribution for installation instructions.
+
+See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]], [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]].
+
+
 == More details ==
 
  * [[https://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=new&summary=~Meta&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Open Meta-Tickets]]
