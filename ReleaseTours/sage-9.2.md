@@ -1117,6 +1117,6 @@ See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]], [[htt
 
 == More details ==
 
- * [[https://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=new&summary=~Meta&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Open Meta-Tickets]]
+ * [[https://www.sagemath.org/changelogs/sage-9.2.txt|Sage 9.2 changelog]]
 
  * [[https://trac.sagemath.org/query?milestone=sage-9.2&groupdesc=1&group=status&max=1500&col=id&col=summary&col=author&col=reviewer&col=time&col=changetime&col=component&col=keywords&order=component|Trac tickets with milestone 9.2]]
