@@ -22,7 +22,11 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
  * '''Video conferencing''': We will primarily be using Zoom and [[https://bigbluebutton.org/|BigBlueButton]] (BBB; see [[https://en.wikipedia.org/wiki/BigBlueButton|Wikipedia page]]; [[https://bigbluebutton.org/open-source-license/|license]]) (with BBB servers at Orsay and/or other French institutions). However, other software such as Google Meet can also be used.
 
-   * Details, schedule, how to access: will be announced on the Zulip stream.
+   * Details, how to access: will be announced on the Zulip stream.
+
+== Schedule ==
+
+A preliminary schedule can be found on [[https://researchseminars.org/seminar/SageDays110|researchseminars.org]].
 
 == Speakers ==
 
