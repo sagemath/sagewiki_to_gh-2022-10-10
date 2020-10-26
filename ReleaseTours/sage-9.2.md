@@ -97,7 +97,7 @@ $ ls
 CIRM_Tutorial_1.sws
 }}}
 
-We translate the sws worksheet into a ReStructuredText syntax file (.rst) using `sage -sws2rst`. This creates also a directory of images:
+We translate the sws worksheet into a !ReStructuredText syntax file (.rst) using `sage -sws2rst`. This creates also a directory of images:
 
 {{{
 $ sage -sws2rst CIRM_Tutorial_1.sws
