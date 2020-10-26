@@ -1182,7 +1182,7 @@ Note: Many of these wheels include extension modules that refer to libraries in 
 
 == Availability of Sage 9.2 and installation help ==
 
-!SageMath 9.2 was released on 2020-10-24; it is available in the [[https://github.com/sagemath/sage/tree/9.1|sage git repository]], and the self-contained [[http://www.sagemath.org/download-source.html|source tarballs are available]] for download. 
+!SageMath 9.2 was released on 2020-10-24; it is available in the [[https://github.com/sagemath/sage/tree/9.2|sage git repository]], and the self-contained [[http://www.sagemath.org/download-source.html|source tarballs are available]] for download. 
 
 Sage 9.2 has been [[https://github.com/sagemath/sage/actions/runs/326227813|tested to compile from source on a wide variety of platforms]], including:
 
