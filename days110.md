@@ -26,7 +26,7 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 == Schedule ==
 
-A preliminary schedule can be found on [[https://researchseminars.org/seminar/SageDays110|researchseminars.org]].
+The schedule, title, and abstracts for the talks can be found on [[https://researchseminars.org/seminar/SageDays110|researchseminars.org]].
 
 == Speakers ==
 
