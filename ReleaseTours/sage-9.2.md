@@ -85,9 +85,11 @@ To install Normaliz and !PyNormaliz, use `sage -i pynormaliz`.
 
 === sws2rst + usage example ===
 
-In ticket [[https://trac.sagemath.org/ticket/28838|#28838]], the command "sage -sws2rst" was resurrected via a new pip-installable package sage_sws2rst. Here an usage example.
+In ticket [[https://trac.sagemath.org/ticket/28838|#28838]], the command "sage -sws2rst" was resurrected via a new pip-installable package sage_sws2rst (which is already in the sage tree). 
 
-First we download a sage worksheet (.sws) prepared for Sage Days 25 at CIRM (Marseille, 2010):
+Below is an example of usage.
+
+First we download a sage worksheet (.sws) prepared for Sage Days 20 at CIRM (Marseille, 2010):
 
 {{{
 $ wget http://slabbe.org/Sage/2010-perpignan/CIRM_Tutorial_1.sws
