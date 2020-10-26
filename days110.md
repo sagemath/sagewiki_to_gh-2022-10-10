@@ -40,7 +40,7 @@ The schedule, title, and abstracts for the talks can be found on [[https://resea
  * [[http://w3.impa.br/~heluani/|Reimundo Heluani]], Instituto de Matemática Pura e Aplicada, Brazil
  * [[https://mathstat.slu.edu/people/hutz|Ben Hutz]], Saint Louis University, USA
  * [[https://mjungmath.github.io/|Michael Jung]], Vrije Universiteit Amsterdam, Netherlands
- * [[https://users.fmi.uni-jena.de/~king/eindex.html|Simon King]],  Friedrich-Schiller-Universität Jena, Germany
+ * [[https://users.fmi.uni-jena.de/~king/index.html|Simon King]],  Friedrich-Schiller-Universität Jena, Germany
  * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis, USA
  * [[https://albamath.com/|Alba Málaga]], alba@albamath.com
  * [[https://riemann.unizar.es/~mmarco/|Miguel Marco-Buzunariz]], Universidad de Zaragoza, Spain
