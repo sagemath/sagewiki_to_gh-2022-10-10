@@ -83,6 +83,55 @@ To install Normaliz and !PyNormaliz, use `sage -i pynormaliz`.
 
 [[https://trac.sagemath.org/ticket/30342|Updated to version 3.5]], improving Python 3 compatibility, also updated to version 3.5 on [[https://ctan.org|CTAN]].
 
+=== sws2rst + usage example ===
+
+In ticket [[https://trac.sagemath.org/ticket/28838|#28838]], the command "sage -sws2rst" was resurrected via a new pip-installable package sage_sws2rst. Here an usage example.
+
+First we download a sage worksheet (.sws) prepared for Sage Days 25 at CIRM (Marseille, 2010):
+
+{{{
+$ wget http://slabbe.org/Sage/2010-perpignan/CIRM_Tutorial_1.sws
+$ ls
+CIRM_Tutorial_1.sws
+}}}
+
+We translate the sws worksheet into a ReStructuredText syntax file (.rst) using `sage -sws2rst`. This creates also a directory of images:
+
+{{{
+$ sage -sws2rst CIRM_Tutorial_1.sws
+Processing CIRM_Tutorial_1.sws
+File at CIRM_Tutorial_1.rst
+Image directory at CIRM_Tutorial_1_media
+$ ls
+CIRM_Tutorial_1_media  CIRM_Tutorial_1.rst  CIRM_Tutorial_1.sws
+}}}
+
+Then, we can check that it works properly. For example, we can translate it to a basic html file using `rst2html`:
+
+{{{
+$ rst2html.py CIRM_Tutorial_1.rst CIRM_Tutorial_1.html
+CIRM_Tutorial_1.rst:176: (WARNING/2) Explicit markup ends without a blank line; unexpected unindent.
+CIRM_Tutorial_1.rst:334: (WARNING/2) Inline strong start-string without end-string.
+}}}
+
+As seen above, there are few warnings sometimes because the translation made by `sws2rst` is not 100% perfect, but most of it is okay:
+
+{{{
+$ firefox CIRM_Tutorial_1.html
+}}}
+
+Moreover, one can use the `sage -rst2ipynb` script to translate the rst file obtained above to a Jupyter notebook:
+
+{{{
+$ sage -rst2ipynb CIRM_Tutorial_1.rst CIRM_Tutorial_1.ipynb
+}}}
+
+One can check the result:
+{{{
+$ sage -n jupyter
+}}}
+
+
 === Other package updates ===
 
  * [[https://trac.sagemath.org/ticket/29141|Meta-ticket #29141: Upgrades and other changes that require dropping py2 support]]
@@ -102,7 +151,7 @@ When you do this, please remember to check that the `checksums.ini` file has an 
 
 === For packagers: Changes to packages ===
 
-The packages `giacpy_sage` and `sage_brial` have been merged into `sagelib` as `sage.libs.giac` and `sage.rings.polynomial.pbori`.
+The pacwkages `giacpy_sage` and `sage_brial` have been merged into `sagelib` as `sage.libs.giac` and `sage.rings.polynomial.pbori`.
 
 The directory `build/pkgs/sage_sws2rst/src` contains a new pip-installable package, providing the script `sage-sws2rst`.
 
@@ -112,6 +161,7 @@ The scripts in `src/bin/` are now installed by sagelib's `setup.py` ([[https://t
 [[https://trac.sagemath.org/ticket/27171|#27171]]).
 
 Many build-related functions of the main Sage script, `src/bin/sage` (installed as `sage`), have been moved to a script `build/bin/sage-site` (not installed) in [[https://trac.sagemath.org/ticket/29111|#29111]]. It is hoped that downstream distribution packaging is able to use this cleaned up script instead of replacing it with an ad-hoc distribution-specific script -- so that users can rely on a consistent interface.  Contributions of further clean ups and refactoring of the script are welcome.
+
 
 == Graphics ==
 
