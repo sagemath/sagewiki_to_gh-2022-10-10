@@ -209,7 +209,7 @@ When you do this, please remember to check that the `checksums.ini` file has an 
 
 === For packagers: Changes to packages ===
 
-The pacwkages `giacpy_sage` and `sage_brial` have been merged into `sagelib` as `sage.libs.giac` and `sage.rings.polynomial.pbori`.
+The packages `giacpy_sage` and `sage_brial` have been merged into `sagelib` as `sage.libs.giac` and `sage.rings.polynomial.pbori`.
 
 The directory `build/pkgs/sage_sws2rst/src` contains a new pip-installable package, providing the script `sage-sws2rst`.
 
