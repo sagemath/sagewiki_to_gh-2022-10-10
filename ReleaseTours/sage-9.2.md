@@ -183,7 +183,6 @@ From the changelog of the release of 9.2, the following list of upgrades made in
 #29861: Cython 0.29.21
 #30001: sphinx 3.1
 #30063: Maxima 5.44.0
-#30063: Maxima 5.44.0
 #30150: cmake 3.18.2
 #30176: matplotlib 3.3
 #30185: pillow 7.2.0
@@ -192,7 +191,6 @@ From the changelog of the release of 9.2, the following list of upgrades made in
 #30338: libhomfly to the latest version
 #30342: sagetex 3.5
 #30358: matplotlib 3.3.1, certifi 2020.6.20
-#30390: PyPI url and a few others
 #30412: gf2x 1.3
 #30425: misc pip Update 2020-08: SymPy, pip, six
 #30583: gmpy2 2.1.0.b5
