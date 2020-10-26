@@ -152,6 +152,53 @@ $ sage -n -h
  * [[https://trac.sagemath.org/ticket/29141|Meta-ticket #29141: Upgrades and other changes that require dropping py2 support]]
  * [[https://trac.sagemath.org/query?summary=~update&milestone=sage-9.2&or&milestone=sage-9.2&summary=~upgrade&groupdesc=1&group=status&max=1500&col=id&col=summary&col=component&col=time&col=changetime&col=author&col=reviewer&col=keywords&order=component|Upgrade tickets, milestone 9.2]]
 
+From the changelog of the release of 9.2, the following list of upgrades made in 9.2 was extracted:
+{{{
+#3360: sympow 2.023.6 (for GCC 10 support)
+#22191: ECL 20.4.24
+#26891: Nauty 2.7
+#26919: Jupyter notebook to latest (6.1.1) and its dependencies to latest
+#27309: FriCAS 1.3.6
+#27754: Python 3.8.5
+#27880: Kenzo and its interface
+#27952: Normaliz 3.8.8, PyNormaliz 2.12, add script package libnauty
+#28197: ipython 7
+#28856: sphinx 3
+#28959: zn_poly v0.9.2
+#29061: symmetrica-3.0.1
+#29240: pexpect 4.8
+#29313: pari 2.11.4
+#29441: rpy2 package 2.8.2 -> 3.3.5, Update R 3.6.3, add new dependencies
+#29480: Cython 0.29.17
+#29483: gsl 2.6
+#29547: matplotlib 3
+#29552: giac 1.5.0-87
+#29658: BRiAl 1.2.8
+#29730: sympy 1.6
+#29766: NumPy 1.19.1, scipy 1.5.2, networkx 2.4, add pybind11 package
+#29803: setuptools, setuptools_scm, pip (2020-06), add package wheel; remove zope_interface
+#29809: r117
+#29826: e-antic 0.1.7
+#29859: palp 2.11 (for GCC 10 compatibility)
+#29861: Cython 0.29.21
+#30001: sphinx 3.1
+#30063: Maxima 5.44.0
+#30063: Maxima 5.44.0
+#30150: cmake 3.18.2
+#30176: matplotlib 3.3
+#30185: pillow 7.2.0
+#30262: e-antic 0.1.8
+#30317: pip 20.2.2, setuptools 49.6.0
+#30338: libhomfly to the latest version
+#30342: sagetex 3.5
+#30358: matplotlib 3.3.1, certifi 2020.6.20
+#30390: PyPI url and a few others
+#30412: gf2x 1.3
+#30425: misc pip Update 2020-08: SymPy, pip, six
+#30583: gmpy2 2.1.0.b5
+#30603: readline 8.0
+}}}
+
 === For developers: Upgrading packages ===
 
 Upgrading Python packages in the Sage distribution from PyPI has again become easier, thanks to [[https://trac.sagemath.org/ticket/20104|#20104]]. You can now do:
