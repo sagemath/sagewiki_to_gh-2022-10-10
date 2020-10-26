@@ -133,6 +133,19 @@ One can check the result:
 $ sage -n jupyter
 }}}
 
+To translate old .sws files to .ipynb, see also the `export` notebook:
+
+{{{
+$ sage -n -h
+[...]
+* List available legacy Sage notebooks:
+
+      sage --notebook=export --list
+
+* Export a legacy Sage notebook as a Jupyter notebook:
+
+      sage --notebook=export --ipynb=Output.ipynb admin:10
+}}}
 
 === Other package updates ===
 
