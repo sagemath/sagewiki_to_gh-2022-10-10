@@ -108,7 +108,7 @@ $ ls
 CIRM_Tutorial_1_media  CIRM_Tutorial_1.rst  CIRM_Tutorial_1.sws
 }}}
 
-Then, we can check that it works properly. For example, we can translate it to a basic html file using `rst2html`:
+Then, we can check that it works properly by looking at the generated rst file. Alternatively, we can translate it to a basic html file using `rst2html`:
 
 {{{
 $ rst2html.py CIRM_Tutorial_1.rst CIRM_Tutorial_1.html
@@ -133,7 +133,7 @@ One can check the result:
 $ sage -n jupyter
 }}}
 
-To translate old .sws files to .ipynb, see also the `export` notebook:
+Note that to translate old .sws files to .ipynb, you may also use the `export` notebook:
 
 {{{
 $ sage -n -h
