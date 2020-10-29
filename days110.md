@@ -33,7 +33,6 @@ The schedule, title, and abstracts for the talks can be found on [[https://resea
  * [[http://katja.not.si/|Katja Berčič]], KWARC, University of Ljubljana, Slovenia
  * [[https://rekhabiswal.github.io/index.html|Rekha Biswal]], Max Planck Institute, Germany
  * Guy Blachar, Bar-Ilan University, Israel
- * [[https://www.lri.fr/membre_en.php?mb=2165|Erik Bray]], LRI, Université Paris-Saclay, France
  * [[http://www-sop.inria.fr/members/David.Coudert/index.shtml|David Coudert]], Inria and COATI, France
  * [[https://github.com/isuruf|Isuru Fernando]], University of Illinois, USA
  * [[https://luth.obspm.fr/~luthier/gourgoulhon/en/|Éric Gourgoulhon]], CNRS, France
