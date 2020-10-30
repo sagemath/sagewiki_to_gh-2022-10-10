@@ -26,6 +26,7 @@ You can develop Sage without building any of its dependencies (experimental). On
 
 {{{
 $ export SAGE_NUM_THREADS=24
+$ conda install mamba
 $ mamba create -n sage-build sage boost-cpp
 $ conda activate sage-build
 $ mamba uninstall --force sagelib
