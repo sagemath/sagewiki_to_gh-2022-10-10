@@ -8,7 +8,7 @@ In short: Install `sage` from conda-forge.
 
 To install sage on your machine (without the need for root permissions):
 
- * Install [[https://conda.io/miniconda.html|Miniconda for Python 3]]
+ * Install [[https://github.com/conda-forge/miniforge#download|Miniforge3]]
  * export your `PATH` (and `hash -r` or `rehash`)
  * Make sure your locale is UTF-8.
  * Use conda-forge packages: `conda config --add channels conda-forge; conda config --set channel_priority strict`
