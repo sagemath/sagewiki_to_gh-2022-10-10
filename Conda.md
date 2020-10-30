@@ -1,6 +1,6 @@
 {{https://conda.io/docs/_images/conda_logo.svg||width=400px}}
 
-Experimental [[https://conda.io/docs/|Conda]] packages for Linux & OSX are available through [[https://conda-forge.github.io/|conda-forge]].
+[[https://conda.io/docs/|Conda]] packages for Linux & OSX are available through [[https://conda-forge.github.io/|conda-forge]].
 
 = Setting Up =
 
