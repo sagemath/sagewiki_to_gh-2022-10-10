@@ -16,9 +16,25 @@ To install sage on your machine (without the need for root permissions):
  * enter your environment: `source activate sage`
  * enjoy: `sage`
 
-= Development =
+= Maintenance =
 
 The packages necessary to run sage are developed on the github pages of conda-forge. The actual [[https://github.com/conda-forge/sage-feedstock/tree/master/recipe|sage package]] and many of its dependencies are maintained by Isuru Fernando (and a few volunteers).
+
+= Conda for Sage Developers =
+
+You can develop Sage without building any of its dependencies (experimental). On my machine this takes 5 minutes:
+
+{{{
+$ export SAGE_NUM_THREADS=24
+$ mamba create -n sage-build sage boost-cpp
+$ conda activate sage-build
+$ mamba uninstall --force sagelib
+$ ./configure --prefix=$CONDA_PREFIX
+$ cd src
+$ python setup.py install
+$ sage -c 'print(version())'
+SageMath version 9.2, Release Date: 2020-10-24
+}}}
 
 = Open Issues =
 
