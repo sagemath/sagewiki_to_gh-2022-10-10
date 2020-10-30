@@ -281,7 +281,7 @@ animate(frames, delay=5).interactive(
 
 === One free module constructor to rule them all ===
 
-Sage has several specialized implementation classes for free modules and vector spaces.  The factory functions `FreeModule` and `VectorSpace` select the appropriate class depending on the base ring and other parameters:
+Sage has several specialized implementation classes for free modules and vector spaces.  The factory functions [[https://doc.sagemath.org/html/en/reference/modules/sage/modules/free_module.html#sage.modules.free_module.FreeModule|FreeModule]] and `VectorSpace` select the appropriate class depending on the base ring and other parameters:
 {{{
 #!python
 sage: FreeModule(ZZ, 10)
