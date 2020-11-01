@@ -24,9 +24,9 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
    * Details, how to access: will be announced on the Zulip stream.
 
-== Schedule ==
+== Schedule, videos, and talk slides ==
 
-The schedule, title, and abstracts for the talks can be found on [[https://researchseminars.org/seminar/SageDays110|researchseminars.org]].
+The schedule, title, abstracts, videos, and supplementary materials of the talks can be found on [[https://researchseminars.org/seminar/SageDays110|researchseminars.org]].
 
 == Speakers ==
 
