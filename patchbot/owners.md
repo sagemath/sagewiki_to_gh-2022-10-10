@@ -35,12 +35,14 @@ panke                   gh-kliem
 pascaline               slelievre
 pbua                    novoselt
 pc72-math               dkrenn (and behackl and cheuberg)
+petitbonum              chapoton
 poseidon                kdilks
 quasar                  vdelecroix
 rk02-math               cheuberg (and dkrenn)
 sage4                   jdemeyer
 sardonis                jdemeyer
 silence                 ncohen
+steenrod                ​jhpalmieri
 tmonteil-*              tmonteil (various arch/OS/releases; contact me to run a 32-bit patchbot on a particular ticket)
 ubuntu_vivid_64         tmonteil
 vogon.jeltz(32Bit)      jkroeker
