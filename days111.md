@@ -6,6 +6,19 @@ An event for the !SageMath developer and packaging community
 
 [[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in !SageMath. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the current global health crisis, Sage Days 111 will be a fully virtual event.
 
+== Topics and goals ==
+
+The main topic of the workshop is the development of the next generation of Sage packaging – a modularized Sage Library that can be installed from PyPI and whose subset distributions can map 1:1 to packages of downstream distributions.
+
+ * [[https://trac.sagemath.org/ticket/29705|Meta-ticket 29705: Modularize sagelib into separate distributions (distutils packages)]]
+ * see also [[https://researchseminars.org/talk/SageDays110/11/|Modularization and pip-installability of the Sage library]] (talk by Matthias Köppe at Sage Days 110)
+ * [[https://trac.sagemath.org/ticket/27330|Meta-ticket 27330: spkg-configure: Try to use as many system packages as possible]]
+ * [[https://trac.sagemath.org/ticket/30306|Meta-ticket 30306: Use system Jupyter notebook / JupyterLab]]
+
+Participants may wish to add the keyword "sd111" to tickets that they hope to work on during Sage Days 111.
+
+ * [[https://trac.sagemath.org/query?keywords=~sd111|Trac ticket search: Keyword sd111]]
+
 == About SageMath ==
 
 [[https://www.sagemath.org/|SageMath]], or Sage for short, is a mature, comprehensive, free (open-source) mathematics software system based on Python, licensed under the GNU General Public License, that integrates computer algebra facilities and general computational packages. 
@@ -18,7 +31,7 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
  * Join our [[https://zulip.sagemath.org/#narrow/stream/130-sd111|zulip #sd111]] messaging stream. This stream will contain all of the information regarding the activities of Sage Days 111.
 
- * '''Video conferencing''': We will primarily be using Zoom and [[https://bigbluebutton.org/|BigBlueButton]] (BBB; see [[https://en.wikipedia.org/wiki/BigBlueButton|Wikipedia page]]; [[https://bigbluebutton.org/open-source-license/|license]]) (with BBB servers at Orsay and/or other French institutions). However, other software such as Google Meet can also be used.
+ * '''Video conferencing''': We will primarily be using Zoom and Google Meet. 
 
    * Details, how to access: will be announced on the Zulip stream.
 
