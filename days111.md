@@ -1,5 +1,35 @@
 = Sage Days 111 - Global Virtual Sage Modularization and Packaging Summit =
 
+Tuesday, December 8 to Friday, December 11, 2020
+
 An event for the !SageMath developer and packaging community
 
-Poll to find suitable dates: https://framadate.org/JxZ7MZs74VxCQSN4
+[[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in !SageMath. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the current global health crisis, Sage Days 111 will be a fully virtual event.
+
+== About SageMath ==
+
+[[https://www.sagemath.org/|SageMath]], or Sage for short, is a mature, comprehensive, free (open-source) mathematics software system based on Python, licensed under the GNU General Public License, that integrates computer algebra facilities and general computational packages. 
+
+Sage, first released in 2005, in over a decade of incubation in the  [[https://github.com/sagemath/sage/tree/develop/build/pkgs|SageMath distribution, comprising 293 software packages]], has grown its own [[https://github.com/sagemath/sage/tree/develop/src/sage|library of 1000 Cython and over 4400 Python modules]], ranging from `sage.algebras.*` over `sage.geometry.*` to `sage.tensor.*`, with a total of over 2.2 million lines of code.  
+
+== How to register and participate ==
+
+ * '''Registration''' and poll for detailed scheduling: https://framadate.org/JxZ7MZs74VxCQSN4
+
+ * Join our [[https://zulip.sagemath.org/#narrow/stream/130-sd111|zulip #sd111]] messaging stream. This stream will contain all of the information regarding the activities of Sage Days 111.
+
+ * '''Video conferencing''': We will primarily be using Zoom and [[https://bigbluebutton.org/|BigBlueButton]] (BBB; see [[https://en.wikipedia.org/wiki/BigBlueButton|Wikipedia page]]; [[https://bigbluebutton.org/open-source-license/|license]]) (with BBB servers at Orsay and/or other French institutions). However, other software such as Google Meet can also be used.
+
+   * Details, how to access: will be announced on the Zulip stream.
+
+== Tentative schedule ==
+
+- Tue 2020-12-08 18:00-23:00 UTC - Core synchronous event
+- Wed 2020-12-09 20:00-21:00 UTC - Status report 2
+- Thu 2020-12-10 20:00-21:00 UTC - Status report 3
+- Fri 2020-12-11 20:00-21:00 UTC - Status report 4
+
+== Organizers ==
+
+ * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis, USA
+ * [[http://www.cs.ox.ac.uk/people/dmitrii.pasechnik/|Dima Pasechnik]], U. Oxford, UK
