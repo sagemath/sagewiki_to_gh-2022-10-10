@@ -24,10 +24,10 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 == Tentative schedule ==
 
-- Tue 2020-12-08 18:00-23:00 UTC - Core synchronous event
-- Wed 2020-12-09 20:00-21:00 UTC - Status report 2
-- Thu 2020-12-10 20:00-21:00 UTC - Status report 3
-- Fri 2020-12-11 20:00-21:00 UTC - Status report 4
+ * Tue 2020-12-08 18:00-23:00 UTC - Core synchronous event
+ * Wed 2020-12-09 20:00-21:00 UTC - Status report 2
+ * Thu 2020-12-10 20:00-21:00 UTC - Status report 3
+ * Fri 2020-12-11 20:00-21:00 UTC - Status report 4
 
 == Organizers ==
 
