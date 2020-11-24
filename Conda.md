@@ -40,9 +40,11 @@ SageMath version 9.2, Release Date: 2020-10-24
 = Open Issues =
 
 == General ==
-There are still some issues with Conda. Not all tests pass and some things don't work:
- * #20382
- * …
+
+To check whether there are known issues with Conda:
+
+ * https://trac.sagemath.org/query?order=id&desc=1&summary=~conda
 
 == Windows ==
+
 There is likely not going to be a working package in the near future, see https://groups.google.com/d/msg/sage-devel/wyaV8x5qolI/jVS4DKBvCAAJ.
