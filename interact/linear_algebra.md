@@ -256,7 +256,7 @@ def _(M=input_grid(D,D, default = example,
 ...(goes all the way to invert the matrix)
 
 == Solution of an homogeneous system of linear equations ==
-by Pablo Angulo 
+by Pablo Angulo and Hristo Inouzhe
 
 Coefficients are introduced as a matrix in a single text box.
 The number of equations and unknowns are arbitrary.
@@ -353,7 +353,7 @@ def SEL(A='[(0,1,-1,2),(-1,0,2,4), (0,-1,1,-2)]',
 
 
 == Solution of a non homogeneous system of linear equations ==
-by Pablo Angulo 
+by Pablo Angulo and Hristo Inouzhe
 
 Coefficients are introduced as a matrix in a single text box, and independent terms as a vector in a separate text box.
 The number of equations and unknowns are arbitrary.
