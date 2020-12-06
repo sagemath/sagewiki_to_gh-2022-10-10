@@ -41,7 +41,7 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
     * 18:00 UTC - Introduction
     * 18:30 UTC - Ticket review session 1
     * 20:00 UTC - Discussion
-    * 21:30 UTC - Downstream patch upstreaming
+    * 21:30 UTC - [[https://trac.sagemath.org/ticket/31016|#31016: Downstream patch upstreaming]]
     * 22:30 UTC - Status report 1
  * Wed 2020-12-09
     * 17:00 UTC - Reserved for bikeshedding
