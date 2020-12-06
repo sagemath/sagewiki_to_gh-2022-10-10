@@ -10,8 +10,8 @@ An event for the !SageMath developer and packaging community
 
 The main topic of the workshop is the development of the next generation of Sage packaging – a modularized Sage Library that can be installed from PyPI and whose subset distributions can map 1:1 to packages of downstream distributions.
 
- * [[https://trac.sagemath.org/ticket/29705|Meta-ticket 29705: Modularize sagelib into separate distributions (distutils packages)]]
- * see also [[https://researchseminars.org/talk/SageDays110/11/|Modularization and pip-installability of the Sage library]] (talk by Matthias Köppe at Sage Days 110)
+ * [[https://trac.sagemath.org/ticket/29705|Meta-ticket 29705: Modularize sagelib into separate distributions (pip-installable packages)]]
+     * see also [[https://researchseminars.org/talk/SageDays110/11/|Modularization and pip-installability of the Sage library]] (talk by Matthias Köppe at Sage Days 110)
  * [[https://trac.sagemath.org/ticket/27330|Meta-ticket 27330: spkg-configure: Try to use as many system packages as possible]]
  * [[https://trac.sagemath.org/ticket/30306|Meta-ticket 30306: Use system Jupyter notebook / JupyterLab]]
 
