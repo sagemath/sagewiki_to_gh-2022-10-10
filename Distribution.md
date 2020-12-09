@@ -122,8 +122,8 @@ or distribution-agnostic, or even OS-agnostic.
 == Gentoo: Sage-on-Gentoo ==
 
   * repository: https://github.com/cschwan/sage-on-gentoo
-  * Known test failures: https://github.com/cschwan/sage-on-gentoo/wiki/Known-test-failures
-  * admin: fbissey, cschwan
+  * Issues: https://github.com/cschwan/sage-on-gentoo/issues
+  * Maintainer: François Bissey (fbissey/kiwifb)
 
 == Homebrew ==
 
