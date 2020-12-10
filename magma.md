@@ -144,6 +144,8 @@ of polynomials (no multiplicities are needed).
 allows one to split f, assuming that one has computed f in some special way. 
 }}}
 
+These could be provided by wrapping FLINT: see the functions `fq_poly_factor_distinct_deg` and `fq_poly_factor_equal_deg` within `fq_poly_factor.h`.
+
 Sage should definitely have this, but doesn't.
 {{{
 IsSeparable(f) : RngUPolElt -> BoolElt
