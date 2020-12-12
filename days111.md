@@ -17,7 +17,7 @@ The main topic of the workshop is the development of the next generation of Sage
 
 Participants may wish to add the keyword "sd111" to tickets that they hope to work on during Sage Days 111.
 
- * [[https://trac.sagemath.org/query?keywords=~sd111|Trac ticket search: Keyword sd111]]
+ * [[https://trac.sagemath.org/query?keywords=~sd111&groupdesc=1&group=status&col=id&col=summary&col=keywords&col=owner&col=type&col=status&col=priority&order=priority|Trac ticket search: Keyword sd111]]
 
 == About SageMath ==
 
