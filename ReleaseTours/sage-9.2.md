@@ -1204,13 +1204,13 @@ Sage 9.2 has been [[https://github.com/sagemath/sage/actions/runs/326227813|test
    * macOS Catalina and older (macOS 10.x, with Xcode 11.x or Xcode 12)
    * optionally, using Homebrew
    * optionally, using conda-forge
-   * note that macOS 11 beta ("Big Sur") is ''not'' supported
+   * note that building Sage from source on macOS 11 ("Big Sur") is ''not'' supported
 
  * Windows (Cygwin-64).
 
 === Binaries ===
 
- * TBA
+ * [[https://groups.google.com/g/sage-devel/c/_vYkTlLRWWY|Instructions for installing the macOS binary on Apple Silicon (M1)]]
 
 === Availability in distributions ===
 
