@@ -86,6 +86,8 @@ in the Sage distribution.  Each SPKG is represented by a subdirectory. The struc
 of these subdirectories is explained in 
 the [[https://doc.sagemath.org/html/en/developer/packaging.html|Developer's Guide|]].
 
+Since Sage 9.2, the [[https://doc.sagemath.org/html/en/reference/spkg/|spkg section of the Sage reference manual]] is automatically generated from the information in `SAGE_ROOT/build/pkgs/`. ([[https://trac.sagemath.org/ticket/29655|Trac #29655]] improves the formatting of this information.)
+
 Use the following shell commands below to access the information from the `SAGE_ROOT/build/pkgs`
 directory of your copy of Sage:
 
@@ -104,8 +106,8 @@ For some advanced package tools, use `./sage -package`
 
 == Obsolete, duplicate, outdated ==
 
- * [[spkg|SageWiki page "spkg"]] - incomplete, outdated
- * [[http://www.sagemath.org/links-components.html|sagemath.org page "Components"]] - generated from [[https://github.com/sagemath/website/blob/master/conf/packages.yaml|a YAML file that duplicates SAGE_ROOT/build/pkgs information]], incomplete
+ * [[spkg|SageWiki page "spkg"]] - now just links to the spkg section of the reference manual
+ * [[http://www.sagemath.org/links-components.html|sagemath.org page "Components"]] - now just links to the spkg section of the reference manual
  * everything about old-style SPKGs - outdated, do not use
 
 = About this wiki =
