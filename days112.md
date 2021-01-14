@@ -30,6 +30,15 @@ The following projects have been discussed during the [[https://www.irif.fr/~cod
 
  * Check Alkauskas theorem.
 
+ * Fast approximation of top Lyapunov exponent (Pollicott via periodic orbits and determinant formula)
+   * See whether it can be extended to simplicial systems... several problems
+     * use canonical measure instead of Bernoulli measure
+     * non-negative matrices instead of positive
+
+ * Proven enclosure using ball arithmetic and remainder estimates
+   * spectrum of transfer operators
+   * top Lyapunov exponent
+   * resonances of zeta function (eg https://arxiv.org/abs/2002.03334)
 
 == Organizer ==
 
@@ -38,8 +47,25 @@ The following projects have been discussed during the [[https://www.irif.fr/~cod
 == Participants ==
 
  * [[https://fougeron.perso.math.cnrs.fr/|Charles Fougeron]]
- * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]?
+ * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
 
 == Support ==
 
 This workshop is supported by ANR CODYS.
+
+== Other events to (maybe) avoid ==
+
+
+Février
+
+ * 1 au 5 : JCB
+   https://jcb2021.labri.fr/
+
+Mars
+
+ * 1 au 5 : JNCF
+   https://sourcesup.renater.fr/www/orga-jncf/cours-2021.html
+ * 15 au 19 : Aléa
+    http://gt-alea.math.cnrs.fr/alea2021/
+ * 23 au 26 : Journées nationales du GdR IM
+   https://www.gdr-im.fr/event/journees-nationales-du-gdr-im-2020/
