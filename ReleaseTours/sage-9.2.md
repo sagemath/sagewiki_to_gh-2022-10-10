@@ -1212,6 +1212,8 @@ Sage 9.2 has been [[https://github.com/sagemath/sage/actions/runs/326227813|test
 
  * [[https://groups.google.com/g/sage-devel/c/_vYkTlLRWWY|Instructions for installing the macOS binary on Apple Silicon (M1)]]
 
+ * If you get the error `/usr/bin/env: 'python': No such file or directory. Error running the script 'relocate-once.py'.`: Make sure that you have python installed in your system. One some recent Linux distributions, there is a `python3` binary but no `python` binary. In this case, edit the first line of `relocate-once.py` to change `python` to `python3`.
+
 === Availability in distributions ===
 
 See [[https://repology.org/project/sagemath/versions|repology.org: sagemath]]
