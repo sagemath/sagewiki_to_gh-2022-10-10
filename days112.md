@@ -39,6 +39,7 @@ The following projects have been discussed during the [[https://www.irif.fr/~cod
    * spectrum of transfer operators
    * top Lyapunov exponent
    * resonances of zeta function (eg https://arxiv.org/abs/2002.03334)
+   * Hausdorff dimensions (eg the recent https://arxiv.org/abs/2012.07083)
 
 == Organizer ==
 
