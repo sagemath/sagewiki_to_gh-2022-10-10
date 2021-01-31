@@ -6,13 +6,10 @@
 
 In short: Install `sage` from [[https://conda-forge.org|conda-forge]].
 
-* Download the latest release of [[https://github.com/conda-forge/miniforge/#mambaforge|Mambaforge]], take the x86_64 one since not everything is packaged for ARM yet.
-
-* Install Mambaforge, i.e., open a Terminal, `cd Downloads` and `sh Mambaforge-MacOSX-x86_64.sh`.
-
-* Create a "sage" environment and pick a version of SageMath, i.e., open a new terminal and `mamba create -n sage sage=9.2`.
-
-* To run SageMath, activate the environment you just created and run SageMath, i.e., `source activate sage` and `sage`.
+ * Download the latest release of [[https://github.com/conda-forge/miniforge/#mambaforge|Mambaforge]], take the x86_64 one since not everything is packaged for ARM yet.
+ * Install Mambaforge, i.e., open a Terminal, `cd Downloads` and `sh Mambaforge-MacOSX-x86_64.sh`.
+ * Create a "sage" environment and pick a version of SageMath, i.e., open a new terminal and `mamba create -n sage sage=9.2`.
+ * To run SageMath, activate the environment you just created and run SageMath, i.e., `source activate sage` and `sage`.
 
 = Maintenance =
 
