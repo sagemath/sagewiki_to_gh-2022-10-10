@@ -36,8 +36,8 @@ This page aims at inventorying Live USB running sage. It is a working page to se
 
 === Links ===
 
- * Homepage: http://boxen.math.washington.edu/home/emil/doc/html/en/. 
- * Download page : http://boxen.math.washington.edu/home/emil/sagelive/
+ * Homepage: http://boxen.math.washington.edu/home/emil/doc/html/en/. (dead link)
+ * Download page : http://boxen.math.washington.edu/home/emil/sagelive/ (dead link)
  * Sources to build your own : ?
 
 === Data ===
