@@ -1,20 +1,18 @@
 {{https://conda.io/docs/_images/conda_logo.svg||width=400px}}
 
-[[https://conda.io/docs/|Conda]] packages for Linux & OSX are available through [[https://conda-forge.github.io/|conda-forge]].
+[[https://conda.io/docs/|Conda]] packages for Linux & macOS are available through [[https://conda-forge.github.io/|conda-forge]].
 
 = Setting Up =
 
-In short: Install `sage` from conda-forge.
+In short: Install `sage` from [[https://conda-forge.org|conda-forge]].
 
-To install sage on your machine (without the need for root permissions):
+* Download the latest release of [[https://github.com/conda-forge/miniforge/#mambaforge|Mambaforge]], take the x86_64 one since not everything is packaged for ARM yet.
 
- * Install [[https://github.com/conda-forge/miniforge#download|Miniforge3]]
- * export your `PATH` (and `hash -r` or `rehash`)
- * Make sure your locale is UTF-8.
- * Use conda-forge packages: `conda config --add channels conda-forge; conda config --set channel_priority strict`
- * create an environment for sage: `conda create -n sage sage`
- * enter your environment: `source activate sage`
- * enjoy: `sage`
+* Install Mambaforge, i.e., open a Terminal, `cd Downloads` and `sh Mambaforge-MacOSX-x86_64.sh`.
+
+* Create a "sage" environment and pick a version of SageMath, i.e., open a new terminal and `mamba create -n sage sage=9.2`.
+
+* To run SageMath, activate the environment you just created and run SageMath, i.e., `source activate sage` and `sage`.
 
 = Maintenance =
 
