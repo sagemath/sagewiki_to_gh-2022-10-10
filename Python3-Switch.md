@@ -36,4 +36,4 @@ make build
 }}}
 Beware that you will need to call the second line again if you ever call "make distclean".
 
-In the development versions after version 9.1 leading to [[ReleaseTours/sage-9.2|SageMath 9.2]], support for Python 2 will be removed ([[https://trac.sagemath.org/ticket/29141|Meta-ticket #29141: Remove Python 2 support for Sage 9.2; upgrades enabled by the removal]])
+Since [[ReleaseTours/sage-9.2|SageMath 9.2]], support for Python 2 has been removed.
