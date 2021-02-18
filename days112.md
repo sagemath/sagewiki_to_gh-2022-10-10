@@ -41,14 +41,35 @@ The following projects have been discussed during the [[https://www.irif.fr/~cod
    * resonances of zeta function (eg https://arxiv.org/abs/2002.03334)
    * Hausdorff dimensions (eg the recent https://arxiv.org/abs/2012.07083)
 
+Here are the project that where mentionned during the first meeting
+
+    * "Certify" (or at least check) invariant measures with SageMath [Valerie]
+
+    * First Lyapunov exponent using Pollicott https://doi.org/10.1007/s00222-010-0246-y
+
+    * Faster algorithm to compute only the k first eigenvalues (instead of the whole spectrum)
+
+    * Iterative methods for the computation of the k first eigenvalues and eignfunctions of the spectrum (the (n+1) x (n+1) matrix is obtained from the (n) x (n) matrix by adding one row and one column)... one issue is already to obtain the accuracy at n-th step.
+
+    * Higher dimensional Daudet-Flajolet-Vallée (for example Brun in dimension 2, Jacobi-Perron) : Loïck : I can try to apply the method to Brun Algorithm...)
+
 == Organizer ==
 
  * [[https://fougeron.perso.math.cnrs.fr/|Charles Fougeron]]
 
 == Participants ==
 
- * [[https://fougeron.perso.math.cnrs.fr/|Charles Fougeron]]
+ * [[https://www.irif.fr/~berthe/| Valérie Berthé]]
  * [[http://www.labri.fr/perso/vdelecro/|Vincent Delecroix]]
+ * [[https://fougeron.perso.math.cnrs.fr/|Charles Fougeron]]
+ * [[https://webusers.imj-prg.fr/~pierre-antoine.guiheneuf/|Pierre-Antoine Guihéneuf]]
+ * [[http://www.slabbe.org/ | Sébatien Labbé]]
+ * [[https://lapointemelodie.github.io/ | Mélodie Lapointe]]
+ * [[https://lhote.users.greyc.fr/web/| Loick Lhote]]
+ * Reza Mohammadpour
+ * [[https://www.irif.fr/~steiner/| Wolfgang Steiner]]
+
+
 
 == Support ==
 
