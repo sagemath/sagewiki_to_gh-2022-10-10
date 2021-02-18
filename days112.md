@@ -14,7 +14,7 @@ Please fill up the [[https://cloud.irif.fr/apps/polls/s/TbGvvG3ASKmTafFH|poll]].
 
 == Schedule ==
 
-Presentation of Daudet-Flajolet-Vallée algorithm on Gauss map [[https://wiki.sagemath.org/days112?action=AttachFile&do=get&target=Gauss+spectrum.ipynb]].
+Presentation of Daudet-Flajolet-Vallée algorithm on Gauss map [[https://wiki.sagemath.org/days112?action=AttachFile&do=get&target=Gauss+spectrum.ipynb|notebook]].
 
 
 == Projects ==
