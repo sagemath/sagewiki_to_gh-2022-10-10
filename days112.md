@@ -30,7 +30,7 @@ The following projects have been discussed during the [[https://www.irif.fr/~cod
 
  * Check Alkauskas theorem.
 
- * Fast approximation of top Lyapunov exponent (Pollicott via periodic orbits and determinant formula)
+ * Fast approximation of top Lyapunov exponent (Pollicott paper [[https://link.springer.com/article/10.1007/s00222-010-0246-y|Maximal Lyapunov exponents for random matrix products]] via periodic orbits and determinant formula)
    * See whether it can be extended to simplicial systems... several problems
      * use canonical measure instead of Bernoulli measure
      * non-negative matrices instead of positive
