@@ -41,7 +41,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
  * [[https://mjungmath.github.io/|Michael Jung]], Vrije Universiteit Amsterdam, Netherlands
  * [[https://users.fmi.uni-jena.de/~king/index.html|Simon King]],  Friedrich-Schiller-Universität Jena, Germany
  * [[https://www.math.ucdavis.edu/~mkoeppe/|Matthias Köppe]], UC Davis, USA
- * [[https://albamath.com/|Alba Málaga]], alba@albamath.com
+ * [[https://albamath.com/|Alba Málaga]], Université de Lorraine, France
  * [[https://riemann.unizar.es/~mmarco/|Miguel Marco-Buzunariz]], Universidad de Zaragoza, Spain
  * [[https://sites.google.com/view/jianping-pan|Jianping Pan]], UC Davis, USA
  * [[https://www.cs.ox.ac.uk/people/dmitrii.pasechnik/|Dima Pasechnik]], University of Oxford, UK
