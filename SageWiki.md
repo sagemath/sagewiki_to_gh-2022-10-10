@@ -64,6 +64,8 @@ Release notes (higher level than change logs) are collaboratively prepared at [[
  * [[Python3-compatible code|Writing Python 3 compatible code]]
  * [[OptiPolyGeom|Optimization and Polyhedral Geometry in Sage]]
  * [[asksage retagging]]
+ * [[Conda|Using Conda to build SageMath]]
+
 
 = Features =
 
