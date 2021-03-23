@@ -12,10 +12,11 @@ The workshop will take place on two Thusrday mornings to be determined replacing
 
 Please fill up the [[https://cloud.irif.fr/apps/polls/s/TbGvvG3ASKmTafFH|poll]].
 
-== Schedule ==
+== Material ==
 
-Presentation of Daudet-Flajolet-Vallée algorithm on Gauss map [[https://wiki.sagemath.org/days112?action=AttachFile&do=get&target=Gauss+spectrum.ipynb|notebook]].
+  * Daudet-Flajolet-Vallée algorithm on Gauss map [[https://wiki.sagemath.org/days112?action=AttachFile&do=get&target=Gauss+spectrum.ipynb|notebook]].
 
+  * Pollicott algorithm for Lyapunov exponents of random matrix products [[https://wiki.sagemath.org/days112?action=AttachFile&do=get&target=Pollicott%27s+algorithm.ipynb|notebook]].
 
 == Projects ==
 
