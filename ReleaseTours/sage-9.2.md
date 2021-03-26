@@ -1186,7 +1186,7 @@ Note: Many of these wheels include extension modules that refer to libraries in 
 
 Sage 9.2 has been [[https://github.com/sagemath/sage/actions/runs/326227813|tested to compile from source on a wide variety of platforms]], including:
 
- * Linux 64-bit (x86_64)
+ * '''Linux 64-bit''' (x86_64)
    * ubuntu-{trusty,xenial,bionic,eoan,focal,groovy}, 
    * debian-{jessie,stretch,buster,bullseye,sid}, 
    * linuxmint-{17,18,19,19.3},
@@ -1196,11 +1196,11 @@ Sage 9.2 has been [[https://github.com/sagemath/sage/actions/runs/326227813|test
    * slackware-14.2,
    * conda-forge
 
- * Linux 32-bit (i386)
+ * '''Linux 32-bit''' (i386)
    * debian-buster
    * ubuntu-eoan
 
- * macOS 
+ * '''macOS''' 
    * macOS Catalina and older (macOS 10.x, with Xcode 11.x or Xcode 12)
    * optionally, using Homebrew
    * optionally, using conda-forge
