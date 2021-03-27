@@ -1222,7 +1222,9 @@ Sage 9.2 has been [[https://github.com/sagemath/sage/actions/runs/326227813|test
 
 === Availability in distributions ===
 
-See [[https://repology.org/project/sagemath/versions|repology.org: sagemath]]
+The easiest way to install Sage 9.2 is through a distribution that provides it, see [[https://repology.org/project/sagemath/versions|repology.org: sagemath]].
+
+On macOS, the easiest way to install Sage 9.2 is using [[https://doc.sagemath.org/html/en/installation/conda.html|conda-forge]]
 
 === Installation FAQ ===
 
