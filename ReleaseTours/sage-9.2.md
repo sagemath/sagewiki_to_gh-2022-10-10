@@ -1210,6 +1210,12 @@ Sage 9.2 has been [[https://github.com/sagemath/sage/actions/runs/326227813|test
 
 === Binaries ===
 
+ * [[https://www.sagemath.org/download-linux.html|Binaries for Linux]]
+
+ * [[https://www.sagemath.org/download-mac.html|Binaries for macOS]]. '''Do not use the App version of the binary macOS package (.app.dmg)'''; it has been found to be problematic to install.
+
+ * [[https://github.com/3-manifolds/Sage_macOS/releases|A signed and notarized macOS app which runs Sage 9.2]] (new - Mar 2021)
+
  * [[https://groups.google.com/g/sage-devel/c/_vYkTlLRWWY|Instructions for installing the macOS binary on Apple Silicon (M1)]]
 
  * If you get the error `/usr/bin/env: 'python': No such file or directory. Error running the script 'relocate-once.py'.`: Make sure that you have python installed in your system. On some recent Linux distributions, there is a `python3` binary but no `python` binary. In this case, edit the first line of `relocate-once.py` to change `python` to `python3`.
