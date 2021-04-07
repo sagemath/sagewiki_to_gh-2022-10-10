@@ -205,7 +205,7 @@ Downloading tarball to ...matplotlib-3.3.1.tar.bz2
 [...............................................................]
 }}}
 When you do this, please remember to check that the `checksums.ini` file has an `upstream_url` in the format
-`upstream_url=https://pypi.io/packages/source/m/matplotlib/matplotlib-VERSION.tar.gz`. (This is not needed for `updated-latest` to work, but helps with automated tests of the upgrade ticket -- see [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#For_developers-1|Sage 9.1 release tour]] on this topic.)
+`upstream_url=https://pypi.io/packages/source/m/matplotlib/matplotlib-VERSION.tar.gz`. (This is not needed for `update-latest` to work, but helps with automated tests of the upgrade ticket -- see [[https://wiki.sagemath.org/ReleaseTours/sage-9.1#For_developers-1|Sage 9.1 release tour]] on this topic.)
 
 === For packagers: Changes to packages ===
 
