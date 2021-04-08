@@ -4,7 +4,11 @@ not started yet (2021)
 
 <<TableOfContents>>
 
-== Tickets ==
+== Goals and tickets ==
+
+ * Drop support for Python 3.6 -- enables upgrade of Python packages that have already done this 
+
+ * Add support for Python 3.10
 
  * [[https://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=new&summary=~Meta&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Open Meta-Tickets]]
 
