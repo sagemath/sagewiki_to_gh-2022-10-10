@@ -45,6 +45,52 @@ Idées et Projets en cours:
 
 == Compte-rendus ==
 
+==== jeudi 8 avril 2021 ====
+
+Suggestion de Vincent Delecroix à Pascal Weil:
+
+Inversion of a group homomorphism on the free group:
+
+Free group in SageMath:
+
+{{{
+sage: F = FreeGroup(["a", "b"])
+sage: a, b = F.gens()
+sage: phi = libgap.GroupHomomorphismByImages(F, F, [a*b, b])
+sage: phi.Inverse()
+[ a*b, b ] -> [ a, b ]
+sage: libgap.Inverse(phi)  # alternative for the above (what is actually called in GAP)
+[ a*b, b ] -> [ a, b ]
+sage: phi.Inverse().Image(a)
+a*b^-1
+sage: libgap.Image(phi.Inverse(), a)  # alternative for the above
+a*b^-1
+sage: libgap.Image(phi.Inverse(), b)
+b
+}}}
+
+Or to get the inverse image in their “SageMath version”:
+
+{{{
+sage: F(libgap.Image(phi.Inverse(), a))
+a*b^-1
+sage: F(libgap.Image(phi.Inverse(), b))
+b
+}}}
+
+Conversion to and from words:
+
+{{{
+sage: F(a*a*b*a**-1*b*b*b).Tietze()
+(1, 1, 2, -1, 2, 2, 2)
+sage: F((1,2,-1,-1))
+a*b*a^-2
+}}}
+
+==== janvier 2020 à mars 2021 ====
+
+Nous avons continué les séances sans en faire de résumé ici.
+
 ==== jeudi 16 janvier 2020 ====
 
 Présents: Sébastien, Jennifer, Pascal, Casey
