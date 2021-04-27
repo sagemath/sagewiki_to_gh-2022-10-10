@@ -214,8 +214,8 @@ viewer.browser(wslview_wslpath)    # for 3D plots
 viewer.png_viewer(wslview_wslpath) # for 2D plots
 
 # Uncomment these lines to also open DVIs and PDFs in Windows.
-#viewer.dvi_viewer(wslview)
-#viewer.pdf_viewer(wslview)
+#viewer.dvi_viewer(wslview_wslpath)
+#viewer.pdf_viewer(wslview_wslpath)
 
 # The Windows browser will be unable to access the threejs library installed
 # in WSL, so you will need to use the online version of threejs.
