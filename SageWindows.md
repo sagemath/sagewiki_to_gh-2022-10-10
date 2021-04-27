@@ -188,6 +188,55 @@ It is known to be possible to build and run Sage in both WSL and WSL 2 (though t
 
 If you just want to ''use'' Sage on Windows using WSL, install Ubuntu 20.04 LTS using [[https://docs.microsoft.com/en-us/windows/wsl/wsl2-install|WSL 2]] and then run (from within Ubuntu 20.04) `sudo apt update; sudo apt install sagemath` to install the version of Sage hosted in the Ubuntu 20.04 repositories (version 9.0 as of this writing).
 
+==== Viewing 2D/3D plots from WSL in the Windows browser ====
+
+If you want to use your Windows browser to view 2D/3D plots produced from the Sage command-line in WSL, you will need to first create a small wrapper script to translate a WSL path into a Windows path and open it with the appropriate Windows app:
+
+{{{#!highlight bash
+#!/bin/bash
+# wslview_wslpath.sh
+wslview $(wslpath -w $1)
+}}}
+
+Make sure it is executable. Assuming you placed it in your home folder:
+
+{{{#!highlight bash
+chmod +x /home/<username>/wslview_wslpath.sh
+}}}
+
+Now, add the following to your [[https://doc.sagemath.org/html/en/reference/repl/startup.html#the-init-sage-script|init.sage]]:
+
+{{{#!highlight python
+# Open 2D/3D plots in Windows browser.
+wslview_wslpath = '/home/<username>/wslview_wslpath.sh'
+from sage.misc.viewer import viewer
+viewer.browser(wslview_wslpath)    # for 3D plots
+viewer.png_viewer(wslview_wslpath) # for 2D plots
+
+# Uncomment these lines to also open DVIs and PDFs in Windows.
+#viewer.dvi_viewer(wslview)
+#viewer.pdf_viewer(wslview)
+
+# The Windows browser will be unable to access the threejs library installed
+# in WSL, so you will need to use the online version of threejs.
+sage.plot.plot3d.base.SHOW_DEFAULTS['online'] = True	
+}}}
+
+==== Launching Jupyter/JupyterLab from WSL in the Windows browser ====
+
+If you want to launch Jupyter/JupyterLab in your Windows browser, you will need to make a small config change. First, [[https://jupyter-notebook.readthedocs.io/en/stable/config.html|generate a config file]] if you haven't already done so using one of:
+
+{{{#!highlight bash
+sage --jupyter notebook --generate-config
+sage --jupyter lab --generate-config
+}}}
+
+Then, open the config file and make sure the option `use_redirect_file` is set to `False`:
+
+{{{#!highlight python
+c.NotebookApp.use_redirect_file = False
+}}}
+
 === CoCalc ===
 
 [[https://cocalc.com/|CoCalc]] (formerly SageMathCloud) is a collaborative cloud-based computing environment, originally designed for using Sage in the cloud.  Through CoCalc you can run Sage either in its command-line interface, or in a Jupyter Notebook, all through your web browser on a cloud-hosted environment, meaning you don't have to install any software (other than a web browser), but that you also need an internet connection.
