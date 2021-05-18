@@ -12,6 +12,10 @@ not started yet (2021)
 
  * Add support for gcc 11
 
+ * Add support for macOS Big Sur that does not depend on homebrew's gcc@10
+
+ * Drop support for optional packages with system gcc 4.x
+
  * [[https://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=new&summary=~Meta&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Open Meta-Tickets]]
 
  * [[https://trac.sagemath.org/query?milestone=sage-9.4&groupdesc=1&group=status&max=1500&col=id&col=summary&col=author&col=reviewer&col=time&col=changetime&col=component&col=keywords&order=component|Trac tickets with milestone 9.4]]
