@@ -1,6 +1,6 @@
 = Sage 9.4 Release Tour =
 
-not started yet (2021)
+current development cycle (2021)
 
 <<TableOfContents>>
 
@@ -22,6 +22,6 @@ not started yet (2021)
 
 == Availability of Sage 9.4 and installation help ==
 
-The 9.4 series has not been started yet.
+The first beta of the 9.4 series, 9.4.beta0, was tagged on 2021-05-26.
 
  * See [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]] for development discussions and [[https://groups.google.com/forum/#!forum/sage-release|sage-release]] for announcements of beta versions and release candidates.
