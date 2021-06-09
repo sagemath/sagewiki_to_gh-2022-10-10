@@ -9,6 +9,10 @@ Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|La
 
 Pour être tenu informé vous pouvez vous abonner à la [[https://diff.u-bordeaux.fr/sympa/info/sage-bordeaux|liste de diffusion]].
 
+== Séance introduction 10 juin 2021 ==
+
+* [[https://www.labri.fr/perso/vdelecro/presentations/presentation-Sage-2021-Bordeaux.pdf|pdf de présentation (Vincent Delecroix)]]
+
 == Débutants ==
 
  * Pour apprendre Python, on recommande la lecture de [[http://openbookproject.net/thinkcs/python/english3e/|How to Think Like a Computer Scientist]]
