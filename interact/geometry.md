@@ -86,9 +86,7 @@ by Antonio Valdés and Pablo Angulo. This example was originally composed of two
  - the first allowing the user to introduce a parametric surface, and draw it.
  - the second drawing a geodesic within the surface. 
 The separation was so that after the first interact, the geodesic equations were "compiled", thus making the second interact faster.
-
-This still looks as a good idea to me, so please read the original code at https://malabares.cancamusa.net/home/pub/14/
-But the following is fixed so that there is only one interact, and sagecell works. There might be another way yto 
+However, in the following there is only one interact, to make sagecell works.
 
 {{{#!sagecell
 from scipy.integrate import odeint
