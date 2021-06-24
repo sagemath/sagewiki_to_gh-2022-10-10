@@ -81,7 +81,7 @@ def _( gamma1=input_box(default=sin(t)), gamma2=input_box(default=1.3*cos(t)),
 {{attachment:evoluta3.png}}
 
 
-== Geodesics on a parametric surface ==
+== Geodesics on a parametric surface FIXME ==
 by Antonio Valdés and Pablo Angulo. This example was originally composed of two interacts: 
  - the first allowing the user to introduce a parametric surface, and draw it.
  - the second drawing a geodesic within the surface. 
