@@ -81,4 +81,4 @@ def _(f = cos(z)/(z^4-1),
                               quad_integral))
     cauchy_residue_plot(f, gamma).show(figsize=(8,8))
 }}}
-{{attachment:geodesics1.png}}
+{{attachment:residues_lemniscate.png}}
