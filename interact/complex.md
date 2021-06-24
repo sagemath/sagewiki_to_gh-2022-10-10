@@ -72,7 +72,7 @@ def _(f = cos(z)/(z^4-1),
       gamma = 2*(cos(t)/(1+sin(t)^2) + i*sin(t)*cos(t)/(1+sin(t)^2))):
     residues, residue_integral, quad_integral = cauchy_residue(f, gamma)
     show('Residues:', residues)
-    pretty_print(HtmlFragment(r'$\int_\gamma f(z)\: d z = %s$'%
+    pretty_print(HtmlFragment(r'$\int_\gamma f(z)\: d z = 2\pi i \left(%s\right)$'%
          (' + '.join(r'%s\cdot %s'%(latex(win), latex(res)) 
                      for z0,res,win in residues))))
     pretty_print(HtmlFragment(r'$\int_\gamma f(z)\: d z = %s$'%
