@@ -238,7 +238,7 @@ def render(Display=selector(['2D Perspective', '2D Spring-layout', '3D']), Dimen
 }}}
 {{attachment:dimensions.png}}
 
-== Crofton's formula ==
+== Crofton's formula FIXME ==
 by Pablo Angulo. Illustrates [[http://en.wikipedia.org/wiki/Crofton%27s_formula| Crofton's formula]] by throwing some random lines and computing the intersection number with a given curve. May use either solve for exact computation of the intersections, or may also approximate the curve by straight segments (this is the default).
 
 {{{#!sagecell
