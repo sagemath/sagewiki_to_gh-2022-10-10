@@ -17,6 +17,7 @@ Examples:
  * [[interact/algebra|Algebra]]
  * [[interact/bio|Bioinformatics]]
  * [[interact/calculus|Calculus]]
+ * [[interact/complex|Complex Analysis]]
  * [[interact/cryptography|Cryptography]]
  * [[interact/diffeq|Differential Equations]]
  * [[interact/graphics|Drawing Graphics]]
