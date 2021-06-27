@@ -25,9 +25,10 @@ You can develop Sage without building any of its dependencies (experimental). On
 {{{
 $ export SAGE_NUM_THREADS=24
 $ conda install mamba
-$ mamba create -n sage-build sage boost-cpp openblas compilers
+$ mamba create -n sage-build python=3.9 gettext autoconf automake libtool
 $ conda activate sage-build
-$ mamba uninstall --force sagelib
+$ ./bootstrap
+$ mamba env update -n sage-build -f src/environment-optional.yml
 $ ./configure --prefix=$CONDA_PREFIX
 $ cd src
 $ python setup.py install
