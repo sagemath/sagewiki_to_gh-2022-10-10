@@ -30,7 +30,7 @@ $ conda activate sage-build
 $ ./bootstrap
 $ mamba env update -n sage-build -f src/environment-optional.yml
 $ conda activate sage-build
-$ ./configure
+$ ./configure --with-python=$CONDA_PREFIX/bin/python --with-system-gcc=force
 $ cd src
 $ python setup.py install
 $ sage -c 'print(version())'
