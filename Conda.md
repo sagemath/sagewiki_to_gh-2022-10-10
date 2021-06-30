@@ -29,6 +29,7 @@ $ mamba create -n sage-build python=3.9 gettext autoconf automake libtool
 $ conda activate sage-build
 $ ./bootstrap
 $ mamba env update -n sage-build -f src/environment-optional.yml
+$ conda activate sage-build
 $ ./configure --prefix=$CONDA_PREFIX
 $ cd src
 $ python setup.py install
