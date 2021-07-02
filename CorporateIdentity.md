@@ -4,9 +4,11 @@ You will find here a selection of modern logos and icons for !SageMath.
 
 There is also a repository on Github: [[https://github.com/sagemath/artwork | github.com/sagemath/artwork]].
 
-== Logos and icons ==
+== Logo ==
 
 [[attachment:logo_sagemath.svg|{{attachment:logo_sagemath.svg||width=40%}}]] 
+
+== Logos with translated motto ==
 
 [[attachment:logo_sagemath_opensource.svg|{{attachment:logo_sagemath_opensource.svg||width=40%}}]]
 [[attachment:logo_sagemath_opensource_fr.svg|{{attachment:logo_sagemath_opensource_fr.svg||width=40%}}]] 
@@ -21,6 +23,8 @@ There is also a repository on Github: [[https://github.com/sagemath/artwork | gi
 [[attachment:logo_sagemath_opensource_kr.svg|{{attachment:logo_sagemath_opensource_kr.svg||width=40%}}]] 
 
 [[attachment:logo_sagemath_opensource_zh.svg|{{attachment:logo_sagemath_opensource_zh.svg||width=40%}}]] 
+
+== Logos for web components ==
 
 [[attachment:logo_sagemath_trac.svg|{{attachment:logo_sagemath_trac.svg||width=40%}}]]
 [[attachment:logo_sagemath_wiki.svg|{{attachment:logo_sagemath_wiki.svg||width=40%}}]] 
