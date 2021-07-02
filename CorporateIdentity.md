@@ -34,6 +34,8 @@ There is also a repository on Github: [[https://github.com/sagemath/artwork | gi
 
 [[attachment:logo_sagemath_cell.svg|{{attachment:logo_sagemath_cell.svg||width=40%}}]] 
 
+== Icons ==
+
 [[attachment:icon_sagemath_round.svg|{{attachment:icon_sagemath_round.svg||width=20%}}]]
 [[attachment:icon_sagemath_round_v2.svg|{{attachment:icon_sagemath_round_v2.svg||width=20%}}]]
 [[attachment:logo_v3.svg|{{attachment:logo_v3.svg||width=20%}}]]
