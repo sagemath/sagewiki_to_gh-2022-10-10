@@ -35,6 +35,7 @@ panke                   gh-kliem
 pascaline               slelievre
 pbua                    novoselt
 pc72-math               dkrenn (and behackl and cheuberg)
+pell                    galipnik
 petitbonum              chapoton
 poseidon                kdilks
 quasar                  vdelecroix
