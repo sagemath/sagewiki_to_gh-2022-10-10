@@ -20,6 +20,8 @@ There is also a repository on Github: [[https://github.com/sagemath/artwork | gi
 [[attachment:logo_sagemath_opensource_jp.svg|{{attachment:logo_sagemath_opensource_jp.svg||width=40%}}]] 
 [[attachment:logo_sagemath_opensource_kr.svg|{{attachment:logo_sagemath_opensource_kr.svg||width=40%}}]] 
 
+[[attachment:logo_sagemath_opensource_zh.svg|{{attachment:logo_sagemath_opensource_zh.svg||width=40%}}]] 
+
 [[attachment:logo_sagemath_trac.svg|{{attachment:logo_sagemath_trac.svg||width=40%}}]]
 [[attachment:logo_sagemath_wiki.svg|{{attachment:logo_sagemath_wiki.svg||width=40%}}]] 
 
