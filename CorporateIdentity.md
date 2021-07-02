@@ -43,9 +43,8 @@ There is also a repository on Github: [[https://github.com/sagemath/artwork | gi
 
 == Wallpaper ==
 
-[[attachment:wallpaper_sagemath2.svg|{{attachment:wallpaper_sagemath2.svg||width=80%}}]] 
-
-[[attachment:wallpaper_sagemath_green.svg|{{attachment:wallpaper_sagemath_green.svg||width=80%}}]] 
+[[attachment:wallpaper_sagemath2.svg|{{attachment:wallpaper_sagemath2.svg||width=40%}}]] 
+[[attachment:wallpaper_sagemath_green.svg|{{attachment:wallpaper_sagemath_green.svg||width=40%}}]] 
 
 == Color scheme ==
 
