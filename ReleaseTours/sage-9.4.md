@@ -22,6 +22,18 @@ current development cycle (2021)
 
  * [[https://trac.sagemath.org/query?milestone=sage-9.4&groupdesc=1&group=status&max=1500&col=id&col=summary&col=author&col=reviewer&col=time&col=changetime&col=component&col=keywords&order=component|Trac tickets with milestone 9.4]]
 
+== Symbolics ==
+
+=== Extended interface with SymPy ===
+
+ * `_sympy_` methods for matrices and vectors [[https://trac.sagemath.org/ticket/31942|#31942]]
+
+ * Wrapper class for Sage sets as !SymPy sets [[https://trac.sagemath.org/ticket/31938|#31938]]
+
+ * `_sympy_` methods for some parent classes [[https://trac.sagemath.org/ticket/31931|#31931]]
+
+Meta-ticket: Connect Sage sets to !SymPy sets [[https://trac.sagemath.org/ticket/31926|#31926]]	
+
 == Configuration changes ==
 
  * Drop support for system Python 3.6 (deprecated in Sage 9.3). [[https://trac.sagemath.org/ticket/30551|#30551]]
