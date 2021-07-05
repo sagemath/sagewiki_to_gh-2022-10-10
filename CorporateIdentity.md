@@ -1,6 +1,6 @@
 = Logos and icons =
 
-You will find here a selection of modern logos and icons for !SageMath.
+You will find here a selection of logos and icons for !SageMath.
 
 There is also a repository on Github: [[https://github.com/sagemath/artwork | github.com/sagemath/artwork]].
 
