@@ -3,15 +3,11 @@
 
 ''les jeudis 10h à 12h en salle 74 VISIO du LaBRI ou/et sur [[https://gather.town/app/Hb6OqcTlc4zMgu4b/LaBRI|gathertown salle 178]].''
 
-''Prochaine séance: 10 juin 2021 Introduction à SageMath''
+''Prochaine séance: 14 juillet 2021''
 
 Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour discuter et programmer autour des logiciels de calculs formels. Les journées restent centrées sur [[http://www.sagemath.org/|Sage]] et [[http://pari.math.u-bordeaux.fr/|PARI/GP]] mais elles sont ouvertes à tous/toutes. Le principe est que si vous avez des questions vous venez les poser et si vous savez des choses vous venez les partager. Certains jeudi seront centrés sur des thématiques sous forme de mini-cours ou démonstration.
 
 Pour être tenu informé vous pouvez vous abonner à la [[https://diff.u-bordeaux.fr/sympa/info/sage-bordeaux|liste de diffusion]].
-
-== Séance introduction 10 juin 2021 ==
-
-* [[https://www.labri.fr/perso/vdelecro/presentations/presentation-Sage-2021-Bordeaux.pdf|pdf de présentation (Vincent Delecroix)]]
 
 == Débutants ==
 
@@ -51,6 +47,10 @@ Idées et Projets en cours:
  * nettoyer le code de Milton sur les substitutions géométriques (Ek star)
 
 == Compte-rendus ==
+
+== Séance introduction 10 juin 2021 ==
+
+* [[https://www.labri.fr/perso/vdelecro/presentations/presentation-Sage-2021-Bordeaux.pdf|pdf de présentation (Vincent Delecroix)]]
 
 ==== jeudi 8 avril 2021 ====
 
