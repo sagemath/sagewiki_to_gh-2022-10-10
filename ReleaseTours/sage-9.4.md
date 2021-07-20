@@ -47,7 +47,9 @@ Matrix([
 }}}
 Work is underway to make !SymPy's symbolic linear algebra methods available in Sage via this route.
 
-All sets and algebraic structures (`Parent`s) of !SageMath are now accessible to !SymPy by way of a wrapper class, which implements the [[https://docs.sympy.org/latest/modules/sets.html#set|SymPy Set API]]. [[https://trac.sagemath.org/ticket/31938|#31938]]
+Sage has added a formal set membership function `element_of` for use in symbolic expressions; it converts to a !SymPy's `Contains` expression. [[https://trac.sagemath.org/ticket/24171|#24171]]
+
+Moreover, all sets and algebraic structures (`Parent`s) of !SageMath are now accessible to !SymPy by way of a wrapper class, which implements the [[https://docs.sympy.org/latest/modules/sets.html#set|SymPy Set API]]. [[https://trac.sagemath.org/ticket/31938|#31938]]
 {{{
 sage: F = Family([2, 3, 5, 7]); F
 Family (2, 3, 5, 7)
