@@ -31,7 +31,7 @@ The [[https://www.sympy.org/en/index.html|SymPy]] package has been updated to ve
 !SageMath has a bidirectional interface with !SymPy. Symbolic expressions in Sage provide a `_sympy_` method, which converts to !SymPy; also, Sage attaches `_sage_` methods to various SymPy classes, which provide the opposite conversion.
 
 In Sage 9.4, several conversions have been added. Now there is a bidirectional interface as well for 
-matrices and vectors [[https://trac.sagemath.org/ticket/31942|#31942]].
+matrices and vectors. [[https://trac.sagemath.org/ticket/31942|#31942]]
 {{{
 sage: M = matrix([[sin(x), cos(x)], [-cos(x), sin(x)]]); M
 [ sin(x)  cos(x)]
@@ -91,6 +91,25 @@ sage: (RealSet(1, 2).union(RealSet.closed(3, 4)))._sympy_()
 Union(Interval.open(1, 2), Interval(3, 4))
 }}}
 See [[https://trac.sagemath.org/ticket/31926|Meta-ticket #31926: Connect Sage sets to SymPy sets]]
+
+== Convex geometry ==
+
+=== ABC for convex sets ===
+
+Sage 9.4 has added an abstract base class `ConvexSet_base` (as well as abstract subclasses `ConvexSet_closed`, `ConvexSet_compact`, `ConvexSet_relatively_open`, `ConvexSet_open`) for convex subsets of finite-dimensional vector spaces.  The abstract methods and default implementations of methods provide a unifying API to the existing classes `Polyhedron_base`, `ConvexRationalPolyhedralCone`, `LatticePolytope`, and `PolyhedronFace`. [[https://trac.sagemath.org/ticket/31919|#31919]], [[https://trac.sagemath.org/ticket/31959|#31959]], [[https://trac.sagemath.org/ticket/31990|#31990]]
+
+As part of the API, there are new methods for point-set topology such as `is_open`, `relative_interior`, and `closure`.  For example, taking the `relative_interior` of a polyhedron constructs an instance of `RelativeInterior`, a simple object that provides a `__contains__` method and all other methods of the `ConvexSet_base` API. [[https://trac.sagemath.org/ticket/31916|#31916]]
+{{{
+sage: P = Polyhedron(vertices=[(1,0), (-1,0)])
+sage: ri_P = P.relative_interior(); ri_P
+Relative interior of
+ a 1-dimensional polyhedron in ZZ^2 defined as the convex hull of 2 vertices
+sage: (0, 0) in ri_P
+True
+sage: (1, 0) in ri_P
+False
+}}}
+
 
 
 == Configuration changes ==
