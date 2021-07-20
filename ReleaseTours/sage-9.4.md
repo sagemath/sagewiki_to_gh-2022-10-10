@@ -105,6 +105,17 @@ False
 
 == Manifolds ==
 
+=== Defining submanifolds and manifold subsets by pullbacks from Sage sets ===
+
+pullbacks [[https://trac.sagemath.org/ticket/31688|#31688]]
+
+`Polyhedron.affine_hull_manifold` [[https://trac.sagemath.org/ticket/31659|#31659]]
+
+
+=== Families and posets of manifold subsets ===
+
+[[https://trac.sagemath.org/ticket/31740|Meta-ticket #31740]]
+
 
 == Configuration changes ==
 
