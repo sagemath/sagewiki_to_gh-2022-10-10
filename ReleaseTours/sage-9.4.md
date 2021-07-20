@@ -118,7 +118,9 @@ It is still possible to build the Sage distribution on systems with old Python v
 
 Sage is phasing out its support for building from source using very old compilers from the gcc 4.x series.
 
-As of Sage 9.4, on systems such as `ubuntu-trusty` (Ubuntu 14.04), `debian-jessie` (8), `linuxmint-17`, and `centos-7` that only provide gcc from the outdated 4.x series, it is still supported to build Sage from source with the system compilers.  However, building optional and experimental packages is no longer supported, and we have removed these configurations from our CI.  Users in scientific computing environments using these platforms should urge their system administrators to upgrade to a newer distribution, or at least to a newer toolchain. [[https://trac.sagemath.org/ticket/31526|#31526]]
+As of Sage 9.4, on systems such as `ubuntu-trusty` (Ubuntu 14.04), `debian-jessie` (8), `linuxmint-17`, and `centos-7` that only provide gcc from the outdated 4.x series, it is still supported to build Sage from source with the system compilers.  However, building optional and experimental packages is no longer supported, and we have removed these configurations from our CI.  
+
+Users in scientific computing environments using these platforms should urge their system administrators to upgrade to a newer distribution, or at least to a newer toolchain. [[https://trac.sagemath.org/ticket/31526|#31526]]
 
 
 === ./configure --prefix=SAGE_LOCAL --with-sage-venv=SAGE_VENV ===
