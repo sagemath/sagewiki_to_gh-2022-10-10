@@ -62,11 +62,36 @@ sage: len(sF)
 sage: sF.is_finite_set                # SymPy property
 True
 }}}
+Finite or infinite, we can wrap it:
+{{{
+sage: W = WeylGroup(["A",1,1])
+sage: sW = W._sympy_(); sW
+SageSet(Weyl Group of type ['A', 1, 1] (as a matrix group acting on the root space))
+sage: sW.is_finite_set
+False
+sage: sW.is_iterable
+True
+sage: sB3 = WeylGroup(["B", 3])._sympy_(); sB3
+SageSet(Weyl Group of type ['B', 3] (as a matrix group acting on the ambient space))
+sage: len(sB3)
+48
+}}}
+Some parents or constructions have a more specific conversion to !SymPy [[https://trac.sagemath.org/ticket/31931|#31931]].
+{{{
+sage: ZZ3 = cartesian_product([ZZ, ZZ, ZZ])
+sage: sZZ3 = ZZ3._sympy_(); sZZ3
+ProductSet(Integers, Integers, Integers)
+sage: (1, 2, 3) in sZZ3
 
+sage: NN = NonNegativeIntegers()
+sage: NN._sympy_()
+Naturals0
 
- * `_sympy_` methods for some parent classes [[https://trac.sagemath.org/ticket/31931|#31931]]
+sage: (RealSet(1, 2).union(RealSet.closed(3, 4)))._sympy_()
+Union(Interval.open(1, 2), Interval(3, 4))
+}}}
+See [[https://trac.sagemath.org/ticket/31926|Meta-ticket #31926: Connect Sage sets to SymPy sets]]
 
-Meta-ticket: Connect Sage sets to !SymPy sets [[https://trac.sagemath.org/ticket/31926|#31926]]	
 
 == Configuration changes ==
 
