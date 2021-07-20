@@ -114,7 +114,7 @@ It was already deprecated in Sage 9.3. [[https://trac.sagemath.org/ticket/30551|
 
 It is still possible to build the Sage distribution on systems with old Python versions, but Sage will build its own copy of Python 3.9.x in this case.
 
-=== Drop support for optional packages with system gcc 4.x ===
+=== Support for optional packages on systems with gcc 4.x dropped ===
 
 Sage is phasing out its support for building from source using very old compilers from the gcc 4.x series.
 
