@@ -112,12 +112,28 @@ sage: (1, 0) in ri_P
 False
 }}}
 
+=== Polyhedral geometry ===
+
+
+== Manifolds ==
 
 
 == Configuration changes ==
 
- * Drop support for system Python 3.6 (deprecated in Sage 9.3). [[https://trac.sagemath.org/ticket/30551|#30551]]
-  It is still possible to build the Sage distribution on systems with old Python versions, but Sage will build its own copy of Python 3.9.x in this case.
+=== Support for system Python 3.6 dropped ===
+
+It was already deprecated in Sage 9.3. [[https://trac.sagemath.org/ticket/30551|#30551]]
+
+It is still possible to build the Sage distribution on systems with old Python versions, but Sage will build its own copy of Python 3.9.x in this case.
+
+=== configure --with-sage-venv=SAGE_VENV ===
+
+[[https://trac.sagemath.org/ticket/29013|#29013]]
+
+
+== Package upgrades ==
+
+
 
 
 == Availability of Sage 9.4 and installation help ==
