@@ -28,7 +28,7 @@ current development cycle (2021)
 
 The [[https://www.sympy.org/en/index.html|SymPy]] package has been updated to version 1.8.
 
-!SageMath has a bidirectional interface with !SymPy. Symbolic expressions in Sage provide a `_sympy_` method, which converts to !SymPy; also, Sage attaches `_sage_` methods to various SymPy classes, which provide the opposite conversion.
+!SageMath has a bidirectional interface with !SymPy. Symbolic expressions in Sage provide a `_sympy_` method, which converts to !SymPy; also, Sage attaches `_sage_` methods to various !SymPy classes, which provide the opposite conversion.
 
 In Sage 9.4, several conversions have been added. Now there is a bidirectional interface as well for 
 matrices and vectors. [[https://trac.sagemath.org/ticket/31942|#31942]]
