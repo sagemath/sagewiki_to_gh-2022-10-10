@@ -26,9 +26,43 @@ current development cycle (2021)
 
 === Extended interface with SymPy ===
 
- * `_sympy_` methods for matrices and vectors [[https://trac.sagemath.org/ticket/31942|#31942]]
+The [[https://www.sympy.org/en/index.html|SymPy]] package has been updated to version 1.8.
 
- * Wrapper class for Sage sets as !SymPy sets [[https://trac.sagemath.org/ticket/31938|#31938]]
+!SageMath has a bidirectional interface with !SymPy. Symbolic expressions in Sage provide a `_sympy_` method, which converts to !SymPy; also, Sage attaches `_sage_` methods to various SymPy classes, which provide the opposite conversion.
+
+In Sage 9.4, several conversions have been added. Now there is a bidirectional interface as well for 
+matrices and vectors [[https://trac.sagemath.org/ticket/31942|#31942]].
+{{{
+sage: M = matrix([[sin(x), cos(x)], [-cos(x), sin(x)]]); M
+[ sin(x)  cos(x)]
+[-cos(x)  sin(x)]
+sage: sM = M._sympy_(); sM
+Matrix([
+[ sin(x), cos(x)],
+[-cos(x), sin(x)]])
+sage: sM.subs(x, pi/4)           # computation in SymPy
+Matrix([
+[ sqrt(2)/2, sqrt(2)/2],
+[-sqrt(2)/2, sqrt(2)/2]])
+}}}
+Work is underway to make !SymPy's symbolic linear algebra methods available in Sage via this route.
+
+All sets and algebraic structures (`Parent`s) of !SageMath are now accessible to !SymPy by way of a wrapper class, which implements the [[https://docs.sympy.org/latest/modules/sets.html#set|SymPy Set API]]. [[https://trac.sagemath.org/ticket/31938|#31938]]
+{{{
+sage: F = Family([2, 3, 5, 7]); F
+Family (2, 3, 5, 7)
+sage: sF = F._sympy_(); sF
+SageSet(Family (2, 3, 5, 7))          # this is how the wrapper prints
+sage: sF._sage_() is F
+True                                  # bidirectional
+sage: bool(sF)
+True
+sage: len(sF)
+4
+sage: sF.is_finite_set                # SymPy property
+True
+}}}
+
 
  * `_sympy_` methods for some parent classes [[https://trac.sagemath.org/ticket/31931|#31931]]
 
