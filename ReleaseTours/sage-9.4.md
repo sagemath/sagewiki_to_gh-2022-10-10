@@ -6,8 +6,6 @@ current development cycle (2021)
 
 == Goals and tickets ==
 
- * Add support for Python 3.10
-
  * Add support for gcc 11
 
  * Add support for macOS Big Sur that does not depend on homebrew's gcc@10
@@ -126,7 +124,7 @@ It was already deprecated in Sage 9.3. [[https://trac.sagemath.org/ticket/30551|
 
 It is still possible to build the Sage distribution on systems with old Python versions, but Sage will build its own copy of Python 3.9.x in this case.
 
-=== configure --with-sage-venv=SAGE_VENV ===
+=== ./configure --prefix=SAGE_LOCAL --with-sage-venv=SAGE_VENV ===
 
 [[https://trac.sagemath.org/ticket/29013|#29013]]
 
