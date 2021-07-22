@@ -136,9 +136,10 @@ Users in scientific computing environments using these platforms should urge the
 === For developers: ./configure --prefix=SAGE_LOCAL --with-sage-venv=SAGE_VENV ===
 
 Sage 9.4 makes it possible to configure the build to make a distinction between:
-* the installation tree for non-Python packages (`SAGE_LOCAL`, which defaults to `SAGE_ROOT/local` and can be set using the `configure` option `--prefix`), and
-* the installation tree (virtual environment) for Python packages (`SAGE_VENV`).
-By default, `SAGE_VENV` is just the same as `SAGE_LOCAL`, but it can be set to an arbitrary directory using the `configure` option `--with-sage-venv`.
+
+ * the installation tree for non-Python packages (`SAGE_LOCAL`, which defaults to `SAGE_ROOT/local` and can be set using the `configure` option `--prefix`), and
+
+ * the installation tree (virtual environment) for Python packages (`SAGE_VENV`). By default, `SAGE_VENV` is just the same as `SAGE_LOCAL`, but it can be set to an arbitrary directory using the `configure` option `--with-sage-venv`.
 
 Package installation records are kept within each tree, and thus separately. This allows developers to switch between different system Python versions without having to rebuild the whole set of non-Python packages. See [[https://trac.sagemath.org/ticket/29013|#29013]] for details.
 
