@@ -156,9 +156,18 @@ Set-theoretic union of
 
 === Defining submanifolds and manifold subsets by pullbacks from Sage sets ===
 
-pullbacks [[https://trac.sagemath.org/ticket/31688|#31688]]
+Given a continuous map Φ from a topological or differentiable manifold `N` and a subset `S` of the codomain of Φ, we define the pullback (preimage) of `S` as the subset of `N` of points `p` with `Φ(p)` in `S`. [[https://trac.sagemath.org/ticket/31688|#31688]]
 
-`Polyhedron.affine_hull_manifold` [[https://trac.sagemath.org/ticket/31659|#31659]]
+Generically, such pullbacks are represented by instances of `ManifoldSubsetPullback`. But because `Phi` is continuous, topological closures and interiors pull back accordingly. Hence, in some cases we are able to give the pullback additional structure, such as creating submanifold rather than merely a manifold subset.
+
+In addition to the case when Φ is a continuous map between manifolds, there are two situations that connect Sage manifolds to sets defined by other components of Sage: 
+
+ * If `Φ: N -> R` is a real scalar field, then any `RealSet` `S` (i.e., a finite union of intervals) can be pulled back.
+
+ * If `Φ` is a chart – viewed as a continuous function from the chart's domain to R^n^ – then any subset of `R^n` can be pulled back to define a manifold subset. This can be polyhedra, lattices, or linear subspaces, or really any object with a `__contains__` method. 
+
+
+In a similar direction, the new method `Polyhedron.affine_hull_manifold` makes the affine hull of a polyhedron available as a Riemannian submanifold embedded into the ambient Euclidean space. [[https://trac.sagemath.org/ticket/31659|#31659]] 
 
 
 === Families and posets of manifold subsets ===
