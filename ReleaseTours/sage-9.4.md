@@ -4,12 +4,6 @@ current development cycle (2021)
 
 <<TableOfContents>>
 
-== Goals and tickets ==
-
- * Add support for gcc 11
-
- * Add support for macOS Big Sur that does not depend on homebrew's gcc@10
-
 == Symbolics ==
 
 === Extended interface with SymPy ===
@@ -118,6 +112,13 @@ pullbacks [[https://trac.sagemath.org/ticket/31688|#31688]]
 
 
 == Configuration changes ==
+
+=== Support for system gcc/g++/gfortran 11 added ===
+
+Sage can now be built using GCC 11. [[https://trac.sagemath.org/ticket/31786|#31786]]
+
+This enables building Sage using the default compiler on Fedora 34, and on macOS with homebrew using the default compilers. (Previously, in Sage 9.3, specific older versions of the compilers had to be installed.)
+
 
 === Support for system Python 3.6 dropped ===
 
