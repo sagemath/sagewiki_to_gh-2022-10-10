@@ -60,7 +60,7 @@ SageSet(Weyl Group of type ['B', 3] (as a matrix group acting on the ambient spa
 sage: len(sB3)
 48
 }}}
-Some parents or constructions have a more specific conversion to !SymPy [[https://trac.sagemath.org/ticket/31931|#31931]].
+Some parents or constructions have a more specific conversion to !SymPy. [[https://trac.sagemath.org/ticket/31931|#31931]], [[https://trac.sagemath.org/ticket/32015|#32015]]
 {{{
 sage: ZZ3 = cartesian_product([ZZ, ZZ, ZZ])
 sage: sZZ3 = ZZ3._sympy_(); sZZ3
@@ -73,6 +73,20 @@ Naturals0
 
 sage: (RealSet(1, 2).union(RealSet.closed(3, 4)))._sympy_()
 Union(Interval.open(1, 2), Interval(3, 4))
+
+sage: X = Set(QQ).difference(Set(ZZ)); X
+Set-theoretic difference of
+ Set of elements of Rational Field and
+ Set of elements of Integer Ring
+sage: X._sympy_()
+Complement(Rationals, Integers)
+
+sage: X = Set(ZZ).difference(Set(QQ)); X
+Set-theoretic difference of
+ Set of elements of Integer Ring and
+ Set of elements of Rational Field
+sage: X._sympy_()
+EmptySet
 }}}
 See [[https://trac.sagemath.org/ticket/31926|Meta-ticket #31926: Connect Sage sets to SymPy sets]]
 
