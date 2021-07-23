@@ -31,7 +31,7 @@ Work is underway to make !SymPy's symbolic linear algebra methods available in S
 
 Sage has added a formal set membership function `element_of` for use in symbolic expressions; it converts to a !SymPy's `Contains` expression. [[https://trac.sagemath.org/ticket/24171|#24171]]
 
-Moreover, all sets and algebraic structures (`Parent`s) of !SageMath are now accessible to !SymPy by way of a wrapper class, which implements the [[https://docs.sympy.org/latest/modules/sets.html#set|SymPy Set API]]. [[https://trac.sagemath.org/ticket/31938|#31938]]
+Moreover, all sets and algebraic structures (`Parent`s) of !SageMath are now accessible to !SymPy by way of a wrapper class `SageSet`, which implements the [[https://docs.sympy.org/latest/modules/sets.html#set|SymPy Set API]]. [[https://trac.sagemath.org/ticket/31938|#31938]]
 {{{
 sage: F = Family([2, 3, 5, 7]); F
 Family (2, 3, 5, 7)
@@ -75,6 +75,36 @@ sage: (RealSet(1, 2).union(RealSet.closed(3, 4)))._sympy_()
 Union(Interval.open(1, 2), Interval(3, 4))
 }}}
 See [[https://trac.sagemath.org/ticket/31926|Meta-ticket #31926: Connect Sage sets to SymPy sets]]
+
+=== ConditionSet ===
+
+Sage 9.4 introduces a class `ConditionSet` for subsets of a parent (or another set) consisting of elements that satisfy the logical "and" of finitely many predicates.
+
+The name `ConditionSet` is borrowed from !SymPy. In fact, if the given predicates (condition) are symbolic, a `ConditionSet` can be converted to a !SymPy `ConditionSet`; the `_sympy_` method falls back to creating a `SageSet` wrapper otherwise.
+
+=== symbolic_expression(lambda x, y: ...) ===
+
+Sage 9.4 has added a new way to create callable symbolic expressions. [[https://trac.sagemath.org/ticket/32103|#32103]]
+
+The global function `symbolic_expression` now accepts a callable such as those created by `lambda` expressions. The result is a callable symbolic expression, in which the formal arguments of the callable are the symbolic arguments.
+
+Example:
+{{{
+symbolic_expression(lambda x,y: x^2+y^2) == (SR.var("x")^2 + SR.var("y")^2).function(SR.var("x"), SR.var("y"))
+}}}
+
+This provides a convenient syntax in particular in connection to `ConditionSet`.
+
+Instead of 
+{{{
+sage: predicate(x, y, z) = sqrt(x^2 + y^2 + z^2) < 12  # preparser syntax, creates globals
+sage: ConditionSet(ZZ^3, predicate)
+}}}
+one is now able to write
+{{{
+sage: ConditionSet(ZZ^3, symbolic_expression(lambda x, y, z: 
+....:     sqrt(x^2 + y^2 + z^2) < 12))
+}}}
 
 == Convex geometry ==
 
