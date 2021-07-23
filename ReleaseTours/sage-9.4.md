@@ -156,16 +156,41 @@ Set-theoretic union of
 
 === Defining submanifolds and manifold subsets by pullbacks from Sage sets ===
 
-Given a continuous map Φ from a topological or differentiable manifold `N` and a subset `S` of the codomain of Φ, we define the pullback (preimage) of `S` as the subset of `N` of points `p` with `Φ(p)` in `S`. [[https://trac.sagemath.org/ticket/31688|#31688]]
+Given a continuous map `Φ` from a topological or differentiable manifold `N` and a subset `S` of the codomain of `Φ`, we define the pullback (preimage) of `S` as the subset of `N` of points `p` with `Φ(p)` in `S`. [[https://trac.sagemath.org/ticket/31688|#31688]]
 
-Generically, such pullbacks are represented by instances of `ManifoldSubsetPullback`. But because `Phi` is continuous, topological closures and interiors pull back accordingly. Hence, in some cases we are able to give the pullback additional structure, such as creating submanifold rather than merely a manifold subset.
+Generically, such pullbacks are represented by instances of `ManifoldSubsetPullback`. But because `Φ` is continuous, topological closures and interiors pull back accordingly. Hence, in some cases we are able to give the pullback additional structure, such as creating submanifold rather than merely a manifold subset.
 
-In addition to the case when Φ is a continuous map between manifolds, there are two situations that connect Sage manifolds to sets defined by other components of Sage: 
+In addition to the case when `Φ` is a continuous map between manifolds, there are two situations that connect Sage manifolds to sets defined by other components of Sage: 
 
  * If `Φ: N -> R` is a real scalar field, then any `RealSet` `S` (i.e., a finite union of intervals) can be pulled back.
 
- * If `Φ` is a chart – viewed as a continuous function from the chart's domain to R^n^ – then any subset of `R^n` can be pulled back to define a manifold subset. This can be polyhedra, lattices, or linear subspaces, or really any object with a `__contains__` method. 
+ * If `Φ` is a chart – viewed as a continuous function from the chart's domain to `R^n` – then any subset of `R^n` can be pulled back to define a manifold subset. This can be a polyhedron, a lattice, a linear subspace, a finite set, or really any object with a `__contains__` method.
 
+   For example, defining a "chart polyhedron" by pulling back a polyhedron:
+   {{{
+sage: M = Manifold(2, 'R^2', structure='topological')
+sage: c_cart.<x,y> = M.chart() # Cartesian coordinates on R^2
+sage: P = Polyhedron(vertices=[[0, 0], [1, 2], [2, 1]]); P
+A 2-dimensional polyhedron in ZZ^2 defined as the convex hull of 3 vertices
+sage: McP = c_cart.preimage(P); McP
+Subset x_y_inv_P of the 2-dimensional topological manifold R^2
+sage: M((1, 2)) in McP
+True
+sage: M((2, 0)) in McP
+False
+   }}}
+   Pulling back the interior of a polytope under a chart:
+   {{{
+sage: int_P = P.interior(); int_P
+Relative interior of
+ a 2-dimensional polyhedron in ZZ^2 defined as the convex hull of 3 vertices
+sage: McInt_P = c_cart.preimage(int_P, name='McInt_P'); McInt_P
+Open subset McInt_P of the 2-dimensional topological manifold R^2
+sage: M((0, 0)) in McInt_P
+False
+sage: M((1, 1)) in McInt_P
+True
+   }}}
 
 In a similar direction, the new method `Polyhedron.affine_hull_manifold` makes the affine hull of a polyhedron available as a Riemannian submanifold embedded into the ambient Euclidean space. [[https://trac.sagemath.org/ticket/31659|#31659]] 
 
