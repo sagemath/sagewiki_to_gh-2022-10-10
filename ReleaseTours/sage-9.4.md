@@ -138,6 +138,17 @@ sage: (1, 0) in ri_P
 False
 }}}
 
+`ConvexSet_base` is a subclass of the new abstract base class `Set_base`. [[https://trac.sagemath.org/ticket/32013|#32013]]
+
+This makes various methods that were previously only defined for sets constructed using the `Set` constructor available for polyhedra and other convex sets.  As an example, we can now do:
+{{{
+sage: polytopes.cube().union(polytopes.tetrahedron())                                                                                                                                                
+Set-theoretic union of 
+ Set of elements of A 3-dimensional polyhedron in ZZ^3 defined as the convex hull of 8 vertices and 
+ Set of elements of A 3-dimensional polyhedron in ZZ^3 defined as the convex hull of 4 vertices
+}}}
+
+
 === Polyhedral geometry ===
 
 
