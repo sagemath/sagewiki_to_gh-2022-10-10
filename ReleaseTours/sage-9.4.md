@@ -158,7 +158,7 @@ Set-theoretic union of
 
 Given a continuous map `Φ` from a topological or differentiable manifold `N` and a subset `S` of the codomain of `Φ`, we define the pullback (preimage) of `S` as the subset of `N` of points `p` with `Φ(p)` in `S`. [[https://trac.sagemath.org/ticket/31688|#31688]]
 
-Generically, such pullbacks are represented by instances of `ManifoldSubsetPullback`. But because `Φ` is continuous, topological closures and interiors pull back accordingly. Hence, in some cases we are able to give the pullback additional structure, such as creating submanifold rather than merely a manifold subset.
+Generically, such pullbacks are represented by instances of the new class `ManifoldSubsetPullback`. But because `Φ` is continuous, topological closures and interiors pull back accordingly. Hence, in some cases we are able to give the pullback additional structure, such as creating a submanifold rather than merely a manifold subset.
 
 In addition to the case when `Φ` is a continuous map between manifolds, there are two situations that connect Sage manifolds to sets defined by other components of Sage: 
 
