@@ -337,7 +337,11 @@ SAGE_ROOT
 }}}
 etc.; see [[https://trac.sagemath.org/ticket/29705|Meta-ticket #29705]] for more information.
 
+=== Modern Python packaging metadata for sagemath-standard ===
 
+`./bootstrap` now generates modern Python packaging metadata (`pyproject.toml` and `setup.cfg`, as well as `requirements.txt` and `Pipfile`) for our distribution package `sagemath-standard`. [[https://trac.sagemath.org/ticket/30913|#30913]]
+
+The version information for dependencies comes from the existing files `build/pkgs/*/install-requires.txt`.
 
 
 == Availability of Sage 9.4 and installation help ==
