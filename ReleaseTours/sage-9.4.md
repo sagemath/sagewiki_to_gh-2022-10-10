@@ -285,6 +285,61 @@ Package installation records are kept within each tree, and thus separately. Thi
  * many upgrades were enabled by dropping support for Python 3.6
 
 
+== For developers and packagers: Refactoring and modularization ==
+
+=== New location for distribution package sources: SAGE_ROOT/pkgs ===
+
+The Sage source tree contains a number of source trees of Python distribution packages. In Sage 9.4, they have been moved to a new central location. [[https://trac.sagemath.org/ticket/31577|#31577]]
+{{{
+SAGE_ROOT
+- pkgs
+  - sage-conf
+    - setup.py
+    - bin/
+    - sage_conf.py.in
+  - sage-docbuild
+    - setup.py
+    - sage_docbuild   -> symlinks to SAGE_ROOT/sage_docbuild/
+  - sage-sws2rst
+    - setup.py
+    - bin/
+    - sage_sws2rst/
+  - sagemath-standard
+    - setup.py
+    - bin             -> symlinks to SAGE_ROOT/src/bin/        
+    - sage            -> symlinks to SAGE_ROOT/src/sage/
+    - sage_setup      -> symlinks to SAGE_ROOT/src/sage_setup/
+}}}
+that is, the new directory `pkgs` will be on the same level as 
+{{{
+SAGE_ROOT
+- src
+}}}
+the unchanged monolithic sagelib source tree, which will continue to contain subdirectories
+{{{
+  - bin/ 
+  - doc/
+  - sage/
+  - sage_docbuild/      # was sage_setup/docbuild/ in Sage 9.2
+  - sage_setup/ 
+}}}
+All files that contain Sage doctests (tested with `sage -t` or `make ptest`) remain in the monolithic `src/` source tree; the source trees of the distributions symlink there.
+
+Other modularization tickets will add
+{{{
+SAGE_ROOT
+- pkgs
+  - sagemath-core/
+  - sagemath-brial/
+  - sagemath-giac/
+  - sagemath-meataxe/
+  - sagemath-tdlib/
+}}}
+etc.; see [[https://trac.sagemath.org/ticket/29705|Meta-ticket #29705]] for more information.
+
+
+
+
 == Availability of Sage 9.4 and installation help ==
 
 The first beta of the 9.4 series, 9.4.beta0, was tagged on 2021-05-26.
