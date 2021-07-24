@@ -285,7 +285,14 @@ Package installation records are kept within each tree, and thus separately. Thi
  * many upgrades were enabled by dropping support for Python 3.6
 
 
-== For developers and packagers: Refactoring and modularization ==
+== For developers and packagers: Refactoring, modernization, and modularization ==
+
+=== Using type annotations (PEP 563) in the Sage library ===
+
+Dropping support for Python 3.6 has allowed us to start using language and library features introduced in Python 3.7.  [[https://trac.sagemath.org/ticket/29756|Meta-ticket #29756]] tracks such features by Python version.
+
+One notable new feature of Python 3.7 is type annotations for function arguments and return values. Sage 9.4 has started to make use of this feature, in the revised form that [[https://www.python.org/dev/peps/pep-0563|PEP 563]] provides (`from __future__ import annotations`). A new section in the developer's manual added in [[https://trac.sagemath.org/ticket/32067|#32067]] provides guidance on how to use this feature.
+See [[https://trac.sagemath.org/ticket/32058|#32058]], [[https://trac.sagemath.org/ticket/32128|#32128]], [[https://trac.sagemath.org/ticket/32164|#32164]] for examples.
 
 === New location for distribution package sources: SAGE_ROOT/pkgs ===
 
