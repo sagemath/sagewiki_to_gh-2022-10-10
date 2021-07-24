@@ -29,6 +29,14 @@ Matrix([
 }}}
 Work is underway to make !SymPy's symbolic linear algebra methods available in Sage via this route.
 
+Callable symbolic expressions, such as those created using the Sage preparser's `f(...) = ...` syntax, now convert to a !SymPy `Lambda`. [[https://trac.sagemath.org/ticket/32130|#32130]]
+{{{
+sage: f(x, y) = x^2 + y^2; f
+(x, y) |--> x^2 + y^2
+sage: f._sympy_()
+Lambda((x, y), x**2 + y**2)
+}}}
+
 Sage has added a formal set membership function `element_of` for use in symbolic expressions; it converts to a !SymPy's `Contains` expression. [[https://trac.sagemath.org/ticket/24171|#24171]]
 
 Moreover, all sets and algebraic structures (`Parent`s) of !SageMath are now accessible to !SymPy by way of a wrapper class `SageSet`, which implements the [[https://docs.sympy.org/latest/modules/sets.html#set|SymPy Set API]]. [[https://trac.sagemath.org/ticket/31938|#31938]]
