@@ -159,6 +159,42 @@ Set-theoretic union of
 
 === Polyhedral geometry ===
 
+Sage 9.4 defines a new subclass of `GenericCellComplex` for (geometric) polyhedral complexes. [[https://trac.sagemath.org/ticket/31748|#31748]]
+{{{
+sage: pc = PolyhedralComplex([
+....:         Polyhedron(vertices=[(1/3, 1/3), (0, 0), (1/7, 2/7)]),
+....:         Polyhedron(vertices=[(1/7, 2/7), (0, 0), (0, 1/4)])])
+sage: [p.Vrepresentation() for p in pc.cells_sorted()]
+[(A vertex at (0, 0), A vertex at (0, 1/4), A vertex at (1/7, 2/7)),
+ (A vertex at (0, 0), A vertex at (1/3, 1/3), A vertex at (1/7, 2/7)),
+ (A vertex at (0, 0), A vertex at (0, 1/4)),
+ ...
+ (A vertex at (1/7, 2/7),),
+ (A vertex at (1/3, 1/3),)]
+sage: pc.plot()
+Graphics object consisting of 10 graphics primitives
+sage: pc.is_pure()
+True
+sage: pc.is_full_dimensional()
+True
+sage: pc.is_compact()
+True
+sage: pc.boundary_subcomplex()
+Polyhedral complex with 4 maximal cells
+sage: pc.is_convex()
+True
+sage: pc.union_as_polyhedron().Hrepresentation()
+(An inequality (1, -4) x + 1 >= 0,
+ An inequality (-1, 1) x + 0 >= 0,
+ An inequality (1, 0) x + 0 >= 0)
+sage: pc.face_poset()
+Finite poset containing 11 elements
+sage: pc.is_connected()
+True
+sage: pc.connected_component() == pc
+True
+}}}
+
 
 == Manifolds ==
 
