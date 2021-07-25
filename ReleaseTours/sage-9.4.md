@@ -328,7 +328,7 @@ SAGE_ROOT
     - sage            -> symlinks to SAGE_ROOT/src/sage/
     - sage_setup      -> symlinks to SAGE_ROOT/src/sage_setup/
 }}}
-that is, the new directory `pkgs` will be on the same level as 
+that is, the new directory `pkgs` is on the same level as 
 {{{
 SAGE_ROOT
 - src
