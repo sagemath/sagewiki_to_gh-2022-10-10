@@ -100,9 +100,26 @@ See [[https://trac.sagemath.org/ticket/31926|Meta-ticket #31926: Connect Sage se
 
 === ConditionSet ===
 
-Sage 9.4 introduces a class `ConditionSet` for subsets of a parent (or another set) consisting of elements that satisfy the logical "and" of finitely many predicates.
+Sage 9.4 introduces a class `ConditionSet` for subsets of a parent (or another set) consisting of elements that satisfy the logical "and" of finitely many predicates. [[https://trac.sagemath.org/ticket/32089|#32089]]
+{{{
+sage: in_small_oblong(x, y) = x^2 + 3 * y^2 <= 42
+sage: SmallOblongUniverse = ConditionSet(QQ^2, in_small_oblong)
+sage: SmallOblongUniverse
+{ (x, y) ∈ Vector space of dimension 2 over Rational Field : x^2 + 3*y^2 <= 42 }
 
+sage: parity_check(x, y) = abs(sin(pi/2*(x + y))) < 1/1000
+sage: EvenUniverse = ConditionSet(ZZ^2, parity_check); EvenUniverse
+{ (x, y) ∈ Ambient free module of rank 2 over the principal ideal
+           domain Integer Ring : abs(sin(1/2*pi*x + 1/2*pi*y)) < (1/1000) }
+
+sage: SmallOblongUniverse & EvenUniverse
+{ (x, y) ∈ Free module of degree 2 and rank 2 over Integer Ring
+Echelon basis matrix:
+[1 0]
+[0 1] : x^2 + 3*y^2 <= 42, abs(sin(1/2*pi*x + 1/2*pi*y)) < (1/1000) }
+}}}
 The name `ConditionSet` is borrowed from !SymPy. In fact, if the given predicates (condition) are symbolic, a `ConditionSet` can be converted to a !SymPy `ConditionSet`; the `_sympy_` method falls back to creating a `SageSet` wrapper otherwise.
+
 
 === symbolic_expression(lambda x, y: ...) ===
 
