@@ -243,12 +243,14 @@ In a similar direction, the new method `Polyhedron.affine_hull_manifold` makes t
 
 In Sage 9.4, the system for declaring (named) subsets of topological and differentiable manifolds in `sage.manifolds` has become more general and powerful. 
 
-In addition to `declare_union` and `declare_intersection`, there are now methods `declare_empty`, `declare_nonempty`, `declare_subset`, `declare_superset`, and `declare_equal`. 
+In addition to `declare_union` and `declare_intersection`, there are now methods `declare_empty`, `declare_nonempty`, `declare_disjoint`, `declare_subset`, `declare_superset`, and `declare_equal`. 
 
 The declared subset relations define a quasiorder on the named subsets. 
 To visualize the subset relations, methods `subset_digraph` and `superset_digraph` are now available. 
 
 Through a sequence of subset declarations, or directly through `declare_equal`, several named subsets (which are distinct as Python objects) can become necessarily equal as mathematical sets. By quotienting out by this equivalence relation, we obtain a partially ordered set, which is available through the new methods `subset_poset` and `superset_poset`.
+
+The new class `ManifoldSubsetFiniteFamily` serves as a container for storing arbitrary finite families of manifold subsets, indexed by their names. `ManifoldSubsetFiniteFamily` instances are automatically sorted by name, are hashable, compare with each other lexicographically, and print more compactly than lists of manifold subsets. 
 
 For more information, see [[https://trac.sagemath.org/ticket/31740|Meta-ticket #31740]].
 
