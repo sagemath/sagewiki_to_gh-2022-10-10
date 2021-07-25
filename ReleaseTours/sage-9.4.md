@@ -250,7 +250,7 @@ To visualize the subset relations, methods `subset_digraph` and `superset_digrap
 
 Through a sequence of subset declarations, or directly through `declare_equal`, several named subsets (which are distinct as Python objects) can become necessarily equal as mathematical sets. By quotienting out by this equivalence relation, we obtain a partially ordered set, which is available through the new methods `subset_poset` and `superset_poset`.
 
-The new class `ManifoldSubsetFiniteFamily` serves as a container for storing arbitrary finite families of manifold subsets, indexed by their names. `ManifoldSubsetFiniteFamily` instances are automatically sorted by name, are hashable, compare with each other lexicographically, and print more compactly than lists of manifold subsets. 
+The new class `ManifoldSubsetFiniteFamily` serves as a container for storing arbitrary finite families of manifold subsets, indexed by their names. The new methods `subset_family`, `superset_family`, and `open_superset_family` return instances of `ManifoldSubsetFiniteFamily`. Such instances are automatically sorted by name, are hashable, compare with each other lexicographically, and print more compactly than lists/tuples/sets of manifold subsets. 
 
 For more information, see [[https://trac.sagemath.org/ticket/31740|Meta-ticket #31740]].
 
