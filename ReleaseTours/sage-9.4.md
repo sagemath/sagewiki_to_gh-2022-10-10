@@ -255,7 +255,53 @@ sage: M((1, 1)) in McInt_P
 True
    }}}
 
-In a similar direction, the new method `Polyhedron.affine_hull_manifold` makes the affine hull of a polyhedron available as a Riemannian submanifold embedded into the ambient Euclidean space. [[https://trac.sagemath.org/ticket/31659|#31659]] 
+In a similar direction, the new method `ConvexSet_base.affine_hull_manifold` makes the affine hull of a convex set available as a Riemannian submanifold embedded into the ambient Euclidean space. [[https://trac.sagemath.org/ticket/31659|#31659]] 
+
+=== Manifold options for RealSet constructors ===
+
+As an application of chart pullbacks, the `RealSet` constructors have been extended so that they can optionally build manifolds or manifolds subsets.  [[https://trac.sagemath.org/ticket/31881|#31881]]
+
+This is activated by passing the manifold keyword `structure='differentiable'`:
+{{{
+sage: RealSet(-oo, oo, structure='differentiable')
+Real number line ℝ
+
+sage: RealSet([0, 1], structure='differentiable')
+Subset [0, 1] of the Real number line ℝ
+}}}
+It is also implied when a coordinate name is given using the keyword `coordinate`:
+{{{
+sage: RealSet(0, 1, coordinate='λ')
+Open subset (0, 1) of the Real number line ℝ
+sage: _.category()
+Join of
+ Category of smooth manifolds over Real Field with 53 bits of precision and
+ Category of connected manifolds over Real Field with 53 bits of precision and
+ Category of subobjects of sets
+}}}
+It is also implied by assigning a coordinate name using generator notation:
+{{{
+sage: R_xi.<ξ> = RealSet.real_line(); R_xi
+Real number line ℝ
+sage: R_xi.canonical_chart()
+Chart (ℝ, (ξ,))
+}}}
+The above example showed the use of the new constructor `RealSet.real_line`. The manifold keywords work for all other specialized constructors for various types of intervals, as well.
+
+|| Constructor                        || Interval     ||
+|| `RealSet.open`                     || `(a, b)`     ||
+|| `RealSet.closed`                   || `[a, b]`     ||
+|| `RealSet.point`                    || `{a}`        ||
+|| `RealSet.open_closed`              || `(a, b]`     ||
+|| `RealSet.closed_open`              || `[a, b)`     ||
+|| `RealSet.unbounded_below_closed`   || `(-oo, b]`   ||
+|| `RealSet.unbounded_below_open`     || `(-oo, b)`   ||
+|| `RealSet.unbounded_above_closed`   || `[a, +oo)`   ||
+|| `RealSet.unbounded_above_open`     || `(a, +oo)`   ||
+|| `RealSet.real_line`                || `(-oo, +oo)` || new in Sage 9.4 ||
+|| `RealSet.interval`                 || any          || new in Sage 9.4 ||
+
+The global bindings `RealLine` and `OpenInterval`, which create manifolds, are now deprecated, but these constructors will remain available through the `manifolds` catalog.  The objects made by these constructors are now also valid input for `RealSet`. [[https://trac.sagemath.org/ticket/30832|#30832]]
 
 
 === Families and posets of manifold subsets ===
