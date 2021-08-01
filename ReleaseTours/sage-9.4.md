@@ -381,7 +381,7 @@ The version information for dependencies comes from the existing files `build/pk
 
 == Availability of Sage 9.4 and installation help ==
 
-The first beta of the 9.4 series, 9.4.beta0, was tagged on 2021-05-26.  The latest beta is 9.4.beta6, tagged on 2021-07-24.
+The first beta of the 9.4 series, 9.4.beta0, was tagged on 2021-05-26.  The first release candidate is 9.4.rc0,  tagged on 2021-07-28.
 
  * See [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]] for development discussions and [[https://groups.google.com/forum/#!forum/sage-release|sage-release]] for announcements of beta versions and release candidates.
 
