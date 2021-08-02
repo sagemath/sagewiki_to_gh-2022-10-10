@@ -401,7 +401,22 @@ Package installation records are kept within each tree, and thus separately. Thi
 
 == Package upgrades ==
 
+=== FLINT ===
+
 [[http://www.flintlib.org/|FLINT]] has been upgraded to 2.7.1 in [[https://trac.sagemath.org/ticket/31069|#31069]].  Sage 9.4 has added support for using FLINT 2.8.x on systems that provide it in [[https://trac.sagemath.org/ticket/32175|#32175]]. The minimum supported FLINT version is now 2.6.0 [[https://trac.sagemath.org/ticket/31525|#315125]]. Sage developers can now make use of more FLINT features added in the 2.x development series, see [[https://trac.sagemath.org/ticket/31408|Meta-ticket #31408: Use new features from FLINT 2.x]].
+
+=== NumPy, SciPy ===
+
+=== lrslib, polymake ===
+
+[[http://cgm.cs.mcgill.ca/~avis/C/lrs.html|lrslib]], providing reverse search algorithms for vertex enumeration for polyhedra and equilibrium problems, has been upgraded to version 071b, which promises major speedups thanks to a new hybrid arithmetic. [[https://trac.sagemath.org/ticket/27745|#27745]]
+
+[[https://polymake.org/doku.php/start|polymake]], a powerful system for computations with convex polyhedra, simplicial complexes, matroids, graphs, and tropical hypersurfaces, has been upgraded to version 4.4 in [[https://trac.sagemath.org/ticket/27745|#27745]]. The major upgrade from version 3.4 has brought many improvements made during the polymake 
+[[https://polymake.org/doku.php/news/release_3_5|3.5]], [[https://polymake.org/doku.php/news/release_3_6|3.6]], [[https://polymake.org/doku.php/news/release_4_0|4.0]], [[https://polymake.org/doku.php/news/release_4_1|4.1]],
+[[https://polymake.org/doku.php/news/release_4_2|4.2]], [[https://polymake.org/doku.php/news/release_4_3|4.3]], and [[https://polymake.org/doku.php/news/release_4_4|4.4]] development cycles. To use polymake from Sage, use `sage -i jupymake`, which activates a more robust interface; the original pexpect-based interfaces is now deprecated. Sage 9.4 also contains a number of interface and packaging improvements for polymake. [[https://trac.sagemath.org/ticket/26368|#26368]], [[https://trac.sagemath.org/ticket/31864|#31864]], [[https://trac.sagemath.org/ticket/31840|#31840]]
+
+
+=== Other upgrades ===
 
 Many upgrades were enabled by dropping support for Python 3.6.
 
