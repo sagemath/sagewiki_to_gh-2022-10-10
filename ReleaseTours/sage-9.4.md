@@ -215,6 +215,52 @@ True
 }}}
 
 
+== Knot theory ==
+
+=== Databases ===
+
+A direct access to the contents of the [[https://knotinfo.math.indiana.edu/|KnotInfo]] and [[https://linkinfo.sitehost.iu.edu/|LinkInfo]] databases is available as an optional Sage package, now (see [[https://trac.sagemath.org/ticket/30352|Trac #30352]]). It can be installed via
+
+{{{
+sage -i database_knotinfo
+}}}
+
+For example, you can obtain the Kauffman polynomial of a link via these databases which has no implementation in Sage, so far:
+
+{{{
+sage: B = BraidGroup(8)
+sage: L = Link(B([-1, -1, -1, -2, 1, -2, 3, -2, 3]))
+sage: K, mirrored  = L.get_knotinfo(); K, mirrored
+(<KnotInfo.K8_14: '8_14'>, True)
+sage: K.kauffman_polynomial()
+z^4 + 2*a^-1*z^5 + 2*a^-2*z^6 + a^-3*z^7 - 2*z^2 - 3*a^-1*z^3 - a^-2*z^4 + 3*a^-3*z^5
+ + 5*a^-4*z^6 + a^-5*z^7 + 1 + a^-1*z - a^-2*z^2 - 6*a^-3*z^3 - 7*a^-4*z^4 + 4*a^-5*z^5
+ + 3*a^-6*z^6 + 3*a^-3*z + 3*a^-4*z^2 - 8*a^-5*z^3 - 4*a^-6*z^4 + 3*a^-7*z^5 + 3*a^-5*z
+ + a^-6*z^2 - 5*a^-7*z^3 + a^-8*z^4 + a^-7*z - a^-8*z^2
+}}}
+
+=== Testing isotopy ===
+
+There is a new method `is_isotopic` which allows to check if two links are isotopic to each other:
+
+{{{
+sage: l1 = Link([[2, 9, 3, 10], [4, 13, 5, 14], [6, 11, 7, 12],
+....:            [8, 1, 9, 2], [10, 7, 11, 8], [12, 5, 13, 6],
+....:            [14, 3, 1, 4]])
+sage: l2 = Link([[1, 8, 2, 9], [9, 2, 10, 3], [3, 14, 4, 1],
+....:            [13, 4, 14, 5], [5, 12, 6, 13], [11, 6, 12, 7],
+....:            [7, 10, 8, 11]])
+sage: l1 == l2
+False
+sage: l1.is_isotopic(l2)
+True
+sage: l3 = l2.mirror_image()
+sage: l1.is_isotopic(l3)
+False
+}}}
+
+
+
 == Manifolds ==
 
 === Defining submanifolds and manifold subsets by pullbacks from Sage sets ===
@@ -318,7 +364,6 @@ Through a sequence of subset declarations, or directly through `declare_equal`, 
 The new class `ManifoldSubsetFiniteFamily` serves as a container for storing arbitrary finite families of manifold subsets, indexed by their names. The new methods `subset_family`, `superset_family`, and `open_superset_family` return instances of `ManifoldSubsetFiniteFamily`. Such instances are automatically sorted by name, are hashable, compare with each other lexicographically, and print more compactly than lists/tuples/sets of manifold subsets. 
 
 For more information, see [[https://trac.sagemath.org/ticket/31740|Meta-ticket #31740]].
-
 
 == Configuration changes ==
 
