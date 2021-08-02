@@ -401,11 +401,14 @@ Package installation records are kept within each tree, and thus separately. Thi
 
 == Package upgrades ==
 
-=== FLINT ===
+=== FLINT and Arb ===
 
 [[http://www.flintlib.org/|FLINT]] has been upgraded to 2.7.1 in [[https://trac.sagemath.org/ticket/31069|#31069]].  Sage 9.4 has added support for using FLINT 2.8.x on systems that provide it in [[https://trac.sagemath.org/ticket/32175|#32175]]. The minimum supported FLINT version is now 2.6.0 [[https://trac.sagemath.org/ticket/31525|#315125]]. Sage developers can now make use of more FLINT features added in the 2.x development series, see [[https://trac.sagemath.org/ticket/31408|Meta-ticket #31408: Use new features from FLINT 2.x]].
 
-=== NumPy, SciPy ===
+[[https://arblib.org/index.html|Arb]] has been upgraded to [[https://arblib.org/history.html#version-2-19-0|2.19.0]], which brings various performance improvements.
+
+
+=== NumPy and SciPy ===
 
 Many upgrades were enabled by dropping support for Python 3.6. 
 
@@ -413,7 +416,7 @@ In particular, [[https://numpy.org/|NumPy]] has been upgraded to 1.20.3 in [[htt
 
 [[https://www.scipy.org/|SciPy]] has been upgraded to 1.6.3 in [[https://trac.sagemath.org/ticket/31008|#31008]]; the minimum version supported by the Sage library, according to `build/pkgs/scipy/install-requires.txt`, is still 1.5.  The [[https://docs.scipy.org/doc/scipy/release.1.6.0.html|SciPy 1.6 series]] has brought many improvements. Among the many highlights, the integration of the high-performance linear programming library [[https://www.maths.ed.ac.uk/hall/HiGHS/|HiGHS]] stands out. [[https://trac.sagemath.org/ticket/32282|#32282]] tracks the task of making use of it as a backend of `MixedIntegerLinearProgram` in Sage.
 
-=== lrslib, polymake ===
+=== lrslib and polymake ===
 
 [[http://cgm.cs.mcgill.ca/~avis/C/lrs.html|lrslib]], providing reverse search algorithms for vertex enumeration for polyhedra and equilibrium problems, has been upgraded to version 071b, which promises major speedups thanks to a new hybrid arithmetic. [[https://trac.sagemath.org/ticket/27745|#27745]]
 
