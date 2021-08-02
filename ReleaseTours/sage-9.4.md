@@ -401,9 +401,12 @@ Package installation records are kept within each tree, and thus separately. Thi
 
 == Package upgrades ==
 
- * https://repology.org/projects/?inrepo=sagemath_develop
+Many upgrades were enabled by dropping support for Python 3.6.
 
- * many upgrades were enabled by dropping support for Python 3.6
+
+ * [[https://trac.sagemath.org/query?summary=~update&milestone=sage-9.4&summary=~upgrade&groupdesc=1&group=status&max=1500&col=id&col=summary&col=component&col=time&col=changetime&col=author&col=reviewer&col=keywords&order=component|Upgrade tickets, milestone 9.4]]
+
+ * [[https://repology.org/projects/?inrepo=sagemath_develop|Packages in the SageMath distribution tracked by repology.org]]
 
 
 == For developers and packagers: Refactoring, modernization, and modularization ==
