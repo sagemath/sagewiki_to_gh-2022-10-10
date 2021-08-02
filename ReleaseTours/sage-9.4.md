@@ -407,6 +407,12 @@ Package installation records are kept within each tree, and thus separately. Thi
 
 === NumPy, SciPy ===
 
+Many upgrades were enabled by dropping support for Python 3.6. 
+
+In particular, [[https://numpy.org/|NumPy]] has been upgraded to 1.20.3 in [[https://trac.sagemath.org/ticket/31008|#31008]].  Sage users benefit from many improvements made in the [[https://numpy.org/devdocs/release/1.20.0-notes.html|NumPy 1.20]] series.  The minimum version of !NumPy supported by the Sage library, according to `build/pkgs/numpy/install-requires.txt`, is still 1.19 (slightly ahead of the [[https://numpy.org/neps/nep-0029-deprecation_policy.html#drop-schedule|NEP 29 drop schedule]]).
+
+
+
 === lrslib, polymake ===
 
 [[http://cgm.cs.mcgill.ca/~avis/C/lrs.html|lrslib]], providing reverse search algorithms for vertex enumeration for polyhedra and equilibrium problems, has been upgraded to version 071b, which promises major speedups thanks to a new hybrid arithmetic. [[https://trac.sagemath.org/ticket/27745|#27745]]
@@ -418,7 +424,6 @@ Package installation records are kept within each tree, and thus separately. Thi
 
 === Other upgrades ===
 
-Many upgrades were enabled by dropping support for Python 3.6.
 
 
  * [[https://trac.sagemath.org/query?summary=~update&milestone=sage-9.4&summary=~upgrade&groupdesc=1&group=status&max=1500&col=id&col=summary&col=component&col=time&col=changetime&col=author&col=reviewer&col=keywords&order=component|Upgrade tickets, milestone 9.4]]
