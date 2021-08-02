@@ -411,7 +411,7 @@ Many upgrades were enabled by dropping support for Python 3.6.
 
 In particular, [[https://numpy.org/|NumPy]] has been upgraded to 1.20.3 in [[https://trac.sagemath.org/ticket/31008|#31008]].  Sage users benefit from many improvements made in the [[https://numpy.org/devdocs/release/1.20.0-notes.html|NumPy 1.20]] series.  The minimum version of !NumPy supported by the Sage library, according to `build/pkgs/numpy/install-requires.txt`, is still 1.19 (slightly ahead of the [[https://numpy.org/neps/nep-0029-deprecation_policy.html#drop-schedule|NEP 29 drop schedule]]).
 
-
+[[https://www.scipy.org/|SciPy]] has been upgraded to 1.6.3 in [[https://trac.sagemath.org/ticket/31008|#31008]]; the minimum version supported by the Sage library, according to `build/pkgs/scipy/install-requires.txt`, is still 1.5.  The [[https://docs.scipy.org/doc/scipy/release.1.6.0.html|SciPy 1.6 series]] has brought many improvements. Among the many highlights, the integration of the high-performance linear programming library [[https://www.maths.ed.ac.uk/hall/HiGHS/|HiGHS]] stands out. [[https://trac.sagemath.org/ticket/32282|#32282]] tracks the task of making use of it as a backend of `MixedIntegerLinearProgram` in Sage.
 
 === lrslib, polymake ===
 
