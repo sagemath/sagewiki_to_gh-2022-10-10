@@ -369,7 +369,7 @@ For more information, see [[https://trac.sagemath.org/ticket/31740|Meta-ticket #
 
 === AG codes ===
 
-Algebraic geometry codes (shortly AG codes) and their decoders are now available in Sage 9.4. [[https://trac.sagemath.org/ticket/27957|#27957]] 
+Algebraic geometry codes (shortly AG codes) and their decoders are now available in Sage 9.4 (see [[https://trac.sagemath.org/ticket/27957|#27957]]).
 
 It is first time that all AG codes as originally defined by Goppa in 1981 are equipped with an efficient decoding algorithm implemented in free software. This has become possible when global function fields machinery was implemented in Sage 8. Most famous error correcting codes such as Reed-Solomon codes and Goppa codes (the workhorse of the McEliece cryptosystem which is a candidate of the NIST standardization process for post-quantum cryptography) are special cases of AG codes.
 
