@@ -424,10 +424,13 @@ In particular, [[https://numpy.org/|NumPy]] has been upgraded to 1.20.3 in [[htt
 [[https://polymake.org/doku.php/news/release_3_5|3.5]], [[https://polymake.org/doku.php/news/release_3_6|3.6]], [[https://polymake.org/doku.php/news/release_4_0|4.0]], [[https://polymake.org/doku.php/news/release_4_1|4.1]],
 [[https://polymake.org/doku.php/news/release_4_2|4.2]], [[https://polymake.org/doku.php/news/release_4_3|4.3]], and [[https://polymake.org/doku.php/news/release_4_4|4.4]] development cycles. To use polymake from Sage, use `sage -i jupymake`, which activates a more robust interface; the original pexpect-based interface is now deprecated. Sage 9.4 also contains a number of interface and packaging improvements for polymake. [[https://trac.sagemath.org/ticket/26368|#26368]], [[https://trac.sagemath.org/ticket/31864|#31864]], [[https://trac.sagemath.org/ticket/31840|#31840]]
 
+=== PARI/GP and GAP ===
+
+[[http://pari.math.u-bordeaux.fr/|PARI/GP]], the computer algebra system designed for fast computations in number theory, has been upgraded to 2.13.1 in [[https://trac.sagemath.org/ticket/30801|#30801]]. The upgrade from version 2.11.4 has brought [[http://pari.math.u-bordeaux.fr/archives/pari-announce-20/msg00006.html|many improvements]].
+
+[[https://www.gap-system.org/|GAP]], the system for computational group theory and other discrete algebra, has been upgraded to 4.11.1. Although considered by upstream as a minor update from version 4.11.0, which was included in Sage 9.3, it provides [[https://github.com/gap-system/gap/blob/master/CHANGES.md#gap-4111-march-2021|many improvements and updates to GAP packages]].
 
 === Other upgrades ===
-
-
 
  * [[https://trac.sagemath.org/query?summary=~update&milestone=sage-9.4&summary=~upgrade&groupdesc=1&group=status&max=1500&col=id&col=summary&col=component&col=time&col=changetime&col=author&col=reviewer&col=keywords&order=component|Upgrade tickets, milestone 9.4]]
 
