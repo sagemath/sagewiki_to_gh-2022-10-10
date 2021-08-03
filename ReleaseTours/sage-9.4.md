@@ -175,7 +175,6 @@ Set-theoretic union of
  Set of elements of A 3-dimensional polyhedron in ZZ^3 defined as the convex hull of 4 vertices
 }}}
 
-
 === Polyhedral geometry ===
 
 Sage 9.4 defines a new subclass of `GenericCellComplex` for (geometric) polyhedral complexes. [[https://trac.sagemath.org/ticket/31748|#31748]]
@@ -214,6 +213,7 @@ sage: pc.connected_component() == pc
 True
 }}}
 
+The homogeneous analogue to a polyhedral complex is a polyhedral fan. The constructor `Fan` for instances of the class `RationalPolyhedralFan` has been generalized: If the new keyword `allow_arrangement=True` is passed, the input is allowed to be an arbitrary finite set (arrangement) of rational polyhedral cones; Sage then computes a suitable common refinement that is a fan. [[https://trac.sagemath.org/ticket/25122|#25122]]
 
 == Knot theory ==
 
