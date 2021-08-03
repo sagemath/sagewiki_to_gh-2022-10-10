@@ -365,7 +365,7 @@ The new class `ManifoldSubsetFiniteFamily` serves as a container for storing arb
 
 For more information, see [[https://trac.sagemath.org/ticket/31740|Meta-ticket #31740]].
 
-== Coding Theory ==
+== Coding theory ==
 
 === AG codes ===
 
