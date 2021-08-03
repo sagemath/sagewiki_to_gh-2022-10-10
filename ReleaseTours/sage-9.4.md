@@ -430,6 +430,10 @@ In particular, [[https://numpy.org/|NumPy]] has been upgraded to 1.20.3 in [[htt
 
 [[https://www.gap-system.org/|GAP]], the system for computational group theory and other discrete algebra, has been upgraded to 4.11.1. Although considered by upstream as a minor update from version 4.11.0, which was included in Sage 9.3, it provides [[https://github.com/gap-system/gap/blob/master/CHANGES.md#gap-4111-march-2021|many improvements and updates to GAP packages]].
 
+=== Maxima and FriCAS ===
+
+The symbolics packages [[https://maxima.sourceforge.io/|Maxima]] and [[https://fricas.sourceforge.net/|FriCAS]], both running on [[https://gitlab.com/embeddable-common-lisp/ecl|Embeddable Common Lisp]], have been upgraded to 5.45.0 and 1.3.7, respectively.
+
 === Other upgrades ===
 
  * [[https://trac.sagemath.org/query?summary=~update&milestone=sage-9.4&summary=~upgrade&groupdesc=1&group=status&max=1500&col=id&col=summary&col=component&col=time&col=changetime&col=author&col=reviewer&col=keywords&order=component|Upgrade tickets, milestone 9.4]]
