@@ -395,8 +395,8 @@ sage: channel = channels.StaticErrorRateChannel(code.ambient_space(), tau)  # le
 sage: message_space = decoder.message_space()
 sage: encoder = decoder.connected_encoder()
 sage: message = message_space.random_element()  # a random message
-sage: codeword = encoder.encode(message)   # codeword encoding the message
-sage: received_vector = channel(codeword)  # codeword sent through the noisy channel
+sage: codeword = encoder.encode(message)        # codeword encoding the message
+sage: received_vector = channel(codeword)       # codeword sent through the noisy channel
 sage: (received_vector - codeword).hamming_weight()
 16
 sage: decoder.decode_to_code(received_vector) == codeword    # recovered the codeword
