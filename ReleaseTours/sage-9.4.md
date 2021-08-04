@@ -399,9 +399,9 @@ sage: codeword = encoder.encode(message)   # codeword encoding the message
 sage: received_vector = channel(codeword)  # codeword sent through the noisy channel
 sage: (received_vector - codeword).hamming_weight()
 16
-sage: decoder.decode_to_code(received_vector) == codeword  # recovered the codeword
+sage: decoder.decode_to_code(received_vector) == codeword    # recovered the codeword
 True
-sage: decoder.decode_to_message(received_vector) == message     # recovered the message
+sage: decoder.decode_to_message(received_vector) == message  # recovered the message
 True
 }}}       
 
