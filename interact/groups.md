@@ -12,7 +12,36 @@ goto [[interact|interact main page]]
 
 
 
-== Basic Commands ==
+== Calling Individual Groups from GAP ==
+
+explanation
+
+=== Group of Order n ===
+
+Call group order n
+
+{{{#!sagecell
+#Last edited 8/5/21 2:45pm
+pretty_print(html("<h1>Order n </h1>"))
+pretty_print(html("<h>Choose a group order.<h>"))
+
+
+
+@interact
+def foo(n = input_box(default='10', label="Order:"), m = input_box(default='1', label= "Group Number:")):
+    top = len(gap(n).AllSmallGroups())
+    print('There are', top, 'groups of order', n ,'in the GAP library.')
+    print('Group', m , 'of', top, 'is', gap(gap(n).SmallGroup(m)).StructureDescription())
+
+
+}}}
+
+
+
+
+
+
+== Calling a List of Groups from GAP ==
 
 explanation
 
