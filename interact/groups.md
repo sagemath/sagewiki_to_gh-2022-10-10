@@ -24,7 +24,7 @@ You can use this interact to call all the lists from the GAP library that are or
 
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
-pretty_print(html("<h1>Version 1/h1>"))
+pretty_print(html("<h1>Upper Bound on Order 1/h1>"))
 pretty_print(html("<h>Choose an upper bound for the order.<h>"))
 
 
@@ -56,7 +56,7 @@ You can use this interact to call all the lists from the GAP library that have o
 
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
-pretty_print(html("<h1>Version 2</h1>"))
+pretty_print(html("<h1>Upper and Lower Bound on Order</h1>"))
 pretty_print(html("<h>Choose an upper bound and a lower bound for the order.<h>"))
 
 
@@ -84,13 +84,13 @@ def foo(m = input_box(default='1', label="Lower Bound:"), n = input_box(default=
 === All groups of which meet certain parameters ===
 
 
-You can use this interact to call all the lists from the GAP library that are order less than or equal to your desired n value.
+You can use this interact to 
 
 
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
-pretty_print(html("<h1>Version 3</h1>"))
-pretty_print(html("<h>Choose a parameter.<h>"))
+pretty_print(html("<h1>Group Type</h1>"))
+pretty_print(html("<h>Select a parameter.<h>"))
 
 
 def order_n(n, *parameter, start=1):
@@ -120,13 +120,10 @@ def foo(m = input_box(default='1', label="Lower Bound:"), n = input_box(default=
 === All groups of which meet certain parameters, and direct/semi dircet ===
 
 
-You can use this interact to call all the lists from the GAP library that are order less than or equal to your desired n value.
-
-
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
-pretty_print(html("<h1>Version 4</h1>"))
-pretty_print(html("<h>Direct or Semidirect?<h>"))
+pretty_print(html("<h1>Direct or Semidirect</h1>"))
+pretty_print(html("<h>Check a box to limit the results<h>"))
 
 def _directprod(order_n):
     new_order_n = []
