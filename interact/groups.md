@@ -16,7 +16,7 @@ goto [[interact|interact main page]]
 
 explanation
 
-=== All groups of order less than or equal to n ===
+=== Groups Order Less Than or Equal to n ===
 
 
 You can use this interact to call all the lists from the GAP library that are order less than or equal to your desired value.
@@ -24,7 +24,7 @@ You can use this interact to call all the lists from the GAP library that are or
 
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
-pretty_print(html("<h1>Upper Bound on Order 1/h1>"))
+pretty_print(html("<h1>Upper Bound on Order </h1>"))
 pretty_print(html("<h>Choose an upper bound for the order.<h>"))
 
 
@@ -48,7 +48,7 @@ def foo(n = input_box(default='10', label="Upper Bound:")):
 
 }}}
 
-=== All groups of order between m and n ===
+=== Groups Order Between m and n ===
 
 
 You can use this interact to call all the lists from the GAP library that have order between m and n
@@ -81,7 +81,7 @@ def foo(m = input_box(default='1', label="Lower Bound:"), n = input_box(default=
 }}}
 
 
-=== All groups of which meet certain parameters ===
+=== Groups Meeting Selected Parameters ===
 
 
 You can use this interact to 
@@ -117,7 +117,7 @@ def foo(m = input_box(default='1', label="Lower Bound:"), n = input_box(default=
 
 
 
-=== All groups of which meet certain parameters, and direct/semi dircet ===
+=== Direct or Semidirect Groups ===
 
 
 {{{#!sagecell
