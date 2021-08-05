@@ -12,7 +12,7 @@ goto [[interact|interact main page]]
 
 
 
-== Calling Individual Groups from GAP ==
+== Calling Groups from GAP ==
 
 explanation
 
@@ -36,7 +36,11 @@ def foo(n = input_box(default='10', label="Order:"), m = input_box(default='1', 
 
 }}}
 
+=== Group of Order n that is ...===
 
+=== All Groups of Order n ===
+
+=== All Groups of Order n that are ...===
 
 
 
