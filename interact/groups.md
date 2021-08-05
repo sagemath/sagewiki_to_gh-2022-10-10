@@ -36,13 +36,19 @@ def foo(n = input_box(default='10', label="Order:"), m = input_box(default='1', 
 
 }}}
 
-=== Group of Order n that is ...===
+=== Group of Order n with parameters ===
 
 === All Groups of Order n ===
 
-=== All Groups of Order n that are ...===
+=== All Groups of Order n with parameters ===
 
+=== number of small groups with that order ===
 
+=== random group ===
+
+=== construct your own group ===
+
+=== small group info ===
 
 
 == Calling a List of Groups from GAP ==
