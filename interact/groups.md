@@ -19,13 +19,13 @@ explanation
 === All groups of order less than or equal to n ===
 
 
-You can use this interact to call all the lists from the GAP library that are order less than or equal to your desired n value.
+You can use this interact to call all the lists from the GAP library that are order less than or equal to your desired value.
 
 
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
-pretty_print(html("<h1>Groups</h1>"))
-pretty_print(html("<h>put in the n and m<h>"))
+pretty_print(html("<h1>Version 1/h1>"))
+pretty_print(html("<h>Choose an upper bound for the order.<h>"))
 
 
 def order_n(n, *parameter, start=1):
@@ -51,13 +51,13 @@ def foo(n = input_box(default='10', label="Upper Bound:")):
 === All groups of order between m and n ===
 
 
-You can use this interact to call all the lists from the GAP library that are between m and n
+You can use this interact to call all the lists from the GAP library that have order between m and n
 
 
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
-pretty_print(html("<h1>Groups</h1>"))
-pretty_print(html("<h>put in the n and m<h>"))
+pretty_print(html("<h1>Version 2</h1>"))
+pretty_print(html("<h>Choose an upper bound and a lower bound for the order.<h>"))
 
 
 def order_n(n, *parameter, start=1):
@@ -89,8 +89,8 @@ You can use this interact to call all the lists from the GAP library that are or
 
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
-pretty_print(html("<h1>Groups</h1>"))
-pretty_print(html("<h>put in the n and m<h>"))
+pretty_print(html("<h1>Version 3</h1>"))
+pretty_print(html("<h>Choose a parameter.<h>"))
 
 
 def order_n(n, *parameter, start=1):
@@ -117,7 +117,7 @@ def foo(m = input_box(default='1', label="Lower Bound:"), n = input_box(default=
 
 
 
-=== All groups of which meet certain parameters ===
+=== All groups of which meet certain parameters, and direct/semi dircet ===
 
 
 You can use this interact to call all the lists from the GAP library that are order less than or equal to your desired n value.
@@ -125,8 +125,8 @@ You can use this interact to call all the lists from the GAP library that are or
 
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
-pretty_print(html("<h1>Groups</h1>"))
-pretty_print(html("<h>put in the n and m<h>"))
+pretty_print(html("<h1>Version 4</h1>"))
+pretty_print(html("<h>Direct or Semidirect?<h>"))
 
 def _directprod(order_n):
     new_order_n = []
