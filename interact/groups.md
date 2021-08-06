@@ -1,6 +1,6 @@
 = Sage Interactions - Groups Using the GAP System =
 
-This page was first created for Google Summer of Code by Alexis Newton, with mentorship by Mckenzie West. 
+This page was first created for Google Summer of Code 2021 by Alexis Newton, with mentorship by Mckenzie West. 
 
 If you have interactions that you are interested in adding to this page, please do so. You can also contact Alexis Newton at firstname.lastname@emory.edu.  
 
