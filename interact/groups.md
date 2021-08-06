@@ -1,8 +1,8 @@
-= Sage Interactions - Groups =
+= Sage Interactions - Groups Using the GAP System =
 
 This page was first created for Google Summer of Code by Alexis Newton, with mentorship by Mckenzie West. 
 
-If you have group-related interactions that you are interested in adding to this page, please do so. You can also contact Alexis Newton at firstname.lastname@emory.edu.  
+If you have interactions that you are interested in adding to this page, please do so. You can also contact Alexis Newton at firstname.lastname@emory.edu.  
 
 goto [[interact|interact main page]]
 
@@ -12,10 +12,9 @@ goto [[interact|interact main page]]
 
 == Calling Groups from GAP ==
 
-GAP is a system... explain.. 
-explanation of what we are doing (calling GAP), what gap is and what its limitations are
+GAP is a system...explanation of what we are doing (calling GAP), what gap is and what its limitations are
 
-We rely heavily on the SmallGroup and AllSmallGroups GAP commands within this page. The documentation for these can be found in the GAP System website.
+We rely heavily on the Small Group and All Small Groups GAP commands within this page. The documentation for these can be found on the GAP System website.
 
 === Group of Order n ===
 
