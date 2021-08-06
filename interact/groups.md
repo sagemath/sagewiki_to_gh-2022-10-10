@@ -224,9 +224,9 @@ def foo(m = input_box(default='1', label="Lower Bound:"), n = input_box(default=
 
 
 
-=== Direct or Semi-direct Product Groups ===
+=== Direct or Semidirect Product Groups ===
 
-Use this interact to specify groups that contain direct or semi-direct products.
+Use this interact to specify groups that contain direct or semidirect products.
 
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
