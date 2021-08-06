@@ -14,11 +14,11 @@ goto [[interact|interact main page]]
 
 == Calling Groups from GAP ==
 
-explanation
+explanation of what we are doing (calling GAP), what gap is and what its limitations are
 
 === Group of Order n ===
 
-Call group order n
+Use this interact to call a group of order n from the GAP library.
 
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
@@ -36,29 +36,97 @@ def foo(n = input_box(default='10', label="Order:"), m = input_box(default='1', 
 
 }}}
 
-=== Group of Order n with parameters ===
+=== Group of Order n of a Certain Type ===
+
+Use this interact to specify a type of group to call.
+
+{{{#!sagecell
+#Last edited 8/5/21 2:45pm
+pretty_print(html("<h1>Pick a Group</h1>"))
+pretty_print(html("<h>Select the order and type of group.<h>"))
+
+@interact
+def foo(n = input_box(default='10', label="Order:"), Parameter = 
+    ["IsGroup","IsAbelian","IsCyclic","IsSolvable","IsNilpotent","IsSimple","IsDihedralGroup",
+    "IsSymmetricGroup","IsAlternatingGroup","IsPerfectGroup","IsPolycyclicGroup"], m = input_box(default='1', label= "Group Number:")):
+    top = len(gap(n).AllSmallGroups(Parameter))
+    print('There are', top, Parameter, 'groups of order', n ,'in the GAP library.')
+    print('Group', m , 'of', top, 'is', gap(gap(n).SmallGroup(m)).StructureDescription())
+
+
+}}}
 
 === All Groups of Order n ===
 
-=== All Groups of Order n with parameters ===
 
-=== number of small groups with that order ===
+Use this interact to call all groups of order n from the GAP library.
 
-=== random group ===
+{{{#!sagecell
+#Last edited 8/5/21 2:45pm
+pretty_print(html("<h1>Order n </h1>"))
+pretty_print(html("<h>Choose a group order.<h>"))
 
-=== construct your own group ===
 
-=== small group info ===
+
+@interact
+def foo(n = input_box(default='10', label="Order:")):
+    h = gap(n).AllSmallGroups()
+    for x in [1..len(h)]:
+	print(h[x].StructureDescription())
+
+
+}}}
+
+=== All Groups of Order n of a Certain Type ===
+
+Use this interact to specify a type of group to call.
+
+{{{#!sagecell
+#Last edited 8/5/21 2:45pm
+pretty_print(html("<h1>Order n </h1>"))
+pretty_print(html("<h>Choose a group order.<h>"))
+
+
+
+@interact
+def foo(n = input_box(default='10', label="Order:"), Parameter = 
+    ["IsGroup","IsAbelian","IsCyclic","IsSolvable","IsNilpotent","IsSimple","IsDihedralGroup",
+    "IsSymmetricGroup","IsAlternatingGroup","IsPerfectGroup","IsPolycyclicGroup"]):
+    h = gap(n).AllSmallGroups(Parameter)
+    for x in [1..len(h)]:
+	print(h[x].StructureDescription())
+
+
+}}}
+
+=== Small Group Info ===
+
+Use this interact to learn information about the small groups of order n contained in the GAP library.
+
+{{{#!sagecell
+#Last edited 8/5/21 2:45pm
+pretty_print(html("<h1>Order n </h1>"))
+pretty_print(html("<h>Choose a group order.<h>"))
+
+
+
+@interact
+def foo(n = input_box(default='10', label="Order:")):
+    print(gap(n).SmallGroupsInformation())
+
+
+}}}
+
 
 
 == Calling a List of Groups from GAP ==
 
-explanation
+explanation part 2
 
 === Groups Order Less Than or Equal to n ===
 
 
-You can use this interact to call all the lists from the GAP library that are order less than or equal to your desired value.
+Use this interact to call all the groups from the GAP library that are order less than or equal to your desired value.
 
 
 {{{#!sagecell
@@ -90,7 +158,7 @@ def foo(n = input_box(default='10', label="Upper Bound:")):
 === Groups Order Between m and n ===
 
 
-You can use this interact to call all the lists from the GAP library that have order between m and n
+Use this interact to call all the groups from the GAP library that have order between m and n
 
 
 {{{#!sagecell
@@ -120,7 +188,7 @@ def foo(m = input_box(default='1', label="Lower Bound:"), n = input_box(default=
 }}}
 
 
-=== Groups Meeting Selected Parameters ===
+=== Groups of a Certain Type ===
 
 
 You can use this interact to 
@@ -156,7 +224,7 @@ def foo(m = input_box(default='1', label="Lower Bound:"), n = input_box(default=
 
 
 
-=== Direct or Semidirect Groups ===
+=== Direct or Semidirect Product Groups ===
 
 
 {{{#!sagecell
