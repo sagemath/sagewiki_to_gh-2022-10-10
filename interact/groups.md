@@ -126,7 +126,7 @@ explanation part 2
 === Groups Order Less Than or Equal to n ===
 
 
-Use this interact to call all groups from the GAP library that are order less than or equal to your desired value.
+Use this interact to call all groups from the GAP library that have order less than or equal to your desired value.
 
 
 {{{#!sagecell
@@ -191,13 +191,13 @@ def foo(m = input_box(default='1', label="Lower Bound:"), n = input_box(default=
 === Groups of a Certain Type ===
 
 
-You can use this interact to 
+Use this interact to call all groups of a certain type from the GAP library that have order between m and n
 
 
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Group Type</h1>"))
-pretty_print(html("<h>Select a group type.<h>"))
+pretty_print(html("<h>Select a group type, an upper bound and a lower bound.<h>"))
 
 
 def order_n(n, *parameter, start=1):
@@ -224,8 +224,9 @@ def foo(m = input_box(default='1', label="Lower Bound:"), n = input_box(default=
 
 
 
-=== Direct or Semidirect Product Groups ===
+=== Direct or Semi-direct Product Groups ===
 
+Use this interact to specify groups that contain direct or semi-direct products.
 
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
