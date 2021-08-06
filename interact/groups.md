@@ -111,7 +111,7 @@ pretty_print(html("<h>Choose a group order.<h>"))
 
 
 @interact
-def foo(n = input_box(default='10', label="Order:")):
+def foo(n = input_box(default='32', label="Order:")):
     print(gap(n).SmallGroupsInformation())
 
 
@@ -126,7 +126,7 @@ explanation part 2
 === Groups Order Less Than or Equal to n ===
 
 
-Use this interact to call all the groups from the GAP library that are order less than or equal to your desired value.
+Use this interact to call all groups from the GAP library that are order less than or equal to your desired value.
 
 
 {{{#!sagecell
