@@ -23,7 +23,7 @@ Use this interact to call a group of order n from the GAP library.
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Order n </h1>"))
-pretty_print(html("<h>Choose a group order.<h>"))
+pretty_print(html("<h>Choose a group order and a group number.<h>"))
 
 
 
@@ -43,7 +43,7 @@ Use this interact to specify a type of group to call.
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Pick a Group</h1>"))
-pretty_print(html("<h>Select the order and type of group.<h>"))
+pretty_print(html("<h>Choose a group order, a group type and a group number.<h>"))
 
 @interact
 def foo(n = input_box(default='10', label="Order:"), Parameter = 
@@ -84,7 +84,7 @@ Use this interact to specify a type of group to call.
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Order n </h1>"))
-pretty_print(html("<h>Choose a group order.<h>"))
+pretty_print(html("<h>Choose a group order and a group type.<h>"))
 
 
 
@@ -197,7 +197,7 @@ You can use this interact to
 {{{#!sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Group Type</h1>"))
-pretty_print(html("<h>Select a parameter.<h>"))
+pretty_print(html("<h>Select a group type.<h>"))
 
 
 def order_n(n, *parameter, start=1):
