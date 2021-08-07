@@ -417,12 +417,12 @@ For more information, see [[https://trac.sagemath.org/ticket/31740|Meta-ticket #
 
 Various improvements/refactoring of the code have been performed in this release:
 
- * topological part: [[https://trac.sagemath.org/ticket/30311|#30311]], [[https://trac.sagemath.org/ticket/31704|#31704]], [[https://trac.sagemath.org/ticket/31854|#31854]], [[https://trac.sagemath.org/ticket/32009|#32009]], [[https://trac.sagemath.org/ticket/32116|#32116]]
+ * topological part: [[https://trac.sagemath.org/ticket/30311|#30311]], [[https://trac.sagemath.org/ticket/31704|#31704]], [[https://trac.sagemath.org/ticket/31854|#31854]], [[https://trac.sagemath.org/ticket/31883|#31883]], [[https://trac.sagemath.org/ticket/32009|#32009]], [[https://trac.sagemath.org/ticket/32116|#32116]]
 
  * differentiable part: [[https://trac.sagemath.org/ticket/31633|#31633]], [[https://trac.sagemath.org/ticket/31692|#31692]], [[https://trac.sagemath.org/ticket/31706|#31706]]
 
 
-In addition, various bugs have been fixed: [[https://trac.sagemath.org/ticket/31784|#31784]], [[https://trac.sagemath.org/ticket/31923|#31923]], [[https://trac.sagemath.org/ticket/32112|#32112]], [[https://trac.sagemath.org/ticket/31904|#31904]].
+In addition, various bugs have been fixed: [[https://trac.sagemath.org/ticket/31784|#31784]], [[https://trac.sagemath.org/ticket/31904|#31904]], [[https://trac.sagemath.org/ticket/31923|#31923]], [[https://trac.sagemath.org/ticket/32112|#32112]].
 
 
 
