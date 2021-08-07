@@ -298,6 +298,16 @@ sage: v.wedge(X.frame()[0]).display()
 v∧∂/∂x = -x ∂/∂x∧∂/∂y
 }}}
 
+=== Specifying coordinate restrictions while declaring a new chart ===
+
+The manifold method `chart` has been endowed with the new argument `coord_restrictions`, allowing to define
+conditions restricting the range of coordinates ([[https://trac.sagemath.org/ticket/32102|#32102]]). For instance to define a slanted half disk:
+{{{
+sage: M = Manifold(2, 'M')                                                                         
+sage: X.<x,y> = M.chart(coord_restrictions=lambda x,y: [x^2+y^2<1, x+y>0])                         
+}}}
+Previously, to achieve the same result, one had to invoke `X.add_restrictions([x^2+y^2<1, x+y>0])` after the declaration of the chart `X`. The method `add_restrictions` is now deprecated.
+
 === Defining submanifolds and manifold subsets by pullbacks from Sage sets ===
 
 Given a continuous map `Φ` from a topological or differentiable manifold `N` and a subset `S` of the codomain of `Φ`, we define the pullback (preimage) of `S` as the subset of `N` of points `p` with `Φ(p)` in `S`. [[https://trac.sagemath.org/ticket/31688|#31688]]
