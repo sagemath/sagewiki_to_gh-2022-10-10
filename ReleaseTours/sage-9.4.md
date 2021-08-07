@@ -304,8 +304,11 @@ The manifold method `chart` has been endowed with the new argument `coord_restri
 conditions restricting the range of coordinates ([[https://trac.sagemath.org/ticket/32102|#32102]]). For instance to define a half disk above the diagonal x+y=0:
 {{{
 sage: M = Manifold(2, 'M')                                                                         
-sage: X.<x,y> = M.chart(coord_restrictions=lambda x,y: [x^2+y^2<1, x+y>0])                         
+sage: X.<x,y> = M.chart(coord_restrictions=lambda x,y: [x^2+y^2<1, x+y>0]) 
+sage: X.plot(max_range=1, number_values=41)                
 }}}
+{{attachment:slanted_half_disk.png}}
+
 Previously, to achieve the same result, one had to invoke `X.add_restrictions([x^2+y^2<1, x+y>0])` after the declaration of the chart `X`. The method `add_restrictions` is now deprecated.
 
 === Defining submanifolds and manifold subsets by pullbacks from Sage sets ===
