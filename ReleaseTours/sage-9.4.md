@@ -263,6 +263,41 @@ False
 
 == Manifolds ==
 
+=== Unicode characters for various symbols in plain text outputs ===
+
+Various unicode characters have been introduced for plain text display ([[https://trac.sagemath.org/ticket/30473|#30473]]). This regards 
+
+ * arrows for maps on manifolds:
+{{{
+sage: M = Manifold(2, 'M')
+sage: X.<x,y> = M.chart()
+sage: M.identity_map().display()
+Id_M: M → M
+   (x, y) ↦ (x, y)
+sage: f = M.scalar_field(x^2 + y^2, name='f')
+sage: f.display()
+f: M → ℝ
+   (x, y) ↦ x^2 + y^2
+}}}
+ * partial derivatives for coordinate vector fields:
+{{{
+sage: v = M.vector_field(-y, x, name='v')
+sage: v.display()
+v = -y ∂/∂x + x ∂/∂y
+sage: X.frame()
+Coordinate frame (M, (∂/∂x,∂/∂y))
+}}}
+ * circled times for tensor products:
+{{{
+sage: (v*diff(f)).display()
+v⊗df = -2*x*y ∂/∂x⊗dx - 2*y^2 ∂/∂x⊗dy + 2*x^2 ∂/∂y⊗dx + 2*x*y ∂/∂y⊗dy
+}}}
+ * wedge symbol for exterior products:
+{{{
+sage: v.wedge(X.frame()[0]).display()
+v∧∂/∂x = -x ∂/∂x∧∂/∂y
+}}}
+
 === Defining submanifolds and manifold subsets by pullbacks from Sage sets ===
 
 Given a continuous map `Φ` from a topological or differentiable manifold `N` and a subset `S` of the codomain of `Φ`, we define the pullback (preimage) of `S` as the subset of `N` of points `p` with `Φ(p)` in `S`. [[https://trac.sagemath.org/ticket/31688|#31688]]
