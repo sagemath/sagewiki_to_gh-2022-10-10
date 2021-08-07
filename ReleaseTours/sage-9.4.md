@@ -268,7 +268,7 @@ False
 In plain text mode, various symbols are now displayed by means of Unicode characters instead of ASCII workarounds ([[https://trac.sagemath.org/ticket/30473|#30473]]). This regards 
 
  * arrows for maps on manifolds:
-{{{
+   {{{
 sage: M = Manifold(2, 'M')
 sage: X.<x,y> = M.chart()
 sage: M.identity_map().display()
@@ -278,30 +278,30 @@ sage: f = M.scalar_field(x^2 + y^2, name='f')
 sage: f.display()
 f: M → ℝ
    (x, y) ↦ x^2 + y^2
-}}}
+   }}}
  * partial derivatives for coordinate vector fields:
-{{{
+   {{{
 sage: v = M.vector_field(-y, x, name='v')
 sage: v.display()
 v = -y ∂/∂x + x ∂/∂y
 sage: X.frame()
 Coordinate frame (M, (∂/∂x,∂/∂y))
-}}}
+   }}}
  * circled times for tensor products:
-{{{
+   {{{
 sage: (v*diff(f)).display()
 v⊗df = -2*x*y ∂/∂x⊗dx - 2*y^2 ∂/∂x⊗dy + 2*x^2 ∂/∂y⊗dx + 2*x*y ∂/∂y⊗dy
-}}}
+   }}}
  * wedge symbol for exterior products:
-{{{
+   {{{
 sage: v.wedge(X.frame()[0]).display()
 v∧∂/∂x = -x ∂/∂x∧∂/∂y
-}}}
+   }}}
 
 === Specifying coordinate restrictions while declaring a new chart ===
 
 The manifold method `chart` has been endowed with the new argument `coord_restrictions`, allowing to define
-conditions restricting the range of coordinates ([[https://trac.sagemath.org/ticket/32102|#32102]]). For instance to define a slanted half disk:
+conditions restricting the range of coordinates ([[https://trac.sagemath.org/ticket/32102|#32102]]). For instance to define a half disk above the diagonal x+y=0:
 {{{
 sage: M = Manifold(2, 'M')                                                                         
 sage: X.<x,y> = M.chart(coord_restrictions=lambda x,y: [x^2+y^2<1, x+y>0])                         
