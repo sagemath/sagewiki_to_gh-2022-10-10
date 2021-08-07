@@ -265,7 +265,7 @@ False
 
 === Unicode characters for various symbols in plain text outputs ===
 
-Various unicode characters have been introduced for plain text display ([[https://trac.sagemath.org/ticket/30473|#30473]]). This regards 
+In plain text mode, various symbols are now displayed by means of Unicode characters instead of ASCII workarounds ([[https://trac.sagemath.org/ticket/30473|#30473]]). This regards 
 
  * arrows for maps on manifolds:
 {{{
