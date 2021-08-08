@@ -505,7 +505,7 @@ Package installation records are kept within each tree, and thus separately. Thi
 
 === FLINT and Arb ===
 
-[[http://www.flintlib.org/|FLINT]] has been upgraded to 2.7.1 in [[https://trac.sagemath.org/ticket/31069|#31069]].  Sage 9.4 has added support for using FLINT 2.8.x on systems that provide it in [[https://trac.sagemath.org/ticket/32175|#32175]]. The minimum supported FLINT version is now 2.6.0 [[https://trac.sagemath.org/ticket/31525|#315125]]. Sage developers can now make use of more FLINT features added in the 2.x development series, see [[https://trac.sagemath.org/ticket/31408|Meta-ticket #31408: Use new features from FLINT 2.x]].
+[[http://www.flintlib.org/|FLINT]] has been upgraded to 2.7.1 in [[https://trac.sagemath.org/ticket/31069|#31069]].  Sage 9.4 has added support for using FLINT 2.8.x on systems that provide it in [[https://trac.sagemath.org/ticket/32175|#32175]]. The minimum supported FLINT version is now 2.6.0 [[https://trac.sagemath.org/ticket/31525|#31525]]. Sage developers can now make use of more FLINT features added in the 2.x development series, see [[https://trac.sagemath.org/ticket/31408|Meta-ticket #31408: Use new features from FLINT 2.x]].
 
 [[https://arblib.org/index.html|Arb]] has been upgraded to [[https://arblib.org/history.html#version-2-19-0|2.19.0]], which brings various performance improvements.
 
