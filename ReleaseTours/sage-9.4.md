@@ -175,7 +175,28 @@ Set-theoretic union of
  Set of elements of A 3-dimensional polyhedron in ZZ^3 defined as the convex hull of 4 vertices
 }}}
 
-=== Polyhedral geometry ===
+=== New operations on faces of convex polyhedra ===
+
+`PolyhedronFace` has a new method `affine_tangent_cone`. [[https://trac.sagemath.org/ticket/29811|#29811]]
+{{{
+sage: c = polytopes.cube()
+sage: edge = min(c.faces(1))
+sage: edge.vertices()
+(A vertex at (1, -1, -1), A vertex at (1, 1, -1))
+sage: T_edge = edge.affine_tangent_cone()
+sage: T_edge.Vrepresentation()
+(A line in the direction (0, 1, 0),
+ A ray in the direction (0, 0, 1),
+ A vertex at (1, 0, -1),
+ A ray in the direction (-1, 0, 0))
+}}}
+
+Sage 9.4 also defines two new `Polyhedron_base` methods that look up a face in the face lattice of a polyhedron. [[https://trac.sagemath.org/ticket/29683|#29683]]
+ * `meet_of_Vrep` (alias: `least_common_superface_of_Vrep`) finds the smallest face containing specified V-representatives
+ * `join_of_Hrep` (alias: `greatest_common_subface_of_Hrep`) finds the largest face contained specified facets
+
+
+=== Polyhedral complexes ===
 
 Sage 9.4 defines a new subclass of `GenericCellComplex` for (geometric) polyhedral complexes. [[https://trac.sagemath.org/ticket/31748|#31748]]
 {{{
