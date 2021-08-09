@@ -434,6 +434,24 @@ The new class `ManifoldSubsetFiniteFamily` serves as a container for storing arb
 
 For more information, see [[https://trac.sagemath.org/ticket/31740|Meta-ticket #31740]].
 
+=== New method for constructing a tangent vector ===
+
+Manifolds have been endowed with the method `tangent_vector` (shortcut alias `vector`) for the direct construction of a tangent vector at a given point ([[https://trac.sagemath.org/ticket/31609|#31609]]):
+{{{
+sage: M = Manifold(2, 'M')                                                                          
+sage: X.<x,y> = M.chart()                                                                           
+sage: p = M((1, 2), name='p')                                                                       
+sage: v = M.tangent_vector(p, -1, 3); v                                                             
+Tangent vector at Point p on the 2-dimensional differentiable manifold M
+sage: v.display()                                                                                   
+-∂/∂x + 3 ∂/∂y
+}}}
+Previously, tangent vectors could only be constructed as elements of the tangent space at the given point:
+{{{
+sage: Tp = M.tangent_space(p)                                                                       
+sage: v = Tp((-1, 3))                                                                               
+}}}
+
 === Internal code improvements and bug fixes ===
 
 Various improvements/refactoring of the code have been performed in this release:
