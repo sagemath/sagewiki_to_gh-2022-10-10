@@ -197,6 +197,11 @@ Sage 9.4 also defines two new `Polyhedron_base` methods that look up a face in t
  * `meet_of_Vrep` (alias: `least_common_superface_of_Vrep`) finds the smallest face containing specified V-representatives
  * `join_of_Hrep` (alias: `greatest_common_subface_of_Hrep`) finds the largest face contained specified facets
 
+=== Parallel face iterator ===
+
+The f-vector of polyhedra is now computed in parallel on many platforms.
+
+For developers: This is done with a parallel face iterator. Instead of just counting the faces, one can also perform different operations in parallel.
 
 === Polyhedral complexes ===
 
@@ -237,12 +242,6 @@ True
 }}}
 
 The homogeneous analogue to a polyhedral complex is a polyhedral fan. The constructor `Fan` for instances of the class `RationalPolyhedralFan` has been generalized: If the new keyword `allow_arrangement=True` is passed, the input is allowed to be an arbitrary finite set (arrangement) of rational polyhedral cones; Sage then computes a suitable common refinement that is a fan. [[https://trac.sagemath.org/ticket/25122|#25122]]
-
-=== Parallel face iterator ===
-
-The f-vector of polyhedra is now computed in parallel on many platforms.
-
-For developers: This is done with a parallel face iterator. Instead of just counting the faces, one can also perform different operations in parallel.
 
 == Knot theory ==
 
