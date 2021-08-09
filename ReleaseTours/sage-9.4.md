@@ -147,8 +147,6 @@ sage: ConditionSet(ZZ^3, symbolic_expression(lambda x, y, z:
 
 == Convex geometry ==
 
-Some smaller improvements that are listed in the [[https://trac.sagemath.org/wiki/SagePolyhedralGeometry#release_9.4|release notes for optimization and polyhedral geometry software interactions in Sage]].
-
 === ABC for convex sets ===
 
 Sage 9.4 has added an abstract base class `ConvexSet_base` (as well as abstract subclasses `ConvexSet_closed`, `ConvexSet_compact`, `ConvexSet_relatively_open`, `ConvexSet_open`) for convex subsets of finite-dimensional real vector spaces.  The abstract methods and default implementations of methods provide a unifying API to the existing classes `Polyhedron_base`, `ConvexRationalPolyhedralCone`, `LatticePolytope`, and `PolyhedronFace`. [[https://trac.sagemath.org/ticket/31919|#31919]], [[https://trac.sagemath.org/ticket/31959|#31959]], [[https://trac.sagemath.org/ticket/31990|#31990]], [[https://trac.sagemath.org/ticket/31993|#31993]]
@@ -242,6 +240,10 @@ True
 }}}
 
 The homogeneous analogue to a polyhedral complex is a polyhedral fan. The constructor `Fan` for instances of the class `RationalPolyhedralFan` has been generalized: If the new keyword `allow_arrangement=True` is passed, the input is allowed to be an arbitrary finite set (arrangement) of rational polyhedral cones; Sage then computes a suitable common refinement that is a fan. [[https://trac.sagemath.org/ticket/25122|#25122]]
+
+=== More details ===
+
+Some smaller improvements that are listed in the [[https://trac.sagemath.org/wiki/SagePolyhedralGeometry#release_9.4|release notes for optimization and polyhedral geometry software interactions in Sage]].
 
 == Knot theory ==
 
