@@ -486,7 +486,32 @@ sage: decoder.decode_to_code(received_vector) == codeword    # recovered the cod
 True
 sage: decoder.decode_to_message(received_vector) == message  # recovered the message
 True
-}}}       
+}}}
+
+
+== Algebra ==
+
+=== New algebraic objects ===
+
+ * The alternating central extension of the Onsager (Lie) algebra [[https://trac.sagemath.org/ticket/32142|#32142]]
+ * Invariant module of a finite-dimensional module under a semigroup action [[https://trac.sagemath.org/ticket/31939|#31939]]
+ * The twisted invariant module of a finite-dimensional module under a group action [[https://trac.sagemath.org/ticket/32145|#32145]]
+ * The quantum Clifford algebra [[https://trac.sagemath.org/ticket/32094|#32094]]
+
+=== Bug fixes and improvements ===
+
+ * Creating submodules of the module of matrices [[https://trac.sagemath.org/ticket/31995|#31995]]
+ * Class functions are now hashable [[https://trac.sagemath.org/ticket/32190|#32190]]
+ * `float^complex` now works [[https://trac.sagemath.org/ticket/11323|#11323]]
+ * `x * ((3*i + 4)*x - 5)` no longer segfaults [[https://trac.sagemath.org/ticket/31869|#31869]]
+ * Improve computation of sign for QQbar elements [[https://trac.sagemath.org/ticket/31767|#31767]]
+ * Implement special class for quadratic number field elements to improve coefficient computations [[https://trac.sagemath.org/ticket/31810|#31810]]
+
+
+== Hyperbolic geometry ==
+
+Bug fixed with computing the Möbius transform, midpoint, and perpendicular bisector in the hyperbolic plane. Now the computation of midpoint and perp. bisector is order independent. [[https://trac.sagemath.org/ticket/29936|#29936]]
+
 
 == Configuration changes ==
 
