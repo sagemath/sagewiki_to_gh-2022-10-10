@@ -555,7 +555,9 @@ In particular, [[https://numpy.org/|NumPy]] has been upgraded to 1.20.3 in [[htt
 
 === Maxima and FriCAS ===
 
-The symbolics packages [[https://maxima.sourceforge.io/|Maxima]] and [[https://fricas.sourceforge.net/|FriCAS]], both running on [[https://gitlab.com/embeddable-common-lisp/ecl|Embeddable Common Lisp]], have been upgraded to 5.45.0 and 1.3.7, respectively.
+The symbolics packages [[https://maxima.sourceforge.io/|Maxima]] and [[https://fricas.sourceforge.net/|FriCAS]], both running on [[https://gitlab.com/embeddable-common-lisp/ecl|Embeddable Common Lisp]] (ECL), have been upgraded to 5.45.0 and 1.3.7, respectively.
+
+Also, if ECL 21.2.1 is provided by a system package, Sage is now able to use it instead of building its own copy. [[https://trac.sagemath.org/ticket/29617|#29617]]
 
 === Other upgrades ===
 
