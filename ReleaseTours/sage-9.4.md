@@ -458,6 +458,7 @@ Various improvements/refactoring of the code have been performed in this release
 
  * topological part: [[https://trac.sagemath.org/ticket/30311|#30311]], [[https://trac.sagemath.org/ticket/31704|#31704]], [[https://trac.sagemath.org/ticket/31854|#31854]], [[https://trac.sagemath.org/ticket/31883|#31883]], [[https://trac.sagemath.org/ticket/32009|#32009]], [[https://trac.sagemath.org/ticket/32116|#32116]]
 
+
  * differentiable part: [[https://trac.sagemath.org/ticket/31658|#31658]], [[https://trac.sagemath.org/ticket/31633|#31633]], [[https://trac.sagemath.org/ticket/31692|#31692]], [[https://trac.sagemath.org/ticket/31706|#31706]]
 
 
@@ -674,6 +675,29 @@ etc.; see [[https://trac.sagemath.org/ticket/29705|Meta-ticket #29705]] for more
 
 The version information for dependencies comes from the existing files `build/pkgs/*/install-requires.txt`.
 
+=== Using cython.parallel in sage ===
+
+One can now use `cython.parallel` for parallel cython code, as demonstrated in [[https://trac.sagemath.org/ticket/31245|#31245]].
+
+The following cython code will work (in a source file and compiled in the shell):
+
+{{{
+# distutils: extra_compile_args = OPENMP_CFLAGS
+# distutils: extra_link_args = OPENMP_CFLAGS
+
+from cython.parallel cimport prange, threadid
+
+def foo():
+    cdef int i, sum
+    sum = 0
+    for i in prange(1000, num_threads=8, schedule='dynamic', nogil=True):
+        sum += threadid()
+    return sum
+}}}
+
+`OPENMP_CFLAGS` and `OPENMP_CXXFLAGS` will be configured non-empty on many systems, if OpenMP is detected and working.
+If empty, the above code will still compile fine and run on only 1 thread instead.
+In particular one needs to use `cython.parallel` functions and not call OpenMP directly, e.g. with `omp_get_thread_num`.
 
 == Availability of Sage 9.4 and installation help ==
 
