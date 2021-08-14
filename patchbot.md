@@ -224,8 +224,6 @@ The argument dictionary must contain at least:
 
 == Example Configuration and Run-Scripts ==
 
-=== A Patchbot testing Python2 Sage ===
-
 Installation via
 {{{
 pip3 install --user git+https://github.com/sagemath/sage-patchbot.git
@@ -245,31 +243,4 @@ Script {{{bin/run-patchbot}}}:
 {{{
 #!/bin/bash
 LANG=C python3 -m sage_patchbot.patchbot --config=/local/sage-patchbot/config.json
-}}}
-
-=== A Patchbot testing Python 3 sage ===
-
-Installation via
-{{{
-git clone https://github.com/sagemath/sage-patchbot.git
-}}}
-(but pip-installation also possible).
-
-Configuration {{{config.json}}}:
-{{{
-{
-    "bonus": {"me": 100},
-    "parallelism": 2,
-    "sage_root": "/local/sage-patchbot/sage",
-    "tested_files": "py3",
-    "owner": "This Is Me <this.is@me.org>"
-}
-}}}
-
-Script {{{bin/run-patchbot}}}:
-{{{
-#!/bin/bash
-cd /local/sage-patchbot/sage-patchbot  # "installed" via git clone (not pip), remove if used pip
-export PREREQ_OPTIONS="--with-python=3"
-LANG=C.UTF-8 python3 -m sage_patchbot.patchbot --config=/local/sage-patchbot/config.json
 }}}
