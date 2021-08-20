@@ -20,7 +20,7 @@ goto [[interact|interact main page]]
 
 GAP is a system for computational discrete algebra, which provides a programming language, a library of thousands of functions implementing algebraic algorithms written in the GAP language as well as large data libraries of algebraic objects. GAP is used in research and teaching for studying groups and their representations, rings, rings, vector spaces, algebras, combinatorial structures, and more. 
 
-Using Sage, we are able to interface with the GAP System call groups of different types. This is extremely useful for finding and demonstrating examples in undergraduate algebra courses. Learn more about interfacing with GAP via Sage here: https://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gap.html.
+Using Sage, we are able to interface with the GAP System to call groups of different types. This is extremely useful for demonstrating examples in undergraduate abstract algebra courses. Learn more about interfacing with GAP via Sage here: https://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gap.html.
 
 We rely heavily on the Small Group and All Small Groups GAP commands within this page. The documentation for these can be found on the GAP System website: https://www.gap-system.org/Manuals/pkg/SmallGrp/doc/chap1.html.
 
