@@ -4,6 +4,11 @@ This page was first created for Google Summer of Code 2021 by Alexis Newton, wit
 
 If you have interactions that you are interested in adding to this page, please do so. You can also contact Alexis Newton at firstname.lastname@emory.edu.  
 
+The main function of this page is to demonstrate the improved capabilities that we have developed for SageMath during the GSOC Summer 2021. The trac ticket for those developments can be found here: https://trac.sagemath.org/ticket/32196#comment:5.
+
+Note this ticket has not yet been approved, so in many cases we have defined our main function "order_n" in the Sage cell to be a more rudimentary version of the what is contained in the trac ticket. We do this in order to demonstrate how it may be used. Once the ticket has been pushed through the Sage development process, we will update the page to remove this extraneous code.
+ 
+
 goto [[interact|interact main page]]
 
 <<TableOfContents>>
@@ -14,7 +19,7 @@ goto [[interact|interact main page]]
 
 GAP is a system...explanation of what we are doing (calling GAP), what gap is and what its limitations are
 
-We rely heavily on the Small Group and All Small Groups GAP commands within this page. The documentation for these can be found on the GAP System website.
+We rely heavily on the Small Group and All Small Groups GAP commands within this page. The documentation for these can be found on the GAP System website: https://www.gap-system.org/Manuals/pkg/SmallGrp/doc/chap1.html.
 
 === Group of Order n ===
 
@@ -121,7 +126,8 @@ def order_n1(n = input_box(default='32', label="Order:")):
 
 == Calling a List of Groups from GAP ==
 
-explanation part 2
+
+The current configuration for calling information from GAP only allows for you to call one group at a time, but we aim to allow for lists of groups which meet certain parameters. The some of the group properties we aim to address include abelian, solvable, nilpotent, given order, dihedral, semi-direct products, alternating, symmetric, and simple.
 
 === Groups Order Less Than or Equal to n ===
 
