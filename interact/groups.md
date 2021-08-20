@@ -28,7 +28,7 @@ pretty_print(html("<h>Choose a group order and a group number.<h>"))
 
 
 @interact
-def foo(n = input_box(default='10', label="Order:"), m = input_box(default='1', label= "Group Number:")):
+def order_n1(n = input_box(default='10', label="Order:"), m = input_box(default='1', label= "Group Number:")):
     top = len(gap(n).AllSmallGroups())
     print('There are', top, 'groups of order', n ,'in the GAP library.')
     print('Group', m , 'of', top, 'is', gap(gap(n).SmallGroup(m)).StructureDescription())
@@ -46,7 +46,7 @@ pretty_print(html("<h1>Pick a Group</h1>"))
 pretty_print(html("<h>Choose a group order, a group type and a group number.<h>"))
 
 @interact
-def foo(n = input_box(default='10', label="Order:"), Parameter = 
+def order_n1(n = input_box(default='10', label="Order:"), Parameter = 
     ["IsGroup","IsAbelian","IsCyclic","IsSolvable","IsNilpotent","IsSimple","IsDihedralGroup",
     "IsSymmetricGroup","IsAlternatingGroup","IsPerfectGroup","IsPolycyclicGroup"], m = input_box(default='1', label= "Group Number:")):
     top = len(gap(n).AllSmallGroups(Parameter))
@@ -69,7 +69,7 @@ pretty_print(html("<h>Choose a group order.<h>"))
 
 
 @interact
-def foo(n = input_box(default='10', label="Order:")):
+def order_n1(n = input_box(default='10', label="Order:")):
     h = gap(n).AllSmallGroups()
     for x in [1..len(h)]:
 	print(h[x].StructureDescription())
@@ -89,7 +89,7 @@ pretty_print(html("<h>Choose a group order and a group type.<h>"))
 
 
 @interact
-def foo(n = input_box(default='10', label="Order:"), Parameter = 
+def order_n1(n = input_box(default='10', label="Order:"), Parameter = 
     ["IsGroup","IsAbelian","IsCyclic","IsSolvable","IsNilpotent","IsSimple","IsDihedralGroup",
     "IsSymmetricGroup","IsAlternatingGroup","IsPerfectGroup","IsPolycyclicGroup"]):
     h = gap(n).AllSmallGroups(Parameter)
@@ -111,7 +111,7 @@ pretty_print(html("<h>Choose a group order.<h>"))
 
 
 @interact
-def foo(n = input_box(default='32', label="Order:")):
+def order_n1(n = input_box(default='32', label="Order:")):
     print(gap(n).SmallGroupsInformation())
 
 
@@ -150,7 +150,7 @@ def order_n(n, *parameter, start=1):
     return below_order_n
 
 @interact
-def foo(n = input_box(default='10', label="Upper Bound:")):
+def order_n1(n = input_box(default='10', label="Upper Bound:")):
     print(order_n(n))
 
 }}}
@@ -182,7 +182,7 @@ def order_n(n, *parameter, start=1):
     return below_order_n
 
 @interact
-def foo(m = input_box(default='1', label="Lower Bound:"), n = input_box(default='10', label="Upper Bound:")):
+def order_n1(m = input_box(default='1', label="Lower Bound:"), n = input_box(default='10', label="Upper Bound:")):
     print(order_n(n,start=m))
 
 }}}
@@ -215,7 +215,7 @@ def order_n(n, *parameter, start=1):
     return below_order_n
 
 @interact
-def foo(m = input_box(default='1', label="Lower Bound:"), n = input_box(default='10', label="Upper Bound:"), Parameter = 
+def order_n1(m = input_box(default='1', label="Lower Bound:"), n = input_box(default='10', label="Upper Bound:"), Parameter = 
     ["IsGroup","IsAbelian","IsCyclic","IsSolvable","IsNilpotent","IsSimple","IsDihedralGroup",
     "IsSymmetricGroup","IsAlternatingGroup","IsPerfectGroup","IsPolycyclicGroup"]):
     print(order_n(n,Parameter,start=m))
@@ -271,7 +271,7 @@ def order_n(n, *parameter, start=1,directproduct=False, semidirectproduct=False)
     return below_order_n
 
 @interact
-def foo(m = input_box(default='1', label="Lower Bound:"), n = input_box(default='10', label="Upper Bound:"), Parameter = 
+def order_n1(m = input_box(default='1', label="Lower Bound:"), n = input_box(default='10', label="Upper Bound:"), Parameter = 
     ["IsGroup","IsAbelian","IsCyclic","IsSolvable","IsNilpotent","IsSimple","IsDihedralGroup",
     "IsSymmetricGroup","IsAlternatingGroup","IsPerfectGroup","IsPolycyclicGroup"], Direct = checkbox(default = False),
     Semidirect = checkbox(default = False)):
