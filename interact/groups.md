@@ -6,7 +6,7 @@ If you have interactions that you are interested in adding to this page, please 
 
 The main function of this page is to demonstrate the improved capabilities that we have developed for SageMath during the GSOC Summer 2021. The trac ticket for those developments can be found here: https://trac.sagemath.org/ticket/32196#comment:5.
 
-Note this ticket has not yet been approved, so in many cases we have defined our main function "order_n" in the Sage cell to be a more rudimentary version of the what is contained in the trac ticket. We do this in order to demonstrate how it may be used. Once the ticket has been pushed through the Sage development process, we will update the page to remove this extraneous code.
+Note that this ticket has not yet been approved, so in many cases we have defined our main function "order_n" in the Sage cell to be a more rudimentary version of the what is contained in the trac ticket. We do this in order to demonstrate how it may be used. Once the ticket has been pushed through the Sage development process, we will update the page to remove this extraneous code.
  
 
 goto [[interact|interact main page]]
@@ -17,7 +17,10 @@ goto [[interact|interact main page]]
 
 == Calling Groups from GAP ==
 
-GAP is a system...explanation of what we are doing (calling GAP), what gap is and what its limitations are
+
+GAP is a system for computational discrete algebra, which provides a programming language, a library of thousands of functions implementing algebraic algorithms written in the GAP language as well as large data libraries of algebraic objects. GAP is used in research and teaching for studying groups and their representations, rings, rings, vector spaces, algebras, combinatorial structures, and more. 
+
+Using Sage, we are able to interface with the GAP System call groups of different types. This is extremely useful for finding and demonstrating examples in undergraduate algebra courses. Learn more about interfacing with GAP via Sage here: https://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gap.html.
 
 We rely heavily on the Small Group and All Small Groups GAP commands within this page. The documentation for these can be found on the GAP System website: https://www.gap-system.org/Manuals/pkg/SmallGrp/doc/chap1.html.
 
