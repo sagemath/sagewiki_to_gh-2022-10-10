@@ -1,6 +1,6 @@
 = Sage 9.4 Release Tour =
 
-release candidate (2021)
+released Aug 22, 2021
 
 <<TableOfContents>>
 
