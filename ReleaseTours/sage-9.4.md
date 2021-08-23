@@ -716,7 +716,7 @@ Sage 9.4 was released on 2021-08-22.
 
 The Sage source code is available in the [[https://github.com/sagemath/sage/tree/9.4|sage git repository]], and the self-contained [[http://www.sagemath.org/download-source.html|source tarballs are available]] for download. 
 
-!SageMath 9.4 supports most [[https://wiki.sagemath.org/ReleaseTours/sage-9.2#Availability_of_Sage_9.3_and_installation_help|platforms that were supported by Sage 9.3]].  Sage 9.4 now has support for building Sage from source on macOS 11 ("Big Sur") with the default compilers from Xcode; and the default compilers from homebrew.
+!SageMath 9.4 supports most [[https://wiki.sagemath.org/ReleaseTours/sage-9.2#Availability_of_Sage_9.3_and_installation_help|platforms that were supported by Sage 9.3]].  Sage 9.4 now has support for building Sage from source on macOS 11 ("Big Sur") with the default compilers from Xcode; and the default compilers from homebrew. Our CI now tests also several flavors of openSUSE Linux.
 
 Sage 9.4 has been [[https://github.com/sagemath/sage/actions/runs/1155406210|tested to compile from source on a wide variety of platforms]], including:
 
