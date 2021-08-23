@@ -710,12 +710,49 @@ In particular one needs to use `cython.parallel` functions and not call OpenMP d
 
 == Availability of Sage 9.4 and installation help ==
 
-The first beta of the 9.4 series, 9.4.beta0, was tagged on 2021-05-26.  The first release candidate, 9.4.rc0, was tagged on 2021-07-28; the current release candidate is 9.4.rc2, tagged on 2021-08-12.
+Sage 9.4 was released on 2021-08-22.
 
- * See [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]] for development discussions and [[https://groups.google.com/forum/#!forum/sage-release|sage-release]] for announcements of beta versions and release candidates.
+=== Sources ===
+
+The Sage source code is available in the [[https://github.com/sagemath/sage/tree/9.4|sage git repository]], and the self-contained [[http://www.sagemath.org/download-source.html|source tarballs are available]] for download. 
+
+!SageMath 9.4 supports most [[https://wiki.sagemath.org/ReleaseTours/sage-9.2#Availability_of_Sage_9.3_and_installation_help|platforms that were supported by Sage 9.3]].  Sage 9.4 now has support for building Sage from source on macOS 11 ("Big Sur") with the default compilers from Xcode; and the default compilers from homebrew.
+
+Sage 9.4 has been [[https://github.com/sagemath/sage/actions/runs/1155406210|tested to compile from source on a wide variety of platforms]], including:
+
+ * '''Linux 64-bit''' (x86_64)
+   * ubuntu-{trusty⁺,xenial,bionic,focal,groovy,hirsute,impish}, 
+   * debian-{jessie⁺,stretch,buster,bullseye,sid}, 
+   * linuxmint-{17⁺,18,19,19.3,20.1},
+   * fedora-{26,27,28,29,30,31,32,33,34,35},
+   * centos-{7⁺,8},
+   * gentoo,
+   * archlinux,
+   * opensuse-{15,15.3,tumbleweed},
+   * slackware-14.2
+
+ * '''Linux 32-bit''' (i386)
+   * debian-buster
+   * ubuntu-bionic
+   * centos-7⁺
+   * manylinux-2_24
+
+ * '''macOS''' 
+   * macOS Catalina and older (macOS 10.x, with Xcode 11.x or Xcode 12.x)
+   * macOS Big Sur (macOS 11.x, with XCode 12.x)
+   * optionally, using Homebrew
+
+ * '''Windows''' (Cygwin-64).
+
+There are currently '''known issues with an installation from source on conda-forge''', both on Linux and macOS. This is tracked in [[https://trac.sagemath.org/ticket/32087|#32087]].
+
+=== Installation FAQ ===
+
+See [[https://github.com/sagemath/sage/blob/9.4/README.md|README.md]] in the source distribution for installation instructions.
+
+See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]], [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]].
+
 
 == More details ==
-
- * [[https://trac.sagemath.org/query?status=needs_info&status=needs_review&status=needs_work&status=new&summary=~Meta&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&order=priority|Open Meta-Tickets]]
 
  * [[https://trac.sagemath.org/query?milestone=sage-9.4&groupdesc=1&group=status&max=1500&col=id&col=summary&col=author&col=reviewer&col=time&col=changetime&col=component&col=keywords&order=component|Trac tickets with milestone 9.4]]
