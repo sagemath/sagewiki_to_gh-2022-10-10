@@ -26,6 +26,7 @@ Examples:
  * [[interact/games|Games and Diversions]]
  * [[interact/geometry|Geometry]]
  * [[interact/graph_theory|Graph Theory]]
+ * [[interact/groups|Groups]]
  * [[interact/linear_algebra|Linear Algebra]]
  * [[interact/Loop Quantum Gravity|Loop Quantum Gravity]]
  * [[interact/misc|Miscellaneous]]
