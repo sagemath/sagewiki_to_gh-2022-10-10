@@ -759,4 +759,6 @@ See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]], [[htt
 
 == More details ==
 
+ * [[https://www.sagemath.org/changelogs/sage-9.4.txt|Sage 9.4 changelog]]
+
  * [[https://trac.sagemath.org/query?milestone=sage-9.4&groupdesc=1&group=status&max=1500&col=id&col=summary&col=author&col=reviewer&col=time&col=changetime&col=component&col=keywords&order=component|Trac tickets with milestone 9.4]]
