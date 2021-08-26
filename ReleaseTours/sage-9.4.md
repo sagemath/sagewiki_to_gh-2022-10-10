@@ -752,7 +752,10 @@ See [[https://github.com/sagemath/sage/blob/9.4/README.md|README.md]] in the sou
 
 See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]], [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]].
 
-=== Availability as binaries ===
+=== Availability as binaries and in distributions ===
+
+The easiest way to install Sage 9.4 is through a distribution that provides it, see [[https://repology.org/project/sagemath/versions|repology.org: sagemath]].
+
 
 [[https://github.com/3-manifolds/Sage_macOS/releases|A binary build of Sage 9.4 for macOS as a signed and notarized app is available.]]
 
