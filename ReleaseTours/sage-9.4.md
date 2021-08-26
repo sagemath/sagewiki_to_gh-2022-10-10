@@ -149,7 +149,7 @@ sage: ConditionSet(ZZ^3, symbolic_expression(lambda x, y, z:
 
 === ABC for convex sets ===
 
-Sage 9.4 has added an abstract base class `ConvexSet_base` (as well as abstract subclasses `ConvexSet_closed`, `ConvexSet_compact`, `ConvexSet_relatively_open`, `ConvexSet_open`) for convex subsets of finite-dimensional real vector spaces.  The abstract methods and default implementations of methods provide a unifying API to the existing classes `Polyhedron_base`, `ConvexRationalPolyhedralCone`, `LatticePolytope`, and `PolyhedronFace`. [[https://trac.sagemath.org/ticket/31919|#31919]], [[https://trac.sagemath.org/ticket/31959|#31959]], [[https://trac.sagemath.org/ticket/31990|#31990]], [[https://trac.sagemath.org/ticket/31993|#31993]]
+Sage 9.4 has added an abstract base class [[https://doc.sagemath.org/html/en/reference/discrete_geometry/sage/geometry/convex_set.html#sage.geometry.convex_set.ConvexSet_base|ConvexSet_base]] (as well as abstract subclasses `ConvexSet_closed`, `ConvexSet_compact`, `ConvexSet_relatively_open`, `ConvexSet_open`) for convex subsets of finite-dimensional real vector spaces.  The abstract methods and default implementations of methods provide a unifying API to the existing classes `Polyhedron_base`, `ConvexRationalPolyhedralCone`, `LatticePolytope`, and `PolyhedronFace`. [[https://trac.sagemath.org/ticket/31919|#31919]], [[https://trac.sagemath.org/ticket/31959|#31959]], [[https://trac.sagemath.org/ticket/31990|#31990]], [[https://trac.sagemath.org/ticket/31993|#31993]]
 
 Several methods previously only available for `Polyhedron_base` instances, are now available for all convex sets.  The method `an_affine_basis` returns a sequence of points that span by affine linear combinations the affine hull, i.e., the smallest affine subspace in which the convex set lies. The method `affine_hull` returns the latter as a polyhedron. The method `affine_hull_projection` (renamed from `affine_hull` in Sage 9.1) computes an affine linear transformation of the convex set to a new ambient vector space, in which the image is full-dimensional. The generalized method also provides additional data: the right inverse (section map) of the projection. [[https://trac.sagemath.org/ticket/27366|#27366]], [[https://trac.sagemath.org/ticket/31963|#31963]], [[https://trac.sagemath.org/ticket/31993|#31993]]
 
@@ -165,7 +165,7 @@ sage: (1, 0) in ri_P
 False
 }}}
 
-`ConvexSet_base` is a subclass of the new abstract base class `Set_base`. [[https://trac.sagemath.org/ticket/32013|#32013]]
+`ConvexSet_base` is a subclass of the new abstract base class [[https://doc.sagemath.org/html/en/reference/sets/sage/sets/set.html#sage.sets.set.Set_base|Set_base]]. [[https://trac.sagemath.org/ticket/32013|#32013]]
 
 This makes various methods that were previously only defined for sets constructed using the `Set` constructor available for polyhedra and other convex sets.  As an example, we can now do:
 {{{
@@ -383,7 +383,7 @@ In a similar direction, the new method `ConvexSet_base.affine_hull_manifold` mak
 
 === Manifold options for RealSet constructors ===
 
-As an application of chart pullbacks, the `RealSet` constructors have been extended so that they can optionally build manifolds or manifolds subsets.  [[https://trac.sagemath.org/ticket/31881|#31881]]
+As an application of chart pullbacks, the [[https://doc.sagemath.org/html/en/reference/sets/sage/sets/real_set.html#sage.sets.real_set.RealSet|RealSet]] constructors have been extended so that they can optionally build manifolds or manifolds subsets.  [[https://trac.sagemath.org/ticket/31881|#31881]]
 
 This is activated by passing the manifold keyword `structure='differentiable'`:
 {{{
@@ -437,9 +437,9 @@ In addition to `declare_union` and `declare_intersection`, there are now methods
 The declared subset relations define a quasiorder on the named subsets. 
 To visualize the subset relations, methods `subset_digraph` and `superset_digraph` are now available. 
 
-Through a sequence of subset declarations, or directly through `declare_equal`, several named subsets (which are distinct as Python objects) can become necessarily equal as mathematical sets. By quotienting out by this equivalence relation, we obtain a partially ordered set, which is available through the new methods `subset_poset` and `superset_poset`.
+Through a sequence of subset declarations, or directly through `declare_equal`, several named subsets (which are distinct as Python objects) can become necessarily equal as mathematical sets. By quotienting out by this equivalence relation, we obtain a partially ordered set, which is available through the new methods [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.subset_poset|subset_poset]] and `superset_poset`.
 
-The new class `ManifoldSubsetFiniteFamily` serves as a container for storing arbitrary finite families of manifold subsets, indexed by their names. The new methods `subset_family`, `superset_family`, and `open_superset_family` return instances of `ManifoldSubsetFiniteFamily`. Such instances are automatically sorted by name, are hashable, compare with each other lexicographically, and print more compactly than lists/tuples/sets of manifold subsets. 
+The new class `ManifoldSubsetFiniteFamily` serves as a container for storing arbitrary finite families of manifold subsets, indexed by their names. The new methods [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.subset_family|subset_family]], `superset_family`, and `open_superset_family` return instances of `ManifoldSubsetFiniteFamily`. Such instances are automatically sorted by name, are hashable, compare with each other lexicographically, and print more compactly than lists/tuples/sets of manifold subsets. 
 
 For more information, see [[https://trac.sagemath.org/ticket/31740|Meta-ticket #31740]].
 
