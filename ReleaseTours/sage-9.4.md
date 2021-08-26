@@ -37,7 +37,7 @@ sage: f._sympy_()
 Lambda((x, y), x**2 + y**2)
 }}}
 
-Sage has added a formal set membership function `element_of` for use in symbolic expressions; it converts to a !SymPy's `Contains` expression. [[https://trac.sagemath.org/ticket/24171|#24171]]
+Sage has added a formal set membership function [[https://doc.sagemath.org/html/en/reference/functions/sage/functions/other.html#sage.functions.other.Function_elementof|element_of]] for use in symbolic expressions; it converts to a !SymPy's `Contains` expression. [[https://trac.sagemath.org/ticket/24171|#24171]]
 
 Moreover, all sets and algebraic structures (`Parent`s) of !SageMath are now accessible to !SymPy by way of a wrapper class `SageSet`, which implements the [[https://docs.sympy.org/latest/modules/sets.html#set|SymPy Set API]]. [[https://trac.sagemath.org/ticket/31938|#31938]]
 {{{
