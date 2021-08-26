@@ -345,7 +345,7 @@ Previously, to achieve the same result, one had to invoke `X.add_restrictions([x
 
 Given a continuous map `Φ` from a topological or differentiable manifold `N` and a subset `S` of the codomain of `Φ`, we define the pullback (preimage) of `S` as the subset of `N` of points `p` with `Φ(p)` in `S`. [[https://trac.sagemath.org/ticket/31688|#31688]]
 
-Generically, such pullbacks are represented by instances of the new class `ManifoldSubsetPullback`. But because `Φ` is continuous, topological closures and interiors pull back accordingly. Hence, in some cases we are able to give the pullback additional structure, such as creating a submanifold rather than merely a manifold subset.
+Generically, such pullbacks are represented by instances of the new class [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subsets/pullback.html#sage.manifolds.subsets.pullback.ManifoldSubsetPullback|ManifoldSubsetPullback]]. But because `Φ` is continuous, topological closures and interiors pull back accordingly. Hence, in some cases we are able to give the pullback additional structure, such as creating a submanifold rather than merely a manifold subset.
 
 In addition to the case when `Φ` is a continuous map between manifolds, there are two situations that connect Sage manifolds to sets defined by other components of Sage: 
 
@@ -379,7 +379,7 @@ sage: M((1, 1)) in McInt_P
 True
    }}}
 
-In a similar direction, the new method `ConvexSet_base.affine_hull_manifold` makes the affine hull of a convex set available as a Riemannian submanifold embedded into the ambient Euclidean space. [[https://trac.sagemath.org/ticket/31659|#31659]] 
+In a similar direction, the new method [[https://doc.sagemath.org/html/en/reference/discrete_geometry/sage/geometry/polyhedron/base.html#sage.geometry.polyhedron.base.Polyhedron_base.affine_hull_manifold|ConvexSet_base.affine_hull_manifold]] makes the affine hull of a convex set available as a Riemannian submanifold embedded into the ambient Euclidean space. [[https://trac.sagemath.org/ticket/31659|#31659]] 
 
 === Manifold options for RealSet constructors ===
 
