@@ -55,6 +55,11 @@ It is safer to run the patchbot in an unused sage install.
 
 ||<#FFFF66>① Install the patchbot using '''pip3 install --user git+https://github.com/sagemath/sage-patchbot.git'''||
 
+or using PyPI:
+
+||<#FFFF66>① Install the patchbot using '''pip3 install --user sage-patchbot'''||
+
+
 Dependencies: shell commands '''git'''; '''tar'''; '''wget'''
 
 '''pyflakes''' and '''pycodestyle''' will be installed by pip if not already installed.
@@ -82,9 +87,9 @@ Before running the patchbot make sure that the following two commands produce no
     ./sage -t --all --long
 }}}
 
-||<#FFFF66>② Run the patchbot using '''python3 -m sage_patchbot.patchbot --sage-root=XXXX'''||
+||<#FFFF66>② Run the patchbot using '''python3 -m sage_patchbot.patchbot --sage-root HERE_PATH --owner HERE_NAME'''||
 
-The patchbot should be run with '''pip3''' and '''python3'''. Compatibility with '''python2''' is no longer maintained.
+The patchbot should be run with '''pip3''' and '''python3'''. The version of Python must be at least 3.7.
 
 The '''--sage-root''' parameter is required.
 
@@ -92,7 +97,7 @@ Your patchbot will run forever, as long as it finds a ticket to work on.
 
 You can let the patchbot choose the tickets it will run on.
 
-You can run a specific ticket by using '''--ticket=N''' where N is a ticket number such as 12345 (or a sequence such as 12345,23456)
+You can run a specific ticket by using '''--ticket N''' where N is a ticket number such as 12345 (or a sequence such as 12345,23456)
 
 Several other options are available, see '''--help'''
 
@@ -110,7 +115,7 @@ If the patchbot process receives the signal SIGUSR1 (using {{{kill -s SIGUSR1 pi
 
 By default, the patchbot should run without needing to tune its configuration. You can use a specific configuration file in the json format and run the patchbot with the option
 {{{
---config=fullpath/config_file.json
+--config fullpath/config_file.json
 }}}
 The json format mostly looks like a python dictionary. Here is an example of a valid configuration file
 {{{
@@ -226,6 +231,10 @@ The argument dictionary must contain at least:
 Installation via
 {{{
 pip3 install --user git+https://github.com/sagemath/sage-patchbot.git
+}}}
+or
+{{{
+pip3 install --user sage-patchbot
 }}}
 
 Configuration {{{config.json}}}:
