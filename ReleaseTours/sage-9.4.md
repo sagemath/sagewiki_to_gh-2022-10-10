@@ -100,7 +100,7 @@ See [[https://trac.sagemath.org/ticket/31926|Meta-ticket #31926: Connect Sage se
 
 === ConditionSet ===
 
-Sage 9.4 introduces a class `ConditionSet` for subsets of a parent (or another set) consisting of elements that satisfy the logical "and" of finitely many predicates. [[https://trac.sagemath.org/ticket/32089|#32089]]
+Sage 9.4 introduces a class [[https://doc.sagemath.org/html/en/reference/sets/sage/sets/condition_set.html#sage.sets.condition_set.ConditionSet|ConditionSet]] for subsets of a parent (or another set) consisting of elements that satisfy the logical "and" of finitely many predicates. [[https://trac.sagemath.org/ticket/32089|#32089]]
 {{{
 sage: in_small_oblong(x, y) = x^2 + 3 * y^2 <= 42
 sage: SmallOblongUniverse = ConditionSet(QQ^2, in_small_oblong)
@@ -151,9 +151,9 @@ sage: ConditionSet(ZZ^3, symbolic_expression(lambda x, y, z:
 
 Sage 9.4 has added an abstract base class [[https://doc.sagemath.org/html/en/reference/discrete_geometry/sage/geometry/convex_set.html#sage.geometry.convex_set.ConvexSet_base|ConvexSet_base]] (as well as abstract subclasses `ConvexSet_closed`, `ConvexSet_compact`, `ConvexSet_relatively_open`, `ConvexSet_open`) for convex subsets of finite-dimensional real vector spaces.  The abstract methods and default implementations of methods provide a unifying API to the existing classes `Polyhedron_base`, `ConvexRationalPolyhedralCone`, `LatticePolytope`, and `PolyhedronFace`. [[https://trac.sagemath.org/ticket/31919|#31919]], [[https://trac.sagemath.org/ticket/31959|#31959]], [[https://trac.sagemath.org/ticket/31990|#31990]], [[https://trac.sagemath.org/ticket/31993|#31993]]
 
-Several methods previously only available for `Polyhedron_base` instances, are now available for all convex sets.  The method `an_affine_basis` returns a sequence of points that span by affine linear combinations the affine hull, i.e., the smallest affine subspace in which the convex set lies. The method `affine_hull` returns the latter as a polyhedron. The method `affine_hull_projection` (renamed from `affine_hull` in Sage 9.1) computes an affine linear transformation of the convex set to a new ambient vector space, in which the image is full-dimensional. The generalized method also provides additional data: the right inverse (section map) of the projection. [[https://trac.sagemath.org/ticket/27366|#27366]], [[https://trac.sagemath.org/ticket/31963|#31963]], [[https://trac.sagemath.org/ticket/31993|#31993]]
+Several methods previously only available for `Polyhedron_base` instances, are now available for all convex sets.  The method `an_affine_basis` returns a sequence of points that span by affine linear combinations the affine hull, i.e., the smallest affine subspace in which the convex set lies. The method `affine_hull` returns the latter as a polyhedron. The method [[https://doc.sagemath.org/html/en/reference/discrete_geometry/sage/geometry/convex_set.html#sage.geometry.convex_set.ConvexSet_base.affine_hull_projection|affine_hull_projection]] (renamed from `affine_hull` in Sage 9.1) computes an affine linear transformation of the convex set to a new ambient vector space, in which the image is full-dimensional. The generalized method also provides additional data: the right inverse (section map) of the projection. [[https://trac.sagemath.org/ticket/27366|#27366]], [[https://trac.sagemath.org/ticket/31963|#31963]], [[https://trac.sagemath.org/ticket/31993|#31993]]
 
-As part of the `ConvexSet_base` API, there are new methods for point-set topology such as `is_open`, `relative_interior`, and `closure`.  For example, taking the `relative_interior` of a polyhedron constructs an instance of `RelativeInterior`, a simple object that provides a `__contains__` method and all other methods of the `ConvexSet_base` API. [[https://trac.sagemath.org/ticket/31916|#31916]]
+As part of the `ConvexSet_base` API, there are new methods for point-set topology such as `is_open`, `relative_interior`, and `closure`.  For example, taking the `relative_interior` of a polyhedron constructs an instance of [[https://doc.sagemath.org/html/en/reference/discrete_geometry/sage/geometry/relative_interior.html#sage.geometry.relative_interior.RelativeInterior|RelativeInterior]], a simple object that provides a `__contains__` method and all other methods of the `ConvexSet_base` API. [[https://trac.sagemath.org/ticket/31916|#31916]]
 {{{
 sage: P = Polyhedron(vertices=[(1,0), (-1,0)])
 sage: ri_P = P.relative_interior(); ri_P
@@ -177,7 +177,7 @@ Set-theoretic union of
 
 === New operations on faces of convex polyhedra ===
 
-`PolyhedronFace` has a new method `affine_tangent_cone`. [[https://trac.sagemath.org/ticket/29811|#29811]]
+`PolyhedronFace` has a new method [[https://doc.sagemath.org/html/en/reference/discrete_geometry/sage/geometry/polyhedron/face.html#sage.geometry.polyhedron.face.PolyhedronFace.affine_tangent_cone|affine_tangent_cone]]. [[https://trac.sagemath.org/ticket/29811|#29811]]
 {{{
 sage: c = polytopes.cube()
 sage: edge = min(c.faces(1))
@@ -192,7 +192,7 @@ sage: T_edge.Vrepresentation()
 }}}
 
 Sage 9.4 also defines two new `Polyhedron_base` methods that look up a face in the face lattice of a polyhedron. [[https://trac.sagemath.org/ticket/29683|#29683]]
- * `meet_of_Vrep` (alias: `least_common_superface_of_Vrep`) finds the smallest face containing specified V-representatives
+ * `meet_of_Vrep` (alias: [[https://doc.sagemath.org/html/en/reference/discrete_geometry/sage/geometry/polyhedron/base.html#sage.geometry.polyhedron.base.Polyhedron_base.least_common_superface_of_Vrep|least_common_superface_of_Vrep]]) finds the smallest face containing specified V-representatives
  * `join_of_Hrep` (alias: `greatest_common_subface_of_Hrep`) finds the largest face contained specified facets
 
 === Parallel face iterator ===
@@ -203,7 +203,7 @@ For developers: This is done with a parallel face iterator. Instead of just coun
 
 === Polyhedral complexes ===
 
-Sage 9.4 defines a new subclass of `GenericCellComplex` for (geometric) polyhedral complexes. [[https://trac.sagemath.org/ticket/31748|#31748]]
+Sage 9.4 defines a new subclass of `GenericCellComplex` for (geometric) polyhedral complexes, [[https://doc.sagemath.org/html/en/reference/discrete_geometry/sage/geometry/polyhedral_complex.html#sage.geometry.polyhedral_complex.PolyhedralComplex|PolyhedralComplex]] [[https://trac.sagemath.org/ticket/31748|#31748]]
 {{{
 sage: pc = PolyhedralComplex([
 ....:         Polyhedron(vertices=[(1/3, 1/3), (0, 0), (1/7, 2/7)]),
