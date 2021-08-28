@@ -759,6 +759,31 @@ The easiest way to install Sage 9.4 is through a distribution that provides it, 
 
 [[https://github.com/3-manifolds/Sage_macOS/releases|A binary build of Sage 9.4 for macOS as a signed and notarized app is available.]]
 
+=== Alternative installation methods using pip ===
+
+Since Sage 9.3, installation methods using `pip` are available.  
+{{{
+   $ python3 -m pip install sage_conf
+}}}
+This will download the [[https://pypi.org/project/sage-conf/|distribution package (sdist) sage_conf from PyPI]], which will build the non-Python components of the Sage distribution in a subdirectory of `$HOME/.sage`. 
+
+After installation of `sage_conf`, a wheelhouse containing wheels of various Python packages is available; type `ls $(sage-config SAGE_SPKG_WHEELS)` to list them and `python3 -m pip install $(sage-config SAGE_SPKG_WHEELS)/*.whl` to install them. 
+
+After this, you can install the Sage library, using any of these options:
+
+ * using `python3 -m pip install sagemath-standard`, which downloads the [[https://pypi.org/project/sagemath-standard/|Sage library from PyPI]]
+
+ * or, after obtaining the Sage sources from git, `(cd src && python3 -m pip install --editable .)`
+
+=== pip-installable subset distributions ===
+
+Two new, experimental distribution packages are available on PyPI: [[https://trac.sagemath.org/ticket/29865|#29865]]
+
+ * [[https://pypi.org/project/sagemath-objects/|sagemath-objects]]
+
+ * [[https://pypi.org/project/sagemath-categories/|sagemath-categories]]
+
+
 
 == More details ==
 
