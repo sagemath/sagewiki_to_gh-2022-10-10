@@ -101,7 +101,7 @@ Sometimes it gives false-positive warnings.
 
 Run `pycodestyle` on the modified `.py` files.
 
-Currently, the selected options are {{{W605, E401, E701, E702}}}.
+Currently, the selected options are {{{W605, E401, E701, E702, E711, E712}}}.
 
 See [[http://pycodestyle.pycqa.org/en/latest/intro.html#error-codes|pycodestyle documentation]] for more information.
 
