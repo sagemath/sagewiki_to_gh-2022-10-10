@@ -21,7 +21,7 @@ The coverage is the percent of functions that are doctested. This must be 100%.
 
 Look for the presence of non-ascii characters in python and cython files.
 
-This detects the presence of the encoding line at the top of files.
+This detects the presence of the encoding line at the top of files. (TO BE REMOVED)
 
 == doctest_continuation ==
 
