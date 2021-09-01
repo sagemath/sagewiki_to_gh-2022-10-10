@@ -343,7 +343,7 @@ Previously, to achieve the same result, one had to invoke `X.add_restrictions([x
 
 === Defining submanifolds and manifold subsets by pullbacks from Sage sets ===
 
-Given a continuous map `Φ` from a topological or differentiable manifold `N` and a subset `S` of the codomain of `Φ`, we define the pullback (preimage) of `S` as the subset of `N` of points `p` with `Φ(p)` in `S`. [[https://trac.sagemath.org/ticket/31688|#31688]]
+Given a continuous map `Φ` from a topological or differentiable manifold `N` and a subset `S` of the codomain of `Φ`, we define the [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/continuous_map.html#sage.manifolds.continuous_map.ContinuousMap.preimage|pullback (preimage)]] of `S` as the subset of `N` of points `p` with `Φ(p)` in `S`. [[https://trac.sagemath.org/ticket/31688|#31688]]
 
 Generically, such pullbacks are represented by instances of the new class [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subsets/pullback.html#sage.manifolds.subsets.pullback.ManifoldSubsetPullback|ManifoldSubsetPullback]]. But because `Φ` is continuous, topological closures and interiors pull back accordingly. Hence, in some cases we are able to give the pullback additional structure, such as creating a submanifold rather than merely a manifold subset.
 
@@ -468,7 +468,7 @@ sage: v = Tp((-1, 3))
 
 === De Rham cohomology ===
 
-De Rham cohomology has been implemented via the new classes [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/de_rham_cohomology.html#sage.manifolds.differentiable.de_rham_cohomology.DeRhamCohomologyRing|DeRhamCohomologyRing]] and [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/de_rham_cohomology.html#sage.manifolds.differentiable.de_rham_cohomology.DeRhamCohomologyClass|DeRhamCohomologyClass]]; the [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/mixed_form_algebra.html|algebra of mixed differential forms]] has been turned into a de Rham complex (ticket #31691) 
+De Rham cohomology has been implemented via the new classes [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/de_rham_cohomology.html#sage.manifolds.differentiable.de_rham_cohomology.DeRhamCohomologyRing|DeRhamCohomologyRing]] and [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/de_rham_cohomology.html#sage.manifolds.differentiable.de_rham_cohomology.DeRhamCohomologyClass|DeRhamCohomologyClass]]; the [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/mixed_form_algebra.html|algebra of mixed differential forms]] has been turned into a de Rham complex ([[https://trac.sagemath.org/ticket/31691|#31691]])
 
 === Internal code improvements and bug fixes ===
 
