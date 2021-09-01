@@ -39,10 +39,6 @@ All these commands are obsolete in latex.
 
 Check that new deprecations use the correct ticket number.
 
-== oldstyle_print ==
-
-Check that print is using python 3 syntax. (TO BE REMOVED)
-
 == python3_py ==
 
 Look for some wrong patterns in python or rst files.
