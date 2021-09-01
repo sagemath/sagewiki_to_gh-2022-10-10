@@ -330,7 +330,7 @@ v∧∂/∂x = -x ∂/∂x∧∂/∂y
 
 === Specifying coordinate restrictions while declaring a new chart ===
 
-The manifold method `chart` has been endowed with the new argument `coord_restrictions`, allowing to define
+The manifold method [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/manifold.html#sage.manifolds.manifold.TopologicalManifold.chart|chart]] has been endowed with the new argument `coord_restrictions`, allowing to define
 conditions restricting the range of coordinates ([[https://trac.sagemath.org/ticket/32102|#32102]]). For instance to define a half disk above the diagonal x+y=0:
 {{{
 sage: M = Manifold(2, 'M')                                                                         
@@ -425,27 +425,32 @@ The above example showed the use of the new constructor `RealSet.real_line`. The
 || `RealSet.real_line`                || `(-oo, +oo)` || new in Sage 9.4 ||
 || `RealSet.interval`                 || any          || new in Sage 9.4 ||
 
-The global bindings `RealLine` and `OpenInterval`, which create manifolds, are now deprecated, but these constructors will remain available through the `manifolds` catalog.  The objects made by these constructors are now also valid input for `RealSet`. [[https://trac.sagemath.org/ticket/30832|#30832]]
+The global bindings `RealLine` and `OpenInterval`, which create manifolds, are now deprecated, but these constructors will remain available through the `manifolds` catalog, via [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/examples/real_line.html#sage.manifolds.differentiable.examples.real_line.RealLine|manifolds.RealLine]] and [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/examples/real_line.html#sage.manifolds.differentiable.examples.real_line.OpenInterval|manifolds.OpenInterval]]. The objects made by these constructors are now also valid input for `RealSet`. [[https://trac.sagemath.org/ticket/30832|#30832]]
 
 
 === Families and posets of manifold subsets ===
 
-In Sage 9.4, the system for declaring (named) subsets of topological and differentiable manifolds in `sage.manifolds` has become more general and powerful. 
+In Sage 9.4, the system for declaring (named) subsets of topological and differentiable manifolds has become more general and powerful. 
 
-In addition to `declare_union` and `declare_intersection`, there are now methods `declare_empty`, `declare_nonempty`, `declare_disjoint`, `declare_subset`, `declare_superset`, and `declare_equal`. 
+In addition to [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.declare_union|declare_union]] and [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.declare_intersection|declare_intersection]], there are now methods 
+[[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.declare_empty|declare_empty]], 
+[[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.declare_nonempty|declare_nonempty]], 
+[[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.declare_subset|declare_subset]],
+[[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.declare_superset|declare_superset]], and 
+[[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.declare_equal|declare_equal]]. 
 
 The declared subset relations define a quasiorder on the named subsets. 
-To visualize the subset relations, methods `subset_digraph` and `superset_digraph` are now available. 
+To visualize the subset relations, methods [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.subset_digraph|subset_digraph]] and [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.superset_digraph|superset_digraph]] are now available. 
 
-Through a sequence of subset declarations, or directly through `declare_equal`, several named subsets (which are distinct as Python objects) can become necessarily equal as mathematical sets. By quotienting out by this equivalence relation, we obtain a partially ordered set, which is available through the new methods [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.subset_poset|subset_poset]] and `superset_poset`.
+Through a sequence of subset declarations, or directly through `declare_equal`, several named subsets (which are distinct as Python objects) can become necessarily equal as mathematical sets. By quotienting out by this equivalence relation, we obtain a partially ordered set, which is available through the new methods [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.subset_poset|subset_poset]] and [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.superset_poset|superset_poset]].
 
-The new class `ManifoldSubsetFiniteFamily` serves as a container for storing arbitrary finite families of manifold subsets, indexed by their names. The new methods [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.subset_family|subset_family]], `superset_family`, and `open_superset_family` return instances of `ManifoldSubsetFiniteFamily`. Such instances are automatically sorted by name, are hashable, compare with each other lexicographically, and print more compactly than lists/tuples/sets of manifold subsets. 
+The new class [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/family.html#sage.manifolds.family.ManifoldObjectFiniteFamily|ManifoldSubsetFiniteFamily]] serves as a container for storing arbitrary finite families of manifold subsets, indexed by their names. The new methods [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.subset_family|subset_family]], [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.superset_family|superset_family]], and [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/subset.html#sage.manifolds.subset.ManifoldSubset.open_superset_family|open_superset_family]] return instances of `ManifoldSubsetFiniteFamily`. Such instances are automatically sorted by name, are hashable, compare with each other lexicographically, and print more compactly than lists/tuples/sets of manifold subsets. 
 
 For more information, see [[https://trac.sagemath.org/ticket/31740|Meta-ticket #31740]].
 
 === New method for constructing a tangent vector ===
 
-Manifolds have been endowed with the method `tangent_vector` (shortcut alias `vector`) for the direct construction of a tangent vector at a given point ([[https://trac.sagemath.org/ticket/31609|#31609]]):
+Manifolds have been endowed with the method [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/manifold.html#sage.manifolds.differentiable.manifold.DifferentiableManifold.tangent_vector|tangent_vector]] (shortcut alias `vector`) for the direct construction of a tangent vector at a given point ([[https://trac.sagemath.org/ticket/31609|#31609]]):
 {{{
 sage: M = Manifold(2, 'M')                                                                          
 sage: X.<x,y> = M.chart()                                                                           
@@ -460,6 +465,10 @@ Previously, tangent vectors could only be constructed as elements of the tangent
 sage: Tp = M.tangent_space(p)                                                                       
 sage: v = Tp((-1, 3))                                                                               
 }}}
+
+=== De Rham cohomology ===
+
+De Rham cohomology has been implemented via the new classes [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/de_rham_cohomology.html#sage.manifolds.differentiable.de_rham_cohomology.DeRhamCohomologyRing|DeRhamCohomologyRing]] and [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/de_rham_cohomology.html#sage.manifolds.differentiable.de_rham_cohomology.DeRhamCohomologyClass|DeRhamCohomologyClass]]; the [[https://doc.sagemath.org/html/en/reference/manifolds/sage/manifolds/differentiable/mixed_form_algebra.html|algebra of mixed differential forms]] has been turned into a de Rham complex (ticket #31691) 
 
 === Internal code improvements and bug fixes ===
 
