@@ -293,6 +293,8 @@ False
 
 == Manifolds ==
 
+The full list of changes is available in this [[https://sagemanifolds.obspm.fr/changelog.html|changelog]].
+
 === Unicode characters for various symbols in plain text outputs ===
 
 In plain text mode, various symbols are now displayed by means of Unicode characters instead of ASCII workarounds ([[https://trac.sagemath.org/ticket/30473|#30473]]). This regards 
