@@ -770,6 +770,9 @@ The easiest way to install Sage 9.4 is through a distribution that provides it, 
 
 [[https://github.com/3-manifolds/Sage_macOS/releases|A binary build of Sage 9.4 for macOS as a signed and notarized app is available.]]
 
+[[https://www.sagemath.org/download.html|Binaries for Linux platforms]] are available. If you get the error `/usr/bin/env: 'python': No such file or directory. Error running the script 'relocate-once.py'.`: Make sure that you have python installed in your system. On some recent Linux distributions, there is a `python3` binary but no `python` binary. In this case, edit the first line of `relocate-once.py` to change `python` to `python3`; or install a package that provides the symlink `/usr/bin/python->python3`.
+
+
 === Alternative installation methods using pip ===
 
 Since Sage 9.3, installation methods using `pip` are available.  
