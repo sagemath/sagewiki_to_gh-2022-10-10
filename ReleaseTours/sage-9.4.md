@@ -772,7 +772,7 @@ The easiest way to install Sage 9.4 is through a distribution that provides it, 
 
 [[https://www.sagemath.org/download.html|Binaries for Linux platforms]] are available. 
 
- * If you get the error `/usr/bin/env: 'python': No such file or directory. Error running the script 'relocate-once.py'.`: Make sure that you have python installed in your system. On some recent Linux distributions, there is a `python3` binary but no `python` binary. In this case, edit the first line of `relocate-once.py` to change `python` to `python3`; or install a package that provides the symlink `/usr/bin/python->python3`.
+ * If you get the error `/usr/bin/env: 'python': No such file or directory. Error running the script 'relocate-once.py'.`: Make sure that you have python installed in your system. On some recent Linux distributions, there is a `python3` binary but no `python` binary. In this case, edit the first line of `relocate-once.py` to change `python` to `python3`; or install a package that provides the symlink `/usr/bin/python->python3` (for Ubuntu 20.04, this is the package `python-is-python3`).
 
  * If Sage crashes when plotting or on other numerical operations, the binary distribution is not compatible with your CPU type. This is a known bug in the binary distribution that also affects the Sage 9.3 release; see [[https://trac.sagemath.org/ticket/32424|#32424]]. Install from source instead. 
 
