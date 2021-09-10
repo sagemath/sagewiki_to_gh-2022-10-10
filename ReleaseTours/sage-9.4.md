@@ -767,7 +767,6 @@ See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]], [[htt
 
 The easiest way to install Sage 9.4 is through a distribution that provides it, see [[https://repology.org/project/sagemath/versions|repology.org: sagemath]].
 
-
 [[https://github.com/3-manifolds/Sage_macOS/releases|A binary build of Sage 9.4 for macOS as a signed and notarized app is available.]]
 
 [[https://www.sagemath.org/download.html|Binaries for Linux platforms]] are available. 
@@ -775,6 +774,8 @@ The easiest way to install Sage 9.4 is through a distribution that provides it, 
  * If you get the error `/usr/bin/env: 'python': No such file or directory. Error running the script 'relocate-once.py'.`: Make sure that you have python installed in your system. On some recent Linux distributions, there is a `python3` binary but no `python` binary. In this case, edit the first line of `relocate-once.py` to change `python` to `python3`; or install a package that provides the symlink `/usr/bin/python->python3` (for Ubuntu 20.04, this is the package `python-is-python3`).
 
  * If Sage crashes when plotting or on other numerical operations, the binary distribution is not compatible with your CPU type. This is a known bug in the binary distribution that also affects the Sage 9.3 release; see [[https://trac.sagemath.org/ticket/32424|#32424]]. Install from source instead. 
+
+Note also that the binary packages do not support installing [[https://doc.sagemath.org/html/en/reference/spkg/index.html#optional-packages|optional Sage packages]]. If you need any of these packages, install Sage from source instead, see above.
 
 [[https://doc.cocalc.com/software/updates-2021.html#sage-9-4-nasm|Sage 9.4 is available on the CoCalc.com online workspace]]; however, the [[https://github.com/sagemathinc/cocalc-docker|CoCalc docker image]] is still using Sage 9.3.
 
