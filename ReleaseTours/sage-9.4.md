@@ -776,6 +776,7 @@ The easiest way to install Sage 9.4 is through a distribution that provides it, 
 
  * If Sage crashes when plotting or on other numerical operations, the binary distribution is not compatible with your CPU type. This is a known bug in the binary distribution that also affects the Sage 9.3 release; see [[https://trac.sagemath.org/ticket/32424|#32424]]. Install from source instead. 
 
+[[https://doc.cocalc.com/software/updates-2021.html#sage-9-4-nasm|Sage 9.4 is available on the CoCalc.com online workspace]]; however, the [[https://github.com/sagemathinc/cocalc-docker|CoCalc docker image]] is still using Sage 9.3.
 
 === Alternative installation methods using pip ===
 
