@@ -793,7 +793,7 @@ After this, you can install the Sage library, using any of these options:
 
  * using `python3 -m pip install sagemath-standard`, which downloads the [[https://pypi.org/project/sagemath-standard/|Sage library from PyPI]]
 
- * or, after obtaining the Sage sources from git, `(make configure && cd src && python3 -m pip install --editable .)`
+ * or, after obtaining the Sage sources from git, `(make configure && cd src && python3 -m pip install -v --editable .)`
 
 === pip-installable subset distributions ===
 
