@@ -623,6 +623,10 @@ The symbolics packages [[https://maxima.sourceforge.io/|Maxima]] and [[https://f
 
 Also, if ECL 21.2.1 is provided by a system package, Sage is now able to use it instead of building its own copy. [[https://trac.sagemath.org/ticket/29617|#29617]]
 
+=== New standard packages ===
+
+memory_allocator is a new standard package. See [[https://trac.sagemath.org/ticket/31591|#31591]]
+
 === Other upgrades ===
 
  * [[https://trac.sagemath.org/query?summary=~update&milestone=sage-9.4&summary=~upgrade&groupdesc=1&group=status&max=1500&col=id&col=summary&col=component&col=time&col=changetime&col=author&col=reviewer&col=keywords&order=component|Upgrade tickets, milestone 9.4]]
