@@ -81,6 +81,32 @@ A 2-dimensional polyhedron in QQ^2 defined as the convex hull of 1 vertex and 2 
 
 There are also some bug fixes and other improvements. For more details see the [[https://trac.sagemath.org/wiki/SagePolyhedralGeometry#release_9.0|release notes for optimization and polyhedral geometry softwares interactions in Sage]].
 
+== Group Theory ==
+
+=== Cubic Braid Groups ===
+
+Factor groups of the Artin braid groups such that their generators have order three can easily be declared, now. They show a lot of their known properties:
+
+{{{
+sage: C4 = CubicBraidGroup(4)
+sage: C4Cl = C4.as_classical_group(); C4Cl
+Subgroup with 3 generators (
+[  E(3)^2        0        0]  [       1 -E(12)^7        0]
+[-E(12)^7        1        0]  [       0   E(3)^2        0]
+[       0        0        1], [       0 -E(12)^7        1],
+
+[       1        0        0]
+[       0        1 -E(12)^7]
+[       0        0   E(3)^2]
+) of General Unitary Group of degree 3 over Universal Cyclotomic Field with respect to positive definite hermitian form
+[-E(12)^7 + E(12)^11                  -1                   0]
+[                 -1 -E(12)^7 + E(12)^11                  -1]
+[                  0                  -1 -E(12)^7 + E(12)^11]
+}}}
+
+See also the [[https://doc.sagemath.org/html/en/reference/groups/sage/groups/cubic_braid.html|reference manual]].
+
+
 == Manifolds ==
 
 The main novelty is the introduction of vector bundles (ticket [[https://trac.sagemath.org/ticket/28159|#28159]]). For instance:
