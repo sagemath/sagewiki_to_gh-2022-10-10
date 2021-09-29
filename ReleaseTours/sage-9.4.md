@@ -269,6 +269,8 @@ z^4 + 2*a^-1*z^5 + 2*a^-2*z^6 + a^-3*z^7 - 2*z^2 - 3*a^-1*z^3 - a^-2*z^4 + 3*a^-
  + a^-6*z^2 - 5*a^-7*z^3 + a^-8*z^4 + a^-7*z - a^-8*z^2
 }}}
 
+See also the [[https://doc.sagemath.org/html/en/reference/knots/sage/knots/knotinfo.html|reference manual]].
+
 === Testing isotopy ===
 
 There is a new method `is_isotopic` which allows to check if two links are isotopic to each other:
