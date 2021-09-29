@@ -726,6 +726,26 @@ sage: f.inverse_image(s^2*t^2)
 ValueError: element s^2*t^2 does not have preimage
 }}}
 
+=== Splitting Algebras ===
+
+These are implemented recursively as quotient rings:
+
+
+{{{
+sage: from sage.algebras.splitting_algebra import SplittingAlgebra
+....: L.<u, v, w> = LaurentPolynomialRing(ZZ); x = polygen(L)
+....: S.<X, Y> = SplittingAlgebra(x^3 - u*x^2 + v*x - w)
+sage: S.splitting_roots()
+[X, Y, -Y - X + u]
+sage: ~X
+(w^-1)*X^2 + (-u*w^-1)*X + v*w^-1
+sage: ~Y
+((-w^-1)*X)*Y + (-w^-1)*X^2 + (u*w^-1)*X
+}}}
+
+See also the [[https://doc.sagemath.org/html/en/reference/algebras/sage/algebras/splitting_algebra.html|reference manual]].
+
+
 == Manifolds ==
 
 === diff function for exterior derivatives ===
