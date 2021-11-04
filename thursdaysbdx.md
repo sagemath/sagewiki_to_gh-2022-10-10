@@ -1,7 +1,7 @@
 ## page was renamed from thursdays_bordeaux
 = Les jeudi sages à Bordeaux (autour de Sage, PARI/GP, et plus) =
 
-''les jeudis 10h à 12h en salle 74 VISIO du LaBRI ou/et sur [[https://gather.town/app/Hb6OqcTlc4zMgu4b/LaBRI|gathertown salle 178]].''
+''les jeudis 10h à 12h en salle 74 VISIO du LaBRI ou/et sur [[https://gather.town/app/Hb6OqcTlc4zMgu4b/LaBRI|gathertown salle 76]].''
 
 ''Prochaine séance: 14 juillet 2021''
 
