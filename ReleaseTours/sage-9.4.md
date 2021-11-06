@@ -547,6 +547,7 @@ True
  * `x * ((3*i + 4)*x - 5)` no longer segfaults [[https://trac.sagemath.org/ticket/31869|#31869]]
  * Improve computation of sign for QQbar elements [[https://trac.sagemath.org/ticket/31767|#31767]]
  * Implement special class for quadratic number field elements to improve coefficient computations [[https://trac.sagemath.org/ticket/31810|#31810]]
+ * `AdditiveAbelianGroupWrapper._discrete_log()` now uses a proper black-box group algorithm rather than brute force. [[https://trac.sagemath.org/ticket/23940|#23940]]
 
 
 == Hyperbolic geometry ==
