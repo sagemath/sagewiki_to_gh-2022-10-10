@@ -20,10 +20,10 @@ The packages necessary to run sage are developed on the github pages of conda-fo
 
 = Conda for Sage Developers =
 
-You can develop Sage without building any of its dependencies (experimental). On my machine this takes 5 minutes:
+You can develop Sage without building any of its dependencies (experimental) --- on my machine this takes 5 minutes. Assume you obtained Sage source tree and changed to its root. 
 
 {{{
-$ export SAGE_NUM_THREADS=24
+$ export SAGE_NUM_THREADS=24 # or whatever the meaningful value for you is - no more than the number of cores.
 $ conda install mamba
 $ mamba create -n sage-build python=3.9 gettext autoconf automake libtool pkg-config
 $ conda activate sage-build
@@ -32,7 +32,7 @@ $ mamba env update -n sage-build -f environment-optional.yml
 $ mamba env update -n sage-build -f src/environment.yml
 $ #mamba env update -n sage-build -f src/environment-optional.yml
 $ conda activate sage-build
-$ ./configure --with-python=$CONDA_PREFIX/bin/python --with-system-gcc=force
+$ ./configure --with-python=$CONDA_PREFIX/bin/python --with-system-gcc=force  --enable-download-from-upstream-url
 $ cd src
 $ python setup.py install
 $ sage -c 'print(version())'
