@@ -27,12 +27,12 @@ $ export SAGE_NUM_THREADS=24 # or whatever the meaningful value for you is - no 
 $ conda install mamba
 $ mamba create -n sage-build python=3.9 gettext autoconf automake libtool pkg-config
 $ conda activate sage-build
-$ ./bootstrap
+$ ./bootstrap                                             # this generates src/environment.yml
 $ mamba env update -n sage-build -f src/environment.yml
 $ conda activate sage-build
 $ ./configure --with-python=$CONDA_PREFIX/bin/python --with-system-gcc=force  --enable-download-from-upstream-url
-$ pip install -v -v pkgs/sage-conf pkgs/sage-setup 
-$ pip install --no-build-isolation -r src/requirements.txt -e src
+$ pip install --no-build-isolation -v -v pkgs/sage-conf pkgs/sage-setup 
+$ pip install --no-build-isolation -v -v -r src/requirements.txt memory_allocator -e src
 $ sage -c 'print(version())'
 SageMath version 9.2, Release Date: 2020-10-24
 }}}
