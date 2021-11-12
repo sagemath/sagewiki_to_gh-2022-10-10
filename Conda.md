@@ -28,13 +28,10 @@ $ conda install mamba
 $ mamba create -n sage-build python=3.9 gettext autoconf automake libtool pkg-config
 $ conda activate sage-build
 $ ./bootstrap
-$ mamba env update -n sage-build -f environment-optional.yml
 $ mamba env update -n sage-build -f src/environment.yml
-$ #mamba env update -n sage-build -f src/environment-optional.yml
 $ conda activate sage-build
 $ ./configure --with-python=$CONDA_PREFIX/bin/python --with-system-gcc=force  --enable-download-from-upstream-url
-$ cd src
-$ python setup.py install
+$ pip install -v -v pkgs/sage-conf pkgs/sage-setup pkgs/sagemath-standard
 $ sage -c 'print(version())'
 SageMath version 9.2, Release Date: 2020-10-24
 }}}
