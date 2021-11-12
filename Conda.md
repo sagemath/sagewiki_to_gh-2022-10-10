@@ -34,7 +34,7 @@ $ ./configure --with-python=$CONDA_PREFIX/bin/python --with-system-gcc=force  --
 $ pip install --no-build-isolation -v -v pkgs/sage-conf pkgs/sage-setup 
 $ pip install --no-build-isolation -v -v -r src/requirements.txt memory_allocator -e src
 $ sage -c 'print(version())'
-SageMath version 9.2, Release Date: 2020-10-24
+SageMath version 9.5.beta5, Release Date: 2021-10-28
 }}}
 
 = Open Issues =
