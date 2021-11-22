@@ -86,7 +86,7 @@ Release notes (higher level than change logs) are collaboratively prepared at [[
 
 There is a single authoritative place to learn about the 
 specific set of packages (new-style SPKGs) that Sage uses: The 
-[[https://git.sagemath.org/sage.git/tree/build/pkgs|SAGE_ROOT/build/pkgs/]] directory
+[[https://github.com/sagemath/sage/tree/develop/build/pkgs|SAGE_ROOT/build/pkgs/]] directory
 in the Sage distribution.  Each SPKG is represented by a subdirectory. The structure
 of these subdirectories is explained in 
 the [[https://doc.sagemath.org/html/en/developer/packaging.html|Developer's Guide|]].
