@@ -739,10 +739,10 @@ The Sage source code is available in the [[https://github.com/sagemath/sage/tree
 Sage 9.4 has been [[https://github.com/sagemath/sage/actions/runs/1155406210|tested to compile from source on a wide variety of platforms]], including:
 
  * '''Linux 64-bit''' (x86_64)
-   * ubuntu-{trusty⁺,xenial,bionic,focal,groovy,hirsute,impish}, 
-   * debian-{jessie⁺,stretch,buster,bullseye,sid}, 
+   * ubuntu-{trusty⁺,xenial,bionic,focal,groovy,hirsute}, 
+   * debian-{jessie⁺,stretch,buster,bullseye}, 
    * linuxmint-{17⁺,18,19,19.3,20.1},
-   * fedora-{26,27,28,29,30,31,32,33,34,35},
+   * fedora-{26,27,28,29,30,31,32,33,34},
    * centos-{7⁺,8},
    * gentoo,
    * archlinux,
@@ -763,6 +763,8 @@ Sage 9.4 has been [[https://github.com/sagemath/sage/actions/runs/1155406210|tes
  * '''Windows''' (Cygwin-64).
 
 There are currently '''known issues with an installation from source on conda-forge''', both on Linux and macOS. This is tracked in [[https://trac.sagemath.org/ticket/32087|#32087]].
+
+'''Sage 9.4 does not support building on recent Linux distributions that use glibc >= 2.34''' (`fedora-35`, `ubuntu-impish` etc.)
 
 === Installation FAQ ===
 
