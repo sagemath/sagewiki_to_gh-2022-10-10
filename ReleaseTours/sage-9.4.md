@@ -778,7 +778,7 @@ See [[https://groups.google.com/forum/#!forum/sage-release|sage-release]], [[htt
 
 The easiest way to install Sage 9.4 is through a distribution that provides it, see [[https://repology.org/project/sagemath/versions|repology.org: sagemath]].
 
-[[https://github.com/3-manifolds/Sage_macOS/releases|A binary build of Sage 9.4 for macOS as a signed and notarized app is available.]]
+[[https://github.com/3-manifolds/Sage_macOS/releases|A binary build of Sage 9.4 for macOS as a signed and notarized app is available.]] You can choose between two options: A 800 MB disk image with the standard Sage distribution, and a 1 GB disk image that adds many optional packages.
 
 [[https://www.sagemath.org/download.html|Binaries for Linux platforms]] are available. 
 
