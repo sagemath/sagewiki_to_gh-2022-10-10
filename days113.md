@@ -28,4 +28,4 @@ To be announced.
 == Organizers ==
 
  * [[https://sites.google.com/view/canozanoguz/home|Can Ozan Oğuz]], Gebze Technical University, Turkey
- * [[https://avesis.ktu.edu.tr/tulayaa/|Tülay Ayyıldız Akoğlu]], Karadeniz Technical University, Turkey
+ * [[https://avesis.ktu.edu.tr/tulayaa/|Tülay Ayyıldız]], Karadeniz Technical University, Turkey
