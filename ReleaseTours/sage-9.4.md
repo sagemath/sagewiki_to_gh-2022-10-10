@@ -764,7 +764,7 @@ Sage 9.4 has been [[https://github.com/sagemath/sage/actions/runs/1155406210|tes
 
 (On platforms marked with ⁺, optional packages are only supported if `configure --without-system-gcc` is in use.)
 
-There are currently '''known issues with an installation from source on conda-forge''', both on Linux and macOS. This is tracked in [[https://trac.sagemath.org/ticket/32087|#32087]].
+There are currently '''known issues with an installation from source on conda-forge''', both on Linux and macOS. This has been addressed in the [[ReleaseTours/sage-9.5|Sage 9.5]] development series.
 
 '''Sage 9.4 does not support building on recent Linux distributions that use glibc >= 2.34''' (`fedora-35`, `ubuntu-impish` etc.) This has been addressed in the [[ReleaseTours/sage-9.5|Sage 9.5]] development series; you will need version 9.5.beta9 or later.
 
