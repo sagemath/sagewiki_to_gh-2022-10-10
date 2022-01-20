@@ -1,5 +1,3 @@
-see the attachments
-
 This page contains animations drawn using [[https://www.sagemath.org|Sage]]. One can create an animation (.gif) in Sage from a list of graphics objects using the {{{animate}}} command. Currently, to export an animation in .gif format, you might need to install the [[https://www.imagemagick.org|ImageMagick]] command line tools package (the ``convert`` command). See the documentation for more information:
 
 {{{
