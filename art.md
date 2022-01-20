@@ -261,6 +261,65 @@ a.show(delay=10)
 
 These pictures and images were drawn by [[https://www.sagemath.org|Sage]].
 
+== Snowman ==
+ * Fun art of spheres and cones:
+{{{#!python numbers=none
+from sage.plot.plot3d.shapes import Cone, Sphere
+
+r_bot = 3
+r_mid = 2.25
+r_top = 1.75
+
+z_bot = r_bot
+z_mid = z_bot + r_bot + 1/2 * r_mid
+z_top = z_mid + r_mid + 1/2 * r_top
+
+# scale factors to shrink spheres along one axis
+
+s_body = 3/4  # vertical scale for body
+s_btns = 1/4  # horizontal scale for buttons
+s_eyes = 3/4  # horizontal scale for eyes
+
+z_bot_s = s_body * z_bot
+z_mid_s = s_body * z_mid
+z_top_s = s_body * z_top
+
+nose_length = 3/2*r_top
+
+r_button = 1/4
+r_nose = 1/4
+r_eye = 1/8
+
+body_color = 'white'
+button_color = 'red'
+eye_color = 'black'
+nose_color = 'orange'
+
+body_bot = sphere((0, 0, z_bot), r_bot, color=body_color)
+body_mid = sphere((0, 0, z_mid), r_mid, color=body_color)
+body_top = sphere((0, 0, z_top), r_top, color=body_color)
+body = (body_bot + body_mid + body_top).scale(1, 1, s_body)
+
+button = Sphere(r_button, color=button_color).scale(s_btns, 1, 1)
+button_bot = button.translate(r_bot, 0, z_bot_s)
+button_mid = button.translate(r_mid, 0, z_mid_s)
+buttons = button_bot + button_mid
+
+eye_angle = pi/10
+eye = Sphere(r_eye, color=eye_color).scale(s_eyes, 1, 1)
+eye = eye.translate((r_top, 0, z_top_s))
+eyes = sum(eye.rotateZ(t) for t in (-eye_angle, eye_angle))
+
+nose = Cone(r_nose, nose_length, color=nose_color)
+nose = nose.rotateY(-9/8*pi/2).translate(0, 0, z_top_s)
+
+parts = [body, buttons, eyes, nose]
+snowie = sum(parts)
+snowie.show(frame=False)
+}}}
+ 
+[[attachment:snowman.png|{{attachment:snowman.png||width=600}}]] 
+
 == Everywhere continuous, nowhere differentiable function ==
  * Everywhere continuous, nowhere differentiable function (in the infinite limit, anyway):
 {{{#!python numbers=none
