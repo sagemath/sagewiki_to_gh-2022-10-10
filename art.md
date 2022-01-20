@@ -318,7 +318,7 @@ snowie = sum(parts)
 snowie.show(frame=False)
 }}}
  
-[[attachment:snowman.png|{{attachment:snowman.png||width=600}}]] 
+[[attachment:snowman.png|{{attachment:snowman.png||width=400}}]] 
 
 == Everywhere continuous, nowhere differentiable function ==
  * Everywhere continuous, nowhere differentiable function (in the infinite limit, anyway):
