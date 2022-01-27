@@ -48,7 +48,20 @@ Idées et Projets en cours:
 
 == Compte-rendus ==
 
-== Séance introduction 10 juin 2021 ==
+==== jeudi 27 janvier 2022 ====
+
+Projets pour Steffania qui a fait un cours sur les elliptic curves avec Xavier Caruso:
+
+ * Des tickets à reviewer pour plus tard sur les elliptic curves suggérés par Vincent: https://trac.sagemath.org/ticket/33223
+ * Improve the Installation Guide : https://doc.sagemath.org/html/en/installation/
+ * Improve the documentation on elliptic curves: https://doc.sagemath.org/html/en/reference/arithmetic_curves/index.html
+
+
+==== juillet 2021 à janvier 2022 ====
+
+On a eu plusieurs réunions dont on a pas parlé ici.
+
+==== Séance introduction 10 juin 2021 ====
 
 * [[https://www.labri.fr/perso/vdelecro/presentations/presentation-Sage-2021-Bordeaux.pdf|pdf de présentation (Vincent Delecroix)]]
 
