@@ -1,6 +1,6 @@
 = Sage 9.6 Release Tour =
 
-next development cycle (2022)
+Current development cycle (2022)
 
 <<TableOfContents>>
 
