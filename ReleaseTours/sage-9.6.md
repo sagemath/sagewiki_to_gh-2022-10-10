@@ -7,7 +7,9 @@ Current development cycle (2022)
 
 == Availability of Sage 9.6 and installation help ==
 
-The 9.6 series has not been started yet.
+The first development release of the 9.6 series, 9.6.beta0, was tagged on 2022-02-06.
+
+The Sage source code is available in the [[https://github.com/sagemath/sage/tree/9.5|sage git repository]].
 
  * See [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]] for development discussions and [[https://groups.google.com/forum/#!forum/sage-release|sage-release]] for announcements of beta versions and release candidates.
 
