@@ -4,6 +4,11 @@ Current development cycle (2022)
 
 <<TableOfContents>>
 
+== Manifolds ==
+
+=== Symplectic manifolds ===
+
+([[https://trac.sagemath.org/ticket/30362|#30362]])
 
 == Availability of Sage 9.6 and installation help ==
 
