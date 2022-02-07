@@ -8,7 +8,7 @@ Current development cycle (2022)
 
 === Symplectic manifolds ===
 
-([[https://trac.sagemath.org/ticket/30362|#30362]])
+Symplectic structures have been added to Sage ([[https://trac.sagemath.org/ticket/30362|#30362]]).
 
 == Availability of Sage 9.6 and installation help ==
 
