@@ -10,6 +10,13 @@ Current development cycle (2022)
 
 Symplectic structures have been added to Sage ([[https://trac.sagemath.org/ticket/30362|#30362]]).
 
+
+== Package upgrades ==
+
+For a list of all packages and their versions, see
+ * https://repology.org/projects/?inrepo=sagemath_develop
+
+
 == Availability of Sage 9.6 and installation help ==
 
 The first development release of the 9.6 series, 9.6.beta0, was tagged on 2022-02-06.
