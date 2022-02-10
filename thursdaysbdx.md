@@ -127,6 +127,8 @@ vient de poser une question similaire sur sage-devel).
 Amitiés,  --Samuel
 }}}
 
+Voir aussi: https://doc.sagemath.org/html/en/installation/conda.html
+
 ==== juillet 2021 à janvier 2022 ====
 
 On a eu plusieurs réunions dont on a pas parlé ici.
