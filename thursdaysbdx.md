@@ -120,10 +120,6 @@ exemple, si on utilise bash) une commande qui l'active:
 conda activate
 ```
 
-Voilà. Je vais essayer de rédiger tout ça en anglais pour Casey et
-Jennifer, les ami-es de Sébastien (et pour un certain Jeremy qui
-vient de poser une question similaire sur sage-devel).
-
 Amitiés,  --Samuel
 }}}
 
