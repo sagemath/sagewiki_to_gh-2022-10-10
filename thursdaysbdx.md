@@ -48,6 +48,14 @@ Idées et Projets en cours:
 
 == Compte-rendus ==
 
+==== jeudi 10 février 2022 ====
+
+Jana, Pascal, Xavier, Sébastien
+
+==== jeudi 3 février 2022 ====
+
+Une dizaine de participants aujourd'hui.
+
 ==== jeudi 27 janvier 2022 ====
 
 Projets pour Steffania qui a fait un cours sur les elliptic curves avec Xavier Caruso:
@@ -56,6 +64,68 @@ Projets pour Steffania qui a fait un cours sur les elliptic curves avec Xavier C
  * Improve the Installation Guide : https://doc.sagemath.org/html/en/installation/
  * Improve the documentation on elliptic curves: https://doc.sagemath.org/html/en/reference/arithmetic_curves/index.html
 
+Installation de Sage sur MacOSX avec l'aide de Samuel Lelièvre:
+
+{{{
+
+
+​​​----- Mail transféré -----
+​​​​De: "Samuel Lelièvre"
+
+​​​​​Pascal,
+
+Ça marcherait pareil quel que soit l'endroit où on l'installe,
+à mon avis. Voici une version avec ce choix en plus.
+
+```
+INSTALL_LOCATION=$HOME  # or your choice of location
+SITE='https://github.com'
+DIRS='isuruf/sagemath-forge/releases/latest/download'
+FILE="sagemath-forge-$(uname)-$(uname -m).sh"
+cd $INSTALL_LOCATION
+curl -L -O $SITE/$DIRS/$FILE
+bash $FILE
+```
+
+Pour ce qui est de trouver Sage, j'ai oublié une indication.
+
+Une fois sagemath-forge installé, on a en fait installé une
+distribution Conda. On peut activer ou désactiver Conda.
+Lorsqu'il est activé, le PATH est modifié pour que tout ce
+qui a été installé via Conda soit accessible.
+
+Donc pour utiliser la version de Sage installée via Conda:
+```
+$ conda activate  # on active Conda
+
+$ which sage
+/chemin/vers/sagemath-forge/bin/sage
+
+$ sage
+┌────────────────────────────────────────────────────────────────────┐
+│ SageMath version 9.4, Release Date: 2021-08-22                     │
+│ Using Python 3.8.12. Type "help()" for help.                       │
+└────────────────────────────────────────────────────────────────────┘
+sage: %colors Linux
+sage: quit
+Exiting Sage (CPU time 0m0.12s, Wall time 0m16.08s).
+
+$ conda deactivate  # pour désactiver Conda
+```
+
+Si on veut que Conda soit toujours activé, ajouter dans un fichier
+exécuté au lancement du shell (dans `$HOME/.bash_profile` par
+exemple, si on utilise bash) une commande qui l'active:
+```
+conda activate
+```
+
+Voilà. Je vais essayer de rédiger tout ça en anglais pour Casey et
+Jennifer, les ami-es de Sébastien (et pour un certain Jeremy qui
+vient de poser une question similaire sur sage-devel).
+
+Amitiés,  --Samuel
+}}}
 
 ==== juillet 2021 à janvier 2022 ====
 
