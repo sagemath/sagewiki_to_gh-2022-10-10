@@ -32,9 +32,9 @@ $ mamba env update -n sage-build -f src/environment.yml
 $ conda activate sage-build
 $ ./configure --with-python=$CONDA_PREFIX/bin/python --with-system-gcc=force  --enable-download-from-upstream-url
 $ pip install --no-build-isolation -v -v pkgs/sage-conf pkgs/sage-setup 
-$ pip install --no-build-isolation -v -v -r src/requirements.txt memory_allocator -e src
+$ pip install --no-build-isolation -v -v -r src/requirements.txt -e src
 $ sage -c 'print(version())'
-SageMath version 9.5.beta5, Release Date: 2021-10-28
+SageMath version 9.5, Release Date: 2022-01-30
 }}}
 
 = Open Issues =
