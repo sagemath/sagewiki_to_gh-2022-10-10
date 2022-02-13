@@ -16,6 +16,15 @@ Symplectic structures have been added to Sage ([[https://trac.sagemath.org/ticke
 For a list of all packages and their versions, see
  * https://repology.org/projects/?inrepo=sagemath_develop
 
+=== FLINT and arb ===
+
+FLINT from 2.7.1 to 2.8.4, arb to 2.22.1 [[https://trac.sagemath.org/ticket/32211|#32211]], [[https://trac.sagemath.org/ticket/33189|#33189]]
+
+The FLINT 2.8 series brings major new algorithms and general speedups. [[https://github.com/wbhart/flint2/blob/flint-2.8/NEWS#L1262]]
+Note that Sage accepts system installations of FLINT >= 2.6.x. Users on older distributions who want to benefit from the speed ups in FLINT 2.8.x may want to use `./configure --without-system-flint`.
+
+Meta-ticket [[https://trac.sagemath.org/ticket/31408|#31408]] tracks the effort to make use of new features added in recent FLINT releases in the Sage library.
+
 
 == Availability of Sage 9.6 and installation help ==
 
