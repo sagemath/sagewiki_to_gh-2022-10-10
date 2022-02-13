@@ -27,13 +27,18 @@ Meta-ticket [[https://trac.sagemath.org/ticket/31408|#31408]] tracks the effort 
 
 == New developer tools ==
 
-=== Prebuilt Docker containers on ghcr.io ===
+=== Pre-built Docker containers on ghcr.io ===
 
-Our portability CI builds Docker containers for all tested Linux platforms and makes them available on ghcr.io. 
+Our portability CI builds [[https://github.com/orgs/sagemath/packages?tab=packages&q=with-targets-optional|Docker containers]] for all tested Linux platforms and makes them available on ghcr.io. [[https://trac.sagemath.org/ticket/30933|#39033]]
+
+Since 9.6.beta1, the Docker image for the latest development release receives the additional Docker tag `dev`; thus, for example, the following command will work:
+{{{
+$ docker run -it ghcr.io/sagemath/sage/sage-docker-ubuntu-impish-standard-with-targets-optional:dev bash
+}}}
 
 === Gitpod ===
 
-[[https://www.gitpod.io/|Gitpod]] is a service that provides a development environment in the cloud based on VS Code. It is free to use for up to 50 hours per month. See the new section [[https://620901c077fb7caa9f914f33--sagemath-tobias.netlify.app/developer/workspace.html#section-gitpod|Setting up your workspace]] in the Sage Developer's Guide. 
+[[https://www.gitpod.io/|Gitpod]] is a service that provides a development environment in the cloud based on VS Code. It is free to use for up to 50 hours per month. Sage now includes a configuration for Gitpod; see the new section [[https://620901c077fb7caa9f914f33--sagemath-tobias.netlify.app/developer/workspace.html#section-gitpod|Setting up your workspace]] in the Sage Developer's Guide. 
 [[https://trac.sagemath.org/ticket/33103|#33103]]
 
 
