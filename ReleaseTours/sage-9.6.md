@@ -31,7 +31,7 @@ Meta-ticket [[https://trac.sagemath.org/ticket/31408|#31408]] tracks the effort 
 
 Our portability CI builds [[https://github.com/orgs/sagemath/packages?tab=packages&q=with-targets-optional|Docker containers]] for all tested Linux platforms and makes them available on ghcr.io. [[https://trac.sagemath.org/ticket/30933|#39033]]
 
-Since 9.6.beta1, the Docker image for the latest development release receives the additional Docker tag `dev`; thus, for example, the following command will work:
+Since 9.6.beta1, the image corresponding to the latest development release receives the additional Docker tag `dev`, see for example the Docker image for [[https://github.com/sagemath/sage/pkgs/container/sage%2Fsage-docker-ubuntu-impish-standard-with-targets-optional|ubuntu-impish-standard]]. Thus, for example, the following command will work:
 {{{
 $ docker run -it ghcr.io/sagemath/sage/sage-docker-ubuntu-impish-standard-with-targets-optional:dev bash
 }}}
