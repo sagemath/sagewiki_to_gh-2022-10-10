@@ -252,3 +252,16 @@ Script {{{bin/run-patchbot}}}:
 #!/bin/bash
 LANG=C python3 -m sage_patchbot.patchbot --config=/local/sage-patchbot/config.json
 }}}
+
+== Running the patchbot on GitHub Actions ==
+
+
+Go to https://github.com/sagemath/sage-patchbot, use the Fork button to create a fork in your account.
+
+Go to the Actions tab,  select "Run patchbot". Push "Run workflow".
+
+Instead of the default platform, `ubuntu-focal-standard`, you can select any platform for which we have prebuilt images, see https://github.com/orgs/sagemath/packages?tab=packages&q=with-targets-optional
+
+It will run for 6 hours, then exit. You can run multiple workflows simultaneously.
+
+See also [[https://trac.sagemath.org/ticket/33253|#33253]].
