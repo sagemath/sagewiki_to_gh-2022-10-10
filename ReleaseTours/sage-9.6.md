@@ -10,6 +10,10 @@ Current development cycle (2022)
 
 Symplectic structures have been added to Sage ([[https://trac.sagemath.org/ticket/30362|#30362]]).
 
+=== Projective spaces ===
+
+Real projective spaces have been added to the manifold catalog ([[https://trac.sagemath.org/ticket/33221|#33221]]).
+
 == Number theory ==
 
 === Elliptic curves ===
