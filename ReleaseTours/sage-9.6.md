@@ -68,13 +68,15 @@ The idea is that these three status badges complement the existing patchbots (an
 === Sage patchbot on GitHub Actions ===
 
 The [[https://wiki.sagemath.org/patchbot#Running_the_patchbot_on_GitHub_Actions|Sage patchbot can now be run on !GitHub Actions]],
-on top of any of the Linux platforms for which we have prebuilt Docker images.[[https://trac.sagemath.org/ticket/33253]]
+on top of any of the Linux platforms for which we have prebuilt Docker images.[[https://trac.sagemath.org/ticket/33253|#33253]]
+
 
 == Availability of Sage 9.6 and installation help ==
 
 The first development release of the 9.6 series, 9.6.beta0, was tagged on 2022-02-06.
+The current development release is 9.6.beta1, tagged on 2022-02-13.
 
-The Sage source code is available in the [[https://github.com/sagemath/sage/tree/9.5|sage git repository]].
+The Sage source code is available in the [[https://github.com/sagemath/sage/tree/develop|sage git repository]].
 
  * See [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]] for development discussions and [[https://groups.google.com/forum/#!forum/sage-release|sage-release]] for announcements of beta versions and release candidates.
 
