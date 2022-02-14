@@ -36,6 +36,17 @@ Since 9.6.beta1, the image version corresponding to the latest development relea
 $ docker run -it ghcr.io/sagemath/sage/sage-docker-ubuntu-impish-standard-with-targets-optional:dev bash
 }}}
 
+Images whose names end with the suffix `-with-targets-optional` are the results of full builds and a run of `make ptest`. They also contain a copy of the source tree and the full logs of the build and test. [[https://github.com/orgs/sagemath/packages?tab=packages&q=sage-docker-debian-bullseye-standard|Smaller images corresponding to earlier build stages]] are also available: 
+
+ * `-with-system-packages` provides a system installation with system packages installed, no source tree,
+
+ * `-configured` contains a partial source tree and has completed bootstrap and the `configure`,
+
+ * `-with-targets-pre` contains the full source tree and a full installation of all non-Python packages,
+
+ * `-with-targets` contains the full source tree and a full installation of Sage, including the HTML documentation, but `make ptest` has not been run yet.
+
+
 === Gitpod ===
 
 [[https://www.gitpod.io/|Gitpod]] is a service that provides a development environment in the cloud based on VS Code. It is free to use for up to 50 hours per month. Sage now includes a configuration for Gitpod; see the new section [[https://620901c077fb7caa9f914f33--sagemath-tobias.netlify.app/developer/workspace.html#section-gitpod|Setting up your workspace]] in the Sage Developer's Guide. 
