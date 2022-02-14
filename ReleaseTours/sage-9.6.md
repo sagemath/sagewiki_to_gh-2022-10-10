@@ -10,6 +10,11 @@ Current development cycle (2022)
 
 Symplectic structures have been added to Sage ([[https://trac.sagemath.org/ticket/30362|#30362]]).
 
+== Number theory ==
+
+=== Elliptic curves ===
+
+ * Elliptic-curve DLP and Weil pairings over finite fields are now ''much'' faster (by calling PARI). [[https://trac.sagemath.org/ticket/33121|#33121]]
 
 == Package upgrades ==
 
