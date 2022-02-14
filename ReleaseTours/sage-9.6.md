@@ -74,7 +74,7 @@ The idea is that these three status badges complement the existing patchbots (an
 
 === Sage patchbot on GitHub Actions ===
 
-The [[https://wiki.sagemath.org/patchbot#Running_the_patchbot_on_GitHub_Actions|Sage patchbot can now be run on !GitHub Actions]],
+The [[https://wiki.sagemath.org/patchbot#Running_the_patchbot_on_GitHub_Actions|Sage patchbot can now be run on GitHub Actions]],
 on top of any of the Linux platforms for which we have prebuilt Docker images.[[https://trac.sagemath.org/ticket/33253|#33253]]
 
 
