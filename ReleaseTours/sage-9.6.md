@@ -89,7 +89,7 @@ The current development release is 9.6.beta1, tagged on 2022-02-13.
 
 The Sage source code is available in the [[https://github.com/sagemath/sage/tree/develop|sage git repository]].
 
-!SageMath 9.6 supports all [[https://wiki.sagemath.org/ReleaseTours/sage-9.5#Sources|platforms that were supported by Sage 9.5]] and '''adds support for building on distributions that use the (unreleased) GCC 12 series''' (`fedora-36`). [[https://trac.sagemath.org/ticket/33187|#33187]]
+!SageMath 9.6 supports all [[https://wiki.sagemath.org/ReleaseTours/sage-9.5#Sources|platforms that were supported by Sage 9.5]] and '''adds support for building on distributions that use the (unreleased) [[https://gcc.gnu.org/gcc-12/changes.html|GCC 12]] series''' (`fedora-36`). [[https://trac.sagemath.org/ticket/33187|#33187]]
 
  * See [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]] for development discussions and [[https://groups.google.com/forum/#!forum/sage-release|sage-release]] for announcements of beta versions and release candidates.
 
