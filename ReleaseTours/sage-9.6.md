@@ -38,7 +38,7 @@ Meta-ticket [[https://trac.sagemath.org/ticket/31408|#31408]] tracks the effort 
 
 === Pre-built Docker containers on ghcr.io ===
 
-Our portability CI on !GitHub Actions builds [[https://github.com/orgs/sagemath/packages?tab=packages&q=with-targets-optional|Docker images]] for all tested Linux platforms (and system package configurations) and makes them available on ghcr.io. [[https://trac.sagemath.org/ticket/30933|#39033]]
+Our portability CI on !GitHub Actions builds [[https://github.com/orgs/sagemath/packages?tab=packages&q=with-targets-optional|Docker images]] for all tested Linux platforms (and system package configurations) and makes them available on !GitHub Packages (ghcr.io). [[https://trac.sagemath.org/ticket/30933|#39033]]
 
 Since 9.6.beta1, the image version corresponding to the latest development release receives the additional Docker tag `dev`, see for example the Docker image for [[https://github.com/sagemath/sage/pkgs/container/sage%2Fsage-docker-ubuntu-impish-standard-with-targets-optional|ubuntu-impish-standard]]. Thus, for example, the following command will work:
 {{{
