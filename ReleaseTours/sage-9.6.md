@@ -4,6 +4,22 @@ Current development cycle (2022)
 
 <<TableOfContents>>
 
+== Linear Algebra ==
+
+The new classes `Matrix_numpy_integer_dense` and `Vector_numpy_integer_dense` implement matrices and vectors with 64-bit integer entries backed by `numpy` arrays. [[https://trac.sagemath.org/ticket/32465|#32465]].
+
+As a first application, several methods of `GenericGraph` that return matrices, such as `adjacency_matrix`, now accept keyword arguments that can select the matrix implementation. [[https://trac.sagemath.org/ticket/33377|#33377]]
+{{{
+sage: graphs.PathGraph(5).adjacency_matrix(sparse=False, implementation='numpy')
+[0 1 0 0 0]
+[1 0 1 0 0]
+[0 1 0 1 0]
+[0 0 1 0 1]
+[0 0 0 1 0]
+sage: type(_)
+<class 'sage.matrix.matrix_numpy_integer_dense.Matrix_numpy_integer_dense'>
+}}}
+
 == Manifolds ==
 
 === Symplectic manifolds ===
