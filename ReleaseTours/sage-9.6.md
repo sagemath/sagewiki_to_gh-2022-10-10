@@ -14,15 +14,19 @@ Symplectic structures have been added to Sage ([[https://trac.sagemath.org/ticke
 
 Real projective spaces have been added to the manifold catalog ([[https://trac.sagemath.org/ticket/33221|#33221]]).
 
+== Algebra ==
+
+ * Ideal membership over quotient rings can now be decided (by reducing to ideal membership in the parent ring). [[https://trac.sagemath.org/ticket/33237|#33237]]
+ * Iterating over (some) infinite modules (including ''ℤ^n'') now enumerates the entire module, in a "natural" order. [[https://trac.sagemath.org/ticket/33287|#33287]]
+ * ''BinaryQF.solve_integer()'' now also works for quadratic forms of square discriminant. [[https://trac.sagemath.org/ticket/33026|#33026]]
+ * Quaternion fractional ideals (including orders) now support the usual operations (e.g., ''a*I'', ''I*a'', ''I+J''). [[https://trac.sagemath.org/ticket/32264|#32264]]
+
+
 == Number theory ==
 
 === Elliptic curves ===
 
  * Elliptic-curve DLP and Weil pairings over finite fields are now ''much'' faster (by calling PARI). [[https://trac.sagemath.org/ticket/33121|#33121]]
-
-=== Quaternion algebras ===
-
- * The usual syntax for operations on ideals (a*I, I*a, I+J) now also works for quaternion fractional ideals (including orders). [[https://trac.sagemath.org/ticket/32264|#32264]]
 
 == Package upgrades ==
 
