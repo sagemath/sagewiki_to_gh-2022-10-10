@@ -20,6 +20,10 @@ Real projective spaces have been added to the manifold catalog ([[https://trac.s
 
  * Elliptic-curve DLP and Weil pairings over finite fields are now ''much'' faster (by calling PARI). [[https://trac.sagemath.org/ticket/33121|#33121]]
 
+=== Quaternion algebras ===
+
+ * The usual syntax for operations on ideals (a*I, I*a, I+J) now also works for quaternion fractional ideals (including orders). [[https://trac.sagemath.org/ticket/32264|#32264]]
+
 == Package upgrades ==
 
 For a list of all packages and their versions, see
