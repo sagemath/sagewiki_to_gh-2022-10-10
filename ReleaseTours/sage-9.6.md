@@ -111,6 +111,8 @@ on top of any of the Linux platforms for which we have prebuilt Docker images.[[
 The first development release of the 9.6 series, 9.6.beta0, was tagged on 2022-02-06.
 The current development release is 9.6.beta2, tagged on 2022-02-20.
 
+The [[https://6212659123a9467b3cb0cd07--sagemath-tobias.netlify.app/installation/index.html|SageMath installation guide]] now provides a decision tree that guides users and developers to a type of installation suitable for their system and their needs.
+
 The Sage source code is available in the [[https://github.com/sagemath/sage/tree/develop|sage git repository]].
 
 !SageMath 9.6 supports all [[https://wiki.sagemath.org/ReleaseTours/sage-9.5#Sources|platforms that were supported by Sage 9.5]] and '''adds support for building on distributions that use the (unreleased) [[https://gcc.gnu.org/gcc-12/changes.html|GCC 12]] series''' (`fedora-36`). [[https://trac.sagemath.org/ticket/33187|#33187]]
