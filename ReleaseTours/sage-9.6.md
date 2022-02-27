@@ -24,7 +24,7 @@ sage: type(_)
 
 === ImageSet ===
 
-Sage 9.5 defines a new class `ImageSet`. [[https://trac.sagemath.org/ticket/32121|#32121]]
+Sage 9.6 defines a new class `ImageSet`. [[https://trac.sagemath.org/ticket/32121|#32121]]
 
 {{{
 sage: ImageSet(sin, RealSet.open(0, pi/4))
