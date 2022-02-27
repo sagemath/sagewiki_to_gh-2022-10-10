@@ -60,7 +60,7 @@ Meta-ticket [[https://trac.sagemath.org/ticket/31408|#31408]] tracks the effort 
 
 === lrcalc ===
 
-lrcalc, Anders Buch's Littlewood-Richardson Calculator, has been upgraded to the major new version 2.1 ([[https://bitbucket.org/asbuch/lrcalc/src/master/ChangeLog|changelog])). [[https://trac.sagemath.org/ticket/31355|#31355]]
+lrcalc, Anders Buch's Littlewood-Richardson Calculator, has been upgraded to the major new version 2.1 [[https://bitbucket.org/asbuch/lrcalc/src/master/ChangeLog|changelog]]. [[https://trac.sagemath.org/ticket/31355|#31355]]
 
 
 == New developer tools ==
