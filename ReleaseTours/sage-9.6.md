@@ -58,6 +58,11 @@ Note that Sage accepts system installations of FLINT >= 2.6.x. Users on older di
 
 Meta-ticket [[https://trac.sagemath.org/ticket/31408|#31408]] tracks the effort to make use of new features added in recent FLINT releases in the Sage library.
 
+=== lrcalc ===
+
+lrcalc, Anders Buch's Littlewood-Richardson Calculator, has been upgraded to the major new version 2.1 ([[https://bitbucket.org/asbuch/lrcalc/src/master/ChangeLog|changelog])). [[https://trac.sagemath.org/ticket/31355|#31355]]
+
+
 == New developer tools ==
 
 === Pre-built Docker containers on ghcr.io ===
