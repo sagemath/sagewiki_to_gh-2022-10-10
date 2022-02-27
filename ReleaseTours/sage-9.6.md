@@ -22,6 +22,18 @@ sage: type(_)
 
 == Manifolds ==
 
+The `structure` parameter of the `Manifold` constructor has new, more convenient defaulting behavior. [[https://trac.sagemath.org/ticket/33001|#33001]]
+
+When parameters such as `diff_degree` or `metric_name` are given, the implied structure is selected:
+{{{
+sage: M = Manifold(3, 'M', diff_degree=0); M
+3-dimensional topological manifold M
+sage: M = Manifold(3, 'M', diff_degree=2); M
+3-dimensional differentiable manifold M
+sage: M = Manifold(3, 'M', metric_name='g'); M
+3-dimensional Riemannian manifold M
+}}}
+
 === Symplectic manifolds ===
 
 Symplectic structures have been added to Sage ([[https://trac.sagemath.org/ticket/30362|#30362]]).
