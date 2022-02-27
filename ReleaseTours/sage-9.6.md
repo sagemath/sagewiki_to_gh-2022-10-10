@@ -20,6 +20,46 @@ sage: type(_)
 <class 'sage.matrix.matrix_numpy_integer_dense.Matrix_numpy_integer_dense'>
 }}}
 
+== Symbolics ==
+
+=== ImageSet ===
+
+Sage 9.5 defines a new class `ImageSet`. [[https://trac.sagemath.org/ticket/32121|#32121]]
+
+{{{
+sage: ImageSet(sin, RealSet.open(0, pi/4))
+Image of (0, 1/4*pi) by The map sin from (0, 1/4*pi)
+sage: _.an_element()
+1/2*sqrt(-sqrt(2) + 2)
+
+sage: sos(x,y) = x^2 + y^2; sos
+(x, y) |--> x^2 + y^2
+sage: ImageSet(sos, ZZ^2)
+Image of
+ Ambient free module of rank 2 over the principal ideal domain Integer Ring by
+ The map (x, y) |--> x^2 + y^2 from Vector space of dimension 2 over Symbolic Ring
+sage: _.an_element()
+1
+sage: ImageSet(sos, Set([(3, 4), (3, -4)]))
+Image of {...(3, -4)...} by
+ The map (x, y) |--> x^2 + y^2 from Vector space of dimension 2 over Symbolic Ring
+sage: _.an_element()
+25
+}}}
+
+The new class mirrors and translates to [[https://docs.sympy.org/latest/modules/sets.html#imageset|SymPy's ImageSet]]:
+{{{
+sage: from sage.sets.image_set import ImageSet
+sage: S = ImageSet(sin, RealSet.open(0, pi/4)); S
+Image of (0, 1/4*pi) by The map sin from (0, 1/4*pi)
+sage: S._sympy_()
+ImageSet(Lambda(x, sin(x)), Interval.open(0, pi/4))
+}}}
+
+Most methods of `ImageSet` are actually provided by its base class, the new class `ImageSubobject`. 
+For all morphisms in the `Sets` category, there is now a default method `image`, which constructs an instance of either `ImageSubobject` or `ImageSet`.
+
+
 == Manifolds ==
 
 The `structure` parameter of the `Manifold` constructor has new, more convenient defaulting behavior. [[https://trac.sagemath.org/ticket/33001|#33001]]
