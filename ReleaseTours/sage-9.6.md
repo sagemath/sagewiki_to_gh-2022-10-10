@@ -88,13 +88,14 @@ Real projective spaces have been added to the manifold catalog ([[https://trac.s
  * Iterating over (some) infinite modules (including ''ℤ^n'') now enumerates the entire module, in a "natural" order. [[https://trac.sagemath.org/ticket/33287|#33287]]
  * ''BinaryQF.solve_integer()'' now also works for quadratic forms of square discriminant. [[https://trac.sagemath.org/ticket/33026|#33026]]
  * Quaternion fractional ideals (including orders) now support the usual operations (e.g., ''a*I'', ''I*a'', ''I+J''). [[https://trac.sagemath.org/ticket/32264|#32264]]
-
+ * ''AdditiveAbelianGroupWrapper'' now exposes ''.discrete_log()'' for (multi-dimensional) logarithms in finite abelian groups. [[https://trac.sagemath.org/ticket/32384|#32384]]
 
 == Number theory ==
 
 === Elliptic curves ===
 
- * Elliptic-curve DLP and Weil pairings over finite fields are now ''much'' faster (by calling PARI). [[https://trac.sagemath.org/ticket/33121|#33121]]
+ * Elliptic-curve DLP and Weil pairings over finite fields are now ''much'' faster (thanks to PARI). [[https://trac.sagemath.org/ticket/33121|#33121]]
+ * Scalar multiplication on elliptic curves over finite fields is now significantly faster (thanks to PARI). [[https://trac.sagemath.org/ticket/33147|#33147]]
 
 == Package upgrades ==
 
