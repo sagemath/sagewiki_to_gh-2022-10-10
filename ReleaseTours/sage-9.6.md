@@ -96,6 +96,7 @@ Real projective spaces have been added to the manifold catalog ([[https://trac.s
 
  * Elliptic-curve DLP and Weil pairings over finite fields are now ''much'' faster (thanks to PARI). [[https://trac.sagemath.org/ticket/33121|#33121]]
  * Scalar multiplication on elliptic curves over finite fields is now significantly faster (thanks to PARI). [[https://trac.sagemath.org/ticket/33147|#33147]]
+ * Computing the Weierstraß ℘ function of an elliptic curve is now significantly faster (thanks to PARI). [[https://trac.sagemath.org/ticket/33223|#33223]]
 
 == Package upgrades ==
 
