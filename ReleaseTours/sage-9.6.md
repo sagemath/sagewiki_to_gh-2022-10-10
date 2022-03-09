@@ -124,6 +124,10 @@ lrcalc, Anders Buch's Littlewood-Richardson Calculator, has been upgraded to the
 
 !SymPy has been upgraded to version 1.10 ([[https://github.com/sympy/sympy/wiki/release-notes-for-1.10|release notes]]). [[https://trac.sagemath.org/ticket/33398|#33398]]
 
+=== polymake ===
+
+polymake, a comprehensive system for computations in polyhedral geometry, tropical geometry, etc., has been upgraded to version 4.6 ([[https://polymake.org/doku.php/news/release_4_6|release notes]]). [[https://trac.sagemath.org/ticket/33251|#33251]]
+
 
 == New developer tools ==
 
