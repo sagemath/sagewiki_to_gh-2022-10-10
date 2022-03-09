@@ -103,6 +103,10 @@ Real projective spaces have been added to the manifold catalog ([[https://trac.s
 For a list of all packages and their versions, see
  * https://repology.org/projects/?inrepo=sagemath_develop
 
+=== Python 3.10 ===
+
+Sage 9.6 continues to support system Python 3.7.x to 3.10.x. If no suitable version of Python is installed in the system, Sage will install its own copy of Python. Sage now ships Python 3.10.2 for this purpose. [[https://trac.sagemath.org/ticket/30767|#30767]]
+
 === FLINT and arb ===
 
 FLINT from 2.7.1 to 2.8.4, arb to 2.22.1 [[https://trac.sagemath.org/ticket/32211|#32211]], [[https://trac.sagemath.org/ticket/33189|#33189]]
