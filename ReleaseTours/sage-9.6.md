@@ -138,6 +138,14 @@ polymake, a comprehensive system for computations in polyhedral geometry, tropic
 
 The `igraph` library and its Python interface (now also just called `igraph`) have been upgraded to versions 0.9.5/0.9.8. [[https://trac.sagemath.org/ticket/32510|#32510]]
 
+=== JupyterLab ===
+
+!JupyterLab, the latest web-based interactive development environment for notebooks, code, and data, is slated to replace the now-classic Jupyter notebook interface.  The version of !JupyterLab in the Sage distribution has been upgraded to the major new version 3.3. [[https://trac.sagemath.org/ticket/32069|#32069]]
+
+After `./sage -i jupyterlab_widgets`, you can run it using `./sage -n jupyterlab`. 
+
+Also two new interface variants are provided: `./sage -n nbclassic` and `./sage -n retrolab`. 
+
 
 == New developer tools ==
 
