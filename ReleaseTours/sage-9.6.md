@@ -183,7 +183,7 @@ We have now:
 
 1. Linter that checks that the code of the current branch adheres to the style guidelines. In order to see details when it fails, you can click on it and then select the most recent workflow run.
 
-2. Build & test that builds sage for the current branch (incrementally on top of the system packages of the develop branch) and runs the test. Details are again available by clicking on the badge. (This is currently still gray until [[https://trac.sagemath.org/ticket/33263|#33263]] is merged.)
+2. Build & test that builds sage for the current branch (incrementally on top of the system packages of the develop branch) and runs the test. Details are again available by clicking on the badge.
 
 3. Build documentation workflow that builds the HTML documentation for the current branch. If you click on it, you get the HTML output of the successful run. The idea is to use this to easily inspect changes to the documentation without the need to locally rebuild the docs yourself. If the doc build fails, you can go to [[https://github.com/sagemath/sagetrac-mirror/actions/workflows/doc-build.yml|the Actions tab of sagemath/sagetrac-mirror repo]] and choose the particular branch to see what went wrong.
 
