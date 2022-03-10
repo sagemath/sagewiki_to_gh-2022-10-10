@@ -134,6 +134,10 @@ lrcalc, Anders Buch's Littlewood-Richardson Calculator, has been upgraded to the
 
 polymake, a comprehensive system for computations in polyhedral geometry, tropical geometry, etc., has been upgraded to version 4.6 ([[https://polymake.org/doku.php/news/release_4_6|release notes]]). [[https://trac.sagemath.org/ticket/33251|#33251]]
 
+=== igraph ===
+
+The `igraph` library and its Python interface (now also just called `igraph`) have been upgraded to versions 0.9.5/0.9.8. [[https://trac.sagemath.org/ticket/32510|#32510]]
+
 
 == New developer tools ==
 
