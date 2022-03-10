@@ -59,6 +59,12 @@ ImageSet(Lambda(x, sin(x)), Interval.open(0, pi/4))
 Most methods of `ImageSet` are actually provided by its base class, the new class `ImageSubobject`. 
 For all morphisms in the `Sets` category, there is now a default method `image`, which constructs an instance of either `ImageSubobject` or `ImageSet`.
 
+== Polyhedral geometry ==
+
+=== Equivariant Ehrhart theory ===
+
+[[https://trac.sagemath.org/ticket/27637|#27637]]
+
 
 == Manifolds ==
 
