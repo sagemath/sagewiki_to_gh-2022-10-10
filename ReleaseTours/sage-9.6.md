@@ -90,6 +90,44 @@ Real projective spaces have been added to the manifold catalog ([[https://trac.s
 
 == Algebra ==
 
+=== Finitely presented modules over graded algebras ===
+
+Sage 9.6 allows the construction of finitely presented modules over graded algebras, even algebras which are infinite and/or noncommutative like the mod ''p'' Steenrod algebra. Some homological algebra is implemented in general, and more tools are implemented specifically for modules over the Steenrod algebra ([[https://trac.sagemath.org/ticket/32505|#32505]], [[https://trac.sagemath.org/ticket/30680|#30680]]).
+
+{{{
+sage: from sage.modules.fp_graded.module import FPModule
+sage: E.<x,y> = ExteriorAlgebra(QQ)
+# M has one generator g in degree 0 and two relations, x*g and y*g.
+# That is, M is QQ as a trivial E-module.
+sage: M = FPModule(E, [0], [[x], [y]])
+# Free resolution:
+sage: M.resolution(3)
+[Module morphism:
+   From: Free graded left module on 1 generator over The exterior algebra of rank 2 over Rational Field
+   To:   Finitely presented left module on 1 generator and 2 relations over The exterior algebra of rank 2 over Rational Field
+   Defn: g[0] |--> g[0],
+ Module morphism:
+   From: Free graded left module on 2 generators over The exterior algebra of rank 2 over Rational Field
+   To:   Free graded left module on 1 generator over The exterior algebra of rank 2 over Rational Field
+   Defn: g[1, 0] |--> x*g[0]
+         g[1, 1] |--> y*g[0],
+ Module morphism:
+   From: Free graded left module on 3 generators over The exterior algebra of rank 2 over Rational Field
+   To:   Free graded left module on 2 generators over The exterior algebra of rank 2 over Rational Field
+   Defn: g[2, 0] |--> x*g[1, 0]
+         g[2, 1] |--> y*g[1, 0] + x*g[1, 1]
+         g[2, 2] |--> y*g[1, 1],
+ Module morphism:
+   From: Free graded left module on 4 generators over The exterior algebra of rank 2 over Rational Field
+   To:   Free graded left module on 3 generators over The exterior algebra of rank 2 over Rational Field
+   Defn: g[3, 0] |--> x*g[2, 0]
+         g[3, 1] |--> y*g[2, 0] + x*g[2, 1]
+         g[3, 2] |--> y*g[2, 1] + x*g[2, 2]
+         g[3, 3] |--> y*g[2, 2]]
+}}}
+
+There is a new thematic tutorial providing many details and examples.
+
  * Ideal membership over quotient rings can now be decided (by reducing to ideal membership in the parent ring). [[https://trac.sagemath.org/ticket/33237|#33237]]
  * Iterating over (some) infinite modules (including ''ℤ^n'') now enumerates the entire module, in a "natural" order. [[https://trac.sagemath.org/ticket/33287|#33287]]
  * ''BinaryQF.solve_integer()'' now also works for quadratic forms of square discriminant. [[https://trac.sagemath.org/ticket/33026|#33026]]
