@@ -153,7 +153,7 @@ For a list of all packages and their versions, see
 
 Sage 9.6 continues to support system Python 3.7.x to 3.10.x. If no suitable version of Python is installed in the system, Sage will install its own copy of Python. Sage now ships Python 3.10.2 for this purpose. [[https://trac.sagemath.org/ticket/30767|#30767]]
 
-=== FLINT and arb ===
+=== FLINT 2.8.x and arb 2.22.x ===
 
 FLINT from 2.7.1 to 2.8.4, arb to 2.22.1 [[https://trac.sagemath.org/ticket/32211|#32211]], [[https://trac.sagemath.org/ticket/33189|#33189]]
 
@@ -162,23 +162,23 @@ Note that Sage accepts system installations of FLINT >= 2.6.x. Users on older di
 
 Meta-ticket [[https://trac.sagemath.org/ticket/31408|#31408]] tracks the effort to make use of new features added in recent FLINT releases in the Sage library.
 
-=== lrcalc ===
+=== lrcalc 2.1 ===
 
 lrcalc, Anders Buch's Littlewood-Richardson Calculator, has been upgraded to the major new version 2.1 [[https://bitbucket.org/asbuch/lrcalc/src/master/ChangeLog|changelog]]. [[https://trac.sagemath.org/ticket/31355|#31355]]
 
-=== SymPy ===
+=== SymPy 1.10 ===
 
 !SymPy has been upgraded to version 1.10 ([[https://github.com/sympy/sympy/wiki/release-notes-for-1.10|release notes]]). [[https://trac.sagemath.org/ticket/33398|#33398]]
 
-=== polymake ===
+=== polymake 4.6 ===
 
 polymake, a comprehensive system for computations in polyhedral geometry, tropical geometry, etc., has been upgraded to version 4.6 ([[https://polymake.org/doku.php/news/release_4_6|release notes]]). [[https://trac.sagemath.org/ticket/33251|#33251]]
 
-=== igraph ===
+=== igraph 0.9.x ===
 
 The `igraph` library and its Python interface (now also just called `igraph`) have been upgraded to versions 0.9.5/0.9.8. [[https://trac.sagemath.org/ticket/32510|#32510]]
 
-=== JupyterLab ===
+=== JupyterLab 3.3 ===
 
 !JupyterLab, the latest web-based interactive development environment for notebooks, code, and data, is slated to replace the now-classic Jupyter notebook interface.  The version of !JupyterLab in the Sage distribution has been upgraded to the major new version 3.3. [[https://trac.sagemath.org/ticket/32069|#32069]]
 
