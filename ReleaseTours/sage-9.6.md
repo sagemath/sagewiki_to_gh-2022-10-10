@@ -242,9 +242,43 @@ The current development release is 9.6.beta5, tagged on 2022-03-12.
 
 The [[https://6212659123a9467b3cb0cd07--sagemath-tobias.netlify.app/installation/index.html|SageMath installation guide]] now provides a decision tree that guides users and developers to a type of installation suitable for their system and their needs.
 
+=== Sources ===
+
 The Sage source code is available in the [[https://github.com/sagemath/sage/tree/develop|sage git repository]].
 
 !SageMath 9.6 supports all [[https://wiki.sagemath.org/ReleaseTours/sage-9.5#Sources|platforms that were supported by Sage 9.5]] and '''adds support for building on distributions that use the (unreleased) [[https://gcc.gnu.org/gcc-12/changes.html|GCC 12]] series''' (`fedora-36`). [[https://trac.sagemath.org/ticket/33187|#33187]]
+
+(On platforms marked with the superscript&nbsp;⁺, installing optional packages
+is not supported unless you upgrade the toolchain (gcc, binutils).)
+
+ * '''Linux 64-bit''' (x86_64)
+   * ubuntu-{[[https://launchpad.net/ubuntu/trusty|trusty]]⁺,[[https://launchpad.net/ubuntu/xenial|xenial]],[[https://launchpad.net/ubuntu/bionic|bionic]],[[https://launchpad.net/ubuntu/focal|focal]],[[https://launchpad.net/ubuntu/hirsute|hirsute]],[[https://launchpad.net/ubuntu/impish|impish]],[[https://launchpad.net/ubuntu/jammy|jammy]]} 
+   * debian-{[[https://wiki.debian.org/DebianStretch|stretch]], [[https://wiki.debian.org/DebianBuster|buster]],[[https://wiki.debian.org/DebianBullseye|bullseye]],[[https://wiki.debian.org/DebianBookworm|bookworm]],[[https://wiki.debian.org/DebianUnstable|sid]]}
+   * linuxmint-{[[https://www.linuxmint.com/edition.php?id=158|17]]⁺,[[https://www.linuxmint.com/edition.php?id=217|18]],[[https://linuxmint.com/rel_tara_cinnamon.php|19]],[[https://linuxmint.com/rel_tricia_cinnamon.php|19.3]],[[https://www.linuxmint.com/rel_ulyssa_cinnamon_whatsnew.php|20.1]],[[https://linuxmint.com/rel_uma_cinnamon.php|20.2]],[[https://linuxmint.com/rel_una_cinnamon.php|20.3]]}
+   * fedora-{[[https://docs.fedoraproject.org/en-US/fedora/f26/release-notes/|26]],[[https://docs.fedoraproject.org/en-US/fedora/f27/release-notes/|27]],[[https://docs.fedoraproject.org/en-US/fedora/f28/release-notes/|28]],[[https://docs.fedoraproject.org/en-US/fedora/f29/release-notes/|29]],[[https://docs.fedoraproject.org/en-US/fedora/f30/release-notes/|30]],[[https://docs.fedoraproject.org/en-US/fedora/f31/release-notes/|31]],[[https://docs.fedoraproject.org/en-US/fedora/f32/release-notes/|32]],[[https://docs.fedoraproject.org/en-US/fedora/f33/release-notes/|33]],[[https://docs.fedoraproject.org/en-US/fedora/f34/release-notes/|34]],[[https://docs.fedoraproject.org/en-US/fedora/f35/release-notes/|35]],[[https://fedoraproject.org/wiki/Releases/36/ChangeSet|36]]}
+   * centos-{7⁺,[[https://www.centos.org/centos-stream/|stream-8]],[[https://www.centos.org/centos-stream/|stream-9]]}
+   * gentoo
+   * archlinux
+   * opensuse-{15,[[https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.3/|15.3]],[[https://get.opensuse.org/tumbleweed/|tumbleweed]]}
+   * slackware-14.2
+ * '''Linux 32-bit''' (i386/i686)
+   * ubuntu-bionic
+   * [[https://github.com/pypa/manylinux#manylinux_2_24-debian-9-based|manylinux-2_24]]
+   * debian-buster
+   * centos-7⁺ (but docbuild is broken, [[https://trac.sagemath.org/ticket/32768|#32768]])
+ * '''macOS (Intel)''' (x86_64) - with [[https://brew.sh/|Homebrew]] or without
+   * macOS 10.15 (Catalina)
+   * macOS 11.x (Big Sur)
+   * macOS 12.x (Monterey) [[https://trac.sagemath.org/ticket/32855|#32855]]
+ * '''macOS (Apple Silicon, M1)''' [[https://trac.sagemath.org/ticket/30592|#30592]]
+   * Building Sage 9.5 from source on Apple Silicon (M1) requires the use of [[https://brew.sh/|Homebrew]] (recommended) or conda-forge, which package versions of `gfortran` 11 with necessary changes for this platform that are not in a released upstream version of GCC. (The `gfortran` package that comes with Sage is not suitable for the M1.)
+   * Make sure that `/usr/local` does not contain an old copy of homebrew (or other software) for x86_64 that you may have copied from an old machine. Homebrew for the M1 is installed in `/opt/homebrew`, not `/usr/local`.
+   * Be sure to follow the [[https://github.com/sagemath/sage/blob/develop/README.md|README]] and the instructions that the `./configure` command issues regarding the installation of system packages from Homebrew or conda.
+ * '''Cygwin''' (x86_64)
+
+=== Help ===
+
+See [[https://github.com/sagemath/sage/blob/9.4/README.md|README.md]] in the source distribution for installation instructions.
 
  * See [[https://groups.google.com/forum/#!forum/sage-devel|sage-devel]] for development discussions and [[https://groups.google.com/forum/#!forum/sage-release|sage-release]] for announcements of beta versions and release candidates.
 
