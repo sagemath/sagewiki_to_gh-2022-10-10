@@ -139,6 +139,9 @@ There is a new thematic tutorial providing many details and examples.
  * Polynomials now evaluate faster on monomial inputs. [[https://trac.sagemath.org/ticket/33165|#33165]]
  * Implement specialized code for summing terms and monomials in `CombinatorialFreeModule`. [[https://trac.sagemath.org/ticket/33267|#33267]]
  * Improvements and fixes to `skew_by()` in symmetric functions. [[https://trac.sagemath.org/ticket/33313|#33313]]
+ * Attempt to invert elements generically in a finite dimensional algebra. [[https://trac.sagemath.org/ticket/33250|#33250]]
+ * Tensor products of finite dimensional modules know they are finite dimensional (Sage does not currently have any structure for infinite tensor products, which can have some subtleties). [[https://trac.sagemath.org/ticket/30252|#30252]]
+ * Improved coercions and conversions with Laurent polynomials and their fraction field. [[https://trac.sagemath.org/ticket/31320|#31320]] [[https://trac.sagemath.org/ticket/33477|#33477]]
 
 == Number theory ==
 
@@ -147,6 +150,14 @@ There is a new thematic tutorial providing many details and examples.
  * Elliptic-curve DLP and Weil pairings over finite fields are now ''much'' faster (thanks to PARI). [[https://trac.sagemath.org/ticket/33121|#33121]]
  * Scalar multiplication on elliptic curves over finite fields is now significantly faster (thanks to PARI). [[https://trac.sagemath.org/ticket/33147|#33147]]
  * Computing the Weierstraß ℘ function of an elliptic curve is now significantly faster (thanks to PARI). [[https://trac.sagemath.org/ticket/33223|#33223]]
+
+== Coding theory ==
+
+Optimizations to `SBox`. [[https://trac.sagemath.org/ticket/25633|#25633]]
+
+== Plotting and Graphics ==
+
+* Added the ability to choose the hyperbolic model for hyperbolic plots. [[https://trac.sagemath.org/ticket/22081|#22081]]
 
 == Package upgrades ==
 
