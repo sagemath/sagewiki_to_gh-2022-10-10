@@ -132,9 +132,13 @@ There is a new thematic tutorial providing many details and examples.
 
  * Ideal membership over quotient rings can now be decided (by reducing to ideal membership in the parent ring). [[https://trac.sagemath.org/ticket/33237|#33237]]
  * Iterating over (some) infinite modules (including ''ℤ^n'') now enumerates the entire module, in a "natural" order. [[https://trac.sagemath.org/ticket/33287|#33287]]
- * ''BinaryQF.solve_integer()'' now also works for quadratic forms of square discriminant. [[https://trac.sagemath.org/ticket/33026|#33026]]
- * Quaternion fractional ideals (including orders) now support the usual operations (e.g., ''a*I'', ''I*a'', ''I+J''). [[https://trac.sagemath.org/ticket/32264|#32264]]
- * ''AdditiveAbelianGroupWrapper'' now exposes ''.discrete_log()'' for (multi-dimensional) logarithms in finite abelian groups. [[https://trac.sagemath.org/ticket/32384|#32384]]
+ * `BinaryQF.solve_integer()` now also works for quadratic forms of square discriminant. [[https://trac.sagemath.org/ticket/33026|#33026]]
+ * `Quaternion fractional ideals` (including orders) now support the usual operations (e.g., `a*I`, `I*a`, `I+J`). [[https://trac.sagemath.org/ticket/32264|#32264]]
+ * `AdditiveAbelianGroupWrapper` now exposes `.discrete_log()` for (multi-dimensional) logarithms in finite abelian groups. [[https://trac.sagemath.org/ticket/32384|#32384]]
+ * Graded submodules of graded modules now know they are graded (with respect to the ambient grading); similarly for filtered submodules. [[https://trac.sagemath.org/ticket/33321|#33321]]
+ * Polynomials now evaluate faster on monomial inputs. [[https://trac.sagemath.org/ticket/33165|#33165]]
+ * Implement specialized code for summing terms and monomials in `CombinatorialFreeModule`. [[https://trac.sagemath.org/ticket/33267|#33267]]
+ * Improvements and fixes to `skew_by()` in symmetric functions. [[https://trac.sagemath.org/ticket/33313|#33313]]
 
 == Number theory ==
 
