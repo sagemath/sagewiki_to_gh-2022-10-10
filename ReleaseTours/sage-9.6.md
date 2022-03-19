@@ -59,6 +59,11 @@ ImageSet(Lambda(x, sin(x)), Interval.open(0, pi/4))
 Most methods of `ImageSet` are actually provided by its base class, the new class `ImageSubobject`. 
 For all morphisms in the `Sets` category, there is now a default method `image`, which constructs an instance of either `ImageSubobject` or `ImageSet`.
 
+== Plotting and graphics ==
+
+ * Added the ability to choose the hyperbolic model for hyperbolic plots. [[https://trac.sagemath.org/ticket/22081|#22081]]
+
+
 == Polyhedral geometry ==
 
 === Equivariant Ehrhart theory ===
@@ -154,10 +159,6 @@ There is a new thematic tutorial providing many details and examples.
 == Coding theory ==
 
 Optimizations to `SBox`. [[https://trac.sagemath.org/ticket/25633|#25633]]
-
-== Plotting and Graphics ==
-
-* Added the ability to choose the hyperbolic model for hyperbolic plots. [[https://trac.sagemath.org/ticket/22081|#22081]]
 
 == Package upgrades ==
 
