@@ -26,7 +26,10 @@ You can develop Sage without building any of its dependencies (experimental) ---
 $ export SAGE_NUM_THREADS=24                             # or whatever the meaningful value
                                                          # for your machine is - no more than 
                                                          # the number of cores.
-$ conda install mamba
+
+$ conda install mamba                                    # This is a recommended optional step.
+                                                         # If you skip it, replace "mamba" by
+                                                         # "conda" in the following steps.
 
 $ mamba create -n sage-build python=3.9 \
       gettext autoconf automake libtool pkg-config       # or replace 3.9 by another version
