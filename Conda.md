@@ -20,21 +20,39 @@ The packages necessary to run sage are developed on the github pages of conda-fo
 
 = Conda for Sage Developers =
 
-You can develop Sage without building any of its dependencies (experimental) --- on my machine this takes 5 minutes. Assume you obtained Sage source tree and changed to its root. 
+You can develop Sage without building any of its dependencies (experimental) --- on my machine this takes 5 minutes. Assume you obtained Sage source tree and changed to its root. These instructions have been updated for [[https://trac.sagemath.org/ticket/30845|#30845]]
 
 {{{
-$ export SAGE_NUM_THREADS=24 # or whatever the meaningful value for you is - no more than the number of cores.
+$ export SAGE_NUM_THREADS=24                             # or whatever the meaningful value
+                                                         # for your machine is - no more than 
+                                                         # the number of cores.
 $ conda install mamba
-$ mamba create -n sage-build python=3.9 gettext autoconf automake libtool pkg-config
+
+$ mamba create -n sage-build python=3.9 \
+      gettext autoconf automake libtool pkg-config       # or replace 3.9 by another version
+
+$ conda run -n sage-build ./bootstrap                    # this generates src/environment.yml
+                                                         # used in the next step
+
+$ mamba env update -n sage-build -f src/environment.yml  # alternatively, use 
+                                                         # src/environment-optional.yml 
+                                                         # for some additional packages
 $ conda activate sage-build
-$ ./bootstrap                                             # this generates src/environment.yml
-$ mamba env update -n sage-build -f src/environment.yml
-$ conda activate sage-build
-$ ./configure --with-python=$CONDA_PREFIX/bin/python --with-system-gcc=force  --enable-download-from-upstream-url
-$ pip install --no-build-isolation -v -v pkgs/sage-conf pkgs/sage-setup 
-$ pip install --no-build-isolation -v -v -r src/requirements.txt -e src
+
+$ ./configure --with-python=$CONDA_PREFIX/bin/python             \
+              --prefix=$CONDA_PREFIX                             \
+              $(for pkg in $(./sage -package list :standard:     \
+                               --has-file spkg-configure.m4      \
+                               --has-file distros/conda.txt); do \
+                    echo --with-system-$pkg=force;               \
+                done)
+
+$ pip install --no-build-isolation -v -v -e pkgs/sage-conf pkgs/sage-setup 
+
+$ pip install --no-build-isolation -v -v -e src
+
 $ sage -c 'print(version())'
-SageMath version 9.5, Release Date: 2022-01-30
+SageMath version 9.6.beta5, Release Date: 2022-03-12
 }}}
 
 = Open Issues =
