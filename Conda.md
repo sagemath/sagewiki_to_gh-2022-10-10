@@ -49,12 +49,21 @@ $ ./configure --with-python=$CONDA_PREFIX/bin/python             \
                     echo --with-system-$pkg=force;               \
                 done)
 
-$ pip install --no-build-isolation -v -v -e pkgs/sage-conf pkgs/sage-setup 
+$ pip install --no-build-isolation -v -v --editable pkgs/sage-conf pkgs/sage-setup 
 
-$ pip install --no-build-isolation -v -v -e src
+$ pip install --no-build-isolation -v -v --editable src
 
 $ sage -c 'print(version())'
 SageMath version 9.6.beta5, Release Date: 2022-03-12
+}}}
+
+By using `pip install --editable`, the Sage library is installed in editable mode.
+This means that when you only edit Python files, there is no need to rebuild the library; 
+it suffices to restart Sage.
+
+After editing any Cython files, rebuild by repeating the command
+{{{
+$ pip install --no-build-isolation -v -v --editable src
 }}}
 
 = Open Issues =
