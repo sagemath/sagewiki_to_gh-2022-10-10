@@ -31,7 +31,9 @@ $ conda install mamba
 $ mamba create -n sage-build python=3.9 \
       gettext autoconf automake libtool pkg-config       # or replace 3.9 by another version
 
-$ conda run -n sage-build ./bootstrap                    # this generates src/environment.yml
+$ conda activate sage-build
+
+$ ./bootstrap                                            # this generates src/environment.yml
                                                          # used in the next step
 
 $ mamba env update -n sage-build -f src/environment.yml  # alternatively, use 
