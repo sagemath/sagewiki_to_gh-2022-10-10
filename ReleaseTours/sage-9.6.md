@@ -167,7 +167,7 @@ For a list of all packages and their versions, see
 
 === Python 3.10 ===
 
-Sage 9.6 continues to support system Python 3.7.x to 3.10.x. If no suitable version of Python is installed in the system, Sage will install its own copy of Python. Sage now ships Python 3.10.2 for this purpose. [[https://trac.sagemath.org/ticket/30767|#30767]]
+Sage 9.6 continues to support system Python 3.7.x to 3.10.x. If no suitable version of Python is installed in the system, Sage will install its own copy of Python. Sage now ships Python 3.10.3 for this purpose. [[https://trac.sagemath.org/ticket/30767|#30767]], [[https://trac.sagemath.org/ticket/33512|#33512]]
 
 === FLINT 2.8.x and arb 2.22.x ===
 
