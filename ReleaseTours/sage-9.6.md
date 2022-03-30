@@ -182,9 +182,9 @@ Meta-ticket [[https://trac.sagemath.org/ticket/31408|#31408]] tracks the effort 
 
 lrcalc, Anders Buch's Littlewood-Richardson Calculator, has been upgraded to the major new version 2.1 [[https://bitbucket.org/asbuch/lrcalc/src/master/ChangeLog|changelog]]. [[https://trac.sagemath.org/ticket/31355|#31355]]
 
-=== SymPy 1.10 ===
+=== SymPy 1.10.1 ===
 
-!SymPy has been upgraded to version 1.10 ([[https://github.com/sympy/sympy/wiki/release-notes-for-1.10|release notes]]). [[https://trac.sagemath.org/ticket/33398|#33398]]
+!SymPy has been upgraded to version 1.10.1 ([[https://github.com/sympy/sympy/wiki/release-notes-for-1.10|release notes]]). [[https://trac.sagemath.org/ticket/33398|#33398]], [[https://trac.sagemath.org/ticket/33547|#33547]]
 
 === polymake 4.6 ===
 
