@@ -196,7 +196,7 @@ The `igraph` library and its Python interface (now also just called `igraph`) ha
 
 === JupyterLab 3.3 ===
 
-!JupyterLab, the latest web-based interactive development environment for notebooks, code, and data, is slated to replace the now-classic Jupyter notebook interface.  The version of !JupyterLab in the Sage distribution has been upgraded to the major new version 3.3. [[https://trac.sagemath.org/ticket/32069|#32069]]
+!JupyterLab, the latest web-based interactive development environment for notebooks, code, and data, is slated to replace the now-classic Jupyter notebook interface.  The version of !JupyterLab in the Sage distribution has been upgraded to the major new version 3.3. [[https://trac.sagemath.org/ticket/32069|#32069]], [[https://trac.sagemath.org/ticket/33607|#33607]]
 
 After `./sage -i jupyterlab_widgets`, you can run it using `./sage -n jupyterlab`. 
 
