@@ -343,7 +343,7 @@ The Sage source code is available in the [[https://github.com/sagemath/sage/tree
  * '''Cygwin''' (x86_64)
 
 (On platforms marked with the superscript&nbsp;⁺, installing optional packages
-is not supported in Sage 9.6; and support for these platforms will be removed in Sage 9.7. Upgrade to a newer version of the distribution or at least upgrade  the toolchain (gcc, binutils).)
+is not supported in Sage 9.6; and support for these platforms will be removed in Sage 9.7; see [[https://trac.sagemath.org/ticket/32074|#32074]]. Upgrade to a newer version of the distribution or at least upgrade  the toolchain (gcc, binutils).)
 
 
 === Help ===
