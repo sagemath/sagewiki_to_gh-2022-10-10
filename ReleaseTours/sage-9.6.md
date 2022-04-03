@@ -43,7 +43,7 @@ sage: type(_)
 
 === SymPy 1.10.1 ===
 
-!SymPy has been upgraded to version 1.10.1 ([[https://github.com/sympy/sympy/wiki/release-notes-for-1.10|release notes]]). [[https://trac.sagemath.org/ticket/33398|#33398]], [[https://trac.sagemath.org/ticket/33547|#33547]]
+!SymPy has been upgraded to version 1.10.1 ([[https://github.com/sympy/sympy/wiki/release-notes-for-1.10|release notes]]). [[https://trac.sagemath.org/ticket/33398|#33398]], [[https://trac.sagemath.org/ticket/33547|#33547]], [[https://trac.sagemath.org/ticket/33584|#33584]]
 
 === ImageSet ===
 
@@ -255,6 +255,13 @@ We have now:
 3. Build documentation workflow that builds the HTML documentation for the current branch. If you click on it, you get the HTML output of the successful run. The idea is to use this to easily inspect changes to the documentation without the need to locally rebuild the docs yourself. If the doc build fails, you can go to [[https://github.com/sagemath/sagetrac-mirror/actions/workflows/doc-build.yml|the Actions tab of sagemath/sagetrac-mirror repo]] and choose the particular branch to see what went wrong.
 
 The idea is that these three status badges complement the existing patchbots (and maybe even replace them in the future). In particular, they are supposed to always be green.
+
+=== sage -pytest ===
+
+After the optional package [[https://docs.pytest.org/en/7.1.x/|pytest]] is installed (`./sage -i pytest`), a new command `./sage -pytest` is available, which runs pytest on the Sage library sources. [[https://trac.sagemath.org/ticket/33572|#33572]]
+
+Also the Sage doctester (`./sage -t`, `./sage -tox -e doctest`) invokes `pytest`. This functionality has been improved in Sage 9.6. [[https://trac.sagemath.org/ticket/31924|#31924]]
+
 
 === Sage patchbot on GitHub Actions ===
 
