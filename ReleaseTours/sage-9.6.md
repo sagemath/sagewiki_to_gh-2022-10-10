@@ -4,6 +4,25 @@ Current development cycle (2022)
 
 <<TableOfContents>>
 
+== User interface, plotting and graphics ==
+
+=== JupyterLab 3.3 ===
+
+[[https://jupyter.org/|JupyterLab]], the latest web-based interactive development environment for notebooks, code, and data, is slated to replace the now-classic Jupyter notebook interface.  The version of !JupyterLab in the Sage distribution has been upgraded to the major new version 3.3. [[https://trac.sagemath.org/ticket/32069|#32069]], [[https://trac.sagemath.org/ticket/33607|#33607]]
+
+After `./sage -i jupyterlab_widgets`, you can run it using `./sage -n jupyterlab`. 
+
+Also two new interface variants are provided: `./sage -n nbclassic` and `./sage -n retrolab`. 
+
+=== Interactive graph editing with phitigra ===
+
+With the new optional package [[https://pypi.org/project/phitigra|phitigra]] (use `./sage -i phitigra` to install), graphs can be edited by interactively placing vertices, edges, etc.  This works both in the classic Jupyter notebook and in !JupyterLab.
+
+=== Hyperbolic plots ===
+
+ * Added the ability to choose the hyperbolic model for hyperbolic plots. [[https://trac.sagemath.org/ticket/22081|#22081]]
+
+
 == Linear Algebra ==
 
 The new classes `Matrix_numpy_integer_dense` and `Vector_numpy_integer_dense` implement matrices and vectors with 64-bit integer entries backed by `numpy` arrays. [[https://trac.sagemath.org/ticket/32465|#32465]].
@@ -58,11 +77,6 @@ ImageSet(Lambda(x, sin(x)), Interval.open(0, pi/4))
 
 Most methods of `ImageSet` are actually provided by its base class, the new class `ImageSubobject`. 
 For all morphisms in the `Sets` category, there is now a default method `image`, which constructs an instance of either `ImageSubobject` or `ImageSet`.
-
-== Plotting and graphics ==
-
- * Added the ability to choose the hyperbolic model for hyperbolic plots. [[https://trac.sagemath.org/ticket/22081|#22081]]
-
 
 == Polyhedral geometry ==
 
@@ -198,14 +212,6 @@ polymake, a comprehensive system for computations in polyhedral geometry, tropic
 === igraph 0.9.x ===
 
 The `igraph` library and its Python interface (now also just called `igraph`) have been upgraded to versions 0.9.7/0.9.9. [[https://trac.sagemath.org/ticket/32510|#32510]], [[https://trac.sagemath.org/ticket/33526|#33526]]
-
-=== JupyterLab 3.3 ===
-
-!JupyterLab, the latest web-based interactive development environment for notebooks, code, and data, is slated to replace the now-classic Jupyter notebook interface.  The version of !JupyterLab in the Sage distribution has been upgraded to the major new version 3.3. [[https://trac.sagemath.org/ticket/32069|#32069]], [[https://trac.sagemath.org/ticket/33607|#33607]]
-
-After `./sage -i jupyterlab_widgets`, you can run it using `./sage -n jupyterlab`. 
-
-Also two new interface variants are provided: `./sage -n nbclassic` and `./sage -n retrolab`. 
 
 
 == New developer tools ==
