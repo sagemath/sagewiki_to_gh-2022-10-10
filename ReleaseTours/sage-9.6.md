@@ -103,6 +103,8 @@ polymake, a comprehensive system for computations in polyhedral geometry, tropic
 
 The new package [[https://github.com/coin-or/CyLP|cylp]] provides a detailed interface to [[https://github.com/coin-or/Clp|Clp]], the COIN-OR linear programming solver, and [[https://github.com/coin-or/Cbc|Cbc]], the COIN-OR branch-and-cut solver for mixed-integer linear programs.  [[https://trac.sagemath.org/ticket/33487|#33847]]
 
+See also [[https://trac.sagemath.org/ticket/26511|Meta-ticket #26511]].
+
 === Equivariant Ehrhart theory ===
 
 [[https://trac.sagemath.org/ticket/27637|#27637]]
