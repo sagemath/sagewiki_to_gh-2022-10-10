@@ -317,9 +317,6 @@ The Sage source code is available in the [[https://github.com/sagemath/sage/tree
 
 !SageMath 9.6 supports all [[https://wiki.sagemath.org/ReleaseTours/sage-9.5#Sources|platforms that were supported by Sage 9.5]] and '''adds support for building on distributions that use the (unreleased) [[https://gcc.gnu.org/gcc-12/changes.html|GCC 12]] series''' (`fedora-36`). [[https://trac.sagemath.org/ticket/33187|#33187]]
 
-(On platforms marked with the superscript&nbsp;⁺, installing optional packages
-is not supported in Sage 9.6; and support for these platforms will be removed in Sage 9.7. Upgrade to a newer version of the distribution or at least upgrade  the toolchain (gcc, binutils).)
-
  * '''Linux 64-bit''' (x86_64)
    * ubuntu-{[[https://launchpad.net/ubuntu/trusty|trusty]]⁺,[[https://launchpad.net/ubuntu/xenial|xenial]],[[https://launchpad.net/ubuntu/bionic|bionic]],[[https://launchpad.net/ubuntu/focal|focal]],[[https://launchpad.net/ubuntu/hirsute|hirsute]],[[https://launchpad.net/ubuntu/impish|impish]],[[https://launchpad.net/ubuntu/jammy|jammy]]} 
    * debian-{[[https://wiki.debian.org/DebianStretch|stretch]], [[https://wiki.debian.org/DebianBuster|buster]],[[https://wiki.debian.org/DebianBullseye|bullseye]],[[https://wiki.debian.org/DebianBookworm|bookworm]],[[https://wiki.debian.org/DebianUnstable|sid]]}
@@ -344,6 +341,10 @@ is not supported in Sage 9.6; and support for these platforms will be removed in
    * Make sure that `/usr/local` does not contain an old copy of homebrew (or other software) for x86_64 that you may have copied from an old machine. Homebrew for the M1 is installed in `/opt/homebrew`, not `/usr/local`.
    * Be sure to follow the [[https://github.com/sagemath/sage/blob/develop/README.md|README]] and the instructions that the `./configure` command issues regarding the installation of system packages from Homebrew or conda.
  * '''Cygwin''' (x86_64)
+
+(On platforms marked with the superscript&nbsp;⁺, installing optional packages
+is not supported in Sage 9.6; and support for these platforms will be removed in Sage 9.7. Upgrade to a newer version of the distribution or at least upgrade  the toolchain (gcc, binutils).)
+
 
 === Help ===
 
