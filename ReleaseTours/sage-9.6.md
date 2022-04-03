@@ -84,6 +84,10 @@ For all morphisms in the `Sets` category, there is now a default method `image`,
 
 == Polyhedral geometry ==
 
+=== polymake 4.6 ===
+
+polymake, a comprehensive system for computations in polyhedral geometry, tropical geometry, etc., has been upgraded to version 4.6 ([[https://polymake.org/doku.php/news/release_4_6|release notes]]). [[https://trac.sagemath.org/ticket/33251|#33251]]
+
 === Equivariant Ehrhart theory ===
 
 [[https://trac.sagemath.org/ticket/27637|#27637]]
@@ -204,10 +208,6 @@ The 2.20, 2.21, and 2.22 series have brought major new algorithms and other impr
 === lrcalc 2.1 ===
 
 lrcalc, Anders Buch's Littlewood-Richardson Calculator, has been upgraded to the major new version 2.1 [[https://bitbucket.org/asbuch/lrcalc/src/master/ChangeLog|changelog]]. [[https://trac.sagemath.org/ticket/31355|#31355]]
-
-=== polymake 4.6 ===
-
-polymake, a comprehensive system for computations in polyhedral geometry, tropical geometry, etc., has been upgraded to version 4.6 ([[https://polymake.org/doku.php/news/release_4_6|release notes]]). [[https://trac.sagemath.org/ticket/33251|#33251]]
 
 === igraph 0.9.x ===
 
