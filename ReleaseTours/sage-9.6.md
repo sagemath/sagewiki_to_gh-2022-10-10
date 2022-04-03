@@ -318,7 +318,7 @@ The Sage source code is available in the [[https://github.com/sagemath/sage/tree
 !SageMath 9.6 supports all [[https://wiki.sagemath.org/ReleaseTours/sage-9.5#Sources|platforms that were supported by Sage 9.5]] and '''adds support for building on distributions that use the (unreleased) [[https://gcc.gnu.org/gcc-12/changes.html|GCC 12]] series''' (`fedora-36`). [[https://trac.sagemath.org/ticket/33187|#33187]]
 
 (On platforms marked with the superscript&nbsp;⁺, installing optional packages
-is not supported unless you upgrade the toolchain (gcc, binutils).)
+is not supported in Sage 9.6; and support for these platforms will be removed in the next release cycle. Upgrade to a newer version of the distribution or at least upgrade  the toolchain (gcc, binutils).)
 
  * '''Linux 64-bit''' (x86_64)
    * ubuntu-{[[https://launchpad.net/ubuntu/trusty|trusty]]⁺,[[https://launchpad.net/ubuntu/xenial|xenial]],[[https://launchpad.net/ubuntu/bionic|bionic]],[[https://launchpad.net/ubuntu/focal|focal]],[[https://launchpad.net/ubuntu/hirsute|hirsute]],[[https://launchpad.net/ubuntu/impish|impish]],[[https://launchpad.net/ubuntu/jammy|jammy]]} 
