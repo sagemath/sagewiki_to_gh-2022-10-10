@@ -41,6 +41,10 @@ sage: type(_)
 
 == Symbolics ==
 
+=== SymPy 1.10.1 ===
+
+!SymPy has been upgraded to version 1.10.1 ([[https://github.com/sympy/sympy/wiki/release-notes-for-1.10|release notes]]). [[https://trac.sagemath.org/ticket/33398|#33398]], [[https://trac.sagemath.org/ticket/33547|#33547]]
+
 === ImageSet ===
 
 Sage 9.6 defines a new class `ImageSet`. [[https://trac.sagemath.org/ticket/32121|#32121]]
@@ -200,10 +204,6 @@ The 2.20, 2.21, and 2.22 series have brought major new algorithms and other impr
 === lrcalc 2.1 ===
 
 lrcalc, Anders Buch's Littlewood-Richardson Calculator, has been upgraded to the major new version 2.1 [[https://bitbucket.org/asbuch/lrcalc/src/master/ChangeLog|changelog]]. [[https://trac.sagemath.org/ticket/31355|#31355]]
-
-=== SymPy 1.10.1 ===
-
-!SymPy has been upgraded to version 1.10.1 ([[https://github.com/sympy/sympy/wiki/release-notes-for-1.10|release notes]]). [[https://trac.sagemath.org/ticket/33398|#33398]], [[https://trac.sagemath.org/ticket/33547|#33547]]
 
 === polymake 4.6 ===
 
