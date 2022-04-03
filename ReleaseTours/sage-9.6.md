@@ -147,23 +147,31 @@ sage: M = FPModule(E, [0], [[x], [y]])
 # Free resolution:
 sage: M.resolution(3)
 [Module morphism:
-   From: Free graded left module on 1 generator over The exterior algebra of rank 2 over Rational Field
-   To:   Finitely presented left module on 1 generator and 2 relations over The exterior algebra of rank 2 over Rational Field
+   From: Free graded left module on 1 generator over 
+          The exterior algebra of rank 2 over Rational Field
+   To:   Finitely presented left module on 1 generator and 2 relations over 
+          The exterior algebra of rank 2 over Rational Field
    Defn: g[0] |--> g[0],
  Module morphism:
-   From: Free graded left module on 2 generators over The exterior algebra of rank 2 over Rational Field
-   To:   Free graded left module on 1 generator over The exterior algebra of rank 2 over Rational Field
+   From: Free graded left module on 2 generators over 
+          The exterior algebra of rank 2 over Rational Field
+   To:   Free graded left module on 1 generator over 
+          The exterior algebra of rank 2 over Rational Field
    Defn: g[1, 0] |--> x*g[0]
          g[1, 1] |--> y*g[0],
  Module morphism:
-   From: Free graded left module on 3 generators over The exterior algebra of rank 2 over Rational Field
-   To:   Free graded left module on 2 generators over The exterior algebra of rank 2 over Rational Field
+   From: Free graded left module on 3 generators over 
+          The exterior algebra of rank 2 over Rational Field
+   To:   Free graded left module on 2 generators over 
+          The exterior algebra of rank 2 over Rational Field
    Defn: g[2, 0] |--> x*g[1, 0]
          g[2, 1] |--> y*g[1, 0] + x*g[1, 1]
          g[2, 2] |--> y*g[1, 1],
  Module morphism:
-   From: Free graded left module on 4 generators over The exterior algebra of rank 2 over Rational Field
-   To:   Free graded left module on 3 generators over The exterior algebra of rank 2 over Rational Field
+   From: Free graded left module on 4 generators over 
+          The exterior algebra of rank 2 over Rational Field
+   To:   Free graded left module on 3 generators over 
+          The exterior algebra of rank 2 over Rational Field
    Defn: g[3, 0] |--> x*g[2, 0]
          g[3, 1] |--> y*g[2, 0] + x*g[2, 1]
          g[3, 2] |--> y*g[2, 1] + x*g[2, 2]
