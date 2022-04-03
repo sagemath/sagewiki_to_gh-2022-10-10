@@ -228,6 +228,9 @@ lrcalc, Anders Buch's Littlewood-Richardson Calculator, has been upgraded to the
 
 The `igraph` library and its Python interface (now also just called `igraph`) have been upgraded to versions 0.9.7/0.9.9. [[https://trac.sagemath.org/ticket/32510|#32510]], [[https://trac.sagemath.org/ticket/33526|#33526]]
 
+== Refactoring and modularization ==
+
+
 
 == New developer tools ==
 
