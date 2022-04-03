@@ -257,22 +257,30 @@ Images whose names end with the suffix `-with-targets-optional` are the results 
 
  * `-with-targets` contains the full source tree and a full installation of Sage, including the HTML documentation, but `make ptest` has not been run yet.
 
-=== Gitpod ===
+=== Sage development in the cloud with Gitpod ===
 
 [[https://www.gitpod.io/|Gitpod]] is a service that provides a development environment in the cloud based on VS Code. It is free to use for up to 50 hours per month. Sage now includes a configuration for Gitpod; see the new section [[https://620901c077fb7caa9f914f33--sagemath-tobias.netlify.app/developer/workspace.html#section-gitpod|Setting up your workspace]] in the Sage Developer's Guide. 
 [[https://trac.sagemath.org/ticket/33103|#33103]], [[https://trac.sagemath.org/ticket/33589|#33589]]
 
 To launch Gitpod on a branch of a Trac ticket, you can use the new Gitpod badge in the ticket box.
 
-=== New status badges on Trac tickets ===
+=== Linting workflow on GitHub Actions ===
 
-We have now:
+A [[https://github.com/sagemath/sage/blob/develop/.github/workflows/lint.yml|linting workflow]] on GitHub Actions runs on all pushes to a branch on Trac. It checks that the code of the current branch adheres to the style guidelines using [[https://doc.sagemath.org/html/en/developer/tools.html#pycodestyle|pycodestyle]] and [[https://doc.sagemath.org/html/en/developer/tools.html#relint|relint]]. 
 
-1. Linter that checks that the code of the current branch adheres to the style guidelines. In order to see details when it fails, you can click on it and then select the most recent workflow run.
+In order to see details when it fails, you can click on the badge and then select the most recent workflow run.
 
-2. Build & test that builds sage for the current branch (incrementally on top of the system packages of the develop branch) and runs the test. Details are again available by clicking on the badge.
+=== Automatic incremental build for ticket branches on GitHub Actions ===
 
-3. Build documentation workflow that builds the HTML documentation for the current branch. If you click on it, you get the HTML output of the successful run. The idea is to use this to easily inspect changes to the documentation without the need to locally rebuild the docs yourself. If the doc build fails, you can go to [[https://github.com/sagemath/sagetrac-mirror/actions/workflows/doc-build.yml|the Actions tab of sagemath/sagetrac-mirror repo]] and choose the particular branch to see what went wrong.
+The [[https://github.com/sagemath/sage/blob/develop/.github/workflows/build.yml|build & test workflow]] on GitHub Actions builds Sage for the current branch (incrementally on top of the system packages of the develop branch) and runs the test. 
+
+Details are again available by clicking on the badge.
+
+Note that in contrast to the patchbot, the ticket branch is not merged into the current beta version.
+
+=== Automatic documentation build for ticket branches on GitHub Actions ===
+
+Build documentation workflow that builds the HTML documentation for the current branch. If you click on it, you get the HTML output of the successful run. The idea is to use this to easily inspect changes to the documentation without the need to locally rebuild the docs yourself. If the doc build fails, you can go to [[https://github.com/sagemath/sagetrac-mirror/actions/workflows/doc-build.yml|the Actions tab of sagemath/sagetrac-mirror repo]] and choose the particular branch to see what went wrong.
 
 The idea is that these three status badges complement the existing patchbots (and maybe even replace them in the future). In particular, they are supposed to always be green.
 
