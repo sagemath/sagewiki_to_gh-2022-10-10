@@ -171,12 +171,17 @@ Sage 9.6 continues to support system Python 3.7.x to 3.10.x. If no suitable vers
 
 === FLINT 2.8.x and arb 2.22.x ===
 
-FLINT from 2.7.1 to 2.8.4, arb to 2.22.1 [[https://trac.sagemath.org/ticket/32211|#32211]], [[https://trac.sagemath.org/ticket/33189|#33189]]
+[[https://flintlib.org/|FLINT]] has been upgraded from 2.7.1 to 2.8.4.[[https://trac.sagemath.org/ticket/32211|#32211]]
 
-The FLINT 2.8 series brings major new algorithms and general speedups. [[https://github.com/wbhart/flint2/blob/flint-2.8/NEWS#L1262]]
+The FLINT 2.8 series brings major new algorithms and general speedups ([[https://github.com/wbhart/flint2/blob/flint-2.8/NEWS#L1262|release notes]]).
+
 Note that Sage accepts system installations of FLINT >= 2.6.x. Users on older distributions who want to benefit from the speed ups in FLINT 2.8.x may want to use `./configure --without-system-flint`.
 
 Meta-ticket [[https://trac.sagemath.org/ticket/31408|#31408]] tracks the effort to make use of new features added in recent FLINT releases in the Sage library.
+
+[[https://arblib.org/|arb]] has been upgraded from 2.19.0 to 2.22.1. [[https://trac.sagemath.org/ticket/32211|#32211]], [[https://trac.sagemath.org/ticket/33189|#33189]]
+
+The 2.20, 2.21, and 2.22 series have brought major new algorithms and other improvements ([[https://arblib.org/history.html#version-2-22-1|changelog]]).
 
 === lrcalc 2.1 ===
 
