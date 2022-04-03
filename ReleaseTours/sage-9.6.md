@@ -192,7 +192,7 @@ polymake, a comprehensive system for computations in polyhedral geometry, tropic
 
 === igraph 0.9.x ===
 
-The `igraph` library and its Python interface (now also just called `igraph`) have been upgraded to versions 0.9.5/0.9.8. [[https://trac.sagemath.org/ticket/32510|#32510]]
+The `igraph` library and its Python interface (now also just called `igraph`) have been upgraded to versions 0.9.7/0.9.9. [[https://trac.sagemath.org/ticket/32510|#32510]], [[https://trac.sagemath.org/ticket/33526|#33526]]
 
 === JupyterLab 3.3 ===
 
