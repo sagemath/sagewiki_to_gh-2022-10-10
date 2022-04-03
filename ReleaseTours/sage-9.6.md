@@ -101,9 +101,9 @@ polymake, a comprehensive system for computations in polyhedral geometry, tropic
 
 === CyLP ===
 
-The new package [[https://github.com/coin-or/CyLP|cylp]] provides a detailed interface to [[https://github.com/coin-or/Clp|Clp]], the COIN-OR linear programming solver, and [[https://github.com/coin-or/Cbc|Cbc]], the COIN-OR branch-and-cut solver for mixed-integer linear programs.  [[https://trac.sagemath.org/ticket/33487|#33847]]
+The new optional package [[https://github.com/coin-or/CyLP|CyLP]] (`./sage -i cylp`) provides a detailed interface to [[https://github.com/coin-or/Clp|Clp]], the COIN-OR linear programming solver, and [[https://github.com/coin-or/Cbc|Cbc]], the COIN-OR branch-and-cut solver for mixed-integer linear programs.  [[https://trac.sagemath.org/ticket/33487|#33847]]
 
-See also [[https://trac.sagemath.org/ticket/26511|Meta-ticket #26511]].
+In a future version of Sage, CyLP is intended to provide a replacement for the Sage-specific backend interface to Clp and Cbc, [[https://pypi.org/project/sage-numerical-backends-coin/|sage-numerical-backends-coin]]; see [[https://trac.sagemath.org/ticket/26511|Meta-ticket #26511]].
 
 === Equivariant Ehrhart theory ===
 
