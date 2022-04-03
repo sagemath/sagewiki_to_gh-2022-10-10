@@ -22,6 +22,17 @@ With the new optional package [[https://pypi.org/project/phitigra|phitigra]] (us
 
  * Added the ability to choose the hyperbolic model for hyperbolic plots. [[https://trac.sagemath.org/ticket/22081|#22081]]
 
+=== Graphics with TikZ ===
+
+[[https://trac.sagemath.org/ticket/20343|#20343]]
+
+=== Other improvements ===
+
+[[https://trac.sagemath.org/ticket/33469|#33469]]
+
+[[https://trac.sagemath.org/ticket/32942|#32942]]
+
+
 
 == Linear Algebra ==
 
@@ -87,6 +98,10 @@ For all morphisms in the `Sets` category, there is now a default method `image`,
 === polymake 4.6 ===
 
 polymake, a comprehensive system for computations in polyhedral geometry, tropical geometry, etc., has been upgraded to version 4.6 ([[https://polymake.org/doku.php/news/release_4_6|release notes]]). [[https://trac.sagemath.org/ticket/33251|#33251]]
+
+=== CyLP ===
+
+The new package `cylp` provides a detailed interface to CBC, the COIN-OR Branch and Cut solver.  [[https://trac.sagemath.org/ticket/33487|#33847]]
 
 === Equivariant Ehrhart theory ===
 
@@ -240,7 +255,7 @@ Images whose names end with the suffix `-with-targets-optional` are the results 
 === Gitpod ===
 
 [[https://www.gitpod.io/|Gitpod]] is a service that provides a development environment in the cloud based on VS Code. It is free to use for up to 50 hours per month. Sage now includes a configuration for Gitpod; see the new section [[https://620901c077fb7caa9f914f33--sagemath-tobias.netlify.app/developer/workspace.html#section-gitpod|Setting up your workspace]] in the Sage Developer's Guide. 
-[[https://trac.sagemath.org/ticket/33103|#33103]]
+[[https://trac.sagemath.org/ticket/33103|#33103]], [[https://trac.sagemath.org/ticket/33589|#33589]]
 
 To launch Gitpod on a branch of a Trac ticket, you can use the new Gitpod badge in the ticket box.
 
@@ -256,12 +271,19 @@ We have now:
 
 The idea is that these three status badges complement the existing patchbots (and maybe even replace them in the future). In particular, they are supposed to always be green.
 
+=== Codecov ===
+
+[[https://trac.sagemath.org/ticket/33355|#33355]]
+
 === sage -pytest ===
 
 After the optional package [[https://docs.pytest.org/en/7.1.x/|pytest]] is installed (`./sage -i pytest`), a new command `./sage -pytest` is available, which runs pytest on the Sage library sources. [[https://trac.sagemath.org/ticket/33572|#33572]]
 
-Also the Sage doctester (`./sage -t` or `./sage -tox -e doctest`) invokes `pytest`. This functionality has been improved in Sage 9.6. [[https://trac.sagemath.org/ticket/31924|#31924]]
+Also the Sage doctester (`./sage -t` or `./sage -tox -e doctest`) invokes `pytest`. This functionality has been improved in Sage 9.6. [[https://trac.sagemath.org/ticket/31924|#31924]], [[https://trac.sagemath.org/ticket/32975|#32975]]
 
+=== sage -t --baseline-stats-path ===
+
+[[https://trac.sagemath.org/ticket/33233|#33233]]
 
 === Sage patchbot on GitHub Actions ===
 
