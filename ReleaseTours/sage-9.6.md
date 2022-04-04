@@ -24,7 +24,7 @@ With the new optional package [[https://pypi.org/project/phitigra|phitigra]] (us
 
 === Graphics with TikZ ===
 
-The `TikzPicture` module which was developed in the [[https://pypi.org/project/slabbe/|slabbe]] package for years is now in Sage. This was done in ticket [[https://trac.sagemath.org/ticket/20343|#20343]]. Below are some usage examples.
+The `TikzPicture` module which was developed in the [[https://pypi.org/project/slabbe/|slabbe]] package for more than 5 years is now in Sage. This was done in ticket [[https://trac.sagemath.org/ticket/20343|#20343]]. Below are some usage examples.
 
 First example shows that it takes any tikz picture string as input:
 {{{
