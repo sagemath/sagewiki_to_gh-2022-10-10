@@ -285,13 +285,17 @@ To launch Gitpod on a branch of a Trac ticket, you can use the new Gitpod badge 
 
 === Linting workflow on GitHub Actions ===
 
-A [[https://github.com/sagemath/sage/blob/develop/.github/workflows/lint.yml|linting workflow]] on GitHub Actions runs on all pushes to a branch on Trac. It checks that the code of the current branch adheres to the style guidelines using [[https://doc.sagemath.org/html/en/developer/tools.html#pycodestyle|pycodestyle]] and [[https://doc.sagemath.org/html/en/developer/tools.html#relint|relint]]. 
+A [[https://github.com/sagemath/sage/blob/develop/.github/workflows/lint.yml|linting workflow]] on !GitHub Actions runs on all pushes to a branch on Trac. It checks that the code of the current branch adheres to the style guidelines using [[https://doc.sagemath.org/html/en/developer/tools.html#pycodestyle|pycodestyle]] (in the `pycodestyle-minimal` configuration) and [[https://doc.sagemath.org/html/en/developer/tools.html#relint|relint]]. 
 
 In order to see details when it fails, you can click on the badge and then select the most recent workflow run.
 
+Sage 9.6 includes again many improvements to the [[https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes|coding style checked by pycodestyle]]. [[https://trac.sagemath.org/ticket/32978|#32978]], [[https://trac.sagemath.org/ticket/32979|#32979]], [[https://trac.sagemath.org/ticket/33095|#33095]], [[https://trac.sagemath.org/ticket/33102|#33102]], ...
+
+Consequently, the `pycodestyle-minimal` configuration has been extended to enforce E111,E401,E701,E702,E703,W605,E711,E712,E713,E721,E722.
+
 === Automatic incremental build for ticket branches on GitHub Actions ===
 
-The [[https://github.com/sagemath/sage/blob/develop/.github/workflows/build.yml|build & test workflow]] on GitHub Actions builds Sage for the current branch (incrementally on top of the system packages of the develop branch) and runs the test. 
+The [[https://github.com/sagemath/sage/blob/develop/.github/workflows/build.yml|build & test workflow]] on !GitHub Actions builds Sage for the current branch (incrementally on top of the system packages of the develop branch) and runs the test. 
 
 Details are again available by clicking on the badge.
 
