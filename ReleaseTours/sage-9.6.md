@@ -36,6 +36,8 @@ With the new optional package [[https://pypi.org/project/phitigra|phitigra]] (us
 
 == Linear Algebra ==
 
+=== NumPy integration ===
+
 The new classes `Matrix_numpy_integer_dense` and `Vector_numpy_integer_dense` implement matrices and vectors with 64-bit integer entries backed by `numpy` arrays. [[https://trac.sagemath.org/ticket/32465|#32465]].
 
 As a first application, several methods of `GenericGraph` that return matrices, such as `adjacency_matrix`, now accept keyword arguments that can select the matrix implementation. [[https://trac.sagemath.org/ticket/33377|#33377]], [[https://trac.sagemath.org/ticket/33387|#33387]], [[https://trac.sagemath.org/ticket/33388|#33388]], [[https://trac.sagemath.org/ticket/33389|#33389]]
@@ -49,6 +51,10 @@ sage: graphs.PathGraph(5).adjacency_matrix(sparse=False, implementation='numpy')
 sage: type(_)
 <class 'sage.matrix.matrix_numpy_integer_dense.Matrix_numpy_integer_dense'>
 }}}
+
+=== CombinatorialFreeModule improvements ===
+
+Performing sums and similar constructions for `CombinatorialFreeModule` have been made faster. [[https://trac.sagemath.org/ticket/33267|#33267]]
 
 == Symbolics ==
 
@@ -92,6 +98,14 @@ ImageSet(Lambda(x, sin(x)), Interval.open(0, pi/4))
 
 Most methods of `ImageSet` are actually provided by its base class, the new class `ImageSubobject`. 
 For all morphisms in the `Sets` category, there is now a default method `image`, which constructs an instance of either `ImageSubobject` or `ImageSet`.
+
+=== Orthogonal polynomials ===
+
+Three classes of classical (discrete) orthogonal polynomials in the Askey scheme have been added: [[https://trac.sagemath.org/ticket/33393|#33393]]
+
+ * Krawtchouk polynomials
+ * Hahn polynomials
+ * Meixner polynomials
 
 == Polyhedral geometry ==
 
