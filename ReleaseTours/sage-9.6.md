@@ -43,7 +43,7 @@ sage: path_to_file = t.png() # conversion to png
 sage: path_to_file = t.svg() # to svg
 }}}
 
-[[attachment:tikz_arrow.png]]
+{{attachment:tikz_arrow.png}}
 
 === LaTeX displays in JupyterLab ===
 
