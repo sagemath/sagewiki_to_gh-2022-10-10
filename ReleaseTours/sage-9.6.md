@@ -43,6 +43,8 @@ sage: path_to_file = t.png() # conversion to png
 sage: path_to_file = t.svg() # to svg
 }}}
 
+[[attachment:tikz_arrow.png]]
+
 === LaTeX displays in JupyterLab ===
 
 Users of Sage in [[https://jupyter.org/|JupyterLab]] got used to expressions displayed at center in the LaTeX display mode. For compatibility with displays in classic Jupyter, we decided to change the behavior so that now expressions are displayed aligned left by default.
