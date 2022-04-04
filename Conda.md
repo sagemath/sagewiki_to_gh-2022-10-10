@@ -20,7 +20,7 @@ The packages necessary to run sage are developed on the github pages of conda-fo
 
 = Conda for Sage Developers =
 
-You can develop Sage without building any of its dependencies (experimental) --- on my machine this takes 5 minutes. Assume you obtained Sage source tree and changed to its root. These instructions have been updated for [[https://trac.sagemath.org/ticket/30845|#30845]]
+You can develop Sage without building any of its dependencies (experimental) --- on my machine this takes 5 minutes. Assume you obtained Sage source tree and changed to its root. These instructions have been updated for [[https://trac.sagemath.org/ticket/30845|#30845]] and are being added to the Sage installation guide in [[https://trac.sagemath.org/ticket/33426|#33426]]
 
 {{{
 $ export SAGE_NUM_THREADS=24                             # or whatever the meaningful value
