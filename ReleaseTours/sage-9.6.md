@@ -533,9 +533,9 @@ The idea is that these three status badges complement the existing patchbots (an
 
 [[https://trac.sagemath.org/ticket/33355|#33355]]
 
-=== sage -pytest ===
+=== sage --pytest ===
 
-After the optional package [[https://docs.pytest.org/en/7.1.x/|pytest]] is installed (`./sage -i pytest`), a new command `./sage -pytest` is available, which runs pytest on the Sage library sources. [[https://trac.sagemath.org/ticket/33572|#33572]]
+After the optional package [[https://docs.pytest.org/en/7.1.x/|pytest]] is installed (`./sage -i pytest`), a new command `./sage --pytest` is available, which runs pytest on the Sage library sources. [[https://trac.sagemath.org/ticket/33572|#33572]]
 
 Also the Sage doctester (`./sage -t` or `./sage -tox -e doctest`) invokes `pytest`. This functionality has been improved in Sage 9.6. [[https://trac.sagemath.org/ticket/31924|#31924]], [[https://trac.sagemath.org/ticket/32975|#32975]]
 
