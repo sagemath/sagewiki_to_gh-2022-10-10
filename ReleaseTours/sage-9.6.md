@@ -105,6 +105,31 @@ sage: _ = s.pdf()               # or s.png() or s.svg()
 }}}
 {{attachment:tikz_hello.png}}
 
+Another example using `Standalone` with a tableau:
+{{{
+sage: P = Permutations(10)
+sage: p = P.random_element()
+sage: p
+[3, 10, 1, 9, 5, 6, 7, 2, 8, 4]
+sage: t = p.to_tableau_by_shape([3,3,3,1])
+sage: t
+[[2, 8, 4], [5, 6, 7], [10, 1, 9], [3]]
+sage: s = Standalone(latex(t), standalone_config=["border=1mm"])
+sage: s
+\documentclass{standalone}
+\standaloneconfig{border=1mm}
+\begin{document}
+{\def\lr#1{\multicolumn{1}{|@{\hspace{.6ex}}c@{\hspace{.6ex}}|}{\raisebox{-.3ex}{$#1$}}}
+\raisebox{-.6ex}{$\begin{array}[b]{*{3}c}\cline{1-3}
+\lr{2}&\lr{8}&\lr{4}\\\cline{1-3}
+\lr{5}&\lr{6}&\lr{7}\\\cline{1-3}
+\lr{10}&\lr{1}&\lr{9}\\\cline{1-3}
+\lr{3}\\\cline{1-1}
+\end{array}$}
+}
+\end{document}
+sage: _ = s.pdf()               # or s.png() or s.svg()
+}}}
 
 In a next step, a method `tikz()` will be added to graphs, polytopes, posets, etc. to return an object of type `TikzPicture` see [[https://trac.sagemath.org/ticket/33002|#33002]].
 
