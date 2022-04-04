@@ -101,8 +101,9 @@ sage: s
 \begin{document}
 Hello World
 \end{document}
-sage: _ = s.pdf()
+sage: _ = s.pdf()               # or s.png() or s.svg()
 }}}
+{{attachment:tikz_hello.png}}
 
 
 In a next step, a method `tikz()` will be added to graphs, polytopes, posets, etc. to return an object of type `TikzPicture` see [[https://trac.sagemath.org/ticket/33002|#33002]].
