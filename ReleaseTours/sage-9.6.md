@@ -50,12 +50,12 @@ sage: path_to_file = t.png() # conversion to png
 sage: path_to_file = t.svg() # to svg
 }}}
 
-Another example with graphs:
+Another example with graphs where additional usepackage are necessary to compile the image correctly:
 {{{
 sage: from sage.misc.latex_standalone import TikzPicture
 sage: g = graphs.PetersenGraph()
 sage: t = TikzPicture(latex(g), standalone_config=["border=4mm"], usepackage=['tkz-graph'])
-sage: t
+sage: t        # in Jupyter, rich representation will show the image instead
 \documentclass[tikz]{standalone}
 \standaloneconfig{border=4mm}
 \usepackage{tkz-graph}
@@ -93,7 +93,7 @@ The module also contains a class `Standalone` from which the class `TikzPicture`
 {{{
 sage: from sage.misc.latex_standalone import Standalone
 sage: s = Standalone('Hello World', usepackage=['amsmath'], standalone_config=['beamer=true','border=1mm'])
-sage: s
+sage: s        # in Jupyter, rich representation will show the image instead
 \documentclass{standalone}
 \standaloneconfig{beamer=true}
 \standaloneconfig{border=1mm}
