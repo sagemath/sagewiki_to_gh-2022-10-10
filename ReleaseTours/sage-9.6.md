@@ -268,6 +268,10 @@ To [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#modu
 [[https://trac.sagemath.org/ticket/33146|#33146]],
 [[https://trac.sagemath.org/ticket/33199|#33199]]
 
+=== sage.geometry.polyhedron.base reorganized ===
+
+The module `sage.geometry.polyhedron.base` has been split into several modules, grouping the methods of class `Polyhedron_base` according to their topic and runtime dependencies on other parts of Sage. [[https://trac.sagemath.org/ticket/32651|#32651]]
+
 == New developer tools ==
 
 === Pre-built Docker containers on ghcr.io ===
