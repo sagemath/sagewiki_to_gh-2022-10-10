@@ -26,13 +26,20 @@ With the new optional package [[https://pypi.org/project/phitigra|phitigra]] (us
 
 [[https://trac.sagemath.org/ticket/20343|#20343]]
 
+=== LaTeX displays in JupyterLab ===
+
+Users of Sage in [[https://jupyter.org/|JupyterLab]] got used to expressions displayed at center in the LaTeX display mode. For compatibility with displays in classic Jupyter, we decided to change the behavior so that now expressions are displayed aligned left by default.
+
+If you belong to the minority preferring centered displays, you can set your preference by
+{{{
+dm = get_display_manager()   
+dm.preferences.align_latex = 'center'  # or 'left'
+}}}
+in the `~/.sage/init.sage` script.
+
 === Other improvements ===
 
 [[https://trac.sagemath.org/ticket/33469|#33469]]
-
-[[https://trac.sagemath.org/ticket/32942|#32942]]
-
-
 
 == Linear Algebra ==
 
