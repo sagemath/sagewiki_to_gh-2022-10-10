@@ -90,7 +90,7 @@ sage: _ = t.pdf()               # or t.png() or t.svg()
 {{attachment:tikz_polyhedron.png}}
 
 
-The module also contains a class `Standalone` from which the class `TikzPicture` inherits from:
+The module also contains a class `Standalone`, from which the class `TikzPicture` inherits:
 {{{
 sage: from sage.misc.latex_standalone import Standalone
 sage: s = Standalone('Hello World', usepackage=['amsmath'], standalone_config=['beamer=true','border=1mm'])
