@@ -242,9 +242,15 @@ The `igraph` library and its Python interface (now also just called `igraph`) ha
 
 === sage.features.Executable.absolute_filename() ===
 
-Sage interfaces to some external non-Python packages by running an executable program in a separate process. The package may either be available from a system installation, or the Sage distribution may have installed the package in the `SAGE_LOCAL` prefix hierarchy. The main `sage` script sets up various environment variables before starting the Python interpreter; in particular, it sets `PATH` to include `SAGE_LOCAL/bin`, which ensures that the installed executables are found.
+The Sage library interfaces to some external non-Python packages by running an executable program in a separate process. The package may either be available from a system installation, or the Sage distribution may have installed the package in the `SAGE_LOCAL` prefix hierarchy. The main `sage` script sets up various environment variables before starting the Python interpreter; in particular, it sets `PATH` to include `SAGE_LOCAL/bin`, which ensures that the installed executables are found.
 
-[[https://trac.sagemath.org/ticket/31296|#31296]]
+In Sage 9.6, we have changed most calls to executables so that they no longer depend on the environment variable `PATH` being set. 
+[[https://trac.sagemath.org/ticket/31292|#31292]],
+[[https://trac.sagemath.org/ticket/31296|#31296]],
+[[https://trac.sagemath.org/ticket/32645|#32645]],
+[[https://trac.sagemath.org/ticket/33440|#33440]],
+[[https://trac.sagemath.org/ticket/33465|#33465]],
+[[https://trac.sagemath.org/ticket/33467|#33467]]
 
 
 
