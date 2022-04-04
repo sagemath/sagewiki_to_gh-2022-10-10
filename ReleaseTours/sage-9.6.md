@@ -255,7 +255,7 @@ In Sage 9.6, we have changed most calls to executables so that they no longer de
 [[https://trac.sagemath.org/ticket/33465|#33465]],
 [[https://trac.sagemath.org/ticket/33467|#33467]]
 
-=== Preparations for namespace packages ===
+=== Preparations for PEP 420 implicit namespace packages ===
 
 The Sage doctester is now prepared for namespace packages. [[https://trac.sagemath.org/ticket/33033|#33033]]
 
