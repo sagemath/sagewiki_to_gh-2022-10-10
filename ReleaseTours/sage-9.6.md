@@ -208,6 +208,7 @@ There is a new thematic tutorial providing many details and examples.
  * Attempt to invert elements generically in a finite dimensional algebra. [[https://trac.sagemath.org/ticket/33250|#33250]]
  * Tensor products of finite dimensional modules know they are finite dimensional (Sage does not currently have any structure for infinite tensor products, which can have some subtleties). [[https://trac.sagemath.org/ticket/30252|#30252]]
  * Improved coercions and conversions with Laurent polynomials and their fraction field. [[https://trac.sagemath.org/ticket/31320|#31320]] [[https://trac.sagemath.org/ticket/33477|#33477]]
+ * Faster evaluation of univariate polynomials with monomials. [[https://trac.sagemath.org/ticket/33165|#33165]]
 
 == Number theory ==
 
@@ -216,6 +217,7 @@ There is a new thematic tutorial providing many details and examples.
  * Elliptic-curve DLP and Weil pairings over finite fields are now ''much'' faster (thanks to PARI). [[https://trac.sagemath.org/ticket/33121|#33121]]
  * Scalar multiplication on elliptic curves over finite fields is now significantly faster (thanks to PARI). [[https://trac.sagemath.org/ticket/33147|#33147]]
  * Computing the Weierstraß ℘ function of an elliptic curve is now significantly faster (thanks to PARI). [[https://trac.sagemath.org/ticket/33223|#33223]]
+ * Classes used by the Monsky-Washnitzer curves now use the new coercion system. [[https://trac.sagemath.org/ticket/33525|#33525]] [[https://trac.sagemath.org/ticket/33576|#33576]]
 
 == Coding theory ==
 
