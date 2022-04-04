@@ -47,6 +47,42 @@ sage: path_to_file = t.png() # conversion to png
 sage: path_to_file = t.svg() # to svg
 }}}
 
+Another example with graphs:
+{{{
+sage: from sage.misc.latex_standalone import TikzPicture
+sage: g = graphs.PetersenGraph()
+sage: t = TikzPicture(latex(g), standalone_config=["border=4mm"], usepackage=['tkz-graph'])
+sage: t
+\documentclass[tikz]{standalone}
+\standaloneconfig{border=4mm}
+\usepackage{tkz-graph}
+\begin{document}
+\begin{tikzpicture}
+\definecolor{cv0}{rgb}{0.0,0.0,0.0}
+\definecolor{cfv0}{rgb}{1.0,1.0,1.0}
+\definecolor{clv0}{rgb}{0.0,0.0,0.0}
+\definecolor{cv1}{rgb}{0.0,0.0,0.0}
+---
+65 lines not printed (3695 characters in total).
+Use print to see the full content.
+---
+\Edge[lw=0.1cm,style={color=cv6v8,},](v6)(v8)
+\Edge[lw=0.1cm,style={color=cv6v9,},](v6)(v9)
+\Edge[lw=0.1cm,style={color=cv7v9,},](v7)(v9)
+%
+\end{tikzpicture}
+\end{document}
+sage: t.pdf()
+}}}
+
+{{{
+sage: from sage.misc.latex_standalone import TikzPicture
+sage: V = [[1,0,1],[1,0,0],[1,1,0],[0,0,-1],[0,1,0],[-1,0,0],[0,1,1],[0,0,1],[0,-1,0]]
+sage: P = Polyhedron(vertices=V).polar()
+sage: s = P.projection().tikz([674,108,-731],112)
+sage: t = TikzPicture(s)
+sage: t.pdf()
+}}}
 
 === LaTeX displays in JupyterLab ===
 
