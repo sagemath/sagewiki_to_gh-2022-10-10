@@ -48,6 +48,7 @@ One can provide a local filename to save to, or convert the image to other forma
 sage: path_to_file = t.pdf('file.pdf') # when providing a filename, it just saves the file locally, does not open in a viewer
 sage: path_to_file = t.png() # conversion to png
 sage: path_to_file = t.svg() # to svg
+sage: path_to_file = t.tex() # print the tex source to a file
 }}}
 
 Another example with graphs where additional usepackage are necessary to compile the image correctly:
