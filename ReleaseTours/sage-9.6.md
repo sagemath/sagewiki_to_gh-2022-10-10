@@ -291,7 +291,7 @@ In order to see details when it fails, you can click on the badge and then selec
 
 Sage 9.6 includes again many improvements to the [[https://pycodestyle.pycqa.org/en/latest/intro.html#error-codes|coding style checked by pycodestyle]]. [[https://trac.sagemath.org/ticket/32978|#32978]], [[https://trac.sagemath.org/ticket/32979|#32979]], [[https://trac.sagemath.org/ticket/33095|#33095]], [[https://trac.sagemath.org/ticket/33102|#33102]], ...
 
-Consequently, the `pycodestyle-minimal` configuration has been extended to enforce E111,E401,E701,E702,E703,W605,E711,E712,E713,E721,E722.
+Consequently, the `pycodestyle-minimal` configuration has been extended to enforce `E111`, `E401`, `E701`, `E702`, `E703`, `W605`, `E711`, `E712`, `E713`, `E721`, `E722`.
 
 === Automatic incremental build for ticket branches on GitHub Actions ===
 
