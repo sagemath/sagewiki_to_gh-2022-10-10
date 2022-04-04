@@ -24,8 +24,9 @@ With the new optional package [[https://pypi.org/project/phitigra|phitigra]] (us
 
 === Graphics with TikZ ===
 
-[[https://trac.sagemath.org/ticket/20343|#20343]]
+The `TikzPicture` module which was developed in the [[https://pypi.org/project/slabbe/|slabbe]] package for years is now in Sage. This was done in ticket [[https://trac.sagemath.org/ticket/20343|#20343]]. Below are some usage examples.
 
+First example shows that it takes any tikz picture string as input:
 {{{
 sage: from sage.misc.latex_standalone import TikzPicture
 sage: s = '\\begin{tikzpicture}\n\\draw[->,green,very thick](0,0) -- (1,1);\\end{tikzpicture}'
@@ -40,7 +41,9 @@ sage: path_to_file = t.pdf() # and opens the image in a viewer
 }}}
 {{attachment:tikz_arrow.png}}
 
-One can provide a local filename to save to, or convert the image to other format (using pdftocairo or imagemagick):
+Of course, conversion to pdf format necessitates `pdflatex` or `lualatex`. If `lualatex` is available it uses it in preference to `pdflatex` because it handles better the very big pictures in terms of memory limits.
+
+One can provide a local filename to save to, or convert the image to other formats (using pdftocairo or imagemagick external packages):
 {{{
 sage: path_to_file = t.pdf('file.pdf') # when providing a filename, it just saves the file locally, does not open in a viewer
 sage: path_to_file = t.png() # conversion to png
@@ -72,7 +75,7 @@ Use print to see the full content.
 %
 \end{tikzpicture}
 \end{document}
-sage: t.pdf()
+sage: _ = t.pdf()               # or t.png() or t.svg()
 }}}
 {{attachment:tikz_graph.png}}
 {{{
@@ -81,9 +84,28 @@ sage: V = [[1,0,1],[1,0,0],[1,1,0],[0,0,-1],[0,1,0],[-1,0,0],[0,1,1],[0,0,1],[0,
 sage: P = Polyhedron(vertices=V).polar()
 sage: s = P.projection().tikz([674,108,-731],112)
 sage: t = TikzPicture(s)
-sage: t.pdf()
+sage: _ = t.pdf()               # or t.png() or t.svg()
 }}}
 {{attachment:tikz_polyhedron.png}}
+
+
+The module also contains a class `Standalone` from which the class `TikzPicture` inherits from:
+{{{
+sage: from sage.misc.latex_standalone import Standalone
+sage: s = Standalone('Hello World', usepackage=['amsmath'], standalone_config=['beamer=true','border=1mm'])
+sage: s
+\documentclass{standalone}
+\standaloneconfig{beamer=true}
+\standaloneconfig{border=1mm}
+\usepackage{amsmath}
+\begin{document}
+Hello World
+\end{document}
+sage: _ = s.pdf()
+}}}
+
+
+In a next step, a method `tikz()` will be added to graphs, polytopes, posets, etc. to return an object of type `TikzPicture` see [[https://trac.sagemath.org/ticket/33002|#33002]].
 
 === LaTeX displays in JupyterLab ===
 
