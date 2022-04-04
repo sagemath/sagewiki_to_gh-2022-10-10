@@ -248,10 +248,22 @@ In Sage 9.6, we have changed most calls to executables so that they no longer de
 [[https://trac.sagemath.org/ticket/31292|#31292]],
 [[https://trac.sagemath.org/ticket/31296|#31296]],
 [[https://trac.sagemath.org/ticket/32645|#32645]],
+[[https://trac.sagemath.org/ticket/32893|#32893]],
 [[https://trac.sagemath.org/ticket/33440|#33440]],
 [[https://trac.sagemath.org/ticket/33465|#33465]],
 [[https://trac.sagemath.org/ticket/33467|#33467]]
 
+=== Preparations for namespace packages ===
+
+The Sage doctester is now prepared for namespace packages. [[https://trac.sagemath.org/ticket/33033|#33033]]
+
+To [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#module-level-runtime-dependencies|reduce runtime dependencies]], many imports from `sage.graphs.all`, `sage.interfaces.all`, `sage.misc.all`, `sage.libs.all`, `sage.rings.all` have been replaced by more specific imports.
+[[https://trac.sagemath.org/ticket/32989|#32989]],
+[[https://trac.sagemath.org/ticket/32999|#32999]],
+[[https://trac.sagemath.org/ticket/33000|#33000]],
+[[https://trac.sagemath.org/ticket/33007|#33007]],
+[[https://trac.sagemath.org/ticket/33146|#33146]],
+[[https://trac.sagemath.org/ticket/33199|#33199]], 
 
 == New developer tools ==
 
