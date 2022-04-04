@@ -26,6 +26,23 @@ With the new optional package [[https://pypi.org/project/phitigra|phitigra]] (us
 
 [[https://trac.sagemath.org/ticket/20343|#20343]]
 
+{{{
+sage: from sage.misc.latex_standalone import TikzPicture
+sage: s = '\\begin{tikzpicture}\n\\draw[->,green,very thick](0,0) -- (1,1);\\end{tikzpicture}'
+sage: t = TikzPicture(s)
+sage: t        # in Jupyter, rich representation will show the image instead
+\documentclass[tikz]{standalone}
+\begin{document}
+\begin{tikzpicture}
+\draw[->,green,very thick](0,0) -- (1,1);\end{tikzpicture}
+\end{document}
+sage: t.pdf() # and opens the image in a viewer
+'.../.sage/temp/.../9499/tikz_wqgl_h7p.pdf'
+sage: path_to_file = t.pdf('file.pdf') # when providing a filename, it just saves the file locally, does not open in a viewer
+sage: path_to_file = t.png() # conversion to png
+sage: path_to_file = t.svg() # to svg
+}}}
+
 === LaTeX displays in JupyterLab ===
 
 Users of Sage in [[https://jupyter.org/|JupyterLab]] got used to expressions displayed at center in the LaTeX display mode. For compatibility with displays in classic Jupyter, we decided to change the behavior so that now expressions are displayed aligned left by default.
