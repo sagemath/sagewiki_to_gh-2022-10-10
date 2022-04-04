@@ -322,7 +322,9 @@ Note that in contrast to the patchbot, the ticket branch is not merged into the 
 
 === Automatic documentation build for ticket branches on GitHub Actions ===
 
-Build documentation workflow that builds the HTML documentation for the current branch. If you click on it, you get the HTML output of the successful run. The idea is to use this to easily inspect changes to the documentation without the need to locally rebuild the docs yourself. If the doc build fails, you can go to [[https://github.com/sagemath/sagetrac-mirror/actions/workflows/doc-build.yml|the Actions tab of sagemath/sagetrac-mirror repo]] and choose the particular branch to see what went wrong.
+The [[https://github.com/sagemath/sage/blob/develop/.github/workflows/doc-build.yml|build documentation workflow]] on !GitHub Actions builds the HTML documentation for the current branch. 
+
+If you click on the badge, you get the HTML output of the successful run. The idea is to use this to easily inspect changes to the documentation without the need to locally rebuild the docs yourself. If the doc build fails, you can go to [[https://github.com/sagemath/sagetrac-mirror/actions/workflows/doc-build.yml|the Actions tab of sagemath/sagetrac-mirror repo]] and choose the particular branch to see what went wrong.
 
 The idea is that these three status badges complement the existing patchbots (and maybe even replace them in the future). In particular, they are supposed to always be green.
 
