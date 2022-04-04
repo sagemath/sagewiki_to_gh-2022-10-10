@@ -283,7 +283,7 @@ Images whose names end with the suffix `-with-targets-optional` are the results 
 
 To launch Gitpod on a branch of a Trac ticket, you can use the new Gitpod badge in the ticket box.
 
-=== Linting workflow on GitHub Actions ===
+=== Linting workflow (pycodestyle, relint) on GitHub Actions ===
 
 A [[https://github.com/sagemath/sage/blob/develop/.github/workflows/lint.yml|linting workflow]] on !GitHub Actions runs on all pushes to a branch on Trac. It checks that the code of the current branch adheres to the style guidelines using [[https://doc.sagemath.org/html/en/developer/tools.html#pycodestyle|pycodestyle]] (in the `pycodestyle-minimal` configuration) and [[https://doc.sagemath.org/html/en/developer/tools.html#relint|relint]]. 
 
