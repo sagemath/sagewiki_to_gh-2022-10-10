@@ -74,7 +74,7 @@ Use print to see the full content.
 \end{document}
 sage: t.pdf()
 }}}
-
+{{attachment:tikz_graph.png}}
 {{{
 sage: from sage.misc.latex_standalone import TikzPicture
 sage: V = [[1,0,1],[1,0,0],[1,1,0],[0,0,-1],[0,1,0],[-1,0,0],[0,1,1],[0,0,1],[0,-1,0]]
@@ -83,6 +83,7 @@ sage: s = P.projection().tikz([674,108,-731],112)
 sage: t = TikzPicture(s)
 sage: t.pdf()
 }}}
+{{attachment:tikz_polyhedron.png}}
 
 === LaTeX displays in JupyterLab ===
 
