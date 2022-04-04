@@ -36,14 +36,17 @@ sage: t        # in Jupyter, rich representation will show the image instead
 \begin{tikzpicture}
 \draw[->,green,very thick](0,0) -- (1,1);\end{tikzpicture}
 \end{document}
-sage: t.pdf() # and opens the image in a viewer
-'.../.sage/temp/.../9499/tikz_wqgl_h7p.pdf'
+sage: path_to_file = t.pdf() # and opens the image in a viewer
+}}}
+{{attachment:tikz_arrow.png}}
+
+One can provide a local filename to save to, or convert the image to other format (using pdftocairo or imagemagick):
+{{{
 sage: path_to_file = t.pdf('file.pdf') # when providing a filename, it just saves the file locally, does not open in a viewer
 sage: path_to_file = t.png() # conversion to png
 sage: path_to_file = t.svg() # to svg
 }}}
 
-{{attachment:tikz_arrow.png}}
 
 === LaTeX displays in JupyterLab ===
 
