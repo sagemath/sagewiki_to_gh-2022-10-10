@@ -119,7 +119,7 @@ sage: s
 \documentclass{standalone}
 \standaloneconfig{border=1mm}
 \begin{document}
-{\def\lr#1{\multicolumn{1}{|@{\hspace{.6ex}}c@{\hspace{.6ex}}|}{\raisebox{-.3ex}{$#1$}}}
+{\def\lr#1{\multicolumn{1}{|@{\hspace{.6ex}}c@{\hspace{.6ex}}|}{\raisebox{-.3ex}{$#1$}} }
 \raisebox{-.6ex}{$\begin{array}[b]{*{3}c}\cline{1-3}
 \lr{2}&\lr{8}&\lr{4}\\\cline{1-3}
 \lr{5}&\lr{6}&\lr{7}\\\cline{1-3}
