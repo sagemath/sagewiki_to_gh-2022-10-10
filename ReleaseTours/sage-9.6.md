@@ -152,6 +152,66 @@ Symplectic structures have been added to Sage ([[https://trac.sagemath.org/ticke
 === Projective spaces ===
 
 Real projective spaces have been added to the manifold catalog ([[https://trac.sagemath.org/ticket/33221|#33221]]).
+For example, one can construct the real projective plane.
+
+{{{
+        sage: RP2 = manifolds.RealProjectiveSpace(); RP2
+        2-dimensional topological manifold RP2
+        sage: latex(RP2)
+        \mathbb{RP}^{2}
+}}}
+
+There are three charts. Considering an immersion in three-dimensional Euclidean space,
+the chart corresponds to a choice of one (out of three possible) coordinates to be always nonzero.
+The coordinates listed are the two other coordinates assuming that the nonzero coordinate is always one.
+
+{{{
+        sage: C0, C1, C2 = RP2.top_charts()
+        sage: p = RP2.point((2,0), chart = C0)
+        sage: q = RP2.point((0,3), chart = C0)
+        sage: p in C0.domain()
+        True
+        sage: p in C1.domain()
+        True
+        sage: C1(p)
+        (1/2, 0)
+        sage: p in C2.domain()
+        False
+        sage: q in C0.domain()
+        True
+}}}
+
+The point `q` looks like `(1,0,3)` in ambient Euclidean space, so
+it is not in the domain of the chart `C1`. It also has the form
+`(1/3,0,1)` when considered in the chart `C2`. 
+
+{{{
+        sage: q in C1.domain()
+        False
+        sage: q in C2.domain()
+        True
+        sage: C2(q)
+        (1/3, 0)
+}}}
+
+If both coordinates in a local chart are nonzero then that point
+is in the domain of all charts. The change of coordinates is found
+by normalizing the appropriate chart. So for example, the point
+`(1, 2, 3)` is the same as the point `(1/2, 1, 3/2)` is the same as the point
+`(1/3, 2/3, 1)`, which is reflected by defining `r` to be a point in the
+default chart `C0`.
+
+{{{
+        sage: r = RP2.point((2,3))
+        sage: r in C0.domain() and r in C1.domain() and r in C2.domain()
+        True
+        sage: C0(r) # corresponding to (1, 2, 3)
+        (2, 3)
+        sage: C1(r) # corresponding to (1/2, 1, 3/2)
+        (1/2, 3/2)
+        sage: C2(r) # corresponding to (1/3, 2/3, 1)
+        (1/3, 2/3)
+}}}
 
 == Algebra ==
 
