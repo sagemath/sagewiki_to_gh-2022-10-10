@@ -169,12 +169,6 @@ replaced by information on the new workflow.
 
 === Documentation ===
 
- * Browse the [[http://combinat.sagemath.org/doc/|Sage documentation with the Sage-combinat patches applied]]
-
-   And in particular the [[http://combinat.sagemath.org/doc/thematic_tutorials/|Thematic tutorials]]
-
- * [[http://combinat.sagemath.org/misc/file/tip|Mercurial server for miscelleanous files and documents]] ([[http:/combinat/MiscServer|Usage instructions]])
-
  * [[combinat/HelpOnTheDoc|Some tips and tricks about the documentation system]]
 
 == Links ==
