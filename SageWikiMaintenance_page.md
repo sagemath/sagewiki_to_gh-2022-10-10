@@ -39,9 +39,7 @@ Alphabetical listing of things to do (out-of-date and general organise) - [[mren
  * [[Tips/bash-completion]] one of many [[Tips]], so not sure what to do with it
  * [[BLAD]] BLAD integration in Sage 'This wiki page is about the integration of the Bibliothèques Lilloises d'Algèbre Différentielle in Sage.' 2011
  * [[bruhat]] project from 2008, S sub n under bruhat order
- * take all Bugdays and put each into ONE page
  * [[buildbot]] -- merge subpages
- * [[bug]] -- add content to describe Bug Days in general
  * [[cando]] documents "What Sage Can Do" -- decide what to do with it. current version is from 2008.
  * (all) Categories - eg [[combinat/categoryframeworkandcleanup]] and [[DsageNg]]
  * [[Chile]] - tiny page for "events in Chile" (update or no?)
