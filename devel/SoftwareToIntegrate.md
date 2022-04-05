@@ -3,8 +3,6 @@
 This is a list of programs and packages for mathematics that might possibly be included with or at least have an interface with Sage someday.
 
  * [[http://control.ee.ethz.ch/~hpeyrl/Projects/SOS/rational_sos.php|Sums of Squares via Macaulay2]]. This is related to http://www.cds.caltech.edu/sostools/
- * http://www.4ti2.de/ --  A software package for algebraic, geometric and combinatorial problems on linear spaces; I (=william) have made optional Sage packages for this and written a very preliminary interface.  This depends on a linear programming package, which Sage needs.
- * http://www.gnu.org/software/glpk/ -- Linear programming.  It's 1MB, and very easy to build.
  * http://www-sop.inria.fr/galaad/software/synaps/ -- It's a GPL'd C++ library for doing numerical and algebraic stuff together and seems mature.  It requires FORTRAN and is very hard to build.  I skimmed some source code and it seemed relatively readable at first glance, and maybe there is something useful in there.   It's focused on numerical over algebraic.
  * http://www.yacas.org/ --   		YACAS is an easy to use, general purpose Computer Algebra System. It uses 		its own programming language (a sort of Lisp dialect) designed for symbolic as well as 		arbitrary-precision numerical computations (it can be linked to GMP library). YACAS comes with 		extensive documentation (320+ pages) covering the scripting language, 		the functionality that is already implemented in the system, and the 		algorithms used.
  * [[http://servus.math.su.se/bergman/|Bergman]] (non-commutative Groebner bases).
