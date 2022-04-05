@@ -560,66 +560,6 @@ Next, for each branch `<branch1>`, `<branch2>`, etc. that you want to combine, m
 
 Finally, you can [[#push|push your tornado branch to Trac]], but make sure it is clearly labelled!
 
-<<Anchor(patch)>>
-=== Convert a mercurial patch to a git branch ===
-
-Make sure that your file has the header data by doing an `hg export`. Then decide where you want to put your patch: if it is an independent patch, you want to create a new branch:
-{{{
-~/sage-git$ git checkout master -b <mybranch>
-}}}
-If you want to import the hg patch on top of another branch, go into this branch first:
-{{{
-~/sage-git$ git checkout <mybranch>
-}}}
-
-If your patch is on your local computer at `/pathname/patchname.patch` then use the Sage development script:
-{{{
-~/sage-git$ ./sage --dev import-patch --local-file /pathname/patchname.patch
-}}}
-
-If your patch is on the Trac ticket tracker or on the internet at a url, then use a command like:
-{{{
-~/sage-git$ ./sage --dev import-patch --url http://trac.sagemath.org/raw-attachment/ticket/12345/trac_12345-patchname.patch
-}}}
-If you find that the author field is set to ``unknown user`` then it could be that the patch needs to be exported and modified first.
-
-To see the commit which corresponds to the patch you just imported, do:
-{{{
-~/sage-git$ git log -1         # view the commit message and information of the most recent commit
-~/sage-git$ git diff HEAD^1    # view the actual code modifications
-}}}
-
-If you are satisfied with the imported patch, you can [[#push|push your changes to the Trac git server]].
-
-=== Move a patch from the combinat queue to git ===
-
-All patches in the queue will soon be merged from the sage-combinat queue to git branches on trac. Authors who want to do this themselves are encouraged to do so. The script will by default put the branches to `public/combinat/<branchname>` and might lose author information if the patch does not have the appropriate meta information. To avoid this, use the following workflow.
-
-First make sure that your patch has the correct meta data by exporting it. This step uses the familiar Mercurial workflow, so we will not describe it here.
-
-Then, follow [[#patch|the instructions above for importing a mercurial patch into a git branch]].
-
-When the imported patch looks good, push it to the Trac git server, and make sure you label it as a `/combinat/` branch. For example:
-{{{
-$ git push --set-upstream origin combinat/kschur:u/aschilling/combinat/kschur
-Counting objects: 47, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (7/7), done.
-Writing objects: 100% (7/7), 1.27 KiB | 0 bytes/s, done.
-Total 7 (delta 6), reused 0 (delta 0)
-To git@trac.sagemath.org:sage.git
- * [new branch]      combinat/kschur -> u/aschilling/combinat/kschur
-Branch combinat/kschur set up to track remote branch u/aschilling/combinat/kschur from origin.
-}}}
-
-Finally, '''mark your patch in the series file''' as moved to git by changing, for example,
-{{{
-kschur-as.patch
-}}}
-to 
-{{{
-kschur-as.patch # git:u/aschilling/combinat/kschur
-}}}
 
 <<Anchor(collaboration)>>
 == Basic collaboration example ==
