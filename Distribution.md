@@ -203,13 +203,6 @@ providing !SageMath... See
 
   * pending tickets: [[https://trac.sagemath.org/query?status=!closed&component=porting%3A+AIX+or+HP-UX|component: "porting: AIX or HP-UX"]]
 
-= Using SageMath through other software =
-
-Other software, such as Cantor and !TeXmacs, have interfaces to SageMath.
-
-On tablets and mobile phones, Juno provides a good interface to !CoCalc.
-
-See [[https://wiki.sagemath.org/Interfaces#Interfaces_to_SageMath_in_other_software|Interfaces to Sage in other software]].
 
 = Discussion =
 
