@@ -113,7 +113,7 @@ For some advanced package tools, use `./sage -package`
 
 = About this wiki =
 
-'''Editing the wiki.''' Page editing uses the MoinMoin syntax. To edit the wiki, log in using your [[https://trac.sagemath.org/sage_trac/|sage-trac]] account. Getting an account involves convincing a human by email that you not a spammer.
+'''Editing the wiki.''' Page editing uses the MoinMoin syntax. To edit the wiki, log in using your [[https://trac.sagemath.org/sage_trac/|sage-trac]] account. Getting an account involves convincing a human by email that you not a spammer. If you edit an existing page with a long history, a key question is: "If someone opens this page tomorrow, will they be able to tell which information is current and which is outdated?" Edit accordingly.
 
 '''SageWiki maintenance.''' The [[SageWikiMaintenance page]] attempts to reorganize the wiki, which has accumulated many outdated pages.
 
