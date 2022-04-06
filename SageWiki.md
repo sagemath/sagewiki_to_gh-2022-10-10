@@ -111,12 +111,6 @@ For some advanced package tools, use `./sage -package`
  * SageMathExternalPackages
  * [[CodeSharingWorkflow|On development models for sharing (experimental) code]]
 
-== Obsolete, duplicate, outdated ==
-
- * [[spkg|SageWiki page "spkg"]] - now just links to the spkg section of the reference manual
- * [[http://www.sagemath.org/links-components.html|sagemath.org page "Components"]] - now just links to the spkg section of the reference manual
- * everything about old-style SPKGs - outdated, do not use
-
 = About this wiki =
 
 '''Editing the wiki.''' Page editing uses the MoinMoin syntax. To edit the wiki, log in using your [[https://trac.sagemath.org/sage_trac/|sage-trac]] account. Getting an account involves convincing a human by email that you not a spammer.
