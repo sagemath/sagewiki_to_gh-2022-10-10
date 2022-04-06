@@ -3,7 +3,7 @@
 = Sage and Emacs =
 
 The purpose of this page is to collect tips and tricks for Sage users
-and developers using the text editor Emacs.
+and developers using the text editor Emacs as an [[IDE]].
 
 == sage-shell-mode ==
 
