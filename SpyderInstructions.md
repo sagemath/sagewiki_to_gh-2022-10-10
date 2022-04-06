@@ -1,6 +1,6 @@
 {{https://avatars.githubusercontent.com/u/1284937?s=200&v=4||width=80px}}
 
-In order to use [[https://github.com/spyder-ide | Spyder]] for writing Sage scripts you have to use the version of Python which comes with Sage within the IDE. To change it apply the following steps:
+In order to use [[https://github.com/spyder-ide | Spyder]] for writing Sage scripts you have to use the version of Python which comes with Sage within the [[IDE]]. To change it apply the following steps:
 
  * In '''`Tools -> Preferences`''' go to '''`Console -> Advanced settings -> Python executable`'''
  * choose '''`SAGE_ROOT/local/bin/python`''' as the interpreter
