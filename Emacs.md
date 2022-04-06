@@ -49,8 +49,7 @@ See: SageModeComparison, [[sage-mode]], [[http://bitbucket.org/gvol/sage-mode]]
 == Miscellaneous ==
 
 - Sage already provides editor configuration for Emacs, using the file
-``.dir-locals.el``, to use spaces instead of tabs.  To avoid introducing [[https://doc.sagemath.org/html/en/developer/coding_basics.html#general-coding-style-regarding-whitespace|trailing
-whitespace]], see https://www.emacswiki.org/emacs/DeletingWhitespace
+``.dir-locals.el``, to use spaces instead of tabs.  To avoid introducing [[https://doc.sagemath.org/html/en/developer/coding_basics.html#general-coding-style-regarding-whitespace|trailing whitespace]], see https://www.emacswiki.org/emacs/DeletingWhitespace
 for various solutions.
 
 
