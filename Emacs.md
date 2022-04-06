@@ -48,18 +48,17 @@ See: SageModeComparison, [[sage-mode]], [[http://bitbucket.org/gvol/sage-mode]]
 
 == Miscellaneous ==
 
+- Sage already provides editor configuration for Emacs, using the file
+``.dir-locals.el``, to use spaces instead of tabs.  To avoid introducing [[https://doc.sagemath.org/html/en/developer/coding_basics.html#general-coding-style-regarding-whitespace|trailing
+whitespace]], see https://www.emacswiki.org/emacs/DeletingWhitespace
+for various solutions.
+
+
 - which-function-mode: this minor mode displays in the status bar the
   name of the class or function being edited. This is a life saver for
   code with nested classes, and in particular category code.
 
   Setup: M-x customize-variable which-function-mode
-
-- I (NT) have this in my python-mode-hook:
-  {{{
-  (set-variable 'indent-tabs-mode nil)
-  (set-variable 'py-indent-offset 4)
-  }}}
-  This might not be so relevant with recent versions of emacs.
 
 == See also ==
 
