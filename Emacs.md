@@ -20,6 +20,10 @@ completion, dynamic help and opening of source files, etc.
 
 See: SageModeComparison, [[https://github.com/stakemori/sage-shell-mode]]
 
+== emacs-jupyter ==
+
+- See 2020 blog post: [[https://martinralbrecht.wordpress.com/2020/08/23/conda-jupyter-and-emacs/|Martin Albrecht: Conda, Jupyter and Emacs]]
+
 == EIN: IPython notebook client in Emacs ==
 
 https://github.com/tkf/emacs-ipython-notebook
