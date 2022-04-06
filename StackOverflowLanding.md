@@ -58,7 +58,6 @@ If you are interested in development, the following links will help:
 
  * [[http://www.sagemath.org/doc/faq/faq-contribute.html|FAQ: Contributing to Sage]]
  * [[http://www.sagemath.org/development.html|Info for Developers]]
- * [[http://www.liafa.jussieu.fr/~labbe/Sage/how-to-contribute/|How to Contribute to Sage]]
  * [[http://groups.google.com/group/sage-devel|Sage Developer Mailing List]]
 
 == Mentoring ==
