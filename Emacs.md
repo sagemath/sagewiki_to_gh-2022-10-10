@@ -59,4 +59,4 @@ See: SageModeComparison, [[sage-mode]], [[http://bitbucket.org/gvol/sage-mode]]
 
 == See also ==
 
-- This (not sot recent) [[http://www.saltycrane.com/blog/2010/05/my-emacs-python-environment/|blog post]] on customizing emacs for Python
+- 2010 [[http://www.saltycrane.com/blog/2010/05/my-emacs-python-environment/|blog post]] on customizing emacs for Python
