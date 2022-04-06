@@ -2,7 +2,7 @@
 
 This is the wiki for the [[https://www.sagemath.org|Sage - Mathematics Software System]] project. There are other [[ThingsCalledSage]].
 
-This is mainly used by developers for organization of e.g. SageDays and discussion of long-term projects. Since it ''is'' a wiki, pages should be made to last over many, and frequent, changes. If an external link is made, please attach relevant files/content to avoid broken links.
+This wiki is mainly used by developers for organization of e.g. SageDays and discussion of long-term projects. Since it ''is'' a wiki, pages should be made to last over many, and frequent, changes. If an external link is made, please attach relevant files/content to avoid broken links.
 
 ||<tablestyle="font-size: 0.8em;">||<#F7819F>❤ || You can help by becoming a [[https://github.com/sponsors/sagemath|sponsor]]||
 
