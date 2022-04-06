@@ -48,16 +48,16 @@ See: SageModeComparison, [[sage-mode]], [[http://bitbucket.org/gvol/sage-mode]]
 
 == Miscellaneous ==
 
-- Sage already provides editor configuration for Emacs, using the file
+ * Sage already provides an editor configuration for Emacs, using the file
 ``.dir-locals.el``, to use spaces instead of tabs.  To avoid introducing [[https://doc.sagemath.org/html/en/developer/coding_basics.html#general-coding-style-regarding-whitespace|trailing whitespace]], see https://www.emacswiki.org/emacs/DeletingWhitespace
 for various solutions.
 
 
-- which-function-mode: this minor mode displays in the status bar the
-  name of the class or function being edited. This is a life saver for
-  code with nested classes, and in particular category code.
+ * which-function-mode: this minor mode displays in the status bar the
+   name of the class or function being edited. This is a life saver for
+   code with nested classes, and in particular category code.
 
-  Setup: M-x customize-variable which-function-mode
+   Setup: M-x customize-variable which-function-mode
 
 == See also ==
 
