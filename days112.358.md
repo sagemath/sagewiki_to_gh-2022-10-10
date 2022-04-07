@@ -16,9 +16,9 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 == How to register and participate ==
 
- * '''Registration''': If you intend to participate, please register here: https://zulip.sagemath.org/#narrow/stream/128-sd110/topic/Registration
+ * '''Registration''': TBA
 
- * Join our [[https://zulip.sagemath.org/#narrow/stream/128-sd110|zulip #sd110]] messaging stream. This stream will contain all of the information regarding the talks and events for Sage Days 110.
+ * Join our [[https://sagemath.zulipchat.com/#narrow/stream/321245-sd112.2E358|zulip #sd112.358]] messaging stream. This stream will contain all of the information regarding the talks and events for Sage Days 112.358.
 
  * '''Video conferencing''': We will primarily be using Zoom and [[https://bigbluebutton.org/|BigBlueButton]] (BBB; see [[https://en.wikipedia.org/wiki/BigBlueButton|Wikipedia page]]; [[https://bigbluebutton.org/open-source-license/|license]]) (with BBB servers at Orsay and/or other French institutions). However, other software such as Google Meet can also be used.
 
@@ -37,4 +37,4 @@ TBA
  * [[https://math.as.uky.edu/users/yzh392|Yuan Zhou]] (lead contact)
  * TBA
 
-You can also join the [[https://zulip.sagemath.org/#narrow/stream/128-sd110/topic/Organization.20SageDays.20110|Zulip #sd110 organization topic]] to contact the organization team.
+You can also join the [[https://sagemath.zulipchat.com/#narrow/stream/321245-sd112.2E358|Zulip #sd112.358 stream]] to contact the organization team.
