@@ -34,7 +34,6 @@ TBA
 
 == Organizers ==
 
- * [[https://math.as.uky.edu/users/yzh392|Yuan Zhou]] (lead contact)
  * TBA
 
 You can also join the [[https://sagemath.zulipchat.com/#narrow/stream/321245-sd112.2E358|Zulip #sd112.358 stream]] to contact the organization team.
