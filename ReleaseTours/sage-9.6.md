@@ -144,6 +144,29 @@ sage: _ = s.pdf()               # or s.png() or s.svg()
 
 In a next step, a method `tikz()` will be added to graphs, polytopes, posets, etc. to return an object of type `TikzPicture` see [[https://trac.sagemath.org/ticket/33002|#33002]].
 
+=== Complex plots ===
+
+The complex plotting package [[https://github.com/davidlowryduda/phase_mag_plot|phase_mag_plot]] has been incorporated into Sage. Now `complex_plot` allows contouring, tiling, and `matplotlib`-compatible colormaps. This was added in ticket [[https://trac.sagemath.org/ticket/33416|#33416]].
+
+To use a colormap, one can pass in a string as in
+
+{{{
+sage: complex_plot((x - 5)*sqrt(x), (-10, 10), (-10, 10), cmap='twilight')
+}}}
+{{attachment:cmap_twilight.png}}
+
+Contouring or tiling are enabled through keyword options. To look smooth, it's typically necessary to plot the function on additional points through the use of `plot_points`. This looks like
+
+{{{
+sage: complex_plot((x - 5)*sqrt(x), (-10, 10), (-10, 10), cmap='twilight', plot_points=500, contoured=True)
+}}}
+{{attachment:cmap_twilight_contour.png}}
+
+{{{
+sage: complex_plot((x - 5)*sqrt(x), (-10, 10), (-10, 10), cmap='twilight', plot_points=500, tiled=True)
+}}}
+{{attachment:cmap_twilight_tiled.png}}
+
 === LaTeX displays in JupyterLab ===
 
 Users of Sage in [[https://jupyter.org/|JupyterLab]] got used to expressions displayed at center in the LaTeX display mode. For compatibility with displays in classic Jupyter, we decided to change the behavior so that now expressions are displayed aligned left by default.
