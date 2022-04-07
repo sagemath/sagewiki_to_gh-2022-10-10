@@ -1,10 +1,10 @@
-= Global Virtual Sage Days 110 =
+= Global Virtual Sage Days 112.358 =
 
 An event for the !SageMath user and developer community
 
-Talks will take place October 29-30, 2020, in various time zones. The schedule will be released soon.
+Talks will take place June 1-3, in various time zones. The schedule will be released soon.
 
-[[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in !SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the current global health crisis, Sage Days 110 will be a fully virtual event following [[days109|Sage Days 109]].
+[[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in !SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the ongoing global health crisis, Sage Days 112.358 will be a fully virtual event following the model of [[days109|Sage Days 109]] and [[days109|Sage Days 110]]
 
 <<TableOfContents>>
 
