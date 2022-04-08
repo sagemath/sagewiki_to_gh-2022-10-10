@@ -2,7 +2,7 @@
 
 An event for the !SageMath user and developer community
 
-The fully virtual event will take place '''June 1-3, 2022''', during the 50 hours when it is June 2, 2022 in [[https://en.wikipedia.org/wiki/List_of_UTC_time_offsets|some timezone in the world]]): 
+The fully virtual event will take place '''June 1-3, 2022''', during the 50 hours when it is June 2, 2022 in [[https://en.wikipedia.org/wiki/List_of_UTC_time_offsets|some timezone in the world]]: 
 
  * '''Beginning: Wednesday, June 1, 2022, 10:00:00 (morning) GMT''',
 
