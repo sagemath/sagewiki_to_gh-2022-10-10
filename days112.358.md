@@ -2,7 +2,17 @@
 
 An event for the !SageMath user and developer community
 
-Talks will take place June 1-3, 2022, in various time zones. The schedule will be released soon.
+The fully virtual event will take place '''June 1-3, 2022''', during the 50 hours when it is June 2, 2022 in [[https://en.wikipedia.org/wiki/List_of_UTC_time_offsets|some timezone in the world]]): 
+
+ * '''Beginning: Wednesday, June 1, 2022, 10:00:00 (morning) GMT''',
+
+   .... which is June 2, 2022, 00:00 Kiribati time (UTC+14),
+
+ * '''End: Friday, June 3, 2022, 11:59:59 (noon) GMT''', 
+
+   .... which is June 2, 2022, 23:59:59 Baker Island time (UTC-12),
+
+The schedule will be released soon.
 
 [[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in !SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the ongoing global health crisis, Sage Days 112.358 will be a fully virtual event following the model of [[days109|Sage Days 109]] and [[days109|Sage Days 110]]
 
@@ -26,7 +36,7 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 == Schedule, videos, and talk slides ==
 
-The schedule, title, abstracts, videos, and supplementary materials of the talks can be found on [[https://researchseminars.org/seminar/SageDays110|researchseminars.org]].
+The schedule, title, abstracts, videos, and supplementary materials of the talks can be found on [[https://researchseminars.org/seminar/SageDays112.358|researchseminars.org]].
 
 == Speakers ==
 
