@@ -274,6 +274,8 @@ In a future version of Sage, CyLP is intended to provide a replacement for the S
 
 == Manifolds ==
 
+=== Improved Manifold constructor ===
+
 The `structure` parameter of the `Manifold` constructor has new, more convenient defaulting behavior. [[https://trac.sagemath.org/ticket/33001|#33001]]
 
 When parameters such as `diff_degree` or `metric_name` are given, the implied structure is selected:
