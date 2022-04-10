@@ -1,6 +1,6 @@
 = Sage 9.6 Release Tour =
 
-Current development cycle (2022)
+Release candidate (2022)
 
 <<TableOfContents>>
 
@@ -577,7 +577,7 @@ on top of any of the Linux platforms for which we have prebuilt Docker images.[[
 == Availability of Sage 9.6 and installation help ==
 
 The first development release of the 9.6 series, 9.6.beta0, was tagged on 2022-02-06.
-The current development release is 9.6.beta7, tagged on 2022-04-02.
+The first release candidate, 9.6.rc0, was tagged on 2022-04-10.
 
 The [[https://6212659123a9467b3cb0cd07--sagemath-tobias.netlify.app/installation/index.html|SageMath installation guide]] now provides a decision tree that guides users and developers to a type of installation suitable for their system and their needs.
 
