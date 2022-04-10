@@ -358,6 +358,10 @@ default chart `C0`.
 
 == Algebra ==
 
+=== lrcalc 2.1 ===
+
+lrcalc, Anders Buch's Littlewood-Richardson Calculator, has been upgraded to the major new version 2.1 [[https://bitbucket.org/asbuch/lrcalc/src/master/ChangeLog|changelog]]. [[https://trac.sagemath.org/ticket/31355|#31355]]
+
 === Finitely presented modules over graded algebras ===
 
 Sage 9.6 allows the construction of finitely presented modules over graded algebras, even algebras which are infinite and/or noncommutative like the mod ''p'' Steenrod algebra. Some homological algebra is implemented in general, and more tools are implemented specifically for modules over the Steenrod algebra ([[https://trac.sagemath.org/ticket/32505|#32505]], [[https://trac.sagemath.org/ticket/30680|#30680]]).
@@ -455,10 +459,6 @@ Meta-ticket [[https://trac.sagemath.org/ticket/31408|#31408]] tracks the effort 
 [[https://arblib.org/|arb]] has been upgraded from 2.19.0 to 2.22.1. [[https://trac.sagemath.org/ticket/32211|#32211]], [[https://trac.sagemath.org/ticket/33189|#33189]]
 
 The 2.20, 2.21, and 2.22 series have brought major new algorithms and other improvements ([[https://arblib.org/history.html#version-2-22-1|changelog]]).
-
-=== lrcalc 2.1 ===
-
-lrcalc, Anders Buch's Littlewood-Richardson Calculator, has been upgraded to the major new version 2.1 [[https://bitbucket.org/asbuch/lrcalc/src/master/ChangeLog|changelog]]. [[https://trac.sagemath.org/ticket/31355|#31355]]
 
 === igraph 0.9.x ===
 
