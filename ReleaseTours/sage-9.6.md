@@ -500,8 +500,9 @@ To [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#modu
 === Lazy imports of classes now support __instancecheck__ and __subclasscheck__ ===
 
 No Python object is an instance of a class that cannot be imported from the module that defines it.
+The new special method `LazyImport.__instancecheck__` now just returns `False` in this case. [[https://trac.sagemath.org/ticket/33017|#33017]]
 
-The new special method `LazyImport.__instancecheck__` now just returns `False` in this case. This provides a convenient pattern for writing modularized code when [[https://wiki.sagemath.org/ReleaseTours/sage-9.5#Abstract_base_classes_for_.22isinstance.22_testing|creating an abstract base class for "isinstance" testing]] is not justified.
+ This provides a convenient pattern for writing modularized code when [[https://wiki.sagemath.org/ReleaseTours/sage-9.5#Abstract_base_classes_for_.22isinstance.22_testing|creating an abstract base class for "isinstance" testing]] is not justified.
 {{{
 sage: from sage.schemes.generic.scheme import Scheme
 sage: sZZ = Scheme(ZZ)
