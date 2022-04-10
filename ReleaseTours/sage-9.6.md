@@ -497,6 +497,23 @@ To [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#modu
 [[https://trac.sagemath.org/ticket/33466|#33466]],
 [[https://trac.sagemath.org/ticket/33468|#33468]]
 
+=== Lazy imports of classes now support __instancecheck__ and __subclasscheck__ ===
+
+No Python object is an instance of a class that cannot be imported from the module that defines it.
+
+The new special method `LazyImport.__instancecheck__` now just returns `False` in this case. This provides a convenient pattern for writing modularized code when [[https://wiki.sagemath.org/ReleaseTours/sage-9.5#Abstract_base_classes_for_.22isinstance.22_testing|creating an abstract base class for "isinstance" testing]] is not justified.
+{{{
+sage: from sage.schemes.generic.scheme import Scheme
+sage: sZZ = Scheme(ZZ)
+sage: lazy_import('xxxx_does_not_exist', 'Pluffe')
+sage: isinstance(sZZ, (Scheme, Pluffe))
+True
+sage: isinstance(ZZ, (Scheme, Pluffe))
+False
+}}}
+Likewise, no class is a subclass of a class that cannot be imported from the module that defines it;
+so the new special method `LazyImport.__subclasscheck__` implements the same logic.
+
 === sage.geometry.polyhedron.base reorganized ===
 
 The module `sage.geometry.polyhedron.base` has been split into several modules, grouping the methods of class `Polyhedron_base` according to their topic and runtime dependencies on other parts of Sage. [[https://trac.sagemath.org/ticket/32651|#32651]]
