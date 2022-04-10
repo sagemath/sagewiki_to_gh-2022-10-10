@@ -255,7 +255,7 @@ Three classes of classical (discrete) orthogonal polynomials in the Askey scheme
  * Hahn polynomials
  * Meixner polynomials
 
-== Polyhedral geometry ==
+== Polyhedral geometry and linear programming ==
 
 === polymake 4.6 ===
 
