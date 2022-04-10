@@ -486,13 +486,16 @@ In Sage 9.6, we have changed most calls to executables so that they no longer de
 The Sage doctester is now prepared for [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#ordinary-packages-vs-implicit-namespace-packages|namespace packages]]. [[https://trac.sagemath.org/ticket/33033|#33033]]
 
 To [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#module-level-runtime-dependencies|reduce runtime dependencies]], many imports from `sage.graphs.all`, `sage.interfaces.all`, `sage.misc.all`, `sage.libs.all`, `sage.rings.all` have been replaced by more specific imports; and module-level imports from `sage.plot` have been changed to either use `lazy_import` or have been moved inside methods.
+[[https://trac.sagemath.org/ticket/30582|#30582]],
 [[https://trac.sagemath.org/ticket/32847|#32847]],
 [[https://trac.sagemath.org/ticket/32989|#32989]],
 [[https://trac.sagemath.org/ticket/32999|#32999]],
 [[https://trac.sagemath.org/ticket/33000|#33000]],
 [[https://trac.sagemath.org/ticket/33007|#33007]],
 [[https://trac.sagemath.org/ticket/33146|#33146]],
-[[https://trac.sagemath.org/ticket/33199|#33199]]
+[[https://trac.sagemath.org/ticket/33199|#33199]],
+[[https://trac.sagemath.org/ticket/33466|#33466]],
+[[https://trac.sagemath.org/ticket/33468|#33468]]
 
 === sage.geometry.polyhedron.base reorganized ===
 
