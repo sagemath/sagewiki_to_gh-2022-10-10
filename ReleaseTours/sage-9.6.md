@@ -497,7 +497,7 @@ To [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#modu
 [[https://trac.sagemath.org/ticket/33466|#33466]],
 [[https://trac.sagemath.org/ticket/33468|#33468]]
 
-=== Lazy imports of classes now support __instancecheck__ and __subclasscheck__ ===
+=== Lazy imports of classes now support "isinstance" ===
 
 No Python object is an instance of a class that cannot be imported from the module that defines it.
 The new special method `LazyImport.__instancecheck__` now just returns `False` in this case. [[https://trac.sagemath.org/ticket/33017|#33017]]
