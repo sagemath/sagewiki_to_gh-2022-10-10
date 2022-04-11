@@ -577,7 +577,7 @@ The idea is that these three status badges complement the existing patchbots (an
 
 === Codecov ===
 
-[[https://trac.sagemath.org/ticket/33355|#33355]]
+A detailed coverage analysis of the Sage library is now available at [[https://app.codecov.io/gh/sagemath/sagetrac-mirror|codecov.io]]. [[https://trac.sagemath.org/ticket/33355|#33355]]
 
 === sage --pytest ===
 
