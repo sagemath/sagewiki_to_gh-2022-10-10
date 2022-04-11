@@ -19,6 +19,3 @@ In Windows you are on your own. Free free to edit this page if you know what to 
 This all seems very complicated, and it is because (1) a complete TeX system relies on tens of thousands of files, and (2) the system for finding the right file dates to the 80's. If you'll pardon the massive understatement, it's a bit crufty.
 
 NilsBruin says: There is actually an easy way of putting animations in pdf-presentations created by LaTeX. See the [[days9/PDFLaTeXAnimations|LaTeX animations]] page.
-
-----
-CategoryHomepage
