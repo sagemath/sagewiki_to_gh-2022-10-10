@@ -182,7 +182,7 @@ in the `~/.sage/init.sage` script.
 
 [[https://trac.sagemath.org/ticket/33469|#33469]]
 
-== Linear Algebra ==
+== Linear algebra ==
 
 === NumPy integration ===
 
