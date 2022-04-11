@@ -20,6 +20,3 @@ Elements of rings should be output in distinct colors so that you can quickly te
  * Polynomials -- RGB(d,d,d) where d is the degree (Notice that d==0 results in an Integer)
 
  * Matrices -- Stereograms
-
-----
-CategoryHomepage
