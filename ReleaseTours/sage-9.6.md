@@ -575,7 +575,7 @@ If you click on the badge, you get the HTML output of the successful run. The id
 
 The idea is that these three status badges complement the existing patchbots (and maybe even replace them in the future). In particular, they are supposed to always be green.
 
-=== Codecov ===
+=== Test coverage analysis with codecov ===
 
 A detailed coverage analysis of the Sage library is now available at [[https://app.codecov.io/gh/sagemath/sagetrac-mirror|codecov.io]]. [[https://trac.sagemath.org/ticket/33355|#33355]]
 
