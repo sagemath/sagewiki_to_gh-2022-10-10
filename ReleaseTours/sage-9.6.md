@@ -628,7 +628,7 @@ The Sage source code is available in the [[https://github.com/sagemath/sage/tree
    * macOS 11.x (Big Sur)
    * macOS 12.x (Monterey) [[https://trac.sagemath.org/ticket/32855|#32855]]
  * '''macOS (Apple Silicon, M1)''' [[https://trac.sagemath.org/ticket/30592|#30592]]
-   * Building Sage 9.5 from source on Apple Silicon (M1) requires the use of [[https://brew.sh/|Homebrew]] (recommended) or conda-forge, which package versions of `gfortran` 11 with necessary changes for this platform that are not in a released upstream version of GCC. (The `gfortran` package that comes with Sage is not suitable for the M1.)
+   * Building Sage 9.6 from source on Apple Silicon (M1) requires the use of [[https://brew.sh/|Homebrew]] (recommended) or conda-forge, which package versions of `gfortran` 11 with necessary changes for this platform that are not in a released upstream version of GCC. (The `gfortran` package that comes with Sage is not suitable for the M1.)
    * Make sure that `/usr/local` does not contain an old copy of homebrew (or other software) for x86_64 that you may have copied from an old machine. Homebrew for the M1 is installed in `/opt/homebrew`, not `/usr/local`.
    * Be sure to follow the [[https://github.com/sagemath/sage/blob/develop/README.md|README]] and the instructions that the `./configure` command issues regarding the installation of system packages from Homebrew or conda.
  * '''Cygwin''' (x86_64)
