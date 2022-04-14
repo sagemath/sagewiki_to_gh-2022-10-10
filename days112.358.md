@@ -36,11 +36,17 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 == Schedule, videos, and talk slides ==
 
-The schedule, title, abstracts, videos, and supplementary materials of the talks can be found on [[https://researchseminars.org/seminar/SageDays112.358|researchseminars.org]].
+The schedule, title, abstracts, videos, and supplementary materials of the talks will be found on [[https://researchseminars.org/seminar/SageDays112358|researchseminars.org]].
 
-== Speakers ==
+== Activities and Speakers ==
 
-TBA
+ * Oscar Benjamin (!SymPy)
+
+ * Discussion: Landscape of symbolic equation solver interfaces, symbolic assumption facilities
+
+
+
+more TBA
 
 == Organizers ==
 
