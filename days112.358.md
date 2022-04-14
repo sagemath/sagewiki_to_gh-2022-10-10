@@ -42,7 +42,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
- * [[https://github.com/mkoeppe/|Matthias Köppe]] ([[https://trac.sagemath.org/ticket/29705|The way to a full modularized Sage library 10.0]])
+ * [[https://github.com/mkoeppe/|Matthias Köppe]] ([[https://trac.sagemath.org/ticket/29705|The way to a fully modularized Sage library 10.0]])
 
  * [[https://github.com/asmeurer|Aaron Meurer]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
