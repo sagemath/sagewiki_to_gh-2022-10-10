@@ -1,4 +1,4 @@
-As an extension to the ANR MoDiff meeting, we are holding non-virtual SageDays in the center of Bordeaux. If you're around, feel free to join us. If you're not, feel free to join us at https://sagemath.zulipchat.com/#narrow/stream/271193-polygon.
+As an extension to the [[https://indico.math.cnrs.fr/event/7654/|ANR MoDiff meeting]], we are holding non-virtual SageDays in the center of Bordeaux. If you're around, feel free to join us. If you're not, feel free to join us at https://sagemath.zulipchat.com/#narrow/stream/271193-polygon.
 
 = Projects =
 
