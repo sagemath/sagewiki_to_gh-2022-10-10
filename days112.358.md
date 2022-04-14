@@ -51,7 +51,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
  * Coding sprints
    * add proposals here
 
- * Downstream packaging forum with [[https://trac.sagemath.org/ticket/31016 Downstream patch upstreaming]]
+ * Downstream packaging forum with [[https://trac.sagemath.org/ticket/31016|Downstream patch upstreaming]]
 
  * more TBA
 
