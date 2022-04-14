@@ -40,13 +40,18 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
 == Activities and Speakers ==
 
- * Oscar Benjamin (!SymPy)
+ * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
+
+ * [[https://github.com/mkoeppe/|Matthias Köppe]] ([[The way to a full modularized Sage library 10.0|https://trac.sagemath.org/ticket/29705]])
 
  * Discussion: Landscape of symbolic equation solver interfaces, symbolic assumption facilities
 
+ * Onboarding for new !SageMath developers
 
+ * Coding sprints
+   * add proposals here
 
-more TBA
+ * more TBA
 
 == Organizers ==
 
