@@ -61,6 +61,6 @@ run `HOSTNAME=something_else` before launching it.
 
 Patchbot owners are encouraged to associate their real name to their
 Sage Trac username in the list of Sage developers present on the
-[[WikiStart|main page of the Sage Trac server]]. That list is a good
+[[https://trac.sagemath.org/#AccountNamesMappedtoRealNames|main page of the Sage Trac server]]. That list is a good
 place to add a link to their homepage which ideally will contain some
 way to contact them (e.g. email address) should the need arise.
