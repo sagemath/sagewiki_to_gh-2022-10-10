@@ -48,6 +48,8 @@ The most up-to date list of Sage developers is on our [[https://trac.sagemath.or
 
 [[https://zulip.sagemath.org | Zulip]] group chat server for realtime collaboration on Sage (like Slack).  Fairly low-activity but more than IRC.
 
+!SageMath has a presence on some [[Social Networks]].
+
 [[IRC]] channel: {{{#sagemath}}} on [[https://freenode.net/|freenode ]] (`chat.freenode.net`)
 
 The Sage website contains links to [[https://www.sagemath.org/development-groups.html | other discussion mailing lists]].
