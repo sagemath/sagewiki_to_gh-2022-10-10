@@ -66,8 +66,6 @@ Each release cycle of Sage is managed by at least one release manager. For examp
 
 Much of the Sage library is written in Python. Some performance critical parts of the Sage library is written in Cython. Information is available to help [[devel/BeginSageDevelopment | beginners on developing]] the Sage library. Also consult the list of [[devel/PythonCythonResources | Python and Cython resources]] for beginner to advanced information on the Python and Cython languages. You can also do [[devel/FunctionalProgramming | functional programming with Python and Sage]]. You should avoid as much as possible using non-ASCII characters in a source file. See this page for information on [[devel/nonASCII | avoiding non-ASCII characters]] in source files. However, there are also cases in which you need put such characters in a source file. That page also has tips on specifying the character encoding of a source file. The page on [[combinat/HelpOnTheDoc | docstring documentation]] contains information on the format (ReSTructured text) used in the docstrings of functions, classes, methods and modules. The page also includes special Sage doctest conventions. Before updating the copyright notices in the Sage library, read the page on [[devel/UpdateCopyright | copyright notices]] for a list of files to update as well.
 
-If you have an account on the Sage cluster, ensure that you read the [[devel/SageClusterGuidelines | Sage cluster guidelines]] on using computer resources on the Sage cluster.
-
  * [[http://www.sagemath.org/doc/faq/faq-contribute.html | Frequently asked questions regarding Sage development]]
 
 ||<#FFFF66>Please write Python3-compatible code (see [[Python3-compatible code]])||
