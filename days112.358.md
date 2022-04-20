@@ -48,6 +48,8 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://github.com/asmeurer|Aaron Meurer]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
+ * [[https://github.com/ninamiolane|Nina Miolane]] ([[https://geomstats.github.io/|Geomstats]])
+
  * Discussion: Landscape of symbolic equation solver interfaces, symbolic assumption facilities
 
  * Onboarding for new !SageMath developers
