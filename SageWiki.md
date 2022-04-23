@@ -50,8 +50,6 @@ The most up-to date list of Sage developers is on our [[https://trac.sagemath.or
 
 !SageMath has a presence on some [[Social Networks]].
 
-[[IRC]] channel: {{{#sagemath}}} on [[https://freenode.net/|freenode ]] (`chat.freenode.net`)
-
 The Sage website contains links to [[https://www.sagemath.org/development-groups.html | other discussion mailing lists]].
 
 = Development =
