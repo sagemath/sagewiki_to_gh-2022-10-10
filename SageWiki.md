@@ -46,7 +46,7 @@ The most up-to date list of Sage developers is on our [[https://trac.sagemath.or
 = Mailing Lists / Chat Rooms =
 [[https://groups.google.com/group/sage-support|sage-support]], [[https://groups.google.com/group/sage-devel|sage-devel]], [[https://groups.google.com/group/sage-release|sage-release]], [[https://groups.google.com/group/sage-announce|sage-announcements]], [[https://groups.google.com/group/sage-edu|sage-edu]] for teaching using Sage, [[https://groups.google.com/group/sage-finance|sage-finance]] for finance, [[https://groups.google.com/group/sage-coding-theory|sage-coding-theory]] for coding theory, [[https://groups.google.com/group/sage-nt|sage-nt]] for number theory, and [[https://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]].
 
-[[https://zulip.sagemath.org | Zulip]] group chat server for realtime collaboration on Sage (like Slack).  Fairly low-activity but more than IRC.
+[[https://zulip.sagemath.org | Zulip]] group chat server for realtime collaboration on Sage (like Slack).  Fairly low-activity.
 
 !SageMath has a presence on some [[Social Networks]].
 
