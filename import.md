@@ -10,33 +10,6 @@ I formulate everything here as strict rules, but of course every guideline can h
 = Possible Guide Lines =
 
 
-
-== Execute as less as possible code in modules which are imported at startup ==
-----
-=== Opinion on sage-dev ===
-
-Most people find it a good idea.
-
-==== Solutions to concrete problems ====
-
-If you want to have some precomputed data available in the top level of your module, don't precompute at startup time, use the cached_function decorator instead.
-
-==== Examples ====
- * '''bad'''
-
-{{{
-special_matrix_list = initialize_special_matrix_list()
-}}}
-
- * '''good'''
-
-{{{
-@cached_function
-def special_matrix_list():
-    return initialize_special_matrix_list()
-}}}
-
-
 == Use relative imports ==
 ----
 ==== Opinion on sage-dev ====
