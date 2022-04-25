@@ -14,9 +14,7 @@ In short: Install `sage` from [[https://conda-forge.org|conda-forge]].
  * Create a "sage" environment and pick a version of SageMath, i.e., open a new terminal and `mamba create -n sage sage=9.3`
  * To run SageMath, activate the environment you just created and run SageMath, i.e., `source activate sage` and `sage`
 
-= Maintenance =
-
-The packages necessary to run sage are developed on the github pages of conda-forge. The actual [[https://github.com/conda-forge/sage-feedstock/tree/master/recipe|sage package]] and many of its dependencies are maintained by Isuru Fernando (and a few volunteers).
+The above instructions are being added to the Sage documentation in https://trac.sagemath.org/ticket/33655
 
 = Conda for Sage Developers =
 
@@ -69,14 +67,6 @@ After editing any Cython files, rebuild by repeating the command
 $ pip install --no-build-isolation -v -v --editable src
 }}}
 
-= Open Issues =
+= More information =
 
-== General ==
-
-To check whether there are known issues with Conda:
-
- * https://trac.sagemath.org/query?order=id&desc=1&summary=~conda
-
-== Windows ==
-
-There is likely not going to be a working package in the near future, see https://groups.google.com/d/msg/sage-devel/wyaV8x5qolI/jVS4DKBvCAAJ.
+see https://trac.sagemath.org/wiki/Distribution#CondaAnacondaMinicondaCondaForge
