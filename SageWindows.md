@@ -1,6 +1,6 @@
 = SageMath Windows =
 
-As of SageMath 8.0 a native Windows binary installer is available for 64-bit versions of Windows 7 and up.  The latest releases of the Windows installer can be found [[https://github.com/sagemath/sage-windows/releases|here]].  Most users will find this to be better-integrated with their native system than the old [[SageAppliance|VirtualBox appliance]]; however, the appliance is still available for those who prefer it.
+Since SageMath 8.0 a native Windows binary installer is available for 64-bit versions of Windows 7 and up.  The latest releases of the Windows installer can be found [[https://github.com/sagemath/sage-windows/releases|here]].
 
 <<TableOfContents>>
 
@@ -159,10 +159,6 @@ As noted, however, there are other ways to run Sage on Windows which may be appr
 === Build Sage from source in Cygwin ===
 
 The Sage for Windows installer comes with its own custom distribution of Cygwin, hand-picked to meet Sage's runtime requirements.  However, you may also manually install a generic Cygwin installation, and use it to build and run Sage from source.  There are comprehensive instructions for [[https://trac.sagemath.org/wiki/Cygwin64Port|building Sage on Cygwin]] over at Sage's development Trac site.
-
-=== Running the VirtualBox appliance ===
-
-As previously noted, an older way Sage was made available "for Windows" is as a VirtualBox appliance: [[SageAppliance|VirtualBox appliance]].  This makes it relatively easy to install and run a Linux VM that has been custom-built for running and working with Sage.  However, depending on your system, getting things like filesystem and network sharing can be a challenge (issues general to configuring a VM to run on your system, and not particular to Sage or the Sage VirtualBox Appliance).
 
 === Running a different Linux VM ===
 
