@@ -23,20 +23,6 @@ Mixed, most think it is not a good idea.
  * Absolute imports are not ambigious hence easier to read
  * Volker Braun has a workaround that caches import locations between Sage runs.
 
-== Start making use of __init__.py files ==
-----
-==== Opinion on sage-dev ====
-N/A since this idea has to be developed more first
-==== Pros ====
- * Will hopfully make the source code easier maintainable
- * Allows you to use sage as a library (i.e. you no longer have to do from sage.all import *)
- * Might give shorter startup time when you tell sage to startup only with a certain submodule loaded (for example `sage -import_only rings`)
-==== Cons ====
- * Just the use of __init__.py files will not make sage useable as a library, more work needs to be done (eg environment variables etc)
-
-==== Related Ideas ====
- * Make it possible to run the doctest suite run only with a certain submodule imported 
-
 
 == Don't import specific functions or classes from another module ==
 ----
