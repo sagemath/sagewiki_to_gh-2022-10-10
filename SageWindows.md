@@ -6,7 +6,7 @@ Since SageMath 8.0 a native Windows binary installer is available for 64-bit ver
 
 == Installation ==
 
-To install Sage on Windows, first download the latest binary release from the [[https://github.com/sagemath/sage-windows/releases|releases on GitHub]] (these are available on the official [[http://www.sagemath.org/download-windows.html|SageMath mirrors]] as well; the website says to go to GitHub for release downloads, but all releases are now uploaded to the mirrors as well).
+To install Sage on Windows, first download the latest binary release from the [[https://github.com/sagemath/sage-windows/releases|releases on GitHub]].
 
 Running the installer does not typically require Administrator permissions. By default it performs a "single user" installation that is appropriate for your personal machine if which you are the only user. For a multi-user machine, in order to make Sage installed for all users, it is necessary to run the installer with administrator permissions (right-click on the installer executable and select "Run as administrator...") then select "Install for all users when given the choice to do so later in the installation process. 
 
