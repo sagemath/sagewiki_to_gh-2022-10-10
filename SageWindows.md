@@ -158,7 +158,7 @@ As noted, however, there are other ways to run Sage on Windows which may be appr
 
 === Build Sage from source in Cygwin ===
 
-The Sage for Windows installer comes with its own custom distribution of Cygwin, hand-picked to meet Sage's runtime requirements.  However, you may also manually install a generic Cygwin installation, and use it to build and run Sage from source.  There are comprehensive instructions for [[https://trac.sagemath.org/wiki/Cygwin64Port|building Sage on Cygwin]] over at Sage's development Trac site.
+The Sage for Windows installer comes with its own custom distribution of Cygwin, hand-picked to meet Sage's runtime requirements.  However, you may also manually install a generic Cygwin installation, and use it to build and run Sage from source.  There are comprehensive instructions for building Sage on Cygwin in our [[https://github.com/sagemath/sage/blob/develop/README.md#windows-preparing-the-platform|README]].
 
 === Running a different Linux VM ===
 
