@@ -46,6 +46,8 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://github.com/mkoeppe/|Matthias Köppe]] ([[https://trac.sagemath.org/ticket/29705|The way to a fully modularized Sage library 10.0]])
 
+ * [[https://github.com/nafur|Gereon Kremer]] ([[https://github.com/cvc5/cvc5|cvc5]], SMT)
+
  * [[https://github.com/asmeurer|Aaron Meurer]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
  * [[https://github.com/ninamiolane|Nina Miolane]] ([[https://geomstats.github.io/|Geomstats]])
