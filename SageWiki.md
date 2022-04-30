@@ -33,13 +33,12 @@ Some people still maintain their [[https://wiki.sagemath.org/CategoryHomepage|wi
 
 <<Anchor(messagingsites)>>
 = Mailing Lists / Chat Rooms =
-[[https://groups.google.com/group/sage-support|sage-support]], [[https://groups.google.com/group/sage-devel|sage-devel]], [[https://groups.google.com/group/sage-release|sage-release]], [[https://groups.google.com/group/sage-announce|sage-announcements]], [[https://groups.google.com/group/sage-edu|sage-edu]] for teaching using Sage, [[https://groups.google.com/group/sage-finance|sage-finance]] for finance, [[https://groups.google.com/group/sage-coding-theory|sage-coding-theory]] for coding theory, [[https://groups.google.com/group/sage-nt|sage-nt]] for number theory, and [[https://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]].
+
+The main active mailing lists are [[https://groups.google.com/group/sage-support|sage-support]], [[https://groups.google.com/group/sage-devel|sage-devel]], [[https://groups.google.com/group/sage-release|sage-release]]; see [[https://www.sagemath.org/development-groups.html |complete list of lists]].
 
 [[https://zulip.sagemath.org | Zulip]] group chat server for realtime collaboration on Sage (like Slack).  Fairly low-activity.
 
 !SageMath has a presence on some [[Social Networks]].
-
-The Sage website contains links to [[https://www.sagemath.org/development-groups.html | other discussion mailing lists]].
 
 = Development =
 
