@@ -29,13 +29,6 @@ This wiki is mainly used by developers for organization of e.g. SageDays and dis
 == Hosting a workshop ==
  * [[HowToHostASageDays|How To Host A Sage Days]] --- Advice to future hosts
  * [[HowToSpreadSageDuringAWorkshop|How to Spread Sage During a Workshop]] --- Advice to future hosts
-= Major external (editable) related pages =
-||'''URL'''||'''Description'''||
-||[[https://www.sagemath.org/]]||Official homepage of SageMath||
-||[[https://trac.sagemath.org/]]||Where development happens||
-||[[https://pypi.org/project/sagemath/]]||dummy package on PyPi||
-||[[https://wiki.archlinux.org/index.php/SageMath]]||Arch Linux wiki||
-
 
 = People =
 The most up-to date list of Sage developers is on our [[https://trac.sagemath.org/sage_trac/wiki#AccountNamesMappedtoRealNames|list of developers on the Sage trac wiki]].
