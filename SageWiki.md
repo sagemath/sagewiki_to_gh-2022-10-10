@@ -29,6 +29,8 @@ The most up-to date list of Sage developers is on our [[https://trac.sagemath.or
 
 [[https://www.sagemath.org/development-map.html|Overview of (many) Sage developers on a world map]]
 
+Some people still maintain their [[https://wiki.sagemath.org/CategoryHomepage|wiki homepages]].
+
 <<Anchor(messagingsites)>>
 = Mailing Lists / Chat Rooms =
 [[https://groups.google.com/group/sage-support|sage-support]], [[https://groups.google.com/group/sage-devel|sage-devel]], [[https://groups.google.com/group/sage-release|sage-release]], [[https://groups.google.com/group/sage-announce|sage-announcements]], [[https://groups.google.com/group/sage-edu|sage-edu]] for teaching using Sage, [[https://groups.google.com/group/sage-finance|sage-finance]] for finance, [[https://groups.google.com/group/sage-coding-theory|sage-coding-theory]] for coding theory, [[https://groups.google.com/group/sage-nt|sage-nt]] for number theory, and [[https://groups.google.com/group/sage-combinat-devel|sage-combinat-devel]].
