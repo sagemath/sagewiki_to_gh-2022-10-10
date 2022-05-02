@@ -49,7 +49,6 @@ Release notes (higher level than change logs) are collaboratively prepared at [[
 = Special Discussion Pages =
 
  * [[Coding_Theory|Coding Theory in Sage]]
- * [[Debate/Collective infrastructure management]]
  * [[Python3-compatible code|Writing Python 3 compatible code]]
  * [[OptiPolyGeom|Optimization and Polyhedral Geometry in Sage]]
 
