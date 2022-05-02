@@ -42,6 +42,8 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
+ * [[https://github.com/tobiasdiez|Tobias Diez]] (tentative; [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|New developer tools for Sage]])
+
  * [[https://github.com/fredrik-johansson|Fredrik Johansson]] (arb, Calcium, FLINT, fungrim, mpmath, ...)
 
  * [[https://github.com/mkoeppe/|Matthias Köppe]] ([[https://trac.sagemath.org/ticket/29705|The way to a fully modularized Sage library 10.0]])
