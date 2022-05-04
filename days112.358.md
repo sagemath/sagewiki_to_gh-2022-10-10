@@ -54,8 +54,8 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://github.com/ninamiolane|Nina Miolane]] ([[https://geomstats.github.io/|Geomstats]])
 
- * Introduction to installing, using, developing Sage
-   * Korea / Asia-Pacific region (Kwankyu Lee)
+ * Meeting of Sage users in Korea to chat over installing, using, and developing Sage
+   * Korea / Asia-Pacific region ([[https://github.com/kwankyu|Kwankyu Lee]])
 
  * Discussion: Landscape of symbolic equation solver interfaces, symbolic assumption facilities
 
