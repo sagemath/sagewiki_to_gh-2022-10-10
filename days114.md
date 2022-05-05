@@ -8,3 +8,13 @@ July 25–27, 2022
 [[https://forms.gle/Ck38QnANrHnYtcXGA|Registration Form]]
 
 If you are interested in attending, please register before '''18th May 2022'''.
+
+=== Organizing Committee ===
+
+ * Arvind Ayyer (Indian Institute of Science)
+ * Manoj Kummini (Chennai Mathematical Institute)
+ * Julian Rüth
+ * Amritanshu Prasad (The Institute of Mathematical Sciences, Chennai)
+ * Travis Scrimshaw (Hokkaido University)
+ * S. Viswanath (The Institute of Mathematical Sciences, Chennai)
+ * Pascal Weil (CNRS, Chennai/Bordeaux)
