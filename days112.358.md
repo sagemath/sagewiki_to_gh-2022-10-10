@@ -26,7 +26,7 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 == How to register and participate ==
 
- * '''Registration''': TBA
+ * '''Registration''': Post a message with your name and affiliation in our [[https://sagemath.zulipchat.com/#narrow/stream/321245-sd112.2E358/topic/Registration|zulip #sd112.358 Registration topic]].
 
  * Join our [[https://sagemath.zulipchat.com/#narrow/stream/321245-sd112.2E358|zulip #sd112.358]] messaging stream. This stream will contain all of the information regarding the talks and events for Sage Days 112.358.
 
