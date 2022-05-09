@@ -57,7 +57,10 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
  * William Stein, Blaec Bejarano (Ways to Use Sage in [[https://cocalc.com/|CoCalc]])
 
  * Meeting of Sage users in Korea to chat over installing, using, and developing Sage
-   * Korea / Asia-Pacific region ([[https://github.com/kwankyu|Kwankyu Lee]])
+   * Korea / Asia-Pacific region
+   * Schedule: 3 hours beginning Thursday, June 2, 2022, 06:00:00 GMT 
+               which is June 2, 2022, 3 PM Korea Standard Time (UTC+9)
+   * Organizer [[https://github.com/kwankyu|Kwankyu Lee]]
 
  * Discussion: Landscape of symbolic equation solver interfaces, symbolic assumption facilities
 
