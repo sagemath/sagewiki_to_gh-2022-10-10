@@ -72,7 +72,6 @@ Alphabetical listing of things to do (out-of-date and general organise) - [[mren
 Note: "Contributors" are not necessarily coders/programmers, but "Developers" ''are''. Also, a hint: you can browse pages by looking at system pages such as [[TitleIndex]].
 ||'''Title'''||'''Description'''||'''Stand Alone?'''||'''Importance (or to whom)'''||'''How to make page better'''||
 || [[art]] || Visuals made with SageMath || Single page, see also [[interact]] || Low || Adding more pictures / animations ||
-||
 || [[cando]] || Features of SageMath || Likely has duplicates || Prospective Users || Add Information and Maintain. New features often. ||
 || [[CodeSharingWorkflow]] || Sharing experimental code || One of many "Conventions" pages || Developers || Merge into a single "Conventions" page or category ||
 || [[Coding_Theory]] || Roadmap and discussions || Stand-Alone || Developers interested in coding theory || Continually update with Trac ||
