@@ -72,7 +72,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
    * [[http://www.slabbe.org/|Sébastien Labbé]] will present the new [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#GraphicswithTikZ|TikzPicture]] functionality in Sage 9.6
 
  * What is ... in Sage? (Short presentations: What is this animal? Is it dangerous? Can it eat my computer? How much space does it take?)
-   * Matthias Köppe: What is [[https://tox.wiki/en/latest/index.html|tox]] and how does Sage use it?
+   * Matthias Köppe: What is [[https://tox.wiki/en/latest/index.html|tox]] and how does Sage [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#testing-distribution-packages|use]] [[https://doc.sagemath.org/html/en/developer/portability_testing.html#automatic-docker-based-build-testing-using-tox|it]]?
    * ...
 
  * Discussion and hands-on activity on Sage user packages: Packaging, continuous testing, and integration in the Sage distribution
