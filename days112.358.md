@@ -66,7 +66,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * Discussion: Landscape of symbolic equation solver interfaces, symbolic assumption facilities
 
- * Onboarding for new !SageMath developers
+ * [[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]]: Onboarding session for new !SageMath developers
 
  * Coding sprints
    * add proposals here
