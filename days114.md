@@ -7,7 +7,7 @@ July 25–27, 2022
 
 [[https://forms.gle/Ck38QnANrHnYtcXGA|Registration Form]]
 
-If you are interested in attending, please register before '''18th May 2022'''.
+International partiticipants: if you are interested in attending, please register before '''18th May 2022'''.
 
 === Organizing Committee ===
 
