@@ -42,6 +42,8 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
+ * [[https://dr-how.github.io/|Hao Chen]] (Minimal surfaces)
+
  * [[https://github.com/tobiasdiez|Tobias Diez]] (tentative; [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|New developer tools for Sage]])
 
  * [[https://github.com/fredrik-johansson|Fredrik Johansson]] (arb, Calcium, FLINT, fungrim, mpmath, ...)
@@ -57,8 +59,6 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
  * William Stein, Blaec Bejarano (Ways to Use Sage in [[https://cocalc.com/|CoCalc]])
 
  * [[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]] (solid angles of polyhedral cones)
-
- * [[https://dr-how.github.io/|Hao Chen]] (Minimal surfaces)
 
  * Meeting of Sage users in Korea to chat over installing, using, and developing Sage
    * Korea / Asia-Pacific region
