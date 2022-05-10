@@ -58,6 +58,8 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]] (solid angles of polyhedral cones)
 
+ * [[https://dr-how.github.io/|Hao Chen]] (Minimal surfaces)
+
  * Meeting of Sage users in Korea to chat over installing, using, and developing Sage
    * Korea / Asia-Pacific region
    * Schedule: 3 hours beginning Thursday, June 2, 2022, 06:00:00 GMT 
