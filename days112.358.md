@@ -71,6 +71,10 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
                which is June 2, 2022, 10 am to 12 noon Central European Summer Time (UTC+2)
    * [[http://www.slabbe.org/|Sébastien Labbé]] will present the new [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#GraphicswithTikZ|TikzPicture]] functionality in Sage 9.6
 
+ * Discussion and hands-on activity on Sage user packages: Packaging, continuous testing, and integration in the Sage distribution
+   * Organizer: [[https://www.labri.fr/perso/vdelecro/|Vincent Delecroix]], Matthias Köppe
+   * References: https://trac.sagemath.org/ticket/31164, https://github.com/fredstro/hilbertmodgroup/issues/5
+
  * Discussion: Landscape of symbolic equation solver interfaces, symbolic assumption facilities
 
  * Onboarding session for new !SageMath developers: How to make the step from using Sage to contributing to Sage.
