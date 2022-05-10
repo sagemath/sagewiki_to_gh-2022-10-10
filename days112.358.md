@@ -71,6 +71,10 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
                which is June 2, 2022, 10 am to 12 noon Central European Summer Time (UTC+2)
    * [[http://www.slabbe.org/|Sébastien Labbé]] will present the new [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#GraphicswithTikZ|TikzPicture]] functionality in Sage 9.6
 
+ * What is ... in Sage? (Short presentations: What is this animal? Is it dangerous? Can it eat my computer? How much space does it take?)
+   * Matthias Köppe: What is [[https://tox.wiki/en/latest/index.html|tox]] and how does Sage use it?
+   * ...
+
  * Discussion and hands-on activity on Sage user packages: Packaging, continuous testing, and integration in the Sage distribution
    * Organizer: [[https://www.labri.fr/perso/vdelecro/|Vincent Delecroix]], Matthias Köppe
    * References: https://trac.sagemath.org/ticket/31164, https://github.com/fredstro/hilbertmodgroup/issues/5
