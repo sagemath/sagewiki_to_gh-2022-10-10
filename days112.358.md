@@ -60,26 +60,30 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]] (solid angles of polyhedral cones)
 
- * Meeting of Sage users in Korea to chat over installing, using, and developing Sage
+ * '''Meeting of Sage users in Korea'''
+   * Chat over installing, using, and developing Sage
    * Korea / Asia-Pacific region
    * Schedule: 3 hours beginning Thursday, June 2, 2022, 06:00:00 GMT 
                which is June 2, 2022, 3 PM Korea Standard Time (UTC+9)
    * Organizer [[https://github.com/kwankyu|Kwankyu Lee]]
 
- * Sage Thursdays in Bordeaux
+ * '''Sage Thursdays in Bordeaux'''
    * Schedule: 2 hours beginning Thursday, June 2, 2022, 08:00:00 GMT
                which is June 2, 2022, 10 am to 12 noon Central European Summer Time (UTC+2)
    * [[http://www.slabbe.org/|Sébastien Labbé]] will present the new [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#GraphicswithTikZ|TikzPicture]] functionality in Sage 9.6
 
- * What is ... in Sage? (Short presentations: What is this animal? Is it dangerous? Can it eat my computer? How much space does it take?)
+ * '''What is ... in Sage?'''
+   * Short presentations: What is this animal? Is it dangerous? Can it eat my computer? How much space does it take?
    * Matthias Köppe: What is [[https://tox.wiki/en/latest/index.html|tox]] and how does Sage [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#testing-distribution-packages|use]] [[https://doc.sagemath.org/html/en/developer/portability_testing.html#automatic-docker-based-build-testing-using-tox|it]]?
    * ...
 
- * Discussion and hands-on activity on Sage user packages: Packaging, continuous testing, and integration in the Sage distribution
+ * '''Sage user packages: Packaging, continuous testing, and integration in the Sage distribution'''
+   * Discussion and hands-on activity
    * Organizer: [[https://www.labri.fr/perso/vdelecro/|Vincent Delecroix]], Matthias Köppe
    * References: https://trac.sagemath.org/ticket/31164, https://github.com/fredstro/hilbertmodgroup/issues/5
 
- * Discussion: Landscape of symbolic equation solver interfaces, symbolic assumption facilities
+ * '''Landscape of symbolic equation solver interfaces, symbolic assumption facilities'''
+   * Discussion
 
  * Onboarding session for new !SageMath developers: How to make the step from using Sage to contributing to Sage.
 
