@@ -74,7 +74,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * '''What is ... in Sage?'''
    * Short presentations: What is this animal? Is it dangerous? Can it eat my computer? How much space does it take?
-   * Matthias Köppe: What is [[https://tox.wiki/en/latest/index.html|tox]] and how does Sage [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#testing-distribution-packages|use]] [[https://doc.sagemath.org/html/en/developer/portability_testing.html#automatic-docker-based-build-testing-using-tox|it]]?
+   * Matthias Köppe: What is [[https://tox.wiki/en/latest/index.html|tox]] and how [[https://doc.sagemath.org/html/en/developer/tools.html#tox|does]] Sage [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#testing-distribution-packages|use]] [[https://doc.sagemath.org/html/en/developer/portability_testing.html#automatic-docker-based-build-testing-using-tox|it]]?
    * ...
 
  * '''Sage user packages: Packaging, continuous testing, and integration in the Sage distribution'''
