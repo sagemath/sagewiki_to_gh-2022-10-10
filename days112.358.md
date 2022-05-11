@@ -85,12 +85,14 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
  * '''Landscape of symbolic equation solver interfaces, symbolic assumption facilities'''
    * Discussion
 
- * Onboarding session for new !SageMath developers: How to make the step from using Sage to contributing to Sage.
+ * '''Onboarding session for new !SageMath developers'''
+   * How to make the step from using Sage to contributing to Sage.
 
- * Coding sprints
+ * '''Coding sprints'''
    * add proposals here
 
- * Downstream packaging forum with [[https://trac.sagemath.org/ticket/31016|Downstream patch upstreaming]]
+ * '''Downstream packaging forum'''
+   * [[https://trac.sagemath.org/ticket/31016|Downstream patch upstreaming]]
 
  * more TBA
 
