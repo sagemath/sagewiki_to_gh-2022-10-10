@@ -101,4 +101,6 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://www.etsmtl.ca/en/research/maitres-enseignement/jplabbe/|Jean-Philippe Labbé]] (ÉTS, Montréal)
 
+ * [[https://math.as.uky.edu/users/yzh392|Yuan Zhou]] (University of Kentucky)
+
 You can also join the [[https://sagemath.zulipchat.com/#narrow/stream/321245-sd112.2E358|Zulip #sd112.358 stream]] to contact the organization team.
