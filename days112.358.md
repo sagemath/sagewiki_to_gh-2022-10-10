@@ -78,7 +78,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
    * ...
 
  * '''Sage user packages: Packaging, continuous testing, and integration in the Sage distribution'''
-   * Discussion and hands-on activity
+   * Discussion and hands-on activity (bring your packages!)
    * Organizer: [[https://www.labri.fr/perso/vdelecro/|Vincent Delecroix]], Matthias Köppe
    * References: https://trac.sagemath.org/ticket/31164, https://github.com/fredstro/hilbertmodgroup/issues/5
 
