@@ -84,7 +84,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
  * '''Landscape of symbolic equation solver interfaces, symbolic assumption facilities'''
    * Discussion
 
- * '''Successful GSoC 2021 students'''
+ * '''Reports from GSoC 2021 projects'''
    * [[https://davidayotte.github.io/| David Ayotte]] (Quasimodular forms)
    * [[https://www.maths.ed.ac.uk/~s1504632/|Linden Disney-Hogg]] (Abel-Jacobi map on the Riemann surface)
 
