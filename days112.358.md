@@ -60,6 +60,8 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]] (solid angles of polyhedral cones)
 
+ * [[https://tiantianliu.cn|Tiantian Liu]] ([[https://taichi.graphics/|Taichi graphics]])
+
  * '''Meeting of Sage users in Korea'''
    * Sage users in Korea will get together and chat over installing, using, and developing Sage.
    * Schedule: 3 hours beginning Thursday, June 2, 2022, 06:00:00 GMT 
