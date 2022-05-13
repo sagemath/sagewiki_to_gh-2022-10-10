@@ -52,6 +52,8 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://github.com/nafur|Gereon Kremer]] ([[https://github.com/cvc5/cvc5|cvc5]], SMT)
 
+ * [[https://tiantianliu.cn|Tiantian Liu]] ([[https://taichi.graphics/|Taichi graphics]])
+
  * [[https://github.com/asmeurer|Aaron Meurer]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
  * [[https://github.com/ninamiolane|Nina Miolane]] ([[https://geomstats.github.io/|Geomstats]])
@@ -59,8 +61,6 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
  * William Stein, Blaec Bejarano (Ways to Use Sage in [[https://cocalc.com/|CoCalc]])
 
  * [[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]] (solid angles of polyhedral cones)
-
- * [[https://tiantianliu.cn|Tiantian Liu]] ([[https://taichi.graphics/|Taichi graphics]])
 
  * '''Meeting of Sage users in Korea'''
    * Sage users in Korea will get together and chat over installing, using, and developing Sage.
