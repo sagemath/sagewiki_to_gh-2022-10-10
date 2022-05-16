@@ -10,15 +10,16 @@ Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63
  * [[http://www.i2m.univ-amu.fr/perso/paul.mercat/index.php?p=programmes|Paul Mercat]] (Université Aix-Marseille) - [[http://www.i2m.univ-amu.fr/perso/paul.mercat/Programmes/Beta-adic/index.html|Package Beta-adic]]
  * [[https://lipn.univ-paris13.fr/~monteil/recherche/|Thierry Monteil]] - Translation surfaces
 
-== Tentative schedule == 
+
+== Tentative schedule ==
 
 To be announced.
 
-== How to register == 
+== How to register ==
 
 To be announced.
 
 == Organizing committee ==
 
-* Daniel Massart (IMAG, Université de Montpellier)
-* Romain Lebreton (LIRMM, Université de Montpellier)
+ * Daniel Massart (IMAG, Université de Montpellier)
+ * Romain Lebreton (LIRMM, Université de Montpellier)
