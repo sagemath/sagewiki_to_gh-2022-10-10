@@ -42,6 +42,8 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
+ * [[https://mariebrandenburg.github.io/|Marie-Charlotte Brandenburg]] ()
+
  * [[https://dr-how.github.io/|Hao Chen]] (Minimal surfaces)
 
  * [[https://github.com/tobiasdiez|Tobias Diez]] (tentative; [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|New developer tools for Sage]])
