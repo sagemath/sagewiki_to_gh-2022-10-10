@@ -42,7 +42,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
- * [[https://mariebrandenburg.github.io/|Marie-Charlotte Brandenburg]] ()
+ * [[https://mariebrandenburg.github.io/|Marie-Charlotte Brandenburg]] (Intersection bodies)
 
  * [[https://dr-how.github.io/|Hao Chen]] (Minimal surfaces)
 
