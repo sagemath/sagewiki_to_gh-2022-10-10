@@ -95,6 +95,9 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
    * [[https://www.maths.ed.ac.uk/~s1504632/|Linden Disney-Hogg]] (Abel-Jacobi map on the Riemann surface)
    * [[https://www-users.cse.umn.edu/~karnx018/|Trevor Karn]] (G-invariants of the Orlik-Solomon and Orlik-Terao algebras)
 
+ * '''Award Ceremony: Annual Spies SageMath Development Prize'''
+   * The award committee
+
  * '''Onboarding session for new !SageMath developers'''
    * How to make the step from using Sage to contributing to Sage.
 
