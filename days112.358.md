@@ -1,6 +1,7 @@
 = Global Virtual Sage Days 112.358 =
 
-An event for the !SageMath user and developer community
+An online event on open-source mathematical software
+with the !SageMath user and developer community
 
 The fully virtual event will take place '''June 1-3, 2022''', during the 50 hours when it is June 2, 2022 in [[https://en.wikipedia.org/wiki/List_of_UTC_time_offsets|some timezone in the world]]: 
 
