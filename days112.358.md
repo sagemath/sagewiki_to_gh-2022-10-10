@@ -65,7 +65,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]] (solid angles of polyhedral cones)
 
- * '''Sage Thursday in Korea'''
+ * '''Meeting of Sage users in Korea'''
    * Sage users in Korea will get together and chat over installing, using, and developing Sage.
    * Schedule: 3 hours beginning Thursday, June 2, 2022, 06:00:00 GMT 
                which is June 2, 2022, 3 PM Korea Standard Time (UTC+9)
