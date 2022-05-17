@@ -91,7 +91,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
    * Discussion
 
  * '''Reports from GSoC 2021 projects'''
-   * [[https://davidayotte.github.io/| David Ayotte]] (Quasimodular forms)
+   * [[https://davidayotte.github.io/| David Ayotte]] ('''Title''': Implementation of the Graded Ring of Quasimodular Forms. '''Abstract''': The goal of this talk is to explain how quasimodular forms were implemented into SageMath. We will first give a brief review of the theory of (quasi)modular forms and we will explain how the implementation works. Next a quick demo will be showcased. Lastly, further developments to the code will be discussed. )
    * [[https://www.maths.ed.ac.uk/~s1504632/|Linden Disney-Hogg]] (Abel-Jacobi map on the Riemann surface)
    * [[https://www-users.cse.umn.edu/~karnx018/|Trevor Karn]] (G-invariants of the Orlik-Solomon and Orlik-Terao algebras)
 
