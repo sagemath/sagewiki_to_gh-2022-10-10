@@ -59,7 +59,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://github.com/asmeurer|Aaron Meurer]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
- * [[https://github.com/ninamiolane|Nina Miolane]] ([[https://geomstats.github.io/|Geomstats]])
+ * '''[[https://github.com/ninamiolane|Nina Miolane]]: Geomstats - a Python package for differential geometry in statistics and machine learning.''' We introduce Geomstats, an open-source Python package for computations and statistics on nonlinear manifolds that appear in machine learning applications, such as: hyperbolic spaces, spaces of symmetric positive definite matrices, Lie groups of transformations, and many more. We provide object-oriented and extensively unit-tested implementations. Manifolds come equipped with families of Riemannian metrics with associated exponential and logarithmic maps, geodesics, and parallel transport. Statistics and learning algorithms provide methods for estimation, clustering, and dimension reduction on manifolds. All associated operations provide support for different execution backends --- namely NumPy, Autograd, PyTorch, and TensorFlow. This talk presents the package, compares it with related libraries, and provides relevant examples. We show that Geomstats provides reliable building blocks to both foster research in differential geometry and statistics and democratize the use of (Riemannian) geometry in statistics and machine learning. The source code is freely available under the MIT license at https://github.com/geomstats/geomstats.
 
  * William Stein, Blaec Bejarano (Ways to Use Sage in [[https://cocalc.com/|CoCalc]])
 
@@ -91,7 +91,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
    * Discussion
 
  * '''Reports from GSoC 2021 projects'''
-   * [[https://davidayotte.github.io/| David Ayotte]] ('''Title''': Implementation of the Graded Ring of Quasimodular Forms. '''Abstract''': The goal of this talk is to explain how quasimodular forms were implemented into SageMath. We will first give a brief review of the theory of (quasi)modular forms and we will explain how the implementation works. Next a quick demo will be showcased. Lastly, further developments to the code will be discussed. )
+   * '''[[https://davidayotte.github.io/| David Ayotte]]: Implementation of the Graded Ring of Quasimodular Forms.''' The goal of this talk is to explain how quasimodular forms were implemented into SageMath. We will first give a brief review of the theory of (quasi)modular forms and we will explain how the implementation works. Next a quick demo will be showcased. Lastly, further developments to the code will be discussed. )
    * [[https://www.maths.ed.ac.uk/~s1504632/|Linden Disney-Hogg]] (Abel-Jacobi map on the Riemann surface)
    * [[https://www-users.cse.umn.edu/~karnx018/|Trevor Karn]] (G-invariants of the Orlik-Solomon and Orlik-Terao algebras)
 
