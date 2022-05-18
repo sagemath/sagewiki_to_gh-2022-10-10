@@ -53,7 +53,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://github.com/fredrik-johansson|Fredrik Johansson]] (arb, Calcium, FLINT, fungrim, mpmath, ...)
 
- * '''[[https://github.com/mkoeppe/|Matthias Köppe]]: The way to a fully modularized Sage library 10.0.''' In May 2020, I proposed to modularize the Sage library by means of PEP 420 native namespace packages. I will give an overview of the status of this project 2 years and [[https://trac.sagemath.org/ticket/29705|200 Trac tickets]] later, and give a roadmap to the completion of the project as the proposed milestone goal for Sage 10.0.
+ * '''[[https://github.com/mkoeppe/|Matthias Köppe]]: The way to a fully modularized Sage library 10.0.''' In May 2020, I proposed to modularize the Sage library by means of PEP 420 implicit namespace packages. I will give an overview of the status of this project 2 years and [[https://trac.sagemath.org/ticket/29705|200 Trac tickets]] later, and give a roadmap to the completion of the project as the proposed milestone goal for Sage 10.0.
 
  * [[https://github.com/nafur|Gereon Kremer]] ([[https://github.com/cvc5/cvc5|cvc5]], SMT)
 
