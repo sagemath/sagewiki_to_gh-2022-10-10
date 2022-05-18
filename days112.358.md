@@ -87,6 +87,10 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
    * Organizer: [[https://www.labri.fr/perso/vdelecro/|Vincent Delecroix]], Matthias Köppe
    * References: https://trac.sagemath.org/ticket/31164, https://github.com/fredstro/hilbertmodgroup/issues/5
 
+ * '''Sage Teaching Forum'''
+   * Ingo Dahn presentation
+   * Discussion
+
  * '''Landscape of symbolic equation solver interfaces, symbolic assumption facilities'''
    * Discussion
 
