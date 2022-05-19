@@ -78,6 +78,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
    * Schedule: 2 hours beginning Thursday, June 2, 2022, 08:00:00 GMT
                which is June 2, 2022, 10 am to 12 noon Central European Summer Time (UTC+2)
    * [[http://www.slabbe.org/|Sébastien Labbé]] will present the new [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#GraphicswithTikZ|TikzPicture]] functionality in Sage 9.6
+   * The presentation will be followed by coding sprints starting by a "tour de table" where everyone announce their objective for the session.
 
  * '''What is ... in Sage?'''
    * Short presentations: What is this animal? Is it dangerous? Can it eat my computer? How much space does it take?
