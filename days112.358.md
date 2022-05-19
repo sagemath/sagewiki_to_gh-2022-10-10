@@ -91,8 +91,8 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
    * References: https://trac.sagemath.org/ticket/31164, https://github.com/fredstro/hilbertmodgroup/issues/5
 
  * '''Sage Teaching Forum'''
-   * Ingo Dahn presentation
-   * Discussion
+   * '''Ingo Dahn: Teaching with !SageMath - a German Higher Education Perspective.''' !SageMath - and similar systems - are currently used for teaching at German universities just by a few pioneers. The talk explains the particular reasons for this situation and analyzes, which properties of the !SageMath ecosystem, with !SageMath, !SageCell, !CoCalc and Docker-!CoCalc, facilitate a further uptake. The Virtual Campus of the German Land Rhineland-Palatine (VCRP) is determined to support the use of the potential of digital media for the improvement of teaching and learning at the public universities of the land. In particular, some !SageMath-based services are provided to support the work of the aforementioned pioneers, to learn from their experiences and to lower the barriers for other staff members for realizing !SageMath’s potential for innovative STEM teaching. These services, some of which are available as Open Educational Resources, will be described in the talk. Finally, some improvements for !SageMath are suggested that would further ease its use for teaching. Contact: dahn@vcrp.de
+   * Open discussion
 
  * '''Landscape of symbolic equation solver interfaces, symbolic assumption facilities'''
    * Discussion
