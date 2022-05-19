@@ -22,7 +22,7 @@ Another list by the AMS [[http://www.mathontheweb.org/mathweb/mi-software.html|h
 || Macaulay2 ||  GPL ||  http://www.math.uiuc.edu/Macaulay2/ ||
 || Magnus ||   GPL ||   http://sourceforge.net/projects/magnus/ ||
 || MAS || "open source" || http://krum.rz.uni-mannheim.de/mas/ ||
-|| Mathemagix ||  GPL? || http://www.mathemagix.org/ ||
+|| Mathemagix ||  GPL || http://www.mathemagix.org/ ||
 || Mathomatic ||  LGPL || https://launchpad.net/mathomatic||
 || Maxima ||   GPL || http://maxima.sourceforge.net ||
 || NTL ||  GPL || https://www.shoup.net/ntl/ ||
