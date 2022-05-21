@@ -47,7 +47,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://dr-how.github.io/|Hao Chen]] (Minimal surfaces)
 
- * Steven Diamond (CVXPY)
+ * '''[[https://stevendiamond.me/|Steven Diamond]]: CVXPY'''. CVXPY is a domain-specific language for convex optimization embedded in Python. It allows the user to express convex optimization problems in a natural syntax that follows the math, rather than in the restrictive standard form required by solvers. CVXPY has been used in hundreds of research projects and by Fortune 500 companies. In this talk, we will show how easy it is to formulate and solve optimization problems with CVXPY through example applications in finance and renewable energy. We will also highlight exciting recent work building on CVXPY.
 
  * [[https://github.com/tobiasdiez|Tobias Diez]] (tentative; [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|New developer tools for Sage]])
 
