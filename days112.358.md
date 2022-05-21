@@ -47,6 +47,8 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://dr-how.github.io/|Hao Chen]] (Minimal surfaces)
 
+ * Steven Diamond (CVXPY)
+
  * [[https://github.com/tobiasdiez|Tobias Diez]] (tentative; [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|New developer tools for Sage]])
 
  * '''[[https://www.maths.ed.ac.uk/school-of-mathematics/people/a-z?person=47|Julian Hall]]: HiGHS: The world's best open-source linear optimization software - coming to !SageMath!''' HiGHS is open-source linear optimization software developed by Hall and Edinburgh PhD students over the past six years. It solves large-scale sparse linear programming (LP) problems (using simplex and interior point methods), mixed-integer programming (MIP) problems and quadratic programming (QP) problems. Its overall performance on Mittelmann's benchmarks places it clearly ahead of any other open-source linear optimization software. This talk will introduce some of the techniques underpinning HiGHS, the environment in which it can be used, and its performance. In the world of software interfaces, HiGHS provides the LP and MIP solvers in the !SciPy system, and is the open-source solver of choice in the popular modern Julia-based modelling and optimization system JuMP. The prospects for its integration into !SageMath will be discussed.
