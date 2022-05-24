@@ -52,5 +52,7 @@ Registration is free of charge but required to help the organizers. Please fill 
 
 == Organizing committee ==
 
- * Daniel Massart (IMAG, Université de Montpellier)
- * Romain Lebreton (LIRMM, Université de Montpellier)
+Do not hesitate to contact us !
+
+ * <<MailTo(daniel DOT massart AT umontpellier DOT fr, Daniel Massart)>> (IMAG, Université de Montpellier)
+ * <<MailTo(romain DOT lebreton AT umontpellier DOT fr, Romain Lebreton)>> (LIRMM, Université de Montpellier)
