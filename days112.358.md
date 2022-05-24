@@ -45,8 +45,6 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
  * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
- * [[https://mariebrandenburg.github.io/|Marie-Charlotte Brandenburg]] (Intersection bodies)
-
  * '''[[https://dr-how.github.io/|Hao Chen]]: Why I turned to Mathematica (sorry) to plot minimal surfaces'''. I will introduce the general procedure to plot minimal surfaces from Weierstrass data.  For this purpose, I will present two examples from recent works: One is a deformation of the Gyroid, the other is related to vortices in 2D fluids.  As a former Sage user, I had to turn to Mathematica for this task because of the heavy use of special functions and numeric integrals.  In the future, I would like to see an open-source implementation of the procedure with a performance comparable to Mathematica.
 
  * '''[[https://stevendiamond.me/|Steven Diamond]]: CVXPY'''. CVXPY is a domain-specific language for convex optimization embedded in Python. It allows the user to express convex optimization problems in a natural syntax that follows the math, rather than in the restrictive standard form required by solvers. CVXPY has been used in hundreds of research projects and by Fortune 500 companies. In this talk, we will show how easy it is to formulate and solve optimization problems with CVXPY through example applications in finance and renewable energy. We will also highlight exciting recent work building on CVXPY.
