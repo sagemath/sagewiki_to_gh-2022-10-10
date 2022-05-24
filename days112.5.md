@@ -48,7 +48,7 @@ Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63
 
 == How to register ==
 
-To be announced.
+Registration is free of charge but required to help the organizers. Please fill the [[https://framaforms.org/inscription-aux-sagedays-montpellier-du-lundi-1306-au-mercredi-15062022-1653401118|registration form]].
 
 == Organizing committee ==
 
