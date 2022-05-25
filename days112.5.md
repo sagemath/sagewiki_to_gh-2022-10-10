@@ -2,7 +2,7 @@
 
 == Important information ==
 
-Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63232/3.86555|Université de Montpellier]] from Monday June 13 to Wednesday June 15.
+Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63137/3.86542|Université de Montpellier]] from Monday June 13 to Wednesday June 15. The talks will take place in [[https://www.openstreetmap.org/#map=19/43.63137/3.86542|Bâtiment 10, salle 10.01]], just next to IMAG.
 
 == Invited speakers ==
 
@@ -21,7 +21,7 @@ Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63
  * 14h30-15h30 : TP d'initiation à SageMath (Thierry Monteil)
  * 15h30-16h00 : Pause café
  * 16h00-16h30 : Petru Valicov (Graphe dans Sage)
- * 16h30-17h00 : Étudiants de l'IUT encadré par Petru Valicov (Outil de manipulation de graphes lié à Sage)
+ * 16h30-17h00 : Étudiants de l'IUT encadrés par Petru Valicov (Outil de manipulation de graphes lié à Sage)
 
 
 ''Mardi 14 juin :''
