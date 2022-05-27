@@ -71,6 +71,8 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
    * Sage users in Korea will get together and chat over installing, using, and developing Sage.
    * Schedule: 3 hours beginning Thursday, June 2, 2022, 06:00:00 GMT 
                which is June 2, 2022, 3 PM Korea Standard Time (UTC+9)
+   * For the purpose of the meeting, the primary language will be Korean. Don't be embarrassed upon entry.
+   * Zoom invitation link: https://us06web.zoom.us/j/9401552754?pwd=SjFFWXVUZnNjM0xwY3FYVG5DVGtFZz09 
    * Organizer: [[https://github.com/kwankyu|Kwankyu Lee]]
 
 
