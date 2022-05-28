@@ -95,53 +95,54 @@ Thursday June 2, 06:00–12:00 UTC
  * '''[[https://dr-how.github.io/|Hao Chen]]: Why I turned to Mathematica (sorry) to plot minimal surfaces'''. I will introduce the general procedure to plot minimal surfaces from Weierstrass data.  For this purpose, I will present two examples from recent works: One is a deformation of the Gyroid, the other is related to vortices in 2D fluids.  As a former Sage user, I had to turn to Mathematica for this task because of the heavy use of special functions and numeric integrals.  In the future, I would like to see an open-source implementation of the procedure with a performance comparable to Mathematica.
 
 
-== More Activities and Speakers ==
+=== Session 5: SageMath Developer Community ===
 
- * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
+Thursday June 2, 14:00-18:00 UTC
 
-
- * [[https://github.com/tobiasdiez|Tobias Diez]] (tentative; [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|New developer tools for Sage]])
-
-
- * '''[[https://github.com/fredrik-johansson|Fredrik Johansson]]: FLINT: Fast Library for Number Theory.''' FLINT is a C library used in Sage and several other projects to provide fast arithmetic in various rings as well as efficient implementations of number theoretic functions. This talk will give an overview of FLINT and some descendants projects (Antic, Arb, Calcium), present recent work, and discuss ongoing and future development.
-
- * [[https://github.com/nafur|Gereon Kremer]] ([[https://github.com/cvc5/cvc5|cvc5]], SMT)
-
- * [[https://github.com/asmeurer|Aaron Meurer]] ([[https://www.sympy.org/en/index.html|SymPy]])
-
-
- * [[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]] (solid angles of polyhedral cones)
-
-
-
- * '''What is ... in Sage?'''
-   * Short presentations: What is this animal? Is it dangerous? Can it eat my computer? How much space does it take?
-   * Matthias Köppe: What is [[https://tox.wiki/en/latest/index.html|tox]] and how [[https://doc.sagemath.org/html/en/developer/tools.html#tox|does]] Sage [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#testing-distribution-packages|use]] [[https://doc.sagemath.org/html/en/developer/portability_testing.html#automatic-docker-based-build-testing-using-tox|it]]?
-   * ...
-
-
- * '''Sage Teaching Forum'''
-   * '''Ingo Dahn: Teaching with !SageMath - a German Higher Education Perspective.''' !SageMath - and similar systems - are currently used for teaching at German universities just by a few pioneers. The talk explains the particular reasons for this situation and analyzes, which properties of the !SageMath ecosystem, with !SageMath, !SageCell, !CoCalc and Docker-!CoCalc, facilitate a further uptake. The Virtual Campus of the German Land Rhineland-Palatine (VCRP) is determined to support the use of the potential of digital media for the improvement of teaching and learning at the public universities of the land. In particular, some !SageMath-based services are provided to support the work of the aforementioned pioneers, to learn from their experiences and to lower the barriers for other staff members for realizing !SageMath’s potential for innovative STEM teaching. These services, some of which are available as Open Educational Resources, will be described in the talk. Finally, some improvements for !SageMath are suggested that would further ease its use for teaching. Contact: dahn@vcrp.de
-   * Open discussion
-
- * '''Landscape of symbolic equation solver interfaces, symbolic assumption facilities'''
-   * Discussion
-
- * '''Reports from GSoC 2021 projects'''
-   * '''[[https://davidayotte.github.io/| David Ayotte]]: Implementation of the Graded Ring of Quasimodular Forms.''' The goal of this talk is to explain how quasimodular forms were implemented into SageMath. We will first give a brief review of the theory of (quasi)modular forms and we will explain how the implementation works. Next a quick demo will be showcased. Lastly, further developments to the code will be discussed. )
-   * [[https://www.maths.ed.ac.uk/~s1504632/|Linden Disney-Hogg]] (Abel-Jacobi map on the Riemann surface)
-   * [[https://www-users.cse.umn.edu/~karnx018/|Trevor Karn]] (G-invariants of the Orlik-Solomon and Orlik-Terao algebras)
+ * '''[[https://github.com/tobiasdiez|Tobias Diez]]: [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|New developer tools for Sage]])'''
 
  * '''Award Ceremony: Annual Spies SageMath Development Prize'''
    * The award committee
 
  * '''Onboarding session for new !SageMath developers'''
    * How to make the step from using Sage to contributing to Sage.
+    * '''What is ... in Sage?'''
+      * Short presentations: What is this animal? Is it dangerous? Can it eat my computer? How much space does it take?
+        * Matthias Köppe: What is [[https://tox.wiki/en/latest/index.html|tox]] and how [[https://doc.sagemath.org/html/en/developer/tools.html#tox|does]] Sage [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#testing-distribution-packages|use]] [[https://doc.sagemath.org/html/en/developer/portability_testing.html#automatic-docker-based-build-testing-using-tox|it]]?
 
- * '''Coding sprints'''
-   * add proposals here
+ * '''Reports from GSoC 2021 projects'''
+   * '''[[https://davidayotte.github.io/| David Ayotte]]: Implementation of the Graded Ring of Quasimodular Forms.''' The goal of this talk is to explain how quasimodular forms were implemented into SageMath. We will first give a brief review of the theory of (quasi)modular forms and we will explain how the implementation works. Next a quick demo will be showcased. Lastly, further developments to the code will be discussed. )
+   * [[https://www.maths.ed.ac.uk/~s1504632/|Linden Disney-Hogg]] (Abel-Jacobi map on the Riemann surface)
+   * [[https://www-users.cse.umn.edu/~karnx018/|Trevor Karn]] (G-invariants of the Orlik-Solomon and Orlik-Terao algebras)
 
- * more TBA
+ * GSoC panel
+
+=== Session 6: Symbolic System Symposium ===
+
+Thursday June 2, 18:00-23:59 UTC
+
+ * '''[[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]]: Solid angles of polyhedral cones via decompositions and power series'''
+
+ * '''[[https://github.com/fredrik-johansson|Fredrik Johansson]]: FLINT: Fast Library for Number Theory.''' FLINT is a C library used in Sage and several other projects to provide fast arithmetic in various rings as well as efficient implementations of number theoretic functions. This talk will give an overview of FLINT and some descendants projects (Antic, Arb, Calcium), present recent work, and discuss ongoing and future development.
+
+ * '''[[https://github.com/asmeurer|Aaron Meurer]]: [[https://www.sympy.org/en/index.html|SymPy]]'''
+
+ * '''[[https://github.com/nafur|Gereon Kremer]]: Satisfiability Modulo Theories for Arithmetic Problems'''
+
+ * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
+
+ * '''Landscape of symbolic equation solver interfaces, symbolic assumption facilities'''
+   * Discussion
+
+
+=== Session 7: Sage Teaching Forum ===
+
+Friday June 3, 11:00–11:59 UTC
+
+   * '''Ingo Dahn: Teaching with !SageMath - a German Higher Education Perspective.''' !SageMath - and similar systems - are currently used for teaching at German universities just by a few pioneers. The talk explains the particular reasons for this situation and analyzes, which properties of the !SageMath ecosystem, with !SageMath, !SageCell, !CoCalc and Docker-!CoCalc, facilitate a further uptake. The Virtual Campus of the German Land Rhineland-Palatine (VCRP) is determined to support the use of the potential of digital media for the improvement of teaching and learning at the public universities of the land. In particular, some !SageMath-based services are provided to support the work of the aforementioned pioneers, to learn from their experiences and to lower the barriers for other staff members for realizing !SageMath’s potential for innovative STEM teaching. These services, some of which are available as Open Educational Resources, will be described in the talk. Finally, some improvements for !SageMath are suggested that would further ease its use for teaching. Contact: dahn@vcrp.de
+
+   * Open discussion
+
 
 == Organizers ==
 
