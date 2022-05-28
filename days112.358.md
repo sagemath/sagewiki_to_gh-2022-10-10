@@ -95,7 +95,7 @@ Thursday June 2, 06:00–12:00 UTC
  * '''[[https://dr-how.github.io/|Hao Chen]]: Why I turned to Mathematica (sorry) to plot minimal surfaces'''. I will introduce the general procedure to plot minimal surfaces from Weierstrass data.  For this purpose, I will present two examples from recent works: One is a deformation of the Gyroid, the other is related to vortices in 2D fluids.  As a former Sage user, I had to turn to Mathematica for this task because of the heavy use of special functions and numeric integrals.  In the future, I would like to see an open-source implementation of the procedure with a performance comparable to Mathematica.
 
 
-=== Session 5: SageMath Developer Community ===
+=== Session 5: SageMath Developer Community and Google Summer of Code ===
 
 Thursday June 2, 14:00-18:00 UTC
 
