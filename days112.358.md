@@ -86,7 +86,7 @@ Thursday June 2, 06:00–12:00 UTC
 
  * '''[[https://tiantianliu.cn|Tiantian Liu]] ([[https://taichi.graphics/|Taichi graphics]]): [[https://researchseminars.org/talk/SageDays112358/18/|A hands-on tutorial of the Taichi Programming Language]].''' In this talk, we will deliver a hands-on tutorial on Taichi programming language -- a new programming language designed for performance-aware computer graphics developers. Taichi was designed with productivity and portability in mind: Taichi programmers code in a Python-like syntax, and then the Taichi compiler emits high-performance executable kernels on CPUs (e.g., x64, ARM64) and GPUs (e.g., CUDA, Apple Metal, and OpenGL). We will systematically cover the Taichi concepts such as its basic syntax, defining data structures, writing high-performance Taichi kernels, differentiable programming, and debugging etc. We will also talk about programming tools to improve the reusability of Taichi programs. We hope Taichi and this 45-minute presentation can reduce the engineering burden on both beginner coders, as well as experienced practitioners in high-performance software development.
 
- * '''Sage Thursdays in Bordeaux'''
+ * '''[[https://researchseminars.org/talk/SageDays112358/4/|Sage Thursdays in Bordeaux]]'''
    * Schedule: 2 hours beginning Thursday, June 2, 2022, 08:00 UTC
                which is June 2, 2022, 10 am to 12 noon Central European Summer Time (UTC+2)
    * [[http://www.slabbe.org/|Sébastien Labbé]] will present the new [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#GraphicswithTikZ|TikzPicture]] functionality in Sage 9.6
