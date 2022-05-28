@@ -107,7 +107,7 @@ Thursday June 2, 14:00-18:00 UTC
  * '''Onboarding session for new !SageMath developers'''
    * How to make the step from using Sage to contributing to Sage.
     * '''What is ... in Sage?'''
-      * Short presentations: What is this animal? Is it dangerous? Can it eat my computer? How much space does it take?
+    * Short presentations: What is this animal? Is it dangerous? Can it eat my computer? How much space does it take?
         * Matthias Köppe: What is [[https://tox.wiki/en/latest/index.html|tox]] and how [[https://doc.sagemath.org/html/en/developer/tools.html#tox|does]] Sage [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#testing-distribution-packages|use]] [[https://doc.sagemath.org/html/en/developer/portability_testing.html#automatic-docker-based-build-testing-using-tox|it]]?
 
  * '''Reports from GSoC 2021 projects'''
@@ -138,7 +138,7 @@ Thursday June 2, 18:00-23:59 UTC
 
 Friday June 3, 11:00–11:59 UTC
 
-   * '''[[https://dahn-research.eu/|Ingo Dahn]]: [[https://researchseminars.org/talk/SageDays112358/2/|Teaching with !SageMath – a German Higher Education Perspective]].''' !SageMath - and similar systems - are currently used for teaching at German universities just by a few pioneers. The talk explains the particular reasons for this situation and analyzes, which properties of the !SageMath ecosystem, with !SageMath, !SageCell, !CoCalc and Docker-!CoCalc, facilitate a further uptake. The Virtual Campus of the German Land Rhineland-Palatine (VCRP) is determined to support the use of the potential of digital media for the improvement of teaching and learning at the public universities of the land. In particular, some !SageMath-based services are provided to support the work of the aforementioned pioneers, to learn from their experiences and to lower the barriers for other staff members for realizing !SageMath’s potential for innovative STEM teaching. These services, some of which are available as Open Educational Resources, will be described in the talk. Finally, some improvements for !SageMath are suggested that would further ease its use for teaching. Contact: dahn@vcrp.de
+   * '''[[https://dahn-research.eu/|Ingo Dahn]]: [[https://researchseminars.org/talk/SageDays112358/2/|Teaching with SageMath—a German Higher Education Perspective]].''' !SageMath—and similar systems—are currently used for teaching at German universities just by a few pioneers. The talk explains the particular reasons for this situation and analyzes, which properties of the !SageMath ecosystem, with !SageMath, !SageCell, !CoCalc and Docker-!CoCalc, facilitate a further uptake. The Virtual Campus of the German Land Rhineland-Palatine (VCRP) is determined to support the use of the potential of digital media for the improvement of teaching and learning at the public universities of the land. In particular, some !SageMath-based services are provided to support the work of the aforementioned pioneers, to learn from their experiences and to lower the barriers for other staff members for realizing !SageMath’s potential for innovative STEM teaching. These services, some of which are available as Open Educational Resources, will be described in the talk. Finally, some improvements for !SageMath are suggested that would further ease its use for teaching. Contact: dahn@vcrp.de
 
    * Open discussion
 
