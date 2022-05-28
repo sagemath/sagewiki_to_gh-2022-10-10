@@ -47,7 +47,7 @@ Wednesday June 1, 14:45–15:45 UTC. Session chair: Jean-Philippe Labbé
 
 === Session 2: Fresh Numerics from Upstream ===
 
-Wednesday June 1, 16:00–18:45 UTC
+Wednesday June 1, 16:00–18:45 UTC. Session chair: Matthias Köppe
 
  * '''[[https://stevendiamond.me/|Steven Diamond]]: [[https://researchseminars.org/talk/SageDays112358/6/|CVXPY]]'''. CVXPY is a domain-specific language for convex optimization embedded in Python. It allows the user to express convex optimization problems in a natural syntax that follows the math, rather than in the restrictive standard form required by solvers. CVXPY has been used in hundreds of research projects and by Fortune 500 companies. In this talk, we will show how easy it is to formulate and solve optimization problems with CVXPY through example applications in finance and renewable energy. We will also highlight exciting recent work building on CVXPY.
 
