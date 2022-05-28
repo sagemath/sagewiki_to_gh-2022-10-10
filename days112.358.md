@@ -119,7 +119,7 @@ Thursday June 2, 14:00-18:00 UTC
 
 === Session 6: Symbolic System Symposium ===
 
-Thursday June 2, 18:00-23:59 UTC
+Thursday June 2, 18:00-23:59 UTC. Session chair: Matthias Köppe
 
  * '''[[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]]: [[https://researchseminars.org/talk/SageDays112358/22/|Solid angles of polyhedral cones via decompositions and power series]]'''
 
