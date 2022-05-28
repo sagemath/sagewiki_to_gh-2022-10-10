@@ -3,19 +3,17 @@
 An online event on open-source mathematical software 
 with the !SageMath users and developers around the globe
 
-The fully virtual event will take place '''June 1-3, 2022''', during the 50 hours when it is June 2, 2022 in [[https://en.wikipedia.org/wiki/List_of_UTC_time_offsets|some timezone in the world]]: 
+The fully virtual event will take place '''June 1–3, 2022''', during the 50 hours when it is June 2, 2022 in [[https://en.wikipedia.org/wiki/List_of_UTC_time_offsets|some timezone in the world]]: 
 
- * '''Beginning: Wednesday, June 1, 2022, 10:00:00 (morning) GMT''',
+ * '''Beginning: Wednesday, June 1, 2022, 10:00 (morning) GMT''',
 
    .... which is June 2, 2022, 00:00 Kiribati time (UTC+14),
 
- * '''End: Friday, June 3, 2022, 11:59:59 (noon) GMT''', 
+ * '''End: Friday, June 3, 2022, 11:59 (noon) GMT''', 
 
-   .... which is June 2, 2022, 23:59:59 Baker Island time (UTC-12),
+   .... which is June 2, 2022, 23:59 Baker Island time (UTC-12).
 
-The schedule will be released soon.
-
-[[https://wiki.sagemath.org/Workshops|Sage Days]] are gatherings of people interested in !SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the ongoing global health crisis, Sage Days 112.358 ([[https://groups.google.com/g/sage-devel/c/WYnrwDjLhUw/m/oOwLAunwAAAJ]|why this number?]]) will be a fully virtual event following the model of [[days109|Sage Days 109]] and [[days110|Sage Days 110]]
+[[https://wiki.sagemath.org/Workshops|Sage Days]] are gatherings of people interested in !SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the ongoing global health crisis, '''Sage Days 112.358''' ([[https://groups.google.com/g/sage-devel/c/WYnrwDjLhUw/m/oOwLAunwAAAJ]|why this number?]]) will be a fully virtual event following the model of [[days109|Sage Days 109]] and [[days110|Sage Days 110]]
 
 <<TableOfContents>>
 
@@ -31,13 +29,13 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
  * Join our [[https://sagemath.zulipchat.com/#narrow/stream/321245-sd112.2E358|zulip #sd112.358]] messaging stream. This stream will contain all of the information regarding the talks and events for Sage Days 112.358.
 
- * '''Video conferencing''': We will primarily be using Zoom and [[https://bigbluebutton.org/|BigBlueButton]] (BBB; see [[https://en.wikipedia.org/wiki/BigBlueButton|Wikipedia page]]; [[https://bigbluebutton.org/open-source-license/|license]]) (with BBB servers at Orsay and/or other French institutions). However, other software such as Google Meet can also be used.
+ * '''Video conferencing''': We will primarily be using Zoom.
 
    * Details, how to access: will be announced on the Zulip stream.
 
 == Schedule, videos, and talk slides ==
 
-The schedule, title, abstracts, videos, and supplementary materials of the talks will be found on [[https://researchseminars.org/seminar/SageDays112358|researchseminars.org]].
+The detailed schedule, title, abstracts, videos, and supplementary materials of the talks are found on [[https://researchseminars.org/seminar/SageDays112358|researchseminars.org]].
 
 === Session 1: Introduction ===
 
@@ -51,9 +49,9 @@ Wednesday June 1, 16:00–18:45 UTC
 
  * '''[[https://stevendiamond.me/|Steven Diamond]]: CVXPY'''. CVXPY is a domain-specific language for convex optimization embedded in Python. It allows the user to express convex optimization problems in a natural syntax that follows the math, rather than in the restrictive standard form required by solvers. CVXPY has been used in hundreds of research projects and by Fortune 500 companies. In this talk, we will show how easy it is to formulate and solve optimization problems with CVXPY through example applications in finance and renewable energy. We will also highlight exciting recent work building on CVXPY.
 
- * '''[[https://www.maths.ed.ac.uk/school-of-mathematics/people/a-z?person=47|Julian Hall]]: HiGHS: The world's best open-source linear optimization software - coming to !SageMath!''' HiGHS is open-source linear optimization software developed by Hall and Edinburgh PhD students over the past six years. It solves large-scale sparse linear programming (LP) problems (using simplex and interior point methods), mixed-integer programming (MIP) problems and quadratic programming (QP) problems. Its overall performance on Mittelmann's benchmarks places it clearly ahead of any other open-source linear optimization software. This talk will introduce some of the techniques underpinning HiGHS, the environment in which it can be used, and its performance. In the world of software interfaces, HiGHS provides the LP and MIP solvers in the !SciPy system, and is the open-source solver of choice in the popular modern Julia-based modelling and optimization system JuMP. The prospects for its integration into !SageMath will be discussed.
+ * '''[[https://www.maths.ed.ac.uk/school-of-mathematics/people/a-z?person=47|Julian Hall]]: HiGHS: The world's best open-source linear optimization software—coming to !SageMath!''' HiGHS is open-source linear optimization software developed by Hall and Edinburgh PhD students over the past six years. It solves large-scale sparse linear programming (LP) problems (using simplex and interior point methods), mixed-integer programming (MIP) problems and quadratic programming (QP) problems. Its overall performance on Mittelmann's benchmarks places it clearly ahead of any other open-source linear optimization software. This talk will introduce some of the techniques underpinning HiGHS, the environment in which it can be used, and its performance. In the world of software interfaces, HiGHS provides the LP and MIP solvers in the !SciPy system, and is the open-source solver of choice in the popular modern Julia-based modelling and optimization system JuMP. The prospects for its integration into !SageMath will be discussed.
 
- * '''[[https://github.com/ninamiolane|Nina Miolane]]: Geomstats - a Python package for differential geometry in statistics and machine learning.''' We introduce Geomstats, an open-source Python package for computations and statistics on nonlinear manifolds that appear in machine learning applications, such as: hyperbolic spaces, spaces of symmetric positive definite matrices, Lie groups of transformations, and many more. We provide object-oriented and extensively unit-tested implementations. Manifolds come equipped with families of Riemannian metrics with associated exponential and logarithmic maps, geodesics, and parallel transport. Statistics and learning algorithms provide methods for estimation, clustering, and dimension reduction on manifolds. All associated operations provide support for different execution backends --- namely !NumPy, Autograd, !PyTorch, and !TensorFlow. This talk presents the package, compares it with related libraries, and provides relevant examples. We show that Geomstats provides reliable building blocks to both foster research in differential geometry and statistics and democratize the use of (Riemannian) geometry in statistics and machine learning. The source code is freely available under the MIT license at https://github.com/geomstats/geomstats.
+ * '''[[https://github.com/ninamiolane|Nina Miolane]]: Geomstats—a Python package for differential geometry in statistics and machine learning.''' We introduce Geomstats, an open-source Python package for computations and statistics on nonlinear manifolds that appear in machine learning applications, such as: hyperbolic spaces, spaces of symmetric positive definite matrices, Lie groups of transformations, and many more. We provide object-oriented and extensively unit-tested implementations. Manifolds come equipped with families of Riemannian metrics with associated exponential and logarithmic maps, geodesics, and parallel transport. Statistics and learning algorithms provide methods for estimation, clustering, and dimension reduction on manifolds. All associated operations provide support for different execution backends—namely !NumPy, Autograd, !PyTorch, and !TensorFlow. This talk presents the package, compares it with related libraries, and provides relevant examples. We show that Geomstats provides reliable building blocks to both foster research in differential geometry and statistics and democratize the use of (Riemannian) geometry in statistics and machine learning. The source code is freely available under the MIT license at https://github.com/geomstats/geomstats.
 
 === Session 3: Sage Modularization and Packaging Summit ===
 
@@ -61,7 +59,7 @@ Wednesday June 1, 19:00–23:59 UTC
 
    * '''Sage user packages: Packaging, continuous testing, and integration in the Sage distribution'''
      * Discussion and hands-on activity (bring your packages!)
-     * Organizer: [[https://www.labri.fr/perso/vdelecro/|Vincent Delecroix]], Matthias Köppe
+     * Organizer: [[https://www.labri.fr/perso/vdelecro/|Vincent Delecroix]], Jonathan Kliem, Matthias Köppe
      * References: https://trac.sagemath.org/ticket/31164, https://github.com/fredstro/hilbertmodgroup/issues/5
 
    * '''[[https://github.com/mkoeppe/|Matthias Köppe]]: The way to a fully modularized Sage library 10.0.''' In May 2020, I proposed to modularize the Sage library by means of PEP 420 implicit namespace packages. I will give an overview of the status of this project 2 years and [[https://trac.sagemath.org/ticket/29705|200 Trac tickets]] later, and give a roadmap to the completion of the project as the proposed milestone goal for Sage 10.0.
@@ -76,30 +74,30 @@ Wednesday June 1, 19:00–23:59 UTC
 
 Thursday June 2, 06:00–12:00 UTC
 
- * '''Meeting of Sage users in Korea'''
+ * '''[[https://researchseminars.org/talk/SageDays112358/3/|Meeting of Sage users in Korea]]'''
    * Sage users in Korea will get together and chat over installing, using, and developing Sage.
-   * Schedule: 3 hours beginning Thursday, June 2, 2022, 06:00:00 GMT 
+   * Schedule: 3 hours beginning Thursday, June 2, 2022, 06:00 UTC 
                which is June 2, 2022, 3 PM Korea Standard Time (UTC+9)
    * For the purpose of the meeting, the primary language will be Korean. Don't be embarrassed upon entry.
    * Zoom invitation link: https://us06web.zoom.us/j/9401552754?pwd=SjFFWXVUZnNjM0xwY3FYVG5DVGtFZz09 
    * Organizer: [[https://github.com/kwankyu|Kwankyu Lee]]
 
- * '''[[https://tiantianliu.cn|Tiantian Liu]] ([[https://taichi.graphics/|Taichi graphics]]): A hands-on tutorial of the Taichi Programming Language.''' In this talk, we will deliver a hands-on tutorial on Taichi programming language -- a new programming language designed for performance-aware computer graphics developers. Taichi was designed with productivity and portability in mind: Taichi programmers code in a Python-like syntax, and then the Taichi compiler emits high-performance executable kernels on CPUs (e.g., x64, ARM64) and GPUs (e.g., CUDA, Apple Metal, and OpenGL). We will systematically cover the Taichi concepts such as its basic syntax, defining data structures, writing high-performance Taichi kernels, differentiable programming, and debugging etc. We will also talk about programming tools to improve the reusability of Taichi programs. We hope Taichi and this 45-minute presentation can reduce the engineering burden on both beginner coders, as well as experienced practitioners in high-performance software development.
+ * '''[[https://tiantianliu.cn|Tiantian Liu]] ([[https://taichi.graphics/|Taichi graphics]]): [[https://researchseminars.org/talk/SageDays112358/18/|A hands-on tutorial of the Taichi Programming Language]].''' In this talk, we will deliver a hands-on tutorial on Taichi programming language -- a new programming language designed for performance-aware computer graphics developers. Taichi was designed with productivity and portability in mind: Taichi programmers code in a Python-like syntax, and then the Taichi compiler emits high-performance executable kernels on CPUs (e.g., x64, ARM64) and GPUs (e.g., CUDA, Apple Metal, and OpenGL). We will systematically cover the Taichi concepts such as its basic syntax, defining data structures, writing high-performance Taichi kernels, differentiable programming, and debugging etc. We will also talk about programming tools to improve the reusability of Taichi programs. We hope Taichi and this 45-minute presentation can reduce the engineering burden on both beginner coders, as well as experienced practitioners in high-performance software development.
 
  * '''Sage Thursdays in Bordeaux'''
-   * Schedule: 2 hours beginning Thursday, June 2, 2022, 08:00:00 GMT
+   * Schedule: 2 hours beginning Thursday, June 2, 2022, 08:00 UTC
                which is June 2, 2022, 10 am to 12 noon Central European Summer Time (UTC+2)
    * [[http://www.slabbe.org/|Sébastien Labbé]] will present the new [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#GraphicswithTikZ|TikzPicture]] functionality in Sage 9.6
    * The presentation will be followed by coding sprints starting by a "tour de table" where everyone announce their objective for the session.
 
- * '''[[https://dr-how.github.io/|Hao Chen]]: Why I turned to Mathematica (sorry) to plot minimal surfaces'''. I will introduce the general procedure to plot minimal surfaces from Weierstrass data.  For this purpose, I will present two examples from recent works: One is a deformation of the Gyroid, the other is related to vortices in 2D fluids.  As a former Sage user, I had to turn to Mathematica for this task because of the heavy use of special functions and numeric integrals.  In the future, I would like to see an open-source implementation of the procedure with a performance comparable to Mathematica.
+ * '''[[https://dr-how.github.io/|Hao Chen]]: [[https://researchseminars.org/talk/SageDays112358/19/|Why I turned to Mathematica (sorry) to plot minimal surfaces]]'''. I will introduce the general procedure to plot minimal surfaces from Weierstrass data.  For this purpose, I will present two examples from recent works: One is a deformation of the Gyroid, the other is related to vortices in 2D fluids.  As a former Sage user, I had to turn to Mathematica for this task because of the heavy use of special functions and numeric integrals.  In the future, I would like to see an open-source implementation of the procedure with a performance comparable to Mathematica.
 
 
 === Session 5: SageMath Developer Community and Google Summer of Code ===
 
 Thursday June 2, 14:00-18:00 UTC
 
- * '''[[https://github.com/tobiasdiez|Tobias Diez]]: [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|New developer tools for Sage]])'''
+ * '''[[https://github.com/tobiasdiez|Tobias Diez]]: [[https://researchseminars.org/talk/SageDays112358/25/|New developer tools for Sage]]'''. I will give a tutorial on how to use [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|various new developer tools]] that have become available in Sage 9.6.
 
  * '''Award Ceremony: Annual Spies SageMath Development Prize'''
    * The award committee
