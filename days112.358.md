@@ -39,7 +39,7 @@ The detailed schedule, title, abstracts, videos, and supplementary materials of 
 
 === Session 1: Introduction ===
 
-Wednesday June 1, 14:45–15:45 UTC
+Wednesday June 1, 14:45–15:45 UTC. Session chair: Jean-Philippe Labbé
 
  * '''[[https://researchseminars.org/talk/SageDays112358/23/|Introduction to SageMath and the Global Virtual SageDays]]'''
 
