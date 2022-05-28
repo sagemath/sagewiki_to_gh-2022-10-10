@@ -43,7 +43,7 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
 
 Wednesday June 1, 14:45–15:45 UTC
 
- * '''Blaec Bejarano, Harald Schilly, Hal Snyder, William Stein (SageMath, Inc.): Ways to Use Sage in [[https://cocalc.com/|CoCalc]])'''. We will give a demo of many different ways to use SageMath from within the collaborative computing platform CoCalc.com. These include Jupyter notebooks, the command line, editing .sage files, SageTex (as part of LaTeX), Sage worksheets, RMarkdown, and whiteboards.
+ * '''Blaec Bejarano, Harald Schilly, Hal Snyder, William Stein (SageMath, Inc.): Ways to Use Sage in [[https://cocalc.com/|CoCalc]])'''. We will give a demo of many different ways to use SageMath from within the collaborative computing platform !CoCalc.com. These include Jupyter notebooks, the command line, editing .sage files, SageTeX (as part of LaTeX), Sage worksheets, RMarkdown, and whiteboards.
 
 === Session 2: Fresh Numerics from Upstream ===
 
@@ -57,36 +57,24 @@ Wednesday June 1, 16:00–18:45 UTC
 
 === Session 3: Sage Modularization and Packaging Summit ===
 
-   * '''[[https://github.com/mkoeppe/|Matthias Köppe]]: The way to a fully modularized Sage library 10.0.''' In May 2020, I proposed to modularize the Sage library by means of PEP 420 implicit namespace packages. I will give an overview of the status of this project 2 years and [[https://trac.sagemath.org/ticket/29705|200 Trac tickets]] later, and give a roadmap to the completion of the project as the proposed milestone goal for Sage 10.0.
+Wednesday June 1, 19:00–23:59 UTC
 
    * '''Sage user packages: Packaging, continuous testing, and integration in the Sage distribution'''
      * Discussion and hands-on activity (bring your packages!)
      * Organizer: [[https://www.labri.fr/perso/vdelecro/|Vincent Delecroix]], Matthias Köppe
      * References: https://trac.sagemath.org/ticket/31164, https://github.com/fredstro/hilbertmodgroup/issues/5
+
+   * '''[[https://github.com/mkoeppe/|Matthias Köppe]]: The way to a fully modularized Sage library 10.0.''' In May 2020, I proposed to modularize the Sage library by means of PEP 420 implicit namespace packages. I will give an overview of the status of this project 2 years and [[https://trac.sagemath.org/ticket/29705|200 Trac tickets]] later, and give a roadmap to the completion of the project as the proposed milestone goal for Sage 10.0.
+
+   * '''Ticket review session'''
+
    * '''Downstream packaging forum'''
      * [[https://trac.sagemath.org/ticket/31016|Downstream patch upstreaming]]
 
 
+=== Session 4: Visualization and Local Connections ===
 
-== More Activities and Speakers ==
-
- * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
-
- * '''[[https://dr-how.github.io/|Hao Chen]]: Why I turned to Mathematica (sorry) to plot minimal surfaces'''. I will introduce the general procedure to plot minimal surfaces from Weierstrass data.  For this purpose, I will present two examples from recent works: One is a deformation of the Gyroid, the other is related to vortices in 2D fluids.  As a former Sage user, I had to turn to Mathematica for this task because of the heavy use of special functions and numeric integrals.  In the future, I would like to see an open-source implementation of the procedure with a performance comparable to Mathematica.
-
- * [[https://github.com/tobiasdiez|Tobias Diez]] (tentative; [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|New developer tools for Sage]])
-
-
- * '''[[https://github.com/fredrik-johansson|Fredrik Johansson]]: FLINT: Fast Library for Number Theory.''' FLINT is a C library used in Sage and several other projects to provide fast arithmetic in various rings as well as efficient implementations of number theoretic functions. This talk will give an overview of FLINT and some descendants projects (Antic, Arb, Calcium), present recent work, and discuss ongoing and future development.
-
- * [[https://github.com/nafur|Gereon Kremer]] ([[https://github.com/cvc5/cvc5|cvc5]], SMT)
-
- * '''[[https://tiantianliu.cn|Tiantian Liu]] ([[https://taichi.graphics/|Taichi graphics]]): A hands-on tutorial of the Taichi Programming Language.''' In this talk, we will deliver a hands-on tutorial on Taichi programming language -- a new programming language designed for performance-aware computer graphics developers. Taichi was designed with productivity and portability in mind: Taichi programmers code in a Python-like syntax, and then the Taichi compiler emits high-performance executable kernels on CPUs (e.g., x64, ARM64) and GPUs (e.g., CUDA, Apple Metal, and OpenGL). We will systematically cover the Taichi concepts such as its basic syntax, defining data structures, writing high-performance Taichi kernels, differentiable programming, and debugging etc. We will also talk about programming tools to improve the reusability of Taichi programs. We hope Taichi and this 45-minute presentation can reduce the engineering burden on both beginner coders, as well as experienced practitioners in high-performance software development.
-
- * [[https://github.com/asmeurer|Aaron Meurer]] ([[https://www.sympy.org/en/index.html|SymPy]])
-
-
- * [[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]] (solid angles of polyhedral cones)
+Thursday June 2, 06:00–12:00 UTC
 
  * '''Meeting of Sage users in Korea'''
    * Sage users in Korea will get together and chat over installing, using, and developing Sage.
@@ -96,12 +84,35 @@ Wednesday June 1, 16:00–18:45 UTC
    * Zoom invitation link: https://us06web.zoom.us/j/9401552754?pwd=SjFFWXVUZnNjM0xwY3FYVG5DVGtFZz09 
    * Organizer: [[https://github.com/kwankyu|Kwankyu Lee]]
 
+ * '''[[https://tiantianliu.cn|Tiantian Liu]] ([[https://taichi.graphics/|Taichi graphics]]): A hands-on tutorial of the Taichi Programming Language.''' In this talk, we will deliver a hands-on tutorial on Taichi programming language -- a new programming language designed for performance-aware computer graphics developers. Taichi was designed with productivity and portability in mind: Taichi programmers code in a Python-like syntax, and then the Taichi compiler emits high-performance executable kernels on CPUs (e.g., x64, ARM64) and GPUs (e.g., CUDA, Apple Metal, and OpenGL). We will systematically cover the Taichi concepts such as its basic syntax, defining data structures, writing high-performance Taichi kernels, differentiable programming, and debugging etc. We will also talk about programming tools to improve the reusability of Taichi programs. We hope Taichi and this 45-minute presentation can reduce the engineering burden on both beginner coders, as well as experienced practitioners in high-performance software development.
 
  * '''Sage Thursdays in Bordeaux'''
    * Schedule: 2 hours beginning Thursday, June 2, 2022, 08:00:00 GMT
                which is June 2, 2022, 10 am to 12 noon Central European Summer Time (UTC+2)
    * [[http://www.slabbe.org/|Sébastien Labbé]] will present the new [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#GraphicswithTikZ|TikzPicture]] functionality in Sage 9.6
    * The presentation will be followed by coding sprints starting by a "tour de table" where everyone announce their objective for the session.
+
+ * '''[[https://dr-how.github.io/|Hao Chen]]: Why I turned to Mathematica (sorry) to plot minimal surfaces'''. I will introduce the general procedure to plot minimal surfaces from Weierstrass data.  For this purpose, I will present two examples from recent works: One is a deformation of the Gyroid, the other is related to vortices in 2D fluids.  As a former Sage user, I had to turn to Mathematica for this task because of the heavy use of special functions and numeric integrals.  In the future, I would like to see an open-source implementation of the procedure with a performance comparable to Mathematica.
+
+
+== More Activities and Speakers ==
+
+ * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
+
+
+ * [[https://github.com/tobiasdiez|Tobias Diez]] (tentative; [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|New developer tools for Sage]])
+
+
+ * '''[[https://github.com/fredrik-johansson|Fredrik Johansson]]: FLINT: Fast Library for Number Theory.''' FLINT is a C library used in Sage and several other projects to provide fast arithmetic in various rings as well as efficient implementations of number theoretic functions. This talk will give an overview of FLINT and some descendants projects (Antic, Arb, Calcium), present recent work, and discuss ongoing and future development.
+
+ * [[https://github.com/nafur|Gereon Kremer]] ([[https://github.com/cvc5/cvc5|cvc5]], SMT)
+
+ * [[https://github.com/asmeurer|Aaron Meurer]] ([[https://www.sympy.org/en/index.html|SymPy]])
+
+
+ * [[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]] (solid angles of polyhedral cones)
+
+
 
  * '''What is ... in Sage?'''
    * Short presentations: What is this animal? Is it dangerous? Can it eat my computer? How much space does it take?
