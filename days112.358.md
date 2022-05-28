@@ -41,19 +41,32 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 The schedule, title, abstracts, videos, and supplementary materials of the talks will be found on [[https://researchseminars.org/seminar/SageDays112358|researchseminars.org]].
 
-=== Introduction ===
+=== Session 1: Introduction ===
 
 Wednesday June 1, 14:45–15:45 UTC
 
  * '''Blaec Bejarano, Harald Schilly, Hal Snyder, William Stein (SageMath, Inc.): Ways to Use Sage in [[https://cocalc.com/|CoCalc]])'''. We will give a demo of many different ways to use SageMath from within the collaborative computing platform CoCalc.com. These include Jupyter notebooks, the command line, editing .sage files, SageTex (as part of LaTeX), Sage worksheets, RMarkdown, and whiteboards.
 
-=== Fresh Numerics from Upstream ===
+=== Session 2: Fresh Numerics from Upstream ===
 
 Wednesday June 1, 16:00–18:45 UTC
 
  * '''[[https://stevendiamond.me/|Steven Diamond]]: CVXPY'''. CVXPY is a domain-specific language for convex optimization embedded in Python. It allows the user to express convex optimization problems in a natural syntax that follows the math, rather than in the restrictive standard form required by solvers. CVXPY has been used in hundreds of research projects and by Fortune 500 companies. In this talk, we will show how easy it is to formulate and solve optimization problems with CVXPY through example applications in finance and renewable energy. We will also highlight exciting recent work building on CVXPY.
 
  * '''[[https://www.maths.ed.ac.uk/school-of-mathematics/people/a-z?person=47|Julian Hall]]: HiGHS: The world's best open-source linear optimization software - coming to !SageMath!''' HiGHS is open-source linear optimization software developed by Hall and Edinburgh PhD students over the past six years. It solves large-scale sparse linear programming (LP) problems (using simplex and interior point methods), mixed-integer programming (MIP) problems and quadratic programming (QP) problems. Its overall performance on Mittelmann's benchmarks places it clearly ahead of any other open-source linear optimization software. This talk will introduce some of the techniques underpinning HiGHS, the environment in which it can be used, and its performance. In the world of software interfaces, HiGHS provides the LP and MIP solvers in the !SciPy system, and is the open-source solver of choice in the popular modern Julia-based modelling and optimization system JuMP. The prospects for its integration into !SageMath will be discussed.
+
+ * '''[[https://github.com/ninamiolane|Nina Miolane]]: Geomstats - a Python package for differential geometry in statistics and machine learning.''' We introduce Geomstats, an open-source Python package for computations and statistics on nonlinear manifolds that appear in machine learning applications, such as: hyperbolic spaces, spaces of symmetric positive definite matrices, Lie groups of transformations, and many more. We provide object-oriented and extensively unit-tested implementations. Manifolds come equipped with families of Riemannian metrics with associated exponential and logarithmic maps, geodesics, and parallel transport. Statistics and learning algorithms provide methods for estimation, clustering, and dimension reduction on manifolds. All associated operations provide support for different execution backends --- namely !NumPy, Autograd, !PyTorch, and !TensorFlow. This talk presents the package, compares it with related libraries, and provides relevant examples. We show that Geomstats provides reliable building blocks to both foster research in differential geometry and statistics and democratize the use of (Riemannian) geometry in statistics and machine learning. The source code is freely available under the MIT license at https://github.com/geomstats/geomstats.
+
+=== Session 3: Sage Modularization and Packaging Summit ===
+
+   * '''[[https://github.com/mkoeppe/|Matthias Köppe]]: The way to a fully modularized Sage library 10.0.''' In May 2020, I proposed to modularize the Sage library by means of PEP 420 implicit namespace packages. I will give an overview of the status of this project 2 years and [[https://trac.sagemath.org/ticket/29705|200 Trac tickets]] later, and give a roadmap to the completion of the project as the proposed milestone goal for Sage 10.0.
+
+   * '''Sage user packages: Packaging, continuous testing, and integration in the Sage distribution'''
+     * Discussion and hands-on activity (bring your packages!)
+     * Organizer: [[https://www.labri.fr/perso/vdelecro/|Vincent Delecroix]], Matthias Köppe
+     * References: https://trac.sagemath.org/ticket/31164, https://github.com/fredstro/hilbertmodgroup/issues/5
+   * '''Downstream packaging forum'''
+     * [[https://trac.sagemath.org/ticket/31016|Downstream patch upstreaming]]
 
 
 
@@ -74,7 +87,6 @@ Wednesday June 1, 16:00–18:45 UTC
 
  * [[https://github.com/asmeurer|Aaron Meurer]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
- * '''[[https://github.com/ninamiolane|Nina Miolane]]: Geomstats - a Python package for differential geometry in statistics and machine learning.''' We introduce Geomstats, an open-source Python package for computations and statistics on nonlinear manifolds that appear in machine learning applications, such as: hyperbolic spaces, spaces of symmetric positive definite matrices, Lie groups of transformations, and many more. We provide object-oriented and extensively unit-tested implementations. Manifolds come equipped with families of Riemannian metrics with associated exponential and logarithmic maps, geodesics, and parallel transport. Statistics and learning algorithms provide methods for estimation, clustering, and dimension reduction on manifolds. All associated operations provide support for different execution backends --- namely !NumPy, Autograd, !PyTorch, and !TensorFlow. This talk presents the package, compares it with related libraries, and provides relevant examples. We show that Geomstats provides reliable building blocks to both foster research in differential geometry and statistics and democratize the use of (Riemannian) geometry in statistics and machine learning. The source code is freely available under the MIT license at https://github.com/geomstats/geomstats.
 
  * [[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]] (solid angles of polyhedral cones)
 
@@ -98,16 +110,6 @@ Wednesday June 1, 16:00–18:45 UTC
    * Matthias Köppe: What is [[https://tox.wiki/en/latest/index.html|tox]] and how [[https://doc.sagemath.org/html/en/developer/tools.html#tox|does]] Sage [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#testing-distribution-packages|use]] [[https://doc.sagemath.org/html/en/developer/portability_testing.html#automatic-docker-based-build-testing-using-tox|it]]?
    * ...
 
- * '''Sage Modularization and Packaging Summit'''
-
-   * '''[[https://github.com/mkoeppe/|Matthias Köppe]]: The way to a fully modularized Sage library 10.0.''' In May 2020, I proposed to modularize the Sage library by means of PEP 420 implicit namespace packages. I will give an overview of the status of this project 2 years and [[https://trac.sagemath.org/ticket/29705|200 Trac tickets]] later, and give a roadmap to the completion of the project as the proposed milestone goal for Sage 10.0.
-
-   * '''Sage user packages: Packaging, continuous testing, and integration in the Sage distribution'''
-     * Discussion and hands-on activity (bring your packages!)
-     * Organizer: [[https://www.labri.fr/perso/vdelecro/|Vincent Delecroix]], Matthias Köppe
-     * References: https://trac.sagemath.org/ticket/31164, https://github.com/fredstro/hilbertmodgroup/issues/5
-   * '''Downstream packaging forum'''
-     * [[https://trac.sagemath.org/ticket/31016|Downstream patch upstreaming]]
 
  * '''Sage Teaching Forum'''
    * '''Ingo Dahn: Teaching with !SageMath - a German Higher Education Perspective.''' !SageMath - and similar systems - are currently used for teaching at German universities just by a few pioneers. The talk explains the particular reasons for this situation and analyzes, which properties of the !SageMath ecosystem, with !SageMath, !SageCell, !CoCalc and Docker-!CoCalc, facilitate a further uptake. The Virtual Campus of the German Land Rhineland-Palatine (VCRP) is determined to support the use of the potential of digital media for the improvement of teaching and learning at the public universities of the land. In particular, some !SageMath-based services are provided to support the work of the aforementioned pioneers, to learn from their experiences and to lower the barriers for other staff members for realizing !SageMath’s potential for innovative STEM teaching. These services, some of which are available as Open Educational Resources, will be described in the talk. Finally, some improvements for !SageMath are suggested that would further ease its use for teaching. Contact: dahn@vcrp.de
