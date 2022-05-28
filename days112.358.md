@@ -41,17 +41,30 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 The schedule, title, abstracts, videos, and supplementary materials of the talks will be found on [[https://researchseminars.org/seminar/SageDays112358|researchseminars.org]].
 
-== Activities and Speakers ==
+=== Introduction ===
+
+Wednesday June 1, 14:45–15:45 UTC
+
+ * '''Blaec Bejarano, Harald Schilly, Hal Snyder, William Stein (SageMath, Inc.): Ways to Use Sage in [[https://cocalc.com/|CoCalc]])'''. We will give a demo of many different ways to use SageMath from within the collaborative computing platform CoCalc.com. These include Jupyter notebooks, the command line, editing .sage files, SageTex (as part of LaTeX), Sage worksheets, RMarkdown, and whiteboards.
+
+=== Fresh Numerics from Upstream ===
+
+Wednesday June 1, 16:00–18:45 UTC
+
+ * '''[[https://stevendiamond.me/|Steven Diamond]]: CVXPY'''. CVXPY is a domain-specific language for convex optimization embedded in Python. It allows the user to express convex optimization problems in a natural syntax that follows the math, rather than in the restrictive standard form required by solvers. CVXPY has been used in hundreds of research projects and by Fortune 500 companies. In this talk, we will show how easy it is to formulate and solve optimization problems with CVXPY through example applications in finance and renewable energy. We will also highlight exciting recent work building on CVXPY.
+
+ * '''[[https://www.maths.ed.ac.uk/school-of-mathematics/people/a-z?person=47|Julian Hall]]: HiGHS: The world's best open-source linear optimization software - coming to !SageMath!''' HiGHS is open-source linear optimization software developed by Hall and Edinburgh PhD students over the past six years. It solves large-scale sparse linear programming (LP) problems (using simplex and interior point methods), mixed-integer programming (MIP) problems and quadratic programming (QP) problems. Its overall performance on Mittelmann's benchmarks places it clearly ahead of any other open-source linear optimization software. This talk will introduce some of the techniques underpinning HiGHS, the environment in which it can be used, and its performance. In the world of software interfaces, HiGHS provides the LP and MIP solvers in the !SciPy system, and is the open-source solver of choice in the popular modern Julia-based modelling and optimization system JuMP. The prospects for its integration into !SageMath will be discussed.
+
+
+
+== More Activities and Speakers ==
 
  * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
  * '''[[https://dr-how.github.io/|Hao Chen]]: Why I turned to Mathematica (sorry) to plot minimal surfaces'''. I will introduce the general procedure to plot minimal surfaces from Weierstrass data.  For this purpose, I will present two examples from recent works: One is a deformation of the Gyroid, the other is related to vortices in 2D fluids.  As a former Sage user, I had to turn to Mathematica for this task because of the heavy use of special functions and numeric integrals.  In the future, I would like to see an open-source implementation of the procedure with a performance comparable to Mathematica.
 
- * '''[[https://stevendiamond.me/|Steven Diamond]]: CVXPY'''. CVXPY is a domain-specific language for convex optimization embedded in Python. It allows the user to express convex optimization problems in a natural syntax that follows the math, rather than in the restrictive standard form required by solvers. CVXPY has been used in hundreds of research projects and by Fortune 500 companies. In this talk, we will show how easy it is to formulate and solve optimization problems with CVXPY through example applications in finance and renewable energy. We will also highlight exciting recent work building on CVXPY.
-
  * [[https://github.com/tobiasdiez|Tobias Diez]] (tentative; [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|New developer tools for Sage]])
 
- * '''[[https://www.maths.ed.ac.uk/school-of-mathematics/people/a-z?person=47|Julian Hall]]: HiGHS: The world's best open-source linear optimization software - coming to !SageMath!''' HiGHS is open-source linear optimization software developed by Hall and Edinburgh PhD students over the past six years. It solves large-scale sparse linear programming (LP) problems (using simplex and interior point methods), mixed-integer programming (MIP) problems and quadratic programming (QP) problems. Its overall performance on Mittelmann's benchmarks places it clearly ahead of any other open-source linear optimization software. This talk will introduce some of the techniques underpinning HiGHS, the environment in which it can be used, and its performance. In the world of software interfaces, HiGHS provides the LP and MIP solvers in the !SciPy system, and is the open-source solver of choice in the popular modern Julia-based modelling and optimization system JuMP. The prospects for its integration into !SageMath will be discussed.
 
  * '''[[https://github.com/fredrik-johansson|Fredrik Johansson]]: FLINT: Fast Library for Number Theory.''' FLINT is a C library used in Sage and several other projects to provide fast arithmetic in various rings as well as efficient implementations of number theoretic functions. This talk will give an overview of FLINT and some descendants projects (Antic, Arb, Calcium), present recent work, and discuss ongoing and future development.
 
@@ -62,8 +75,6 @@ The schedule, title, abstracts, videos, and supplementary materials of the talks
  * [[https://github.com/asmeurer|Aaron Meurer]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
  * '''[[https://github.com/ninamiolane|Nina Miolane]]: Geomstats - a Python package for differential geometry in statistics and machine learning.''' We introduce Geomstats, an open-source Python package for computations and statistics on nonlinear manifolds that appear in machine learning applications, such as: hyperbolic spaces, spaces of symmetric positive definite matrices, Lie groups of transformations, and many more. We provide object-oriented and extensively unit-tested implementations. Manifolds come equipped with families of Riemannian metrics with associated exponential and logarithmic maps, geodesics, and parallel transport. Statistics and learning algorithms provide methods for estimation, clustering, and dimension reduction on manifolds. All associated operations provide support for different execution backends --- namely !NumPy, Autograd, !PyTorch, and !TensorFlow. This talk presents the package, compares it with related libraries, and provides relevant examples. We show that Geomstats provides reliable building blocks to both foster research in differential geometry and statistics and democratize the use of (Riemannian) geometry in statistics and machine learning. The source code is freely available under the MIT license at https://github.com/geomstats/geomstats.
-
- * William Stein, Blaec Bejarano (Ways to Use Sage in [[https://cocalc.com/|CoCalc]])
 
  * [[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]] (solid angles of polyhedral cones)
 
