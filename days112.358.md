@@ -74,7 +74,7 @@ Wednesday June 1, 19:00–23:59 UTC
 
 === Session 4: Visualization and Local Connections ===
 
-Thursday June 2, 06:00–12:00 UTC
+Thursday June 2, 06:00–12:00 UTC. Session chairs: Jean-Philippe Labbé; local organizers 
 
  * '''[[https://researchseminars.org/talk/SageDays112358/3/|Meeting of Sage users in Korea]]'''
    * Sage users in Korea will get together and chat over installing, using, and developing Sage.
@@ -97,7 +97,7 @@ Thursday June 2, 06:00–12:00 UTC
 
 === Session 5: SageMath Developer Community and Google Summer of Code ===
 
-Thursday June 2, 14:00-18:00 UTC
+Thursday June 2, 14:00-18:00 UTC. Session chair: Yuan Zhou
 
  * '''[[https://github.com/tobiasdiez|Tobias Diez]]: [[https://researchseminars.org/talk/SageDays112358/25/|New developer tools for Sage]]'''. I will give a tutorial on how to use [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|various new developer tools]] that have become available in Sage 9.6.
 
@@ -115,7 +115,7 @@ Thursday June 2, 14:00-18:00 UTC
    * [[https://www.maths.ed.ac.uk/~s1504632/|Linden Disney-Hogg]] (Abel-Jacobi map on the Riemann surface)
    * [[https://www-users.cse.umn.edu/~karnx018/|Trevor Karn]] (G-invariants of the Orlik-Solomon and Orlik-Terao algebras)
 
- * GSoC panel
+ * '''[[https://researchseminars.org/talk/SageDays112358/21/|GSoC panel]]'''
 
 === Session 6: Symbolic System Symposium ===
 
