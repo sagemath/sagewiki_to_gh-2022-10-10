@@ -41,13 +41,15 @@ The detailed schedule, title, abstracts, videos, and supplementary materials of 
 
 Wednesday June 1, 14:45–15:45 UTC
 
- * '''Blaec Bejarano, Harald Schilly, Hal Snyder, William Stein (SageMath, Inc.): Ways to Use Sage in [[https://cocalc.com/|CoCalc]])'''. We will give a demo of many different ways to use SageMath from within the collaborative computing platform !CoCalc.com. These include Jupyter notebooks, the command line, editing .sage files, SageTeX (as part of LaTeX), Sage worksheets, RMarkdown, and whiteboards.
+ * '''[[https://researchseminars.org/talk/SageDays112358/23/|Introduction to SageMath and the Global Virtual SageDays]]'''
+
+ * '''Blaec Bejarano, Harald Schilly, Hal Snyder, William Stein (!SageMath, Inc.): [[https://researchseminars.org/talk/SageDays112358/5/|Ways to Use Sage in CoCalc]]'''. We will give a demo of many different ways to use !SageMath from within the collaborative computing platform [[https://cocalc.com/|CoCalc.com]]. These include Jupyter notebooks, the command line, editing .sage files, SageTeX (as part of LaTeX), Sage worksheets, RMarkdown, and whiteboards.
 
 === Session 2: Fresh Numerics from Upstream ===
 
 Wednesday June 1, 16:00–18:45 UTC
 
- * '''[[https://stevendiamond.me/|Steven Diamond]]: CVXPY'''. CVXPY is a domain-specific language for convex optimization embedded in Python. It allows the user to express convex optimization problems in a natural syntax that follows the math, rather than in the restrictive standard form required by solvers. CVXPY has been used in hundreds of research projects and by Fortune 500 companies. In this talk, we will show how easy it is to formulate and solve optimization problems with CVXPY through example applications in finance and renewable energy. We will also highlight exciting recent work building on CVXPY.
+ * '''[[https://stevendiamond.me/|Steven Diamond]]: [[https://researchseminars.org/talk/SageDays112358/6/|CVXPY]]'''. CVXPY is a domain-specific language for convex optimization embedded in Python. It allows the user to express convex optimization problems in a natural syntax that follows the math, rather than in the restrictive standard form required by solvers. CVXPY has been used in hundreds of research projects and by Fortune 500 companies. In this talk, we will show how easy it is to formulate and solve optimization problems with CVXPY through example applications in finance and renewable energy. We will also highlight exciting recent work building on CVXPY.
 
  * '''[[https://www.maths.ed.ac.uk/school-of-mathematics/people/a-z?person=47|Julian Hall]]: HiGHS: The world's best open-source linear optimization software—coming to !SageMath!''' HiGHS is open-source linear optimization software developed by Hall and Edinburgh PhD students over the past six years. It solves large-scale sparse linear programming (LP) problems (using simplex and interior point methods), mixed-integer programming (MIP) problems and quadratic programming (QP) problems. Its overall performance on Mittelmann's benchmarks places it clearly ahead of any other open-source linear optimization software. This talk will introduce some of the techniques underpinning HiGHS, the environment in which it can be used, and its performance. In the world of software interfaces, HiGHS provides the LP and MIP solvers in the !SciPy system, and is the open-source solver of choice in the popular modern Julia-based modelling and optimization system JuMP. The prospects for its integration into !SageMath will be discussed.
 
