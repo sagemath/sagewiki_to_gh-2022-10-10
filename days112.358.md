@@ -121,18 +121,17 @@ Thursday June 2, 14:00-18:00 UTC
 
 Thursday June 2, 18:00-23:59 UTC
 
- * '''[[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]]: Solid angles of polyhedral cones via decompositions and power series'''
+ * '''[[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]]: [[https://researchseminars.org/talk/SageDays112358/22/|Solid angles of polyhedral cones via decompositions and power series]]'''
 
- * '''[[https://github.com/fredrik-johansson|Fredrik Johansson]]: FLINT: Fast Library for Number Theory.''' FLINT is a C library used in Sage and several other projects to provide fast arithmetic in various rings as well as efficient implementations of number theoretic functions. This talk will give an overview of FLINT and some descendants projects (Antic, Arb, Calcium), present recent work, and discuss ongoing and future development.
+ * '''[[https://github.com/fredrik-johansson|Fredrik Johansson]]: [[https://researchseminars.org/talk/SageDays112358/12/|FLINT: Fast Library for Number Theory]].''' FLINT is a C library used in Sage and several other projects to provide fast arithmetic in various rings as well as efficient implementations of number theoretic functions. This talk will give an overview of FLINT and some descendants projects (Antic, Arb, Calcium), present recent work, and discuss ongoing and future development.
 
- * '''[[https://github.com/asmeurer|Aaron Meurer]]: [[https://www.sympy.org/en/index.html|SymPy]]'''
+ * '''[[https://github.com/asmeurer|Aaron Meurer]]: [[https://researchseminars.org/talk/SageDays112358/13/|SymPy]].''' This talk will go over the [[https://www.sympy.org/en/index.html|SymPy]] library, some of the recent developments, and plans for the future.
 
- * '''[[https://github.com/nafur|Gereon Kremer]]: Satisfiability Modulo Theories for Arithmetic Problems'''
+ * '''[[https://github.com/nafur|Gereon Kremer]]: [[https://researchseminars.org/talk/SageDays112358/14/|Satisfiability Modulo Theories for Arithmetic Problems]]'''
 
  * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
- * '''Landscape of symbolic equation solver interfaces, symbolic assumption facilities'''
-   * Discussion
+ * '''Discussion: [[https://researchseminars.org/talk/SageDays112358/15/|Landscape of symbolic equation solver interfaces, symbolic assumption facilities]]'''
 
 
 === Session 7: Sage Teaching Forum ===
