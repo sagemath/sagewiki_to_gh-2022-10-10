@@ -15,9 +15,7 @@ The fully virtual event will take place '''June 1-3, 2022''', during the 50 hour
 
 The schedule will be released soon.
 
-[[https://wiki.sagemath.org/Workshops|Sage Days]] are gatherings of people interested in !SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the ongoing global health crisis, Sage Days 112.358 will be a fully virtual event following the model of [[days109|Sage Days 109]] and [[days110|Sage Days 110]]
-
-Why is it 112.358? Answer: [[https://groups.google.com/g/sage-devel/c/WYnrwDjLhUw/m/oOwLAunwAAAJ]]
+[[https://wiki.sagemath.org/Workshops|Sage Days]] are gatherings of people interested in !SageMath, from newcomers to contributors. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe.  Because of the ongoing global health crisis, Sage Days 112.358 ([[https://groups.google.com/g/sage-devel/c/WYnrwDjLhUw/m/oOwLAunwAAAJ]|why this number?]]) will be a fully virtual event following the model of [[days109|Sage Days 109]] and [[days110|Sage Days 110]]
 
 <<TableOfContents>>
 
