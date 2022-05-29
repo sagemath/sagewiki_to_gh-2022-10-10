@@ -99,7 +99,7 @@ Thursday June 2, 06:00–12:00 UTC. Session chairs: Jean-Philippe Labbé; local 
 
 Thursday June 2, 14:00–18:00 UTC. Session chair: Yuan Zhou
 
- * '''[[https://github.com/tobiasdiez|Tobias Diez]]: [[https://researchseminars.org/talk/SageDays112358/25/|New developer tools for Sage]]'''. I will give a tutorial on how to use [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|various new developer tools]] that have become available in Sage 9.6.
+ * '''[[https://github.com/tobiasdiez|Tobias Diez]]: [[https://researchseminars.org/talk/SageDays112358/25/|New developer tools for Sage]]'''. I give an overview and demonstration of some recently introduced developer tools: Github Action Workflows complementing the existing Sagebot test infrastructure, and Gitpod serving as a (remote) developer environment for ticket reviews and as a main development infrastructure.
 
  * '''[[https://researchseminars.org/talk/SageDays112358/20/|Award Ceremony: Annual Spies SageMath Development Prize]]'''
    * The prize committee: William Stein, Eric Gourgoulhon, John Cremona, Karl-Dieter Crisman, Samuel Lelièvre
