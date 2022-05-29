@@ -97,29 +97,28 @@ Thursday June 2, 06:00–12:00 UTC. Session chairs: Jean-Philippe Labbé; local 
 
 === Session 5: SageMath Developer Community and Google Summer of Code ===
 
-Thursday June 2, 14:00-18:00 UTC. Session chair: Yuan Zhou
+Thursday June 2, 14:00–18:00 UTC. Session chair: Yuan Zhou
 
  * '''[[https://github.com/tobiasdiez|Tobias Diez]]: [[https://researchseminars.org/talk/SageDays112358/25/|New developer tools for Sage]]'''. I will give a tutorial on how to use [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#Newdevelopertools|various new developer tools]] that have become available in Sage 9.6.
 
- * '''Award Ceremony: Annual Spies SageMath Development Prize'''
-   * The award committee
+ * '''[[https://researchseminars.org/talk/SageDays112358/20/|Award Ceremony: Annual Spies SageMath Development Prize]]'''
+   * The prize committee: William Stein, Eric Gourgoulhon, John Cremona, Karl-Dieter Crisman, Samuel Lelièvre
 
  * '''Onboarding session for new !SageMath developers'''
    * How to make the step from using Sage to contributing to Sage.
-    * '''What is ... in Sage?'''
-    * Short presentations: What is this animal? Is it dangerous? Can it eat my computer? How much space does it take?
+   * '''What is ... in Sage?''': Short presentations
         * Matthias Köppe: What is [[https://tox.wiki/en/latest/index.html|tox]] and how [[https://doc.sagemath.org/html/en/developer/tools.html#tox|does]] Sage [[https://doc.sagemath.org/html/en/developer/packaging_sage_library.html#testing-distribution-packages|use]] [[https://doc.sagemath.org/html/en/developer/portability_testing.html#automatic-docker-based-build-testing-using-tox|it]]?
 
  * '''Reports from GSoC 2021 projects'''
-   * '''[[https://davidayotte.github.io/| David Ayotte]]: Implementation of the Graded Ring of Quasimodular Forms.''' The goal of this talk is to explain how quasimodular forms were implemented into SageMath. We will first give a brief review of the theory of (quasi)modular forms and we will explain how the implementation works. Next a quick demo will be showcased. Lastly, further developments to the code will be discussed. )
-   * [[https://www.maths.ed.ac.uk/~s1504632/|Linden Disney-Hogg]] (Abel-Jacobi map on the Riemann surface)
-   * [[https://www-users.cse.umn.edu/~karnx018/|Trevor Karn]] (G-invariants of the Orlik-Solomon and Orlik-Terao algebras)
+   * '''[[https://www.maths.ed.ac.uk/~s1504632/|Linden Disney-Hogg]]: [[https://researchseminars.org/talk/SageDays112358/9/|Rigorous integration and the Abel--Jacobi map]].''' The Abel–Jacobi map is an important construction in algebraic geometry, including its application to the theory of integrable systems. I will give an overview of a recent implementation of the map in Sage, including some work on improving the integration required, highlighting current uses and future extensions.
+   * '''[[https://davidayotte.github.io/| David Ayotte]]: [[https://researchseminars.org/talk/SageDays112358/10/|Implementation of the Graded Ring of Quasimodular Forms]].''' The goal of this talk is to explain how quasimodular forms were implemented into SageMath. We will first give a brief review of the theory of (quasi)modular forms and we will explain how the implementation works. Next a quick demo will be showcased. Lastly, further developments to the code will be discussed. )
+   * '''[[https://www-users.cse.umn.edu/~karnx018/|Trevor Karn]]: [[https://researchseminars.org/talk/SageDays112358/11/|G-invariants of the Orlik–Solomon and Orlik–Terao algebras]]'''
 
  * '''[[https://researchseminars.org/talk/SageDays112358/21/|GSoC panel]]'''
 
 === Session 6: Symbolic System Symposium ===
 
-Thursday June 2, 18:00-23:59 UTC. Session chair: Matthias Köppe
+Thursday June 2, 18:00–23:59 UTC. Session chair: Matthias Köppe
 
  * '''[[https://math.as.uky.edu/users/yzh392/|Yuan Zhou]]: [[https://researchseminars.org/talk/SageDays112358/22/|Solid angles of polyhedral cones via decompositions and power series]]'''
 
