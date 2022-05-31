@@ -124,11 +124,9 @@ Thursday June 2, 18:00–23:59 UTC. Session chair: Matthias Köppe
 
  * '''[[https://github.com/fredrik-johansson|Fredrik Johansson]]: [[https://researchseminars.org/talk/SageDays112358/12/|FLINT: Fast Library for Number Theory]].''' FLINT is a C library used in Sage and several other projects to provide fast arithmetic in various rings as well as efficient implementations of number theoretic functions. This talk will give an overview of FLINT and some descendants projects (Antic, Arb, Calcium), present recent work, and discuss ongoing and future development.
 
- * '''[[https://github.com/asmeurer|Aaron Meurer]]: [[https://researchseminars.org/talk/SageDays112358/13/|SymPy]].''' This talk will go over the [[https://www.sympy.org/en/index.html|SymPy]] library, some of the recent developments, and plans for the future.
+ * '''[[https://github.com/asmeurer|Aaron Meurer]], [[https://github.com/oscarbenjamin|Oscar Benjamin]]: [[https://researchseminars.org/talk/SageDays112358/13/|SymPy]].''' This talk will go over the [[https://www.sympy.org/en/index.html|SymPy]] library, some of the recent developments, and plans for the future.
 
  * '''[[https://github.com/nafur|Gereon Kremer]]: [[https://researchseminars.org/talk/SageDays112358/14/|Satisfiability Modulo Theories for Arithmetic Problems]].''' Satisfiability Modulo Theories (SMT) solving has grown to be a very successful solving paradigm, powering software and hardware verification, symbolic execution, test-case generation, synthesis, planning, scheduling and optimization tasks. One of the theories in SMT solving is nonlinear real arithmetic which opens immediate connections to the computer algebra community that has long known this theory as the theory of the reals. This talk presents approaches for this theory that are used in the SMT community and discusses some existing and possible future collaboration between the SMT and computer algebra communities.
-
- * [[https://github.com/oscarbenjamin|Oscar Benjamin]] ([[https://www.sympy.org/en/index.html|SymPy]])
 
  * '''Discussion: [[https://researchseminars.org/talk/SageDays112358/15/|Landscape of symbolic equation solver interfaces, symbolic assumption facilities]]'''
 
