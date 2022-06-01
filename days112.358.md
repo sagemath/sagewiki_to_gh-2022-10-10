@@ -112,7 +112,7 @@ Thursday June 2, 14:00–18:00 UTC. Session chair: Yuan Zhou
  * '''Reports from GSoC 2021 projects'''
    * '''[[https://www.maths.ed.ac.uk/~s1504632/|Linden Disney-Hogg]]: [[https://researchseminars.org/talk/SageDays112358/9/|Rigorous integration and the Abel--Jacobi map]].''' The Abel–Jacobi map is an important construction in algebraic geometry, including its application to the theory of integrable systems. I will give an overview of a recent implementation of the map in Sage, including some work on improving the integration required, highlighting current uses and future extensions.
    * '''[[https://davidayotte.github.io/| David Ayotte]]: [[https://researchseminars.org/talk/SageDays112358/10/|Implementation of the Graded Ring of Quasimodular Forms]].''' The goal of this talk is to explain how quasimodular forms were implemented into SageMath. We will first give a brief review of the theory of (quasi)modular forms and we will explain how the implementation works. Next a quick demo will be showcased. Lastly, further developments to the code will be discussed. )
-   * '''[[https://www-users.cse.umn.edu/~karnx018/|Trevor Karn]]: [[https://researchseminars.org/talk/SageDays112358/11/|G-invariants of the Orlik–Solomon and Orlik–Terao algebras]]'''
+   * '''[[https://www-users.cse.umn.edu/~karnx018/|Trevor Karn]]: [[https://researchseminars.org/talk/SageDays112358/11/|G-invariants of the Orlik–Solomon and Orlik–Terao algebras]]''' In this talk I will give examples and a description of how we implemented G-invariants of a finite group G in Sage. Specific examples will include the Orlik-Solomon algebra of a matroid which was the motivating example for the project.
 
  * '''[[https://researchseminars.org/talk/SageDays112358/21/|GSoC panel]]'''
 
