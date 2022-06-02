@@ -78,7 +78,7 @@ Thursday June 2, 06:00–12:00 UTC. Session chairs: Jean-Philippe Labbé; local 
 
  * '''[[https://researchseminars.org/talk/SageDays112358/3/|Meeting of Sage users in Korea]]'''
    * Sage users in Korea will get together and chat over installing, using, and developing Sage.
-   * Schedule: 3 hours beginning Thursday, June 2, 2022, 06:00 UTC 
+   * Schedule: '''2''' hours beginning Thursday, June 2, 2022, 06:00 UTC 
                which is June 2, 2022, 3 PM Korea Standard Time (UTC+9)
    * For the purpose of the meeting, the primary language will be Korean. Don't be embarrassed upon entry.
    * Zoom invitation link: https://us06web.zoom.us/j/9401552754?pwd=SjFFWXVUZnNjM0xwY3FYVG5DVGtFZz09 
