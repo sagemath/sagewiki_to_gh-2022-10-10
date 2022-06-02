@@ -89,7 +89,7 @@ Thursday June 2, 06:00–12:00 UTC. Session chairs: Jean-Philippe Labbé; local 
  * '''[[https://researchseminars.org/talk/SageDays112358/4/|Sage Thursdays in Bordeaux]]'''
    * Schedule: 2 hours beginning Thursday, June 2, 2022, 08:00 UTC
                which is June 2, 2022, 10 am to 12 noon Central European Summer Time (UTC+2)
-   * [[http://www.slabbe.org/|Sébastien Labbé]] will present the new [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#GraphicswithTikZ|TikzPicture]] functionality in Sage 9.6
+   * [[http://www.slabbe.org/|Sébastien Labbé]] will present the new [[https://trac.sagemath.org/wiki/ReleaseTours/sage-9.6#GraphicswithTikZ|TikzPicture]] functionality in Sage 9.6: [[https://nbviewer.org/url/www.slabbe.org/Sage/2022-06-02-tikzpicture-demo.ipynb|Jupyter notebook TikzPicture module demo]].
    * The presentation will be followed by coding sprints starting by a "tour de table" where everyone announce their objective for the session.
 
  * '''[[https://dr-how.github.io/|Hao Chen]]: [[https://researchseminars.org/talk/SageDays112358/19/|Why I turned to Mathematica (sorry) to plot minimal surfaces]]'''. I will introduce the general procedure to plot minimal surfaces from Weierstrass data.  For this purpose, I will present two examples from recent works: One is a deformation of the Gyroid, the other is related to vortices in 2D fluids.  As a former Sage user, I had to turn to Mathematica for this task because of the heavy use of special functions and numeric integrals.  In the future, I would like to see an open-source implementation of the procedure with a performance comparable to Mathematica.
