@@ -97,9 +97,9 @@ Thursday June 2, 06:00–12:00 UTC. Session chairs: Jean-Philippe Labbé; local 
 
 === Session 5: SageMath Developer Community and Google Summer of Code ===
 
-Thursday June 2, 14:00–18:00 UTC. Session chair: Yuan Zhou
+Thursday June 2, 14:45–18:00 UTC. Session chair: Yuan Zhou
 
- * Canceled: '''[[https://github.com/tobiasdiez|Tobias Diez]]: [[https://researchseminars.org/talk/SageDays112358/25/|New developer tools for Sage]]'''. I give an overview and demonstration of some recently introduced developer tools: Github Action Workflows complementing the existing Sagebot test infrastructure, and Gitpod serving as a (remote) developer environment for ticket reviews and as a main development infrastructure.
+ * Canceled: [[https://github.com/tobiasdiez|Tobias Diez]]: [[https://researchseminars.org/talk/SageDays112358/25/|New developer tools for Sage]]. I give an overview and demonstration of some recently introduced developer tools: Github Action Workflows complementing the existing Sagebot test infrastructure, and Gitpod serving as a (remote) developer environment for ticket reviews and as a main development infrastructure.
 
  * '''[[https://researchseminars.org/talk/SageDays112358/20/|Award Ceremony: Annual Spies SageMath Development Prize]]'''
    * The prize committee: William Stein, Eric Gourgoulhon, John Cremona, Karl-Dieter Crisman, Samuel Lelièvre
