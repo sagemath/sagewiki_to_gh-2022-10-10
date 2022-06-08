@@ -7,7 +7,7 @@ Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63
 == Invited speakers ==
 
  * [[https://luth.obspm.fr/~luthier/gourgoulhon/en/|Éric Gourgoulhon]] - [[https://sagemanifolds.obspm.fr/|SageManifolds]], differential geometry and tensor calculus
- * [[http://www.i2m.univ-amu.fr/perso/paul.mercat/index.php?p=programmes|Paul Mercat]] (Université Aix-Marseille) - [[http://www.i2m.univ-amu.fr/perso/paul.mercat/Programmes/Beta-adic/index.html|Package Beta-adic]]
+ * [[http://www.i2m.univ-amu.fr/perso/paul.mercat/index.php?p=programmes|Paul Mercat]] (Université Aix-Marseille) - [[https://gitlab.com/mercatp/badic]]
  * [[https://lipn.univ-paris13.fr/~monteil/recherche/|Thierry Monteil]] - Initiation to SageMath
 
 
