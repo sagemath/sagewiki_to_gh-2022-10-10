@@ -1,6 +1,6 @@
 = Sage Days 113 - Symbolic Computation: Algorithms, Learning and Engineering =
 
-Wednesday, August 8 to Sunday, August 12, 2022
+Monday, August 8 to Friday, August 12, 2022
 
 An event for the !SageMath developer and packaging community
 
