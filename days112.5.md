@@ -2,7 +2,7 @@
 
 == Important information ==
 
-Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63137/3.86542|Université de Montpellier]] from Monday June 13 to Wednesday June 15. The talks will take place in [[https://www.openstreetmap.org/#map=19/43.63137/3.86542|Bâtiment 10, salle 10.01]], just next to IMAG.
+Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63137/3.86542|Université de Montpellier]] from Monday June 13 to Wednesday June 15. The talks will take place in [[https://osm.org/go/xVyK_83uw?m=|Bâtiment 10, salle 10.01]], just next to IMAG.
 
 == Invited speakers ==
 
