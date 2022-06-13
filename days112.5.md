@@ -26,7 +26,7 @@ Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63
 
 ''Mardi 14 juin :''
  * 09h45       : accueil café
- * 10h00-11h00 : Éric Gourgoulhon (Géométrie différentielle)
+ * 10h00-11h00 : Éric Gourgoulhon: Géométrie différentielle avec !SageMath [[https://nbviewer.org/github/sagemanifolds/SageManifolds/blob/master/Notebooks/SM_sphere_S2.ipynb|demo notebook]] (see also these [[https://sagemanifolds.obspm.fr/doc/tensor_jncf18.pdf|slides]])
  * 11h00-12h00 : TP
  * 12h00-14h00 : Pause repas
  * 14h00-15h00 : Paul Mercat (package Beta-adic, fractales de Rauzy)
@@ -37,7 +37,7 @@ Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63
 
 ''Mercredi 15 juin :''
  * 09h45       : accueil café
- * 10h00-11h00 : Éric Gourgoulhon (Géométrie différentielle)
+ * 10h00-11h00 : Éric Gourgoulhon: Géométrie différentielle avec !SageMath
  * 11h00-12h00 : TP
  * 12h00-14h00 : Pause repas
  * 14h00-15h00 : Paul Mercat (package Beta-adic, fractales de Rauzy)
