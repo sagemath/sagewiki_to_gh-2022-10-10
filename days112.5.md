@@ -40,7 +40,7 @@ Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63
  * 10h00-11h00 : Éric Gourgoulhon: Géométrie différentielle avec !SageMath
  * 11h00-12h00 : TP
  * 12h00-14h00 : Pause repas
- * 14h00-14h30 : Romain Lebreton (Matrices polynomiales)
+ * 14h00-14h30 : Romain Lebreton (Matrices polynomiales) [[https://nbviewer.org/github/romainlebreton/SageDaysMontpellier2022/blob/main/Pr%C3%A9sentation.ipynb|Notebook Viewer]] [[https://raw.githubusercontent.com/romainlebreton/SageDaysMontpellier2022/main/Pr%C3%A9sentation.ipynb|Source]]
  * 14h30-15h00 : Paul Mercat (package Beta-adic, fractales de Rauzy)
  * 15h30-16h30 : TP
  * 16h30-17h00 : Pause café d'au revoir
