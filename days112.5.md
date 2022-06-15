@@ -15,7 +15,7 @@ Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63
 
 ''Lundi 13 juin :''
  * 09h45       : accueil café
- * 10h00-12h00 : TP d'installation et d'initiation à SageMath (Thierry Monteil)
+ * 10h00-12h00 : TP d'installation et d'initiation à SageMath (Thierry Monteil) [[https://lipn.univ-paris13.fr/~monteil/montpellier2022/|Page Web des tutoriaux]]
  * 12h00-14h00 : Pause repas
  * 14h00-14h30 : Bruno Grenet (Présentation d'un cours basé sur Sage en L3 Info)
  * 14h30-15h30 : TP d'initiation à SageMath (Thierry Monteil)
