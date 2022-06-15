@@ -29,7 +29,7 @@ Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63
  * 10h00-11h00 : Éric Gourgoulhon: Géométrie différentielle avec !SageMath [[https://nbviewer.org/github/sagemanifolds/SageManifolds/blob/master/Notebooks/SM_sphere_S2.ipynb|demo notebook]] (see also these [[https://sagemanifolds.obspm.fr/doc/tensor_jncf18.pdf|slides]])
  * 11h00-12h00 : TP
  * 12h00-14h00 : Pause repas
- * 14h00-15h00 : Paul Mercat (package Beta-adic, fractales de Rauzy)
+ * 14h00-15h00 : Paul Mercat (package Beta-adic, fractales de Rauzy) https://gitlab.com/mercatp/badic
  * 15h00-16h00 : TP
  * 16h00-16h30 : Pause café
 
