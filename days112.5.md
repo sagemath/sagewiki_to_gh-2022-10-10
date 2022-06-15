@@ -21,7 +21,7 @@ Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63
  * 14h30-15h30 : TP d'initiation à SageMath (Thierry Monteil)
  * 15h30-16h00 : Pause café
  * 16h00-16h30 : Petru Valicov (Graphe dans Sage)
- * 16h30-17h00 : Mathis Duban, Jawad El Hidraoui, Obada Tabbab et Dziyana Tsetserava (Outil de manipulation de graphes lié à Sage)
+ * 16h30-17h00 : Mathis Duban, Jawad El Hidraoui, Obada Tabbab et Dziyana Tsetserava ([[https://github.com/Projet-SageMath-Graphs/JS_Graph_Sage|Outil de manipulation de graphes lié à Sage]])
 
 
 ''Mardi 14 juin :''
