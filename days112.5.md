@@ -8,17 +8,17 @@ Sage days 112.5 will happen in the [[https://www.openstreetmap.org/#map=19/43.63
 
  * [[https://luth.obspm.fr/~luthier/gourgoulhon/en/|Éric Gourgoulhon]] - [[https://sagemanifolds.obspm.fr/|SageManifolds]], differential geometry and tensor calculus
  * [[http://www.i2m.univ-amu.fr/perso/paul.mercat/index.php?p=programmes|Paul Mercat]] (Université Aix-Marseille) - [[https://gitlab.com/mercatp/badic]]
- * [[https://lipn.univ-paris13.fr/~monteil/recherche/|Thierry Monteil]] - Initiation to SageMath
+ * [[https://monteil.perso.math.cnrs.fr|Thierry Monteil]] - Initiation to SageMath
 
 
 == Tentative schedule (in french) ==
 
 ''Lundi 13 juin :''
  * 09h45       : accueil café
- * 10h00-12h00 : TP d'installation et d'initiation à SageMath (Thierry Monteil) [[https://lipn.univ-paris13.fr/~monteil/montpellier2022/|Page Web des tutoriaux]]
+ * 10h00-12h00 : TP d'installation et d'initiation à SageMath (ThierryMonteil) [[https://lipn.univ-paris13.fr/~monteil/montpellier2022/|Page Web des tutoriaux]]
  * 12h00-14h00 : Pause repas
  * 14h00-14h30 : Bruno Grenet (Présentation d'un cours basé sur Sage en L3 Info)
- * 14h30-15h30 : TP d'initiation à SageMath (Thierry Monteil)
+ * 14h30-15h30 : TP d'initiation à SageMath (ThierryMonteil)
  * 15h30-16h00 : Pause café
  * 16h00-16h30 : Petru Valicov (Graphe dans Sage)
  * 16h30-17h00 : Mathis Duban, Jawad El Hidraoui, Obada Tabbab et Dziyana Tsetserava ([[https://github.com/Projet-SageMath-Graphs/JS_Graph_Sage|Outil de manipulation de graphes lié à Sage]])
