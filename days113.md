@@ -20,7 +20,7 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 == How to register and participate ==
 
-Registration is done through the umbrella event ([[https://scale.gtu.edu.tr/|SCALE 2022 webpage]]).
+Registration is done through the umbrella event [[https://scale.gtu.edu.tr/|SCALE 2022 webpage]].
 
 Free accomodation is offered to students. All participants can request travel and accomodation support.
 
