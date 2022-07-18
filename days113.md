@@ -1,6 +1,7 @@
 = Sage Days 113 - Symbolic Computation: Algorithms, Learning and Engineering =
 
 Monday, August 8 to Friday, August 12, 2022
+Gebze Technical University, Istanbul, Turkey
 
 An event for the !SageMath developer and packaging community
 
@@ -9,7 +10,7 @@ An event for the !SageMath developer and packaging community
 SageDays 113 will be followed by two conferences, Applications of Computer Algebra(ACA) on 15-19 August 2022 and Computer Algebra in Scientific Computing (CASC) on 22-26 August 2022 at the same venue, Gebze Technical University, Istanbul, Turkey. All these events are part of the umbrella event Symbolic Computation: Algorithms, Learning and Engineering([[https://scale.gtu.edu.tr/|SCALE]]).
 
 == Topics and goals ==
-This will be first SageDays in Turkey, hence one of the main goals is to start a sage community in Turkey. 
+This will be first SageDays in Turkey, hence one of the main goals is to start a Sage community in Turkey. 
 
 == About SageMath ==
 
@@ -19,7 +20,9 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 == How to register and participate ==
 
-To be announced.
+Registration is done through the umbrella event ([[https://scale.gtu.edu.tr/|SCALE 2022 webpage]]).
+
+Free accomodation is offered to students. All participants can request travel and accomodation support.
 
 == Tentative schedule ==
 
