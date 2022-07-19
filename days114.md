@@ -57,6 +57,13 @@ by Julian Rüth and Samuel Lelièvre.
 || 1245-1415 ||<-2> Lunch ||
 || 1415-1730 ||<-2> Coding Sprints||
 
+
+==== Talk Abstracts ====
+
+Eric Marberg: Shifted combinatorial Hopf algebras for K-theory
+
+The self-dual Hopf algebra of symmetric functions Sym embeds into the quasisymmetric functions QSym. The dual of QSym is the Hopf algebra of noncommutative symmetric functions NSym, which itself embeds into the self-dual Malvenuto-Reutenaurer Hopf algebra of permutations. These embeddings and their adjoint projections can be conveniently drawn as a diagram of six Hopf algebras. This talk will discuss "K-theoretic" and "shifted" generalizations of this diagram, along with some algorithmic problems related to computing products, coproducts, and antipodes in the relevant Hopf algebras. The new results in this talk are joint work with Joel Lewis.
+
 == Sage Club at CMI ==
 
 Following the Sage Days, a [[days114/club|''Sage Club'']] will meet twice a week at CMI. The ''Sage Club'' is going to be an open forum, led by Samuel Lelièvre and Julian Rüth, where we will learn more about SageMath, focusing on the interests of the participants. Just as with the Sage Days, beginners and students are very welcome at any session.
