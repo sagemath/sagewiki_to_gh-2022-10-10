@@ -50,7 +50,7 @@ by Julian Rüth and Samuel Lelièvre.
 ==== Day 3: 27th July 2022 ====
 
 || '''Time''' || '''Speaker''' ||'''Title'''||
-|| 0900-1000 || Eric Marberg || TBA ||
+|| 0900-1000 || Eric Marberg || Shifted combinatorial Hopf algebras for K-theory ||
 || 1000-1030 ||<-2> Coffee Break ||
 || 1030-1130 ||Martin Rubey||Combinatorial Species||
 || 1145-1245 ||Kanak Dhotre||Visualizing Julia Sets||
