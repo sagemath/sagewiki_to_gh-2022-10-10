@@ -64,6 +64,21 @@ Eric Marberg: Shifted combinatorial Hopf algebras for K-theory
 
 The self-dual Hopf algebra of symmetric functions Sym embeds into the quasisymmetric functions QSym. The dual of QSym is the Hopf algebra of noncommutative symmetric functions NSym, which itself embeds into the self-dual Malvenuto-Reutenaurer Hopf algebra of permutations. These embeddings and their adjoint projections can be conveniently drawn as a diagram of six Hopf algebras. This talk will discuss "K-theoretic" and "shifted" generalizations of this diagram, along with some algorithmic problems related to computing products, coproducts, and antipodes in the relevant Hopf algebras. The new results in this talk are joint work with Joel Lewis.
 
+Alba Málaga: Certified Plotting/SageMath and 3D Printing
+
+As a mathematician, you don't need to touch a surface to feel how
+beautiful it is. But what if you want to talk about it to your grandpa
+or your least mathematical friend? There is somethng deeply satisfying
+about being able to hand them an object which represents the concept
+you want to talk about pretty well and which they can touch.
+The methods and challenges will vary according to which mathematical
+object you try to represent. In this talk, I will present cookbook
+methods and discuss challenges for 3D-printing three very classical
+kinds of mathematical surfaces: constant-negative curvature surfaces,
+minimal surfaces, algebraic surfaces.
+The software used will be Sagemath, MathMod, Surface Evolver, Blender and Cura.
+
+
 == Sage Club at CMI ==
 
 Following the Sage Days, a [[days114/club|''Sage Club'']] will meet twice a week at CMI. The ''Sage Club'' is going to be an open forum, led by Samuel Lelièvre and Julian Rüth, where we will learn more about SageMath, focusing on the interests of the participants. Just as with the Sage Days, beginners and students are very welcome at any session.
