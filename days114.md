@@ -40,7 +40,7 @@ by Julian Rüth and Samuel Lelièvre.
 ==== Day 2: 26th July 2022 ====
 
 || '''Time''' || '''Speaker''' ||'''Title'''||
-|| 0900-1000 || Alba Málaga || Certified Plotting/SageMath and 3D Printing ||
+|| 0900-1000 || Alba Málaga || 3D printing mathematical surfaces ||
 || 1000-1030 ||<-2> Coffee Break ||
 || 1030-1145 ||The Organizers (mostly)||Tutorials Upon Request||
 || 1145-1245 ||Julian Rüth|| Interactive Visualization in SageMath||
@@ -64,7 +64,7 @@ Eric Marberg: Shifted combinatorial Hopf algebras for K-theory
 
 The self-dual Hopf algebra of symmetric functions Sym embeds into the quasisymmetric functions QSym. The dual of QSym is the Hopf algebra of noncommutative symmetric functions NSym, which itself embeds into the self-dual Malvenuto-Reutenaurer Hopf algebra of permutations. These embeddings and their adjoint projections can be conveniently drawn as a diagram of six Hopf algebras. This talk will discuss "K-theoretic" and "shifted" generalizations of this diagram, along with some algorithmic problems related to computing products, coproducts, and antipodes in the relevant Hopf algebras. The new results in this talk are joint work with Joel Lewis.
 
-Alba Málaga: Certified Plotting/SageMath and 3D Printing
+Alba Málaga: 3D printing mathematical surfaces
 
 As a mathematician, you don't need to touch a surface to feel how
 beautiful it is. But what if you want to talk about it to your grandpa
