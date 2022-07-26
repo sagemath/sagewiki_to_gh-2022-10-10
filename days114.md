@@ -61,7 +61,10 @@ by Julian Rüth and Samuel Lelièvre.
 || 1415-1730 ||<-2> Coding Sprints||
 
 
-==== Talk Abstracts ====
+==== Talk Details ====
+
+Ajit Kumar: An introduction to SageMath
+[[https://www.imsc.res.in/~amri/SageDays114_Ajit.html]Slides]
 
 Eric Marberg: Shifted combinatorial Hopf algebras for K-theory
 
