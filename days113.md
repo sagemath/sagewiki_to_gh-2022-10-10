@@ -22,7 +22,7 @@ Sage, first released in 2005, in over a decade of incubation in the  [[https://g
 
 Registration is done through the umbrella event [[https://scale.gtu.edu.tr/|SCALE 2022 webpage]].
 
-Free accomodation is offered to students. All participants can request travel and accomodation support.
+Free accomodation is offered to students. All participants can request travel and accomodation support. Please fill out [[https://docs.google.com/forms/d/e/1FAIpQLSdZlX_h7aoTTNailrz7COS67lN0Kvwg11KaCblgfguIAJy1FA/viewform?usp=sf_link|this form]] if you want support for registration, accomocation or travel.
 
 == Tentative schedule ==
 
