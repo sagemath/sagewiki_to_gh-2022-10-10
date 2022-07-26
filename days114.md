@@ -85,6 +85,14 @@ kinds of mathematical surfaces: constant-negative curvature surfaces,
 minimal surfaces, algebraic surfaces.
 The software used will be Sagemath, MathMod, Surface Evolver, Blender and Cura.
 
+Julian Rüth: Interactive Visualization in SageMath
+
+We look at existing visualization in SageMath and that it's mostly lacking real interactivity.
+Interactive widgets are, however, not so hard to build with SageMath. We showcase the
+[ipymuvue](https://github.com/flatsurf/ipymuvue) package which is a reimplementation  of
+[ipyvue](https://github.com/mariobuikhuizen/ipyvue/releases) in Vue3.
+
+The graph editor developed during the talk is at https://github.com/flatsurf/ipymuvue/tree/master/examples/graph-editor.
 
 == Sage Club at CMI ==
 
