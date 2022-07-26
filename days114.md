@@ -64,7 +64,7 @@ by Julian Rüth and Samuel Lelièvre.
 ==== Talk Details ====
 
 Ajit Kumar: An introduction to SageMath
-[[https://www.imsc.res.in/~amri/SageDays114_Ajit.html]Slides]
+[[https://www.imsc.res.in/~amri/SageDays114_Ajit.html|Slides]]
 
 Eric Marberg: Shifted combinatorial Hopf algebras for K-theory
 
