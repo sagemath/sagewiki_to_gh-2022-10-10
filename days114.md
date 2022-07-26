@@ -94,6 +94,8 @@ Interactive widgets are, however, not so hard to build with SageMath. We showcas
 
 The graph editor developed during the talk is at https://github.com/flatsurf/ipymuvue/tree/master/examples/graph-editor.
 
+The slides from the talk are at https://gist.github.com/saraedum/2cd063e97f555c13816439ffdcb87af8
+
 == Sage Club at CMI ==
 
 Following the Sage Days, a [[days114/club|''Sage Club'']] will meet twice a week at CMI. The ''Sage Club'' is going to be an open forum, led by Samuel Lelièvre and Julian Rüth, where we will learn more about SageMath, focusing on the interests of the participants. Just as with the Sage Days, beginners and students are very welcome at any session.
