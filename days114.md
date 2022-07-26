@@ -71,6 +71,7 @@ Eric Marberg: Shifted combinatorial Hopf algebras for K-theory
 The self-dual Hopf algebra of symmetric functions Sym embeds into the quasisymmetric functions QSym. The dual of QSym is the Hopf algebra of noncommutative symmetric functions NSym, which itself embeds into the self-dual Malvenuto-Reutenaurer Hopf algebra of permutations. These embeddings and their adjoint projections can be conveniently drawn as a diagram of six Hopf algebras. This talk will discuss "K-theoretic" and "shifted" generalizations of this diagram, along with some algorithmic problems related to computing products, coproducts, and antipodes in the relevant Hopf algebras. The new results in this talk are joint work with Joel Lewis.
 
 Alba Málaga: 3D printing mathematical surfaces
+[[https://cocalc.com/share/download/4d2794d3703605f4aa2890e17bab0073e381b918/Talk.pdf|Slides]]
 
 As a mathematician, you don't need to touch a surface to feel how
 beautiful it is. But what if you want to talk about it to your grandpa
