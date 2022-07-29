@@ -6,7 +6,7 @@ The Sage days will consist in an intense three-day meeting at IMSc:
 
  * July 25–27, 2022, [[https://www.imsc.res.in|The Institute of Mathematical Sciences (IMSc)]], Chennai, India
  * Zoom link: https://zoom.us/j/96302249436, Meeting ID: 963 0224 9436, Passcode: 932291
- * Recordings on youtube (unfortunately, some are missing the first few minutes:) [[https://www.youtube.com/watch?v=_-6fFfiiCGY|Martin Rubey,Combinatorial Species]], [[https://www.youtube.com/watch?v=T6fQG1GeRtQ|Eric Marberg, Shifted combinatorial Hopf algebras for K-theory]], [[https://www.youtube.com/watch?v=kTYgZSRxpEE|Julian Rüth, Interactive Widgets in SageMath]], [[https://www.youtube.com/watch?v=fz5EbgORClc|Alba Málaga, 3D printing mathematical surfaces]], [[https://www.youtube.com/watch?v=JWU8YV37t7c|Ajit Kumar, An introduction to SageMath; Samuel Lelièvre, SageMath for the educator (starting around 1:04:00)]]
+ * Recordings on youtube (unfortunately, some are missing the first few minutes:) [[https://www.youtube.com/watch?v=_-6fFfiiCGY|Martin Rubey, Combinatorial Species]], [[https://www.youtube.com/watch?v=T6fQG1GeRtQ|Eric Marberg, Shifted combinatorial Hopf algebras for K-theory]], [[https://www.youtube.com/watch?v=kTYgZSRxpEE|Julian Rüth, Interactive Widgets in SageMath]], [[https://www.youtube.com/watch?v=fz5EbgORClc|Alba Málaga, 3D printing mathematical surfaces]], [[https://www.youtube.com/watch?v=JWU8YV37t7c|Ajit Kumar, An introduction to SageMath; Samuel Lelièvre, SageMath for the educator (starting around 1:04:00)]]
 
 
 Following this intense period, a working group on
