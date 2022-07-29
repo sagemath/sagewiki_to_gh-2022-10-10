@@ -6,7 +6,7 @@ The Sage days will consist in an intense three-day meeting at IMSc:
 
  * July 25–27, 2022, [[https://www.imsc.res.in|The Institute of Mathematical Sciences (IMSc)]], Chennai, India
  * Zoom link: https://zoom.us/j/96302249436, Meeting ID: 963 0224 9436, Passcode: 932291
- * YouTube livestream: https://youtu.be/JWU8YV37t7c
+ * Recordings on youtube: https://www.youtube.com/watch?v=_-6fFfiiCGY, https://www.youtube.com/watch?v=T6fQG1GeRtQ, https://www.youtube.com/watch?v=kTYgZSRxpEE, https://www.youtube.com/watch?v=fz5EbgORClc, https://www.youtube.com/watch?v=JWU8YV37t7c
 
 
 Following this intense period, a working group on
