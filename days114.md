@@ -92,7 +92,7 @@ Interactive widgets are, however, not so hard to build with SageMath. We showcas
 [[https://github.com/flatsurf/ipymuvue|ipymuvue]] package which is a reimplementation  of
 [[https://github.com/mariobuikhuizen/ipyvue/releases|ipyvue]] in Vue3.
 
-The graph editor developed during the talk is at https://github.com/flatsurf/ipymuvue/tree/master/examples/graph-editor.
+The graph editor developed during the talk is at https://github.com/flatsurf/ipymuvue/tree/master/examples/.
 
 The slides from the talk are at https://gist.github.com/saraedum/2cd063e97f555c13816439ffdcb87af8
 
