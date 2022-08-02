@@ -14,7 +14,7 @@ SageDays 113 will be followed by two conferences, Applications of Computer Algeb
 
 
 == Topics and goals ==
-This will be first SageDays in Turkey, hence one of the main goals is to start a Sage community in Turkey. 
+This will be first SageDays in Turkey, hence one of the main goals is to start a Sage community. 
 
 == About SageMath ==
 
