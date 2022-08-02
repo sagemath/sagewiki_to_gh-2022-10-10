@@ -66,7 +66,7 @@ by Julian Rüth and Samuel Lelièvre.
 Ajit Kumar: An introduction to SageMath
 [[https://www.imsc.res.in/~amri/SageDays114_Ajit.html|Slides]]
 
-Eric Marberg: Shifted combinatorial Hopf algebras for K-theory
+Eric Marberg: Shifted combinatorial Hopf algebras for K-theory [[attachment:EricMarberg_SageDays114_Slides.pdf|slides]]
 
 The self-dual Hopf algebra of symmetric functions Sym embeds into the quasisymmetric functions QSym. The dual of QSym is the Hopf algebra of noncommutative symmetric functions NSym, which itself embeds into the self-dual Malvenuto-Reutenaurer Hopf algebra of permutations. These embeddings and their adjoint projections can be conveniently drawn as a diagram of six Hopf algebras. This talk will discuss "K-theoretic" and "shifted" generalizations of this diagram, along with some algorithmic problems related to computing products, coproducts, and antipodes in the relevant Hopf algebras. The new results in this talk are joint work with Joel Lewis.
 
