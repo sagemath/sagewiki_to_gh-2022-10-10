@@ -7,7 +7,11 @@ An event for the !SageMath developer and packaging community
 
 [[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in !SageMath. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe. 
 
+SageDays Istanbul is the first event of the project "[[https://sites.google.com/view/matematikcilericinhesaplama/ana-sayfa | Training Mathematicians in Turkey in Computation]]" supported by an IMU CDC grant for 2022-2023, hosted by Istanbul Center for Mathematical Sciences(ICMS).
+
 SageDays 113 will be followed by two conferences, Applications of Computer Algebra(ACA) on 15-19 August 2022 and Computer Algebra in Scientific Computing (CASC) on 22-26 August 2022 at the same venue, Gebze Technical University, Istanbul, Turkey. All these events are part of the umbrella event Symbolic Computation: Algorithms, Learning and Engineering([[https://scale.gtu.edu.tr/|SCALE]]).
+
+
 
 == Topics and goals ==
 This will be first SageDays in Turkey, hence one of the main goals is to start a Sage community in Turkey. 
