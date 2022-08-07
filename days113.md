@@ -35,5 +35,5 @@ To be announced.
 == Organizers ==
 
  * [[https://sites.google.com/view/canozanoguz/home|Can Ozan Oğuz]], Gebze Technical University, Turkey
- * [[https://tscrim.github.io/|Travis Scrimschaw]], Osaka City University, Japan
+ * [[https://tscrim.github.io/|Travis Scrimschaw]], Hokkaido University, Japan
  * [[https://avesis.ktu.edu.tr/tulayaa/|Tülay Ayyıldız]], Karadeniz Technical University & Istanbul Technical University, Turkey
