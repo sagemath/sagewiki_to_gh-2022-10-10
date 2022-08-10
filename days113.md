@@ -3,8 +3,6 @@
 Monday, August 8 to Friday, August 12, 2022
 Gebze Technical University, Istanbul, Turkey
 
-An event for the !SageMath developer and packaging community
-
 [[https://wiki.sagemath.org/Workshops|SageDays]] are gatherings of people interested in !SageMath. Sage Days have been organized as local, regional, or international in-person meetings by a wide range of people around the globe. 
 
 SageDays Istanbul is the first event of the project "[[https://sites.google.com/view/matematikcilericinhesaplama/ana-sayfa | Training Mathematicians in Turkey in Computation]]" supported by an IMU CDC grant for 2022-2023, hosted by Istanbul Center for Mathematical Sciences(ICMS).
