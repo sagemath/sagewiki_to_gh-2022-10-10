@@ -61,6 +61,7 @@ Release notes (higher level than change logs) are collaboratively prepared at [[
 == Demonstrations of Graphical Capabilities ==
  * [[art|Art - posters, banners, etc]]
  * [[interact|Interact Demos]]
+ * [[interactive|Interactive Visualization]]
  * [[K3D-tools|K3D-jupyter 3D visualisation in jupyter notebook]]
 
 = About this wiki =
