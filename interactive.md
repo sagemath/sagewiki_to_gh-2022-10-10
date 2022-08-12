@@ -10,7 +10,10 @@ Currently, visualization in SageMath is mostly not interactive. However, there a
 
 {{{#!python
 # Enable interactive matplotlib output in Jupyter.
-%matplotlib notebook
+%matplotlib nbagg
+
+# Better, sage -pip install ipympl and then
+# %matplotlib ipympl
 
 class DynamicPlot(sage.plot.primitive.GraphicPrimitive):
     r"""
