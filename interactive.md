@@ -64,7 +64,7 @@ class DynamicPlot(sage.plot.primitive.GraphicPrimitive):
                 raise
 
         # Redraw when the plot is dragged around.
-        subplot.axes.callbaacks.connect("ylim_changed", redraw)
+        subplot.axes.callbacks.connect("ylim_changed", redraw)
         subplot.axes.callbacks.connect("xlim_changed", redraw)
         
         # Draw the plot in the initial bounds.
