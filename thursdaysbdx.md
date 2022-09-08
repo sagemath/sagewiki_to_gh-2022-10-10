@@ -5,8 +5,8 @@
 
 ''Prochaines séances:
  * 8 sept 2022
- * 15 sept 2022: présentation Hugo "ma wishlist pour sage"
- * 13 oct 2022: présentation Hugo "algèbre des mots tassés (suite du [[https://ci.labri.fr/pmwiki.php/Groupe/GT|séminaire]]" à 11h''
+ * 15 sept 2022: présentation Hugo 10h "ma wishlist pour sage"
+ * 13 oct 2022: présentation Hugo 11h "algèbre des mots tassés (suite du [[https://ci.labri.fr/pmwiki.php/Groupe/GT|séminaire]]")''
 
 Nous nous réunissons les jeudi au [[http://www.labri.fr/index.php?n=Com.Plan|LaBRI]] pour discuter et programmer autour des logiciels de calculs formels. Les journées restent centrées sur [[http://www.sagemath.org/|Sage]] et [[http://pari.math.u-bordeaux.fr/|PARI/GP]] mais elles sont ouvertes à tous/toutes. Le principe est que si vous avez des questions vous venez les poser et si vous savez des choses vous venez les partager. Certains jeudi seront centrés sur des thématiques sous forme de mini-cours ou démonstration.
 
