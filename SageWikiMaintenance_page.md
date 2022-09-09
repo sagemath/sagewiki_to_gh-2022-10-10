@@ -87,7 +87,6 @@ Note: "Contributors" are not necessarily coders/programmers, but "Developers" ''
 || [[DsageNg]] || SageMath in a distributed environment || Category || Developers || Update often with Trac ||
 || [[dynamics]] || Implementing various algorithms related to dynamics || Category || Developers || Update with Trac ||
 || education# || Sage Education Days, where # is digit between 1 and 6 || Category || Low || mrennekamp: rename to scheme "education/#"; keeping for archive ||
-|| [[faq]] || Many FAQ's || Page || Users || Visually clean and add FAQ's from [[https://doc.sagemath.org]] ||
 || [[feature_request_guidelines]] || Great attempt at rules for requests || Page, but related to [[CodeOfConduct]] || High || Combine all guideline pages....? ||
 || [[File_formats]] || Types of formats related to Sage || Page || Low || decide if needed ||
 || [[FromSageToSageMath]] || Highlights the name transition and when to use each || Page || Mid || Reference often ||
