@@ -68,6 +68,6 @@ Release notes (higher level than change logs) are collaboratively prepared at [[
 
 '''Editing the wiki.''' Page editing uses the MoinMoin syntax. To edit the wiki, you will need a log in using your [[https://trac.sagemath.org/#legacy-account-request|legacy sage-trac account]] account; a !GitHub account cannot be used for this. Since it ''is'' a wiki, pages should be made to last over many, and frequent, changes. If an external link is made, please attach relevant files/content to avoid broken links. If you edit an existing page with a long history, a key question is: "If someone opens this page tomorrow, will they be able to tell which information is current and which is outdated?" Edit accordingly.
 
-'''SageWiki maintenance.''' The [[SageWikiMaintenance page]] attempts to reorganize the wiki, which has accumulated many outdated pages. [[https://trac.sagemath.org/ticket/33725|Pages related to development are being transferred to the Trac wiki.]]
+'''SageWiki maintenance.''' The [[SageWikiMaintenance page]] attempts to reorganize the wiki, which has accumulated many outdated pages. [[https://trac.sagemath.org/ticket/33725|Pages related to development are being transferred to the Trac wiki or merged in our developer guide.]]
 
 '''License and Copyright.''' Contributions to the [[https://www.sagemath.org/|Sage]] wiki and to the [[https://doc.sagemath.org|Sage documentation]] are licensed under the [[https://creativecommons.org/licenses/by-sa/3.0/|Creative Commons 3.0 BY-SA license]]. By contributing, you agree to place your contribution under that license.
