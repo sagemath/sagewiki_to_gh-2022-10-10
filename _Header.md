@@ -1,0 +1,1 @@
+<img src="/moin_static1911/common/moinmoin.png" alt="MoinMoin Logo">
