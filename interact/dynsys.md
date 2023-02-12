@@ -1,9 +1,12 @@
-= Sage Interactions - Dynamical Systems =
-goto [[interact|interact main page]]
-<<TableOfContents>>
-== Cobweb diagrams on [0,1] ==
-by Marshall Hampton.
-{{{#!sagecell
+
+
+# Sage Interactions - Dynamical Systems
+
+goto <a href="/interact">interact main page</a> [[_TOC_]] 
+## Cobweb diagrams on [0,1]
+
+by Marshall Hampton. 
+```sagecell
 def cobweb(a_function, start, mask = 0, iterations = 20, xmin = 0, xmax = 1):
     '''
     Returns a graphics object of a plot of the function and a cobweb trajectory starting from the value start.
@@ -39,12 +42,14 @@ def cobwebber(f_text = input_box(default = "3.8*x*(1-x)",label = "function", typ
     def f(x):
         return eval(f_text)
     show(cobweb(f, start_val, iterations = its))
-}}}
-{{attachment:cobweb.png}}
+```
+![interact/dynsys/cobweb.png](interact/dynsys/cobweb.png) 
 
-== Cythonized Logistic Orbit Map ==
-By Marshall Hampton
-{{{
+
+## Cythonized Logistic Orbit Map
+
+By Marshall Hampton 
+```txt
 %cython
 cpdef double logorb(double k,long N,double x0):
     cdef double x = x0
@@ -61,8 +66,9 @@ cpdef logtraj(double k,long N, double x0):
         x = k*x*(1-x)
         xvals.append(x)
     return xvals
-}}}
-{{{
+```
+
+```txt
 pretty_print(html('<h2>Orbit diagram of the logistic map</h2>'))
 @interact
 def logistic_bifs(k_min = slider(0.0,4.0,.001,3.5), k_max = slider(0.0,4.0,.001,4.0)):
@@ -81,5 +87,5 @@ def logistic_bifs(k_min = slider(0.0,4.0,.001,3.5), k_max = slider(0.0,4.0,.001,
             ks = logtraj(k,100,x)
             xpts = xpts + [[k,q] for q in ks]
     show(points(xpts, pointsize = 1), figsize = [6,6])
-}}}
-{{attachment:logisticorbits.png}}
+```
+![interact/dynsys/logisticorbits.png](interact/dynsys/logisticorbits.png) 

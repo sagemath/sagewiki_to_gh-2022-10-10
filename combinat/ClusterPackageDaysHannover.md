@@ -1,105 +1,112 @@
-= Sage and cluster algebra workshop =
 
-The Sage and cluster algebra workshop will be held at the '''University of Hannover, Germany, February 8-10 2012'''.
 
-== Requirements ==
+# Sage and cluster algebra workshop
 
- * Everyone attending should have a laptop with
-  * a Linux or Mac OS System (running one of OS X 10.4, 10.5, or 10.6).
-  * For those running Windows on their machines (if you do not understand what these things mean, Julian can explain the implications of these to you):
-    * you install Linux on your System
-    * or you try to get sage-combinat to work inside a "virtual machine"
-    * or use the Sage-Combinat server at http://sage.lacim.uqam.ca. As this server is not completely reliable, this will not be the preferred way.
- * It would also be appreciated if everyone tries to install Sage and the optional Sage-Combinat package before the course starts. For instructions see http://wiki.sagemath.org/combinat/Installation. We will meet on Tuesday afternoon at 15:00 in the Leibniz Lab (IAZD's coffee room) to get sage installed on all the machines in some way.
- * Basic (or even a little more advanced) programming skills are not required but will be very helpful.
+The Sage and cluster algebra workshop will be held at the **University of Hannover, Germany, February 8-10 2012**. 
 
-== Further reading ==
 
- * The Sage documentation http://sagemath.org/help.html#SageStandardDoc.
- * Many thematic tutorials on Sage can be found at http://combinat.sagemath.org/doc/thematic_tutorials/index.html.
- * The compendium for the cluster algebra and quiver package http://arxiv.org/abs/1102.4844.
- * For further references to background on cluster algebras and quivers see the references in the compendium.
- * Interesting lectures can be found at http://www.msri.org/web/msri/scientific/workshops/show/-/event/Wm550.
+## Requirements
 
-== A tentative schedule ==
+* Everyone attending should have a laptop with 
+   * a Linux or Mac OS System (running one of OS X 10.4, 10.5, or 10.6). 
+   * For those running Windows on their machines (if you do not understand what these things mean, Julian can explain the implications of these to you): 
+         * you install Linux on your System 
+         * or you try to get sage-combinat to work inside a "virtual machine" 
+         * or use the Sage-Combinat server at <a href="http://sage.lacim.uqam.ca">http://sage.lacim.uqam.ca</a>. As this server is not completely reliable, this will not be the preferred way. 
+* It would also be appreciated if everyone tries to install Sage and the optional Sage-Combinat package before the course starts. For instructions see <a href="http://wiki.sagemath.org/combinat/Installation">http://wiki.sagemath.org/combinat/Installation</a>. We will meet on Tuesday afternoon at 15:00 in the Leibniz Lab (IAZD's coffee room) to get sage installed on all the machines in some way. 
+* Basic (or even a little more advanced) programming skills are not required but will be very helpful. 
 
-All sessions will be in the '''IAZD Seminar Room (a410)'''.
+## Further reading
 
-=== Wednesday Feb 8 ===
+* The Sage documentation <a href="http://sagemath.org/help.html#SageStandardDoc">http://sagemath.org/help.html#SageStandardDoc</a>. 
+* Many thematic tutorials on Sage can be found at <a href="http://combinat.sagemath.org/doc/thematic_tutorials/index.html">http://combinat.sagemath.org/doc/thematic_tutorials/index.html</a>. 
+* The compendium for the cluster algebra and quiver package <a href="http://arxiv.org/abs/1102.4844">http://arxiv.org/abs/1102.4844</a>. 
+* For further references to background on cluster algebras and quivers see the references in the compendium. 
+* Interesting lectures can be found at <a href="http://www.msri.org/web/msri/scientific/workshops/show/-/event/Wm550">http://www.msri.org/web/msri/scientific/workshops/show/-/event/Wm550</a>. 
 
-On Wednesday, we will mainly go through several thematic tutorials that can be found at http://combinat.sagemath.org/doc/thematic_tutorials/index.html, plus a presentation on the history and current situation of Sage and Sage-Combinat.
+## A tentative schedule
 
-==== 10:15-13:00 ====
+All sessions will be in the **IAZD Seminar Room (a410)**. 
 
- * Installing Sage and the optional Combinat package
- * Getting used to the Sage Notebook and the Sage command line
- * Using the documentation
- * How to get help
- * Using Sage and Sage-Combinat online
 
-==== 14:15-17:00 ====
+### Wednesday Feb 8
 
- * Some programming in Python and in Sage (which is based on Python)
- * Using the Computer Algebra System Sage
+On Wednesday, we will mainly go through several thematic tutorials that can be found at <a href="http://combinat.sagemath.org/doc/thematic_tutorials/index.html">http://combinat.sagemath.org/doc/thematic_tutorials/index.html</a>, plus a presentation on the history and current situation of Sage and Sage-Combinat. 
 
-=== Thursday Feb 9 ===
 
-==== 10:15-13:00 ====
+#### 10:15-13:00
 
- * First examples of the Cluster package and the interactive mode
- * Theoretical background
- * Working with finite and affine types
- * Connections to root systems and subword complexes
+* Installing Sage and the optional Combinat package 
+* Getting used to the Sage Notebook and the Sage command line 
+* Using the documentation 
+* How to get help 
+* Using Sage and Sage-Combinat online 
 
-==== 14:15-17:00 ====
+#### 14:15-17:00
 
- * Exploring clusters for cluster algebras
- * The classification of finite and mutation-finite cluster algebras
- * Playing with the package
+* Some programming in Python and in Sage (which is based on Python) 
+* Using the Computer Algebra System Sage 
 
-=== Friday Feb 10 ===
+### Thursday Feb 9
 
-==== 10:15-13:00 ====
 
- * More theoretical background like the bipartite belt
- * Limits of the package
- * Comparison with other packages on cluster algebras
- * Finding more limits of the package
- * Suggestions for further implementations
- * Discussion
+#### 10:15-13:00
 
-==== 14:15-17:00 ====
+* First examples of the Cluster package and the interactive mode 
+* Theoretical background 
+* Working with finite and affine types 
+* Connections to root systems and subword complexes 
 
- * open session
-  * How to contribute to Sage and the cluster package
+#### 14:15-17:00
 
-== Participants ==
+* Exploring clusters for cluster algebras 
+* The classification of finite and mutation-finite cluster algebras 
+* Playing with the package 
 
-Please add your name to the list if you plan to attend!
+### Friday Feb 10
 
- * Janine Bastian
- * Nathan Broomhead
- * Sira Gratz
- * Andreas Hochenegger
- * David Pauksztello (local organizer)
- * David Ploog
- * Julian Rüth (might join on Thursday and Friday)
- * Christopher Schure
- * Christian Stump (instructor, christian.stump@gmail.com)
 
-== Discussion ==
+#### 10:15-13:00
 
-space for discussions like interesting topics, open problems, ...
+* More theoretical background like the bipartite belt 
+* Limits of the package 
+* Comparison with other packages on cluster algebras 
+* Finding more limits of the package 
+* Suggestions for further implementations 
+* Discussion 
 
-Let me open with something not implemented but we have been asked to do:
+#### 14:15-17:00
 
- * implementation of quantum cluster algebras
+* open session 
+   * How to contribute to Sage and the cluster package 
 
-== Attachments ==
+## Participants
 
- * [[attachment:Notebook intro.sws]]
- * [[attachment:Basic Combinatorics intro.sws]]
- * [[attachment:Sage-Combinat demo (1).sws]]
- * [[attachment:Cluster Package demo (1).sws]]
- * [[attachment:Cluster complexes and generalized associahedra (1).sws]]
- * [[attachment:The Compendium (1).sws]]
+Please add your name to the list if you plan to attend! 
+
+* Janine Bastian 
+* Nathan Broomhead 
+* Sira Gratz 
+* Andreas Hochenegger 
+* David Pauksztello (local organizer) 
+* David Ploog 
+* Julian Rüth (might join on Thursday and Friday) 
+* Christopher Schure 
+* Christian Stump (instructor, <a href="mailto:christian.stump@gmail.com">christian.stump@gmail.com</a>) 
+
+## Discussion
+
+space for discussions like interesting topics, open problems, ... 
+
+Let me open with something not implemented but we have been asked to do: 
+
+* implementation of quantum cluster algebras 
+
+## Attachments
+
+* <a href="combinat/ClusterPackageDaysHannover/Notebook intro.sws">Notebook intro.sws</a> 
+* <a href="combinat/ClusterPackageDaysHannover/Basic Combinatorics intro.sws">Basic Combinatorics intro.sws</a> 
+* <a href="combinat/ClusterPackageDaysHannover/Sage-Combinat demo (1).sws">Sage-Combinat demo (1).sws</a> 
+* <a href="combinat/ClusterPackageDaysHannover/Cluster Package demo (1).sws">Cluster Package demo (1).sws</a> 
+* <a href="combinat/ClusterPackageDaysHannover/Cluster complexes and generalized associahedra (1).sws">Cluster complexes and generalized associahedra (1).sws</a> 
+* <a href="combinat/ClusterPackageDaysHannover/The Compendium (1).sws">The Compendium (1).sws</a> 

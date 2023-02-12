@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 Tentative Programme
 ===================
@@ -157,4 +160,4 @@ Development Projects
 
 See the `projects <days30_projects>`_ page.
 
-}}}
+```

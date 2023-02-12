@@ -1,7 +1,9 @@
-= ZAK code analysis =
 
-To quote the Introduction of the ZAK software survey by Rainer Schulze-Pillot (linked below as PDF):
-{{{
+
+# ZAK code analysis
+
+To quote the Introduction of the ZAK software survey by Rainer Schulze-Pillot (linked below as PDF): 
+```txt
 In the 1990s Rudolf Scharlau and I had a joint project concerned 
 with computations for and with integral quadratic (and later also 
 hermitian) forms over Z and also over the rings of integers of 
@@ -22,41 +24,42 @@ experiments I did now are under Linux (Suse 11.0) using gcc 4.3.
 The present new interest in such computations, in particular in 
 the SAGE project, raises the question whether it is worthwhile 
 (and possible) to revive these programs.
-}}}
+```
+
+## Interesting code
 
 
-== Interesting code ==
+### tn
 
-=== tn ===
+* C code 
+* compiles fine and is well tested 
+* GPL V2+ 
+* depends on GMP only 
+* minor issues in code, i.e. "malloc.h" used, static linking broken on OSX 
+* mabshoff will build an experimental spkg 
 
- * C code
- * compiles fine and is well tested
- * GPL V2+
- * depends on GMP only
- * minor issues in code, i.e. "malloc.h" used, static linking broken on OSX
- * mabshoff will build an experimental spkg
+### hn
 
-=== hn ===
+* C++ code 
+* friend and template issues - forward declaration should fix that (patch exists) 
+* depends on LiDiA **and** LEDA (depends on sorting for sortseq) 
+* presumed to work correctly 
+* ancient binary on Linux exists, uses old LEDA and LiDiA 
 
- * C++ code
- * friend and template issues - forward declaration should fix that (patch exists)
- * depends on LiDiA '''and''' LEDA (depends on sorting for sortseq)
- * presumed to work correctly
- * ancient binary on Linux exists, uses old LEDA and LiDiA
+### isolist
 
-=== isolist ===
+* C++ code 
+* depends on LiDiA **or** LEDA controllable via include_param.h - see end of schulzepillot_qfcomputing_zak.pdf 
 
- * C++ code
- * depends on LiDiA '''or''' LEDA controllable via include_param.h - see end of schulzepillot_qfcomputing_zak.pdf
+### decomp
 
-=== decomp ===
+* valgrind it to check for 
 
- * valgrind it to check for
-{{{
+```txt
 *** glibc detected *** decomp: double free or 
 corruption (fasttop): 0x08055458 *** 
-}}}
+```
 
-=== herm_mass ===
+### herm_mass
 
- * check compilation 
+* check compilation  

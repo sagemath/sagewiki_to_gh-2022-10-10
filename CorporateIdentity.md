@@ -1,59 +1,56 @@
-= Logos and icons =
 
-You will find here a selection of logos and icons for !SageMath.
 
-There is also a repository on Github: [[https://github.com/sagemath/artwork | github.com/sagemath/artwork]].
+# Logos and icons
 
-== Logo ==
+You will find here a selection of logos and icons for SageMath. 
 
-[[attachment:logo_sagemath.svg|{{attachment:logo_sagemath.svg||width=40%}}]] 
+There is also a repository on Github: <a class="https" href="https://github.com/sagemath/artwork">github.com/sagemath/artwork</a>. 
 
-== Logos with translated motto ==
 
-[[attachment:logo_sagemath_opensource.svg|{{attachment:logo_sagemath_opensource.svg||width=40%}}]]
-[[attachment:logo_sagemath_opensource_fr.svg|{{attachment:logo_sagemath_opensource_fr.svg||width=40%}}]] 
+## Logo
 
-[[attachment:logo_sagemath_opensource_it.svg|{{attachment:logo_sagemath_opensource_it.svg||width=40%}}]]
-[[attachment:logo_sagemath_opensource_de.svg|{{attachment:logo_sagemath_opensource_de.svg||width=40%}}]] 
+<a href="CorporateIdentity/logo_sagemath.svg">![CorporateIdentity/logo_sagemath.svg](CorporateIdentity/logo_sagemath.svg)</a>  
 
-[[attachment:logo_sagemath_opensource_nl.svg|{{attachment:logo_sagemath_opensource_nl.svg||width=40%}}]]
-[[attachment:logo_sagemath_opensource_ru.svg|{{attachment:logo_sagemath_opensource_ru.svg||width=40%}}]] 
 
-[[attachment:logo_sagemath_opensource_jp.svg|{{attachment:logo_sagemath_opensource_jp.svg||width=40%}}]] 
-[[attachment:logo_sagemath_opensource_kr.svg|{{attachment:logo_sagemath_opensource_kr.svg||width=40%}}]] 
+## Logos with translated motto
 
-[[attachment:logo_sagemath_opensource_zh.svg|{{attachment:logo_sagemath_opensource_zh.svg||width=40%}}]] 
+<a href="CorporateIdentity/logo_sagemath_opensource.svg">![CorporateIdentity/logo_sagemath_opensource.svg](CorporateIdentity/logo_sagemath_opensource.svg)</a> <a href="CorporateIdentity/logo_sagemath_opensource_fr.svg">![CorporateIdentity/logo_sagemath_opensource_fr.svg](CorporateIdentity/logo_sagemath_opensource_fr.svg)</a>  
 
-== Logos for web components ==
+<a href="CorporateIdentity/logo_sagemath_opensource_it.svg">![CorporateIdentity/logo_sagemath_opensource_it.svg](CorporateIdentity/logo_sagemath_opensource_it.svg)</a> <a href="CorporateIdentity/logo_sagemath_opensource_de.svg">![CorporateIdentity/logo_sagemath_opensource_de.svg](CorporateIdentity/logo_sagemath_opensource_de.svg)</a>  
 
-[[attachment:logo_sagemath_trac.svg|{{attachment:logo_sagemath_trac.svg||width=40%}}]]
-[[attachment:logo_sagemath_wiki.svg|{{attachment:logo_sagemath_wiki.svg||width=40%}}]] 
+<a href="CorporateIdentity/logo_sagemath_opensource_nl.svg">![CorporateIdentity/logo_sagemath_opensource_nl.svg](CorporateIdentity/logo_sagemath_opensource_nl.svg)</a> <a href="CorporateIdentity/logo_sagemath_opensource_ru.svg">![CorporateIdentity/logo_sagemath_opensource_ru.svg](CorporateIdentity/logo_sagemath_opensource_ru.svg)</a>  
 
-[[attachment:logo_sagemath_git.svg|{{attachment:logo_sagemath_git.svg||width=40%}}]]
-[[attachment:logo_sagemath_ask.svg|{{attachment:logo_sagemath_ask.svg||width=40%}}]] 
+<a href="CorporateIdentity/logo_sagemath_opensource_jp.svg">![CorporateIdentity/logo_sagemath_opensource_jp.svg](CorporateIdentity/logo_sagemath_opensource_jp.svg)</a>  <a href="CorporateIdentity/logo_sagemath_opensource_kr.svg">![CorporateIdentity/logo_sagemath_opensource_kr.svg](CorporateIdentity/logo_sagemath_opensource_kr.svg)</a>  
 
-[[attachment:logo_sagemath_cell.svg|{{attachment:logo_sagemath_cell.svg||width=40%}}]] 
+<a href="CorporateIdentity/logo_sagemath_opensource_zh.svg">![CorporateIdentity/logo_sagemath_opensource_zh.svg](CorporateIdentity/logo_sagemath_opensource_zh.svg)</a>  
 
-== Icons ==
 
-[[attachment:icon_sagemath_round.svg|{{attachment:icon_sagemath_round.svg||width=20%}}]]
-[[attachment:icon_sagemath_round_v2.svg|{{attachment:icon_sagemath_round_v2.svg||width=20%}}]]
-[[attachment:logo_v3.svg|{{attachment:logo_v3.svg||width=20%}}]]
-[[attachment:sticker_sage.svg|{{attachment:sticker_sage.svg||width=20%}}]]
+## Logos for web components
 
-== Wallpaper ==
+<a href="CorporateIdentity/logo_sagemath_trac.svg">![CorporateIdentity/logo_sagemath_trac.svg](CorporateIdentity/logo_sagemath_trac.svg)</a> <a href="CorporateIdentity/logo_sagemath_wiki.svg">![CorporateIdentity/logo_sagemath_wiki.svg](CorporateIdentity/logo_sagemath_wiki.svg)</a>  
 
-[[attachment:wallpaper_sagemath2.svg|{{attachment:wallpaper_sagemath2.svg||width=40%}}]] 
-[[attachment:wallpaper_sagemath_green.svg|{{attachment:wallpaper_sagemath_green.svg||width=40%}}]] 
+<a href="CorporateIdentity/logo_sagemath_git.svg">![CorporateIdentity/logo_sagemath_git.svg](CorporateIdentity/logo_sagemath_git.svg)</a> <a href="CorporateIdentity/logo_sagemath_ask.svg">![CorporateIdentity/logo_sagemath_ask.svg](CorporateIdentity/logo_sagemath_ask.svg)</a>  
 
-== Color scheme ==
+<a href="CorporateIdentity/logo_sagemath_cell.svg">![CorporateIdentity/logo_sagemath_cell.svg](CorporateIdentity/logo_sagemath_cell.svg)</a>  
 
-||<style="color: white; background-color:blue">White on blue background||
 
-== Links ==
+## Icons
 
-[[https://github.com/sagemath/artwork|Artwork on github]]
-[[http://www.sagemath.org/library-marketing.html|Marketing Resources]]
-[[https://github.com/sagemath/website/tree/master/src/pix|Images of website]]
+<a href="CorporateIdentity/icon_sagemath_round.svg">![CorporateIdentity/icon_sagemath_round.svg](CorporateIdentity/icon_sagemath_round.svg)</a> <a href="CorporateIdentity/icon_sagemath_round_v2.svg">![CorporateIdentity/icon_sagemath_round_v2.svg](CorporateIdentity/icon_sagemath_round_v2.svg)</a> <a href="CorporateIdentity/logo_v3.svg">![CorporateIdentity/logo_v3.svg](CorporateIdentity/logo_v3.svg)</a> <a href="CorporateIdentity/sticker_sage.svg">![CorporateIdentity/sticker_sage.svg](CorporateIdentity/sticker_sage.svg)</a> 
 
-== Terms of Usage ==
+
+## Wallpaper
+
+<a href="CorporateIdentity/wallpaper_sagemath2.svg">![CorporateIdentity/wallpaper_sagemath2.svg](CorporateIdentity/wallpaper_sagemath2.svg)</a>  <a href="CorporateIdentity/wallpaper_sagemath_green.svg">![CorporateIdentity/wallpaper_sagemath_green.svg](CorporateIdentity/wallpaper_sagemath_green.svg)</a>  
+
+
+## Color scheme
+White on blue background
+
+
+## Links
+
+<a class="https" href="https://github.com/sagemath/artwork">Artwork on github</a> <a class="http" href="http://www.sagemath.org/library-marketing.html">Marketing Resources</a> <a class="https" href="https://github.com/sagemath/website/tree/master/src/pix">Images of website</a> 
+
+
+## Terms of Usage

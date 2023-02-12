@@ -1,19 +1,20 @@
-Legend: 
 
--- .... doesn't apply
+Legend:  
 
-no .... the package is not in Debian
+-- .... doesn't apply 
 
-yes ... the package is in Debian, sometimes there is more information about it in brackets (i.e. older, newer)
+no .... the package is not in Debian 
 
-Tags:
+yes ... the package is in Debian, sometimes there is more information about it in brackets (i.e. older, newer) 
 
-[OPT] ... this package is optional
+Tags: 
 
-POSTED ... a debian/ directory is available in http://web.mit.edu/sage/www/debian-dirs/
+[OPT] ... this package is optional 
 
-Debian status for packaging of SAGE:
-{{{
+POSTED ... a debian/ directory is available in <a href="http://web.mit.edu/sage/www/debian-dirs/">http://web.mit.edu/sage/www/debian-dirs/</a> 
+
+Debian status for packaging of SAGE: 
+```txt
 - All new packages still need Copyright information, and a fixed changelog
 - Several libdev packages should depend on the library versions.
 yes blas-20070724
@@ -94,15 +95,12 @@ no eclib-20080127
 no polybori-0.1-r7
 no jmol-11.5.2.p0
 no libm4ri-20071224
-}}}
+```
+I'm creating a new list below here with links to the packages in Debian: 
+ yes  |  <a class="http" href="http://packages.debian.org/gimp">gimp</a>  |  2.4.2-1  |  
+ yes  |  <a class="http" href="http://packages.debian.org/maxima">maxima</a>  |  5.13.0-3  |  
+ yes  |  <a class="http" href="http://packages.debian.org/lie">lie</a>  |  2.2.2+dfsg-1  |  [OPT] 
 
-I'm creating a new list below here with links to the packages in Debian:
+Maybe the list could be automatically generated? The version info changes quite often. --Ondrej 
 
-|| yes || [[http://packages.debian.org/gimp|gimp]] || 2.4.2-1 || ||
-|| yes || [[http://packages.debian.org/maxima|maxima]] || 5.13.0-3 || ||
-|| yes || [[http://packages.debian.org/lie|lie]] || 2.2.2+dfsg-1 || [OPT] ||
-
-
-Maybe the list could be automatically generated? The version info changes quite often. --Ondrej
-
-dpkg-awk is a good tool for auto-generating such data. -- Tim
+dpkg-awk is a good tool for auto-generating such data. -- Tim 

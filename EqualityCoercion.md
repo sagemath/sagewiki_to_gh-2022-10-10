@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 Equality using Coercion considered harmful?
 ===========================================
@@ -110,4 +113,4 @@ Yet another example (#22594)
     Integer Ring
 
 
-}}}
+```

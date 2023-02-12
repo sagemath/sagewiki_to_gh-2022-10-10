@@ -1,23 +1,26 @@
-= Sage Doc Day 3 =
 
-'''Saturday, August 30, 2008'''
 
-We will focus mostly on doctests Doc Days 3.   Our goal is to raise the coverage score for the Sage library to 60%, since this is a central goal for September.   We need about 460 new doctests to get to 60% coverage (compared to mabshoff's 3.1.2.alpha3 merge tree as of 10am PST)
+# Sage Doc Day 3
 
-== Meetups ==
+**Saturday, August 30, 2008** 
 
-== Names ==
+We will focus mostly on doctests Doc Days 3.   Our goal is to raise the coverage score for the Sage library to 60%, since this is a central goal for September.   We need about 460 new doctests to get to 60% coverage (compared to mabshoff's 3.1.2.alpha3 merge tree as of 10am PST) 
 
-Add your name here if you're going to be involved, and mention what Sage module you're going to work on!
 
- * Timothy Clemans, hand-tests for the notebook
- * Michael Abshoff: merging and reviewing patches
+## Meetups
 
-== Modules ==
 
-Coverage scores by module for sage-3.1.2.alpha2  I made this with the following
-script run in devel/sage/sage/:
-{{{
+## Names
+
+Add your name here if you're going to be involved, and mention what Sage module you're going to work on! 
+
+* Timothy Clemans, hand-tests for the notebook 
+* Michael Abshoff: merging and reviewing patches 
+
+## Modules
+
+Coverage scores by module for sage-3.1.2.alpha2  I made this with the following script run in devel/sage/sage/: 
+```txt
 #!/usr/bin/python
 import os
 for D in os.listdir('.'):
@@ -26,9 +29,9 @@ for D in os.listdir('.'):
         r = os.popen(cmd).read()
         r = r.lstrip()
         print D.upper() + ": " + r
-}}}
+```
 
-{{{
+```txt
 PROBABILITY: Overall weighted coverage score:  3.0%
 Total number of functions:  30
 
@@ -140,15 +143,16 @@ Total number of functions:  78
 
 MODULAR: Overall weighted coverage score:  67.2%
 Total number of functions:  1347
-}}}
+```
 
-=== Files with 0% Coverage ===
+### Files with 0% Coverage
 
-The snapshot is from 3.1.2.alpha2. interfaces looks much better in the soon to be released 3.1.2.alpha3.
+The snapshot is from 3.1.2.alpha2. interfaces looks much better in the soon to be released 3.1.2.alpha3. 
 
-These are all candidates for buggy/dead code.
+These are all candidates for buggy/dead code. 
 
-{{{
+
+```txt
 algebras/quaternion_order_element.py: 0% (0 of 8)
 algebras/quaternion_order_ideal.py: 0% (0 of 6)
 algebras/algebra_order_frac_ideal.py: 0% (0 of 17)
@@ -366,4 +370,4 @@ structure/nonexact.py: 0% (0 of 3)
 structure/wrapper_parent.pyx: 0% (0 of 13)
 structure/gens_py.py: 0% (0 of 2)
 tests/benchmark.py: 0% (0 of 135)
-}}}
+```

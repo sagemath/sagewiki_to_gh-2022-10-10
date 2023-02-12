@@ -1,5 +1,7 @@
-= days 93.52 =
 
-'''''Sage days on Teichmüller theory'''''
 
-See https://if-summer2018.sciencesconf.org/
+# days 93.52
+
+_**Sage days on Teichmüller theory**_ 
+
+See <a href="https://if-summer2018.sciencesconf.org/">https://if-summer2018.sciencesconf.org/</a> 

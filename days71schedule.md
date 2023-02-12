@@ -1,101 +1,107 @@
-== Sunday, March 20 ==
 
-10:00 am - 11:00 am: ''Alyson Deines'', [[days71abstracts#sage_intro|Sage Number Theory and Development]]
 
-11:00 am - 11:30 am: Tea/coffee break
+## Sunday, March 20
 
-11:30 am - 12:00 pm: ''Fernando Rodriguez Villegas'', [[days71abstracts#zeta1|Zeta functions I]]
+10:00 am - 11:00 am: _Alyson Deines_, <a href="/days71abstracts#sage_intro">Sage Number Theory and Development</a> 
 
-12:15 pm - 12:45 pm: ''Immanuel Halupczok'', [[days71abstracts#motivic1|Counting points using uniform p-adic integration]]
+11:00 am - 11:30 am: Tea/coffee break 
 
-12:45 pm -  2:00 pm: Lunch
+11:30 am - 12:00 pm: _Fernando Rodriguez Villegas_, <a href="/days71abstracts#zeta1">Zeta functions I</a> 
 
-2:00 pm -  2:30 pm: ''Jeanine Van Order'', [[days71abstracts#iwasawa1|Iwasawa theory I]]
+12:15 pm - 12:45 pm: _Immanuel Halupczok_, <a href="/days71abstracts#motivic1">Counting points using uniform p-adic integration</a> 
 
-2:45 pm -  3:15 pm: ''David Roe'', [[days71abstracts#overconvergent1|Overconvergent modular symbols I]]
+12:45 pm -  2:00 pm: Lunch 
 
-3:15 pm -  3:45 pm: Tea/coffee break
+2:00 pm -  2:30 pm: _Jeanine Van Order_, <a href="/days71abstracts#iwasawa1">Iwasawa theory I</a> 
 
-3:45 pm -  4:15 pm: ''Tristan Vaccon'', [[days71abstracts#precision1|p-adic precision: theory, examples and application to some p-adic differential equations]]
+2:45 pm -  3:15 pm: _David Roe_, <a href="/days71abstracts#overconvergent1">Overconvergent modular symbols I</a> 
 
-4:30 pm -  5:00 pm: ''Victor Flynn'', [[days71abstracts#chabauty1|Variations on Chabauty-Coleman I]]
+3:15 pm -  3:45 pm: Tea/coffee break 
 
-5:00 pm -  6:30 pm: Coding sprint organization
+3:45 pm -  4:15 pm: _Tristan Vaccon_, <a href="/days71abstracts#precision1">p-adic precision: theory, examples and application to some p-adic differential equations</a> 
 
-6:30 pm - 8:00 pm: Dinner
+4:30 pm -  5:00 pm: _Victor Flynn_, <a href="/days71abstracts#chabauty1">Variations on Chabauty-Coleman I</a> 
 
-8:00 pm - 8:15 pm: ''Francesca Bianchi'', [[days71abstracts#hida|Computation of Hida families of ordinary cusp forms]]
+5:00 pm -  6:30 pm: Coding sprint organization 
 
-8:20 pm - 8:35 pm: ''Maurizio Monge'', [[days71abstracts#eispoly|A family of Eisenstein polynomials generating totally ramified extensions, identification of extensions and construction of class fields]]
+6:30 pm - 8:00 pm: Dinner 
 
-8:40 pm - 8:55 pm: ''Edgar Costa'', [[days71abstracts#K3F3|Zeta functions of quartic K3 surfaces over F_3]]
+8:00 pm - 8:15 pm: _Francesca Bianchi_, <a href="/days71abstracts#hida">Computation of Hida families of ordinary cusp forms</a> 
 
-9:00 pm - late: Coding sprints 
+8:20 pm - 8:35 pm: _Maurizio Monge_, <a href="/days71abstracts#eispoly">A family of Eisenstein polynomials generating totally ramified extensions, identification of extensions and construction of class fields</a> 
 
-== Monday, March 21 ==
+8:40 pm - 8:55 pm: _Edgar Costa_, <a href="/days71abstracts#K3F3">Zeta functions of quartic K3 surfaces over F_3</a> 
 
-Early morning: Coding sprints for early risers
+9:00 pm - late: Coding sprints  
 
-10:00 am - 11:00 am: ''Jan Tuitman'', [[days71abstracts#zeta2|A survey of p-adic point counting]]
 
-11:00 am - 11:30 am: Tea/coffee break
+## Monday, March 21
 
-11:30 am - 12:30 pm: ''Raf Cluckers'', [[days71abstracts#motivic2|Recent developments and applications of uniform p-adic integration]]
+Early morning: Coding sprints for early risers 
 
-12:30 pm - 2:00 pm: Lunch
+10:00 am - 11:00 am: _Jan Tuitman_, <a href="/days71abstracts#zeta2">A survey of p-adic point counting</a> 
 
-2:00 pm - 5:30 pm: Coding sprints
+11:00 am - 11:30 am: Tea/coffee break 
 
-5:30 pm - 6:30 pm: Status reports
+11:30 am - 12:30 pm: _Raf Cluckers_, <a href="/days71abstracts#motivic2">Recent developments and applications of uniform p-adic integration</a> 
 
-6:30 pm - 8:00 pm: Dinner
+12:30 pm - 2:00 pm: Lunch 
 
-8:00 pm - late: Coding sprints 
+2:00 pm - 5:30 pm: Coding sprints 
 
-== Tuesday, March 22 ==
+5:30 pm - 6:30 pm: Status reports 
 
-Early morning: Coding sprints for early risers
+6:30 pm - 8:00 pm: Dinner 
 
-10:00 am - 11:00 am: ''Chris Wuthrich'', [[days71abstracts#iwasawa2|Iwasawa theory II]]
+8:00 pm - late: Coding sprints  
 
-11:00 am - 11:30 am: Tea/coffee break
 
-11:30 am - 12:30 pm: ''Ander Steele'', [[days71abstracts#overconvergent2|Overconvergent modular symbols II]]
+## Tuesday, March 22
 
-12:30 pm - 2:00 pm: Lunch
+Early morning: Coding sprints for early risers 
 
-2:00 pm - 5:30 pm: Coding sprints
+10:00 am - 11:00 am: _Chris Wuthrich_, <a href="/days71abstracts#iwasawa2">Iwasawa theory II</a> 
 
-5:30 pm - 6:30 pm: Status reports
+11:00 am - 11:30 am: Tea/coffee break 
 
-6:30 pm - 8:00 pm: Dinner
+11:30 am - 12:30 pm: _Ander Steele_, <a href="/days71abstracts#overconvergent2">Overconvergent modular symbols II</a> 
 
-8:00 pm - late: Coding sprints 
+12:30 pm - 2:00 pm: Lunch 
 
-== Wednesday, March 23 ==
+2:00 pm - 5:30 pm: Coding sprints 
 
-Early morning: Coding sprints for early risers
+5:30 pm - 6:30 pm: Status reports 
 
-10:00 am - 11:00 am: ''Jennifer Balakrishnan'', [[days71abstracts#chabauty2|Variations on Chabauty-Coleman II]]  
+6:30 pm - 8:00 pm: Dinner 
 
-11:00 am - 11:30 am: Tea/coffee break
+8:00 pm - late: Coding sprints  
 
-11:30 am - 12:30 pm: ''Xavier Caruso'', [[days71abstracts#precision2|p-adic Floats]]
 
-12:30 pm - 2:00 pm: Lunch
+## Wednesday, March 23
 
-2:00 pm - 5:30 pm: Coding sprints
+Early morning: Coding sprints for early risers 
 
-5:30 pm - 6:30 pm: Status reports
+10:00 am - 11:00 am: _Jennifer Balakrishnan_, <a href="/days71abstracts#chabauty2">Variations on Chabauty-Coleman II</a>   
 
-7:00 pm - 9:00 pm: Workshop dinner
+11:00 am - 11:30 am: Tea/coffee break 
 
-9:00 pm - late: Coding sprints 
+11:30 am - 12:30 pm: _Xavier Caruso_, <a href="/days71abstracts#precision2">p-adic Floats</a> 
 
-== Thursday, March 24 ==
+12:30 pm - 2:00 pm: Lunch 
 
-Early morning: Coding sprints for early risers
+2:00 pm - 5:30 pm: Coding sprints 
 
-10 am - 12:30 pm: Status reports, wrap-up and discussion
+5:30 pm - 6:30 pm: Status reports 
 
-12:30 pm - 2pm: Lunch
+7:00 pm - 9:00 pm: Workshop dinner 
+
+9:00 pm - late: Coding sprints  
+
+
+## Thursday, March 24
+
+Early morning: Coding sprints for early risers 
+
+10 am - 12:30 pm: Status reports, wrap-up and discussion 
+
+12:30 pm - 2pm: Lunch 

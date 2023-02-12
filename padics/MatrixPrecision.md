@@ -1,75 +1,72 @@
- * ''Goal'' -- Separate the precision for matrices and vectors from the approximation of their entries. 
- * ''Type'' -- precision handling, basic features
- * ''Priority'' -- High
- * ''Difficulty'' -- Hard
- * ''Prerequisites'' -- None
- * ''Background'' -- linear algebra
- * ''Contributors'' -- Xavier Caruso, David Roe
- * ''Progress'' - Xavier Caruso and David Roe have been working on precision for matrices and vectors, and improving the algorithms for computing hermite form, smith form for matrices over quasi-DVRs.
- * ''Related Tickets'' -- 
 
-== Discussion ==
+* _Goal_ -- Separate the precision for matrices and vectors from the approximation of their entries.  
+* _Type_ -- precision handling, basic features 
+* _Priority_ -- High 
+* _Difficulty_ -- Hard 
+* _Prerequisites_ -- None 
+* _Background_ -- linear algebra 
+* _Contributors_ -- Xavier Caruso, David Roe 
+* _Progress_ - Xavier Caruso and David Roe have been working on precision for matrices and vectors, and improving the algorithms for computing hermite form, smith form for matrices over quasi-DVRs. 
+* _Related Tickets_ --  
 
-The key idea is to separate arithmetic on an underlying approximation with the computation of the precision of the result.  To achieve this goal, we define classes for precision objects in different styles: e.g. flat, jagged, convex...  See below for more details.
+## Discussion
 
-Motivation: We want to work with complete discrete valuation rings.  Such rings are equal to the projective limit of the quotients by ideals, and these quotients are algebraic simpler (in practice, often finite).  For rings, we can compute with elements by working in these quotients.  But for modules, there are more quotients, and we need to choose a distinguished set of quotient to compute with. 
+The key idea is to separate arithmetic on an underlying approximation with the computation of the precision of the result.  To achieve this goal, we define classes for precision objects in different styles: e.g. flat, jagged, convex...  See below for more details. 
 
-Definition: Let M be a finite type module over a complete discrete valuation ring R with uniformizer p.  A ''precision type'' for M is a set T of distinguished submodules of M.  T is a partially ordered set under reverse inclusion, and we require the following:
- 1. For any P in T, computation in M/P is feasible.  Usually this comes down to having finite representations of elements and being able to say whether two representations correspond to the same element of M/P.  Note that this condition implies that P is nonzero.
- 1. If P and Q are elements of T then they have an infimum in T, namely an element R that contains both P and Q and is contained in all other elements of T with this property (such a poset is generally referred to as a semilattice, but we will avoid this terminology because of its conflict with the definition of lattice in vector spaces over discrete valuation fields).
+Motivation: We want to work with complete discrete valuation rings.  Such rings are equal to the projective limit of the quotients by ideals, and these quotients are algebraic simpler (in practice, often finite).  For rings, we can compute with elements by working in these quotients.  But for modules, there are more quotients, and we need to choose a distinguished set of quotient to compute with.  
 
-We say that a precision type is complete if in addition
- 1.#3 The intersection of all P in T is 0.
+Definition: Let M be a finite type module over a complete discrete valuation ring R with uniformizer p.  A _precision type_ for M is a set T of distinguished submodules of M.  T is a partially ordered set under reverse inclusion, and we require the following: 
 
-By a ''precision'' we mean an element of some precision type.
+1. For any P in T, computation in M/P is feasible.  Usually this comes down to having finite representations of elements and being able to say whether two representations correspond to the same element of M/P.  Note that this condition implies that P is nonzero. 
+1. If P and Q are elements of T then they have an infimum in T, namely an element R that contains both P and Q and is contained in all other elements of T with this property (such a poset is generally referred to as a semilattice, but we will avoid this terminology because of its conflict with the definition of lattice in vector spaces over discrete valuation fields). 
+We say that a precision type is complete if in addition 
 
-Examples:
+1. The intersection of all P in T is 0. 
+By a _precision_ we mean an element of some precision type. 
 
-Assume that we can compute in the residue field k=R/pR of R.
+Examples: 
 
- 1. The set of all submodules P of M such that M/P has finite length over R.
- 1. The set of all submodules of the form p^k*M.  We will call such a precision type ''flat''.
- 1. Suppose M is free, with a distinguished basis `{e_i}_{i in I}`.  For each tuple `(n_i)_{i in I}` define `P_{n_i}` to be the submodule generated by `p^{n_i}e_i`.  As the `n_i` range over non-negative integers, the resulting set of submodules is an example of a precision type.  We will call such a precision type ''jagged''.
- 1. The empty set of submodules is an example of a precision type which is not complete.  The previous examples are all complete.
+Assume that we can compute in the residue field k=R/pR of R. 
 
-Examples when M is the space of matrices of a given size over a complete discrete valuation ring:
+1. The set of all submodules P of M such that M/P has finite length over R. 
+1. The set of all submodules of the form p^k*M.  We will call such a precision type _flat_. 
+1. Suppose M is free, with a distinguished basis `{e_i}_{i in I}`.  For each tuple `(n_i)_{i in I}` define `P_{n_i}` to be the submodule generated by `p^{n_i}e_i`.  As the `n_i` range over non-negative integers, the resulting set of submodules is an example of a precision type.  We will call such a precision type _jagged_. 
+1. The empty set of submodules is an example of a precision type which is not complete.  The previous examples are all complete. 
+Examples when M is the space of matrices of a given size over a complete discrete valuation ring: 
 
- 1. All of the above, since we can just forget the matrix structure on M.
- 1. A ''row precision'', where we specify the same precision for each row, which is a precision for the row module of M.
- 1. A ''column precision'', where we specify the same precision for each column, which is a precision for the column module of M.  Note that this has a natural interpretation in terms of morphisms, giving a common precision for the image of any vector.
+1. All of the above, since we can just forget the matrix structure on M. 
+1. A _row precision_, where we specify the same precision for each row, which is a precision for the row module of M. 
+1. A _column precision_, where we specify the same precision for each column, which is a precision for the column module of M.  Note that this has a natural interpretation in terms of morphisms, giving a common precision for the image of any vector. 
+We'd like to discuss precisions for modules such as R[x] which are not of finite type. 
 
-We'd like to discuss precisions for modules such as R[x] which are not of finite type.
+Definition: Let M be a module over R.  Let U be a set of pairs (N, P) of submodules with N of finite type and P contained in N.  We order U by reverse inclusion (so (N, P) <= (N', P') if N contains N' and P contains P').  For any submodule N of M, let T(N) be the set of P contained in N with (N, P) in U.  We say that N _appears in U_ if T(N) is nonempty.  We say that U is a regional precision type if: 
 
-Definition: Let M be a module over R.  Let U be a set of pairs (N, P) of submodules with N of finite type and P contained in N.  We order U by reverse inclusion (so (N, P) <= (N', P') if N contains N' and P contains P').  For any submodule N of M, let T(N) be the set of P contained in N with (N, P) in U.  We say that N ''appears in U'' if T(N) is nonempty.  We say that U is a regional precision type if:
- 1. For any submodule N appearing in U, T(N) is a precision type for N.  
- 1. Infimums exist in the poset U.
+1. For any submodule N appearing in U, T(N) is a precision type for N.   
+1. Infimums exist in the poset U. 
+In addition, we say that 
 
-In addition, we say that
- 1.#3 U is ''exhaustive'' if the union of all N appearing in U is M.
- 1. U is ''complete'' if for any element x in M and any integer k > 0 there is an (N, P) in U such that x is in N and (p^k*M intersect N) is contained in P. (implies exhaustive)
+1. U is _exhaustive_ if the union of all N appearing in U is M. 
+1. U is _complete_ if for any element x in M and any integer k > 0 there is an (N, P) in U such that x is in N and (p^k*M intersect N) is contained in P. (implies exhaustive) 
+Examples: 
 
-Examples:
+1. The _flat regional precision_ is the set of all (N, p^k*M intersect N).  It is complete.  We can also restrict N to an exhaustive set of submodules of M. 
+1. Suppose that M is free with a chosen basis {e_i}.  For all tuples `(n_i)` of elements of NN_infinity (the union of the non-negative integers with infinity) that are almost always infinite, define `N_{n_i}` to be the submodule of M generated by the `e_i` with n_i finite and define `P_{n_i}` to be the submodule of M generated by the `p^{n_i}*e_i`.  Then the set of all pairs `(N_{n_i}, P_{n_i})` is the _jagged regional precision_. 
+1. Suppose that M = R[x] with the canonical basis (indexed by the natural numbers).  Given a finite list L of pairs (a, v) with a and v non-negative integers, set `N_L` to be the submodule of polynomials with zero coefficients outside the interval defined by the smallest and largest values of a appearing in L.  Set `P_L` to be the submodule of polynomials where all (i, v(c_i)) lie in the convex hull of L.  We will call this the  
+1. Let M be a finite dimensional vector space over a discrete valuation field.  We let U be set of (N, P) with N a lattice in M and P a precision (in some precision type) for N.  Note that you can extend this for infinite dimensional vector spaces. 
+We've come a long way, but we have another problem to solve.  We want to talk about the precision of a submodule (so that we can give the precision for the kernel of a matrix for example).  We can think about a submodule as a point on an appropriate Grassmanian, so we're led to the task of defining precisions for not-necessarily affine schemes.  As a first step, we'd like to make the following definition.   
 
- 1. The ''flat regional precision'' is the set of all (N, p^k*M intersect N).  It is complete.  We can also restrict N to an exhaustive set of submodules of M.
- 1. Suppose that M is free with a chosen basis {e_i}.  For all tuples `(n_i)` of elements of NN_infinity (the union of the non-negative integers with infinity) that are almost always infinite, define `N_{n_i}` to be the submodule of M generated by the `e_i` with n_i finite and define `P_{n_i}` to be the submodule of M generated by the `p^{n_i}*e_i`.  Then the set of all pairs `(N_{n_i}, P_{n_i})` is the ''jagged regional precision''.
- 1. Suppose that M = R[x] with the canonical basis (indexed by the natural numbers).  Given a finite list L of pairs (a, v) with a and v non-negative integers, set `N_L` to be the submodule of polynomials with zero coefficients outside the interval defined by the smallest and largest values of a appearing in L.  Set `P_L` to be the submodule of polynomials where all (i, v(c_i)) lie in the convex hull of L.  We will call this the 
- 1. Let M be a finite dimensional vector space over a discrete valuation field.  We let U be set of (N, P) with N a lattice in M and P a precision (in some precision type) for N.  Note that you can extend this for infinite dimensional vector spaces.
+Definition: Let M be a module over R.  Let X be a set of triples (A, N, P), where A is an affine subspace of M, N is the submodule of M lying under A and P is a submodule of N. We assume that all N have finite type.  We define U(X) to be the set of all pairs (N, P) with (A, N, P) in X for some A.  We say that X is an affine regional precision type if: 
 
-We've come a long way, but we have another problem to solve.  We want to talk about the precision of a submodule (so that we can give the precision for the kernel of a matrix for example).  We can think about a submodule as a point on an appropriate Grassmanian, so we're led to the task of defining precisions for not-necessarily affine schemes.  As a first step, we'd like to make the following definition.  
+1. U(X) is a regional precision type. 
+1. Some more conditions, but we're not sure what.  We don't even know if this makes sense. 
 
-Definition: Let M be a module over R.  Let X be a set of triples (A, N, P), where A is an affine subspace of M, N is the submodule of M lying under A and P is a submodule of N. We assume that all N have finite type.  We define U(X) to be the set of all pairs (N, P) with (A, N, P) in X for some A.  We say that X is an affine regional precision type if:
- 1. U(X) is a regional precision type.
- 1. Some more conditions, but we're not sure what.  We don't even know if this makes sense.
-
-{{{
+```txt
 class PrecisionObject
 
-}}}
+```
 
-== Tasks ==
+## Tasks
 
- 1. Define precision classes for vectors (e.g. flat, jagged, concave, submodule) and for matrices (e.g. flat, jagged, planar, column (submodule of codomain), row (submodule of domain))
-
- 1. Define a vector class that separates data from precision.  The approximation could be a vector over another `QuoDVR` or over ZZ for example.  Override vector operations to compute an approximation separately from the precision of the answer (mostly arithmetic).
-
- 1. Define a matrix class that separates data from precision.  The appoximation could be a matrix over another (finite) `QuoDVR` or over `ZZ` for example.  Override necessary matrix methods (quite a few).
+1. Define precision classes for vectors (e.g. flat, jagged, concave, submodule) and for matrices (e.g. flat, jagged, planar, column (submodule of codomain), row (submodule of domain)) 
+1. Define a vector class that separates data from precision.  The approximation could be a vector over another `QuoDVR` or over ZZ for example.  Override vector operations to compute an approximation separately from the precision of the answer (mostly arithmetic). 
+1. Define a matrix class that separates data from precision.  The appoximation could be a matrix over another (finite) `QuoDVR` or over `ZZ` for example.  Override necessary matrix methods (quite a few). 

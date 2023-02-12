@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 Sage Days 40 Tutorials
 ======================
@@ -263,15 +266,14 @@ Talk: Chromatic quasisymmetric functions and regular semisimple Hessenberg varie
 .. Teaching with Sage:
 .. _UTMOST: http://utmost.aimath.org/
 
-}}}
+```
 
+## SageTeX and the Sage cell server
 
-== SageTeX and the Sage cell server ==
+Leader: Dan Drake 
 
-Leader: Dan Drake
+Check out <a href="days40_tutorials/sagetex-examples.tar.bz2">sagetex-examples.tar.bz2</a>. The main cell server is <a class="http" href="http://aleph.sagemath.org">aleph.sagemath.org</a>; here are some more cell server links: 
 
-Check out [[attachment:sagetex-examples.tar.bz2]]. The main cell server is [[http://aleph.sagemath.org|aleph.sagemath.org]]; here are some more cell server links:
-
-  * [[https://www.math.duke.edu/education/calculustext-rev11/|a calculus textbook with embedded Sage cells (a preliminary, and non-permanent version)]]
-  * [[http://mathsci.kaist.ac.kr/~drake/2012-spring-kms-meeting/|a presentation that uses the cell server to show some Sage @interacts]]
-  * [[https://github.com/sagemath/sagecell/blob/master/doc/embedding.rst|documentation for embedding a cell into a web page]]
+   * <a class="https" href="https://www.math.duke.edu/education/calculustext-rev11/">a calculus textbook with embedded Sage cells (a preliminary, and non-permanent version)</a> 
+   * <a class="http" href="http://mathsci.kaist.ac.kr/~drake/2012-spring-kms-meeting/">a presentation that uses the cell server to show some Sage @interacts</a> 
+   * <a class="https" href="https://github.com/sagemath/sagecell/blob/master/doc/embedding.rst">documentation for embedding a cell into a web page</a> 

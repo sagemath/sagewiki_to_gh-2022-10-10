@@ -1,8 +1,9 @@
-= Proposal =
 
 
-{{{
+# Proposal
 
+
+```txt
 \section{Grant Proposal}
 
 
@@ -51,4 +52,4 @@ research side, which is why we need this grant.
 
 
 \subsubsection{AIM open source textbook initiative}
-}}}
+```

@@ -1,15 +1,10 @@
-## page was renamed from GlennTarbox/TwistedTalk/120 Callbacks and Deferreds
-## Please edit system and help pages ONLY in the moinmaster wiki! For more
-## information, please see MoinMaster:MoinPagesEditorGroup.
-##master-page:SlideTemplate
-##master-date:Unknown-Date
-#format wiki
-#language en
-#pragma section-numbers off
-<<Navigation(slides)>>
-= Deferreds are Beautiful =
 
-{{{#!python
+
+# Deferreds are Beautiful
+
+
+```python
+#!python 
 from twisted.internet import reactor
 
 # pedantic and gets nasty quickly
@@ -96,6 +91,5 @@ log.msg("away we go")
 reactor.run()
 
 log.msg("bye....")
-}}}
-
-<<Navigation(siblings)>>
+```
+[[!map pages="DsageNg/TwistedTalk/*"]] 

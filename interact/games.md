@@ -1,18 +1,22 @@
-= Sage Interactions - Games and Diversions =
-goto [[interact|interact main page]]
 
 
-<<TableOfContents>>
+# Sage Interactions - Games and Diversions
 
-== Zeros ==
+goto <a href="/interact">interact main page</a> 
 
-Have you ever wished you could count the number of zero digits in a long number like Rainman?
+[[_TOC_]] 
 
-by William Stein and Sequoia Lefthand
 
-{{attachment:zeros.png}}
+## Zeros
 
-{{{#!sagecell
+Have you ever wished you could count the number of zero digits in a long number like Rainman? 
+
+by William Stein and Sequoia Lefthand 
+
+![interact/games/zeros.png](interact/games/zeros.png) 
+
+
+```sagecell
 import random
 
 def init():
@@ -60,12 +64,12 @@ def zeros(a=selector(buttons=True, nrows=1, values=['Reset'] + [1..B], default=1
     if round > 0:
         pretty_print(html("<br><br><center>Score: %s rounds, Average time: %.1f seconds</center>"%(
                  round, float(tm)/round)))
-}}}
+```
 
-== Queens on board ==
-An interaction to play with the problem of placing eight queens on a board so that they do not threaten each other. This interaction exemplifies the use of persistent data, and the auto_update=False option coded by mhansen and included in sage 3.3.
-by Pablo Angulo
-{{{#!sagecell
+## Queens on board
+
+An interaction to play with the problem of placing eight queens on a board so that they do not threaten each other. This interaction exemplifies the use of persistent data, and the auto_update=False option coded by mhansen and included in sage 3.3. by Pablo Angulo 
+```sagecell
 queens=[]
 opciones=['Clean board', 'Add queen', 'Remove queen' ]
 
@@ -100,13 +104,14 @@ def _(queen=input_box(default=(0,0)), opcion=selector(opciones, buttons=True), a
         else:
             board[x,y]=3
     show(matrix_plot(board, cmap='Oranges' ))    
-}}}
-{{attachment:queens.png}}
+```
+![interact/games/queens.png](interact/games/queens.png) 
 
-== Nim ==
-Play nim against a perfect opponent. This interaction exemplifies the use of persistent data, and the auto_update=False option coded by mhansen and included in sage 3.3.
-by Pablo Angulo
-{{{#!sagecell
+
+## Nim
+
+Play nim against a perfect opponent. This interaction exemplifies the use of persistent data, and the auto_update=False option coded by mhansen and included in sage 3.3. by Pablo Angulo 
+```sagecell
 #El juego del nim
 def game_repr(heap_sizes):
     return '\n'.join('%d:'%i+'*'*n for i,n in enumerate(heap_sizes))
@@ -170,5 +175,5 @@ def _(heap=selector(range(len(nim)), buttons=True),
     else:
         print('Choose a heap and the amount to substract from that heap')
         print(game_repr(nim))
-}}}
-{{attachment:nim.png}}
+```
+![interact/games/nim.png](interact/games/nim.png) 

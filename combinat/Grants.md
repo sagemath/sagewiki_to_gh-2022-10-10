@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 Sage-Combinat grants
 ====================
 
@@ -118,4 +121,4 @@ Others
 We could list below our other sponsors (UCLA for Sage Days 7, MSRI,
 RISC-Linz, ..., Orsay, ...)
 
-}}}
+```

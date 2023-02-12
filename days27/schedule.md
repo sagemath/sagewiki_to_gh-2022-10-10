@@ -1,33 +1,34 @@
-= Sage Days 27 Schedule =
 
-[[days27|Sage Days 27]]
 
-||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Friday, January 7, 2011||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">10:00am-11:30am  ||'''Organizational Session''' [[http://www.washington.edu/maps/?l=BNS|Benson Hall, Room 203]]||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">12:00pm-4:30pm  ||'''Lunch, then coding at coffee shops on the Ave'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 4:30pm-11:00pm  ||'''Coding Sprint''' in  [[http://www.washington.edu/home/maps/northcentral.html?CMU|Communications Building, Room B027]]||
-||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Saturday, January 8, 2011||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">10:30am  ||'''Organizational Session''' [[http://www.washington.edu/home/maps/northcentral.html?PDL|Padelford C-401]]||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">12:00pm-4:30pm  ||'''Lunch, then coding at coffee shops on the Ave'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 4:30pm-11:00pm  ||'''Coding Sprint''' in  [[http://www.washington.edu/home/maps/northcentral.html?CMU|Communications Building, Room B027]]||
-||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Sunday, January 9, 2011||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">10:30am  ||'''Organizational Session''' [[http://www.washington.edu/home/maps/northcentral.html?PDL|Padelford C-401]]||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">12:00pm-4:30pm  ||'''Lunch, then coding at coffee shops on the Ave'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 4:30pm-11:00pm  ||'''Coding Sprint''' in  [[http://www.washington.edu/home/maps/northcentral.html?CMU|Communications Building, Room B027]]||
-||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Monday, January 10, 2011||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">10:30am-11:30am  ||'''Organizational Session''' [[http://www.washington.edu/maps/?l=BNS|Benson Hall, Room 203]]||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">12:00pm-4:30pm  ||'''Lunch, then coding at coffee shops on the Ave'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 4:30pm-11:00pm  ||'''Coding Sprint''' in [[http://www.washington.edu/home/maps/northcentral.html?PDL|Padelford C-36]]||
-||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Tuesday, January 11, 2011||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">10:30am  ||'''Organizational Session''' [[http://www.washington.edu/home/maps/northcentral.html?PDL|Padelford C-36]]||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">12:00pm-4:30pm  ||'''Lunch, then coding at coffee shops on the Ave'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">3:30-4:30pm  ||'''Colloquium talk by Vladimir Bondarenko''' in [[http://www.washington.edu/maps/?l=EEB|EEB 042]]||
-||<rowstyle="background-color: #FFFFEE; text-align: center;"> 4:30pm-11:00pm  ||'''Coding Sprint''' in [[http://www.washington.edu/home/maps/northcentral.html?PDL|Padelford C-36]]||
-||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Wednesday, January 12, 2011||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">10:30am-11:30am  ||'''Organizational Session''' [[http://www.washington.edu/maps/?l=BNS|Benson Hall, Room 203]]||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">12:00pm-4:30pm  ||'''Lunch, then coding at coffee shops on the Ave'''||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">4:30pm-8:00pm  ||'''Coding Sprint''' in [[http://www.washington.edu/home/maps/northcentral.html?PDL|Padelford C-36]]||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">8:00pm-10:00pm  ||'''Final Wrap Up''' TBA||
-||||<tablestyle="width: 80%" style="background-color: #E0E0FF;">Thursday, January 13, 2011||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">10:30am-11:30am||'''Coding Sprint organizationfor those left...''' [[http://www.washington.edu/home/maps/northcentral.html?PDL|Padelford C-36]]||
-||<rowstyle="background-color: #FFFFEE; text-align: center;">12:30pm-1:50pm||'''[[http://wstein.org/talks/2011-01-13-ACMS-intro_to_sage/|Stein: talk on Sage for undergrads]]''' in [[http://www.washington.edu/home/maps/northcentral.html?MEB|MEB 103]]||
+# Sage Days 27 Schedule
+
+<a href="/days27">Sage Days 27</a> 
+Friday, January 7, 2011||
+10:00am-11:30am   | **Organizational Session** <a class="http" href="http://www.washington.edu/maps/?l=BNS">Benson Hall, Room 203</a>
+12:00pm-4:30pm   | **Lunch, then coding at coffee shops on the Ave**
+ 4:30pm-11:00pm   | **Coding Sprint** in  <a class="http" href="http://www.washington.edu/home/maps/northcentral.html?CMU">Communications Building, Room B027</a>
+Saturday, January 8, 2011||
+10:30am   | **Organizational Session** <a class="http" href="http://www.washington.edu/home/maps/northcentral.html?PDL">Padelford C-401</a>
+12:00pm-4:30pm   | **Lunch, then coding at coffee shops on the Ave**
+ 4:30pm-11:00pm   | **Coding Sprint** in  <a class="http" href="http://www.washington.edu/home/maps/northcentral.html?CMU">Communications Building, Room B027</a>
+Sunday, January 9, 2011||
+10:30am   | **Organizational Session** <a class="http" href="http://www.washington.edu/home/maps/northcentral.html?PDL">Padelford C-401</a>
+12:00pm-4:30pm   | **Lunch, then coding at coffee shops on the Ave**
+ 4:30pm-11:00pm   | **Coding Sprint** in  <a class="http" href="http://www.washington.edu/home/maps/northcentral.html?CMU">Communications Building, Room B027</a>
+Monday, January 10, 2011||
+10:30am-11:30am   | **Organizational Session** <a class="http" href="http://www.washington.edu/maps/?l=BNS">Benson Hall, Room 203</a>
+12:00pm-4:30pm   | **Lunch, then coding at coffee shops on the Ave**
+ 4:30pm-11:00pm   | **Coding Sprint** in <a class="http" href="http://www.washington.edu/home/maps/northcentral.html?PDL">Padelford C-36</a>
+Tuesday, January 11, 2011||
+10:30am   | **Organizational Session** <a class="http" href="http://www.washington.edu/home/maps/northcentral.html?PDL">Padelford C-36</a>
+12:00pm-4:30pm   | **Lunch, then coding at coffee shops on the Ave**
+3:30-4:30pm   | **Colloquium talk by Vladimir Bondarenko** in <a class="http" href="http://www.washington.edu/maps/?l=EEB">EEB 042</a>
+ 4:30pm-11:00pm   | **Coding Sprint** in <a class="http" href="http://www.washington.edu/home/maps/northcentral.html?PDL">Padelford C-36</a>
+Wednesday, January 12, 2011||
+10:30am-11:30am   | **Organizational Session** <a class="http" href="http://www.washington.edu/maps/?l=BNS">Benson Hall, Room 203</a>
+12:00pm-4:30pm   | **Lunch, then coding at coffee shops on the Ave**
+4:30pm-8:00pm   | **Coding Sprint** in <a class="http" href="http://www.washington.edu/home/maps/northcentral.html?PDL">Padelford C-36</a>
+8:00pm-10:00pm   | **Final Wrap Up** TBA
+Thursday, January 13, 2011||
+10:30am-11:30am | **Coding Sprint organizationfor those left...** <a class="http" href="http://www.washington.edu/home/maps/northcentral.html?PDL">Padelford C-36</a>
+12:30pm-1:50pm | **<a class="http" href="http://wstein.org/talks/2011-01-13-ACMS-intro_to_sage/">Stein: talk on Sage for undergrads</a>** in <a class="http" href="http://www.washington.edu/home/maps/northcentral.html?MEB">MEB 103</a>

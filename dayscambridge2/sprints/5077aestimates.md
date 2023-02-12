@@ -1,7 +1,9 @@
-== Discussion of verifying kolyvagin for rank 3 curve 5077a ==
 
-{{{
 
+## Discussion of verifying kolyvagin for rank 3 curve 5077a
+
+
+```txt
 We have
 \begin{verbatim}
 sage: E = EllipticCurve('5077a')
@@ -76,13 +78,11 @@ With my new algorithm idea, though, I think it this computation is
 possible.  In fact, maybe it will just be as hard as computing
 a 1-dimensional eigenspace in characteristic $3$ of a sparse
 matrix of size $4233$, which is computationally... possible.
-}}}
+```
+This seems very feasible, but requires working with class number > 1, which in theory should be fine.  
 
-
-This seems very feasible, but requires working with class number > 1, which in theory should be fine. 
-
-Here is some more than Jen and I did tonight:
-{{{
+Here is some more than Jen and I did tonight: 
+```txt
 sage: K.<a> = QuadraticField(-7)
 sage: E = EllipticCurve('5077a')
 sage: for p in prime_range(400):
@@ -178,4 +178,4 @@ sage: for p in prime_range(50):
 41 42
 43 4
 47 3
-}}}
+```

@@ -1,14 +1,18 @@
-= Sage Interactions - Statistics and Probability =
-goto [[interact|interact main page]]
 
 
-<<TableOfContents>>
+# Sage Interactions - Statistics and Probability
 
-== A Random Walk ==
+goto <a href="/interact">interact main page</a> 
 
-by William Stein
+[[_TOC_]] 
 
-{{{#!sagecell
+
+## A Random Walk
+
+by William Stein 
+
+
+```sagecell
 html('<h1>A Random Walk</h1>')
 vv = []
 nn = 0
@@ -42,11 +46,14 @@ def foo(pts=checkbox(True, "Show points"),
     if pts:
         L += points(v, pointsize=10, rgbcolor='red')
     show(L, xmin=0, figsize=[8, 3])
-}}}
-{{attachment:randomwalk.png}}
+```
+![interact/stats/randomwalk.png](interact/stats/randomwalk.png) 
 
-== 3D Random Walk ==
-{{{#!sagecell
+
+## 3D Random Walk
+
+
+```sagecell
 @interact
 def rwalk3d(n=slider([50..1000]), frame=True):
     pnt = [0, 0, 0]
@@ -57,17 +64,18 @@ def rwalk3d(n=slider([50..1000]), frame=True):
         pnt[2] += random() - 0.5
         v.append(copy(pnt))
     show(line3d(v, color='black'), aspect_ratio=[1, 1, 1], frame=frame)
-}}}
-{{attachment:randomwalk3d.png}}
+```
+![interact/stats/randomwalk3d.png](interact/stats/randomwalk3d.png) 
 
 
-== Hidden Markov Model: The Occasionally Dishonest Casino ==
+## Hidden Markov Model: The Occasionally Dishonest Casino
 
-by Marshall Hampton
+by Marshall Hampton 
 
-Based on the classic example in "Biological Sequence Analysis" by Durbin et al.
+Based on the classic example in "Biological Sequence Analysis" by Durbin et al. 
 
-{{{#!sagecell
+
+```sagecell
 m = hmm.DiscreteHiddenMarkovModel([[0.8,0.2],[0.1,0.9]], [[1/10,1/10,1/10,1/10,1/10,1/2],[1/6,1/6,1/6,1/6,1/6,1/6]], [.2,.8],emission_symbols=[1,2,3,4,5,6])
 @interact
 def dishonest_casino(auto_update=False):
@@ -81,5 +89,5 @@ def dishonest_casino(auto_update=False):
     actual_str = str(list(test[1])).replace(',','').replace(' ','')
     actual_str = actual_str.replace('1','F').replace('0','<font color="#FF0000">L</font>')[1:-1]
     pretty_print(html('Actual:   '+ actual_str))
-}}} 
-{{attachment:hmm_casino.png}}
+```
+ ![interact/stats/hmm_casino.png](interact/stats/hmm_casino.png) 

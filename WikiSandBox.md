@@ -1,64 +1,92 @@
-## Please edit system and help pages ONLY in the moinmaster wiki! For more
-## information, please see MoinMaster:MoinPagesEditorGroup.
-##master-page:WikiSandBox
-#format wiki
-#language en
-'''Feel free to experiment here, after the four dashes below. Please do not create new pages without any meaningful content just to try it out!'''
 
-You may want to open HelpOnEditing in a new window or tab while you edit.
+**Feel free to experiment here, after the four dashes below. Please do not create new pages without any meaningful content just to try it out!** 
 
-----
+You may want to open <a href="/HelpOnEditing">HelpOnEditing</a> in a new window or tab while you edit. 
 
-== Formatting ==
-''italic'' '''bold''' {{{typewriter}}}
 
-`backtick typewriter` (configurable)
 
-~+bigger +~ ~-smaller -~
+---
 
-{{{
+ 
+
+
+## Formatting
+
+_italic_ **bold** `typewriter` 
+
+`backtick typewriter` (configurable) 
+
+****bigger **** <small>smaller </small> 
+
+
+```txt
 preformatted some more
 and some more lines too
-}}}
-{{{
+```
+
+```python
 #!python
 def syntax(highlight):
     print "on"
     return None
-}}}
-{{{
+```
+
+```java
 #!java
   public void main(String[] args]){
      System.out.println("Hello world!");
   }
-}}}
-== Linking ==
-HelpOnEditing MoinMoin:InterWiki
+```
 
-http://moinmoin.wikiwikiweb.de/ [http://www.python.org/ Python]
+## Linking
 
-someone@example.com
+<a href="/HelpOnEditing">HelpOnEditing</a> [[!MoinMoin InterWiki desc="InterWiki"]] 
 
-=== Image Link ===
-http://c2.com/sig/wiki.gif
+<a href="http://moinmoin.wikiwikiweb.de/">http://moinmoin.wikiwikiweb.de/</a> [<a href="http://www.python.org/">http://www.python.org/</a> Python] 
 
-== Smileys ==
-/!\ Alert
+<a href="mailto:someone@example.com">someone@example.com</a> 
 
-== Lists ==
-=== Bullet ===
- * first
-  1. nested and numbered
-  1. numbered lists are renumbered
- * second
- * third blockquote
-  . deeper
-=== Glossary ===
- Term:: Definition
-=== Drawing ===
-drawing:mytest
 
-= Heading 1 =
-== Heading 2 ==
-=== Heading 3 ===
-==== Heading 4 ====
+### Image Link
+
+<a href="http://c2.com/sig/wiki.gif">http://c2.com/sig/wiki.gif</a> 
+
+
+## Smileys
+
+/!\ Alert 
+
+
+## Lists
+
+
+### Bullet
+
+* first 
+   1. nested and numbered 
+   1. numbered lists are renumbered 
+* second 
+* third blockquote 
+   * deeper 
+
+### Glossary
+Term
+: Definition 
+
+
+
+### Drawing
+
+drawing:mytest 
+
+
+# Heading 1
+
+
+## Heading 2
+
+
+### Heading 3
+
+
+#### Heading 4

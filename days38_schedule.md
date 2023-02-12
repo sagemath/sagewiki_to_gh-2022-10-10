@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 Final Schedule for Sage Days 38
 ===============================
@@ -238,4 +241,4 @@ Not done yet :
 .. _`sagetex Tutorial`: http://sagemath.org/doc/tutorial/sagetex.html
 .. _`Python Coding Convention`: http://www.sagemath.org/doc/developer/conventions.html
 
-}}}
+```

@@ -1,1 +1,2 @@
-The wiki page for SD19 is [[daysbug2|here]]. 
+
+The wiki page for SD19 is <a href="/daysbug2">here</a>.  

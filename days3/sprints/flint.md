@@ -1,1 +1,3 @@
-=  David Harvey (+ possibly Martin Albrecht): multithreaded polynomial arithmetic in FLINT =
+
+
+# David Harvey (+ possibly Martin Albrecht): multithreaded polynomial arithmetic in FLINT

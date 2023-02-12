@@ -1,14 +1,17 @@
-##master-page:HomepageTemplate
-#format wiki
-== Alec Mihailovs ==
 
-{{attachment:Bette.jpg}}
 
-Email: <<MailTo(alec AT SPAMFREE mihailovs DOT com)>>
+## Alec Mihailovs
 
-Home page: http://mihailovs.com/Alec/
+![user/AlecMihailovs/Bette.jpg](user/AlecMihailovs/Bette.jpg) 
 
-Maple wiki: http://mapleadvisor.com/cgi-bin/moin.cgi/StartingPage
+Email: alec AT SPAMFREE mihailovs DOT com 
 
-----
-CategoryHomepage
+Home page: <a href="http://mihailovs.com/Alec/">http://mihailovs.com/Alec/</a> 
+
+Maple wiki: <a href="http://mapleadvisor.com/cgi-bin/moin.cgi/StartingPage">http://mapleadvisor.com/cgi-bin/moin.cgi/StartingPage</a> 
+
+
+
+---
+
+ <a href="/CategoryHomepage">CategoryHomepage</a> 

@@ -1,21 +1,25 @@
-<<TableOfContents>>
 
-= Integer Factorization =
+[[_TOC_]] 
 
-== Divisibility Poset ==
-by William Stein
-{{{#!sagecell
+
+# Integer Factorization
+
+
+## Divisibility Poset
+
+by William Stein 
+```sagecell
 @interact
 def _(n=(5..100)):
     Poset(([1..n], lambda x, y: y%x == 0) ).show()
-}}}
+```
+![interact/number_theory/divposet.png](interact/number_theory/divposet.png) 
 
-{{attachment:divposet.png}}
 
+## Factor Trees
 
-== Factor Trees ==
-by William Stein
-{{{#!sagecell
+by William Stein 
+```sagecell
 import random
 def ftree(rows, v, i, F):
     if len(v) > 0: # add a row to g at the ith level.
@@ -59,17 +63,20 @@ def factor_tree(n=100, font=(10, (8..20)), redraw=['Redraw']):
     v = [(n,None,0)]
     ftree(rows, v, 0, factor(n))
     show(draw_ftree(rows, font), axes=False)
-}}}
-{{attachment:factortree.png}}
+```
+![interact/number_theory/factortree.png](interact/number_theory/factortree.png) 
 
-More complicated demonstration using Mathematica: http://demonstrations.wolfram.com/FactorTrees/
+More complicated demonstration using Mathematica: <a href="http://demonstrations.wolfram.com/FactorTrees/">http://demonstrations.wolfram.com/FactorTrees/</a> 
 
-== Factoring an Integer ==
-by Timothy Clemans
 
-Sage implementation of the Mathematica demonstration of the same name. http://demonstrations.wolfram.com/FactoringAnInteger/
+## Factoring an Integer
 
-{{{#!sagecell
+by Timothy Clemans 
+
+Sage implementation of the Mathematica demonstration of the same name. <a href="http://demonstrations.wolfram.com/FactoringAnInteger/">http://demonstrations.wolfram.com/FactoringAnInteger/</a> 
+
+
+```sagecell
 @interact
 def _(r=selector(range(0,10000,1000), label='range', buttons=True), n=slider(0,1000,1,2,'n',False)):
     if not r and n in (0, 1):
@@ -77,23 +84,27 @@ def _(r=selector(range(0,10000,1000), label='range', buttons=True), n=slider(0,1
     s = '$%d = %s$' % (r + n, factor(r + n))
     s = s.replace('*', '\\times')
     pretty_print(html(s))
-}}}
+```
 
-= Prime Numbers =
+# Prime Numbers
 
-== Illustrating the prime number theorem ==
-by William Stein
-{{{#!sagecell
+
+## Illustrating the prime number theorem
+
+by William Stein 
+```sagecell
 @interact
 def _(N=(100,list(range(2,2000)))):
     pretty_print(html(r"<font color='red'>$\pi(x)$</font> and <font color='blue'>$x/(\log(x)-1)$</font> for $x < %s$"%N))
     show(plot(prime_pi, 0, N, color='red') + plot(x/(log(x)-1), 5, N, color='blue'))
-}}}
-{{attachment:primes.png}}
+```
+![interact/number_theory/primes.png](interact/number_theory/primes.png) 
 
-== Prime Spiral - Square FIXME ==
-by David Runde
-{{{#!sagecell
+
+## Prime Spiral - Square FIXME
+
+by David Runde 
+```sagecell
 @interact
 def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, invert=false, x_cord=0, y_cord=0, n = 0):
 
@@ -221,15 +232,16 @@ def square_prime_spiral(start=1, end=100, size_limit = 10, show_lines=false, inv
     else:
         M.visualize_structure() # Displays the final resulting matrix as a series of pixels (1 <=> pixel on)
         #matrix_plot(M)
-}}}
+```
+![interact/number_theory/SquareSpiral.PNG](interact/number_theory/SquareSpiral.PNG) 
 
-{{attachment:SquareSpiral.PNG}}
 
-== Prime Spiral - Polar ==
-by David Runde
+## Prime Spiral - Polar
 
-Needs fix for show_factors
-{{{#!sagecell
+by David Runde 
+
+Needs fix for show_factors 
+```sagecell
 @interact
 def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes = false, show_curves=true, n = 0):
 
@@ -294,16 +306,17 @@ def polar_prime_spiral(start=1, end=2000, show_factors = false, highlight_primes
             show(R+P+S1+S2+Q, aspect_ratio = 1, axes = false)
         else: show(R+P+Q, aspect_ratio = 1, axes = false)
     else: show(R+P, aspect_ratio = 1, axes = false)
-}}}
+```
+![interact/number_theory/PolarSpiral.PNG](interact/number_theory/PolarSpiral.PNG) 
 
-{{attachment:PolarSpiral.PNG}}
+
+# Modular Forms
 
 
-= Modular Forms =
+## Computing modular forms
 
-== Computing modular forms ==
-by William Stein
-{{{#!sagecell
+by William Stein 
+```sagecell
 @interact
 def _(N=[1..100], k=selector([2,4,..,12],nrows=1), prec=(3..40),
       group=[(Gamma0, 'Gamma0'), (Gamma1, 'Gamma1')]):
@@ -318,29 +331,31 @@ def _(N=[1..100], k=selector([2,4,..,12],nrows=1), prec=(3..40),
         for f in M.basis():
              view(f.q_expansion(prec))
     print("\n\n\nDone computing basis.")
-}}}
+```
+![interact/number_theory/modformbasis.png](interact/number_theory/modformbasis.png) 
 
-{{attachment:modformbasis.png}}
 
+## Computing the cuspidal subgroup
 
-== Computing the cuspidal subgroup ==
-by William Stein
+by William Stein 
 
-ncols not working
-{{{#!sagecell
+ncols not working 
+```sagecell
 pretty_print(html('<h1>Cuspidal Subgroups of Modular Jacobians J0(N)</h1>'))
 @interact
 def _(N=selector([1..8*13], ncols=8, width=10, default=10)):
     A = J0(N)
     print(A.cuspidal_subgroup())
-}}}
+```
+![interact/number_theory/cuspgroup.png](interact/number_theory/cuspgroup.png) 
 
-{{attachment:cuspgroup.png}}
 
-== A Charpoly and Hecke Operator Graph ==
-by William Stein
+## A Charpoly and Hecke Operator Graph
 
-{{{#!sagecell
+by William Stein 
+
+
+```sagecell
 # Note -- in Sage-2.10.3; multiedges are missing in plots; loops are missing in 3d plots
 @interact
 def f(N = prime_range(11,400),
@@ -357,15 +372,17 @@ def f(N = prime_range(11,400),
         show(G.plot3d(), aspect_ratio=[1,1,1])
     else:
         show(G.plot(),figsize=7)
-}}}
+```
+![interact/number_theory/heckegraph.png](interact/number_theory/heckegraph.png) 
 
-{{attachment:heckegraph.png}}
 
-= Modular Arithmetic =
+# Modular Arithmetic
 
-== Quadratic Residue Table FIXME ==
-by Emily Kirkman
-{{{#!sagecell
+
+## Quadratic Residue Table FIXME
+
+by Emily Kirkman 
+```sagecell
 from numpy import array as narray
 @interact
 def quad_res_plot(first_n_odd_primes = (20,200),display_size=[7..15]):
@@ -410,15 +427,16 @@ def quad_res_plot(first_n_odd_primes = (20,200),display_size=[7..15]):
         MP += text('p',(-2.5,r/2), rgbcolor='black', fontsize=15)
     MP.show(axes=False, ymax=r, figsize=[display_size,display_size])
     html('Symmetry of Prime Quadratic Residues mod the first %d odd primes.'%r)
-}}}
+```
+![interact/number_theory/quadres.png](interact/number_theory/quadres.png) 
 
-{{attachment:quadres.png}}
+![interact/number_theory/quadresbig.png](interact/number_theory/quadresbig.png) 
 
-{{attachment:quadresbig.png}}
 
-== Cubic Residue Table FIXME ==
-by Emily Kirkman
-{{{#!sagecell
+## Cubic Residue Table FIXME
+
+by Emily Kirkman 
+```sagecell
 def power_residue_symbol(alpha, p, m):
     if p.divides(alpha): return 0
     if not p.is_prime():
@@ -491,15 +509,17 @@ def cubic_sym(n=(10..35),display_size=[7..15]):
     pretty_print(html('Symmetry of Primary Cubic Residues mod ' \
           + r'%d primary primes in $ \mathbf Z[\omega]$.'%r))
     MP.show(axes=False, figsize=[display_size,display_size])
-}}}
+```
+![interact/number_theory/cubres.png](interact/number_theory/cubres.png) 
 
-{{attachment:cubres.png}}
 
-= Cyclotomic Fields =
+# Cyclotomic Fields
 
-== Gauss and Jacobi Sums in Complex Plane ==
-by Emily Kirkman
-{{{#!sagecell
+
+## Gauss and Jacobi Sums in Complex Plane
+
+by Emily Kirkman 
+```sagecell
 def jacobi_sum(e,f):
     # If they are both trivial, return p
     if e.is_trivial() and f.is_trivial():
@@ -573,13 +593,14 @@ def single_jacobi_plot(p=prime_range(3,100), e_range=(0..100), f_range=(0..100))
     f_index = floor((p-2)*f_range/100)
     S = jacobi_plot(p,e_index,f_index,with_text=False)
     S.show(aspect_ratio=1)
-}}}
+```
+![interact/number_theory/jacobising.png](interact/number_theory/jacobising.png) 
 
-{{attachment:jacobising.png}}
 
-== Exhaustive Jacobi Plotter ==
-by Emily Kirkman
-{{{#!sagecell
+## Exhaustive Jacobi Plotter
+
+by Emily Kirkman 
+```sagecell
 def jacobi_sum(e,f):
     # If they are both trivial, return p
     if e.is_trivial() and f.is_trivial():
@@ -664,15 +685,17 @@ def exhaustive_jacobi_plot(p=prime_range(3,8)):
         s+='<td align="center"><img src="cell://j%d.png"></td></tr>'%(2*i+1)
     s+='</table>'
     pretty_print(html(s))
-}}}
+```
+![interact/number_theory/jacobiexh.png](interact/number_theory/jacobiexh.png) 
 
-{{attachment:jacobiexh.png}}
 
-= Elliptic Curves =
+# Elliptic Curves
 
-== Adding points on an elliptic curve ==
-by David Møller Hansen
-{{{#!sagecell
+
+## Adding points on an elliptic curve
+
+by David Møller Hansen 
+```sagecell
 def point_txt(P,name,rgbcolor):
     if (P.xy()[1]) < 0:
         r = text(name,[float(P.xy()[0]),float(P.xy()[1])-1],rgbcolor=rgbcolor)
@@ -687,84 +710,88 @@ list_of_points = E.integral_points()
 html("Graphical addition of two points $P$ and $Q$ on the curve $ E: %s $"%latex(E))
 
 def line_from_curve_points(E,P,Q,style='-',rgb=(1,0,0),length=25):
-	"""
-	P,Q two points on an elliptic curve.
-	Output is a graphic representation of the straight line intersecting with P,Q.
-	"""
-	# The function tangent to P=Q on E
-	if P == Q:
-		if P[2]==0:
-			return line([(1,-length),(1,length)],linestyle=style,rgbcolor=rgb)
-		else:
-			# Compute slope of the curve E in P
-			l=-(3*P[0]^2 + 2*E.a2()*P[0] + E.a4() - E.a1()*P[1])/((-2)*P[1] - E.a1()*P[0] - E.a3())
-			f(x) = l * (x - P[0]) + P[1]
-			return plot(f(x),-length,length,linestyle=style,rgbcolor=rgb)
-	# Trivial case of P != R where P=O or R=O then we get the vertical line from the other point
-	elif P[2] == 0:
-		return line([(Q[0],-length),(Q[0],length)],linestyle=style,rgbcolor=rgb)
-	elif Q[2] == 0:
-		return line([(P[0],-length),(P[0],length)],linestyle=style,rgbcolor=rgb)
-	# Non trivial case where P != R
-	else:
-		# Case where x_1 = x_2 return vertical line evaluated in Q
-		if P[0] == Q[0]:
-			return line([(P[0],-length),(P[0],length)],linestyle=style,rgbcolor=rgb)
+        """
+        P,Q two points on an elliptic curve.
+        Output is a graphic representation of the straight line intersecting with P,Q.
+        """
+        # The function tangent to P=Q on E
+        if P == Q:
+                if P[2]==0:
+                        return line([(1,-length),(1,length)],linestyle=style,rgbcolor=rgb)
+                else:
+                        # Compute slope of the curve E in P
+                        l=-(3*P[0]^2 + 2*E.a2()*P[0] + E.a4() - E.a1()*P[1])/((-2)*P[1] - E.a1()*P[0] - E.a3())
+                        f(x) = l * (x - P[0]) + P[1]
+                        return plot(f(x),-length,length,linestyle=style,rgbcolor=rgb)
+        # Trivial case of P != R where P=O or R=O then we get the vertical line from the other point
+        elif P[2] == 0:
+                return line([(Q[0],-length),(Q[0],length)],linestyle=style,rgbcolor=rgb)
+        elif Q[2] == 0:
+                return line([(P[0],-length),(P[0],length)],linestyle=style,rgbcolor=rgb)
+        # Non trivial case where P != R
+        else:
+                # Case where x_1 = x_2 return vertical line evaluated in Q
+                if P[0] == Q[0]:
+                        return line([(P[0],-length),(P[0],length)],linestyle=style,rgbcolor=rgb)
 
-		#Case where x_1 != x_2 return line trough P,R evaluated in Q"
-		l=(Q[1]-P[1])/(Q[0]-P[0])
-		f(x) = l * (x - P[0]) + P[1]
-		return plot(f(x),-length,length,linestyle=style,rgbcolor=rgb)
+                #Case where x_1 != x_2 return line trough P,R evaluated in Q"
+                l=(Q[1]-P[1])/(Q[0]-P[0])
+                f(x) = l * (x - P[0]) + P[1]
+                return plot(f(x),-length,length,linestyle=style,rgbcolor=rgb)
 
 @interact
 def _(P=selector(list_of_points,label='Point P'),Q=selector(list_of_points,label='Point Q'), marked_points = checkbox(default=True,label = 'Points'), Lines = selector([0..2],nrows=1), Axes=True):
-	curve = E.plot(rgbcolor = (0,0,1),xmin=-5,xmax=5,plot_points=300)
-	R = P + Q
-	Rneg = -R
-	l1 = line_from_curve_points(E,P,Q)
-	l2 = line_from_curve_points(E,R,Rneg,style='--')
-	p1 = plot(P,rgbcolor=(1,0,0),pointsize=40)
-	p2 = plot(Q,rgbcolor=(1,0,0),pointsize=40)
-	p3 = plot(R,rgbcolor=(1,0,0),pointsize=40)
-	p4 = plot(Rneg,rgbcolor=(1,0,0),pointsize=40)
-	textp1 = point_txt(P,"$P$",rgbcolor=(0,0,0))
-	textp2 = point_txt(Q,"$Q$",rgbcolor=(0,0,0))
-	textp3 = point_txt(R,"$P+Q$",rgbcolor=(0,0,0))
-	if Lines==0:
-		g=curve
-	elif Lines ==1:
-		g=curve+l1
-	elif Lines == 2:
-		g=curve+l1+l2
-	if marked_points:
-		g=g+p1+p2+p3+p4
-	if P != Q:
-		g=g+textp1+textp2+textp3
-	else:
-		g=g+textp1+textp3
-	g.axes_range(xmin=-5,xmax=5,ymin=-13,ymax=13)
-	show(g,axes = Axes)
-}}}
-{{attachment:PointAddEllipticCurve.png}}
+        curve = E.plot(rgbcolor = (0,0,1),xmin=-5,xmax=5,plot_points=300)
+        R = P + Q
+        Rneg = -R
+        l1 = line_from_curve_points(E,P,Q)
+        l2 = line_from_curve_points(E,R,Rneg,style='--')
+        p1 = plot(P,rgbcolor=(1,0,0),pointsize=40)
+        p2 = plot(Q,rgbcolor=(1,0,0),pointsize=40)
+        p3 = plot(R,rgbcolor=(1,0,0),pointsize=40)
+        p4 = plot(Rneg,rgbcolor=(1,0,0),pointsize=40)
+        textp1 = point_txt(P,"$P$",rgbcolor=(0,0,0))
+        textp2 = point_txt(Q,"$Q$",rgbcolor=(0,0,0))
+        textp3 = point_txt(R,"$P+Q$",rgbcolor=(0,0,0))
+        if Lines==0:
+                g=curve
+        elif Lines ==1:
+                g=curve+l1
+        elif Lines == 2:
+                g=curve+l1+l2
+        if marked_points:
+                g=g+p1+p2+p3+p4
+        if P != Q:
+                g=g+textp1+textp2+textp3
+        else:
+                g=g+textp1+textp3
+        g.axes_range(xmin=-5,xmax=5,ymin=-13,ymax=13)
+        show(g,axes = Axes)
+```
+![interact/number_theory/PointAddEllipticCurve.png](interact/number_theory/PointAddEllipticCurve.png) 
 
 
-== Plotting an elliptic curve over a finite field ==
-{{{#!sagecell
+## Plotting an elliptic curve over a finite field
+
+
+```sagecell
 E = EllipticCurve('37a')
 @interact
 def _(p=slider(prime_range(1000), default=389)):
     show(E)
     print("p = %s" % p)
     show(E.change_ring(GF(p)).plot(), xmin=0, ymin=0)
-}}}
+```
+![interact/number_theory/ellffplot.png](interact/number_theory/ellffplot.png) 
 
-{{attachment:ellffplot.png}}
 
-= Cryptography =
+# Cryptography
 
-== The Diffie-Hellman Key Exchange Protocol ==
-by Timothy Clemans and William Stein
-{{{#!sagecell
+
+## The Diffie-Hellman Key Exchange Protocol
+
+by Timothy Clemans and William Stein 
+```sagecell
 @interact
 def diffie_hellman(bits=slider(8, 513, 4, 8, 'Number of bits', False),
     button=selector(["Show new example"],label='',buttons=True)):
@@ -805,28 +832,31 @@ font-weight:bold
 </ol>
     """ % (bits, p, g, a, g, a, p, (g^a), b, g, b, p, (g^b), (g^b), a, p,
        (g^ b)^a, g^a, b, p, (g^a)^b)))
-}}}
+```
+![interact/number_theory/dh.png](interact/number_theory/dh.png) 
 
 
-{{attachment:dh.png}}
+# Other
 
-= Other =
 
-== Continued Fraction Plotter ==
-by William Stein
+## Continued Fraction Plotter
 
-crows not working
-{{{#!sagecell
+by William Stein 
+
+crows not working 
+```sagecell
 @interact
 def _(number=e, ymax=selector([5,20,..,400],nrows=2), clr=Color('purple'), prec=[500,1000,..,5000]):
     c = list(continued_fraction(RealField(prec)(number))); print(c)
     show(line([(i,z) for i, z in enumerate(c)],rgbcolor=clr),ymax=ymax,figsize=[10,2])
-}}}
-{{attachment:contfracplot.png}}
+```
+![interact/number_theory/contfracplot.png](interact/number_theory/contfracplot.png) 
 
-== Computing Generalized Bernoulli Numbers ==
-by William Stein (Sage-2.10.3)
-{{{#!sagecell
+
+## Computing Generalized Bernoulli Numbers
+
+by William Stein (Sage-2.10.3) 
+```sagecell
 @interact
 def _(m=selector([1..15],nrows=2), n=(7,[3..10])):
     G = DirichletGroup(m)
@@ -840,14 +870,14 @@ def _(m=selector([1..15],nrows=2), n=(7,[3..10])):
              eps, eps.conductor(), v)
     s += '</table>'
     pretty_print(html(s))
-}}}
+```
+![interact/number_theory/bernoulli.png](interact/number_theory/bernoulli.png) 
 
-{{attachment:bernoulli.png}}
 
+## Fundamental Domains of SL_2(ZZ)
 
-== Fundamental Domains of SL_2(ZZ) ==
-by Robert Miller
-{{{#!sagecell
+by Robert Miller 
+```sagecell
 L = [[-0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in range(1000, -1, -1)]
 R = [[0.5, 2.0^(x/100.0) - 1 + sqrt(3.0)/2] for x in range(1000)]
 xes = [x/1000.0 for x in range(-500,501,1)]
@@ -870,15 +900,20 @@ def _(gen = selector(['t+1', 't-1', '-1/t'], buttons=True,nrows=1)):
     P = polygon(fundamental_domain)
     P.ymax(1.2); P.ymin(-0.1)
     P.show()
-}}}
+```
+![interact/number_theory/fund_domain.png](interact/number_theory/fund_domain.png) 
 
-{{attachment:fund_domain.png}}
 
-= Multiple Zeta Values  =
-by Akhilesh P.
-== Computing Multiple Zeta values  ==
-=== Word Input ===
-{{{#!sagecell
+# Multiple Zeta Values
+
+by Akhilesh P. 
+## Computing Multiple Zeta values
+
+
+### Word Input
+
+
+```sagecell
 R=RealField(10)
 @interact
 def _( weight=(5,(2..100))):
@@ -938,10 +973,12 @@ def _( weight=(5,(2..100))):
   RIF=RealIntervalField(int(3.321928*D))
   u=u/1
   print(u)
-}}}
-{{attachment:akhi1.png}}
-=== Composition Input ===
-{{{#!sagecell
+```
+![interact/number_theory/akhi1.png](interact/number_theory/akhi1.png) 
+### Composition Input
+
+
+```sagecell
 R=RealField(10)
 @interact
 def _( Depth=(5,(2..100))):
@@ -1007,10 +1044,12 @@ def _( Depth=(5,(2..100))):
   RIF=RealIntervalField(int(3.321928*D))
   u=u/1
   print(u)
-}}}
-{{attachment:akhi5.png}}
-== Program to Compute Integer Relation between Multiple Zeta Values ==
-{{{#!sagecell
+```
+![interact/number_theory/akhi5.png](interact/number_theory/akhi5.png) 
+## Program to Compute Integer Relation between Multiple Zeta Values
+
+
+```sagecell
 from mpmath import *
 print("Enter the number of composition")
 @interact
@@ -1085,10 +1124,12 @@ def _( n=(5,(2..100))):
   u=pslq(zet,tol=10**-D,maxcoeff=100,maxsteps=10000)
   print("the Intger Relation between the above zeta values given by the vector")
   print(u)
-}}}
-{{attachment:akhi10.png}}
-== Word to composition ==
-{{{#!sagecell
+```
+![interact/number_theory/akhi10.png](interact/number_theory/akhi10.png) 
+## Word to composition
+
+
+```sagecell
 @interact
 def _( weight=(7,(2..100))):
  n=weight
@@ -1098,21 +1139,22 @@ def _( weight=(7,(2..100))):
  def _(v=('word', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
   a=[v[i] for i in range(len(v))]
   def bintocomp(a):
-	b=[]
-	count=1
-	for j in range(len(a)):
-		if(a[j]==0):
-			count=count+1
-		else:
-			b.append(count)
-			count=1	
-	return(b)
+        b=[]
+        count=1
+        for j in range(len(a)):
+                if(a[j]==0):
+                        count=count+1
+                else:
+                        b.append(count)
+                        count=1 
+        return(b)
   print("Composition is {}".format(bintocomp(a)))
-}}}
+```
+![interact/number_theory/akhi2.png](interact/number_theory/akhi2.png) 
+## Composition to Word
 
-{{attachment:akhi2.png}}
-== Composition to Word ==
-{{{#!sagecell
+
+```sagecell
 @interact
 def _( Depth=(7,(1..100))):
  n=Depth
@@ -1123,17 +1165,18 @@ def _( Depth=(7,(1..100))):
  def _(v=('composition', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
   a=[v[i] for i in range(len(v))]
   def comptobin(a):
-	word=[]
-	for i in range(len(a)):
-		word=word+[0]*(a[i]-1)+[1]
-	return(word)
+        word=[]
+        for i in range(len(a)):
+                word=word+[0]*(a[i]-1)+[1]
+        return(word)
 
   print("Word is {}".format(comptobin(a)))
-}}}
+```
+![interact/number_theory/akhi3.png](interact/number_theory/akhi3.png) 
+## Dual of a Word
 
-{{attachment:akhi3.png}}
-== Dual of a Word ==
-{{{#!sagecell
+
+```sagecell
 @interact
 def _( weight=(7,(2..100))):
  n=weight
@@ -1143,21 +1186,22 @@ def _( weight=(7,(2..100))):
  def _(v=('word', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
   a=[v[i] for i in range(len(v))]
   def dual(a):
-	b=list()
-	b=a
-	b=b[::-1]
-	for i in range(len(b)):
-		b[i]=1-b[i]			
-	return(b)
+        b=list()
+        b=a
+        b=b[::-1]
+        for i in range(len(b)):
+                b[i]=1-b[i]                     
+        return(b)
 
   print("Dual word is {}"?format(dual(a)))
-}}}
+```
+![interact/number_theory/akhi4.png](interact/number_theory/akhi4.png) 
 
-{{attachment:akhi4.png}}
+
+## Shuffle product of two Words
 
 
-== Shuffle product of two Words ==
-{{{#!sagecell
+```sagecell
 @interact
 def _( w1=(2,(2..100)), w2=(2,(2..100))):
  a=[0]
@@ -1241,10 +1285,12 @@ def _( w1=(2,(2..100)), w2=(2,(2..100))):
   print(c[1][len(c[0])-1],"*",c[0][len(c[0])-1])
 
 
-}}}
-{{attachment:akhi6.png}}
-== Shuffle Regularization at 0 ==
-{{{#!sagecell
+```
+![interact/number_theory/akhi6.png](interact/number_theory/akhi6.png) 
+## Shuffle Regularization at 0
+
+
+```sagecell
 @interact
 def _( w=(2,(2..100))):
  a=[0]
@@ -1263,76 +1309,76 @@ def _( w=(2,(2..100))):
         result.append(''.join(s))
     return result
   def sort(a,l,m):
-	b=[]
-	n=len(a)
-	for i in range(n):
-		b.append(a[i])
-	for j in range(l-1,-1,-1):
-		k=0
-		for t in range(m+1):
-			for i in range(n):	
-				if(a[i][j]== t):
-					b[k]=a[i]
-					k=k+1
-		for i in range(n):
-			a[i]=b[i]
-	return(a)
+        b=[]
+        n=len(a)
+        for i in range(n):
+                b.append(a[i])
+        for j in range(l-1,-1,-1):
+                k=0
+                for t in range(m+1):
+                        for i in range(n):      
+                                if(a[i][j]== t):
+                                        b[k]=a[i]
+                                        k=k+1
+                for i in range(n):
+                        a[i]=b[i]
+        return(a)
 
   def sort1(a,l,m):
-	b=[]
-	b.append([])
-	b.append([])
-	n=len(a[0])
-	for i in range(n):
-		b[0].append(a[0][i])
-		b[1].append(a[1][i])
-	for j in range(l-1,-1,-1):
-		k=0
-		for t in range(m+1):
-			for i in range(n):	
-				if(a[0][i][j]== t):
-					b[0][k]=a[0][i]
-					b[1][k]=a[1][i]
-					k=k+1
-		for i in range(n):
-			a[0][i]=b[0][i]
-			a[1][i]=b[1][i]
-	return(a)
+        b=[]
+        b.append([])
+        b.append([])
+        n=len(a[0])
+        for i in range(n):
+                b[0].append(a[0][i])
+                b[1].append(a[1][i])
+        for j in range(l-1,-1,-1):
+                k=0
+                for t in range(m+1):
+                        for i in range(n):      
+                                if(a[0][i][j]== t):
+                                        b[0][k]=a[0][i]
+                                        b[1][k]=a[1][i]
+                                        k=k+1
+                for i in range(n):
+                        a[0][i]=b[0][i]
+                        a[1][i]=b[1][i]
+        return(a)
 
   def count(a):
-	n=len(a)
-	b=[]
-	b.append(a[0])
-	m=[]
-	m.append(1)
-	c=0
-	for i in range(1,n):
-		if(a[i]==a[i-1]):
-			m[c]=m[c]+1
-		else:
-			b.append(a[i])
-			m.append(1)
-			c=c+1
-	return(b,m)
+        n=len(a)
+        b=[]
+        b.append(a[0])
+        m=[]
+        m.append(1)
+        c=0
+        for i in range(1,n):
+                if(a[i]==a[i-1]):
+                        m[c]=m[c]+1
+                else:
+                        b.append(a[i])
+                        m.append(1)
+                        c=c+1
+        return(b,m)
 
 
   def count1(a):
-	n=len(a[0])
-	b=[]
-	b.append([])
-	b.append([])
-	b[0].append(a[0][0])
-	b[1].append(a[1][0])
-	c=0
-	for i in range(1,n):
-		if(a[0][i]==a[0][i-1]):
-			b[1][c]=b[1][c]+a[1][i]
-		else:
-			b[0].append(a[0][i])
-			b[1].append(a[1][i])
-			c=c+1
+        n=len(a[0])
+        b=[]
+        b.append([])
+        b.append([])
+        b[0].append(a[0][0])
+        b[1].append(a[1][0])
+        c=0
+        for i in range(1,n):
+                if(a[0][i]==a[0][i-1]):
+                        b[1][c]=b[1][c]+a[1][i]
+                else:
+                        b[0].append(a[0][i])
+                        b[1].append(a[1][i])
+                        c=c+1
 
-	return(b)
+        return(b)
   def shuffle(a,b):
         r=len(a)
         s=len(b)
@@ -1394,10 +1440,12 @@ def _( w=(2,(2..100))):
     print(c[1][len(c[0])-1],"*",c[0][len(c[0])-1])
 
 
-}}}
-{{attachment:akhi7.png}}
-== Shuffle Regularization at 1 ==
-{{{#!sagecell
+```
+![interact/number_theory/akhi7.png](interact/number_theory/akhi7.png) 
+## Shuffle Regularization at 1
+
+
+```sagecell
 @interact
 def _( w=(2,(2..20))):
  a=[0]
@@ -1416,76 +1464,76 @@ def _( w=(2,(2..20))):
         result.append(''.join(s))
     return result
   def sort(a,l,m):
-	b=[]
-	n=len(a)
-	for i in range(n):
-		b.append(a[i])
-	for j in range(l-1,-1,-1):
-		k=0
-		for t in range(m+1):
-			for i in range(n):	
-				if(a[i][j]== t):
-					b[k]=a[i]
-					k=k+1
-		for i in range(n):
-			a[i]=b[i]
-	return(a)
+        b=[]
+        n=len(a)
+        for i in range(n):
+                b.append(a[i])
+        for j in range(l-1,-1,-1):
+                k=0
+                for t in range(m+1):
+                        for i in range(n):      
+                                if(a[i][j]== t):
+                                        b[k]=a[i]
+                                        k=k+1
+                for i in range(n):
+                        a[i]=b[i]
+        return(a)
 
   def sort1(a,l,m):
-	b=[]
-	b.append([])
-	b.append([])
-	n=len(a[0])
-	for i in range(n):
-		b[0].append(a[0][i])
-		b[1].append(a[1][i])
-	for j in range(l-1,-1,-1):
-		k=0
-		for t in range(m+1):
-			for i in range(n):	
-				if(a[0][i][j]== t):
-					b[0][k]=a[0][i]
-					b[1][k]=a[1][i]
-					k=k+1
-		for i in range(n):
-			a[0][i]=b[0][i]
-			a[1][i]=b[1][i]
-	return(a)
+        b=[]
+        b.append([])
+        b.append([])
+        n=len(a[0])
+        for i in range(n):
+                b[0].append(a[0][i])
+                b[1].append(a[1][i])
+        for j in range(l-1,-1,-1):
+                k=0
+                for t in range(m+1):
+                        for i in range(n):      
+                                if(a[0][i][j]== t):
+                                        b[0][k]=a[0][i]
+                                        b[1][k]=a[1][i]
+                                        k=k+1
+                for i in range(n):
+                        a[0][i]=b[0][i]
+                        a[1][i]=b[1][i]
+        return(a)
 
   def count(a):
-	n=len(a)
-	b=[]
-	b.append(a[0])
-	m=[]
-	m.append(1)
-	c=0
-	for i in range(1,n):
-		if(a[i]==a[i-1]):
-			m[c]=m[c]+1
-		else:
-			b.append(a[i])
-			m.append(1)
-			c=c+1
-	return(b,m)
+        n=len(a)
+        b=[]
+        b.append(a[0])
+        m=[]
+        m.append(1)
+        c=0
+        for i in range(1,n):
+                if(a[i]==a[i-1]):
+                        m[c]=m[c]+1
+                else:
+                        b.append(a[i])
+                        m.append(1)
+                        c=c+1
+        return(b,m)
 
 
   def count1(a):
-	n=len(a[0])
-	b=[]
-	b.append([])
-	b.append([])
-	b[0].append(a[0][0])
-	b[1].append(a[1][0])
-	c=0
-	for i in range(1,n):
-		if(a[0][i]==a[0][i-1]):
-			b[1][c]=b[1][c]+a[1][i]
-		else:
-			b[0].append(a[0][i])
-			b[1].append(a[1][i])
-			c=c+1
+        n=len(a[0])
+        b=[]
+        b.append([])
+        b.append([])
+        b[0].append(a[0][0])
+        b[1].append(a[1][0])
+        c=0
+        for i in range(1,n):
+                if(a[0][i]==a[0][i-1]):
+                        b[1][c]=b[1][c]+a[1][i]
+                else:
+                        b[0].append(a[0][i])
+                        b[1].append(a[1][i])
+                        c=c+1
 
-	return(b)
+        return(b)
   def shuffle(a,b):
         r=len(a)
         s=len(b)
@@ -1514,31 +1562,31 @@ def _( w=(2,(2..20))):
         a4=count(a3)
         return(a4)
   def Regshuf1(a):
-	r=[]
-	r.append([])
-	r.append([])
-	t=0
-	c=1
-	for i in range(len(a)+1):
-		if(t==0):
-			b=shuffle(a[:i],a[i:])
-			for j in range(len(b[0])):
-				r[0].append(b[0][j])
-				r[1].append(b[1][j]*c)
-			c=-c
-			if(i<len(a)):
-				if(a[i]==0):
-					t=1
-	r=sort1(r,len(a),max(a+[0]))
-	r=count1(r)
-	rg=[]
-	rg.append([])
-	rg.append([])
-	for i in range(len(r[0])):
-		if(r[1][i] is not 0):
-			rg[0].append(r[0][i])
-			rg[1].append(r[1][i])	
-	return(rg)
+        r=[]
+        r.append([])
+        r.append([])
+        t=0
+        c=1
+        for i in range(len(a)+1):
+                if(t==0):
+                        b=shuffle(a[:i],a[i:])
+                        for j in range(len(b[0])):
+                                r[0].append(b[0][j])
+                                r[1].append(b[1][j]*c)
+                        c=-c
+                        if(i<len(a)):
+                                if(a[i]==0):
+                                        t=1
+        r=sort1(r,len(a),max(a+[0]))
+        r=count1(r)
+        rg=[]
+        rg.append([])
+        rg.append([])
+        for i in range(len(r[0])):
+                if(r[1][i] is not 0):
+                        rg[0].append(r[0][i])
+                        rg[1].append(r[1][i])   
+        return(rg)
   c = Regshuf1(a)
   for i in range(len(c[0])-1):
     if(c[1][i] != 0):
@@ -1547,5 +1595,5 @@ def _( w=(2,(2..20))):
     print(c[1][len(c[0])-1],"*",c[0][len(c[0])-1])
 
 
-}}}
-{{attachment:akhi8.png}}
+```
+![interact/number_theory/akhi8.png](interact/number_theory/akhi8.png) 

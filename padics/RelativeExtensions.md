@@ -1,16 +1,17 @@
- * ''Goal'' -- implement relative extensions of p-adic fields
- * ''Type'' -- basic features
- * ''Priority'' -- High
- * ''Difficulty'' -- Medium
- * ''Prerequisites'' -- [[../GeneralExtensions | absolute extensions]], [[../PolynomialFactoring | polynomial factoring]]
- * ''Background'' -- 
- * ''Contributors'' -- David Roe
- * ''Progress'' - not started
- * ''Related Tickets'' -- 
 
-== Discussion ==
+* _Goal_ -- implement relative extensions of p-adic fields 
+* _Type_ -- basic features 
+* _Priority_ -- High 
+* _Difficulty_ -- Medium 
+* _Prerequisites_ -- <a href="/padics/GeneralExtensions">absolute extensions</a>, <a href="/padics/PolynomialFactoring">polynomial factoring</a> 
+* _Background_ --  
+* _Contributors_ -- David Roe 
+* _Progress_ - not started 
+* _Related Tickets_ --  
 
-It's not clear to me whether relative extensions should be implemented as absolute extensions with appropriate coercions, or as iterated polynomials...
+## Discussion
 
-== Tasks ==
+It's not clear to me whether relative extensions should be implemented as absolute extensions with appropriate coercions, or as iterated polynomials... 
 
+
+## Tasks

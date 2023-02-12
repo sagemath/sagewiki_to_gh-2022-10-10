@@ -1,5 +1,6 @@
-#language it
-{{{
+
+
+```txt
 ==============
 Un breve tour di Sage
 ==============
@@ -130,4 +131,4 @@ Algoritmi di calcolo in Sage
 ============================
 
 Ogni volta che si utilizza Sage si ha accesso a una delle più grandi collezioni open-source di algoritmi di calcolo.
-}}}
+```

@@ -1,10 +1,13 @@
-##master-page:HomepageTemplate
-#format wiki
-== Craig Citro ==
 
-Email: <<MailTo(craigcitro AT SPAMFREE gmail DOT com)>>
 
-I'm a grad student at UCLA. 
+## Craig Citro
 
-----
-CategoryHomepage
+Email: craigcitro AT SPAMFREE gmail DOT com 
+
+I'm a grad student at UCLA.  
+
+
+
+---
+
+ <a href="/CategoryHomepage">CategoryHomepage</a> 

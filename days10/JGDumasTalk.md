@@ -1,6 +1,8 @@
-== Jean-Guillaume Dumas ==
-=== Simultaneous Modular Reduction and Kronecker Substitution for Small Finite Fields ===
 
-We present algorithms to perform modular polynomial multiplication or modular dot product efficiently in a single machine word. We pack polynomials into integers and perform several modular operations with machine integer or floating point arithmetic. The modular polynomials are converted into integers using Kronecker substitution (evaluation at a sufficiently large integer). With some control on the sizes and degrees, arithmetic operations on the polynomials can be performed directly with machine integers or floating point numbers and the number of conversions can be reduced.
-We also present efficient ways to recover the modular values of the coefficients.
-This leads to practical gains of quite large constant factors for polynomial multiplication, prime field linear algebra and small extension field arithmetic. 
+
+## Jean-Guillaume Dumas
+
+
+### Simultaneous Modular Reduction and Kronecker Substitution for Small Finite Fields
+
+We present algorithms to perform modular polynomial multiplication or modular dot product efficiently in a single machine word. We pack polynomials into integers and perform several modular operations with machine integer or floating point arithmetic. The modular polynomials are converted into integers using Kronecker substitution (evaluation at a sufficiently large integer). With some control on the sizes and degrees, arithmetic operations on the polynomials can be performed directly with machine integers or floating point numbers and the number of conversions can be reduced. We also present efficient ways to recover the modular values of the coefficients. This leads to practical gains of quite large constant factors for polynomial multiplication, prime field linear algebra and small extension field arithmetic.  

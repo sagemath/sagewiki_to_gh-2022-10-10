@@ -1,7 +1,9 @@
-= Making Sage Classroom Ready =
 
-{{{
 
+# Making Sage Classroom Ready
+
+
+```txt
 \section{Making Sage Classroom Ready}
 
 In this section we describe Sage development projects that will
@@ -57,4 +59,4 @@ Polish any issues in calculus (e.g., see recent sage-devel posts about different
 [[RAB:  Other than calculus and linear algebra, I would guess this is the next high-enrollment candidate where Sage can have a big impact.  Lots of engineering and physics majors in this one.  There is also no good open textbook for this course that I am aware of.]]
 
  
-}}}
+```

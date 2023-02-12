@@ -1,4 +1,6 @@
-{{{
+
+
+```txt
 \section{How sage allows for wide adoption while maintaining the benefits of previous approaches}
 
 Sage is a cohesive system that includes nearly one hundred pieces of
@@ -55,4 +57,4 @@ Sage's fundamental adherence to open software and open standards, combined with 
 
 Mention something about the huge number of lightning talks or the scipy conferences, talking about applications of python in science.
 
-}}}
+```

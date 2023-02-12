@@ -1,18 +1,21 @@
-##master-page:HomepageTemplate
-#format wiki
-== CristianConsonni ==
 
-Email: <<MailTo(kikkocristian AT SPAMFREE tiscali DOT it)>>
 
-The nickname I use on the sage-devel Google group is CristianCantoro.
+## CristianConsonni
 
-You can find me also in the following places:
+Email: kikkocristian AT SPAMFREE tiscali DOT it 
 
-* [[[http://it.wikipedia.org/wiki/Utente:CristianCantoro|| Wikipedia]]]
+The nickname I use on the sage-devel Google group is <a href="/CristianCantoro">CristianCantoro</a>. 
 
-* ...
+You can find me also in the following places: 
 
-More info later on this page.
+* <a href="/%5Bhttp%3A//it.wikipedia.org/wiki/Utente%3ACristianCantoro">[http://it.wikipedia.org/wiki/Utente:CristianCantoro</a>] 
 
-----
-CategoryHomepage
+* ... 
+
+More info later on this page. 
+
+
+
+---
+
+ <a href="/CategoryHomepage">CategoryHomepage</a> 

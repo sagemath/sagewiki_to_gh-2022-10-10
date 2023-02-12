@@ -1,4 +1,6 @@
-{{{
+
+
+```txt
 # -*- coding: utf8 -*-
 '''
 Sends one email with attachment to each student on a list
@@ -100,4 +102,4 @@ for linea in data.splitlines():
 server.close()
 
 
-}}}
+```

@@ -1,5 +1,6 @@
-{{{
 
+
+```txt
 \section{Introduction}
 
 % Begin Rob's intro
@@ -92,4 +93,4 @@ costs, driven by technology, radical departure from traditional teaching\ldots{}
 
 
 
-}}}
+```

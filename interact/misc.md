@@ -1,13 +1,18 @@
-= Sage Interactions - Miscellaneous =
-goto [[interact|interact main page]]
 
 
-<<TableOfContents>>
+# Sage Interactions - Miscellaneous
 
-== Hearing a trigonometric identity ==
-by Marshall Hampton.  When the two frequencies are well separated, we hear the right hand side of the identity.  When they start getting close, we hear the higher-pitched factor in the left-hand side modulated by the lower-pitched envelope.
+goto <a href="/interact">interact main page</a> 
 
-{{{#!sagecell
+[[_TOC_]] 
+
+
+## Hearing a trigonometric identity
+
+by Marshall Hampton.  When the two frequencies are well separated, we hear the right hand side of the identity.  When they start getting close, we hear the higher-pitched factor in the left-hand side modulated by the lower-pitched envelope. 
+
+
+```sagecell
 import wave
 
 class SoundFile:
@@ -40,13 +45,16 @@ def sinsound(freq_ratio =  slider(1/144,1,1/144,1/12)):
     show(list_plot(s2[0:pnum],plotjoined=True))
     pretty_print(html(r'<embed src="cell://test'+ lab +'.wav" width="200" height="100"></embed>'))
     pretty_print(html(r'Frequencies: $\omega_0 = {} $, $\omega = {}$'.format(str(hz1),latex(hz2))))
-}}}
-{{attachment:sinsound.png}}
+```
+![interact/misc/sinsound.png](interact/misc/sinsound.png) 
 
-== Karplus-Strong algorithm for plucked and percussive sound generation ==
-by Marshall Hampton
 
-{{{#!sagecell
+## Karplus-Strong algorithm for plucked and percussive sound generation
+
+by Marshall Hampton 
+
+
+```sagecell
 import wave
 
 class SoundFile:
@@ -98,13 +106,14 @@ def sinsound(delay = slider([int(2^i) for i in range(2,10)], default=100, label=
     f = SoundFile(s2str,lab=lab)
     f.write()
     pretty_print(html('<embed src="cell://test'+ lab +'.wav" width="200" height="100"></embed>'))
-}}}
+```
+![interact/misc/KarplusStrong.png](interact/misc/KarplusStrong.png) 
 
-{{attachment:KarplusStrong.png}}
 
-== An Interactive Venn Diagram ==
+## An Interactive Venn Diagram
 
-{{{#!sagecell
+
+```sagecell
 def f(s, braces=True): 
     t = ', '.join(sorted(list(s)))
     if braces: return '{' + t + '}'
@@ -149,13 +158,14 @@ def _(X='1,2,3,a', Y='2,a,3,4,apple', Z='a,b,10,apple'):
 
     # Show it
     G.show(aspect_ratio=1, axes=False)
-}}}
+```
+![interact/misc/veng.png](interact/misc/veng.png) 
 
-{{attachment:veng.png}}
 
-== Unreadable code ==
-by Igor Tolkov
-{{{#!sagecell
+## Unreadable code
+
+by Igor Tolkov 
+```sagecell
 @interact
 def _(h=(20,(1,36,1))):
     print((lambda f:f(0,f))(
@@ -164,12 +174,14 @@ def _(h=(20,(1,36,1))):
             ((n<h-1 and f(n+1,f)) or '')
         )
     ))
-}}}
-{{attachment:unreadable.png}}
+```
+![interact/misc/unreadable.png](interact/misc/unreadable.png) 
 
 
-== Profile a snippet of code ==
-{{{#!sagecell
+## Profile a snippet of code
+
+
+```sagecell
 pretty_print(html('<h2>Profile the given input</h2>'))
 import cProfile; import profile
 @interact
@@ -180,25 +192,25 @@ def _(cmd = ("Statement", '2 + 2'),
         cProfile.runctx(cmd,globals(), locals())
     else:
         profile.runctx(cmd,globals(), locals())
-}}}
-{{attachment:profile.png}}
+```
+![interact/misc/profile.png](interact/misc/profile.png) 
 
 
-=== Evaluate a bit of code in a given system ===
+### Evaluate a bit of code in a given system
 
-by William Stein (there is no way yet to make the text box big):
-{{{#!sagecell
+by William Stein (there is no way yet to make the text box big): 
+```sagecell
 @interact
 def _(system=selector([('sage0', 'Sage'), ('gp', 'PARI'), ('magma', 'Magma')]), code='2+2'):
     print(globals()[system].eval(code))
-}}}
+```
+![interact/misc/evalsys.png](interact/misc/evalsys.png) 
 
-{{attachment:evalsys.png}}
 
+## Minkowski Sum
 
-== Minkowski Sum ==
-by Marshall Hampton
-{{{#!sagecell
+by Marshall Hampton 
+```sagecell
 def minkdemo(list1, list2):
     '''
     Return the Minkowski sum of two lists.
@@ -239,13 +251,16 @@ def minksumvis(x1tri=slider(-1,1,1/10,0, label='Triangle point x coord.'), yb=sl
     labels = text('+', (-4.3,.5), rgbcolor = (0,0,0))
     labels += text('=', (-.2,.5), rgbcolor = (0,0,0))
     show(labels + t_vert + b_vert+ triangle + kite + triangle_sum + kite_sum + edge_lines, axes=False, figsize = [11.0*.7, 4*.7], xmin = -6, ymin = 0, ymax = 4)
-}}}
-{{attachment:minksum.png}}
+```
+![interact/misc/minksum.png](interact/misc/minksum.png) 
 
-== Cellular Automata ==
-by Pablo Angulo, Eviatar Bach
 
-{{{#!sagecell
+## Cellular Automata
+
+by Pablo Angulo, Eviatar Bach 
+
+
+```sagecell
 from numpy import zeros
 from random import randint
 
@@ -282,15 +297,18 @@ def _( initial=selector(['Single-cell', 'Random'], label='Starting condition'), 
     M = cellular(rule, N, initial)
     plot_M = matrix_plot(M, cmap='binary')
     plot_M.show( figsize=[size,size])
-}}}
-{{attachment:cellular2.png}}
+```
+![interact/misc/cellular2.png](interact/misc/cellular2.png) 
 
-== Another Interactive Venn Diagram ==
-by Jane Long (adapted from http://wiki.sagemath.org/interact/misc)
 
-This interact models a problem in which a certain number of people are surveyed to see if they participate in three different activities (running, biking, and swimming). Users can indicate the numbers of people in each category, from 0 to 100. Returns a graphic of a labeled Venn diagram with the number of people in each region. Returns an explanatory error message if user input is inconsistent. 
+## Another Interactive Venn Diagram
 
-{{{#!sagecell
+by Jane Long (adapted from <a href="http://wiki.sagemath.org/interact/misc">http://wiki.sagemath.org/interact/misc</a>) 
+
+This interact models a problem in which a certain number of people are surveyed to see if they participate in three different activities (running, biking, and swimming). Users can indicate the numbers of people in each category, from 0 to 100. Returns a graphic of a labeled Venn diagram with the number of people in each region. Returns an explanatory error message if user input is inconsistent.  
+
+
+```sagecell
 @interact
 def _(T=slider([0..100],default=100,label='People surveyed'),X=slider([0..100],default=28,label='Run'), Y=slider([0..100],default=33,label='Bike'), Z=slider([0..100],default=59,label='Swim'),XY=slider([0..100],default=16,label='Run and Bike'),XZ=slider([0..100],default=13,label='Run and Swim'),YZ=slider([0..100],default=12,label='Bike and Swim'),XYZ=slider([0..100],default=7,label='Run, Bike, and Swim')):
    
@@ -337,5 +355,5 @@ def _(T=slider([0..100],default=100,label='People surveyed'),X=slider([0..100],d
         print('This situation is impossible! (Why?)')
     else:
         G.show(aspect_ratio=1, axes=False)
-}}}
-{{attachment:vennjhl.png}}
+```
+![interact/misc/vennjhl.png](interact/misc/vennjhl.png) 

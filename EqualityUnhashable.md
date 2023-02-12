@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 "Mathematical" equality breaks Python
 =====================================
@@ -38,4 +41,4 @@ Representations of objects
 
 Objects with different representations. An example here are fraction field elements or ideals. There is a well defined notion of equality. However, there is in general no normal form, so there is no non-trivial hash function for these objects.
 
-}}}
+```

@@ -1,8 +1,9 @@
-= Dissemination =
 
 
+# Dissemination
 
-{{{
+
+```txt
 \section{Dissemination Plan}
 
 
@@ -27,4 +28,4 @@ honorariums to write tutorials telling how to integrate Sage into their courses.
 ]]
 
 
-}}}
+```

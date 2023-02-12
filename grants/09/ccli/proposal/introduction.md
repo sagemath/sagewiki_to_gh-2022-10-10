@@ -1,6 +1,9 @@
-= Introduction =
 
-{{{  
+
+# Introduction
+
+
+```txt
 \section{Introduction}
 
 Stein embarked
@@ -125,4 +128,4 @@ students, and research visitors. Add more...
 the NSF COMPMATH program to fund ...
 
 
-}}}
+```

@@ -1,6 +1,9 @@
-#language it
-== tour_algebra_it.rst ==
-{{{
+
+
+## tour_algebra_it.rst
+
+
+```txt
 Algebra di base e Analisi
 
 =========================
@@ -312,7 +315,7 @@ questo metodo in una tabella.
 :math:`a`      :math:`c`            :math:`hf(a,c)`
 :math:`a+h`    :math:`c+hf(a,c)`    ...
 :math:`a+2h`   ...                   
-...	                             
+...                                  
 :math:`b=a+nh` ???                  ...
 ============== ==================   ================  
 
@@ -403,8 +406,8 @@ nell'esempio seguente:
 .. [GAP] (en) The GAP Group, ``GAP - Groups, Algorithms, and Programming``, http://www.gap-system.org
 
 .. [Max] (en) Maxima, http://maxima.sf.net/
-}}}
+```
 
-== rst file ==
-<<AttachInfo>>
-<<AttachList>>
+## rst file
+
+[[!inline pages="!page(i18n/Italian/tour_algebrait/*) and glob(i18n/Italian/tour_algebrait/*)" quick archive="yes" feeds="no"]] [[!inline pages="!page(i18n/Italian/tour_algebrait/*) and glob(i18n/Italian/tour_algebrait/*)" quick archive="yes" feeds="no"]] 

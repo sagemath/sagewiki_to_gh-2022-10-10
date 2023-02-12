@@ -1,4 +1,6 @@
-{{{
+
+
+```txt
 > See this worksheet, which has the polynomials and two examples:
 
 Thanks.  So this is the curve  E: y^2 + y = x^3 - x.  The discriminant
@@ -133,4 +135,4 @@ This should all work on hyperelliptic curves too -- it must be
 basically the reduction part of Cantor's algorithm.
 
 NDE
-}}}
+```

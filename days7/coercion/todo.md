@@ -1,128 +1,127 @@
-'''This page is out of date''', for information on the coercion model, please see the 
-[[coercion|main coercion page]].
 
-----
-
-Merge up at http://cython.org/coercion/hgwebdir.cgi/sage-coerce-3.0.3/ (pull on top of 3.0.3 release candidate) Should build and start without problems. 
+**This page is out of date**, for information on the coercion model, please see the  <a href="/coercion">main coercion page</a>. 
 
 
 
-Hint: If something doesn't work, try typing 
+---
 
-{{{
+ 
+
+Merge up at <a href="http://cython.org/coercion/hgwebdir.cgi/sage-coerce-3.0.3/">http://cython.org/coercion/hgwebdir.cgi/sage-coerce-3.0.3/</a> (pull on top of 3.0.3 release candidate) Should build and start without problems.  
+
+Hint: If something doesn't work, try typing  
+
+
+```txt
 sage: coercion_traceback()
-}}}
+```
+which will give a listing of all errors caught in the coercion model.  
 
-which will give a listing of all errors caught in the coercion model. 
 
+### Doctests
 
-=== Doctests ===
+Done 
 
-Done
- * integer_mod
- * calculus
- * catalogue, dsage, media, stats, server, logic, tests, misc
- * probability
- * monoids
- * games
- * algebras
- * libs
- * lfunctions
- * quadratic forms
- * databases
- * sets
- * rings/rational
- * rings/real_lazy
- * finite fields
- * structure/formal_sums
- * rings/padics
- * graphs
- * ext
- * functions
- * complex, real
- * numerical
- * crypto
- * interfaces
- * qqbar
- * combinat
- * gsl 
- * abelian_grps
- * geometry
- * groups
- * plot
- * structure
- * modules
- * coding
- * matrix
- * rings
+* integer_mod 
+* calculus 
+* catalogue, dsage, media, stats, server, logic, tests, misc 
+* probability 
+* monoids 
+* games 
+* algebras 
+* libs 
+* lfunctions 
+* quadratic forms 
+* databases 
+* sets 
+* rings/rational 
+* rings/real_lazy 
+* finite fields 
+* structure/formal_sums 
+* rings/padics 
+* graphs 
+* ext 
+* functions 
+* complex, real 
+* numerical 
+* crypto 
+* interfaces 
+* qqbar 
+* combinat 
+* gsl  
+* abelian_grps 
+* geometry 
+* groups 
+* plot 
+* structure 
+* modules 
+* coding 
+* matrix 
+* rings 
+In Progress 
 
-In Progress
- * schemes (ncalexan, number field problems in elliptic_curves, padic problems in elliptic_curves, total mayhem in generic)
- * modular (craigcitro)
- * invalid free in self_orthogonal_binary_codes (robertwb)
+* schemes (ncalexan, number field problems in elliptic_curves, padic problems in elliptic_curves, total mayhem in generic) 
+* modular (craigcitro) 
+* invalid free in self_orthogonal_binary_codes (robertwb) 
+To Do 
 
-To Do
- * rings/polynomial
-   * many segfaults for mhansen, probably due to libsingular invalid read
- * [[http://trac.sagemath.org/sage_trac/ticket/3516|#3516]] libSingular segfault related to the new coercion code [causes segfaults on startup on sage.math]
- * categories (category_types.py -- 1 failure due to Spec in schemes)
+* rings/polynomial 
+      * many segfaults for mhansen, probably due to libsingular invalid read 
+* <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/3516">#3516</a> libSingular segfault related to the new coercion code [causes segfaults on startup on sage.math] 
+* categories (category_types.py -- 1 failure due to Spec in schemes) 
 
-{{{
+```txt
 This should fail: 
             sage: x, y = var('x,y')
             sage: parent(ZZ[x][y](1)*vector(QQ[y],[1,2]))
             sage: parent(ZZ[x](1)*vector(QQ[y],[1,2]))
-}}}
+```
 
+### Files to fix (Make all parents conform to the spec)
 
-=== Files to fix (Make all parents conform to the spec) ===
+Useful script to list all parents in a given module that still need work: <a href="days7/coercion/todo/list_parents.sage">list_parents.sage</a> 
 
-Useful script to list all parents in a given module that still need work: [[attachment:list_parents.sage]]
+Nothing to do 
 
-Nothing to do
- * catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical,gsl, quadratic_forms
+* catalogue, dsage, databases, ext, games, media, stats, server, plot, logic, tests lfunctions, misc, numerical,gsl, quadratic_forms 
+Done 
 
+* coding, functions, graphs 
+* matrix <a class="http" href="http://sage.math.washington.edu/home/robertwb/coerce/coerce-all.hg">http://sage.math.washington.edu/home/robertwb/coerce/coerce-all.hg</a> 
+* complex, real <a class="http" href="http://sage.math.washington.edu/home/robertwb/coerce/coerce-real-complex.hg">http://sage.math.washington.edu/home/robertwb/coerce/coerce-real-complex.hg</a> 
+* modules <a href="days7/coercion/todo/coerce-free-module.patch">coerce-free-module.patch</a> 
+* quotient rings 
+* finite fields (including natural embeddings into each other when Conway polynomials are used) 
+* calculus 
+* number fields 
+* sets 
+* geometry 
+* libs 
+* probability 
+* interfaces 
+* combinat 
+* rings 
+* algebras 
+* monoids 
+* schemes (modulo some dependance on Groups) 
+* crypto 
+In progress 
 
-Done
- * coding, functions, graphs
- * matrix [[http://sage.math.washington.edu/home/robertwb/coerce/coerce-all.hg]]
- * complex, real [[http://sage.math.washington.edu/home/robertwb/coerce/coerce-real-complex.hg]]
- * modules [[attachment:coerce-free-module.patch]]
- * quotient rings
- * finite fields (including natural embeddings into each other when Conway polynomials are used)
- * calculus
- * number fields
- * sets
- * geometry
- * libs
- * probability
- * interfaces
- * combinat
- * rings
- * algebras
- * monoids
- * schemes (modulo some dependance on Groups)
- * crypto
+* groups 
+* modular 
+Little to do 
 
-In progress
- * groups
- * modular
+* categories 
+Lots to do 
 
-Little to do
+Base classes 
 
- * categories
+* structure 
 
-Lots to do
+### Coercion doctesting
 
-
-
-Base classes
- * structure
-
-=== Coercion doctesting ===
-
-Comment from William: 
-{{{
+Comment from William:  
+```txt
 teragon:sage was$ sage -coverage categories/action.pyx
 structure/element.pyx structure/coerce.pyx |grep SCORE
 SCORE categories/action.pyx: 0% (0 of 22)
@@ -138,13 +137,13 @@ wrong when they run into trouble.  I would put getting the coverage of the above
 (and whatever else is related to coercion) up to 100% as the first step in your coercion
 model stuff.   Seriously.   And don't say it can't be doctested, since even though there are
 a lot of things not easily accessible now from the interpreter, such as the coercion model
-}}}
+```
 
-=== Categories to implement ===
+### Categories to implement
 
 
-=== Old notes ===
+### Old notes
 
-To start, get a copy of Sage 2.10.1, install the latest cython spkg (available at http://sage.math.washington.edu/home/robertwb/cython/), pull from http://cython.org/coercion/hgwebdir.cgi/sage-coerce/ and build. 
+To start, get a copy of Sage 2.10.1, install the latest cython spkg (available at <a href="http://sage.math.washington.edu/home/robertwb/cython/">http://sage.math.washington.edu/home/robertwb/cython/</a>), pull from <a href="http://cython.org/coercion/hgwebdir.cgi/sage-coerce/">http://cython.org/coercion/hgwebdir.cgi/sage-coerce/</a> and build.  
 
-Import [[attachment:fix-random.patch]] to sage-scripts to ignore random tests.
+Import <a href="days7/coercion/todo/fix-random.patch">fix-random.patch</a> to sage-scripts to ignore random tests. 

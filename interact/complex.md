@@ -1,10 +1,11 @@
-== Cauchy residue theorem ==
-Pablo Angulo. Shows a function f of a complex variable, a plane curve gamma given as a map 
-R -> C
-t -> gamma(t)
-and plots the contribution of the residues of f to the contour integral of f along gamma
 
-{{{#!sagecell
+
+## Cauchy residue theorem
+
+Pablo Angulo. Shows a function f of a complex variable, a plane curve gamma given as a map  R -> C t -> gamma(t) and plots the contribution of the residues of f to the contour integral of f along gamma 
+
+
+```sagecell
 import scipy.integrate as integ
 from sage.misc.html import HtmlFragment
 var('z t')
@@ -80,5 +81,5 @@ def _(f = cos(z)/(z^4-1),
     pretty_print(HtmlFragment(r'$\int_\gamma f(z)\: d z \approx %.8f + %.8f*I$'%
                               quad_integral))
     cauchy_residue_plot(f, gamma).show(figsize=(8,8))
-}}}
-{{attachment:residues_lemniscate.png}}
+```
+![interact/complex/residues_lemniscate.png](interact/complex/residues_lemniscate.png) 

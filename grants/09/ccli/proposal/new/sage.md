@@ -1,6 +1,9 @@
-= Sage =
 
-{{{
+
+# Sage
+
+
+```txt
 \section{Sage}
 \subsection{A \emph{short} history}
 
@@ -11,4 +14,4 @@
 \subsubsection{How we are building on current knowledge and projects}
 
 
-}}}
+```

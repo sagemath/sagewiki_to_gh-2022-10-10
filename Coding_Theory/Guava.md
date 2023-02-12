@@ -1,6 +1,6 @@
-## page was renamed from Guava
-Integration of Guava in SageMath
 
-Discussed at [[days75|Sage Days 75]].
+Integration of Guava in <a href="/SageMath">SageMath</a> 
 
-[[https://github.com/gap-packages/guava]]
+Discussed at <a href="/days75">Sage Days 75</a>. 
+
+<a class="https" href="https://github.com/gap-packages/guava">https://github.com/gap-packages/guava</a> 

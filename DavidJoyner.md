@@ -1,14 +1,16 @@
-##master-page:HomepageTemplate
-#format wiki
-#language en
-== David Joyner ==
-[[http://sage.math.washington.edu/home/wdj/index.html|David Joyner's project page]]
 
- * [[Translations]] of [[http://sage.math.washington.edu:9001/A_short_introduction_to_SAGE|''A short introduction to SAGE'']]
 
-Email: <<wdjoyner@gmail.com>>
+## David Joyner
 
-[[spkg/gap|GAP's SPKG.txt file]]
+<a class="http" href="http://sage.math.washington.edu/home/wdj/index.html">David Joyner's project page</a> 
 
-----
-CategoryHomepage
+* <a href="/Translations">Translations</a> of <a class="http" href="http://sage.math.washington.edu:9001/A_short_introduction_to_SAGE">''A short introduction to SAGE''</a> 
+Email: <<<a href="mailto:wdjoyner@gmail.com">wdjoyner@gmail.com</a>>> 
+
+<a href="/spkg/gap">GAP's SPKG.txt file</a> 
+
+
+
+---
+
+ <a href="/CategoryHomepage">CategoryHomepage</a> 

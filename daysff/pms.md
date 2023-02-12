@@ -1,58 +1,46 @@
-## Please edit system and help pages ONLY in the master wiki!
-## For more information, please see MoinMoin:MoinDev/Translation.
-## IMPORTANT NOTE:
-## When you use this page as a template for creating your project's groups page:
-##  * please remove all lines starting with two hashes (##)
-##  * except the acl line, please keep that, but remove one hash, so it reads #acl ...
-##  * fix the acl line so it has the correct page instead of the sample Project/AdminGroup
-##  * the "ME" will be automatically replaces with your name when you save the page
-##acl Project/AdminGroup:read,write,delete,revert
-##master-page:Unknown-Page
-##master-date:Unknown-Date
-#format wiki
-#language en
 
-Goal--get the examples from the thesis to work
+Goal--get the examples from the thesis to work 
 
-Pointsearch 
-            *height zero or one, easy, since we just need a point, we can possibly just do this ourselves
-            *eventually need the whole thing, since points might have larger height
-            *in the examples they are all height zero or one
+Pointsearch  
 
-ConcisFF(Kevin) 
-            *square roots in residue fields and lifts, also conic solving over QQ (auxiliary,i.e. useful in general)
+                                 * height zero or one, easy, since we just need a point, we can possibly just do this ourselves 
+                                 * eventually need the whole thing, since points might have larger height 
+                                 * in the examples they are all height zero or one 
+ConcisFF(Kevin)  
 
-DescentFF(Kevin and Jen) 
-            *in the process of being decomposed and doctested/tested
-            *need to find intersections of curves (points) -restrict to hight zero or one?
-            *find all the singular points? make this case work?
+                                 * square roots in residue fields and lifts, also conic solving over QQ (auxiliary,i.e. useful in general) 
+DescentFF(Kevin and Jen)  
 
-LocSol(Aly) 
-            *needs testing and debugging
+                                 * in the process of being decomposed and doctested/tested 
+                                 * need to find intersections of curves (points) -restrict to hight zero or one? 
+                                 * find all the singular points? make this case work? 
+<a href="/LocSol">LocSol</a>(Aly)  
 
-Independent(Jen)
-            *needs is_linear_independent method on elliptic curves (mwrank from number field to function field--ask Cremona?)
-            *this is dependent on heights
+                                 * needs testing and debugging 
+Independent(Jen) 
 
-PointSearchFF 
-            *immediate goal is height zero and one cases
+                                 * needs is_linear_independent method on elliptic curves (mwrank from number field to function field--ask Cremona?) 
+                                 * this is dependent on heights 
+PointSearchFF  
 
-QuartMin(Gerriet) ([[attachment:quartmin_ff.sage|current implementation]])
-            *finished but not tested
-            *UPDATE (6/4): When Kevin and Jen were trying to put everything together, they noticed that this file actually isn't used in DAR's original code. Turns out, if you read his thesis closely, it should in fact *never* be used. So nothing's wrong with his algorithm, we just have an extra file. Kevin and Jen are now discontinuing work on this file.
+                                 * immediate goal is height zero and one cases 
+<a href="/QuartMin">QuartMin</a>(Gerriet) (<a href="daysff/pms/quartmin_ff.sage">current implementation</a>) 
 
-Other 
-            *Need to put the following functions into ell_function_field:
-            ** gens()
-            ** rank()
-            ** torsion_subgroup() (need Mazur's theorem!!!!)
-            
+                                 * finished but not tested 
+                                 * UPDATE (6/4): When Kevin and Jen were trying to put everything together, they noticed that this file actually isn't used in DAR's original code. Turns out, if you read his thesis closely, it should in fact *never* be used. So nothing's wrong with his algorithm, we just have an extra file. Kevin and Jen are now discontinuing work on this file. 
+Other  
 
-Typos in Examples 
-            *compile and fix these
-            * p. 34: (3.15) T+36 should be T+56
-            * p. 35: should be (d_1, d_2) = ((T+17)(T+25),1) (not (T+17)(T+35))
-            * p. 35: should be (1) (T+17)(T+25)Z,,1,,^2^ - Z,,2,,^2^ + ...
-            * p. 35: should be (2) (T+17)(T+25)Z,,1,,^2^ - (T+17)(T+25)Z,,3,,^2^ +  ...
-Comments:
-            * p. 34: quadric intersection in (3.16) depends on the labeling of two torsion as in (3.14). See TD_full comment at the top of the code.
+                                 * Need to put the following functions into ell_function_field: 
+                                 * * gens() 
+                                 * * rank() 
+                                 * * torsion_subgroup() (need Mazur's theorem!!!!) 
+Typos in Examples  
+
+                                 * compile and fix these 
+                                 * p. 34: (3.15) T+36 should be T+56 
+                                 * p. 35: should be (d_1, d_2) = ((T+17)(T+25),1) (not (T+17)(T+35)) 
+                                 * p. 35: should be (1) (T+17)(T+25)Z<sub>1</sub><sup>2</sup> - Z<sub>2</sub><sup>2</sup> + ... 
+                                 * p. 35: should be (2) (T+17)(T+25)Z<sub>1</sub><sup>2</sup> - (T+17)(T+25)Z<sub>3</sub><sup>2</sup> +  ... 
+Comments: 
+
+                                 * p. 34: quadric intersection in (3.16) depends on the labeling of two torsion as in (3.14). See TD_full comment at the top of the code. 

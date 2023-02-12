@@ -1,12 +1,12 @@
-##master-page:HomepageTemplate
-#format wiki
-#language en
-= ferriszorro =
 
-Email: <<MailTo(zorro6467@gmail.com)>>
-## You can even more obfuscate your email address by adding more uppercase letters followed by a leading and trailing blank.
 
-Hello
+# ferriszorro
 
-----
-CategoryHomepage
+Email: [zorro6467@gmail.com](zorro6467@gmail.com) 
+Hello 
+
+
+
+---
+
+ <a href="/CategoryHomepage">CategoryHomepage</a> 

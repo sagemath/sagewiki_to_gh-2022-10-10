@@ -1,10 +1,12 @@
-##master-page:HomepageTemplate
-#format wiki
-Kiran Kedlaya
 
-Email: <<MailTo(kedlaya AT SPAMFREE mit DOT edu)>>
+Kiran Kedlaya 
 
-For my real homepage, see http://math.mit.edu/~kedlaya.
+Email: kedlaya AT SPAMFREE mit DOT edu 
 
-----
-CategoryHomepage
+For my real homepage, see <a href="http://math.mit.edu/~kedlaya">http://math.mit.edu/~kedlaya</a>. 
+
+
+
+---
+
+ <a href="/CategoryHomepage">CategoryHomepage</a> 

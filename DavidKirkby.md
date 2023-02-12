@@ -1,14 +1,15 @@
-##master-page:HomepageTemplate
-#format wiki
-#language en
-== David Kirkby ==
-Email: <<MailTo(david.kirkby AT SPAMFREE onetel DOT net)>>
 
-...
 
-'''An spkg-install for 'lcalc', for which I hope the functionality will be added at a earlier stage in the build process. '''
+## David Kirkby
 
-{{{
+Email: david.kirkby AT SPAMFREE onetel DOT net 
+
+... 
+
+**An spkg-install for 'lcalc', for which I hope the functionality will be added at a earlier stage in the build process. ** 
+
+
+```txt
 #!/usr/bin/env bash
 # This spkg-install was written for 'lcalc', but in such a way that it is
 # hoped it can be used much more widely in Sage. As such, it does things that
@@ -169,6 +170,11 @@ echo "Now copying over the lcalc binary"
 cp lcalc "$SAGE_LOCAL/bin"
 success 'install'
 
-}}}
-----
- . CategoryHomepage
+```
+
+
+---
+
+ 
+
+* <a href="/CategoryHomepage">CategoryHomepage</a> 

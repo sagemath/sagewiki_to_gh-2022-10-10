@@ -1,4 +1,6 @@
-{{{
+
+
+```txt
 <jbandlow> mhansen: second question... suppose i have a patch 'doc.patch' in my local combinat queue. how do i get it to 2144?
 <mhansen> gfurnish: In Python there is staticmethod, but since you want it in Cython, I'm not sure.
 <mhansen> search_src() says rings/real_mpfr.pyx
@@ -42,4 +44,4 @@
 <mhansen> Yeah, that what I was thinking of.  There are other drawbacks in that you don't get a single patch as a "self-contained" work that someone else could review.
 <jbandlow> my thought was that when a project is complete, all changes related to that project are folded into a single patch which is posted to trac
 <mhansen> If you do that as a single patch, then it is more difficult to merge the main branch with the combinat branch since they would conflict in those patches.  I guess if the single patch were only for review and not for inclusion.
-}}}
+```

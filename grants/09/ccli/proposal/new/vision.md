@@ -1,4 +1,6 @@
-{{{
+
+
+```txt
 \section{The Vision}
 
 
@@ -125,4 +127,4 @@ This could be accomplished through
 
 \subsection{Research on how faculty adopt this aproach}
 
-}}}
+```

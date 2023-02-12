@@ -1,83 +1,79 @@
-'''This SEP has already been completed.'''
 
-= Sphinx Documentation SEP (Draft) =
+**This SEP has already been completed.** 
 
-{{{
+
+# Sphinx Documentation SEP (Draft)
+
+
+```txt
 The sage documentation is just too complicated for latex2html at this
 point.  latex2html has a screwy non-gpl compatible license.
 We really need to find some way forward, and latex2html maybe
 isn't it.  Perhaps something like sphinx is.
 
     --William Stein
-}}}
-
-The purpose of this SEP is to propose that Sage adopt the use of Sphinx for its documentation system.
-
-== What is Sphinx? ==
-
-Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects, written by Georg Brandl and licensed under the BSD license.
-
-Sphinx uses reStructuredText ( http://docutils.sourceforge.net/rst.html )  as its markup language, and many of its strengths come from the power and straightforwardness of reStructuredText and its parsing and translating suite, the Docutils.
-
-It was originally created to translate the new Python documentation, but has now been cleaned up in the hope that it will be useful to many other projects.
+```
+The purpose of this SEP is to propose that Sage adopt the use of Sphinx for its documentation system. 
 
 
+## What is Sphinx?
 
-== Current Documentation System ==
+Sphinx is a tool that makes it easy to create intelligent and beautiful documentation for Python projects, written by Georg Brandl and licensed under the BSD license. 
 
-The current method of producing the Sage documentation involves generating LaTeX source code either automatically based on the Sage source code.  The HTML documentation is then produced by using latex2html.  Almost all of the work for constructing the reference manual is in http://www.sagemath.org/hg/doc-main/file/e3941ce97fe4/ref/update_script.py.  Other documentation such as the tutorial, programming guide, and constructions documents are just plain LaTeX documents.
+Sphinx uses reStructuredText ( <a href="http://docutils.sourceforge.net/rst.html">http://docutils.sourceforge.net/rst.html</a> )  as its markup language, and many of its strengths come from the power and straightforwardness of reStructuredText and its parsing and translating suite, the Docutils. 
 
-There are some drawbacks for the current system of documentation.  There are currently very few people that know how the code for producing the reference manual works, and the code itself is relatively difficult to extend.
+It was originally created to translate the new Python documentation, but has now been cleaned up in the hope that it will be useful to many other projects. 
 
-By requiring LaTeX and latex2html, we reduce the number of people that can work on the documentation.  People rarely check that their docstrings are correctly converted into LaTeX, and at almost every release, someone has to go through and fix all of these errors so that the documentation actually builds.  
 
-Docstrings are used for at least five purposes: developers reading the source code, PDF documentation, HTML documentation, question-mark documentation from the Sage command line, and question-mark documentation from the notebook.  Unfortunately, constructs which are allowed for some modes end up with some sort of ugly display in other modes, letting bits of LaTeX markup leak through to the end user.
+## Current Documentation System
 
-One thing that the current system does have going for it is that it is already in place and works for the most part.
+The current method of producing the Sage documentation involves generating LaTeX source code either automatically based on the Sage source code.  The HTML documentation is then produced by using latex2html.  Almost all of the work for constructing the reference manual is in <a href="http://www.sagemath.org/hg/doc-main/file/e3941ce97fe4/ref/update_script.py">http://www.sagemath.org/hg/doc-main/file/e3941ce97fe4/ref/update_script.py</a>.  Other documentation such as the tutorial, programming guide, and constructions documents are just plain LaTeX documents. 
 
-  
-== Switching to Sphinx ==
+There are some drawbacks for the current system of documentation.  There are currently very few people that know how the code for producing the reference manual works, and the code itself is relatively difficult to extend. 
 
-Sphinx is quickly becoming the standard way to create documentation for Python projects.  It is the documentation tool being used for Python 2.6 and 3.0.  Numpy, Scipy, IPython, and Matplotlib have all switched to using Sphinx for their documentation.  Sphinx can output the documentation as HTML, PDF (via LaTeX), and as a Windows Help File.  Sphinx supports extensive cross-referencing (that is, whenever you mention a class/method/module/etc., it's easy to have that mention be a hyperlink).
+By requiring LaTeX and latex2html, we reduce the number of people that can work on the documentation.  People rarely check that their docstrings are correctly converted into LaTeX, and at almost every release, someone has to go through and fix all of these errors so that the documentation actually builds.   
 
-Using reStructuredText as a markup language increases the usefulness of the docstrings and documentation.  For example, Epydoc can use reStructuredText docstrings to produce nice-looking autogenerated API documentation.  MoinMoin has a plugin to support reStructredText which can facilitate transfer of data between the wiki and the Sage documentation.  Some reasons why reStructuredText was adopted for Python docstrings can be found at http://www.python.org/dev/peps/pep-0287/ .
+Docstrings are used for at least five purposes: developers reading the source code, PDF documentation, HTML documentation, question-mark documentation from the Sage command line, and question-mark documentation from the notebook.  Unfortunately, constructs which are allowed for some modes end up with some sort of ugly display in other modes, letting bits of LaTeX markup leak through to the end user. 
 
-In the newest version of Sphinx, there is a math role for reStructuredText which takes math mode LaTeX input which is rendered using jsMath for the HTML output and LaTeX for the PDF output.
+One thing that the current system does have going for it is that it is already in place and works for the most part. 
 
-LaTeX / latex2html is not needed to produce the HTML version of the documentation, and the time it takes produce the HTML documentation is much shorter.  Also, with Sphinx, we can include everything needed to generate HTML documentation into Sage.  If the HTML documentation builds quickly, and everybody has the tools to do so, then we could require well-formatted documentation as part of our patch submission/review requirements.
 
-More details on the idea of including Sphinx as part of Sage: as distributed, Sphinx requires docutils (for reStructuredText processing), at 1.3MB; Pygments, at 840KB; Jinja, at 520KB; and Sphinx itself, at 300KB (all these numbers are for compressed source tarballs).  If the extra ~3MB was deemed to be too much, probably the sizes of these packages could be reduced (by omitting documentation, etc.).  While these packages are large, they are also useful for more than just documentation; people have recently expressed interest: in having double-question-help use syntax highlighting, which could use Pygments; in having a wiki-style syntax for notebook cells (to complement %html), which could use docutils; in having templating, for use in the notebook implementation, or to expose as a public notebook feature, which could use Jinja.
+## Switching to Sphinx
 
-Switching everything over to Sphinx and reStructuredText will be a fair amount of work.  We will also need to verify that all of the tools work with Cython; if they don't, then we will have some more code to write (which will luckily be useful to many more people). The first option would be to write a script which goes through and changes all docstrings to the reStructuredText markup.  This seems somewhat feasible and would be a relatively clean solution if it works.  The second option would be to do things piecewise and insert hooks into the current documentation system to convert any reStructuredText docstrings into the current LaTeXish docstring format.  Once all of the doctstring have been converted over, then we can make the switch to Sphinx.
+Sphinx is quickly becoming the standard way to create documentation for Python projects.  It is the documentation tool being used for Python 2.6 and 3.0.  Numpy, Scipy, IPython, and Matplotlib have all switched to using Sphinx for their documentation.  Sphinx can output the documentation as HTML, PDF (via LaTeX), and as a Windows Help File.  Sphinx supports extensive cross-referencing (that is, whenever you mention a class/method/module/etc., it's easy to have that mention be a hyperlink). 
 
-== Negatives of switching ==
+Using reStructuredText as a markup language increases the usefulness of the docstrings and documentation.  For example, Epydoc can use reStructuredText docstrings to produce nice-looking autogenerated API documentation.  <a href="/MoinMoin">MoinMoin</a> has a plugin to support reStructredText which can facilitate transfer of data between the wiki and the Sage documentation.  Some reasons why reStructuredText was adopted for Python docstrings can be found at <a href="http://www.python.org/dev/peps/pep-0287/">http://www.python.org/dev/peps/pep-0287/</a> . 
 
-Switching to Sphinx may be a big project (partly depending on whether it turns out to be feasible to automatically translate the docstrings).  Even if the final result is better, there may be a period of time where the documentation is temporarily worse.
+In the newest version of Sphinx, there is a math role for reStructuredText which takes math mode LaTeX input which is rendered using jsMath for the HTML output and LaTeX for the PDF output. 
 
-reStructuredText is a new syntax to learn; this will presumably make it a little more work to write docstrings, until the Sage developers learn the new syntax.
+LaTeX / latex2html is not needed to produce the HTML version of the documentation, and the time it takes produce the HTML documentation is much shorter.  Also, with Sphinx, we can include everything needed to generate HTML documentation into Sage.  If the HTML documentation builds quickly, and everybody has the tools to do so, then we could require well-formatted documentation as part of our patch submission/review requirements. 
 
-The Sphinx support for LaTeX-formatted math is cumbersome: instead of {{{$a+b$}}}, you write {{{:math:`a+b`}}}.  If this is deemed to be too verbose, there are alternatives: we could set math to be the default role, which means that you would write {{{`a+b`}}}; or we could preprocess the docstrings before invoking Sphinx, so that {{{$a+b$}}} works.  (This last solution is less desirable, since using a modified reStructuredText means that we lose some of our interoperability, cross-learning, etc. benefit.)
+More details on the idea of including Sphinx as part of Sage: as distributed, Sphinx requires docutils (for reStructuredText processing), at 1.3MB; Pygments, at 840KB; Jinja, at 520KB; and Sphinx itself, at 300KB (all these numbers are for compressed source tarballs).  If the extra ~3MB was deemed to be too much, probably the sizes of these packages could be reduced (by omitting documentation, etc.).  While these packages are large, they are also useful for more than just documentation; people have recently expressed interest: in having double-question-help use syntax highlighting, which could use Pygments; in having a wiki-style syntax for notebook cells (to complement %html), which could use docutils; in having templating, for use in the notebook implementation, or to expose as a public notebook feature, which could use Jinja. 
 
-== Summary ==
+Switching everything over to Sphinx and reStructuredText will be a fair amount of work.  We will also need to verify that all of the tools work with Cython; if they don't, then we will have some more code to write (which will luckily be useful to many more people). The first option would be to write a script which goes through and changes all docstrings to the reStructuredText markup.  This seems somewhat feasible and would be a relatively clean solution if it works.  The second option would be to do things piecewise and insert hooks into the current documentation system to convert any reStructuredText docstrings into the current <a href="/LaTeXish">LaTeXish</a> docstring format.  Once all of the doctstring have been converted over, then we can make the switch to Sphinx. 
 
-In favor of switching:
 
- * Faster generation of HTML documentation, with tools that we can include in Sage.
+## Negatives of switching
 
- * Sphinx supports extensive cross-referencing.
+Switching to Sphinx may be a big project (partly depending on whether it turns out to be feasible to automatically translate the docstrings).  Even if the final result is better, there may be a period of time where the documentation is temporarily worse. 
 
- * Use the same tools as much of the rest of the Python community.
+reStructuredText is a new syntax to learn; this will presumably make it a little more work to write docstrings, until the Sage developers learn the new syntax. 
 
- * Use a well-documented syntax, with clear paths for generating HTML, PDF, and plain text (for question-mark help).
+The Sphinx support for LaTeX-formatted math is cumbersome: instead of `$a+b$`, you write `:math:`a+b``.  If this is deemed to be too verbose, there are alternatives: we could set math to be the default role, which means that you would write ``a+b``; or we could preprocess the docstrings before invoking Sphinx, so that `$a+b$` works.  (This last solution is less desirable, since using a modified reStructuredText means that we lose some of our interoperability, cross-learning, etc. benefit.) 
 
- * Sphinx doesn't use LaTeX syntax.
 
- * I think the output from Sphinx looks much better than latex2html.  -- William Stein
+## Summary
 
-Against switching:
+In favor of switching: 
 
- * Potential temporary pain during the conversion process.
+* Faster generation of HTML documentation, with tools that we can include in Sage. 
+* Sphinx supports extensive cross-referencing. 
+* Use the same tools as much of the rest of the Python community. 
+* Use a well-documented syntax, with clear paths for generating HTML, PDF, and plain text (for question-mark help). 
+* Sphinx doesn't use LaTeX syntax. 
+* I think the output from Sphinx looks much better than latex2html.  -- William Stein 
+Against switching: 
 
- * The syntax for mathematics is cumbersome; some solutions for this problem would be custom to Sage, which reduces the advantage of using the standard tools.
-
- * Sphinx doesn't use LaTeX syntax.
+* Potential temporary pain during the conversion process. 
+* The syntax for mathematics is cumbersome; some solutions for this problem would be custom to Sage, which reduces the advantage of using the standard tools. 
+* Sphinx doesn't use LaTeX syntax. 

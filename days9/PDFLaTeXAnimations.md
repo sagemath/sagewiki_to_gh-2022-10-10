@@ -1,19 +1,21 @@
-= Animations in LaTeX now easy =
 
-One of the main things that PowerPoint used to have up on presentations prepared by pdflatex were animations. It turns out this is easy to do now if you use acroread to display your slides!
 
-We need the [[http://www.ctan.org/tex-archive/macros/latex/contrib/animate/|animate package]].
+# Animations in LaTeX now easy
 
-As an example, we'll build an example starting from Bill Casselman's [[http://www.math.ubc.ca/~cass/piscript/examples/c3d.eps|rotating Gamma]] in eps format.
+One of the main things that <a href="/PowerPoint">PowerPoint</a> used to have up on presentations prepared by pdflatex were animations. It turns out this is easy to do now if you use acroread to display your slides! 
 
-First, we turn this into a pdf file, using {{{epstopdf}}} by calling
-{{{
+We need the <a class="http" href="http://www.ctan.org/tex-archive/macros/latex/contrib/animate/">animate package</a>. 
+
+As an example, we'll build an example starting from Bill Casselman's <a class="http" href="http://www.math.ubc.ca/~cass/piscript/examples/c3d.eps">rotating Gamma</a> in eps format. 
+
+First, we turn this into a pdf file, using `epstopdf` by calling 
+```txt
 epstopdf c3d.eps
-}}}
-Conversion from eps to pdf is tricky because many programs get the bounding box wrong. This one seems to work.
+```
+Conversion from eps to pdf is tricky because many programs get the bounding box wrong. This one seems to work. 
 
-The following LaTeX file now does the trick (let's call the file gamma.tex)
-{{{
+The following LaTeX file now does the trick (let's call the file gamma.tex) 
+```txt
 \documentclass{beamer}
 \usepackage{animate}
 \begin{document}
@@ -29,9 +31,9 @@ The following LaTeX file now does the trick (let's call the file gamma.tex)
     \end{center}
 \end{frame}
 \end{document}
-}}}
-After making sure we have {{{animate}}} installed, we run
-{{{
+```
+After making sure we have `animate` installed, we run 
+```txt
 pdflatex gamma.tex
-}}}
-and the resulting file [[attachment:gamma.pdf|gamma.pdf]] produces a nice animation when viewed with {{{acroread}}}.
+```
+and the resulting file <a href="days9/PDFLaTeXAnimations/gamma.pdf">gamma.pdf</a> produces a nice animation when viewed with `acroread`. 

@@ -1,21 +1,24 @@
-== Project groups ==
 
-* p-adic Project [[http://wiki.sagemath.org/days33/padic]]
 
-* Alice's Elliptic Curve Group [[http://wiki.sagemath.org/days33/alices]]
+## Project groups
 
-* Kate's Elliptic Curve Group [[http://wiki.sagemath.org/days33/kates]]
+* p-adic Project <a class="http" href="http://wiki.sagemath.org/days33/padic">http://wiki.sagemath.org/days33/padic</a> 
 
-* L-series Project [[http://wiki.sagemath.org/days33/lfunction]]
+* Alice's Elliptic Curve Group <a class="http" href="http://wiki.sagemath.org/days33/alices">http://wiki.sagemath.org/days33/alices</a> 
 
-== Other possible projects ==
+* Kate's Elliptic Curve Group <a class="http" href="http://wiki.sagemath.org/days33/kates">http://wiki.sagemath.org/days33/kates</a> 
 
-* wrapping of gauss composition (in pari: QuadClassUnit)
+* L-series Project <a class="http" href="http://wiki.sagemath.org/days33/lfunction">http://wiki.sagemath.org/days33/lfunction</a> 
 
-* [[http://trac.sagemath.org/sage_trac/ticket/11697|#11697: Global minimal models over number fields with class number >= 1]] 
-    * this is in Connell and probably wouldn't take to long to get at least a python toy version
-    * Sage already has this for class number 1 fields
 
-* [[http://trac.sagemath.org/sage_trac/query?status=needs_info&status=needs_review&status=needs_work&status=new&order=priority&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component&keywords=~beginner&report=38| Open beginner tickets]]
+## Other possible projects
 
-* Reviewing number theory and elliptic curve tickets
+* wrapping of gauss composition (in pari: <a href="/QuadClassUnit">QuadClassUnit</a>) 
+
+* <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/11697">#11697: Global minimal models over number fields with class number >= 1</a>  
+
+         * this is in Connell and probably wouldn't take to long to get at least a python toy version 
+         * Sage already has this for class number 1 fields 
+* <a class="http" href="http://trac.sagemath.org/sage_trac/query?status=needs_info&amp;status=needs_review&amp;status=needs_work&amp;status=new&amp;order=priority&amp;col=id&amp;col=summary&amp;col=status&amp;col=type&amp;col=priority&amp;col=milestone&amp;col=component&amp;keywords=~beginner&amp;report=38">Open beginner tickets</a> 
+
+* Reviewing number theory and elliptic curve tickets 

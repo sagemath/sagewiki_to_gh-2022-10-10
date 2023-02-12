@@ -1,11 +1,16 @@
-= Sage Interactions - Linear Algebra =
-goto [[interact|interact main page]]
 
-<<TableOfContents>>
 
-== Numerical instability of the classical Gram-Schmidt algorithm ==
-by Marshall Hampton 
-{{{#!sagecell
+# Sage Interactions - Linear Algebra
+
+goto <a href="/interact">interact main page</a> 
+
+[[_TOC_]] 
+
+
+## Numerical instability of the classical Gram-Schmidt algorithm
+
+by Marshall Hampton  
+```sagecell
 def GS_classic(a_list):
     '''
     Given a list of vectors or a matrix, returns the QR factorization using the classical (and numerically unstable) Gram-Schmidt algorithm.    
@@ -58,12 +63,14 @@ def gstest(precision = slider(range(3,53), default = 10), a1 = input_box([1,1/10
     show(matrix(displayR,qn))
     pretty_print(html('Stable Gram-Schmidt:'))
     show(matrix(displayR,qb))
-}}}
-{{attachment:GramSchmidt.png}}
+```
+![interact/linear_algebra/GramSchmidt.png](interact/linear_algebra/GramSchmidt.png) 
 
-== Equality of det(A) and det(A.tranpose()) ==
-by Marshall Hampton
-{{{#!sagecell
+
+## Equality of det(A) and det(A.tranpose())
+
+by Marshall Hampton 
+```sagecell
 srg = srange(-4,4,1/10,include_endpoint=True)
 @interact
 def dualv(a1=slider(srg,default=1),a2=slider(srg,default=2), a3=slider(srg,default=-1),a4=slider(srg,default=3)):
@@ -77,15 +84,18 @@ def dualv(a1=slider(srg,default=1),a2=slider(srg,default=2), a3=slider(srg,defau
     pretty_print(html('<h3>The determinant of a matrix is equal to the determinant of the transpose</h3>'))
     pretty_print(html("$\det(%s) = \det(%s)=%s$"%(latex(A),latex(A.transpose()),latex(RR(A.determinant())))))
     show(A1+A2+A3+A4+p1+p2)
-}}}
-{{attachment:Det_transpose_new.png}}
+```
+![interact/linear_algebra/Det_transpose_new.png](interact/linear_algebra/Det_transpose_new.png) 
 
-== Linear transformations ==
-by Jason Grout
 
-A square matrix defines a linear transformation which rotates and/or scales vectors.  In the interact command below, the red vector represents the original vector (v) and the blue vector represents the image w under the linear transformation.  You can change the angle and length of v by changing theta and r.
+## Linear transformations
 
-{{{#!sagecell
+by Jason Grout 
+
+A square matrix defines a linear transformation which rotates and/or scales vectors.  In the interact command below, the red vector represents the original vector (v) and the blue vector represents the image w under the linear transformation.  You can change the angle and length of v by changing theta and r. 
+
+
+```sagecell
 @interact
 def linear_transformation(A=matrix([[1,-1],[-1,1/2]]),theta=slider(0, 2*pi, .1), r=slider(0.1, 2, .1, default=1)):
     v=vector([r*cos(theta), r*sin(theta)])
@@ -93,13 +103,14 @@ def linear_transformation(A=matrix([[1,-1],[-1,1/2]]),theta=slider(0, 2*pi, .1),
     circles = sum([circle((0,0), radius=i, color='black') for i in [1..2]])
     pretty_print(html("$%s %s=%s$"%tuple(map(latex, [A, v.column().n(4), w.column().n(4)]))))
     show(v.plot(color='red')+w.plot(color='blue')+circles,aspect_ratio=1)
-}}}
-{{attachment:Linear-Transformations.png}}
+```
+![interact/linear_algebra/Linear-Transformations.png](interact/linear_algebra/Linear-Transformations.png) 
 
-== Gerschgorin Circle Theorem ==
-by Marshall Hampton.  This animated version requires convert (imagemagick) to be installed, but it can easily be modified to a static version.
-The animation illustrates the idea behind the stronger version of Gerschgorin's theorem, which says that if the disks around the eigenvalues are disjoint then there is one eigenvalue per disk.  The proof is by continuity of the eigenvalues under a homotopy to a diagonal matrix. 
-{{{#!sagecell
+
+## Gerschgorin Circle Theorem
+
+by Marshall Hampton.  This animated version requires convert (imagemagick) to be installed, but it can easily be modified to a static version. The animation illustrates the idea behind the stronger version of Gerschgorin's theorem, which says that if the disks around the eigenvalues are disjoint then there is one eigenvalue per disk.  The proof is by continuity of the eigenvalues under a homotopy to a diagonal matrix.  
+```sagecell
 from scipy import linalg
 pretty_print(html('<h2>The Gerschgorin circle theorem</h2>'))
 @interact
@@ -140,14 +151,16 @@ def Gerschgorin(Ain = input_box(default='[[10,1,1/10,0],[-1,9,0,1],[1,0,2,3/10],
         ft = eigpoints+row_circles+col_circles
         frames.append(ft)
     show(animate(frames,figsize = [(x_max-x_min)*scale,(y_max-y_min)*scale], xmin = x_min, xmax=x_max, ymin = y_min, ymax = y_max))
-}}}
-{{attachment:Gerschanimate.png}}
+```
+![interact/linear_algebra/Gerschanimate.png](interact/linear_algebra/Gerschanimate.png) 
 
-{{attachment:Gersch.gif}}
+![interact/linear_algebra/Gersch.gif](interact/linear_algebra/Gersch.gif) 
 
-== Singular value decomposition ==
-by Marshall Hampton
-{{{#!sagecell
+
+## Singular value decomposition
+
+by Marshall Hampton 
+```sagecell
 import scipy.linalg as lin
 var('t')
 def rotell(sig,umat,t,offset=0):
@@ -175,12 +188,15 @@ def svd_vis(a11=slider(-1,1,.05,1),a12=slider(-1,1,.05,1),a21=slider(-1,1,.05,0)
     image_ell = parametric_plot(rotell(s,u,t, offset),(0,2*pi))
     graph_stuff=circle((0,0),1)+image_ell+vvects+uvects
     graph_stuff.set_aspect_ratio(1)
-    show(graph_stuff,frame = False,axes=False,figsize=[fsize,fsize])}}}
-{{attachment:svd1.png}}
+    show(graph_stuff,frame = False,axes=False,figsize=[fsize,fsize])
+```
+![interact/linear_algebra/svd1.png](interact/linear_algebra/svd1.png) 
 
-== Discrete Fourier Transform ==
-by Marshall Hampton
-{{{#!sagecell
+
+## Discrete Fourier Transform
+
+by Marshall Hampton 
+```sagecell
 import scipy.fftpack as Fourier
 @interact
 def discrete_fourier(f = input_box(default=sum([sin(k*x) for k in range(1,5,2)])), scale = slider(.1,20,.1,5)):
@@ -191,12 +207,14 @@ def discrete_fourier(f = input_box(default=sum([sin(k*x) for k in range(1,5,2)])
     f_vals = [f(x=ind) for ind in srange(pbegin, pend,(pend-pbegin)/512.0)]
     my_fft = Fourier.fft(f_vals)
     show(list_plot([abs(i) for i in my_fft], plotjoined=True), figsize = [4,3])
-}}}
-{{attachment:dfft1.png}}
+```
+![interact/linear_algebra/dfft1.png](interact/linear_algebra/dfft1.png) 
 
-== The Gauss-Jordan method for inverting a matrix ==
-by Hristo Inouzhe
-{{{#!sagecell
+
+## The Gauss-Jordan method for inverting a matrix
+
+by Hristo Inouzhe 
+```sagecell
 #Choose the size D of the square matrix:
 D = 3
 
@@ -250,18 +268,20 @@ def _(M=input_grid(D,D, default = example,
     html('$$M^{-1}=%s$$'%latex(M))
     print 'We check it actually is the inverse'
     html('$$M^{-1}*M=%s*%s=%s$$'%(latex(M),latex(N),latex(M*N)))
-}}}
-{{attachment:gauss-jordan.png}}
+```
+![interact/linear_algebra/gauss-jordan.png](interact/linear_algebra/gauss-jordan.png) 
 
-...(goes all the way to invert the matrix)
+...(goes all the way to invert the matrix) 
 
-== Solution of an homogeneous system of linear equations ==
-by Pablo Angulo and Hristo Inouzhe
 
-Coefficients are introduced as a matrix in a single text box.
-The number of equations and unknowns are arbitrary.
+## Solution of an homogeneous system of linear equations
 
-{{{#!sagecell
+by Pablo Angulo and Hristo Inouzhe 
+
+Coefficients are introduced as a matrix in a single text box. The number of equations and unknowns are arbitrary. 
+
+
+```sagecell
 from sage.misc.html import HtmlFragment
 
 def HSLE_as_latex(A, variables):
@@ -347,18 +367,18 @@ def SEL(A='[(0,1,-1,2),(-1,0,2,4), (0,-1,1,-2)]',
         ) for j in ifree_variables)
     ))
     pretty_print( HtmlFragment('Dimension is %d'%len(free_variables)))
-}}}
-{{attachment:HSEL_1.png||width=600}}
-{{attachment:HSEL_2.png||width=600}}
+```
+![interact/linear_algebra/HSEL_1.png](interact/linear_algebra/HSEL_1.png) ![interact/linear_algebra/HSEL_2.png](interact/linear_algebra/HSEL_2.png) 
 
 
-== Solution of a non homogeneous system of linear equations ==
-by Pablo Angulo and Hristo Inouzhe
+## Solution of a non homogeneous system of linear equations
 
-Coefficients are introduced as a matrix in a single text box, and independent terms as a vector in a separate text box.
-The number of equations and unknowns are arbitrary.
+by Pablo Angulo and Hristo Inouzhe 
 
-{{{#!sagecell
+Coefficients are introduced as a matrix in a single text box, and independent terms as a vector in a separate text box. The number of equations and unknowns are arbitrary. 
+
+
+```sagecell
 from sage.misc.html import HtmlFragment
 
 def SLE_as_latex(A, b, variables):
@@ -473,6 +493,5 @@ def SEL(A_text='[(0,0,-1,2),(-1,0,2,4), (0,0,1,-2)]',
         ) for v in free_variables) if free_variables else latex(matrix([0]*nvars).transpose()))
     ))
     pretty_print( HtmlFragment('Dimension is %d'%len(free_variables)))
-}}}
-{{attachment:NHSEL_1.png||width=600}}
-{{attachment:NHSEL_2.png||width=600}}
+```
+![interact/linear_algebra/NHSEL_1.png](interact/linear_algebra/NHSEL_1.png) ![interact/linear_algebra/NHSEL_2.png](interact/linear_algebra/NHSEL_2.png) 

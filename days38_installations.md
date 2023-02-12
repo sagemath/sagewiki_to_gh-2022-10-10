@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 Sage Days 38 Installations
 ==========================
@@ -61,4 +64,4 @@ __ http://wiki.sagemath.org/SageAppliance
 __ http://sagemath.org/mirror/osx/README.txt
 __ http://sagemath.org/doc/installation/source.html#steps-to-install-from-source
 
-}}}
+```

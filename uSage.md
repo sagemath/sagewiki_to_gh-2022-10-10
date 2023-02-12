@@ -1,15 +1,16 @@
-= uSage User Groups =
 
-Regular or irregular gatherings of people interested in Sage and related software.
 
-In North America:
+# uSage User Groups
 
- * [[uSage/Seattle | Seattle, WA, USA ]]
- * [[LaCIMSageFridays | Montréal, Québec, CA ]]
+Regular or irregular gatherings of people interested in Sage and related software. 
 
-In Europe:
+In North America: 
 
- * [[uSage/Vienna | Vienna, AT ]]
- * [[uSage/Bristol | Bristol, UK ]]
- * [[GroupeUtilisateursParis | Paris, FR ]]
- * [[GroupeUtilisateursBordeaux | Bordeaux, FR]]
+* <a href="/usage/seattle">Seattle, WA, USA</a> 
+* <a href="/LaCIMSageFridays">Montréal, Québec, CA</a> 
+In Europe: 
+
+* <a href="/uSage/Vienna">Vienna, AT</a> 
+* <a href="/uSage/Bristol">Bristol, UK</a> 
+* <a href="/GroupeUtilisateursParis">Paris, FR</a> 
+* <a href="/GroupeUtilisateursBordeaux">Bordeaux, FR</a> 

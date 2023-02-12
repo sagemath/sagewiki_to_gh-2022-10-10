@@ -1,7 +1,8 @@
-This is what happened at Sage Days 46: Hawaii:
 
-{{{
+This is what happened at Sage Days 46: Hawaii: 
 
+
+```txt
 * Vivek Venkatachalam <vivek@physics.harvard.edu>: I explored the
   possibility of adding vector-based (SVG) visualizations to Sage
   using the D3 framework.  This allows fluid, responsive interactive
@@ -120,4 +121,4 @@ This is what happened at Sage Days 46: Hawaii:
   or had discussions in several other efforts, like Kartik's packaging
   of libraries into spkgs, and Vivek's work in D3 graphics.
 
-}}}
+```

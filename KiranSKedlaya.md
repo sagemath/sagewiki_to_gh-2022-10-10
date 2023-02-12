@@ -1,6 +1,5 @@
-##master-page:HomepageTemplate
-#format wiki
-#language en
-== Kiran S. Kedlaya ==
 
-See my [[http://math.mit.edu/~kedlaya|MIT home page]] for contact information.
+
+## Kiran S. Kedlaya
+
+See my <a class="http" href="http://math.mit.edu/~kedlaya">MIT home page</a> for contact information. 

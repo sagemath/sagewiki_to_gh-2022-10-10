@@ -1,6 +1,9 @@
-= Multimodular matrix multiply over cyclotomic fields =
 
-{{{
+
+# Multimodular matrix multiply over cyclotomic fields
+
+
+```txt
 10:39 < craigcitro> so wait, multiplying two matrices over Q(zeta_r) will be more complicated than just multiplying two of these, right?
 10:39 < craigcitro> because the modding by the cyclotomic poly will have to happen somewhere ...
 10:39 < wstein> To multiply two matrices one does this:
@@ -11,4 +14,4 @@
 10:40 < wstein> (4) reshape
 10:40 < wstein> (5) lift via a matrix multiply
 10:41 < wstein> (6) do for many p and then apply the ALREADY WRITTEN AND OPTIMIZED CRT code for matrices over ZZ.
-}}}
+```

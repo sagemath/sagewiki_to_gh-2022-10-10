@@ -1,9 +1,11 @@
-= Create manipulate functionality for notebook inspired by Traits and Mathematica =
 
-I implemented something last night. See http://trac.sagemath.org/sage_trac/attachment/ticket/1322/manipulate-take3.patch
-which works like this:
 
-{{{
+# Create manipulate functionality for notebook inspired by Traits and Mathematica
+
+I implemented something last night. See <a href="http://trac.sagemath.org/sage_trac/attachment/ticket/1322/manipulate-take3.patch">http://trac.sagemath.org/sage_trac/attachment/ticket/1322/manipulate-take3.patch</a> which works like this: 
+
+
+```txt
 @manipulate
 def myfactor(n):
     print jsmath(factor(n))
@@ -34,4 +36,4 @@ def pl(n):
     var('x,y')
     show(x^n-y^n)
     show(plot3d(x^n-y^n, (x,-2,2), (y,-2,2)))
-}}}
+```

@@ -1,59 +1,58 @@
-= Software tools for mathematics • Koper, Slovenia • Mon-Fri 2018-09-24 -- 2018-09-28 =
 
-A workshop on '''''Software tools for mathematics''''' will be held
-'''''24-28 September 2018''''' in '''''Koper, Slovenia'''''.
 
-The workshop will focus on the diversity of the mathematics software ecosystem,
-and on collaboration between the various systems and communities.
+# Software tools for mathematics • Koper, Slovenia • Mon-Fri 2018-09-24 -- 2018-09-28
 
-All are invited to participate, regardless of their initial skills in software:
-be it to start using mathematics software, to become more proficient users, to
-start developing, to meet other developers... We hope everyone will feel welcome
-and get the most out of this workshop while helping others get the most of it too.
+A workshop on _**Software tools for mathematics**_ will be held _**24-28 September 2018_** in _**Koper, Slovenia**_. 
 
-As a Sage Days, the workshop will bear the number 97. It will not be
-only about Sage though -- more of a "GAP + !Sage + other-software days".
+The workshop will focus on the diversity of the mathematics software ecosystem, and on collaboration between the various systems and communities. 
 
-== Dates and location ==
+All are invited to participate, regardless of their initial skills in software: be it to start using mathematics software, to become more proficient users, to start developing, to meet other developers... We hope everyone will feel welcome and get the most out of this workshop while helping others get the most of it too. 
 
-The workshop will start on Monday morning, 2018-09-24, and end on Friday
-evening, 2018-09-28.
+As a Sage Days, the workshop will bear the number 97. It will not be only about Sage though -- more of a "GAP + !Sage + other-software days". 
 
-We suggest participants plan to arrive on Sunday, 2018-09-23 (or before)
-and leave on Saturday, 2018-09-29 (or after).  
 
-There will be an install party on Sunday night for anyone interested.
+## Dates and location
 
-== Schedule ==
+The workshop will start on Monday morning, 2018-09-24, and end on Friday evening, 2018-09-28. 
 
-We will start by two days of Software Carpentry training, covering the [[http://swcarpentry.github.io/shell-novice/|Unix shell]], version control with [[http://swcarpentry.github.io/git-novice/|Git]], and programming with [[http://swcarpentry.github.io/python-novice-inflammation/|Python]], delivered by [[https://software-carpentry.org/|Software Carpentry]] instructors.
+We suggest participants plan to arrive on Sunday, 2018-09-23 (or before) and leave on Saturday, 2018-09-29 (or after).   
 
-The GAP mini-course on Wednesday will be led by [[https://alex-konovalov.github.io/year-archive/|Alexander Konovalov]].
+There will be an install party on Sunday night for anyone interested. 
 
-The remaining two days will be dedicated to other math-oriented research tools, such as SageMath and CoCalc ([[slelievre|Samuel Lelièvre]]), LaTeX topics for the working mathematician ([[http://osebje.famnit.upr.si/~nino.basic/|Nino Bašić]]) and contributed talks.
 
-On Thursday afternoon there will be a problem session to give participants an opportunity to submit math problems whose solution might involve programming. There will also be time for discussion about math tools not covered in the workshop.
+## Schedule
 
-== Registration and registered participants ==
+We will start by two days of Software Carpentry training, covering the <a class="http" href="http://swcarpentry.github.io/shell-novice/">Unix shell</a>, version control with <a class="http" href="http://swcarpentry.github.io/git-novice/">Git</a>, and programming with <a class="http" href="http://swcarpentry.github.io/python-novice-inflammation/">Python</a>, delivered by <a class="https" href="https://software-carpentry.org/">Software Carpentry</a> instructors. 
 
-You can register and see who has already registered on the [[https://conferences.famnit.upr.si/indico/event/11/|registration page]].
+The GAP mini-course on Wednesday will be led by <a class="https" href="https://alex-konovalov.github.io/year-archive/">Alexander Konovalov</a>. 
 
-== Contact ==
+The remaining two days will be dedicated to other math-oriented research tools, such as <a href="/SageMath">SageMath</a> and <a href="/CoCalc">CoCalc</a> (<a href="/slelievre">Samuel Lelièvre</a>), LaTeX topics for the working mathematician (<a class="http" href="http://osebje.famnit.upr.si/~nino.basic/">Nino Bašić</a>) and contributed talks. 
 
-[[mailto:sage-days-97-org@listes.math.cnrs.fr|Email]] the organisers for any enquiry about the workshop.
+On Thursday afternoon there will be a problem session to give participants an opportunity to submit math problems whose solution might involve programming. There will also be time for discussion about math tools not covered in the workshop. 
 
-== Organisers ==
 
-  * [[http://osebje.famnit.upr.si/~nino.basic/|Nino Bašić]] (FAMNIT, University of Primorska, Koper, Slovenia)
-  * [[http://katja.not.si/|Katja Berčič]] (CCM, UNAM Morelia, Mexico)
-  * [[http://osebje.famnit.upr.si/~matjaz.krnc/|Matjaž Krnc]] (FAMNIT, University of Primorska, Koper, Slovenia)
-  * [[slelievre|Samuel Lelièvre]] (LMO, Orsay, University of Paris-Sud, France)
+## Registration and registered participants
 
-== Support ==
+You can register and see who has already registered on the <a class="https" href="https://conferences.famnit.upr.si/indico/event/11/">registration page</a>. 
 
-We acknowledge financial and organisational support from
 
-  * [[http://opendreamkit.org/|OpenDreamKit]], the Horizon 2020 European Research Infrastructures project #676541,
-  * [[http://www.famnit.upr.si/|The Faculty of Mathematics, Natural Sciences and Information Technologies (FAMNIT)]], University of Primorska,
-  * [[http://www.iam.upr.si/en/|Andrej Marušič Institute (IAM)]], University of Primorska,
-  * [[http://sdams.si/en|Slovenian Discrete and Applied Mathematics Society]].
+## Contact
+
+<a class="mailto" href="mailto:sage-days-97-org@listes.math.cnrs.fr">Email</a> the organisers for any enquiry about the workshop. 
+
+
+## Organisers
+
+   * <a class="http" href="http://osebje.famnit.upr.si/~nino.basic/">Nino Bašić</a> (FAMNIT, University of Primorska, Koper, Slovenia) 
+   * <a class="http" href="http://katja.not.si/">Katja Berčič</a> (CCM, UNAM Morelia, Mexico) 
+   * <a class="http" href="http://osebje.famnit.upr.si/~matjaz.krnc/">Matjaž Krnc</a> (FAMNIT, University of Primorska, Koper, Slovenia) 
+   * <a href="/slelievre">Samuel Lelièvre</a> (LMO, Orsay, University of Paris-Sud, France) 
+
+## Support
+
+We acknowledge financial and organisational support from 
+
+   * <a class="http" href="http://opendreamkit.org/">OpenDreamKit</a>, the Horizon 2020 European Research Infrastructures project #676541, 
+   * <a class="http" href="http://www.famnit.upr.si/">The Faculty of Mathematics, Natural Sciences and Information Technologies (FAMNIT)</a>, University of Primorska, 
+   * <a class="http" href="http://www.iam.upr.si/en/">Andrej Marušič Institute (IAM)</a>, University of Primorska, 
+   * <a class="http" href="http://sdams.si/en">Slovenian Discrete and Applied Mathematics Society</a>. 

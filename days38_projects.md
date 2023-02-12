@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 Sage Days 38 Coding Sprint Projects
 ===================================
@@ -121,4 +124,4 @@ Teaching
 
   Sébastien, Stephen, Malcolm, Alexandra, Vivien, Alexandre, Anne, Franco, Tom
 
-}}}
+```

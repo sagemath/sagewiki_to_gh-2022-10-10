@@ -1,27 +1,29 @@
-= Integral Calculus =
 
 
-Besides the examples on this page, please see the discussion in [[BasicCalculus]].
+# Integral Calculus
 
-== Definite and Indefinite Integrals ==
-
-SAGE can compute both definite integrals like $\int_0^1 \frac{dx}{x^3+1}$ and 
-indefinite integrals such as $\int \frac{dx}{x^3+1}$:
+Besides the examples on this page, please see the discussion in <a href="/BasicCalculus">BasicCalculus</a>. 
 
 
-{{{
+## Definite and Indefinite Integrals
+
+SAGE can compute both definite integrals like $\int_0<sup>1 \frac{dx}{x</sup>3+1}$ and  indefinite integrals such as $\int \frac{dx}{x^3+1}$: 
+
+
+```txt
 sage: print integrate(1/(x^3+1),x)
                                          2 x - 1
-                       2	    atan(-------)
-                  log(x  - x + 1)	 sqrt(3)    log(x + 1)
+                       2            atan(-------)
+                  log(x  - x + 1)        sqrt(3)    log(x + 1)
                 - --------------- + ------------- + ----------
-                         6	       sqrt(3)	        3
+                         6             sqrt(3)          3
 sage: integrate(1/(x^3+1), x, 0, 1)
 (6*log(2) + sqrt(3)*pi)/18 + sqrt(3)*pi/18
-}}}
-More examples:
+```
+More examples: 
 
-{{{
+
+```txt
 sage: integrate(1/x^2, x, 1, infinity)
 1
 sage: f = x^3 
@@ -32,79 +34,65 @@ x^4/4
 sage: f = x*sin(x^2)
 sage: integral(f,x)
 -cos(x^2)/2
-}}}
+```
 
-=== The Definite Integral ===
+### The Definite Integral
 
-          o The definition of area under curve
+                           * o The definition of area under curve o Relation between velocity and area o Definition of Integral o The Fundamental Theorem of Calculus  
 
-          o Relation between velocity and area
+## Indefinite Integrals and Change
 
-          o Definition of Integral
+                           * o Indefinite Integrals o Physical Intuition  
 
-          o The Fundamental Theorem of Calculus 
+## Substitution and Symmetry
 
-== Indefinite Integrals and Change ==
+                           * o The Substitution Rule o The Substitution Rule for Definite Integrals o Symmetry  
 
-          o Indefinite Integrals
-
-          o Physical Intuition 
-
-== Substitution and Symmetry ==
-
-          o The Substitution Rule
-
-          o The Substitution Rule for Definite Integrals
-
-          o Symmetry 
-
-== Applications to Areas, Volume, and Averages ==
-
-=== Using Integration to Determine Areas Between Curves ===
-
-=== Computing Volumes of Surfaces of Revolution ===
-
-=== Average Values ===
-
-== Polar coordinates and complex numbers ==
-
-       o Polar Coordinates
-
-       o Areas in Polar Coordinates
-
-       o Complex Numbers
-
-       o Polar Form 
-
-       o Complex Exponentials and Trig Identities
-
-       o Trigonometry and Complex Exponentials 
+## Applications to Areas, Volume, and Averages
 
 
-== Integration Techniques ==
+### Using Integration to Determine Areas Between Curves
 
-=== Integration by parts ===
 
-=== Trigonometric integrals ===
+### Computing Volumes of Surfaces of Revolution
 
-       o Some Remarks on Using Complex-Valued Functions 
 
-=== Trigonometric substitutions ===
+### Average Values
 
-=== Factoring polynomials ===
 
-=== Integration of Rational Functions Using Partial Fractions ===
+## Polar coordinates and complex numbers
 
-=== Approximating Integrals ===
+                  * o Polar Coordinates o Areas in Polar Coordinates o Complex Numbers o Polar Form  o Complex Exponentials and Trig Identities o Trigonometry and Complex Exponentials  
 
-Regarding numerical approximation of $ \int_a^bf(x) dx$ , where $ f$ is a piecewise defined function, Sage can
+## Integration Techniques
 
-    * compute (for plotting purposes) the piecewise linear function defined by the trapezoid rule for numerical integration based on a subdivision into N subintervals
-    * the approximation given by the trapezoid rule,
-    * compute (for plotting purposes) the piecewise constant function defined by the Riemann sums (left-hand, right-hand, or midpoint) in numerical integration based on a subdivision into N subintervals,
-    * the approximation given by the Riemann sum approximation.
 
-{{{ 
+### Integration by parts
+
+
+### Trigonometric integrals
+
+                  * o Some Remarks on Using Complex-Valued Functions  
+
+### Trigonometric substitutions
+
+
+### Factoring polynomials
+
+
+### Integration of Rational Functions Using Partial Fractions
+
+
+### Approximating Integrals
+
+Regarding numerical approximation of $ \int_a^bf(x) dx$ , where $ f$ is a piecewise defined function, Sage can 
+
+         * compute (for plotting purposes) the piecewise linear function defined by the trapezoid rule for numerical integration based on a subdivision into N subintervals 
+         * the approximation given by the trapezoid rule, 
+         * compute (for plotting purposes) the piecewise constant function defined by the Riemann sums (left-hand, right-hand, or midpoint) in numerical integration based on a subdivision into N subintervals, 
+         * the approximation given by the Riemann sum approximation. 
+
+```txt
 sage: f1 = x^2      
 sage: f2 = 5-x^2
 sage: f = Piecewise([[(0,1),f1],[(1,2),f2]])
@@ -116,8 +104,8 @@ sage: f.integral()
 3
 sage: n(f.integral())
 3.00000000000000
-}}}
+```
 
-=== Improper Integrals ===
+### Improper Integrals
 
-          o Convergence, Divergence, and Comparison 
+                           * o Convergence, Divergence, and Comparison  

@@ -1,41 +1,42 @@
-= Sage Days 47: Transitioning to Git =
 
-== March 25-29, 2013, Portland State University ==
 
-The aim of this workshop is to prepare Sage for transitioning to Git. There are three main components for enabling this transition:
+# Sage Days 47: Transitioning to Git
 
- * Prepare the Sage codebase for the new directory layout
- * Create a set of development tools for interfacing with Trac and Git
- * Extend the trac's git functionality to attach branches to tickets
 
-A more indepth description can be found [[WorkflowSEP | here]].
+## March 25-29, 2013, Portland State University
 
-This is '''NOT''' a Sage days to learn about how to develop with Git, hopefully we will have a Sage Days focused on that closer to the switch.
+The aim of this workshop is to prepare Sage for transitioning to Git. There are three main components for enabling this transition: 
 
-[[sagedaysgit/status | Final Status Reports]]
+* Prepare the Sage codebase for the new directory layout 
+* Create a set of development tools for interfacing with Trac and Git 
+* Extend the trac's git functionality to attach branches to tickets 
+A more indepth description can be found <a href="/WorkflowSEP">here</a>. 
 
-=== Participants ===
+This is **NOT** a Sage days to learn about how to develop with Git, hopefully we will have a Sage Days focused on that closer to the switch. 
 
-The conference is organized by:
+<a href="/sagedaysgit/status">Final Status Reports</a> 
 
- * R. Andrew Ohana (andrew.ohana@gmail.com)
- * William Stein (wstein@gmail.com)
 
-Participants:
+### Participants
 
- * Robert Bradshaw (Google)
- * Keith Clawson (Washington State University)
- * Jeroen Demeyer (Ghent University)
- * Benjamin Jones (lives in Portland, OR)
- * Keshav Kini (lives in Portland, OR)
- * Timo Kluck (Utrecht University)
- * R. Andrew Ohana (University of Washington)
- * David Roe (University of Calgery)
- * Julian Rüth
- * William Stein (University of Washington)
- * Christopher Swenson (lives in Portland, OR)
- * Nicolas M. Thiéry
+The conference is organized by: 
 
-Participating Remotely:
+* R. Andrew Ohana (<a href="mailto:andrew.ohana@gmail.com">andrew.ohana@gmail.com</a>) 
+* William Stein (<a href="mailto:wstein@gmail.com">wstein@gmail.com</a>) 
+Participants: 
 
- * Volker Braun (Dublin Institute for Advanced Study)
+* Robert Bradshaw (Google) 
+* Keith Clawson (Washington State University) 
+* Jeroen Demeyer (Ghent University) 
+* Benjamin Jones (lives in Portland, OR) 
+* Keshav Kini (lives in Portland, OR) 
+* Timo Kluck (Utrecht University) 
+* R. Andrew Ohana (University of Washington) 
+* David Roe (University of Calgery) 
+* Julian Rüth 
+* William Stein (University of Washington) 
+* Christopher Swenson (lives in Portland, OR) 
+* Nicolas M. Thiéry 
+Participating Remotely: 
+
+* Volker Braun (Dublin Institute for Advanced Study) 

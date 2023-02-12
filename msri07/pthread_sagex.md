@@ -1,10 +1,9 @@
-= Add pthread Support to SageX =
+# Add pthread Support to SageX
+Make it possible to use C-level POSIX threads from SageX programs.   ## 1. Create a pxi file with the pthread.h functions declared.
 
-Make it possible to use C-level POSIX threads from SageX programs.  
+   * Here's a start:  
 
-== 1. Create a pxi file with the pthread.h functions declared. ==
-  Here's a start: 
-{{{
+```txt
 cdef extern from "pthread.h":
     ctypedef int pthread_t       # actual type will be used by Pyrex 
     ctypedef int pthread_attr_t     
@@ -21,18 +20,18 @@ cdef extern from "pthread.h":
 
     cdef enum:
        PTHREAD_CREATE_JOINABLE
-}}}
-
-The file should be nicely documented, etc. 
-
-== 2. Create spyx files that illustrate how to use various threading constructs ==
+```
+The file should be nicely documented, etc.  
 
 
-Illustrating calling into interesting C libraries, etc.
+## 2. Create spyx files that illustrate how to use various threading constructs
 
-Here's an example (you can paste this into foo.spyx, load it, and call go(10)):
+Illustrating calling into interesting C libraries, etc. 
 
-{{{
+Here's an example (you can paste this into foo.spyx, load it, and call go(10)): 
+
+
+```txt
 cdef extern from "pthread.h":
     ctypedef int pthread_t       # actual type will be used by Pyrex below...
     ctypedef int pthread_attr_t     
@@ -85,4 +84,4 @@ def print_dot():
 def nval():
     print n
     
-}}}
+```

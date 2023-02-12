@@ -1,57 +1,50 @@
-These are instructions for working with the Sage VMWare Virtual
-Appliance. For more about Sage, see http://www.sagemath.org
 
-Note. These instructions are tailored to version 4.5.2.
+These are instructions for working with the Sage VMWare Virtual Appliance. For more about Sage, see <a href="http://www.sagemath.org">http://www.sagemath.org</a> 
 
-== REQUIREMENTS ==
+Note. These instructions are tailored to version 4.5.2. 
 
-This can be used on any operating system that supports VMWare or
-the free VMWare player, for example Microsoft Windows. Your
-computer must have 2.5GB (!) free disk space and 512MB RAM.
 
-You need to have the free VMWare player installed; see
+## REQUIREMENTS
 
-    http://www.vmware.com/products/player
+This can be used on any operating system that supports VMWare or the free VMWare player, for example Microsoft Windows. Your computer must have 2.5GB (!) free disk space and 512MB RAM. 
 
-== INSTALLATION ==
+You need to have the free VMWare player installed; see 
 
-Installing Sage should take 15 to 20 minutes, less than 2GB hard
-drive space, and be painless.
+         * <a href="http://www.vmware.com/products/player">http://www.vmware.com/products/player</a> 
 
-0. Make sure you have installed the free VMWare program:
+## INSTALLATION
 
-    http://www.vmware.com/products/player/
+Installing Sage should take 15 to 20 minutes, less than 2GB hard drive space, and be painless. 
 
-1. Download sage-vmware-4.5.2.zip.
+0. Make sure you have installed the free VMWare program: 
 
-2. Extract it anywhere you want. (This will take about 15 minutes despite anything Windows tells you.  Do *not* stop the extract halfway through and think Sage will still work.)
+         * <a href="http://www.vmware.com/products/player/">http://www.vmware.com/products/player/</a> 
+1. Download sage-vmware-4.5.2.zip. 
 
-== USING SAGE ==
+2. Extract it anywhere you want. (This will take about 15 minutes despite anything Windows tells you.  Do *not* stop the extract halfway through and think Sage will still work.) 
 
-1. Double click on sage_vmware.vmx in the sage-vmware directory to run Sage. VMWare might give some warnings; ignore them.
 
-2. When the virtual machine finishes booting, double-click on the Sage Notebook icon. Sage will start and a web browser will connect to the Sage Notebook. You can use the browser that pops up, or your native Windows browser. For the latter, see the section USING A WINDOWS BROWSER below.
+## USING SAGE
 
-3. Have fun!
+1. Double click on sage_vmware.vmx in the sage-vmware directory to run Sage. VMWare might give some warnings; ignore them. 
 
-== USING A WINDOWS BROWSER ==
+2. When the virtual machine finishes booting, double-click on the Sage Notebook icon. Sage will start and a web browser will connect to the Sage Notebook. You can use the browser that pops up, or your native Windows browser. For the latter, see the section USING A WINDOWS BROWSER below. 
 
-You can use Sage from your native Windows browser (Firefox is recommended).
+3. Have fun! 
 
-CAVEAT: There is an issue with the 4.5.2 version of the virtual machine, but it is not too difficult to resolve. Follow the instructions below. YOU ONLY NEED TO DO THIS ONCE!
 
-    1. Open a terminal.
+## USING A WINDOWS BROWSER
 
-    2. Type the command:
+You can use Sage from your native Windows browser (Firefox is recommended). 
 
-        sudo rm /etc/udev/rules.d/70-persistent-net.rules
+CAVEAT: There is an issue with the 4.5.2 version of the virtual machine, but it is not too difficult to resolve. Follow the instructions below. YOU ONLY NEED TO DO THIS ONCE! 
 
-    3. You will be prompted for a password. It is: sage.
+         1. Open a terminal. 
+         1. Type the command: 
+                     * sudo rm /etc/udev/rules.d/70-persistent-net.rules 
+         1. You will be prompted for a password. It is: sage. 
+         1. Restart the virtual machine (click on System -> Shutdown). 
+From now on, when you launch the Sage Notebook you will be instructed to point your Windows browser to a URL address. The address looks something like this: 
 
-    4. Restart the virtual machine (click on System -> Shutdown).
-
-From now on, when you launch the Sage Notebook you will be instructed to point your Windows browser to a URL address. The address looks something like this:
-
-    http://192.168.220.128
-
-Type this address into your Windows web browser.
+         * <a href="http://192.168.220.128">http://192.168.220.128</a> 
+Type this address into your Windows web browser. 

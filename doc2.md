@@ -1,27 +1,29 @@
-= Sage Doc Day 2 =
 
-'''Sunday, March 9, 2008'''
 
-We will focus mostly on doctests Doc Days 2.   Our goal is to raise the coverage score for the Sage library to 50%, since this is a central goal for Sage-3.0.   We need about 1200 new doctests to get to 50% coverage.
+# Sage Doc Day 2
 
-== Meetups ==
+**Sunday, March 9, 2008** 
 
- * Seattle (canceled due to lack of people -- we'll just meet on irc): we'll be meeting at Online Coffee Company in Capitol Hill (between 14th and 15th).  Call Stein at 206-419-0925 if you have trouble finding us.   
+We will focus mostly on doctests Doc Days 2.   Our goal is to raise the coverage score for the Sage library to 50%, since this is a central goal for Sage-3.0.   We need about 1200 new doctests to get to 50% coverage. 
 
-== Names ==
 
-Add your name here if you're going to be involved, and mention what Sage module you're going to work on!
+## Meetups
 
- * Craig Citro (after 1PM): `modular/modsym` and/or `modular/hecke`
- * Michael Abshoff - working on #1647, #1648
- * cswiercz:  rings/ring.pyx
- * William Stein: databases (starting score is 16.8%!)
+* Seattle (canceled due to lack of people -- we'll just meet on irc): we'll be meeting at Online Coffee Company in Capitol Hill (between 14th and 15th).  Call Stein at 206-419-0925 if you have trouble finding us.    
 
-== Modules ==
+## Names
 
-Coverage scores by module for sage-2.10.3.rc2.  I made this with the following
-script run in devel/sage/sage/:
-{{{
+Add your name here if you're going to be involved, and mention what Sage module you're going to work on! 
+
+* Craig Citro (after 1PM): `modular/modsym` and/or `modular/hecke` 
+* Michael Abshoff - working on #1647, #1648 
+* cswiercz:  rings/ring.pyx 
+* William Stein: databases (starting score is 16.8%!) 
+
+## Modules
+
+Coverage scores by module for sage-2.10.3.rc2.  I made this with the following script run in devel/sage/sage/: 
+```txt
 #!/usr/bin/python
 import os
 for D in os.listdir('.'):
@@ -30,9 +32,9 @@ for D in os.listdir('.'):
         r = os.popen(cmd).read()
         r = r.lstrip()
         print D.upper() + ": " + r
-}}}
+```
 
-{{{
+```txt
 ALGEBRAS: Overall weighted coverage score:  15.7%
 Total number of functions:  215
 CALCULUS: Overall weighted coverage score:  50.7%
@@ -101,4 +103,4 @@ STRUCTURE: Overall weighted coverage score:  26.2%
 Total number of functions:  452
 TESTS: Overall weighted coverage score:  0.0%
 Total number of functions:  135
-}}}
+```

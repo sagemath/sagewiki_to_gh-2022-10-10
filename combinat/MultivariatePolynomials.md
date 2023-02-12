@@ -1,9 +1,11 @@
-== Specifications for the abstract ring of multivariate polynomials, with several bases ==
 
-Ticket [[http://trac.sagemath.org/sage_trac/ticket/6629|6629]]
 
-First micro draft
-{{{
+## Specifications for the abstract ring of multivariate polynomials, with several bases
+
+Ticket <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/6629">6629</a> 
+
+First micro draft 
+```txt
 Setup the framework for MultivariatePolynomials with several bases:
 
     Let us work over `F=\QQ(q,t)` (will be needed for Macdonald polynomials)::
@@ -109,12 +111,12 @@ Setup the framework for MultivariatePolynomials with several bases:
     of `S_n`.
 
         sage:: P.coeffRing()
-	Symmetric polynomials in the Schur basis over QQ(q,t)
+        Symmetric polynomials in the Schur basis over QQ(q,t)
 
-	sage:: P.basis().keys()
-	Permutations of S_n ?  or Codes ?
+        sage:: P.basis().keys()
+        Permutations of S_n ?  or Codes ?
         sage:: P.basis().cardinality()
-	6
+        6
 
 
     Other bases in MuPAD-Combinat:
@@ -137,4 +139,4 @@ Setup the framework for MultivariatePolynomials with several bases:
         sage: m(E[1,0,0])
         x0
 
-}}}
+```

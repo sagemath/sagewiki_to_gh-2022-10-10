@@ -1,19 +1,19 @@
- * ''Goal'' -- Implement Witt vectors over a general ring 
- * ''Type'' -- basic features
- * ''Priority'' -- Low
- * ''Difficulty'' -- Easy
- * ''Prerequisites'' -- None
- * ''Background'' -- know about Witt vectors
- * ''Contributors'' -- Taylor Dupuy, David Roe, Luis Finotti
- * ''Progress'' - not started
- * ''Related Tickets'' -- http://trac.sagemath.org/sage_trac/ticket/11457
 
-== Discussion ==
+* _Goal_ -- Implement Witt vectors over a general ring  
+* _Type_ -- basic features 
+* _Priority_ -- Low 
+* _Difficulty_ -- Easy 
+* _Prerequisites_ -- None 
+* _Background_ -- know about Witt vectors 
+* _Contributors_ -- Taylor Dupuy, David Roe, Luis Finotti 
+* _Progress_ - not started 
+* _Related Tickets_ -- <a href="http://trac.sagemath.org/sage_trac/ticket/11457">http://trac.sagemath.org/sage_trac/ticket/11457</a> 
 
-Perhaps someof the results [[http://www.math.utk.edu/~finotti/papers/witt.pdf|here]] could be relevant.  There is some code written for MAGMA available [[http://www.math.utk.edu/~finotti/witt/|here]].
+## Discussion
 
-== Tasks ==
+Perhaps someof the results <a class="http" href="http://www.math.utk.edu/~finotti/papers/witt.pdf">here</a> could be relevant.  There is some code written for MAGMA available <a class="http" href="http://www.math.utk.edu/~finotti/witt/">here</a>. 
 
--p-typical
--truncated witt vectors
--teichmuller lifts
+
+## Tasks
+
+-p-typical -truncated witt vectors -teichmuller lifts 

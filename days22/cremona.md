@@ -1,82 +1,82 @@
-= John Cremona (University of Warwick): Tables of elliptic curves =
-
-== Description ==
-
-== Project 1 ==
-
-Tabulating modular elliptic curves over '''Q''' (based on  Chapter II of my book (see below).  The project would be to extend the existing tables from the current conductor limit of $130000$ to something larger, using my C++ code (distributed with Sage) and Sage itself, and some combination of the two.  
-
-One clearly identifiable goal which could be achieved by extending the tables at least as far as $N=234446$ is to verify that the smallest conductor of any curve of rank $4$ is $N=234446$ (which is the smallest known), or find such a curve with smaller conductor in the range $130000<N<234446$.  It is known that there are no such curves of prime conductor (see reference below under Project 4, which pursues this line).  Note that my C++ program has been run with no problem for $N=234446$ itself, and presumably would also work fine for any individual $N$ in this range, but as there are over $100000$ such $N$ this will take a long time, and also require a significant data-processing effort to keep track of the computations.
-
-[[/project1|Progress Report]]
-
-=== Suggested preliminary reading ===
-
-    1. J. E. Cremona,  "Algorithms for Modular Elliptic Curves" (2nd edition, 1997), CUP, Chapters I, II and the Appendix to Chapter II.  The online version is freely available (and has fewer typos):  http://www.warwick.ac.uk/staff/J.E.Cremona/book/fulltext/index.html
-
-    2. William Stein, "Modular Forms, a Computational Approach", (2007), AMS.The least relevant chapters for us are 2, 4, 5 since we are concerned with forms of weight 2 and trivial character.  Available free online here: http://modular.math.washington.edu/books/modform/ .
-
-    3. J. E. Cremona, "The elliptic Curve Database for conductors up to 130,000", in ANTS-VII Proceedings (Berlin 2006), Springer LNCS 4076 (Hess, Pauli and Pohst, eds.), pages 11-29.  A light read to set the scene and explain some of the background to this project.  Also available as a preprint at http://www.warwick.ac.uk/staff/J.E.Cremona/papers/ecdb_ants.pdf
-
-    4. William A. Stein and Mark Watkins, "A database of elliptic curves -- first report", ANTS V Proceedings (Sydney 2002) Springer LNCS 2369 (Fieker and Kohel, eds.), pages 267 - 275.  http://wstein.org/papers/stein-watkins/
-
-People: Jeremy West, Robert Bradshaw, Robert Miller, Jamie Weigandt
-
-== Project 2 ==
 
 
-Finding all elliptic curves with good reduction outside a finite set S of primes, over number fields.  The theory, is based on my paper on the subject (see below) which reduces the problem to finding all ''S''-integral points on elliptic curves over number fields, together with some algebraic number theory.   The project would be to implement this in Sage, over number fields.  Over '''Q''', I have already done this, using the ''S''-integral points functions implemented two summers ago.  I also have a partial implementation over number fields in Magma.  Over number fields there will be other challenges, and this is likely to spill over into more general computation of Mordell-Weil groups of elliptic curves over number fields. 
+# John Cremona (University of Warwick): Tables of elliptic curves
 
-[[/project2|Progress Report]]
 
-==== Subproject 1 ====
+## Description
 
-As a rather specific special case, we could try to find as many examples as possible of elliptic curves with everywhere good reduction (EGR), over quadratic (and higher degree) number fields.  There is some relevant theory here, but in most cases the theory says nothing useful.  As a very explicit example,  my colleague Lassina Dembele would be very happy if we could find for him an elliptic curve with EGR over $\mathbb{Q}(\sqrt{929})$!  I have been trying my hand at that without success.  (We managed 853 and 997.) 
 
-==== Subproject 2 ====
+## Project 1
 
-Given a number field $K$, a set $S$ of primes of $K$ and a value $j\in K$, compute all elliptic curves defined over $K$ with $j$-invariant $j$ and good reduction outside $S$.  The method is in the paper below and should be easily doable.
+Tabulating modular elliptic curves over **Q** (based on  Chapter II of my book (see below).  The project would be to extend the existing tables from the current conductor limit of $130000$ to something larger, using my C++ code (distributed with Sage) and Sage itself, and some combination of the two.   
 
-==== Subproject 3 ====
+One clearly identifiable goal which could be achieved by extending the tables at least as far as $N=234446$ is to verify that the smallest conductor of any curve of rank $4$ is $N=234446$ (which is the smallest known), or find such a curve with smaller conductor in the range $130000<N<234446$.  It is known that there are no such curves of prime conductor (see reference below under Project 4, which pursues this line).  Note that my C++ program has been run with no problem for $N=234446$ itself, and presumably would also work fine for any individual $N$ in this range, but as there are over $100000$ such $N$ this will take a long time, and also require a significant data-processing effort to keep track of the computations. 
 
-Given an elliptic curve $E$ defined over a number field $K$ and a set or $r$ independent points $P_1,\dots,P_r$ in $E(K)$, and a set $S$ of primes, find all $S$-integral points in the subgroup generated by the points.  [Note that if these points are a $\mathbb{Z}$-basis for $E(K)$, then we will have all $S$-integral points in $E(K)$, but this function will not depend on whether the points are a basis.]
+<a href="/days22/cremona/project1">Progress Report</a> 
 
-One special case of this should be much easier, since I already have an implementation in Magma: the case $S=\emptyset$.  Magma code (by  by student Thotsaphon Thongjunthug) here: [[attachment:intptsanf.m]]
 
-=== Suggested preliminary reading ===
+### Suggested preliminary reading
 
-    1. J. E. Cremona and M. P. Lingham, "Finding all elliptic curves with good reduction outside a given set of primes",  Experimental Mathematics 16 (2007) No.3, pages 303-312.  Preprint at http://www.warwick.ac.uk/staff/J.E.Cremona/papers/egros.pdf .   See also the references there.
+         1. J. E. Cremona,  "Algorithms for Modular Elliptic Curves" (2nd edition, 1997), CUP, Chapters I, II and the Appendix to Chapter II.  The online version is freely available (and has fewer typos):  <a href="http://www.warwick.ac.uk/staff/J.E.Cremona/book/fulltext/index.html">http://www.warwick.ac.uk/staff/J.E.Cremona/book/fulltext/index.html</a> 
+         1. William Stein, "Modular Forms, a Computational Approach", (2007), AMS.The least relevant chapters for us are 2, 4, 5 since we are concerned with forms of weight 2 and trivial character.  Available free online here: <a href="http://modular.math.washington.edu/books/modform/">http://modular.math.washington.edu/books/modform/</a> . 
+         1. J. E. Cremona, "The elliptic Curve Database for conductors up to 130,000", in ANTS-VII Proceedings (Berlin 2006), Springer LNCS 4076 (Hess, Pauli and Pohst, eds.), pages 11-29.  A light read to set the scene and explain some of the background to this project.  Also available as a preprint at <a href="http://www.warwick.ac.uk/staff/J.E.Cremona/papers/ecdb_ants.pdf">http://www.warwick.ac.uk/staff/J.E.Cremona/papers/ecdb_ants.pdf</a> 
+         1. William A. Stein and Mark Watkins, "A database of elliptic curves -- first report", ANTS V Proceedings (Sydney 2002) Springer LNCS 2369 (Fieker and Kohel, eds.), pages 267 - 275.  <a href="http://wstein.org/papers/stein-watkins/">http://wstein.org/papers/stein-watkins/</a> 
+People: Jeremy West, Robert Bradshaw, Robert Miller, Jamie Weigandt 
 
-People: Aly Deines, Jackie Anderson, Jim S., Lunhao, Erin B., Anna H., Xiao, Ding
 
-== Project 3 ==
+## Project 2
 
-(Project suggested by William Stein)
+Finding all elliptic curves with good reduction outside a finite set S of primes, over number fields.  The theory, is based on my paper on the subject (see below) which reduces the problem to finding all _S_-integral points on elliptic curves over number fields, together with some algebraic number theory.   The project would be to implement this in Sage, over number fields.  Over **Q**, I have already done this, using the _S_-integral points functions implemented two summers ago.  I also have a partial implementation over number fields in Magma.  Over number fields there will be other challenges, and this is likely to spill over into more general computation of Mordell-Weil groups of elliptic curves over number fields.  
 
-Make a table of $p$-adic regulators for elliptic curves over $\mathbb{Q}$ and
-$p\leq 100$ (say), for all of Cremona's tables.  These should be
-added to his tables.  Precision should just be some arbitrary
-choice that makes the computation doable.
+<a href="/days22/cremona/project2">Progress Report</a> 
 
-Sage can efficiently compute these $p$-adic regulators, due to work of
-David Harvey.
 
-People: Robert Miller
+#### Subproject 1
 
-[[/project3|Progress Report]]
+As a rather specific special case, we could try to find as many examples as possible of elliptic curves with everywhere good reduction (EGR), over quadratic (and higher degree) number fields.  There is some relevant theory here, but in most cases the theory says nothing useful.  As a very explicit example,  my colleague Lassina Dembele would be very happy if we could find for him an elliptic curve with EGR over $\mathbb{Q}(\sqrt{929})$!  I have been trying my hand at that without success.  (We managed 853 and 997.)  
 
-== Project 4 ==
 
-Implement the method of Elkies and Watkins (reference below) to find elliptic curves with large numbers of integral points, with a view to finding curves with relatively large rank and small conductor, hoping to break some of the existing records.   This project is likely to suit someone with excellent computing skills (efficiency is the key), and requires less background knowledge than some of the others.   Reference 1 explains the method very clearly, and it should be possible to (re)implement it.    The work described in reference 2 was based on Mestre's "Methode des graphes" which is a way of finding all elliptic curves of given prime conductor.
+#### Subproject 2
 
-[[/project4|Progress Report]]
+Given a number field $K$, a set $S$ of primes of $K$ and a value $j\in K$, compute all elliptic curves defined over $K$ with $j$-invariant $j$ and good reduction outside $S$.  The method is in the paper below and should be easily doable. 
 
-   1. N.D.Elkies and M.Watkins, "Elliptic curves of large rank and small conductor", ANTS VI Proceedings (Burlington 2004), Springer LNCS 3076, (Buell, ed.), pages 42-56. http://arxiv.org/abs/math/0403374
 
-   2.  William Stein, Andrei Jorza, Jennifer Balakrishnan, "The Smallest Conductor for an Elliptic Curve of Rank Four is Composite", 2003: http://modular.fas.harvard.edu/papers/rank4/ .
+#### Subproject 3
 
-People: Elkies, Rado, Robert Bradshaw, Jeremy West, Jamie Weigandt
+Given an elliptic curve $E$ defined over a number field $K$ and a set or $r$ independent points $P_1,\dots,P_r$ in $E(K)$, and a set $S$ of primes, find all $S$-integral points in the subgroup generated by the points.  [Note that if these points are a $\mathbb{Z}$-basis for $E(K)$, then we will have all $S$-integral points in $E(K)$, but this function will not depend on whether the points are a basis.] 
 
-[[/progress1|Preliminary Progress Report (Monday 28 June)]]
+One special case of this should be much easier, since I already have an implementation in Magma: the case $S=\emptyset$.  Magma code (by  by student Thotsaphon Thongjunthug) here: <a href="days22/cremona/intptsanf.m">intptsanf.m</a> 
 
-[[/to-do-list|To do list]]
+
+### Suggested preliminary reading
+
+         1. J. E. Cremona and M. P. Lingham, "Finding all elliptic curves with good reduction outside a given set of primes",  Experimental Mathematics 16 (2007) No.3, pages 303-312.  Preprint at <a href="http://www.warwick.ac.uk/staff/J.E.Cremona/papers/egros.pdf">http://www.warwick.ac.uk/staff/J.E.Cremona/papers/egros.pdf</a> .   See also the references there. 
+People: Aly Deines, Jackie Anderson, Jim S., Lunhao, Erin B., Anna H., Xiao, Ding 
+
+
+## Project 3
+
+(Project suggested by William Stein) 
+
+Make a table of $p$-adic regulators for elliptic curves over $\mathbb{Q}$ and $p\leq 100$ (say), for all of Cremona's tables.  These should be added to his tables.  Precision should just be some arbitrary choice that makes the computation doable. 
+
+Sage can efficiently compute these $p$-adic regulators, due to work of David Harvey. 
+
+People: Robert Miller 
+
+<a href="/days22/cremona/project3">Progress Report</a> 
+
+
+## Project 4
+
+Implement the method of Elkies and Watkins (reference below) to find elliptic curves with large numbers of integral points, with a view to finding curves with relatively large rank and small conductor, hoping to break some of the existing records.   This project is likely to suit someone with excellent computing skills (efficiency is the key), and requires less background knowledge than some of the others.   Reference 1 explains the method very clearly, and it should be possible to (re)implement it.    The work described in reference 2 was based on Mestre's "Methode des graphes" which is a way of finding all elliptic curves of given prime conductor. 
+
+<a href="/days22/cremona/project4">Progress Report</a> 
+
+      1. N.D.Elkies and M.Watkins, "Elliptic curves of large rank and small conductor", ANTS VI Proceedings (Burlington 2004), Springer LNCS 3076, (Buell, ed.), pages 42-56. <a href="http://arxiv.org/abs/math/0403374">http://arxiv.org/abs/math/0403374</a> 
+      1.  William Stein, Andrei Jorza, Jennifer Balakrishnan, "The Smallest Conductor for an Elliptic Curve of Rank Four is Composite", 2003: <a href="http://modular.fas.harvard.edu/papers/rank4/">http://modular.fas.harvard.edu/papers/rank4/</a> . 
+People: Elkies, Rado, Robert Bradshaw, Jeremy West, Jamie Weigandt 
+
+<a href="/days22/cremona/progress1">Preliminary Progress Report (Monday 28 June)</a> 
+
+<a href="/days22/cremona/to-do-list">To do list</a> 

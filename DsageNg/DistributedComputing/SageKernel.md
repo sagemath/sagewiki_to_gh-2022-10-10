@@ -1,16 +1,13 @@
-## page was renamed from DsageNg/SageKernel
-## Please edit system and help pages ONLY in the moinmaster wiki! For more
-## information, please see MoinMaster:MoinPagesEditorGroup.
-##master-page:CategoryTemplate
-##master-date:Unknown-Date
-#format wiki
-#language en
 
-<<TableOfContents>>
+[[_TOC_]] 
 
-= The Sage Kernel System =
 
-More coming.  
+# The Sage Kernel System
 
-----
-CategoryDsageNg
+More coming.   
+
+
+
+---
+
+ <a href="/CategoryDsageNg">CategoryDsageNg</a> 

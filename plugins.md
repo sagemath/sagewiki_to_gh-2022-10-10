@@ -1,1 +1,2 @@
-Moved to [[patchbot/plugins]]
+
+Moved to <a href="/patchbot/plugins">patchbot/plugins</a> 

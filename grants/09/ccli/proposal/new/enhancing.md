@@ -1,5 +1,9 @@
-= Enhancing Sage for specific courses =
-{{{
+
+
+# Enhancing Sage for specific courses
+
+
+```txt
 \section{Enhancing Sage for specific courses}
 
 
@@ -184,4 +188,4 @@ why they'll accept you, so:
 \item  workshop proposals that may be included in the budget.
 \item  Get seven people that commit to using sage as we go along and are paid honorariums to write tutorials telling how to integrate Sage into their courses. 
 \end{itemize}
-}}}
+```

@@ -1,4 +1,6 @@
-{{{
+
+
+```txt
 \hd{Overall}%
 
 Overall XXX bugs were fixed and closed making the release 3.3 a candidate for being the biggest release ever.
@@ -47,4 +49,4 @@ Boothby implemented auto indentation in the notebook.
 
 Hansen worked on improving the robustness and functionality of the GAP and Mathematica interfaces.
 
-}}}
+```

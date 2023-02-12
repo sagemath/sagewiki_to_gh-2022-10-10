@@ -1,8 +1,9 @@
-= Muppy Session =
 
-{{{
-                                                        
-                                             
+
+# Muppy Session
+
+
+```txt
 sage: get_memory_usage()
 413.3515625
 sage: for i in range(10):
@@ -144,12 +145,12 @@ sage: def foo():
 ....:     get_memory_usage()
 ....: 
 sage: foo?
-Type:		function
-Base Class:	<type 'function'>
-String Form:	<function foo at 0x4299f10>
-Namespace:	Interactive
-File:		/scratch/mabshoff/release-cycle/sage-3.1.3.final/<ipython console>
-Definition:	foo()
+Type:           function
+Base Class:     <type 'function'>
+String Form:    <function foo at 0x4299f10>
+Namespace:      Interactive
+File:           /scratch/mabshoff/release-cycle/sage-3.1.3.final/<ipython console>
+Definition:     foo()
 Docstring:
     x.__init__(...) initializes x; see x.__class__.__doc__ for signature
 
@@ -238,4 +239,4 @@ sage: diff[:30]
  ['sage.categories.action.PrecomposedAction', 80, 9600],
  ['wrapper_descriptor', 104, 7488],
  ['sage.categories.morphism.CallMorphism', 81, 7128]]
-}}}
+```

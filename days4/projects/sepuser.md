@@ -1,6 +1,8 @@
-Describe days4/projects/sepuser here.
 
-{{{
+Describe days4/projects/sepuser here. 
+
+
+```txt
 We assume a UNIX user named "sageserver".
 
 if .ssh/id_rsa.pub doesn't exist for sageserver user:
@@ -30,4 +32,4 @@ Change lines in /etc/groups:
 
   sage1:x:1001:sageserver
   ...
-}}}
+```

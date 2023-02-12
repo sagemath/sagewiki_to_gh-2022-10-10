@@ -1,95 +1,96 @@
-= SageMath interfaces to and from other software =
 
-<<TableOfContents()>>
 
-== Interfaces to other software in SageMath ==
+# SageMath interfaces to and from other software
 
-=== Sage interfaces to closed software ===
+[[_TOC_]] 
 
-  * [[http://page.math.tu-berlin.de/~kant/|KANT/KASH]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/kash.html|Sage interface to KANT/KASH]]
-  * [[http://magma.maths.usyd.edu.au/magma/|Magma]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/magma.html|Sage interface to Magma]]
-  * [[http://magma.maths.usyd.edu.au/calc/|Magma online calculator]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/magma_free.html|Sage interface to Magma online calculator]]
-  * [[https://www.maplesoft.com/|Maple]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/maple.html|Sage interface to Maple]]
-  * [[https://www.wolfram.com/mathematica/|Mathematica]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/mathematica.html|Sage interface to Mathematica]]
-  * [[https://www.mathworks.com/products/matlab.html|MATLAB]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/matlab.html|Sage interface to MATLAB]]
-  * [[https://www.mathworks.com/discovery/mupad.html|MuPAD]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/mupad.html|Sage interface to MuPAD]]
 
-=== Sage interfaces to free software ===
+## Interfaces to other software in SageMath
 
-  * [[http://axiom-developer.org/|Axiom]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/axiom.html|Sage interface to Axiom]]
-  * [[http://ecm.gforge.inria.fr|GMP-ECM]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/ecm.html|Sage interface to GMP-ECM]]
-  * [[http://www.4ti2.de/|4ti2]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/four_ti_2.html| Sage interface to 4ti2]]
-  * [[http://fricas.sourceforge.net/|FriCAS]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/fricas.html|Sage interface to Fricas]]
-  * [[http://www.broune.com/frobby/|Frobby]] (computations with monomial ideals): [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/frobby.html|Sage interface to Frobby]]
-  * [[http://www.gap-system.org/|GAP4]] (groups, algorithms, programming): [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gap.html|Sage interface to GAP]]
-  * [[https://webusers.imj-prg.fr/~jean.michel/gap3/|GAP3]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gap3.html|Sage interface to GAP3]]
-  * [[http://home.math.au.dk/jensen/software/gfan/gfan.html|gfan]] (Gröbner fan): [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gfan.html|Sage interface to gfan]]
-  * [[http://www-fourier.ujf-grenoble.fr/~parisse/giac.html|Giac]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/giac.html|Sage interface to Giac]]
-  * [[http://gnuplot.info/|Gnuplot]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gnuplot.html|Sage interface to Gnuplot]]
-  * [[http://jmol.org|jmol]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/jmoldata.html|Sage interface to jmol]]
-  * [[https://www.math.ucdavis.edu/~latte/|LattE]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/latte.html|Sage interface to LattE]]
-  * [[http://www-math.univ-poitiers.fr/~maavl/LiE/|LiE]] (Lie group computations): [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/lie.html|Sage interface to Lie]]
-  * [[https://common-lisp.net/project/ecl/|Emmbeddable Common Lisp]] (Lisp programming language): [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/lisp.html|Sage interface to Lisp]]
-  * [[http://www.math.uiuc.edu/Macaulay2/|Macaulay2]] (algebraic geometry and commutative algebra): [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/macaulay2.html|Sage interface to Macaulay2]]
-  * [[http://maxima.sourceforge.net/|Maxima]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/maxima.html|Sage's pexpect interface to Maxima]], [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/maxima_abstract.html|Sage's abstract interface to Maxima]], [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/maxima_lib.html|Sage's library interface to Maxima]]
-  * [[http://homepages.warwick.ac.uk/~masgaj/mwrank/|mwrank]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/mwrank.html|Sage interface to mwrank]]
-  * [[https://www.gnu.org/software/octave/|GNU Octave]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/octave.html|Sage interface to GNU Octave]]
-  * [[http://pari.math.u-bordeaux.fr/|PARI/GP]] (number theory): [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gp.html|Sage interface to gp (PARI/GP)]]
-  * [[http://homepages.math.uic.edu/~jan/PHCpack/|PHC]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/phc.html|Sage interface to PHC]]
-  * [[https://www.polymake.org/|Polymake]] (polytopes): [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/polymake.html|Sage interface to Polymake]]
-  * [[http://www.povray.org/|POV-Ray]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/povray.html|Sage interface to POV-Ray]]
-  * [[https://www.usna.edu/CS/qepcadweb/B/QEPCAD.html|QEPCAD]] (quantifier elimination by partial cylindrical algebraic decomposition): [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/qepcad.html|Sage interface to QEPCAD]]
-  * [[http://www.friedspace.com/QS/|SIMPQS]] (self initialising quadratic sieve): [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/qsieve.html|Sage interface to Bill Hart's Quadratic Sieve]]
-  * [[https://www.r-project.org/|R]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/r.html|Sage interfaces to R]]
-  * Rubik's cube solvers: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/rubik.html|Sage interface to Rubik's cube solvers]]
-  * [[http://www.scilab.org/|Scilab]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/scilab.html|Sage interface to Scilab]]
-  * [[https://www.singular.uni-kl.de/|Singular]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/singular.html|Sage interface to Singular]]
-  * [[http://www.sympy.org/en/index.html|SymPy]]: [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/sympy.html|Sympy to Sage conversion]]
-  * [[http://jedi.ks.uiuc.edu/~johns/raytracer/|Tachyon]] (ray tracer): [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/tachyon.html|Sage interface to Tachyon]]
-  * [[https://sourceforge.net/projects/tidesodes/|TIDES]] (integration engine based on the Taylor method, implemented as a C library): [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/tides.html|Sage interface to TIDES]]
 
-Sage even has interfaces to itself:
+### Sage interfaces to closed software
 
-  * [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/sage0.html|Sage interface to another copy of Sage]]
-  * [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/psage.html|Parallel interface to the Sage interpreter]]
+   * <a class="http" href="http://page.math.tu-berlin.de/~kant/">KANT/KASH</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/kash.html">Sage interface to KANT/KASH</a> 
+   * <a class="http" href="http://magma.maths.usyd.edu.au/magma/">Magma</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/magma.html">Sage interface to Magma</a> 
+   * <a class="http" href="http://magma.maths.usyd.edu.au/calc/">Magma online calculator</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/magma_free.html">Sage interface to Magma online calculator</a> 
+   * <a class="https" href="https://www.maplesoft.com/">Maple</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/maple.html">Sage interface to Maple</a> 
+   * <a class="https" href="https://www.wolfram.com/mathematica/">Mathematica</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/mathematica.html">Sage interface to Mathematica</a> 
+   * <a class="https" href="https://www.mathworks.com/products/matlab.html">MATLAB</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/matlab.html">Sage interface to MATLAB</a> 
+   * <a class="https" href="https://www.mathworks.com/discovery/mupad.html">MuPAD</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/mupad.html">Sage interface to MuPAD</a> 
 
-See also
+### Sage interfaces to free software
 
-  * [[http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/|SageMath wiki page on interfaces]]
-  * [[http://doc.sagemath.org/html/en/tutorial/interfaces.html|SageMath tutorial on interfaces]]
-  * [[http://doc.sagemath.org/html/en/developer/coding_in_other.html|SageMath developer guide on interfaces]]
+   * <a class="http" href="http://axiom-developer.org/">Axiom</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/axiom.html">Sage interface to Axiom</a> 
+   * <a class="http" href="http://ecm.gforge.inria.fr">GMP-ECM</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/ecm.html">Sage interface to GMP-ECM</a> 
+   * <a class="http" href="http://www.4ti2.de/">4ti2</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/four_ti_2.html">Sage interface to 4ti2</a> 
+   * <a class="http" href="http://fricas.sourceforge.net/">FriCAS</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/fricas.html">Sage interface to Fricas</a> 
+   * <a class="http" href="http://www.broune.com/frobby/">Frobby</a> (computations with monomial ideals): <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/frobby.html">Sage interface to Frobby</a> 
+   * <a class="http" href="http://www.gap-system.org/">GAP4</a> (groups, algorithms, programming): <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gap.html">Sage interface to GAP</a> 
+   * <a class="https" href="https://webusers.imj-prg.fr/~jean.michel/gap3/">GAP3</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gap3.html">Sage interface to GAP3</a> 
+   * <a class="http" href="http://home.math.au.dk/jensen/software/gfan/gfan.html">gfan</a> (Gröbner fan): <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gfan.html">Sage interface to gfan</a> 
+   * <a class="http" href="http://www-fourier.ujf-grenoble.fr/~parisse/giac.html">Giac</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/giac.html">Sage interface to Giac</a> 
+   * <a class="http" href="http://gnuplot.info/">Gnuplot</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gnuplot.html">Sage interface to Gnuplot</a> 
+   * <a class="http" href="http://jmol.org">jmol</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/jmoldata.html">Sage interface to jmol</a> 
+   * <a class="https" href="https://www.math.ucdavis.edu/~latte/">LattE</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/latte.html">Sage interface to LattE</a> 
+   * <a class="http" href="http://www-math.univ-poitiers.fr/~maavl/LiE/">LiE</a> (Lie group computations): <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/lie.html">Sage interface to Lie</a> 
+   * <a class="https" href="https://common-lisp.net/project/ecl/">Emmbeddable Common Lisp</a> (Lisp programming language): <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/lisp.html">Sage interface to Lisp</a> 
+   * <a class="http" href="http://www.math.uiuc.edu/Macaulay2/">Macaulay2</a> (algebraic geometry and commutative algebra): <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/macaulay2.html">Sage interface to Macaulay2</a> 
+   * <a class="http" href="http://maxima.sourceforge.net/">Maxima</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/maxima.html">Sage's pexpect interface to Maxima</a>, <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/maxima_abstract.html">Sage's abstract interface to Maxima</a>, <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/maxima_lib.html">Sage's library interface to Maxima</a> 
+   * <a class="http" href="http://homepages.warwick.ac.uk/~masgaj/mwrank/">mwrank</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/mwrank.html">Sage interface to mwrank</a> 
+   * <a class="https" href="https://www.gnu.org/software/octave/">GNU Octave</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/octave.html">Sage interface to GNU Octave</a> 
+   * <a class="http" href="http://pari.math.u-bordeaux.fr/">PARI/GP</a> (number theory): <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gp.html">Sage interface to gp (PARI/GP)</a> 
+   * <a class="http" href="http://homepages.math.uic.edu/~jan/PHCpack/">PHC</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/phc.html">Sage interface to PHC</a> 
+   * <a class="https" href="https://www.polymake.org/">Polymake</a> (polytopes): <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/polymake.html">Sage interface to Polymake</a> 
+   * <a class="http" href="http://www.povray.org/">POV-Ray</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/povray.html">Sage interface to POV-Ray</a> 
+   * <a class="https" href="https://www.usna.edu/CS/qepcadweb/B/QEPCAD.html">QEPCAD</a> (quantifier elimination by partial cylindrical algebraic decomposition): <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/qepcad.html">Sage interface to QEPCAD</a> 
+   * <a class="http" href="http://www.friedspace.com/QS/">SIMPQS</a> (self initialising quadratic sieve): <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/qsieve.html">Sage interface to Bill Hart's Quadratic Sieve</a> 
+   * <a class="https" href="https://www.r-project.org/">R</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/r.html">Sage interfaces to R</a> 
+   * Rubik's cube solvers: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/rubik.html">Sage interface to Rubik's cube solvers</a> 
+   * <a class="http" href="http://www.scilab.org/">Scilab</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/scilab.html">Sage interface to Scilab</a> 
+   * <a class="https" href="https://www.singular.uni-kl.de/">Singular</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/singular.html">Sage interface to Singular</a> 
+   * <a class="http" href="http://www.sympy.org/en/index.html">SymPy</a>: <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/sympy.html">Sympy to Sage conversion</a> 
+   * <a class="http" href="http://jedi.ks.uiuc.edu/~johns/raytracer/">Tachyon</a> (ray tracer): <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/tachyon.html">Sage interface to Tachyon</a> 
+   * <a class="https" href="https://sourceforge.net/projects/tidesodes/">TIDES</a> (integration engine based on the Taylor method, implemented as a C library): <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/tides.html">Sage interface to TIDES</a> 
+Sage even has interfaces to itself: 
 
-== Using other software in Sage worksheets ==
+   * <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/sage0.html">Sage interface to another copy of Sage</a> 
+   * <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/psage.html">Parallel interface to the Sage interpreter</a> 
+See also 
 
-One can access other software from Sage worksheets, be it in the Sage Notebook, in CoCalc Sage worksheets,
-or in Jupyter Notebook worksheets using the SageMath Jupyter kernel.
+   * <a class="http" href="http://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/">SageMath wiki page on interfaces</a> 
+   * <a class="http" href="http://doc.sagemath.org/html/en/tutorial/interfaces.html">SageMath tutorial on interfaces</a> 
+   * <a class="http" href="http://doc.sagemath.org/html/en/developer/coding_in_other.html">SageMath developer guide on interfaces</a> 
 
-There are
+## Using other software in Sage worksheets
 
-  * ways to change kernel
-  * some "magic" commands (starting with "%" and "%%") that let you use other software in a cell
+One can access other software from Sage worksheets, be it in the Sage Notebook, in <a href="/CoCalc">CoCalc</a> Sage worksheets, or in Jupyter Notebook worksheets using the <a href="/SageMath">SageMath</a> Jupyter kernel. 
 
-== Interfaces to SageMath in other software ==
+There are 
 
-Some software systems provide an interface to Sage.
+   * ways to change kernel 
+   * some "magic" commands (starting with "%" and "%%") that let you use other software in a cell 
 
-=== Cantor ===
+## Interfaces to SageMath in other software
 
-  * home page: https://edu.kde.org/cantor/
-  * author: https://arieder.wordpress.com
-  * wiki page here: https://wiki.sagemath.org/Cantor
+Some software systems provide an interface to Sage. 
 
-=== TeXmacs ===
 
-  * wiki page here: https://wiki.sagemath.org/TeXmacs
-  * wiki page there: http://www.texmacs.org/tmweb/plugins/cas.en.html
+### Cantor
 
-=== GAP / homalg ===
+   * home page: <a href="https://edu.kde.org/cantor/">https://edu.kde.org/cantor/</a> 
+   * author: <a href="https://arieder.wordpress.com">https://arieder.wordpress.com</a> 
+   * wiki page here: <a href="https://wiki.sagemath.org/Cantor">https://wiki.sagemath.org/Cantor</a> 
 
-The GAP package '''homalg''' is "a homological algebra meta-package for
-computable Abelian categories".
+### TeXmacs
 
-It provides a way to call Sage from GAP.
+   * wiki page here: <a href="https://wiki.sagemath.org/TeXmacs">https://wiki.sagemath.org/TeXmacs</a> 
+   * wiki page there: <a href="http://www.texmacs.org/tmweb/plugins/cas.en.html">http://www.texmacs.org/tmweb/plugins/cas.en.html</a> 
 
-  * package page: https://www.gap-system.org/Packages/homalg.html
-  * home plage: https://homalg-project.github.io/homalg_project/homalg/
+### GAP / homalg
+
+The GAP package **homalg** is "a homological algebra meta-package for computable Abelian categories". 
+
+It provides a way to call Sage from GAP. 
+
+   * package page: <a href="https://www.gap-system.org/Packages/homalg.html">https://www.gap-system.org/Packages/homalg.html</a> 
+   * home plage: <a href="https://homalg-project.github.io/homalg_project/homalg/">https://homalg-project.github.io/homalg_project/homalg/</a> 

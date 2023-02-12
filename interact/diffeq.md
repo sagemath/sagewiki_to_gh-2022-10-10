@@ -1,11 +1,16 @@
-= Sage Interactions - Differential Equations =
-goto [[interact|interact main page]]
 
-<<TableOfContents>>
 
-== Euler's Method in one variable ==
-by Marshall Hampton. This needs some polishing but its usable as is.
-{{{#!sagecell
+# Sage Interactions - Differential Equations
+
+goto <a href="/interact">interact main page</a> 
+
+[[_TOC_]] 
+
+
+## Euler's Method in one variable
+
+by Marshall Hampton. This needs some polishing but its usable as is. 
+```sagecell
 def tab_list(y, headers = None):
     '''
     Converts a list into an html table with borders.
@@ -41,12 +46,14 @@ def euler_method(y_exact_in = input_box('-cos(x)+1.0', type = str, label = 'Exac
     else:
         table_range = list(range(floor(steps_shown/2))) + list(range(len(sol)-floor(steps_shown/2),len(sol)))
     pretty_print(html(tab_list([[i,xvals[i],sol[i]] for i in table_range], headers = ['step','x','y'])))
-}}}
-{{attachment:eulermethod.png}}
+```
+![interact/diffeq/eulermethod.png](interact/diffeq/eulermethod.png) 
 
-== Vector Fields and Euler's Method ==
-by Mike Hansen (tested and updated by William Stein, and later by Dan Drake)
-{{{#!sagecell
+
+## Vector Fields and Euler's Method
+
+by Mike Hansen (tested and updated by William Stein, and later by Dan Drake) 
+```sagecell
 x,y = var('x,y')
 from sage.ext.fast_eval import fast_float
 @interact
@@ -75,12 +82,14 @@ def _(f = input_box(default=y), g=input_box(default=-x*y+x^3-x),
 
     pretty_print(html(r"$\displaystyle\frac{dx}{dt} = %s$  $ \displaystyle\frac{dy}{dt} = %s$" % (latex(f),latex(g))))
     result.show(xmin=xmin,xmax=xmax,ymin=ymin,ymax=ymax)
-}}}
-{{attachment:euler.png}}
+```
+![interact/diffeq/euler.png](interact/diffeq/euler.png) 
 
-== Vector Field with Runga-Kutta-Fehlberg ==
-by Harald Schilly
-{{{#!sagecell
+
+## Vector Field with Runga-Kutta-Fehlberg
+
+by Harald Schilly 
+```sagecell
 # Solve ODEs using sophisticated Methods like Runga-Kutta-Fehlberg
 # by Harald Schilly, April 2008
 # (jacobian doesn't work, please fix ...)
@@ -124,12 +133,14 @@ def _(fin = input_box(default=y+exp(x/10)-1/3*((x-1/2)^2+y^3)*x-x*y^3), gin=inpu
     vector_field = plot_vector_field( (f,g), (x,xmin,xmax), (y,ymin,ymax) )
     starting_point = point([x_start, y_start], pointsize=50)
     show(vector_field + starting_point + sum(path), aspect_ratio=1, figsize=[8,9])
-}}}
-{{attachment:ode_runga_kutta.png}}
+```
+![interact/diffeq/ode_runga_kutta.png](interact/diffeq/ode_runga_kutta.png) 
 
-== Linear two-dimensional ODEs ==
-by Marshall Hampton
-{{{
+
+## Linear two-dimensional ODEs
+
+by Marshall Hampton 
+```txt
 %cython
 cpdef c_euler_m(double t0, double x10, double x20, double tend, int steps, double a11, double a12, double a21, double a22, double cutoff = 10):
     cdef double h = (tend-t0)/steps
@@ -148,8 +159,9 @@ cpdef c_euler_m(double t0, double x10, double x20, double tend, int steps, doubl
         x1current = newx1
         x2current = newx2
     return traj
-}}}
-{{{
+```
+
+```txt
 @interact
 def planarsystem(a11 = slider(srange(-10,10,1/10),default = -1), a12 = slider(srange(-10,10,1/10),default = -1), a21 = slider(srange(-10,10,1/10),default = 1), a22 = slider(srange(-10,10,1/10),default = -1), time_tracked = slider(srange(1,100,1.0),default=10)):
     A = matrix(RDF,[[a11,a12],[a21,a22]])
@@ -167,12 +179,14 @@ def planarsystem(a11 = slider(srange(-10,10,1/10),default = -1), a12 = slider(sr
         for i in range(astart,len(ntraj)-1,10):
             trajs = trajs + arrow(ntraj[i+1],ntraj[i],width=1, arrowsize=2)
     show(trajs, figsize = [6,6], xmin = -1, xmax = 1, ymin = -1, ymax = 1)
-}}}
-{{attachment:linear2x2.png}}
+```
+![interact/diffeq/linear2x2.png](interact/diffeq/linear2x2.png) 
 
-== Euler's Method, Improved Euler, and 4th order Runge-Kutta in one variable ==
-by Marshall Hampton.  This is a more baroque version of the Euler's method demo above.
-{{{#!sagecell
+
+## Euler's Method, Improved Euler, and 4th order Runge-Kutta in one variable
+
+by Marshall Hampton.  This is a more baroque version of the Euler's method demo above. 
+```sagecell
 def ImpEulerMethod(xstart, ystart, xfinish, nsteps, f):
     sol = [ystart]
     xvals = [xstart]
@@ -239,20 +253,23 @@ def euler_method(q = range_slider(0,10,.1,(0,6),'x range'), y_exact_in = input_b
     else:
         table_range = list(range(floor(steps_shown/2))) + list(range(len(sol)-floor(steps_shown/2),len(sol)))
     html(tab_list([[i,xvals[i],sol[i],sol2[i][1],sol3[i][1],y_exact(xvals[i])] for i in table_range], headers = ['step','x','<font color="#0000FF">Euler</font>','<font color="#FF00FF">Imp. Euler</font>', '<font color="#0000bb">RK4</font>','<font color="#FF0000">Exact</font>']))
-}}}
-{{attachment:rk4.png}}
+```
+![interact/diffeq/rk4.png](interact/diffeq/rk4.png) 
 
-== Mass/Spring systems ==
-by Jason Grout
 
-These two interacts involve some Cython code or other scipy imports, so I've posted a file containing them.  You can download the worksheet or copy it online.
+## Mass/Spring systems
 
-  * https://sage.math.washington.edu/home/pub/42
-  * https://sage.math.washington.edu/home/pub/43
+by Jason Grout 
 
-== Picard iteration example ==
-by Marshall Hampton and David Joyner
-{{{#!sagecell
+These two interacts involve some Cython code or other scipy imports, so I've posted a file containing them.  You can download the worksheet or copy it online. 
+
+   * <a href="https://sage.math.washington.edu/home/pub/42">https://sage.math.washington.edu/home/pub/42</a> 
+   * <a href="https://sage.math.washington.edu/home/pub/43">https://sage.math.washington.edu/home/pub/43</a> 
+
+## Picard iteration example
+
+by Marshall Hampton and David Joyner 
+```sagecell
 def picard_iteration(f, a, c, iterations):
     r'''
     Computes the N-th Picard iterate for the IVP  
@@ -295,12 +312,14 @@ def picarder(n_iterations = slider(0,20,1,default = 2)):
     exact = plot(exp(t),(t,0,2))
     pic_plot = plot(pic,(t,0,2), rgbcolor = (1,0,0))
     show(exact + pic_plot)
-}}}
-{{attachment:picard.png}}
+```
+![interact/diffeq/picard.png](interact/diffeq/picard.png) 
 
-== Euler-Maruyama method and geometric Brownian motion (a common simple model of the stock market) ==
-by Marshall Hampton
-{{{#!sagecell
+
+## Euler-Maruyama method and geometric Brownian motion (a common simple model of the stock market)
+
+by Marshall Hampton 
+```sagecell
 def EulerMaruyama(xstart, ystart, xfinish, nsteps, f1, f2): 
     sol = [ystart] 
     xvals = [xstart] 
@@ -332,14 +351,16 @@ def EulerMaruyamaExample(mu = slider(srange(0,10,.1),default=2.0),
         out = out + emplot
         save(out,'temp')
     show(out, figsize = [8,5])
-}}}
-{{attachment:eulermaruyama.png}}
+```
+![interact/diffeq/eulermaruyama.png](interact/diffeq/eulermaruyama.png) 
 
-== Autonomous equations and stable/unstable fixed points ==
-by Marshall Hampton
-This needs the Cython functon defined in a seperate cell.  Note that it is not a particularly good example of Cython use.
 
-{{{
+## Autonomous equations and stable/unstable fixed points
+
+by Marshall Hampton This needs the Cython functon defined in a seperate cell.  Note that it is not a particularly good example of Cython use. 
+
+
+```txt
 %cython
 cpdef RK4_1d(f, double t_start, double y_start, double t_end, int steps, double y_upper = 10**6, double y_lower = -10**6):
     '''
@@ -363,9 +384,9 @@ cpdef RK4_1d(f, double t_start, double y_start, double t_end, int steps, double 
             j = steps
         answer_table.append([t_current,y_current])
     return answer_table
-}}}
+```
 
-{{{
+```txt
 from sage.rings.polynomial.real_roots import *
 var('x')
 @interact
@@ -389,13 +410,16 @@ def autonomous_plot(poly=input_box(x*(x-1)*(x-2),label='polynomial'), t_end = sl
     var('t')
     html("Autonomous differential equation $x' = p(x)$")
     show(solpaths+fixedpoints, ymin = miny, ymax = maxy, xmin = 0, xmax = t_end, figsize = [6,4])
-}}}
-{{attachment:Autonomous1.png}}
+```
+![interact/diffeq/Autonomous1.png](interact/diffeq/Autonomous1.png) 
 
-== Heat equation using Fourier series ==
-by Pablo Angulo
 
-{{{#!sagecell
+## Heat equation using Fourier series
+
+by Pablo Angulo 
+
+
+```sagecell
 var('x')
 x0  = 0
 k=1
@@ -410,13 +434,16 @@ def _(tiempo = (0.1*j for j in (0..10)) ):
     ft = sum( a*sin(x*n/2)*exp(-k*(n/2)^2*tiempo) for n,a in alpha)
     pt = plot(ft, 0, 2*pi, color='green', thickness=2)
     show( p + pt, ymin = -.2)
-}}}
-{{attachment:heat_fourier.png}}
+```
+![interact/diffeq/heat_fourier.png](interact/diffeq/heat_fourier.png) 
 
-== Heat equation using finite diferences in cython ==
-by Pablo Angulo
 
-{{{
+## Heat equation using finite diferences in cython
+
+by Pablo Angulo 
+
+
+```txt
 %cython
 #cython code implementing a very simple finite diference scheme
 import numpy as np
@@ -430,9 +457,9 @@ def calor_cython(u0,float dx, float k,float t_f,int tsteps):
     for m in range(tsteps):
         u[1:-1]=(1-2*s)*u[1:-1]+s*u[0:-2]+s*u[2:]
     return u
-}}}
+```
 
-{{{
+```txt
 #interact box wrapping the code above
 var('x')
 
@@ -451,20 +478,21 @@ def _(f=input_box(default=x*exp(-x^2),label='f(x)'), longitud=input_box(default=
 
     ut=calor_cython(u0,dx,k,tiempo,tsteps)
     show( line2d(list(zip(xs, u0))) + line2d(list(zip(xs, ut)), rgbcolor='green') )
-}}}
+```
+![interact/diffeq/heat_findif.png](interact/diffeq/heat_findif.png) 
 
-{{attachment:heat_findif.png}}
 
-== DE with boundary values ==
+## DE with boundary values
 
-The following interact demo looks at the DE+BC y'+y=0, y(0)=a, y(b)=c, and has a slider for b. When b=pi "problems arise":-)
+The following interact demo looks at the DE+BC y'+y=0, y(0)=a, y(b)=c, and has a slider for b. When b=pi "problems arise":-) 
 
-{{{#!sagecell
+
+```sagecell
 var('x')
 @interact
 def BCs(b=input_box(1,label='BC at far endpoint'), c = slider(1,5,step_size = .01), a = 1): 
     P1 = text(r"$y''+y=0,\ y(0) = a,\ y(b) = c$",(4,-1/(c-3.14152)))
     P2 = plot(a*cos(x)+(b-a*cos(c))*sin(x)/sin(c),x,0,5)
     (P1+P2).show()
-}}}
-[[attachment:de-interact-with-BCs.sws]]
+```
+<a href="interact/diffeq/de-interact-with-BCs.sws">de-interact-with-BCs.sws</a> 

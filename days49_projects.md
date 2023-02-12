@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 Sage Days 49 Coding Sprint Projects
 ===================================
@@ -176,4 +179,4 @@ Other
 * `FindStat <http://www.findstat.org>`_ work
 
   Travis, Viviane, Chris, Jessica, Jean-Baptiste
-}}}
+```

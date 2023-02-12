@@ -1,75 +1,78 @@
-= Sage Days 23.5 Coding Sprint Projects =
 
-<<TableOfContents>>
 
-== Fix Sage's wrapping of Singular's Brill-Noether ==
+# Sage Days 23.5 Coding Sprint Projects
 
-  * See [[/brillnoether|this page]] for more details. 
-  * (done, sort of) It seems there is still a problem with Singular. The Sage ticket is updated correspondingly, [[http://trac.sagemath.org/sage_trac/ticket/8997|Trac #8997]].
+[[_TOC_]] 
 
-== Python <--> Singular Linking Discussion ==
 
-How: Dinner and beer.
+## Fix Sage's wrapping of Singular's Brill-Noether
 
-Have a technical discussion of linking Python and Singular and Sage.
+   * See <a href="/days23.5/projects/brillnoether">this page</a> for more details.  
+   * (done, sort of) It seems there is still a problem with Singular. The Sage ticket is updated correspondingly, <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/8997">Trac #8997</a>. 
 
-We tried to use the PSICO-approach to import sage into Singular. It failed (inifinite loop at integer.pyx), despite inidividual Cython modules can be loaded. Further investigations will follow. 
+## Python <--> Singular Linking Discussion
 
-== Singular Parallel Build ==
+How: Dinner and beer. 
 
-People: Hans S. + A. Dreyer
+Have a technical discussion of linking Python and Singular and Sage. 
 
-Goals: 
-  1. Tell us which components of singular build in parallel via some testing. 
+We tried to use the PSICO-approach to import sage into Singular. It failed (inifinite loop at integer.pyx), despite inidividual Cython modules can be loaded. Further investigations will follow.  
 
- * [[http://trac.sagemath.org/sage_trac/ticket/9497|Trac #9497]]: Fix the Singular spkg so it can take advantage of building in parallel. But fix Singular SPKG first (3-1-1-3)!
 
-We fixed this upstream (added dependencies to build system), Hans made anew release. The spkg was fixed by malb last night.
+## Singular Parallel Build
 
-== Doctest the Free Algebra Quotient code ==
+People: Hans S. + A. Dreyer 
 
-People: Gabriel Pannwitz
+Goals:  
 
-The file {{{SAGE_ROOT/devel/sage/sage/algebras/free_algebra_quotient.py}}} has no doctests. Get it to 100% coverage.   The point of this is that it is related to wrapping something like letterplace. 
+   1. Tell us which components of singular build in parallel via some testing.  
+* <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9497">Trac #9497</a>: Fix the Singular spkg so it can take advantage of building in parallel. But fix Singular SPKG first (3-1-1-3)! 
+We fixed this upstream (added dependencies to build system), Hans made anew release. The spkg was fixed by malb last night. 
 
-== Letterplace ==
 
-People: Martin Albrecht will review. 
+## Doctest the Free Algebra Quotient code
 
-Do a very basic wrapping of letterplace for Sage.  Use this to replace some of the lame old code in the {{{SAGE_ROOT/devel/sage/sage/algebras/}}} directory. See here: [[http://trac.sagemath.org/sage_trac/ticket/7797|#7797]]
+People: Gabriel Pannwitz 
 
-== error: out of memory ==
+The file `SAGE_ROOT/devel/sage/sage/algebras/free_algebra_quotient.py` has no doctests. Get it to 100% coverage.   The point of this is that it is related to wrapping something like letterplace.  
 
-People: William Stein, Hans S. 
 
- * (done, in that patches are up for everything) [[http://trac.sagemath.org/sage_trac/ticket/5313|Trac #5313]].  Patch singular so that when it runs out of memory the error message says "singular" in it.   Moreover, replace the exit(1) or whatever by something that can be trapped via _sig_on/_sig_off.  
+## Letterplace
 
-== Relative number field arithmetic ==
+People: Martin Albrecht will review.  
 
-People: Mohamed, Andrew, William Stein
+Do a very basic wrapping of letterplace for Sage.  Use this to replace some of the lame old code in the `SAGE_ROOT/devel/sage/sage/algebras/` directory. See here: <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/7797">#7797</a> 
 
-Goal: 
-  1. (done) Explain how to compute inverses.  
-  2. (done) Open a trac ticket about this: [[http://trac.sagemath.org/sage_trac/ticket/9500|trac 9500]]
-  3. (done) Post a [[/relative_number_fields|little experimental code that indicates how fast this could be]]. 
-  4. (done) Post a patch to the above ticket.
 
- Arithmetic in relative numbers fields is sometimes very slow.  This could be done using multivariate polynomial ring quotients via libsingular, which would be extremely fast in some cases.  There is some cleverness that I do *not* know how to do for inverting elements -- hence it would be good to do this here with singular people around.
+## error: out of memory
 
-== Delete a function related to multivariate polynomial factorization from Sage ==
+People: William Stein, Hans S.  
 
-People: William Stein
+* (done, in that patches are up for everything) <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/5313">Trac #5313</a>.  Patch singular so that when it runs out of memory the error message says "singular" in it.   Moreover, replace the exit(1) or whatever by something that can be trapped via _sig_on/_sig_off.   
 
- (done -- patch up) This is [[http://trac.sagemath.org/sage_trac/ticket/9498|trac 9498]].  There is a stupid function that William Stein wrote during bug days, which may as well be removed.
+## Relative number field arithmetic
 
-== (Done) Gröbner bases in Sage: Optional parameters ==
+People: Mohamed, Andrew, William Stein 
 
-People: Simon King, with a help from Martin and Hannes (more than minutes...)
+Goal:  
 
- (patch with positive review at [[http://trac.sagemath.org/sage_trac/ticket/1396|#1396]]) In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular. 
+   1. (done) Explain how to compute inverses.   
+   1. (done) Open a trac ticket about this: <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9500">trac 9500</a> 
+   1. (done) Post a <a href="/days23.5/projects/relative_number_fields">little experimental code that indicates how fast this could be</a>.  
+   1. (done) Post a patch to the above ticket. 
+* Arithmetic in relative numbers fields is sometimes very slow.  This could be done using multivariate polynomial ring quotients via libsingular, which would be extremely fast in some cases.  There is some cleverness that I do *not* know how to do for inverting elements -- hence it would be good to do this here with singular people around. 
 
- As a courtesy, one can name the options both in Python style (deg_bound) and Singular style (degBound). A decorator ensures that all relevant methods work under default options unless explicitly requested by the user. Here are examples in Singular and libSingular:
- {{{
+## Delete a function related to multivariate polynomial factorization from Sage
+
+People: William Stein 
+
+* (done -- patch up) This is <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9498">trac 9498</a>.  There is a stupid function that William Stein wrote during bug days, which may as well be removed. 
+
+## (Done) Gröbner bases in Sage: Optional parameters
+
+People: Simon King, with a help from Martin and Hannes (more than minutes...) 
+
+* (patch with positive review at <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/1396">#1396</a>) In Singular, one can use various options (redTail, e.g.) and also a degree bound (degBound) for Gröbner basis computations. Aim: Allow the same for libSingular.  As a courtesy, one can name the options both in Python style (deg_bound) and Singular style (degBound). A decorator ensures that all relevant methods work under default options unless explicitly requested by the user. Here are examples in Singular and libSingular: ```txt
 sage: R.<x,y> = QQ[]
 sage: I = R*[x^3+y^2,x^2*y+1]
 sage: I.groebner_basis(prot=True, deg_bound=2)
@@ -94,33 +97,30 @@ product criterion:9 chain criterion:30
 [x^3*y^2 + y^3*z^2 + x^2*z^3, x^2*y^3 + x^3*z^2 + y^2*z^3, y^5, x^6, x^4*z^2 - y^4*z^2 - x^2*y*z^3 + x*y^2*z^3, z^6, y^4*z^3 - y^3*z^4 - x^2*z^5, x^3*y*z^4 - x^2*y^2*z^4 + x*y^3*z^4, x^3*z^5, x^2*y*z^5 + y^3*z^5, x*y^3*z^5]
 sage: J.groebner_basis(algorithm='singular')
 [x^3*y^2 + y^3*z^2 + x^2*z^3, x^2*y^3 + x^3*z^2 + y^2*z^3, y^5, x^6, x^4*z^2 - y^4*z^2 - x^2*y*z^3 + x*y^2*z^3, z^6, y^4*z^3 - y^3*z^4 - x^2*z^5, x^3*y*z^4 - x^2*y^2*z^4 + x*y^3*z^4, x^3*z^5, x^2*y*z^5 + y^3*z^5, x*y^3*z^5]
- }}}
+ 
+```
+
+## extend polynomial rings mod 2^n to n > 30, and over ZZ
+
+* People: Anne, Frank, Moritz 
+Rings mod 2^n are limited to n <= 30, but we'd like to have n<=62 by using longs. This would be relevant for some crypto applications. 
 
 
-== extend polynomial rings mod 2^n to n > 30, and over ZZ ==
+## (Done) big exponents
 
- People: Anne, Frank, Moritz
+* People: Martin Albrecht, Hans S.  
+Provide an interface to use Singular monomials with big exponents (64-bit instead of 16-bit) 
 
-Rings mod 2^n are limited to n <= 30, but we'd like to have n<=62 by using longs. This would be relevant for some crypto applications.
-
-
-== (Done) big exponents ==
-
- People: Martin Albrecht, Hans S. 
-
-Provide an interface to use Singular monomials with big exponents (64-bit instead of 16-bit)
+Sage Trac ticket: <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/7795">Trac #7795</a> 
 
 
-Sage Trac ticket: [[http://trac.sagemath.org/sage_trac/ticket/7795|Trac #7795]]
+## Plural interface
 
-== Plural interface ==
+* People: Burcin, Oleksandr Motsak, Michael Brickenstein, Simon King 
+Revive <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/4539">#4539</a> to provide a basic interface to Plural. This will involve writing new parent and element classes for plural at least. 
 
- People: Burcin, Oleksandr Motsak, Michael Brickenstein, Simon King
-
-Revive [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]] to provide a basic interface to Plural. This will involve writing new parent and element classes for plural at least.
-
-This works using the libsingular interface, without inheriting from the commutative polynomial classes now:
-{{{
+This works using the libsingular interface, without inheriting from the commutative polynomial classes now: 
+```txt
 sage: A.<x,y,z>=FreeAlgebra(QQ,3)
 sage: H=A.g_algebra({y*x:x*y-z, z*x:x*z+2*x, z*y:y*z-2*y})
 sage: H.inject_variables()
@@ -132,9 +132,9 @@ y*z - 2*y
 sage: I = H.ideal([y^2, x^2, z^2-H.one_element()],coerce=False)
 sage: I._groebner_basis_libsingular()
 [z^2 - 1, y*z - y, x*z + x, y^2, 2*x*y - z - 1, x^2]
-}}}
-This meant adding a lot of instances of this in the interface:
-{{{
+```
+This meant adding a lot of instances of this in the interface: 
+```txt
             if PY_TYPE_CHECK(a, MPolynomialIdeal) or \
                     PY_TYPE_CHECK(a, NCPolynomialIdeal):
                 ring2 = a.ring()
@@ -144,9 +144,9 @@ This meant adding a lot of instances of this in the interface:
             elif PY_TYPE_CHECK(a, MPolynomialRing_libsingular) or \
                     PY_TYPE_CHECK(a, NCPolynomialRing_plural):
                 ring2 = a
-}}}
-Michael volunteered to fix the rest of these. We also need coercion to work:
-{{{
+```
+Michael volunteered to fix the rest of these. We also need coercion to work: 
+```txt
 sage: z^2-1
 ---------------------------------------------------------------------------
 NotImplementedError                       Traceback (most recent call last)
@@ -156,110 +156,99 @@ Also, please make sure you have implemented has_coerce_map_from_impl or has_coer
 
 sage: z^2-H.one_element()
 z^2 - 1
-}}}
+```
 
-== Multivariate GCD, factorization, etc. benchmarks ==
+## Multivariate GCD, factorization, etc. benchmarks
 
- People: Martin Lee, Burcin, Markus, Michael Brickenstein
+* People: Martin Lee, Burcin, Markus, Michael Brickenstein 
+Take a look at the new code in GIAC, <a class="http" href="http://www-fourier.ujf-grenoble.fr/~parisse/giac/benchmarks/benchmarks.html">benchmarks posted here</a>. Compare to improvements in Singular-Factory. <a href="/MultivariateGCDBenchmarks">See here</a> for more gcd benchmarks and scripts. 
 
-Take a look at the new code in GIAC, [[http://www-fourier.ujf-grenoble.fr/~parisse/giac/benchmarks/benchmarks.html|benchmarks posted here]]. Compare to improvements in Singular-Factory. [[MultivariateGCDBenchmarks|See here]] for more gcd benchmarks and scripts.
+Polynomials in Q[x,y,z]: 
 
-Polynomials in Q[x,y,z]:
+1. ((1+x+y+z)<sup>20</sup>+1)*((1+x+y+z)<sup>20</sup>+2) 
+1. ((1+x+y+z)<sup>30</sup>+1)*((1+x+y+z)<sup>30</sup>+2) 
+1. (x+y+z<sup>2</sup>)<sup>25</sup>-(y-x+3*z-1+x<sup>2</sup>)<sup>25</sup> 
+1. (x+y+z)<sup>30</sup>-1 
+1. (2+x-y+z)<sup>20</sup>-2<sup>20</sup> 
+1. x<sup>200</sup>-1 
+1. x<sup>50</sup>-2<sup>50</sup> 
+1. x<sup>40</sup>-(y+z)<sup>40</sup> 
+1. (x+y)<sup>10</sup>-(y-z)<sup>10</sup> 
+1. (1-3*x-4*y+3*z-y*z<sup>2</sup>-3*y*z<sup>3</sup>-y<sup>2</sup>*z-3*y<sup>2</sup>*z<sup>2</sup>+3*y<sup>2</sup>*z<sup>3</sup>-y<sup>3</sup>*z-2*y<sup>3</sup>*z<sup>2</sup>-3*y<sup>3</sup>*z<sup>3</sup>+3*x*z-3*x*z<sup>2</sup>+2*x*z<sup>3</sup>+x*y-3*x*y<sup>3</sup>+3*x<sup>2</sup>*z-4*x<sup>2</sup>*z<sup>2</sup>-x<sup>2</sup>*z<sup>3</sup>-x<sup>2</sup>*y+3*x<sup>2</sup>*y<sup>2</sup>-5*x<sup>2</sup>*y<sup>3</sup>-x<sup>3</sup>*z-5*x<sup>3</sup>*z<sup>2</sup>-2*x<sup>3</sup>*z<sup>3</sup>+2*x<sup>3</sup>*y+4*x<sup>3</sup>*y<sup>3</sup>-x*y<sup>2</sup>+3*x*y<sup>2</sup>*z+4*x<sup>3</sup>*y<sup>2</sup>+3*y*z-5*z<sup>3</sup>-4*y<sup>2</sup>+2*y<sup>3</sup>+2*x<sup>2</sup>*y<sup>2</sup>*z<sup>2</sup>+3*x*y<sup>3</sup>*z<sup>2</sup>+3*x*y<sup>3</sup>*z+4*x*y*z<sup>2</sup>+3*x*y<sup>3</sup>*z<sup>3</sup>-5*x*y<sup>2</sup>*z<sup>2</sup>+3*x*y*z-3*x<sup>3</sup>*y<sup>3</sup>*z-5*x<sup>2</sup>*y<sup>3</sup>*z<sup>3</sup>-5*x*y<sup>2</sup>*z<sup>3</sup>-5*x<sup>2</sup>*y*z<sup>2</sup>+3*x<sup>2</sup>*y<sup>3</sup>*z-x<sup>3</sup>*y<sup>2</sup>*z<sup>2</sup>-x<sup>3</sup>*y<sup>2</sup>*z-x<sup>3</sup>*y<sup>2</sup>*z<sup>3</sup>-4*x<sup>2</sup>*y<sup>2</sup>*z<sup>3</sup>+2*x<sup>2</sup>*y*z-4*x<sup>2</sup>*y*z<sup>3</sup>+x<sup>2</sup>*y<sup>3</sup>*z<sup>2</sup>-x<sup>2</sup>*y<sup>2</sup>*z-5*x<sup>3</sup>*y*z<sup>2</sup>-x<sup>3</sup>*y*z<sup>3</sup>-x<sup>3</sup>*y*z-5*x*y*z<sup>3</sup>-2*x<sup>2</sup>+3*x<sup>3</sup>)<sup>4</sup>-1 
+1. (360-201*x+389*y+258*z-200*y*z+491*y*z<sup>2</sup>+493*y<sup>2</sup>*z+454*y<sup>2</sup>*z<sup>2</sup>-401*x*z+49*x*z<sup>2</sup>-304*x*y-484*x*y<sup>2</sup>+262*x<sup>2</sup>*z-339*x<sup>2</sup>*z<sup>2</sup>-227*x<sup>2</sup>*y-330*x<sup>2</sup>*y<sup>2</sup>+250*z<sup>2</sup>-495*y<sup>2</sup>-218*x*y*z-476*x<sup>2</sup>*y<sup>2</sup>*z<sup>2</sup>+243*x*y<sup>2</sup>*z+94*x<sup>2</sup>*y<sup>2</sup>*z+240*x*y<sup>2</sup>*z<sup>2</sup>-149*x*y*z<sup>2</sup>-321*x<sup>2</sup>*y*z-189*x<sup>2</sup>*y*z<sup>2</sup>+357*x<sup>2</sup>)<sup>4</sup>-1 
+1. x<sup>800</sup>-1 
+1. (101-139*x-24*y+104*z-103*y*z-451*y*z<sup>2</sup>-326*y<sup>2</sup>*z-493*y<sup>2</sup>*z<sup>2</sup>-327*x*z+439*x*z<sup>2</sup>-108*x*y+155*x*y<sup>2</sup>+121*x<sup>2</sup>*z-462*x<sup>2</sup>*z<sup>2</sup>+103*x<sup>2</sup>*y+217*x<sup>2</sup>*y<sup>2</sup>+327*z<sup>2</sup>-122*y<sup>2</sup>+344*x*y*z-262*x<sup>2</sup>*y<sup>2</sup>*z<sup>2</sup>+396*x*y<sup>2</sup>*z+8*x<sup>2</sup>*y<sup>2</sup>*z-47*x*y<sup>2</sup>*z<sup>2</sup>-314*x*y*z<sup>2</sup>+82*x<sup>2</sup>*y*z-50*x<sup>2</sup>*y*z<sup>2</sup>-424*x<sup>2</sup>)<sup>6</sup>-1 
+1. (14878-22176*x+8386*y+41700*z-38290*y*z+44119*y*z<sup>2</sup>-37070*y<sup>2</sup>*z+45024*y<sup>2</sup>*z<sup>2</sup>+47986*x*z-28140*x*z<sup>2</sup>+33417*x*y-31087*x*y<sup>2</sup>+45572*x<sup>2</sup>*z-46632*x<sup>2</sup>*z<sup>2</sup>-77*x<sup>2</sup>*y-15943*x<sup>2</sup>*y<sup>2</sup>-21957*z<sup>2</sup>-14839*y<sup>2</sup>-41351*x*y*z-35985*x<sup>2</sup>*y<sup>2</sup>*z<sup>2</sup>+43811*x*y<sup>2</sup>*z-35522*x<sup>2</sup>*y<sup>2</sup>*z+23454*x*y<sup>2</sup>*z<sup>2</sup>-33462*x*y*z<sup>2</sup>-32836*x<sup>2</sup>*y*z+9538*x<sup>2</sup>*y*z<sup>2</sup>+31480*x<sup>2</sup>)<sup>6</sup>-1 
+1. (-4212647-3198520*x+2950231*y -3315421*z +3701831*y*z +2351230*y*z<sup>2</sup> +108373*y<sup>2</sup>*z +1812831*y<sup>2</sup>*z<sup>2</sup>+379586*x*z-3385311*x*z<sup>2</sup>+2453252*x*y+3838359*x*y<sup>2</sup>+2688541*x<sup>2</sup>*z+1838684*x<sup>2</sup>*z<sup>2</sup>-4852824*x<sup>2</sup>*y-4824055*x<sup>2</sup>*y<sup>2</sup>+90165*z<sup>2</sup>+651277*y<sup>2</sup>+2363714*x*y*z-4782981*x<sup>2</sup>*y<sup>2</sup>*z<sup>2</sup>-4578460*x*y<sup>2</sup>*z+4757744*x<sup>2</sup>*y<sup>2</sup>*z+681595*x*y<sup>2</sup>*z<sup>2</sup>+398600*x*y*z<sup>2</sup>+1864322*x<sup>2</sup>*y*z+1600103*x<sup>2</sup>*y*z<sup>2</sup>+2488109*x<sup>2</sup>)<sup>4</sup>-1 
+1. ((x+y+z)<sup>10</sup> - 4<sup>10</sup>)<sup>5</sup>-3<sup>5</sup> 
+1. ((x+y+z)<sup>5</sup> - 2<sup>5</sup>)<sup>8</sup>-3<sup>8</sup> 
+Bechmarks (someone check these, its late...). 
 
- 1. ((1+x+y+z)^20^+1)*((1+x+y+z)^20^+2)
- 2. ((1+x+y+z)^30^+1)*((1+x+y+z)^30^+2)
- 3. (x+y+z^2^)^25^-(y-x+3*z-1+x^2^)^25^
- 4. (x+y+z)^30^-1
- 5. (2+x-y+z)^20^-2^20^
- 6. x^200^-1
- 7. x^50^-2^50^
- 8. x^40^-(y+z)^40^
- 9. (x+y)^10^-(y-z)^10^
- 10. (1-3*x-4*y+3*z-y*z^2^-3*y*z^3^-y^2^*z-3*y^2^*z^2^+3*y^2^*z^3^-y^3^*z-2*y^3^*z^2^-3*y^3^*z^3^+3*x*z-3*x*z^2^+2*x*z^3^+x*y-3*x*y^3^+3*x^2^*z-4*x^2^*z^2^-x^2^*z^3^-x^2^*y+3*x^2^*y^2^-5*x^2^*y^3^-x^3^*z-5*x^3^*z^2^-2*x^3^*z^3^+2*x^3^*y+4*x^3^*y^3^-x*y^2^+3*x*y^2^*z+4*x^3^*y^2^+3*y*z-5*z^3^-4*y^2^+2*y^3^+2*x^2^*y^2^*z^2^+3*x*y^3^*z^2^+3*x*y^3^*z+4*x*y*z^2^+3*x*y^3^*z^3^-5*x*y^2^*z^2^+3*x*y*z-3*x^3^*y^3^*z-5*x^2^*y^3^*z^3^-5*x*y^2^*z^3^-5*x^2^*y*z^2^+3*x^2^*y^3^*z-x^3^*y^2^*z^2^-x^3^*y^2^*z-x^3^*y^2^*z^3^-4*x^2^*y^2^*z^3^+2*x^2^*y*z-4*x^2^*y*z^3^+x^2^*y^3^*z^2^-x^2^*y^2^*z-5*x^3^*y*z^2^-x^3^*y*z^3^-x^3^*y*z-5*x*y*z^3^-2*x^2^+3*x^3^)^4^-1
- 11. (360-201*x+389*y+258*z-200*y*z+491*y*z^2^+493*y^2^*z+454*y^2^*z^2^-401*x*z+49*x*z^2^-304*x*y-484*x*y^2^+262*x^2^*z-339*x^2^*z^2^-227*x^2^*y-330*x^2^*y^2^+250*z^2^-495*y^2^-218*x*y*z-476*x^2^*y^2^*z^2^+243*x*y^2^*z+94*x^2^*y^2^*z+240*x*y^2^*z^2^-149*x*y*z^2^-321*x^2^*y*z-189*x^2^*y*z^2^+357*x^2^)^4^-1
- 12. x^800^-1
- 13. (101-139*x-24*y+104*z-103*y*z-451*y*z^2^-326*y^2^*z-493*y^2^*z^2^-327*x*z+439*x*z^2^-108*x*y+155*x*y^2^+121*x^2^*z-462*x^2^*z^2^+103*x^2^*y+217*x^2^*y^2^+327*z^2^-122*y^2^+344*x*y*z-262*x^2^*y^2^*z^2^+396*x*y^2^*z+8*x^2^*y^2^*z-47*x*y^2^*z^2^-314*x*y*z^2^+82*x^2^*y*z-50*x^2^*y*z^2^-424*x^2^)^6^-1
- 14. (14878-22176*x+8386*y+41700*z-38290*y*z+44119*y*z^2^-37070*y^2^*z+45024*y^2^*z^2^+47986*x*z-28140*x*z^2^+33417*x*y-31087*x*y^2^+45572*x^2^*z-46632*x^2^*z^2^-77*x^2^*y-15943*x^2^*y^2^-21957*z^2^-14839*y^2^-41351*x*y*z-35985*x^2^*y^2^*z^2^+43811*x*y^2^*z-35522*x^2^*y^2^*z+23454*x*y^2^*z^2^-33462*x*y*z^2^-32836*x^2^*y*z+9538*x^2^*y*z^2^+31480*x^2^)^6^-1
- 15. (-4212647-3198520*x+2950231*y -3315421*z +3701831*y*z +2351230*y*z^2^ +108373*y^2^*z +1812831*y^2^*z^2^+379586*x*z-3385311*x*z^2^+2453252*x*y+3838359*x*y^2^+2688541*x^2^*z+1838684*x^2^*z^2^-4852824*x^2^*y-4824055*x^2^*y^2^+90165*z^2^+651277*y^2^+2363714*x*y*z-4782981*x^2^*y^2^*z^2^-4578460*x*y^2^*z+4757744*x^2^*y^2^*z+681595*x*y^2^*z^2^+398600*x*y*z^2^+1864322*x^2^*y*z+1600103*x^2^*y*z^2^+2488109*x^2^)^4^-1
- 16. ((x+y+z)^10^ - 4^10^)^5^-3^5^
- 17. ((x+y+z)^5^ - 2^5^)^8^-3^8^
+GIAC and Singular on AMD opeteron 2800MHZ,  Magma on AMD opeteron 2300MHZ (due to licence) 
 
-Bechmarks (someone check these, its late...).
+time in s (using timer in singular, which is probably not very excact) 
+Polynomial | GIAC 9.0.2 | Singular 3.1.1.3 | Magma
+ 1  |  1  |  15  |  9 
+ 2  |  13  |  111  |  164 
+ 3  |  1  |  4  |  3 
+ 4  |  0  |  1  |  1 
+ 5  |  0  |  0  |  0 
+ 6  |  0  |  0  |  0 
+ 7  |  0  |  integer overflow  |  0 
+ 8  |  0  |  0  |  0 
+ 9  |  0  |  0  |  0 
+ 10  |  0  |  0  |  0 
+ 11  |  0  |  1  |  0 
+ 12  |  0  |  0  |  0 
+ 13  |  1  |  1  |  0 
+ 14  |  1  |  1  |  0 
+ 15  |  0  |  1  |  0 
+ 16  |  0  |  1  |  0 
+ 17  |  1  |  1  |  1 
+ 18  |  0  |  1  |  1 
 
-GIAC and Singular on AMD opeteron 2800MHZ,  Magma on AMD opeteron 2300MHZ (due to licence)
 
-time in s (using timer in singular, which is probably not very excact)
+## Implement multivariate factorization over finite fields
 
-||Polynomial||GIAC 9.0.2||Singular 3.1.1.3||Magma||
-|| 1 || 1 || 15 || 9 ||
-|| 2 || 13 || 111 || 164 ||
-|| 3 || 1 || 4 || 3 ||
-|| 4 || 0 || 1 || 1 ||
-|| 5 || 0 || 0 || 0 ||
-|| 6 || 0 || 0 || 0 ||
-|| 7 || 0 || integer overflow || 0 ||
-|| 8 || 0 || 0 || 0 ||
-|| 9 || 0 || 0 || 0 ||
-|| 10 || 0 || 0 || 0 ||
-|| 11 || 0 || 1 || 0 ||
-|| 12 || 0 || 0 || 0 ||
-|| 13 || 1 || 1 || 0 ||
-|| 14 || 1 || 1 || 0 ||
-|| 15 || 0 || 1 || 0 ||
-|| 16 || 0 || 1 || 0 ||
-|| 17 || 1 || 1 || 1 ||
-|| 18 || 0 || 1 || 1 ||
+* People: Burcin, William Stein, Martin Albrecht See <a href="/days23.5/projects/factor">this page</a>. 
 
-== Implement multivariate factorization over finite fields ==
+## Fix bug(s) in Singular needed for updating the spkg
 
- People: Burcin, William Stein, Martin Albrecht
+* People: Frank 
+   * Some reduction over the integers goes wrong 
 
- See [[/factor|this page]].
+## (Done) Error handling in Libsingular
 
-== Fix bug(s) in Singular needed for updating the spkg ==
+* People: Martin Albrecht, Hans S. 
+   * Goal: If you have a singular library function and it goes wrong, then afterwards you can still use singular library functions.  Patch up at Sage ticket: <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9499">#9499</a> (positive review) 
 
- People: Frank
+## (Done) Catch Singular error messages
 
-  * Some reduction over the integers goes wrong
+People: Martin Albrecht 
 
-== (Done) Error handling in Libsingular ==
+<a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9506">#9506</a> 
 
- People: Martin Albrecht, Hans S.
 
-  Goal: If you have a singular library function and it goes wrong, then afterwards you can still use singular library functions. 
+# other stuff
 
-  Patch up at Sage ticket: [[http://trac.sagemath.org/sage_trac/ticket/9499|#9499]] (positive review)
 
-== (Done) Catch Singular error messages ==
+## @fork, @parallel decorator
 
-People: Martin Albrecht
-
-[[http://trac.sagemath.org/sage_trac/ticket/9506|#9506]]
-
-= other stuff =
-== @fork, @parallel decorator ==
-
- People: Robert Miller, William Stein
-
- Ticket: See [[http://trac.sagemath.org/sage_trac/ticket/9501|trac 9501]].
-
-Simon King mentioned that sometimes his code crashes/leaks/etc.  So make it so one can do:
-{{{
+* People: Robert Miller, William Stein Ticket: See <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9501">trac 9501</a>. 
+Simon King mentioned that sometimes his code crashes/leaks/etc.  So make it so one can do: 
+```txt
 @fork
 def f(x,y,z,...):
     ...
-}}}
-and then f gets computed in a blocking forked process, and the result is returned via pickling. This is 100% to thwart mem leaks, segfaults, and guaranteed timeout possibility.   This could be basically just a light wrapper around @parallel(1).  Also, make a global flag to turn this off, so @fork does nothing. 
+```
+and then f gets computed in a blocking forked process, and the result is returned via pickling. This is 100% to thwart mem leaks, segfaults, and guaranteed timeout possibility.   This could be basically just a light wrapper around @parallel(1).  Also, make a global flag to turn this off, so @fork does nothing.  
 
-== Profiling Cython code ==
 
- People: Robert Miller
+## Profiling Cython code
 
- An example of using C library function `clock()` to count clock ticks...
+* People: Robert Miller An example of using C library function `clock()` to count clock ticks... <a href="days23.5/projects/timing_binary_codes.patch">timing_binary_codes.patch</a> 
 
- [[attachment:timing_binary_codes.patch]]
-
-{{{
+```txt
 sage: gc = sage.coding.code_constructions.BinaryGolayCode()
 sage: M = gc.extended_code().gen_mat()
 sage: from sage.groups.perm_gps.partn_ref.refinement_binary import LinearBinaryCodeStruct
@@ -281,4 +270,4 @@ wd deg tot clock ticks 659583
 cl deg tot clock ticks 183800
      193324 calls
      0.950735552751 per call
-}}}
+```

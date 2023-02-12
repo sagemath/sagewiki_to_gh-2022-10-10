@@ -1,12 +1,12 @@
-= Database Code =
-
-Robert Bradshaw planned a simple abstract base class.  I implemented a simple demo of it, which is here:
 
 
-   http://sage.math.washington.edu/home/wstein/days/17/db/
+# Database Code
 
-Demo of using it:
-{{{
+Robert Bradshaw planned a simple abstract base class.  I implemented a simple demo of it, which is here: 
+
+      * <a href="http://sage.math.washington.edu/home/wstein/days/17/db/">http://sage.math.washington.edu/home/wstein/days/17/db/</a> 
+Demo of using it: 
+```txt
 sage: attach "lmfdb.py"
 sage: db = CuspidalSubgroupJ0N()
 sage: db
@@ -43,4 +43,4 @@ sage: for N, X in db( lambda z: len(z) == 2 ):
 15 [2, 4]
 21 [2, 4]
 22 [5, 5]
-}}}
+```

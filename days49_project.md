@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 Sage Days 49 Coding Sprint Projects
 ===================================
@@ -34,4 +37,4 @@ Documentation
 Teaching
 --------
 
-}}}
+```

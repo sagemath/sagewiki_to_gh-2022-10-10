@@ -1,41 +1,42 @@
-Photos from Sage Days 42.
 
-[[attachment:DSC_2304.JPG]]
+Photos from Sage Days 42. 
 
-[[attachment:DSC_2305.JPG]]
+<a href="days42/photos/DSC_2304.JPG">DSC_2304.JPG</a> 
 
-[[attachment:DSC_2310.JPG]]
+<a href="days42/photos/DSC_2305.JPG">DSC_2305.JPG</a> 
 
-[[attachment:DSC_2311.JPG]]
+<a href="days42/photos/DSC_2310.JPG">DSC_2310.JPG</a> 
 
-[[attachment:DSC_2313.JPG]]
+<a href="days42/photos/DSC_2311.JPG">DSC_2311.JPG</a> 
 
-[[attachment:DSC_2315.JPG]]
+<a href="days42/photos/DSC_2313.JPG">DSC_2313.JPG</a> 
 
-[[attachment:DSC_2319.JPG]]
+<a href="days42/photos/DSC_2315.JPG">DSC_2315.JPG</a> 
 
-[[attachment:DSC_2320.JPG]]
+<a href="days42/photos/DSC_2319.JPG">DSC_2319.JPG</a> 
 
-[[attachment:DSC_2921.JPG]]
+<a href="days42/photos/DSC_2320.JPG">DSC_2320.JPG</a> 
 
-[[attachment:DSC_2922.JPG]]
+<a href="days42/photos/DSC_2921.JPG">DSC_2921.JPG</a> 
 
-[[attachment:DSC_2924.JPG]]
+<a href="days42/photos/DSC_2922.JPG">DSC_2922.JPG</a> 
 
-[[attachment:DSC_2925.JPG]]
+<a href="days42/photos/DSC_2924.JPG">DSC_2924.JPG</a> 
 
-[[attachment:DSC_2928.JPG]]
+<a href="days42/photos/DSC_2925.JPG">DSC_2925.JPG</a> 
 
-[[attachment:DSC_2930.jpg]]
+<a href="days42/photos/DSC_2928.JPG">DSC_2928.JPG</a> 
 
-[[attachment:DSC_2932.jpg]]
+<a href="days42/photos/DSC_2930.jpg">DSC_2930.jpg</a> 
 
-[[attachment:DSC_2946.JPG]]
+<a href="days42/photos/DSC_2932.jpg">DSC_2932.jpg</a> 
 
-[[attachment:DSC_2949.jpg]]
+<a href="days42/photos/DSC_2946.JPG">DSC_2946.JPG</a> 
 
-[[attachment:DSC_2951.jpg]]
+<a href="days42/photos/DSC_2949.jpg">DSC_2949.jpg</a> 
 
-[[attachment:DSC_2954_2.JPG]]
+<a href="days42/photos/DSC_2951.jpg">DSC_2951.jpg</a> 
 
-[[attachment:DSC_2959_3.JPG]]
+<a href="days42/photos/DSC_2954_2.JPG">DSC_2954_2.JPG</a> 
+
+<a href="days42/photos/DSC_2959_3.JPG">DSC_2959_3.JPG</a> 

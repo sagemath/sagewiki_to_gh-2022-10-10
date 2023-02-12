@@ -1,49 +1,54 @@
-= Sage Days 24 Coding Sprint Projects =
 
-This is a list of projects suitable for [[days24|Sage Days 24]]. Feel free to add your favourite ideas/wishes, and to put your name down for something you're interested in (you'll need to get an account on the wiki to do this).
 
-<<TableOfContents>>
+# Sage Days 24 Coding Sprint Projects
 
-== GIAC Factoring ==
+This is a list of projects suitable for <a href="/days24">Sage Days 24</a>. Feel free to add your favourite ideas/wishes, and to put your name down for something you're interested in (you'll need to get an account on the wiki to do this). 
 
-'''People:''' Thomas, Burcin, Richard, '''William Stein'''
+[[_TOC_]] 
 
-See [[http://groups.google.com/group/sage-devel/browse_thread/thread/81de8a7cdd694077|this sage-devel discussion]].
 
-== Kovacic's Algorithm ==
+## GIAC Factoring
 
-'''People:''' '''Burcin''', Felix, Frédéric
+**People:** Thomas, Burcin, Richard, **William Stein** 
 
-Implement Kovacic's algorithm in Sage.
+See <a class="http" href="http://groups.google.com/group/sage-devel/browse_thread/thread/81de8a7cdd694077">this sage-devel discussion</a>. 
 
-We have code to determine the coefficients of the $m$-th symmetric power of an operator $L$ and a clear description of how to find rational solutions of a differential equation with rational coefficients using only polynomial operations. Burcin will implement this method ''soon''.
 
-== Hypergeometric Functions ==
+## Kovacic's Algorithm
 
-'''People:''' Flavia Stan, '''Fredrik Johansson''', Zaf
+**People:** **Burcin**, Felix, Frédéric 
 
-Add a hypergeometric function class + simplifications
+Implement Kovacic's algorithm in Sage. 
 
-A patch (needs further work) is available here: [[http://trac.sagemath.org/sage_trac/ticket/2516]]
+We have code to determine the coefficients of the $m$-th symmetric power of an operator $L$ and a clear description of how to find rational solutions of a differential equation with rational coefficients using only polynomial operations. Burcin will implement this method _soon_. 
 
-== Dynamic attributes for classes derived from Function ==
 
-'''People:''' Simon, Burcin
+## Hypergeometric Functions
 
-See [[http://trac.sagemath.org/sage_trac/ticket/9556|Trac #9556]] for this as well as an additional implementation using dynamic classes.
+**People:** Flavia Stan, **Fredrik Johansson**, Zaf 
 
-Let {{{f}}} be an instance of a subclass of {{{BuiltinFunction}}}, and let {{{t}}} be obtained by calling {{{f(a,b,c)}}}. According to Burcin, for implementing hypergeometric functions it would be useful to be able to access the methods (say, 'foo') of {{{f}}} that are not methods of {{{BuiltinFunction}}}, so that calling {{{t.foo()}}} is the same as {{{f.foo(a,b,c)}}}. 
+Add a hypergeometric function class + simplifications 
 
-Of course, it would be nice to have 'foo' show up in tab completion and in {{{dir(t)}}}. The code we wrote seems to solve it, and should be posted to trac after adding some doctests. Here is an example.
-Let {{{ExampleBuiltin(BuiltinFunction)}}} be a class that defines a method
-{{{
+A patch (needs further work) is available here: <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/2516">http://trac.sagemath.org/sage_trac/ticket/2516</a> 
+
+
+## Dynamic attributes for classes derived from Function
+
+**People:** Simon, Burcin 
+
+See <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9556">Trac #9556</a> for this as well as an additional implementation using dynamic classes. 
+
+Let `f` be an instance of a subclass of `BuiltinFunction`, and let `t` be obtained by calling `f(a,b,c)`. According to Burcin, for implementing hypergeometric functions it would be useful to be able to access the methods (say, 'foo') of `f` that are not methods of `BuiltinFunction`, so that calling `t.foo()` is the same as `f.foo(a,b,c)`.  
+
+Of course, it would be nice to have 'foo' show up in tab completion and in `dir(t)`. The code we wrote seems to solve it, and should be posted to trac after adding some doctests. Here is an example. Let `ExampleBuiltin(BuiltinFunction)` be a class that defines a method 
+```txt
     def some_function_name(self, *args):
         print self
         print args
         return len(args)
-}}}
-Then, one can do
-{{{
+```
+Then, one can do 
+```txt
 sage: ex_func = ExampleBuiltin()
 sage: t = ex_func(x,x+1, x+2)
 # introspection:
@@ -58,100 +63,104 @@ sage: t.some_function_name()
 ex_func
 (x, x + 1, x + 2)
 3
-}}}
+```
 
-==  (done/needs review) Plural support ==
+## (done/needs review) Plural support
 
-'''People:''' '''Oleksandr Motsak, Alexander Dreyer''', Burcin Erocal, Simon King, Burkhard
+**People:** **Oleksandr Motsak, Alexander Dreyer**, Burcin Erocal, Simon King, Burkhard 
 
-Goal: add support for noncommutative Singular algebras: [[http://trac.sagemath.org/sage_trac/ticket/4539|#4539]].
+Goal: add support for noncommutative Singular algebras: <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/4539">#4539</a>. 
 
-Our [[http://trac.sagemath.org/sage_trac/attachment/ticket/4539/plural-wrapper-2010-07-22.patch|final folded patch]] needs review.
+Our <a class="http" href="http://trac.sagemath.org/sage_trac/attachment/ticket/4539/plural-wrapper-2010-07-22.patch">final folded patch</a> needs review. 
 
-'''Please review!'''
+**Please review!** 
 
-Note that it assumes the latest Singular (due to [[http://trac.sagemath.org/sage_trac/ticket/8059|#8059]]).
+Note that it assumes the latest Singular (due to <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/8059">#8059</a>). 
 
-== Parallel Integration ==
 
-'''People:''' '''Stefan Boettner''', Ralf, Burkhard, Burcin Erocal
+## Parallel Integration
 
-Integrate Stefan Boettner's parallel integration code in Sage. There are several prerequisites for this, such as
- * algebraic function fields (transcendence degree > 1)
- * differential rings/fields
- * proper to_polynomial(), to_rational() functions for symbolic expressions
+**People:** **Stefan Boettner**, Ralf, Burkhard, Burcin Erocal 
 
-== Number Fields ==
+Integrate Stefan Boettner's parallel integration code in Sage. There are several prerequisites for this, such as 
 
- '''People:''' '''William Stein''', Sebastian Pancratz
+* algebraic function fields (transcendence degree > 1) 
+* differential rings/fields 
+* proper to_polynomial(), to_rational() functions for symbolic expressions 
 
-Rewrite/refactor number fields so they can use FLINT and Singular, etc. for arithmetic, which will lead to cleaner code and massive, massive speedups.   See [[http://trac.sagemath.org/sage_trac/ticket/9541|trac 9541]].
+## Number Fields
 
-== Function Fields ==
+* **People:** **William Stein**, Sebastian Pancratz 
+Rewrite/refactor number fields so they can use FLINT and Singular, etc. for arithmetic, which will lead to cleaner code and massive, massive speedups.   See <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9541">trac 9541</a>. 
 
-The goal of this project is to get the basic infrastructure for function fields into Sage.   See [[daysff/curves|Hess's papers and talks]].
 
-People: '''William Stein''', Sebastian P.
+## Function Fields
 
- * Trac 9054: [[http://trac.sagemath.org/sage_trac/ticket/9054|Create a class for basic function_field arithmetic for Sage]]
- * Trac 9069: [[http://trac.sagemath.org/sage_trac/ticket/9069|Weak Popov Form (reduction algorithm)]]
- * Trac 9094: [[http://trac.sagemath.org/sage_trac/ticket/9094|is_square and sqrt for polynomials and fraction fields]]
- * Trac 9095: [[http://trac.sagemath.org/sage_trac/ticket/9095|Heights of points on elliptic curves over function fields]]
- 
-Make sure to see [[daysff/curves|this page for more links]].
+The goal of this project is to get the basic infrastructure for function fields into Sage.   See <a href="/daysff/curves">Hess's papers and talks</a>. 
 
-== Fast linear algebra over small extensions of GF(2) ==
+People: **William Stein**, Sebastian P. 
 
-'''People''': Martin Albrecht
+* Trac 9054: <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9054">Create a class for basic function_field arithmetic for Sage</a> 
+* Trac 9069: <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9069">Weak Popov Form (reduction algorithm)</a> 
+* Trac 9094: <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9094">is_square and sqrt for polynomials and fraction fields</a> 
+* Trac 9095: <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9095">Heights of points on elliptic curves over function fields</a> 
+Make sure to see <a href="/daysff/curves">this page for more links</a>. 
 
-Implement fast-ish linear algebra over GF(2^n) for n small.
 
-[[days24/projects/gf2e|project page]]
+## Fast linear algebra over small extensions of GF(2)
 
-== Generating Stuff ==
+**People**: Martin Albrecht 
 
-'''People:''' Robert Miller (self-determination!)
+Implement fast-ish linear algebra over GF(2^n) for n small. 
 
-Now there is a trac ticket:
+<a href="/days24/projects/gf2e">project page</a> 
 
-[[http://trac.sagemath.org/sage_trac/ticket/9559|trac ticket #9559]]
 
-== Fix sage.functions ==
+## Generating Stuff
 
-'''People:''' '''Frederik''', William Stein, Harald
+**People:** Robert Miller (self-determination!) 
 
-Move the remaining special functions in {{{sage.functions}}} to the new symbolics framework based on Pynac. This will make them work with symbolic input and be included in symbolic expressions.
+Now there is a trac ticket: 
 
-This task provides several small tasks to get acquainted with the symbolics framework. Some examples:
+<a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9559">trac ticket #9559</a> 
 
- * [[http://trac.sagemath.org/sage_trac/ticket/9130|#9130]] Access to beta function
- * [[http://trac.sagemath.org/sage_trac/ticket/3401|#3401]] extend li to work with complex arguments
- * [[http://trac.sagemath.org/sage_trac/ticket/7357|#7357]] add non offset logarithmi
- * [[http://trac.sagemath.org/sage_trac/ticket/8383|#8383]] make symbolic versions of moebius, sigma and euler_phi
- * erf:
-   * [[http://trac.sagemath.org/sage_trac/ticket/8983]] erf(0) should return 0
-   * [[http://trac.sagemath.org/sage_trac/ticket/1173]] implement numerical evaluation of erf at complex arguments
-   * [[http://trac.sagemath.org/sage_trac/ticket/8568]] cannot simplify derivative of erf
- * bessel:
-   * [[http://trac.sagemath.org/sage_trac/ticket/3426]] bessel_K function is broken
-   * [[http://trac.sagemath.org/sage_trac/ticket/4320]] implement arbitrary precision Bessel Y
- * [[http://trac.sagemath.org/sage_trac/ticket/4498]] symbolic arg function
 
-== Easy ripping apart of symbolic expression trees ==
+## Fix sage.functions
 
-'''People:''' '''Burcin''', Thomas, Stefan, Frederik
+**People:** **Frederik**, William Stein, Harald 
 
-We plan to use {{{__getitem__}}} to access operands of symbolic expressions, and {{{.index[i:dim]}}} for indexed expressions. Tuple arguments to {{{__getitem__}}} will be equivalent to recursive calls, i.e., {{{t[1,1,2] = t[1][1][2]}}}.
+Move the remaining special functions in `sage.functions` to the new symbolics framework based on Pynac. This will make them work with symbolic input and be included in symbolic expressions. 
 
-There is a preliminary implementation of {{{__getitem__}}} (which is commented out) already in {{{sage.symbolic.expression.Expression}}}. Uncommenting this leads to a few doctest errors, since symbolic expressions are now interpreted as iterable objects.
+This task provides several small tasks to get acquainted with the symbolics framework. Some examples: 
 
-== (done) Matrix group actions on polynomials ==
+* <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9130">#9130</a> Access to beta function 
+* <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/3401">#3401</a> extend li to work with complex arguments 
+* <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/7357">#7357</a> add non offset logarithmi 
+* <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/8383">#8383</a> make symbolic versions of moebius, sigma and euler_phi 
+* erf: 
+      * <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/8983">http://trac.sagemath.org/sage_trac/ticket/8983</a> erf(0) should return 0 
+      * <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/1173">http://trac.sagemath.org/sage_trac/ticket/1173</a> implement numerical evaluation of erf at complex arguments 
+      * <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/8568">http://trac.sagemath.org/sage_trac/ticket/8568</a> cannot simplify derivative of erf 
+* bessel: 
+      * <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/3426">http://trac.sagemath.org/sage_trac/ticket/3426</a> bessel_K function is broken 
+      * <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/4320">http://trac.sagemath.org/sage_trac/ticket/4320</a> implement arbitrary precision Bessel Y 
+* <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/4498">http://trac.sagemath.org/sage_trac/ticket/4498</a> symbolic arg function 
 
-'''People:''' Simon
+## Easy ripping apart of symbolic expression trees
 
-(review needed for [[http://trac.sagemath.org/sage_trac/ticket/4513|4513]])
-So far, a matrix group could act on, e.g., vectors. If it tried to act on something else, it always tried to do a matrix multiplication - which is not what we want for an action on polynomials! The patch in trac allows to do:
-{{{
+**People:** **Burcin**, Thomas, Stefan, Frederik 
+
+We plan to use `__getitem__` to access operands of symbolic expressions, and `.index[i:dim]` for indexed expressions. Tuple arguments to `__getitem__` will be equivalent to recursive calls, i.e., `t[1,1,2] = t[1][1][2]`. 
+
+There is a preliminary implementation of `__getitem__` (which is commented out) already in `sage.symbolic.expression.Expression`. Uncommenting this leads to a few doctest errors, since symbolic expressions are now interpreted as iterable objects. 
+
+
+## (done) Matrix group actions on polynomials
+
+**People:** Simon 
+
+(review needed for <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/4513">4513</a>) So far, a matrix group could act on, e.g., vectors. If it tried to act on something else, it always tried to do a matrix multiplication - which is not what we want for an action on polynomials! The patch in trac allows to do: 
+```txt
 sage: M = Matrix(GF(3),[[1,2],[1,1]])
 sage: N = Matrix(GF(3),[[2,2],[2,1]])
 sage: G = MatrixGroup([M,N])
@@ -192,15 +201,16 @@ sage: (n*m)*x == n*(m*x)
 True
 sage: x*(n*m) == (x*n)*m
 True
-}}}
+```
 
-== (done) Port the trial division example from William's cython talk from 'unsigned long' to 'mpz_t' ==
+## (done) Port the trial division example from William's cython talk from 'unsigned long' to 'mpz_t'
 
-'''People:''' Thomas
+**People:** Thomas 
 
-This was a nice short exercise that I did during/after the cython tutorial to get a bit into cython. This is not a real coding sprint project, but code that I still want to share.
+This was a nice short exercise that I did during/after the cython tutorial to get a bit into cython. This is not a real coding sprint project, but code that I still want to share. 
 
-{{{
+
+```txt
 %cython
 from sage.libs.gmp.mpz cimport mpz_t, mpz_init_set, mpz_init, mpz_cmp_ui, mpz_fdiv_ui, mpz_mul, mpz_cmp, mpz_mod, mpz_clear, mpz_add_ui, mpz_init_set_ui
 from sage.rings.integer cimport Integer
@@ -241,56 +251,55 @@ def trial_division_cython5(n):
     mpz_clear(m)
     mpz_clear(m2)
     return n
-}}}
+```
+For n = 2011*201100000382049576589326756327967 (which is too large for an unsigned long), this code achieves about 50 µs compared to 2ms with the sage.rings.arith.trial_division function. 
 
-For n = 2011*201100000382049576589326756327967 (which is too large for an unsigned long), this code achieves about 50 µs compared to 2ms with the sage.rings.arith.trial_division function.
-
-For the example from the tutorial, it takes about 45µs, which is significantly slower than the 'unsigned long' example, but still a lot faster than sage.rings.arith.trial_division.
-
-== (needs review) Patching Python: Sage-wide deactivation of setup-py's treamtment of user-defined installation prefixes ==
-
-'''People:''' Alexander Dreyer
-The python install programs ({{{setup.py}}} using {{{distutils}}}) suffer from the problem, that it picks the prefix from the ~/.pydistutils.cfg, which may point toi the user's python-path instead those of Sage. Therefore, we need a way for Sage-wide deactiving this feature.
-
-See: http://trac.sagemath.org/sage_trac/ticket/9536
-I backported the handling of setup.py --no-user-cfg from Python 2.7 to Python 2.6.4 and also added the handling of the environment variable DISTUTILS_NO_USER_CFG to python's distutils.
-
-The new spkg can be found here:  http://sage.math.washington.edu/home/dreyer/suse101/python-2.6.4.p10.spkg
-
-The last patch adds this variable to sage-env. 
-
-== Recursive polynomials for SAGE ==
-
-'''People:''' Thomas Bächler
-
-The Singular-based polynomial ring in SAGE uses a distributive polynomial representation, which is not optimal for multiplication. A goal is to implement a recursively represented polynomial ring into SAGE.
-
-The CanonicalForm class in Sigular's factory implements such a representation. A proof-of-concept implementation that supports addition, substraction, negation, multiplaction and exponentiation, as well as coerction from ZZ has been finished.
-
-Factory is very developer-unfriendly, thus a lot of technical hacks had to be applied, and a modified Singular package had to be used - this is not really in a state that makes it fit for being applied to SAGE's Singular spkg. (The kinds of problems that occur are very technical and partially specific to the GNU/Linux dynamic linker, I'll post details later).
-
-Timings of the proof-of-concept implementation for the multiplication of two dense random polynomials in four variables of total degree 25 (each about 23.000 terms):
- * Maple: 678s (11m, 18s)
- * sage.rings.polynomials.MPolynomial_libsingular: 91s
- * sage.rings.polynomials.MPolynomial_factory: 22s
-
-Multiplying ((x+y+z+1)^50)*((x+y+z+1)^50+1):
- * Maple: 1232s
- * sage.rings.polynomials.MPolynomial_libsingular: 603s
- * sage.rings.polynomials.MPolynomial_factory: 234s
- * Mathematica (different machine, a bit faster): 5s (!)
- * Magma (yet another different machine, also a bit faster): 143s
-
-By the way, exponentiation is _very_ slow in MPolynomial_factory, much slower than in MPolynomial_libsingular. Factory's CanonicalForm uses square-and-multiply, while Singular uses binomial coefficients to generate (head+tail)^n. I doubt this can be easily improved in factory.
-
-Preliminary conclusion: Investigating this further is definitely worthwhile. However, due to the various technical problems with Singular/factory, it would be good to find an actively-developped and fast library with a well-designed API - maybe it is best to wait until FLINT2 has viable multivariate multiplication code (which is on the roadmap for the release).
+For the example from the tutorial, it takes about 45µs, which is significantly slower than the 'unsigned long' example, but still a lot faster than sage.rings.arith.trial_division. 
 
 
-== Lecture Scheduler ==
+## (needs review) Patching Python: Sage-wide deactivation of setup-py's treamtment of user-defined installation prefixes
 
-'''People:''' Harald Schilly
+**People:** Alexander Dreyer The python install programs (`setup.py` using `distutils`) suffer from the problem, that it picks the prefix from the ~/.pydistutils.cfg, which may point toi the user's python-path instead those of Sage. Therefore, we need a way for Sage-wide deactiving this feature. 
 
-One of my pet projects is a MILP model to schedule lectures at a university. Since we ship a MILP solver, we should  enable Sage to be able to do this, too. See [[http://sagenb.org/home/pub/2275/|here]] for an example session. An additional idea is to build something similar for scheduling talks at conferences.
+See: <a href="http://trac.sagemath.org/sage_trac/ticket/9536">http://trac.sagemath.org/sage_trac/ticket/9536</a> I backported the handling of setup.py --no-user-cfg from Python 2.7 to Python 2.6.4 and also added the handling of the environment variable DISTUTILS_NO_USER_CFG to python's distutils. 
 
- * [[http://trac.sagemath.org/sage_trac/ticket/9586|Lecture Scheduler ticket]]
- * [[http://trac.sagemath.org/sage_trac/ticket/9587|Conference Scheduler ticket]]
+The new spkg can be found here:  <a href="http://sage.math.washington.edu/home/dreyer/suse101/python-2.6.4.p10.spkg">http://sage.math.washington.edu/home/dreyer/suse101/python-2.6.4.p10.spkg</a> 
+
+The last patch adds this variable to sage-env.  
+
+
+## Recursive polynomials for SAGE
+
+**People:** Thomas Bächler 
+
+The Singular-based polynomial ring in SAGE uses a distributive polynomial representation, which is not optimal for multiplication. A goal is to implement a recursively represented polynomial ring into SAGE. 
+
+The <a href="/CanonicalForm">CanonicalForm</a> class in Sigular's factory implements such a representation. A proof-of-concept implementation that supports addition, substraction, negation, multiplaction and exponentiation, as well as coerction from ZZ has been finished. 
+
+Factory is very developer-unfriendly, thus a lot of technical hacks had to be applied, and a modified Singular package had to be used - this is not really in a state that makes it fit for being applied to SAGE's Singular spkg. (The kinds of problems that occur are very technical and partially specific to the GNU/Linux dynamic linker, I'll post details later). 
+
+Timings of the proof-of-concept implementation for the multiplication of two dense random polynomials in four variables of total degree 25 (each about 23.000 terms): 
+
+* Maple: 678s (11m, 18s) 
+* sage.rings.polynomials.MPolynomial_libsingular: 91s 
+* sage.rings.polynomials.MPolynomial_factory: 22s 
+Multiplying ((x+y+z+1)<sup>50)*((x+y+z+1)</sup>50+1): 
+
+* Maple: 1232s 
+* sage.rings.polynomials.MPolynomial_libsingular: 603s 
+* sage.rings.polynomials.MPolynomial_factory: 234s 
+* Mathematica (different machine, a bit faster): 5s (!) 
+* Magma (yet another different machine, also a bit faster): 143s 
+By the way, exponentiation is _very_ slow in MPolynomial_factory, much slower than in MPolynomial_libsingular. Factory's <a href="/CanonicalForm">CanonicalForm</a> uses square-and-multiply, while Singular uses binomial coefficients to generate (head+tail)^n. I doubt this can be easily improved in factory. 
+
+Preliminary conclusion: Investigating this further is definitely worthwhile. However, due to the various technical problems with Singular/factory, it would be good to find an actively-developped and fast library with a well-designed API - maybe it is best to wait until FLINT2 has viable multivariate multiplication code (which is on the roadmap for the release). 
+
+
+## Lecture Scheduler
+
+**People:** Harald Schilly 
+
+One of my pet projects is a MILP model to schedule lectures at a university. Since we ship a MILP solver, we should  enable Sage to be able to do this, too. See <a class="http" href="http://sagenb.org/home/pub/2275/">here</a> for an example session. An additional idea is to build something similar for scheduling talks at conferences. 
+
+* <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9586">Lecture Scheduler ticket</a> 
+* <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/9587">Conference Scheduler ticket</a> 

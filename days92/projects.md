@@ -1,59 +1,60 @@
-= Projects for "Software tools for mathematics", Jan 2018, Morelia, Mexico =
 
-This is the list of themes and projects for [[days92|Software tools for mathematics]], 22-26 Jan 2018, Morelia, Mexico.
 
-You can add ideas here or send suggestions to the organisers (see [[days92#Contact]]).
+# Projects for "Software tools for mathematics", Jan 2018, Morelia, Mexico
 
-== Introductions, presentations, tutorials, demos, install parties ==
+This is the list of themes and projects for <a href="/days92">Software tools for mathematics</a>, 22-26 Jan 2018, Morelia, Mexico. 
 
-Part of this should take the form of a [[https://software-carpentry.org/|Software Carpentry]] training.
+You can add ideas here or send suggestions to the organisers (see <a href="/days92#Contact">days92#Contact</a>). 
 
-  * Bash
-  * Git
-  * Python
 
-We will also present !CoCalc and Jupyter; depending on the audience, we might insist on
+## Introductions, presentations, tutorials, demos, install parties
 
-  * !CoCalc - Collaborative calculation in the cloud!
-    * !CoCalc for collaboration
-    * !CoCalc for teaching
-  * Jupyter - notebooks for exploration and reproducible research
-    * Jupyter notebooks
-    * !JupyterHub
-    * !JupyterLab
+Part of this should take the form of a <a class="https" href="https://software-carpentry.org/">Software Carpentry</a> training. 
 
-There will also be presentations of GAP, PARI/GP, SageMath, YAGS
+   * Bash 
+   * Git 
+   * Python 
+We will also present CoCalc and Jupyter; depending on the audience, we might insist on 
 
-  * Discreture - A modern C++ library for efficiently and easily iterating through common combinatorial objects
-  * GAP - Groups, Algorithms, Programming - a System for Computational Discrete Algebra
-  * PARI/GP - fast computations in number theory (factorizations, algebraic number theory, elliptic curves...)
-  * !SageMath, the Sage mathematics software system, based on Python and shipping a lot of mathematical free software
-  * YAGS - Yet Another Graph System - a GAP package for graph theory
+   * CoCalc - Collaborative calculation in the cloud! 
+         * CoCalc for collaboration 
+         * CoCalc for teaching 
+   * Jupyter - notebooks for exploration and reproducible research 
+         * Jupyter notebooks 
+         * JupyterHub 
+         * JupyterLab 
+There will also be presentations of GAP, PARI/GP, <a href="/SageMath">SageMath</a>, YAGS 
 
-== Mathematical software and databases ==
+   * Discreture - A modern C++ library for efficiently and easily iterating through common combinatorial objects 
+   * GAP - Groups, Algorithms, Programming - a System for Computational Discrete Algebra 
+   * PARI/GP - fast computations in number theory (factorizations, algebraic number theory, elliptic curves...) 
+   * SageMath, the Sage mathematics software system, based on Python and shipping a lot of mathematical free software 
+   * YAGS - Yet Another Graph System - a GAP package for graph theory 
 
-  * !DiscreteZoo - an atlas of combinatorial structures
-  * the `surface_dynamics` package for Sage and its database of "origamis" or square-tiled surfaces
+## Mathematical software and databases
 
-== TeXmacs ==
+   * DiscreteZoo - an atlas of combinatorial structures 
+   * the `surface_dynamics` package for Sage and its database of "origamis" or square-tiled surfaces 
 
-  * !TeXmacs - typesetting mathematics and more
-  * the !TeXmacs plugin for Sage
+## TeXmacs
 
-== Mathematical themes ==
+   * TeXmacs - typesetting mathematics and more 
+   * the TeXmacs plugin for Sage 
 
-  * graphs
-  * groups
-  * word morphisms, substitutions, Rauzy fractals
-  * flat surfaces
-  * polyhedra
+## Mathematical themes
 
-== Contributing to mathematical free software ==
+   * graphs 
+   * groups 
+   * word morphisms, substitutions, Rauzy fractals 
+   * flat surfaces 
+   * polyhedra 
 
-  * How to contribute to Sage
+## Contributing to mathematical free software
 
-== Ways to use and spread free software for mathematics ==
+   * How to contribute to Sage 
 
-  * !TeXmacs
-  * !SageDebianLive
-  * !CoCalc
+## Ways to use and spread free software for mathematics
+
+   * TeXmacs 
+   * SageDebianLive 
+   * CoCalc 

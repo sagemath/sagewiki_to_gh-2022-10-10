@@ -1,22 +1,22 @@
-Copy cells from wiki-form window in sage worksheet and paste directly into wiki edit.
+
+Copy cells from wiki-form window in sage worksheet and paste directly into wiki edit. 
 
 
+# Wiki form worksheet (with prompt): _scratch_ 
 
-################################################################################
-# Wiki form worksheet (with prompt): _scratch_
-################################################################################
-
-
-
-{{{#!python
+```python
+#!python 
 sage: a = 5
-}}}
+```
 
-{{{#!python
+```python
+#!python 
 sage: a
-5}}}
+5
+```
 
-{{{#!python
+```python
+#!python 
 sage: for i in range(10):
 ...    print i*i - 2
 -2
@@ -28,9 +28,11 @@ sage: for i in range(10):
 34
 47
 62
-79}}}
+79
+```
 
-{{{#!python
+```python
+#!python 
 sage: c=0
 sage: for i in range(200):
 ...    a = 2^i -1
@@ -48,55 +50,67 @@ sage: for i in range(200):
 9: 2305843009213693951
 10: 618970019642690137449562111
 11: 162259276829213363391578010288127
-12: 170141183460469231731687303715884105727}}}
+12: 170141183460469231731687303715884105727
+```
 
-{{{#!python
+```python
+#!python 
 sage: a.is_prime()
-True}}}
+True
+```
 
-{{{#!python
+```python
+#!python 
 
-}}}
+```
 
-################################################################################
-# Wiki form worksheet: _scratch_
-################################################################################
+# Wiki form worksheet: _scratch_ 
 
+```python
+#!python 
 
+```
 
-{{{#!python
-
-}}}
-
-{{{#!python
+```python
+#!python 
 b=10
-}}}
+```
 
-{{{#!python
+```python
+#!python 
 a.is_prime()
-out: True}}}
+out: True
+```
 
-{{{#!python
+```python
+#!python 
 a
-out: 5}}}
+out: 5
+```
 
-{{{#!python
+```python
+#!python 
 
-}}}
+```
 
-{{{#!python
+```python
+#!python 
 a = 5
-}}}
+```
 
-{{{#!python
+```python
+#!python 
 
-}}}
+```
 
-{{{#!python
+```python
+#!python 
 a
-out: 5}}}
+out: 5
+```
 
-{{{#!python
+```python
+#!python 
 for i in range(10):
     print i*i - 2
 out: -2
@@ -108,9 +122,11 @@ out: -2
  34
  47
  62
- 79}}}
+ 79
+```
 
-{{{#!python
+```python
+#!python 
 c=0
 for i in range(200):
     a = 2^i -1
@@ -128,9 +144,11 @@ out: 1: 3
  9: 2305843009213693951
  10: 618970019642690137449562111
  11: 162259276829213363391578010288127
- 12: 170141183460469231731687303715884105727}}}
+ 12: 170141183460469231731687303715884105727
+```
 
-{{{#!python
+```python
+#!python 
 t = Tachyon(xres=512,yres=512, camera_center=(5,0,0))
 t.light((4,3,2), 0.2, (1,1,1))
 t.texture('t0', ambient=0.1, diffuse=0.9, specular=0.5, opacity=1.0, color=(1.0,0,0))
@@ -142,8 +160,9 @@ for i in srange(-5,1.5,0.1):
     t.sphere((i,i^2-0.5,i^3), 0.1, 't%s'%(k%3))
 
 t.show()
-}}}
+```
 
-{{{#!python
+```python
+#!python 
 
-}}}
+```

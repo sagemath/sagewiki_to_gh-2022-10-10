@@ -1,5 +1,9 @@
-= Sage-Enhanced Interactive Textbooks =
-{{{
+
+
+# Sage-Enhanced Interactive Textbooks
+
+
+```txt
 \section{Sage-Enhanced Interactive Textbooks}
 
 \subsection{Creating Sage Notebooks from \LaTeX\ or Sphinx sources}
@@ -69,4 +73,4 @@ Summer workshops for each year after the first for faculty to write curriculum m
     *      National workshops (via AIM, if appropriate?)--invite people from all over
 
 
-}}}
+```

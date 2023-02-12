@@ -1,29 +1,34 @@
-= Sage Interactions - Loop Quantum Gravity =
-goto [[interact|interact main page]]
-
-<<TableOfContents>>
-
-{{attachment:5-cell.gif}}
-
-== Holomorphic factorization of the Quantum Tetrahedron ==
-by David Horgan. 
 
 
-Moduli Space of Shapes of a Tetrahedron with Faces of Equal Area
+# Sage Interactions - Loop Quantum Gravity
 
-The space of shapes of a tetrahedron with fixed face areas is naturally a symplectic manifold of real dimension two. This symplectic manifold turns out to be a Kähler manifold and can be 
+goto <a href="/interact">interact main page</a> 
 
-parametrized by a single complex coordinate Z given by the cross ratio of four complex numbers obtained by stereographically projecting the unit face normals onto the complex plane. 
+[[_TOC_]] 
 
-This Demonstration illustrates how this works in the simplest case of a tetrahedron T whose four face areas are equal. For convenience, the cross-ratio coordinate Z is shifted and rescaled 
+![interact/Loop Quantum Gravity/5-cell.gif](interact/Loop Quantum Gravity/5-cell.gif) 
 
-to z=(2Z-1)/Sqrt[3] so that the regular tetrahedron corresponds to z=i, in which case the upper half-plane is mapped conformally into the unit disc w=(i-z)/(i+z). The equi-area tetrahedron 
 
-T is then drawn as a function of the unit disc coordinate w. 
+## Holomorphic factorization of the Quantum Tetrahedron
 
-Reference: L. Freidel, K. Krasnov, and E. R. Livine, "Holomorphic Factorization for a Quantum Tetrahedron".
+by David Horgan.  
 
-{{{#!sagecell                
+Moduli Space of Shapes of a Tetrahedron with Faces of Equal Area 
+
+The space of shapes of a tetrahedron with fixed face areas is naturally a symplectic manifold of real dimension two. This symplectic manifold turns out to be a Kähler manifold and can be  
+
+parametrized by a single complex coordinate Z given by the cross ratio of four complex numbers obtained by stereographically projecting the unit face normals onto the complex plane.  
+
+This Demonstration illustrates how this works in the simplest case of a tetrahedron T whose four face areas are equal. For convenience, the cross-ratio coordinate Z is shifted and rescaled  
+
+to z=(2Z-1)/Sqrt[3] so that the regular tetrahedron corresponds to z=i, in which case the upper half-plane is mapped conformally into the unit disc w=(i-z)/(i+z). The equi-area tetrahedron  
+
+T is then drawn as a function of the unit disc coordinate w.  
+
+Reference: L. Freidel, K. Krasnov, and E. R. Livine, "Holomorphic Factorization for a Quantum Tetrahedron". 
+
+
+```sagecell
 
 # -*- coding: utf-8 -*-
 """
@@ -132,45 +137,22 @@ P4=polygon([d1,d2, d3],color='green')
 g=G+P1+P2+P3+P4
 show(g, title='tet(w)', viewer='tachyon')
 show(C, title='w plane')
-}}}
+```
+
+## Quantum tetrahedron volume, area and angle eigenvalues
+
+by David Horgan.  
+
+In this interact I calculate the angle,   area and volume for a quantum tetrahedron The angle is found using the expression:  theta = arccos((j3*(j3+1)-(j1*(j1+j1)-j2*(j2+1))/(2*sqrt(j1*(j1+j1)*j2*(j2+1)))) The area is found using the expression: A=sqrt(j1*(j1+1)) The volume is fund using the expression V^2 =M = 2/9(real antisymmetrix matrix) 
+
+Values of constants gamma is Immirzi parameter gamma =numerical_approx( ln(2)/(pi*sqrt(2))) #G = 6.63*10^-11 hbar= (1.61619926*10^-35)/(2*pi) lp is the planck length lp3=6*10^-104 Reference: Bohr-Sommerfeld Quantization of Space by Eugenio Bianchi and Hal M. Haggard.  Reference: Shape in an atom of space: exploring quantum geometry phenomenology by Seth A. Major.  
+
+Research Blog: <a href="http://quantumtetrahedron.wordpress.com">http://quantumtetrahedron.wordpress.com</a> 
+
+Given the values of J1, J2, J3 and J4 this interact calculates the volume, area and angle eigenvalues of a quantum tetrahedron. 
 
 
-
-
-
-
-
-== Quantum tetrahedron volume, area and angle eigenvalues ==
-by David Horgan. 
-
-
-In this interact I calculate the angle,   area and volume for a quantum tetrahedron
-The angle is found using the expression: 
-theta = arccos((j3*(j3+1)-(j1*(j1+j1)-j2*(j2+1))/(2*sqrt(j1*(j1+j1)*j2*(j2+1))))
-The area is found using the expression:
-A=sqrt(j1*(j1+1))
-The volume is fund using the expression
-V^2 =M = 2/9(real antisymmetrix matrix)
-
-
-Values of constants
-gamma is Immirzi parameter
-gamma =numerical_approx( ln(2)/(pi*sqrt(2)))
-#G = 6.63*10^-11
-hbar= (1.61619926*10^-35)/(2*pi)
-lp is the planck length
-lp3=6*10^-104
-Reference: Bohr-Sommerfeld Quantization of Space by Eugenio Bianchi and Hal M. Haggard. 
-Reference: Shape in an atom of space: exploring quantum geometry phenomenology by Seth A. Major. 
-
-
-Research Blog: http://quantumtetrahedron.wordpress.com
-
-
-
-Given the values of J1, J2, J3 and J4 this interact calculates the volume, area and angle eigenvalues of a quantum tetrahedron.
-
-{{{#!sagecell
+```sagecell
 
 
 
@@ -260,15 +242,16 @@ def _(j1 = input_box(6.0, 'J1'),
                 print("volume of tetrahedron =", volume, 'm3')
                 
 
-}}}
+```
+
+## Quantum tetrahedron Area Operator eigenvalues
+
+by David Horgan.  
+
+Given the values of J1, J2, J3 and J4 this interact calculates the area eigenvalues of a quantum tetrahedron. 
 
 
-== Quantum tetrahedron Area Operator eigenvalues ==
-by David Horgan. 
-
-Given the values of J1, J2, J3 and J4 this interact calculates the area eigenvalues of a quantum tetrahedron.
-
-{{{#!sagecell
+```sagecell
 
 html('<h3>Quantum tetrahedron Volume and Angle Eigenvalues</h3>')
 html('Enter the four J values into the input boxes')
@@ -347,4 +330,4 @@ def _(j1 = input_box(6.0, 'J1'),
                 print("volume of tetrahedron in m3 =", volume)
                 
 
-}}}
+```

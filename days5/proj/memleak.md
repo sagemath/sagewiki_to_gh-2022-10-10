@@ -1,1 +1,2 @@
-All content has been moved to [[ValgrindingSage| valgrinding Sage]].
+
+All content has been moved to <a href="/ValgrindingSage">valgrinding Sage</a>. 

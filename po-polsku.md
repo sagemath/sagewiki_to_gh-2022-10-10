@@ -1,22 +1,25 @@
-= SageMath po polsku (SageMath resources in Polish) =
 
-== Książki (Books) ==
 
-  * Zrozumieć matematykę z pakietem Sage (Understand mathematics with the Sage package)
-    * Autorzy: Andrzej Giniewicz, Katarzyna Zajączkowska.
-    * Wydawca: GiS (http://www.gis.wroc.pl/)
-    * ISBN: 978-83-62780-42-6
-    * Rok: 2015
-    * Strona domowa: http://www.eurekacode.com/matematyka
+# SageMath po polsku (SageMath resources in Polish)
 
-== Materiały dydaktyczne (Teaching resources) ==
 
-Materiały dydaktyczne opublikowane w ramach projektu [[http://icse.us.edu.pl|iCSE]] na Uniwersytecie Śląskim.
+## Książki (Books)
 
-  * [[http://visual.icse.us.edu.pl/|Wizualizacje i symulacje fizyczne]]
-  * [[http://visual.icse.us.edu.pl/iCSE_main/|SageMath na uczelni]]
-  * [[http://visual.icse.us.edu.pl/szkola/|SageMath w szkole]]
+   * Zrozumieć matematykę z pakietem Sage (Understand mathematics with the Sage package) 
+         * Autorzy: Andrzej Giniewicz, Katarzyna Zajączkowska. 
+         * Wydawca: GiS (<a href="http://www.gis.wroc.pl/">http://www.gis.wroc.pl/</a>) 
+         * ISBN: 978-83-62780-42-6 
+         * Rok: 2015 
+         * Strona domowa: <a href="http://www.eurekacode.com/matematyka">http://www.eurekacode.com/matematyka</a> 
 
-== Opublikowane notatniki (Published Notebooks) ==
+## Materiały dydaktyczne (Teaching resources)
 
-  * [[https://sage2.icse.us.edu.pl/pub/|Materiały opublikowane przez pracowników Uniwersytetu Śląskiego]]
+Materiały dydaktyczne opublikowane w ramach projektu <a class="http" href="http://icse.us.edu.pl">iCSE</a> na Uniwersytecie Śląskim. 
+
+   * <a class="http" href="http://visual.icse.us.edu.pl/">Wizualizacje i symulacje fizyczne</a> 
+   * <a class="http" href="http://visual.icse.us.edu.pl/iCSE_main/">SageMath na uczelni</a> 
+   * <a class="http" href="http://visual.icse.us.edu.pl/szkola/">SageMath w szkole</a> 
+
+## Opublikowane notatniki (Published Notebooks)
+
+   * <a class="https" href="https://sage2.icse.us.edu.pl/pub/">Materiały opublikowane przez pracowników Uniwersytetu Śląskiego</a> 

@@ -1,17 +1,18 @@
-= SageMath =
 
-'''!SageMath''', the Sage Mathematics Software System, is a free and open-source software system for mathematics.
 
-It was previously known as "Sage" and this shorter name remains in use when there is no ambiguity.
+# SageMath
 
-The longer name, !SageMath, prevents confusion with other things called Sage (there are many).
+**SageMath**, the Sage Mathematics Software System, is a free and open-source software system for mathematics. 
 
-Here are the main official Sage pages:
+It was previously known as "Sage" and this shorter name remains in use when there is no ambiguity. 
 
-  * Homepage: https://www.sagemath.org/
-  * Wiki: https://wiki.sagemath.org/
-  * Issue tracker: https://trac.sagemath.org/
+The longer name, SageMath, prevents confusion with other things called Sage (there are many). 
 
-'''Note''':
+Here are the main official Sage pages: 
 
-The private company named "SageMath, Inc." is related but distinct from Sage. It provides the paid service [[https://cocalc.com|CoCalc]], an online environment for calculation and collaboration, with access to Sage and many other software.
+   * Homepage: <a href="https://www.sagemath.org/">https://www.sagemath.org/</a> 
+   * Wiki: <a href="https://wiki.sagemath.org/">https://wiki.sagemath.org/</a> 
+   * Issue tracker: <a href="https://trac.sagemath.org/">https://trac.sagemath.org/</a> 
+**Note**: 
+
+The private company named "SageMath, Inc." is related but distinct from Sage. It provides the paid service <a class="https" href="https://cocalc.com">CoCalc</a>, an online environment for calculation and collaboration, with access to Sage and many other software. 

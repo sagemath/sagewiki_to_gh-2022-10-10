@@ -1,2 +1,2 @@
 
-Thanks for your help. Article has been submitted.
+Thanks for your help. Article has been submitted. 

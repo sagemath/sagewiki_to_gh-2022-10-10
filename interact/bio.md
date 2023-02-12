@@ -1,12 +1,16 @@
-= Sage Interactions - Bioinformatics =
-goto [[interact|interact main page]]
 
-<<TableOfContents>>
 
-== Web app: protein browser FIXME ==
-by Marshall Hampton (tested by William Stein)
-[sagecell-issues]
-{{{#!sagecell
+# Sage Interactions - Bioinformatics
+
+goto <a href="/interact">interact main page</a> 
+
+[[_TOC_]] 
+
+
+## Web app: protein browser FIXME
+
+by Marshall Hampton (tested by William Stein) [sagecell-issues] 
+```sagecell
 from six.moves.urllib.request import urlopen
 @interact
 def protein_browser(GenBank_ID = input_box('165940577', type = str), file_type = selector([(1,'fasta'),(2,'GenPept')])):
@@ -17,13 +21,14 @@ def protein_browser(GenBank_ID = input_box('165940577', type = str), file_type =
     with urlopen(gen_str + GenBank_ID) as f:
         g = f.read()
     html(g)
-}}}
-{{attachment:biobrowse.png}}
+```
+![interact/bio/biobrowse.png](interact/bio/biobrowse.png) 
 
-== Coalescent simulator ==
-by Marshall Hampton
-[sagecell-issues]
-{{{#!sagecell
+
+## Coalescent simulator
+
+by Marshall Hampton [sagecell-issues] 
+```sagecell
 def next_gen(x, selection=1.0):
     '''Creates the next generation from the previous; also returns parent-child indexing list'''
     next_x = []
@@ -68,5 +73,5 @@ def coalescents(pop_size = slider(2,100,1,15,'Population size'), selection = sli
         coal_data1 = [gens,inds]
     print('Generations until coalescence: ' + str(len(gens)))
     show(coal_plot(coal_data1), axes = False, figsize = [8, 4.0*len(gens)/pop_size], ymax = len(gens)-1)
-}}}
-{{attachment:coalescent.png}}
+```
+![interact/bio/coalescent.png](interact/bio/coalescent.png) 

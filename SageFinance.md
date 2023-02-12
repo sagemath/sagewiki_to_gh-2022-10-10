@@ -1,27 +1,36 @@
-## page was renamed from finance
-<<Navigation(children,1)>>
 
-= Quantitative Finance in Sage =
+[[!map pages="sagefinance/* and !sagefinance/*/*"]] 
 
-<<TableOfContents>>
 
-[[attachment:mrw.png|{{attachment:mrw.png}}]]
+# Quantitative Finance in Sage
 
-= People =
-  * [[WilliamStein|William Stein]]
-  * Brett Nakashima
-  * Christopher Swierczewski
-  * [[GlennTarbox|Glenn Tarbox]]
+[[_TOC_]] 
 
-= Mailing list =
-  * http://groups.google.com/group/sage-finance
+<a href="sagefinance/mrw.png">![sagefinance/mrw.png](sagefinance/mrw.png)</a> 
 
-= Links and quotes =
-  * SageFinance/EarlyThoughts
 
-= Fetching and plotting stock market data =
-  * https://wiki.sagemath.org/interact/web
+# People
 
-----
+   * <a href="/WilliamStein">William Stein</a> 
+   * Brett Nakashima 
+   * Christopher Swierczewski 
+   * <a href="/GlennTarbox">Glenn Tarbox</a> 
 
-CategoryFinance
+# Mailing list
+
+   * <a href="http://groups.google.com/group/sage-finance">http://groups.google.com/group/sage-finance</a> 
+
+# Links and quotes
+
+   * <a href="/SageFinance/EarlyThoughts">SageFinance/EarlyThoughts</a> 
+
+# Fetching and plotting stock market data
+
+   * <a href="https://wiki.sagemath.org/interact/web">https://wiki.sagemath.org/interact/web</a> 
+
+
+---
+
+ 
+
+<a href="/CategoryFinance">CategoryFinance</a> 

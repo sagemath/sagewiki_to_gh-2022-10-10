@@ -1,23 +1,22 @@
-[[http://flagrantdisregard.com/flickr/|Flickr]] movie-style posters for the 
-SAGEdays2 conference:
 
-* [[http://sage.math.washington.edu/home/wdj/art/poster-sagedays1.jpg|poster 1]] (jpg)
+<a class="http" href="http://flagrantdisregard.com/flickr/">Flickr</a> movie-style posters for the  SAGEdays2 conference: 
 
-* [[http://sage.math.washington.edu/home/wdj/art/poster-sagedays2.jpg|poster 2]] (jpg)
+* <a class="http" href="http://sage.math.washington.edu/home/wdj/art/poster-sagedays1.jpg">poster 1</a> (jpg) 
 
-* [[http://sage.math.washington.edu/home/wdj/art/poster-sagedays3.jpg|poster 3]] (jpg)
+* <a class="http" href="http://sage.math.washington.edu/home/wdj/art/poster-sagedays2.jpg">poster 2</a> (jpg) 
 
-A flyer:
+* <a class="http" href="http://sage.math.washington.edu/home/wdj/art/poster-sagedays3.jpg">poster 3</a> (jpg) 
 
-* [[http://sage.math.washington.edu/home/wdj/art/sagedays2flyer.pdf|flyer]]  (pdf)
+A flyer: 
 
-A mosaic:
+* <a class="http" href="http://sage.math.washington.edu/home/wdj/art/sagedays2flyer.pdf">flyer</a>  (pdf) 
 
-* [[http://sage.math.washington.edu/home/wdj/art/sagedays2mosaic.jpg|mosaic]] (jpg)
+A mosaic: 
 
-[[http://flagrantdisregard.com/flickr/|Flickr]] motivational-style poster for SAGE (using art-work
-by [[http://wiki.sagemath.org/MartinAlbrecht|Martin Albrecht]]):
+* <a class="http" href="http://sage.math.washington.edu/home/wdj/art/sagedays2mosaic.jpg">mosaic</a> (jpg) 
 
-* [[http://sage.math.washington.edu/home/wdj/art/sage-motivational-poster.jpg|poster 1]] (jpg)
+<a class="http" href="http://flagrantdisregard.com/flickr/">Flickr</a> motivational-style poster for SAGE (using art-work by <a class="http" href="http://wiki.sagemath.org/MartinAlbrecht">Martin Albrecht</a>): 
 
-* [[http://sage.math.washington.edu/home/wdj/art/sage-motivational-poster2.jpg|poster 2]] (jpg)
+* <a class="http" href="http://sage.math.washington.edu/home/wdj/art/sage-motivational-poster.jpg">poster 1</a> (jpg) 
+
+* <a class="http" href="http://sage.math.washington.edu/home/wdj/art/sage-motivational-poster2.jpg">poster 2</a> (jpg) 

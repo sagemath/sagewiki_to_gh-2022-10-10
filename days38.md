@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 Sage Days 38
 ============
@@ -222,4 +225,4 @@ Participants
 #. Timothy R. S. Walsh, Université du Québec à Montréal, Canada
 #. Mike Zabrocki, York University, Canada
 
-}}}
+```

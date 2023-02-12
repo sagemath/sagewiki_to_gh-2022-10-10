@@ -1,4 +1,5 @@
-#REDIRECT debian
-= SageDebianLive =
 
-See the home page for [[http://sagedebianlive.metelu.net/|SageDebianLive]] at http://sagedebianlive.metelu.net/.
+
+# SageDebianLive
+
+See the home page for <a class="http" href="http://sagedebianlive.metelu.net/">SageDebianLive</a> at <a href="http://sagedebianlive.metelu.net/">http://sagedebianlive.metelu.net/</a>. 

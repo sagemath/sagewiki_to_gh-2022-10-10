@@ -1,12 +1,18 @@
-= Sage Interactions - Topology =
-goto [[interact|interact main page]]
 
-<<TableOfContents>>
 
-== Winding number of a plane curve ==
-by Pablo Angulo. Computes winding number (with respect to the origin!) as an integral, and also as a intersection number with a half line through the origin.
+# Sage Interactions - Topology
 
-{{{#!sagecell
+goto <a href="/interact">interact main page</a> 
+
+[[_TOC_]] 
+
+
+## Winding number of a plane curve
+
+by Pablo Angulo. Computes winding number (with respect to the origin!) as an integral, and also as a intersection number with a half line through the origin. 
+
+
+```sagecell
 var('t')
 
 def winding_number_integral(x, y, a, b):
@@ -79,5 +85,5 @@ def _(x = cos(4*pi*t), y = 1 + sin(2*pi*t) + sin(4*pi*t),
     if right2left:
         p += point2d(right2left , color = 'red', pointsize = 50)
     p.show(aspect_ratio=1)
-}}}
-{{attachment:winding.png}}
+```
+![interact/topology/winding.png](interact/topology/winding.png) 

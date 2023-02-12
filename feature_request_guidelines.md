@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 Feature request guidelines
 ==========================
@@ -48,4 +51,4 @@ useful and realistic Sage projects.
   collaborator to get on board of your project, as a researcher?
 
 
-}}}
+```

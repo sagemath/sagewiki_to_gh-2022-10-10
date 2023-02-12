@@ -1,13 +1,15 @@
- * ''Goal'' -- Add [[http://math.asu.edu/~jj/localfields/ | this database]] of p-adic fields to Sage 
- * ''Type'' -- advanced features
- * ''Priority'' -- Medium
- * ''Difficulty'' -- Easy
- * ''Prerequisites'' -- We may need to implement Sage versions of the data structures stored in the database.
- * ''Background'' -- knowledge of the various data structures included in the database, such as higher ramification groups, familiarity with the options for databases in Sage
- * ''Contributors'' -- David Roe
- * ''Progress'' - not started
- * ''Related Tickets'' -- 
 
-== Discussion ==
+* _Goal_ -- Add <a class="http" href="http://math.asu.edu/~jj/localfields/">this database</a> of p-adic fields to Sage  
+* _Type_ -- advanced features 
+* _Priority_ -- Medium 
+* _Difficulty_ -- Easy 
+* _Prerequisites_ -- We may need to implement Sage versions of the data structures stored in the database. 
+* _Background_ -- knowledge of the various data structures included in the database, such as higher ramification groups, familiarity with the options for databases in Sage 
+* _Contributors_ -- David Roe 
+* _Progress_ - not started 
+* _Related Tickets_ --  
 
-== Tasks ==
+## Discussion
+
+
+## Tasks

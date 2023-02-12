@@ -1,8 +1,8 @@
-This page is '''OUT OF DATE'''.  See [[grants/09/ccli]].
 
+This page is **OUT OF DATE**.  See <a href="/grants/09/ccli">grants/09/ccli</a>. 
 
-[[http://sage.math.washington.edu:8124/|Build the PDF]]
+<a class="http" href="http://sage.math.washington.edu:8124/">Build the PDF</a> 
 
- * [[/new/newproposal|New Proposal Material]]
- * [[/new/oldproposal|Old Proposal Material]]
- * [[/references|References]]
+* <a href="/grants/09/ccli/proposal/new/newproposal">New Proposal Material</a> 
+* <a href="/grants/09/ccli/proposal/new/oldproposal">Old Proposal Material</a> 
+* <a href="/grants/09/ccli/proposal/references">References</a> 

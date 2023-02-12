@@ -1,15 +1,12 @@
-## Please edit system and help pages ONLY in the moinmaster wiki! For more
-## information, please see MoinMaster:MoinPagesEditorGroup.
-##master-page:CategoryTemplate
-##master-date:Unknown-Date
-#format wiki
-#language en
 
-<<TableOfContents>>
+[[_TOC_]] 
 
-= Ib Api Code Outline =
 
- * [[attachment:ibapisummary.txt]]
+# Ib Api Code Outline
 
-----
-CategoryCategory
+* <a href="SageFinance/IbApi/ibapisummary.txt">ibapisummary.txt</a> 
+
+
+---
+
+ <a href="/CategoryCategory">CategoryCategory</a> 

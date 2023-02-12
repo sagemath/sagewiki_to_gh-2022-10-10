@@ -1,6 +1,9 @@
-#language it
-== index_it.rst ==
-{{{
+
+
+## index_it.rst
+
+
+```txt
 .. Sage documentation master file, created by sphinx-quickstart on Thu Aug 21 20:15:55 2008.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -42,8 +45,8 @@ Indici e tabelle
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`cerca`
-}}}
+```
 
-== rst file ==
-<<AttachInfo>>
-<<AttachList>>
+## rst file
+
+[[!inline pages="!page(i18n/Italian/IndexIt/*) and glob(i18n/Italian/IndexIt/*)" quick archive="yes" feeds="no"]] [[!inline pages="!page(i18n/Italian/IndexIt/*) and glob(i18n/Italian/IndexIt/*)" quick archive="yes" feeds="no"]] 

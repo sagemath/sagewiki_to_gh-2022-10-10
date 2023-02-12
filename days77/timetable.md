@@ -1,35 +1,38 @@
-= Time table =
 
-== Monday ==
 
- * 10:00: Welcome and project discussions (in project pads --- see links above).
- * 18:30: Status reports
+# Time table
 
-== Tuesday ==
 
- * 10:15: Project discussions
- * 11:30: Andreas Enge (INRIA, GNU) - Packaging and deploying with GNU Guix and GuixSD
-   Slides in git://git.savannah.gnu.org/guix/maintenance.git, subdirectory talks/sage-days-77-2016
- * 14:00: Brainstorm: internal packaging for Sage
- * 18:30: Status reports
+## Monday
 
-== Wednesday ==
+* 10:00: Welcome and project discussions (in project pads --- see links above). 
+* 18:30: Status reports 
 
- * 10:30: Project discussion
- * Lunch: Barbecue
- * 19:00: Rob Beezer - MathBookXML https://mathbook.pugetsound.edu/ [2018: MathBookXML is now !PreTeXt: https://pretextbook.org/]
- * Dinner: Crêpes
+## Tuesday
 
-== Thursday ==
+* 10:15: Project discussions 
+* 11:30: Andreas Enge (INRIA, GNU) - Packaging and deploying with GNU Guix and GuixSD 
+      * Slides in git://git.savannah.gnu.org/guix/maintenance.git, subdirectory talks/sage-days-77-2016 
+* 14:00: Brainstorm: internal packaging for Sage 
+* 18:30: Status reports 
 
- * 10:30: Project discussion
- * 11:30: Brainstorm on packaging part 2
- * 12:00: Lunch: Spaetzle
- * 17:00: Excursion to the Abbaye des Vaux de Cernay:  http://www.abbayedecernay.com/en
- * Dinner: Pizza
+## Wednesday
 
-== Friday ==
+* 10:30: Project discussion 
+* Lunch: Barbecue 
+* 19:00: Rob Beezer - MathBookXML <a href="https://mathbook.pugetsound.edu/">https://mathbook.pugetsound.edu/</a> [2018: MathBookXML is now PreTeXt: <a href="https://pretextbook.org/">https://pretextbook.org/</a>] 
+* Dinner: Crêpes 
 
- * 10.00: Packaging on Arch Linux (Antoine Teutsch)
- * 11:00: Brainstorm: Sage on Windows 2
- * 11:30: Erik Bray (UPSud, !OpenDreamKit) - Sage Windows installer
+## Thursday
+
+* 10:30: Project discussion 
+* 11:30: Brainstorm on packaging part 2 
+* 12:00: Lunch: Spaetzle 
+* 17:00: Excursion to the Abbaye des Vaux de Cernay:  <a href="http://www.abbayedecernay.com/en">http://www.abbayedecernay.com/en</a> 
+* Dinner: Pizza 
+
+## Friday
+
+* 10.00: Packaging on Arch Linux (Antoine Teutsch) 
+* 11:00: Brainstorm: Sage on Windows 2 
+* 11:30: Erik Bray (UPSud, OpenDreamKit) - Sage Windows installer 

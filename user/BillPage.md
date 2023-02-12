@@ -1,12 +1,15 @@
-##master-page:HomepageTemplate
-#format wiki
-== Bill Page ==
 
-Email: <<MailTo(bill.page1 AT SPAMFREE synthesis DOT anikast DOT ca)>>
 
-SkypeName: ''billpageathome''
+## Bill Page
 
-Axiom Developer Wiki: http://wiki.axiom-developer.org
+Email: bill.page1 AT SPAMFREE synthesis DOT anikast DOT ca 
 
-----
-CategoryHomepage
+<a href="/SkypeName">SkypeName</a>: _billpageathome_ 
+
+Axiom Developer Wiki: <a href="http://wiki.axiom-developer.org">http://wiki.axiom-developer.org</a> 
+
+
+
+---
+
+ <a href="/CategoryHomepage">CategoryHomepage</a> 

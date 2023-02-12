@@ -1,8 +1,13 @@
-##master-page:HomepageTemplate
-#format wiki
-<<Navigation(children,1)>>
-== Glenn Tarbox ==
-glenn@tarbox.org
 
-----
- . CategoryHomepage
+[[!map pages="GlennTarbox/* and !GlennTarbox/*/*"]] 
+## Glenn Tarbox
+
+<a href="mailto:glenn@tarbox.org">glenn@tarbox.org</a> 
+
+
+
+---
+
+ 
+
+* <a href="/CategoryHomepage">CategoryHomepage</a> 

@@ -1,4 +1,6 @@
-{{{
+
+
+```txt
 \section{The Sage Notebook}
 
 The Sage notebook is an AJAX application, like Gmail or Google Maps.
@@ -92,4 +94,4 @@ investment by NSF.
 
 [[Make it easy to register an official public (or private) sage notebook server: http://moodle.org/sites/]]
 
-}}}
+```

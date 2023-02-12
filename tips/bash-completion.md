@@ -1,15 +1,16 @@
-Bash (and other shells such as zsh) have programmable tab completion.  For example
-{{{
+
+Bash (and other shells such as zsh) have programmable tab completion.  For example 
+```txt
 ./sage --n[TAB]
-}}}
-becomes
-{{{
+```
+becomes 
+```txt
 ./sage --notebook
-}}}
+```
+Below is a rudimentary means of adding such completion to bash.  It will most likely not work on all platforms since it uses `grep -o` but it should not be difficult to change this.  Also it uses the new long form options which will hopefully be part of sage soon.  To use the old form simply change the `--help` and `--advanced` to `-help` and `-advanced` respectively. 
 
-Below is a rudimentary means of adding such completion to bash.  It will most likely not work on all platforms since it uses `grep -o` but it should not be difficult to change this.  Also it uses the new long form options which will hopefully be part of sage soon.  To use the old form simply change the `--help` and `--advanced` to `-help` and `-advanced` respectively.
 
-{{{
+```txt
 # add this to .bashrc
 
 # bash tab completion for sage
@@ -43,6 +44,5 @@ _sage_tab() {
 # use _sage_tab to complete, it produces filenames, and if no matches
 # are returned, complete with directory names
 complete -F _sage_tab -o filenames -o dirnames sage
-}}}
-
-See [[Tips]] for other handy hints for using Sage.
+```
+See <a href="/Tips">Tips</a> for other handy hints for using Sage. 

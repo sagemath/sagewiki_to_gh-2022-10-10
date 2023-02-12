@@ -1,12 +1,16 @@
-== Calling Sage from Other Applications ==
 
-Sage can be started and controlled via a pseudo-tty in the same way Sage calls and makes use of many of it's components. However, an even easier way to use Sage as a backend computational engine is to use the builtin simple server. This simple server can be called from any program that can make HTTP requests. There is self-contained example at [[http://hg.sagemath.org/sage-main/file/tip/sage/server/simple/twist.py|the top of the file]], and an example using PHP is below. 
 
-=== Start the Server ===
+## Calling Sage from Other Applications
 
-First we need to start up a Sage notebook server process. There are many ways to do this, but for a self-contained server (that doesn't interfere with your personal notebook, cleans itself up on disposal, and has a single randomly-crated account) create the file {{{serve.py}}}
+Sage can be started and controlled via a pseudo-tty in the same way Sage calls and makes use of many of it's components. However, an even easier way to use Sage as a backend computational engine is to use the builtin simple server. This simple server can be called from any program that can make HTTP requests. There is self-contained example at <a class="http" href="http://hg.sagemath.org/sage-main/file/tip/sage/server/simple/twist.py">the top of the file</a>, and an example using PHP is below.  
 
-{{{
+
+### Start the Server
+
+First we need to start up a Sage notebook server process. There are many ways to do this, but for a self-contained server (that doesn't interfere with your personal notebook, cleans itself up on disposal, and has a single randomly-crated account) create the file `serve.py` 
+
+
+```txt
 import time, os, random
 
 from sage.server.misc import find_next_available_port
@@ -33,21 +37,24 @@ except KeyboardInterrupt:
 
 print "Killing notebook."
 nb.dispose()
-}}} 
+```
+ 
 
-And the server can be started with 
+And the server can be started with  
 
-{{{
+
+```txt
 $ sage -python serve.py
-}}}
+```
+Upon running this command, the configuration (port and temporary password) will be written to `notebook_info.txt`. Change the `address` flag to something other than localhost if you wish to use it from a separate computer.  
 
-Upon running this command, the configuration (port and temporary password) will be written to {{{notebook_info.txt}}}. Change the {{{address}}} flag to something other than localhost if you wish to use it from a separate computer. 
 
-=== Use the Server ===
+### Use the Server
 
-Sage is now ready to be used from another process, either locally or remotely. The following is a very simple PHP script to interface with Sage.
+Sage is now ready to be used from another process, either locally or remotely. The following is a very simple PHP script to interface with Sage. 
 
-{{{
+
+```txt
 <?php
 
 $sage_divider = "___S_A_G_E___";
@@ -166,11 +173,11 @@ function sage_create_generic($parent, $val, $name=NULL) {
 }
 
 ?>
-}}}
+```
+Now for a simple example which takes a function and plots and differentiates it.  
 
-Now for a simple example which takes a function and plots and differentiates it. 
 
-{{{
+```txt
 <?php
 
 include "sage.php";
@@ -239,8 +246,7 @@ echo "</form>\n";
 
 
 <?php } ?>
-}}}
+```
+Put these two files into your web directory, and hard code the password and/or path to `notebook_info.txt` from above, and it is ready to use. (It takes a bit to start up a new sage session the first time it is accessed.) Note that the user input is _not_ directly passed to Sage, as this would be a huge security risk. In contrast `sage_create_*` functions above are safe, as they do not use Python's `eval`.  
 
-Put these two files into your web directory, and hard code the password and/or path to {{{notebook_info.txt}}} from above, and it is ready to use. (It takes a bit to start up a new sage session the first time it is accessed.) Note that the user input is ''not'' directly passed to Sage, as this would be a huge security risk. In contrast {{{sage_create_*}}} functions above are safe, as they do not use Python's {{{eval}}}. 
-
-This is just the tip of the iceburg, and can easily be translated to other languages such as Java, C, etc. If timeout it set to values other than -1 long-running computations can be started and later queried/interrupted. Images and other files can be served up directly, and all of Sage is at your disposal. 
+This is just the tip of the iceburg, and can easily be translated to other languages such as Java, C, etc. If timeout it set to values other than -1 long-running computations can be started and later queried/interrupted. Images and other files can be served up directly, and all of Sage is at your disposal.  

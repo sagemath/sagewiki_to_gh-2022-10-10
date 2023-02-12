@@ -1,16 +1,8 @@
-## page was renamed from GlennTarbox/TwistedTalk/020 Broad Areas
-## Please edit system and help pages ONLY in the moinmaster wiki! For more
-## information, please see MoinMaster:MoinPagesEditorGroup.
-##master-page:SlideTemplate
-##master-date:Unknown-Date
-#format wiki
-#language en
-#pragma section-numbers off
-<<Navigation(slides)>>
-= Broadly Speaking =
-|| Distributed || Parallel ||
-|| Asycnronous || Heterogeneous ||
 
-...
 
-##[[Navigation(siblings)]]
+# Broadly Speaking
+ Distributed  |  Parallel 
+ Asycnronous  |  Heterogeneous 
+
+... 
+

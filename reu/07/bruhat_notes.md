@@ -1,6 +1,8 @@
-Notes that Tom took during meeting with Sara on Friday:
 
-{{{
+Notes that Tom took during meeting with Sara on Friday: 
+
+
+```txt
 list of isomorphism classes of subintervals
 hasse diagram partial interval
 k-crowns: ranked degree sequences (and up vs. down)
@@ -36,4 +38,4 @@ Pattern avoidance:
 
   Fully commutative perms: w avoids 321
 
-}}}
+```

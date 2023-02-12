@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 
 Schedule for Sage Days 49 (June 17-21, 2013)
@@ -224,4 +227,4 @@ Open presentations are quick (5 to 15 minutes) presentations done by the partici
 .. _`ReText`: http://sourceforge.net/p/retext/home/ReText
 
 
-}}}
+```

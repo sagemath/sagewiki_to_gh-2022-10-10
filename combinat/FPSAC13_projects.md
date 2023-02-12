@@ -1,1 +1,2 @@
-This page seems to have been [[days49_projects|merged here]].
+
+This page seems to have been <a href="/days49_projects">merged here</a>. 

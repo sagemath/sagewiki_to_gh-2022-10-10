@@ -1,10 +1,13 @@
-##master-page:HomepageTemplate
-#format wiki
-== Timothy Clemans ==
 
-Email: <<MailTo(timothy.clemans AT gmail DOT com)>>
 
-[[http://tclemans.nonlogic.org]]
+## Timothy Clemans
 
-----
-CategoryHomepage
+Email: timothy.clemans AT gmail DOT com 
+
+<a class="http" href="http://tclemans.nonlogic.org">http://tclemans.nonlogic.org</a> 
+
+
+
+---
+
+ <a href="/CategoryHomepage">CategoryHomepage</a> 

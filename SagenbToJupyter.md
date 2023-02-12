@@ -1,1 +1,2 @@
-Moved to IpythonNotebook.
+
+Moved to <a href="/IpythonNotebook">IpythonNotebook</a>. 

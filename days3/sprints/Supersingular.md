@@ -1,6 +1,8 @@
-Investigate memory leaks associated to [[http://sage.math.washington.edu/sage/hg/sage-main/file/3643a7cae944/sage/modular/ssmod/ssmod.py|SupersingularModule ]] code
 
-{{{
+Investigate memory leaks associated to <a class="http" href="http://sage.math.washington.edu/sage/hg/sage-main/file/3643a7cae944/sage/modular/ssmod/ssmod.py">SupersingularModule</a> code 
+
+
+```txt
 ---------- Forwarded message ----------
 Date: Wed, 14 Feb 2007 20:51:12 -0800
 From: William Stein <wstein@gmail.com>
@@ -91,4 +93,4 @@ If you do the same thing with RDF matrices for example, the memory
 usage goes up a bit but remains basically constant.
 
 
-}}}
+```

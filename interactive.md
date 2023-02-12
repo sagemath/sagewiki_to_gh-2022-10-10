@@ -1,14 +1,18 @@
-== Interactive Widgets ==
 
-Currently, visualization in SageMath is mostly not interactive. However, there are approaches to build interactive widgets for the Jupyter notebook:
 
- * [[interact|@interact]] creates configurable widgets.
- * [[https://github.com/flatsurf/ipymuvue/tree/master/examples|ipyμvue]] can be used to write Jupyter widgets in Python that work with SageMath.
- * matplotlib plots can be made interactive.
+## Interactive Widgets
 
-=== Example: Interactive matplotlib Plots ===
+Currently, visualization in <a href="/SageMath">SageMath</a> is mostly not interactive. However, there are approaches to build interactive widgets for the Jupyter notebook: 
 
-{{{#!python
+* <a href="/interact">@interact</a> creates configurable widgets. 
+* <a class="https" href="https://github.com/flatsurf/ipymuvue/tree/master/examples">ipyμvue</a> can be used to write Jupyter widgets in Python that work with <a href="/SageMath">SageMath</a>. 
+* matplotlib plots can be made interactive. 
+
+### Example: Interactive matplotlib Plots
+
+
+```python
+#!python 
 # Enable interactive matplotlib output in Jupyter.
 %matplotlib nbagg
 
@@ -86,9 +90,10 @@ class DynamicPlot(sage.plot.primitive.GraphicPrimitive):
         import matplotlib.pyplot as plt
         figure = plt.figure()
         g.matplotlib(figure=figure)
-}}}
+```
 
-{{{#!python
+```python
+#!python 
 # We plot an infinite ray from the origin.
 def create_plot(*, xmin, ymin, xmax, ymax):
     def ray(x):
@@ -98,9 +103,10 @@ def create_plot(*, xmin, ymin, xmax, ymax):
     return plot(ray, alpha=.5, xmin=xmin, ymin=ymin, xmax=xmax, ymax=ymax)
 
 DynamicPlot(create_plot).show()
-}}}
+```
 
-{{{#!python
+```python
+#!python 
 # We plot a parabola
 def create_plot(*, xmin, ymin, xmax, ymax):
     return plot(x^2, alpha=.5, xmin=xmin, ymin=ymin, xmax=xmax, ymax=ymax,
@@ -109,4 +115,4 @@ def create_plot(*, xmin, ymin, xmax, ymax):
                adaptive_recursion=0)
 
 DynamicPlot(create_plot).show()
-}}}
+```

@@ -1,4 +1,6 @@
-{{{
+
+
+```txt
 \section{Evaluation}
 
 The evaluation plan will measure the impact of Sage on undergraduate students, faculty, and the curriculum.  More specifically, the plan will include methodologies for measuring 
@@ -60,4 +62,4 @@ Drs.\  Hassi and Judson and the project PIs will conduct site visits to partner 
 Drs.\  Hassi and Judson will collaborate with the appropriate institutions to collect demographic data on schools, teachers, and students within participating schools. They will analyze all data using appropriate statistical measures and will prepare one annual report per year documenting all evaluation activities and results and will provide formative evaluation feedback to the project PIs in presentations and correspondence timed to inform design decisions and mid-course corrections. 
 
 
-}}}
+```

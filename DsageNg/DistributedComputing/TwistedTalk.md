@@ -1,19 +1,15 @@
-## page was renamed from DsageNg/TwistedTalk
-## page was renamed from GlennTarbox/TwistedTalk
-## Please edit system and help pages ONLY in the moinmaster wiki! For more
-## information, please see MoinMaster:MoinPagesEditorGroup.
-##master-page:SlideShowTemplate
-##master-date:Unknown-Date
-#format wiki
-#language en
 
-= The Slides are attached =
 
-'''Warning: work in progress'''
+# The Slides are attached
 
-<<AttachInfo>>
-<<AttachList>>
+**Warning: work in progress** 
 
-----
+[[!inline pages="!page(DsageNg/DistributedComputing/TwistedTalk/*) and glob(DsageNg/DistributedComputing/TwistedTalk/*)" quick archive="yes" feeds="no"]] [[!inline pages="!page(DsageNg/DistributedComputing/TwistedTalk/*) and glob(DsageNg/DistributedComputing/TwistedTalk/*)" quick archive="yes" feeds="no"]] 
 
-CategoryDsageNg
+
+
+---
+
+ 
+
+<a href="/CategoryDsageNg">CategoryDsageNg</a> 

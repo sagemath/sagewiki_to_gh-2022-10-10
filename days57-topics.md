@@ -1,257 +1,250 @@
-= Tentative list of themes =
 
-A list of topics for [[days57|Sage days 57]]. Participants, please edit!
 
-Use [[http://trac.sagemath.org/query?status=!closed&keywords=~days57|days57]] as keyword for any ticket worked on during the Sage days.
+# Tentative list of themes
 
-== Import the old Sage-Combinat patches as git branch ==
+A list of topics for <a href="/days57">Sage days 57</a>. Participants, please edit! 
 
- * Nicolas
+Use <a class="http" href="http://trac.sagemath.org/query?status=!closed&amp;keywords=~days57">days57</a> as keyword for any ticket worked on during the Sage days. 
 
-== Review all tickets waiting on trac :-) ==
 
-There are around [[http://trac.sagemath.org/report/75|250 tickets waiting on trac for a reviewer]] ... solution: a ticket a day! (18 dev, 5 days we should get 90 tickets)
+## Import the old Sage-Combinat patches as git branch
 
-== Documentation ==
+* Nicolas 
 
- * Brainstorm about the refactoring of the index of the combinatorics section of the reference manual [[http://trac.sagemath.org/ticket/16058|#16058]]
-   Sam, Florent, Nicolas, Sébastien, Charles
- * Splitting the reference/combinat document in subdocuments
-   Florent, 
- * Finish migrating the collection of Sage-Combinat thematic tutorials as git branches
-   Nicolas, Vincent, Tomer
- * Proofread and merge more thematic tutorials
-   Sam, Vincent, Nicolas, Thierry
+## Review all tickets waiting on trac :-)
 
-== Coxeter groups ==
+There are around <a class="http" href="http://trac.sagemath.org/report/75">250 tickets waiting on trac for a reviewer</a> ... solution: a ticket a day! (18 dev, 5 days we should get 90 tickets) 
 
-Jean-Philippe and Vivien implemented a framework for working with infinite coxeter groups, in particular to explore the geometric representation, limit roots, ...
-The goal is to start merging this with the existing root system stuff in Sage.
 
-TODO: create ticket
+## Documentation
 
- * interested
-   * Jean-Philippe Labbé
-   * Nicolas M. Thiéry
-   * Vivien Ripoll
-   * Tomer
+* Brainstorm about the refactoring of the index of the combinatorics section of the reference manual <a class="http" href="http://trac.sagemath.org/ticket/16058">#16058</a> 
+      * Sam, Florent, Nicolas, Sébastien, Charles 
+* Splitting the reference/combinat document in subdocuments 
+      * Florent,  
+* Finish migrating the collection of Sage-Combinat thematic tutorials as git branches 
+      * Nicolas, Vincent, Tomer 
+* Proofread and merge more thematic tutorials 
+      * Sam, Vincent, Nicolas, Thierry 
 
-Monday afternoon
+## Coxeter groups
 
-== Automata and rational languages ==
+Jean-Philippe and Vivien implemented a framework for working with infinite coxeter groups, in particular to explore the geometric representation, limit roots, ... The goal is to start merging this with the existing root system stuff in Sage. 
 
- * Design discussion
-   Thierry, Vincent, Nicolas, Sébastien, Florent, Jean-Baptiste, Adrien, Matthieu
+TODO: create ticket 
 
- * Improving the situation :-)
+* interested 
+      * Jean-Philippe Labbé 
+      * Nicolas M. Thiéry 
+      * Vivien Ripoll 
+      * Tomer 
+Monday afternoon 
 
-   Thierry, Vincent, Sébastien, Matthieu
 
-== Languages ==
+## Automata and rational languages
 
-By language we simply mean a set of finite words (rational language, D0L-system, ...). The scope ranges from combinatorics and algebra to discrete dynamical systems. Sage capabilities is currently restricted to combinatorics on single word and do not focus on structure of certain subset. We aim to implement an abstract and easy to reuse infrastructure for languages.
+* Design discussion 
+      * Thierry, Vincent, Nicolas, Sébastien, Florent, Jean-Baptiste, Adrien, Matthieu 
+* Improving the situation :-) 
+      * Thierry, Vincent, Sébastien, Matthieu 
 
- * interested
-   * Vincent
-   * Thierry
-   * Sébastien
+## Languages
 
- * todo
-   * implement the category of languages (from previous work of Vincent and Stepan, [[http://trac.sagemath.org/ticket/12224|#12224]], [[http://trac.sagemath.org/ticket/12225|#12225]], [[http://trac.sagemath.org/ticket/12227|#12227]])
-   * finish the inclusion of subshifts of finite type and work on sofic shifts ([[http://trac.sagemath.org/ticket/12996|#12996]])
+By language we simply mean a set of finite words (rational language, D0L-system, ...). The scope ranges from combinatorics and algebra to discrete dynamical systems. Sage capabilities is currently restricted to combinatorics on single word and do not focus on structure of certain subset. We aim to implement an abstract and easy to reuse infrastructure for languages. 
 
-Might be too big a task for this week. But we could discuss the strategy.
+* interested 
+      * Vincent 
+      * Thierry 
+      * Sébastien 
+* todo 
+      * implement the category of languages (from previous work of Vincent and Stepan, <a class="http" href="http://trac.sagemath.org/ticket/12224">#12224</a>, <a class="http" href="http://trac.sagemath.org/ticket/12225">#12225</a>, <a class="http" href="http://trac.sagemath.org/ticket/12227">#12227</a>) 
+      * finish the inclusion of subshifts of finite type and work on sofic shifts (<a class="http" href="http://trac.sagemath.org/ticket/12996">#12996</a>) 
+Might be too big a task for this week. But we could discuss the strategy. 
 
-== Translation surfaces ==
 
-A translation surface is a geometric and dynamical objects that can be defined from gluing polygons by translation. It is interesting from geometric and dynamical point of vue. Many computations are possible !
+## Translation surfaces
 
- * interested
-   * Vincent
-   * Samuel
-   * Thierry
-   * Charles
+A translation surface is a geometric and dynamical objects that can be defined from gluing polygons by translation. It is interesting from geometric and dynamical point of vue. Many computations are possible ! 
 
- * todo
-   * better datastructure for permutations
-   * include Charles Fougeron's code into Sage (computation of Lyapunov exponents, decomposition of the Hodge bundle)
-   * datastructure for translation surfaces
+* interested 
+      * Vincent 
+      * Samuel 
+      * Thierry 
+      * Charles 
+* todo 
+      * better datastructure for permutations 
+      * include Charles Fougeron's code into Sage (computation of Lyapunov exponents, decomposition of the Hodge bundle) 
+      * datastructure for translation surfaces 
 
-== Categories ==
+## Categories
 
-Finish [[http://trac.sagemath.org/ticket/10963|#10963]], brainstorm the follow ups.
+Finish <a class="http" href="http://trac.sagemath.org/ticket/10963">#10963</a>, brainstorm the follow ups. 
 
- * interested
-   * Nicolas
-   * Volker
-   * Florent
+* interested 
+      * Nicolas 
+      * Volker 
+      * Florent 
 
-== Polyhedra over number fields ==
+## Polyhedra over number fields
 
-  * interested
-    * Volker
-    * Vincent
-    * Jean-Philippe
+   * interested 
+         * Volker 
+         * Vincent 
+         * Jean-Philippe 
 
-== Tensors on free modules ==
+## Tensors on free modules
 
-  * interested
-    * Eric
+   * interested 
+         * Eric 
+   * todo 
+         * implement tensor products of generic free modules and the associated tensor algebra (by _generic_ it is meant _without any privileged basis_) 
 
-  * todo
-    * implement tensor products of generic free modules and the associated tensor algebra (by ''generic'' it is meant ''without any privileged basis'')
+## Refactor continued fractions
 
-== Refactor continued fractions ==
+   * interested 
+         * Thierry 
+         * Vincent 
+         * Luca 
+   * todo: see <a class="http" href="http://trac.sagemath.org/ticket/14567">#14567</a> 
 
-  * interested
-    * Thierry
-    * Vincent
-    * Luca
+## Dynamical systems simulation (statistics of orbits)
 
-  * todo: see [[http://trac.sagemath.org/ticket/14567|#14567]]
+   * interested 
+         * Thierry 
+         * Sébastien 
+         * Vincent 
+         * Jean-Philippe 
 
-== Dynamical systems simulation (statistics of orbits) ==
+## Wish: symbolic q-analogs
 
-  * interested
-    * Thierry
-    * Sébastien
-    * Vincent
-    * Jean-Philippe
+   * Tomer 
+Check in Maxima if those q-analogs are there, or could be described there so that Maxima could do symbolic summation with them? 
 
-== Wish: symbolic q-analogs ==
+Anything to be reused from the Ore-Algebra package? 
 
-  * Tomer
+<a href="http://arxiv.org/abs/1306.4263">http://arxiv.org/abs/1306.4263</a> 
 
-Check in Maxima if those q-analogs are there, or could be described
-there so that Maxima could do symbolic summation with them?
 
-Anything to be reused from the Ore-Algebra package?
+## On-line db for Sage worksheets and other ressources
 
-http://arxiv.org/abs/1306.4263
+   * Thierry 
+   * Vincent 
+   * Luca 
+See <a class="http" href="http://trac.sagemath.org/ticket/16114">ticket 16114</a> 
 
-== On-line db for Sage worksheets and other ressources ==
 
-  * Thierry
-  * Vincent
-  * Luca
+## Checkout Mike's and ... patches about lazy power series
 
-See [[http://trac.sagemath.org/ticket/16114|ticket 16114]]
+   * <a class="http" href="http://trac.sagemath.org/ticket/15673">#15673</a> <a class="http" href="http://trac.sagemath.org/ticket/10519">#10519</a> 
+   * Florent, Matthieu, Nicolas, Vincent,  
 
+## Lazy Multivariate Power Series
 
-== Checkout Mike's and ... patches about lazy power series ==
+TODO: create ticket 
 
-  [[http://trac.sagemath.org/ticket/15673|#15673]]
-  [[http://trac.sagemath.org/ticket/10519|#10519]]
+   * Matthieu Dien 
+   * Vincent 
+   * Nicolas 
 
-  * Florent, Matthieu, Nicolas, Vincent, 
+## Species, Ore algebras, Boltzman
 
-== Lazy Multivariate Power Series ==
+Get a picture of the current status. 
 
-TODO: create ticket
+   * ore_algebra spkg, see <a class="http" href="http://trac.sagemath.org/ticket/16008">#16008</a> 
+   * <a href="http://arxiv.org/abs/1306.4263">http://arxiv.org/abs/1306.4263</a> 
 
-  * Matthieu Dien
-  * Vincent
-  * Nicolas
+## Tree-like tableaux, permutation tableaux, and bijections, Polyomino parallelograms
 
-== Species, Ore algebras, Boltzman  ==
+   * Matthieu 
+   * Patxi 
+   * Adrien 
+   * Jean-Baptiste 
+   * Florent 
 
-Get a picture of the current status.
+## Parallel Map-Reduce and Search Forests
 
-  * ore_algebra spkg, see [[http://trac.sagemath.org/ticket/16008|#16008]]
-  * http://arxiv.org/abs/1306.4263
+   * Florent 
+   * Nicolas B. 
+   * Vincent 
+   * Jean-Baptiste 
 
-== Tree-like tableaux, permutation tableaux, and bijections, Polyomino parallelograms ==
+## Interface cleanup for SearchForest and Friends
 
-  * Matthieu
-  * Patxi
-  * Adrien
-  * Jean-Baptiste
-  * Florent
+   * Sébastien 
+   * Florent 
+   * Nicolas B. 
 
-== Parallel Map-Reduce and Search Forests ==
+## Real numbers
 
-  * Florent
-  * Nicolas B.
-  * Vincent
-  * Jean-Baptiste
+General discussion about real numbers and recurrent issues with them: 
 
-== Interface cleanup for SearchForest and Friends ==
+* Thierry 
+* Vincent 
+* Volker 
+* Sam 
+* Matthieu 
+There are many ways to represent real numbers: 
 
-  * Sébastien
-  * Florent
-  * Nicolas B.
+* rational numbers 
+* algebraic numbers 
+* expansions in a given basis 
+* continued fractions (and generalizations) 
+* symbolic expressions (involving transcendental functions like cos, exp, pi, ...) 
+* ... 
+But Sage currently has no bridge between them... 
 
-== Real numbers ==
 
-General discussion about real numbers and recurrent issues with them:
+## Refactor Elliptic curves and morphisms
 
- * Thierry
- * Vincent
- * Volker
- * Sam
- * Matthieu
-   
-There are many ways to represent real numbers:
+See <a class="http" href="http://trac.sagemath.org/ticket/12880">#12880</a> (and also problem with scheme morphisms <a class="http" href="http://trac.sagemath.org/ticket/15378">#15378</a>, maybe also that SchemeMorphism currently does not inherit from !Morphism, see the description of #14711) 
 
- * rational numbers
- * algebraic numbers
- * expansions in a given basis
- * continued fractions (and generalizations)
- * symbolic expressions (involving transcendental functions like cos, exp, pi, ...)
- * ...
-But Sage currently has no bridge between them...
+   * Interested: 
+         * Luca 
+         * Vincent 
+         * Jean-Pierre 
+         * Nicolas 
+         * Volker 
 
-== Refactor Elliptic curves and morphisms ==
+## Cygwin(64) support
 
-See [[http://trac.sagemath.org/ticket/12880|#12880|]] (and also problem with scheme morphisms [[http://trac.sagemath.org/ticket/15378|#15378]], maybe also that !SchemeMorphism currently does not inherit from !Morphism, see the description of #14711)
+* Easy to review tickets: 
+   * #9493 
+   * #16112 
+   * #15366 
+   * #15316 
+   * #15678 
+   * #15679 
+   * #16089 
+   * #16099 
+   * #16098 
+* Not so easy tickets: 
+   * #15649 
+   * #15339 
+   * #10285 
+   * #14207 
+   * #14390 
+   * #14648 
+   * #15677 
+   * #15015 
+   * #13354 
+   * #14697 and #10572 
+   * #15338 
+   * #15323 
+   * and others... 
 
-  * Interested:
-    * Luca
-    * Vincent
-    * Jean-Pierre
-    * Nicolas
-    * Volker
+## Introduction to categories
 
-== Cygwin(64) support ==
- * Easy to review tickets:
-  * #9493
-  * #16112
-  * #15366
-  * #15316
-  * #15678
-  * #15679
-  * #16089
-  * #16099
-  * #16098
- * Not so easy tickets:
-  * #15649
-  * #15339
-  * #10285
-  * #14207
-  * #14390
-  * #14648
-  * #15677
-  * #15015
-  * #13354
-  * #14697 and #10572
-  * #15338
-  * #15323
-  * and others...
+* Nicolas, ... 
 
-== Introduction to categories ==
+## Introduction to git
 
- * Nicolas, ...
-
-== Introduction to git ==
-
- * by Volker Braun
- * interested
-   * Samuel
-   * Eric
-   * Thierry
-   * Sébastien
-   * Jean-Philippe
-   * Nicolas
-   * Everybody!
-
-Done Monday Morning! Thanks Volker!
+* by Volker Braun 
+* interested 
+      * Samuel 
+      * Eric 
+      * Thierry 
+      * Sébastien 
+      * Jean-Philippe 
+      * Nicolas 
+      * Everybody! 
+Done Monday Morning! Thanks Volker! 

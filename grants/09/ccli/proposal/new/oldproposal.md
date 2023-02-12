@@ -1,4 +1,6 @@
-{{{
+
+
+```txt
 \section{How sage allows for wide adoption while maintaining the benefits of previous approaches}
 
 Sage is a cohesive system that includes nearly one hundred pieces of
@@ -409,4 +411,4 @@ why they'll accept you, so:
 \item  workshop proposals that may be included in the budget.
 \item  Get seven people that commit to using sage as we go along and are paid honorariums to write tutorials telling how to integrate Sage into their courses. 
 \end{itemize}
-}}}
+```

@@ -1,19 +1,20 @@
-Room #1 - Lola
 
-Room #2 - Aly, Jen
+Room #1 - Lola 
 
-Room #3 - Christelle, Sarah
+Room #2 - Aly, Jen 
 
-Room #4 - Adriana
+Room #3 - Christelle, Sarah 
 
-Room #5 - Kristin
+Room #4 - Adriana 
 
-Room #6 - Michelle
+Room #5 - Kristin 
 
-Room #7 - Anna, Bianca
+Room #6 - Michelle 
 
-Room #8 - Hester, Sorina
+Room #7 - Anna, Bianca 
 
-Room #9 - Holly, Stephanie
+Room #8 - Hester, Sorina 
 
-Room #10 - Alina
+Room #9 - Holly, Stephanie 
+
+Room #10 - Alina 

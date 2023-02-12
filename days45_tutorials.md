@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 Sage Days 45 Tutorials
 ======================
@@ -127,4 +130,4 @@ Tutorial IV: Contributing to Sage
 .. _`ReText`: http://sourceforge.net/p/retext/home/ReText
 
 
-}}}
+```

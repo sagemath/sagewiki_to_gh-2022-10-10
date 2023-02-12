@@ -1,6 +1,8 @@
-Here is the first announcement message. Feel free to distribute.
 
-{{{
+Here is the first announcement message. Feel free to distribute. 
+
+
+```txt
 Feel free to distribute as appropriate. Apologies for multiple copies.
 
 ************************************************************
@@ -85,4 +87,4 @@ application form is also available at the above website.
 
 Sincerely Yours,
 The organizing committee Burcin Erocal, Ralf Hemmecke and Temur Kutsia
-}}}
+```

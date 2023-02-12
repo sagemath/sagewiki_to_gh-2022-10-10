@@ -1,7 +1,5 @@
-  * William Stein's first talk [[attachment:stein-1.sws|Sage Worksheet]], [[attachment:stein-1.pdf|PDF File]]
 
-  * William Stein: Easy Lickable 3d Graphics in Sage -- [[attachment:3dgraphics.sws]]
-  
-  * Robert Bradshaw: Implementation of 3D Graphics in Sage -- [[attachment:Sage3D.pdf]]
-
-  * Dan Drake: Tools for Graphics and LaTeX -- sources and PDFs at DanDrake/Days9Talks
+   * William Stein's first talk <a href="days9/schedule/stein-1.sws">Sage Worksheet</a>, <a href="days9/schedule/stein-1.pdf">PDF File</a> 
+   * William Stein: Easy Lickable 3d Graphics in Sage -- <a href="days9/schedule/3dgraphics.sws">3dgraphics.sws</a> 
+   * Robert Bradshaw: Implementation of 3D Graphics in Sage -- <a href="days9/schedule/Sage3D.pdf">Sage3D.pdf</a> 
+   * Dan Drake: Tools for Graphics and LaTeX -- sources and PDFs at <a href="/DanDrake/Days9Talks">DanDrake/Days9Talks</a> 

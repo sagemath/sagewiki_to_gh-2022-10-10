@@ -1,34 +1,35 @@
-= Sage Interactions - Groups Using the GAP System =
-
-This page was first created for Google Summer of Code 2021 by Alexis Newton, with mentorship by Mckenzie West. 
-
-If you have interactions that you are interested in adding to this page, please do so. You can also contact Alexis Newton at firstname.lastname@emory.edu.  
-
-The main function of this page is to demonstrate the improved capabilities that we have developed for SageMath during the GSOC Summer 2021. The trac ticket for those developments can be found here: https://trac.sagemath.org/ticket/32196#comment:5.
-
-Note that this ticket has not yet been approved, so in many cases we have defined our main function "order_n" in the Sage cell to be a more rudimentary version of the what is contained in the trac ticket. We do this in order to demonstrate how it may be used. Once the ticket has been pushed through the Sage development process, we will update the page to remove this extraneous code.
- 
-
-goto [[interact|interact main page]]
-
-<<TableOfContents>>
 
 
+# Sage Interactions - Groups Using the GAP System
 
-== Calling Groups from GAP ==
+This page was first created for Google Summer of Code 2021 by Alexis Newton, with mentorship by Mckenzie West.  
+
+If you have interactions that you are interested in adding to this page, please do so. You can also contact Alexis Newton at <a href="mailto:firstname.lastname@emory.edu">firstname.lastname@emory.edu</a>.   
+
+The main function of this page is to demonstrate the improved capabilities that we have developed for <a href="/SageMath">SageMath</a> during the GSOC Summer 2021. The trac ticket for those developments can be found here: <a href="https://trac.sagemath.org/ticket/32196#comment:5">https://trac.sagemath.org/ticket/32196#comment:5</a>. 
+
+Note that this ticket has not yet been approved, so in many cases we have defined our main function "order_n" in the Sage cell to be a more rudimentary version of the what is contained in the trac ticket. We do this in order to demonstrate how it may be used. Once the ticket has been pushed through the Sage development process, we will update the page to remove this extraneous code. 
+
+goto <a href="/interact">interact main page</a> 
+
+[[_TOC_]] 
 
 
-GAP is a system for computational discrete algebra, which provides a programming language, a library of thousands of functions implementing algebraic algorithms written in the GAP language as well as large data libraries of algebraic objects. GAP is used in research and teaching for studying groups and their representations, rings, rings, vector spaces, algebras, combinatorial structures, and more. 
+## Calling Groups from GAP
 
-Using Sage, we are able to interface with the GAP System to call groups of different types. This is extremely useful for demonstrating examples in undergraduate abstract algebra courses. Learn more about interfacing with GAP via Sage here: https://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gap.html.
+GAP is a system for computational discrete algebra, which provides a programming language, a library of thousands of functions implementing algebraic algorithms written in the GAP language as well as large data libraries of algebraic objects. GAP is used in research and teaching for studying groups and their representations, rings, rings, vector spaces, algebras, combinatorial structures, and more.  
 
-We rely heavily on the Small Group and All Small Groups GAP commands within this page. The documentation for these can be found on the GAP System website: https://www.gap-system.org/Manuals/pkg/SmallGrp/doc/chap1.html.
+Using Sage, we are able to interface with the GAP System to call groups of different types. This is extremely useful for demonstrating examples in undergraduate abstract algebra courses. Learn more about interfacing with GAP via Sage here: <a href="https://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gap.html">https://doc.sagemath.org/html/en/reference/interfaces/sage/interfaces/gap.html</a>. 
 
-=== Group of Order n ===
+We rely heavily on the Small Group and All Small Groups GAP commands within this page. The documentation for these can be found on the GAP System website: <a href="https://www.gap-system.org/Manuals/pkg/SmallGrp/doc/chap1.html">https://www.gap-system.org/Manuals/pkg/SmallGrp/doc/chap1.html</a>. 
 
-Use this interact to call a group of order n from the GAP library.
 
-{{{#!sagecell
+### Group of Order n
+
+Use this interact to call a group of order n from the GAP library. 
+
+
+```sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Order n </h1>"))
 pretty_print(html("<h>Choose a group order and a group number.<h>"))
@@ -42,13 +43,14 @@ def order_n1(n = input_box(default='10', label="Order:"), m = input_box(default=
     print('Group', m , 'of', top, 'is', gap(gap(n).SmallGroup(m)).StructureDescription())
 
 
-}}}
+```
 
-=== Group of Order n of a Certain Type ===
+### Group of Order n of a Certain Type
 
-Use this interact to specify a type of group to call.
+Use this interact to specify a type of group to call. 
 
-{{{#!sagecell
+
+```sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Pick a Group</h1>"))
 pretty_print(html("<h>Choose a group order, a group type and a group number.<h>"))
@@ -62,14 +64,14 @@ def order_n1(n = input_box(default='10', label="Order:"), Parameter =
     print('Group', m , 'of', top, 'is', gap(gap(n).SmallGroup(m)).StructureDescription())
 
 
-}}}
+```
 
-=== All Groups of Order n ===
+### All Groups of Order n
+
+Use this interact to call all groups of order n from the GAP library. 
 
 
-Use this interact to call all groups of order n from the GAP library.
-
-{{{#!sagecell
+```sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Order n </h1>"))
 pretty_print(html("<h>Choose a group order.<h>"))
@@ -80,16 +82,17 @@ pretty_print(html("<h>Choose a group order.<h>"))
 def order_n1(n = input_box(default='10', label="Order:")):
     h = gap(n).AllSmallGroups()
     for x in [1..len(h)]:
-	print(h[x].StructureDescription())
+        print(h[x].StructureDescription())
 
 
-}}}
+```
 
-=== All Groups of Order n of a Certain Type ===
+### All Groups of Order n of a Certain Type
 
-Use this interact to specify a type of group to call.
+Use this interact to specify a type of group to call. 
 
-{{{#!sagecell
+
+```sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Order n </h1>"))
 pretty_print(html("<h>Choose a group order and a group type.<h>"))
@@ -102,16 +105,17 @@ def order_n1(n = input_box(default='10', label="Order:"), Parameter =
     "IsSymmetricGroup","IsAlternatingGroup","IsPerfectGroup","IsPolycyclicGroup"]):
     h = gap(n).AllSmallGroups(Parameter)
     for x in [1..len(h)]:
-	print(h[x].StructureDescription())
+        print(h[x].StructureDescription())
 
 
-}}}
+```
 
-=== Small Group Info ===
+### Small Group Info
 
-Use this interact to learn information about the small groups of order n contained in the GAP library.
+Use this interact to learn information about the small groups of order n contained in the GAP library. 
 
-{{{#!sagecell
+
+```sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Order n </h1>"))
 pretty_print(html("<h>Choose a group order.<h>"))
@@ -123,22 +127,19 @@ def order_n1(n = input_box(default='32', label="Order:")):
     print(gap(n).SmallGroupsInformation())
 
 
-}}}
+```
+
+## Calling a List of Groups from GAP
+
+The current configuration for calling information from GAP only allows for you to call one group at a time, but we aim to allow for lists of groups which meet certain parameters. The some of the group properties we aim to address include abelian, solvable, nilpotent, given order, dihedral, semi-direct products, alternating, symmetric, and simple. 
 
 
+### Groups Order Less Than or Equal to n
 
-== Calling a List of Groups from GAP ==
-
-
-The current configuration for calling information from GAP only allows for you to call one group at a time, but we aim to allow for lists of groups which meet certain parameters. The some of the group properties we aim to address include abelian, solvable, nilpotent, given order, dihedral, semi-direct products, alternating, symmetric, and simple.
-
-=== Groups Order Less Than or Equal to n ===
+Use this interact to call all groups from the GAP library that have order less than or equal to your desired value. 
 
 
-Use this interact to call all groups from the GAP library that have order less than or equal to your desired value.
-
-
-{{{#!sagecell
+```sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Upper Bound on Order </h1>"))
 pretty_print(html("<h>Choose an upper bound for the order.<h>"))
@@ -162,15 +163,14 @@ def order_n(n, *parameter, start=1):
 def order_n1(n = input_box(default='10', label="Upper Bound:")):
     print(order_n(n))
 
-}}}
+```
 
-=== Groups Order Between m and n ===
+### Groups Order Between m and n
+
+Use this interact to call all the groups from the GAP library that have order between m and n 
 
 
-Use this interact to call all the groups from the GAP library that have order between m and n
-
-
-{{{#!sagecell
+```sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Upper and Lower Bound on Order</h1>"))
 pretty_print(html("<h>Choose an upper bound and a lower bound for the order.<h>"))
@@ -194,16 +194,14 @@ def order_n(n, *parameter, start=1):
 def order_n1(m = input_box(default='1', label="Lower Bound:"), n = input_box(default='10', label="Upper Bound:")):
     print(order_n(n,start=m))
 
-}}}
+```
+
+### Groups of a Certain Type
+
+Use this interact to call all groups of a certain type from the GAP library that have order between m and n 
 
 
-=== Groups of a Certain Type ===
-
-
-Use this interact to call all groups of a certain type from the GAP library that have order between m and n
-
-
-{{{#!sagecell
+```sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Group Type</h1>"))
 pretty_print(html("<h>Select a group type, an upper bound and a lower bound.<h>"))
@@ -229,15 +227,14 @@ def order_n1(m = input_box(default='1', label="Lower Bound:"), n = input_box(def
     "IsSymmetricGroup","IsAlternatingGroup","IsPerfectGroup","IsPolycyclicGroup"]):
     print(order_n(n,Parameter,start=m))
 
-}}}
+```
+
+### Direct or Semidirect Product Groups
+
+Use this interact to specify groups that contain direct or semidirect products. 
 
 
-
-=== Direct or Semidirect Product Groups ===
-
-Use this interact to specify groups that contain direct or semidirect products.
-
-{{{#!sagecell
+```sagecell
 #Last edited 8/5/21 2:45pm
 pretty_print(html("<h1>Direct or Semidirect</h1>"))
 pretty_print(html("<h>Check a box to limit the results<h>"))
@@ -293,4 +290,4 @@ def order_n1(m = input_box(default='1', label="Lower Bound:"), n = input_box(def
     if Direct == False and Semidirect == True:
         print(order_n(n,Parameter,start=m,semidirectproduct=true))
 
-}}}
+```

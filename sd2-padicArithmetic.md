@@ -1,6 +1,8 @@
-Describe sd2-padicArithmetic here.
 
-{{{
+Describe sd2-padicArithmetic here. 
+
+
+```txt
 ---------- Forwarded message ----------
 Date: Wed, 27 Sep 2006 12:26:36 -0400
 From: David Harvey <dmharvey@math.harvard.edu>
@@ -116,4 +118,4 @@ http://wiki.sagemath.org/sd2-padicArithmetic
 Ifti.
 
 
-}}}
+```

@@ -1,183 +1,179 @@
-= Sage Days 16 Project Idea Page =
 
 
-  
-== Create a Cython class for points on elliptic curves and optimize basic arithmetic ==
+# Sage Days 16 Project Idea Page
 
-PEOPLE: William Stein, wouter, dkohel
 
-  Right now basic arithmetic on elliptic curves is way too slow.  It could be sped up by moving the point class to Cython, and possibly by using better formulas for arithmetic, e.g., using projective coordinates. 
+## Create a Cython class for points on elliptic curves and optimize basic arithmetic
 
-== Create elliptic curve classes for elliptic curve models in the Explicit-Formulas Database ==
+PEOPLE: William Stein, wouter, dkohel 
 
-PEOPLE: David Kohel, Wouter Castryck
+   * Right now basic arithmetic on elliptic curves is way too slow.  It could be sped up by moving the point class to Cython, and possibly by using better formulas for arithmetic, e.g., using projective coordinates.  
 
-  In order to optimize and compare arithmetic, we should first implement alternative models and verify relative performance.  The isomorphisms between different models should also be implemented, and classes for isogenies of these models developed, making use first of the new isogenies code, and eventually putting in place special optimized code for specific models.
-(Wouter) As a comment to that, none of these alternative models cover the whole range of elliptic curves (as far as I know). E.g. an elliptic curve can be shaped into Edwards form only if it has a rational point of order 4. So one should in any case optimize arithmetic on pure Weierstrass curves (using weighted projective coordinates or so).
+## Create elliptic curve classes for elliptic curve models in the Explicit-Formulas Database
 
-See the EFD: http://www.hyperelliptic.org/EFD/
+PEOPLE: David Kohel, Wouter Castryck 
 
-== Rewrite abelian groups (hard) ==
+   * In order to optimize and compare arithmetic, we should first implement alternative models and verify relative performance.  The isomorphisms between different models should also be implemented, and classes for isogenies of these models developed, making use first of the new isogenies code, and eventually putting in place special optimized code for specific models. 
+(Wouter) As a comment to that, none of these alternative models cover the whole range of elliptic curves (as far as I know). E.g. an elliptic curve can be shaped into Edwards form only if it has a rational point of order 4. So one should in any case optimize arithmetic on pure Weierstrass curves (using weighted projective coordinates or so). 
 
-PEOPLE: William Stein, rlmiller, dkohel, wstein, dloeffler, bjarke
+See the EFD: <a href="http://www.hyperelliptic.org/EFD/">http://www.hyperelliptic.org/EFD/</a> 
 
-  . It would be possible to use [[http://trac.sagemath.org/sage_trac/ticket/5882|trac 5882]] to rewrite abelian groups natively in Sage (not using GAP), in a way that is much more flexible than the current implementation.  This could be useful for many number theory applications.   
 
-  . This project is "hard", since many have tried and always failed. The reason for this is the temptation to rewrite the current implementation all at once. See more details for the new plan, which avoids this pitfall...
+## Rewrite abelian groups (hard)
 
-  . [[/abgrp|More Details]]
+PEOPLE: William Stein, rlmiller, dkohel, wstein, dloeffler, bjarke 
 
-== Multisets ==
+   * It would be possible to use <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/5882">trac 5882</a> to rewrite abelian groups natively in Sage (not using GAP), in a way that is much more flexible than the current implementation.  This could be useful for many number theory applications.    
+   * This project is "hard", since many have tried and always failed. The reason for this is the temptation to rewrite the current implementation all at once. See more details for the new plan, which avoids this pitfall... 
+   * <a href="/days16/projects/abgrp">More Details</a> 
 
-PEOPLE: dkohel, rlmiller, brian
+## Multisets
 
-== Optimize/better document/generally improve graph theory library in Sage ==
+PEOPLE: dkohel, rlmiller, brian 
 
-PEOPLE: Robert Miller
 
-  Ticket [[http://trac.sagemath.org/sage_trac/ticket/6085|#6085]] contains a lot of work so that a graph created by Graph(implementation='c_graph') is just as functional as a Sage graph. I will be sporadically working on improving documentation and optimizing graphs all week, and anyone interested is welcome to join.
+## Optimize/better document/generally improve graph theory library in Sage
 
-== Cliquer SPKG for Sage ==
+PEOPLE: Robert Miller 
 
-PEOPLE: Robert Miller, Nathann Cohen (remotely), brian, ncohen, rlmiller, bjarke
+   * Ticket <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/6085">#6085</a> contains a lot of work so that a graph created by Graph(implementation='c_graph') is just as functional as a Sage graph. I will be sporadically working on improving documentation and optimizing graphs all week, and anyone interested is welcome to join. 
 
- * [[http://trac.sagemath.org/sage_trac/ticket/6355|#6355]]
-  * [[http://trac.sagemath.org/sage_trac/ticket/5793|#5793]]
-  * [[http://trac.sagemath.org/sage_trac/ticket/5669|#5669]]
- * [[http://groups.google.com/group/sage-devel/browse_thread/thread/8afc622316dc102d|sage-devel thread]]
+## Cliquer SPKG for Sage
 
-== Take a look at the possibility of making GAP a dynamically loadable library ==
+PEOPLE: Robert Miller, Nathann Cohen (remotely), brian, ncohen, rlmiller, bjarke 
 
-PEOPLE: Robert Miller, wstein
+* <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/6355">#6355</a> 
+   * <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/5793">#5793</a> 
+   * <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/5669">#5669</a> 
+* <a class="http" href="http://groups.google.com/group/sage-devel/browse_thread/thread/8afc622316dc102d">sage-devel thread</a> 
 
-  * Robert Miller and William Stein succeeded in making a first very rough Cython module that links in GAP as a library and allows one to type commands to the interpreter.  See http://trac.sagemath.org/sage_trac/ticket/6391/.   This proof-of-concept that not only can GAP be linked as a library instead of used via pexpect, but that the result is likely to be  *better* than libPARI and libSingular, in that one has full access to the GAP interpreter scripts and capabilities (just like embedding Python allows for that).   Also, it turns out that so far there are no issues because of the GAP memory manager. 
+## Take a look at the possibility of making GAP a dynamically loadable library
 
-== Python implementation of Ford-Fulkerson algorithm ==
+PEOPLE: Robert Miller, wstein 
 
-PEOPLE: Robert Miller, brian, michael, tom
+   * Robert Miller and William Stein succeeded in making a first very rough Cython module that links in GAP as a library and allows one to type commands to the interpreter.  See <a href="http://trac.sagemath.org/sage_trac/ticket/6391/">http://trac.sagemath.org/sage_trac/ticket/6391/</a>.   This proof-of-concept that not only can GAP be linked as a library instead of used via pexpect, but that the result is likely to be  *better* than libPARI and libSingular, in that one has full access to the GAP interpreter scripts and capabilities (just like embedding Python allows for that).   Also, it turns out that so far there are no issues because of the GAP memory manager.  
 
-I plan on at least copying the Python implementation on wikipedia, since now we have nothing at all for max flow problems. Hopefully then someone who really cares about it will try to use it, realize it is slow, start improving it, etc. etc. etc.
+## Python implementation of Ford-Fulkerson algorithm
 
- * http://en.wikipedia.org/wiki/Ford-Fulkerson_algorithm
+PEOPLE: Robert Miller, brian, michael, tom 
 
-There were several algorithms created - Edmonds-Karp (tom, michal), Push-Relabel (from wikipedia - brian - now optimizing the code), Dinic (tom - performs better on dense graph, needs? improvement), Malhotra, Pramodh Kumar, and Maheshwari's (MPM - michal - not yet finished) and some general framework (tom still? working on it)
+I plan on at least copying the Python implementation on wikipedia, since now we have nothing at all for max flow problems. Hopefully then someone who really cares about it will try to use it, realize it is slow, start improving it, etc. etc. etc. 
 
-== Frobenius number and genus of numerical semigroups using toric Grobner bases ==
+* <a href="http://en.wikipedia.org/wiki/Ford-Fulkerson_algorithm">http://en.wikipedia.org/wiki/Ford-Fulkerson_algorithm</a> 
+There were several algorithms created - Edmonds-Karp (tom, michal), Push-Relabel (from wikipedia - brian - now optimizing the code), Dinic (tom - performs better on dense graph, needs? improvement), Malhotra, Pramodh Kumar, and Maheshwari's (MPM - michal - not yet finished) and some general framework (tom still? working on it) 
 
-PEOPLE: Bjarke Hammersholt Roune
 
-  I plan to code Frobenius number (largest gap) and genus (number of gaps) functions for numerical semigrups using two related algorithms based on toric ideals. These algorithms can handle random numerical semigroups generated by numbers with thousands of digits, as long as there are not too many minimal generators. I'm happy to explain either algorithm if you want to help or are just curious. The steps needed are these:
+## Frobenius number and genus of numerical semigroups using toric Grobner bases
 
-   * Find the best way to compute toric Grobner bases in Sage (4ti2?)
-   * Improve the integration of the library Frobby for monomial ideal computations.
-   * Code the algorithms (should be easy at this point)
+PEOPLE: Bjarke Hammersholt Roune 
 
-  Help is welcome, especially for writing a Cython interface to Frobby.
+   * I plan to code Frobenius number (largest gap) and genus (number of gaps) functions for numerical semigrups using two related algorithms based on toric ideals. These algorithms can handle random numerical semigroups generated by numbers with thousands of digits, as long as there are not too many minimal generators. I'm happy to explain either algorithm if you want to help or are just curious. The steps needed are these: 
+      * Find the best way to compute toric Grobner bases in Sage (4ti2?) 
+      * Improve the integration of the library Frobby for monomial ideal computations. 
+      * Code the algorithms (should be easy at this point) Help is welcome, especially for writing a Cython interface to Frobby. 
+A Cython interface to Frobby was written and submitted to track along with an spkg. A preexisting command-line based interface to 4ti2 by Mike Hansen that was floating around was improved and submitted to trac. This allowed the easy implementation of the Frobenius number computation, while time ran out on coding the genus, though this should not be too hard to do. 
 
-A Cython interface to Frobby was written and submitted to track along with an spkg. A preexisting command-line based interface to 4ti2 by Mike Hansen that was floating around was improved and submitted to trac. This allowed the easy implementation of the Frobenius number computation, while time ran out on coding the genus, though this should not be too hard to do.
 
+## PolyBoRi and Singular
 
-== PolyBoRi and Singular ==
+PEOPLE: Martin Albrecht, Burcin Erocal 
 
-PEOPLE: Martin Albrecht, Burcin Erocal
+Both <a href="/PolyBoRi">PolyBoRi</a>'s (Gröbner bases in GF(2)[x_i]/<x_i^2+x_i>) and Singular's interface need some (engineering) work & documentation. 
 
-Both PolyBoRi's (Gröbner bases in GF(2)[x_i]/<x_i^2+x_i>) and Singular's interface need some (engineering) work & documentation.
 
-== Elliptic curves isogenies -- greatly improve usability ==
+## Elliptic curves isogenies -- greatly improve usability
 
-PEOPLE: William Stein, dkohel, wouter, rlmiller, hamish
+PEOPLE: William Stein, dkohel, wouter, rlmiller, hamish 
 
-Dan Shumow wrote new code for computing isogenies between elliptic curves, but it is still very rough around the edges.  Fix it up.  See e.g., http://trac.sagemath.org/sage_trac/ticket/6384
+Dan Shumow wrote new code for computing isogenies between elliptic curves, but it is still very rough around the edges.  Fix it up.  See e.g., <a href="http://trac.sagemath.org/sage_trac/ticket/6384">http://trac.sagemath.org/sage_trac/ticket/6384</a> 
 
-== Siegel Theta Functions ==
 
-PEOPLE: guardia, holuk, drkohel, rlmiller, preston, schulze-pillot
+## Siegel Theta Functions
 
-See http://trac.sagemath.org/sage_trac/ticket/6371 for code that calculates classical theta functions, their derivatives, and some related functions I'm interested in, to arbitrary precision.
+PEOPLE: guardia, holuk, drkohel, rlmiller, preston, schulze-pillot 
 
-== Multimodular reconstruction implementation ==
+See <a href="http://trac.sagemath.org/sage_trac/ticket/6371">http://trac.sagemath.org/sage_trac/ticket/6371</a> for code that calculates classical theta functions, their derivatives, and some related functions I'm interested in, to arbitrary precision. 
 
-PEOPLE: clement, wstein, burcin, rlmiller, dloeffler, sebastian, brian
 
-   * CRT in rings/arith.py is unsanely slow
-   * !MultimodularBasis class is broken
-    patch available at [[http://trac.sagemath.org/sage_trac/ticket/5133|issue 5133]] on trac
+## Multimodular reconstruction implementation
 
-Fix / Unify code / optimize the hell out of it
+PEOPLE: clement, wstein, burcin, rlmiller, dloeffler, sebastian, brian 
 
-Add the early termination technique for the reconstruction of multiple values
-Apply it to Burcin's computation of nullspace over Z[x]
+      * CRT in rings/arith.py is unsanely slow 
+      * MultimodularBasis class is broken 
+         * patch available at <a class="http" href="http://trac.sagemath.org/sage_trac/ticket/5133">issue 5133</a> on trac 
+Fix / Unify code / optimize the hell out of it 
 
-PEOPLE: Burcin Erocal, Clément Pernet
+Add the early termination technique for the reconstruction of multiple values Apply it to Burcin's computation of nullspace over Z[x] 
 
-== Minpoly over small finite field ==
+PEOPLE: Burcin Erocal, Clément Pernet 
 
-PEOPLE: clement, michael, brian, preston, emmanuel
 
-[[http://trac.sagemath.org/sage_trac/ticket/6296|#6296]]
-Implement a certified computation of minpoly over a small finite field.
+## Minpoly over small finite field
 
-PEOPLE: Clément Pernet
+PEOPLE: clement, michael, brian, preston, emmanuel 
 
-== Refactor symbolic functions ==
+<a class="http" href="http://trac.sagemath.org/sage_trac/ticket/6296">#6296</a> Implement a certified computation of minpoly over a small finite field. 
 
-PEOPLE: burcin, wstein, tom
+PEOPLE: Clément Pernet 
 
-Merge the `PrimitiveFunction` and `SFunction` classes in `sage.symbolic.function` and make it easier to define new special functions with custom evaluation, printing, etc. methods. This also involves adding capability to represent symbolic sums and integrals in Sage as a first step to adding native Sage code to deal with these.
 
+## Refactor symbolic functions
 
-== M4RI: improvement of PLUQ factorization ==
+PEOPLE: burcin, wstein, tom 
 
-PEOPLE: Martin Albrecht, Clément Pernet
+Merge the `PrimitiveFunction` and `SFunction` classes in `sage.symbolic.function` and make it easier to define new special functions with custom evaluation, printing, etc. methods. This also involves adding capability to represent symbolic sums and integrals in Sage as a first step to adding native Sage code to deal with these. 
 
-Change/improve the slow column swap in PLUQ factorization
 
- * We improved the PLUQ/LQUP base case by using up to four tables now instead of only two.
- * We improved the implementation for various column swaps and permutation matrix multiplications.
- * We moved from PLUQ to LQUP because it requires less column swaps.
+## M4RI: improvement of PLUQ factorization
 
-{{attachment:lqup-vs-pluq.png}}
+PEOPLE: Martin Albrecht, Clément Pernet 
 
-{{attachment:m4ri-pluq-sparse-ish.png}}
-{{attachment:m4ri-dense-10.png}}
-{{attachment:m4ri-dense-20.png}}
-{{attachment:m4ri-dense-30.png}}
+Change/improve the slow column swap in PLUQ factorization 
 
-== LinBox wrappers ==
+* We improved the PLUQ/LQUP base case by using up to four tables now instead of only two. 
+* We improved the implementation for various column swaps and permutation matrix multiplications. 
+* We moved from PLUQ to LQUP because it requires less column swaps. 
+![days16/projects/lqup-vs-pluq.png](days16/projects/lqup-vs-pluq.png) 
 
-    * Change LinBox wrappers -> new spkg
-    * New classes `matrix_modn_dense_double`, `matrix_modn_dense_float`
-      [[http://sage.math.washington.edu/home/burcin/linbox_interface.patch|patch available on sage.math]]
-    * bindings still under construction
+![days16/projects/m4ri-pluq-sparse-ish.png](days16/projects/m4ri-pluq-sparse-ish.png) ![days16/projects/m4ri-dense-10.png](days16/projects/m4ri-dense-10.png) ![days16/projects/m4ri-dense-20.png](days16/projects/m4ri-dense-20.png) ![days16/projects/m4ri-dense-30.png](days16/projects/m4ri-dense-30.png) 
 
-Timings:
-Multiplying 3000x3000 matrices over GF(101)
-  * Sage proper implementation (default):   30.24s
-  * Old LinBox wrappers (using double):      5.93s
-  * New LinBox wrappers: (using double):     5.3s
-  * New LinBox wrappers: (using float        3.52s
 
-PEOPLE: Burcin Erocal, Clément Pernet, rlmiller, malb
+## LinBox wrappers
 
-== Ray class groups and Groessencharacters ==
+         * Change <a href="/LinBox">LinBox</a> wrappers -> new spkg 
+         * New classes `matrix_modn_dense_double`, `matrix_modn_dense_float` 
+               * <a class="http" href="http://sage.math.washington.edu/home/burcin/linbox_interface.patch">patch available on sage.math</a> 
+         * bindings still under construction 
+Timings: Multiplying 3000x3000 matrices over GF(101) 
 
-Implement computations of the ray class group modulo an ideal of a number field, and the corresponding character group.
+   * Sage proper implementation (default):   30.24s 
+   * Old <a href="/LinBox">LinBox</a> wrappers (using double):      5.93s 
+   * New <a href="/LinBox">LinBox</a> wrappers: (using double):     5.3s 
+   * New <a href="/LinBox">LinBox</a> wrappers: (using float        3.52s 
+PEOPLE: Burcin Erocal, Clément Pernet, rlmiller, malb 
 
-PEOPLE: David Loeffler, rlmiller, wstein, dkohel, haluk, michael
 
+## Ray class groups and Groessencharacters
 
-== Pari 2.4 Upgrade ==
+Implement computations of the ray class group modulo an ideal of a number field, and the corresponding character group. 
 
-  PEOPLE: wstein, dloeffler, hamish, michael
+PEOPLE: David Loeffler, rlmiller, wstein, dkohel, haluk, michael 
 
-== Sage notebook security ==
 
-  PEOPLE: Yoav, malb
+## Pari 2.4 Upgrade
 
- We had some nice design discussions.
+   * PEOPLE: wstein, dloeffler, hamish, michael 
 
-== Texmacs --> Sage Worksheet converter ==
-  PEOPLE: Offray
+## Sage notebook security
 
-== SPD (simple python distro) ==
-  PEOPLE Offray
+   * PEOPLE: Yoav, malb 
+* We had some nice design discussions. 
+
+## Texmacs --> Sage Worksheet converter
+
+   * PEOPLE: Offray 
+
+## SPD (simple python distro)
+
+   * PEOPLE Offray 

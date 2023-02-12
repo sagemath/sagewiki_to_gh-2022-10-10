@@ -1,29 +1,25 @@
-##master-page:ParallelMain
-##master-date:Unknown-Date
-#format wiki
-#language en
+
+[[!map pages="ParallelMain/GraphicsProcessingUnit/* and !ParallelMain/GraphicsProcessingUnit/*/*"]] [[_TOC_]] 
 
 
-<<Navigation(children,1)>>
-<<TableOfContents>>
+# Graphics Processing Unit (GPU)
 
-= Graphics Processing Unit (GPU) =
 
-== CUDA ==
+## CUDA
 
-  * Cuda Homepage: http://www.nvidia.com/object/cuda_home.html#state=home
-  * Papers:
-   * Efficient Sum-Product Computations on GPUs: http://www.cs.technion.ac.il/~marks/docs/SumProductCisco.pdf
-    * Silberstein Home Page: http://www.cs.technion.ac.il/~marks/
-   * Speeding up Mutual Information Computation Using Cuda: http://users.rsise.anu.edu.au/~ramtin/cuda.htm
-  * Sites:
-   * GPGPU: http://www.gpgpu.org/
+   * Cuda Homepage: <a href="http://www.nvidia.com/object/cuda_home.html#state=home">http://www.nvidia.com/object/cuda_home.html#state=home</a> 
+   * Papers: 
+      * Efficient Sum-Product Computations on GPUs: <a href="http://www.cs.technion.ac.il/~marks/docs/SumProductCisco.pdf">http://www.cs.technion.ac.il/~marks/docs/SumProductCisco.pdf</a> 
+         * Silberstein Home Page: <a href="http://www.cs.technion.ac.il/~marks/">http://www.cs.technion.ac.il/~marks/</a> 
+      * Speeding up Mutual Information Computation Using Cuda: <a href="http://users.rsise.anu.edu.au/~ramtin/cuda.htm">http://users.rsise.anu.edu.au/~ramtin/cuda.htm</a> 
+   * Sites: 
+      * GPGPU: <a href="http://www.gpgpu.org/">http://www.gpgpu.org/</a> 
 
-=== Sage GPU Facilities ===
+### Sage GPU Facilities
 
-  * Contact: MichaelAbshoff for access
+   * Contact: <a href="/michaelabshoff">MichaelAbshoff</a> for access 
 
-{{{
+```txt
 1.  1   Silicon Mechanics Hyperform HPCg A2401 with NVIDIA Tesla
 
    Details:
@@ -46,11 +42,13 @@
    Power Supply:  865W High-Efficiency Power Supply - PFC - 100-240V
    Rail Conversion Kit:  No Item Selected
    OS:  Ubuntu 8.04 LTS Server Edition - 64-bit - Preload, No Media
-}}}
+```
+**List of Pages in <a href="/CategoryParallel">CategoryParallel</a>** 
 
-'''List of Pages in CategoryParallel'''
+[[!inline pages="link(CategoryParallel)" quick feeds="no" archive="yes"]] 
 
-<<FullSearch(CategoryParallel)>>
 
-----
-CategoryParallel
+
+---
+
+ <a href="/CategoryParallel">CategoryParallel</a> 

@@ -1,14 +1,19 @@
-= Sage 4.3.2 Release Tour =
 
-<<TableOfContents>>
 
-== Major features ==
- * much improved interface to Singular which makes using any Singular function much more efficient and easy (cf. Libraries section below)
+# Sage 4.3.2 Release Tour
 
-== Libraries ==
+[[_TOC_]] 
 
- * much improved interface to Singular which makes using any Singular function much more efficient and easy #7939
-{{{
+
+## Major features
+
+* much improved interface to Singular which makes using any Singular function much more efficient and easy (cf. Libraries section below) 
+
+## Libraries
+
+* much improved interface to Singular which makes using any Singular function much more efficient and easy #7939 
+
+```python
 #!python
 sage: P.<x,y,z> = QQ[];
 sage: A = Matrix(ZZ,[[1,1,0],[0,1,1]])
@@ -20,8 +25,8 @@ ValueError: Could not detect ring.
 
 sage: toric_ideal(A,"du",ring=P) # so we try again
 [x*z - y]
-}}}
+```
 
-== Geometry ==
+## Geometry
 
- * a major refactoring of the Polyhedron class fixed many bugs, added new functionality, and created a cleaner structure that should make future improvements much easier.
+* a major refactoring of the Polyhedron class fixed many bugs, added new functionality, and created a cleaner structure that should make future improvements much easier. 

@@ -1,43 +1,48 @@
-Some bugs involving the Macaulay2-sage interface
 
-1. In a notebook, running sage, the following displays the tex source instead of the formatted tex.
+Some bugs involving the Macaulay2-sage interface 
 
-{{{
+1. In a notebook, running sage, the following displays the tex source instead of the formatted tex. 
+
+
+```txt
     m = macaulay2('matrix {{1,2},{3,4}}')
-}}}
+```
+2. interact doesn't work well will Macaulay2, in a terminal window: 
 
-2. interact doesn't work well will Macaulay2, in a terminal window:
 
-{{{
+```txt
 sage: m2 = Macaulay2()
 sage: m2.interact()
-}}}
+```
 
-{{{
+```txt
   --> Switching to Macaulay2 <-- 
-}}}
-{{{
+```
+
+```txt
 macaulay2: R = QQ[x,y]
-}}}
-{{{
+```
+
+```txt
 ------------------------------------------------------------
    File "<ipython console>", line 3
      PolynomialRing)
                   ^
 SyntaxError: invalid syntax
-}}}
+```
+3. getting code for Macaulay2 functions displays the code, but gives an error. 
 
-3. getting code for Macaulay2 functions displays the code, but gives an error.
 
-{{{
+```txt
 sage: m2.gcd??
-}}}
-{{{
-Type:		Macaulay2Function
-Base Class:	<class 'sage.interfaces.macaulay2.Macaulay2Function'>
-String Form:	gcd
-Namespace:	Interactive
-File:		/Volumes/me/local/software/sage/sage-3.2.3/local/lib/python2.5/site-packages/sage/interfaces/macaulay2.py
+```
+
+```txt
+Type:           Macaulay2Function
+Base Class:     <class 'sage.interfaces.macaulay2.Macaulay2Function'>
+String Form:    gcd
+Namespace:      Interactive
+File:           /Volumes/me/local/software/sage/sage-3.2.3/local/lib/python2.5/site-packages/sage/interfaces/macaulay2.py
 Source:
 code(methods gcd)
 
@@ -113,19 +118,19 @@ o5 = -- code for method: gcd(List)
      -- code for method: gcd(ZZ,ZZ)
      function 'gcd0': source code not available
 
-*** ERROR: EOF in multi-line statementCall def:	m2.gcd(self, *args, **kwds)
+*** ERROR: EOF in multi-line statementCall def: m2.gcd(self, *args, **kwds)
 
 Call docstring:
     x.__init__(...) initializes x; see x.__class__.__doc__ for signature
-}}}
+```
+4. C.dd, C.dd_3, (for C a Macaulay2 chain complex) should work.  For now, C.dot("dd")[3] works. C.dd should probably return a sage list of Macaulay2 matrices, until a '<a href="/ChainComplex">ChainComplex</a>' type is defined. 
 
-4. C.dd, C.dd_3, (for C a Macaulay2 chain complex) should work.  For now, C.dot("dd")[3] works. C.dd should probably return a sage list of Macaulay2 matrices, until a 'ChainComplex' type is defined.
+5. The M2 executable should be called with a new argument "--print-width 0", so that M2 doesn't try to wrap output going to sage. 
 
-5. The M2 executable should be called with a new argument "--print-width 0", so that M2 doesn't try to wrap output going to sage.
+6. In a notebook, in Macaulay2 mode, 'help' does not display all of its input.  Also, it would be nice to format it, or have a background for it similar to sage help. 
 
-6. In a notebook, in Macaulay2 mode, 'help' does not display all of its input.  Also, it would be nice to format it, or have a background for it similar to sage help.
 
-{{{
+```txt
 help minors
 ///
 
@@ -155,4 +160,4 @@ Description
 Minors are generated in the same order as that used by "subsets(ZZ,ZZ)".
 
 +--------------------------------------------------+
-}}}
+```

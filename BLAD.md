@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 BLAD integration in Sage
 ========================
@@ -103,4 +106,4 @@ On December 13th:
 
 - Call it a day :-)
 
-}}}
+```

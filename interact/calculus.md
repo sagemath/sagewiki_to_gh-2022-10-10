@@ -1,13 +1,18 @@
-= Sage Interactions - Calculus =
-goto [[interact|interact main page]]
-
-<<TableOfContents>>
 
 
-== Root Finding Using Bisection ==
-by William Stein
+# Sage Interactions - Calculus
 
-{{{#!sagecell
+goto <a href="/interact">interact main page</a> 
+
+[[_TOC_]] 
+
+
+## Root Finding Using Bisection
+
+by William Stein 
+
+
+```sagecell
 def bisect_method(f, a, b, eps):
     try:
         f = f._fast_float_(f.variables()[0])
@@ -46,17 +51,20 @@ def _(f = cos(x) - x, a = float(0), b = float(1), eps=(-3,(-16, -1))):
          L += sum(line([(c,h*i-h/4), (c,h*i+h/4)]) for i, (c,d) in enumerate(intervals) )
          L += sum(line([(d,h*i-h/4), (d,h*i+h/4)]) for i, (c,d) in enumerate(intervals) )
          show(P + L, xmin=a, xmax=b)
-}}}
-{{attachment:bisect.png}}
+```
+![interact/calculus/bisect.png](interact/calculus/bisect.png) 
 
-== Newton's Method ==
-Note that there is a more complicated Newton's method below.
 
-by William Stein
+## Newton's Method
 
-https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2824-Double%20Precision%20Root%20Finding%20Using%20Newton's%20Method.sagews 
+Note that there is a more complicated Newton's method below. 
 
-{{{#!sagecell
+by William Stein 
+
+<a href="https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2824-Double%20Precision%20Root%20Finding%20Using%20Newton's%20Method.sagews">https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2824-Double%20Precision%20Root%20Finding%20Using%20Newton's%20Method.sagews</a>  
+
+
+```sagecell
 def newton_method(f, c, eps, maxiter=100):
     x = f.variables()[0]
     fprime = f.derivative(x)
@@ -90,15 +98,18 @@ def _(f = x^2 - 2, c = float(0.5), eps=(-3,(-16, -1)), interval=float(0.5)):
      L = sum(point((w,(n-1-float(i))/n*h), rgbcolor=(float(i)/n,0.2,0.3), pointsize=10) + \
              line([(w,h),(w,j)],rgbcolor='black',thickness=0.2) for i,w in enumerate(iterates))
      show(P + L, xmin=z-interval, xmax=z+interval)
-}}}
-{{attachment:newton.png}}
+```
+![interact/calculus/newton.png](interact/calculus/newton.png) 
 
-== A contour map and 3d plot of two inverse distance functions ==
-by William Stein
 
-https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2823.sagews
+## A contour map and 3d plot of two inverse distance functions
 
-{{{#!sagecell
+by William Stein 
+
+<a href="https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2823.sagews">https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2823.sagews</a> 
+
+
+```sagecell
 @interact
 def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)),
       cmap=['autumn', 'bone', 'cool', 'copper', 'gray', 'hot', 'hsv',
@@ -108,13 +119,16 @@ def _(q1=(-1,(-3,3)), q2=(-2,(-3,3)),
      C = contour_plot(f, (x,-2,2), (y,-2,2), plot_points=30, contours=15, cmap=cmap)
      show(C, figsize=3, aspect_ratio=1)
      show(plot3d(f, (x,-2,2), (y,-2,2)), figsize=5, viewer='tachyon')
-}}}
-{{attachment:mountains.png}}
+```
+![interact/calculus/mountains.png](interact/calculus/mountains.png) 
 
-== A simple tangent line grapher ==
-by Marshall Hampton
 
-{{{#!sagecell
+## A simple tangent line grapher
+
+by Marshall Hampton 
+
+
+```sagecell
 pretty_print(html('<h2>Tangent line grapher</h2>'))
 @interact
 def tangent_line(f = input_box(default=sin(x)), xbegin = slider(0,10,1/10,0), xend = slider(0,10,1/10,10), x0 = slider(0, 1, 1/100, 1/2)):
@@ -129,12 +143,14 @@ def tangent_line(f = input_box(default=sin(x)), xbegin = slider(0,10,1/10,0), xe
     fmax = f.find_local_maximum(prange[0], prange[1])[0]
     fmin = f.find_local_minimum(prange[0], prange[1])[0]
     show(fplot + tanplot, xmin = prange[0], xmax = prange[1], ymax = fmax, ymin = fmin)
-}}}
-{{attachment:tangents.png}}
+```
+![interact/calculus/tangents.png](interact/calculus/tangents.png) 
 
-== Numerical integrals with the midpoint rule ==
-by Marshall Hampton
-{{{#!sagecell
+
+## Numerical integrals with the midpoint rule
+
+by Marshall Hampton 
+```sagecell
 var('x')
 @interact
 def midpoint(n = slider(1,100,1,4), f = input_box(default = "x^2", type = str), start = input_box(default = "0", type = str), end = input_box(default = "1", type = str)):
@@ -156,13 +172,16 @@ def midpoint(n = slider(1,100,1,4), f = input_box(default = "x^2", type = str), 
     print("\n\nSage numerical answer: " + str(integral_numerical(func,a,b,max_points = 200)[0]))
     print("Midpoint estimated answer: " + str(RDF(dx*sum([midys[q] for q in range(n)]))))
     show(plot(func,a,b) + rects, xmin = a, xmax = b, ymin = min_y, ymax = max_y)
-}}}
-{{attachment:num_int.png}}
+```
+![interact/calculus/num_int.png](interact/calculus/num_int.png) 
 
-== Numerical integrals with various rules ==
-by Nick Alexander (based on the work of Marshall Hampton)
 
-{{{#!sagecell
+## Numerical integrals with various rules
+
+by Nick Alexander (based on the work of Marshall Hampton) 
+
+
+```sagecell
 var('x')
 @interact
 def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
@@ -224,26 +243,30 @@ def midpoint(f = input_box(default = sin(x^2) + 2, type = SR),
     & = %s \\\ 
     & = %s . \end{align*} </div>''' 
                       % (numerical_answer, number_of_subdivisions, sum_html, num_html, estimated_answer)))
-}}}
-{{attachment:num_int2.png}}
+```
+![interact/calculus/num_int2.png](interact/calculus/num_int2.png) 
 
-== Some polar parametric curves ==
-by Marshall Hampton.
-This is not very general, but could be modified to show other families of polar curves.
-{{{#!sagecell
+
+## Some polar parametric curves
+
+by Marshall Hampton. This is not very general, but could be modified to show other families of polar curves. 
+```sagecell
 @interact
 def para(n1 = slider(1,5,1,default = 2), n2 = slider(1,5,1,default = 3), a1 = slider(1,10,1/10,6/5), a2 = slider(1,10,1/10,6), b = slider(0,2,1/50,0)):
     var('t')
     pretty_print(html('$r=' + latex(b+sin(a1*t)^n1 + cos(a2*t)^n2)+'$'))
     p = parametric_plot((cos(t)*(b+sin(a1*t)^n1 + cos(a2*t)^n2), sin(t)*(b+sin(a1*t)^n1 + cos(a2*t)^n2)), (t,0, 20*pi), plot_points = 1024, rgbcolor = (0,0,0))
     show(p, figsize = [5,5], xmin = -2-b, xmax = 2+b, ymin = -2-b, ymax = 2+b, axes = False)
-}}}
-{{attachment:polarcurves1.png}}
+```
+![interact/calculus/polarcurves1.png](interact/calculus/polarcurves1.png) 
 
-== Function tool ==
-Enter symbolic functions $f$, $g$, and $a$, a range, then click the appropriate button to compute and plot some combination of $f$, $g$, and $a$ along with $f$ and $g$. This is inspired by the Matlab funtool GUI.
 
-{{{#!sagecell
+## Function tool
+
+Enter symbolic functions $f$, $g$, and $a$, a range, then click the appropriate button to compute and plot some combination of $f$, $g$, and $a$ along with $f$ and $g$. This is inspired by the Matlab funtool GUI. 
+
+
+```sagecell
 x = var('x')
 @interact
 def _(f=sin(x), g=cos(x), xrange=input_box((0,1)), yrange='auto', a=1,
@@ -333,15 +356,18 @@ def _(f=sin(x), g=cos(x), xrange=input_box((0,1)), yrange='auto', a=1,
         else:
             yrange = sage_eval(yrange)
             show(P, xmin=xrange[0], xmax=xrange[1], ymin=yrange[0], ymax=yrange[1])
-}}}
-{{attachment:funtool.png}}
+```
+![interact/calculus/funtool.png](interact/calculus/funtool.png) 
 
-== Newton-Raphson Root Finding ==
-by Neal Holtz
 
-This allows user to display the Newton-Raphson procedure one step at a time. It uses the heuristic that, if any of the values of the controls change, then the procedure should be re-started, else it should be continued.
+## Newton-Raphson Root Finding
 
-{{{#!sagecell
+by Neal Holtz 
+
+This allows user to display the Newton-Raphson procedure one step at a time. It uses the heuristic that, if any of the values of the controls change, then the procedure should be re-started, else it should be continued. 
+
+
+```sagecell
 # ideas from 'A simple tangent line grapher' by Marshall Hampton
 # http://wiki.sagemath.org/interact
 
@@ -440,14 +466,16 @@ def newtraph(f = input_box(default=8*sin(x)*exp(-x)-1, label='f(x)'),
     if show_calcs:
         for t in Trace:
             pretty_print(html( t ))
-}}}
-{{attachment:newtraph.png}}
-
-== Coordinate Transformations ==
-by Jason Grout
+```
+![interact/calculus/newtraph.png](interact/calculus/newtraph.png) 
 
 
-{{{#!sagecell
+## Coordinate Transformations
+
+by Jason Grout 
+
+
+```sagecell
 var('u v')
 # polar coordinates
 #(x,y)=(u*cos(v),u*sin(v)); (u_range,v_range)=([0..6],[0..2*pi,step=pi/12])
@@ -506,15 +534,16 @@ def trans(x=input_box(x, label="x",type=SR),
     pretty_print(html("Jacobian: $%s$"%latex(jacobian(u,v))))
     pretty_print(html("A very small region in $xy$ plane is approximately %0.4g times the size of the corresponding region in the $uv$ plane"%jacobian(u_val,v_val).n()))
     show(graphics_array([uvplot,xyplot]))
-}}}
+```
+![interact/calculus/coordinate-transform-1.png](interact/calculus/coordinate-transform-1.png) ![interact/calculus/coordinate-transform-2.png](interact/calculus/coordinate-transform-2.png) 
 
 
-{{attachment:coordinate-transform-1.png}} {{attachment:coordinate-transform-2.png}}
+## Taylor Series
 
-== Taylor Series ==
-by Harald Schilly
+by Harald Schilly 
 
-{{{#!sagecell
+
+```sagecell
 var('x')
 x0  = 0
 f   = sin(x)*e^(-x)
@@ -527,17 +556,20 @@ def _(order=[1..12]):
     pretty_print(html(r'$f(x)\;=\;%s$'%latex(f)))
     pretty_print(html(r'$\hat{f}(x;%s)\;=\;%s+\mathcal{O}(x^{%s})$'%(x0,latex(ft),order+1)))
     show(dot + p + pt, ymin = -.5, ymax = 1)
-}}}
-{{attachment:taylor_series_animated.gif}}
+```
+![interact/calculus/taylor_series_animated.gif](interact/calculus/taylor_series_animated.gif) 
 
-== Illustration of the precise definition of a limit ==
-by John Perry
 
-I'll break tradition and put the image first. Apologies if this is Not A Good Thing.
+## Illustration of the precise definition of a limit
 
-{{attachment:snapshot_epsilon_delta.png}}
+by John Perry 
 
-{{{#!sagecell
+I'll break tradition and put the image first. Apologies if this is Not A Good Thing. 
+
+![interact/calculus/snapshot_epsilon_delta.png](interact/calculus/snapshot_epsilon_delta.png) 
+
+
+```sagecell
 pretty_print(html("<h2>Limits: <i>ε-δ</i></h2>"))
 pretty_print(html("This allows you to estimate which values of <i>δ</i> guarantee that <i>f</i> is within <i>ε</i> units of a limit."))
 pretty_print(html("<ul><li>Modify the value of <i>f</i> to choose a function.</li>"))
@@ -559,12 +591,14 @@ def delta_epsilon(f = input_box(default=(x^2-x)/(x-1), label="$f$"), a=input_box
     delta_line_1 = line([(a-delta,ym),(a-delta,yM)],rgbcolor=(0.5,0.5,0.5),linestyle='--')
     delta_line_2 = line([(a+delta,ym),(a+delta,yM)],rgbcolor=(0.5,0.5,0.5),linestyle='--')
     (f_left_plot +f_right_plot +epsilon_line_1 +epsilon_line_2 +delta_line_1 +delta_line_2 +aL_point +bad_region_1 +bad_region_2).show(xmin=xm,xmax=xM)
-}}}
+```
 
-== A graphical illustration of sin(x)/x -> 1 as x-> 0 ==
-by Wai Yan Pong
+## A graphical illustration of sin(x)/x -> 1 as x-> 0
 
-{{{#!sagecell
+by Wai Yan Pong 
+
+
+```sagecell
 x=var('x')
 @interact
 def _(x = slider(-7/10,7/10,1/20,1/2)):
@@ -585,12 +619,14 @@ def _(x = slider(-7/10,7/10,1/20,1/2)):
     line3 = line([(0,0),(1,0)], rgbcolor='black'); line4 = line([(1,0),tpt], rgbcolor='blue')
     result = C+p1+p2+line1+line2+line3+line4
     result.show(aspect_ratio=1, figsize=[3,3], axes=False)
-}}}
-{{attachment:sinelimit.png}}
+```
+![interact/calculus/sinelimit.png](interact/calculus/sinelimit.png) 
 
-== Quadric Surface Plotter ==
-by Marshall Hampton.  This is pretty simple, so I encourage people to spruce it up.  In particular, it isn't set up to show all possible types of quadrics.
-{{{#!sagecell
+
+## Quadric Surface Plotter
+
+by Marshall Hampton.  This is pretty simple, so I encourage people to spruce it up.  In particular, it isn't set up to show all possible types of quadrics. 
+```sagecell
 var('x,y,z')
 quadrics = {'Ellipsoid':x^2+y^2+z^2-1,'Elliptic paraboloid':x^2+y^2-z,'Hyperbolic paraboloid':x^2-y^2-z, '1-Sheeted Hyperboloid':x^2+y^2-z^2-1,'2-Sheeted Hyperboloid':x^2-y^2-z^2-1, 'Cone':x^2+y^2-z^2}
 @interact
@@ -600,12 +636,14 @@ def quads(q = selector(list(quadrics)), a = slider(0,5,1/2,default = 1)):
     else: pretty_print(latex(f))
     p = implicit_plot3d(f,(x,-2,2),(y,-2,2),(z,-2,2), plot_points = 75)
     show(p)
-}}}
-{{attachment:quadrics.png}}
+```
+![interact/calculus/quadrics.png](interact/calculus/quadrics.png) 
 
-== The midpoint rule for numerically integrating a function of two variables ==
-by Marshall Hampton
-{{{#!sagecell
+
+## The midpoint rule for numerically integrating a function of two variables
+
+by Marshall Hampton 
+```sagecell
 from sage.plot.plot3d.platonic import index_face_set
 def cuboid(v1,v2,**kwds):
     """
@@ -644,14 +682,16 @@ def midpoint2d(func = input_box('y*sin(x)/x+sin(y)',type=str,label='function of 
     pretty_print(html(r'<p style="text-align: center;">Numerical approximation: ' + str(num_approx)+r'</p>'))
     p1 = plot3d(f,(x,x_start,x_end),(y,y_start,y_end))
     show(p1+sum(cubs))
-}}}
-{{attachment:numint2d.png}}
+```
+![interact/calculus/numint2d.png](interact/calculus/numint2d.png) 
 
-== Gaussian (Legendre) quadrature ==
-by Jason Grout
 
-The output shows the points evaluated using Gaussian quadrature (using a weight of 1, so using Legendre polynomials).  The vertical bars are shaded to represent the relative weights of the points (darker = more weight).  The error in the trapezoid, Simpson, and quadrature methods is both printed out and compared through a bar graph.  The "Real" error is the error returned from scipy on the definite integral.
-{{{#!sagecell
+## Gaussian (Legendre) quadrature
+
+by Jason Grout 
+
+The output shows the points evaluated using Gaussian quadrature (using a weight of 1, so using Legendre polynomials).  The vertical bars are shaded to represent the relative weights of the points (darker = more weight).  The error in the trapezoid, Simpson, and quadrature methods is both printed out and compared through a bar graph.  The "Real" error is the error returned from scipy on the definite integral. 
+```sagecell
 import scipy
 import numpy
 from scipy.special.orthogonal import p_roots, t_roots, u_roots
@@ -717,16 +757,18 @@ def weights(n=slider(1,30,1,default=10),f=input_box(default=3*x+cos(10*x),type=S
     error_data = [trapezoid, simpson, integral-approximation,integral_error]
     print("Trapezoid: %s, Simpson: %s, \nMethod: %s, Real: %s" % tuple(error_data))
     show(bar_chart(error_data,width=1),ymin=min(error_data), ymax=max(error_data))
-}}}
-{{attachment:quadrature1.png}}
-{{attachment:quadrature2.png}}
+```
+![interact/calculus/quadrature1.png](interact/calculus/quadrature1.png) ![interact/calculus/quadrature2.png](interact/calculus/quadrature2.png) 
 
-== Vector Calculus, 2-D Motion ==
-By Rob Beezer
 
-A fast_float() version is available in a [[http://buzzard.ups.edu/sage/motion-2d.sws|worksheet]]
+## Vector Calculus, 2-D Motion
 
-{{{#!sagecell
+By Rob Beezer 
+
+A fast_float() version is available in a <a class="http" href="http://buzzard.ups.edu/sage/motion-2d.sws">worksheet</a> 
+
+
+```sagecell
 # 2-D motion and vector calculus
 # Copyright 2009, Robert A. Beezer
 # Creative Commons BY-SA 3.0 US
@@ -830,15 +872,18 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     # adjust x-,y- extents to get best plot
     #
     show(picture, xmin=-4,xmax=4, ymin=-1.5,ymax=1.5,aspect_ratio=1)
-}}}
-{{attachment:motion2d.png}}
+```
+![interact/calculus/motion2d.png](interact/calculus/motion2d.png) 
 
-== Vector Calculus, 3-D Motion ==
-by Rob Beezer
 
-Available as a [[http://buzzard.ups.edu/sage/motion-d.sws|worksheet]]
+## Vector Calculus, 3-D Motion
 
-{{{#!sagecell
+by Rob Beezer 
+
+Available as a <a class="http" href="http://buzzard.ups.edu/sage/motion-d.sws">worksheet</a> 
+
+
+```sagecell
 # 3-D motion and vector calculus
 # Copyright 2009, Robert A. Beezer
 # Creative Commons BY-SA 3.0 US
@@ -959,15 +1004,18 @@ def _(t0 = slider(float(start), float(stop), float((stop-start)/24), float(start
     # show accumulated graphical info
     #
     show(picture, aspect_ratio=[1,1,1])
-}}}
-{{attachment:motion3d.png}}
+```
+![interact/calculus/motion3d.png](interact/calculus/motion3d.png) 
 
-== Multivariate Limits by Definition ==
-by John Travis
 
-http://sagenb.mc.edu/home/pub/97/
+## Multivariate Limits by Definition
 
-{{{#!sagecell
+by John Travis 
+
+<a href="http://sagenb.mc.edu/home/pub/97/">http://sagenb.mc.edu/home/pub/97/</a> 
+
+
+```sagecell
 ##  An interactive way to demonstrate limits of multivariate functions of the form z = f(x,y)
 ##
 ##  John Travis
@@ -1036,11 +1084,11 @@ def _(f=input_box((x^2-y^2)/(x^2+y^2),width=30,label='$f(x)$'),
         show(G,stereo="redcyan",viewer=view_method)
     else:
         show(G,perspective_depth=true,viewer=view_method)
-}}}
-{{attachment:3D_Limit_Defn.png}}
+```
+![interact/calculus/3D_Limit_Defn.png](interact/calculus/3D_Limit_Defn.png) 
 
 
-{{{#!sagecell
+```sagecell
 ##  An interactive way to demonstrate limits of multivariate functions of the form z = f(x,y)
 ##  This one uses contour plots and so will work with functions that have asymptotic behavior.
 ##
@@ -1080,16 +1128,16 @@ def _(f=input_box(default=(x*y^2)/(x^2+y^4),width=30,label='$f(x)$'),
     limit_point = point((x0,y0),color='red',size=30)
 #    show(limit_point+surface)
     show(surface)
-}}}
-{{attachment:3D_Limit_Defn_Contours.png}}
+```
+![interact/calculus/3D_Limit_Defn_Contours.png](interact/calculus/3D_Limit_Defn_Contours.png) 
 
 
+## Directional Derivatives
 
-== Directional Derivatives ==
+This interact displays graphically a tangent line to a function, illustrating a directional derivative (the slope of the tangent line). 
 
-This interact displays graphically a tangent line to a function, illustrating a directional derivative (the slope of the tangent line).
 
-{{{#!sagecell
+```sagecell
 var('x,y,t,z')
 f(x,y)=sin(x)*cos(y)
 
@@ -1133,16 +1181,18 @@ show_surface=("Show surface", True)):
     picture2d += arrow(location.list(), (location+dff).list(), rgbcolor=gradient_color, width=line_thickness)
     show(picture3d,aspect=[1,1,1], axes=True)
     show(picture2d, aspect_ratio=1)
-}}}
-{{attachment:directional derivative.png}}
+```
+![interact/calculus/directional derivative.png](interact/calculus/directional derivative.png) 
 
-== 3D graph with points and curves ==
-By Robert Marik
 
-This sagelet is handy when showing local, constrained and absolute maxima and minima in two variables. 
-Available as a [[http://user.mendelu.cz/marik/sage/3Dgraph_with_points.sws|worksheet]]
+## 3D graph with points and curves
 
-{{{#!sagecell
+By Robert Marik 
+
+This sagelet is handy when showing local, constrained and absolute maxima and minima in two variables.  Available as a <a class="http" href="http://user.mendelu.cz/marik/sage/3Dgraph_with_points.sws">worksheet</a> 
+
+
+```sagecell
 x,y, t, u, v =var('x y t u v')
 INI_func='x^2-2*x+y^2-2*y'
 INI_box='-1,3.2,-1,3.2'
@@ -1194,14 +1244,16 @@ def _(func=input_box(INI_func,label="f(x,y)=",type=str),\
      A=A+line3d([(0,ymin,0), (0,ymax,0)], arrow_head=True,rgbcolor='black') 
      A=A+line3d([(0,0,zmin), (0,0,zmax)], arrow_head=True,rgbcolor='black') 
  show(A)
-}}}
+```
+![interact/calculus/3Dgraph_with_points.png](interact/calculus/3Dgraph_with_points.png) 
 
-{{attachment:3Dgraph_with_points.png}}
 
-== Approximating function in two variables by differential ==
-by Robert Marik
+## Approximating function in two variables by differential
 
-{{{#!sagecell
+by Robert Marik 
+
+
+```sagecell
 x,y=var('x y')
 html('<h2>Explaining approximation of a function in two \
 variables by differential</h2>')
@@ -1232,14 +1284,16 @@ def _(func=input_box('sqrt(x^3+y^3)',label="f(x,y)=",type=str), x0=1, y0=2, \
   pretty_print(html(r'Value on the tangent plane in shifted point is $%s$'%latex(approx_value)))
   pretty_print(html(r'Error is $%s$'%latex(abs_error)))
   show(A+B+C+CC+D)
-}}}
-{{attachment:3D_differential.png}}
+```
+![interact/calculus/3D_differential.png](interact/calculus/3D_differential.png) 
 
-== Taylor approximations in two variables ==
-by John Palmieri
 
-This displays the nth order Taylor approximation, for n from 1 to 10, of the function sin(x^2^ + y^2^) cos(y) exp(-(x^2^+y^2^)/2).
-{{{#!sagecell
+## Taylor approximations in two variables
+
+by John Palmieri 
+
+This displays the nth order Taylor approximation, for n from 1 to 10, of the function sin(x<sup>2</sup> + y<sup>2</sup>) cos(y) exp(-(x<sup>2</sup>+y<sup>2</sup>)/2). 
+```sagecell
 var('x y')
 var('xx yy')
 G = sin(xx^2 + yy^2) * cos(yy) * exp(-0.5*(xx^2+yy^2))
@@ -1269,17 +1323,18 @@ def _(x0=(0.5,1.5), y0=(0.5, 1.5),
              (y, 0.4, 1.6), color='red', opacity=0.7)
     pretty_print(html('$F(x,y) = e^{-(x^2+y^2)/2} \\cos(y) \\sin(x^2+y^2)$'))
     show(plot)
-}}}
-{{attachment:taylor-3d.png}}
+```
+![interact/calculus/taylor-3d.png](interact/calculus/taylor-3d.png) 
 
 
-== Volumes over non-rectangular domains ==
+## Volumes over non-rectangular domains
 
-by John Travis
+by John Travis 
 
-https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2829.sagews
+<a href="https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2829.sagews">https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2829.sagews</a> 
 
-{{{#!sagecell
+
+```sagecell
 ##  Graphing surfaces over non-rectangular domains 
 ##  John Travis
 ##  Spring 2011
@@ -1377,18 +1432,20 @@ def _(f=input_box(default=(1/3)*x^2 + (1/4)*y^2 + 5,label='$f(x)=$'),
         show(P,frame=true,axes=false,xmin=xx[0],xmax=xx[1],ymin=yy[0],ymax=yy[1],stereo='redcyan',figsize=(6,9),viewer='jmol',spin=dospin)
     else:
         show(P,frame=true,axes=false,xmin=xx[0],xmax=xx[1],ymin=yy[0],ymax=yy[1],figsize=(6,9),viewer='jmol',spin=dospin)
-}}}
-{{attachment:3D_Irregular_Volume.png}}
+```
+![interact/calculus/3D_Irregular_Volume.png](interact/calculus/3D_Irregular_Volume.png) 
 
-== Lateral Surface Area ==
 
-by John Travis
+## Lateral Surface Area
 
-http://sagenb.mc.edu/home/pub/89/
+by John Travis 
 
-Note that this works in Sage cell, but causes a zip file error in Jupyter
+<a href="http://sagenb.mc.edu/home/pub/89/">http://sagenb.mc.edu/home/pub/89/</a> 
 
-{{{#!sagecell
+Note that this works in Sage cell, but causes a zip file error in Jupyter 
+
+
+```sagecell
 ##  Display and compute the area of the lateral surface between two surfaces
 ##  corresponding to the (scalar) line integral
 ##  John Travis
@@ -1450,15 +1507,16 @@ def _(f=input_box(default=6-4*x^2-y^2*2/5,label='Top = $f(x,y) = $',width=30),
         show(G,stereo='redcyan',spin=true)
     else:
         show(G,perspective_depth=true,spin=true)
-}}}
-{{attachment:Lateral_Surface.png}}
+```
+![interact/calculus/Lateral_Surface.png](interact/calculus/Lateral_Surface.png) 
 
 
-== Parametric surface example ==
-by Marshall Hampton
+## Parametric surface example
 
-Note that this works in Sage cell, but causes a zip file error in Jupyter.
-{{{#!sagecell
+by Marshall Hampton 
+
+Note that this works in Sage cell, but causes a zip file error in Jupyter. 
+```sagecell
 var('u,v')
 npi = RDF(pi)
 @interact
@@ -1470,16 +1528,18 @@ def viewer(mesh = checkbox(default = False, label = 'Show u,v meshlines'), uc = 
     constant_u = line3d([[f1(uc,q), f2(uc,q), f3(uc,q)] for q in srange(-2,2,.01)], rgbcolor = (1,0,0), thickness = 3)
     constant_v = line3d([[f1(q,vc), f2(q,vc), f3(q,vc)] for q in srange(-2,2,.01)], rgbcolor = (0,1,0), thickness = 3)
     show(surface_plot + constant_u + constant_v, frame = False)
-}}}
-{{attachment:parametric_surface.png}}
+```
+![interact/calculus/parametric_surface.png](interact/calculus/parametric_surface.png) 
 
-== Line Integrals in 3D Vector Field ==
 
-by John Travis
+## Line Integrals in 3D Vector Field
 
-https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2827-$%20%5Cint_%7BC%7D%20%5Cleft%20%5Clangle%20M,N,P%20%5Cright%20%5Crangle%20dr%20$%20=%20$%20%25s%20$.sagews
+by John Travis 
 
-{{{#!sagecell
+<a href="https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2827-$%20%5Cint_%7BC%7D%20%5Cleft%20%5Clangle%20M,N,P%20%5Cright%20%5Crangle%20dr%20$%20=%20$%20%25s%20$.sagews">https://cloud.sagemath.com/projects/19575ea0-317e-402b-be57-368d04c113db/files/pub/2801-2901/2827-$%20%5Cint_%7BC%7D%20%5Cleft%20%5Clangle%20M,N,P%20%5Cright%20%5Crangle%20dr%20$%20=%20$%20%25s%20$.sagews</a> 
+
+
+```sagecell
 ##  This worksheet interactively computes and displays the line integral of a 3D vector field 
 ##  over a given smooth curve C
 ##  
@@ -1523,5 +1583,5 @@ def _(M=input_box(default=x*y*z,label="$M(x,y,z)$"),
         show(G,stereo='redcyan',spin=true)
     else:
         show(G,perspective_depth=true)
-}}}
-{{attachment:3D_Line_Integral.png}}
+```
+![interact/calculus/3D_Line_Integral.png](interact/calculus/3D_Line_Integral.png) 

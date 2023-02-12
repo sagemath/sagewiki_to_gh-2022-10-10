@@ -1,6 +1,9 @@
-= Evaluation Plan =
 
-{{{
+
+# Evaluation Plan
+
+
+```txt
 \section{Evaluation}
 
 Thomas Judson, Mathematics/Mathematics Education Researcher, and a consulting evaluator (statistician), will develop appropriate evaluative measures to study the impact of Sage on undergraduate students, faculty, and the curriculum.  Project personnel will employ the formative and summative results of this extended funding period to develop a complete picture of the impact that the Sage has on student achievement and teacher quality.
@@ -22,4 +25,4 @@ as the NSF does. ]]
 \subsection{Summative Evaluations}
 [[ at the end, did I succeed? ]]
 
-}}}
+```

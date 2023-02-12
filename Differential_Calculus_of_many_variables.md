@@ -1,43 +1,46 @@
-== Basic notions ==
-== Limits ==
-== Partial Derivatives ==
-== Local maximum and minimum for functions with two variables ==
-We start with the definition of local max and min.
-
-'''Definition.'''
-Let $f(x,y)$ defined over a region $R$ which contains the point $(a,b)$.
-
-'''1.''' Function  $f(x,y)$ has local maximum in  $(a,b),$ if $f(a,b) \geq f(x,y)$ for all points $(x,y)$ in an open disk with center $(a,b)$.
-
-'''2.''' Function $f(x,y)$ has local minimum  $(a,b),$ if $f(a,b) \leq f(x,y)$ for all points $(x,y)$ in an open disk with center $(a,b)$.
 
 
-We can use the following theorem for finding them.
-
-'''Theorem 1.'''
-If $f(x,y)$ has local max or min in the interior of  $R$ where the first partial derivatives exist, then $f_{x}(a,b) = 0$ and $f_{y}(a,b) = 0$.
-
-We call these points critical.
-We say that a critical point is an inflexion point, if in a small disk with center  $(a,b),$ there are points with $f(x,y) > f(a,b)$ and $f(x,y) < f(a,b)$.
-
-In order to find out what kind of point is a critical point (i.e. local max or min) we use the following criterion.
-
-'''Criterion.'''
-Let $f(x,y)$ has second order partial derivatives and are continuous in a disk with center  $(a,b)$ and that $f_{x}(a,b) = f_{y}(a,b) = 0$. Then:
-
-'''i.'''  $f$ has local maximum in $(a,b)$ if $f_{xx} < 0$ and $f_{xx}f_{yy} - f_{xy}^{2} > 0$ at $(a,b)$.
-
-'''ii.''' $f$  has local maximum in  $(a,b)$ if  $f_{xx} > 0$ and $f_{xx}f_{yy} - f_{xy}^{2} > 0$ at  $(a,b)$.
-
-'''iii.''' $f$ has inflexion point in  $(a,b)$ if $f_{xx}f_{yy} - f_{xy}^{2} < 0$ at $(a,b).$
+## Basic notions
 
 
-'''iv.''' The criterion does not work if  $f_{xx}f_{yy} - f_{xy}^{2} = 0$ at  $(a,b)$.
+## Limits
 
 
-We can easily implement the previous in Sage (we did not include the case where we have infinitely many points).
+## Partial Derivatives
 
-{{{
+
+## Local maximum and minimum for functions with two variables
+
+We start with the definition of local max and min. 
+
+**Definition.** Let $f(x,y)$ defined over a region $R$ which contains the point $(a,b)$. 
+
+**1.** Function  $f(x,y)$ has local maximum in  $(a,b),$ if $f(a,b) \geq f(x,y)$ for all points $(x,y)$ in an open disk with center $(a,b)$. 
+
+**2.** Function $f(x,y)$ has local minimum  $(a,b),$ if $f(a,b) \leq f(x,y)$ for all points $(x,y)$ in an open disk with center $(a,b)$. 
+
+We can use the following theorem for finding them. 
+
+**Theorem 1.** If $f(x,y)$ has local max or min in the interior of  $R$ where the first partial derivatives exist, then $f_{x}(a,b) = 0$ and $f_{y}(a,b) = 0$. 
+
+We call these points critical. We say that a critical point is an inflexion point, if in a small disk with center  $(a,b),$ there are points with $f(x,y) > f(a,b)$ and $f(x,y) < f(a,b)$. 
+
+In order to find out what kind of point is a critical point (i.e. local max or min) we use the following criterion. 
+
+**Criterion.** Let $f(x,y)$ has second order partial derivatives and are continuous in a disk with center  $(a,b)$ and that $f_{x}(a,b) = f_{y}(a,b) = 0$. Then: 
+
+**i.**  $f$ has local maximum in $(a,b)$ if $f_{xx} < 0$ and $f_{xx}f_{yy} - f_{xy}^{2} > 0$ at $(a,b)$. 
+
+**ii.** $f$  has local maximum in  $(a,b)$ if  $f_{xx} > 0$ and $f_{xx}f_{yy} - f_{xy}^{2} > 0$ at  $(a,b)$. 
+
+**iii.** $f$ has inflexion point in  $(a,b)$ if $f_{xx}f_{yy} - f_{xy}^{2} < 0$ at $(a,b).$ 
+
+**iv.** The criterion does not work if  $f_{xx}f_{yy} - f_{xy}^{2} = 0$ at  $(a,b)$. 
+
+We can easily implement the previous in Sage (we did not include the case where we have infinitely many points). 
+
+
+```txt
 """
 Find local maxima and minima of functions with two variables in R^2
 
@@ -280,10 +283,10 @@ def local_maxmin(f, flag = true):
         print "This function either has infinite many critical points or does not have any. In the first case we can not compute them with our code."
 
     return None
-}}}
+```
 
-
-{{{#!python numbers=none
+```python
+#!python numbers=none 
 # Define the function
 sage:var('x,y')
 sage:f = x**3 + y**3 - x
@@ -302,7 +305,9 @@ Hessian is zero. We do not have a method for this point, to examine what it is.
 Hessian is zero. We do not have a method for this point, to examine what it is.
 
 
-}}}
+```
 
-== Local maximum and minimum for functions with three variables ==
-== Finding extrema points of functions subject to some constraints (Lagrange multipliers) ==
+## Local maximum and minimum for functions with three variables
+
+
+## Finding extrema points of functions subject to some constraints (Lagrange multipliers)

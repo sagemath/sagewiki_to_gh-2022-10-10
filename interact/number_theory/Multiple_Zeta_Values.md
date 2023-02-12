@@ -1,8 +1,15 @@
-= Multiple Zeta Values  =
-by Akhilesh P.
-== Computing Multiple Zeta values (Euler-Zagier numbers) ==
-=== Word Input ===
-{{{#!sagecell
+
+
+# Multiple Zeta Values
+
+by Akhilesh P. 
+## Computing Multiple Zeta values (Euler-Zagier numbers)
+
+
+### Word Input
+
+
+```sagecell
 R=RealField(10)
 @interact
 def _( weight=(5,(2..100))):
@@ -62,10 +69,12 @@ def _( weight=(5,(2..100))):
   RIF=RealIntervalField(int(3.321928*D))
   u=u/1
   print u
-}}}
-{{attachment:akhi1.png}}
-=== Composition Input ===
-{{{#!sagecell
+```
+![interact/number_theory/Multiple Zeta Values/akhi1.png](interact/number_theory/Multiple Zeta Values/akhi1.png) 
+### Composition Input
+
+
+```sagecell
 R=RealField(10)
 @interact
 def _( Depth=(5,(2..100))):
@@ -131,10 +140,12 @@ def _( Depth=(5,(2..100))):
   RIF=RealIntervalField(int(3.321928*D))
   u=u/1
   print u
-}}}
-{{attachment:akhi5.png}}
-== Program to Compute Integer Relation between Multiple Zeta Values (Euler-Zagier numbers) ==
-{{{#!sagecell
+```
+![interact/number_theory/Multiple Zeta Values/akhi5.png](interact/number_theory/Multiple Zeta Values/akhi5.png) 
+## Program to Compute Integer Relation between Multiple Zeta Values (Euler-Zagier numbers)
+
+
+```sagecell
 from mpmath import *
 print "Enter the number of composition"
 @interact
@@ -209,10 +220,12 @@ def _( n=(5,(2..100))):
   u=pslq(zet,tol=10**-D,maxcoeff=100,maxsteps=10000)
   print "the Intger Relation between the above zeta values given by the vector"
   print u
-}}}
-{{attachment:akhi10.png}}
-== Word to composition ==
-{{{#!sagecell
+```
+![interact/number_theory/Multiple Zeta Values/akhi10.png](interact/number_theory/Multiple Zeta Values/akhi10.png) 
+## Word to composition
+
+
+```sagecell
 @interact
 def _( weight=(7,(2..100))):
  n=weight
@@ -222,21 +235,22 @@ def _( weight=(7,(2..100))):
  def _(v=('word', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
   a=[v[i] for i in range(len(v))]
   def bintocomp(a):
-	b=[]
-	count=1
-	for j in range(len(a)):
-		if(a[j]==0):
-			count=count+1
-		else:
-			b.append(count)
-			count=1	
-	return(b)
+        b=[]
+        count=1
+        for j in range(len(a)):
+                if(a[j]==0):
+                        count=count+1
+                else:
+                        b.append(count)
+                        count=1 
+        return(b)
   print "Composition is ",bintocomp(a)
-}}}
+```
+![interact/number_theory/Multiple Zeta Values/akhi2.png](interact/number_theory/Multiple Zeta Values/akhi2.png) 
+## Composition to Word
 
-{{attachment:akhi2.png}}
-== Composition to Word ==
-{{{#!sagecell
+
+```sagecell
 @interact
 def _( Depth=(7,(1..100))):
  n=Depth
@@ -247,17 +261,18 @@ def _( Depth=(7,(1..100))):
  def _(v=('composition', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
   a=[v[i] for i in range(len(v))]
   def comptobin(a):
-	word=[]
-	for i in range(len(a)):
-		word=word+[0]*(a[i]-1)+[1]
-	return(word)
+        word=[]
+        for i in range(len(a)):
+                word=word+[0]*(a[i]-1)+[1]
+        return(word)
 
   print "Word is  ",comptobin(a)
-}}}
+```
+![interact/number_theory/Multiple Zeta Values/akhi3.png](interact/number_theory/Multiple Zeta Values/akhi3.png) 
+## Dual of a Word
 
-{{attachment:akhi3.png}}
-== Dual of a Word ==
-{{{#!sagecell
+
+```sagecell
 @interact
 def _( weight=(7,(2..100))):
  n=weight
@@ -267,21 +282,22 @@ def _( weight=(7,(2..100))):
  def _(v=('word', input_grid(1, n, default=[a], to_value=lambda x: vector(flatten(x))))):
   a=[v[i] for i in range(len(v))]
   def dual(a):
-	b=list()
-	b=a
-	b=b[::-1]
-	for i in range(len(b)):
-		b[i]=1-b[i]			
-	return(b)
+        b=list()
+        b=a
+        b=b[::-1]
+        for i in range(len(b)):
+                b[i]=1-b[i]                     
+        return(b)
 
   print "Dual word is ",dual(a)
-}}}
+```
+![interact/number_theory/Multiple Zeta Values/akhi4.png](interact/number_theory/Multiple Zeta Values/akhi4.png) 
 
-{{attachment:akhi4.png}}
+
+## Shuffle product of two Words
 
 
-== Shuffle product of two Words ==
-{{{#!sagecell
+```sagecell
 @interact
 def _( w1=(2,(2..100)), w2=(2,(2..100))):
  a=[0]
@@ -365,10 +381,12 @@ def _( w1=(2,(2..100)), w2=(2,(2..100))):
   print c[1][len(c[0])-1],"*",c[0][len(c[0])-1]
 
 
-}}}
-{{attachment:akhi6.png}}
-== Shuffle Regularization at 0 ==
-{{{#!sagecell
+```
+![interact/number_theory/Multiple Zeta Values/akhi6.png](interact/number_theory/Multiple Zeta Values/akhi6.png) 
+## Shuffle Regularization at 0
+
+
+```sagecell
 @interact
 def _( w=(2,(2..100))):
  a=[0]
@@ -387,76 +405,76 @@ def _( w=(2,(2..100))):
         result.append(''.join(s))
     return result
   def sort(a,l,m):
-	b=[]
-	n=len(a)
-	for i in range(n):
-		b.append(a[i])
-	for j in range(l-1,-1,-1):
-		k=0
-		for t in range(m+1):
-			for i in range(n):	
-				if(a[i][j]== t):
-					b[k]=a[i]
-					k=k+1
-		for i in range(n):
-			a[i]=b[i]
-	return(a)
+        b=[]
+        n=len(a)
+        for i in range(n):
+                b.append(a[i])
+        for j in range(l-1,-1,-1):
+                k=0
+                for t in range(m+1):
+                        for i in range(n):      
+                                if(a[i][j]== t):
+                                        b[k]=a[i]
+                                        k=k+1
+                for i in range(n):
+                        a[i]=b[i]
+        return(a)
 
   def sort1(a,l,m):
-	b=[]
-	b.append([])
-	b.append([])
-	n=len(a[0])
-	for i in range(n):
-		b[0].append(a[0][i])
-		b[1].append(a[1][i])
-	for j in range(l-1,-1,-1):
-		k=0
-		for t in range(m+1):
-			for i in range(n):	
-				if(a[0][i][j]== t):
-					b[0][k]=a[0][i]
-					b[1][k]=a[1][i]
-					k=k+1
-		for i in range(n):
-			a[0][i]=b[0][i]
-			a[1][i]=b[1][i]
-	return(a)
+        b=[]
+        b.append([])
+        b.append([])
+        n=len(a[0])
+        for i in range(n):
+                b[0].append(a[0][i])
+                b[1].append(a[1][i])
+        for j in range(l-1,-1,-1):
+                k=0
+                for t in range(m+1):
+                        for i in range(n):      
+                                if(a[0][i][j]== t):
+                                        b[0][k]=a[0][i]
+                                        b[1][k]=a[1][i]
+                                        k=k+1
+                for i in range(n):
+                        a[0][i]=b[0][i]
+                        a[1][i]=b[1][i]
+        return(a)
 
   def count(a):
-	n=len(a)
-	b=[]
-	b.append(a[0])
-	m=[]
-	m.append(1)
-	c=0
-	for i in range(1,n):
-		if(a[i]==a[i-1]):
-			m[c]=m[c]+1
-		else:
-			b.append(a[i])
-			m.append(1)
-			c=c+1
-	return(b,m)
+        n=len(a)
+        b=[]
+        b.append(a[0])
+        m=[]
+        m.append(1)
+        c=0
+        for i in range(1,n):
+                if(a[i]==a[i-1]):
+                        m[c]=m[c]+1
+                else:
+                        b.append(a[i])
+                        m.append(1)
+                        c=c+1
+        return(b,m)
 
 
   def count1(a):
-	n=len(a[0])
-	b=[]
-	b.append([])
-	b.append([])
-	b[0].append(a[0][0])
-	b[1].append(a[1][0])
-	c=0
-	for i in range(1,n):
-		if(a[0][i]==a[0][i-1]):
-			b[1][c]=b[1][c]+a[1][i]
-		else:
-			b[0].append(a[0][i])
-			b[1].append(a[1][i])
-			c=c+1
+        n=len(a[0])
+        b=[]
+        b.append([])
+        b.append([])
+        b[0].append(a[0][0])
+        b[1].append(a[1][0])
+        c=0
+        for i in range(1,n):
+                if(a[0][i]==a[0][i-1]):
+                        b[1][c]=b[1][c]+a[1][i]
+                else:
+                        b[0].append(a[0][i])
+                        b[1].append(a[1][i])
+                        c=c+1
 
-	return(b)
+        return(b)
   def shuffle(a,b):
         r=len(a)
         s=len(b)
@@ -518,10 +536,12 @@ def _( w=(2,(2..100))):
     print c[1][len(c[0])-1],"*",c[0][len(c[0])-1]
 
 
-}}}
-{{attachment:akhi7.png}}
-== Shuffle Regularization at 1 ==
-{{{#!sagecell
+```
+![interact/number_theory/Multiple Zeta Values/akhi7.png](interact/number_theory/Multiple Zeta Values/akhi7.png) 
+## Shuffle Regularization at 1
+
+
+```sagecell
 @interact
 def _( w=(2,(2..20))):
  a=[0]
@@ -540,76 +560,76 @@ def _( w=(2,(2..20))):
         result.append(''.join(s))
     return result
   def sort(a,l,m):
-	b=[]
-	n=len(a)
-	for i in range(n):
-		b.append(a[i])
-	for j in range(l-1,-1,-1):
-		k=0
-		for t in range(m+1):
-			for i in range(n):	
-				if(a[i][j]== t):
-					b[k]=a[i]
-					k=k+1
-		for i in range(n):
-			a[i]=b[i]
-	return(a)
+        b=[]
+        n=len(a)
+        for i in range(n):
+                b.append(a[i])
+        for j in range(l-1,-1,-1):
+                k=0
+                for t in range(m+1):
+                        for i in range(n):      
+                                if(a[i][j]== t):
+                                        b[k]=a[i]
+                                        k=k+1
+                for i in range(n):
+                        a[i]=b[i]
+        return(a)
 
   def sort1(a,l,m):
-	b=[]
-	b.append([])
-	b.append([])
-	n=len(a[0])
-	for i in range(n):
-		b[0].append(a[0][i])
-		b[1].append(a[1][i])
-	for j in range(l-1,-1,-1):
-		k=0
-		for t in range(m+1):
-			for i in range(n):	
-				if(a[0][i][j]== t):
-					b[0][k]=a[0][i]
-					b[1][k]=a[1][i]
-					k=k+1
-		for i in range(n):
-			a[0][i]=b[0][i]
-			a[1][i]=b[1][i]
-	return(a)
+        b=[]
+        b.append([])
+        b.append([])
+        n=len(a[0])
+        for i in range(n):
+                b[0].append(a[0][i])
+                b[1].append(a[1][i])
+        for j in range(l-1,-1,-1):
+                k=0
+                for t in range(m+1):
+                        for i in range(n):      
+                                if(a[0][i][j]== t):
+                                        b[0][k]=a[0][i]
+                                        b[1][k]=a[1][i]
+                                        k=k+1
+                for i in range(n):
+                        a[0][i]=b[0][i]
+                        a[1][i]=b[1][i]
+        return(a)
 
   def count(a):
-	n=len(a)
-	b=[]
-	b.append(a[0])
-	m=[]
-	m.append(1)
-	c=0
-	for i in range(1,n):
-		if(a[i]==a[i-1]):
-			m[c]=m[c]+1
-		else:
-			b.append(a[i])
-			m.append(1)
-			c=c+1
-	return(b,m)
+        n=len(a)
+        b=[]
+        b.append(a[0])
+        m=[]
+        m.append(1)
+        c=0
+        for i in range(1,n):
+                if(a[i]==a[i-1]):
+                        m[c]=m[c]+1
+                else:
+                        b.append(a[i])
+                        m.append(1)
+                        c=c+1
+        return(b,m)
 
 
   def count1(a):
-	n=len(a[0])
-	b=[]
-	b.append([])
-	b.append([])
-	b[0].append(a[0][0])
-	b[1].append(a[1][0])
-	c=0
-	for i in range(1,n):
-		if(a[0][i]==a[0][i-1]):
-			b[1][c]=b[1][c]+a[1][i]
-		else:
-			b[0].append(a[0][i])
-			b[1].append(a[1][i])
-			c=c+1
+        n=len(a[0])
+        b=[]
+        b.append([])
+        b.append([])
+        b[0].append(a[0][0])
+        b[1].append(a[1][0])
+        c=0
+        for i in range(1,n):
+                if(a[0][i]==a[0][i-1]):
+                        b[1][c]=b[1][c]+a[1][i]
+                else:
+                        b[0].append(a[0][i])
+                        b[1].append(a[1][i])
+                        c=c+1
 
-	return(b)
+        return(b)
   def shuffle(a,b):
         r=len(a)
         s=len(b)
@@ -638,31 +658,31 @@ def _( w=(2,(2..20))):
         a4=count(a3)
         return(a4)
   def Regshuf1(a):
-	r=[]
-	r.append([])
-	r.append([])
-	t=0
-	c=1
-	for i in range(len(a)+1):
-		if(t==0):
-			b=shuffle(a[:i],a[i:])
-			for j in range(len(b[0])):
-				r[0].append(b[0][j])
-				r[1].append(b[1][j]*c)
-			c=-c
-			if(i<len(a)):
-				if(a[i]==0):
-					t=1
-	r=sort1(r,len(a),max(a+[0]))
-	r=count1(r)
-	rg=[]
-	rg.append([])
-	rg.append([])
-	for i in range(len(r[0])):
-		if(r[1][i] is not 0):
-			rg[0].append(r[0][i])
-			rg[1].append(r[1][i])	
-	return(rg)
+        r=[]
+        r.append([])
+        r.append([])
+        t=0
+        c=1
+        for i in range(len(a)+1):
+                if(t==0):
+                        b=shuffle(a[:i],a[i:])
+                        for j in range(len(b[0])):
+                                r[0].append(b[0][j])
+                                r[1].append(b[1][j]*c)
+                        c=-c
+                        if(i<len(a)):
+                                if(a[i]==0):
+                                        t=1
+        r=sort1(r,len(a),max(a+[0]))
+        r=count1(r)
+        rg=[]
+        rg.append([])
+        rg.append([])
+        for i in range(len(r[0])):
+                if(r[1][i] is not 0):
+                        rg[0].append(r[0][i])
+                        rg[1].append(r[1][i])   
+        return(rg)
   c=Regshuf1(a)
   for i in range(len(c[0])-1):
     if(c[1][i] != 0):
@@ -671,5 +691,5 @@ def _( w=(2,(2..20))):
     print c[1][len(c[0])-1],"*",c[0][len(c[0])-1]
 
 
-}}}
-{{attachment:akhi8.png}}
+```
+![interact/number_theory/Multiple Zeta Values/akhi8.png](interact/number_theory/Multiple Zeta Values/akhi8.png) 

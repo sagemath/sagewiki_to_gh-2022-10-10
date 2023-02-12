@@ -1,12 +1,16 @@
-== The UW Sage Seminar Schedule ==
-The seminar meets at 5pm in Communications B027.
 
-{{{
+
+## The UW Sage Seminar Schedule
+
+The seminar meets at 5pm in Communications B027. 
+
+
+```txt
 DATE: Monday, December 3, at 5pm
 TITLE: Status reports
-}}}
+```
 
-{{{
+```txt
 DATE: Monday, November 26, at 5pm
 
 Seminar: The Sage Seminar
@@ -34,13 +38,13 @@ isomorphic to those already in the list. There is an alternative
 approach, involving no isomorphism elimination at all. This approach will
 be explained, and some new coding theory software will be presented.
 
-}}}
-[[http://rlmiller.org/talks/generation.pdf|Slides]]
+```
+<a class="http" href="http://rlmiller.org/talks/generation.pdf">Slides</a> 
 
-=======================================================================
+======================================================================= 
 
 
-{{{
+```txt
 TITLE: Groebner Basics
 LOCATION: Thomson Hall 215 at ** 4PM ** on November 5, 2007
 SPEAKER: Josh Kantor
@@ -51,14 +55,15 @@ We we will start with the simple question of ideal membership, i.e.,
 given an ideal $I \subset k[x_1,\ldots x_n]$, and $f \in k[x_1,\ldots,
 x_n]$, how does one check whether or not $f\in I$. We will show how
 Groebner basis solve this problem, and others.
-}}}
-[[http://sage.math.washington.edu/home/jkantor/grobner_slides.pdf|slides]]
+```
+<a class="http" href="http://sage.math.washington.edu/home/jkantor/grobner_slides.pdf">slides</a> 
 
-=======================================================================
+======================================================================= 
 
-Monday, October 29, 2007:
+Monday, October 29, 2007: 
 
-{{{
+
+```txt
 TITLE: Combinatorial Algebras in SAGE
 TIME: 5-6pm on Monday, October 29, 2007
 LOCATION: B027 in the Communications building
@@ -73,16 +78,15 @@ satisfying certain constraints), and the symmetric function algebra (indexed
 by integer partitions).  In this talk, I will go over support for combinatorial
  algebras in SAGE with an emphasis on symmetric functions, some issues
 that have arisen in their implementation, and things still left to do.
-}}}
+```
+<a class="http" href="http://mwhansen.org/combinatorial_algebras.pdf">Slides</a> <a class="http" href="http://www.mwhansen.org/sage-uw.html">Worksheets</a> <a class="http" href="http://video.google.com/videoplay?docid=4519457622361288638&amp;hl=en">Video</a> 
+
+======================================================================= 
+
+Monday, October 15, 2007: 
 
 
-[[http://mwhansen.org/combinatorial_algebras.pdf|Slides]] [[http://www.mwhansen.org/sage-uw.html|Worksheets]] [[http://video.google.com/videoplay?docid=4519457622361288638&hl=en|Video]]
-
-=======================================================================
-
-Monday, October 15, 2007:
-
-{{{
+```txt
 TITLE: Introduction to Abelian Varieties
 TIME: 5-6pm on Monday, October 15, 2007
 LOCATION: B027 in the Communications building
@@ -101,17 +105,17 @@ and only if there is a positive definite Hermitian form whose
 imaginary part takes integral values on L.
 After defining abelian varieties as above, William Stein will give
 an example or two in Sage.
-}}}
-Monday, October 22, 2007:
+```
+Monday, October 22, 2007: 
 
-(no seminar)
+(no seminar) 
 
-Monday, November 5, 2007:
+Monday, November 5, 2007: 
 
-Monday, November 12, 2007: (no seminar -- Sage Days 6)
+Monday, November 12, 2007: (no seminar -- Sage Days 6) 
 
-Monday, November 19, 2007:
+Monday, November 19, 2007: 
 
-Monday, November 26, 2007:
+Monday, November 26, 2007: 
 
-Monday, December 3, 2007:
+Monday, December 3, 2007: 

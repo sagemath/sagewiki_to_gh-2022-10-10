@@ -1,11 +1,11 @@
-Describe test here.
+
+Describe test here. 
 
 
-{{{
+```rst
 #!rst
 
 reStructuredText goes here...
 
-}}}
-
-$2^3 + \sqrt{\pi^\pi}$
+```
+$2<sup>3 + \sqrt{\pi</sup>\pi}$ 

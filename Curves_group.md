@@ -1,4 +1,6 @@
-{{{
+
+
+```txt
 '''#########
 A cubic surface defined over a field k has exactly 27 lines over the algebraic closure of k. The goal of this code is given the defining equation of a cubic surface as input, to output equations for the 27 lines on the surface. In almost all cases, the defining field for the lines is too large to be practical to compute.
 Some functions that we will use here are find_27_lines, get_polynomial_to_split, Test_Full_Galois. 
@@ -80,7 +82,7 @@ def find_27_lines(f, bound=1):
     SS.<x,y,z,w,s,t> = PolynomialRing(K,6) #create a new polynomial ring
     newlines = []
     for line in lineslist:
-    	#create equations of the form e.g.[x-s, y-t, z - (a0*s + c0*t), w - (b0*s + d0*t)]
+        #create equations of the form e.g.[x-s, y-t, z - (a0*s + c0*t), w - (b0*s + d0*t)]
         newlines += [[x-SS(str(line[0])), y-SS(str(line[1])),z- SS(str(line[2])), w- SS(str(line[3]))]]
     #turn the list of equations into ideals
     ideals = [SS.ideal(line) for line in newlines]
@@ -252,4 +254,4 @@ def Test_Full_Galois(f,bound = 200):
         return False
     else: return True
 
-}}}
+```

@@ -1,9 +1,15 @@
-##master-page:HomepageTemplate
-#format wiki
-== Jaap Spies ==
-Email: <<MailTo(j.spies @hccnet.nl)>>
 
-...
 
-----
- . CategoryHomepage
+## Jaap Spies
+
+Email: [j.spies @hccnet.nl](j.spies @hccnet.nl) 
+
+... 
+
+
+
+---
+
+ 
+
+* <a href="/CategoryHomepage">CategoryHomepage</a> 

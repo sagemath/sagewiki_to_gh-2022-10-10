@@ -1,114 +1,116 @@
-= Projets lors des journées Sage 106 -- Projects during Sage Days 106 =
 
-Cette page recense les projets proposés. Ajoutez-vous ou ajoutez-en.
 
-This page lists proposed projects. Add yourself or add projects.
+# Projets lors des journées Sage 106 -- Projects during Sage Days 106
 
-== Introduction to Sage
+Cette page recense les projets proposés. Ajoutez-vous ou ajoutez-en. 
 
-Alba, Christian, Viviana
+This page lists proposed projects. Add yourself or add projects. 
 
-  * follow the tutorials from Sage Days 93.5 (Saint-Flour) and Sage Days 93.52 (Grenoble)
+== Introduction to Sage 
 
-== Lie algebras ==
+Alba, Christian, Viviana 
 
-Viviana
+   * follow the tutorials from Sage Days 93.5 (Saint-Flour) and Sage Days 93.52 (Grenoble) 
 
-  * learn about Lie algebras in Sage
-  * translate some Lie algebra code from Maple
-  * geometry of Lie groups
+## Lie algebras
 
-== Combinatorics ==
+Viviana 
 
-Christian
+   * learn about Lie algebras in Sage 
+   * translate some Lie algebra code from Maple 
+   * geometry of Lie groups 
 
-  * Grammars for sets of lattice paths
-  * Permutations with patterns
+## Combinatorics
 
-== Blender and SageMath ==
+Christian 
 
-Alba, Samuel
+   * Grammars for sets of lattice paths 
+   * Permutations with patterns 
 
-  * document how to combine them using Conda
-  * create export to `bmesh` (Blender's internal mesh format) from Sage's `indexFaceSet`
-  * improve parametric surface plugin for Blender
-  * make an implicit surface plugin for Blender using Sage
+## Blender and SageMath
 
-== Illustration ==
+Alba, Samuel 
 
-Alba, Samuel
+   * document how to combine them using Conda 
+   * create export to `bmesh` (Blender's internal mesh format) from Sage's `indexFaceSet` 
+   * improve parametric surface plugin for Blender 
+   * make an implicit surface plugin for Blender using Sage 
 
-  * document projects from the "Illustrating Mathematics" program at ICERM
-  * add examples to the Sage wiki
-  * work through illustrations-related questions on Ask Sage and Trac
-  * who: Alba, Samuel
+## Illustration
 
-== Flat surfaces ==
+Alba, Samuel 
 
-Aaron, Alba, Charles, Samuel
+   * document projects from the "Illustrating Mathematics" program at ICERM 
+   * add examples to the Sage wiki 
+   * work through illustrations-related questions on Ask Sage and Trac 
+   * who: Alba, Samuel 
 
-  * Ribbon graphs
-  * Saddle connections
-  * Nets
+## Flat surfaces
 
-== Minkowski's question mark function and Conway's box function ==
+Aaron, Alba, Charles, Samuel 
 
-Samuel
+   * Ribbon graphs 
+   * Saddle connections 
+   * Nets 
 
-  * Test the code on Sage Trac ticket #28853
-  * Add documentation
-  * Push the code and documentation, and review
+## Minkowski's question mark function and Conway's box function
 
-== Sage and Julia ==
+Samuel 
 
-Samuel
+   * Test the code on Sage Trac ticket #28853 
+   * Add documentation 
+   * Push the code and documentation, and review 
 
-  * Compare or combine
+## Sage and Julia
 
-== SageMath documentation ==
+Samuel 
 
-Samuel
+   * Compare or combine 
 
-  * Update FAQ
-  * Test out and update installation documentation
+## SageMath documentation
 
-== Sage on Windows ==
+Samuel 
 
-Samuel
+   * Update FAQ 
+   * Test out and update installation documentation 
 
-  * Test and update instructions to build from source on Cygwin
-  * Test the native Windows installer
-  * Installing extra packages in Sage on Windows
+## Sage on Windows
 
-== Sage on macOS ==
+Samuel 
 
-Samuel
+   * Test and update instructions to build from source on Cygwin 
+   * Test the native Windows installer 
+   * Installing extra packages in Sage on Windows 
 
-  * What's up with the app
-  * Document using packages from Homebrew
-  * Document installing the app via Homebrew
-  * Sage and macOS 10.15 Catalina
+## Sage on macOS
 
-== GCP research credits ==
+Samuel 
 
-Samuel
+   * What's up with the app 
+   * Document using packages from Homebrew 
+   * Document installing the app via Homebrew 
+   * Sage and macOS 10.15 Catalina 
 
-  * Renew Google Cloud Platform research credits
+## GCP research credits
 
-== Patchbots ==
+Samuel 
 
-Samuel
+   * Renew Google Cloud Platform research credits 
 
-  * What is it: https://wiki.sagemath.org/patchbot
-  * Launch some patchbots to test new Sage features
-  * Improve patchbot documentation
-  * Find more people willing to run patchbots
+## Patchbots
 
-== Prepare future Sage Days and trainings ==
+Samuel 
 
-Samuel
+   * What is it: <a href="https://wiki.sagemath.org/patchbot">https://wiki.sagemath.org/patchbot</a> 
+   * Launch some patchbots to test new Sage features 
+   * Improve patchbot documentation 
+   * Find more people willing to run patchbots 
 
-  * Prepare some known upcoming Sage trainings
-  * Plan some more Sage Days, trainings, working groups
-  * Prepare a kit for cases with bad internet
-  * Restart "Sage and scientific Python user group of the Paris area"
+## Prepare future Sage Days and trainings
+
+Samuel 
+
+   * Prepare some known upcoming Sage trainings 
+   * Plan some more Sage Days, trainings, working groups 
+   * Prepare a kit for cases with bad internet 
+   * Restart "Sage and scientific Python user group of the Paris area" 

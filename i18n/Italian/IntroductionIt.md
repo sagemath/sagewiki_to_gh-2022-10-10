@@ -1,6 +1,9 @@
-#language it
-== introduction_it.rst ==
-{{{
+
+
+## introduction_it.rst
+
+
+```txt
 Questo tutorial dovrebbe richiedere circa 3/4 ore per
 una lettura completa. Lo si può leggere in versione HTML o PDF, o dal notebook Sage;
 fare clic su "Help", poi fare clic su "Tutorial" per leggere interattivamente
@@ -148,8 +151,8 @@ Obiettivi di lungo periodo per Sage
 .. [PyT] (en) Il tutorial Python, http://www.python.org/
 
 .. [Sage] (en) Sage, http://www.sagemath.org
-}}}
+```
 
-== rst file ==
-<<AttachInfo>>
-<<AttachList>>
+## rst file
+
+[[!inline pages="!page(i18n/Italian/IntroductionIt/*) and glob(i18n/Italian/IntroductionIt/*)" quick archive="yes" feeds="no"]] [[!inline pages="!page(i18n/Italian/IntroductionIt/*) and glob(i18n/Italian/IntroductionIt/*)" quick archive="yes" feeds="no"]] 

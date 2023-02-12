@@ -1,31 +1,34 @@
-= Group III Final Presentation =
 
-== Agenda ==
 
-1. Congruences of newforms with newforms arising from elliptic curves
+# Group III Final Presentation
 
-2. (Ir)reducibility testing and Serre levels
 
-3. S_4 number fields arising from elliptic curves
+## Agenda
 
-4. Period lattices
+1. Congruences of newforms with newforms arising from elliptic curves 
 
-[[http://nt.sagenb.org/home/pub/14/ | computing splitting field of modular mod p reps]]
+2. (Ir)reducibility testing and Serre levels 
 
-5. Elliptic curves whose Galois representations are surjective mod 4 (resp. 8) but not mod 2 (resp. 4)
+3. S_4 number fields arising from elliptic curves 
 
-[[attachment:s4fieldellipticcurve.csv]]
+4. Period lattices 
 
-[[attachment:compileddata.csv]]
+<a class="http" href="http://nt.sagenb.org/home/pub/14/">computing splitting field of modular mod p reps</a> 
 
-[[attachment:freakshow.csv]]
+5. Elliptic curves whose Galois representations are surjective mod 4 (resp. 8) but not mod 2 (resp. 4) 
 
-[[attachment:newfndata.csv]]
+<a href="days22/greenberg/presentation/s4fieldellipticcurve.csv">s4fieldellipticcurve.csv</a> 
 
-[[attachment:exceptionalfields.csv]]
+<a href="days22/greenberg/presentation/compileddata.csv">compileddata.csv</a> 
 
-[[attachment:serre.pdf]]
+<a href="days22/greenberg/presentation/freakshow.csv">freakshow.csv</a> 
 
-[[attachment:BenPresentation.sws]]
+<a href="days22/greenberg/presentation/newfndata.csv">newfndata.csv</a> 
 
-http://wiki.sagemath.org/GaganSekhon.
+<a href="days22/greenberg/presentation/exceptionalfields.csv">exceptionalfields.csv</a> 
+
+<a href="days22/greenberg/presentation/serre.pdf">serre.pdf</a> 
+
+<a href="days22/greenberg/presentation/BenPresentation.sws">BenPresentation.sws</a> 
+
+<a href="http://wiki.sagemath.org/GaganSekhon">http://wiki.sagemath.org/GaganSekhon</a>. 

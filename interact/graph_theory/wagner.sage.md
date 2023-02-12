@@ -1,4 +1,6 @@
-{{{
+
+
+```txt
 def animate_contraction(g, e, frames = 12, **kwds):
     v1, v2 = e
     if not g.has_edge(v1,v2):
@@ -140,4 +142,4 @@ def animate_minor(g, m, frames = 12, pause = 50, step_time = 100):
     
     return animate(pics, xmin = xmin - 0.1, xmax = xmax + 0.1, 
                          ymin = ymin - 0.1, ymax = ymax + 0.1)
-}}}
+```

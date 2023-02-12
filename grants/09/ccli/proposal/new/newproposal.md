@@ -1,5 +1,6 @@
-{{{
 
+
+```txt
 %Some useful commands:
 \renewcommand{\thefootnote}{\roman{footnote}}
 \newcommand{\note}[1]{\footnote{#1}\marginpar[\flushright \fbox{\textbf{\thefootnote}}]{\fbox{\textbf{\thefootnote}} }}
@@ -732,4 +733,4 @@ End of where we are at.
 
 
 
-}}}
+```

@@ -1,4 +1,6 @@
-{{{
+
+
+```txt
 SMC + teach a course !?
 
 # Homework Submission
@@ -89,4 +91,4 @@ locked.
 
 
 
-}}}
+```

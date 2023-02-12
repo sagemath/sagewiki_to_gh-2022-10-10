@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 Sage Days 38 Tutorials
 ======================
@@ -272,4 +275,4 @@ Tutorial V: Cython
 .. _UTMOST: http://utmost.aimath.org/
 
 
-}}}
+```

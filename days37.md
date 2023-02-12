@@ -1,40 +1,45 @@
-= Sage Days 37: Seoul South Korea =
 
-== When and where? ==
 
-28 April 2012 (so it's more of a "Sage Day"), at the [[http://www.kms.or.kr/meetings/spring2012/home.htm|spring meeting of the Korean Mathematical Society]] at [[http://www.sookmyung.ac.kr/|Sookmyung Women's University]] in downtown Seoul. Our session is from 9:00 to 11:40. We hope to provide space in the afternoon for you to experiment and learn about Sage with some expert help.
+# Sage Days 37: Seoul South Korea
 
-== Activities ==
 
-Right now we intend to focus on introducing Sage and its capabilities to new users.
+## When and where?
 
-== Organizers ==
+28 April 2012 (so it's more of a "Sage Day"), at the <a class="http" href="http://www.kms.or.kr/meetings/spring2012/home.htm">spring meeting of the Korean Mathematical Society</a> at <a class="http" href="http://www.sookmyung.ac.kr/">Sookmyung Women's University</a> in downtown Seoul. Our session is from 9:00 to 11:40. We hope to provide space in the afternoon for you to experiment and learn about Sage with some expert help. 
 
-For more information, contact:
 
-  * DanDrake
-  * [[http://matrix.skku.ac.kr/sglee/|Sang-gu Lee (이상구)]]
-  * [[http://www.chosun.ac.kr/~kwankyu/index.html|Kwankyu Lee (이관규)]]
+## Activities
 
-== Participants ==
+Right now we intend to focus on introducing Sage and its capabilities to new users. 
 
-  * [[ http://buzzard.pugetsound.edu/|Rob Beezer]]
-  * Yasuhide NUMATA
 
-== Pictures ==
+## Organizers
 
-{{attachment:sd37-building.png}}
+For more information, contact: 
 
-Spring Meeting of the Korean Mathematical Society
+   * <a href="/DanDrake">DanDrake</a> 
+   * <a class="http" href="http://matrix.skku.ac.kr/sglee/">Sang-gu Lee (이상구)</a> 
+   * <a class="http" href="http://www.chosun.ac.kr/~kwankyu/index.html">Kwankyu Lee (이관규)</a> 
 
-{{attachment:sd37-group.png}}
+## Participants
 
-Participants
+   * <a class="http" href="http://buzzard.pugetsound.edu/">Rob Beezer</a> 
+   * Yasuhide NUMATA 
 
-{{attachment:sd37-kwankyu-lee.png}}
+## Pictures
 
-Kwankyu Lee and Why He Likes Sage
+![days37/sd37-building.png](days37/sd37-building.png) 
 
-{{attachment:sd37-dan-drake.png}}
+Spring Meeting of the Korean Mathematical Society 
 
-Dan Drake
+![days37/sd37-group.png](days37/sd37-group.png) 
+
+Participants 
+
+![days37/sd37-kwankyu-lee.png](days37/sd37-kwankyu-lee.png) 
+
+Kwankyu Lee and Why He Likes Sage 
+
+![days37/sd37-dan-drake.png](days37/sd37-dan-drake.png) 
+
+Dan Drake 

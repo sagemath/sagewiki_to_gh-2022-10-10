@@ -1,13 +1,15 @@
-##master-page:HomepageTemplate
-#format wiki
-#language en
-== Gabriel Pannwitz ==
 
-Email: gabriel.pannwitz@googlemail.com
 
-http://sites.google.com/site/gabrielpannwitz/
+## Gabriel Pannwitz
 
-I am a student of math and computer science at http://mi.fu-berlin.de
+Email: <a href="mailto:gabriel.pannwitz@googlemail.com">gabriel.pannwitz@googlemail.com</a> 
 
-----
-CategoryHomepage
+<a href="http://sites.google.com/site/gabrielpannwitz/">http://sites.google.com/site/gabrielpannwitz/</a> 
+
+I am a student of math and computer science at <a href="http://mi.fu-berlin.de">http://mi.fu-berlin.de</a> 
+
+
+
+---
+
+ <a href="/CategoryHomepage">CategoryHomepage</a> 

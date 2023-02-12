@@ -1,5 +1,9 @@
-= k-Schur Functions =
-{{{
+
+
+# k-Schur Functions
+
+
+```txt
 sage: ks3 = kSchurFunctions(QQ,3); ks3
 k-Schur Functions at level 3 over Univariate Polynomial Ring in t over Rational Field
 sage: s(ks3([3,2,1]))
@@ -17,4 +21,4 @@ q*s[1, 1, 1, 1] + (q*t^2+q*t+1)*s[2, 1, 1] + (q*t^2+t)*s[2, 2] + (q*t^3+t^2+t)*s
 sage: ks3 = kSchurFunctions(H.base_ring(), 3, t=t)
 sage: ks3(H([2,1,1]))
 q*ks3[1, 1, 1, 1] + (q*t^2+1)*ks3[2, 1, 1] + (q*t^2+t)*ks3[2, 2] + t^2*ks3[3, 1]
-}}}
+```

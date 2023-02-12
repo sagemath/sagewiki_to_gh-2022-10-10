@@ -1,20 +1,15 @@
-Preparation of the Partner University Fund application
 
-Last year, we applied with Anne Schilling for a PUF grant around Sage-Combinat:
+Preparation of the Partner University Fund application 
 
-       https://face-foundation.org/partner-university-fund/
+Last year, we applied with Anne Schilling for a PUF grant around Sage-Combinat: 
 
-The application failed, but the organizers warmly recommended to apply
-again this year. This is a three years grant that can fund travel,
-short to long term accommodation, meeting expenses to encourage
-exchanges between France and the USA, especially for grad students and
-postdocs, and possibly some hardware. The application deadline is
-December 15th, with the grant starting around March/April.
+                  * <a href="https://face-foundation.org/partner-university-fund/">https://face-foundation.org/partner-university-fund/</a> 
+The application failed, but the organizers warmly recommended to apply again this year. This is a three years grant that can fund travel, short to long term accommodation, meeting expenses to encourage exchanges between France and the USA, especially for grad students and postdocs, and possibly some hardware. The application deadline is December 15th, with the grant starting around March/April. 
 
-Here is the current draft of project, as a call for
-suggestions. Please highlight your edits and comments in bold!
+Here is the current draft of project, as a call for suggestions. Please highlight your edits and comments in bold! 
 
-{{{
+
+```txt
 1 / PROJECT
 
 
@@ -643,4 +638,4 @@ FRANCE:
  - Tom Denton, Florent Hivert, Anne Schilling, Nicolas M. Thiéry
    The representation theory of J-trivial monoids.
    in preparation
-}}}
+```

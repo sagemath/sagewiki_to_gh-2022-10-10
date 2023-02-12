@@ -1,9 +1,9 @@
-= Project Group 1: Tables of Elliptic Curves =
 
- People: John Cremona
 
- Students: TBA
+# Project Group 1: Tables of Elliptic Curves
 
-== Reading List ==
+* People: John Cremona Students: TBA 
 
- * [[http://www.warwick.ac.uk/~masgaj/book/fulltext/index.html|Algorithms for Modular Elliptic Curves]]
+## Reading List
+
+* <a class="http" href="http://www.warwick.ac.uk/~masgaj/book/fulltext/index.html">Algorithms for Modular Elliptic Curves</a> 

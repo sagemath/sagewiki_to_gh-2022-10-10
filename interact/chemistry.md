@@ -1,5 +1,7 @@
-= Sage Interactions - Chemistry =
-goto [[interact|interact main page]]
 
 
-<<TableOfContents>>
+# Sage Interactions - Chemistry
+
+goto <a href="/interact">interact main page</a> 
+
+[[_TOC_]] 

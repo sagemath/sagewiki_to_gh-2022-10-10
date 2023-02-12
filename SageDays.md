@@ -1,4 +1,5 @@
-#REDIRECT Workshops
-= SageDays =
 
- * '''Please see [[Workshops]]'''
+
+# SageDays
+
+* **Please see <a href="/Workshops">Workshops</a>** 

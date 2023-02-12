@@ -1,16 +1,22 @@
-= SageMath on social and professional networks =
 
-See also: [[Infrastructure]].
 
-== Facebook ==
-  * url: https://www.facebook.com/Sage-Math-26593144945/
-  * admin: schilly
+# SageMath on social and professional networks
 
-== Twitter ==
-  * url: https://twitter.com/sagemath
-  * admin: schilly
+See also: <a href="/Infrastructure">Infrastructure</a>. 
 
-== LinkedIn ==
-  * url: https://www.linkedin.com/groups/2010654/profile
-  * url: http://rs.linkedin.com/grps/Sage-Math-2010654/about?
-  * admin: schilly
+
+## Facebook
+
+   * url: <a href="https://www.facebook.com/Sage-Math-26593144945/">https://www.facebook.com/Sage-Math-26593144945/</a> 
+   * admin: schilly 
+
+## Twitter
+
+   * url: <a href="https://twitter.com/sagemath">https://twitter.com/sagemath</a> 
+   * admin: schilly 
+
+## LinkedIn
+
+   * url: <a href="https://www.linkedin.com/groups/2010654/profile">https://www.linkedin.com/groups/2010654/profile</a> 
+   * url: <a href="http://rs.linkedin.com/grps/Sage-Math-2010654/about">http://rs.linkedin.com/grps/Sage-Math-2010654/about</a>? 
+   * admin: schilly 

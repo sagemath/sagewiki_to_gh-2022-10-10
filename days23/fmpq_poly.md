@@ -1,86 +1,83 @@
-Writing a module fmpq_poly for rational polynomials in FLINT2.
 
-[Sebastian, Monday night, 01:30]
+Writing a module fmpq_poly for rational polynomials in FLINT2. 
 
-1)  Naming conventions
+[Sebastian, Monday night, 01:30] 
 
-It has taken me a while to think about how to deal with the various problems associated to maintaining a very similar naming convention as well as functionality.  The things I am thinking of here are "truncate", which as mentioned earlier is both a high level "truncation modulo t^n" end-user routine as well as a low-level routine, and "normalise", which I'd like to have and use as a subroutine for the numerator integer polynomial but which should *not* ensure the coprimality of the numerator and denominator - this should be left to a method "canonicalise".
+1)  Naming conventions 
 
-I think the way to go about this is to simply have the functionality very similar to the fmpz_poly one but to simply document every method very carefully.
+It has taken me a while to think about how to deal with the various problems associated to maintaining a very similar naming convention as well as functionality.  The things I am thinking of here are "truncate", which as mentioned earlier is both a high level "truncation modulo t^n" end-user routine as well as a low-level routine, and "normalise", which I'd like to have and use as a subroutine for the numerator integer polynomial but which should *not* ensure the coprimality of the numerator and denominator - this should be left to a method "canonicalise". 
 
-As far as the prefix "_" is used in signatures, I think it would be good if as a general rule methods without a "_" prefix expected their input to be in canonical form, that is, with a normalised numerator integer polynomial and a positive integer denominator which is coprime to the content of the numerator polynomial.
+I think the way to go about this is to simply have the functionality very similar to the fmpz_poly one but to simply document every method very carefully. 
 
-2)  Code written so far/ still to be written
+As far as the prefix "_" is used in signatures, I think it would be good if as a general rule methods without a "_" prefix expected their input to be in canonical form, that is, with a normalised numerator integer polynomial and a positive integer denominator which is coprime to the content of the numerator polynomial. 
 
-So far I've written the following..
+2)  Code written so far/ still to be written 
 
-fmpq_poly:  init, init2, realloc, fit_length, set_length, clear, normalise, canonicalise, set, is_zero, equal.  (No test code yet.)
+So far I've written the following.. 
 
-fmpz_vec:  content, scalar_divexact, scalar_fdiv_q, scalar_fdiv_q_2exp
+fmpq_poly:  init, init2, realloc, fit_length, set_length, clear, normalise, canonicalise, set, is_zero, equal.  (No test code yet.) 
 
-3)  static inline
+fmpz_vec:  content, scalar_divexact, scalar_fdiv_q, scalar_fdiv_q_2exp 
 
-In fmpz_poly.h I saw a few "static inline" functions (like the one pasted below) which had some local variables.  I'm not really experienced in writing thread-safe C code, but I thought I'd quickly check this with you.  Couldn't this cause problems if different threads accessed and modified the same variable i simultaneously?
+3)  static inline 
 
-static inline
-void _fmpz_poly_set_length(fmpz_poly_t poly, const ulong length)
-{
-    if (poly->length > length) // demote coefficients beyond new length
-   {
-      ulong i;
-      for (i = length; i < poly->length; i++)
-            _fmpz_demote(poly->coeffs + i);
-   }
+In fmpz_poly.h I saw a few "static inline" functions (like the one pasted below) which had some local variables.  I'm not really experienced in writing thread-safe C code, but I thought I'd quickly check this with you.  Couldn't this cause problems if different threads accessed and modified the same variable i simultaneously? 
 
-    poly->length = length;
-}
+static inline void _fmpz_poly_set_length(fmpz_poly_t poly, const ulong length) { 
 
-[Sebastian, Monday night, 2am]
+         * if (poly->length > length) // demote coefficients beyond new length 
+      * { 
+               * ulong i; for (i = length; i < poly->length; i++) 
+                                 * _fmpz_demote(poly->coeffs + i); } 
+         * poly->length = length; 
+} 
 
-4)  White space
+[Sebastian, Monday night, 2am] 
 
-It seems that more often than not the indentation is set to 4 spaces.  If I encounter something different in a part of a file that I'm working on, I might change it to 4 spaces.  I hope that's OK.
+4)  White space 
 
-5)  fmpz_vec:  aliasing
+It seems that more often than not the indentation is set to 4 spaces.  If I encounter something different in a part of a file that I'm working on, I might change it to 4 spaces.  I hope that's OK. 
 
-There are quite a few ways that one might want to support aliasing for fmpz_vec methods.  Today already you mentioned that you'd want to support fmpz_vec operations in case where the resulting vector is exactly aligned with the input vector or vectors, but that other ways of overlapping input and output vectors should not be supported.  When fmpz_vec methods take an additional fmpz argument (e.g. for scalar multiplication and division), should it be supported that the additional fmpz is an entry in one of the vectors (input or output)?
+5)  fmpz_vec:  aliasing 
 
-I guess it'd be a good idea to briefly think about what should be supported and to document that behaviour and then simply declare the behaviour "undefined" in the remaining cases?
+There are quite a few ways that one might want to support aliasing for fmpz_vec methods.  Today already you mentioned that you'd want to support fmpz_vec operations in case where the resulting vector is exactly aligned with the input vector or vectors, but that other ways of overlapping input and output vectors should not be supported.  When fmpz_vec methods take an additional fmpz argument (e.g. for scalar multiplication and division), should it be supported that the additional fmpz is an entry in one of the vectors (input or output)? 
 
-[Sebastian, Monday night, 3am]
+I guess it'd be a good idea to briefly think about what should be supported and to document that behaviour and then simply declare the behaviour "undefined" in the remaining cases? 
 
-6)  Conversion between fmpz and mpz types
+[Sebastian, Monday night, 3am] 
 
-At the moment I can't seem to find the methods "fmpz_to_mpz" and "mpz_to_fmpz".
+6)  Conversion between fmpz and mpz types 
 
-7)  More methods written
+At the moment I can't seem to find the methods "fmpz_to_mpz" and "mpz_to_fmpz". 
 
-fmpq_poly:  set_si, set_ui, set_fmpz, neg, inv, swap
+7)  More methods written 
 
-I still need to find the method "mpz_to_fmpz" in order to write the methods "set_mpz" and "set_mpq".
+fmpq_poly:  set_si, set_ui, set_fmpz, neg, inv, swap 
 
-[Sebastian, Tuesday morning, 11am]
+I still need to find the method "mpz_to_fmpz" in order to write the methods "set_mpz" and "set_mpq". 
 
-8)  Polynomial parameters
+[Sebastian, Tuesday morning, 11am] 
 
-I couldn't find the method "degree" for fmpz_poly.  I added the methods
+8)  Polynomial parameters 
 
-fmpq_poly:  degree, length
+I couldn't find the method "degree" for fmpz_poly.  I added the methods 
 
-[Sebastian, Tuesday before lunch, 2pm]
+fmpq_poly:  degree, length 
 
-I'm done - apart from testing! - with all the basic non-arithmetic functions now.  After lunch I'll work on addition and multiplication.
+[Sebastian, Tuesday before lunch, 2pm] 
 
-[Sebastian, Tuesday night, 0:30am]
+I'm done - apart from testing! - with all the basic non-arithmetic functions now.  After lunch I'll work on addition and multiplication. 
 
-9) Testing
+[Sebastian, Tuesday night, 0:30am] 
 
-Lots of things done.  Testing for all the non-arithmetic function implemented so far.
+9) Testing 
 
-10) Arithmetic functionality
+Lots of things done.  Testing for all the non-arithmetic function implemented so far. 
 
-Addition is almost done, still needs testing.  (Implement an "obviously" correct naive method, then compare the answers.)
+10) Arithmetic functionality 
 
-11) TODO in fmpz_vec
+Addition is almost done, still needs testing.  (Implement an "obviously" correct naive method, then compare the answers.) 
 
-Implement is_zero
+11) TODO in fmpz_vec 
+
+Implement is_zero 

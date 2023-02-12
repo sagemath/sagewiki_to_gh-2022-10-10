@@ -1,11 +1,16 @@
-= Sage Interactions - Graph Theory =
-goto [[interact|interact main page]]
 
-<<TableOfContents>>
 
-== Graph Browser ==
-by Marshall Hampton 
-{{{#!sagecell
+# Sage Interactions - Graph Theory
+
+goto <a href="/interact">interact main page</a> 
+
+[[_TOC_]] 
+
+
+## Graph Browser
+
+by Marshall Hampton  
+```sagecell
 grs = ['BalancedTree', 'BullGraph', 'ChvatalGraph', 'CirculantGraph', 'CircularLadderGraph', 'ClawGraph', 'CompleteBipartiteGraph', 'CompleteGraph', 'CubeGraph', 'CycleGraph', 'DegreeSequence', 'DegreeSequenceConfigurationModel', 'DegreeSequenceExpected', 'DegreeSequenceTree', 'DesarguesGraph', 'DiamondGraph', 'DodecahedralGraph', 'DorogovtsevGoltsevMendesGraph', 'EmptyGraph', 'FlowerSnark', 'FruchtGraph', 'Grid2dGraph', 'GridGraph', 'HeawoodGraph', 'HexahedralGraph', 'HoffmanSingletonGraph', 'HouseGraph', 'HouseXGraph', 'IcosahedralGraph', 'KrackhardtKiteGraph', 'LCFGraph', 'LadderGraph', 'LollipopGraph', 'MoebiusKantorGraph', 'OctahedralGraph', 'PappusGraph', 'PathGraph', 'PetersenGraph', 'RandomBarabasiAlbert', 'RandomGNM', 'RandomGNP', 'RandomHolmeKim', 'RandomLobster', 'RandomNewmanWattsStrogatz', 'RandomRegular', 'RandomTreePowerlaw', 'StarGraph', 'TetrahedralGraph', 'ThomsenGraph', 'WheelGraph']
 examples = {}
 for g in grs:
@@ -41,14 +46,16 @@ def graph_browser(graph_name = selector(grs, label = "Graph type:"), newargs = i
         t_graph = eval(examples[graph_name])
     if output_type == '2D': show(t_graph)
     if output_type == '3D': t_graph.show3d()
-}}}
-{{attachment:graph_browse.png}}
+```
+![interact/graph_theory/graph_browse.png](interact/graph_theory/graph_browse.png) 
 
 
-== Automorphism Groups of some Graphs ==
-by William Stein:
+## Automorphism Groups of some Graphs
 
-{{{#!sagecell
+by William Stein: 
+
+
+```sagecell
 @interact
 def _(graph=['CycleGraph', 'CubeGraph', 'RandomGNP'],
       n=selector([1..10],nrows=1), p=selector([10,20,..,100],nrows=1)):
@@ -68,14 +75,16 @@ def _(graph=['CycleGraph', 'CubeGraph', 'RandomGNP'],
        G = graphs.RandomGNP(n, p / 100.0)
     print(G.automorphism_group())
     show(plot(G))
-}}}
+```
+![interact/graph_theory/auto_graph2.png](interact/graph_theory/auto_graph2.png) 
 
-{{attachment:auto_graph2.png}}
 
-== View an induced subgraph ==
-by Jason Grout
+## View an induced subgraph
 
-{{{#!sagecell
+by Jason Grout 
+
+
+```sagecell
 m=random_matrix(ZZ,10,density=.5)
 a=DiGraph(m) 
 
@@ -86,15 +95,16 @@ def show_subgraph(to_delete=selector(range(10),buttons=True)):
     html.table([["Original", "New"],
                [plot(a,save_pos=True), plot(a.subgraph(subgraph_vertices))]],
                header=True)
-}}}
+```
+![interact/graph_theory/subgraph-interact.png](interact/graph_theory/subgraph-interact.png) 
 
-{{attachment:subgraph-interact.png}}
+
+## Animations of Graph Minors
+
+by Pablo Angulo 
 
 
-== Animations of Graph Minors ==
-by Pablo Angulo
-
-{{{#!sagecell
+```sagecell
 def animate_contraction(g, e, frames = 12, **kwds):
     v1, v2 = e
     if not g.has_edge(v1,v2):
@@ -266,5 +276,5 @@ def _(u1 = text_control(value='Does this graph'),
         a.show(delay=100*step_time/frames)
     except ValueError:
         html('''<h3>The first graph have <strong>NO</strong> minor isomorphic to the second</h3>''')
-}}}
-{{attachment:wagner.gif}}
+```
+![interact/graph_theory/wagner.gif](interact/graph_theory/wagner.gif) 

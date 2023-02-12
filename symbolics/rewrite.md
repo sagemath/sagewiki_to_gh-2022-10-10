@@ -1,8 +1,11 @@
-== Rewriting symbolic expressions ==
 
-This page holds notes related to the design of the `rewrite()` function on symbolic expressions. This function should provide a clean interface to various transformations which can be performed on symbolic expressions. For example:
 
-{{{
+## Rewriting symbolic expressions
+
+This page holds notes related to the design of the `rewrite()` function on symbolic expressions. This function should provide a clean interface to various transformations which can be performed on symbolic expressions. For example: 
+
+
+```txt
 sage: rewrite(exp(x), "exp2sincos")
 -I*sin(I*x) + cos(I*x)
 sage: rewrite(exp(-I*x), "exp2sincos")
@@ -11,44 +14,40 @@ sage: rewrite(exp(a+I*b), "exp2trig")
 (sinh(a) + cosh(a))*(I*sin(b) + cos(b))
 sage: rewrite((e^x)^2-e^(-2*x)+e^(-4*x)+(e^x)^4, 'exp2sinhcosh')
 2*sinh(2*x) + 2*cosh(4*x)
-}}}
+```
+This is not a Sage kernel function. You must load the attached file "rewrite.sage" if you want to use this function. 
 
-This is not a Sage kernel function.
-You must load the attached file "rewrite.sage" if you want to use this function.
+You can add inline comments, by using the `{i}` tag. 
 
-You can add inline comments, by using the `{i}` tag.
- {i} burcin: Some comment.
+* {i} burcin: Some comment. 
+For general comments use the **Notes** section below. 
 
-For general comments use the '''Notes''' section below.
 
-=== Signature ===
+### Signature
 
-{{{
+
+```txt
 rewrite(rule=None, source=None, target=None, filter=None)
-}}}
- * rule - string
- A string from the rules section below specifying which transformation to use
- * target - optional keyword argument - string or function
- Specify a target function type instead of a single rule. For example:
- {{{
+```
+* rule - string A string from the rules section below specifying which transformation to use 
+* target - optional keyword argument - string or function Specify a target function type instead of a single rule. For example: ```txt
 sage: (binomial(n, k)*factorial(n)).rewrite(target=gamma)
 gamma(n+1)^2/(gamma(k+1)*gamma(n-k+1))
- }}}
- * source - optional keyword argument - string or function
- Specify the transformation to use by giving `source` and `target` arguments. For example:
- {{{
+ 
+```
+* source - optional keyword argument - string or function Specify the transformation to use by giving `source` and `target` arguments. For example: ```txt
 sage: (exp(x)*tan(x)).rewrite(source=tan, target=sin) # find a better example
 exp(x)*sin(x)*cos(x)
- }}}
- * filter - callable which takes symbolic expressions as arguments returns True or False
- A function to decide if the given rule should be applied to a subexpression
+ 
+```
+* filter - callable which takes symbolic expressions as arguments returns True or False A function to decide if the given rule should be applied to a subexpression 
+
+### Rules
+
+The list below is taken from Francois Maltey's notes: 
 
 
-=== Rules ===
-
-The list below is taken from Francois Maltey's notes:
-
-{{{
+```txt
 exp2sinhcosh   : exp(x) => sinh(x) + cosh(x)
 exp2sincos     : exp(x) => cos(i*x) - i*sin(i*x)
 lessIinExp     : exp(a+i*b) => exp(a)*(cos(b)+i*sin(b))
@@ -91,10 +90,10 @@ fact2binomial  : (n+a)!/((p+b)!(n-p+c)! => ... avec a, b et c entiers fixés
 
 exp2pow        : exp(ln(a)*b) => a^b 
 pow2exp        : a^b => exp(ln(a)*b)
-}}}
+```
 
-==== Notes ====
+#### Notes
 
-Add general comments about the design here. 
+Add general comments about the design here.  
 
- * burcin: looking forward to getting this in
+* burcin: looking forward to getting this in 

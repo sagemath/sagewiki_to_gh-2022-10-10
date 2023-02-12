@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 Sage-Combinat days in Cernay, February 2012
 ===========================================
 
@@ -157,4 +160,4 @@ Coming from downtown Paris to Cernay
 We will do some car shuttles from Saint-Rémy. Please contact us in
 advance to synchronize.
 
-}}}
+```

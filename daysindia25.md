@@ -1,33 +1,36 @@
-= Sage Days 25 in Mumbai, India =
 
-=== Dates / Venue ===
 
-   * August 9-12, 2010
-   * Institute Auditorium, IIT Bombay, Mumbai, India.
+# Sage Days 25 in Mumbai, India
 
-=== Official Website ===
 
-   * http://www.fossee.in/sage_days
+### Dates / Venue
 
-=== Schedule ===
+      * August 9-12, 2010 
+      * Institute Auditorium, IIT Bombay, Mumbai, India. 
 
-   * The [[/schedule|schedule]], as on this Wiki.
-   * The schedule as on the official website: http://www.fossee.in/sage_days/schedule
+### Official Website
 
-=== Photos ===
+      * <a href="http://www.fossee.in/sage_days">http://www.fossee.in/sage_days</a> 
 
-   * http://www.fossee.in/gallery
-   * http://picasaweb.google.com/SG.Sourav/SageDays25
+### Schedule
 
-=== Organizers ===
+      * The <a href="/daysindia25/schedule">schedule</a>, as on this Wiki. 
+      * The schedule as on the official website: <a href="http://www.fossee.in/sage_days/schedule">http://www.fossee.in/sage_days/schedule</a> 
 
-   * Kiran Kedlaya (MIT)
-   * Jarrod Millman (UC Berkeley)
-   * Prabhu Ramachandran (IITB)
-   * William Stein (University of Washington) -- could not attend
-   * Sourav Sen Gupta (ISI Kolkata)
-   
-=== Mailing lists ===
+### Photos
 
-   * http://groups.google.com/group/sagedays25 (for participants)
-   * http://groups.google.com/group/sagedays25-org (for organizers only)
+      * <a href="http://www.fossee.in/gallery">http://www.fossee.in/gallery</a> 
+      * <a href="http://picasaweb.google.com/SG.Sourav/SageDays25">http://picasaweb.google.com/SG.Sourav/SageDays25</a> 
+
+### Organizers
+
+      * Kiran Kedlaya (MIT) 
+      * Jarrod Millman (UC Berkeley) 
+      * Prabhu Ramachandran (IITB) 
+      * William Stein (University of Washington) -- could not attend 
+      * Sourav Sen Gupta (ISI Kolkata) 
+
+### Mailing lists
+
+      * <a href="http://groups.google.com/group/sagedays25">http://groups.google.com/group/sagedays25</a> (for participants) 
+      * <a href="http://groups.google.com/group/sagedays25-org">http://groups.google.com/group/sagedays25-org</a> (for organizers only) 

@@ -1,11 +1,16 @@
-= Sage Interactions - Geometry =
-goto [[interact|interact main page]]
 
-<<TableOfContents>>
 
-== Intersecting tetrahedral reflections FIXME ==
-by Marshall Hampton.  Inspired by a question from Hans Schepker of Glass Geometry.
-{{{#!sagecell
+# Sage Interactions - Geometry
+
+goto <a href="/interact">interact main page</a> 
+
+[[_TOC_]] 
+
+
+## Intersecting tetrahedral reflections FIXME
+
+by Marshall Hampton.  Inspired by a question from Hans Schepker of Glass Geometry. 
+```sagecell
 #Pairs of tetrahedra, one the reflection of the other in the internal face, are joined by union operations:
 p1 = Polyhedron(vertices = [[1,1,1],[1,1,0],[0,1,1],[1,0,1]])
 p2 = Polyhedron(vertices = [[1/3,1/3,1/3],[1,1,0],[0,1,1],[1,0,1]])
@@ -28,12 +33,14 @@ def tetra_plot(opac = slider(srange(0,1.0,.25), default = .25)):
     p78r = p78.render_wireframe()+p78.render_solid(rgbcolor = (0,1,1),opacity = opac)
     ptir = pti.render_wireframe()+pti.render_solid(rgbcolor = (1,0,1),opacity = .9)
     show(p12r+p34r+p56r+p78r+ptir, frame = False)
-}}}
-{{attachment:tetrareflect.png}}
+```
+![interact/geometry/tetrareflect.png](interact/geometry/tetrareflect.png) 
 
-== Evolutes ==
-by Pablo Angulo. Computes the evolute of a plane curve given in parametric coordinates. The curve must be parametrized from the interval [0,2pi].
-{{{#!sagecell
+
+## Evolutes
+
+by Pablo Angulo. Computes the evolute of a plane curve given in parametric coordinates. The curve must be parametrized from the interval [0,2pi]. 
+```sagecell
 var('t');
 def norma(v):
     return sqrt(sum(x^2 for x in v))    
@@ -77,18 +84,19 @@ def _( gamma1=input_box(default=sin(t)), gamma2=input_box(default=1.3*cos(t)),
         grafica+=punto+circulo
 
     show(grafica,aspect_ratio=1,xmin=-2,xmax=2,ymin=-2,ymax=2)
-}}}
-{{attachment:evoluta3.png}}
+```
+![interact/geometry/evoluta3.png](interact/geometry/evoluta3.png) 
 
 
-== Geodesics on a parametric surface FIXME ==
-by Antonio Valdés and Pablo Angulo. This example was originally composed of two interacts: 
- - the first allowing the user to introduce a parametric surface, and draw it.
- - the second drawing a geodesic within the surface. 
-The separation was so that after the first interact, the geodesic equations were "compiled", thus making the second interact faster.
-However, in the following there is only one interact, to make sagecell works.
+## Geodesics on a parametric surface FIXME
 
-{{{#!sagecell
+by Antonio Valdés and Pablo Angulo. This example was originally composed of two interacts:  
+
+* - the first allowing the user to introduce a parametric surface, and draw it. - the second drawing a geodesic within the surface.  
+The separation was so that after the first interact, the geodesic equations were "compiled", thus making the second interact faster. However, in the following there is only one interact, to make sagecell works. 
+
+
+```sagecell
 from scipy.integrate import odeint
 
 u, v, t, du, dv = var('u v t du dv')
@@ -189,15 +197,16 @@ def _(x = input_box(3*sin(u)*cos(v), 'x'),
     V_plot = arrow3d(P, P + V, color = 'black')
     
     show(g_plot + S_plot + V_plot + P_plot,aspect_ratio = [1, 1, 1])
-}}}
-{{attachment:geodesics1.png}}
-{{attachment:geodesics2.png}}
+```
+![interact/geometry/geodesics1.png](interact/geometry/geodesics1.png) ![interact/geometry/geodesics2.png](interact/geometry/geodesics2.png) 
 
-== Dimensional Explorer ==
-By Eviatar Bach
 
-Renders 2D images (perspective or spring-layout) and 3D models of 0-10 dimensional hypercubes. It also displays number of edges and vertices.
-{{{#!sagecell
+## Dimensional Explorer
+
+By Eviatar Bach 
+
+Renders 2D images (perspective or spring-layout) and 3D models of 0-10 dimensional hypercubes. It also displays number of edges and vertices. 
+```sagecell
 @interact
 def render(Display=selector(['2D Perspective', '2D Spring-layout', '3D']), Dimension=slider(0,10,default=4, step_size=1), Size=slider(0,10,default=5,step_size=1), Vertices=False, Calculations=False):
     
@@ -235,13 +244,16 @@ def render(Display=selector(['2D Perspective', '2D Spring-layout', '3D']), Dimen
             d=graphs.CubeGraph(Dimension)
             print('Vertices:', len(d.vertices()), ('(2^%s)'%Dimension if Calculations else ''), '\nEdges:', len(d.edges()), ('(%s*(%s/2))' %(len(d.vertices()), Dimension) if Calculations else ''))
             d.show3d(figsize=[Size,Size], vertex_size=(0.03 if Vertices else 0.001))
-}}}
-{{attachment:dimensions.png}}
+```
+![interact/geometry/dimensions.png](interact/geometry/dimensions.png) 
 
-== Crofton's formula FIXME ==
-by Pablo Angulo. Illustrates [[http://en.wikipedia.org/wiki/Crofton%27s_formula| Crofton's formula]] by throwing some random lines and computing the intersection number with a given curve. May use either solve for exact computation of the intersections, or may also approximate the curve by straight segments (this is the default).
 
-{{{#!sagecell
+## Crofton's formula FIXME
+
+by Pablo Angulo. Illustrates <a class="http" href="http://en.wikipedia.org/wiki/Crofton%27s_formula">Crofton's formula</a> by throwing some random lines and computing the intersection number with a given curve. May use either solve for exact computation of the intersections, or may also approximate the curve by straight segments (this is the default). 
+
+
+```sagecell
 from collections import defaultdict
 
 var('t x y')
@@ -351,14 +363,16 @@ def crofton_interact(u1 = text_control('x and y coordinates of curve'),
     print_stats(cortesd)
     cortes_tot = sum(k*v for k,v in cortesd.iteritems())
     print('Approx length using Crofton\'s formula: %f'%((cortes_tot/L)*(pi*M)))
-}}}
-{{attachment:crofton4.png}}
+```
+![interact/geometry/crofton4.png](interact/geometry/crofton4.png) 
 
 
-== Banchoff-Pohl area ==
-by Pablo Angulo. Computes the Banchoff-Pohl "area enclosed by a spatial curve", by throwing some random lines and computing the linking number with the given curve. Lines not linked to the given curve are displayed in red, linked lines are displayed in green.
+## Banchoff-Pohl area
 
-{{{#!sagecell
+by Pablo Angulo. Computes the Banchoff-Pohl "area enclosed by a spatial curve", by throwing some random lines and computing the linking number with the given curve. Lines not linked to the given curve are displayed in red, linked lines are displayed in green. 
+
+
+```sagecell
 from collections import defaultdict
 var('t')
 a = 0; b= 2*pi
@@ -431,6 +445,5 @@ def bp_interact( u1 = text_control('x, y, z coordinates of a closed space curve 
     bp_area_aprox = (sum(k^2*v for k,v in ln_d.iteritems())/L)*2*pi*M^2
     print('Bahnchoff-Pohl area of the curve(aprox): %f' % bp_area_aprox)
     print_stats(ln_d)
-}}}
-
-{{attachment:banchoff-pohl.png}}
+```
+![interact/geometry/banchoff-pohl.png](interact/geometry/banchoff-pohl.png) 

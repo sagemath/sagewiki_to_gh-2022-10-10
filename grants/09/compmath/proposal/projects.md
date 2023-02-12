@@ -1,7 +1,9 @@
-= Projects =
 
-{{{
 
+# Projects
+
+
+```txt
 \section{Proposed Sage Days Workshops}
 
 In the following sections we describe $N$ [[update when done]]
@@ -873,4 +875,4 @@ At a Sage Days workshop on linear algebra, we would attack the following problem
 
 
 
-}}}
+```

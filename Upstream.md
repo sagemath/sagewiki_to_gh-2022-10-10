@@ -1,7 +1,10 @@
-= SageMath: upstream projects =
 
-moved to https://trac.sagemath.org/wiki/Upstream
 
-== What about downstream? ==
+# SageMath: upstream projects
 
-See [[Distribution]], [[Interfaces]], [[SageMathExternalPackages]], [[CodeSharingWorkflow]].
+moved to <a href="https://trac.sagemath.org/wiki/Upstream">https://trac.sagemath.org/wiki/Upstream</a> 
+
+
+## What about downstream?
+
+See <a href="/Distribution">Distribution</a>, <a href="/Interfaces">Interfaces</a>, <a href="/SageMathExternalPackages">SageMathExternalPackages</a>, <a href="/CodeSharingWorkflow">CodeSharingWorkflow</a>. 

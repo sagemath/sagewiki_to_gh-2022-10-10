@@ -1,16 +1,21 @@
-##master-page:HomepageTemplate
-#format wiki
-== David Harvey ==
 
-Email: <<MailTo(dmharvey AT SPAMFREE math DOT harvard DOT edu)>>
 
-=== Who am I ===
+## David Harvey
 
-I'm a graduate student in number theory at Harvard University.
+Email: dmharvey AT SPAMFREE math DOT harvard DOT edu 
 
-=== Various things ===
 
-* DavidHarvey/TimingExperiments: comparing speed of polynomial multiplication over Z for MAGMA vs PARI vs NTL.
+### Who am I
 
-----
-CategoryHomepage
+I'm a graduate student in number theory at Harvard University. 
+
+
+### Various things
+
+* <a href="/DavidHarvey/TimingExperiments">DavidHarvey/TimingExperiments</a>: comparing speed of polynomial multiplication over Z for MAGMA vs PARI vs NTL. 
+
+
+
+---
+
+ <a href="/CategoryHomepage">CategoryHomepage</a> 

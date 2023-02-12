@@ -1,23 +1,29 @@
-Most spam (currently all) is blocked automatically, thanks to the firewall (iptables) blocking IP sets provided by stopforumspam.
 
-However, it is possible that spam could enter the website again, in which case, it must be removed by hand.  If you feel you can help to fight spam, please ask for an admin account.
+Most spam (currently all) is blocked automatically, thanks to the firewall (iptables) blocking IP sets provided by stopforumspam. 
 
-Here are measures to remove spam, in increasing order.
+However, it is possible that spam could enter the website again, in which case, it must be removed by hand.  If you feel you can help to fight spam, please ask for an admin account. 
 
-== isolated spam message ==
- * go to the message, click on "close" or "delete" if someone already closed it.
- * a discussion started on the policy about this (should we remove it direclty and block the user, should we let another chance), since some message are not clearly spams, look at the archives of sage-askbot-admin mailing-list.
+Here are measures to remove spam, in increasing order. 
 
-== bunch of spams from the same user (remove) ==
- * click on the user's nickname (bottom right of the question)
- * click on "moderation" (top right)
- * click on "block user and delete all content"
 
-== bunch of spams with a similar pattern (prevent) ==
- * go to http://ask.sagemath.org/settings/MODERATION/
- * add the typical keywords appearing in the spams on the "Reject all posts with these phrases" field.
+## isolated spam message
 
-== overloaded, need to stop the flood ==
- * go to http://ask.sagemath.org/settings/ACCESS_CONTROL/
- * select "Make site read-only"
- * Then, we could temporary block user registration, from nginx configuation, so that registered users can still interact.
+* go to the message, click on "close" or "delete" if someone already closed it. 
+* a discussion started on the policy about this (should we remove it direclty and block the user, should we let another chance), since some message are not clearly spams, look at the archives of sage-askbot-admin mailing-list. 
+
+## bunch of spams from the same user (remove)
+
+* click on the user's nickname (bottom right of the question) 
+* click on "moderation" (top right) 
+* click on "block user and delete all content" 
+
+## bunch of spams with a similar pattern (prevent)
+
+* go to <a href="http://ask.sagemath.org/settings/MODERATION/">http://ask.sagemath.org/settings/MODERATION/</a> 
+* add the typical keywords appearing in the spams on the "Reject all posts with these phrases" field. 
+
+## overloaded, need to stop the flood
+
+* go to <a href="http://ask.sagemath.org/settings/ACCESS_CONTROL/">http://ask.sagemath.org/settings/ACCESS_CONTROL/</a> 
+* select "Make site read-only" 
+* Then, we could temporary block user registration, from nginx configuation, so that registered users can still interact. 

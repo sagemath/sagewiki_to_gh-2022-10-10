@@ -1,12 +1,14 @@
-##master-page:HomepageTemplate
-#format wiki
-== Harald Schilly ==
 
-Email: <<MailTo(harald DOT schilly AT SPAMFREE gmail DOT com)>>
 
- * SageJournal
- * [[R|R]]
- * DocumentationProject
+## Harald Schilly
 
-----
-CategoryHomepage
+Email: harald DOT schilly AT SPAMFREE gmail DOT com 
+
+* <a href="/SageJournal">SageJournal</a> 
+* <a href="/R">R</a> 
+* <a href="/DocumentationProject">DocumentationProject</a> 
+
+
+---
+
+ <a href="/CategoryHomepage">CategoryHomepage</a> 

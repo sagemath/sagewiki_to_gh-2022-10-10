@@ -1,4 +1,7 @@
-{{{#!rst
+
+
+```rst
+#!rst 
 
 Sage Days 40 Coding Sprint Projects
 ===================================
@@ -286,6 +289,5 @@ Interface to Gfan and version update
 
 Marshall Hampton
 
-}}}
-
-{{http://garsia.math.yorku.ca/~zabrocki/pics/sagedays40.jpg}}
+```
+![http://garsia.math.yorku.ca/~zabrocki/pics/sagedays40.jpg](http://garsia.math.yorku.ca/~zabrocki/pics/sagedays40.jpg) 

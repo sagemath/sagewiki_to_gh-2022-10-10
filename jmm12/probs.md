@@ -1,9 +1,11 @@
-<<TableOfContents>>
 
-= Suggested Problems =
+[[_TOC_]] 
 
-{{{
 
+# Suggested Problems
+
+
+```txt
 1. Consider the rational function field Q(d) in one variable d.  
 
 a. Create in Sage the elliptic curve with a-invariants 
@@ -33,10 +35,9 @@ For a given integer a, let
 For r = 0, 1, 2, 3, 4, 5, find the smallest positive integer a such
 that E has rank r.
 
-}}}
+```
 
+# Solutions
 
-= Solutions =
-
- * [[attachment:JMM_solutions.pdf]]
- * [[attachment:JMM2012 -- solutions.sws]]
+* <a href="jmm12/probs/JMM_solutions.pdf">JMM_solutions.pdf</a> 
+* <a href="jmm12/probs/JMM2012 -- solutions.sws">JMM2012 -- solutions.sws</a> 

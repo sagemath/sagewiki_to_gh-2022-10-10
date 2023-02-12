@@ -1,29 +1,31 @@
-= Sage Interactions - Cryptography =
 
 
+# Sage Interactions - Cryptography
 
-This page was first created at Sage Days 103, 7-9 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Sara Lapan, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal. Text edited by Holly Paige Chaos, Amy Feaver, Eva Goedhart, and Alexis Newton. This project was led by Amy Feaver and Eva Goedhart.
+This page was first created at Sage Days 103, 7-9 August 2019 by Sarah Arpin, Catalina Camacho-Navarro, Holly Paige Chaos, Amy Feaver, Eva Goedhart, Sara Lapan, Rebecca Lauren Miller, Alexis Newton, and Nandita Sahajpal. Text edited by Holly Paige Chaos, Amy Feaver, Eva Goedhart, and Alexis Newton. This project was led by Amy Feaver and Eva Goedhart. 
 
-We acknowledge Katherine Stange, who allowed us to use code from her cryptography course as a starting point for many of these interacts. Dr. Stange's original code and course page can be found at http://crypto.katestange.net/
+We acknowledge Katherine Stange, who allowed us to use code from her cryptography course as a starting point for many of these interacts. Dr. Stange's original code and course page can be found at <a href="http://crypto.katestange.net/">http://crypto.katestange.net/</a> 
 
-If you have cryptography-related interactions that you are interested in adding to this page, please do so. You can also contact Amy Feaver at firstname.lastname@kingsu.ca  
+If you have cryptography-related interactions that you are interested in adding to this page, please do so. You can also contact Amy Feaver at <a href="mailto:firstname.lastname@kingsu.ca">firstname.lastname@kingsu.ca</a>   
 
-goto [[interact|interact main page]]
+goto <a href="/interact">interact main page</a> 
 
-<<TableOfContents>>
+[[_TOC_]] 
 
 
+## Shift Cipher
 
-== Shift Cipher ==
+The shift cipher is a classical cryptosystem that takes plaintext and shifts it through the alphabet by a given number of letters. For example, a shift of 2 would replace all A's with C's, all B's with D's, etc. When the end of the alphabet is reached, the letters are shifted cyclically back to the beginning. Thus, a shift of 2 would replace Y's with A's and Z's with B's. 
 
-The shift cipher is a classical cryptosystem that takes plaintext and shifts it through the alphabet by a given number of letters. For example, a shift of 2 would replace all A's with C's, all B's with D's, etc. When the end of the alphabet is reached, the letters are shifted cyclically back to the beginning. Thus, a shift of 2 would replace Y's with A's and Z's with B's.
 
-=== Shift Cipher Encryption ===
-by Sarah Arpin, Alexis Newton
+### Shift Cipher Encryption
 
-You can use this interact to encrypt a message with a shift cipher.
+by Sarah Arpin, Alexis Newton 
 
-{{{#!sagecell
+You can use this interact to encrypt a message with a shift cipher. 
+
+
+```sagecell
 #Last edited 8/7/19 2:45pm
 pretty_print(html("<h1>Shift Cipher Encryptor</h1>"))
 pretty_print(html("<h>Put your message inside the provided quotes (with no additional quotes or apostrophes!), and select your desired shift:<h>"))
@@ -35,15 +37,16 @@ def shift_cipher(message = input_box(default='"secrets"', label="Message:"), shi
     C = S.enciphering(shift, message)
     print("This is your encrypted text shifted by",shift,":")
     print(C)
-}}}
+```
+
+### Shift Cipher Decryption
+
+by Sarah Arpin, Alexis Newton 
+
+If you know that your message was encrypted using a shift cipher, you can use the known shift value to decrypt. If this is not known, brute force can be used to get 26 possible decrypted messages. The chi-squared function ranks the brute force results by likelihood according to letter frequency. 
 
 
-=== Shift Cipher Decryption ===
-by Sarah Arpin, Alexis Newton
-
-If you know that your message was encrypted using a shift cipher, you can use the known shift value to decrypt. If this is not known, brute force can be used to get 26 possible decrypted messages. The chi-squared function ranks the brute force results by likelihood according to letter frequency.
-
-{{{#!sagecell
+```sagecell
 #Last edited 8/7/19 2:56pm
 
 pretty_print(html("<h1>Shift Cipher Decryptor</h1>"))
@@ -61,19 +64,21 @@ def shift_decrypt(text = input_box(default='"KL"',label="Message:"), shift_by = 
     decrypt = S.brute_force(ciphertext,ranking = "chisquare")
     print("\nThese are the possibilities ranked by likelihood with the chi-squared function:")
     print(decrypt)
-}}}
+```
 
-== Affine Cipher ==
+## Affine Cipher
+
+An affine cipher combines the idea of a shift cipher with a multiplicative cipher. In this particular example, we map consecutive letters of the alphabet to consecutive numbers, starting with A=0 (you can also do this cipher differently, and starting with A=1). The user selects two values, a and b. The value a is the multiplier and must be relatively prime to 26 in order to guarantee that each letter is encoded uniquely. The value b is the addend. Each letter's value is multiplied by a, and the product is added to b. This is then replaced with a new letter, corresponding to the result modulo 26.  
 
 
-An affine cipher combines the idea of a shift cipher with a multiplicative cipher. In this particular example, we map consecutive letters of the alphabet to consecutive numbers, starting with A=0 (you can also do this cipher differently, and starting with A=1). The user selects two values, a and b. The value a is the multiplier and must be relatively prime to 26 in order to guarantee that each letter is encoded uniquely. The value b is the addend. Each letter's value is multiplied by a, and the product is added to b. This is then replaced with a new letter, corresponding to the result modulo 26. 
+### Affine Cipher Encryption
 
-=== Affine Cipher Encryption ===
-by Sarah Arpin, Alexis Newton
+by Sarah Arpin, Alexis Newton 
 
-You can use this interact to encrypt a message with the affine cipher. Notice that the only choices for a can be numbers that are relatively prime to 26. This cipher will encipher a letter m of your message as a*m + b.
+You can use this interact to encrypt a message with the affine cipher. Notice that the only choices for a can be numbers that are relatively prime to 26. This cipher will encipher a letter m of your message as a*m + b. 
 
-{{{#!sagecell
+
+```sagecell
 # Last edited 8/7/2019 2:01pm
 
 pretty_print(html("<h1>Affine Cipher Encryptor</h1>"))
@@ -86,15 +91,16 @@ def affine_cipher(message = input_box(default='"secrets"', label="Message:"), a=
     C = S.enciphering(a,b, message)
     print("This is your encrypted text:")
     print(C)
-}}}
+```
+
+### Affine Cipher Decryption
+
+by Sarah Arpin, Alexis Newton 
+
+If you know that your message was encrypted using an affine cipher, you can use the known a and b values to decrypt. If these are not known, brute force can be used to get a list of possible decrypted messages. The chi-squared function ranks these results by likelihood according to letter frequency. 
 
 
-=== Affine Cipher Decryption ===
-by Sarah Arpin, Alexis Newton
-
-If you know that your message was encrypted using an affine cipher, you can use the known a and b values to decrypt. If these are not known, brute force can be used to get a list of possible decrypted messages. The chi-squared function ranks these results by likelihood according to letter frequency.
-
-{{{#!sagecell
+```sagecell
 #Last edited 8/7/2019 3:01pm
 pretty_print(html("<h1>Affine Cipher Decryptor</h1>"))
 pretty_print(html("<h>Enter the encrypted text in quotes, and enter a guess for the a and b:<h>"))
@@ -111,15 +117,16 @@ def shift_decrypt(text = input_box('"XNSILPCVA"', label="Message:"), a=[1,3,5,7,
     decrypt = S.brute_force(ciphertext,ranking = "chisquare")[:10]
     print("\nThese are the top 10 possibilities ranked by likelihood with the chi-squared function:")
     print(decrypt)
-}}}
+```
+
+## Substitution Cipher
+
+by Catalina Camacho-Navarro 
+
+A substitution cipher encrypts messages by assigning each letter of the alphabet to another letter. For instance, if A is assigned to F, then all A's in the original message will be substituted with F's in the encrypted message. Brute force or frequency analysis can be used to decrypt a message encrypted with a substitution cipher. 
 
 
-== Substitution Cipher ==
-by Catalina Camacho-Navarro
-
-A substitution cipher encrypts messages by assigning each letter of the alphabet to another letter. For instance, if A is assigned to F, then all A's in the original message will be substituted with F's in the encrypted message. Brute force or frequency analysis can be used to decrypt a message encrypted with a substitution cipher.
-
-{{{#!sagecell
+```sagecell
 pretty_print(html('<h1> Substitution Cipher'))
 pretty_print(html("<h>Select your letter substitutions and enter your message inside the quotes.<h>"))
 from string import ascii_uppercase
@@ -266,20 +273,23 @@ def _(A =selector(left_over_letters, default=0)):
                                                                                                                                                                                                                     TEXT0=text
                                                                                                                                                                                                                     TEXT=alphabet.encoding(TEXT0)
                                                                                                                                                                                                                     print("Ciphertext:", e(TEXT))
-}}}
+```
 
-== Playfair Cipher ==
-by Catalina Camacho-Navarro
+## Playfair Cipher
 
-Based on code from Alasdair McAndrew at trac.sagemath.org/ticket/8559.
+by Catalina Camacho-Navarro 
 
-A playfair cipher is a special type of substitution cipher in which the plaintext is broken up into two-letter digraphs with some restrictions. Those digraphs are encrypted using a Polybius square, (i.e. a 5x5 grid in which each letter of the alphabet is its own entry with the exception of ij which are placed together). The positions of the letters in the digraph determine how the digraph is encrypted.
+Based on code from Alasdair <a href="/McAndrew">McAndrew</a> at trac.sagemath.org/ticket/8559. 
 
-=== Playfair Encryption ===
+A playfair cipher is a special type of substitution cipher in which the plaintext is broken up into two-letter digraphs with some restrictions. Those digraphs are encrypted using a Polybius square, (i.e. a 5x5 grid in which each letter of the alphabet is its own entry with the exception of ij which are placed together). The positions of the letters in the digraph determine how the digraph is encrypted. 
 
-Use this interact to encrypt a message using the playfair cipher.
 
-{{{#!sagecell
+### Playfair Encryption
+
+Use this interact to encrypt a message using the playfair cipher. 
+
+
+```sagecell
 ##PLAYFAIR CIPHER
 
 def change_to_plain_text(pl):
@@ -364,17 +374,17 @@ def _(Message=input_box(default='"message"', label="Message:"),Key=input_box(def
             print(poly[i])
     
     print('\nCiphertext:', playfair(Message, Key))
-}}}
+```
 
-=== Playfair Decryption ===
+### Playfair Decryption
 
-##Playfair decryption
-##PLAYFAIR CIPHER 
-## CATALINA CAMACHO-NAVARRO
-##Based on code from Alasdair McAndrew  at //trac.sagemath.org/ticket/8559
-##Last edited 8/9/19 at 1:55pm
 
-{{{#!sagecell
+
+
+
+
+
+```sagecell
 def change_to_plain_text(pl):
     plaintext=''
     for ch in pl:
@@ -478,19 +488,21 @@ def _(Ciphertext=input_box(default='"LYXAXGDA"', label="Message:"),Key=input_box
         print('----------------------')
         for i in range(5):
             print(poly[i])
-}}}
+```
 
-== Frequency Analysis Tools ==
+## Frequency Analysis Tools
 
-Frequency analysis is a technique for breaking a substitution cipher that utilizes the frequencies of letters appearing in the English language. For example, E is the most common letter in the English language, so if a piece of encrypted text had many instances of the letter Q, you would guess that Q had been substituted in for E. The next two interacts create a couple of basic tools that could be useful in cracking a substitution cipher. 
+Frequency analysis is a technique for breaking a substitution cipher that utilizes the frequencies of letters appearing in the English language. For example, E is the most common letter in the English language, so if a piece of encrypted text had many instances of the letter Q, you would guess that Q had been substituted in for E. The next two interacts create a couple of basic tools that could be useful in cracking a substitution cipher.  
 
 
-=== Letter Frequency Counter ===
-by Rebecca Lauren Miller, Katherine Stange
+### Letter Frequency Counter
 
-This tool looks at the percentage of appearances of each letter in the input text and plots these percentages. The encrypted input text is a bit strange, but was constructed by Amy Feaver to give a short block of text that matched the frequencies of letters in the English language relatively well, to make this message easier to decrypt.
+by Rebecca Lauren Miller, Katherine Stange 
 
-{{{#!sagecell
+This tool looks at the percentage of appearances of each letter in the input text and plots these percentages. The encrypted input text is a bit strange, but was constructed by Amy Feaver to give a short block of text that matched the frequencies of letters in the English language relatively well, to make this message easier to decrypt. 
+
+
+```sagecell
 #Last Edited 8/8/19 at 2:36pm
 
 pretty_print(html("<h1>Letter Frequency Counter</h1>"))
@@ -518,15 +530,16 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
     plt.ylabel('Frequency')
     plt.show()
 
-}}}
+```
+
+### Frequency Analysis Decryption Guesser
+
+by Rebecca Lauren Miller, Katherine Stange 
+
+This interact prints a suggested translation of the input text by matching frequencies of letters in the input to frequencies of letters in the English language. With the output you will see that some letters were substituted incorrectly, and others were not. Usually frequency analysis requires additional work and some trial and error to discover the original message, especially if the input text is not long enough. 
 
 
-=== Frequency Analysis Decryption Guesser ===
-by Rebecca Lauren Miller, Katherine Stange
-
-This interact prints a suggested translation of the input text by matching frequencies of letters in the input to frequencies of letters in the English language. With the output you will see that some letters were substituted incorrectly, and others were not. Usually frequency analysis requires additional work and some trial and error to discover the original message, especially if the input text is not long enough.
-
-{{{#!sagecell
+```sagecell
 #Last edited 8/8/19 at 2:54pm
 
 pretty_print(html("<h1>Frequency Analysis Decryption Guesser</h1>"))
@@ -549,18 +562,21 @@ def frequencyAnalysis(text = input_box('"Nyllappppunz tf uhtl pz Dlllnilya Klbjl
     for char in englishText:
         answer += translator[str(char)]
     print("\nThe suggested translation is:\n", answer)
-}}}
+```
 
-== Vigenère Cipher ==
+## Vigenère Cipher
 
-A Vigenère cipher is an example of a polyalphabetic cipher. Using a secret codeword as the key, the Vigenère encrypts each letter of a message by shifting it according to the corresponding letter in the key. For example, we will use the key "CAT" to encrypt our default text "secrets hi". To do this the message is first broken up into three-letter chunks, because the key is three letters long, to be "SEC RET SHI". Next each letter of the chunk is shifted by the value of the corresponding letter in the key. The standard shifts are A=0, B=1, C=2, etc. So in our example, S shifts by C=2 letters to U, E shifts by A=0 letters and remains at E, and C shifts by T=19 letters to V. Thus "SECRETSHI" becomes UEVTEMUHB when encrypted. To decrypt the message, simply use the keyword to undo the encryption process. Cryptography by Simon Rubinstein-Salzedo was used as reference for this interact.
+A Vigenère cipher is an example of a polyalphabetic cipher. Using a secret codeword as the key, the Vigenère encrypts each letter of a message by shifting it according to the corresponding letter in the key. For example, we will use the key "CAT" to encrypt our default text "secrets hi". To do this the message is first broken up into three-letter chunks, because the key is three letters long, to be "SEC RET SHI". Next each letter of the chunk is shifted by the value of the corresponding letter in the key. The standard shifts are A=0, B=1, C=2, etc. So in our example, S shifts by C=2 letters to U, E shifts by A=0 letters and remains at E, and C shifts by T=19 letters to V. Thus "SECRETSHI" becomes UEVTEMUHB when encrypted. To decrypt the message, simply use the keyword to undo the encryption process. Cryptography by Simon Rubinstein-Salzedo was used as reference for this interact. 
 
-=== Vigenère Cipher Encryption ===
-by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange
 
-Use this interact to encrypt a message using the Vigenère Cipher.
+### Vigenère Cipher Encryption
 
-{{{#!sagecell
+by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange 
+
+Use this interact to encrypt a message using the Vigenère Cipher. 
+
+
+```sagecell
 #This encrypts your message: Final 8/7/19. Written by Rebecca Lauren Miller, Holly Paige Chaos, Katherine Stange.
 
 
@@ -575,14 +591,16 @@ def vigenere_cipher(message = input_box(default ='"secrets hi"',label="Message:"
     ciphertext = system.enciphering(code_word2,message2) 
     print("Enciphered message:")
     print(ciphertext)
-}}}
+```
 
-=== Vigenère Cipher Decryption ===
-by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange
+### Vigenère Cipher Decryption
 
-If you used the Vigenère Cipher to encrypt a message, you can use this interact to decrypt by inputting your key and encrypted text.
+by Holly Paige Chaos, Rebecca Lauren Miller, Katherine Stange 
 
-{{{#!sagecell
+If you used the Vigenère Cipher to encrypt a message, you can use this interact to decrypt by inputting your key and encrypted text. 
+
+
+```sagecell
 #Last edited 8/7/19 at 12:00pm
 
 pretty_print(html("<h1>Vigenère Cipher Decryptor</h1>"))
@@ -596,16 +614,16 @@ def vigenere_cipher(message = input_box(default ='"UEVTEMUHB"',label = "Message:
     ciphertext = system.deciphering(code_word2,message2) 
     print("Deciphered message:")
     print(ciphertext)
-}}}
+```
+
+## One-Time Pad
+
+by Sarah Arpin, Alexis Newton 
+
+One-time pad is an encryption method that cannot be cracked. It requires a single-use shared key (known as a one-time pad) the length of the message or longer. In this method, every letter is first converted to numbers using the standard A=0, B=1, C=2, etc. Then each character in the message is multiplied modulo 26 by the number in the corresponding position in the key. This is then converted back to letters to produce the encrypted text. 
 
 
-== One-Time Pad ==
-
-by Sarah Arpin, Alexis Newton
-
-One-time pad is an encryption method that cannot be cracked. It requires a single-use shared key (known as a one-time pad) the length of the message or longer. In this method, every letter is first converted to numbers using the standard A=0, B=1, C=2, etc. Then each character in the message is multiplied modulo 26 by the number in the corresponding position in the key. This is then converted back to letters to produce the encrypted text.
-
-{{{#!sagecell
+```sagecell
 #Last edited 8/7/2019 5:12pm
 from random import randrange
 dictt = {'a':0,'b':1,'c':2,'d':3,'e':4,'f':5,'g':6,'h':7,
@@ -636,18 +654,21 @@ def one_time_pad(plain_text = input_box('"message"',label="Message:")):
     print("")
     print("Your encrypted message is:")
     print(letter_cipher_text)
-}}}
+```
 
-== Hill Cipher ==
+## Hill Cipher
 
-The Hill cipher requires some basic knowledge of Linear Algebra. In this encryption method, an invertible n x n matrix of integers modulo 26 is used as the key. The message is first converted to numbers and spit into chunks size n. These chunks are then converted to n x 1 vectors and multiplied by the key modulo 26 to produce 1 x n vectors. The integers from these vectors are converted back letters to produce the encrypted text.
+The Hill cipher requires some basic knowledge of Linear Algebra. In this encryption method, an invertible n x n matrix of integers modulo 26 is used as the key. The message is first converted to numbers and spit into chunks size n. These chunks are then converted to n x 1 vectors and multiplied by the key modulo 26 to produce 1 x n vectors. The integers from these vectors are converted back letters to produce the encrypted text. 
 
-=== Hill Cipher Encryption ===
-by Holly Paige Chaos, Alexis Newton
 
-Use this interact to encrypt a message with the Hill cipher. If your message is not a multiple of n, then it will be padded with z's. Be sure to use an invertible matrix so that your message can be decrypted!
+### Hill Cipher Encryption
 
-{{{#!sagecell
+by Holly Paige Chaos, Alexis Newton 
+
+Use this interact to encrypt a message with the Hill cipher. If your message is not a multiple of n, then it will be padded with z's. Be sure to use an invertible matrix so that your message can be decrypted! 
+
+
+```sagecell
 #Last edited 8/8/19 at 1:47pm
 pretty_print(html("<h1>Hill Cipher Encryptor</h1>"))
 pretty_print(html("<h>Please select the size of your key:<h>"))
@@ -731,15 +752,16 @@ def hill_cipher(Size=['2','3','4']):
             message=E.encoding(newmessage)
             print("This is your encrypted message:")
             print(e(S(message)))
-}}}
+```
+
+### Hill Cipher Decryption
+
+by Holly Paige Chaos, Alexis Newton 
+
+Use this interact to decrypt messages encrypted by the Hill cipher. Remember that this only works if the message was encrypted using an invertible matrix as the key! 
 
 
-=== Hill Cipher Decryption ===
-by Holly Paige Chaos, Alexis Newton
-
-Use this interact to decrypt messages encrypted by the Hill cipher. Remember that this only works if the message was encrypted using an invertible matrix as the key!
-
-{{{#!sagecell
+```sagecell
 #Last edited 8/8/19 at 1:47pm
 dictt = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':7,'h':8,
     'i':9,'j':10,'k':11,'l':12,'m':13,'n':14,'o':15,'p':16,'q':17,
@@ -838,21 +860,21 @@ def decrypt_hill(size=['2','3','4']):
                     final_text += chr(97+new_text[i])
                 print("The decrypted text:")
                 print(final_text)
-}}}
+```
+
+## Modular Arithmetic (Preliminaries for RSA, Diffie-Hellman, El Gamal)
+
+This section gives visual representations of the modular arithmetic necessary for RSA, Diffie-Hellman, and El Gamal.  
 
 
-== Modular Arithmetic (Preliminaries for RSA, Diffie-Hellman, El Gamal) ==
+### Modular Arithmetic Multiplication Table
 
-This section gives visual representations of the modular arithmetic necessary for RSA, Diffie-Hellman, and El Gamal. 
+by Rebecca Lauren Miller, Kate Stange 
+
+Given a positive integer n, this prints the multiplication mod n. Each entry in this table corresponds to the product of the row number by the column number, modulo n. 
 
 
-=== Modular Arithmetic Multiplication Table ===
-
-by Rebecca Lauren Miller, Kate Stange
-
-Given a positive integer n, this prints the multiplication mod n. Each entry in this table corresponds to the product of the row number by the column number, modulo n.
-
-{{{#!sagecell
+```sagecell
 #Last edited 8/9/19 at 12:30pm
 pretty_print(html("<h1>Multiplication Table modulo n</h1>"))
 pretty_print(html("<h>This tool creates a multiplication table modulo 𝑛.<h>"))
@@ -861,16 +883,16 @@ def modular_multiplication_tables(n = input_box(default = 7, width = 25)):
     R = IntegerModRing(n)
     rows = [['*']+[str(r) for r in R]]+[[i]+[i*r for r in R] for i in R]
     print(table(rows, frame=True))
-}}}
+```
+
+### Modular Exponentiation
+
+by Rebecca Lauren Miller, Kate Stange 
+
+Given a modulus n and a nonnegative exponent a, this displays a graph where each integer between 0 and n-1 is mapped to its a-th power, mod n. 
 
 
-=== Modular Exponentiation ===
-
-by Rebecca Lauren Miller, Kate Stange
-
-Given a modulus n and a nonnegative exponent a, this displays a graph where each integer between 0 and n-1 is mapped to its a-th power, mod n.
-
-{{{#!sagecell
+```sagecell
 #Last edited 8/9/19 at 2:46pm
 pretty_print(html("<h1>Arrow Diagram modulo n</h1>"))
 pretty_print(html("<h>Input your modulus, 𝑛, and an integer, 𝑎. The output will be an arrow diagram picture of 𝑥↦𝑎𝑥 on the ring ℤ/𝑛ℤ, i.e. the elements modulo 𝑛.<h>"))
@@ -888,19 +910,21 @@ def modular_multiplication_graph(n = input_box(default = 7, width = 25), a = inp
     for l in range(n):
         G.add_edge(left[l],right[lift(R(a*l))])
     show(G.plot(pos=pos))
-}}}
+```
+
+### Discrete Log Problem
+
+by Sara Lapan 
+
+The discrete logarithm, log(x) with base a, is an integer b such that a<sup>b</sup> = x. Computing logarithms is computationally difficult, and there are no efficient algorithms known for the worst case scenarios. However, the discrete exponentiation is comparatively simple (for instance, it can be done efficiently using squaring). This asymmetry in complexity has been exploited in constructing cryptographic systems. Typically, it is much easier to solve for x in x = a<sup>b</sup> (mod m) when a, b, and m are known, than it is to solve for b when x, a, and m are known.  
 
 
-=== Discrete Log Problem ===
-by Sara Lapan
+#### Solving for x
 
-The discrete logarithm, log(x) with base a, is an integer b such that a^b^ = x. Computing logarithms is computationally difficult, and there are no efficient algorithms known for the worst case scenarios. However, the discrete exponentiation is comparatively simple (for instance, it can be done efficiently using squaring). This asymmetry in complexity has been exploited in constructing cryptographic systems. Typically, it is much easier to solve for x in x = a^b^ (mod m) when a, b, and m are known, than it is to solve for b when x, a, and m are known. 
+Interact to find x when a, b, and m are known: 
 
-==== Solving for x ====
 
-Interact to find x when a, b, and m are known:
-
-{{{#!sagecell
+```sagecell
 pretty_print(html("<h1>Solving for x</h1>"))
 pretty_print(html("<h>This will evaluate x=a^b (mod m). Choose your base (a), exponent (b), and modulus (m). These should all be positive integers.<h>"))
 @interact
@@ -951,13 +975,14 @@ def DLP_solve(a=input_box(default=5),b=input_box(default=25),m=input_box(default
         print()
         print("CONCLUSION: "+str(STR_eval_num)+" = "+str(a)+"^"+str(b)+" mod",m,". It takes",L+1,"steps to calculate x with this method.")
 
-}}}
+```
 
-==== Solving for b ====
+#### Solving for b
 
-Interact to find b when a, x, and m are known:
+Interact to find b when a, x, and m are known: 
 
-{{{#!sagecell
+
+```sagecell
 pretty_print(html("<h1>Solving for b</h1>"))
 pretty_print(html("<h>This will solve for the exponent, b, in x=a^b (mod m) assuming an integer solution exists. Choose your base (a), modulus (m), and solution (x). These should all be positive integers.<h>"))
 @interact
@@ -984,18 +1009,21 @@ def DLP_break(a=input_box(default=5),x=input_box(default=22),m=input_box(default
         if ind==0:
             print("*********** ERROR: This process took",m,"steps to determine that there is no integer solution for b.***********")
 
-}}}
+```
 
-== RSA ==
+## RSA
 
-Named for the authors Rivest, Shamir, and Aldeman, RSA uses exponentiation and modular arithmetic to encrypt and decrypt messages between two parties. Each of those parties has their own secret and public key. To see how it works, following along while Alice and Babette share a message.
+Named for the authors Rivest, Shamir, and Aldeman, RSA uses exponentiation and modular arithmetic to encrypt and decrypt messages between two parties. Each of those parties has their own secret and public key. To see how it works, following along while Alice and Babette share a message. 
 
-=== RSA, From Alice's Perspective ===
-by Sarah Arpin, Eva Goedhart
 
-Babette sent Alice an encrypted message. You, as Alice, will provide information so that you can read Babette's message.  
+### RSA, From Alice's Perspective
 
-{{{#!sagecell
+by Sarah Arpin, Eva Goedhart 
+
+Babette sent Alice an encrypted message. You, as Alice, will provide information so that you can read Babette's message.   
+
+
+```sagecell
 #Last edited 8/9/19 at 1:53pm
 pretty_print(html("<h1>RSA, From Alice's Perspective</h1>"))
 print("Hi, Alice! Let's set up RSA together.")
@@ -1066,14 +1094,14 @@ def rsa(p = input_box(default = 11,label = "p: "), q = input_box(default = 23,la
     print("************************************************************************************************")
    
 
-}}}
+```
+
+### RSA, From Babette's Perspective
+
+by Sarah Arpin, Eva Goedhart 
 
 
-
-=== RSA, From Babette's Perspective ===
-by Sarah Arpin, Eva Goedhart
-
-{{{#!sagecell
+```sagecell
 #Last edited 8/9/19 2:40pm
 pretty_print(html("<h1>RSA, From Babette's Perspective</h1>"))
 print("Hi, Babette! Let's send a message to Alice using her PUBLIC key (N, e) with RSA.")
@@ -1119,13 +1147,14 @@ def rsa(message = input_box(default = 'Secrets for Alice', type=str,label="Messa
     print("")
     print("   ",decrypted_secret)
 
-}}}
+```
+
+### RSA With Digital Signatures
+
+by Sarah Arpin, Eva Goedhart 
 
 
-=== RSA With Digital Signatures ===
-by Sarah Arpin, Eva Goedhart
-
-{{{#!sagecell
+```sagecell
 
 #Last edited 8/9/19 at 3:52pm
 print("Hi, Alice! Let's send a message to Babette with your digital signature so that Babette knows that it is really Alice.")
@@ -1212,4 +1241,4 @@ def rsa(message_to_babette = input_box(default = 'Hi',type=str,label="message:")
         decrypted_secret += chr(ascii)
     print("7. Using the ASCII code to convert the intgers back to letters, we find out the signed secret message was from Alice and read ")
     print("   ",decrypted_secret)
-}}}
+```

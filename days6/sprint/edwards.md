@@ -1,11 +1,15 @@
-Edwards coordinates formulas.
 
-See email to sagedays6, along with http://hyperelliptic.org/EFD/edwards.html
+Edwards coordinates formulas. 
 
-Paul Zimmerman is working on this (!)
+See email to sagedays6, along with <a href="http://hyperelliptic.org/EFD/edwards.html">http://hyperelliptic.org/EFD/edwards.html</a> 
 
-== First Formula ==
-{{{
+Paul Zimmerman is working on this (!) 
+
+
+## First Formula
+
+
+```txt
 %time
 R.<y1,y2,c,d,x1,x2> = QQ[]
 e = 1-d*c^4
@@ -41,12 +45,12 @@ print S((u3-r3).numerator()), S((v3-s3).numerator())
 0
 0 0
 CPU time: 0.06 s,  Wall time: 0.09 s
-}}}
+```
+
+## Second Formula
 
 
-== Second Formula ==
-
-{{{
+```txt
 #Here is the SAGE code corresponding to the 2nd version of the #addition.
 #Paul
 # 2007 Bernstein/Lange, 10M + 1S + 1C + 1D + 7add, 
@@ -77,14 +81,14 @@ Z3 = c*F*G;
 print x3-X3/Z3
 print y3-Y3/Z3
 
-}}}
+```
 
-== Third Formula ==
-Here is another example, which was more tricky. David helped me. We had to use
-NumberField because QuotientRing did not work (unless I did a mistake).
- 
-Paul
-{{{ 
+## Third Formula
+
+Here is another example, which was more tricky. David helped me. We had to use <a href="/NumberField">NumberField</a> because <a href="/QuotientRing">QuotientRing</a> did not work (unless I did a mistake). 
+
+Paul 
+```txt
 # 2007 Bernstein/Lange, 
 #    10M + 1S + 1C + 1D + 9add + 3timesi + 2times2, 
 # strongly unified:
@@ -124,4 +128,4 @@ R.<c,d,X1,Y1,X2,Y2,Z1,Z2> = Gauss[]
      print x3-X3/Z3
      print y3-Y3/Z3
 
-}}}
+```

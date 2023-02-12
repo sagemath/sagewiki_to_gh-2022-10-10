@@ -1,15 +1,20 @@
-= Sage Interactions - Web applications =
-goto [[interact|interact main page]]
 
-<<TableOfContents>>
 
-Warning: Web apps can break frequently due to websites or services changing locations or formats!
+# Sage Interactions - Web applications
 
-== CO2 data plot, fetched from NOAA ==
-by Marshall Hampton
+goto <a href="/interact">interact main page</a> 
 
-One can do many things with scipy.stats.  This only scratches the surface.
-{{{#!sagecell
+[[_TOC_]] 
+
+Warning: Web apps can break frequently due to websites or services changing locations or formats! 
+
+
+## CO2 data plot, fetched from NOAA
+
+by Marshall Hampton 
+
+One can do many things with scipy.stats.  This only scratches the surface. 
+```sagecell
 from scipy.optimize import leastsq
 import urllib.request as U
 import scipy.stats as Stat
@@ -59,13 +64,16 @@ def mauna_loa_co2(start_date = slider(1958,current_year,1,1958), end_date = slid
     c_max = max([q[1] for q in sel_data])
     c_min = min([q[1] for q in sel_data])
     show(outplot, xmin = start_date, ymin = c_min-2, axes = True, xmax = end_date, ymax = c_max+3, frame = False)
-}}}
-{{attachment:co2c.png}}
+```
+![interact/web/co2c.png](interact/web/co2c.png) 
 
-== Arctic sea ice extent data plot, fetched from NSIDC ==
-by Marshall Hampton
 
-{{{#!sagecell
+## Arctic sea ice extent data plot, fetched from NSIDC
+
+by Marshall Hampton 
+
+
+```sagecell
 import urllib.request, csv, io
 months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 longmonths = ['January','February','March','April','May','June','July','August','September','October','November','December']
@@ -100,13 +108,16 @@ def iceplotter(month = selector(L, default = 4, label="Month")):
     pretty_print(html('<h3>Extent of Arctic sea ice coverage in %s, %d - %d</h3>'%(longmonths[month-1],min(years),max(years))))
     pretty_print(html('Data from the <a href="http://nsidc.org/">National Snow and Ice Data Center</a>'))
     show(lp+reg, figsize = [7,4])
-}}}
-{{attachment:seaice.png}}
+```
+![interact/web/seaice.png](interact/web/seaice.png) 
 
-== Pie Chart from the Google Chart API ==
-by Harald Schilly
 
-{{{#!sagecell
+## Pie Chart from the Google Chart API
+
+by Harald Schilly 
+
+
+```sagecell
 # Google Chart API: http://code.google.com/apis/chart
 # Google Chart API: http://code.google.com/apis/chart
 @interact
@@ -118,16 +129,18 @@ def gChart(title="Google Chart API plots Pie Charts!", color1=Color('purple'), c
     url += '&chd=t:%s'%(','.join(map(str,[val1,val2,val3])))
     print(url)
     pretty_print(html('<div style="border:3px dashed;text-align:center;padding:50px 0 50px 0"><img src="%s"></div>'%url))
-}}}
-{{attachment:interact_with_google_chart_api.png}}
+```
+![interact/web/interact_with_google_chart_api.png](interact/web/interact_with_google_chart_api.png) 
 
 
-== Stock Market data, fetched from Yahoo and Google FIXME ==
-by William Stein
+## Stock Market data, fetched from Yahoo and Google FIXME
 
-(Need to fix plotting warnings as well as some stocks give index errors (like bcc), and Python 3 changes, etc.)
+by William Stein 
 
-{{{#!sagecell
+(Need to fix plotting warnings as well as some stocks give index errors (like bcc), and Python 3 changes, etc.) 
+
+
+```sagecell
 import urllib
 
 class Day:
@@ -242,6 +255,5 @@ def data(symbol = symbols, other_symbol='', spline_samples=(8,[0..15])):
      html('Difference from previous day:<br> <img src="cell://diff.png">')
      html('<table align=center>' + '\n'.join('<tr><td>%s</td><td>%s</td></tr>'%(k[i], Y[k[i]]) for i in range(len(k))) + '</table>')
 
-}}}
-
-{{attachment:stocks.png}}
+```
+![interact/web/stocks.png](interact/web/stocks.png) 

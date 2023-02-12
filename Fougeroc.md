@@ -1,11 +1,13 @@
-##master-page:HomepageTemplate
-#format wiki
-#language en
-== Your Name ==
 
-Email: <<MailTo(charles DOT fougeron AT SPAMFREE ens DOT fr)>>
 
-...
+## Your Name
 
-----
-CategoryHomepage
+Email: charles DOT fougeron AT SPAMFREE ens DOT fr 
+
+... 
+
+
+
+---
+
+ <a href="/CategoryHomepage">CategoryHomepage</a> 

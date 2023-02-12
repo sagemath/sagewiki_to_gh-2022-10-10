@@ -1,13 +1,8 @@
-Some ideas for implementing divisor arithmetic on curves
 
- * In Singular, there is an implementation of the Brill-Noether algorithm for plane curves over finite field. See the documentation for examples where singular returns invalid results
+Some ideas for implementing divisor arithmetic on curves 
 
- * Brill-Noether is a well-documented algorithm. There are already master theses around on implementing it. For implementing Brill-Noether, one needs to analyze the singularities of the curve, which one can do via blow-up. This is going to be challenging if the singular locus is not split over the base field. 
-
- * Once analyzing singular places is in place, implementing Brill-Noether might be in interesting exercise.
-
- * I expect that the approach of Florian Hess (view the function field of a curve as a finite extension of k(t) rather than as the field of fractions of k[x,y]/( f(x,y) ) will be more efficient in most cases. For that we need integral closure of k[x] in k(x)[y]/( f(x,y)). To deal with the places at infinity, one could either work with the integral closure of k[1/x] in k(x)[y]/ ( f(x,y)) or with a semilocal ring with only the places above (1/x). We will need ideal arithmetic in those rings (both using 2 generator representation and as finite k[t]-modules)
-
- * It will be interesting to have reasonable implementations of both Brill-Noether and of Hess's method for comparison. I don't think they have ever properly been pitched against each other.
-
- - Somebody would need to implement finite extensions of arbitrary fields. In particular, univariate polynomial factorization over any field.
+* In Singular, there is an implementation of the Brill-Noether algorithm for plane curves over finite field. See the documentation for examples where singular returns invalid results 
+* Brill-Noether is a well-documented algorithm. There are already master theses around on implementing it. For implementing Brill-Noether, one needs to analyze the singularities of the curve, which one can do via blow-up. This is going to be challenging if the singular locus is not split over the base field.  
+* Once analyzing singular places is in place, implementing Brill-Noether might be in interesting exercise. 
+* I expect that the approach of Florian Hess (view the function field of a curve as a finite extension of k(t) rather than as the field of fractions of k[x,y]/( f(x,y) ) will be more efficient in most cases. For that we need integral closure of k[x] in k(x)[y]/( f(x,y)). To deal with the places at infinity, one could either work with the integral closure of k[1/x] in k(x)[y]/ ( f(x,y)) or with a semilocal ring with only the places above (1/x). We will need ideal arithmetic in those rings (both using 2 generator representation and as finite k[t]-modules) 
+* It will be interesting to have reasonable implementations of both Brill-Noether and of Hess's method for comparison. I don't think they have ever properly been pitched against each other. - Somebody would need to implement finite extensions of arbitrary fields. In particular, univariate polynomial factorization over any field. 

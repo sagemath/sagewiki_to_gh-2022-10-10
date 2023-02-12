@@ -1,35 +1,35 @@
-## page was renamed from GlennTarbox/TwistedTalk/100 Twisted Deconstructed
-## Please edit system and help pages ONLY in the moinmaster wiki! For more
-## information, please see MoinMaster:MoinPagesEditorGroup.
-##master-page:SlideTemplate
-##master-date:Unknown-Date
-#format wiki
-#language en
-#pragma section-numbers off
-<<Navigation(slides)>>
-= Concurrency =
-== We got Both Kinds ==
 
- * I/O Bound
- * Compute Bound
 
-== Waiting For Answers ==
- 1. Just Wait... wasn't doing nothin' anyway
- 1. Spawn Process
- 1. Spawn Thread
- 1. Non-blocking calls and "a plan"
+# Concurrency
 
-== Non-Blocking Calls ==
-  * Register Callback
-{{{#!python
+
+## We got Both Kinds
+
+* I/O Bound 
+* Compute Bound 
+
+## Waiting For Answers
+
+1. Just Wait... wasn't doing nothin' anyway 
+1. Spawn Process 
+1. Spawn Thread 
+1. Non-blocking calls and "a plan" 
+
+## Non-Blocking Calls
+
+   * Register Callback 
+
+```python
+#!python 
 O.registerCallback(fn, *args, **kargs) # fn can be function or method
 
 def fn(result, *args, **kargs)
   print "important message: ", result
-}}}
+```
+   * Use Deferreds 
 
-  * Use Deferreds
-{{{#!python
+```python
+#!python 
 d = O.doComplicatedLengthyCalc(a, b, c) # returns deferred
 def gotResult(result)
   print "important message: ", result
@@ -40,12 +40,11 @@ def gotResult2(result, i2, s2, specialLabel)
    print i2, s2, specialLabel               # will print "2, string2, special"
 d.addCallback(gotResult2, 2, "string2", specialLabel="special")
 d.addErrback(errfn,...)    # exception handling for deferreds
-}}}
+```
+This is a very important passage... but don't hurt your brain!! 
 
-This is a very important passage... but don't hurt your brain!!
 
-{{{
+```txt
 If you need to call a method that returns a deferred within your callback chain, just return that deferred, and the result of the secondary deferred's processing chain will become the result that gets passed to the next callback of the primary deferreds processing chain
-}}}
-
-<<Navigation(siblings)>>
+```
+[[!map pages="DsageNg/TwistedTalk/*"]] 

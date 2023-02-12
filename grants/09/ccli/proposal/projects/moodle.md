@@ -1,6 +1,9 @@
-= Moodle and WebWork Integration =
 
-{{{
+
+# Moodle and WebWork Integration
+
+
+```txt
 \section{Moodle and WebWork Integration}
 
 \subsection{Integrating Sage and Moodle}
@@ -17,4 +20,4 @@ A third project would be to make it possible to use Sage to help write WebWork q
 (e.g., ``Find the integral of \verb|\sage{diff(x^2,x)}|.'', where Sage takes the answer and makes a question).
 
 
-}}}
+```

@@ -1,11 +1,13 @@
-##master-page:HomepageTemplate
-#format wiki
-#language en
-== Andrew Silver ==
 
-Email: <<MailTo(you AT SPAMFREE example DOT com)>>
 
-...
+## Andrew Silver
 
-----
-CategoryHomepage
+Email: you AT SPAMFREE example DOT com 
+
+... 
+
+
+
+---
+
+ <a href="/CategoryHomepage">CategoryHomepage</a> 

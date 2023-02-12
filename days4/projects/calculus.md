@@ -1,9 +1,10 @@
-= Symbolic Calculus =
 
-[[days4/projects/| Other SAGE Days 4 Project]]
 
-Tom Boothby, David Joyner, Bobby Moretti.
+# Symbolic Calculus
 
- * Bobby Moretti: '''Symbolic calculus'''. Speeding up arithmetic, cleaning up functions.py, reimplementing and improving maxima's solve command.  
+<a href="/days4/projects/">Other SAGE Days 4 Project</a> 
 
- * (done) Multivariate taylor series.  
+Tom Boothby, David Joyner, Bobby Moretti. 
+
+* Bobby Moretti: **Symbolic calculus**. Speeding up arithmetic, cleaning up functions.py, reimplementing and improving maxima's solve command.   
+* (done) Multivariate taylor series.   

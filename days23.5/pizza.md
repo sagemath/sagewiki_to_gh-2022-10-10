@@ -1,9 +1,9 @@
-1) Go to http://www.webimbiss.de/blue-pizza/ and pick a pizza:
 
-2) Add your choice + your name to this wiki page:
+1) Go to <a href="http://www.webimbiss.de/blue-pizza/">http://www.webimbiss.de/blue-pizza/</a> and pick a pizza: 
 
-  * William Stein: PIZZA QUATTRO FORMAGGI 33CM.
+2) Add your choice + your name to this wiki page: 
 
-3) ...
+   * William Stein: PIZZA QUATTRO FORMAGGI 33CM. 
+3) ... 
 
-4) Profit.
+4) Profit. 

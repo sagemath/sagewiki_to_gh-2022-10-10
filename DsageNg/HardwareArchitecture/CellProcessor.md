@@ -1,16 +1,12 @@
-## page was renamed from DsageNg/CellProcessor
-## Please edit system and help pages ONLY in the moinmaster wiki! For more
-## information, please see MoinMaster:MoinPagesEditorGroup.
-##master-page:CategoryTemplate
-##master-date:Unknown-Date
-#format wiki
-#language en
 
-<<TableOfContents>>
+[[_TOC_]] 
 
-= IBM Cell =
 
- * recent version - http://www-03.ibm.com/systems/bladecenter/hardware/servers/qs22/index.html
+# IBM Cell
 
-----
-CategoryDsageNg
+* recent version - <a href="http://www-03.ibm.com/systems/bladecenter/hardware/servers/qs22/index.html">http://www-03.ibm.com/systems/bladecenter/hardware/servers/qs22/index.html</a> 
+
+
+---
+
+ <a href="/CategoryDsageNg">CategoryDsageNg</a> 

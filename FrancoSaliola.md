@@ -1,18 +1,25 @@
-##master-page:HomepageTemplate
-#format wiki
-#language en
-== Franco Saliola ==
 
-----
 
-=== Contact: ===
+## Franco Saliola
 
- <<MailTo(saliola AT SPAMFREE gmail DOT com)>>
 
-=== Webpages: ===
 
- * [[http://www.lacim.uqam.ca/~saliola|Webpage at LaCIM]]
+---
 
-----
+ 
 
-CategoryHomepage
+
+### Contact:
+
+* saliola AT SPAMFREE gmail DOT com 
+
+### Webpages:
+
+* <a class="http" href="http://www.lacim.uqam.ca/~saliola">Webpage at LaCIM</a> 
+
+
+---
+
+ 
+
+<a href="/CategoryHomepage">CategoryHomepage</a> 

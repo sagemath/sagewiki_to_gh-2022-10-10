@@ -1,12 +1,16 @@
-= Sage Interactions - Graphics =
-goto [[interact|interact main page]]
 
 
-<<TableOfContents>>
+# Sage Interactions - Graphics
 
-== Curves of Pursuit ==
-by Marshall Hampton.  
-{{{#!sagecell
+goto <a href="/interact">interact main page</a> 
+
+[[_TOC_]] 
+
+
+## Curves of Pursuit
+
+by Marshall Hampton.   
+```sagecell
 npi = RDF(pi)
 def rot(t):
     from math import cos, sin
@@ -44,11 +48,14 @@ def curves_of_pursuit(n = slider([2..20],default = 5, label="# of points"),steps
     nested = sum([line([q[j] for q in outpaths]+[outpaths[0][j]], rgbcolor = colors[j]) for j in range(len(outpaths[0]))])
     lpaths = [line(x, rgbcolor = mcolor) for x in outpaths]
     show(sum(lpaths)+nested+polys, axes = False, figsize = [5,5], xmin = -1, xmax = 1, ymin = -1, ymax =1)
-}}}
-{{attachment:pcurves.png}}
+```
+![interact/graphics/pcurves.png](interact/graphics/pcurves.png) 
 
-== Catalog of 3D Parametric Plots ==
-{{{#!sagecell
+
+## Catalog of 3D Parametric Plots
+
+
+```sagecell
 var('u,v')
 plots = ['Two Interlinked Tori', 'Star of David', 'Double Heart',
          'Heart', 'Green bowtie', "Boy's Surface", "Maeder's Owl",
@@ -112,26 +119,27 @@ def _(example=selector(plots, buttons=True, nrows=2),
     if url:
         pretty_print(html('<h3><a target="_new" href="%s">%s</a></h3>'%(url,url)))
     show(P, viewer='tachyon' if tachyon else 'threejs', frame=frame)
-}}}
+```
+![interact/graphics/parametricplot3d.png](interact/graphics/parametricplot3d.png) 
 
-{{attachment:parametricplot3d.png}}
 
-== Interactive rotatable raytracing with Tachyon3d ==
+## Interactive rotatable raytracing with Tachyon3d
 
-{{{#!sagecell
+
+```sagecell
 C = cube(color=['red', 'green', 'blue'], aspect_ratio=[1,1,1],
          viewer='tachyon') + sphere((1,0,0),0.2)
 @interact
 def example(theta=(0,2*pi), phi=(0,2*pi), zoom=(1,(1,4))):
     show(C.rotate((0,0,1), theta).rotate((0,1,0),phi), zoom=zoom)
-}}}
+```
+![interact/graphics/tachyonrotate.png](interact/graphics/tachyonrotate.png) 
 
 
-{{attachment:tachyonrotate.png}}
+## Interactive 3d plotting
 
 
-== Interactive 3d plotting ==
-{{{#!sagecell
+```sagecell
 var('x,y')
 @interact
 def example(clr=Color('orange'), f=4*x*exp(-x^2-y^2), xrange='(-2, 2)', yrange='(-2,2)', 
@@ -145,16 +153,16 @@ def example(clr=Color('orange'), f=4*x*exp(-x^2-y^2), xrange='(-2, 2)', yrange='
          viewer='tachyon' if tachyon else 'threejs', 
          figsize=6, zoom=zoom, frame=False,
          frame_aspect_ratio=aspect_ratio)
-}}}
+```
+![interact/graphics/tachyonplot3d.png](interact/graphics/tachyonplot3d.png) 
+
+<a name="eggpaint"></a> 
 
 
-{{attachment:tachyonplot3d.png}}
+## Somewhat Silly Egg Painter
 
-<<Anchor(eggpaint)>>
-
-== Somewhat Silly Egg Painter ==
-by Marshall Hampton (refereed by William Stein)
-{{{#!sagecell
+by Marshall Hampton (refereed by William Stein) 
+```sagecell
 var('s,t')
 g(s) = ((0.57496*sqrt(121 - 16.0*s^2))/sqrt(10.+ s))
 def P(color, rng):
@@ -167,12 +175,14 @@ def _(band_number = selector(range(1,5)), current_color = Color('red'), auto_upd
     colorlist[band_number-1] = current_color
     egg = sum([P(colorlist[i],[-2.75+5.5*(i/4),-2.75+5.5*(i+1)/4]) for i in range(4)])
     show(egg)
-}}}
-{{attachment:eggpaint.png}}
+```
+![interact/graphics/eggpaint.png](interact/graphics/eggpaint.png) 
 
-== Plot Coloring ==
-by Timothy Clemans
-{{{#!sagecell
+
+## Plot Coloring
+
+by Timothy Clemans 
+```sagecell
 @interact
 def color_experimenter(expression=input_box('x^2', 'Expression', str), color=Color('red')):
     if expression:
@@ -182,12 +192,14 @@ def color_experimenter(expression=input_box('x^2', 'Expression', str), color=Col
             print("There's a problem with your expression.")
     else:
         print("Be sure to enter a plottable expression")
-}}}
-{{attachment:color_of_plot_changer.png}} 
+```
+![interact/graphics/color_of_plot_changer.png](interact/graphics/color_of_plot_changer.png)  
 
-== Interactive 2D Plotting ==
-by Timothy Clemans
-{{{#!sagecell
+
+## Interactive 2D Plotting
+
+by Timothy Clemans 
+```sagecell
 def error_msg(msg):
     pretty_print(html('<p style="font-family:Arial, sans-serif;color:#000"><span style="color:red;font-weight:bold">Error</span>: %s</p>' % msg))
 
@@ -216,11 +228,14 @@ def interactive_2d_plotter(expression=input_box('sin(x)', 'Expression', str), x_
         except TypeError:
             print(error_msg("This expression contains an unknown function."))
             return
-}}}
-{{attachment:interactive_2d_plotting.png}}
+```
+![interact/graphics/interactive_2d_plotting.png](interact/graphics/interactive_2d_plotting.png) 
 
-== Interact with matplotlib ==
-{{{#!sagecell
+
+## Interact with matplotlib
+
+
+```sagecell
 # Simple example demonstrating how to interact with matplotlib directly.
 # Comment plt.clf() to get the plots overlay in each update.
 # Gokhan Sever & Harald Schilly (2010-01-24)
@@ -237,11 +252,14 @@ def plot_norm(loc=(0,(0,10)), scale=(1,(1,10))):
     plt.grid(True)
     plt.savefig('plt.png')
     plt.clf()
-}}}
-{{attachment:matplotlib_interact.png}}
+```
+![interact/graphics/matplotlib_interact.png](interact/graphics/matplotlib_interact.png) 
 
-== Spirograph ==
-{{{#!sagecell
+
+## Spirograph
+
+
+```sagecell
 #---------------------------#
 # Javier Pérez Lázaro       #
 # Logroño (Spain)           #
@@ -316,5 +334,5 @@ auto_update=false):
                     L+=circle((0,0),1)+cir+lin+c+p         
                 v.append(L)
             animate(v,xmin=-axeM,xmax=axeM,ymin=-axeM,ymax=axeM,aspect_ratio=1).show()
-}}}
-{{attachment:interactive_animate_spirograph.png}}
+```
+![interact/graphics/interactive_animate_spirograph.png](interact/graphics/interactive_animate_spirograph.png) 

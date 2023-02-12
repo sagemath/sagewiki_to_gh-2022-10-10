@@ -1,23 +1,23 @@
-== Překlad ==
 
-Překlad stáhnete [[http://user.mendelu.cz/marik/sage/sagenb.po|zde]]. 
 
-== Screenshoty zápisníku lokalizovaného do češtiny ==
+## Překlad
 
- * [[attachment:Obrazovka.png]]
- * [[attachment:Obrazovka-1.png]]
+Překlad stáhnete <a class="http" href="http://user.mendelu.cz/marik/sage/sagenb.po">zde</a>.  
 
-== Postup ==
- * Nainstalujte Sage, spusťte Sage Notebook, přihlašte se jako admin, přejděte do nastavení a změňte výchozí jazyk na češtinu.
 
-== Zdroje informací ==
+## Screenshoty zápisníku lokalizovaného do češtiny
 
- * Ukázky programu Sage (celý zip soubor můžete do prostředí Sage notebook naimportovat najednou), podporováno grantem FRVŠ 131/2010
- 
-  * obecně a pro začátečníky - [[attachment:sage-marik.zip]]
- 
-  * v diferenciální geometrii - [[attachment:sage-viskotova.zip]] 
+* <a href="i18n/Czech/Obrazovka.png">Obrazovka.png</a> 
+* <a href="i18n/Czech/Obrazovka-1.png">Obrazovka-1.png</a> 
 
- * [[http://www.math.muni.cz/~plch/diplomky/Sage.pdf|Diplomová práce Martina Haupta o  Sage]]
+## Postup
 
- * [[http://user.mendelu.cz/marik/sage/|Návody a ukázky použití v praxi]]
+* Nainstalujte Sage, spusťte Sage Notebook, přihlašte se jako admin, přejděte do nastavení a změňte výchozí jazyk na češtinu. 
+
+## Zdroje informací
+
+* Ukázky programu Sage (celý zip soubor můžete do prostředí Sage notebook naimportovat najednou), podporováno grantem FRVŠ 131/2010 
+   * obecně a pro začátečníky - <a href="i18n/Czech/sage-marik.zip">sage-marik.zip</a> 
+   * v diferenciální geometrii - <a href="i18n/Czech/sage-viskotova.zip">sage-viskotova.zip</a>  
+* <a class="http" href="http://www.math.muni.cz/~plch/diplomky/Sage.pdf">Diplomová práce Martina Haupta o  Sage</a> 
+* <a class="http" href="http://user.mendelu.cz/marik/sage/">Návody a ukázky použití v praxi</a> 

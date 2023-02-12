@@ -1,4 +1,6 @@
-{{{
+
+
+```txt
     Parent functions
         Must Implement
             __init__
@@ -16,4 +18,4 @@
             get_coercion_from         (cpdef)
             get_conversion_from       (cpdef)
             get_action                (cpdef)
-}}}
+```

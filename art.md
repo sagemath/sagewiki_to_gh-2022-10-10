@@ -1,21 +1,25 @@
-This page contains animations and pictures drawn using [[https://www.sagemath.org|Sage]]. One can create an animation (.gif) in Sage from a list of graphics objects using the {{{animate}}} command. Currently, to export an animation in .gif format, you might need to install the [[https://www.imagemagick.org|ImageMagick]] command line tools package (the ``convert`` command). See the documentation for more information:
 
-{{{
+This page contains animations and pictures drawn using <a class="https" href="https://www.sagemath.org">Sage</a>. One can create an animation (.gif) in Sage from a list of graphics objects using the `animate` command. Currently, to export an animation in .gif format, you might need to install the <a class="https" href="https://www.imagemagick.org">ImageMagick</a> command line tools package (the ``convert`` command). See the documentation for more information: 
+
+
+```txt
 sage: animate?
-}}}
+```
+[[_TOC_]] 
 
 
-<<TableOfContents>>
+# Animations
 
-= Animations =
 
-== The witch of Maria Agnesi ==
+## The witch of Maria Agnesi
 
-{{attachment:witch.gif}}
+![art/witch.gif](art/witch.gif) 
 
-by Marshall Hampton
+by Marshall Hampton 
 
-{{{#!python numbers=none
+
+```python
+#!python numbers=none 
 xtreme = 4.1
 myaxes = line([[-xtreme,0],[xtreme,0]],rgbcolor = (0,0,0))
 myaxes = myaxes + line([[0,-1],[0,2.1]],rgbcolor = (0,0,0))
@@ -47,13 +51,15 @@ def witchy(theta):
 a2 = animate([witchy(i) for i in srange(.1,npi-.1,npi/60)]+[witchy(i) for i in srange(npi-.1,.1,-npi/60)], xmin = -3, xmax = 3, ymin = 0, ymax = 2.3, figsize = [6,2.3], axes = False)
 
 a2.show()
-}}}
+```
 
-=== A simpler hypotrochoid ===
+### A simpler hypotrochoid
 
-The following animates a hypotrochoid
+The following animates a hypotrochoid 
 
-{{{#!python numbers=off
+
+```python
+#!python numbers=off 
 import operator
 
 # The colors for various elements of the plot:
@@ -153,15 +159,17 @@ animation.show(delay=animation_delay)
 #   Finally, animate the frames:
 #
 #     animation = animate(frames)
-}}}
+```
 
-== The Towers of Hanoi ==
+## The Towers of Hanoi
 
-{{attachment:hanoi.gif}}
+![art/hanoi.gif](art/hanoi.gif) 
 
-by Pablo Angulo
+by Pablo Angulo 
 
-{{{#!python numbers=off
+
+```python
+#!python numbers=off 
 def plot_towers(towers):
     """
     Return a plot of the towers of Hanoi.
@@ -211,28 +219,31 @@ towers = (range(4,0,-1),[],[])
 initial = plot_towers(towers)
 frame_list=[initial]+list(animate_towers(towers))
 animate(frame_list, axes=False).show(delay=80)
-}}}
+```
 
-== Fibonacci Tiles ==
+## Fibonacci Tiles
 
-{{attachment:fibotile.gif}}
+![art/fibotile.gif](art/fibotile.gif) 
 
-by Sébastien Labbé
+by Sébastien Labbé 
 
-{{{#!python numbers=off
+
+```python
+#!python numbers=off 
 sage: path_op = dict(rgbcolor='red', thickness=1)
 sage: fill_op = dict(rgbcolor='blue', alpha=0.3)
 sage: options = dict(pathoptions=path_op, filloptions=fill_op, endarrow=False, startpoint=False)
 sage: G = [words.fibonacci_tile(i).plot(**options) for i in range(7)]
 sage: a = animate(G)
 sage: a.show(delay=150)
-}}}
+```
 
-== Pencil of conics ==
-by Pablo Angulo
-{{attachment:pencil.gif}}
+## Pencil of conics
 
-{{{
+by Pablo Angulo ![art/pencil.gif](art/pencil.gif) 
+
+
+```txt
 puntos = [(0,0),(0,1),(1,3),(2,1)]
 K = len(puntos)
 
@@ -256,14 +267,19 @@ for t in srange(0,2*pi,0.3):
 a = animate(graficas)
 
 a.show(delay=10)
-}}}
-= Pictures =
+```
 
-These pictures and images were drawn by [[https://www.sagemath.org|Sage]].
+# Pictures
 
-== Snowman ==
- * Fun art of spheres and cones:
-{{{#!python numbers=none
+These pictures and images were drawn by <a class="https" href="https://www.sagemath.org">Sage</a>. 
+
+
+## Snowman
+
+* Fun art of spheres and cones: 
+
+```python
+#!python numbers=none 
 from sage.plot.plot3d.shapes import Cone, Sphere
 
 r_bot = 3
@@ -316,26 +332,31 @@ nose = nose.rotateY(-9/8*pi/2).translate(0, 0, z_top_s)
 parts = [body, buttons, eyes, nose]
 snowie = sum(parts)
 snowie.show(frame=False)
-}}}
- 
-[[attachment:snowman.png|{{attachment:snowman.png||width=400}}]] 
+```
+<a href="art/snowman.png">![art/snowman.png](art/snowman.png)</a>  
 
-== Everywhere continuous, nowhere differentiable function ==
- * Everywhere continuous, nowhere differentiable function (in the infinite limit, anyway):
-{{{#!python numbers=none
+
+## Everywhere continuous, nowhere differentiable function
+
+* Everywhere continuous, nowhere differentiable function (in the infinite limit, anyway): 
+
+```python
+#!python numbers=none 
 p = Graphics()
 for n in range(1,20):
   f = lambda x: sum([sin(x*3^i)/(2^i) for i in range(1,n)])
   p += plot(f,0,float(pi/3),plot_points=2000,rgbcolor=hue(n/20))
 
 p.show(xmin=0, ymin=0,dpi=250)
-}}}
+```
+<a href="art/Fourier_series_wiki.png">![art/Fourier_series_wiki.png](art/Fourier_series_wiki.png)</a>  
 
-[[attachment:Fourier_series_wiki.png|{{attachment:Fourier_series_wiki.png||width=400}}]] 
 
-== Mirrored balls in tachyon ==
+## Mirrored balls in tachyon
 
-{{{#!python numbers=none
+
+```python
+#!python numbers=none 
 t = Tachyon(camera_center=(8.5,5,5.5), look_at=(2,0,0), raydepth=6, xres=1500, yres=1500)
 t.light((10,3,4), 1, (1,1,1))
 t.texture('mirror', ambient=0.05, diffuse=0.05, specular=.9, opacity=0.9, color=(.8,.8,.8))
@@ -346,13 +367,15 @@ t.sphere((0,-1,1), 1, 'mirror')
 t.sphere((2,-1,1), 0.5, 'mirror')
 t.sphere((2,1,1), 0.5, 'mirror')
 show(t)
-}}}
+```
+<a href="art/Spheres_tachyon_wiki.png">![art/Spheres_tachyon_wiki.png](art/Spheres_tachyon_wiki.png)</a>  
 
-[[attachment:Spheres_tachyon_wiki.png|{{attachment:Spheres_tachyon_wiki.png||width=400}}]] 
+
+## Math art by Tom Boothby
 
 
-== Math art by Tom Boothby ==
-{{{#!python numbers=none
+```python
+#!python numbers=none 
 # Author: Tom Boothby
 # This is a remake of an old art piece I made in POVRay
 
@@ -374,13 +397,15 @@ for i in srange(-pi*10,0,.01):
   t.sphere((cos(i/10) + 2.1, sin(i/10)*cos(i), sin(i/10)*sin(i)), 0.1, 't1')
 
 t.show(verbose=1)
-}}}
+```
+<a href="art/Spirals_tachyon_wiki.png">![art/Spirals_tachyon_wiki.png](art/Spirals_tachyon_wiki.png)</a>  
 
-[[attachment:Spirals_tachyon_wiki.png|{{attachment:Spirals_tachyon_wiki.png||width=400}}]] 
+
+## Twisted cubic in tachyon
 
 
-== Twisted cubic in tachyon ==
-{{{#!python numbers=none
+```python
+#!python numbers=none 
 t = Tachyon(xres=512,yres=512, camera_center=(5,0,0))
 t.light((4,3,2), 0.2, (1,1,1))
 t.texture('t0', ambient=0.1, diffuse=0.9, specular=0.5, opacity=1.0, color=(1.0,0,0))
@@ -392,12 +417,15 @@ for i in srange(-5,1.5,0.1):
     t.sphere((i,i^2-0.5,i^3), 0.1, 't%s'%(k%3))
 
 t.show()
-}}}
+```
+<a href="art/Twisted_cubic_tachyon_wiki.png">![art/Twisted_cubic_tachyon_wiki.png](art/Twisted_cubic_tachyon_wiki.png)</a>  
 
-[[attachment:Twisted_cubic_tachyon_wiki.png|{{attachment:Twisted_cubic_tachyon_wiki.png||width=400}}]] 
 
-== Reflections from four spheres in tachyon ==
-{{{#!python numbers=none
+## Reflections from four spheres in tachyon
+
+
+```python
+#!python numbers=none 
 t6 = Tachyon(camera_center=(0,-4,1), xres = 800, yres = 600, raydepth = 12, aspectratio=.75, antialiasing = True)
 t6.light((0.02,0.012,0.001), 0.01, (1,0,0))
 t6.light((0,0,10), 0.01, (0,0,1))
@@ -409,49 +437,58 @@ t6.sphere((0,1.15465,-0.7071),1,'s')
 t6.sphere((0,0,0.9259),1,'s')
 t6.plane((0,0,-1.9259),(0,0,1),'p')
 t6.show()
-}}}
+```
+<a href="art/Blue_fractal_tachyon_wiki.png">![art/Blue_fractal_tachyon_wiki.png](art/Blue_fractal_tachyon_wiki.png)</a>  
 
-[[attachment:Blue_fractal_tachyon_wiki.png|{{attachment:Blue_fractal_tachyon_wiki.png||width=400}}]] 
 
-== A cone inside a sphere ==
-{{{#!python numbers=none
+## A cone inside a sphere
+
+
+```python
+#!python numbers=none 
 sage: u,v = var("u,v")
 sage: p1 = parametric_plot3d([cos(u)*v, sin(u)*v, 3*v/2-1/3], (u, 0, 2*pi), (v, 0, 0.95),plot_points=[20,20])
 sage: p2 = sphere((0,0,2/3), color='red', opacity=0.5, aspect_ratio=[1,1,1])
 sage: show(p1+p2)
-}}}
+```
+![http://sage.math.washington.edu/home/wdj/art/cone-inside-sphere.jpg](http://sage.math.washington.edu/home/wdj/art/cone-inside-sphere.jpg) 
 
-{{http://sage.math.washington.edu/home/wdj/art/cone-inside-sphere.jpg}}
 
-== A cylinder inside a cone ==
-{{{#!python numbers=none
+## A cylinder inside a cone
+
+
+```python
+#!python numbers=none 
 sage: u,v = var("u,v")
 sage: p1 = parametric_plot3d([cos(u)*v, sin(u)*v, 3/2-3*v/2], (u, 0, 2*pi), (v, 0, 1.5), opacity = 0.5, plot_points=[20,20])
 sage: p2 = parametric_plot3d([cos(u)/2, sin(u)/2, v-3/4], (u, 0, 2*pi), (v, 0, 3/2), plot_points=[20,20])
 sage: show(p1+p2)
-}}}
+```
+![http://sage.math.washington.edu/home/wdj/art/cylinder-inside-cone.jpg](http://sage.math.washington.edu/home/wdj/art/cylinder-inside-cone.jpg) 
 
-{{http://sage.math.washington.edu/home/wdj/art/cylinder-inside-cone.jpg}}
 
-== p-adic Seasons Greetings ==
+## p-adic Seasons Greetings
 
- * I know this is early, but thanks to Robert Bradshaw's p-adic plot function, here is a p-adic Seasons Greetings:
+* I know this is early, but thanks to Robert Bradshaw's p-adic plot function, here is a p-adic Seasons Greetings: 
+<a href="art/Blue_fractal_tachyon_wiki.png">![art/Greetings_wiki.png](art/Greetings_wiki.png)</a>  
 
-[[attachment:Blue_fractal_tachyon_wiki.png|{{attachment:Greetings_wiki.png||width=400}}]] 
+Here is the code: 
 
-Here is the code:
 
-{{{#!python numbers=none
+```python
+#!python numbers=none 
 sage: P1 = Zp(3).plot(rgbcolor=(0,1,0))
 sage: P2 = Zp(7).plot(rgbcolor=(1,0,0))
 sage: P3 = text("$Seasons$ $Greetings$ ",(0.0,1.8))
 sage: P4 = text("$from$ $everyone$ $at$ sagemath.org!",(0.1,-1.6))
 sage: (P1+P2+P3+P4).show(axes=False)
-}}}
+```
 
-== Lorentz butterfly ==
+## Lorentz butterfly
 
-{{{#!python numbers=off
+
+```python
+#!python numbers=off 
 """
 Draws Lorentz butterfly using matplotlib (2d) or jmol (3d).
 Written by Matthew Miller and William Stein.
@@ -501,17 +538,19 @@ def butterfly3d():
             x1, y1 = xx, yy
     g.show(dpi=100, axes=False)
 
-}}}
-[[attachment:Butterfly_2d_wiki.png|{{attachment:Butterfly_2d_wiki.png||width=400}}]] 
+```
+<a href="art/Butterfly_2d_wiki.png">![art/Butterfly_2d_wiki.png](art/Butterfly_2d_wiki.png)</a>  
 
-{{http://sage.math.washington.edu/home/wdj/art/butterfly3d.png}}
+![http://sage.math.washington.edu/home/wdj/art/butterfly3d.png](http://sage.math.washington.edu/home/wdj/art/butterfly3d.png) 
 
-== Feigenbaum diagram ==
-Author: Pablo Angulo
-Posted to sage-devel 2008-09-13. See also https://sage.math.washington.edu:8101/home/pub/3
-#Note: Mandelbrot set moved to interact/fractals
 
-{{{#!python numbers=off
+## Feigenbaum diagram
+
+Author: Pablo Angulo Posted to sage-devel 2008-09-13. See also <a href="https://sage.math.washington.edu:8101/home/pub/3">https://sage.math.washington.edu:8101/home/pub/3</a> #Note: Mandelbrot set moved to interact/fractals 
+
+
+```python
+#!python numbers=off 
 #Plots Feigenbaum diagram: divides the parameter interval [2,4] for mu
 #into N steps. For each value of the parameter, iterate the discrete
 #dynamical system x->mu*x*(1-x), drop the first M1 points in the orbit
@@ -532,15 +571,16 @@ for t in range(N):
        x=mu*x*(1-x)
        puntos.append((mu,x))
 point(puntos,pointsize=1)
-}}}
+```
+<a href="art/feigenbaum.png">![art/feigenbaum.png](art/feigenbaum.png)</a>  
 
-[[attachment:feigenbaum.png|{{attachment:feigenbaum.png||width=400}}]] 
 
-== Sierpinski triangle ==
+## Sierpinski triangle
 
- * This was a black and white Sierpinski triangle coded by Marshall Hampton, with some slight tweeking by David Joyner to add colors:
+* This was a black and white Sierpinski triangle coded by Marshall Hampton, with some slight tweeking by David Joyner to add colors: 
 
-{{{#!python numbers=none
+```python
+#!python numbers=none 
 def sierpinski_seasons_greetings():
     """
     Code by Marshall Hampton.
@@ -565,16 +605,16 @@ def sierpinski_seasons_greetings():
     q1 = sum([line(T[i]+[T[i][0]], rgbcolor = (0,1,0)) for i in range(N1)])
     q2 = sum([line(T[i]+[T[i][0]], rgbcolor = (1,0,0)) for i in range(N1,N)])
     show(q2+q1, figsize = [6,6*nsq], axes = False)
-}}}
+```
+<a href="art/Sierpinski_wiki.png">![art/Sierpinski_wiki.png](art/Sierpinski_wiki.png)</a>  
 
 
-[[attachment:Sierpinski_wiki.png|{{attachment:Sierpinski_wiki.png||width=400}}]] 
+## Integral Curvature Apollonian Circle Packing
+
+by Marshall Hampton and Carl Witty 
 
 
-== Integral Curvature Apollonian Circle Packing ==
-by Marshall Hampton and Carl Witty
-
-{{{
+```txt
 def kfun(k1,k2,k3,k4):
     """
     The Descartes formula for the curvature of an inverted tangent circle.
@@ -646,12 +686,14 @@ circlist[1:]])
 circs = circs + mcircle(circlist[0],color=(1,1,1),thick=1)
 circs.save('./Apollonian3.png',axes = False, figsize = [12,12], xmin = \
 -1/2, xmax = 1/2, ymin = -1/2, ymax = 1/2)
-}}}
+```
+<a href="art/Appolonian_wiki.png">![art/Appolonian_wiki.png](art/Appolonian_wiki.png)</a>  
 
-[[attachment:Appolonian_wiki.png|{{attachment:Appolonian_wiki.png||width=400}}]] 
 
-== Call graph of a recursive function ==
-{{{
+## Call graph of a recursive function
+
+
+```txt
 def grafo_llamadas(f):
     class G(object):
         def __init__(self, f):
@@ -692,11 +734,11 @@ def particiones(n, k):
 particiones(13,5)
 g = particiones.grafo()
 g.show(edge_labels=True, figsize=(6,6), vertex_size=500, color_by_label=True)
-}}}
+```
+<a href="art/Graph_call_wiki.png">![art/Graph_call_wiki.png](art/Graph_call_wiki.png)</a> 
 
-[[attachment:Graph_call_wiki.png|{{attachment:Graph_call_wiki.png||width=400}}]]
 
-{{{
+```txt
 # D3js interactive version
 edge_partition = [
     [edge for edge in g.edges() if edge[-1] == el]
@@ -710,27 +752,22 @@ g.show(method='js',
        link_strength=2,
        force_spring_layout=True,
        edge_partition=edge_partition)
-}}}
+```
 
-= Sage plotting =
+# Sage plotting
 
-Here are some python plotting engines/libraries:
+Here are some python plotting engines/libraries: 
 
-   Older/not python dedicated:
-       * Grace: [[http://plasma-gate.weizmann.ac.il/Grace/|grace]], [[http://www.idyll.org/~n8gray/code|python interface]]
-       * PGPLOT: [[http://efault.net/npat/hacks/ppgplot|ppgplot]], [[http://www.astro.caltech.edu/~tjp/pgplot/|pgplot]], [[http://astro.swarthmore.edu/~burns/pygplot/|pygplot]]
-       * PLplot: http://www.plplot.org
-       * opemath: Written by William Schelter and part of Maxima (thus also Sage) is a TCL/Tk plotting program which allows for interactive viewing. It has no separate download page. An example is this [[http://modular.math.washington.edu/home/wdj/art/saddle.png|saddle]]: {{{sage: maxima.eval("plot3d(2^(-u^2+v^2),[u,-1,1],[v,-1,1],[plot_format, openmath]);")}}}
-       * Dislin: [[http://www.mps.mpg.de/dislin/|dislin]], [[http://kim.bio.upenn.edu/~pmagwene/disipyl.html|disipyl]] (a python wrapper for dislin). It's license says dislin is "free for non-commercial use". 
-       * Pyqwt at http://pyqwt.sourceforge.net/ is a plotting package requiring QT. It seems to have some 3d capabilities http://pyqwt.sourceforge.net/pyqwt3d-examples.html.
-   Currently developed / good:
-       * matplotlib: http://matplotlib.sourceforge.net
-       * Tachyon: http://jedi.ks.uiuc.edu/~johns/raytracer/
-   Under active development:
-       * Jmol: http://jmol.sourceforge.net/
+      * Older/not python dedicated: 
+                  * Grace: <a class="http" href="http://plasma-gate.weizmann.ac.il/Grace/">grace</a>, <a class="http" href="http://www.idyll.org/~n8gray/code">python interface</a> 
+                  * PGPLOT: <a class="http" href="http://efault.net/npat/hacks/ppgplot">ppgplot</a>, <a class="http" href="http://www.astro.caltech.edu/~tjp/pgplot/">pgplot</a>, <a class="http" href="http://astro.swarthmore.edu/~burns/pygplot/">pygplot</a> 
+                  * PLplot: <a href="http://www.plplot.org">http://www.plplot.org</a> 
+                  * opemath: Written by William Schelter and part of Maxima (thus also Sage) is a TCL/Tk plotting program which allows for interactive viewing. It has no separate download page. An example is this <a class="http" href="http://modular.math.washington.edu/home/wdj/art/saddle.png">saddle</a>: `sage: maxima.eval("plot3d(2^(-u^2+v^2),[u,-1,1],[v,-1,1],[plot_format, openmath]);")` 
+                  * Dislin: <a class="http" href="http://www.mps.mpg.de/dislin/">dislin</a>, <a class="http" href="http://kim.bio.upenn.edu/~pmagwene/disipyl.html">disipyl</a> (a python wrapper for dislin). It's license says dislin is "free for non-commercial use".  
+                  * Pyqwt at <a href="http://pyqwt.sourceforge.net/">http://pyqwt.sourceforge.net/</a> is a plotting package requiring QT. It seems to have some 3d capabilities <a href="http://pyqwt.sourceforge.net/pyqwt3d-examples.html">http://pyqwt.sourceforge.net/pyqwt3d-examples.html</a>. Currently developed / good: 
+                  * matplotlib: <a href="http://matplotlib.sourceforge.net">http://matplotlib.sourceforge.net</a> 
+                  * Tachyon: <a href="http://jedi.ks.uiuc.edu/~johns/raytracer/">http://jedi.ks.uiuc.edu/~johns/raytracer/</a> Under active development: 
+                  * Jmol: <a href="http://jmol.sourceforge.net/">http://jmol.sourceforge.net/</a> 
+Sage's plotting functionality is built on top of matplotlib, which is a very extensive plotting library with a user interface that is very similar to Matlab's plotting. The interface that Sage provides to matplotlib is very Mathematica like. 
 
-Sage's plotting functionality is built on top of matplotlib, which is a
-very extensive plotting library with a user interface that is very similar to Matlab's plotting.
-The interface that Sage provides to matplotlib is very Mathematica like.
-
-There are also several links to plotting/graphics/data visualization programs at the scipy [[https://www.scipy.org/Topical_Software#head-b98ffdb309ccce4e4504a25ea75b5c806e4897b6|wiki]].
+There are also several links to plotting/graphics/data visualization programs at the scipy <a class="https" href="https://www.scipy.org/Topical_Software#head-b98ffdb309ccce4e4504a25ea75b5c806e4897b6">wiki</a>. 
